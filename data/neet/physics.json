@@ -1,12 +1,13 @@
 {
   "subject": "Physics",
   "exam": "NEET UG",
-  "icon": "\u269b\ufe0f",
-  "description": "High-Yield NEET Physics Formula & Conceptual MCQ Bank with Step-by-Step Solutions.",
+  "icon": "⚛️",
+  "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
   "chapters": [
     {
-      "id": "neet-phy-ch1",
-      "name": "NEET Physics Complete High-Yield Concept Bank",
+      "id": "neet-physics-1",
+      "name": "Kinematics",
+      "classLevel": 11,
       "mcqs": [
         {
           "id": "NEET-PHY-001",
@@ -22,7 +23,14 @@
           "difficulty": "Easy",
           "chapter": "Kinematics",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-2",
+      "name": "Motion in a Plane",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-002",
           "question": "A projectile is fired at an angle of 30 deg to the horizontal with velocity 40 m/s. Its maximum height reached is (take g = 10 m/s^2):",
@@ -37,7 +45,14 @@
           "difficulty": "Medium",
           "chapter": "Motion in a Plane",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-3",
+      "name": "Laws of Motion",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-003",
           "question": "A block of mass 5 kg rests on a rough horizontal surface (coefficient of static friction mu_s = 0.4). The minimum horizontal force required to just start moving the block is (g = 10 m/s^2):",
@@ -52,7 +67,14 @@
           "difficulty": "Easy",
           "chapter": "Laws of Motion",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-4",
+      "name": "Work, Energy and Power",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-004",
           "question": "A body of mass 2 kg moving at 10 m/s collides head-on with a stationary body of mass 3 kg. If the collision is perfectly inelastic, their common final velocity is:",
@@ -67,7 +89,14 @@
           "difficulty": "Medium",
           "chapter": "Work, Energy and Power",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-5",
+      "name": "Rotational Motion",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-005",
           "question": "The moment of inertia of a uniform solid cylinder of mass M and radius R about its longitudinal axis is:",
@@ -82,7 +111,14 @@
           "difficulty": "Easy",
           "chapter": "Rotational Motion",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-6",
+      "name": "Gravitation",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-006",
           "question": "The escape velocity from the surface of the Earth is 11.2 km/s. If a planet has twice the mass and half the radius of Earth, its escape velocity will be:",
@@ -112,7 +148,14 @@
           "difficulty": "Medium",
           "chapter": "Gravitation",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-7",
+      "name": "Mechanical Properties of Fluids",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-008",
           "question": "Water rises to a height h in a capillary tube of radius r. If the tube radius is halved, the water will rise to height:",
@@ -127,7 +170,14 @@
           "difficulty": "Easy",
           "chapter": "Mechanical Properties of Fluids",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-8",
+      "name": "Thermodynamics",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-009",
           "question": "An ideal heat engine works between temperatures 600 K and 300 K. Its Carnot efficiency is:",
@@ -142,7 +192,14 @@
           "difficulty": "Easy",
           "chapter": "Thermodynamics",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-9",
+      "name": "Kinetic Theory",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-010",
           "question": "The root-mean-square (RMS) speed of gas molecules of mass m at absolute temperature T is given by:",
@@ -157,7 +214,14 @@
           "difficulty": "Easy",
           "chapter": "Kinetic Theory",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-10",
+      "name": "Oscillations",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-011",
           "question": "The time period of a simple pendulum on Earth is T. If it is taken inside an elevator moving downwards with acceleration a = g/2, its new time period will be:",
@@ -172,7 +236,14 @@
           "difficulty": "Hard",
           "chapter": "Oscillations",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-11",
+      "name": "Waves",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-PHY-012",
           "question": "In a stationary sound wave in an organ pipe, the distance between two successive displacement nodes is:",
@@ -187,7 +258,14 @@
           "difficulty": "Easy",
           "chapter": "Waves",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-12",
+      "name": "Electrostatics",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-013",
           "question": "Two point charges +4 microcoulombs and +1 microcoulomb are placed 30 cm apart in vacuum. At what distance from the +1 microcoulomb charge is net electric field zero?",
@@ -202,7 +280,14 @@
           "difficulty": "Medium",
           "chapter": "Electrostatics",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-13",
+      "name": "Current Electricity",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-014",
           "question": "The capacitance of a parallel plate capacitor with plate area A and separation d filled with dielectric constant K is:",
@@ -232,7 +317,14 @@
           "difficulty": "Medium",
           "chapter": "Current Electricity",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-14",
+      "name": "Moving Charges and Magnetism",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-016",
           "question": "A proton and an alpha particle enter perpendicular to a uniform magnetic field with the same kinetic energy. The ratio of radii of their circular paths (r_p : r_alpha) is:",
@@ -262,7 +354,14 @@
           "difficulty": "Medium",
           "chapter": "Moving Charges and Magnetism",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-15",
+      "name": "Electromagnetic Induction",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-018",
           "question": "Lenz's Law of electromagnetic induction is a direct consequence of the conservation of:",
@@ -277,7 +376,14 @@
           "difficulty": "Easy",
           "chapter": "Electromagnetic Induction",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-16",
+      "name": "Alternating Current",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-019",
           "question": "In a series LCR alternating current circuit at resonance, the power factor is:",
@@ -292,7 +398,14 @@
           "difficulty": "Easy",
           "chapter": "Alternating Current",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-17",
+      "name": "Electromagnetic Waves",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-020",
           "question": "Which of the following electromagnetic waves has the highest frequency and shortest wavelength?",
@@ -307,7 +420,14 @@
           "difficulty": "Easy",
           "chapter": "Electromagnetic Waves",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-18",
+      "name": "Wave Optics",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-021",
           "question": "In Young's double slit experiment, if the distance between slits is doubled and distance to screen is halved, the fringe width beta will:",
@@ -322,7 +442,14 @@
           "difficulty": "Medium",
           "chapter": "Wave Optics",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-19",
+      "name": "Dual Nature of Radiation and Matter",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-022",
           "question": "In photoelectric effect, the maximum kinetic energy of emitted photoelectrons depends on:",
@@ -352,7 +479,14 @@
           "difficulty": "Medium",
           "chapter": "Dual Nature of Radiation and Matter",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-20",
+      "name": "Atoms",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-024",
           "question": "According to Bohr's atomic model, the radius of the nth orbit of hydrogen atom is proportional to:",
@@ -367,7 +501,14 @@
           "difficulty": "Easy",
           "chapter": "Atoms",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-21",
+      "name": "Nuclei",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-025",
           "question": "A radioactive isotope has a half-life of 10 days. What fraction of the initial sample remains undecayed after 40 days?",
@@ -382,7 +523,14 @@
           "difficulty": "Easy",
           "chapter": "Nuclei",
           "subject": "Physics"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-physics-22",
+      "name": "Semiconductor Electronics",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-PHY-026",
           "question": "In a p-n junction diode under forward bias, the width of the depletion layer:",

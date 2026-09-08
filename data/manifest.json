@@ -1,35 +1,97 @@
 {
   "platform": "Scrutiny Academy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "categories": [
     {
       "id": "class10",
       "name": "Class 10 SSC Telangana",
-      "tagline": "Concepts \u2022 Practice \u2022 Board Preparation",
+      "tagline": "Concepts • Practice • Board Preparation",
       "subjects": [
         {
           "id": "biology",
           "name": "Biology",
-          "icon": "\ud83e\uddec",
+          "icon": "🧬",
           "file": "data/class10/biology.json"
         },
         {
           "id": "physics",
           "name": "Physics",
-          "icon": "\u269b\ufe0f",
+          "icon": "⚛️",
           "file": "data/class10/physics.json"
         },
         {
           "id": "mathematics",
           "name": "Mathematics",
-          "icon": "\ud83d\udcd0",
+          "icon": "📐",
           "file": "data/class10/mathematics.json"
         },
         {
           "id": "social-science",
           "name": "Social Science",
-          "icon": "\ud83c\udf0f",
+          "icon": "🌏",
           "file": "data/class10/social-science.json"
+        }
+      ]
+    },
+    {
+      "id": "class11",
+      "name": "Class 11 • Telangana Intermediate",
+      "tagline": "First Year Board Preparation",
+      "subjects": [
+        {
+          "id": "botany",
+          "name": "Botany",
+          "icon": "🌿",
+          "file": "data/class11/botany.json"
+        },
+        {
+          "id": "zoology",
+          "name": "Zoology",
+          "icon": "🦋",
+          "file": "data/class11/zoology.json"
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "icon": "⚛️",
+          "file": "data/class11/physics.json"
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "icon": "⚗️",
+          "file": "data/class11/chemistry.json"
+        }
+      ]
+    },
+    {
+      "id": "class12",
+      "name": "Class 12 • Telangana Intermediate",
+      "tagline": "Second Year Board Preparation",
+      "subjects": [
+        {
+          "id": "botany",
+          "name": "Botany",
+          "icon": "🌿",
+          "file": "data/class12/botany.json"
+        },
+        {
+          "id": "zoology",
+          "name": "Zoology",
+          "icon": "🦋",
+          "file": "data/class12/zoology.json"
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "icon": "⚛️",
+          "file": "data/class12/physics.json"
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "icon": "⚗️",
+          "file": "data/class12/chemistry.json"
         }
       ]
     },
@@ -39,21 +101,27 @@
       "tagline": "National Eligibility Cum Entrance Test",
       "subjects": [
         {
-          "id": "biology",
-          "name": "Biology",
-          "icon": "\ud83e\uddec",
-          "file": "data/neet/biology.json"
+          "id": "botany",
+          "name": "Botany",
+          "icon": "🌿",
+          "file": "data/neet/botany.json"
+        },
+        {
+          "id": "zoology",
+          "name": "Zoology",
+          "icon": "🦋",
+          "file": "data/neet/zoology.json"
         },
         {
           "id": "physics",
           "name": "Physics",
-          "icon": "\u269b\ufe0f",
+          "icon": "⚛️",
           "file": "data/neet/physics.json"
         },
         {
           "id": "chemistry",
           "name": "Chemistry",
-          "icon": "\u2697\ufe0f",
+          "icon": "⚗️",
           "file": "data/neet/chemistry.json"
         }
       ]
@@ -66,133 +134,133 @@
         {
           "id": "anatomy",
           "name": "Anatomy",
-          "icon": "\ud83e\udec0",
+          "icon": "🫀",
           "phase": "Pre-Clinical",
           "file": "data/mbbs/anatomy.json"
         },
         {
           "id": "physiology",
           "name": "Physiology",
-          "icon": "\ud83e\udde0",
+          "icon": "🧠",
           "phase": "Pre-Clinical",
           "file": "data/mbbs/physiology.json"
         },
         {
           "id": "biochemistry",
           "name": "Biochemistry",
-          "icon": "\ud83e\uddec",
+          "icon": "🧬",
           "phase": "Pre-Clinical",
           "file": "data/mbbs/biochemistry.json"
         },
         {
           "id": "pathology",
           "name": "Pathology",
-          "icon": "\ud83d\udd2c",
+          "icon": "🔬",
           "phase": "Para-Clinical",
           "file": "data/mbbs/pathology.json"
         },
         {
           "id": "pharmacology",
           "name": "Pharmacology",
-          "icon": "\ud83d\udc8a",
+          "icon": "💊",
           "phase": "Para-Clinical",
           "file": "data/mbbs/pharmacology.json"
         },
         {
           "id": "microbiology",
           "name": "Microbiology",
-          "icon": "\ud83e\uddeb",
+          "icon": "🧫",
           "phase": "Para-Clinical",
           "file": "data/mbbs/microbiology.json"
         },
         {
           "id": "forensic-medicine",
           "name": "Forensic Medicine",
-          "icon": "\u2696\ufe0f",
+          "icon": "⚖️",
           "phase": "Para-Clinical",
           "file": "data/mbbs/forensic-medicine.json"
         },
         {
           "id": "community-medicine",
           "name": "Community Medicine",
-          "icon": "\ud83c\udfe5",
+          "icon": "🏥",
           "phase": "Para-Clinical",
           "file": "data/mbbs/community-medicine.json"
         },
         {
           "id": "medicine",
           "name": "General Medicine",
-          "icon": "\ud83e\ude7a",
+          "icon": "🩺",
           "phase": "Clinical",
           "file": "data/mbbs/medicine.json"
         },
         {
           "id": "surgery",
           "name": "General Surgery",
-          "icon": "\ud83d\udd2a",
+          "icon": "🔪",
           "phase": "Clinical",
           "file": "data/mbbs/surgery.json"
         },
         {
           "id": "pediatrics",
           "name": "Pediatrics",
-          "icon": "\ud83d\udc76",
+          "icon": "👶",
           "phase": "Clinical",
           "file": "data/mbbs/pediatrics.json"
         },
         {
           "id": "obgyn",
           "name": "Obstetrics & Gynecology",
-          "icon": "\ud83e\udd30",
+          "icon": "🤰",
           "phase": "Clinical",
           "file": "data/mbbs/obgyn.json"
         },
         {
           "id": "ophthalmology",
           "name": "Ophthalmology",
-          "icon": "\ud83d\udc41\ufe0f",
+          "icon": "👁️",
           "phase": "Clinical",
           "file": "data/mbbs/ophthalmology.json"
         },
         {
           "id": "ent",
           "name": "ENT",
-          "icon": "\ud83d\udc42",
+          "icon": "👂",
           "phase": "Clinical",
           "file": "data/mbbs/ent.json"
         },
         {
           "id": "orthopedics",
           "name": "Orthopedics",
-          "icon": "\ud83e\uddb4",
+          "icon": "🦴",
           "phase": "Clinical",
           "file": "data/mbbs/orthopedics.json"
         },
         {
           "id": "dermatology",
           "name": "Dermatology",
-          "icon": "\ud83e\uddf4",
+          "icon": "🧴",
           "phase": "Clinical",
           "file": "data/mbbs/dermatology.json"
         },
         {
           "id": "psychiatry",
           "name": "Psychiatry",
-          "icon": "\ud83e\uddd8",
+          "icon": "🧘",
           "phase": "Clinical",
           "file": "data/mbbs/psychiatry.json"
         },
         {
           "id": "radiology",
           "name": "Radiology",
-          "icon": "\ud83e\ude7b",
+          "icon": "🩻",
           "phase": "Clinical",
           "file": "data/mbbs/radiology.json"
         },
         {
           "id": "anesthesiology",
           "name": "Anesthesiology",
-          "icon": "\ud83d\udc89",
+          "icon": "💉",
           "phase": "Clinical",
           "file": "data/mbbs/anesthesiology.json"
         }

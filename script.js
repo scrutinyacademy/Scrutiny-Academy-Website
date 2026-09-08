@@ -183,6 +183,8 @@
 
     // 3. Render initial views
     renderClass10View();
+    renderBoardView('class11');
+    renderBoardView('class12');
     renderNeetView();
     renderMbbsView('all');
 
@@ -281,37 +283,104 @@
   // -------------------------------------------------------------
   // NEET CONTROLLER
   // -------------------------------------------------------------
+
+  // Shared board subject/chapter view. All content comes from manifest-linked JSON.
+  const boardState = {};
+  const escapeText = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  async function renderBoardView(course, selectedSubject, chapterId) {
+    const category = AppState.manifest?.categories.find(c => c.id === course);
+    const host = document.getElementById(course + '-view');
+    if (!category || !host) return;
+    const state = boardState[course] ||= {subject: category.subjects[0].id, chapter: '', format: 'vsaq', request: 0};
+    if (selectedSubject && selectedSubject !== state.subject) { state.subject = selectedSubject; state.chapter = ''; }
+    if (chapterId) state.chapter = chapterId;
+    const request = ++state.request;
+    const subject = category.subjects.find(s => s.id === state.subject);
+    host.setAttribute('aria-busy','true');
+    const data = await loadDataFile(subject.file, [course, subject.id]);
+    if (request !== state.request) return;
+    host.setAttribute('aria-busy','false');
+    if (!data) { host.innerHTML = '<p role="alert">This subject could not load. Please refresh to try again.</p>'; return; }
+    const chapter = data.chapters.find(c => c.id === state.chapter) || data.chapters[0];
+    state.chapter = chapter?.id || '';
+    host.innerHTML = `
+      <div class="subject-pills-bar" aria-label="Subjects">${category.subjects.map(sub => `<button type="button" class="pill-btn ${sub.id === state.subject ? 'active' : ''}" aria-pressed="${sub.id === state.subject}" data-board-subject="${sub.id}">${sub.icon} ${sub.name}</button>`).join('')}</div>
+      <div class="curriculum-card shadow-lg board-panel">
+        <div class="subject-header-row"><div><h3>${escapeText(data.subject)}</h3><p>${data.chapters.length} chapters / units · Source: ${escapeText(data.source.academicYear)}</p></div></div>
+        ${data.source.note ? `<p class="source-notice" role="note">${escapeText(data.source.note)}</p>` : ''}
+        <div class="chapter-bar"><label for="${course}-chapter">Select chapter / unit</label><select class="form-select" id="${course}-chapter">${data.chapters.map(c => `<option value="${c.id}" ${c.id === state.chapter ? 'selected' : ''}>${c.number}. ${escapeText(c.name)}</option>`).join('')}</select></div>
+        <h4 class="board-chapter-title">${escapeText(chapter?.name || 'Chapters coming soon')}</h4>
+        ${chapter?.topics?.length ? `<details class="chapter-topics"><summary>Topics in this unit</summary><ul>${chapter.topics.map(t=>`<li>${escapeText(t)}</li>`).join('')}</ul></details>` : ''}
+        <div class="qformat-tabs" aria-label="Question and resource formats">${['vsaq','saq','laq','mcqs','resources'].map(f=>`<button type="button" class="qtab-btn ${f===state.format?'active':''}" aria-pressed="${f===state.format}" data-board-format="${f}">${f==='resources'?'Lectures & Notes':f.toUpperCase()} (${chapter?.[f]?.length || 0})</button>`).join('')}</div>
+        <div class="board-content" aria-live="polite"></div>
+      </div>`;
+    host.querySelectorAll('[data-board-subject]').forEach(btn=>btn.addEventListener('click',()=>renderBoardView(course,btn.dataset.boardSubject)));
+    host.querySelector('select').addEventListener('change',e=>{state.chapter=e.target.value;renderBoardView(course);});
+    host.querySelectorAll('[data-board-format]').forEach(btn=>btn.addEventListener('click',()=>{state.format=btn.dataset.boardFormat;renderBoardView(course);}));
+    const area=host.querySelector('.board-content');
+    const items=chapter?.[state.format] || [];
+    if(!items.length) {
+      area.innerHTML='<p class="content-empty">Content is being prepared for this chapter. Choose another chapter or explore the available NEET practice bank.</p>';
+    } else if(state.format==='mcqs') {
+      const btn=document.createElement('button');btn.className='btn btn-primary';btn.textContent=`Practice ${items.length} MCQs`;
+      btn.addEventListener('click',()=>launchEngineWithQuestions(items,`${category.name} · ${data.subject} · ${chapter.name}`,'practice'));area.appendChild(btn);
+    } else if(state.format==='resources') {
+      items.forEach(item=>{if(!/^https:\/\//.test(item.url || '')) return;const a=document.createElement('a');a.className='btn btn-outline';a.textContent=item.title;a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';area.appendChild(a);});
+    } else {
+      items.forEach(item=>{const card=document.createElement('details');card.className='board-answer';card.innerHTML=`<summary>${escapeText(item.question)}${item.marks ? ` · ${item.marks} marks` : ''}</summary><p>${escapeText(item.answer)}</p>`;area.appendChild(card);});
+    }
+  }
+
+  let neetRequest=0;
+  let currentNeetData=null;
+  function selectedNeetChapters() {
+    const level=document.getElementById('neet-class-select')?.value || 'all';
+    const chapter=document.getElementById('neet-chapter-select')?.value || 'all';
+    return (currentNeetData?.chapters || []).filter(c=>(level==='all'||String(c.classLevel)===level)&&(chapter==='all'||c.id===chapter));
+  }
+  function launchSelectedNeet(mode) {
+    const chapters=selectedNeetChapters();
+    launchEngineWithQuestions(chapters.flatMap(c=>c.mcqs || []),`NEET ${currentNeetData?.subject || ''} · ${chapters.length===1?chapters[0].name:'Selected chapters'}`,mode);
+  }
   async function renderNeetView() {
-    const activeSub = document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'biology';
-    const filePath = `data/neet/${activeSub}.json`;
-    const data = await loadDataFile(filePath, ['neet', activeSub]);
-
-    if (!data) return;
-
-    DOM.neetSubjectTitle.textContent = `${data.icon || '🧬'} NEET ${data.subject}`;
-    DOM.neetSubjectDesc.textContent = data.description || 'NCERT Concept Mastery Question Bank';
-
-    const totalQuestions = data.chapters.reduce((acc, ch) => acc + (ch.mcqs ? ch.mcqs.length : 0), 0);
-    DOM.neetPreview.innerHTML = `
-      <div style="background: var(--color-gray-50); border: 1.5px solid var(--color-gray-200); border-radius: var(--radius-lg); padding: 32px; text-align: center;">
-        <h4 style="font-size: 1.4rem; color: var(--color-navy); margin-bottom: 8px;">Available NEET ${data.subject} Bank</h4>
-        <p style="color: var(--color-gray-600); margin-bottom: 24px;">
-          ${totalQuestions} High-yield questions with verified NCERT rationale, formula steps, and cognitive error traps.
-        </p>
-        <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
-          <button class="btn btn-primary" id="neet-launch-direct-practice">Start Rapid Practice</button>
-          <button class="btn btn-outline" id="neet-launch-180-mock">Full 180-Question Mock Engine</button>
-        </div>
-      </div>
-    `;
-
-    document.getElementById('neet-launch-direct-practice')?.addEventListener('click', () => {
-      launchEngineWithQuestions(data.chapters[0].mcqs, `NEET ${data.subject}`, 'practice');
-    });
-
-    document.getElementById('neet-launch-180-mock')?.addEventListener('click', () => {
-      launchEngineWithQuestions(data.chapters[0].mcqs, `NEET ${data.subject} Full Mock`, 'test', 180);
-    });
+    const activeSub=document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'botany';
+    const request=++neetRequest;
+    currentNeetData=null;
+    DOM.neetPracticeBtn.disabled=true;DOM.neetTestBtn.disabled=true;
+    DOM.neetPreview.textContent='Loading chapters…';
+    const data=await loadDataFile(`data/neet/${activeSub}.json`,['neet',activeSub]);
+    if(request!==neetRequest) return;
+    if(!data){DOM.neetPreview.textContent='This question bank could not load. Please refresh to try again.';return;}
+    currentNeetData=data;
+    DOM.neetSubjectTitle.textContent=`NEET ${data.subject}`;
+    DOM.neetSubjectDesc.textContent=data.description;
+    DOM.neetPreview.innerHTML=`
+      <div class="neet-filters">
+        <div><label for="neet-class-select">NCERT class</label><select class="form-select" id="neet-class-select"><option value="all">Class 11 & Class 12</option><option value="11">Class 11</option><option value="12">Class 12</option></select></div>
+        <div><label for="neet-chapter-select">Chapter</label><select class="form-select" id="neet-chapter-select"></select></div>
+      </div><p class="source-notice">NCERT class grouping differs from Telangana board years. This is an existing practice bank, not a complete NEET syllabus or full mock examination.</p>
+      <p id="neet-bank-count" role="status"></p><div class="neet-chapters" id="neet-chapter-cards"></div>`;
+    const levelSelect=document.getElementById('neet-class-select');
+    const chapterSelect=document.getElementById('neet-chapter-select');
+    const refresh=()=>{
+      const chapters=selectedNeetChapters();
+      const count=chapters.reduce((n,c)=>n+(c.mcqs?.length||0),0);
+      DOM.neetPracticeBtn.disabled=!count;DOM.neetTestBtn.disabled=!count;
+      document.getElementById('neet-bank-count').textContent=`${chapters.length} chapters · ${count} available questions`;
+      const cards=document.getElementById('neet-chapter-cards');cards.innerHTML='';
+      if(!chapters.length) cards.textContent='Questions for this selection are being prepared.';
+      chapters.forEach(ch=>{
+        const card=document.createElement('article');card.className='neet-chapter-card';
+        card.innerHTML=`<span>Class ${ch.classLevel}</span><h4>${escapeText(ch.name)}</h4><p>${ch.mcqs.length} MCQs</p><button type="button" class="btn btn-outline">Practice chapter</button>`;
+        card.querySelector('button').addEventListener('click',()=>launchEngineWithQuestions(ch.mcqs,`NEET ${data.subject} · ${ch.name}`,'practice'));cards.appendChild(card);
+      });
+    };
+    const updateChapters=()=>{
+      const chapters=data.chapters.filter(c=>levelSelect.value==='all'||String(c.classLevel)===levelSelect.value);
+      chapterSelect.innerHTML='<option value="all">All available chapters</option>'+chapters.map(c=>`<option value="${c.id}">${escapeText(c.name)}</option>`).join('');
+      refresh();
+    };
+    levelSelect.addEventListener('change',updateChapters);chapterSelect.addEventListener('change',refresh);updateChapters();
   }
 
   // -------------------------------------------------------------
@@ -359,11 +428,7 @@
   function populateEngineCourseDropdown() {
     DOM.engineSubjectSelect.innerHTML = '';
 
-    const groups = [
-      { label: 'Class 10 SSC Telangana', key: 'class10' },
-      { label: 'NEET UG Entrance', key: 'neet' },
-      { label: 'MBBS Medical Sciences', key: 'mbbs' }
-    ];
+    const groups = (AppState.manifest?.categories || []).map(c => ({label:c.name,key:c.id}));
 
     groups.forEach(g => {
       const optGroup = document.createElement('optgroup');
@@ -398,7 +463,8 @@
     // Filter by difficulty if needed
     if (AppState.engine.filterDifficulty !== 'all') {
       const filtered = pool.filter(q => q.difficulty && q.difficulty.toLowerCase() === AppState.engine.filterDifficulty.toLowerCase());
-      if (filtered.length > 0) pool = filtered;
+      pool = filtered;
+      if (!pool.length) { showToast('No questions match this difficulty. Choose another difficulty.'); return; }
     }
 
     // Shuffle questions
@@ -407,6 +473,7 @@
     }
 
     const count = overrideCount || parseInt(DOM.engineCountSelect.value, 10) || 25;
+    if (count > pool.length) showToast(`Only ${pool.length} questions are available; the session uses all of them.`);
     AppState.engine.questions = pool.slice(0, count);
 
     // Prepare questions with optional shuffled options
@@ -771,6 +838,15 @@
     // Search cache or pre-bundled data
     const dataRoot = window.SCRUTINY_DATA || {};
 
+    for (const course of ['class11','class12']) {
+      for (const [subject, data] of Object.entries(dataRoot[course] || {})) {
+        data.chapters.forEach(ch=>{
+          const content=[ch.name,...(ch.topics||[]),...['vsaq','saq','laq','mcqs'].flatMap(f=>(ch[f]||[]).map(q=>q.question+' '+(q.answer||'')))].join(' ').toLowerCase();
+          if(content.includes(qLower)) matches.push({category:course==='class11'?'Class 11':'Class 12',subject:data.subject,chapter:ch.name,text:ch.name,action:()=>{closeSearchModal();renderBoardView(course,subject,ch.id);document.getElementById(course).scrollIntoView({behavior:'smooth'});}});
+        });
+      }
+    }
+
     // 1. Search Class 10
     if (dataRoot.class10) {
       for (let [subKey, subData] of Object.entries(dataRoot.class10)) {
@@ -853,7 +929,7 @@
 
     // Render results
     if (matches.length === 0) {
-      DOM.searchResultsList.innerHTML = `<div class="search-empty-state">No matching questions or topics found for "${query}".</div>`;
+      DOM.searchResultsList.innerHTML = `<div class="search-empty-state">No matching questions or topics found for "${escapeText(query)}".</div>`;
       return;
     }
 
@@ -1031,21 +1107,8 @@
       renderNeetView();
     });
 
-    DOM.neetPracticeBtn?.addEventListener('click', async () => {
-      const activeSub = document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'biology';
-      const data = await loadDataFile(`data/neet/${activeSub}.json`, ['neet', activeSub]);
-      if (data && data.chapters) {
-        launchEngineWithQuestions(data.chapters[0].mcqs, `NEET ${data.subject}`, 'practice');
-      }
-    });
-
-    DOM.neetTestBtn?.addEventListener('click', async () => {
-      const activeSub = document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'biology';
-      const data = await loadDataFile(`data/neet/${activeSub}.json`, ['neet', activeSub]);
-      if (data && data.chapters) {
-        launchEngineWithQuestions(data.chapters[0].mcqs, `NEET ${data.subject}`, 'test');
-      }
-    });
+    DOM.neetPracticeBtn?.addEventListener('click', () => launchSelectedNeet('practice'));
+    DOM.neetTestBtn?.addEventListener('click', () => launchSelectedNeet('test'));
 
     // MBBS Phase Filter Tabs
     DOM.mbbsPhaseTabs?.addEventListener('click', (e) => {

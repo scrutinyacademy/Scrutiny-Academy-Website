@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scrutiny Academy | Class 10 SSC, NEET & MBBS Medical Education</title>
-  <meta name="description" content="Scrutiny Academy - Premium digital learning platform for Class 10 SSC Telangana, NEET UG competitive exam preparation, and MBBS undergraduate medical education.">
+  <title>Scrutiny Academy | Class 10, Class 11, Class 12, NEET & MBBS</title>
+  <meta name="description" content="Scrutiny Academy - Premium digital learning platform for Class 10 SSC Telangana, Class 11 and Class 12 Telangana Intermediate, NEET UG practice, and MBBS undergraduate medical education.">
   <meta name="keywords" content="Scrutiny Academy, Class 10 SSC Telangana, NEET UG Biology Physics Chemistry, MBBS Medical Education, Question Bank, MCQs">
   <meta name="author" content="Scrutiny Academy">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -41,6 +41,8 @@
         <ul class="nav-list">
           <li><a href="#home" class="nav-link active">Home</a></li>
           <li><a href="#class10" class="nav-link">Class 10</a></li>
+          <li><a href="#class11" class="nav-link">Class 11</a></li>
+          <li><a href="#class12" class="nav-link">Class 12</a></li>
           <li><a href="#neet" class="nav-link">NEET</a></li>
           <li><a href="#mbbs" class="nav-link">MBBS</a></li>
           <li><a href="#mcq-engine" class="nav-link" id="nav-mcq-practice">MCQ Practice</a></li>
@@ -71,6 +73,8 @@
       <ul class="mobile-nav-list">
         <li><a href="#home" class="mobile-nav-link">Home</a></li>
         <li><a href="#class10" class="mobile-nav-link">Class 10 SSC</a></li>
+        <li><a href="#class11" class="mobile-nav-link">Class 11 Intermediate</a></li>
+        <li><a href="#class12" class="mobile-nav-link">Class 12 Intermediate</a></li>
         <li><a href="#neet" class="mobile-nav-link">NEET Preparation</a></li>
         <li><a href="#mbbs" class="mobile-nav-link">MBBS Medical</a></li>
         <li><a href="#mcq-engine" class="mobile-nav-link" id="mobile-nav-mcq">MCQ Practice Engine</a></li>
@@ -96,7 +100,7 @@
           <h1 class="hero-title">SCRUTINY ACADEMY</h1>
           <div class="hero-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</div>
           <p class="hero-subheading">
-            One learning platform for School, NEET & Medical Education. Master concepts with structured syllabi, verified question banks, and an advanced cognitive practice engine.
+            One learning platform for School, NEET & Medical Education. Master concepts with structured syllabi, chapter question banks, and an advanced cognitive practice engine.
           </p>
 
           <div class="hero-cta-group">
@@ -116,8 +120,8 @@
             </div>
             <div class="stat-divider"></div>
             <div class="stat-item">
-              <span class="stat-number">Thousands</span>
-              <span class="stat-label">Quality MCQs</span>
+              <span class="stat-number">Practice</span>
+              <span class="stat-label">Question Banks</span>
             </div>
           </div>
         </div>
@@ -134,13 +138,15 @@
             </div>
           </a>
 
+          <a href="#class11" class="hero-card card-c10"><div class="card-icon-badge">11</div><div class="card-body"><span class="card-meta">Telangana Intermediate</span><h3 class="card-title">CLASS 11</h3><p class="card-desc">Explore subject chapters and board question sections.</p><span class="card-action">Explore First Year &rarr;</span></div></a>
+          <a href="#class12" class="hero-card card-c10"><div class="card-icon-badge">12</div><div class="card-body"><span class="card-meta">Telangana Intermediate</span><h3 class="card-title">CLASS 12</h3><p class="card-desc">Botany, Zoology, Physics and Chemistry, chapter by chapter.</p><span class="card-action">Explore Second Year &rarr;</span></div></a>
           <!-- Card 2: NEET -->
           <a href="#neet" class="hero-card card-neet">
             <div class="card-icon-badge">🧬</div>
             <div class="card-body">
               <span class="card-meta">National Entrance</span>
               <h3 class="card-title">NEET PREPARATION</h3>
-              <p class="card-desc">NCERT-oriented Biology, numerical Physics, and reaction Chemistry. 180 MCQs mock capability with detailed explanations.</p>
+              <p class="card-desc">NCERT-oriented Biology, numerical Physics, and reaction Chemistry. Browse available questions by NCERT class and chapter.</p>
               <span class="card-action">Prepare for NEET &rarr;</span>
             </div>
           </a>
@@ -212,6 +218,12 @@
       </div>
     </section>
 
+    <section class="curriculum-section section-intermediate" id="class11">
+      <div class="container"><div class="section-header"><div class="section-pill">Telangana Intermediate • First Year</div><h2 class="section-title">CLASS 11</h2><p class="section-subtitle">Botany, Zoology, Physics & Chemistry</p></div><div id="class11-view"></div></div>
+    </section>
+    <section class="curriculum-section section-intermediate" id="class12">
+      <div class="container"><div class="section-header"><div class="section-pill">Telangana Intermediate • Second Year</div><h2 class="section-title">CLASS 12</h2><p class="section-subtitle">Botany, Zoology, Physics & Chemistry</p></div><div id="class12-view"></div></div>
+    </section>
     <!-- SECTION: NEET PREPARATION -->
     <section class="curriculum-section section-neet" id="neet">
       <div class="container">
@@ -223,7 +235,8 @@
 
         <!-- Subject selection tabs -->
         <div class="subject-pills-bar" id="neet-subject-tabs">
-          <button class="pill-btn active" data-subject="biology">🧬 BIOLOGY (Botany & Zoology)</button>
+          <button class="pill-btn active" data-subject="botany">🌿 BOTANY</button>
+          <button class="pill-btn" data-subject="zoology">🦋 ZOOLOGY</button>
           <button class="pill-btn" data-subject="physics">⚛️ PHYSICS (Mechanics & Electrodynamics)</button>
           <button class="pill-btn" data-subject="chemistry">⚗️ CHEMISTRY (Physical, Organic, Inorganic)</button>
         </div>
@@ -240,7 +253,7 @@
             </div>
             <div class="header-button-group">
               <button class="btn btn-outline" id="neet-practice-mode-btn">Practice Mode</button>
-              <button class="btn btn-primary" id="neet-test-mode-btn">Test Simulation Mode</button>
+              <button class="btn btn-primary" id="neet-test-mode-btn">Chapter Test Mode</button>
             </div>
           </div>
 
@@ -248,17 +261,17 @@
             <div class="info-card">
               <div class="info-icon">🎯</div>
               <h4>NCERT Grounded</h4>
-              <p>100% adherence to NCERT statements, diagrams, tables, and conceptual nuances.</p>
+              <p>Questions grouped by NCERT class and chapter for focused practice.</p>
             </div>
             <div class="info-card">
               <div class="info-icon">⚡</div>
               <h4>Rigorous Traps</h4>
-              <p>Eliminate confusion with authentic assertion-reason, tricky numericals, and match-columns.</p>
+              <p>Practice available conceptual and numerical questions, with difficulty filters.</p>
             </div>
             <div class="info-card">
               <div class="info-icon">📊</div>
               <h4>Step-by-Step Solutions</h4>
-              <p>Every single question contains a deep explanation verifying why correct is right and incorrect is eliminated.</p>
+              <p>Review the stored explanation after answering a question. Content review is ongoing.</p>
             </div>
           </div>
 
@@ -338,7 +351,7 @@
                 <option value="25" selected>25 Questions</option>
                 <option value="50">50 Questions</option>
                 <option value="100">100 Questions</option>
-                <option value="180">180 Questions (Mock)</option>
+                <option value="180">Up to 180 Questions</option>
               </select>
             </div>
 

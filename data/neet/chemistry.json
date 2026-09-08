@@ -1,12 +1,13 @@
 {
   "subject": "Chemistry",
   "exam": "NEET UG",
-  "icon": "\u2697\ufe0f",
-  "description": "NCERT-aligned NEET Chemistry Question Bank covering Physical, Organic, and Inorganic Chemistry.",
+  "icon": "⚗️",
+  "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
   "chapters": [
     {
-      "id": "neet-chem-ch1",
-      "name": "NEET Chemistry Complete High-Yield Concept Bank",
+      "id": "neet-chemistry-1",
+      "name": "Some Basic Concepts of Chemistry",
+      "classLevel": 11,
       "mcqs": [
         {
           "id": "NEET-CHEM-001",
@@ -22,7 +23,14 @@
           "difficulty": "Easy",
           "chapter": "Some Basic Concepts of Chemistry",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-2",
+      "name": "Structure of Atom",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-002",
           "question": "Which of the following sets of quantum numbers is NOT permissible for an electron in an atom?",
@@ -37,7 +45,14 @@
           "difficulty": "Medium",
           "chapter": "Structure of Atom",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-3",
+      "name": "Chemical Bonding and Molecular Structure",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-003",
           "question": "The geometry and hybridization of xenon tetrafluoride (XeF4) molecule is:",
@@ -67,7 +82,14 @@
           "difficulty": "Easy",
           "chapter": "Chemical Bonding and Molecular Structure",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-4",
+      "name": "Thermodynamics",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-005",
           "question": "For an ideal gas undergoing an isothermal expansion, the change in internal energy (Delta U) is:",
@@ -97,7 +119,14 @@
           "difficulty": "Medium",
           "chapter": "Thermodynamics",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-5",
+      "name": "Equilibrium",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-007",
           "question": "For the reaction N2(g) + 3H2(g) <=> 2NH3(g) (exothermic), increasing pressure will:",
@@ -127,7 +156,14 @@
           "difficulty": "Easy",
           "chapter": "Equilibrium",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-6",
+      "name": "Redox Reactions",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-009",
           "question": "What is the oxidation number of chromium in potassium dichromate (K2Cr2O7)?",
@@ -142,7 +178,14 @@
           "difficulty": "Easy",
           "chapter": "Redox Reactions",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-7",
+      "name": "Periodic Classification",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-010",
           "question": "Which of the following elements has the highest first ionization enthalpy?",
@@ -157,7 +200,14 @@
           "difficulty": "Medium",
           "chapter": "Periodic Classification",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-8",
+      "name": "d- and f-Block Elements",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-CHEM-011",
           "question": "Which transition metal ion is diamagnetic in nature?",
@@ -172,7 +222,14 @@
           "difficulty": "Easy",
           "chapter": "d- and f-Block Elements",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-9",
+      "name": "Organic Chemistry - Nomenclature",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-012",
           "question": "The IUPAC name of CH3-CH(OH)-CH2-CHO is:",
@@ -187,7 +244,14 @@
           "difficulty": "Medium",
           "chapter": "Organic Chemistry - Nomenclature",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-10",
+      "name": "Hydrocarbons",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-013",
           "question": "Markovnikov's rule states that during addition of unsymmetrical HX to an unsymmetrical alkene, the halide attaches to:",
@@ -203,6 +267,28 @@
           "chapter": "Hydrocarbons",
           "subject": "Chemistry"
         },
+        {
+          "id": "NEET-CHEM-016",
+          "question": "Which aromatic compound undergoes nitration most rapidly?",
+          "options": [
+            "Nitrobenzene",
+            "Toluene",
+            "Benzene",
+            "Chlorobenzene"
+          ],
+          "answer": 1,
+          "explanation": "Toluene possesses a methyl (-CH3) group that activates the benzene ring towards electrophilic aromatic substitution via hyperconjugation and inductive effect (+I).",
+          "difficulty": "Medium",
+          "chapter": "Hydrocarbons",
+          "subject": "Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11",
+      "name": "Aldehydes, Ketones and Carboxylic Acids",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-CHEM-014",
           "question": "Which of the following compounds gives a positive Iodoform test (yellow precipitate of CHI3)?",
@@ -232,22 +318,14 @@
           "difficulty": "Medium",
           "chapter": "Aldehydes, Ketones and Carboxylic Acids",
           "subject": "Chemistry"
-        },
-        {
-          "id": "NEET-CHEM-016",
-          "question": "Which aromatic compound undergoes nitration most rapidly?",
-          "options": [
-            "Nitrobenzene",
-            "Toluene",
-            "Benzene",
-            "Chlorobenzene"
-          ],
-          "answer": 1,
-          "explanation": "Toluene possesses a methyl (-CH3) group that activates the benzene ring towards electrophilic aromatic substitution via hyperconjugation and inductive effect (+I).",
-          "difficulty": "Medium",
-          "chapter": "Hydrocarbons",
-          "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-12",
+      "name": "Amines",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-CHEM-017",
           "question": "Carbylamine test (isocyanide test) is used to detect:",
