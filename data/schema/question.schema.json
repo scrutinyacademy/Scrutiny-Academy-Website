@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://scrutinyacademy.github.io/schema/question.schema.json",
+  "title": "Scrutiny Academy Question",
+  "type": "object",
+  "required": ["id", "type", "question", "source"],
+  "properties": {
+    "id": {"type": "string", "minLength": 3},
+    "type": {"enum": ["MCQ", "VSAQ", "SAQ", "LAQ", "PYQ"]},
+    "question": {"type": "string", "minLength": 3},
+    "options": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true
+    },
+    "answer": {"type": ["integer", "string"]},
+    "explanation": {"type": "string"},
+    "difficulty": {"enum": ["Easy", "Medium", "Hard"]},
+    "source": {"type": "string", "minLength": 3},
+    "year": {"type": ["integer", "null"]},
+    "exam": {"type": ["string", "null"]},
+    "class": {"type": ["string", "null"]},
+    "board": {"type": ["string", "null"]},
+    "subject": {"type": ["string", "null"]},
+    "chapter": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"type": {"const": "MCQ"}}},
+      "then": {"required": ["options", "answer", "explanation", "difficulty"]}
+    },
+    {
+      "if": {"properties": {"type": {"const": "PYQ"}}},
+      "then": {"required": ["year", "exam"]}
+    }
+  ]
+}

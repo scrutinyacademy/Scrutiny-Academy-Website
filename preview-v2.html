@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102a56">
+  <title>Scrutiny Academy V2 Preview | Learn • Understand • Practice • Master</title>
+  <meta name="description" content="Scrutiny Academy unified learning platform preview for Telangana SSC, Intermediate, NEET and MBBS with practice, PYQ, NCERT search and progress architecture.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="v2.css">
+</head>
+<body>
+  <div class="watermark" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Scrutiny Academy home">
+      <img src="assets/logo.svg" alt="Scrutiny Academy logo">
+      <span><strong>SCRUTINY ACADEMY</strong><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">☰</button>
+    <nav id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#class10">Class 10</a><a href="#class11">Class 11</a><a href="#class12">Class 12</a>
+      <a href="#neet">NEET</a><a href="#pyqs">PYQs</a><a href="#ncert">NCERT</a><a href="#ask">Ask Scrutiny</a>
+      <a href="#mbbs">MBBS</a><a href="#tools">Study Tools</a><a href="#progress">Progress</a><a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">Unified learning ecosystem • Built for real study</span>
+        <h1>Study smarter across school, NEET and medical education.</h1>
+        <p>Structured learning, verified practice and measurable progress — without fake question counts or pretend features.</p>
+        <div class="hero-actions"><a class="btn primary" href="#programs">Explore programs</a><button class="btn ghost" id="quickPractice">Quick practice</button></div>
+        <div class="trust-row"><span>✓ Actual availability counts</span><span>✓ Local progress privacy</span><span>✓ GitHub Pages ready</span></div>
+      </div>
+      <aside class="hero-panel" aria-label="Live content inventory">
+        <span class="panel-label">AVAILABLE NOW</span>
+        <div class="metric"><strong id="metricSubjects">—</strong><span>active subjects</span></div>
+        <div class="metric"><strong id="metricChapters">—</strong><span>published chapters</span></div>
+        <div class="metric"><strong id="metricMcqs">—</strong><span>published MCQs</span></div>
+        <p id="inventoryNote">Calculating from published files…</p>
+      </aside>
+    </section>
+
+    <section class="section" id="programs">
+      <div class="section-head"><span class="eyebrow">CHOOSE YOUR PATH</span><h2>One platform. Multiple academic journeys.</h2><p>Active courses open the published bank. Foundation-ready courses show the structure without pretending content exists.</p></div>
+      <div class="program-grid" id="programGrid"></div>
+    </section>
+
+    <section class="section surface" id="class10">
+      <div class="section-head inline"><div><span class="eyebrow">TELANGANA SSC</span><h2>Class 10</h2><p>Board-oriented written answers and MCQ practice using the currently published data.</p></div><span class="status active">Active</span></div>
+      <div class="explorer"><aside id="c10Subjects" class="subject-list"></aside><div class="explorer-main"><div class="explorer-head"><div><h3 id="c10Title">Choose a subject</h3><p id="c10Desc"></p></div><button class="btn primary small" id="c10Practice">Practice available MCQs</button></div><label class="field">Chapter<select id="c10Chapter"></select></label><div class="tabs" id="c10Tabs"><button data-format="mcqs" class="active">MCQs</button><button data-format="vsaq">VSAQ</button><button data-format="saq">SAQ</button><button data-format="laq">LAQ</button></div><div id="c10Content" class="content-panel"></div></div></div>
+    </section>
+
+    <section class="section" id="class11">
+      <div class="section-head inline"><div><span class="eyebrow">TELANGANA INTERMEDIATE</span><h2>Class 11</h2><p>Botany, Zoology, Physics and Chemistry architecture is ready for chapter-by-chapter publishing.</p></div><span class="status foundation">Foundation ready</span></div>
+      <div class="subject-cards" data-catalog="class11"></div>
+    </section>
+
+    <section class="section" id="class12">
+      <div class="section-head inline"><div><span class="eyebrow">TELANGANA INTERMEDIATE</span><h2>Class 12</h2><p>Same structured framework for MCQs, VSAQ, SAQ, LAQ, PYQs and revision.</p></div><span class="status foundation">Foundation ready</span></div>
+      <div class="subject-cards" data-catalog="class12"></div>
+    </section>
+
+    <section class="section surface" id="neet">
+      <div class="section-head inline"><div><span class="eyebrow">NEET UG</span><h2>NEET Preparation</h2><p>Practice from every currently published chapter. Requested test size is automatically capped to actual availability.</p></div><span class="status active">Active + migrating</span></div>
+      <div class="control-row"><label class="field">Subject<select id="neetSubject"></select></label><label class="field">Mode<select id="neetMode"><option value="practice">Practice</option><option value="test">Timed test</option></select></label><label class="field">Questions<select id="neetCount"><option>10</option><option>25</option><option>50</option><option>100</option><option>180</option></select></label><button class="btn primary" id="neetStart">Start NEET session</button></div>
+      <div id="neetAvailability" class="availability"></div>
+      <div class="batch-grid"><article><strong>Nurture</strong><span>Class 11 track</span></article><article><strong>Enthuse</strong><span>Class 12 track</span></article><article><strong>Repeaters</strong><span>Class 11 + 12 track</span></article></div>
+    </section>
+
+    <section class="section" id="pyqs">
+      <div class="section-head inline"><div><span class="eyebrow">VERIFIED ONLY</span><h2>Previous Year Questions</h2><p>PYQs will appear only after source, year and exam metadata are verified. The database is intentionally empty until then.</p></div><span class="status foundation">Foundation ready</span></div>
+      <div class="empty-state"><strong>No fabricated PYQs.</strong><p>The filter engine is reserved for verified records: year • exam • class • subject • chapter • question type.</p></div>
+    </section>
+
+    <section class="section surface" id="ncert">
+      <div class="section-head inline"><div><span class="eyebrow">SOURCE-AWARE SEARCH</span><h2>NCERT Search</h2><p>Designed to return short relevant context with book/chapter metadata — never invented page numbers or full-book reproduction.</p></div><span class="status foundation">Index foundation ready</span></div>
+      <div class="search-box"><input id="ncertQuery" placeholder="Search indexed NCERT content…" aria-label="Search NCERT index"><button class="btn primary" id="ncertSearch">Search</button></div><div id="ncertResults" class="empty-state compact">No indexed NCERT records have been published yet.</div>
+    </section>
+
+    <section class="section" id="ask">
+      <div class="ask-card"><div><span class="eyebrow">ASK SCRUTINY</span><h2>AI doubt support, designed securely.</h2><p>The interface is ready for a secure backend. A private AI API key will never be embedded in public client-side code.</p></div><div class="ask-demo"><div class="chat-line bot">Ask Scrutiny is currently being connected.</div><div class="chat-input"><input disabled placeholder="AI backend not connected yet"><button disabled>Send</button></div><small>No fake AI answers are generated in this static preview.</small></div></div>
+    </section>
+
+    <section class="section surface" id="mbbs">
+      <div class="section-head inline"><div><span class="eyebrow">MEDICAL EDUCATION</span><h2>MBBS</h2><p>Browse all published medical subjects and launch practice from all available chapters in a subject.</p></div><span class="status active">Active</span></div>
+      <div class="mbbs-grid" id="mbbsGrid"></div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="section-head"><span class="eyebrow">STUDY TOOLS</span><h2>Build consistency, not just scores.</h2></div>
+      <div class="tool-grid"><article><strong>MCQ Practice</strong><span>Practice or timed mode</span></article><article><strong>Recent Tests</strong><span>Stored on this device</span></article><article><strong>Accuracy Tracker</strong><span>Based on completed sessions</span></article><article><strong>Bookmarks</strong><span>Foundation for saved questions</span></article><article><strong>Weak Topics</strong><span>Planned from error history</span></article><article><strong>Revision Tracker</strong><span>Foundation ready</span></article></div>
+    </section>
+
+    <section class="section surface" id="progress">
+      <div class="section-head inline"><div><span class="eyebrow">MY PROGRESS</span><h2>Your device. Your learning history.</h2><p>Static deployment uses localStorage. No cloud-sync claim is made.</p></div><button class="btn danger small" id="clearProgress">Clear local progress</button></div>
+      <div class="progress-grid"><article><strong id="pAttempts">0</strong><span>attempted</span></article><article><strong id="pCorrect">0</strong><span>correct</span></article><article><strong id="pAccuracy">0%</strong><span>accuracy</span></article><article><strong id="pSessions">0</strong><span>sessions</span></article></div><div id="recentSessions" class="sessions"></div>
+    </section>
+
+    <section class="section support" id="support">
+      <div><span class="eyebrow">SUPPORT SCRUTINY ACADEMY</span><h2>Help us keep learning resources open.</h2><p>Support is optional. You can also help by watching, sharing and giving feedback.</p><div class="social-row"><a class="btn primary" href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener">YouTube</a><a class="btn ghost" href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener">Instagram</a><a class="btn ghost" href="mailto:scrutinyacademy@gmail.com">Help desk</a></div></div><img src="assets/upi-qr.png" alt="Scrutiny Academy support UPI QR code">
+    </section>
+  </main>
+
+  <dialog id="quizDialog" class="quiz-dialog">
+    <div class="quiz-shell"><header><div><span id="quizMode" class="status active">Practice</span><strong id="quizTitle">Practice</strong></div><div class="quiz-meta"><span id="quizTimer">00:00</span><button class="icon-btn" id="quizClose" aria-label="Close quiz">×</button></div></header><div class="quiz-progress"><span id="quizProgress"></span></div><section><span id="quizChapter" class="eyebrow"></span><h2 id="quizQuestion"></h2><div id="quizOptions" class="options"></div><div id="quizExplanation" class="explanation" hidden></div></section><footer><button class="btn ghost" id="quizPrev">Previous</button><span id="quizPosition"></span><button class="btn primary" id="quizNext">Next</button><button class="btn primary" id="quizSubmit" hidden>Submit test</button></footer></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <footer class="footer"><strong>SCRUTINY ACADEMY</strong><span>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED</span><span>This V2 file is a development preview on the feature branch.</span></footer>
+  <script src="v2.js"></script>
+</body>
+</html>
