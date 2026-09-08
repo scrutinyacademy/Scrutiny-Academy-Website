@@ -4,7 +4,7 @@ The Intermediate chapter catalog follows the eight user-supplied PDFs. Syllabus 
 
 | Class | Subject | Chapters/units | Source | Source year |
 | --- | --- | ---: | --- | --- |
-| 11 | Botany | 13 | Botany first year .pdf | 2024-2025 |
+| 11 | Botany | 14 | BOTANY_I_SYLLABUS.pdf | 2026-2027 |
 | 11 | Zoology | 8 | ZOOLOGY_-I_SYLLABUS.pdf | 2026-2027 |
 | 11 | Physics | 14 | PHYSICS_I_SYLLABUS.pdf | 2026-2027 |
 | 11 | Chemistry | 10 | CHEMISTRY_I_SYLLABUS.pdf | 2026-2027 |
@@ -13,7 +13,7 @@ The Intermediate chapter catalog follows the eight user-supplied PDFs. Syllabus 
 | 12 | Physics | 16 | Academic_Annual_Plan_Physics_II.pdf | 2026-2027 |
 | 12 | Chemistry | 13 | Annual_Plan__Chemistry_II.pdf | 2026-2027 |
 
-Class 11 Botany's older source year is visible in the interface. Do not describe it as verified against 2026-2027. Zoology's unit hierarchy is retained, with second-year physiology and reproduction subtopics shown inside their parent units. The malformed second-year Chemistry chapter 12 heading is normalized to “Organic Compounds Containing C, H and O”; its scope covers alcohols, phenols, ethers, aldehydes, ketones and carboxylic acids. First-year Physics includes the newly supplied Physics of Emerging Technologies unit.
+Class 11 Botany now follows the replacement 2026-2027 syllabus: Chapter 13 is Plant Communities and Ecological Adaptations, and Chapter 14 is Economic Botany. Zoology's unit hierarchy is retained, with second-year physiology and reproduction subtopics shown inside their parent units. The malformed second-year Chemistry chapter 12 heading is normalized to “Organic Compounds Containing C, H and O”; its scope covers alcohols, phenols, ethers, aldehydes, ketones and carboxylic acids. First-year Physics includes the newly supplied Physics of Emerging Technologies unit.
 
 ## Adding content
 

@@ -4,10 +4,10 @@
   "classLevel": 11,
   "board": "Telangana Intermediate",
   "source": {
-    "file": "Botany first year .pdf",
-    "academicYear": "2024-2025",
-    "kind": "Annual academic plan",
-    "note": "Supplied source is 2024-2025; alignment with 2026-2027 is not yet verified."
+    "file": "BOTANY_I_SYLLABUS.pdf",
+    "academicYear": "2026-2027",
+    "kind": "Syllabus",
+    "note": ""
   },
   "description": "Telangana Intermediate First Year Botany",
   "chapters": [
@@ -146,8 +146,37 @@
     {
       "id": "class11-botany-13",
       "number": 13,
-      "name": "Ecological Adaptations, Succession and Ecological Services",
-      "topics": [],
+      "name": "Plant Communities and Ecological Adaptations",
+      "topics": [
+        "Introduction",
+        "Plant communities and ecological adaptations",
+        "Hydrophytes and their ecological adaptations",
+        "Mesophytes",
+        "Xerophytes and their ecological adaptations"
+      ],
+      "resources": [],
+      "vsaq": [],
+      "saq": [],
+      "laq": [],
+      "mcqs": []
+    },
+    {
+      "id": "class11-botany-14",
+      "number": 14,
+      "name": "Economic Botany",
+      "topics": [
+        "Introduction",
+        "Cereals: Rice",
+        "Millets: Ragi",
+        "Pulses: Red gram",
+        "Oil seeds: Sunflower",
+        "Fibres: Cotton",
+        "Phytomedicines: Neem",
+        "Spices: Black pepper",
+        "Beverages (non-alcoholic): Coffee",
+        "Timber: Teak",
+        "Biodiesel: Jatropha"
+      ],
       "resources": [],
       "vsaq": [],
       "saq": [],

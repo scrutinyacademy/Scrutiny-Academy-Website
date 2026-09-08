@@ -8,7 +8,7 @@ const manifest=read('data/manifest.json');
 const context={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'data/prebundled_data.js'),'utf8'),context);
 const bundle=JSON.parse(JSON.stringify(context.window.SCRUTINY_DATA));
 assert.deepEqual(manifest,bundle.manifest);
-const expected={class11:{botany:13,zoology:8,physics:14,chemistry:10},class12:{botany:14,zoology:8,physics:16,chemistry:13}};
+const expected={class11:{botany:14,zoology:8,physics:14,chemistry:10},class12:{botany:14,zoology:8,physics:16,chemistry:13}};
 const neet=[];
 for(const cat of manifest.categories) for(const sub of cat.subjects){
   const data=read(sub.file);assert.deepEqual(data,bundle[cat.id][sub.id],`Stale bundle: ${sub.file}`);
@@ -23,10 +23,10 @@ for(const cat of manifest.categories) for(const sub of cat.subjects){
   }
 }
 assert.equal(neet.length,92);assert.equal(new Set(neet).size,92);
-assert.equal(bundle.class11.botany.source.academicYear,'2024-2025');
+assert.equal(bundle.class11.botany.source.academicYear,'2026-2027');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
  const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
  assert.ok(fs.existsSync(path.join(root,ref)),`Missing asset: ${ref}`);
 }
-console.log('Validated 96 board chapters, 92 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+console.log('Validated 97 board chapters, 92 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
