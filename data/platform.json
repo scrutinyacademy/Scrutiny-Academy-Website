@@ -1,0 +1,57 @@
+{
+  "platform": "Scrutiny Academy",
+  "version": "2.0.0-foundation",
+  "tagline": "LEARN • UNDERSTAND • PRACTICE • MASTER",
+  "deployment": "github-pages",
+  "courses": [
+    {
+      "id": "class10",
+      "name": "Class 10 Telangana SSC",
+      "status": "active",
+      "subjects": ["Biology", "Physics", "Mathematics", "Social Science"],
+      "formats": ["mcq", "vsaq", "saq", "laq", "pyq", "revision"],
+      "mcqTargetPerChapter": 50
+    },
+    {
+      "id": "class11",
+      "name": "Class 11 Telangana Intermediate",
+      "status": "foundation-ready",
+      "subjects": ["Botany", "Zoology", "Physics", "Chemistry"],
+      "formats": ["mcq", "vsaq", "saq", "laq", "pyq", "revision"]
+    },
+    {
+      "id": "class12",
+      "name": "Class 12 Telangana Intermediate",
+      "status": "foundation-ready",
+      "subjects": ["Botany", "Zoology", "Physics", "Chemistry"],
+      "formats": ["mcq", "vsaq", "saq", "laq", "pyq", "revision"]
+    },
+    {
+      "id": "neet",
+      "name": "NEET",
+      "status": "active-migrating",
+      "batches": ["nurture", "enthuse", "repeaters"],
+      "subjects": ["Biology", "Physics", "Chemistry"],
+      "formats": ["mcq", "pyq", "revision", "important-concepts", "test"],
+      "mcqTargetPerChapter": 180
+    },
+    {
+      "id": "mbbs",
+      "name": "MBBS",
+      "status": "active",
+      "formats": ["mcq", "revision", "test", "bookmarks", "progress"]
+    }
+  ],
+  "systems": {
+    "pyqs": {"status": "foundation-ready", "fabricationPolicy": "Never fabricate PYQs"},
+    "ncertSearch": {"status": "foundation-ready", "fullBookReproduction": false},
+    "askScrutiny": {"status": "backend-not-connected", "clientSideApiKeysAllowed": false},
+    "progress": {"status": "active-local-storage", "cloudSync": false},
+    "universalSearch": {"status": "active-legacy-migration-planned"}
+  },
+  "displayPolicy": {
+    "showOnlyActualCounts": true,
+    "neverClaimUnpublishedFeatures": true,
+    "neverInventSourcesOrPageNumbers": true
+  }
+}
