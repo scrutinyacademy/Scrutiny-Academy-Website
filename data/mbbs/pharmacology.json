@@ -1,0 +1,51 @@
+{
+  "subject": "Pharmacology",
+  "key": "pharmacology",
+  "phase": "Para-Clinical (Phase 2)",
+  "icon": "\ud83d\udc8a",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "General Principles",
+    "Autonomic & Cardiovascular",
+    "Antimicrobial & Chemotherapy"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-pharmacology-master",
+      "name": "Pharmacology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-PHAR-001",
+          "question": "The drug of choice for the immediate management of severe acute anaphylactic shock is:",
+          "options": [
+            "Intravenous hydrocortisone",
+            "Intramuscular epinephrine (adrenaline 1:1000)",
+            "Oral cetirizine",
+            "Intravenous salbutamol"
+          ],
+          "answer": 1,
+          "explanation": "Intramuscular adrenaline (0.5 mg in adults, 1:1000) is the first-line lifesaving drug for anaphylaxis due to its alpha-1 (vasoconstriction), beta-1 (inotropic/chronotropic), and beta-2 (bronchodilation) agonist effects.",
+          "difficulty": "Easy",
+          "topic": "Autonomic Pharmacology",
+          "subject": "Pharmacology"
+        },
+        {
+          "id": "MBBS-PHAR-002",
+          "question": "A patient on warfarin therapy develops acute major bleeding. What is the most rapid reversal agent?",
+          "options": [
+            "Vitamin K1 (Phytomenadione)",
+            "Prothrombin Complex Concentrate (PCC)",
+            "Protamine sulfate",
+            "Tranexamic acid"
+          ],
+          "answer": 1,
+          "explanation": "4-factor Prothrombin Complex Concentrate (PCC) along with IV vitamin K provides immediate restoration of functional clotting factors II, VII, IX, and X.",
+          "difficulty": "Medium",
+          "topic": "Hematological Drugs",
+          "subject": "Pharmacology"
+        }
+      ]
+    }
+  ]
+}

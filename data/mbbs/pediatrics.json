@@ -1,0 +1,36 @@
+{
+  "subject": "Pediatrics",
+  "key": "pediatrics",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83d\udc76",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Neonatology",
+    "Growth & Development",
+    "Pediatric Infections & Nutrition"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-pediatrics-master",
+      "name": "Pediatrics High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-PEDI-001",
+          "question": "A newborn infant is evaluated 1 minute after birth: heart rate is 120 bpm, vigorous cry, active motion of all extremities, prompt cough reflex to suction, and body pink with blue hands and feet. What is the Apgar score?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "answer": 2,
+          "explanation": "Heart rate >100 (2), Cry (2), Muscle tone (2), Reflex irritability (2), Color (acrocyanosis = 1). Total APGAR = 9.",
+          "difficulty": "Medium",
+          "topic": "Neonatology",
+          "subject": "Pediatrics"
+        }
+      ]
+    }
+  ]
+}

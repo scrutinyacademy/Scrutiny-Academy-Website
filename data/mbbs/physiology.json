@@ -1,0 +1,67 @@
+{
+  "subject": "Physiology",
+  "key": "physiology",
+  "phase": "Pre-Clinical (Phase 1)",
+  "icon": "\ud83e\udde0",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "General & Nerve-Muscle",
+    "Cardiovascular System",
+    "Respiratory Physiology",
+    "Renal & Endocrine"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-physiology-master",
+      "name": "Physiology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-PHYS-001",
+          "question": "Which phase of the cardiac ventricular action potential is primarily maintained by inward calcium influx through L-type Ca2+ channels?",
+          "options": [
+            "Phase 0 (Rapid depolarization)",
+            "Phase 1 (Early repolarization)",
+            "Phase 2 (Plateau phase)",
+            "Phase 3 (Rapid repolarization)"
+          ],
+          "answer": 2,
+          "explanation": "Phase 2 plateau is mediated by balanced inward Ca2+ current through L-type calcium channels and outward delayed rectifier K+ current.",
+          "difficulty": "Medium",
+          "topic": "Cardiovascular Physiology",
+          "subject": "Physiology"
+        },
+        {
+          "id": "MBBS-PHYS-002",
+          "question": "Surfactant lines the alveolar surface to prevent atelectasis primarily by reducing surface tension. What is its major phospholipid constituent?",
+          "options": [
+            "Sphingomyelin",
+            "Dipalmitoylphosphatidylcholine (DPPC)",
+            "Phosphatidylserine",
+            "Cardiolipin"
+          ],
+          "answer": 1,
+          "explanation": "DPPC (dipalmitoylphosphatidylcholine) synthesized by type II alveolar pneumocytes is the primary surface-active component of pulmonary surfactant.",
+          "difficulty": "Easy",
+          "topic": "Respiratory Physiology",
+          "subject": "Physiology"
+        },
+        {
+          "id": "MBBS-PHYS-003",
+          "question": "The primary physiological stimulus for the release of aldosterone from the adrenal zona glomerulosa is:",
+          "options": [
+            "Hypertension",
+            "Hyperkalemia and Angiotensin II",
+            "Hypokalemia and ANP",
+            "Hypernatremia"
+          ],
+          "answer": 1,
+          "explanation": "Elevated serum potassium (hyperkalemia) directly stimulates the adrenal cortex, and decreased renal perfusion triggers the renin-angiotensin-aldosterone axis.",
+          "difficulty": "Medium",
+          "topic": "Renal & Endocrine",
+          "subject": "Physiology"
+        }
+      ]
+    }
+  ]
+}

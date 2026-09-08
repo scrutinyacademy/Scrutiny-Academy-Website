@@ -1,0 +1,827 @@
+{
+  "subject": "Mathematics",
+  "curriculum": "Telangana SSC Class 10",
+  "icon": "\ud83d\udcd0",
+  "description": "Telangana State Board Class 10 Mathematics covering Real Numbers, Sets, Polynomials, Linear Equations, Quadratic Equations, Progressions, Coordinate Geometry, Trigonometry, and Statistics.",
+  "chapters": [
+    {
+      "id": "c10-math-ch1",
+      "name": "Real Numbers",
+      "overview": "Euclid's Division Lemma, Fundamental Theorem of Arithmetic, proving irrationality of sqrt(2), sqrt(3), decimal expansions of rational numbers, and logarithmic fundamentals.",
+      "vsaq": [
+        {
+          "id": "MATH-VSAQ-01",
+          "question": "State Euclid's Division Lemma.",
+          "answer": "Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 <= r < b.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "MATH-VSAQ-02",
+          "question": "State the Fundamental Theorem of Arithmetic.",
+          "answer": "Every composite number can be uniquely expressed as a product of prime powers, apart from the order in which the prime factors occur.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "MATH-VSAQ-03",
+          "question": "What is the condition for a rational number p/q to have a terminating decimal expansion?",
+          "answer": "The prime factorization of denominator q must be of the form 2^n * 5^m, where n and m are non-negative integers.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "MATH-VSAQ-04",
+          "question": "Evaluate log_2(32).",
+          "answer": "Since 32 = 2^5, log_2(32) = log_2(2^5) = 5 * log_2(2) = 5.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "MATH-VSAQ-05",
+          "question": "Write the relationship between HCF and LCM of two positive integers a and b.",
+          "answer": "HCF(a, b) * LCM(a, b) = a * b.",
+          "marks": 1,
+          "difficulty": "Easy"
+        }
+      ],
+      "saq": [
+        {
+          "id": "MATH-SAQ-01",
+          "question": "Find the HCF of 96 and 404 using prime factorization, and hence find their LCM.",
+          "answer": "96 = 2^5 * 3 = 32 * 3. 404 = 2^2 * 101 = 4 * 101. HCF = 2^2 = 4. Using LCM * HCF = a * b: LCM = (96 * 404) / 4 = 96 * 101 = 9696.",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "MATH-SAQ-02",
+          "question": "Prove that 3 + 2*sqrt(5) is an irrational number, given that sqrt(5) is irrational.",
+          "answer": "Assume on the contrary that 3 + 2*sqrt(5) is rational = a/b (b != 0, coprime a, b). Then 2*sqrt(5) = a/b - 3 = (a - 3b)/b => sqrt(5) = (a - 3b)/(2b). Since a and b are integers, (a - 3b)/(2b) is rational. This implies sqrt(5) is rational, contradicting the established fact that sqrt(5) is irrational. Hence 3 + 2*sqrt(5) is irrational.",
+          "marks": 4,
+          "difficulty": "Medium"
+        }
+      ],
+      "laq": [
+        {
+          "id": "MATH-LAQ-01",
+          "question": "Prove that sqrt(2) is an irrational number using the method of contradiction.",
+          "answer": "Proof: Assume sqrt(2) is rational = p/q where p and q are coprime integers and q != 0. Squaring both sides: 2 = p^2 / q^2 => p^2 = 2q^2. Thus 2 divides p^2, which implies 2 divides p (by Fundamental Theorem of Arithmetic). Let p = 2k for some integer k. Substituting: (2k)^2 = 2q^2 => 4k^2 = 2q^2 => q^2 = 2k^2. Thus 2 divides q^2, which implies 2 divides q. Therefore, both p and q share at least 2 as a common factor. This contradicts our premise that p and q are coprime. Hence sqrt(2) must be irrational.",
+          "marks": 8,
+          "difficulty": "Hard"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "C10-MATH-CH1-001",
+          "question": "The HCF of 12 and 18 is:",
+          "options": [
+            "6",
+            "36",
+            "3",
+            "2"
+          ],
+          "answer": 0,
+          "explanation": "Factors of 12: 2^2 * 3; factors of 18: 2 * 3^2. Common prime factors: 2 * 3 = 6.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-002",
+          "question": "The LCM of 12 and 18 is:",
+          "options": [
+            "6",
+            "36",
+            "72",
+            "54"
+          ],
+          "answer": 1,
+          "explanation": "LCM = 2^2 * 3^2 = 4 * 9 = 36.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-003",
+          "question": "Which of the following numbers has a terminating decimal expansion?",
+          "options": [
+            "17 / 8",
+            "10 / 3",
+            "7 / 75",
+            "29 / 343"
+          ],
+          "answer": 0,
+          "explanation": "The denominator 8 = 2^3, which is of the form 2^n * 5^m with m = 0.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-004",
+          "question": "If log_10(x) = 3, then the value of x is:",
+          "options": [
+            "30",
+            "1000",
+            "300",
+            "100"
+          ],
+          "answer": 1,
+          "explanation": "By definition of logarithm, x = 10^3 = 1000.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-005",
+          "question": "If HCF(306, 657) = 9, what is LCM(306, 657)?",
+          "options": [
+            "22338",
+            "22383",
+            "22833",
+            "23238"
+          ],
+          "answer": 0,
+          "explanation": "LCM = (a * b) / HCF = (306 * 657) / 9 = 34 * 657 = 22338.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-006",
+          "question": "Which of the following is an irrational number?",
+          "options": [
+            "sqrt(4)",
+            "sqrt(9)",
+            "sqrt(5)",
+            "3.141414... (repeating)"
+          ],
+          "answer": 2,
+          "explanation": "sqrt(5) cannot be expressed as a ratio of two integers and its decimal expansion is non-terminating and non-recurring.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-007",
+          "question": "If a and b are two coprime numbers, then their HCF is:",
+          "options": [
+            "0",
+            "1",
+            "a * b",
+            "a + b"
+          ],
+          "answer": 1,
+          "explanation": "By definition, coprime numbers have no common positive integer factor other than 1.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-008",
+          "question": "The decimal expansion of 23 / (2^3 * 5^2) terminates after how many decimal places?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": 2,
+          "explanation": "The number of terminating decimal places is max(n, m) = max(3, 2) = 3.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-009",
+          "question": "What is the value of log_a(1) for any valid base a > 0 (a != 1)?",
+          "options": [
+            "1",
+            "0",
+            "a",
+            "Undefined"
+          ],
+          "answer": 1,
+          "explanation": "Since a^0 = 1, log_a(1) = 0.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-010",
+          "question": "The product of a non-zero rational number and an irrational number is always:",
+          "options": [
+            "Rational",
+            "Irrational",
+            "Zero",
+            "Integer"
+          ],
+          "answer": 1,
+          "explanation": "The product of any non-zero rational number with an irrational number is always irrational.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-011",
+          "question": "The discriminant of the quadratic equation 2x^2 - 4x + 3 = 0 is:",
+          "options": [
+            "-8",
+            "8",
+            "-40",
+            "16"
+          ],
+          "answer": 0,
+          "explanation": "D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-012",
+          "question": "If discriminant D < 0, the roots of the quadratic equation ax^2 + bx + c = 0 are:",
+          "options": [
+            "Real and equal",
+            "Real and unequal",
+            "Complex / No real roots",
+            "Rational and equal"
+          ],
+          "answer": 2,
+          "explanation": "A negative discriminant means square root of negative number, yielding non-real complex conjugate roots.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-013",
+          "question": "The sum of the roots of the quadratic equation 3x^2 - 5x + 2 = 0 is:",
+          "options": [
+            "5/3",
+            "-5/3",
+            "2/3",
+            "-2/3"
+          ],
+          "answer": 0,
+          "explanation": "Sum of roots alpha + beta = -b / a = -(-5) / 3 = 5/3.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-014",
+          "question": "The product of the roots of 3x^2 - 5x + 2 = 0 is:",
+          "options": [
+            "5/3",
+            "-5/3",
+            "2/3",
+            "-2/3"
+          ],
+          "answer": 2,
+          "explanation": "Product of roots alpha * beta = c / a = 2 / 3.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-015",
+          "question": "If one root of x^2 - kx + 6 = 0 is 2, the value of k is:",
+          "options": [
+            "5",
+            "-5",
+            "3",
+            "6"
+          ],
+          "answer": 0,
+          "explanation": "Substitute x = 2: 2^2 - 2k + 6 = 0 => 4 - 2k + 6 = 0 => 2k = 10 => k = 5.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-016",
+          "question": "The nth term of an Arithmetic Progression with first term a and common difference d is:",
+          "options": [
+            "a + nd",
+            "a + (n - 1)d",
+            "a + (n + 1)d",
+            "na + d"
+          ],
+          "answer": 1,
+          "explanation": "Standard AP formula: T_n = a + (n - 1)d.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-017",
+          "question": "The 10th term of the AP: 2, 7, 12, 17... is:",
+          "options": [
+            "47",
+            "52",
+            "45",
+            "50"
+          ],
+          "answer": 0,
+          "explanation": "a = 2, d = 7 - 2 = 5. T_10 = 2 + (10 - 1)*5 = 2 + 45 = 47.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-018",
+          "question": "Sum of the first n terms of an AP is given by:",
+          "options": [
+            "(n/2)[2a + (n - 1)d]",
+            "n[a + (n - 1)d]",
+            "(n/2)[a + (n - 1)d]",
+            "n(a + l)"
+          ],
+          "answer": 0,
+          "explanation": "S_n = (n/2)[2a + (n - 1)d] = (n/2)[a + l].",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-019",
+          "question": "Distance between the points (0, 0) and (3, 4) is:",
+          "options": [
+            "7",
+            "5",
+            "1",
+            "25"
+          ],
+          "answer": 1,
+          "explanation": "Distance d = sqrt((3 - 0)^2 + (4 - 0)^2) = sqrt(9 + 16) = sqrt(25) = 5.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-020",
+          "question": "The coordinates of the midpoint of line segment joining (2, 3) and (4, 7) are:",
+          "options": [
+            "(3, 5)",
+            "(6, 10)",
+            "(1, 2)",
+            "(3, 4)"
+          ],
+          "answer": 0,
+          "explanation": "Midpoint = ((2 + 4)/2, (3 + 7)/2) = (6/2, 10/2) = (3, 5).",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-021",
+          "question": "If sin(theta) = 3/5, what is cos(theta) for acute angle theta?",
+          "options": [
+            "4/5",
+            "5/4",
+            "3/4",
+            "5/3"
+          ],
+          "answer": 0,
+          "explanation": "cos(theta) = sqrt(1 - sin^2(theta)) = sqrt(1 - 9/25) = sqrt(16/25) = 4/5.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-022",
+          "question": "The value of sin^2(45 deg) + cos^2(45 deg) is:",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "1/2"
+          ],
+          "answer": 1,
+          "explanation": "By Pythagorean identity sin^2(x) + cos^2(x) = 1 for all angles x.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-023",
+          "question": "Value of tan(45 deg) is:",
+          "options": [
+            "0",
+            "1",
+            "sqrt(3)",
+            "1/sqrt(3)"
+          ],
+          "answer": 1,
+          "explanation": "tan(45 deg) = sin(45)/cos(45) = (1/sqrt(2)) / (1/sqrt(2)) = 1.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-024",
+          "question": "The value of sin(60 deg) * cos(30 deg) + cos(60 deg) * sin(30 deg) is:",
+          "options": [
+            "1",
+            "0",
+            "1/2",
+            "sqrt(3)/2"
+          ],
+          "answer": 0,
+          "explanation": "Using sin(A + B) = sin(60 + 30) = sin(90 deg) = 1.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-025",
+          "question": "A die is thrown once. The probability of getting a prime number is:",
+          "options": [
+            "1/6",
+            "1/2",
+            "1/3",
+            "2/3"
+          ],
+          "answer": 1,
+          "explanation": "Prime outcomes from {1, 2, 3, 4, 5, 6} are {2, 3, 5} (3 favorable outcomes). P = 3/6 = 1/2.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-026",
+          "question": "The probability of an impossible event is:",
+          "options": [
+            "0",
+            "1",
+            "-1",
+            "0.5"
+          ],
+          "answer": 0,
+          "explanation": "An impossible event has no favorable outcomes in the sample space, so its probability is 0.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-027",
+          "question": "If P(E) = 0.05, then the probability of 'not E' is:",
+          "options": [
+            "0.95",
+            "0.05",
+            "0.5",
+            "1.05"
+          ],
+          "answer": 0,
+          "explanation": "P(not E) = 1 - P(E) = 1 - 0.05 = 0.95.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-028",
+          "question": "The mean of the first five natural numbers (1, 2, 3, 4, 5) is:",
+          "options": [
+            "2",
+            "3",
+            "2.5",
+            "4"
+          ],
+          "answer": 1,
+          "explanation": "Mean = (1 + 2 + 3 + 4 + 5) / 5 = 15 / 5 = 3.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-029",
+          "question": "The mode of the data: 2, 3, 5, 3, 7, 3, 8, 2 is:",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "8"
+          ],
+          "answer": 1,
+          "explanation": "Mode is the value that appears with the highest frequency. Number 3 appears 3 times.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-030",
+          "question": "The empirical relationship between Mean, Median, and Mode is:",
+          "options": [
+            "Mode = 3 Median - 2 Mean",
+            "Mode = 2 Median - 3 Mean",
+            "Median = 3 Mode - 2 Mean",
+            "Mean = 3 Median - Mode"
+          ],
+          "answer": 0,
+          "explanation": "Standard empirical formula: Mode = 3*Median - 2*Mean.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-031",
+          "question": "If log_2(x) + log_2(4) = 5, then x equals:",
+          "options": [
+            "8",
+            "16",
+            "32",
+            "4"
+          ],
+          "answer": 0,
+          "explanation": "log_2(x * 4) = 5 => 4x = 2^5 = 32 => x = 8.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-032",
+          "question": "Every positive even integer is of the form:",
+          "options": [
+            "2q",
+            "2q + 1",
+            "4q + 1",
+            "2q - 1"
+          ],
+          "answer": 0,
+          "explanation": "Any integer divisible by 2 with zero remainder has the form 2q where q is an integer.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-033",
+          "question": "Every positive odd integer can be expressed in the form:",
+          "options": [
+            "2q",
+            "2q + 1",
+            "4q",
+            "6q"
+          ],
+          "answer": 1,
+          "explanation": "Dividing an odd integer by 2 leaves a remainder of 1, hence 2q + 1.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-034",
+          "question": "The largest number that divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
+          "options": [
+            "13",
+            "65",
+            "875",
+            "1750"
+          ],
+          "answer": 0,
+          "explanation": "Find HCF of (70 - 5 = 65) and (125 - 8 = 117). 65 = 5 * 13, 117 = 9 * 13. HCF is 13.",
+          "difficulty": "Hard",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-035",
+          "question": "Which of the following equations has 2 as a root?",
+          "options": [
+            "x^2 - 4x + 5 = 0",
+            "x^2 + 3x - 12 = 0",
+            "2x^2 - 7x + 6 = 0",
+            "3x^2 - 6x - 2 = 0"
+          ],
+          "answer": 2,
+          "explanation": "Test x=2 in 2(4) - 7(2) + 6 = 8 - 14 + 6 = 0. Satisfies.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-036",
+          "question": "The roots of 2x^2 - 6x + 3 = 0 are:",
+          "options": [
+            "Real, unequal and irrational",
+            "Real and equal",
+            "Not real",
+            "Rational and unequal"
+          ],
+          "answer": 0,
+          "explanation": "D = (-6)^2 - 4(2)(3) = 36 - 24 = 12 > 0 (not a perfect square), so roots are real, unequal, and irrational.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-037",
+          "question": "If the common difference of an AP is 5, then a_18 - a_13 is:",
+          "options": [
+            "5",
+            "20",
+            "25",
+            "30"
+          ],
+          "answer": 2,
+          "explanation": "a_18 - a_13 = (a + 17d) - (a + 12d) = 5d = 5 * 5 = 25.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-038",
+          "question": "How many two-digit numbers are divisible by 3?",
+          "options": [
+            "25",
+            "30",
+            "32",
+            "33"
+          ],
+          "answer": 1,
+          "explanation": "First two-digit number divisible by 3 is 12; last is 99. 99 = 12 + (n - 1)*3 => 87 = 3(n - 1) => n - 1 = 29 => n = 30.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-039",
+          "question": "The point on the x-axis which is equidistant from (-1, 0) and (5, 0) is:",
+          "options": [
+            "(2, 0)",
+            "(3, 0)",
+            "(0, 2)",
+            "(2, 2)"
+          ],
+          "answer": 0,
+          "explanation": "Midpoint between (-1, 0) and (5, 0) is ((-1 + 5)/2, 0) = (2, 0).",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-040",
+          "question": "The area of a triangle with vertices (0, 0), (4, 0), and (0, 3) is:",
+          "options": [
+            "12 sq units",
+            "6 sq units",
+            "7 sq units",
+            "5 sq units"
+          ],
+          "answer": 1,
+          "explanation": "Right-angled triangle at origin with base 4 and height 3: Area = 1/2 * base * height = 1/2 * 4 * 3 = 6.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-041",
+          "question": "If sec(theta) + tan(theta) = p, then sec(theta) - tan(theta) equals:",
+          "options": [
+            "1 / p",
+            "p^2",
+            "p - 1",
+            "-p"
+          ],
+          "answer": 0,
+          "explanation": "Since sec^2(theta) - tan^2(theta) = 1, (sec + tan)(sec - tan) = 1 => sec - tan = 1/p.",
+          "difficulty": "Hard",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-042",
+          "question": "Evaluate: (1 + tan^2(theta)) * cos^2(theta):",
+          "options": [
+            "0",
+            "1",
+            "sec^2(theta)",
+            "sin^2(theta)"
+          ],
+          "answer": 1,
+          "explanation": "1 + tan^2(theta) = sec^2(theta). sec^2(theta) * cos^2(theta) = 1.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-043",
+          "question": "If cos(A) = 1/2 and sin(B) = 1/2, then (A + B) where A and B are acute is:",
+          "options": [
+            "60 deg",
+            "90 deg",
+            "45 deg",
+            "30 deg"
+          ],
+          "answer": 1,
+          "explanation": "A = 60 deg, B = 30 deg. A + B = 60 + 30 = 90 deg.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-044",
+          "question": "A card is drawn from a well-shuffled deck of 52 playing cards. The probability of getting a king of red colour is:",
+          "options": [
+            "1/26",
+            "1/13",
+            "1/52",
+            "2/13"
+          ],
+          "answer": 0,
+          "explanation": "There are 2 red kings (hearts and diamonds). P = 2 / 52 = 1 / 26.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-045",
+          "question": "Which measure of central tendency is determined graphically by the point of intersection of less-than and more-than ogives?",
+          "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Variance"
+          ],
+          "answer": 1,
+          "explanation": "The x-coordinate of the intersection point of less-than and more-than ogives represents the Median.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-046",
+          "question": "If the mean of 6, 8, 9, x, 13 is 10, then the value of x is:",
+          "options": [
+            "12",
+            "14",
+            "16",
+            "10"
+          ],
+          "answer": 1,
+          "explanation": "Sum = 6 + 8 + 9 + x + 13 = 36 + x. 36 + x = 5 * 10 = 50 => x = 14.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-047",
+          "question": "The total surface area of a solid hemisphere of radius r is:",
+          "options": [
+            "2 * pi * r^2",
+            "3 * pi * r^2",
+            "4 * pi * r^2",
+            "2/3 * pi * r^3"
+          ],
+          "answer": 1,
+          "explanation": "Curved surface area (2*pi*r^2) + flat circular base (pi*r^2) = 3*pi*r^2.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-048",
+          "question": "Volume of a cone with radius r and height h is:",
+          "options": [
+            "pi * r^2 * h",
+            "1/3 * pi * r^2 * h",
+            "4/3 * pi * r^3",
+            "2/3 * pi * r^2 * h"
+          ],
+          "answer": 1,
+          "explanation": "Formula for volume of a circular cone is (1/3)*pi*r^2*h.",
+          "difficulty": "Easy",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-049",
+          "question": "If tan(theta) = cot(30 deg + theta), then acute theta is:",
+          "options": [
+            "30 deg",
+            "60 deg",
+            "45 deg",
+            "15 deg"
+          ],
+          "answer": 0,
+          "explanation": "tan(theta) = tan(90 - (30 + theta)) => theta = 60 - theta => 2*theta = 60 => theta = 30 deg.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        },
+        {
+          "id": "C10-MATH-CH1-050",
+          "question": "The decimal expansion of 73 / (2^4 * 5^3) has how many decimal places?",
+          "options": [
+            "3",
+            "4",
+            "7",
+            "1"
+          ],
+          "answer": 1,
+          "explanation": "Highest power of 2 or 5 in denominator is max(4, 3) = 4 decimal places.",
+          "difficulty": "Medium",
+          "chapter": "Real Numbers",
+          "subject": "Mathematics"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "subject": "Microbiology",
+  "key": "microbiology",
+  "phase": "Para-Clinical (Phase 2)",
+  "icon": "\ud83e\uddeb",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Bacteriology",
+    "Virology",
+    "Parasitology & Mycology"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-microbiology-master",
+      "name": "Microbiology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-MICR-001",
+          "question": "The diagnostic 'rice water' watery stool containing darting motile vibrios is characteristic of infection by:",
+          "options": [
+            "Salmonella Typhi",
+            "Vibrio cholerae",
+            "Shigella dysenteriae",
+            "Entamoeba histolytica"
+          ],
+          "answer": 1,
+          "explanation": "Vibrio cholerae produces cholera enterotoxin (choleragen), which causes permanent activation of adenylate cyclase, resulting in voluminous non-bloody secretory diarrhea.",
+          "difficulty": "Easy",
+          "topic": "Bacteriology",
+          "subject": "Microbiology"
+        }
+      ]
+    }
+  ]
+}

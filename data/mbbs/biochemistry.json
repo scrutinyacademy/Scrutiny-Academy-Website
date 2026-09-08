@@ -1,0 +1,51 @@
+{
+  "subject": "Biochemistry",
+  "key": "biochemistry",
+  "phase": "Pre-Clinical (Phase 1)",
+  "icon": "\ud83e\uddec",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Carbohydrate Metabolism",
+    "Lipid & Protein Metabolism",
+    "Molecular Genetics & Enzymology"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-biochemistry-master",
+      "name": "Biochemistry High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-BIOC-001",
+          "question": "The rate-limiting and committed regulatory enzyme of glycolysis is:",
+          "options": [
+            "Hexokinase",
+            "Phosphofructokinase-1 (PFK-1)",
+            "Pyruvate kinase",
+            "Aldolase"
+          ],
+          "answer": 1,
+          "explanation": "PFK-1 catalyzes the irreversible phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, allosterically activated by AMP and fructose-2,6-bisphosphate.",
+          "difficulty": "Easy",
+          "topic": "Metabolism",
+          "subject": "Biochemistry"
+        },
+        {
+          "id": "MBBS-BIOC-002",
+          "question": "Which inborn error of metabolism is caused by a deficiency of the enzyme homogentisate 1,2-dioxygenase?",
+          "options": [
+            "Phenylketonuria (PKU)",
+            "Alkaptonuria",
+            "Maple Syrup Urine Disease",
+            "Homocystinuria"
+          ],
+          "answer": 1,
+          "explanation": "Alkaptonuria results from homogentisate oxidase deficiency, causing accumulation of homogentisic acid, black urine on standing, and ochronotic arthritis.",
+          "difficulty": "Medium",
+          "topic": "Inborn Errors of Metabolism",
+          "subject": "Biochemistry"
+        }
+      ]
+    }
+  ]
+}

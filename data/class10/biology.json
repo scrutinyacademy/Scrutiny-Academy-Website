@@ -1,0 +1,841 @@
+{
+  "subject": "Biology",
+  "curriculum": "Telangana SSC Class 10",
+  "icon": "\ud83e\uddec",
+  "description": "Telangana State Board Class 10 Biology covering Life Processes, Control and Coordination, Reproduction, Heredity, and Environmental Ecology.",
+  "chapters": [
+    {
+      "id": "c10-bio-ch1",
+      "name": "Nutrition - Food Supplying System",
+      "overview": "Comprehensive study of autotrophic and heterotrophic nutrition, chloroplast structure, light and dark reactions of photosynthesis, factors affecting photosynthesis, and human digestive system.",
+      "vsaq": [
+        {
+          "id": "BIO-VSAQ-01",
+          "question": "What is the primary photosynthetic pigment present in plants?",
+          "answer": "Chlorophyll-a is the primary photosynthetic pigment, acting as the reaction center that converts solar energy into chemical energy.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "BIO-VSAQ-02",
+          "question": "Which enzyme initiates the digestion of carbohydrates in the human mouth?",
+          "answer": "Salivary amylase (also known as ptyalin) initiates the breakdown of starch into maltose.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "BIO-VSAQ-03",
+          "question": "Name the cell organelle where the photochemical (light) reaction occurs.",
+          "answer": "The light reaction takes place in the grana thylakoid membranes of the chloroplast.",
+          "marks": 1,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "BIO-VSAQ-04",
+          "question": "Why is KOH solution used in Mohl's half-leaf experiment?",
+          "answer": "Potassium hydroxide (KOH) absorbs carbon dioxide (CO2) from the air inside the bottle, proving that CO2 is essential for photosynthesis.",
+          "marks": 1,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "BIO-VSAQ-05",
+          "question": "What is emulsification and which digestive juice performs it?",
+          "answer": "Emulsification is the breakdown of large fat globules into tiny droplets by bile salts present in bile juice produced by the liver.",
+          "marks": 2,
+          "difficulty": "Medium"
+        }
+      ],
+      "saq": [
+        {
+          "id": "BIO-SAQ-01",
+          "question": "Differentiate between light-dependent reaction and light-independent reaction of photosynthesis.",
+          "answer": "Light-dependent reaction occurs in grana, requires direct sunlight, photolysis of water releases O2, and produces assimilatory power (ATP and NADPH). Light-independent reaction (Calvin cycle) occurs in stroma, does not directly require light, and utilizes ATP and NADPH to reduce CO2 into glucose.",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "BIO-SAQ-02",
+          "question": "Explain the role of hydrochloric acid (HCl) in gastric juice.",
+          "answer": "Hydrochloric acid (HCl): 1) Creates an acidic pH (1.5-2.5) necessary for the activation of inactive pepsinogen into active pepsin. 2) Kills ingested harmful bacteria and pathogens. 3) Softens hard food particles and prevents food putrefaction.",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "BIO-SAQ-03",
+          "question": "Describe the structural adaptations of the small intestine for efficient absorption.",
+          "answer": "The small intestine has: 1) Very large surface area provided by millions of microscopic finger-like projections called villi and microvilli. 2) Rich vascular network of blood capillaries and central lacteals (lymph vessels). 3) Extremely thin single-cell thick epithelial layer enabling rapid diffusion and active transport.",
+          "marks": 4,
+          "difficulty": "Hard"
+        }
+      ],
+      "laq": [
+        {
+          "id": "BIO-LAQ-01",
+          "question": "Explain the step-by-step mechanism of photosynthesis with balanced chemical equations.",
+          "answer": "Photosynthesis is represented by the equation: 6CO2 + 12H2O --(Light/Chlorophyll)--> C6H12O6 + 6H2O + 6O2. Mechanism comprises: 1) Light Reaction (Grana): Chlorophyll absorbs photons, gets excited; Photolysis of water (Hill's reaction): 2H2O -> 4H+ + 4e- + O2; Formation of assimilatory power: Photophosphorylation generates ATP and NADP is reduced to NADPH. 2) Dark Reaction (Stroma): RuBP (Ribulose 1,5-bisphosphate) fixes CO2 catalyzed by RuBisCO enzyme through Calvin cycle; Utilizes ATP and NADPH to synthesize phosphoglyceraldehyde (PGAL) and ultimately glucose, which is stored as starch.",
+          "marks": 8,
+          "difficulty": "Hard"
+        },
+        {
+          "id": "BIO-LAQ-02",
+          "question": "Describe the complete process of human digestion from mouth to large intestine, highlighting key enzymes and secretions.",
+          "answer": "1) Mouth: Teeth chew food (mastication); salivary amylase converts starch to maltose; bolus formed. 2) Oesophagus: Peristaltic movement pushes bolus into stomach. 3) Stomach: Gastric juice contains HCl, pepsin (digests proteins into proteoses and peptones), and mucus (protects stomach lining); creates semi-liquid chyme. 4) Small Intestine (Duodenum): Liver delivers bile (emulsifies fats); Pancreas secretes trypsin (proteins), pancreatic amylase (starch), pancreatic lipase (fats); Intestinal juice (succus entericus) contains peptidases, maltase, lactase, sucrase, completing digestion into amino acids, glucose, fatty acids, and glycerol. Villi absorb nutrients. 5) Large Intestine: Absorbs water and minerals; compacts undigested residue into faeces expelled via rectum and anus.",
+          "marks": 8,
+          "difficulty": "Hard"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "C10-BIO-CH1-001",
+          "question": "Which gas is liberated during the photolysis of water in photosynthesis?",
+          "options": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Methane"
+          ],
+          "answer": 1,
+          "explanation": "Photolysis of water (splitting of water in the presence of light and chlorophyll) releases molecular oxygen (O2) into the atmosphere.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-002",
+          "question": "Assimilatory power generated during the light-dependent phase consists of:",
+          "options": [
+            "Glucose and Starch",
+            "ATP and NADPH",
+            "ADP and NADP",
+            "Pyruvate and Acetyl-CoA"
+          ],
+          "answer": 1,
+          "explanation": "ATP (Adenosine Triphosphate) and NADPH (Nicotinamide Adenine Dinucleotide Phosphate) constitute assimilatory power used in the dark phase.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-003",
+          "question": "In Mohl's half-leaf experiment, the part of the leaf inside the bottle containing KOH turns:",
+          "options": [
+            "Blue-black with iodine",
+            "Does not turn blue-black with iodine",
+            "Bright red",
+            "Purple"
+          ],
+          "answer": 1,
+          "explanation": "The leaf portion inside the bottle lacked CO2 (absorbed by KOH), so starch was not synthesized, yielding a negative iodine test.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-004",
+          "question": "Which region of the chloroplast contains the enzymes required for dark reactions?",
+          "options": [
+            "Thylakoid lumen",
+            "Grana lamellae",
+            "Stroma",
+            "Outer chloroplast envelope"
+          ],
+          "answer": 2,
+          "explanation": "The stroma is the fluid matrix containing soluble enzymes, including RuBisCO, needed for the light-independent Calvin cycle.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-005",
+          "question": "What is the product of anaerobic respiration in yeast cells?",
+          "options": [
+            "Lactic acid + Energy",
+            "Ethanol + CO2 + Energy",
+            "Pyruvate + Water",
+            "Carbonic acid"
+          ],
+          "answer": 1,
+          "explanation": "In yeast (alcoholic fermentation), pyruvate is converted into ethanol, carbon dioxide, and 2 molecules of ATP.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-006",
+          "question": "Which of the following organisms exhibits saprophytic nutrition?",
+          "options": [
+            "Cuscuta (Dodder)",
+            "Mucor (Bread mould)",
+            "Plasmodium",
+            "Ascaris"
+          ],
+          "answer": 1,
+          "explanation": "Mucor is a saprophyte that secretes digestive enzymes externally onto dead organic matter and absorbs nutrients.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-007",
+          "question": "The dental formula of an adult human is:",
+          "options": [
+            "2123 / 2123",
+            "2102 / 2102",
+            "1223 / 1223",
+            "2132 / 2132"
+          ],
+          "answer": 0,
+          "explanation": "The adult human dental formula per quadrant is 2 incisors, 1 canine, 2 premolars, and 3 molars (2123/2123).",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-008",
+          "question": "Bile juice is unique among digestive secretions because it contains:",
+          "options": [
+            "Pepsin and rennin",
+            "No digestive enzymes",
+            "Amylase and lipase",
+            "Trypsin and chymotrypsin"
+          ],
+          "answer": 1,
+          "explanation": "Bile juice contains bile salts (sodium glycocholate and taurocholate) and pigments (bilirubin, biliverdin) but NO digestive enzymes.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-009",
+          "question": "Which vitamin is synthesized by symbiotic bacteria residing in the human colon?",
+          "options": [
+            "Vitamin C",
+            "Vitamin K",
+            "Vitamin A",
+            "Vitamin D"
+          ],
+          "answer": 1,
+          "explanation": "Escherichia coli and other symbiotic gut microbiota synthesize vitamin K and certain B-complex vitamins.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-010",
+          "question": "Kwashiorkor is a nutritional deficiency disorder caused primarily by severe deficiency of:",
+          "options": [
+            "Calories only",
+            "Proteins",
+            "Iron",
+            "Vitamin A"
+          ],
+          "answer": 1,
+          "explanation": "Kwashiorkor is characterized by protein deficiency with adequate calorie intake, causing oedema, pot belly, and skin lesions.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-011",
+          "question": "Marasmus differs from Kwashiorkor because Marasmus is caused by deficiency of:",
+          "options": [
+            "Both proteins and total calories",
+            "Only vitamins",
+            "Calcium and phosphorus",
+            "Only carbohydrates"
+          ],
+          "answer": 0,
+          "explanation": "Marasmus is a protein-energy malnutrition (PEM) caused by deficiency of both proteins and calories, leading to severe wasting.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-012",
+          "question": "The finger-like projections in the small intestine called villi function primarily to:",
+          "options": [
+            "Secrete hydrochloric acid",
+            "Increase surface area for absorption",
+            "Store bile juice",
+            "Produce insulin"
+          ],
+          "answer": 1,
+          "explanation": "Villi tremendously expand the luminal surface area of the small intestine to optimize nutrient absorption.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-013",
+          "question": "Which sphincter regulates the passage of food from the stomach into the duodenum?",
+          "options": [
+            "Cardiac sphincter",
+            "Pyloric sphincter",
+            "Anal sphincter",
+            "Ileocecal valve"
+          ],
+          "answer": 1,
+          "explanation": "The pyloric sphincter controls the rate of chyme emptying from the pylorus of the stomach into the duodenum.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-014",
+          "question": "Trypsinogen is activated into active trypsin by the action of:",
+          "options": [
+            "Enterokinase",
+            "Pepsin",
+            "Hydrochloric acid",
+            "Bile salts"
+          ],
+          "answer": 0,
+          "explanation": "Enterokinase (enteropeptidase) secreted by the intestinal mucosa converts inactive trypsinogen into active trypsin.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-015",
+          "question": "In which part of the alimentary canal does the maximum absorption of water take place?",
+          "options": [
+            "Stomach",
+            "Duodenum",
+            "Jejunum",
+            "Large intestine (Colon)"
+          ],
+          "answer": 3,
+          "explanation": "While small intestine absorbs majority of fluid, the colon efficiently absorbs water and electrolytes from remaining undigested residue.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-016",
+          "question": "The internal cellular structure in leaves that allows maximum light capture for photosynthesis is:",
+          "options": [
+            "Spongy parenchyma",
+            "Palisade parenchyma",
+            "Upper cuticular epidermis",
+            "Vascular bundle"
+          ],
+          "answer": 1,
+          "explanation": "Palisade parenchyma consists of vertically elongated, tightly packed cells rich in chloroplasts positioned below the upper epidermis.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-017",
+          "question": "Which reagent is used to confirm the presence of starch in a photosynthetic leaf?",
+          "options": [
+            "Benedict's reagent",
+            "Dilute iodine solution",
+            "Biuret reagent",
+            "Millon's reagent"
+          ],
+          "answer": 1,
+          "explanation": "Dilute iodine solution turns dark blue-black in the presence of starch due to the formation of a polyiodide inclusion complex.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-018",
+          "question": "The primary carbon dioxide acceptor molecule in C3 photosynthesis is:",
+          "options": [
+            "Phosphoenolpyruvate (PEP)",
+            "Ribulose 1,5-bisphosphate (RuBP)",
+            "Oxaloacetate (OAA)",
+            "Phosphoglyceric acid (PGA)"
+          ],
+          "answer": 1,
+          "explanation": "RuBP (a 5-carbon ketose sugar) combines with CO2 in the first step of the Calvin cycle, catalyzed by RuBisCO.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-019",
+          "question": "Which of the following is an example of a total parasitic plant?",
+          "options": [
+            "Viscum",
+            "Loranthus",
+            "Cuscuta",
+            "Vanda"
+          ],
+          "answer": 2,
+          "explanation": "Cuscuta (Dodder) is a non-green holoparasite that penetrates host vascular tissues using haustoria to extract organic food and water.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-020",
+          "question": "What prevents the backflow of food from the stomach into the oesophagus?",
+          "options": [
+            "Pyloric valve",
+            "Gastro-oesophageal (cardiac) sphincter",
+            "Epiglottis",
+            "Uvula"
+          ],
+          "answer": 1,
+          "explanation": "The gastro-oesophageal (cardiac) sphincter remains constricted to prevent acidic stomach contents from regurgitating into the oesophagus.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-021",
+          "question": "During daytime, stomata open primarily due to:",
+          "options": [
+            "Loss of water from guard cells",
+            "Accumulation of K+ ions and endosmosis in guard cells",
+            "Exosmosis of solutes",
+            "Closure of lenticels"
+          ],
+          "answer": 1,
+          "explanation": "Active uptake of K+ and Cl- into guard cells lowers water potential, causing endosmosis, turgidity, and opening of the stomatal pore.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-022",
+          "question": "The green colour of leaves is attributed to the presence of magnesium in:",
+          "options": [
+            "Carotenoids",
+            "Chlorophyll porphyin ring",
+            "Anthocyanins",
+            "Xanthophylls"
+          ],
+          "answer": 1,
+          "explanation": "Magnesium (Mg2+) sits at the center of the porphyrin ring structure of the chlorophyll molecule.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-023",
+          "question": "Which of the following statements about digestion in the mouth is correct?",
+          "options": [
+            "Proteins are digested into peptides",
+            "Fat is emulsified",
+            "Starch is partially digested into maltose",
+            "Cellulose is converted to glucose"
+          ],
+          "answer": 2,
+          "explanation": "Salivary amylase digests approximately 30% of dietary starch into disaccharide maltose at pH 6.8.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-024",
+          "question": "Pellagra is a deficiency disease caused by the lack of:",
+          "options": [
+            "Thiamine (B1)",
+            "Riboflavin (B2)",
+            "Niacin (B3)",
+            "Cyanocobalamin (B12)"
+          ],
+          "answer": 2,
+          "explanation": "Niacin (Vitamin B3) deficiency manifests as Pellagra, characterized by the 3Ds: Dermatitis, Diarrhea, and Dementia.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-025",
+          "question": "Beri-beri is caused by the chronic nutritional deficiency of:",
+          "options": [
+            "Vitamin B1 (Thiamine)",
+            "Vitamin C (Ascorbic acid)",
+            "Vitamin D (Calciferol)",
+            "Vitamin A (Retinol)"
+          ],
+          "answer": 0,
+          "explanation": "Deficiency of Thiamine (Vitamin B1) impairs carbohydrate metabolism and nerve conduction, resulting in Beri-beri.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-026",
+          "question": "Scurvy, characterized by spongy bleeding gums, is caused by deficiency of:",
+          "options": [
+            "Vitamin K",
+            "Vitamin C",
+            "Vitamin E",
+            "Vitamin A"
+          ],
+          "answer": 1,
+          "explanation": "Vitamin C (Ascorbic acid) is crucial for collagen synthesis; its deficiency results in fragile capillaries and scurvy.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-027",
+          "question": "Night blindness (Nyctalopia) is caused by the deficiency of:",
+          "options": [
+            "Vitamin A",
+            "Vitamin B6",
+            "Vitamin C",
+            "Vitamin D"
+          ],
+          "answer": 0,
+          "explanation": "Vitamin A is a precursor for rhodopsin (visual purple in rod cells); deficiency impairs vision in dim light.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-028",
+          "question": "Rickets in growing children is primarily caused by insufficient:",
+          "options": [
+            "Iron",
+            "Vitamin D and Calcium",
+            "Iodine",
+            "Sodium"
+          ],
+          "answer": 1,
+          "explanation": "Vitamin D promotes intestinal calcium absorption; deficiency causes impaired bone mineralization leading to soft, bowed bones.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-029",
+          "question": "Which organ produces heparin (an anticoagulant) and fibrinogen?",
+          "options": [
+            "Pancreas",
+            "Liver",
+            "Spleen",
+            "Kidney"
+          ],
+          "answer": 1,
+          "explanation": "The liver synthesizes vital plasma proteins including albumin, fibrinogen, prothrombin, and anticoagulant heparin.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-030",
+          "question": "The movement of food through the alimentary canal by rhythmic contraction of longitudinal and circular muscles is called:",
+          "options": [
+            "Deglutition",
+            "Peristalsis",
+            "Mastication",
+            "Segmentation"
+          ],
+          "answer": 1,
+          "explanation": "Peristalsis is the coordinated wave-like smooth muscle contraction that propels the food bolus through the digestive tract.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-031",
+          "question": "What is the function of mucus secreted by the goblet cells in the stomach?",
+          "options": [
+            "Digest starch",
+            "Protect gastric mucosa from acidic HCl and pepsin",
+            "Activate pancreatic enzymes",
+            "Break down lipids"
+          ],
+          "answer": 1,
+          "explanation": "Mucus forms a protective bicarbonate-rich physical and chemical barrier over the gastric epithelium.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-032",
+          "question": "In which organ are fat-soluble vitamins (A, D, E, K) predominantly stored?",
+          "options": [
+            "Pancreas",
+            "Liver",
+            "Gall bladder",
+            "Small intestine"
+          ],
+          "answer": 1,
+          "explanation": "The liver is the principal storage reservoir for fat-soluble vitamins, glycogen, iron, and copper.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-033",
+          "question": "Which organism uses pseudopodia to engulf food particles through phagocytosis?",
+          "options": [
+            "Paramecium",
+            "Amoeba",
+            "Euglena",
+            "Hydra"
+          ],
+          "answer": 1,
+          "explanation": "Amoeba extends pseudopodia around food particles to enclose them into a temporary food vacuole.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-034",
+          "question": "Paramecium captures food particles using rhythmic beating of:",
+          "options": [
+            "Flagella",
+            "Cilia directed toward the oral groove",
+            "Tentacles",
+            "Pseudopodia"
+          ],
+          "answer": 1,
+          "explanation": "Paramecium has coordinated cilia covering its pellicle that direct food particles into its cytostome (cell mouth).",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-035",
+          "question": "What is the role of bile salts in digestion?",
+          "options": [
+            "Hydrolyze peptide bonds",
+            "Lower surface tension of fat droplets for lipase action",
+            "Convert glucose to glycogen",
+            "Sterilize food"
+          ],
+          "answer": 1,
+          "explanation": "Bile salts act as natural biological detergents that emulsify dietary lipids into tiny micelles.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-036",
+          "question": "Cyanocobalamin is the chemical name of which vitamin?",
+          "options": [
+            "Vitamin B1",
+            "Vitamin B2",
+            "Vitamin B6",
+            "Vitamin B12"
+          ],
+          "answer": 3,
+          "explanation": "Vitamin B12 is cyanocobalamin, essential for red blood cell maturation and myelin sheath maintenance.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-037",
+          "question": "Excess glucose absorbed into the bloodstream is converted into glycogen and stored by the process called:",
+          "options": [
+            "Glycogenolysis",
+            "Glycogenesis",
+            "Gluconeogenesis",
+            "Glycolysis"
+          ],
+          "answer": 1,
+          "explanation": "Glycogenesis is the anabolic pathway stimulated by insulin that polymerizes glucose into glycogen in liver and muscle cells.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-038",
+          "question": "The first step in the dark reaction of photosynthesis is called:",
+          "options": [
+            "Photolysis",
+            "Carbon fixation (Carboxylation)",
+            "Reduction of PGA",
+            "Regeneration of RuBP"
+          ],
+          "answer": 1,
+          "explanation": "The first step is carbon fixation (carboxylation) where atmospheric CO2 binds to RuBP to form two molecules of 3-PGA.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-039",
+          "question": "Chlorophyll pigment is soluble in which of the following solvents?",
+          "options": [
+            "Water",
+            "Ethanol / Acetone",
+            "Dilute HCl",
+            "Sodium chloride solution"
+          ],
+          "answer": 1,
+          "explanation": "Chlorophyll has a hydrophobic phytol tail and is readily soluble in organic solvents like ethanol, acetone, and ether, but insoluble in water.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-040",
+          "question": "Which experiment proves that oxygen is evolved during photosynthesis in green aquatic plants?",
+          "options": [
+            "Mohl's half-leaf experiment",
+            "Hydrilla funnel experiment",
+            "Bell jar experiment",
+            "Starch iodine test"
+          ],
+          "answer": 1,
+          "explanation": "The inverted funnel and test tube experiment with Hydrilla collects oxygen gas bubbles that rekindle a glowing splinter.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-041",
+          "question": "Which layer of cells in a dicot leaf contains the highest concentration of chloroplasts?",
+          "options": [
+            "Upper epidermis",
+            "Palisade mesophyll",
+            "Spongy mesophyll",
+            "Lower epidermis"
+          ],
+          "answer": 1,
+          "explanation": "Palisade mesophyll cells are densely packed with chloroplasts and oriented perpendicular to the leaf surface to intercept light.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-042",
+          "question": "Haustoria in Cuscuta reach up to which host tissues to absorb nutrients?",
+          "options": [
+            "Epidermis only",
+            "Xylem and phloem",
+            "Pith only",
+            "Cortex only"
+          ],
+          "answer": 1,
+          "explanation": "Parasitic haustoria penetrate host vascular bundles: xylem connections absorb water/minerals, and phloem connections absorb sap/sucrose.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-043",
+          "question": "The end product of protein digestion ready for absorption by intestinal enterocytes is:",
+          "options": [
+            "Proteoses",
+            "Polypeptides",
+            "Amino acids",
+            "Urea"
+          ],
+          "answer": 2,
+          "explanation": "Peptidases in intestinal juice hydrolyze small peptides down to individual monomeric amino acids.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-044",
+          "question": "Which organelle is referred to as the 'Kitchen of the Plant Cell'?",
+          "options": [
+            "Mitochondrion",
+            "Chloroplast",
+            "Golgi apparatus",
+            "Endoplasmic reticulum"
+          ],
+          "answer": 1,
+          "explanation": "Chloroplasts synthesize chemical food (glucose) from inorganic raw materials using solar energy.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-045",
+          "question": "What causes the condition known as 'Glossitis'?",
+          "options": [
+            "Vitamin B2 (Riboflavin) deficiency",
+            "Vitamin C deficiency",
+            "Iron overload",
+            "Calcium deficiency"
+          ],
+          "answer": 0,
+          "explanation": "Deficiency of Vitamin B2 (Riboflavin) causes cheilosis (cracked mouth corners) and glossitis (inflamed, magenta tongue).",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-046",
+          "question": "The pancreatic enzyme that digests emulsified fats into fatty acids and glycerol is:",
+          "options": [
+            "Pepsin",
+            "Steapsin (Pancreatic lipase)",
+            "Trypsin",
+            "Rennin"
+          ],
+          "answer": 1,
+          "explanation": "Pancreatic lipase (steapsin) hydrolyzes triglyceride ester bonds to release free fatty acids and monoglycerides.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-047",
+          "question": "A child with swollen ankles, protruding belly, scaly skin, and mental apathy is likely suffering from:",
+          "options": [
+            "Marasmus",
+            "Kwashiorkor",
+            "Rickets",
+            "Anemia"
+          ],
+          "answer": 1,
+          "explanation": "Hypoalbuminemia caused by protein deficiency in Kwashiorkor leads to fluid retention (edema) and classic swollen belly.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-048",
+          "question": "Which component of human saliva possesses antibacterial and germicidal properties?",
+          "options": [
+            "Amylase",
+            "Lysozyme",
+            "Mucin",
+            "Sodium bicarbonate"
+          ],
+          "answer": 1,
+          "explanation": "Lysozyme hydrolyzes the peptidoglycan cell walls of bacteria, providing the first biological defense against pathogens.",
+          "difficulty": "Medium",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-049",
+          "question": "What is the primary site of complete digestion of carbohydrates, proteins, and fats in humans?",
+          "options": [
+            "Stomach",
+            "Small intestine",
+            "Large intestine",
+            "Oesophagus"
+          ],
+          "answer": 1,
+          "explanation": "The small intestine (specifically duodenum and jejunum) receives biliary and pancreatic enzymes to conclude all digestion.",
+          "difficulty": "Easy",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        },
+        {
+          "id": "C10-BIO-CH1-050",
+          "question": "Which scientist proved that green plants decontaminate air injured by burning candles or breathing animals?",
+          "options": [
+            "Jan Ingenhousz",
+            "Joseph Priestley",
+            "Jean Senebier",
+            "Julius von Sachs"
+          ],
+          "answer": 1,
+          "explanation": "Joseph Priestley (1774) demonstrated with bell jar experiments that a sprig of mint restored air fouled by a mouse or candle.",
+          "difficulty": "Hard",
+          "chapter": "Nutrition - Food Supplying System",
+          "subject": "Biology"
+        }
+      ]
+    }
+  ]
+}

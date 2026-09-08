@@ -1,0 +1,36 @@
+{
+  "subject": "Psychiatry",
+  "key": "psychiatry",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83e\uddd8",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Psychotic Disorders",
+    "Mood Disorders",
+    "Anxiety & Substance Use"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-psychiatry-master",
+      "name": "Psychiatry High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-PSYC-001",
+          "question": "A fixed, false, unshakeable belief held with extraordinary conviction, out of keeping with social and cultural background, is defined as a:",
+          "options": [
+            "Hallucination",
+            "Illusion",
+            "Delusion",
+            "Obsession"
+          ],
+          "answer": 2,
+          "explanation": "Delusions are fixed false beliefs not amenable to reasoning, a cardinal feature of psychotic disorders including schizophrenia.",
+          "difficulty": "Easy",
+          "topic": "Psychopathology",
+          "subject": "Psychiatry"
+        }
+      ]
+    }
+  ]
+}

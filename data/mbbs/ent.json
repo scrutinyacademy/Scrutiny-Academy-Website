@@ -1,0 +1,36 @@
+{
+  "subject": "ENT (Otolaryngology)",
+  "key": "ent",
+  "phase": "Clinical (Phase 3 Part 1)",
+  "icon": "\ud83d\udc42",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Otology",
+    "Rhinology",
+    "Laryngology"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-ent-master",
+      "name": "ENT (Otolaryngology) High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-ENT-001",
+          "question": "During a Weber tuning fork test, lateralization of sound to the diseased ear with a negative Rinne test indicates:",
+          "options": [
+            "Sensorineural hearing loss in that ear",
+            "Conductive hearing loss in that ear",
+            "Normal bilateral hearing",
+            "Presbycusis"
+          ],
+          "answer": 1,
+          "explanation": "In conductive hearing loss, bone conduction exceeds air conduction (negative Rinne: BC > AC), and sound lateralizes to the affected ear.",
+          "difficulty": "Medium",
+          "topic": "Otology",
+          "subject": "ENT (Otolaryngology)"
+        }
+      ]
+    }
+  ]
+}

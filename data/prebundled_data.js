@@ -1,0 +1,5778 @@
+/** Scrutiny Academy - Offline & GitHub Pages Fallback Data Store **/
+window.SCRUTINY_DATA = {
+  "manifest": {
+    "platform": "Scrutiny Academy",
+    "version": "1.0.0",
+    "categories": [
+      {
+        "id": "class10",
+        "name": "Class 10 SSC Telangana",
+        "tagline": "Concepts \u2022 Practice \u2022 Board Preparation",
+        "subjects": [
+          {
+            "id": "biology",
+            "name": "Biology",
+            "icon": "\ud83e\uddec",
+            "file": "data/class10/biology.json"
+          },
+          {
+            "id": "physics",
+            "name": "Physics",
+            "icon": "\u269b\ufe0f",
+            "file": "data/class10/physics.json"
+          },
+          {
+            "id": "mathematics",
+            "name": "Mathematics",
+            "icon": "\ud83d\udcd0",
+            "file": "data/class10/mathematics.json"
+          },
+          {
+            "id": "social-science",
+            "name": "Social Science",
+            "icon": "\ud83c\udf0f",
+            "file": "data/class10/social-science.json"
+          }
+        ]
+      },
+      {
+        "id": "neet",
+        "name": "NEET UG Preparation",
+        "tagline": "National Eligibility Cum Entrance Test",
+        "subjects": [
+          {
+            "id": "biology",
+            "name": "Biology",
+            "icon": "\ud83e\uddec",
+            "file": "data/neet/biology.json"
+          },
+          {
+            "id": "physics",
+            "name": "Physics",
+            "icon": "\u269b\ufe0f",
+            "file": "data/neet/physics.json"
+          },
+          {
+            "id": "chemistry",
+            "name": "Chemistry",
+            "icon": "\u2697\ufe0f",
+            "file": "data/neet/chemistry.json"
+          }
+        ]
+      },
+      {
+        "id": "mbbs",
+        "name": "MBBS / Medical Education",
+        "tagline": "Undergraduate Medical Sciences & NEXT / FMGE Preparation",
+        "subjects": [
+          {
+            "id": "anatomy",
+            "name": "Anatomy",
+            "icon": "\ud83e\udec0",
+            "phase": "Pre-Clinical",
+            "file": "data/mbbs/anatomy.json"
+          },
+          {
+            "id": "physiology",
+            "name": "Physiology",
+            "icon": "\ud83e\udde0",
+            "phase": "Pre-Clinical",
+            "file": "data/mbbs/physiology.json"
+          },
+          {
+            "id": "biochemistry",
+            "name": "Biochemistry",
+            "icon": "\ud83e\uddec",
+            "phase": "Pre-Clinical",
+            "file": "data/mbbs/biochemistry.json"
+          },
+          {
+            "id": "pathology",
+            "name": "Pathology",
+            "icon": "\ud83d\udd2c",
+            "phase": "Para-Clinical",
+            "file": "data/mbbs/pathology.json"
+          },
+          {
+            "id": "pharmacology",
+            "name": "Pharmacology",
+            "icon": "\ud83d\udc8a",
+            "phase": "Para-Clinical",
+            "file": "data/mbbs/pharmacology.json"
+          },
+          {
+            "id": "microbiology",
+            "name": "Microbiology",
+            "icon": "\ud83e\uddeb",
+            "phase": "Para-Clinical",
+            "file": "data/mbbs/microbiology.json"
+          },
+          {
+            "id": "forensic-medicine",
+            "name": "Forensic Medicine",
+            "icon": "\u2696\ufe0f",
+            "phase": "Para-Clinical",
+            "file": "data/mbbs/forensic-medicine.json"
+          },
+          {
+            "id": "community-medicine",
+            "name": "Community Medicine",
+            "icon": "\ud83c\udfe5",
+            "phase": "Para-Clinical",
+            "file": "data/mbbs/community-medicine.json"
+          },
+          {
+            "id": "medicine",
+            "name": "General Medicine",
+            "icon": "\ud83e\ude7a",
+            "phase": "Clinical",
+            "file": "data/mbbs/medicine.json"
+          },
+          {
+            "id": "surgery",
+            "name": "General Surgery",
+            "icon": "\ud83d\udd2a",
+            "phase": "Clinical",
+            "file": "data/mbbs/surgery.json"
+          },
+          {
+            "id": "pediatrics",
+            "name": "Pediatrics",
+            "icon": "\ud83d\udc76",
+            "phase": "Clinical",
+            "file": "data/mbbs/pediatrics.json"
+          },
+          {
+            "id": "obgyn",
+            "name": "Obstetrics & Gynecology",
+            "icon": "\ud83e\udd30",
+            "phase": "Clinical",
+            "file": "data/mbbs/obgyn.json"
+          },
+          {
+            "id": "ophthalmology",
+            "name": "Ophthalmology",
+            "icon": "\ud83d\udc41\ufe0f",
+            "phase": "Clinical",
+            "file": "data/mbbs/ophthalmology.json"
+          },
+          {
+            "id": "ent",
+            "name": "ENT",
+            "icon": "\ud83d\udc42",
+            "phase": "Clinical",
+            "file": "data/mbbs/ent.json"
+          },
+          {
+            "id": "orthopedics",
+            "name": "Orthopedics",
+            "icon": "\ud83e\uddb4",
+            "phase": "Clinical",
+            "file": "data/mbbs/orthopedics.json"
+          },
+          {
+            "id": "dermatology",
+            "name": "Dermatology",
+            "icon": "\ud83e\uddf4",
+            "phase": "Clinical",
+            "file": "data/mbbs/dermatology.json"
+          },
+          {
+            "id": "psychiatry",
+            "name": "Psychiatry",
+            "icon": "\ud83e\uddd8",
+            "phase": "Clinical",
+            "file": "data/mbbs/psychiatry.json"
+          },
+          {
+            "id": "radiology",
+            "name": "Radiology",
+            "icon": "\ud83e\ude7b",
+            "phase": "Clinical",
+            "file": "data/mbbs/radiology.json"
+          },
+          {
+            "id": "anesthesiology",
+            "name": "Anesthesiology",
+            "icon": "\ud83d\udc89",
+            "phase": "Clinical",
+            "file": "data/mbbs/anesthesiology.json"
+          }
+        ]
+      }
+    ]
+  },
+  "class10": {
+    "biology": {
+      "subject": "Biology",
+      "curriculum": "Telangana SSC Class 10",
+      "icon": "\ud83e\uddec",
+      "description": "Telangana State Board Class 10 Biology covering Life Processes, Control and Coordination, Reproduction, Heredity, and Environmental Ecology.",
+      "chapters": [
+        {
+          "id": "c10-bio-ch1",
+          "name": "Nutrition - Food Supplying System",
+          "overview": "Comprehensive study of autotrophic and heterotrophic nutrition, chloroplast structure, light and dark reactions of photosynthesis, factors affecting photosynthesis, and human digestive system.",
+          "vsaq": [
+            {
+              "id": "BIO-VSAQ-01",
+              "question": "What is the primary photosynthetic pigment present in plants?",
+              "answer": "Chlorophyll-a is the primary photosynthetic pigment, acting as the reaction center that converts solar energy into chemical energy.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "BIO-VSAQ-02",
+              "question": "Which enzyme initiates the digestion of carbohydrates in the human mouth?",
+              "answer": "Salivary amylase (also known as ptyalin) initiates the breakdown of starch into maltose.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "BIO-VSAQ-03",
+              "question": "Name the cell organelle where the photochemical (light) reaction occurs.",
+              "answer": "The light reaction takes place in the grana thylakoid membranes of the chloroplast.",
+              "marks": 1,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "BIO-VSAQ-04",
+              "question": "Why is KOH solution used in Mohl's half-leaf experiment?",
+              "answer": "Potassium hydroxide (KOH) absorbs carbon dioxide (CO2) from the air inside the bottle, proving that CO2 is essential for photosynthesis.",
+              "marks": 1,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "BIO-VSAQ-05",
+              "question": "What is emulsification and which digestive juice performs it?",
+              "answer": "Emulsification is the breakdown of large fat globules into tiny droplets by bile salts present in bile juice produced by the liver.",
+              "marks": 2,
+              "difficulty": "Medium"
+            }
+          ],
+          "saq": [
+            {
+              "id": "BIO-SAQ-01",
+              "question": "Differentiate between light-dependent reaction and light-independent reaction of photosynthesis.",
+              "answer": "Light-dependent reaction occurs in grana, requires direct sunlight, photolysis of water releases O2, and produces assimilatory power (ATP and NADPH). Light-independent reaction (Calvin cycle) occurs in stroma, does not directly require light, and utilizes ATP and NADPH to reduce CO2 into glucose.",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "BIO-SAQ-02",
+              "question": "Explain the role of hydrochloric acid (HCl) in gastric juice.",
+              "answer": "Hydrochloric acid (HCl): 1) Creates an acidic pH (1.5-2.5) necessary for the activation of inactive pepsinogen into active pepsin. 2) Kills ingested harmful bacteria and pathogens. 3) Softens hard food particles and prevents food putrefaction.",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "BIO-SAQ-03",
+              "question": "Describe the structural adaptations of the small intestine for efficient absorption.",
+              "answer": "The small intestine has: 1) Very large surface area provided by millions of microscopic finger-like projections called villi and microvilli. 2) Rich vascular network of blood capillaries and central lacteals (lymph vessels). 3) Extremely thin single-cell thick epithelial layer enabling rapid diffusion and active transport.",
+              "marks": 4,
+              "difficulty": "Hard"
+            }
+          ],
+          "laq": [
+            {
+              "id": "BIO-LAQ-01",
+              "question": "Explain the step-by-step mechanism of photosynthesis with balanced chemical equations.",
+              "answer": "Photosynthesis is represented by the equation: 6CO2 + 12H2O --(Light/Chlorophyll)--> C6H12O6 + 6H2O + 6O2. Mechanism comprises: 1) Light Reaction (Grana): Chlorophyll absorbs photons, gets excited; Photolysis of water (Hill's reaction): 2H2O -> 4H+ + 4e- + O2; Formation of assimilatory power: Photophosphorylation generates ATP and NADP is reduced to NADPH. 2) Dark Reaction (Stroma): RuBP (Ribulose 1,5-bisphosphate) fixes CO2 catalyzed by RuBisCO enzyme through Calvin cycle; Utilizes ATP and NADPH to synthesize phosphoglyceraldehyde (PGAL) and ultimately glucose, which is stored as starch.",
+              "marks": 8,
+              "difficulty": "Hard"
+            },
+            {
+              "id": "BIO-LAQ-02",
+              "question": "Describe the complete process of human digestion from mouth to large intestine, highlighting key enzymes and secretions.",
+              "answer": "1) Mouth: Teeth chew food (mastication); salivary amylase converts starch to maltose; bolus formed. 2) Oesophagus: Peristaltic movement pushes bolus into stomach. 3) Stomach: Gastric juice contains HCl, pepsin (digests proteins into proteoses and peptones), and mucus (protects stomach lining); creates semi-liquid chyme. 4) Small Intestine (Duodenum): Liver delivers bile (emulsifies fats); Pancreas secretes trypsin (proteins), pancreatic amylase (starch), pancreatic lipase (fats); Intestinal juice (succus entericus) contains peptidases, maltase, lactase, sucrase, completing digestion into amino acids, glucose, fatty acids, and glycerol. Villi absorb nutrients. 5) Large Intestine: Absorbs water and minerals; compacts undigested residue into faeces expelled via rectum and anus.",
+              "marks": 8,
+              "difficulty": "Hard"
+            }
+          ],
+          "mcqs": [
+            {
+              "id": "C10-BIO-CH1-001",
+              "question": "Which gas is liberated during the photolysis of water in photosynthesis?",
+              "options": [
+                "Carbon dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Methane"
+              ],
+              "answer": 1,
+              "explanation": "Photolysis of water (splitting of water in the presence of light and chlorophyll) releases molecular oxygen (O2) into the atmosphere.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-002",
+              "question": "Assimilatory power generated during the light-dependent phase consists of:",
+              "options": [
+                "Glucose and Starch",
+                "ATP and NADPH",
+                "ADP and NADP",
+                "Pyruvate and Acetyl-CoA"
+              ],
+              "answer": 1,
+              "explanation": "ATP (Adenosine Triphosphate) and NADPH (Nicotinamide Adenine Dinucleotide Phosphate) constitute assimilatory power used in the dark phase.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-003",
+              "question": "In Mohl's half-leaf experiment, the part of the leaf inside the bottle containing KOH turns:",
+              "options": [
+                "Blue-black with iodine",
+                "Does not turn blue-black with iodine",
+                "Bright red",
+                "Purple"
+              ],
+              "answer": 1,
+              "explanation": "The leaf portion inside the bottle lacked CO2 (absorbed by KOH), so starch was not synthesized, yielding a negative iodine test.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-004",
+              "question": "Which region of the chloroplast contains the enzymes required for dark reactions?",
+              "options": [
+                "Thylakoid lumen",
+                "Grana lamellae",
+                "Stroma",
+                "Outer chloroplast envelope"
+              ],
+              "answer": 2,
+              "explanation": "The stroma is the fluid matrix containing soluble enzymes, including RuBisCO, needed for the light-independent Calvin cycle.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-005",
+              "question": "What is the product of anaerobic respiration in yeast cells?",
+              "options": [
+                "Lactic acid + Energy",
+                "Ethanol + CO2 + Energy",
+                "Pyruvate + Water",
+                "Carbonic acid"
+              ],
+              "answer": 1,
+              "explanation": "In yeast (alcoholic fermentation), pyruvate is converted into ethanol, carbon dioxide, and 2 molecules of ATP.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-006",
+              "question": "Which of the following organisms exhibits saprophytic nutrition?",
+              "options": [
+                "Cuscuta (Dodder)",
+                "Mucor (Bread mould)",
+                "Plasmodium",
+                "Ascaris"
+              ],
+              "answer": 1,
+              "explanation": "Mucor is a saprophyte that secretes digestive enzymes externally onto dead organic matter and absorbs nutrients.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-007",
+              "question": "The dental formula of an adult human is:",
+              "options": [
+                "2123 / 2123",
+                "2102 / 2102",
+                "1223 / 1223",
+                "2132 / 2132"
+              ],
+              "answer": 0,
+              "explanation": "The adult human dental formula per quadrant is 2 incisors, 1 canine, 2 premolars, and 3 molars (2123/2123).",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-008",
+              "question": "Bile juice is unique among digestive secretions because it contains:",
+              "options": [
+                "Pepsin and rennin",
+                "No digestive enzymes",
+                "Amylase and lipase",
+                "Trypsin and chymotrypsin"
+              ],
+              "answer": 1,
+              "explanation": "Bile juice contains bile salts (sodium glycocholate and taurocholate) and pigments (bilirubin, biliverdin) but NO digestive enzymes.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-009",
+              "question": "Which vitamin is synthesized by symbiotic bacteria residing in the human colon?",
+              "options": [
+                "Vitamin C",
+                "Vitamin K",
+                "Vitamin A",
+                "Vitamin D"
+              ],
+              "answer": 1,
+              "explanation": "Escherichia coli and other symbiotic gut microbiota synthesize vitamin K and certain B-complex vitamins.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-010",
+              "question": "Kwashiorkor is a nutritional deficiency disorder caused primarily by severe deficiency of:",
+              "options": [
+                "Calories only",
+                "Proteins",
+                "Iron",
+                "Vitamin A"
+              ],
+              "answer": 1,
+              "explanation": "Kwashiorkor is characterized by protein deficiency with adequate calorie intake, causing oedema, pot belly, and skin lesions.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-011",
+              "question": "Marasmus differs from Kwashiorkor because Marasmus is caused by deficiency of:",
+              "options": [
+                "Both proteins and total calories",
+                "Only vitamins",
+                "Calcium and phosphorus",
+                "Only carbohydrates"
+              ],
+              "answer": 0,
+              "explanation": "Marasmus is a protein-energy malnutrition (PEM) caused by deficiency of both proteins and calories, leading to severe wasting.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-012",
+              "question": "The finger-like projections in the small intestine called villi function primarily to:",
+              "options": [
+                "Secrete hydrochloric acid",
+                "Increase surface area for absorption",
+                "Store bile juice",
+                "Produce insulin"
+              ],
+              "answer": 1,
+              "explanation": "Villi tremendously expand the luminal surface area of the small intestine to optimize nutrient absorption.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-013",
+              "question": "Which sphincter regulates the passage of food from the stomach into the duodenum?",
+              "options": [
+                "Cardiac sphincter",
+                "Pyloric sphincter",
+                "Anal sphincter",
+                "Ileocecal valve"
+              ],
+              "answer": 1,
+              "explanation": "The pyloric sphincter controls the rate of chyme emptying from the pylorus of the stomach into the duodenum.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-014",
+              "question": "Trypsinogen is activated into active trypsin by the action of:",
+              "options": [
+                "Enterokinase",
+                "Pepsin",
+                "Hydrochloric acid",
+                "Bile salts"
+              ],
+              "answer": 0,
+              "explanation": "Enterokinase (enteropeptidase) secreted by the intestinal mucosa converts inactive trypsinogen into active trypsin.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-015",
+              "question": "In which part of the alimentary canal does the maximum absorption of water take place?",
+              "options": [
+                "Stomach",
+                "Duodenum",
+                "Jejunum",
+                "Large intestine (Colon)"
+              ],
+              "answer": 3,
+              "explanation": "While small intestine absorbs majority of fluid, the colon efficiently absorbs water and electrolytes from remaining undigested residue.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-016",
+              "question": "The internal cellular structure in leaves that allows maximum light capture for photosynthesis is:",
+              "options": [
+                "Spongy parenchyma",
+                "Palisade parenchyma",
+                "Upper cuticular epidermis",
+                "Vascular bundle"
+              ],
+              "answer": 1,
+              "explanation": "Palisade parenchyma consists of vertically elongated, tightly packed cells rich in chloroplasts positioned below the upper epidermis.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-017",
+              "question": "Which reagent is used to confirm the presence of starch in a photosynthetic leaf?",
+              "options": [
+                "Benedict's reagent",
+                "Dilute iodine solution",
+                "Biuret reagent",
+                "Millon's reagent"
+              ],
+              "answer": 1,
+              "explanation": "Dilute iodine solution turns dark blue-black in the presence of starch due to the formation of a polyiodide inclusion complex.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-018",
+              "question": "The primary carbon dioxide acceptor molecule in C3 photosynthesis is:",
+              "options": [
+                "Phosphoenolpyruvate (PEP)",
+                "Ribulose 1,5-bisphosphate (RuBP)",
+                "Oxaloacetate (OAA)",
+                "Phosphoglyceric acid (PGA)"
+              ],
+              "answer": 1,
+              "explanation": "RuBP (a 5-carbon ketose sugar) combines with CO2 in the first step of the Calvin cycle, catalyzed by RuBisCO.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-019",
+              "question": "Which of the following is an example of a total parasitic plant?",
+              "options": [
+                "Viscum",
+                "Loranthus",
+                "Cuscuta",
+                "Vanda"
+              ],
+              "answer": 2,
+              "explanation": "Cuscuta (Dodder) is a non-green holoparasite that penetrates host vascular tissues using haustoria to extract organic food and water.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-020",
+              "question": "What prevents the backflow of food from the stomach into the oesophagus?",
+              "options": [
+                "Pyloric valve",
+                "Gastro-oesophageal (cardiac) sphincter",
+                "Epiglottis",
+                "Uvula"
+              ],
+              "answer": 1,
+              "explanation": "The gastro-oesophageal (cardiac) sphincter remains constricted to prevent acidic stomach contents from regurgitating into the oesophagus.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-021",
+              "question": "During daytime, stomata open primarily due to:",
+              "options": [
+                "Loss of water from guard cells",
+                "Accumulation of K+ ions and endosmosis in guard cells",
+                "Exosmosis of solutes",
+                "Closure of lenticels"
+              ],
+              "answer": 1,
+              "explanation": "Active uptake of K+ and Cl- into guard cells lowers water potential, causing endosmosis, turgidity, and opening of the stomatal pore.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-022",
+              "question": "The green colour of leaves is attributed to the presence of magnesium in:",
+              "options": [
+                "Carotenoids",
+                "Chlorophyll porphyin ring",
+                "Anthocyanins",
+                "Xanthophylls"
+              ],
+              "answer": 1,
+              "explanation": "Magnesium (Mg2+) sits at the center of the porphyrin ring structure of the chlorophyll molecule.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-023",
+              "question": "Which of the following statements about digestion in the mouth is correct?",
+              "options": [
+                "Proteins are digested into peptides",
+                "Fat is emulsified",
+                "Starch is partially digested into maltose",
+                "Cellulose is converted to glucose"
+              ],
+              "answer": 2,
+              "explanation": "Salivary amylase digests approximately 30% of dietary starch into disaccharide maltose at pH 6.8.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-024",
+              "question": "Pellagra is a deficiency disease caused by the lack of:",
+              "options": [
+                "Thiamine (B1)",
+                "Riboflavin (B2)",
+                "Niacin (B3)",
+                "Cyanocobalamin (B12)"
+              ],
+              "answer": 2,
+              "explanation": "Niacin (Vitamin B3) deficiency manifests as Pellagra, characterized by the 3Ds: Dermatitis, Diarrhea, and Dementia.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-025",
+              "question": "Beri-beri is caused by the chronic nutritional deficiency of:",
+              "options": [
+                "Vitamin B1 (Thiamine)",
+                "Vitamin C (Ascorbic acid)",
+                "Vitamin D (Calciferol)",
+                "Vitamin A (Retinol)"
+              ],
+              "answer": 0,
+              "explanation": "Deficiency of Thiamine (Vitamin B1) impairs carbohydrate metabolism and nerve conduction, resulting in Beri-beri.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-026",
+              "question": "Scurvy, characterized by spongy bleeding gums, is caused by deficiency of:",
+              "options": [
+                "Vitamin K",
+                "Vitamin C",
+                "Vitamin E",
+                "Vitamin A"
+              ],
+              "answer": 1,
+              "explanation": "Vitamin C (Ascorbic acid) is crucial for collagen synthesis; its deficiency results in fragile capillaries and scurvy.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-027",
+              "question": "Night blindness (Nyctalopia) is caused by the deficiency of:",
+              "options": [
+                "Vitamin A",
+                "Vitamin B6",
+                "Vitamin C",
+                "Vitamin D"
+              ],
+              "answer": 0,
+              "explanation": "Vitamin A is a precursor for rhodopsin (visual purple in rod cells); deficiency impairs vision in dim light.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-028",
+              "question": "Rickets in growing children is primarily caused by insufficient:",
+              "options": [
+                "Iron",
+                "Vitamin D and Calcium",
+                "Iodine",
+                "Sodium"
+              ],
+              "answer": 1,
+              "explanation": "Vitamin D promotes intestinal calcium absorption; deficiency causes impaired bone mineralization leading to soft, bowed bones.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-029",
+              "question": "Which organ produces heparin (an anticoagulant) and fibrinogen?",
+              "options": [
+                "Pancreas",
+                "Liver",
+                "Spleen",
+                "Kidney"
+              ],
+              "answer": 1,
+              "explanation": "The liver synthesizes vital plasma proteins including albumin, fibrinogen, prothrombin, and anticoagulant heparin.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-030",
+              "question": "The movement of food through the alimentary canal by rhythmic contraction of longitudinal and circular muscles is called:",
+              "options": [
+                "Deglutition",
+                "Peristalsis",
+                "Mastication",
+                "Segmentation"
+              ],
+              "answer": 1,
+              "explanation": "Peristalsis is the coordinated wave-like smooth muscle contraction that propels the food bolus through the digestive tract.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-031",
+              "question": "What is the function of mucus secreted by the goblet cells in the stomach?",
+              "options": [
+                "Digest starch",
+                "Protect gastric mucosa from acidic HCl and pepsin",
+                "Activate pancreatic enzymes",
+                "Break down lipids"
+              ],
+              "answer": 1,
+              "explanation": "Mucus forms a protective bicarbonate-rich physical and chemical barrier over the gastric epithelium.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-032",
+              "question": "In which organ are fat-soluble vitamins (A, D, E, K) predominantly stored?",
+              "options": [
+                "Pancreas",
+                "Liver",
+                "Gall bladder",
+                "Small intestine"
+              ],
+              "answer": 1,
+              "explanation": "The liver is the principal storage reservoir for fat-soluble vitamins, glycogen, iron, and copper.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-033",
+              "question": "Which organism uses pseudopodia to engulf food particles through phagocytosis?",
+              "options": [
+                "Paramecium",
+                "Amoeba",
+                "Euglena",
+                "Hydra"
+              ],
+              "answer": 1,
+              "explanation": "Amoeba extends pseudopodia around food particles to enclose them into a temporary food vacuole.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-034",
+              "question": "Paramecium captures food particles using rhythmic beating of:",
+              "options": [
+                "Flagella",
+                "Cilia directed toward the oral groove",
+                "Tentacles",
+                "Pseudopodia"
+              ],
+              "answer": 1,
+              "explanation": "Paramecium has coordinated cilia covering its pellicle that direct food particles into its cytostome (cell mouth).",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-035",
+              "question": "What is the role of bile salts in digestion?",
+              "options": [
+                "Hydrolyze peptide bonds",
+                "Lower surface tension of fat droplets for lipase action",
+                "Convert glucose to glycogen",
+                "Sterilize food"
+              ],
+              "answer": 1,
+              "explanation": "Bile salts act as natural biological detergents that emulsify dietary lipids into tiny micelles.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-036",
+              "question": "Cyanocobalamin is the chemical name of which vitamin?",
+              "options": [
+                "Vitamin B1",
+                "Vitamin B2",
+                "Vitamin B6",
+                "Vitamin B12"
+              ],
+              "answer": 3,
+              "explanation": "Vitamin B12 is cyanocobalamin, essential for red blood cell maturation and myelin sheath maintenance.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-037",
+              "question": "Excess glucose absorbed into the bloodstream is converted into glycogen and stored by the process called:",
+              "options": [
+                "Glycogenolysis",
+                "Glycogenesis",
+                "Gluconeogenesis",
+                "Glycolysis"
+              ],
+              "answer": 1,
+              "explanation": "Glycogenesis is the anabolic pathway stimulated by insulin that polymerizes glucose into glycogen in liver and muscle cells.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-038",
+              "question": "The first step in the dark reaction of photosynthesis is called:",
+              "options": [
+                "Photolysis",
+                "Carbon fixation (Carboxylation)",
+                "Reduction of PGA",
+                "Regeneration of RuBP"
+              ],
+              "answer": 1,
+              "explanation": "The first step is carbon fixation (carboxylation) where atmospheric CO2 binds to RuBP to form two molecules of 3-PGA.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-039",
+              "question": "Chlorophyll pigment is soluble in which of the following solvents?",
+              "options": [
+                "Water",
+                "Ethanol / Acetone",
+                "Dilute HCl",
+                "Sodium chloride solution"
+              ],
+              "answer": 1,
+              "explanation": "Chlorophyll has a hydrophobic phytol tail and is readily soluble in organic solvents like ethanol, acetone, and ether, but insoluble in water.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-040",
+              "question": "Which experiment proves that oxygen is evolved during photosynthesis in green aquatic plants?",
+              "options": [
+                "Mohl's half-leaf experiment",
+                "Hydrilla funnel experiment",
+                "Bell jar experiment",
+                "Starch iodine test"
+              ],
+              "answer": 1,
+              "explanation": "The inverted funnel and test tube experiment with Hydrilla collects oxygen gas bubbles that rekindle a glowing splinter.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-041",
+              "question": "Which layer of cells in a dicot leaf contains the highest concentration of chloroplasts?",
+              "options": [
+                "Upper epidermis",
+                "Palisade mesophyll",
+                "Spongy mesophyll",
+                "Lower epidermis"
+              ],
+              "answer": 1,
+              "explanation": "Palisade mesophyll cells are densely packed with chloroplasts and oriented perpendicular to the leaf surface to intercept light.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-042",
+              "question": "Haustoria in Cuscuta reach up to which host tissues to absorb nutrients?",
+              "options": [
+                "Epidermis only",
+                "Xylem and phloem",
+                "Pith only",
+                "Cortex only"
+              ],
+              "answer": 1,
+              "explanation": "Parasitic haustoria penetrate host vascular bundles: xylem connections absorb water/minerals, and phloem connections absorb sap/sucrose.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-043",
+              "question": "The end product of protein digestion ready for absorption by intestinal enterocytes is:",
+              "options": [
+                "Proteoses",
+                "Polypeptides",
+                "Amino acids",
+                "Urea"
+              ],
+              "answer": 2,
+              "explanation": "Peptidases in intestinal juice hydrolyze small peptides down to individual monomeric amino acids.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-044",
+              "question": "Which organelle is referred to as the 'Kitchen of the Plant Cell'?",
+              "options": [
+                "Mitochondrion",
+                "Chloroplast",
+                "Golgi apparatus",
+                "Endoplasmic reticulum"
+              ],
+              "answer": 1,
+              "explanation": "Chloroplasts synthesize chemical food (glucose) from inorganic raw materials using solar energy.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-045",
+              "question": "What causes the condition known as 'Glossitis'?",
+              "options": [
+                "Vitamin B2 (Riboflavin) deficiency",
+                "Vitamin C deficiency",
+                "Iron overload",
+                "Calcium deficiency"
+              ],
+              "answer": 0,
+              "explanation": "Deficiency of Vitamin B2 (Riboflavin) causes cheilosis (cracked mouth corners) and glossitis (inflamed, magenta tongue).",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-046",
+              "question": "The pancreatic enzyme that digests emulsified fats into fatty acids and glycerol is:",
+              "options": [
+                "Pepsin",
+                "Steapsin (Pancreatic lipase)",
+                "Trypsin",
+                "Rennin"
+              ],
+              "answer": 1,
+              "explanation": "Pancreatic lipase (steapsin) hydrolyzes triglyceride ester bonds to release free fatty acids and monoglycerides.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-047",
+              "question": "A child with swollen ankles, protruding belly, scaly skin, and mental apathy is likely suffering from:",
+              "options": [
+                "Marasmus",
+                "Kwashiorkor",
+                "Rickets",
+                "Anemia"
+              ],
+              "answer": 1,
+              "explanation": "Hypoalbuminemia caused by protein deficiency in Kwashiorkor leads to fluid retention (edema) and classic swollen belly.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-048",
+              "question": "Which component of human saliva possesses antibacterial and germicidal properties?",
+              "options": [
+                "Amylase",
+                "Lysozyme",
+                "Mucin",
+                "Sodium bicarbonate"
+              ],
+              "answer": 1,
+              "explanation": "Lysozyme hydrolyzes the peptidoglycan cell walls of bacteria, providing the first biological defense against pathogens.",
+              "difficulty": "Medium",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-049",
+              "question": "What is the primary site of complete digestion of carbohydrates, proteins, and fats in humans?",
+              "options": [
+                "Stomach",
+                "Small intestine",
+                "Large intestine",
+                "Oesophagus"
+              ],
+              "answer": 1,
+              "explanation": "The small intestine (specifically duodenum and jejunum) receives biliary and pancreatic enzymes to conclude all digestion.",
+              "difficulty": "Easy",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            },
+            {
+              "id": "C10-BIO-CH1-050",
+              "question": "Which scientist proved that green plants decontaminate air injured by burning candles or breathing animals?",
+              "options": [
+                "Jan Ingenhousz",
+                "Joseph Priestley",
+                "Jean Senebier",
+                "Julius von Sachs"
+              ],
+              "answer": 1,
+              "explanation": "Joseph Priestley (1774) demonstrated with bell jar experiments that a sprig of mint restored air fouled by a mouse or candle.",
+              "difficulty": "Hard",
+              "chapter": "Nutrition - Food Supplying System",
+              "subject": "Biology"
+            }
+          ]
+        }
+      ]
+    },
+    "physics": {
+      "subject": "Physics",
+      "curriculum": "Telangana SSC Class 10",
+      "icon": "\u269b\ufe0f",
+      "description": "Telangana State Board Class 10 Physical Science covering Optics, Electricity, Electromagnetism, Atomic Structure, and Chemical Principles.",
+      "chapters": [
+        {
+          "id": "c10-phy-ch1",
+          "name": "Reflection and Refraction of Light",
+          "overview": "Curved mirrors (concave and convex), mirror formula, magnification, laws of refraction, Snell's law, refractive index, total internal reflection, lenses, lens formula, and power of a lens.",
+          "vsaq": [
+            {
+              "id": "PHY-VSAQ-01",
+              "question": "State the relationship between radius of curvature (R) and focal length (f) of a spherical mirror.",
+              "answer": "For spherical mirrors with small aperture, R = 2f, or focal length is half of radius of curvature (f = R/2).",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "PHY-VSAQ-02",
+              "question": "Why is a convex mirror used as a rear-view mirror in vehicles?",
+              "answer": "Convex mirrors always produce an erect, diminished virtual image and have a much wider field of view compared to plane mirrors.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "PHY-VSAQ-03",
+              "question": "What is the SI unit of power of a lens?",
+              "answer": "The SI unit of lens power is the Dioptre (D), defined as the power of a lens having a focal length of 1 metre (1 D = 1 m^-1).",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "PHY-VSAQ-04",
+              "question": "State Snell's Law of refraction.",
+              "answer": "The ratio of sine of angle of incidence to sine of angle of refraction is constant for a given pair of media: sin(i) / sin(r) = n2 / n1.",
+              "marks": 1,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "PHY-VSAQ-05",
+              "question": "Under what condition does total internal reflection take place?",
+              "answer": "1) Light must travel from an optically denser medium to a rarer medium. 2) The angle of incidence in the denser medium must exceed the critical angle.",
+              "marks": 2,
+              "difficulty": "Medium"
+            }
+          ],
+          "saq": [
+            {
+              "id": "PHY-SAQ-01",
+              "question": "Derive the relation between refractive index of medium and critical angle.",
+              "answer": "By Snell's law: n1 * sin(i) = n2 * sin(r). When light travels from denser medium (n1 = n) to rarer air (n2 = 1), at critical angle i = C, angle of refraction r = 90 deg. Hence: n * sin(C) = 1 * sin(90 deg) => sin(C) = 1 / n or n = 1 / sin(C).",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "PHY-SAQ-02",
+              "question": "Distinguish between real image and virtual image with ray diagram characteristics.",
+              "answer": "Real Image: Formed by actual intersection of light rays; can be captured on a screen; always inverted relative to object; formed in front of concave mirror or behind convex lens. Virtual Image: Formed when rays only appear to diverge from a point; cannot be caught on a screen; always erect; formed behind plane/convex mirrors or in front of concave lens.",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "PHY-SAQ-03",
+              "question": "An object 4 cm tall is placed 25 cm in front of a concave mirror of focal length 15 cm. Find image distance and nature.",
+              "answer": "Using mirror formula 1/f = 1/v + 1/u. Here f = -15 cm, u = -25 cm. 1/v = 1/(-15) - 1/(-25) = -1/15 + 1/25 = (-5 + 3)/75 = -2/75 => v = -37.5 cm. Image is formed 37.5 cm in front of the mirror (real, inverted, magnified with m = -v/u = -(-37.5)/(-25) = -1.5).",
+              "marks": 4,
+              "difficulty": "Hard"
+            }
+          ],
+          "laq": [
+            {
+              "id": "PHY-LAQ-01",
+              "question": "State the sign convention for spherical mirrors and derive the mirror equation (1/f = 1/v + 1/u).",
+              "answer": "Sign Convention (Cartesian): 1) Pole is origin; principal axis is x-axis. 2) Distances measured in direction of incident ray are positive; opposite are negative. 3) Heights perpendicular and above principal axis are positive; below are negative. Derivation: Consider concave mirror with object AB beyond C. Rays from A strike pole P and center of curvature C, forming inverted image A'B' between C and F. From similar triangles ABP and A'B'P: AB/A'B' = BP/B'P = (-u)/(-v) = u/v. From similar triangles ABC and A'B'C: AB/A'B' = BC/B'C = (u - 2f)/(2f - v). Equating both: u/v = (u - 2f)/(2f - v) => u(2f - v) = v(u - 2f) => 2uf - uv = uv - 2vf => 2uf + 2vf = 2uv => uf + vf = uv. Dividing throughout by uvf yields: 1/v + 1/u = 1/f.",
+              "marks": 8,
+              "difficulty": "Hard"
+            }
+          ],
+          "mcqs": [
+            {
+              "id": "C10-PHY-CH1-001",
+              "question": "The focal length of a spherical mirror with radius of curvature 30 cm is:",
+              "options": [
+                "15 cm",
+                "60 cm",
+                "30 cm",
+                "7.5 cm"
+              ],
+              "answer": 0,
+              "explanation": "Focal length f = R / 2 = 30 / 2 = 15 cm.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-002",
+              "question": "Which mirror is used by dentists to inspect teeth?",
+              "options": [
+                "Convex mirror",
+                "Concave mirror",
+                "Plane mirror",
+                "Cylindrical mirror"
+              ],
+              "answer": 1,
+              "explanation": "Concave mirrors form an erect, magnified virtual image when the object is between pole and focus.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-003",
+              "question": "The refractive index of water is 4/3. What is the speed of light in water? (c = 3 x 10^8 m/s)",
+              "options": [
+                "2.25 x 10^8 m/s",
+                "1.5 x 10^8 m/s",
+                "2.0 x 10^8 m/s",
+                "3.0 x 10^8 m/s"
+              ],
+              "answer": 0,
+              "explanation": "v = c / n = (3 x 10^8) / (4/3) = 2.25 x 10^8 m/s.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-004",
+              "question": "A ray of light entering from air into glass bends:",
+              "options": [
+                "Away from the normal",
+                "Towards the normal",
+                "Without any deviation",
+                "Back into air completely"
+              ],
+              "answer": 1,
+              "explanation": "When light moves from optically rarer (air) to denser (glass), its speed decreases and it bends towards the normal.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-005",
+              "question": "A convex lens of focal length 20 cm has a power of:",
+              "options": [
+                "+5 D",
+                "-5 D",
+                "+2 D",
+                "-2 D"
+              ],
+              "answer": 0,
+              "explanation": "Power P = 1 / f(in m) = 1 / 0.20 = +5 Dioptres.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-006",
+              "question": "The critical angle for diamond-air interface is approximately:",
+              "options": [
+                "42 degrees",
+                "24.4 degrees",
+                "48.6 degrees",
+                "90 degrees"
+              ],
+              "answer": 1,
+              "explanation": "Diamond has a very high refractive index (2.42), resulting in a small critical angle of about 24.4 degrees, causing brilliant sparkle.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-007",
+              "question": "The sparkling of diamond is primarily due to:",
+              "options": [
+                "Total Internal Reflection",
+                "Dispersion only",
+                "Diffraction",
+                "Interference"
+              ],
+              "answer": 0,
+              "explanation": "Multiple total internal reflections trapped inside expertly cut diamond facets cause its brilliant sparkle.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-008",
+              "question": "Mirage is an optical illusion occurring on hot sunny days due to:",
+              "options": [
+                "Refraction and Total Internal Reflection",
+                "Diffraction",
+                "Scattering",
+                "Polarization"
+              ],
+              "answer": 0,
+              "explanation": "Atmospheric temperature gradients produce layers of varying refractive index causing light rays to undergo total internal reflection.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-009",
+              "question": "When an object is placed at 2F of a convex lens, its image is formed at:",
+              "options": [
+                "Focus F",
+                "Infinity",
+                "2F on the opposite side",
+                "Between F and 2F"
+              ],
+              "answer": 2,
+              "explanation": "An object at 2F of a convex lens produces a real, inverted image of the exact same size at 2F on the opposite side.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-010",
+              "question": "Magnification produced by a rear-view convex mirror is always:",
+              "options": [
+                "Equal to 1",
+                "Greater than 1",
+                "Less than 1",
+                "Can be positive or negative"
+              ],
+              "answer": 2,
+              "explanation": "Convex mirrors always form diminished images of objects, so m = h'/h is strictly less than 1.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-011",
+              "question": "The focal length of a plane mirror is:",
+              "options": [
+                "Zero",
+                "Infinity",
+                "100 cm",
+                "-1 cm"
+              ],
+              "answer": 1,
+              "explanation": "A plane mirror has no curvature (R = infinity), so its focal length is infinity.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-012",
+              "question": "Optical fibres transmit light signals over long distances with minimal loss by:",
+              "options": [
+                "Total Internal Reflection",
+                "Absorption",
+                "Simple reflection",
+                "Refraction only"
+              ],
+              "answer": 0,
+              "explanation": "Light signals enter the core at angles exceeding the critical angle and undergo successive total internal reflections.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-013",
+              "question": "A converging lens has focal length +25 cm. To form an erect virtual image, object distance must be:",
+              "options": [
+                "Greater than 50 cm",
+                "Between 25 cm and 50 cm",
+                "Less than 25 cm",
+                "At infinity"
+              ],
+              "answer": 2,
+              "explanation": "A convex lens produces a magnified virtual erect image only when the object is placed between optical center and focus (u < f).",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-014",
+              "question": "If angle of incidence is 0 degrees, the angle of refraction in any medium is:",
+              "options": [
+                "90 degrees",
+                "0 degrees",
+                "45 degrees",
+                "Depends on refractive index"
+              ],
+              "answer": 1,
+              "explanation": "Normal incidence (i = 0 deg) suffers no lateral deviation; according to Snell's law sin(r) = (n1/n2)*sin(0) = 0, so r = 0 deg.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-015",
+              "question": "What happens to the wavelength of monochromatic light when it enters from air into water?",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Remains unchanged",
+                "Becomes zero"
+              ],
+              "answer": 1,
+              "explanation": "Frequency remains constant; since velocity decreases (v = f * lambda), the wavelength lambda decreases proportionally.",
+              "difficulty": "Hard",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-016",
+              "question": "The power of a concave lens of focal length 50 cm is:",
+              "options": [
+                "-2 D",
+                "+2 D",
+                "-0.5 D",
+                "+0.5 D"
+              ],
+              "answer": 0,
+              "explanation": "Concave lens has negative focal length f = -0.5 m. P = 1 / (-0.5) = -2 D.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-017",
+              "question": "Two thin lenses of powers +3.5 D and -1.5 D are placed in contact. The net power of combination is:",
+              "options": [
+                "+5.0 D",
+                "+2.0 D",
+                "-2.0 D",
+                "+2.25 D"
+              ],
+              "answer": 1,
+              "explanation": "Net power P = P1 + P2 = +3.5 D + (-1.5 D) = +2.0 D.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-018",
+              "question": "The SI unit of refractive index is:",
+              "options": [
+                "m/s",
+                "Dioptre",
+                "Radian",
+                "Dimensionless (no units)"
+              ],
+              "answer": 3,
+              "explanation": "Refractive index is the ratio of two identical physical quantities (speeds of light: c/v), hence dimensionless.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-019",
+              "question": "When white light passes through a glass prism, which color deviates the most?",
+              "options": [
+                "Red",
+                "Violet",
+                "Green",
+                "Yellow"
+              ],
+              "answer": 1,
+              "explanation": "Violet light has the shortest wavelength, encounters highest refractive index in glass, and deviates the most.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-020",
+              "question": "The red colour of sunrise and sunset is due to:",
+              "options": [
+                "Dispersion of light",
+                "Scattering of light (Rayleigh scattering)",
+                "Total internal reflection",
+                "Refraction by ozone"
+              ],
+              "answer": 1,
+              "explanation": "Rayleigh scattering is inversely proportional to lambda^4; longer red wavelengths scatter least and reach the observer directly.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-021",
+              "question": "Twinkling of stars in the night sky is caused by:",
+              "options": [
+                "Atmospheric refraction of starlight",
+                "Emission of intermittent light pulses",
+                "Total internal reflection in upper clouds",
+                "Interference of light"
+              ],
+              "answer": 0,
+              "explanation": "Continuously fluctuating temperature and density of atmospheric air layers cause varying refraction and shifting apparent position.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-022",
+              "question": "The clear sky appears blue because:",
+              "options": [
+                "Blue light is absorbed by atmosphere",
+                "Molecules of air scatter blue light more strongly than red light",
+                "Water vapor reflects blue light",
+                "Sun emits predominantly blue light"
+              ],
+              "answer": 1,
+              "explanation": "Shorter blue wavelengths scatter roughly 10 times more effectively than longer red wavelengths across gas molecules.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-023",
+              "question": "Which law states that the induced EMF in a coil is proportional to rate of change of magnetic flux?",
+              "options": [
+                "Ohm's Law",
+                "Faraday's Law of Electromagnetic Induction",
+                "Coulomb's Law",
+                "Joule's Law"
+              ],
+              "answer": 1,
+              "explanation": "Faraday's law states that epsilon = -d(Phi)/dt.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-024",
+              "question": "The device used to protect domestic electrical circuits against accidental overload is:",
+              "options": [
+                "Galvanometer",
+                "Electric fuse / Miniature Circuit Breaker (MCB)",
+                "Inverter",
+                "Rheostat"
+              ],
+              "answer": 1,
+              "explanation": "A fuse wire has low melting point and high resistance; it melts upon current overload to break the circuit.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-025",
+              "question": "What is the resistance of an ideal voltmeter?",
+              "options": [
+                "Zero",
+                "Infinitely high",
+                "1 Ohm",
+                "100 Ohms"
+              ],
+              "answer": 1,
+              "explanation": "An ideal voltmeter has infinite resistance so that it draws zero current when connected in parallel across components.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-026",
+              "question": "What is the resistance of an ideal ammeter?",
+              "options": [
+                "Zero",
+                "Infinitely high",
+                "1000 Ohms",
+                "10 Ohms"
+              ],
+              "answer": 0,
+              "explanation": "An ideal ammeter has zero resistance so that it does not alter circuit resistance when inserted in series.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-027",
+              "question": "Commercial unit of electrical energy is kilowatt-hour (kWh). 1 kWh is equal to:",
+              "options": [
+                "3.6 x 10^5 J",
+                "3.6 x 10^6 J",
+                "1000 J",
+                "3600 J"
+              ],
+              "answer": 1,
+              "explanation": "1 kWh = 1000 W x 3600 s = 3.6 x 10^6 Joules.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-028",
+              "question": "According to Joule's law of heating, heat generated (H) is proportional to:",
+              "options": [
+                "I * R * t",
+                "I^2 * R * t",
+                "V^2 * I * t",
+                "I * R^2 * t"
+              ],
+              "answer": 1,
+              "explanation": "Joule's heating formula is H = I^2 * R * t.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-029",
+              "question": "The magnetic field lines inside a current-carrying long solenoid are:",
+              "options": [
+                "Circular concentric",
+                "Parallel and uniform",
+                "Divergent from center",
+                "Zero everywhere"
+              ],
+              "answer": 1,
+              "explanation": "Inside a long solenoid, magnetic field lines are straight, parallel, and closely packed, representing a uniform magnetic field.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-030",
+              "question": "The direction of induced current in a conductor moving in a magnetic field is determined by:",
+              "options": [
+                "Fleming's Right-Hand Rule",
+                "Fleming's Left-Hand Rule",
+                "Ampere's Swimming Rule",
+                "Right-Hand Thumb Rule"
+              ],
+              "answer": 0,
+              "explanation": "Fleming's Right-Hand Rule (Dynamo rule) gives the direction of induced current.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-031",
+              "question": "Fleming's Left-Hand Rule is applied to determine:",
+              "options": [
+                "Direction of magnetic field",
+                "Direction of force on a current-carrying conductor in a magnetic field",
+                "Direction of induced current",
+                "Magnitude of EMF"
+              ],
+              "answer": 1,
+              "explanation": "The Left-Hand Rule (Motor rule) yields the mechanical force direction: Thumb=Force, Forefinger=Field, Center finger=Current.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-032",
+              "question": "An electric motor converts:",
+              "options": [
+                "Mechanical energy into electrical energy",
+                "Electrical energy into mechanical energy",
+                "Chemical energy into heat",
+                "Light into electrical energy"
+              ],
+              "answer": 1,
+              "explanation": "Electric motors utilize magnetic Lorentz force on current loops to convert electrical energy into mechanical work.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-033",
+              "question": "An electric generator operates on the fundamental principle of:",
+              "options": [
+                "Electromagnetic induction",
+                "Magnetic heating",
+                "Photoelectric effect",
+                "Chemical electrolysis"
+              ],
+              "answer": 0,
+              "explanation": "Generators rotate a coil in a magnetic field to induce alternating current via electromagnetic induction.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-034",
+              "question": "Which parameter remains unchanged when an alternating current passes through a step-up transformer?",
+              "options": [
+                "Voltage",
+                "Current",
+                "Frequency",
+                "Magnetic flux"
+              ],
+              "answer": 2,
+              "explanation": "A transformer modifies voltage and current inversely, but the AC frequency remains strictly constant.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-035",
+              "question": "The potential difference between live wire and neutral wire in Indian domestic power supply is:",
+              "options": [
+                "110 V",
+                "220 V",
+                "440 V",
+                "12 V"
+              ],
+              "answer": 1,
+              "explanation": "Standard domestic alternating current in India is supplied at 220 V with frequency 50 Hz.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-036",
+              "question": "Why is tungsten metal used almost exclusively for filaments of incandescent electric lamps?",
+              "options": [
+                "Low resistance",
+                "Very high melting point and high resistivity",
+                "Liquid at room temperature",
+                "Cheap and brittle"
+              ],
+              "answer": 1,
+              "explanation": "Tungsten has an exceptionally high melting point (3422 deg C) and high resistivity, glowing white-hot without melting.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-037",
+              "question": "In domestic wiring, all electrical appliances are connected in:",
+              "options": [
+                "Series connection",
+                "Parallel connection",
+                "Mixed bridge connection",
+                "Star connection"
+              ],
+              "answer": 1,
+              "explanation": "Parallel connection ensures every appliance receives full line voltage (220 V) and operates independently.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-038",
+              "question": "Three resistors of resistances 2 Ohm, 3 Ohm, and 6 Ohm are connected in parallel. Their equivalent resistance is:",
+              "options": [
+                "11 Ohm",
+                "1 Ohm",
+                "0.5 Ohm",
+                "1.5 Ohm"
+              ],
+              "answer": 1,
+              "explanation": "1/R = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1. Therefore R = 1 Ohm.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-039",
+              "question": "Two resistors of 4 Ohm each are connected in series across a 12 V battery. Current drawn from battery is:",
+              "options": [
+                "3 A",
+                "1.5 A",
+                "6 A",
+                "0.75 A"
+              ],
+              "answer": 1,
+              "explanation": "R_eq = 4 + 4 = 8 Ohm. Current I = V / R_eq = 12 / 8 = 1.5 Amperes.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-040",
+              "question": "What is the frequency of alternating current (AC) supplied for domestic use in India?",
+              "options": [
+                "60 Hz",
+                "50 Hz",
+                "100 Hz",
+                "0 Hz (DC)"
+              ],
+              "answer": 1,
+              "explanation": "Indian domestic AC supply has a standard line frequency of 50 Hz (cycles per second).",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-041",
+              "question": "The color of the insulation wire for earthing (ground wire) in modern domestic circuits is:",
+              "options": [
+                "Red",
+                "Black",
+                "Green (or Green with yellow stripes)",
+                "Blue"
+              ],
+              "answer": 2,
+              "explanation": "Green or green-yellow striped insulation is designated universally for safety earth connection.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-042",
+              "question": "A ray of light traveling from glass (n = 1.5) into water (n = 1.33) will:",
+              "options": [
+                "Bend towards the normal",
+                "Bend away from the normal",
+                "Not deviate",
+                "Reflect completely at all angles"
+              ],
+              "answer": 1,
+              "explanation": "Glass is optically denser than water (1.5 > 1.33), so light speeds up upon entering water and bends away from the normal.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-043",
+              "question": "When an object is placed between focal point F and optical center O of a convex lens, the image formed is:",
+              "options": [
+                "Real and inverted",
+                "Virtual, erect, and magnified",
+                "Real and diminished",
+                "Virtual, inverted, and same size"
+              ],
+              "answer": 1,
+              "explanation": "This configuration forms a magnified, erect virtual image on the same side of the lens (magnifying glass principle).",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-044",
+              "question": "The mirror used in solar cookers to concentrate sunlight onto a focal spot is:",
+              "options": [
+                "Convex mirror",
+                "Concave parabolic mirror",
+                "Plane mirror",
+                "Cylindrical lens"
+              ],
+              "answer": 1,
+              "explanation": "Concave mirrors focus parallel incident solar rays onto their focal point, generating intense heat.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-045",
+              "question": "Which phenomenon is responsible for the advance sunrise and delayed sunset by about 2 minutes?",
+              "options": [
+                "Atmospheric refraction",
+                "Total internal reflection",
+                "Rayleigh scattering",
+                "Diffraction"
+              ],
+              "answer": 0,
+              "explanation": "Atmospheric refraction bends sunlight around Earth's curvature, allowing the sun to be visible when it is still below the actual horizon.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-046",
+              "question": "A current of 0.5 A flows through an electric bulb filament for 10 minutes. The electric charge passed is:",
+              "options": [
+                "5 C",
+                "300 C",
+                "50 C",
+                "600 C"
+              ],
+              "answer": 1,
+              "explanation": "Charge Q = I * t = 0.5 A * (10 * 60 s) = 0.5 * 600 = 300 Coulombs.",
+              "difficulty": "Medium",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-047",
+              "question": "Ohm's Law holds true provided which physical condition of the metallic conductor remains constant?",
+              "options": [
+                "Potential difference",
+                "Temperature",
+                "Current",
+                "Magnetic field"
+              ],
+              "answer": 1,
+              "explanation": "Ohm's law (V = IR) requires constant temperature, as resistance of metals varies significantly with temperature change.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-048",
+              "question": "The magnetic field produced around a straight current-carrying wire consists of:",
+              "options": [
+                "Straight lines radiating outward",
+                "Concentric circles centered on the wire",
+                "Elliptical loops along the wire",
+                "Helical spirals"
+              ],
+              "answer": 1,
+              "explanation": "According to the Right-Hand Thumb rule, field lines form concentric circles centered along the conductor.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-049",
+              "question": "Which device detects the presence of even feeble electric current in a circuit?",
+              "options": [
+                "Voltmeter",
+                "Galvanometer",
+                "Ammeter",
+                "Thermocouple"
+              ],
+              "answer": 1,
+              "explanation": "A sensitive galvanometer deflects its needle in response to microampere currents and indicates direction of flow.",
+              "difficulty": "Easy",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            },
+            {
+              "id": "C10-PHY-CH1-050",
+              "question": "The focal length of a concave mirror in air is 20 cm. If immersed in water, its focal length will:",
+              "options": [
+                "Increase to 26.6 cm",
+                "Decrease to 15 cm",
+                "Remain 20 cm",
+                "Become infinity"
+              ],
+              "answer": 2,
+              "explanation": "Reflection depends solely on the law of reflection (angle of incidence = angle of reflection) and mirror geometry, not on the surrounding medium.",
+              "difficulty": "Hard",
+              "chapter": "Reflection and Refraction of Light",
+              "subject": "Physics"
+            }
+          ]
+        }
+      ]
+    },
+    "mathematics": {
+      "subject": "Mathematics",
+      "curriculum": "Telangana SSC Class 10",
+      "icon": "\ud83d\udcd0",
+      "description": "Telangana State Board Class 10 Mathematics covering Real Numbers, Sets, Polynomials, Linear Equations, Quadratic Equations, Progressions, Coordinate Geometry, Trigonometry, and Statistics.",
+      "chapters": [
+        {
+          "id": "c10-math-ch1",
+          "name": "Real Numbers",
+          "overview": "Euclid's Division Lemma, Fundamental Theorem of Arithmetic, proving irrationality of sqrt(2), sqrt(3), decimal expansions of rational numbers, and logarithmic fundamentals.",
+          "vsaq": [
+            {
+              "id": "MATH-VSAQ-01",
+              "question": "State Euclid's Division Lemma.",
+              "answer": "Given positive integers a and b, there exist unique integers q and r satisfying a = bq + r, where 0 <= r < b.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "MATH-VSAQ-02",
+              "question": "State the Fundamental Theorem of Arithmetic.",
+              "answer": "Every composite number can be uniquely expressed as a product of prime powers, apart from the order in which the prime factors occur.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "MATH-VSAQ-03",
+              "question": "What is the condition for a rational number p/q to have a terminating decimal expansion?",
+              "answer": "The prime factorization of denominator q must be of the form 2^n * 5^m, where n and m are non-negative integers.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "MATH-VSAQ-04",
+              "question": "Evaluate log_2(32).",
+              "answer": "Since 32 = 2^5, log_2(32) = log_2(2^5) = 5 * log_2(2) = 5.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "MATH-VSAQ-05",
+              "question": "Write the relationship between HCF and LCM of two positive integers a and b.",
+              "answer": "HCF(a, b) * LCM(a, b) = a * b.",
+              "marks": 1,
+              "difficulty": "Easy"
+            }
+          ],
+          "saq": [
+            {
+              "id": "MATH-SAQ-01",
+              "question": "Find the HCF of 96 and 404 using prime factorization, and hence find their LCM.",
+              "answer": "96 = 2^5 * 3 = 32 * 3. 404 = 2^2 * 101 = 4 * 101. HCF = 2^2 = 4. Using LCM * HCF = a * b: LCM = (96 * 404) / 4 = 96 * 101 = 9696.",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "MATH-SAQ-02",
+              "question": "Prove that 3 + 2*sqrt(5) is an irrational number, given that sqrt(5) is irrational.",
+              "answer": "Assume on the contrary that 3 + 2*sqrt(5) is rational = a/b (b != 0, coprime a, b). Then 2*sqrt(5) = a/b - 3 = (a - 3b)/b => sqrt(5) = (a - 3b)/(2b). Since a and b are integers, (a - 3b)/(2b) is rational. This implies sqrt(5) is rational, contradicting the established fact that sqrt(5) is irrational. Hence 3 + 2*sqrt(5) is irrational.",
+              "marks": 4,
+              "difficulty": "Medium"
+            }
+          ],
+          "laq": [
+            {
+              "id": "MATH-LAQ-01",
+              "question": "Prove that sqrt(2) is an irrational number using the method of contradiction.",
+              "answer": "Proof: Assume sqrt(2) is rational = p/q where p and q are coprime integers and q != 0. Squaring both sides: 2 = p^2 / q^2 => p^2 = 2q^2. Thus 2 divides p^2, which implies 2 divides p (by Fundamental Theorem of Arithmetic). Let p = 2k for some integer k. Substituting: (2k)^2 = 2q^2 => 4k^2 = 2q^2 => q^2 = 2k^2. Thus 2 divides q^2, which implies 2 divides q. Therefore, both p and q share at least 2 as a common factor. This contradicts our premise that p and q are coprime. Hence sqrt(2) must be irrational.",
+              "marks": 8,
+              "difficulty": "Hard"
+            }
+          ],
+          "mcqs": [
+            {
+              "id": "C10-MATH-CH1-001",
+              "question": "The HCF of 12 and 18 is:",
+              "options": [
+                "6",
+                "36",
+                "3",
+                "2"
+              ],
+              "answer": 0,
+              "explanation": "Factors of 12: 2^2 * 3; factors of 18: 2 * 3^2. Common prime factors: 2 * 3 = 6.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-002",
+              "question": "The LCM of 12 and 18 is:",
+              "options": [
+                "6",
+                "36",
+                "72",
+                "54"
+              ],
+              "answer": 1,
+              "explanation": "LCM = 2^2 * 3^2 = 4 * 9 = 36.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-003",
+              "question": "Which of the following numbers has a terminating decimal expansion?",
+              "options": [
+                "17 / 8",
+                "10 / 3",
+                "7 / 75",
+                "29 / 343"
+              ],
+              "answer": 0,
+              "explanation": "The denominator 8 = 2^3, which is of the form 2^n * 5^m with m = 0.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-004",
+              "question": "If log_10(x) = 3, then the value of x is:",
+              "options": [
+                "30",
+                "1000",
+                "300",
+                "100"
+              ],
+              "answer": 1,
+              "explanation": "By definition of logarithm, x = 10^3 = 1000.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-005",
+              "question": "If HCF(306, 657) = 9, what is LCM(306, 657)?",
+              "options": [
+                "22338",
+                "22383",
+                "22833",
+                "23238"
+              ],
+              "answer": 0,
+              "explanation": "LCM = (a * b) / HCF = (306 * 657) / 9 = 34 * 657 = 22338.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-006",
+              "question": "Which of the following is an irrational number?",
+              "options": [
+                "sqrt(4)",
+                "sqrt(9)",
+                "sqrt(5)",
+                "3.141414... (repeating)"
+              ],
+              "answer": 2,
+              "explanation": "sqrt(5) cannot be expressed as a ratio of two integers and its decimal expansion is non-terminating and non-recurring.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-007",
+              "question": "If a and b are two coprime numbers, then their HCF is:",
+              "options": [
+                "0",
+                "1",
+                "a * b",
+                "a + b"
+              ],
+              "answer": 1,
+              "explanation": "By definition, coprime numbers have no common positive integer factor other than 1.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-008",
+              "question": "The decimal expansion of 23 / (2^3 * 5^2) terminates after how many decimal places?",
+              "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+              ],
+              "answer": 2,
+              "explanation": "The number of terminating decimal places is max(n, m) = max(3, 2) = 3.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-009",
+              "question": "What is the value of log_a(1) for any valid base a > 0 (a != 1)?",
+              "options": [
+                "1",
+                "0",
+                "a",
+                "Undefined"
+              ],
+              "answer": 1,
+              "explanation": "Since a^0 = 1, log_a(1) = 0.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-010",
+              "question": "The product of a non-zero rational number and an irrational number is always:",
+              "options": [
+                "Rational",
+                "Irrational",
+                "Zero",
+                "Integer"
+              ],
+              "answer": 1,
+              "explanation": "The product of any non-zero rational number with an irrational number is always irrational.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-011",
+              "question": "The discriminant of the quadratic equation 2x^2 - 4x + 3 = 0 is:",
+              "options": [
+                "-8",
+                "8",
+                "-40",
+                "16"
+              ],
+              "answer": 0,
+              "explanation": "D = b^2 - 4ac = (-4)^2 - 4(2)(3) = 16 - 24 = -8.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-012",
+              "question": "If discriminant D < 0, the roots of the quadratic equation ax^2 + bx + c = 0 are:",
+              "options": [
+                "Real and equal",
+                "Real and unequal",
+                "Complex / No real roots",
+                "Rational and equal"
+              ],
+              "answer": 2,
+              "explanation": "A negative discriminant means square root of negative number, yielding non-real complex conjugate roots.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-013",
+              "question": "The sum of the roots of the quadratic equation 3x^2 - 5x + 2 = 0 is:",
+              "options": [
+                "5/3",
+                "-5/3",
+                "2/3",
+                "-2/3"
+              ],
+              "answer": 0,
+              "explanation": "Sum of roots alpha + beta = -b / a = -(-5) / 3 = 5/3.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-014",
+              "question": "The product of the roots of 3x^2 - 5x + 2 = 0 is:",
+              "options": [
+                "5/3",
+                "-5/3",
+                "2/3",
+                "-2/3"
+              ],
+              "answer": 2,
+              "explanation": "Product of roots alpha * beta = c / a = 2 / 3.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-015",
+              "question": "If one root of x^2 - kx + 6 = 0 is 2, the value of k is:",
+              "options": [
+                "5",
+                "-5",
+                "3",
+                "6"
+              ],
+              "answer": 0,
+              "explanation": "Substitute x = 2: 2^2 - 2k + 6 = 0 => 4 - 2k + 6 = 0 => 2k = 10 => k = 5.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-016",
+              "question": "The nth term of an Arithmetic Progression with first term a and common difference d is:",
+              "options": [
+                "a + nd",
+                "a + (n - 1)d",
+                "a + (n + 1)d",
+                "na + d"
+              ],
+              "answer": 1,
+              "explanation": "Standard AP formula: T_n = a + (n - 1)d.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-017",
+              "question": "The 10th term of the AP: 2, 7, 12, 17... is:",
+              "options": [
+                "47",
+                "52",
+                "45",
+                "50"
+              ],
+              "answer": 0,
+              "explanation": "a = 2, d = 7 - 2 = 5. T_10 = 2 + (10 - 1)*5 = 2 + 45 = 47.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-018",
+              "question": "Sum of the first n terms of an AP is given by:",
+              "options": [
+                "(n/2)[2a + (n - 1)d]",
+                "n[a + (n - 1)d]",
+                "(n/2)[a + (n - 1)d]",
+                "n(a + l)"
+              ],
+              "answer": 0,
+              "explanation": "S_n = (n/2)[2a + (n - 1)d] = (n/2)[a + l].",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-019",
+              "question": "Distance between the points (0, 0) and (3, 4) is:",
+              "options": [
+                "7",
+                "5",
+                "1",
+                "25"
+              ],
+              "answer": 1,
+              "explanation": "Distance d = sqrt((3 - 0)^2 + (4 - 0)^2) = sqrt(9 + 16) = sqrt(25) = 5.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-020",
+              "question": "The coordinates of the midpoint of line segment joining (2, 3) and (4, 7) are:",
+              "options": [
+                "(3, 5)",
+                "(6, 10)",
+                "(1, 2)",
+                "(3, 4)"
+              ],
+              "answer": 0,
+              "explanation": "Midpoint = ((2 + 4)/2, (3 + 7)/2) = (6/2, 10/2) = (3, 5).",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-021",
+              "question": "If sin(theta) = 3/5, what is cos(theta) for acute angle theta?",
+              "options": [
+                "4/5",
+                "5/4",
+                "3/4",
+                "5/3"
+              ],
+              "answer": 0,
+              "explanation": "cos(theta) = sqrt(1 - sin^2(theta)) = sqrt(1 - 9/25) = sqrt(16/25) = 4/5.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-022",
+              "question": "The value of sin^2(45 deg) + cos^2(45 deg) is:",
+              "options": [
+                "0",
+                "1",
+                "2",
+                "1/2"
+              ],
+              "answer": 1,
+              "explanation": "By Pythagorean identity sin^2(x) + cos^2(x) = 1 for all angles x.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-023",
+              "question": "Value of tan(45 deg) is:",
+              "options": [
+                "0",
+                "1",
+                "sqrt(3)",
+                "1/sqrt(3)"
+              ],
+              "answer": 1,
+              "explanation": "tan(45 deg) = sin(45)/cos(45) = (1/sqrt(2)) / (1/sqrt(2)) = 1.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-024",
+              "question": "The value of sin(60 deg) * cos(30 deg) + cos(60 deg) * sin(30 deg) is:",
+              "options": [
+                "1",
+                "0",
+                "1/2",
+                "sqrt(3)/2"
+              ],
+              "answer": 0,
+              "explanation": "Using sin(A + B) = sin(60 + 30) = sin(90 deg) = 1.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-025",
+              "question": "A die is thrown once. The probability of getting a prime number is:",
+              "options": [
+                "1/6",
+                "1/2",
+                "1/3",
+                "2/3"
+              ],
+              "answer": 1,
+              "explanation": "Prime outcomes from {1, 2, 3, 4, 5, 6} are {2, 3, 5} (3 favorable outcomes). P = 3/6 = 1/2.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-026",
+              "question": "The probability of an impossible event is:",
+              "options": [
+                "0",
+                "1",
+                "-1",
+                "0.5"
+              ],
+              "answer": 0,
+              "explanation": "An impossible event has no favorable outcomes in the sample space, so its probability is 0.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-027",
+              "question": "If P(E) = 0.05, then the probability of 'not E' is:",
+              "options": [
+                "0.95",
+                "0.05",
+                "0.5",
+                "1.05"
+              ],
+              "answer": 0,
+              "explanation": "P(not E) = 1 - P(E) = 1 - 0.05 = 0.95.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-028",
+              "question": "The mean of the first five natural numbers (1, 2, 3, 4, 5) is:",
+              "options": [
+                "2",
+                "3",
+                "2.5",
+                "4"
+              ],
+              "answer": 1,
+              "explanation": "Mean = (1 + 2 + 3 + 4 + 5) / 5 = 15 / 5 = 3.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-029",
+              "question": "The mode of the data: 2, 3, 5, 3, 7, 3, 8, 2 is:",
+              "options": [
+                "2",
+                "3",
+                "5",
+                "8"
+              ],
+              "answer": 1,
+              "explanation": "Mode is the value that appears with the highest frequency. Number 3 appears 3 times.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-030",
+              "question": "The empirical relationship between Mean, Median, and Mode is:",
+              "options": [
+                "Mode = 3 Median - 2 Mean",
+                "Mode = 2 Median - 3 Mean",
+                "Median = 3 Mode - 2 Mean",
+                "Mean = 3 Median - Mode"
+              ],
+              "answer": 0,
+              "explanation": "Standard empirical formula: Mode = 3*Median - 2*Mean.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-031",
+              "question": "If log_2(x) + log_2(4) = 5, then x equals:",
+              "options": [
+                "8",
+                "16",
+                "32",
+                "4"
+              ],
+              "answer": 0,
+              "explanation": "log_2(x * 4) = 5 => 4x = 2^5 = 32 => x = 8.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-032",
+              "question": "Every positive even integer is of the form:",
+              "options": [
+                "2q",
+                "2q + 1",
+                "4q + 1",
+                "2q - 1"
+              ],
+              "answer": 0,
+              "explanation": "Any integer divisible by 2 with zero remainder has the form 2q where q is an integer.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-033",
+              "question": "Every positive odd integer can be expressed in the form:",
+              "options": [
+                "2q",
+                "2q + 1",
+                "4q",
+                "6q"
+              ],
+              "answer": 1,
+              "explanation": "Dividing an odd integer by 2 leaves a remainder of 1, hence 2q + 1.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-034",
+              "question": "The largest number that divides 70 and 125, leaving remainders 5 and 8 respectively, is:",
+              "options": [
+                "13",
+                "65",
+                "875",
+                "1750"
+              ],
+              "answer": 0,
+              "explanation": "Find HCF of (70 - 5 = 65) and (125 - 8 = 117). 65 = 5 * 13, 117 = 9 * 13. HCF is 13.",
+              "difficulty": "Hard",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-035",
+              "question": "Which of the following equations has 2 as a root?",
+              "options": [
+                "x^2 - 4x + 5 = 0",
+                "x^2 + 3x - 12 = 0",
+                "2x^2 - 7x + 6 = 0",
+                "3x^2 - 6x - 2 = 0"
+              ],
+              "answer": 2,
+              "explanation": "Test x=2 in 2(4) - 7(2) + 6 = 8 - 14 + 6 = 0. Satisfies.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-036",
+              "question": "The roots of 2x^2 - 6x + 3 = 0 are:",
+              "options": [
+                "Real, unequal and irrational",
+                "Real and equal",
+                "Not real",
+                "Rational and unequal"
+              ],
+              "answer": 0,
+              "explanation": "D = (-6)^2 - 4(2)(3) = 36 - 24 = 12 > 0 (not a perfect square), so roots are real, unequal, and irrational.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-037",
+              "question": "If the common difference of an AP is 5, then a_18 - a_13 is:",
+              "options": [
+                "5",
+                "20",
+                "25",
+                "30"
+              ],
+              "answer": 2,
+              "explanation": "a_18 - a_13 = (a + 17d) - (a + 12d) = 5d = 5 * 5 = 25.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-038",
+              "question": "How many two-digit numbers are divisible by 3?",
+              "options": [
+                "25",
+                "30",
+                "32",
+                "33"
+              ],
+              "answer": 1,
+              "explanation": "First two-digit number divisible by 3 is 12; last is 99. 99 = 12 + (n - 1)*3 => 87 = 3(n - 1) => n - 1 = 29 => n = 30.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-039",
+              "question": "The point on the x-axis which is equidistant from (-1, 0) and (5, 0) is:",
+              "options": [
+                "(2, 0)",
+                "(3, 0)",
+                "(0, 2)",
+                "(2, 2)"
+              ],
+              "answer": 0,
+              "explanation": "Midpoint between (-1, 0) and (5, 0) is ((-1 + 5)/2, 0) = (2, 0).",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-040",
+              "question": "The area of a triangle with vertices (0, 0), (4, 0), and (0, 3) is:",
+              "options": [
+                "12 sq units",
+                "6 sq units",
+                "7 sq units",
+                "5 sq units"
+              ],
+              "answer": 1,
+              "explanation": "Right-angled triangle at origin with base 4 and height 3: Area = 1/2 * base * height = 1/2 * 4 * 3 = 6.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-041",
+              "question": "If sec(theta) + tan(theta) = p, then sec(theta) - tan(theta) equals:",
+              "options": [
+                "1 / p",
+                "p^2",
+                "p - 1",
+                "-p"
+              ],
+              "answer": 0,
+              "explanation": "Since sec^2(theta) - tan^2(theta) = 1, (sec + tan)(sec - tan) = 1 => sec - tan = 1/p.",
+              "difficulty": "Hard",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-042",
+              "question": "Evaluate: (1 + tan^2(theta)) * cos^2(theta):",
+              "options": [
+                "0",
+                "1",
+                "sec^2(theta)",
+                "sin^2(theta)"
+              ],
+              "answer": 1,
+              "explanation": "1 + tan^2(theta) = sec^2(theta). sec^2(theta) * cos^2(theta) = 1.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-043",
+              "question": "If cos(A) = 1/2 and sin(B) = 1/2, then (A + B) where A and B are acute is:",
+              "options": [
+                "60 deg",
+                "90 deg",
+                "45 deg",
+                "30 deg"
+              ],
+              "answer": 1,
+              "explanation": "A = 60 deg, B = 30 deg. A + B = 60 + 30 = 90 deg.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-044",
+              "question": "A card is drawn from a well-shuffled deck of 52 playing cards. The probability of getting a king of red colour is:",
+              "options": [
+                "1/26",
+                "1/13",
+                "1/52",
+                "2/13"
+              ],
+              "answer": 0,
+              "explanation": "There are 2 red kings (hearts and diamonds). P = 2 / 52 = 1 / 26.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-045",
+              "question": "Which measure of central tendency is determined graphically by the point of intersection of less-than and more-than ogives?",
+              "options": [
+                "Mean",
+                "Median",
+                "Mode",
+                "Variance"
+              ],
+              "answer": 1,
+              "explanation": "The x-coordinate of the intersection point of less-than and more-than ogives represents the Median.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-046",
+              "question": "If the mean of 6, 8, 9, x, 13 is 10, then the value of x is:",
+              "options": [
+                "12",
+                "14",
+                "16",
+                "10"
+              ],
+              "answer": 1,
+              "explanation": "Sum = 6 + 8 + 9 + x + 13 = 36 + x. 36 + x = 5 * 10 = 50 => x = 14.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-047",
+              "question": "The total surface area of a solid hemisphere of radius r is:",
+              "options": [
+                "2 * pi * r^2",
+                "3 * pi * r^2",
+                "4 * pi * r^2",
+                "2/3 * pi * r^3"
+              ],
+              "answer": 1,
+              "explanation": "Curved surface area (2*pi*r^2) + flat circular base (pi*r^2) = 3*pi*r^2.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-048",
+              "question": "Volume of a cone with radius r and height h is:",
+              "options": [
+                "pi * r^2 * h",
+                "1/3 * pi * r^2 * h",
+                "4/3 * pi * r^3",
+                "2/3 * pi * r^2 * h"
+              ],
+              "answer": 1,
+              "explanation": "Formula for volume of a circular cone is (1/3)*pi*r^2*h.",
+              "difficulty": "Easy",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-049",
+              "question": "If tan(theta) = cot(30 deg + theta), then acute theta is:",
+              "options": [
+                "30 deg",
+                "60 deg",
+                "45 deg",
+                "15 deg"
+              ],
+              "answer": 0,
+              "explanation": "tan(theta) = tan(90 - (30 + theta)) => theta = 60 - theta => 2*theta = 60 => theta = 30 deg.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            },
+            {
+              "id": "C10-MATH-CH1-050",
+              "question": "The decimal expansion of 73 / (2^4 * 5^3) has how many decimal places?",
+              "options": [
+                "3",
+                "4",
+                "7",
+                "1"
+              ],
+              "answer": 1,
+              "explanation": "Highest power of 2 or 5 in denominator is max(4, 3) = 4 decimal places.",
+              "difficulty": "Medium",
+              "chapter": "Real Numbers",
+              "subject": "Mathematics"
+            }
+          ]
+        }
+      ]
+    },
+    "social-science": {
+      "subject": "Social Science",
+      "curriculum": "Telangana SSC Class 10",
+      "icon": "\ud83c\udf0f",
+      "description": "Telangana State Board Class 10 Social Studies covering Geography (Resources, Climate, Relief Features), Economics (Development, Food Security), and History & Political Science.",
+      "chapters": [
+        {
+          "id": "c10-soc-ch1",
+          "name": "India: Relief Features",
+          "overview": "Location of India, geological background, major physiographic divisions: Himalayas, Indo-Gangetic Plains, Peninsular Plateau, Coastal Plains, Desert, and Islands.",
+          "vsaq": [
+            {
+              "id": "SOC-VSAQ-01",
+              "question": "What is the standard meridian of India and which city does it pass near?",
+              "answer": "The 82 deg 30' E longitude is the Standard Meridian of India, passing near Mirzapur in Uttar Pradesh.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "SOC-VSAQ-02",
+              "question": "Name the highest peak in the Himalayas located within India.",
+              "answer": "Kanchenjunga (8,586 metres) in Sikkim is the highest Himalayan peak in India.",
+              "marks": 1,
+              "difficulty": "Easy"
+            },
+            {
+              "id": "SOC-VSAQ-03",
+              "question": "What are 'Duns'? Give an example.",
+              "answer": "Duns are longitudinal valleys lying between the Himachal and Shivalik ranges, filled with gravel and alluvium. Example: Dehradun.",
+              "marks": 1,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "SOC-VSAQ-04",
+              "question": "Differentiate between Bhabar and Terai.",
+              "answer": "Bhabar is a narrow 8-16 km belt of pebbles at the foothills of Shivaliks where streams disappear underground. Terai is a wet, swampy, marshy forested belt south of Bhabar where streams re-emerge.",
+              "marks": 2,
+              "difficulty": "Medium"
+            }
+          ],
+          "saq": [
+            {
+              "id": "SOC-SAQ-01",
+              "question": "Explain the major divisions of the Peninsular Plateau of India.",
+              "answer": "The Peninsular Plateau is divided into two broad divisions by the Narmada River: 1) Central Highlands (Malwa Plateau, Bundelkhand, Chota Nagpur Plateau) lying north of the Narmada, sloping towards the northeast. 2) Deccan Plateau, a triangular landmass lying south of the Narmada, bounded by Western Ghats on the west and Eastern Ghats on the east.",
+              "marks": 4,
+              "difficulty": "Medium"
+            },
+            {
+              "id": "SOC-SAQ-02",
+              "question": "Compare the Western Ghats and Eastern Ghats in terms of relief, continuity, and rainfall.",
+              "answer": "Western Ghats: Continuous mountain range passable only through passes (Thal, Bhor, Palghat); higher average elevation (900-1600 m); Anamudi (2695 m) is highest peak; receive heavy orographic rainfall. Eastern Ghats: Discontinuous and dissected by east-flowing rivers (Mahanadi, Godavari, Krishna, Cauvery); lower average elevation (approx 600 m); Arma Konda (1680 m) is highest peak; receive lower rainfall.",
+              "marks": 4,
+              "difficulty": "Medium"
+            }
+          ],
+          "laq": [
+            {
+              "id": "SOC-LAQ-01",
+              "question": "Describe the physiographic divisions of India and explain the influence of the Himalayas on Indian climate and agriculture.",
+              "answer": "Major physiographic divisions: 1) The Himalayan Mountains 2) The Indo-Gangetic Plains 3) The Peninsular Plateau 4) The Coastal Plains 5) The Indian Desert (Thar) 6) The Islands (Andaman & Nicobar, Lakshadweep). Influence of Himalayas: 1) Climatic barrier: Blocks freezing polar winds from Central Asia during winter; intercepts southwest monsoon winds causing widespread rain across northern India. 2) Perennial Rivers: Snow-fed glaciers feed major river systems (Ganga, Brahmaputra, Indus) ensuring continuous irrigation and hydroelectric power. 3) Agriculture & Forest Wealth: Rich alluvial soils deposited in northern plains support intensive agriculture, feeding millions.",
+              "marks": 8,
+              "difficulty": "Hard"
+            }
+          ],
+          "mcqs": [
+            {
+              "id": "C10-SOC-CH1-001",
+              "question": "The Standard Meridian of India (82 deg 30' E) determines:",
+              "options": [
+                "Indian Standard Time (IST)",
+                "Greenwich Mean Time (GMT)",
+                "International Date Line",
+                "Tropic of Cancer"
+              ],
+              "answer": 0,
+              "explanation": "82 deg 30' E longitude is chosen as the standard meridian, running 5 hours 30 minutes ahead of GMT.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-002",
+              "question": "Indian Standard Time (IST) is ahead of Greenwich Mean Time (GMT) by:",
+              "options": [
+                "4 hours 30 minutes",
+                "5 hours 30 minutes",
+                "6 hours",
+                "5 hours"
+              ],
+              "answer": 1,
+              "explanation": "Each degree of longitude equals 4 minutes: 82.5 * 4 = 330 minutes = 5 hours 30 minutes ahead of GMT.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-003",
+              "question": "The northernmost continuous mountain range of the Himalayas is known as:",
+              "options": [
+                "Himadri (Greater Himalayas)",
+                "Himachal (Lesser Himalayas)",
+                "Shivaliks",
+                "Purvanchal"
+              ],
+              "answer": 0,
+              "explanation": "Himadri is the highest, most continuous range with an average elevation exceeding 6,000 metres.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-004",
+              "question": "The longitudinal valleys situated between Lesser Himalayas and Shivaliks are called:",
+              "options": [
+                "Duns",
+                "Passes",
+                "Gorges",
+                "Bhabar"
+              ],
+              "answer": 0,
+              "explanation": "Duns are flat-bottomed structural longitudinal valleys such as Dehradun, Kotlidun, and Patlidun.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-005",
+              "question": "Which is the highest peak in Southern India (Peninsular Plateau)?",
+              "options": [
+                "Doda Betta",
+                "Anamudi",
+                "Arma Konda",
+                "Kalsubai"
+              ],
+              "answer": 1,
+              "explanation": "Anamudi (2,695 m) in the Anaimalai Hills of Kerala is the highest peak in South India.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-006",
+              "question": "The Thar Desert is located towards the western margins of which mountain range?",
+              "options": [
+                "Vindhya Range",
+                "Satpura Range",
+                "Aravalli Range",
+                "Western Ghats"
+              ],
+              "answer": 2,
+              "explanation": "The Thar Desert lies in the rain-shadow western margins of the ancient Aravalli Range in Rajasthan.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-007",
+              "question": "The narrow belt of pebbles deposited by rivers along the foothills of Shivalik is:",
+              "options": [
+                "Bhabar",
+                "Terai",
+                "Khadar",
+                "Bhangar"
+              ],
+              "answer": 0,
+              "explanation": "Bhabar is an 8-16 km wide belt of porous alluvial pebbles where stream flows submerge underground.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-008",
+              "question": "The swampy, marshy, and densely forested zone lying south of Bhabar is called:",
+              "options": [
+                "Khadar",
+                "Bhangar",
+                "Terai",
+                "Doab"
+              ],
+              "answer": 2,
+              "explanation": "Terai is a damp marshy tract where underground streams re-emerge at the surface, creating rich wildlife reserves.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-009",
+              "question": "Older alluvial deposits forming the higher terraces of the northern plains are termed:",
+              "options": [
+                "Khadar",
+                "Bhangar",
+                "Bhabar",
+                "Kankar"
+              ],
+              "answer": 1,
+              "explanation": "Bhangar represents older, less fertile flood plains above modern inundation levels, often containing kankar nodules.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-010",
+              "question": "Newer, younger deposits of the flood plains that are renewed almost annually are:",
+              "options": [
+                "Khadar",
+                "Bhangar",
+                "Terai",
+                "Regur"
+              ],
+              "answer": 0,
+              "explanation": "Khadar is rich, fertile silt deposited during annual monsoon floods, ideal for intensive crop cultivation.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-011",
+              "question": "The coral island group of India situated in the Arabian Sea is:",
+              "options": [
+                "Andaman and Nicobar Islands",
+                "Lakshadweep Islands",
+                "Majuli Island",
+                "Sri Lanka"
+              ],
+              "answer": 1,
+              "explanation": "Lakshadweep is an archipelago of 36 atolls and coral islands located in the Arabian Sea off the Malabar Coast.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-012",
+              "question": "The southern boundary of the Deccan Plateau is formed by:",
+              "options": [
+                "Aravallis",
+                "Nilgiri Hills",
+                "Satpura Range",
+                "Vindhyas"
+              ],
+              "answer": 1,
+              "explanation": "The Western and Eastern Ghats converge at the Nilgiri Hills in the southern apex of the Deccan Plateau.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-013",
+              "question": "The eastern coastal strip of India along Andhra Pradesh and Tamil Nadu is known as:",
+              "options": [
+                "Konkan Coast",
+                "Coromandel Coast",
+                "Malabar Coast",
+                "Canara Coast"
+              ],
+              "answer": 1,
+              "explanation": "The southeastern coast along Tamil Nadu and southern Andhra Pradesh is historically called the Coromandel Coast.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-014",
+              "question": "The coastal strip along Maharashtra and Goa is called:",
+              "options": [
+                "Malabar Coast",
+                "Konkan Coast",
+                "Utkal Coast",
+                "Coromandel Coast"
+              ],
+              "answer": 1,
+              "explanation": "The northern section of the western coast between Gujarat and Goa is called the Konkan Coast.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-015",
+              "question": "The only active volcano in India is located on which island?",
+              "options": [
+                "Barren Island",
+                "Narcondam Island",
+                "Minicoy Island",
+                "Kavaratti"
+              ],
+              "answer": 0,
+              "explanation": "Barren Island in the Andaman Sea is the only confirmed active volcano in South Asia.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-016",
+              "question": "The Tropic of Cancer (23 deg 30' N) passes through how many Indian states?",
+              "options": [
+                "6",
+                "7",
+                "8",
+                "9"
+              ],
+              "answer": 2,
+              "explanation": "The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-017",
+              "question": "Which river flows through a rift valley between the Vindhya and Satpura ranges?",
+              "options": [
+                "Godavari",
+                "Narmada",
+                "Krishna",
+                "Mahanadi"
+              ],
+              "answer": 1,
+              "explanation": "Narmada river flows westward through a tectonic rift valley bounded by Vindhyas to the north and Satpuras to the south.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-018",
+              "question": "The black soil region of the Deccan Plateau is locally called:",
+              "options": [
+                "Deccan Trap",
+                "Bhabar",
+                "Terai",
+                "Chota Nagpur"
+              ],
+              "answer": 0,
+              "explanation": "The Deccan Trap is a massive volcanic basalt plateau with fertile regur (black cotton) soil.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-019",
+              "question": "Arma Konda is the highest peak in which mountain system?",
+              "options": [
+                "Western Ghats",
+                "Eastern Ghats",
+                "Aravalli Range",
+                "Satpura Range"
+              ],
+              "answer": 1,
+              "explanation": "Arma Konda (1,680 metres) in Andhra Pradesh is the highest summit of the Eastern Ghats.",
+              "difficulty": "Hard",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-020",
+              "question": "The land between two rivers is known as:",
+              "options": [
+                "Doab",
+                "Terai",
+                "Dun",
+                "Pass"
+              ],
+              "answer": 0,
+              "explanation": "Doab is an Indo-Gangetic term referring to the fertile alluvial tract between two converging river channels.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-021",
+              "question": "Which water body separates the Andaman Islands from the Nicobar Islands?",
+              "options": [
+                "Palk Strait",
+                "Ten Degree Channel",
+                "Nine Degree Channel",
+                "Gulf of Mannar"
+              ],
+              "answer": 1,
+              "explanation": "The Ten Degree Channel (150 km wide) separates the Andaman Islands from the Nicobar group in the Bay of Bengal.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-022",
+              "question": "The southern tip of the Indian mainland territory is located at:",
+              "options": [
+                "Indira Point",
+                "Kanyakumari (Cape Comorin)",
+                "Rameshwaram",
+                "Point Calimere"
+              ],
+              "answer": 1,
+              "explanation": "Kanyakumari in Tamil Nadu is the southernmost mainland point (Indira Point was the southernmost point of Indian territory).",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-023",
+              "question": "Which state in India is the first to experience the arrival of the southwest monsoon?",
+              "options": [
+                "Maharashtra",
+                "Kerala",
+                "Tamil Nadu",
+                "West Bengal"
+              ],
+              "answer": 1,
+              "explanation": "The southwest monsoon typically hits the Malabar Coast of Kerala on approximately June 1st.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-024",
+              "question": "Chota Nagpur Plateau is famously known as the 'Storehouse of Minerals' because it is rich in:",
+              "options": [
+                "Petroleum and natural gas",
+                "Coal, iron ore, and bauxite",
+                "Gold and silver",
+                "Diamond and emerald"
+              ],
+              "answer": 1,
+              "explanation": "Chota Nagpur Plateau (Jharkhand, Odisha, West Bengal) possesses extensive reserves of coal, iron, mica, and bauxite.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-025",
+              "question": "The western coastal plain between Karnataka and Kerala is called:",
+              "options": [
+                "Malabar Coast",
+                "Konkan Coast",
+                "Northern Circars",
+                "Coromandel"
+              ],
+              "answer": 0,
+              "explanation": "The southern portion of the western coastline along Kerala is the Malabar Coast, noted for backwaters (kayals).",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-026",
+              "question": "Majuli, the world's largest inhabited riverine island, is situated on which river?",
+              "options": [
+                "Ganga",
+                "Brahmaputra",
+                "Indus",
+                "Yamuna"
+              ],
+              "answer": 1,
+              "explanation": "Majuli island is situated on the Brahmaputra River in Assam.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-027",
+              "question": "The longitudinal extent of India spans approximately how many degrees?",
+              "options": [
+                "15 degrees",
+                "30 degrees",
+                "45 degrees",
+                "60 degrees"
+              ],
+              "answer": 1,
+              "explanation": "From 68 deg 7' E to 97 deg 25' E covers roughly 30 degrees of longitude, causing a 2-hour sun time difference.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-028",
+              "question": "The time difference between sunrise in Arunachal Pradesh and Gujarat is roughly:",
+              "options": [
+                "1 hour",
+                "2 hours",
+                "3 hours",
+                "30 minutes"
+              ],
+              "answer": 1,
+              "explanation": "30 degrees of longitudinal separation multiplied by 4 minutes per degree equals 120 minutes = 2 hours.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-029",
+              "question": "Which neighboring country shares the longest land border with India?",
+              "options": [
+                "China",
+                "Pakistan",
+                "Bangladesh",
+                "Nepal"
+              ],
+              "answer": 2,
+              "explanation": "India shares a 4,096.7 km border with Bangladesh, the longest among all neighboring nations.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-030",
+              "question": "The Palk Strait and Gulf of Mannar separate India from which country?",
+              "options": [
+                "Maldives",
+                "Sri Lanka",
+                "Myanmar",
+                "Indonesia"
+              ],
+              "answer": 1,
+              "explanation": "The narrow Palk Strait and Gulf of Mannar lie between the southeastern coast of India and northern Sri Lanka.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-031",
+              "question": "Which region in India receives winter rainfall from Western Disturbances?",
+              "options": [
+                "Northwest India (Punjab, Haryana)",
+                "Coromandel Coast",
+                "Kerala Coast",
+                "Assam Plains"
+              ],
+              "answer": 0,
+              "explanation": "Temperate cyclones originating from the Mediterranean Sea cause vital winter rain for rabi wheat in northwest India.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-032",
+              "question": "The highest peak in the Aravalli Range is:",
+              "options": [
+                "Guru Shikhar",
+                "Doda Betta",
+                "Anamudi",
+                "Mount Abu"
+              ],
+              "answer": 0,
+              "explanation": "Guru Shikhar (1,722 m) in Mount Abu, Rajasthan, is the crowning peak of the Aravalli Range.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-033",
+              "question": "The Chilika Lake in Odisha is the largest coastal:",
+              "options": [
+                "Freshwater lake",
+                "Brackish water lagoon",
+                "Glacial lake",
+                "Crater lake"
+              ],
+              "answer": 1,
+              "explanation": "Chilika Lake is Asia's largest brackish water lagoon, separated from the Bay of Bengal by a sandy ridge.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-034",
+              "question": "The river Godavari originates in which state?",
+              "options": [
+                "Maharashtra (Trimbakeshwar)",
+                "Karnataka",
+                "Madhya Pradesh",
+                "Telangana"
+              ],
+              "answer": 0,
+              "explanation": "The Godavari, South India's longest river, originates at Trimbakeshwar near Nashik in Maharashtra.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-035",
+              "question": "Which river is known as 'Dakshin Ganga' (Ganga of the South)?",
+              "options": [
+                "Krishna",
+                "Cauvery",
+                "Godavari",
+                "Mahanadi"
+              ],
+              "answer": 2,
+              "explanation": "Godavari is termed Dakshin Ganga due to its immense length (1,465 km), extensive basin, and cultural sanctity.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-036",
+              "question": "The Nagarjuna Sagar Dam is constructed across which major river?",
+              "options": [
+                "Godavari",
+                "Krishna",
+                "Tungabhadra",
+                "Pennar"
+              ],
+              "answer": 1,
+              "explanation": "Nagarjuna Sagar is a masonry dam built across the Krishna River on the Telangana-Andhra Pradesh border.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-037",
+              "question": "The Telangana Plateau forms a major part of which geological shield?",
+              "options": [
+                "Deccan Plateau",
+                "Gondwana Rift",
+                "Indo-Gangetic Basin",
+                "Chota Nagpur"
+              ],
+              "answer": 0,
+              "explanation": "The Telangana Plateau lies on the eastern part of the crystalline Precambrian Deccan Plateau.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-038",
+              "question": "Which soil type is most prevalent and agriculturally productive in the Northern Plains of India?",
+              "options": [
+                "Laterite soil",
+                "Alluvial soil",
+                "Desert soil",
+                "Peaty soil"
+              ],
+              "answer": 1,
+              "explanation": "Deposition of fine silt by the Indus, Ganga, and Brahmaputra rivers formed deep, mineral-rich alluvial soil.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-039",
+              "question": "Laterite soil is formed primarily by the process of:",
+              "options": [
+                "Intense leaching due to heavy rainfall",
+                "Wind erosion",
+                "Volcanic ash sedimentation",
+                "Glacial moraine deposition"
+              ],
+              "answer": 0,
+              "explanation": "Under alternating tropical wet and dry seasons, heavy rainfall leaches silica and lime, leaving iron and aluminium oxides.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-040",
+              "question": "Regur soil is another name for:",
+              "options": [
+                "Red soil",
+                "Black cotton soil",
+                "Alluvial soil",
+                "Mountain soil"
+              ],
+              "answer": 1,
+              "explanation": "Black cotton soil, known as Regur, has high clay content, moisture retention, and is ideal for cotton cultivation.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-041",
+              "question": "Which factor does NOT affect the climate of India?",
+              "options": [
+                "Latitude",
+                "Altitude",
+                "Ocean currents in Atlantic Ocean",
+                "Monsoon winds"
+              ],
+              "answer": 2,
+              "explanation": "Latitude, Himalayas, relief, and monsoon winds directly shape Indian climate, while remote Atlantic currents do not.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-042",
+              "question": "The 'Loo' winds blowing across the northern plains during summer are:",
+              "options": [
+                "Cold polar winds",
+                "Hot, dry, and gusty winds",
+                "Moist sea breezes",
+                "Cyclone squalls"
+              ],
+              "answer": 1,
+              "explanation": "Loo refers to the scorching, intensely dry westerly winds blowing across north and central India during May and June.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-043",
+              "question": "Mango showers are pre-monsoon showers common in which states?",
+              "options": [
+                "Kerala and coastal Karnataka",
+                "Punjab and Haryana",
+                "Rajasthan and Gujarat",
+                "Jammu and Kashmir"
+              ],
+              "answer": 0,
+              "explanation": "Pre-monsoon rains in Kerala and Karnataka help in early ripening of mango crops and are called Mango showers.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-044",
+              "question": "Kalbaisakhi are localized afternoon thunderstorms occurring during spring in:",
+              "options": [
+                "West Bengal and Assam",
+                "Tamil Nadu",
+                "Maharashtra",
+                "Punjab"
+              ],
+              "answer": 0,
+              "explanation": "Kalbaisakhi (Nor'westers) are severe thunderstorms in Bengal bringing relief from heat and rain for jute/tea crops.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-045",
+              "question": "Which state has the lowest sex ratio according to the 2011 Census of India?",
+              "options": [
+                "Haryana",
+                "Punjab",
+                "Bihar",
+                "Uttar Pradesh"
+              ],
+              "answer": 0,
+              "explanation": "Haryana recorded the lowest sex ratio of 879 females per 1,000 males in the 2011 Census.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-046",
+              "question": "According to the 2011 Census, which Indian state has the highest literacy rate?",
+              "options": [
+                "Tamil Nadu",
+                "Kerala",
+                "Goa",
+                "Himachal Pradesh"
+              ],
+              "answer": 1,
+              "explanation": "Kerala holds the top position in India with a literacy rate of 94.00%.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-047",
+              "question": "The concept of Human Development Index (HDI) was formulated by:",
+              "options": [
+                "Amartya Sen and Mahbub ul Haq",
+                "Adam Smith",
+                "Milton Friedman",
+                "John Maynard Keynes"
+              ],
+              "answer": 0,
+              "explanation": "Pakistani economist Mahbub ul Haq and Indian Nobel laureate Amartya Sen pioneered the HDI for UNDP in 1990.",
+              "difficulty": "Medium",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-048",
+              "question": "Which sector is the largest employer of workforce in India?",
+              "options": [
+                "Service sector",
+                "Primary (Agriculture) sector",
+                "Industrial sector",
+                "IT and BPO"
+              ],
+              "answer": 1,
+              "explanation": "The agricultural primary sector continues to employ nearly 45% of India's total workforce.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-049",
+              "question": "Public Distribution System (PDS) in India ensures:",
+              "options": [
+                "Guaranteed corporate jobs",
+                "Food security for low-income households at subsidized rates",
+                "Free electricity for factories",
+                "Stock market regulation"
+              ],
+              "answer": 1,
+              "explanation": "PDS operates through Fair Price Shops distributing essential foodgrains (rice, wheat) to eligible ration card holders.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            },
+            {
+              "id": "C10-SOC-CH1-050",
+              "question": "The Right to Information (RTI) Act was enacted by the Indian Parliament in the year:",
+              "options": [
+                "2001",
+                "2005",
+                "2010",
+                "1999"
+              ],
+              "answer": 1,
+              "explanation": "The historic RTI Act was passed in 2005 to foster transparency and accountability in public administration.",
+              "difficulty": "Easy",
+              "chapter": "India: Relief Features",
+              "subject": "Social Science"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "neet": {
+    "biology": {
+      "subject": "Biology",
+      "exam": "NEET UG",
+      "icon": "\ud83e\uddec",
+      "description": "Comprehensive NCERT-aligned Question Bank for NEET UG Biology covering Botany and Zoology.",
+      "chapters": [
+        {
+          "id": "neet-bio-ch1",
+          "name": "Complete High-Yield NEET Biology Master Bank",
+          "mcqs": [
+            {
+              "id": "NEET-BIO-001",
+              "question": "Which of the following cell organelles is bounded by a single membrane?",
+              "options": [
+                "Mitochondria",
+                "Chloroplast",
+                "Lysosome",
+                "Nucleus"
+              ],
+              "answer": 2,
+              "explanation": "Lysosomes, microbodies, and vacuoles are single-membrane bound organelles. Mitochondria, chloroplasts, and nucleus have double membranes.",
+              "difficulty": "Easy",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-002",
+              "question": "The 70S prokaryotic ribosome consists of which two subunits?",
+              "options": [
+                "40S and 30S",
+                "50S and 30S",
+                "60S and 40S",
+                "50S and 40S"
+              ],
+              "answer": 1,
+              "explanation": "Prokaryotic 70S ribosomes dissociate into a larger 50S subunit and a smaller 30S subunit.",
+              "difficulty": "Easy",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-003",
+              "question": "Fluid mosaic model of plasma membrane was proposed by:",
+              "options": [
+                "Watson and Crick",
+                "Singer and Nicolson (1972)",
+                "Schleiden and Schwann",
+                "Robert Brown"
+              ],
+              "answer": 1,
+              "explanation": "Singer and Nicolson proposed the fluid mosaic model, describing the lipid bilayer as a viscous fluid with floating proteins.",
+              "difficulty": "Easy",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-004",
+              "question": "The site of active ribosomal RNA (rRNA) synthesis in eukaryotic cells is:",
+              "options": [
+                "Nucleolus",
+                "Peroxisome",
+                "Endoplasmic reticulum",
+                "Centrosome"
+              ],
+              "answer": 0,
+              "explanation": "The nucleolus is a non-membrane bound sub-nuclear structure dedicated to transcription and processing of rRNA.",
+              "difficulty": "Medium",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-005",
+              "question": "During cell division, crossing over occurs during which stage of Prophase I?",
+              "options": [
+                "Leptotene",
+                "Zygotene",
+                "Pachytene",
+                "Diplotene"
+              ],
+              "answer": 2,
+              "explanation": "Recombination nodules and crossing over between non-sister chromatids of homologous chromosomes take place in Pachytene.",
+              "difficulty": "Medium",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-006",
+              "question": "Synaptonemal complex dissolves and chiasmata become visible during:",
+              "options": [
+                "Zygotene",
+                "Pachytene",
+                "Diplotene",
+                "Diakinesis"
+              ],
+              "answer": 2,
+              "explanation": "During Diplotene, the synaptonemal complex dissolves, leaving X-shaped points of crossing over called chiasmata.",
+              "difficulty": "Medium",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-007",
+              "question": "Colchicine arrests cell division at which phase of mitosis?",
+              "options": [
+                "Anaphase",
+                "Metaphase",
+                "Telophase",
+                "Interphase"
+              ],
+              "answer": 1,
+              "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
+              "difficulty": "Hard",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-008",
+              "question": "Which nitrogenous base is present in RNA but absent in DNA?",
+              "options": [
+                "Thymine",
+                "Uracil",
+                "Cytosine",
+                "Guanine"
+              ],
+              "answer": 1,
+              "explanation": "Uracil (5-demethyluracil) is found in RNA in place of thymine.",
+              "difficulty": "Easy",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-009",
+              "question": "An example of a non-reducing sugar is:",
+              "options": [
+                "Glucose",
+                "Fructose",
+                "Maltose",
+                "Sucrose"
+              ],
+              "answer": 3,
+              "explanation": "In sucrose, both anomeric carbons of glucose and fructose are locked in an alpha-1,beta-2 glycosidic bond, preventing reduction of Fehling's or Tollens' reagents.",
+              "difficulty": "Medium",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-010",
+              "question": "Km value of an enzyme is defined as the substrate concentration at which reaction velocity is:",
+              "options": [
+                "Maximum (Vmax)",
+                "Half of maximum (Vmax / 2)",
+                "One-fourth of maximum",
+                "Zero"
+              ],
+              "answer": 1,
+              "explanation": "Km (Michaelis-Menten constant) is the substrate concentration at which initial velocity v = Vmax / 2.",
+              "difficulty": "Medium",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-011",
+              "question": "Competitive enzyme inhibitors alter which kinetic parameters?",
+              "options": [
+                "Increases Km without changing Vmax",
+                "Decreases Vmax without changing Km",
+                "Decreases both Km and Vmax",
+                "Increases both Km and Vmax"
+              ],
+              "answer": 0,
+              "explanation": "Competitive inhibitors compete with substrate for active site; adding excess substrate overcomes inhibition, so Vmax remains unchanged while apparent Km increases.",
+              "difficulty": "Hard",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-012",
+              "question": "Mendel's Law of Independent Assortment is based on which cross?",
+              "options": [
+                "Monohybrid cross",
+                "Dihybrid cross",
+                "Test cross",
+                "Back cross"
+              ],
+              "answer": 1,
+              "explanation": "Mendel formulated the Law of Independent Assortment based on dihybrid inheritance of seed shape and seed color (9:3:3:1 ratio).",
+              "difficulty": "Easy",
+              "chapter": "Principles of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-013",
+              "question": "A normal vision man marries a woman who is a carrier for red-green color blindness. What is the probability that their son will be color blind?",
+              "options": [
+                "0%",
+                "25%",
+                "50%",
+                "100%"
+              ],
+              "answer": 2,
+              "explanation": "Mother is X^C X^c, father is X^C Y. Sons inherit Y from father and either X^C or X^c from mother; 50% of sons will receive X^c and be color blind.",
+              "difficulty": "Medium",
+              "chapter": "Principles of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-014",
+              "question": "Down's syndrome is caused by chromosomal aberration consisting of:",
+              "options": [
+                "Monosomy of chromosome 21",
+                "Trisomy of chromosome 21",
+                "Trisomy of chromosome 18",
+                "XXY karyotype"
+              ],
+              "answer": 1,
+              "explanation": "Down's syndrome (47, +21) results from non-disjunction leading to an extra copy of chromosome 21.",
+              "difficulty": "Easy",
+              "chapter": "Principles of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-015",
+              "question": "Turner's syndrome in human females is characterized by which karyotype?",
+              "options": [
+                "47, XXY",
+                "45, XO",
+                "47, XXX",
+                "46, XY"
+              ],
+              "answer": 1,
+              "explanation": "Turner's syndrome arises from monosomy of the X chromosome (45, X0), causing sterile females with rudimentary ovaries and webbed neck.",
+              "difficulty": "Easy",
+              "chapter": "Principles of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-016",
+              "question": "Klinefelter's syndrome results from which sex chromosomal constitution?",
+              "options": [
+                "45, XO",
+                "47, XXY",
+                "47, XYY",
+                "46, XX"
+              ],
+              "answer": 1,
+              "explanation": "Klinefelter's syndrome has 47 chromosomes (47, XXY), causing hypogonadism and gynecomastia in phenotypic males.",
+              "difficulty": "Easy",
+              "chapter": "Principles of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-017",
+              "question": "Which experiment unequivocally proved that DNA is the genetic material?",
+              "options": [
+                "Griffith's transformation experiment",
+                "Hershey and Chase bacteriophage experiment (1952)",
+                "Meselson and Stahl experiment",
+                "Avery, MacLeod and McCarty experiment"
+              ],
+              "answer": 1,
+              "explanation": "Hershey and Chase used radioactive 32P (DNA) and 35S (protein coat) with T2 bacteriophage infecting E. coli to prove DNA enters cells.",
+              "difficulty": "Medium",
+              "chapter": "Molecular Basis of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-018",
+              "question": "During DNA replication, Okazaki fragments are joined together by the enzyme:",
+              "options": [
+                "DNA polymerase I",
+                "DNA Ligase",
+                "DNA Helicase",
+                "RNA Primase"
+              ],
+              "answer": 1,
+              "explanation": "DNA ligase forms phosphodiester bonds between discontinuous Okazaki fragments on the lagging strand.",
+              "difficulty": "Easy",
+              "chapter": "Molecular Basis of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-019",
+              "question": "The initiation codon in eukaryotic mRNA translation is:",
+              "options": [
+                "UAA",
+                "UAG",
+                "AUG",
+                "UGA"
+              ],
+              "answer": 2,
+              "explanation": "AUG codes for methionine and serves as the universal translation initiation codon.",
+              "difficulty": "Easy",
+              "chapter": "Molecular Basis of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-020",
+              "question": "Which of the following codons act as stop codons (nonsense codons)?",
+              "options": [
+                "UAA, UAG, UGA",
+                "AUG, GUG, UAA",
+                "UUU, UUC, UUA",
+                "AAA, AAG, AAC"
+              ],
+              "answer": 0,
+              "explanation": "UAA (ochre), UAG (amber), and UGA (opal) signal peptide termination.",
+              "difficulty": "Easy",
+              "chapter": "Molecular Basis of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-021",
+              "question": "In the lac operon of E. coli, the repressor protein binds to the:",
+              "options": [
+                "Promoter region",
+                "Operator region",
+                "Structural gene z",
+                "Cap site"
+              ],
+              "answer": 1,
+              "explanation": "The lac repressor protein encoded by the i gene binds to the operator locus (O) to physically block RNA polymerase.",
+              "difficulty": "Medium",
+              "chapter": "Molecular Basis of Inheritance",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-022",
+              "question": "The cardiac pacemaker in the human heart that initiates action potentials is the:",
+              "options": [
+                "Atrioventricular (AV) node",
+                "Sinoatrial (SA) node",
+                "Bundle of His",
+                "Purkinje fibres"
+              ],
+              "answer": 1,
+              "explanation": "The SA node located in the right atrium generates spontaneous action potentials at 70-75 bpm.",
+              "difficulty": "Easy",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-023",
+              "question": "Which heart valves prevent the backflow of blood from ventricles into atria?",
+              "options": [
+                "Semilunar valves",
+                "Tricuspid and Bicuspid (mitral) valves",
+                "Eustachian valve",
+                "Thebesian valve"
+              ],
+              "answer": 1,
+              "explanation": "Tricuspid (right) and bicuspid/mitral (left) AV valves prevent backflow into atria during ventricular systole.",
+              "difficulty": "Easy",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-024",
+              "question": "The QRS complex on a standard Electrocardiogram (ECG) represents:",
+              "options": [
+                "Atrial depolarization",
+                "Ventricular depolarization",
+                "Ventricular repolarization",
+                "Atrial repolarization"
+              ],
+              "answer": 1,
+              "explanation": "The QRS complex corresponds to rapid ventricular depolarization, which triggers ventricular contraction.",
+              "difficulty": "Medium",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-025",
+              "question": "The volume of air inspired or expired during normal quiet breathing is called:",
+              "options": [
+                "Inspiratory Reserve Volume (IRV)",
+                "Tidal Volume (TV)",
+                "Vital Capacity (VC)",
+                "Residual Volume (RV)"
+              ],
+              "answer": 1,
+              "explanation": "Tidal Volume is approximately 500 mL in a healthy adult human.",
+              "difficulty": "Easy",
+              "chapter": "Respiration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-026",
+              "question": "Oxygen-hemoglobin dissociation curve shifts to the right under which condition?",
+              "options": [
+                "Decreased pCO2",
+                "Increased pH",
+                "Increased temperature and increased pCO2 (Bohr effect)",
+                "Decreased 2,3-DPG"
+              ],
+              "answer": 2,
+              "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
+              "difficulty": "Hard",
+              "chapter": "Respiration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-027",
+              "question": "Erythropoietin, the hormone stimulating red blood cell production, is secreted primarily by:",
+              "options": [
+                "Bone marrow",
+                "Spleen",
+                "Juxtaglomerular cells of Kidney",
+                "Adrenal cortex"
+              ],
+              "answer": 2,
+              "explanation": "Juxtaglomerular cells in the renal cortex secrete erythropoietin in response to tissue hypoxia.",
+              "difficulty": "Medium",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-028",
+              "question": "Podocytes are specialized epithelial cells found in the:",
+              "options": [
+                "Parietal layer of Bowman's capsule",
+                "Visceral layer of Bowman's capsule",
+                "Loop of Henle",
+                "Distal convoluted tubule"
+              ],
+              "answer": 1,
+              "explanation": "Podocytes wrap around glomerular capillaries with interdigitating foot processes, forming filtration slits.",
+              "difficulty": "Hard",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-029",
+              "question": "The counter-current multiplier system that concentrates medullary interstitium in the kidney operates between:",
+              "options": [
+                "Glomerulus and Bowman's capsule",
+                "Ascending and descending limbs of Henle's loop and Vasa Recta",
+                "PCT and DCT",
+                "Collecting duct and renal pelvis"
+              ],
+              "answer": 1,
+              "explanation": "Opposite flows in Henle's loop and capillary vasa recta maintain a hyperosmotic medullary gradient up to 1200 mOsm/L.",
+              "difficulty": "Hard",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-030",
+              "question": "Which endocrine hormone acts to lower blood calcium concentration?",
+              "options": [
+                "Parathyroid hormone (PTH)",
+                "Calcitonin",
+                "Aldosterone",
+                "Thyroxine"
+              ],
+              "answer": 1,
+              "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
+              "difficulty": "Medium",
+              "chapter": "Chemical Coordination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-031",
+              "question": "Resting membrane potential of a neuron (-70 mV) is maintained actively by:",
+              "options": [
+                "Voltage-gated calcium channels",
+                "Na+/K+ ATPase pump (3 Na+ out for 2 K+ in)",
+                "Passive chloride influx",
+                "Potassium leak channels only"
+              ],
+              "answer": 1,
+              "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
+              "difficulty": "Medium",
+              "chapter": "Neural Control",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-032",
+              "question": "The primary photochemical reaction center in Photosystem II (PS II) is:",
+              "options": [
+                "P700",
+                "P680",
+                "P840",
+                "Chlorophyll b"
+              ],
+              "answer": 1,
+              "explanation": "PS II has a reaction center absorption maximum at 680 nm (P680), whereas PS I has P700.",
+              "difficulty": "Easy",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-033",
+              "question": "Water splitting complex (oxygen-evolving complex) in photosynthesis is associated with:",
+              "options": [
+                "PS I on the outer stroma side",
+                "PS II on the inner thylakoid lumen side",
+                "Cytochrome b6f complex",
+                "ATP synthase CF0-CF1"
+              ],
+              "answer": 1,
+              "explanation": "The Mn-containing oxygen-evolving complex is located on the luminal face of the thylakoid membrane attached to PS II.",
+              "difficulty": "Hard",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-034",
+              "question": "Kranz anatomy is a characteristic anatomical adaptation observed in:",
+              "options": [
+                "C3 plants (e.g., Rice, Wheat)",
+                "C4 plants (e.g., Maize, Sugarcane)",
+                "CAM plants (e.g., Pineapple)",
+                "Gymnosperms"
+              ],
+              "answer": 1,
+              "explanation": "C4 plants exhibit Kranz anatomy with radially arranged bundle sheath cells packed with agranal chloroplasts surrounding vascular bundles.",
+              "difficulty": "Medium",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-035",
+              "question": "The primary CO2 fixing enzyme in C4 plants mesophyll cells is:",
+              "options": [
+                "RuBisCO",
+                "PEP carboxylase (PEPcase)",
+                "Carbonic anhydrase",
+                "Pyruvate kinase"
+              ],
+              "answer": 1,
+              "explanation": "Phosphoenolpyruvate carboxylase (PEPcase) fixes CO2 into oxaloacetate in mesophyll cells, avoiding photorespiration.",
+              "difficulty": "Medium",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-036",
+              "question": "Which plant growth regulator is termed the 'Stress Hormone' due to promoting stomatal closure during drought?",
+              "options": [
+                "Auxin (IAA)",
+                "Gibberellic acid (GA3)",
+                "Abscisic acid (ABA)",
+                "Cytokinin"
+              ],
+              "answer": 2,
+              "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-037",
+              "question": "Triple fusion in angiosperm double fertilization results in the formation of:",
+              "options": [
+                "Diploid Zygote",
+                "Triploid Primary Endosperm Nucleus (PEN)",
+                "Haploid Synergid",
+                "Antipodal cells"
+              ],
+              "answer": 1,
+              "explanation": "One sperm nucleus (n) fuses with the diploid central secondary nucleus (2n) to form the triploid endosperm (3n).",
+              "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-038",
+              "question": "Filiform apparatus is a specialized cellular thickening present in the:",
+              "options": [
+                "Antipodal cells",
+                "Egg cell",
+                "Synergids",
+                "Pollen tube wall"
+              ],
+              "answer": 2,
+              "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
+              "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-039",
+              "question": "Sertoli cells present in the seminiferous tubules function to:",
+              "options": [
+                "Secrete testosterone",
+                "Nourish and support developing spermatozoa",
+                "Produce luteinizing hormone",
+                "Synthesize semen fructose"
+              ],
+              "answer": 1,
+              "explanation": "Sertoli cells (sustentacular nurse cells) provide structural and metabolic support to developing germ cells and form the blood-testis barrier.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-040",
+              "question": "Ovulation in human females is directly triggered by a mid-cycle surge of:",
+              "options": [
+                "Progesterone",
+                "Estrogen",
+                "Luteinizing Hormone (LH)",
+                "Follicle Stimulating Hormone (FSH)"
+              ],
+              "answer": 2,
+              "explanation": "Positive feedback of elevated estrogen induces a massive LH surge around day 14, rupturing the Graafian follicle.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-041",
+              "question": "Corpus luteum secretes large amounts of which hormone essential for maintaining endometrium?",
+              "options": [
+                "Progesterone",
+                "Estrogen",
+                "Relaxin",
+                "Oxytocin"
+              ],
+              "answer": 0,
+              "explanation": "After ovulation, the collapsed follicle transforms into the corpus luteum, secreting high titers of progesterone.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-042",
+              "question": "Human chorionic gonadotropin (hCG) is secreted by the:",
+              "options": [
+                "Corpus luteum",
+                "Syncytiotrophoblast of the placenta",
+                "Amnion",
+                "Anterior pituitary"
+              ],
+              "answer": 1,
+              "explanation": "Syncytiotrophoblastic cells of the developing blastocyst and placenta secrete hCG to rescue the corpus luteum.",
+              "difficulty": "Medium",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-043",
+              "question": "Which of the following is a non-medicated Intrauterine Device (IUD)?",
+              "options": [
+                "CuT",
+                "Multiload 375",
+                "Lippes loop",
+                "LNG-20"
+              ],
+              "answer": 2,
+              "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
+              "difficulty": "Medium",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-044",
+              "question": "The homologous organs represent:",
+              "options": [
+                "Divergent evolution",
+                "Convergent evolution",
+                "Parallel evolution",
+                "Atavism"
+              ],
+              "answer": 0,
+              "explanation": "Homologous structures share common anatomical ancestry but have adapted to different functions (divergent evolution).",
+              "difficulty": "Easy",
+              "chapter": "Evolution",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-045",
+              "question": "Industrial melanism in the peppered moth (Biston betularia) in England is a classical demonstration of:",
+              "options": [
+                "Lamarckian inheritance",
+                "Natural selection (Directional selection)",
+                "Genetic drift",
+                "Artificial selection"
+              ],
+              "answer": 1,
+              "explanation": "Soot pollution favored dark melanic forms over light lichens, illustrating directional natural selection.",
+              "difficulty": "Easy",
+              "chapter": "Evolution",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-046",
+              "question": "According to Hardy-Weinberg principle, the frequency of homozygous dominant genotype is represented by:",
+              "options": [
+                "p^2",
+                "2pq",
+                "q^2",
+                "p + q"
+              ],
+              "answer": 0,
+              "explanation": "In p^2 + 2pq + q^2 = 1, p^2 represents homozygous dominants (AA), 2pq heterozygotes (Aa), and q^2 homozygous recessives (aa).",
+              "difficulty": "Easy",
+              "chapter": "Evolution",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-047",
+              "question": "According to Lindeman's 10 percent law, energy transferred between consecutive trophic levels is:",
+              "options": [
+                "1%",
+                "10%",
+                "50%",
+                "90%"
+              ],
+              "answer": 1,
+              "explanation": "Only about 10% of chemical energy stored as organic biomass at one trophic level is transferred to the next.",
+              "difficulty": "Easy",
+              "chapter": "Ecosystem",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-048",
+              "question": "The Montreal Protocol (1987) was signed to control the emission of:",
+              "options": [
+                "Greenhouse gases (CO2, CH4)",
+                "Ozone-depleting substances (Chlorofluorocarbons)",
+                "Heavy metals in effluents",
+                "Radioactive wastes"
+              ],
+              "answer": 1,
+              "explanation": "The international Montreal Protocol aims to protect the stratospheric ozone layer by phasing out CFCs and halons.",
+              "difficulty": "Easy",
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-049",
+              "question": "In an electrostatic precipitator, particulate matter is removed using:",
+              "options": [
+                "Centrifugal cyclone",
+                "Corona discharge producing electrons that charge dust particles",
+                "Lime scrubber",
+                "Activated charcoal filters"
+              ],
+              "answer": 1,
+              "explanation": "High voltage creates a corona discharge; electrons attach to dust particles, which are attracted to grounded collecting plates.",
+              "difficulty": "Medium",
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
+            }
+          ]
+        }
+      ]
+    },
+    "physics": {
+      "subject": "Physics",
+      "exam": "NEET UG",
+      "icon": "\u269b\ufe0f",
+      "description": "High-Yield NEET Physics Formula & Conceptual MCQ Bank with Step-by-Step Solutions.",
+      "chapters": [
+        {
+          "id": "neet-phy-ch1",
+          "name": "NEET Physics Complete High-Yield Concept Bank",
+          "mcqs": [
+            {
+              "id": "NEET-PHY-001",
+              "question": "A particle moves along a straight line such that its displacement x at time t is x = 3t^2 - 6t + 4. The velocity at t = 2 s is:",
+              "options": [
+                "6 m/s",
+                "12 m/s",
+                "0 m/s",
+                "18 m/s"
+              ],
+              "answer": 0,
+              "explanation": "v = dx/dt = d(3t^2 - 6t + 4)/dt = 6t - 6. At t = 2: v = 6(2) - 6 = 6 m/s.",
+              "difficulty": "Easy",
+              "chapter": "Kinematics",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-002",
+              "question": "A projectile is fired at an angle of 30 deg to the horizontal with velocity 40 m/s. Its maximum height reached is (take g = 10 m/s^2):",
+              "options": [
+                "20 m",
+                "40 m",
+                "80 m",
+                "10 m"
+              ],
+              "answer": 0,
+              "explanation": "H_max = (u^2 * sin^2(theta)) / (2g) = (40^2 * sin^2(30)) / (20) = (1600 * 0.25) / 20 = 400 / 20 = 20 m.",
+              "difficulty": "Medium",
+              "chapter": "Motion in a Plane",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-003",
+              "question": "A block of mass 5 kg rests on a rough horizontal surface (coefficient of static friction mu_s = 0.4). The minimum horizontal force required to just start moving the block is (g = 10 m/s^2):",
+              "options": [
+                "10 N",
+                "20 N",
+                "50 N",
+                "2 N"
+              ],
+              "answer": 1,
+              "explanation": "F_limiting = mu_s * N = mu_s * m * g = 0.4 * 5 * 10 = 20 N.",
+              "difficulty": "Easy",
+              "chapter": "Laws of Motion",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-004",
+              "question": "A body of mass 2 kg moving at 10 m/s collides head-on with a stationary body of mass 3 kg. If the collision is perfectly inelastic, their common final velocity is:",
+              "options": [
+                "4 m/s",
+                "2 m/s",
+                "5 m/s",
+                "6 m/s"
+              ],
+              "answer": 0,
+              "explanation": "By conservation of linear momentum: m1*u1 + m2*u2 = (m1 + m2)*v => 2(10) + 3(0) = (2 + 3)*v => 20 = 5v => v = 4 m/s.",
+              "difficulty": "Medium",
+              "chapter": "Work, Energy and Power",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-005",
+              "question": "The moment of inertia of a uniform solid cylinder of mass M and radius R about its longitudinal axis is:",
+              "options": [
+                "M * R^2",
+                "(1/2) * M * R^2",
+                "(2/5) * M * R^2",
+                "(1/4) * M * R^2"
+              ],
+              "answer": 1,
+              "explanation": "Solid cylinder about axis of symmetry: I = 1/2 M R^2 (identical to a solid disk).",
+              "difficulty": "Easy",
+              "chapter": "Rotational Motion",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-006",
+              "question": "The escape velocity from the surface of the Earth is 11.2 km/s. If a planet has twice the mass and half the radius of Earth, its escape velocity will be:",
+              "options": [
+                "11.2 km/s",
+                "22.4 km/s",
+                "5.6 km/s",
+                "44.8 km/s"
+              ],
+              "answer": 1,
+              "explanation": "v_e = sqrt(2GM/R). For M' = 2M and R' = R/2: v_e' = sqrt(2G(2M)/(R/2)) = sqrt(4 * 2GM/R) = 2 * v_e = 2 * 11.2 = 22.4 km/s.",
+              "difficulty": "Medium",
+              "chapter": "Gravitation",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-007",
+              "question": "At what depth below Earth's surface does the acceleration due to gravity become g/4? (R = radius of Earth)",
+              "options": [
+                "R / 4",
+                "R / 2",
+                "3R / 4",
+                "R / 8"
+              ],
+              "answer": 2,
+              "explanation": "g' = g(1 - d/R) => g/4 = g(1 - d/R) => 1 - d/R = 1/4 => d/R = 3/4 => d = 3R/4.",
+              "difficulty": "Medium",
+              "chapter": "Gravitation",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-008",
+              "question": "Water rises to a height h in a capillary tube of radius r. If the tube radius is halved, the water will rise to height:",
+              "options": [
+                "h / 2",
+                "2h",
+                "4h",
+                "h"
+              ],
+              "answer": 1,
+              "explanation": "Jurin's law: h = (2 T cos(theta)) / (r rho g). Height is inversely proportional to radius (h * r = constant). Halving radius doubles height to 2h.",
+              "difficulty": "Easy",
+              "chapter": "Mechanical Properties of Fluids",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-009",
+              "question": "An ideal heat engine works between temperatures 600 K and 300 K. Its Carnot efficiency is:",
+              "options": [
+                "25%",
+                "50%",
+                "75%",
+                "100%"
+              ],
+              "answer": 1,
+              "explanation": "Carnot efficiency eta = 1 - T_cold / T_hot = 1 - 300/600 = 1 - 0.5 = 0.5 or 50%.",
+              "difficulty": "Easy",
+              "chapter": "Thermodynamics",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-010",
+              "question": "The root-mean-square (RMS) speed of gas molecules of mass m at absolute temperature T is given by:",
+              "options": [
+                "sqrt(3kT / m)",
+                "sqrt(2kT / m)",
+                "sqrt(8kT / (pi*m))",
+                "3kT / 2m"
+              ],
+              "answer": 0,
+              "explanation": "v_rms = sqrt(3 k T / m) = sqrt(3 R T / M).",
+              "difficulty": "Easy",
+              "chapter": "Kinetic Theory",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-011",
+              "question": "The time period of a simple pendulum on Earth is T. If it is taken inside an elevator moving downwards with acceleration a = g/2, its new time period will be:",
+              "options": [
+                "T * sqrt(2)",
+                "T / sqrt(2)",
+                "2T",
+                "T / 2"
+              ],
+              "answer": 0,
+              "explanation": "g_eff = g - a = g - g/2 = g/2. T' = 2*pi*sqrt(L / g_eff) = 2*pi*sqrt(2L/g) = T * sqrt(2).",
+              "difficulty": "Hard",
+              "chapter": "Oscillations",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-012",
+              "question": "In a stationary sound wave in an organ pipe, the distance between two successive displacement nodes is:",
+              "options": [
+                "lambda",
+                "lambda / 2",
+                "lambda / 4",
+                "2 * lambda"
+              ],
+              "answer": 1,
+              "explanation": "The distance between consecutive nodes (or consecutive antinodes) is always lambda / 2.",
+              "difficulty": "Easy",
+              "chapter": "Waves",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-013",
+              "question": "Two point charges +4 microcoulombs and +1 microcoulomb are placed 30 cm apart in vacuum. At what distance from the +1 microcoulomb charge is net electric field zero?",
+              "options": [
+                "10 cm",
+                "20 cm",
+                "15 cm",
+                "5 cm"
+              ],
+              "answer": 0,
+              "explanation": "Let distance from +1 muC be x, then distance from +4 muC is 30 - x. E1 = E2 => k(1)/x^2 = k(4)/(30 - x)^2 => 1/x = 2/(30 - x) => 30 - x = 2x => 3x = 30 => x = 10 cm.",
+              "difficulty": "Medium",
+              "chapter": "Electrostatics",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-014",
+              "question": "The capacitance of a parallel plate capacitor with plate area A and separation d filled with dielectric constant K is:",
+              "options": [
+                "epsilon_0 * A / d",
+                "K * epsilon_0 * A / d",
+                "K * d / (epsilon_0 * A)",
+                "epsilon_0 * A / (K * d)"
+              ],
+              "answer": 1,
+              "explanation": "Inserting a dielectric of relative permittivity K increases the capacitance K-fold: C = K * epsilon_0 * A / d.",
+              "difficulty": "Easy",
+              "chapter": "Current Electricity",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-015",
+              "question": "A wire of resistance R is stretched uniformly such that its length doubles. Its new resistance becomes:",
+              "options": [
+                "2R",
+                "4R",
+                "R / 2",
+                "R / 4"
+              ],
+              "answer": 1,
+              "explanation": "Since volume remains constant, doubling length (l' = 2l) causes area to halve (A' = A/2). Resistance R' = rho * l' / A' = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R.",
+              "difficulty": "Medium",
+              "chapter": "Current Electricity",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-016",
+              "question": "A proton and an alpha particle enter perpendicular to a uniform magnetic field with the same kinetic energy. The ratio of radii of their circular paths (r_p : r_alpha) is:",
+              "options": [
+                "1 : 1",
+                "1 : 2",
+                "2 : 1",
+                "1 : 4"
+              ],
+              "answer": 0,
+              "explanation": "r = mv / (qB) = sqrt(2 m K) / (qB). Ratio r_p / r_alpha = (sqrt(m_p) / q_p) / (sqrt(m_alpha) / q_alpha). Since m_alpha = 4m_p and q_alpha = 2q_p: (sqrt(1)/1) / (sqrt(4)/2) = 1 / (2/2) = 1:1.",
+              "difficulty": "Hard",
+              "chapter": "Moving Charges and Magnetism",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-017",
+              "question": "A circular coil of 100 turns and radius 10 cm carries a current of 1 A. The magnetic field at its center is (mu_0 = 4*pi*10^-7 T*m/A):",
+              "options": [
+                "6.28 x 10^-4 T",
+                "3.14 x 10^-4 T",
+                "1.25 x 10^-3 T",
+                "6.28 x 10^-5 T"
+              ],
+              "answer": 0,
+              "explanation": "B = (mu_0 * N * I) / (2R) = (4 * pi * 10^-7 * 100 * 1) / (2 * 0.1) = (4 * pi * 10^-5) / 0.2 = 2 * pi * 10^-4 = 6.28 x 10^-4 Tesla.",
+              "difficulty": "Medium",
+              "chapter": "Moving Charges and Magnetism",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-018",
+              "question": "Lenz's Law of electromagnetic induction is a direct consequence of the conservation of:",
+              "options": [
+                "Electric charge",
+                "Linear momentum",
+                "Energy",
+                "Angular momentum"
+              ],
+              "answer": 2,
+              "explanation": "Lenz's law (induced current opposes the change that produces it) obeys the Law of Conservation of Energy.",
+              "difficulty": "Easy",
+              "chapter": "Electromagnetic Induction",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-019",
+              "question": "In a series LCR alternating current circuit at resonance, the power factor is:",
+              "options": [
+                "0",
+                "0.5",
+                "1",
+                "-1"
+              ],
+              "answer": 2,
+              "explanation": "At resonance, inductive reactance equals capacitive reactance (X_L = X_C), making the impedance purely resistive (Z = R) and phase angle phi = 0; power factor cos(phi) = cos(0) = 1.",
+              "difficulty": "Easy",
+              "chapter": "Alternating Current",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-020",
+              "question": "Which of the following electromagnetic waves has the highest frequency and shortest wavelength?",
+              "options": [
+                "Radio waves",
+                "Microwaves",
+                "Ultraviolet rays",
+                "Gamma rays"
+              ],
+              "answer": 3,
+              "explanation": "Gamma rays occupy the highest frequency (> 10^19 Hz) and shortest wavelength (< 10^-12 m) band of the EM spectrum.",
+              "difficulty": "Easy",
+              "chapter": "Electromagnetic Waves",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-021",
+              "question": "In Young's double slit experiment, if the distance between slits is doubled and distance to screen is halved, the fringe width beta will:",
+              "options": [
+                "Become 4 times",
+                "Become 1/4th",
+                "Remain unchanged",
+                "Double"
+              ],
+              "answer": 1,
+              "explanation": "Fringe width beta = (lambda * D) / d. For D' = D/2 and d' = 2d: beta' = lambda*(D/2)/(2d) = beta / 4.",
+              "difficulty": "Medium",
+              "chapter": "Wave Optics",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-022",
+              "question": "In photoelectric effect, the maximum kinetic energy of emitted photoelectrons depends on:",
+              "options": [
+                "Intensity of incident light",
+                "Frequency of incident light",
+                "Distance from light source",
+                "Surface area of cathode"
+              ],
+              "answer": 1,
+              "explanation": "According to Einstein's photoelectric equation (KE_max = h*nu - Phi), KE_max depends solely on incident photon frequency and work function.",
+              "difficulty": "Easy",
+              "chapter": "Dual Nature of Radiation and Matter",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-023",
+              "question": "The de Broglie wavelength associated with an electron accelerated through potential difference V volts is given by:",
+              "options": [
+                "lambda = 12.27 / sqrt(V) Angstroms",
+                "lambda = 1.227 / sqrt(V) Angstroms",
+                "lambda = 0.1227 / V Angstroms",
+                "lambda = sqrt(V) / 12.27 Angstroms"
+              ],
+              "answer": 0,
+              "explanation": "lambda = h / sqrt(2 m e V) = 1.227 nm / sqrt(V) = 12.27 / sqrt(V) Angstroms.",
+              "difficulty": "Medium",
+              "chapter": "Dual Nature of Radiation and Matter",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-024",
+              "question": "According to Bohr's atomic model, the radius of the nth orbit of hydrogen atom is proportional to:",
+              "options": [
+                "n",
+                "n^2",
+                "1 / n",
+                "n^3"
+              ],
+              "answer": 1,
+              "explanation": "Bohr radius r_n = 0.529 * (n^2 / Z) Angstroms; for hydrogen Z = 1, so r_n is directly proportional to n^2.",
+              "difficulty": "Easy",
+              "chapter": "Atoms",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-025",
+              "question": "A radioactive isotope has a half-life of 10 days. What fraction of the initial sample remains undecayed after 40 days?",
+              "options": [
+                "1 / 4",
+                "1 / 8",
+                "1 / 16",
+                "1 / 32"
+              ],
+              "answer": 2,
+              "explanation": "Number of half-lives n = 40 / 10 = 4. Remaining fraction = (1/2)^n = (1/2)^4 = 1 / 16.",
+              "difficulty": "Easy",
+              "chapter": "Nuclei",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-026",
+              "question": "In a p-n junction diode under forward bias, the width of the depletion layer:",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Remains constant",
+                "First increases then decreases"
+              ],
+              "answer": 1,
+              "explanation": "Forward bias opposes the built-in potential barrier, pushing majority carriers across and narrowing the depletion region.",
+              "difficulty": "Easy",
+              "chapter": "Semiconductor Electronics",
+              "subject": "Physics"
+            }
+          ]
+        }
+      ]
+    },
+    "chemistry": {
+      "subject": "Chemistry",
+      "exam": "NEET UG",
+      "icon": "\u2697\ufe0f",
+      "description": "NCERT-aligned NEET Chemistry Question Bank covering Physical, Organic, and Inorganic Chemistry.",
+      "chapters": [
+        {
+          "id": "neet-chem-ch1",
+          "name": "NEET Chemistry Complete High-Yield Concept Bank",
+          "mcqs": [
+            {
+              "id": "NEET-CHEM-001",
+              "question": "The number of moles of solute present in 1 kg of solvent is termed:",
+              "options": [
+                "Molarity",
+                "Molality",
+                "Normality",
+                "Mole fraction"
+              ],
+              "answer": 1,
+              "explanation": "Molality (m) is defined as moles of solute per kilogram (1000 g) of solvent and is temperature-independent.",
+              "difficulty": "Easy",
+              "chapter": "Some Basic Concepts of Chemistry",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-002",
+              "question": "Which of the following sets of quantum numbers is NOT permissible for an electron in an atom?",
+              "options": [
+                "n = 3, l = 2, m = 0, s = +1/2",
+                "n = 4, l = 0, m = 0, s = -1/2",
+                "n = 3, l = 3, m = -1, s = +1/2",
+                "n = 2, l = 1, m = -1, s = -1/2"
+              ],
+              "answer": 2,
+              "explanation": "Azimuthal quantum number l can only take integer values from 0 to n - 1. When n = 3, l cannot equal 3.",
+              "difficulty": "Medium",
+              "chapter": "Structure of Atom",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-003",
+              "question": "The geometry and hybridization of xenon tetrafluoride (XeF4) molecule is:",
+              "options": [
+                "Tetrahedral, sp3",
+                "Square planar, sp3d2",
+                "Octahedral, sp3d2",
+                "See-saw, sp3d"
+              ],
+              "answer": 1,
+              "explanation": "Xe has 8 valence electrons; 4 bonding pairs + 2 lone pairs = steric number 6 (sp3d2). The two lone pairs occupy axial positions, yielding a square planar shape.",
+              "difficulty": "Medium",
+              "chapter": "Chemical Bonding and Molecular Structure",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-004",
+              "question": "Which molecule has zero dipole moment due to symmetric cancellation?",
+              "options": [
+                "H2O",
+                "NH3",
+                "BF3",
+                "SO2"
+              ],
+              "answer": 2,
+              "explanation": "BF3 is trigonal planar (sp2 hybridized) with identical B-F bond polarities oriented at 120 degrees, vectorially cancelling net dipole moment (mu = 0).",
+              "difficulty": "Easy",
+              "chapter": "Chemical Bonding and Molecular Structure",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-005",
+              "question": "For an ideal gas undergoing an isothermal expansion, the change in internal energy (Delta U) is:",
+              "options": [
+                "Positive",
+                "Negative",
+                "Zero",
+                "Infinity"
+              ],
+              "answer": 2,
+              "explanation": "Internal energy of an ideal gas depends solely on temperature: Delta U = n * C_v * Delta T. Since T is constant, Delta T = 0, so Delta U = 0.",
+              "difficulty": "Easy",
+              "chapter": "Thermodynamics",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-006",
+              "question": "A reaction is spontaneous at all temperatures if:",
+              "options": [
+                "Delta H is negative and Delta S is positive",
+                "Delta H is positive and Delta S is negative",
+                "Delta H is positive and Delta S is positive",
+                "Delta H is negative and Delta S is negative"
+              ],
+              "answer": 0,
+              "explanation": "From Gibbs free energy equation Delta G = Delta H - T * Delta S: when Delta H < 0 and Delta S > 0, Delta G is strictly negative at every temperature.",
+              "difficulty": "Medium",
+              "chapter": "Thermodynamics",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-007",
+              "question": "For the reaction N2(g) + 3H2(g) <=> 2NH3(g) (exothermic), increasing pressure will:",
+              "options": [
+                "Shift equilibrium to the left",
+                "Shift equilibrium to the right",
+                "Have no effect on equilibrium",
+                "Decompose ammonia"
+              ],
+              "answer": 1,
+              "explanation": "According to Le Chatelier's principle, increasing pressure shifts equilibrium towards the side with fewer gas moles (4 moles reactants -> 2 moles product).",
+              "difficulty": "Easy",
+              "chapter": "Equilibrium",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-008",
+              "question": "The pH of a 10^-3 M aqueous solution of strong monoprotic acid HCl is:",
+              "options": [
+                "3",
+                "11",
+                "1",
+                "7"
+              ],
+              "answer": 0,
+              "explanation": "HCl completely dissociates: [H+] = 10^-3 M. pH = -log10([H+]) = -log10(10^-3) = 3.",
+              "difficulty": "Easy",
+              "chapter": "Equilibrium",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-009",
+              "question": "What is the oxidation number of chromium in potassium dichromate (K2Cr2O7)?",
+              "options": [
+                "+3",
+                "+6",
+                "+7",
+                "+4"
+              ],
+              "answer": 1,
+              "explanation": "2(+1) + 2(Cr) + 7(-2) = 0 => 2 + 2(Cr) - 14 = 0 => 2(Cr) = 12 => Cr = +6.",
+              "difficulty": "Easy",
+              "chapter": "Redox Reactions",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-010",
+              "question": "Which of the following elements has the highest first ionization enthalpy?",
+              "options": [
+                "Boron",
+                "Carbon",
+                "Nitrogen",
+                "Oxygen"
+              ],
+              "answer": 2,
+              "explanation": "Nitrogen has a stable, half-filled 2p subshell (1s2 2s2 2p3), requiring significantly greater energy to remove an electron than oxygen (2p4).",
+              "difficulty": "Medium",
+              "chapter": "Periodic Classification",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-011",
+              "question": "Which transition metal ion is diamagnetic in nature?",
+              "options": [
+                "Fe2+ (d6)",
+                "Cu2+ (d9)",
+                "Zn2+ (d10)",
+                "Mn2+ (d5)"
+              ],
+              "answer": 2,
+              "explanation": "Zn2+ has a fully filled d10 electronic configuration with zero unpaired electrons, making it diamagnetic.",
+              "difficulty": "Easy",
+              "chapter": "d- and f-Block Elements",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-012",
+              "question": "The IUPAC name of CH3-CH(OH)-CH2-CHO is:",
+              "options": [
+                "3-hydroxybutanal",
+                "2-hydroxybutanal",
+                "3-hydroxybutan-1-one",
+                "4-oxobutan-2-ol"
+              ],
+              "answer": 0,
+              "explanation": "Aldehyde (-CHO) has highest functional group priority (C1). At C3 there is a hydroxy (-OH) substituent on a 4-carbon chain: 3-hydroxybutanal.",
+              "difficulty": "Medium",
+              "chapter": "Organic Chemistry - Nomenclature",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-013",
+              "question": "Markovnikov's rule states that during addition of unsymmetrical HX to an unsymmetrical alkene, the halide attaches to:",
+              "options": [
+                "The carbon with more hydrogen atoms",
+                "The carbon with fewer hydrogen atoms",
+                "Either carbon equally",
+                "Terminal methyl carbon"
+              ],
+              "answer": 1,
+              "explanation": "Electrophilic addition proceeds via the most stable carbocation; the electrophile (H+) adds to the carbon with more hydrogens, directing the nucleophile (X-) to the more substituted carbon.",
+              "difficulty": "Easy",
+              "chapter": "Hydrocarbons",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-014",
+              "question": "Which of the following compounds gives a positive Iodoform test (yellow precipitate of CHI3)?",
+              "options": [
+                "Methanol",
+                "Ethanol",
+                "Benzaldehyde",
+                "Propan-1-ol"
+              ],
+              "answer": 1,
+              "explanation": "Ethanol contains the CH3-CH(OH)- grouping, which is oxidized by I2/NaOH to acetaldehyde and forms triiodomethane (iodoform).",
+              "difficulty": "Medium",
+              "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-015",
+              "question": "Cannizzaro reaction is given by aldehydes that:",
+              "options": [
+                "Contain at least one alpha-hydrogen",
+                "Do not contain any alpha-hydrogen atoms",
+                "Have aromatic ring only",
+                "Contain carboxylic group"
+              ],
+              "answer": 1,
+              "explanation": "Aldehydes lacking alpha-hydrogens (e.g., formaldehyde, benzaldehyde) undergo self oxidation-reduction in concentrated alkali.",
+              "difficulty": "Medium",
+              "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-016",
+              "question": "Which aromatic compound undergoes nitration most rapidly?",
+              "options": [
+                "Nitrobenzene",
+                "Toluene",
+                "Benzene",
+                "Chlorobenzene"
+              ],
+              "answer": 1,
+              "explanation": "Toluene possesses a methyl (-CH3) group that activates the benzene ring towards electrophilic aromatic substitution via hyperconjugation and inductive effect (+I).",
+              "difficulty": "Medium",
+              "chapter": "Hydrocarbons",
+              "subject": "Chemistry"
+            },
+            {
+              "id": "NEET-CHEM-017",
+              "question": "Carbylamine test (isocyanide test) is used to detect:",
+              "options": [
+                "Primary aliphatic and aromatic amines",
+                "Secondary amines",
+                "Tertiary amines",
+                "Amides"
+              ],
+              "answer": 0,
+              "explanation": "Primary amines react with chloroform (CHCl3) and alcoholic KOH to produce foul-smelling carbylamines (isocyanides).",
+              "difficulty": "Easy",
+              "chapter": "Amines",
+              "subject": "Chemistry"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "mbbs": {
+    "microbiology": {
+      "subject": "Microbiology",
+      "key": "microbiology",
+      "phase": "Para-Clinical (Phase 2)",
+      "icon": "\ud83e\uddeb",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Bacteriology",
+        "Virology",
+        "Parasitology & Mycology"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-microbiology-master",
+          "name": "Microbiology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-MICR-001",
+              "question": "The diagnostic 'rice water' watery stool containing darting motile vibrios is characteristic of infection by:",
+              "options": [
+                "Salmonella Typhi",
+                "Vibrio cholerae",
+                "Shigella dysenteriae",
+                "Entamoeba histolytica"
+              ],
+              "answer": 1,
+              "explanation": "Vibrio cholerae produces cholera enterotoxin (choleragen), which causes permanent activation of adenylate cyclase, resulting in voluminous non-bloody secretory diarrhea.",
+              "difficulty": "Easy",
+              "topic": "Bacteriology",
+              "subject": "Microbiology"
+            }
+          ]
+        }
+      ]
+    },
+    "orthopedics": {
+      "subject": "Orthopedics",
+      "key": "orthopedics",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\uddb4",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Traumatology & Fractures",
+        "Bone Pathology & Tumors",
+        "Spine & Joint Disorders"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-orthopedics-master",
+          "name": "Orthopedics High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-ORTH-001",
+              "question": "A 'dinner fork' deformity of the distal forearm resulting from a fall on an outstretched hand is caused by:",
+              "options": [
+                "Smith fracture",
+                "Colles fracture",
+                "Monteggia fracture",
+                "Galeazzi fracture"
+              ],
+              "answer": 1,
+              "explanation": "Colles fracture is an extra-articular fracture of the distal radial metaphyseal region with dorsal displacement, dorsal tilt, and radial shift producing the classic dinner fork appearance.",
+              "difficulty": "Easy",
+              "topic": "Trauma",
+              "subject": "Orthopedics"
+            }
+          ]
+        }
+      ]
+    },
+    "pediatrics": {
+      "subject": "Pediatrics",
+      "key": "pediatrics",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83d\udc76",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Neonatology",
+        "Growth & Development",
+        "Pediatric Infections & Nutrition"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-pediatrics-master",
+          "name": "Pediatrics High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-PEDI-001",
+              "question": "A newborn infant is evaluated 1 minute after birth: heart rate is 120 bpm, vigorous cry, active motion of all extremities, prompt cough reflex to suction, and body pink with blue hands and feet. What is the Apgar score?",
+              "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+              ],
+              "answer": 2,
+              "explanation": "Heart rate >100 (2), Cry (2), Muscle tone (2), Reflex irritability (2), Color (acrocyanosis = 1). Total APGAR = 9.",
+              "difficulty": "Medium",
+              "topic": "Neonatology",
+              "subject": "Pediatrics"
+            }
+          ]
+        }
+      ]
+    },
+    "biochemistry": {
+      "subject": "Biochemistry",
+      "key": "biochemistry",
+      "phase": "Pre-Clinical (Phase 1)",
+      "icon": "\ud83e\uddec",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Carbohydrate Metabolism",
+        "Lipid & Protein Metabolism",
+        "Molecular Genetics & Enzymology"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-biochemistry-master",
+          "name": "Biochemistry High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-BIOC-001",
+              "question": "The rate-limiting and committed regulatory enzyme of glycolysis is:",
+              "options": [
+                "Hexokinase",
+                "Phosphofructokinase-1 (PFK-1)",
+                "Pyruvate kinase",
+                "Aldolase"
+              ],
+              "answer": 1,
+              "explanation": "PFK-1 catalyzes the irreversible phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, allosterically activated by AMP and fructose-2,6-bisphosphate.",
+              "difficulty": "Easy",
+              "topic": "Metabolism",
+              "subject": "Biochemistry"
+            },
+            {
+              "id": "MBBS-BIOC-002",
+              "question": "Which inborn error of metabolism is caused by a deficiency of the enzyme homogentisate 1,2-dioxygenase?",
+              "options": [
+                "Phenylketonuria (PKU)",
+                "Alkaptonuria",
+                "Maple Syrup Urine Disease",
+                "Homocystinuria"
+              ],
+              "answer": 1,
+              "explanation": "Alkaptonuria results from homogentisate oxidase deficiency, causing accumulation of homogentisic acid, black urine on standing, and ochronotic arthritis.",
+              "difficulty": "Medium",
+              "topic": "Inborn Errors of Metabolism",
+              "subject": "Biochemistry"
+            }
+          ]
+        }
+      ]
+    },
+    "pharmacology": {
+      "subject": "Pharmacology",
+      "key": "pharmacology",
+      "phase": "Para-Clinical (Phase 2)",
+      "icon": "\ud83d\udc8a",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "General Principles",
+        "Autonomic & Cardiovascular",
+        "Antimicrobial & Chemotherapy"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-pharmacology-master",
+          "name": "Pharmacology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-PHAR-001",
+              "question": "The drug of choice for the immediate management of severe acute anaphylactic shock is:",
+              "options": [
+                "Intravenous hydrocortisone",
+                "Intramuscular epinephrine (adrenaline 1:1000)",
+                "Oral cetirizine",
+                "Intravenous salbutamol"
+              ],
+              "answer": 1,
+              "explanation": "Intramuscular adrenaline (0.5 mg in adults, 1:1000) is the first-line lifesaving drug for anaphylaxis due to its alpha-1 (vasoconstriction), beta-1 (inotropic/chronotropic), and beta-2 (bronchodilation) agonist effects.",
+              "difficulty": "Easy",
+              "topic": "Autonomic Pharmacology",
+              "subject": "Pharmacology"
+            },
+            {
+              "id": "MBBS-PHAR-002",
+              "question": "A patient on warfarin therapy develops acute major bleeding. What is the most rapid reversal agent?",
+              "options": [
+                "Vitamin K1 (Phytomenadione)",
+                "Prothrombin Complex Concentrate (PCC)",
+                "Protamine sulfate",
+                "Tranexamic acid"
+              ],
+              "answer": 1,
+              "explanation": "4-factor Prothrombin Complex Concentrate (PCC) along with IV vitamin K provides immediate restoration of functional clotting factors II, VII, IX, and X.",
+              "difficulty": "Medium",
+              "topic": "Hematological Drugs",
+              "subject": "Pharmacology"
+            }
+          ]
+        }
+      ]
+    },
+    "radiology": {
+      "subject": "Radiology",
+      "key": "radiology",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\ude7b",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Plain Radiography",
+        "Computed Tomography (CT)",
+        "Magnetic Resonance Imaging (MRI) & Ultrasound"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-radiology-master",
+          "name": "Radiology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-RADI-001",
+              "question": "Which imaging modality of choice provides the highest soft-tissue resolution for evaluating acute spinal cord compression and multiple sclerosis plaques?",
+              "options": [
+                "Non-contrast CT head",
+                "Magnetic Resonance Imaging (MRI)",
+                "Digital Fluoroscopy",
+                "Ultrasound"
+              ],
+              "answer": 1,
+              "explanation": "MRI provides unmatched soft-tissue contrast resolution and multiplanar capabilities without ionizing radiation.",
+              "difficulty": "Easy",
+              "topic": "Neuroradiology",
+              "subject": "Radiology"
+            }
+          ]
+        }
+      ]
+    },
+    "anesthesiology": {
+      "subject": "Anesthesiology",
+      "key": "anesthesiology",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83d\udc89",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "General & Regional Anesthesia",
+        "Airway Management",
+        "Critical Care & Resuscitation"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-anesthesiology-master",
+          "name": "Anesthesiology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-ANES-001",
+              "question": "Which depolarizing neuromuscular blocking agent can precipitate life-threatening malignant hyperthermia and dangerous hyperkalemia in burn or trauma patients?",
+              "options": [
+                "Vecuronium",
+                "Succinylcholine (Suxamethonium)",
+                "Rocuronium",
+                "Atracurium"
+              ],
+              "answer": 1,
+              "explanation": "Succinylcholine stimulates nicotinic receptors at the motor end plate, causing transient fasciculations and potassium release, and is a trigger for malignant hyperthermia.",
+              "difficulty": "Medium",
+              "topic": "General Anesthesia",
+              "subject": "Anesthesiology"
+            }
+          ]
+        }
+      ]
+    },
+    "ent": {
+      "subject": "ENT (Otolaryngology)",
+      "key": "ent",
+      "phase": "Clinical (Phase 3 Part 1)",
+      "icon": "\ud83d\udc42",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Otology",
+        "Rhinology",
+        "Laryngology"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-ent-master",
+          "name": "ENT (Otolaryngology) High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-ENT-001",
+              "question": "During a Weber tuning fork test, lateralization of sound to the diseased ear with a negative Rinne test indicates:",
+              "options": [
+                "Sensorineural hearing loss in that ear",
+                "Conductive hearing loss in that ear",
+                "Normal bilateral hearing",
+                "Presbycusis"
+              ],
+              "answer": 1,
+              "explanation": "In conductive hearing loss, bone conduction exceeds air conduction (negative Rinne: BC > AC), and sound lateralizes to the affected ear.",
+              "difficulty": "Medium",
+              "topic": "Otology",
+              "subject": "ENT (Otolaryngology)"
+            }
+          ]
+        }
+      ]
+    },
+    "pathology": {
+      "subject": "Pathology",
+      "key": "pathology",
+      "phase": "Para-Clinical (Phase 2)",
+      "icon": "\ud83d\udd2c",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "General Pathology & Inflammation",
+        "Hematology",
+        "Systemic Pathology & Neoplasia"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-pathology-master",
+          "name": "Pathology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-PATH-001",
+              "question": "Reed-Sternberg cells with classic 'owl-eye' binucleated appearance are diagnostic of:",
+              "options": [
+                "Burkitt lymphoma",
+                "Hodgkin lymphoma",
+                "Multiple myeloma",
+                "Chronic lymphocytic leukemia"
+              ],
+              "answer": 1,
+              "explanation": "Reed-Sternberg cells (CD15+, CD30+) in a mixed inflammatory background are the hallmark neoplastic cells of Hodgkin lymphoma.",
+              "difficulty": "Easy",
+              "topic": "Hematology",
+              "subject": "Pathology"
+            },
+            {
+              "id": "MBBS-PATH-002",
+              "question": "Which type of necrosis is classically observed in cerebral infarction (stroke) in brain tissue?",
+              "options": [
+                "Coagulative necrosis",
+                "Liquefactive necrosis",
+                "Caseous necrosis",
+                "Fibrinoid necrosis"
+              ],
+              "answer": 1,
+              "explanation": "Due to abundant lipid and hydrolytic lysosomal enzymes, hypoxic injury to the central nervous system manifests as liquefactive necrosis.",
+              "difficulty": "Medium",
+              "topic": "Cell Injury",
+              "subject": "Pathology"
+            }
+          ]
+        }
+      ]
+    },
+    "physiology": {
+      "subject": "Physiology",
+      "key": "physiology",
+      "phase": "Pre-Clinical (Phase 1)",
+      "icon": "\ud83e\udde0",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "General & Nerve-Muscle",
+        "Cardiovascular System",
+        "Respiratory Physiology",
+        "Renal & Endocrine"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-physiology-master",
+          "name": "Physiology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-PHYS-001",
+              "question": "Which phase of the cardiac ventricular action potential is primarily maintained by inward calcium influx through L-type Ca2+ channels?",
+              "options": [
+                "Phase 0 (Rapid depolarization)",
+                "Phase 1 (Early repolarization)",
+                "Phase 2 (Plateau phase)",
+                "Phase 3 (Rapid repolarization)"
+              ],
+              "answer": 2,
+              "explanation": "Phase 2 plateau is mediated by balanced inward Ca2+ current through L-type calcium channels and outward delayed rectifier K+ current.",
+              "difficulty": "Medium",
+              "topic": "Cardiovascular Physiology",
+              "subject": "Physiology"
+            },
+            {
+              "id": "MBBS-PHYS-002",
+              "question": "Surfactant lines the alveolar surface to prevent atelectasis primarily by reducing surface tension. What is its major phospholipid constituent?",
+              "options": [
+                "Sphingomyelin",
+                "Dipalmitoylphosphatidylcholine (DPPC)",
+                "Phosphatidylserine",
+                "Cardiolipin"
+              ],
+              "answer": 1,
+              "explanation": "DPPC (dipalmitoylphosphatidylcholine) synthesized by type II alveolar pneumocytes is the primary surface-active component of pulmonary surfactant.",
+              "difficulty": "Easy",
+              "topic": "Respiratory Physiology",
+              "subject": "Physiology"
+            },
+            {
+              "id": "MBBS-PHYS-003",
+              "question": "The primary physiological stimulus for the release of aldosterone from the adrenal zona glomerulosa is:",
+              "options": [
+                "Hypertension",
+                "Hyperkalemia and Angiotensin II",
+                "Hypokalemia and ANP",
+                "Hypernatremia"
+              ],
+              "answer": 1,
+              "explanation": "Elevated serum potassium (hyperkalemia) directly stimulates the adrenal cortex, and decreased renal perfusion triggers the renin-angiotensin-aldosterone axis.",
+              "difficulty": "Medium",
+              "topic": "Renal & Endocrine",
+              "subject": "Physiology"
+            }
+          ]
+        }
+      ]
+    },
+    "psychiatry": {
+      "subject": "Psychiatry",
+      "key": "psychiatry",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\uddd8",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Psychotic Disorders",
+        "Mood Disorders",
+        "Anxiety & Substance Use"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-psychiatry-master",
+          "name": "Psychiatry High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-PSYC-001",
+              "question": "A fixed, false, unshakeable belief held with extraordinary conviction, out of keeping with social and cultural background, is defined as a:",
+              "options": [
+                "Hallucination",
+                "Illusion",
+                "Delusion",
+                "Obsession"
+              ],
+              "answer": 2,
+              "explanation": "Delusions are fixed false beliefs not amenable to reasoning, a cardinal feature of psychotic disorders including schizophrenia.",
+              "difficulty": "Easy",
+              "topic": "Psychopathology",
+              "subject": "Psychiatry"
+            }
+          ]
+        }
+      ]
+    },
+    "surgery": {
+      "subject": "General Surgery",
+      "key": "surgery",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83d\udd2a",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Acute Abdomen",
+        "Trauma & Shock",
+        "Surgical Oncology & Hernias"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-surgery-master",
+          "name": "General Surgery High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-SURG-001",
+              "question": "The clinical finding of localized tenderness at McBurney's point with guarding in the right iliac fossa is characteristic of:",
+              "options": [
+                "Acute cholecystitis",
+                "Acute appendicitis",
+                "Acute pancreatitis",
+                "Perforated peptic ulcer"
+              ],
+              "answer": 1,
+              "explanation": "McBurney's point lies at the junction of the lateral third and medial two-thirds of the spinoumbilical line; maximal tenderness indicates acute inflammation of the vermiform appendix.",
+              "difficulty": "Easy",
+              "topic": "Acute Abdomen",
+              "subject": "General Surgery"
+            }
+          ]
+        }
+      ]
+    },
+    "anatomy": {
+      "subject": "Anatomy",
+      "key": "anatomy",
+      "phase": "Pre-Clinical (Phase 1)",
+      "icon": "\ud83e\udec0",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Upper Limb & Brachial Plexus",
+        "Head & Neck / Neuroanatomy",
+        "Thorax & Mediastinum",
+        "Abdomen & Pelvis"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-anatomy-master",
+          "name": "Anatomy High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-ANAT-001",
+              "question": "A 24-year-old motorcyclist sustains a fracture of the mid-shaft of the humerus. On examination, he presents with 'wrist drop' and loss of sensation over the dorsal first web space. Which nerve is most likely injured?",
+              "options": [
+                "Median nerve",
+                "Ulnar nerve",
+                "Radial nerve",
+                "Axillary nerve"
+              ],
+              "answer": 2,
+              "explanation": "The radial nerve runs along the radial groove on the posterior surface of the mid-shaft humerus. Fractures at this site classic cause wrist drop due to denervation of forearm extensors and sensory loss over the dorsal aspect of the first web space.",
+              "difficulty": "Medium",
+              "topic": "Upper Limb",
+              "subject": "Anatomy"
+            },
+            {
+              "id": "MBBS-ANAT-002",
+              "question": "Injury to the long thoracic nerve of Bell during an axillary lymph node dissection leads to which clinical deformity?",
+              "options": [
+                "Claw hand",
+                "Ape thumb deformity",
+                "Winged scapula",
+                "Waiter's tip hand"
+              ],
+              "answer": 2,
+              "explanation": "The long thoracic nerve (roots C5, C6, C7) innervates the serratus anterior muscle, which stabilizes the scapula against the thoracic wall. Paralysis produces 'winged scapula'.",
+              "difficulty": "Easy",
+              "topic": "Upper Limb",
+              "subject": "Anatomy"
+            },
+            {
+              "id": "MBBS-ANAT-003",
+              "question": "In the carpal tunnel, which structure accompanies the flexor tendons and is vulnerable to compression?",
+              "options": [
+                "Radial artery",
+                "Median nerve",
+                "Ulnar nerve",
+                "Ulnar artery"
+              ],
+              "answer": 1,
+              "explanation": "The median nerve passes through the carpal tunnel deep to the flexor retinaculum alongside the 9 tendons of FDS, FDP, and FPL.",
+              "difficulty": "Easy",
+              "topic": "Upper Limb",
+              "subject": "Anatomy"
+            },
+            {
+              "id": "MBBS-ANAT-004",
+              "question": "Which paranasal air sinus drains into the superior meatus of the nasal cavity?",
+              "options": [
+                "Frontal sinus",
+                "Maxillary sinus",
+                "Posterior ethmoidal air cells",
+                "Middle ethmoidal air cells"
+              ],
+              "answer": 2,
+              "explanation": "The posterior ethmoidal sinuses open into the superior meatus. Frontal, maxillary, and anterior/middle ethmoidal sinuses open into the middle meatus.",
+              "difficulty": "Medium",
+              "topic": "Head and Neck",
+              "subject": "Anatomy"
+            },
+            {
+              "id": "MBBS-ANAT-005",
+              "question": "The foramen spinosum of the sphenoid bone transmits which vital vascular structure?",
+              "options": [
+                "Internal carotid artery",
+                "Middle meningeal artery",
+                "Vertebral artery",
+                "Maxillary artery"
+              ],
+              "answer": 1,
+              "explanation": "The middle meningeal artery (a branch of the maxillary artery) traverses the foramen spinosum to supply the dura mater and calvarium.",
+              "difficulty": "Medium",
+              "topic": "Neuroanatomy",
+              "subject": "Anatomy"
+            }
+          ]
+        }
+      ]
+    },
+    "dermatology": {
+      "subject": "Dermatology",
+      "key": "dermatology",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\uddf4",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Papulosquamous Disorders",
+        "Infections & Infestations",
+        "Immunobullous Diseases"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-dermatology-master",
+          "name": "Dermatology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-DERM-001",
+              "question": "Well-demarcated erythematous plaques covered with silvery-white micaceous scales with a positive Auspitz sign are characteristic of:",
+              "options": [
+                "Lichen planus",
+                "Plaque psoriasis",
+                "Pityriasis rosea",
+                "Eczema"
+              ],
+              "answer": 1,
+              "explanation": "Psoriasis vulgaris is characterized by silvery micaceous scaling over extensor surfaces; scraping leaves pinpoint capillary bleeding spots (Auspitz sign).",
+              "difficulty": "Easy",
+              "topic": "Dermatology",
+              "subject": "Dermatology"
+            }
+          ]
+        }
+      ]
+    },
+    "medicine": {
+      "subject": "General Medicine",
+      "key": "medicine",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\ude7a",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Cardiology",
+        "Pulmonology",
+        "Neurology",
+        "Endocrinology & Nephrology"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-medicine-master",
+          "name": "General Medicine High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-MEDI-001",
+              "question": "A 58-year-old diabetic male presents with crushing retrosternal chest pain radiating to the left arm. ECG demonstrates ST-segment elevations in leads II, III, and aVF. Which coronary artery is most likely occluded?",
+              "options": [
+                "Left anterior descending artery (LAD)",
+                "Right coronary artery (RCA)",
+                "Left circumflex artery (LCx)",
+                "Left main coronary artery"
+              ],
+              "answer": 1,
+              "explanation": "ST elevation in inferior leads II, III, and aVF signifies an acute inferior wall ST-elevation myocardial infarction (STEMI), typically supplied by the Right Coronary Artery.",
+              "difficulty": "Medium",
+              "topic": "Cardiology",
+              "subject": "General Medicine"
+            }
+          ]
+        }
+      ]
+    },
+    "obgyn": {
+      "subject": "Obstetrics & Gynecology",
+      "key": "obgyn",
+      "phase": "Clinical (Phase 3 Part 2)",
+      "icon": "\ud83e\udd30",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Antenatal Care & Labor",
+        "Gynecological Oncology",
+        "Contraception & Infertility"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-obgyn-master",
+          "name": "Obstetrics & Gynecology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-OBGY-001",
+              "question": "A 28-year-old primigravida at 34 weeks gestation presents with headache, BP 164/110 mmHg, and 3+ proteinuria. Which medication is indicated for seizure prophylaxis?",
+              "options": [
+                "Diazepam",
+                "Magnesium sulfate",
+                "Phenytoin",
+                "Sodium valproate"
+              ],
+              "answer": 1,
+              "explanation": "Magnesium sulfate (Pritchard regimen or Zuspan regimen) is the anticonvulsant drug of choice for prophylaxis and treatment of eclamptic seizures.",
+              "difficulty": "Easy",
+              "topic": "Obstetrics",
+              "subject": "Obstetrics & Gynecology"
+            }
+          ]
+        }
+      ]
+    },
+    "ophthalmology": {
+      "subject": "Ophthalmology",
+      "key": "ophthalmology",
+      "phase": "Clinical (Phase 3 Part 1)",
+      "icon": "\ud83d\udc41\ufe0f",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Cornea & Lens",
+        "Glaucoma",
+        "Retina & Neuro-ophthalmology"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-ophthalmology-master",
+          "name": "Ophthalmology High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-OPHT-001",
+              "question": "A dendritic ulcer staining positively with fluorescein dye on the cornea is pathognomonic of infection by:",
+              "options": [
+                "Adenovirus",
+                "Herpes simplex virus (HSV-1)",
+                "Pseudomonas aeruginosa",
+                "Acanthamoeba"
+              ],
+              "answer": 1,
+              "explanation": "HSV-1 keratitis classically produces branching dendritic epithelial ulcers with terminal bulbs that stain bright green with fluorescein.",
+              "difficulty": "Easy",
+              "topic": "Cornea",
+              "subject": "Ophthalmology"
+            }
+          ]
+        }
+      ]
+    },
+    "community-medicine": {
+      "subject": "Community Medicine",
+      "key": "community-medicine",
+      "phase": "Para-Clinical (Phase 2)",
+      "icon": "\ud83c\udfe5",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Epidemiology",
+        "Biostatistics",
+        "Maternal and Child Health",
+        "National Health Programs"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-community-medicine-master",
+          "name": "Community Medicine High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-COMM-001",
+              "question": "The probability of a screening test correctly identifying individuals who truly have the disease is defined as:",
+              "options": [
+                "Sensitivity",
+                "Specificity",
+                "Positive Predictive Value",
+                "Likelihood Ratio"
+              ],
+              "answer": 0,
+              "explanation": "Sensitivity = True Positives / (True Positives + False Negatives), measuring the ability to correctly detect true cases.",
+              "difficulty": "Medium",
+              "topic": "Epidemiology",
+              "subject": "Community Medicine"
+            }
+          ]
+        }
+      ]
+    },
+    "forensic-medicine": {
+      "subject": "Forensic Medicine",
+      "key": "forensic-medicine",
+      "phase": "Para-Clinical (Phase 2)",
+      "icon": "\u2696\ufe0f",
+      "curriculum": "MBBS Undergraduate Medical Education",
+      "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+      "topics": [
+        "Thanatology",
+        "Mechanical Injuries",
+        "Toxicology & Medical Jurisprudence"
+      ],
+      "chapters": [
+        {
+          "id": "mbbs-forensic-medicine-master",
+          "name": "Forensic Medicine High-Yield Clinical Examination Bank",
+          "mcqs": [
+            {
+              "id": "MBBS-FORE-001",
+              "question": "The gradual cooling of a dead body after death until it reaches environmental temperature is termed:",
+              "options": [
+                "Rigor mortis",
+                "Algor mortis",
+                "Livor mortis",
+                "Cadaveric spasm"
+              ],
+              "answer": 1,
+              "explanation": "Algor mortis is postmortem body cooling, useful for estimating the approximate time since death (Newton's law of cooling).",
+              "difficulty": "Easy",
+              "topic": "Thanatology",
+              "subject": "Forensic Medicine"
+            }
+          ]
+        }
+      ]
+    }
+  }
+};

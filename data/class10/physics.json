@@ -1,0 +1,834 @@
+{
+  "subject": "Physics",
+  "curriculum": "Telangana SSC Class 10",
+  "icon": "\u269b\ufe0f",
+  "description": "Telangana State Board Class 10 Physical Science covering Optics, Electricity, Electromagnetism, Atomic Structure, and Chemical Principles.",
+  "chapters": [
+    {
+      "id": "c10-phy-ch1",
+      "name": "Reflection and Refraction of Light",
+      "overview": "Curved mirrors (concave and convex), mirror formula, magnification, laws of refraction, Snell's law, refractive index, total internal reflection, lenses, lens formula, and power of a lens.",
+      "vsaq": [
+        {
+          "id": "PHY-VSAQ-01",
+          "question": "State the relationship between radius of curvature (R) and focal length (f) of a spherical mirror.",
+          "answer": "For spherical mirrors with small aperture, R = 2f, or focal length is half of radius of curvature (f = R/2).",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "PHY-VSAQ-02",
+          "question": "Why is a convex mirror used as a rear-view mirror in vehicles?",
+          "answer": "Convex mirrors always produce an erect, diminished virtual image and have a much wider field of view compared to plane mirrors.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "PHY-VSAQ-03",
+          "question": "What is the SI unit of power of a lens?",
+          "answer": "The SI unit of lens power is the Dioptre (D), defined as the power of a lens having a focal length of 1 metre (1 D = 1 m^-1).",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "PHY-VSAQ-04",
+          "question": "State Snell's Law of refraction.",
+          "answer": "The ratio of sine of angle of incidence to sine of angle of refraction is constant for a given pair of media: sin(i) / sin(r) = n2 / n1.",
+          "marks": 1,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "PHY-VSAQ-05",
+          "question": "Under what condition does total internal reflection take place?",
+          "answer": "1) Light must travel from an optically denser medium to a rarer medium. 2) The angle of incidence in the denser medium must exceed the critical angle.",
+          "marks": 2,
+          "difficulty": "Medium"
+        }
+      ],
+      "saq": [
+        {
+          "id": "PHY-SAQ-01",
+          "question": "Derive the relation between refractive index of medium and critical angle.",
+          "answer": "By Snell's law: n1 * sin(i) = n2 * sin(r). When light travels from denser medium (n1 = n) to rarer air (n2 = 1), at critical angle i = C, angle of refraction r = 90 deg. Hence: n * sin(C) = 1 * sin(90 deg) => sin(C) = 1 / n or n = 1 / sin(C).",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "PHY-SAQ-02",
+          "question": "Distinguish between real image and virtual image with ray diagram characteristics.",
+          "answer": "Real Image: Formed by actual intersection of light rays; can be captured on a screen; always inverted relative to object; formed in front of concave mirror or behind convex lens. Virtual Image: Formed when rays only appear to diverge from a point; cannot be caught on a screen; always erect; formed behind plane/convex mirrors or in front of concave lens.",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "PHY-SAQ-03",
+          "question": "An object 4 cm tall is placed 25 cm in front of a concave mirror of focal length 15 cm. Find image distance and nature.",
+          "answer": "Using mirror formula 1/f = 1/v + 1/u. Here f = -15 cm, u = -25 cm. 1/v = 1/(-15) - 1/(-25) = -1/15 + 1/25 = (-5 + 3)/75 = -2/75 => v = -37.5 cm. Image is formed 37.5 cm in front of the mirror (real, inverted, magnified with m = -v/u = -(-37.5)/(-25) = -1.5).",
+          "marks": 4,
+          "difficulty": "Hard"
+        }
+      ],
+      "laq": [
+        {
+          "id": "PHY-LAQ-01",
+          "question": "State the sign convention for spherical mirrors and derive the mirror equation (1/f = 1/v + 1/u).",
+          "answer": "Sign Convention (Cartesian): 1) Pole is origin; principal axis is x-axis. 2) Distances measured in direction of incident ray are positive; opposite are negative. 3) Heights perpendicular and above principal axis are positive; below are negative. Derivation: Consider concave mirror with object AB beyond C. Rays from A strike pole P and center of curvature C, forming inverted image A'B' between C and F. From similar triangles ABP and A'B'P: AB/A'B' = BP/B'P = (-u)/(-v) = u/v. From similar triangles ABC and A'B'C: AB/A'B' = BC/B'C = (u - 2f)/(2f - v). Equating both: u/v = (u - 2f)/(2f - v) => u(2f - v) = v(u - 2f) => 2uf - uv = uv - 2vf => 2uf + 2vf = 2uv => uf + vf = uv. Dividing throughout by uvf yields: 1/v + 1/u = 1/f.",
+          "marks": 8,
+          "difficulty": "Hard"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "C10-PHY-CH1-001",
+          "question": "The focal length of a spherical mirror with radius of curvature 30 cm is:",
+          "options": [
+            "15 cm",
+            "60 cm",
+            "30 cm",
+            "7.5 cm"
+          ],
+          "answer": 0,
+          "explanation": "Focal length f = R / 2 = 30 / 2 = 15 cm.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-002",
+          "question": "Which mirror is used by dentists to inspect teeth?",
+          "options": [
+            "Convex mirror",
+            "Concave mirror",
+            "Plane mirror",
+            "Cylindrical mirror"
+          ],
+          "answer": 1,
+          "explanation": "Concave mirrors form an erect, magnified virtual image when the object is between pole and focus.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-003",
+          "question": "The refractive index of water is 4/3. What is the speed of light in water? (c = 3 x 10^8 m/s)",
+          "options": [
+            "2.25 x 10^8 m/s",
+            "1.5 x 10^8 m/s",
+            "2.0 x 10^8 m/s",
+            "3.0 x 10^8 m/s"
+          ],
+          "answer": 0,
+          "explanation": "v = c / n = (3 x 10^8) / (4/3) = 2.25 x 10^8 m/s.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-004",
+          "question": "A ray of light entering from air into glass bends:",
+          "options": [
+            "Away from the normal",
+            "Towards the normal",
+            "Without any deviation",
+            "Back into air completely"
+          ],
+          "answer": 1,
+          "explanation": "When light moves from optically rarer (air) to denser (glass), its speed decreases and it bends towards the normal.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-005",
+          "question": "A convex lens of focal length 20 cm has a power of:",
+          "options": [
+            "+5 D",
+            "-5 D",
+            "+2 D",
+            "-2 D"
+          ],
+          "answer": 0,
+          "explanation": "Power P = 1 / f(in m) = 1 / 0.20 = +5 Dioptres.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-006",
+          "question": "The critical angle for diamond-air interface is approximately:",
+          "options": [
+            "42 degrees",
+            "24.4 degrees",
+            "48.6 degrees",
+            "90 degrees"
+          ],
+          "answer": 1,
+          "explanation": "Diamond has a very high refractive index (2.42), resulting in a small critical angle of about 24.4 degrees, causing brilliant sparkle.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-007",
+          "question": "The sparkling of diamond is primarily due to:",
+          "options": [
+            "Total Internal Reflection",
+            "Dispersion only",
+            "Diffraction",
+            "Interference"
+          ],
+          "answer": 0,
+          "explanation": "Multiple total internal reflections trapped inside expertly cut diamond facets cause its brilliant sparkle.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-008",
+          "question": "Mirage is an optical illusion occurring on hot sunny days due to:",
+          "options": [
+            "Refraction and Total Internal Reflection",
+            "Diffraction",
+            "Scattering",
+            "Polarization"
+          ],
+          "answer": 0,
+          "explanation": "Atmospheric temperature gradients produce layers of varying refractive index causing light rays to undergo total internal reflection.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-009",
+          "question": "When an object is placed at 2F of a convex lens, its image is formed at:",
+          "options": [
+            "Focus F",
+            "Infinity",
+            "2F on the opposite side",
+            "Between F and 2F"
+          ],
+          "answer": 2,
+          "explanation": "An object at 2F of a convex lens produces a real, inverted image of the exact same size at 2F on the opposite side.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-010",
+          "question": "Magnification produced by a rear-view convex mirror is always:",
+          "options": [
+            "Equal to 1",
+            "Greater than 1",
+            "Less than 1",
+            "Can be positive or negative"
+          ],
+          "answer": 2,
+          "explanation": "Convex mirrors always form diminished images of objects, so m = h'/h is strictly less than 1.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-011",
+          "question": "The focal length of a plane mirror is:",
+          "options": [
+            "Zero",
+            "Infinity",
+            "100 cm",
+            "-1 cm"
+          ],
+          "answer": 1,
+          "explanation": "A plane mirror has no curvature (R = infinity), so its focal length is infinity.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-012",
+          "question": "Optical fibres transmit light signals over long distances with minimal loss by:",
+          "options": [
+            "Total Internal Reflection",
+            "Absorption",
+            "Simple reflection",
+            "Refraction only"
+          ],
+          "answer": 0,
+          "explanation": "Light signals enter the core at angles exceeding the critical angle and undergo successive total internal reflections.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-013",
+          "question": "A converging lens has focal length +25 cm. To form an erect virtual image, object distance must be:",
+          "options": [
+            "Greater than 50 cm",
+            "Between 25 cm and 50 cm",
+            "Less than 25 cm",
+            "At infinity"
+          ],
+          "answer": 2,
+          "explanation": "A convex lens produces a magnified virtual erect image only when the object is placed between optical center and focus (u < f).",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-014",
+          "question": "If angle of incidence is 0 degrees, the angle of refraction in any medium is:",
+          "options": [
+            "90 degrees",
+            "0 degrees",
+            "45 degrees",
+            "Depends on refractive index"
+          ],
+          "answer": 1,
+          "explanation": "Normal incidence (i = 0 deg) suffers no lateral deviation; according to Snell's law sin(r) = (n1/n2)*sin(0) = 0, so r = 0 deg.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-015",
+          "question": "What happens to the wavelength of monochromatic light when it enters from air into water?",
+          "options": [
+            "Increases",
+            "Decreases",
+            "Remains unchanged",
+            "Becomes zero"
+          ],
+          "answer": 1,
+          "explanation": "Frequency remains constant; since velocity decreases (v = f * lambda), the wavelength lambda decreases proportionally.",
+          "difficulty": "Hard",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-016",
+          "question": "The power of a concave lens of focal length 50 cm is:",
+          "options": [
+            "-2 D",
+            "+2 D",
+            "-0.5 D",
+            "+0.5 D"
+          ],
+          "answer": 0,
+          "explanation": "Concave lens has negative focal length f = -0.5 m. P = 1 / (-0.5) = -2 D.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-017",
+          "question": "Two thin lenses of powers +3.5 D and -1.5 D are placed in contact. The net power of combination is:",
+          "options": [
+            "+5.0 D",
+            "+2.0 D",
+            "-2.0 D",
+            "+2.25 D"
+          ],
+          "answer": 1,
+          "explanation": "Net power P = P1 + P2 = +3.5 D + (-1.5 D) = +2.0 D.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-018",
+          "question": "The SI unit of refractive index is:",
+          "options": [
+            "m/s",
+            "Dioptre",
+            "Radian",
+            "Dimensionless (no units)"
+          ],
+          "answer": 3,
+          "explanation": "Refractive index is the ratio of two identical physical quantities (speeds of light: c/v), hence dimensionless.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-019",
+          "question": "When white light passes through a glass prism, which color deviates the most?",
+          "options": [
+            "Red",
+            "Violet",
+            "Green",
+            "Yellow"
+          ],
+          "answer": 1,
+          "explanation": "Violet light has the shortest wavelength, encounters highest refractive index in glass, and deviates the most.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-020",
+          "question": "The red colour of sunrise and sunset is due to:",
+          "options": [
+            "Dispersion of light",
+            "Scattering of light (Rayleigh scattering)",
+            "Total internal reflection",
+            "Refraction by ozone"
+          ],
+          "answer": 1,
+          "explanation": "Rayleigh scattering is inversely proportional to lambda^4; longer red wavelengths scatter least and reach the observer directly.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-021",
+          "question": "Twinkling of stars in the night sky is caused by:",
+          "options": [
+            "Atmospheric refraction of starlight",
+            "Emission of intermittent light pulses",
+            "Total internal reflection in upper clouds",
+            "Interference of light"
+          ],
+          "answer": 0,
+          "explanation": "Continuously fluctuating temperature and density of atmospheric air layers cause varying refraction and shifting apparent position.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-022",
+          "question": "The clear sky appears blue because:",
+          "options": [
+            "Blue light is absorbed by atmosphere",
+            "Molecules of air scatter blue light more strongly than red light",
+            "Water vapor reflects blue light",
+            "Sun emits predominantly blue light"
+          ],
+          "answer": 1,
+          "explanation": "Shorter blue wavelengths scatter roughly 10 times more effectively than longer red wavelengths across gas molecules.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-023",
+          "question": "Which law states that the induced EMF in a coil is proportional to rate of change of magnetic flux?",
+          "options": [
+            "Ohm's Law",
+            "Faraday's Law of Electromagnetic Induction",
+            "Coulomb's Law",
+            "Joule's Law"
+          ],
+          "answer": 1,
+          "explanation": "Faraday's law states that epsilon = -d(Phi)/dt.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-024",
+          "question": "The device used to protect domestic electrical circuits against accidental overload is:",
+          "options": [
+            "Galvanometer",
+            "Electric fuse / Miniature Circuit Breaker (MCB)",
+            "Inverter",
+            "Rheostat"
+          ],
+          "answer": 1,
+          "explanation": "A fuse wire has low melting point and high resistance; it melts upon current overload to break the circuit.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-025",
+          "question": "What is the resistance of an ideal voltmeter?",
+          "options": [
+            "Zero",
+            "Infinitely high",
+            "1 Ohm",
+            "100 Ohms"
+          ],
+          "answer": 1,
+          "explanation": "An ideal voltmeter has infinite resistance so that it draws zero current when connected in parallel across components.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-026",
+          "question": "What is the resistance of an ideal ammeter?",
+          "options": [
+            "Zero",
+            "Infinitely high",
+            "1000 Ohms",
+            "10 Ohms"
+          ],
+          "answer": 0,
+          "explanation": "An ideal ammeter has zero resistance so that it does not alter circuit resistance when inserted in series.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-027",
+          "question": "Commercial unit of electrical energy is kilowatt-hour (kWh). 1 kWh is equal to:",
+          "options": [
+            "3.6 x 10^5 J",
+            "3.6 x 10^6 J",
+            "1000 J",
+            "3600 J"
+          ],
+          "answer": 1,
+          "explanation": "1 kWh = 1000 W x 3600 s = 3.6 x 10^6 Joules.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-028",
+          "question": "According to Joule's law of heating, heat generated (H) is proportional to:",
+          "options": [
+            "I * R * t",
+            "I^2 * R * t",
+            "V^2 * I * t",
+            "I * R^2 * t"
+          ],
+          "answer": 1,
+          "explanation": "Joule's heating formula is H = I^2 * R * t.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-029",
+          "question": "The magnetic field lines inside a current-carrying long solenoid are:",
+          "options": [
+            "Circular concentric",
+            "Parallel and uniform",
+            "Divergent from center",
+            "Zero everywhere"
+          ],
+          "answer": 1,
+          "explanation": "Inside a long solenoid, magnetic field lines are straight, parallel, and closely packed, representing a uniform magnetic field.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-030",
+          "question": "The direction of induced current in a conductor moving in a magnetic field is determined by:",
+          "options": [
+            "Fleming's Right-Hand Rule",
+            "Fleming's Left-Hand Rule",
+            "Ampere's Swimming Rule",
+            "Right-Hand Thumb Rule"
+          ],
+          "answer": 0,
+          "explanation": "Fleming's Right-Hand Rule (Dynamo rule) gives the direction of induced current.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-031",
+          "question": "Fleming's Left-Hand Rule is applied to determine:",
+          "options": [
+            "Direction of magnetic field",
+            "Direction of force on a current-carrying conductor in a magnetic field",
+            "Direction of induced current",
+            "Magnitude of EMF"
+          ],
+          "answer": 1,
+          "explanation": "The Left-Hand Rule (Motor rule) yields the mechanical force direction: Thumb=Force, Forefinger=Field, Center finger=Current.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-032",
+          "question": "An electric motor converts:",
+          "options": [
+            "Mechanical energy into electrical energy",
+            "Electrical energy into mechanical energy",
+            "Chemical energy into heat",
+            "Light into electrical energy"
+          ],
+          "answer": 1,
+          "explanation": "Electric motors utilize magnetic Lorentz force on current loops to convert electrical energy into mechanical work.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-033",
+          "question": "An electric generator operates on the fundamental principle of:",
+          "options": [
+            "Electromagnetic induction",
+            "Magnetic heating",
+            "Photoelectric effect",
+            "Chemical electrolysis"
+          ],
+          "answer": 0,
+          "explanation": "Generators rotate a coil in a magnetic field to induce alternating current via electromagnetic induction.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-034",
+          "question": "Which parameter remains unchanged when an alternating current passes through a step-up transformer?",
+          "options": [
+            "Voltage",
+            "Current",
+            "Frequency",
+            "Magnetic flux"
+          ],
+          "answer": 2,
+          "explanation": "A transformer modifies voltage and current inversely, but the AC frequency remains strictly constant.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-035",
+          "question": "The potential difference between live wire and neutral wire in Indian domestic power supply is:",
+          "options": [
+            "110 V",
+            "220 V",
+            "440 V",
+            "12 V"
+          ],
+          "answer": 1,
+          "explanation": "Standard domestic alternating current in India is supplied at 220 V with frequency 50 Hz.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-036",
+          "question": "Why is tungsten metal used almost exclusively for filaments of incandescent electric lamps?",
+          "options": [
+            "Low resistance",
+            "Very high melting point and high resistivity",
+            "Liquid at room temperature",
+            "Cheap and brittle"
+          ],
+          "answer": 1,
+          "explanation": "Tungsten has an exceptionally high melting point (3422 deg C) and high resistivity, glowing white-hot without melting.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-037",
+          "question": "In domestic wiring, all electrical appliances are connected in:",
+          "options": [
+            "Series connection",
+            "Parallel connection",
+            "Mixed bridge connection",
+            "Star connection"
+          ],
+          "answer": 1,
+          "explanation": "Parallel connection ensures every appliance receives full line voltage (220 V) and operates independently.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-038",
+          "question": "Three resistors of resistances 2 Ohm, 3 Ohm, and 6 Ohm are connected in parallel. Their equivalent resistance is:",
+          "options": [
+            "11 Ohm",
+            "1 Ohm",
+            "0.5 Ohm",
+            "1.5 Ohm"
+          ],
+          "answer": 1,
+          "explanation": "1/R = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1. Therefore R = 1 Ohm.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-039",
+          "question": "Two resistors of 4 Ohm each are connected in series across a 12 V battery. Current drawn from battery is:",
+          "options": [
+            "3 A",
+            "1.5 A",
+            "6 A",
+            "0.75 A"
+          ],
+          "answer": 1,
+          "explanation": "R_eq = 4 + 4 = 8 Ohm. Current I = V / R_eq = 12 / 8 = 1.5 Amperes.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-040",
+          "question": "What is the frequency of alternating current (AC) supplied for domestic use in India?",
+          "options": [
+            "60 Hz",
+            "50 Hz",
+            "100 Hz",
+            "0 Hz (DC)"
+          ],
+          "answer": 1,
+          "explanation": "Indian domestic AC supply has a standard line frequency of 50 Hz (cycles per second).",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-041",
+          "question": "The color of the insulation wire for earthing (ground wire) in modern domestic circuits is:",
+          "options": [
+            "Red",
+            "Black",
+            "Green (or Green with yellow stripes)",
+            "Blue"
+          ],
+          "answer": 2,
+          "explanation": "Green or green-yellow striped insulation is designated universally for safety earth connection.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-042",
+          "question": "A ray of light traveling from glass (n = 1.5) into water (n = 1.33) will:",
+          "options": [
+            "Bend towards the normal",
+            "Bend away from the normal",
+            "Not deviate",
+            "Reflect completely at all angles"
+          ],
+          "answer": 1,
+          "explanation": "Glass is optically denser than water (1.5 > 1.33), so light speeds up upon entering water and bends away from the normal.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-043",
+          "question": "When an object is placed between focal point F and optical center O of a convex lens, the image formed is:",
+          "options": [
+            "Real and inverted",
+            "Virtual, erect, and magnified",
+            "Real and diminished",
+            "Virtual, inverted, and same size"
+          ],
+          "answer": 1,
+          "explanation": "This configuration forms a magnified, erect virtual image on the same side of the lens (magnifying glass principle).",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-044",
+          "question": "The mirror used in solar cookers to concentrate sunlight onto a focal spot is:",
+          "options": [
+            "Convex mirror",
+            "Concave parabolic mirror",
+            "Plane mirror",
+            "Cylindrical lens"
+          ],
+          "answer": 1,
+          "explanation": "Concave mirrors focus parallel incident solar rays onto their focal point, generating intense heat.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-045",
+          "question": "Which phenomenon is responsible for the advance sunrise and delayed sunset by about 2 minutes?",
+          "options": [
+            "Atmospheric refraction",
+            "Total internal reflection",
+            "Rayleigh scattering",
+            "Diffraction"
+          ],
+          "answer": 0,
+          "explanation": "Atmospheric refraction bends sunlight around Earth's curvature, allowing the sun to be visible when it is still below the actual horizon.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-046",
+          "question": "A current of 0.5 A flows through an electric bulb filament for 10 minutes. The electric charge passed is:",
+          "options": [
+            "5 C",
+            "300 C",
+            "50 C",
+            "600 C"
+          ],
+          "answer": 1,
+          "explanation": "Charge Q = I * t = 0.5 A * (10 * 60 s) = 0.5 * 600 = 300 Coulombs.",
+          "difficulty": "Medium",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-047",
+          "question": "Ohm's Law holds true provided which physical condition of the metallic conductor remains constant?",
+          "options": [
+            "Potential difference",
+            "Temperature",
+            "Current",
+            "Magnetic field"
+          ],
+          "answer": 1,
+          "explanation": "Ohm's law (V = IR) requires constant temperature, as resistance of metals varies significantly with temperature change.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-048",
+          "question": "The magnetic field produced around a straight current-carrying wire consists of:",
+          "options": [
+            "Straight lines radiating outward",
+            "Concentric circles centered on the wire",
+            "Elliptical loops along the wire",
+            "Helical spirals"
+          ],
+          "answer": 1,
+          "explanation": "According to the Right-Hand Thumb rule, field lines form concentric circles centered along the conductor.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-049",
+          "question": "Which device detects the presence of even feeble electric current in a circuit?",
+          "options": [
+            "Voltmeter",
+            "Galvanometer",
+            "Ammeter",
+            "Thermocouple"
+          ],
+          "answer": 1,
+          "explanation": "A sensitive galvanometer deflects its needle in response to microampere currents and indicates direction of flow.",
+          "difficulty": "Easy",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        },
+        {
+          "id": "C10-PHY-CH1-050",
+          "question": "The focal length of a concave mirror in air is 20 cm. If immersed in water, its focal length will:",
+          "options": [
+            "Increase to 26.6 cm",
+            "Decrease to 15 cm",
+            "Remain 20 cm",
+            "Become infinity"
+          ],
+          "answer": 2,
+          "explanation": "Reflection depends solely on the law of reflection (angle of incidence = angle of reflection) and mirror geometry, not on the surrounding medium.",
+          "difficulty": "Hard",
+          "chapter": "Reflection and Refraction of Light",
+          "subject": "Physics"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "subject": "Anatomy",
+  "key": "anatomy",
+  "phase": "Pre-Clinical (Phase 1)",
+  "icon": "\ud83e\udec0",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Upper Limb & Brachial Plexus",
+    "Head & Neck / Neuroanatomy",
+    "Thorax & Mediastinum",
+    "Abdomen & Pelvis"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-anatomy-master",
+      "name": "Anatomy High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-ANAT-001",
+          "question": "A 24-year-old motorcyclist sustains a fracture of the mid-shaft of the humerus. On examination, he presents with 'wrist drop' and loss of sensation over the dorsal first web space. Which nerve is most likely injured?",
+          "options": [
+            "Median nerve",
+            "Ulnar nerve",
+            "Radial nerve",
+            "Axillary nerve"
+          ],
+          "answer": 2,
+          "explanation": "The radial nerve runs along the radial groove on the posterior surface of the mid-shaft humerus. Fractures at this site classic cause wrist drop due to denervation of forearm extensors and sensory loss over the dorsal aspect of the first web space.",
+          "difficulty": "Medium",
+          "topic": "Upper Limb",
+          "subject": "Anatomy"
+        },
+        {
+          "id": "MBBS-ANAT-002",
+          "question": "Injury to the long thoracic nerve of Bell during an axillary lymph node dissection leads to which clinical deformity?",
+          "options": [
+            "Claw hand",
+            "Ape thumb deformity",
+            "Winged scapula",
+            "Waiter's tip hand"
+          ],
+          "answer": 2,
+          "explanation": "The long thoracic nerve (roots C5, C6, C7) innervates the serratus anterior muscle, which stabilizes the scapula against the thoracic wall. Paralysis produces 'winged scapula'.",
+          "difficulty": "Easy",
+          "topic": "Upper Limb",
+          "subject": "Anatomy"
+        },
+        {
+          "id": "MBBS-ANAT-003",
+          "question": "In the carpal tunnel, which structure accompanies the flexor tendons and is vulnerable to compression?",
+          "options": [
+            "Radial artery",
+            "Median nerve",
+            "Ulnar nerve",
+            "Ulnar artery"
+          ],
+          "answer": 1,
+          "explanation": "The median nerve passes through the carpal tunnel deep to the flexor retinaculum alongside the 9 tendons of FDS, FDP, and FPL.",
+          "difficulty": "Easy",
+          "topic": "Upper Limb",
+          "subject": "Anatomy"
+        },
+        {
+          "id": "MBBS-ANAT-004",
+          "question": "Which paranasal air sinus drains into the superior meatus of the nasal cavity?",
+          "options": [
+            "Frontal sinus",
+            "Maxillary sinus",
+            "Posterior ethmoidal air cells",
+            "Middle ethmoidal air cells"
+          ],
+          "answer": 2,
+          "explanation": "The posterior ethmoidal sinuses open into the superior meatus. Frontal, maxillary, and anterior/middle ethmoidal sinuses open into the middle meatus.",
+          "difficulty": "Medium",
+          "topic": "Head and Neck",
+          "subject": "Anatomy"
+        },
+        {
+          "id": "MBBS-ANAT-005",
+          "question": "The foramen spinosum of the sphenoid bone transmits which vital vascular structure?",
+          "options": [
+            "Internal carotid artery",
+            "Middle meningeal artery",
+            "Vertebral artery",
+            "Maxillary artery"
+          ],
+          "answer": 1,
+          "explanation": "The middle meningeal artery (a branch of the maxillary artery) traverses the foramen spinosum to supply the dura mater and calvarium.",
+          "difficulty": "Medium",
+          "topic": "Neuroanatomy",
+          "subject": "Anatomy"
+        }
+      ]
+    }
+  ]
+}

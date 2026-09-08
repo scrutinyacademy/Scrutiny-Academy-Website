@@ -1,0 +1,36 @@
+{
+  "subject": "Orthopedics",
+  "key": "orthopedics",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83e\uddb4",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Traumatology & Fractures",
+    "Bone Pathology & Tumors",
+    "Spine & Joint Disorders"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-orthopedics-master",
+      "name": "Orthopedics High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-ORTH-001",
+          "question": "A 'dinner fork' deformity of the distal forearm resulting from a fall on an outstretched hand is caused by:",
+          "options": [
+            "Smith fracture",
+            "Colles fracture",
+            "Monteggia fracture",
+            "Galeazzi fracture"
+          ],
+          "answer": 1,
+          "explanation": "Colles fracture is an extra-articular fracture of the distal radial metaphyseal region with dorsal displacement, dorsal tilt, and radial shift producing the classic dinner fork appearance.",
+          "difficulty": "Easy",
+          "topic": "Trauma",
+          "subject": "Orthopedics"
+        }
+      ]
+    }
+  ]
+}

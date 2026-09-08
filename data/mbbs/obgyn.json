@@ -1,0 +1,36 @@
+{
+  "subject": "Obstetrics & Gynecology",
+  "key": "obgyn",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83e\udd30",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Antenatal Care & Labor",
+    "Gynecological Oncology",
+    "Contraception & Infertility"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-obgyn-master",
+      "name": "Obstetrics & Gynecology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-OBGY-001",
+          "question": "A 28-year-old primigravida at 34 weeks gestation presents with headache, BP 164/110 mmHg, and 3+ proteinuria. Which medication is indicated for seizure prophylaxis?",
+          "options": [
+            "Diazepam",
+            "Magnesium sulfate",
+            "Phenytoin",
+            "Sodium valproate"
+          ],
+          "answer": 1,
+          "explanation": "Magnesium sulfate (Pritchard regimen or Zuspan regimen) is the anticonvulsant drug of choice for prophylaxis and treatment of eclamptic seizures.",
+          "difficulty": "Easy",
+          "topic": "Obstetrics",
+          "subject": "Obstetrics & Gynecology"
+        }
+      ]
+    }
+  ]
+}

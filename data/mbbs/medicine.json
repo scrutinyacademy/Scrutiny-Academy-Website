@@ -1,0 +1,37 @@
+{
+  "subject": "General Medicine",
+  "key": "medicine",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83e\ude7a",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Cardiology",
+    "Pulmonology",
+    "Neurology",
+    "Endocrinology & Nephrology"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-medicine-master",
+      "name": "General Medicine High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-MEDI-001",
+          "question": "A 58-year-old diabetic male presents with crushing retrosternal chest pain radiating to the left arm. ECG demonstrates ST-segment elevations in leads II, III, and aVF. Which coronary artery is most likely occluded?",
+          "options": [
+            "Left anterior descending artery (LAD)",
+            "Right coronary artery (RCA)",
+            "Left circumflex artery (LCx)",
+            "Left main coronary artery"
+          ],
+          "answer": 1,
+          "explanation": "ST elevation in inferior leads II, III, and aVF signifies an acute inferior wall ST-elevation myocardial infarction (STEMI), typically supplied by the Right Coronary Artery.",
+          "difficulty": "Medium",
+          "topic": "Cardiology",
+          "subject": "General Medicine"
+        }
+      ]
+    }
+  ]
+}

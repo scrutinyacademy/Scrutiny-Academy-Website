@@ -1,0 +1,36 @@
+{
+  "subject": "Forensic Medicine",
+  "key": "forensic-medicine",
+  "phase": "Para-Clinical (Phase 2)",
+  "icon": "\u2696\ufe0f",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Thanatology",
+    "Mechanical Injuries",
+    "Toxicology & Medical Jurisprudence"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-forensic-medicine-master",
+      "name": "Forensic Medicine High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-FORE-001",
+          "question": "The gradual cooling of a dead body after death until it reaches environmental temperature is termed:",
+          "options": [
+            "Rigor mortis",
+            "Algor mortis",
+            "Livor mortis",
+            "Cadaveric spasm"
+          ],
+          "answer": 1,
+          "explanation": "Algor mortis is postmortem body cooling, useful for estimating the approximate time since death (Newton's law of cooling).",
+          "difficulty": "Easy",
+          "topic": "Thanatology",
+          "subject": "Forensic Medicine"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "subject": "Social Science",
+  "curriculum": "Telangana SSC Class 10",
+  "icon": "\ud83c\udf0f",
+  "description": "Telangana State Board Class 10 Social Studies covering Geography (Resources, Climate, Relief Features), Economics (Development, Food Security), and History & Political Science.",
+  "chapters": [
+    {
+      "id": "c10-soc-ch1",
+      "name": "India: Relief Features",
+      "overview": "Location of India, geological background, major physiographic divisions: Himalayas, Indo-Gangetic Plains, Peninsular Plateau, Coastal Plains, Desert, and Islands.",
+      "vsaq": [
+        {
+          "id": "SOC-VSAQ-01",
+          "question": "What is the standard meridian of India and which city does it pass near?",
+          "answer": "The 82 deg 30' E longitude is the Standard Meridian of India, passing near Mirzapur in Uttar Pradesh.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "SOC-VSAQ-02",
+          "question": "Name the highest peak in the Himalayas located within India.",
+          "answer": "Kanchenjunga (8,586 metres) in Sikkim is the highest Himalayan peak in India.",
+          "marks": 1,
+          "difficulty": "Easy"
+        },
+        {
+          "id": "SOC-VSAQ-03",
+          "question": "What are 'Duns'? Give an example.",
+          "answer": "Duns are longitudinal valleys lying between the Himachal and Shivalik ranges, filled with gravel and alluvium. Example: Dehradun.",
+          "marks": 1,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "SOC-VSAQ-04",
+          "question": "Differentiate between Bhabar and Terai.",
+          "answer": "Bhabar is a narrow 8-16 km belt of pebbles at the foothills of Shivaliks where streams disappear underground. Terai is a wet, swampy, marshy forested belt south of Bhabar where streams re-emerge.",
+          "marks": 2,
+          "difficulty": "Medium"
+        }
+      ],
+      "saq": [
+        {
+          "id": "SOC-SAQ-01",
+          "question": "Explain the major divisions of the Peninsular Plateau of India.",
+          "answer": "The Peninsular Plateau is divided into two broad divisions by the Narmada River: 1) Central Highlands (Malwa Plateau, Bundelkhand, Chota Nagpur Plateau) lying north of the Narmada, sloping towards the northeast. 2) Deccan Plateau, a triangular landmass lying south of the Narmada, bounded by Western Ghats on the west and Eastern Ghats on the east.",
+          "marks": 4,
+          "difficulty": "Medium"
+        },
+        {
+          "id": "SOC-SAQ-02",
+          "question": "Compare the Western Ghats and Eastern Ghats in terms of relief, continuity, and rainfall.",
+          "answer": "Western Ghats: Continuous mountain range passable only through passes (Thal, Bhor, Palghat); higher average elevation (900-1600 m); Anamudi (2695 m) is highest peak; receive heavy orographic rainfall. Eastern Ghats: Discontinuous and dissected by east-flowing rivers (Mahanadi, Godavari, Krishna, Cauvery); lower average elevation (approx 600 m); Arma Konda (1680 m) is highest peak; receive lower rainfall.",
+          "marks": 4,
+          "difficulty": "Medium"
+        }
+      ],
+      "laq": [
+        {
+          "id": "SOC-LAQ-01",
+          "question": "Describe the physiographic divisions of India and explain the influence of the Himalayas on Indian climate and agriculture.",
+          "answer": "Major physiographic divisions: 1) The Himalayan Mountains 2) The Indo-Gangetic Plains 3) The Peninsular Plateau 4) The Coastal Plains 5) The Indian Desert (Thar) 6) The Islands (Andaman & Nicobar, Lakshadweep). Influence of Himalayas: 1) Climatic barrier: Blocks freezing polar winds from Central Asia during winter; intercepts southwest monsoon winds causing widespread rain across northern India. 2) Perennial Rivers: Snow-fed glaciers feed major river systems (Ganga, Brahmaputra, Indus) ensuring continuous irrigation and hydroelectric power. 3) Agriculture & Forest Wealth: Rich alluvial soils deposited in northern plains support intensive agriculture, feeding millions.",
+          "marks": 8,
+          "difficulty": "Hard"
+        }
+      ],
+      "mcqs": [
+        {
+          "id": "C10-SOC-CH1-001",
+          "question": "The Standard Meridian of India (82 deg 30' E) determines:",
+          "options": [
+            "Indian Standard Time (IST)",
+            "Greenwich Mean Time (GMT)",
+            "International Date Line",
+            "Tropic of Cancer"
+          ],
+          "answer": 0,
+          "explanation": "82 deg 30' E longitude is chosen as the standard meridian, running 5 hours 30 minutes ahead of GMT.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-002",
+          "question": "Indian Standard Time (IST) is ahead of Greenwich Mean Time (GMT) by:",
+          "options": [
+            "4 hours 30 minutes",
+            "5 hours 30 minutes",
+            "6 hours",
+            "5 hours"
+          ],
+          "answer": 1,
+          "explanation": "Each degree of longitude equals 4 minutes: 82.5 * 4 = 330 minutes = 5 hours 30 minutes ahead of GMT.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-003",
+          "question": "The northernmost continuous mountain range of the Himalayas is known as:",
+          "options": [
+            "Himadri (Greater Himalayas)",
+            "Himachal (Lesser Himalayas)",
+            "Shivaliks",
+            "Purvanchal"
+          ],
+          "answer": 0,
+          "explanation": "Himadri is the highest, most continuous range with an average elevation exceeding 6,000 metres.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-004",
+          "question": "The longitudinal valleys situated between Lesser Himalayas and Shivaliks are called:",
+          "options": [
+            "Duns",
+            "Passes",
+            "Gorges",
+            "Bhabar"
+          ],
+          "answer": 0,
+          "explanation": "Duns are flat-bottomed structural longitudinal valleys such as Dehradun, Kotlidun, and Patlidun.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-005",
+          "question": "Which is the highest peak in Southern India (Peninsular Plateau)?",
+          "options": [
+            "Doda Betta",
+            "Anamudi",
+            "Arma Konda",
+            "Kalsubai"
+          ],
+          "answer": 1,
+          "explanation": "Anamudi (2,695 m) in the Anaimalai Hills of Kerala is the highest peak in South India.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-006",
+          "question": "The Thar Desert is located towards the western margins of which mountain range?",
+          "options": [
+            "Vindhya Range",
+            "Satpura Range",
+            "Aravalli Range",
+            "Western Ghats"
+          ],
+          "answer": 2,
+          "explanation": "The Thar Desert lies in the rain-shadow western margins of the ancient Aravalli Range in Rajasthan.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-007",
+          "question": "The narrow belt of pebbles deposited by rivers along the foothills of Shivalik is:",
+          "options": [
+            "Bhabar",
+            "Terai",
+            "Khadar",
+            "Bhangar"
+          ],
+          "answer": 0,
+          "explanation": "Bhabar is an 8-16 km wide belt of porous alluvial pebbles where stream flows submerge underground.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-008",
+          "question": "The swampy, marshy, and densely forested zone lying south of Bhabar is called:",
+          "options": [
+            "Khadar",
+            "Bhangar",
+            "Terai",
+            "Doab"
+          ],
+          "answer": 2,
+          "explanation": "Terai is a damp marshy tract where underground streams re-emerge at the surface, creating rich wildlife reserves.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-009",
+          "question": "Older alluvial deposits forming the higher terraces of the northern plains are termed:",
+          "options": [
+            "Khadar",
+            "Bhangar",
+            "Bhabar",
+            "Kankar"
+          ],
+          "answer": 1,
+          "explanation": "Bhangar represents older, less fertile flood plains above modern inundation levels, often containing kankar nodules.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-010",
+          "question": "Newer, younger deposits of the flood plains that are renewed almost annually are:",
+          "options": [
+            "Khadar",
+            "Bhangar",
+            "Terai",
+            "Regur"
+          ],
+          "answer": 0,
+          "explanation": "Khadar is rich, fertile silt deposited during annual monsoon floods, ideal for intensive crop cultivation.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-011",
+          "question": "The coral island group of India situated in the Arabian Sea is:",
+          "options": [
+            "Andaman and Nicobar Islands",
+            "Lakshadweep Islands",
+            "Majuli Island",
+            "Sri Lanka"
+          ],
+          "answer": 1,
+          "explanation": "Lakshadweep is an archipelago of 36 atolls and coral islands located in the Arabian Sea off the Malabar Coast.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-012",
+          "question": "The southern boundary of the Deccan Plateau is formed by:",
+          "options": [
+            "Aravallis",
+            "Nilgiri Hills",
+            "Satpura Range",
+            "Vindhyas"
+          ],
+          "answer": 1,
+          "explanation": "The Western and Eastern Ghats converge at the Nilgiri Hills in the southern apex of the Deccan Plateau.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-013",
+          "question": "The eastern coastal strip of India along Andhra Pradesh and Tamil Nadu is known as:",
+          "options": [
+            "Konkan Coast",
+            "Coromandel Coast",
+            "Malabar Coast",
+            "Canara Coast"
+          ],
+          "answer": 1,
+          "explanation": "The southeastern coast along Tamil Nadu and southern Andhra Pradesh is historically called the Coromandel Coast.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-014",
+          "question": "The coastal strip along Maharashtra and Goa is called:",
+          "options": [
+            "Malabar Coast",
+            "Konkan Coast",
+            "Utkal Coast",
+            "Coromandel Coast"
+          ],
+          "answer": 1,
+          "explanation": "The northern section of the western coast between Gujarat and Goa is called the Konkan Coast.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-015",
+          "question": "The only active volcano in India is located on which island?",
+          "options": [
+            "Barren Island",
+            "Narcondam Island",
+            "Minicoy Island",
+            "Kavaratti"
+          ],
+          "answer": 0,
+          "explanation": "Barren Island in the Andaman Sea is the only confirmed active volcano in South Asia.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-016",
+          "question": "The Tropic of Cancer (23 deg 30' N) passes through how many Indian states?",
+          "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 2,
+          "explanation": "The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-017",
+          "question": "Which river flows through a rift valley between the Vindhya and Satpura ranges?",
+          "options": [
+            "Godavari",
+            "Narmada",
+            "Krishna",
+            "Mahanadi"
+          ],
+          "answer": 1,
+          "explanation": "Narmada river flows westward through a tectonic rift valley bounded by Vindhyas to the north and Satpuras to the south.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-018",
+          "question": "The black soil region of the Deccan Plateau is locally called:",
+          "options": [
+            "Deccan Trap",
+            "Bhabar",
+            "Terai",
+            "Chota Nagpur"
+          ],
+          "answer": 0,
+          "explanation": "The Deccan Trap is a massive volcanic basalt plateau with fertile regur (black cotton) soil.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-019",
+          "question": "Arma Konda is the highest peak in which mountain system?",
+          "options": [
+            "Western Ghats",
+            "Eastern Ghats",
+            "Aravalli Range",
+            "Satpura Range"
+          ],
+          "answer": 1,
+          "explanation": "Arma Konda (1,680 metres) in Andhra Pradesh is the highest summit of the Eastern Ghats.",
+          "difficulty": "Hard",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-020",
+          "question": "The land between two rivers is known as:",
+          "options": [
+            "Doab",
+            "Terai",
+            "Dun",
+            "Pass"
+          ],
+          "answer": 0,
+          "explanation": "Doab is an Indo-Gangetic term referring to the fertile alluvial tract between two converging river channels.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-021",
+          "question": "Which water body separates the Andaman Islands from the Nicobar Islands?",
+          "options": [
+            "Palk Strait",
+            "Ten Degree Channel",
+            "Nine Degree Channel",
+            "Gulf of Mannar"
+          ],
+          "answer": 1,
+          "explanation": "The Ten Degree Channel (150 km wide) separates the Andaman Islands from the Nicobar group in the Bay of Bengal.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-022",
+          "question": "The southern tip of the Indian mainland territory is located at:",
+          "options": [
+            "Indira Point",
+            "Kanyakumari (Cape Comorin)",
+            "Rameshwaram",
+            "Point Calimere"
+          ],
+          "answer": 1,
+          "explanation": "Kanyakumari in Tamil Nadu is the southernmost mainland point (Indira Point was the southernmost point of Indian territory).",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-023",
+          "question": "Which state in India is the first to experience the arrival of the southwest monsoon?",
+          "options": [
+            "Maharashtra",
+            "Kerala",
+            "Tamil Nadu",
+            "West Bengal"
+          ],
+          "answer": 1,
+          "explanation": "The southwest monsoon typically hits the Malabar Coast of Kerala on approximately June 1st.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-024",
+          "question": "Chota Nagpur Plateau is famously known as the 'Storehouse of Minerals' because it is rich in:",
+          "options": [
+            "Petroleum and natural gas",
+            "Coal, iron ore, and bauxite",
+            "Gold and silver",
+            "Diamond and emerald"
+          ],
+          "answer": 1,
+          "explanation": "Chota Nagpur Plateau (Jharkhand, Odisha, West Bengal) possesses extensive reserves of coal, iron, mica, and bauxite.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-025",
+          "question": "The western coastal plain between Karnataka and Kerala is called:",
+          "options": [
+            "Malabar Coast",
+            "Konkan Coast",
+            "Northern Circars",
+            "Coromandel"
+          ],
+          "answer": 0,
+          "explanation": "The southern portion of the western coastline along Kerala is the Malabar Coast, noted for backwaters (kayals).",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-026",
+          "question": "Majuli, the world's largest inhabited riverine island, is situated on which river?",
+          "options": [
+            "Ganga",
+            "Brahmaputra",
+            "Indus",
+            "Yamuna"
+          ],
+          "answer": 1,
+          "explanation": "Majuli island is situated on the Brahmaputra River in Assam.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-027",
+          "question": "The longitudinal extent of India spans approximately how many degrees?",
+          "options": [
+            "15 degrees",
+            "30 degrees",
+            "45 degrees",
+            "60 degrees"
+          ],
+          "answer": 1,
+          "explanation": "From 68 deg 7' E to 97 deg 25' E covers roughly 30 degrees of longitude, causing a 2-hour sun time difference.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-028",
+          "question": "The time difference between sunrise in Arunachal Pradesh and Gujarat is roughly:",
+          "options": [
+            "1 hour",
+            "2 hours",
+            "3 hours",
+            "30 minutes"
+          ],
+          "answer": 1,
+          "explanation": "30 degrees of longitudinal separation multiplied by 4 minutes per degree equals 120 minutes = 2 hours.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-029",
+          "question": "Which neighboring country shares the longest land border with India?",
+          "options": [
+            "China",
+            "Pakistan",
+            "Bangladesh",
+            "Nepal"
+          ],
+          "answer": 2,
+          "explanation": "India shares a 4,096.7 km border with Bangladesh, the longest among all neighboring nations.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-030",
+          "question": "The Palk Strait and Gulf of Mannar separate India from which country?",
+          "options": [
+            "Maldives",
+            "Sri Lanka",
+            "Myanmar",
+            "Indonesia"
+          ],
+          "answer": 1,
+          "explanation": "The narrow Palk Strait and Gulf of Mannar lie between the southeastern coast of India and northern Sri Lanka.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-031",
+          "question": "Which region in India receives winter rainfall from Western Disturbances?",
+          "options": [
+            "Northwest India (Punjab, Haryana)",
+            "Coromandel Coast",
+            "Kerala Coast",
+            "Assam Plains"
+          ],
+          "answer": 0,
+          "explanation": "Temperate cyclones originating from the Mediterranean Sea cause vital winter rain for rabi wheat in northwest India.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-032",
+          "question": "The highest peak in the Aravalli Range is:",
+          "options": [
+            "Guru Shikhar",
+            "Doda Betta",
+            "Anamudi",
+            "Mount Abu"
+          ],
+          "answer": 0,
+          "explanation": "Guru Shikhar (1,722 m) in Mount Abu, Rajasthan, is the crowning peak of the Aravalli Range.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-033",
+          "question": "The Chilika Lake in Odisha is the largest coastal:",
+          "options": [
+            "Freshwater lake",
+            "Brackish water lagoon",
+            "Glacial lake",
+            "Crater lake"
+          ],
+          "answer": 1,
+          "explanation": "Chilika Lake is Asia's largest brackish water lagoon, separated from the Bay of Bengal by a sandy ridge.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-034",
+          "question": "The river Godavari originates in which state?",
+          "options": [
+            "Maharashtra (Trimbakeshwar)",
+            "Karnataka",
+            "Madhya Pradesh",
+            "Telangana"
+          ],
+          "answer": 0,
+          "explanation": "The Godavari, South India's longest river, originates at Trimbakeshwar near Nashik in Maharashtra.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-035",
+          "question": "Which river is known as 'Dakshin Ganga' (Ganga of the South)?",
+          "options": [
+            "Krishna",
+            "Cauvery",
+            "Godavari",
+            "Mahanadi"
+          ],
+          "answer": 2,
+          "explanation": "Godavari is termed Dakshin Ganga due to its immense length (1,465 km), extensive basin, and cultural sanctity.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-036",
+          "question": "The Nagarjuna Sagar Dam is constructed across which major river?",
+          "options": [
+            "Godavari",
+            "Krishna",
+            "Tungabhadra",
+            "Pennar"
+          ],
+          "answer": 1,
+          "explanation": "Nagarjuna Sagar is a masonry dam built across the Krishna River on the Telangana-Andhra Pradesh border.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-037",
+          "question": "The Telangana Plateau forms a major part of which geological shield?",
+          "options": [
+            "Deccan Plateau",
+            "Gondwana Rift",
+            "Indo-Gangetic Basin",
+            "Chota Nagpur"
+          ],
+          "answer": 0,
+          "explanation": "The Telangana Plateau lies on the eastern part of the crystalline Precambrian Deccan Plateau.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-038",
+          "question": "Which soil type is most prevalent and agriculturally productive in the Northern Plains of India?",
+          "options": [
+            "Laterite soil",
+            "Alluvial soil",
+            "Desert soil",
+            "Peaty soil"
+          ],
+          "answer": 1,
+          "explanation": "Deposition of fine silt by the Indus, Ganga, and Brahmaputra rivers formed deep, mineral-rich alluvial soil.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-039",
+          "question": "Laterite soil is formed primarily by the process of:",
+          "options": [
+            "Intense leaching due to heavy rainfall",
+            "Wind erosion",
+            "Volcanic ash sedimentation",
+            "Glacial moraine deposition"
+          ],
+          "answer": 0,
+          "explanation": "Under alternating tropical wet and dry seasons, heavy rainfall leaches silica and lime, leaving iron and aluminium oxides.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-040",
+          "question": "Regur soil is another name for:",
+          "options": [
+            "Red soil",
+            "Black cotton soil",
+            "Alluvial soil",
+            "Mountain soil"
+          ],
+          "answer": 1,
+          "explanation": "Black cotton soil, known as Regur, has high clay content, moisture retention, and is ideal for cotton cultivation.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-041",
+          "question": "Which factor does NOT affect the climate of India?",
+          "options": [
+            "Latitude",
+            "Altitude",
+            "Ocean currents in Atlantic Ocean",
+            "Monsoon winds"
+          ],
+          "answer": 2,
+          "explanation": "Latitude, Himalayas, relief, and monsoon winds directly shape Indian climate, while remote Atlantic currents do not.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-042",
+          "question": "The 'Loo' winds blowing across the northern plains during summer are:",
+          "options": [
+            "Cold polar winds",
+            "Hot, dry, and gusty winds",
+            "Moist sea breezes",
+            "Cyclone squalls"
+          ],
+          "answer": 1,
+          "explanation": "Loo refers to the scorching, intensely dry westerly winds blowing across north and central India during May and June.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-043",
+          "question": "Mango showers are pre-monsoon showers common in which states?",
+          "options": [
+            "Kerala and coastal Karnataka",
+            "Punjab and Haryana",
+            "Rajasthan and Gujarat",
+            "Jammu and Kashmir"
+          ],
+          "answer": 0,
+          "explanation": "Pre-monsoon rains in Kerala and Karnataka help in early ripening of mango crops and are called Mango showers.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-044",
+          "question": "Kalbaisakhi are localized afternoon thunderstorms occurring during spring in:",
+          "options": [
+            "West Bengal and Assam",
+            "Tamil Nadu",
+            "Maharashtra",
+            "Punjab"
+          ],
+          "answer": 0,
+          "explanation": "Kalbaisakhi (Nor'westers) are severe thunderstorms in Bengal bringing relief from heat and rain for jute/tea crops.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-045",
+          "question": "Which state has the lowest sex ratio according to the 2011 Census of India?",
+          "options": [
+            "Haryana",
+            "Punjab",
+            "Bihar",
+            "Uttar Pradesh"
+          ],
+          "answer": 0,
+          "explanation": "Haryana recorded the lowest sex ratio of 879 females per 1,000 males in the 2011 Census.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-046",
+          "question": "According to the 2011 Census, which Indian state has the highest literacy rate?",
+          "options": [
+            "Tamil Nadu",
+            "Kerala",
+            "Goa",
+            "Himachal Pradesh"
+          ],
+          "answer": 1,
+          "explanation": "Kerala holds the top position in India with a literacy rate of 94.00%.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-047",
+          "question": "The concept of Human Development Index (HDI) was formulated by:",
+          "options": [
+            "Amartya Sen and Mahbub ul Haq",
+            "Adam Smith",
+            "Milton Friedman",
+            "John Maynard Keynes"
+          ],
+          "answer": 0,
+          "explanation": "Pakistani economist Mahbub ul Haq and Indian Nobel laureate Amartya Sen pioneered the HDI for UNDP in 1990.",
+          "difficulty": "Medium",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-048",
+          "question": "Which sector is the largest employer of workforce in India?",
+          "options": [
+            "Service sector",
+            "Primary (Agriculture) sector",
+            "Industrial sector",
+            "IT and BPO"
+          ],
+          "answer": 1,
+          "explanation": "The agricultural primary sector continues to employ nearly 45% of India's total workforce.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-049",
+          "question": "Public Distribution System (PDS) in India ensures:",
+          "options": [
+            "Guaranteed corporate jobs",
+            "Food security for low-income households at subsidized rates",
+            "Free electricity for factories",
+            "Stock market regulation"
+          ],
+          "answer": 1,
+          "explanation": "PDS operates through Fair Price Shops distributing essential foodgrains (rice, wheat) to eligible ration card holders.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        },
+        {
+          "id": "C10-SOC-CH1-050",
+          "question": "The Right to Information (RTI) Act was enacted by the Indian Parliament in the year:",
+          "options": [
+            "2001",
+            "2005",
+            "2010",
+            "1999"
+          ],
+          "answer": 1,
+          "explanation": "The historic RTI Act was passed in 2005 to foster transparency and accountability in public administration.",
+          "difficulty": "Easy",
+          "chapter": "India: Relief Features",
+          "subject": "Social Science"
+        }
+      ]
+    }
+  ]
+}

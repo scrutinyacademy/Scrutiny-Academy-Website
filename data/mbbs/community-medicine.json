@@ -1,0 +1,37 @@
+{
+  "subject": "Community Medicine",
+  "key": "community-medicine",
+  "phase": "Para-Clinical (Phase 2)",
+  "icon": "\ud83c\udfe5",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Epidemiology",
+    "Biostatistics",
+    "Maternal and Child Health",
+    "National Health Programs"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-community-medicine-master",
+      "name": "Community Medicine High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-COMM-001",
+          "question": "The probability of a screening test correctly identifying individuals who truly have the disease is defined as:",
+          "options": [
+            "Sensitivity",
+            "Specificity",
+            "Positive Predictive Value",
+            "Likelihood Ratio"
+          ],
+          "answer": 0,
+          "explanation": "Sensitivity = True Positives / (True Positives + False Negatives), measuring the ability to correctly detect true cases.",
+          "difficulty": "Medium",
+          "topic": "Epidemiology",
+          "subject": "Community Medicine"
+        }
+      ]
+    }
+  ]
+}

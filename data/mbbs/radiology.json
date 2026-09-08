@@ -1,0 +1,36 @@
+{
+  "subject": "Radiology",
+  "key": "radiology",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83e\ude7b",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Plain Radiography",
+    "Computed Tomography (CT)",
+    "Magnetic Resonance Imaging (MRI) & Ultrasound"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-radiology-master",
+      "name": "Radiology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-RADI-001",
+          "question": "Which imaging modality of choice provides the highest soft-tissue resolution for evaluating acute spinal cord compression and multiple sclerosis plaques?",
+          "options": [
+            "Non-contrast CT head",
+            "Magnetic Resonance Imaging (MRI)",
+            "Digital Fluoroscopy",
+            "Ultrasound"
+          ],
+          "answer": 1,
+          "explanation": "MRI provides unmatched soft-tissue contrast resolution and multiplanar capabilities without ionizing radiation.",
+          "difficulty": "Easy",
+          "topic": "Neuroradiology",
+          "subject": "Radiology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrutiny Academy | Class 10 SSC, NEET & MBBS Medical Education</title>
+  <meta name="description" content="Scrutiny Academy - Premium digital learning platform for Class 10 SSC Telangana, NEET UG competitive exam preparation, and MBBS undergraduate medical education.">
+  <meta name="keywords" content="Scrutiny Academy, Class 10 SSC Telangana, NEET UG Biology Physics Chemistry, MBBS Medical Education, Question Bank, MCQs">
+  <meta name="author" content="Scrutiny Academy">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="assets/favicon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Pre-bundled Data for immediate offline/local file execution -->
+  <script src="data/prebundled_data.js"></script>
+</head>
+<body>
+
+  <!-- GLOBAL WATERMARK BACKGROUND -->
+  <div class="global-watermark" aria-hidden="true"></div>
+
+  <!-- STICKY HEADER & NAVBAR -->
+  <header class="site-header" id="top">
+    <div class="header-container">
+      <a href="#home" class="brand-link" aria-label="Scrutiny Academy Home">
+        <img src="assets/logo.svg" alt="Scrutiny Academy Logo" class="brand-logo">
+        <div class="brand-text-block">
+          <span class="brand-title">SCRUTINY ACADEMY</span>
+          <span class="brand-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#class10" class="nav-link">Class 10</a></li>
+          <li><a href="#neet" class="nav-link">NEET</a></li>
+          <li><a href="#mbbs" class="nav-link">MBBS</a></li>
+          <li><a href="#mcq-engine" class="nav-link" id="nav-mcq-practice">MCQ Practice</a></li>
+          <li><a href="#progress" class="nav-link" id="nav-my-progress">My Progress</a></li>
+          <li><a href="#support" class="nav-link nav-highlight">Support Us</a></li>
+          <li><a href="#helpdesk" class="nav-link">Help Desk</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Utilities -->
+      <div class="header-actions">
+        <button class="search-trigger-btn" id="search-trigger" aria-label="Open Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span class="search-btn-text">Search...</span>
+          <kbd class="search-shortcut">⌘K</kbd>
+        </button>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#class10" class="mobile-nav-link">Class 10 SSC</a></li>
+        <li><a href="#neet" class="mobile-nav-link">NEET Preparation</a></li>
+        <li><a href="#mbbs" class="mobile-nav-link">MBBS Medical</a></li>
+        <li><a href="#mcq-engine" class="mobile-nav-link" id="mobile-nav-mcq">MCQ Practice Engine</a></li>
+        <li><a href="#progress" class="mobile-nav-link">My Progress</a></li>
+        <li><a href="#about" class="mobile-nav-link">About Academy</a></li>
+        <li><a href="#support" class="mobile-nav-link mobile-highlight">Support Scrutiny Academy ❤️</a></li>
+        <li><a href="#helpdesk" class="mobile-nav-link">Help Desk</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Academic Excellence & Competitive Rigor
+          </div>
+          <h1 class="hero-title">SCRUTINY ACADEMY</h1>
+          <div class="hero-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</div>
+          <p class="hero-subheading">
+            One learning platform for School, NEET & Medical Education. Master concepts with structured syllabi, verified question banks, and an advanced cognitive practice engine.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#curriculum-portals" class="btn btn-primary btn-lg">START LEARNING</a>
+            <button class="btn btn-outline btn-lg" id="hero-quick-practice-btn">QUICK MCQ TEST</button>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Subjects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Open Access</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">Thousands</span>
+              <span class="stat-label">Quality MCQs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-cards-grid" id="curriculum-portals">
+          <!-- Card 1: Class 10 -->
+          <a href="#class10" class="hero-card card-c10">
+            <div class="card-icon-badge">📘</div>
+            <div class="card-body">
+              <span class="card-meta">Telangana State Board</span>
+              <h3 class="card-title">CLASS 10 SSC</h3>
+              <p class="card-desc">Comprehensive board prep for Biology, Physics, Mathematics & Social Science with VSAQ, SAQ, LAQ & 50 MCQs per chapter.</p>
+              <span class="card-action">Explore Class 10 &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Card 2: NEET -->
+          <a href="#neet" class="hero-card card-neet">
+            <div class="card-icon-badge">🧬</div>
+            <div class="card-body">
+              <span class="card-meta">National Entrance</span>
+              <h3 class="card-title">NEET PREPARATION</h3>
+              <p class="card-desc">NCERT-oriented Biology, numerical Physics, and reaction Chemistry. 180 MCQs mock capability with detailed explanations.</p>
+              <span class="card-action">Prepare for NEET &rarr;</span>
+            </div>
+          </a>
+
+          <!-- Card 3: MBBS -->
+          <a href="#mbbs" class="hero-card card-mbbs">
+            <div class="card-icon-badge">🫀</div>
+            <div class="card-body">
+              <span class="card-meta">Medical Education</span>
+              <h3 class="card-title">MBBS UNDERGRADUATE</h3>
+              <p class="card-desc">19 core medical disciplines from Anatomy to Anesthesiology. High-yield clinical vignettes for university exams and NEXT / FMGE.</p>
+              <span class="card-action">Enter Medical School &rarr;</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CLASS 10 SSC TELANGANA -->
+    <section class="curriculum-section section-c10" id="class10">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">Telangana Board Standard</div>
+          <h2 class="section-title">CLASS 10 SSC TELANGANA</h2>
+          <p class="section-subtitle">Concepts • Practice • Board Preparation</p>
+        </div>
+
+        <!-- Subject selection tabs -->
+        <div class="subject-pills-bar" id="c10-subject-tabs">
+          <button class="pill-btn active" data-subject="biology">🧬 BIOLOGY</button>
+          <button class="pill-btn" data-subject="physics">⚛️ PHYSICS</button>
+          <button class="pill-btn" data-subject="mathematics">📐 MATHEMATICS</button>
+          <button class="pill-btn" data-subject="social-science">🌏 SOCIAL SCIENCE</button>
+        </div>
+
+        <!-- Dynamic Subject View Container -->
+        <div class="curriculum-card shadow-lg" id="c10-content-display">
+          <div class="card-branding-tag">
+            <span>SCRUTINY ACADEMY</span> • <span>Educational Content</span>
+          </div>
+          
+          <div class="subject-header-row">
+            <div>
+              <h3 class="subject-title-large" id="c10-subject-title">Biology</h3>
+              <p class="subject-tagline" id="c10-subject-desc">Loading curriculum data...</p>
+            </div>
+            <button class="btn btn-primary" id="c10-launch-mcq-btn">Launch Subject MCQs</button>
+          </div>
+
+          <!-- Chapter Navigation Dropdown / Tabs -->
+          <div class="chapter-bar">
+            <label for="c10-chapter-select" class="chapter-label">Select Chapter:</label>
+            <select id="c10-chapter-select" class="form-select"></select>
+          </div>
+
+          <!-- Question Format Tabs: VSAQ | SAQ | LAQ | MCQs -->
+          <div class="qformat-tabs" id="c10-format-tabs">
+            <button class="qtab-btn active" data-format="mcqs">Multiple Choice Questions (50 MCQs)</button>
+            <button class="qtab-btn" data-format="vsaq">VSAQ (1-2 Marks)</button>
+            <button class="qtab-btn" data-format="saq">SAQ (4 Marks)</button>
+            <button class="qtab-btn" data-format="laq">LAQ (8 Marks)</button>
+          </div>
+
+          <!-- Format Content Container -->
+          <div class="qformat-content-area" id="c10-format-content">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: NEET PREPARATION -->
+    <section class="curriculum-section section-neet" id="neet">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">National Eligibility cum Entrance Test</div>
+          <h2 class="section-title">NEET PREPARATION</h2>
+          <p class="section-subtitle">NCERT-Oriented Conceptual Mastery • High-Yield Numerical & Analytical Reasoning</p>
+        </div>
+
+        <!-- Subject selection tabs -->
+        <div class="subject-pills-bar" id="neet-subject-tabs">
+          <button class="pill-btn active" data-subject="biology">🧬 BIOLOGY (Botany & Zoology)</button>
+          <button class="pill-btn" data-subject="physics">⚛️ PHYSICS (Mechanics & Electrodynamics)</button>
+          <button class="pill-btn" data-subject="chemistry">⚗️ CHEMISTRY (Physical, Organic, Inorganic)</button>
+        </div>
+
+        <div class="curriculum-card shadow-lg" id="neet-content-display">
+          <div class="card-branding-tag">
+            <span>SCRUTINY ACADEMY</span> • <span>Educational Content</span>
+          </div>
+
+          <div class="subject-header-row">
+            <div>
+              <h3 class="subject-title-large" id="neet-subject-title">NEET Biology</h3>
+              <p class="subject-tagline" id="neet-subject-desc">Loading NEET syllabus data...</p>
+            </div>
+            <div class="header-button-group">
+              <button class="btn btn-outline" id="neet-practice-mode-btn">Practice Mode</button>
+              <button class="btn btn-primary" id="neet-test-mode-btn">Test Simulation Mode</button>
+            </div>
+          </div>
+
+          <div class="neet-info-grid">
+            <div class="info-card">
+              <div class="info-icon">🎯</div>
+              <h4>NCERT Grounded</h4>
+              <p>100% adherence to NCERT statements, diagrams, tables, and conceptual nuances.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">⚡</div>
+              <h4>Rigorous Traps</h4>
+              <p>Eliminate confusion with authentic assertion-reason, tricky numericals, and match-columns.</p>
+            </div>
+            <div class="info-card">
+              <div class="info-icon">📊</div>
+              <h4>Step-by-Step Solutions</h4>
+              <p>Every single question contains a deep explanation verifying why correct is right and incorrect is eliminated.</p>
+            </div>
+          </div>
+
+          <!-- Question Bank Preview & Launcher -->
+          <div class="neet-question-preview" id="neet-question-preview">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: MBBS MEDICAL EDUCATION -->
+    <section class="curriculum-section section-mbbs" id="mbbs">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">Undergraduate Medical Sciences</div>
+          <h2 class="section-title">MBBS / MEDICAL EDUCATION</h2>
+          <p class="section-subtitle">Clinical Competency • University Exams • NEXT / FMGE Preparation</p>
+        </div>
+
+        <!-- Phase Navigation Tabs -->
+        <div class="phase-tabs-bar" id="mbbs-phase-tabs">
+          <button class="phase-btn active" data-phase="all">All 19 Subjects</button>
+          <button class="phase-btn" data-phase="Pre-Clinical (Phase 1)">Phase 1: Pre-Clinical</button>
+          <button class="phase-btn" data-phase="Para-Clinical (Phase 2)">Phase 2: Para-Clinical</button>
+          <button class="phase-btn" data-phase="Clinical">Phase 3: Clinical Disciplines</button>
+        </div>
+
+        <!-- Medical Subjects Grid (19 subjects) -->
+        <div class="mbbs-grid" id="mbbs-subjects-grid">
+          <!-- Populated by JS -->
+        </div>
+
+        <div class="medical-disclaimer-card">
+          <div class="disclaimer-badge">MEDICAL EDUCATION NOTICE</div>
+          <p>
+            The questions, clinical vignettes, and explanations provided in the MBBS module of Scrutiny Academy are developed strictly for undergraduate medical examination preparation and academic learning. They do not constitute clinical guidance or healthcare advice.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: REUSABLE MCQ PRACTICE ENGINE -->
+    <section class="mcq-engine-section" id="mcq-engine">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">Interactive Assessment Suite</div>
+          <h2 class="section-title">MCQ PRACTICE ENGINE</h2>
+          <p class="section-subtitle">Adaptive Test Environment • Comprehensive Analytics • Cognitive Reinforcement</p>
+        </div>
+
+        <!-- Engine Container Card -->
+        <div class="engine-card shadow-xl" id="engine-main-card">
+          <div class="card-branding-tag">
+            <span>SCRUTINY ACADEMY</span> • <span>Educational Content</span>
+          </div>
+
+          <!-- Configuration Setup Bar -->
+          <div class="engine-config-bar" id="engine-config-bar">
+            <div class="config-item">
+              <label for="engine-subject-select">Target Course:</label>
+              <select id="engine-subject-select" class="form-select"></select>
+            </div>
+
+            <div class="config-item">
+              <label>Mode:</label>
+              <div class="mode-toggle-group">
+                <button class="mode-btn active" id="btn-mode-practice" data-mode="practice">Practice Mode</button>
+                <button class="mode-btn" id="btn-mode-test" data-mode="test">Test Mode</button>
+              </div>
+            </div>
+
+            <div class="config-item">
+              <label for="engine-count-select">Questions:</label>
+              <select id="engine-count-select" class="form-select">
+                <option value="10">10 Questions</option>
+                <option value="25" selected>25 Questions</option>
+                <option value="50">50 Questions</option>
+                <option value="100">100 Questions</option>
+                <option value="180">180 Questions (Mock)</option>
+              </select>
+            </div>
+
+            <div class="config-item">
+              <label for="engine-difficulty-select">Difficulty:</label>
+              <select id="engine-difficulty-select" class="form-select">
+                <option value="all">All Difficulties</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium / Moderate</option>
+                <option value="Hard">Hard / Difficult</option>
+              </select>
+            </div>
+
+            <div class="config-item config-checkboxes">
+              <label class="checkbox-label">
+                <input type="checkbox" id="engine-shuffle-questions" checked> Randomize Questions
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="engine-shuffle-options" checked> Randomize Options
+              </label>
+            </div>
+
+            <button class="btn btn-primary" id="engine-start-btn">Start Session</button>
+          </div>
+
+          <!-- Live Interactive Question Stage -->
+          <div class="engine-stage" id="engine-stage" style="display: none;">
+            
+            <!-- Top Status Bar -->
+            <div class="stage-status-bar">
+              <div class="status-left">
+                <span class="stage-badge badge-mode" id="stage-mode-badge">Practice Mode</span>
+                <span class="stage-badge badge-subject" id="stage-subject-badge">Biology</span>
+                <span class="stage-badge badge-difficulty" id="stage-diff-badge">Medium</span>
+              </div>
+              <div class="status-right">
+                <div class="timer-box" id="stage-timer-box">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span id="stage-timer">00:00</span>
+                </div>
+                <button class="btn btn-sm btn-outline" id="btn-mark-review">Mark for Review</button>
+                <button class="btn btn-sm btn-outline" id="btn-toggle-palette">Question Palette</button>
+              </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-track" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-fill" id="engine-progress-bar" style="width: 0%;"></div>
+            </div>
+
+            <!-- Question Card Body with Embedded Watermark -->
+            <div class="question-container" id="question-container">
+              <div class="card-watermark-text" aria-hidden="true">SCRUTINY ACADEMY</div>
+              
+              <div class="q-header">
+                <span class="q-num" id="q-number-text">Question 1 of 25</span>
+                <span class="q-chapter-tag" id="q-chapter-tag">Chapter</span>
+              </div>
+
+              <div class="q-text" id="q-prompt-text">
+                Loading question...
+              </div>
+
+              <!-- Options Grid (A, B, C, D) -->
+              <div class="options-grid" id="options-grid" role="radiogroup">
+                <!-- Injected by JS -->
+              </div>
+
+              <!-- Explanation Area (Reveals immediately in Practice Mode, or upon review) -->
+              <div class="explanation-box" id="explanation-box" style="display: none;">
+                <div class="explanation-title">
+                  <span class="exp-icon">💡</span> Concept Explanation & Academic Rationale
+                </div>
+                <div class="explanation-text" id="explanation-text"></div>
+              </div>
+
+              <!-- Navigation Controls -->
+              <div class="q-nav-bar">
+                <button class="btn btn-outline" id="btn-prev-q" disabled>&larr; Previous</button>
+                <div class="q-nav-center">
+                  <span id="q-score-counter" class="score-indicator">Score: 0</span>
+                </div>
+                <div class="q-nav-right">
+                  <button class="btn btn-outline" id="btn-next-q">Next &rarr;</button>
+                  <button class="btn btn-danger" id="btn-submit-test" style="display: none;">Submit Test</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Question Jump Palette (Drawer) -->
+            <div class="question-palette-drawer" id="palette-drawer">
+              <div class="palette-header">
+                <h4>Question Navigation Palette</h4>
+                <div class="palette-legend">
+                  <span class="legend-item"><span class="dot dot-answered"></span> Answered</span>
+                  <span class="legend-item"><span class="dot dot-unanswered"></span> Unanswered</span>
+                  <span class="legend-item"><span class="dot dot-marked"></span> Marked</span>
+                </div>
+              </div>
+              <div class="palette-grid" id="palette-grid">
+                <!-- Injected by JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Test Result / Analytics Screen -->
+          <div class="engine-result-screen" id="engine-result-screen" style="display: none;">
+            <div class="result-header">
+              <div class="result-trophy">🎓</div>
+              <h3>Assessment Performance Summary</h3>
+              <p class="result-subtitle" id="result-meta-text">Complete review of your practice session</p>
+            </div>
+
+            <div class="result-metrics-grid">
+              <div class="metric-card">
+                <span class="metric-val" id="res-score">0 / 0</span>
+                <span class="metric-lbl">Total Score</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val" id="res-accuracy">0%</span>
+                <span class="metric-lbl">Accuracy Rate</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val" id="res-time">00:00</span>
+                <span class="metric-lbl">Time Elapsed</span>
+              </div>
+              <div class="metric-card">
+                <span class="metric-val" id="res-attempted">0</span>
+                <span class="metric-lbl">Attempted</span>
+              </div>
+            </div>
+
+            <div class="result-actions">
+              <button class="btn btn-primary" id="btn-retake-test">Retake Test</button>
+              <button class="btn btn-outline" id="btn-review-incorrect">Review Incorrect Only</button>
+              <button class="btn btn-outline" id="btn-reset-engine">Change Course / Config</button>
+            </div>
+
+            <!-- Detailed Question Breakdown -->
+            <div class="result-breakdown" id="result-breakdown-list">
+              <!-- Injected by JS -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: MY PROGRESS TRACKER -->
+    <section class="progress-section" id="progress">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-pill">Browser Stored Analytics</div>
+          <h2 class="section-title">MY PROGRESS DASHBOARD</h2>
+          <p class="section-subtitle">Local storage powered progress tracking • 100% private to your device</p>
+        </div>
+
+        <div class="progress-dashboard-card shadow-lg">
+          <div class="card-branding-tag">
+            <span>SCRUTINY ACADEMY</span> • <span>Performance Tracker</span>
+          </div>
+
+          <div class="dashboard-stats-row">
+            <div class="dash-stat">
+              <span class="stat-big" id="dash-total-attempted">0</span>
+              <span class="stat-desc">Questions Attempted</span>
+            </div>
+            <div class="dash-stat">
+              <span class="stat-big text-green" id="dash-total-correct">0</span>
+              <span class="stat-desc">Correct Answers</span>
+            </div>
+            <div class="dash-stat">
+              <span class="stat-big text-red" id="dash-total-incorrect">0</span>
+              <span class="stat-desc">Incorrect Answers</span>
+            </div>
+            <div class="dash-stat">
+              <span class="stat-big text-blue" id="dash-overall-accuracy">0%</span>
+              <span class="stat-desc">Overall Accuracy</span>
+            </div>
+          </div>
+
+          <div class="recent-sessions-block">
+            <div class="recent-header">
+              <h4>Recent Practice Sessions</h4>
+              <button class="btn btn-sm btn-outline text-red" id="btn-clear-progress">Reset Progress</button>
+            </div>
+            <div class="sessions-list" id="recent-sessions-list">
+              <p class="empty-hint">No sessions completed yet. Start practicing questions to see your progress!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ABOUT SCRUTINY ACADEMY -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-col">
+            <div class="about-logo-frame">
+              <img src="assets/logo.svg" alt="Scrutiny Academy Emblem" class="about-logo">
+            </div>
+          </div>
+          <div class="about-text-col">
+            <div class="section-pill">About Our Institution</div>
+            <h2 class="section-title">Pedagogical Philosophy</h2>
+            <div class="about-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</div>
+            <p>
+              <strong>Scrutiny Academy</strong> was established with a singular vision: to bridge foundational school curriculum, competitive entrance examinations, and professional undergraduate medical education on a single unified academic platform.
+            </p>
+            <p>
+              We believe that genuine mastery requires active cognitive retrieval, not passive consumption. Every syllabus segment is dissected into high-yield concepts, accompanied by rigorous, authentic questions with verifiable explanations.
+            </p>
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <span class="pillar-icon">✓</span>
+                <span><strong>Syllabus Fidelity:</strong> Exact alignment with Telangana SSC, NCERT, and NMC MBBS guidelines.</span>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-icon">✓</span>
+                <span><strong>Conceptual Precision:</strong> Elimination of rote memorization through analytical problem-solving.</span>
+              </div>
+              <div class="pillar-item">
+                <span class="pillar-icon">✓</span>
+                <span><strong>Open Educational Access:</strong> High-caliber academic tools accessible to every committed learner.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SUPPORT SCRUTINY ACADEMY -->
+    <section class="support-section" id="support">
+      <div class="container">
+        <div class="support-box shadow-xl">
+          <div class="support-heart">❤️</div>
+          <h2 class="support-title">SUPPORT SCRUTINY ACADEMY</h2>
+          <p class="support-quote">
+            "Quality education takes time, technology, creativity and immense dedication. If our free educational resources help you, you can support our mission of making quality education accessible to everyone."
+          </p>
+          <div class="support-btn-wrap">
+            <button class="btn btn-support btn-lg" id="open-support-modal-btn">
+              SUPPORT OUR MISSION
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: HELP DESK -->
+    <section class="helpdesk-section" id="helpdesk">
+      <div class="container">
+        <div class="helpdesk-card">
+          <div class="helpdesk-icon">📬</div>
+          <h2 class="helpdesk-title">NEED HELP?</h2>
+          <p class="helpdesk-subtitle">Scrutiny Academy Help Desk</p>
+          <p class="helpdesk-text">
+            Have questions regarding question explanations, curriculum requests, technical support, or partnership inquiries? Our academic support team is here to assist you.
+          </p>
+          <div class="helpdesk-email-badge">
+            <span class="email-label">Official Email:</span>
+            <span class="email-address">scrutinyacademy@gmail.com</span>
+          </div>
+          <div class="helpdesk-cta">
+            <a href="mailto:scrutinyacademy@gmail.com?subject=Inquiry%20to%20Scrutiny%20Academy" class="btn btn-primary btn-lg">
+              CONTACT US
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/logo.svg" alt="Scrutiny Academy Logo" class="footer-logo">
+            <span class="footer-brand-name">SCRUTINY ACADEMY</span>
+          </div>
+          <p class="footer-tagline">LEARN • UNDERSTAND • PRACTICE • MASTER</p>
+          <p class="footer-desc">
+            Empowering students across Telangana SSC, NEET UG aspirants, and MBBS medical scholars through rigorous, open-access digital learning systems.
+          </p>
+          <!-- Social Icons -->
+          <div class="footer-social-links">
+            <a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer" class="social-btn youtube-btn" aria-label="Visit Scrutiny Academy on YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>YouTube</span>
+            </a>
+            <a href="https://www.instagram.com/scrutinyacademy?stkn=MWttYnR3azB5bjAzYg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" class="social-btn instagram-btn" aria-label="Visit Scrutiny Academy on Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Curriculum</h4>
+          <ul class="footer-links">
+            <li><a href="#class10">Class 10 SSC</a></li>
+            <li><a href="#neet">NEET Biology</a></li>
+            <li><a href="#neet">NEET Physics</a></li>
+            <li><a href="#neet">NEET Chemistry</a></li>
+            <li><a href="#mbbs">MBBS Medical</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#mcq-engine">MCQ Practice Engine</a></li>
+            <li><a href="#progress">My Progress</a></li>
+            <li><a href="#about">About Academy</a></li>
+            <li><a href="#support">Support Us</a></li>
+            <li><a href="#helpdesk">Help Desk</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Contact Help Desk</h4>
+          <p class="footer-contact-info">
+            Scrutiny Academy Academic Office<br>
+            <a href="mailto:scrutinyacademy@gmail.com" class="footer-email-link">scrutinyacademy@gmail.com</a>
+          </p>
+          <div class="footer-copyright-box">
+            <span class="copyright-mark">© 2026 SCRUTINY ACADEMY</span>
+            <span class="rights-mark">ALL RIGHTS RESERVED</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">
+          Educational content for learning and examination preparation. Scrutiny Academy is committed to academic integrity, accuracy, and student excellence.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SUPPORT MODAL (WITH OFFICIAL UPI QR CODE) -->
+  <div class="modal-backdrop" id="support-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+        
+        <div class="modal-header">
+          <div class="modal-heart">❤️</div>
+          <h3 class="modal-title">YOUR SUPPORT HELPS US KEEP EDUCATION FREE</h3>
+          <p class="modal-subtitle">Direct Contribution to Scrutiny Academy</p>
+        </div>
+
+        <div class="modal-body">
+          <div class="upi-card-container">
+            <!-- Official Uploaded UPI QR Card -->
+            <img src="assets/upi-qr.jpeg" alt="Scrutiny Academy Official UPI Payment QR Code - pramod sharma" class="modal-qr-image" onerror="if(!this.dataset.t1){this.dataset.t1='1';this.src='assets/upi-qr.jpg';}else if(!this.dataset.t2){this.dataset.t2='1';this.src='assets/upi-qr.png';}else if(!this.dataset.t3){this.dataset.t3='1';this.src='assets/upi-qr.svg';}">
+          </div>
+
+          <div class="upi-copy-row">
+            <span class="upi-id-badge" id="upi-id-text">iampramodsharma02-1@oksbi</span>
+            <button class="btn btn-sm btn-outline" id="btn-copy-upi">Copy UPI ID</button>
+          </div>
+
+          <div class="contribute-instruction">
+            Scan & Contribute using Google Pay, PhonePe, Paytm, BHIM, or any UPI app.
+          </div>
+
+          <p class="support-thank-you">
+            Thank you for supporting Scrutiny Academy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL SEARCH MODAL -->
+  <div class="modal-backdrop" id="search-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-dialog modal-dialog-search">
+      <div class="modal-content">
+        <div class="search-input-wrap">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="global-search-input" class="search-input" placeholder="Search subjects, chapters, topics, or MCQs..." autocomplete="off">
+          <button class="search-close-btn" id="search-close-btn">&times;</button>
+        </div>
+
+        <div class="search-results-area" id="search-results-list">
+          <div class="search-empty-state">
+            Type a topic or concept (e.g. "Photosynthesis", "Optics", "Anatomy", "Mendel", "Cardiac") to search across all courses.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-notification" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- JAVASCRIPT APP -->
+  <script src="script.js"></script>
+</body>
+</html>

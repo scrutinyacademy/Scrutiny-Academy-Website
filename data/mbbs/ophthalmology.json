@@ -1,0 +1,36 @@
+{
+  "subject": "Ophthalmology",
+  "key": "ophthalmology",
+  "phase": "Clinical (Phase 3 Part 1)",
+  "icon": "\ud83d\udc41\ufe0f",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Cornea & Lens",
+    "Glaucoma",
+    "Retina & Neuro-ophthalmology"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-ophthalmology-master",
+      "name": "Ophthalmology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-OPHT-001",
+          "question": "A dendritic ulcer staining positively with fluorescein dye on the cornea is pathognomonic of infection by:",
+          "options": [
+            "Adenovirus",
+            "Herpes simplex virus (HSV-1)",
+            "Pseudomonas aeruginosa",
+            "Acanthamoeba"
+          ],
+          "answer": 1,
+          "explanation": "HSV-1 keratitis classically produces branching dendritic epithelial ulcers with terminal bulbs that stain bright green with fluorescein.",
+          "difficulty": "Easy",
+          "topic": "Cornea",
+          "subject": "Ophthalmology"
+        }
+      ]
+    }
+  ]
+}

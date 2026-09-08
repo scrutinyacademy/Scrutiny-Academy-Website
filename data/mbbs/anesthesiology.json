@@ -1,0 +1,36 @@
+{
+  "subject": "Anesthesiology",
+  "key": "anesthesiology",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83d\udc89",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "General & Regional Anesthesia",
+    "Airway Management",
+    "Critical Care & Resuscitation"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-anesthesiology-master",
+      "name": "Anesthesiology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-ANES-001",
+          "question": "Which depolarizing neuromuscular blocking agent can precipitate life-threatening malignant hyperthermia and dangerous hyperkalemia in burn or trauma patients?",
+          "options": [
+            "Vecuronium",
+            "Succinylcholine (Suxamethonium)",
+            "Rocuronium",
+            "Atracurium"
+          ],
+          "answer": 1,
+          "explanation": "Succinylcholine stimulates nicotinic receptors at the motor end plate, causing transient fasciculations and potassium release, and is a trigger for malignant hyperthermia.",
+          "difficulty": "Medium",
+          "topic": "General Anesthesia",
+          "subject": "Anesthesiology"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "subject": "General Surgery",
+  "key": "surgery",
+  "phase": "Clinical (Phase 3 Part 2)",
+  "icon": "\ud83d\udd2a",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "Acute Abdomen",
+    "Trauma & Shock",
+    "Surgical Oncology & Hernias"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-surgery-master",
+      "name": "General Surgery High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-SURG-001",
+          "question": "The clinical finding of localized tenderness at McBurney's point with guarding in the right iliac fossa is characteristic of:",
+          "options": [
+            "Acute cholecystitis",
+            "Acute appendicitis",
+            "Acute pancreatitis",
+            "Perforated peptic ulcer"
+          ],
+          "answer": 1,
+          "explanation": "McBurney's point lies at the junction of the lateral third and medial two-thirds of the spinoumbilical line; maximal tenderness indicates acute inflammation of the vermiform appendix.",
+          "difficulty": "Easy",
+          "topic": "Acute Abdomen",
+          "subject": "General Surgery"
+        }
+      ]
+    }
+  ]
+}

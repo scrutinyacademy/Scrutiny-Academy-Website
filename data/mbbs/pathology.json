@@ -1,0 +1,51 @@
+{
+  "subject": "Pathology",
+  "key": "pathology",
+  "phase": "Para-Clinical (Phase 2)",
+  "icon": "\ud83d\udd2c",
+  "curriculum": "MBBS Undergraduate Medical Education",
+  "disclaimer": "All medical MCQs and explanations are strictly intended for undergraduate medical examination preparation and clinical education purposes only.",
+  "topics": [
+    "General Pathology & Inflammation",
+    "Hematology",
+    "Systemic Pathology & Neoplasia"
+  ],
+  "chapters": [
+    {
+      "id": "mbbs-pathology-master",
+      "name": "Pathology High-Yield Clinical Examination Bank",
+      "mcqs": [
+        {
+          "id": "MBBS-PATH-001",
+          "question": "Reed-Sternberg cells with classic 'owl-eye' binucleated appearance are diagnostic of:",
+          "options": [
+            "Burkitt lymphoma",
+            "Hodgkin lymphoma",
+            "Multiple myeloma",
+            "Chronic lymphocytic leukemia"
+          ],
+          "answer": 1,
+          "explanation": "Reed-Sternberg cells (CD15+, CD30+) in a mixed inflammatory background are the hallmark neoplastic cells of Hodgkin lymphoma.",
+          "difficulty": "Easy",
+          "topic": "Hematology",
+          "subject": "Pathology"
+        },
+        {
+          "id": "MBBS-PATH-002",
+          "question": "Which type of necrosis is classically observed in cerebral infarction (stroke) in brain tissue?",
+          "options": [
+            "Coagulative necrosis",
+            "Liquefactive necrosis",
+            "Caseous necrosis",
+            "Fibrinoid necrosis"
+          ],
+          "answer": 1,
+          "explanation": "Due to abundant lipid and hydrolytic lysosomal enzymes, hypoxic injury to the central nervous system manifests as liquefactive necrosis.",
+          "difficulty": "Medium",
+          "topic": "Cell Injury",
+          "subject": "Pathology"
+        }
+      ]
+    }
+  ]
+}

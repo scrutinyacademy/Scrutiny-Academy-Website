@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&amp;family=Great+Vibes&amp;family=Alex+Brush&amp;display=swap');
+      .circle-bg { fill: #BAE2FE; }
+      .sa-text {
+        font-family: 'Playfair Display', 'Bodoni MT', 'Didot', 'Times New Roman', serif;
+        font-size: 190px;
+        font-weight: 500;
+        fill: #000000;
+      }
+      .script-text {
+        font-family: 'Great Vibes', 'Alex Brush', 'Cedarville Cursive', 'Brush Script MT', cursive;
+        font-size: 50px;
+        fill: #000000;
+        letter-spacing: 1px;
+      }
+    </style>
+  </defs>
+  <!-- Circular Background -->
+  <circle cx="300" cy="300" r="260" class="circle-bg" />
+  
+  <!-- Intertwined Monogram SA -->
+  <!-- S is upper-left, A is lower-right -->
+  <text x="245" y="275" text-anchor="middle" class="sa-text">S</text>
+  <text x="350" y="335" text-anchor="middle" class="sa-text">A</text>
+  
+  <!-- Lower script: Scrutiny academy -->
+  <text x="300" y="375" text-anchor="middle" class="script-text">Scrutiny academy</text>
+</svg>
