@@ -176,3 +176,8 @@ You can run the website locally in any of the following ways:
 
 © 2026 SCRUTINY ACADEMY. ALL RIGHTS RESERVED.  
 Educational content created for learning, board preparation, and competitive examination training.
+# Intermediate curriculum update
+
+Class 11 and Class 12 now have separate Telangana Intermediate subject sections, with 97 chapters/units transcribed from the supplied syllabus documents. The NEET bank is split into Botany, Zoology, Physics and Chemistry with NCERT class and chapter filters. Board question and resource sections are ready for content, but currently empty. See [CURRICULUM.md](CURRICULUM.md) for source years, actual coverage, known limits and editing instructions. Earlier feature descriptions below describe the original site and should not be treated as verified content coverage.
+
+After editing any JSON file, run `node scripts/build-data.mjs` followed by `node scripts/validate-data.mjs`.

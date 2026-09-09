@@ -1,12 +1,13 @@
 {
   "subject": "Chemistry",
   "exam": "NEET UG",
-  "icon": "\u2697\ufe0f",
-  "description": "NCERT-aligned NEET Chemistry Question Bank covering Physical, Organic, and Inorganic Chemistry.",
+  "icon": "⚗️",
+  "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
   "chapters": [
     {
-      "id": "neet-chem-ch1",
-      "name": "NEET Chemistry Complete High-Yield Concept Bank",
+      "id": "neet-chemistry-11-1",
+      "name": "Some Basic Concepts of Chemistry",
+      "classLevel": 11,
       "mcqs": [
         {
           "id": "NEET-CHEM-001",
@@ -22,7 +23,14 @@
           "difficulty": "Easy",
           "chapter": "Some Basic Concepts of Chemistry",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-2",
+      "name": "Structure of Atom",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-002",
           "question": "Which of the following sets of quantum numbers is NOT permissible for an electron in an atom?",
@@ -37,7 +45,36 @@
           "difficulty": "Medium",
           "chapter": "Structure of Atom",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-3",
+      "name": "Classification of Elements and Periodicity in Properties",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-CHEM-010",
+          "question": "Which of the following elements has the highest first ionization enthalpy?",
+          "options": [
+            "Boron",
+            "Carbon",
+            "Nitrogen",
+            "Oxygen"
+          ],
+          "answer": 2,
+          "explanation": "Nitrogen has a stable, half-filled 2p subshell (1s2 2s2 2p3), requiring significantly greater energy to remove an electron than oxygen (2p4).",
+          "difficulty": "Medium",
+          "chapter": "Periodic Classification",
+          "subject": "Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-4",
+      "name": "Chemical Bonding and Molecular Structure",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-003",
           "question": "The geometry and hybridization of xenon tetrafluoride (XeF4) molecule is:",
@@ -67,7 +104,14 @@
           "difficulty": "Easy",
           "chapter": "Chemical Bonding and Molecular Structure",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-5",
+      "name": "Thermodynamics",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-005",
           "question": "For an ideal gas undergoing an isothermal expansion, the change in internal energy (Delta U) is:",
@@ -97,7 +141,14 @@
           "difficulty": "Medium",
           "chapter": "Thermodynamics",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-6",
+      "name": "Equilibrium",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-007",
           "question": "For the reaction N2(g) + 3H2(g) <=> 2NH3(g) (exothermic), increasing pressure will:",
@@ -127,7 +178,14 @@
           "difficulty": "Easy",
           "chapter": "Equilibrium",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-7",
+      "name": "Redox Reactions",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-009",
           "question": "What is the oxidation number of chromium in potassium dichromate (K2Cr2O7)?",
@@ -142,37 +200,14 @@
           "difficulty": "Easy",
           "chapter": "Redox Reactions",
           "subject": "Chemistry"
-        },
-        {
-          "id": "NEET-CHEM-010",
-          "question": "Which of the following elements has the highest first ionization enthalpy?",
-          "options": [
-            "Boron",
-            "Carbon",
-            "Nitrogen",
-            "Oxygen"
-          ],
-          "answer": 2,
-          "explanation": "Nitrogen has a stable, half-filled 2p subshell (1s2 2s2 2p3), requiring significantly greater energy to remove an electron than oxygen (2p4).",
-          "difficulty": "Medium",
-          "chapter": "Periodic Classification",
-          "subject": "Chemistry"
-        },
-        {
-          "id": "NEET-CHEM-011",
-          "question": "Which transition metal ion is diamagnetic in nature?",
-          "options": [
-            "Fe2+ (d6)",
-            "Cu2+ (d9)",
-            "Zn2+ (d10)",
-            "Mn2+ (d5)"
-          ],
-          "answer": 2,
-          "explanation": "Zn2+ has a fully filled d10 electronic configuration with zero unpaired electrons, making it diamagnetic.",
-          "difficulty": "Easy",
-          "chapter": "d- and f-Block Elements",
-          "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-8",
+      "name": "Organic Chemistry - Some Basic Principles and Techniques",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-012",
           "question": "The IUPAC name of CH3-CH(OH)-CH2-CHO is:",
@@ -187,7 +222,14 @@
           "difficulty": "Medium",
           "chapter": "Organic Chemistry - Nomenclature",
           "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-11-9",
+      "name": "Hydrocarbons",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-CHEM-013",
           "question": "Markovnikov's rule states that during addition of unsymmetrical HX to an unsymmetrical alkene, the halide attaches to:",
@@ -203,6 +245,86 @@
           "chapter": "Hydrocarbons",
           "subject": "Chemistry"
         },
+        {
+          "id": "NEET-CHEM-016",
+          "question": "Which aromatic compound undergoes nitration most rapidly?",
+          "options": [
+            "Nitrobenzene",
+            "Toluene",
+            "Benzene",
+            "Chlorobenzene"
+          ],
+          "answer": 1,
+          "explanation": "Toluene possesses a methyl (-CH3) group that activates the benzene ring towards electrophilic aromatic substitution via hyperconjugation and inductive effect (+I).",
+          "difficulty": "Medium",
+          "chapter": "Hydrocarbons",
+          "subject": "Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-12-1",
+      "name": "Solutions",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-2",
+      "name": "Electrochemistry",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-3",
+      "name": "Chemical Kinetics",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-4",
+      "name": "The d- and f-Block Elements",
+      "classLevel": 12,
+      "mcqs": [
+        {
+          "id": "NEET-CHEM-011",
+          "question": "Which transition metal ion is diamagnetic in nature?",
+          "options": [
+            "Fe2+ (d6)",
+            "Cu2+ (d9)",
+            "Zn2+ (d10)",
+            "Mn2+ (d5)"
+          ],
+          "answer": 2,
+          "explanation": "Zn2+ has a fully filled d10 electronic configuration with zero unpaired electrons, making it diamagnetic.",
+          "difficulty": "Easy",
+          "chapter": "d- and f-Block Elements",
+          "subject": "Chemistry"
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-12-5",
+      "name": "Coordination Compounds",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-6",
+      "name": "Haloalkanes and Haloarenes",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-7",
+      "name": "Alcohols, Phenols and Ethers",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-chemistry-12-8",
+      "name": "Aldehydes, Ketones and Carboxylic Acids",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-CHEM-014",
           "question": "Which of the following compounds gives a positive Iodoform test (yellow precipitate of CHI3)?",
@@ -232,22 +354,14 @@
           "difficulty": "Medium",
           "chapter": "Aldehydes, Ketones and Carboxylic Acids",
           "subject": "Chemistry"
-        },
-        {
-          "id": "NEET-CHEM-016",
-          "question": "Which aromatic compound undergoes nitration most rapidly?",
-          "options": [
-            "Nitrobenzene",
-            "Toluene",
-            "Benzene",
-            "Chlorobenzene"
-          ],
-          "answer": 1,
-          "explanation": "Toluene possesses a methyl (-CH3) group that activates the benzene ring towards electrophilic aromatic substitution via hyperconjugation and inductive effect (+I).",
-          "difficulty": "Medium",
-          "chapter": "Hydrocarbons",
-          "subject": "Chemistry"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-12-9",
+      "name": "Amines",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-CHEM-017",
           "question": "Carbylamine test (isocyanide test) is used to detect:",
@@ -264,6 +378,12 @@
           "subject": "Chemistry"
         }
       ]
+    },
+    {
+      "id": "neet-chemistry-12-10",
+      "name": "Biomolecules",
+      "classLevel": 12,
+      "mcqs": []
     }
   ]
 }
