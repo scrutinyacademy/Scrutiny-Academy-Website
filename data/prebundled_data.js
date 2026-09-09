@@ -4839,49 +4839,686 @@ window.SCRUTINY_DATA = {
       "subject": "Biology",
       "exam": "NEET UG",
       "icon": "🧬",
-      "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
+      "description": "180 original, chapter-wise Class 11 and Class 12 Biology MCQs for NEET UG practice, with answers and explanations.",
       "chapters": [
         {
           "id": "neet-biology-11-1",
           "name": "The Living World",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-050",
+              "question": "The basic unit used in the binomial system of nomenclature is:",
+              "options": [
+                "Family",
+                "Order",
+                "Species",
+                "Genus"
+              ],
+              "answer": 2,
+              "explanation": "Species is the basic unit of classification.",
+              "difficulty": "Easy",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-051",
+              "question": "In Mangifera indica, the word Mangifera denotes the:",
+              "options": [
+                "Order",
+                "Genus",
+                "Species",
+                "Family"
+              ],
+              "answer": 1,
+              "explanation": "The first word in a scientific name is the genus.",
+              "difficulty": "Easy",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-052",
+              "question": "A taxonomic key is primarily based on:",
+              "options": [
+                "Contrasting characters",
+                "Habitat alone",
+                "Chromosome number alone",
+                "Economic importance"
+              ],
+              "answer": 0,
+              "explanation": "Keys use paired contrasting characters called couplets.",
+              "difficulty": "Easy",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-053",
+              "question": "A herbarium is a collection of:",
+              "options": [
+                "Living wild animals",
+                "Microbial cultures only",
+                "Fossil fuels",
+                "Dried, pressed and preserved plant specimens"
+              ],
+              "answer": 3,
+              "explanation": "Herbaria store labelled, dried and pressed plant specimens.",
+              "difficulty": "Easy",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-054",
+              "question": "The correct ascending taxonomic sequence is:",
+              "options": [
+                "Family, species, genus, order",
+                "Order, family, species, genus",
+                "Species, genus, family, order",
+                "Genus, species, order, family"
+              ],
+              "answer": 2,
+              "explanation": "Species is followed by genus, family and order in ascending rank.",
+              "difficulty": "Medium",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-055",
+              "question": "Which feature is a defining property of living organisms?",
+              "options": [
+                "Crystallisation",
+                "Cellular organisation",
+                "Increase in size alone",
+                "Locomotion"
+              ],
+              "answer": 1,
+              "explanation": "All living organisms possess cellular organisation; growth alone can occur in non-living matter.",
+              "difficulty": "Medium",
+              "chapter": "The Living World",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-2",
           "name": "Biological Classification",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-056",
+              "question": "The cell wall of most fungi is mainly composed of:",
+              "options": [
+                "Chitin",
+                "Cellulose only",
+                "Peptidoglycan",
+                "Pectin only"
+              ],
+              "answer": 0,
+              "explanation": "Fungal cell walls characteristically contain chitin.",
+              "difficulty": "Easy",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-057",
+              "question": "Methanogens belong to the group:",
+              "options": [
+                "Eubacteria",
+                "Cyanobacteria",
+                "Slime moulds",
+                "Archaebacteria"
+              ],
+              "answer": 3,
+              "explanation": "Methanogens are archaebacteria that produce methane in anaerobic habitats.",
+              "difficulty": "Easy",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-058",
+              "question": "Diatomaceous earth is formed chiefly from the deposits of:",
+              "options": [
+                "Lichen thalli",
+                "Bacterial capsules",
+                "Diatom cell walls",
+                "Fungal hyphae"
+              ],
+              "answer": 2,
+              "explanation": "Siliceous frustules of diatoms accumulate as diatomaceous earth.",
+              "difficulty": "Medium",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-059",
+              "question": "The infectious agent made only of low-molecular-weight RNA is a:",
+              "options": [
+                "Bacterium",
+                "Viroid",
+                "Virus",
+                "Prion"
+              ],
+              "answer": 1,
+              "explanation": "Viroids are naked infectious RNA molecules without a protein coat.",
+              "difficulty": "Medium",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-060",
+              "question": "Lichens represent a symbiotic association between:",
+              "options": [
+                "An alga and a fungus",
+                "A bacterium and a virus",
+                "Two fungi",
+                "A moss and a fern"
+              ],
+              "answer": 0,
+              "explanation": "The algal partner photosynthesises while the fungal partner provides shelter and minerals.",
+              "difficulty": "Easy",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-061",
+              "question": "Red tides are commonly caused by rapid multiplication of:",
+              "options": [
+                "Euglenoids",
+                "Slime moulds",
+                "Archaebacteria",
+                "Dinoflagellates"
+              ],
+              "answer": 3,
+              "explanation": "Blooms of pigmented dinoflagellates can produce red tides.",
+              "difficulty": "Medium",
+              "chapter": "Biological Classification",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-3",
           "name": "Plant Kingdom",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-062",
+              "question": "The dominant plant body in bryophytes is the:",
+              "options": [
+                "Embryo",
+                "Seedling",
+                "Gametophyte",
+                "Sporophyte"
+              ],
+              "answer": 2,
+              "explanation": "Bryophytes have a dominant, independent gametophyte.",
+              "difficulty": "Easy",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-063",
+              "question": "Heterospory is observed in:",
+              "options": [
+                "Chara",
+                "Selaginella",
+                "Funaria",
+                "Marchantia"
+              ],
+              "answer": 1,
+              "explanation": "Selaginella produces distinct microspores and megaspores.",
+              "difficulty": "Medium",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-064",
+              "question": "In gymnosperms, ovules are called naked because they are:",
+              "options": [
+                "Not enclosed by an ovary wall",
+                "Without integuments",
+                "Without a nucellus",
+                "Produced without meiosis"
+              ],
+              "answer": 0,
+              "explanation": "Gymnosperm ovules and seeds are not enclosed within an ovary or fruit.",
+              "difficulty": "Easy",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-065",
+              "question": "The reserve food in brown algae is mainly:",
+              "options": [
+                "Starch and cellulose",
+                "Floridean starch",
+                "Glycogen only",
+                "Laminarin and mannitol"
+              ],
+              "answer": 3,
+              "explanation": "Phaeophyceae commonly store laminarin and mannitol.",
+              "difficulty": "Medium",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-066",
+              "question": "Protonema is a stage in the life cycle of:",
+              "options": [
+                "Angiosperms",
+                "Brown algae",
+                "Mosses",
+                "Gymnosperms"
+              ],
+              "answer": 2,
+              "explanation": "A moss spore germinates into a filamentous protonema.",
+              "difficulty": "Easy",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-067",
+              "question": "The dominant generation in pteridophytes is the:",
+              "options": [
+                "Protonema",
+                "Sporophyte",
+                "Gametophyte",
+                "Endosperm"
+              ],
+              "answer": 1,
+              "explanation": "Pteridophytes possess a dominant, independent vascular sporophyte.",
+              "difficulty": "Easy",
+              "chapter": "Plant Kingdom",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-4",
           "name": "Animal Kingdom",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-068",
+              "question": "Cnidoblasts are characteristic of:",
+              "options": [
+                "Cnidaria",
+                "Porifera",
+                "Annelida",
+                "Mollusca"
+              ],
+              "answer": 0,
+              "explanation": "Cnidarians possess stinging cells called cnidoblasts or cnidocytes.",
+              "difficulty": "Easy",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-069",
+              "question": "A pseudocoelom is found in:",
+              "options": [
+                "Platyhelminthes",
+                "Annelida",
+                "Echinodermata",
+                "Aschelminthes"
+              ],
+              "answer": 3,
+              "explanation": "Roundworms possess a body cavity not fully lined by mesoderm.",
+              "difficulty": "Medium",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-070",
+              "question": "The water vascular system is characteristic of:",
+              "options": [
+                "Mollusca",
+                "Chordata",
+                "Echinodermata",
+                "Arthropoda"
+              ],
+              "answer": 2,
+              "explanation": "Echinoderms use a water vascular system for locomotion and feeding.",
+              "difficulty": "Easy",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-071",
+              "question": "Jointed appendages are a defining feature of:",
+              "options": [
+                "Hemichordata",
+                "Arthropoda",
+                "Annelida",
+                "Ctenophora"
+              ],
+              "answer": 1,
+              "explanation": "Arthropods have paired, jointed appendages and a chitinous exoskeleton.",
+              "difficulty": "Easy",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-072",
+              "question": "Notochord is present at least during embryonic life in:",
+              "options": [
+                "Chordates",
+                "Molluscs",
+                "Annelids",
+                "Echinoderms only"
+              ],
+              "answer": 0,
+              "explanation": "Presence of a notochord at some developmental stage defines chordates.",
+              "difficulty": "Easy",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-073",
+              "question": "Which animal is diploblastic?",
+              "options": [
+                "Earthworm",
+                "Cockroach",
+                "Starfish",
+                "Hydra"
+              ],
+              "answer": 3,
+              "explanation": "Hydra has ectoderm and endoderm separated by mesoglea.",
+              "difficulty": "Medium",
+              "chapter": "Animal Kingdom",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-5",
           "name": "Morphology of Flowering Plants",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-074",
+              "question": "Prop roots occur in:",
+              "options": [
+                "Carrot",
+                "Potato",
+                "Banyan",
+                "Maize"
+              ],
+              "answer": 2,
+              "explanation": "Banyan branches produce pillar-like prop roots for support.",
+              "difficulty": "Easy",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-075",
+              "question": "A potato tuber is a modified:",
+              "options": [
+                "Flower",
+                "Stem",
+                "Root",
+                "Leaf"
+              ],
+              "answer": 1,
+              "explanation": "Its eyes are axillary buds, showing that potato is a stem tuber.",
+              "difficulty": "Easy",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-076",
+              "question": "The edible part of a coconut is mainly the:",
+              "options": [
+                "Endosperm",
+                "Pericarp",
+                "Cotyledon",
+                "Thalamus"
+              ],
+              "answer": 0,
+              "explanation": "Coconut water and kernel are liquid and solid endosperm, respectively.",
+              "difficulty": "Medium",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-077",
+              "question": "In a hypogynous flower, the ovary is:",
+              "options": [
+                "Half-inferior",
+                "Inferior",
+                "Absent",
+                "Superior"
+              ],
+              "answer": 3,
+              "explanation": "Other floral whorls arise below the ovary in hypogynous flowers.",
+              "difficulty": "Easy",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-078",
+              "question": "Valvate aestivation occurs when sepals or petals:",
+              "options": [
+                "Show a large standard petal",
+                "Remain fused into a tube",
+                "Touch at the margins without overlapping",
+                "Overlap in one direction"
+              ],
+              "answer": 2,
+              "explanation": "Valvate members meet at their edges but do not overlap.",
+              "difficulty": "Medium",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-079",
+              "question": "The fruit of pea is classified as a:",
+              "options": [
+                "Drupe",
+                "Legume",
+                "Caryopsis",
+                "Capsule"
+              ],
+              "answer": 1,
+              "explanation": "Pea develops a dry dehiscent legume from a monocarpellary ovary.",
+              "difficulty": "Easy",
+              "chapter": "Morphology of Flowering Plants",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-6",
           "name": "Anatomy of Flowering Plants",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-080",
+              "question": "Vascular bundles in a typical monocot stem are:",
+              "options": [
+                "Scattered and closed",
+                "Arranged in a ring and open",
+                "Radial and open",
+                "Absent from the ground tissue"
+              ],
+              "answer": 0,
+              "explanation": "Monocot stems have scattered bundles lacking vascular cambium.",
+              "difficulty": "Medium",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-081",
+              "question": "Bulliform cells are found in the:",
+              "options": [
+                "Root cap",
+                "Secondary phloem",
+                "Pith of dicot stems",
+                "Upper epidermis of monocot leaves"
+              ],
+              "answer": 3,
+              "explanation": "Bulliform cells help monocot leaves roll during water stress.",
+              "difficulty": "Medium",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-082",
+              "question": "Casparian strips occur in the:",
+              "options": [
+                "Pericycle",
+                "Pith",
+                "Endodermis",
+                "Epidermis"
+              ],
+              "answer": 2,
+              "explanation": "Suberised Casparian strips regulate movement through root endodermis.",
+              "difficulty": "Easy",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-083",
+              "question": "In a dorsiventral leaf, palisade tissue lies mainly below the:",
+              "options": [
+                "Pericycle",
+                "Upper epidermis",
+                "Lower epidermis",
+                "Bundle sheath"
+              ],
+              "answer": 1,
+              "explanation": "Palisade mesophyll is positioned below the adaxial epidermis.",
+              "difficulty": "Easy",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-084",
+              "question": "Secondary growth in a dicot stem is mainly produced by:",
+              "options": [
+                "Vascular cambium and cork cambium",
+                "Apical meristem only",
+                "Intercalary meristem only",
+                "Root cap and epidermis"
+              ],
+              "answer": 0,
+              "explanation": "Lateral meristems add secondary vascular and protective tissues.",
+              "difficulty": "Medium",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-085",
+              "question": "Protoxylem is endarch in a typical:",
+              "options": [
+                "Root",
+                "Leaf epidermis",
+                "Root cap",
+                "Stem"
+              ],
+              "answer": 3,
+              "explanation": "Stem protoxylem lies toward the pith, giving an endarch arrangement.",
+              "difficulty": "Medium",
+              "chapter": "Anatomy of Flowering Plants",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-7",
           "name": "Structural Organisation in Animals",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-086",
+              "question": "The epithelium lining alveoli is primarily:",
+              "options": [
+                "Ciliated columnar epithelium",
+                "Transitional epithelium",
+                "Simple squamous epithelium",
+                "Stratified cuboidal epithelium"
+              ],
+              "answer": 2,
+              "explanation": "A thin squamous lining permits rapid gas diffusion.",
+              "difficulty": "Easy",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-087",
+              "question": "Intercalated discs are found in:",
+              "options": [
+                "Nervous tissue",
+                "Cardiac muscle",
+                "Smooth muscle",
+                "Skeletal muscle"
+              ],
+              "answer": 1,
+              "explanation": "Intercalated discs connect cardiac muscle cells mechanically and electrically.",
+              "difficulty": "Easy",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-088",
+              "question": "Tendon connects:",
+              "options": [
+                "Muscle to bone",
+                "Bone to bone",
+                "Neuron to muscle",
+                "Cartilage to epithelium"
+              ],
+              "answer": 0,
+              "explanation": "Dense regular connective tissue forms tendons between muscle and bone.",
+              "difficulty": "Easy",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-089",
+              "question": "The structural and functional unit of nervous tissue is the:",
+              "options": [
+                "Nephron",
+                "Osteon",
+                "Sarcomere",
+                "Neuron"
+              ],
+              "answer": 3,
+              "explanation": "Neurons receive and transmit nerve impulses.",
+              "difficulty": "Easy",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-090",
+              "question": "Areolar tissue is a type of:",
+              "options": [
+                "Neural tissue",
+                "Epithelial tissue",
+                "Loose connective tissue",
+                "Muscular tissue"
+              ],
+              "answer": 2,
+              "explanation": "Areolar tissue loosely binds skin, muscles, vessels and nerves.",
+              "difficulty": "Medium",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-091",
+              "question": "The body cavity of a cockroach is mainly a:",
+              "options": [
+                "Spongocoel",
+                "Haemocoel",
+                "True coelom filled only with coelomic fluid",
+                "Pseudocoel"
+              ],
+              "answer": 1,
+              "explanation": "In cockroach the coelom is reduced and the main cavity is a blood-filled haemocoel.",
+              "difficulty": "Medium",
+              "chapter": "Structural Organisation in Animals",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-8",
@@ -4944,6 +5581,36 @@ window.SCRUTINY_DATA = {
               ],
               "answer": 0,
               "explanation": "The nucleolus is a non-membrane bound sub-nuclear structure dedicated to transcription and processing of rRNA.",
+              "difficulty": "Medium",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-092",
+              "question": "Cristae are infoldings of the:",
+              "options": [
+                "Inner mitochondrial membrane",
+                "Outer chloroplast membrane",
+                "Nuclear envelope only",
+                "Golgi cisterna"
+              ],
+              "answer": 0,
+              "explanation": "Cristae increase the surface available for oxidative phosphorylation.",
+              "difficulty": "Easy",
+              "chapter": "Cell: The Unit of Life",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-093",
+              "question": "The cis face of the Golgi apparatus mainly:",
+              "options": [
+                "Releases lysosomal enzymes outside the cell",
+                "Synthesises DNA",
+                "Forms spindle fibres",
+                "Receives vesicles from the endoplasmic reticulum"
+              ],
+              "answer": 3,
+              "explanation": "The cis or forming face receives ER-derived transport vesicles.",
               "difficulty": "Medium",
               "chapter": "Cell: The Unit of Life",
               "subject": "Biology"
@@ -5014,6 +5681,36 @@ window.SCRUTINY_DATA = {
               "difficulty": "Hard",
               "chapter": "Biomolecules",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-094",
+              "question": "The bond joining two amino acids is a:",
+              "options": [
+                "Phosphodiester bond",
+                "Hydrogen bond only",
+                "Peptide bond",
+                "Glycosidic bond"
+              ],
+              "answer": 2,
+              "explanation": "A peptide bond forms between amino and carboxyl groups of adjacent amino acids.",
+              "difficulty": "Easy",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-095",
+              "question": "A nucleotide differs from a nucleoside by the presence of:",
+              "options": [
+                "A peptide group",
+                "A phosphate group",
+                "A nitrogenous base",
+                "A pentose sugar"
+              ],
+              "answer": 1,
+              "explanation": "A nucleoside becomes a nucleotide when one or more phosphate groups are added.",
+              "difficulty": "Easy",
+              "chapter": "Biomolecules",
+              "subject": "Biology"
             }
           ]
         },
@@ -5064,6 +5761,51 @@ window.SCRUTINY_DATA = {
               "answer": 1,
               "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
               "difficulty": "Hard",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-096",
+              "question": "DNA replication occurs mainly during which phase of interphase?",
+              "options": [
+                "S phase",
+                "G1 phase",
+                "G2 phase",
+                "G0 phase"
+              ],
+              "answer": 0,
+              "explanation": "Chromosomal DNA is duplicated during S phase.",
+              "difficulty": "Easy",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-097",
+              "question": "Centromeres divide and sister chromatids separate during:",
+              "options": [
+                "Prophase of mitosis",
+                "Metaphase I",
+                "Telophase I",
+                "Anaphase of mitosis"
+              ],
+              "answer": 3,
+              "explanation": "Centromere division initiates sister chromatid movement in mitotic anaphase.",
+              "difficulty": "Medium",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-098",
+              "question": "Reduction in chromosome number occurs because homologous chromosomes separate in:",
+              "options": [
+                "Mitotic anaphase",
+                "Prophase II",
+                "Anaphase I",
+                "Anaphase II"
+              ],
+              "answer": 2,
+              "explanation": "Homologues separate in meiosis I while sister centromeres remain together.",
+              "difficulty": "Medium",
               "chapter": "Cell Cycle and Cell Division",
               "subject": "Biology"
             }
@@ -5133,6 +5875,36 @@ window.SCRUTINY_DATA = {
               "difficulty": "Medium",
               "chapter": "Photosynthesis in Higher Plants",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-099",
+              "question": "The first stable product of the C4 pathway is:",
+              "options": [
+                "Pyruvate only",
+                "Oxaloacetic acid",
+                "3-phosphoglycerate",
+                "Ribulose bisphosphate"
+              ],
+              "answer": 1,
+              "explanation": "PEP carboxylase initially fixes carbon dioxide into oxaloacetate.",
+              "difficulty": "Easy",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-100",
+              "question": "Photorespiration begins when RuBisCO acts as a/an:",
+              "options": [
+                "Oxygenase",
+                "Decarboxylase",
+                "Kinase",
+                "Hydrolase"
+              ],
+              "answer": 0,
+              "explanation": "RuBisCO oxygenates RuBP when the oxygen-to-carbon dioxide ratio is high.",
+              "difficulty": "Medium",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
             }
           ]
         },
@@ -5140,7 +5912,98 @@ window.SCRUTINY_DATA = {
           "id": "neet-biology-11-12",
           "name": "Respiration in Plants",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-101",
+              "question": "Glycolysis occurs in the:",
+              "options": [
+                "Mitochondrial matrix",
+                "Inner mitochondrial membrane",
+                "Chloroplast stroma",
+                "Cytoplasm"
+              ],
+              "answer": 3,
+              "explanation": "The ten reactions of glycolysis take place in the cytosol.",
+              "difficulty": "Easy",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-102",
+              "question": "The final electron acceptor in aerobic respiration is:",
+              "options": [
+                "Pyruvate",
+                "Carbon dioxide",
+                "Oxygen",
+                "NADH"
+              ],
+              "answer": 2,
+              "explanation": "Oxygen accepts electrons and protons to form water.",
+              "difficulty": "Easy",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-103",
+              "question": "The Krebs cycle occurs in the:",
+              "options": [
+                "Golgi apparatus",
+                "Mitochondrial matrix",
+                "Cytoplasm",
+                "Thylakoid lumen"
+              ],
+              "answer": 1,
+              "explanation": "Enzymes of the Krebs cycle are located chiefly in the mitochondrial matrix.",
+              "difficulty": "Easy",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-104",
+              "question": "Alcoholic fermentation of one glucose molecule produces:",
+              "options": [
+                "Two ethanol and two carbon dioxide molecules",
+                "Two lactate molecules only",
+                "Six carbon dioxide molecules",
+                "One ethanol molecule"
+              ],
+              "answer": 0,
+              "explanation": "Yeast converts two pyruvate into two ethanol and two carbon dioxide.",
+              "difficulty": "Medium",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-105",
+              "question": "The respiratory quotient is approximately 1 when the substrate is:",
+              "options": [
+                "A fat",
+                "An organic acid with abundant oxygen",
+                "A protein only",
+                "A carbohydrate"
+              ],
+              "answer": 3,
+              "explanation": "Complete carbohydrate oxidation releases and consumes equal volumes of carbon dioxide and oxygen.",
+              "difficulty": "Medium",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-106",
+              "question": "Most ATP in aerobic respiration is formed by:",
+              "options": [
+                "Substrate-level phosphorylation in the Krebs cycle only",
+                "Fermentation",
+                "Oxidative phosphorylation",
+                "Glycolysis alone"
+              ],
+              "answer": 2,
+              "explanation": "The electron transport chain establishes the proton gradient that drives ATP synthase.",
+              "difficulty": "Medium",
+              "chapter": "Respiration in Plants",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-13",
@@ -5159,6 +6022,81 @@ window.SCRUTINY_DATA = {
               "answer": 2,
               "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
               "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-107",
+              "question": "Apical dominance is promoted mainly by:",
+              "options": [
+                "Abscisic acid",
+                "Auxin",
+                "Cytokinin",
+                "Ethylene"
+              ],
+              "answer": 1,
+              "explanation": "Auxin from the shoot apex suppresses growth of lateral buds.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-108",
+              "question": "Bolting in rosette plants can be induced by:",
+              "options": [
+                "Gibberellins",
+                "Abscisic acid",
+                "Ethylene only",
+                "Florigen breakdown"
+              ],
+              "answer": 0,
+              "explanation": "Gibberellins cause rapid internode elongation and bolting.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-109",
+              "question": "The stress hormone that promotes stomatal closure is:",
+              "options": [
+                "Auxin",
+                "Cytokinin",
+                "Gibberellin",
+                "Abscisic acid"
+              ],
+              "answer": 3,
+              "explanation": "ABA accumulates during water stress and helps close stomata.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-110",
+              "question": "Fruit ripening is promoted by:",
+              "options": [
+                "Auxin only",
+                "Abscisic acid only",
+                "Ethylene",
+                "Cytokinin"
+              ],
+              "answer": 2,
+              "explanation": "Ethylene is a gaseous regulator that accelerates ripening in climacteric fruits.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-111",
+              "question": "Vernalisation refers to induction of flowering by:",
+              "options": [
+                "Removal of the shoot apex",
+                "Exposure to low temperature",
+                "Long-day light only",
+                "High salt concentration"
+              ],
+              "answer": 1,
+              "explanation": "A period of chilling promotes flowering in many winter varieties and biennials.",
+              "difficulty": "Medium",
               "chapter": "Plant Growth and Development",
               "subject": "Biology"
             }
@@ -5197,6 +6135,66 @@ window.SCRUTINY_DATA = {
               "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
               "difficulty": "Hard",
               "chapter": "Respiration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-112",
+              "question": "The largest amount of carbon dioxide is transported in blood as:",
+              "options": [
+                "Bicarbonate ions",
+                "Carbaminohaemoglobin",
+                "Dissolved carbon dioxide",
+                "Carbon monoxide"
+              ],
+              "answer": 0,
+              "explanation": "Most carbon dioxide is converted to bicarbonate in red blood cells and plasma.",
+              "difficulty": "Medium",
+              "chapter": "Breathing and Exchange of Gases",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-113",
+              "question": "Oxygen binds to haemoglobin mainly in the:",
+              "options": [
+                "Systemic tissues",
+                "Renal tubules",
+                "Hepatic portal vein",
+                "Pulmonary capillaries"
+              ],
+              "answer": 3,
+              "explanation": "High alveolar oxygen pressure favours formation of oxyhaemoglobin.",
+              "difficulty": "Easy",
+              "chapter": "Breathing and Exchange of Gases",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-114",
+              "question": "The normal inspiratory reserve volume is approximately:",
+              "options": [
+                "1000–1100 mL",
+                "1100–1200 mL",
+                "2500–3000 mL",
+                "500 mL"
+              ],
+              "answer": 2,
+              "explanation": "Inspiratory reserve volume is the additional air inhaled after a normal inspiration.",
+              "difficulty": "Medium",
+              "chapter": "Breathing and Exchange of Gases",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-115",
+              "question": "Emphysema primarily involves damage to the:",
+              "options": [
+                "Myelin sheath",
+                "Alveolar walls",
+                "Tricuspid valve",
+                "Glomerular capsule"
+              ],
+              "answer": 1,
+              "explanation": "Loss of alveolar septa reduces respiratory surface area in emphysema.",
+              "difficulty": "Easy",
+              "chapter": "Breathing and Exchange of Gases",
               "subject": "Biology"
             }
           ]
@@ -5250,6 +6248,51 @@ window.SCRUTINY_DATA = {
               "difficulty": "Medium",
               "chapter": "Circulation",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-116",
+              "question": "The pacemaker of the human heart is the:",
+              "options": [
+                "Sinoatrial node",
+                "Atrioventricular node",
+                "Bundle of His",
+                "Purkinje fibres"
+              ],
+              "answer": 0,
+              "explanation": "The SA node initiates the normal heartbeat.",
+              "difficulty": "Easy",
+              "chapter": "Body Fluids and Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-117",
+              "question": "The first heart sound is produced chiefly by closure of the:",
+              "options": [
+                "Semilunar valves",
+                "Vena caval openings",
+                "Coronary arteries",
+                "Atrioventricular valves"
+              ],
+              "answer": 3,
+              "explanation": "Closure of mitral and tricuspid valves produces the first heart sound.",
+              "difficulty": "Medium",
+              "chapter": "Body Fluids and Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-118",
+              "question": "Which blood component is most directly involved in clot formation?",
+              "options": [
+                "Lymphocytes",
+                "Erythrocytes",
+                "Platelets",
+                "Neutrophils"
+              ],
+              "answer": 2,
+              "explanation": "Platelets release factors and provide surfaces needed for coagulation.",
+              "difficulty": "Easy",
+              "chapter": "Body Fluids and Circulation",
+              "subject": "Biology"
             }
           ]
         },
@@ -5302,6 +6345,36 @@ window.SCRUTINY_DATA = {
               "difficulty": "Hard",
               "chapter": "Excretion",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-119",
+              "question": "Ultrafiltration of blood occurs in the:",
+              "options": [
+                "Ureter",
+                "Glomerulus",
+                "Loop of Henle",
+                "Collecting duct"
+              ],
+              "answer": 1,
+              "explanation": "Glomerular capillary pressure drives filtration into Bowman's capsule.",
+              "difficulty": "Easy",
+              "chapter": "Excretory Products and their Elimination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-120",
+              "question": "ADH increases water reabsorption mainly in the:",
+              "options": [
+                "Distal tubule and collecting duct",
+                "Glomerulus only",
+                "Ascending limb only",
+                "Renal artery"
+              ],
+              "answer": 0,
+              "explanation": "ADH increases water permeability in the late distal tubule and collecting duct.",
+              "difficulty": "Medium",
+              "chapter": "Excretory Products and their Elimination",
+              "subject": "Biology"
             }
           ]
         },
@@ -5309,7 +6382,83 @@ window.SCRUTINY_DATA = {
           "id": "neet-biology-11-17",
           "name": "Locomotion and Movement",
           "classLevel": 11,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-121",
+              "question": "The functional contractile unit of a striated muscle fibre is the:",
+              "options": [
+                "Neuron",
+                "Osteon",
+                "Nephron",
+                "Sarcomere"
+              ],
+              "answer": 3,
+              "explanation": "A sarcomere extends between two successive Z lines.",
+              "difficulty": "Easy",
+              "chapter": "Locomotion and Movement",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-122",
+              "question": "During skeletal muscle contraction, the length of the A band:",
+              "options": [
+                "Doubles",
+                "First increases and then disappears",
+                "Remains constant",
+                "Decreases to zero"
+              ],
+              "answer": 2,
+              "explanation": "Thick filament length does not change, so the A band remains constant.",
+              "difficulty": "Medium",
+              "chapter": "Locomotion and Movement",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-123",
+              "question": "Calcium initiates skeletal muscle contraction by binding to:",
+              "options": [
+                "Tropomyosin only",
+                "Troponin",
+                "Myosin head directly",
+                "Actin active site"
+              ],
+              "answer": 1,
+              "explanation": "Calcium-bound troponin shifts tropomyosin away from actin binding sites.",
+              "difficulty": "Medium",
+              "chapter": "Locomotion and Movement",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-124",
+              "question": "A ball-and-socket joint occurs at the:",
+              "options": [
+                "Shoulder",
+                "Elbow",
+                "Knee only",
+                "Joint between atlas and axis"
+              ],
+              "answer": 0,
+              "explanation": "The shoulder permits movement in many planes through a ball-and-socket joint.",
+              "difficulty": "Easy",
+              "chapter": "Locomotion and Movement",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-125",
+              "question": "Gout is associated with deposition of crystals of:",
+              "options": [
+                "Calcium carbonate",
+                "Glucose",
+                "Cholesterol only",
+                "Uric acid"
+              ],
+              "answer": 3,
+              "explanation": "Monosodium urate crystals in joints produce gouty inflammation.",
+              "difficulty": "Easy",
+              "chapter": "Locomotion and Movement",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-11-18",
@@ -5329,6 +6478,66 @@ window.SCRUTINY_DATA = {
               "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
               "difficulty": "Medium",
               "chapter": "Neural Control",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-126",
+              "question": "The resting membrane potential of a neuron is maintained largely by the:",
+              "options": [
+                "Centrosome",
+                "Ribosome",
+                "Sodium–potassium pump and selective ion permeability",
+                "Golgi apparatus alone"
+              ],
+              "answer": 2,
+              "explanation": "Ion gradients and selective permeability keep the inside relatively negative.",
+              "difficulty": "Medium",
+              "chapter": "Neural Control and Coordination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-127",
+              "question": "Saltatory conduction occurs in:",
+              "options": [
+                "Dendrites without membranes",
+                "Myelinated nerve fibres",
+                "Unmyelinated fibres only",
+                "Smooth muscle"
+              ],
+              "answer": 1,
+              "explanation": "Impulses appear to jump between nodes of Ranvier in myelinated axons.",
+              "difficulty": "Easy",
+              "chapter": "Neural Control and Coordination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-128",
+              "question": "The blind spot of the human eye lacks:",
+              "options": [
+                "Photoreceptors",
+                "Optic nerve fibres",
+                "Blood vessels",
+                "Ganglion cells only"
+              ],
+              "answer": 0,
+              "explanation": "The optic nerve exits at the blind spot, where rods and cones are absent.",
+              "difficulty": "Easy",
+              "chapter": "Neural Control and Coordination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-129",
+              "question": "The organ of Corti is located in the:",
+              "options": [
+                "Semicircular canals",
+                "Eustachian tube",
+                "Tympanic membrane",
+                "Cochlea"
+              ],
+              "answer": 3,
+              "explanation": "Sensory hair cells for hearing are housed in the organ of Corti.",
+              "difficulty": "Easy",
+              "chapter": "Neural Control and Coordination",
               "subject": "Biology"
             }
           ]
@@ -5351,6 +6560,66 @@ window.SCRUTINY_DATA = {
               "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
               "difficulty": "Medium",
               "chapter": "Chemical Coordination",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-130",
+              "question": "Insulin is secreted by the:",
+              "options": [
+                "Adrenal medulla",
+                "Thyroid follicles",
+                "Beta cells of pancreatic islets",
+                "Alpha cells of pancreatic islets"
+              ],
+              "answer": 2,
+              "explanation": "Pancreatic beta cells release insulin in response to elevated blood glucose.",
+              "difficulty": "Easy",
+              "chapter": "Chemical Coordination and Integration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-131",
+              "question": "The hormone that raises blood calcium concentration is:",
+              "options": [
+                "Melatonin",
+                "Parathyroid hormone",
+                "Calcitonin",
+                "Insulin"
+              ],
+              "answer": 1,
+              "explanation": "Parathyroid hormone promotes calcium release and reabsorption.",
+              "difficulty": "Medium",
+              "chapter": "Chemical Coordination and Integration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-132",
+              "question": "Oxytocin is released into blood from the:",
+              "options": [
+                "Posterior pituitary",
+                "Anterior pituitary",
+                "Thyroid gland",
+                "Adrenal cortex"
+              ],
+              "answer": 0,
+              "explanation": "Oxytocin is synthesised in the hypothalamus and released from the posterior pituitary.",
+              "difficulty": "Medium",
+              "chapter": "Chemical Coordination and Integration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-133",
+              "question": "Iodine is essential for synthesis of:",
+              "options": [
+                "Insulin",
+                "Cortisol",
+                "Adrenaline",
+                "Thyroid hormones"
+              ],
+              "answer": 3,
+              "explanation": "Thyroxine and triiodothyronine contain iodine.",
+              "difficulty": "Easy",
+              "chapter": "Chemical Coordination and Integration",
               "subject": "Biology"
             }
           ]
@@ -5387,6 +6656,51 @@ window.SCRUTINY_DATA = {
               "answer": 2,
               "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
               "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-134",
+              "question": "A typical angiosperm embryo sac at maturity is:",
+              "options": [
+                "Four-celled and eight-nucleate",
+                "Seven-celled and seven-nucleate",
+                "Seven-celled and eight-nucleate",
+                "Eight-celled and eight-nucleate"
+              ],
+              "answer": 2,
+              "explanation": "The mature Polygonum-type embryo sac has seven cells but eight nuclei.",
+              "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-135",
+              "question": "Double fertilisation produces a zygote and a:",
+              "options": [
+                "Seed coat",
+                "Primary endosperm nucleus",
+                "Pollen mother cell",
+                "Megaspore mother cell"
+              ],
+              "answer": 1,
+              "explanation": "One male gamete forms the zygote and the other fuses with polar nuclei to form the primary endosperm nucleus.",
+              "difficulty": "Easy",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-136",
+              "question": "The pollen tube usually enters the ovule through the:",
+              "options": [
+                "Micropyle",
+                "Chalaza",
+                "Funicle",
+                "Integument wall at random"
+              ],
+              "answer": 0,
+              "explanation": "Entry through the micropyle is called porogamy and is most common.",
+              "difficulty": "Easy",
               "chapter": "Sexual Reproduction in Flowering Plants",
               "subject": "Biology"
             }
@@ -5456,6 +6770,21 @@ window.SCRUTINY_DATA = {
               "difficulty": "Medium",
               "chapter": "Human Reproduction",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-137",
+              "question": "The acrosome of a sperm is derived from the:",
+              "options": [
+                "Mitochondrion",
+                "Nucleus",
+                "Smooth endoplasmic reticulum",
+                "Golgi apparatus"
+              ],
+              "answer": 3,
+              "explanation": "During spermiogenesis, the Golgi apparatus forms the enzyme-containing acrosome.",
+              "difficulty": "Medium",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
             }
           ]
         },
@@ -5476,6 +6805,66 @@ window.SCRUTINY_DATA = {
               "answer": 2,
               "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
               "difficulty": "Medium",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-138",
+              "question": "A copper-releasing intrauterine device mainly prevents pregnancy by:",
+              "options": [
+                "Destroying the endometrium completely",
+                "Blocking pituitary hormone release",
+                "Reducing sperm motility and fertilising capacity",
+                "Permanently stopping ovulation"
+              ],
+              "answer": 2,
+              "explanation": "Copper ions suppress sperm motility and fertilising capacity; IUDs also increase phagocytosis of sperm.",
+              "difficulty": "Medium",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-139",
+              "question": "Amniocentesis is legally restricted when misused for:",
+              "options": [
+                "Sampling amniotic fluid for diagnosis",
+                "Prenatal sex determination",
+                "Detecting chromosomal disorders",
+                "Assessing foetal development"
+              ],
+              "answer": 1,
+              "explanation": "Its misuse for sex determination contributed to female foeticide and is prohibited.",
+              "difficulty": "Easy",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-140",
+              "question": "Vasectomy involves cutting and tying the:",
+              "options": [
+                "Vasa deferentia",
+                "Ureters",
+                "Urethra",
+                "Seminiferous tubules"
+              ],
+              "answer": 0,
+              "explanation": "Vasectomy blocks sperm transport through the vasa deferentia.",
+              "difficulty": "Easy",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-141",
+              "question": "In vitro fertilisation followed by transfer of an embryo with more than eight blastomeres into the uterus is called:",
+              "options": [
+                "ZIFT",
+                "GIFT",
+                "AI",
+                "IUT"
+              ],
+              "answer": 3,
+              "explanation": "An embryo beyond the eight-blastomere stage is transferred to the uterus by intrauterine transfer.",
+              "difficulty": "Hard",
               "chapter": "Reproductive Health",
               "subject": "Biology"
             }
@@ -5694,6 +7083,36 @@ window.SCRUTINY_DATA = {
               "difficulty": "Easy",
               "chapter": "Evolution",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-142",
+              "question": "Homologous organs provide evidence for:",
+              "options": [
+                "Chemical evolution only",
+                "Mutation without selection",
+                "Divergent evolution",
+                "Convergent evolution"
+              ],
+              "answer": 2,
+              "explanation": "Homologous structures share ancestry but may perform different functions.",
+              "difficulty": "Easy",
+              "chapter": "Evolution",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-143",
+              "question": "Industrial melanism in peppered moths demonstrates:",
+              "options": [
+                "Use and disuse",
+                "Natural selection",
+                "Artificial hybridisation",
+                "Genetic drift only"
+              ],
+              "answer": 1,
+              "explanation": "Environmental change altered camouflage and differential survival of colour forms.",
+              "difficulty": "Medium",
+              "chapter": "Evolution",
+              "subject": "Biology"
             }
           ]
         },
@@ -5701,31 +7120,411 @@ window.SCRUTINY_DATA = {
           "id": "neet-biology-12-7",
           "name": "Human Health and Disease",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-144",
+              "question": "Antibodies are secreted by:",
+              "options": [
+                "Plasma cells",
+                "Erythrocytes",
+                "Platelets",
+                "Neutrophils only"
+              ],
+              "answer": 0,
+              "explanation": "Activated B lymphocytes differentiate into antibody-secreting plasma cells.",
+              "difficulty": "Easy",
+              "chapter": "Human Health and Disease",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-145",
+              "question": "HIV primarily attacks cells bearing the receptor:",
+              "options": [
+                "CD8 only",
+                "Haemoglobin",
+                "Insulin",
+                "CD4"
+              ],
+              "answer": 3,
+              "explanation": "HIV targets CD4-positive helper T cells and other CD4-bearing cells.",
+              "difficulty": "Medium",
+              "chapter": "Human Health and Disease",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-146",
+              "question": "The infective stage of Plasmodium introduced into humans is the:",
+              "options": [
+                "Gametocyte",
+                "Ookinete",
+                "Sporozoite",
+                "Merozoite"
+              ],
+              "answer": 2,
+              "explanation": "An infected female Anopheles injects sporozoites during a bite.",
+              "difficulty": "Easy",
+              "chapter": "Human Health and Disease",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-147",
+              "question": "Vaccination produces protection mainly by generating:",
+              "options": [
+                "Permanent fever",
+                "Immunological memory",
+                "Immediate nonspecific inflammation only",
+                "More erythrocytes"
+              ],
+              "answer": 1,
+              "explanation": "Memory B and T cells enable a rapid secondary immune response.",
+              "difficulty": "Easy",
+              "chapter": "Human Health and Disease",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-148",
+              "question": "Histamine released during allergy is commonly associated with:",
+              "options": [
+                "Mast cells",
+                "Red blood cells",
+                "Osteocytes",
+                "Hepatocytes"
+              ],
+              "answer": 0,
+              "explanation": "Mast-cell degranulation releases histamine during immediate allergic responses.",
+              "difficulty": "Medium",
+              "chapter": "Human Health and Disease",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-12-8",
           "name": "Microbes in Human Welfare",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-149",
+              "question": "Biogas is rich in:",
+              "options": [
+                "Oxygen",
+                "Nitrogen dioxide",
+                "Sulphur trioxide",
+                "Methane"
+              ],
+              "answer": 3,
+              "explanation": "Methanogenic archaea generate methane under anaerobic conditions.",
+              "difficulty": "Easy",
+              "chapter": "Microbes in Human Welfare",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-150",
+              "question": "The flocs formed during sewage treatment contain:",
+              "options": [
+                "Only algae",
+                "Sterile organic particles",
+                "Bacteria associated with fungal filaments",
+                "Only viruses"
+              ],
+              "answer": 2,
+              "explanation": "Microbial flocs oxidise organic matter in aeration tanks.",
+              "difficulty": "Medium",
+              "chapter": "Microbes in Human Welfare",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-151",
+              "question": "Statins used to lower blood cholesterol were originally obtained from:",
+              "options": [
+                "Trichoderma polysporum",
+                "Monascus purpureus",
+                "Lactobacillus",
+                "Methanobacterium"
+              ],
+              "answer": 1,
+              "explanation": "The yeast Monascus purpureus produces cholesterol-lowering statins.",
+              "difficulty": "Medium",
+              "chapter": "Microbes in Human Welfare",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-152",
+              "question": "Cyclosporin A is produced by:",
+              "options": [
+                "Trichoderma polysporum",
+                "Saccharomyces cerevisiae",
+                "Aspergillus niger",
+                "Rhizobium"
+              ],
+              "answer": 0,
+              "explanation": "This fungal product is used as an immunosuppressant in organ transplantation.",
+              "difficulty": "Medium",
+              "chapter": "Microbes in Human Welfare",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-153",
+              "question": "The bacterium used as a biocontrol agent against several plant pathogens is:",
+              "options": [
+                "Vibrio cholerae",
+                "Salmonella typhi",
+                "Clostridium tetani",
+                "Bacillus subtilis"
+              ],
+              "answer": 3,
+              "explanation": "Selected Bacillus strains suppress plant pathogens and are used in biological control.",
+              "difficulty": "Hard",
+              "chapter": "Microbes in Human Welfare",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-12-9",
           "name": "Biotechnology: Principles and Processes",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-154",
+              "question": "Restriction endonucleases cut DNA at:",
+              "options": [
+                "Random amino acid sites",
+                "Only telomeres",
+                "Specific recognition sequences",
+                "Every phosphodiester bond"
+              ],
+              "answer": 2,
+              "explanation": "Each restriction enzyme recognises a characteristic DNA sequence.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology: Principles and Processes",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-155",
+              "question": "A plasmid cloning vector must contain an origin of replication to:",
+              "options": [
+                "Remove restriction sites",
+                "Initiate replication in the host",
+                "Translate inserted DNA",
+                "Destroy selectable markers"
+              ],
+              "answer": 1,
+              "explanation": "The origin controls initiation and often copy number of the vector.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology: Principles and Processes",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-156",
+              "question": "DNA fragments are separated by agarose gel electrophoresis primarily according to:",
+              "options": [
+                "Size",
+                "Base colour",
+                "Number of ribosomes",
+                "Amino acid sequence"
+              ],
+              "answer": 0,
+              "explanation": "Negatively charged DNA moves through the gel, with smaller fragments migrating faster.",
+              "difficulty": "Medium",
+              "chapter": "Biotechnology: Principles and Processes",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-157",
+              "question": "The enzyme that joins DNA fragments by forming phosphodiester bonds is:",
+              "options": [
+                "DNA helicase",
+                "Restriction endonuclease",
+                "RNA polymerase",
+                "DNA ligase"
+              ],
+              "answer": 3,
+              "explanation": "DNA ligase seals breaks in the sugar-phosphate backbone.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology: Principles and Processes",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-158",
+              "question": "PCR requires a thermostable DNA polymerase such as:",
+              "options": [
+                "Reverse transcriptase only",
+                "RuBisCO",
+                "Taq polymerase",
+                "DNA ligase"
+              ],
+              "answer": 2,
+              "explanation": "Taq polymerase tolerates repeated high-temperature denaturation cycles.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology: Principles and Processes",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-12-10",
           "name": "Biotechnology and its Applications",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-159",
+              "question": "Bt toxin is produced by:",
+              "options": [
+                "Rhizobium leguminosarum",
+                "Bacillus thuringiensis",
+                "Agrobacterium tumefaciens",
+                "Escherichia coli only"
+              ],
+              "answer": 1,
+              "explanation": "Bacillus thuringiensis produces insecticidal crystal proteins.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology and its Applications",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-160",
+              "question": "The inactive Bt protoxin becomes active in the insect:",
+              "options": [
+                "Alkaline gut",
+                "Acidic stomach of mammals",
+                "Salivary gland",
+                "Haemolymph only"
+              ],
+              "answer": 0,
+              "explanation": "The alkaline insect gut solubilises and activates the crystal protoxin.",
+              "difficulty": "Medium",
+              "chapter": "Biotechnology and its Applications",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-161",
+              "question": "RNA interference protects a transgenic plant by:",
+              "options": [
+                "Increasing translation of every gene",
+                "Removing all introns",
+                "Doubling chromosome number",
+                "Silencing a complementary messenger RNA"
+              ],
+              "answer": 3,
+              "explanation": "Double-stranded RNA triggers sequence-specific degradation or silencing of target RNA.",
+              "difficulty": "Medium",
+              "chapter": "Biotechnology and its Applications",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-162",
+              "question": "The first clinical gene therapy mentioned for ADA deficiency used genetically modified:",
+              "options": [
+                "Platelets",
+                "Nephrons",
+                "Lymphocytes",
+                "Erythrocytes"
+              ],
+              "answer": 2,
+              "explanation": "Patient lymphocytes were cultured, given functional ADA cDNA and returned to the patient.",
+              "difficulty": "Medium",
+              "chapter": "Biotechnology and its Applications",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-163",
+              "question": "Golden rice was engineered to accumulate:",
+              "options": [
+                "Insulin",
+                "Beta-carotene",
+                "Vitamin C only",
+                "Iron-containing haemoglobin"
+              ],
+              "answer": 1,
+              "explanation": "Beta-carotene is a precursor of vitamin A.",
+              "difficulty": "Easy",
+              "chapter": "Biotechnology and its Applications",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-12-11",
           "name": "Organisms and Populations",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-164",
+              "question": "Population density changes through births, deaths, immigration and:",
+              "options": [
+                "Emigration",
+                "Mutation alone",
+                "Succession only",
+                "Stratification"
+              ],
+              "answer": 0,
+              "explanation": "Emigration removes individuals and is one of four direct demographic processes.",
+              "difficulty": "Easy",
+              "chapter": "Organisms and Populations",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-165",
+              "question": "In exponential population growth, dN/dt equals:",
+              "options": [
+                "K − N",
+                "N/r",
+                "r/K",
+                "rN"
+              ],
+              "answer": 3,
+              "explanation": "With unlimited resources, change in population size is proportional to intrinsic rate r and population N.",
+              "difficulty": "Medium",
+              "chapter": "Organisms and Populations",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-166",
+              "question": "The logistic growth curve is typically:",
+              "options": [
+                "Circular",
+                "Always J-shaped",
+                "Sigmoid",
+                "Perfectly linear"
+              ],
+              "answer": 2,
+              "explanation": "Resource limitation slows growth near carrying capacity, producing an S-shaped curve.",
+              "difficulty": "Easy",
+              "chapter": "Organisms and Populations",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-167",
+              "question": "An interaction in which one species benefits and the other is unaffected is:",
+              "options": [
+                "Predation",
+                "Commensalism",
+                "Mutualism",
+                "Competition"
+              ],
+              "answer": 1,
+              "explanation": "Commensalism is denoted +/0.",
+              "difficulty": "Easy",
+              "chapter": "Organisms and Populations",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-168",
+              "question": "The competitive exclusion principle is associated with:",
+              "options": [
+                "Gause",
+                "Darwin and Wallace jointly only",
+                "Mendel",
+                "Watson and Crick"
+              ],
+              "answer": 0,
+              "explanation": "Gause proposed that complete competitors cannot coexist indefinitely under identical limiting conditions.",
+              "difficulty": "Medium",
+              "chapter": "Organisms and Populations",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-12-12",
@@ -5746,6 +7545,66 @@ window.SCRUTINY_DATA = {
               "difficulty": "Easy",
               "chapter": "Ecosystem",
               "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-169",
+              "question": "The first trophic level in a grazing food chain is occupied by:",
+              "options": [
+                "Herbivores",
+                "Primary carnivores",
+                "Decomposers only",
+                "Producers"
+              ],
+              "answer": 3,
+              "explanation": "Green plants capture solar energy and form the producer level.",
+              "difficulty": "Easy",
+              "chapter": "Ecosystem",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-170",
+              "question": "The pyramid of energy is always:",
+              "options": [
+                "Spindle-shaped only",
+                "Horizontal",
+                "Upright",
+                "Inverted"
+              ],
+              "answer": 2,
+              "explanation": "Energy decreases at successive trophic levels because much is dissipated as heat.",
+              "difficulty": "Easy",
+              "chapter": "Ecosystem",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-171",
+              "question": "Primary succession on bare rock commonly begins with:",
+              "options": [
+                "Earthworms",
+                "Lichens",
+                "Large trees",
+                "Zooplankton"
+              ],
+              "answer": 1,
+              "explanation": "Pioneer lichens weather rock and help initiate soil formation.",
+              "difficulty": "Easy",
+              "chapter": "Ecosystem",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-172",
+              "question": "Net primary productivity is equal to:",
+              "options": [
+                "Gross primary productivity minus respiration",
+                "Gross primary productivity plus respiration",
+                "Respiration minus gross primary productivity",
+                "Secondary productivity minus decomposition"
+              ],
+              "answer": 0,
+              "explanation": "NPP is the biomass available after plants meet their respiratory costs.",
+              "difficulty": "Medium",
+              "chapter": "Ecosystem",
+              "subject": "Biology"
             }
           ]
         },
@@ -5753,7 +7612,83 @@ window.SCRUTINY_DATA = {
           "id": "neet-biology-12-13",
           "name": "Biodiversity and Conservation",
           "classLevel": 12,
-          "mcqs": []
+          "mcqs": [
+            {
+              "id": "NEET-BIO-173",
+              "question": "Species richness is generally highest in:",
+              "options": [
+                "Polar regions",
+                "High mountain summits",
+                "Deeply polluted lakes",
+                "Tropical regions"
+              ],
+              "answer": 3,
+              "explanation": "Tropical regions typically support greater species diversity than temperate or polar regions.",
+              "difficulty": "Easy",
+              "chapter": "Biodiversity and Conservation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-174",
+              "question": "A biodiversity hotspot must show high endemism and:",
+              "options": [
+                "No human influence",
+                "Only marine organisms",
+                "Extensive habitat loss",
+                "Low species richness"
+              ],
+              "answer": 2,
+              "explanation": "Hotspots combine exceptional endemic diversity with severe habitat threat.",
+              "difficulty": "Medium",
+              "chapter": "Biodiversity and Conservation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-175",
+              "question": "Sacred groves are an example of:",
+              "options": [
+                "Gene-bank storage",
+                "In situ conservation",
+                "Ex situ conservation",
+                "Cryopreservation"
+              ],
+              "answer": 1,
+              "explanation": "Species are protected within their natural community in sacred groves.",
+              "difficulty": "Easy",
+              "chapter": "Biodiversity and Conservation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-176",
+              "question": "Cryopreservation of gametes is an example of:",
+              "options": [
+                "Ex situ conservation",
+                "In situ conservation",
+                "Ecological succession",
+                "Biomagnification"
+              ],
+              "answer": 0,
+              "explanation": "Genetic material is conserved outside the natural habitat at very low temperature.",
+              "difficulty": "Easy",
+              "chapter": "Biodiversity and Conservation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-177",
+              "question": "The IUCN Red List primarily provides information on:",
+              "options": [
+                "Daily weather forecasts",
+                "Crop market prices",
+                "Human blood groups",
+                "Extinction risk of species"
+              ],
+              "answer": 3,
+              "explanation": "IUCN categories assess the conservation status and extinction risk of taxa.",
+              "difficulty": "Easy",
+              "chapter": "Biodiversity and Conservation",
+              "subject": "Biology"
+            }
+          ]
         },
         {
           "id": "neet-biology-legacy-33",
@@ -5787,6 +7722,51 @@ window.SCRUTINY_DATA = {
               ],
               "answer": 1,
               "explanation": "High voltage creates a corona discharge; electrons attach to dust particles, which are attracted to grounded collecting plates.",
+              "difficulty": "Medium",
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-178",
+              "question": "Biomagnification refers to increasing concentration of a persistent pollutant at:",
+              "options": [
+                "The producer level alone",
+                "Each rainfall event",
+                "Successive trophic levels",
+                "Lower atmospheric layers only"
+              ],
+              "answer": 2,
+              "explanation": "Non-biodegradable pollutants can become progressively concentrated along a food chain.",
+              "difficulty": "Easy",
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-179",
+              "question": "Eutrophication is commonly caused by excessive input of:",
+              "options": [
+                "Noble gases",
+                "Nutrients such as nitrates and phosphates",
+                "Oxygen only",
+                "Sand and gravel"
+              ],
+              "answer": 1,
+              "explanation": "Nutrient enrichment stimulates algal blooms and subsequent oxygen depletion.",
+              "difficulty": "Easy",
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-180",
+              "question": "The Montreal Protocol was designed chiefly to control:",
+              "options": [
+                "Ozone-depleting substances",
+                "Carbon monoxide from respiration",
+                "Soil erosion",
+                "Radioactive decay"
+              ],
+              "answer": 0,
+              "explanation": "The agreement phases out chemicals such as chlorofluorocarbons that damage stratospheric ozone.",
               "difficulty": "Medium",
               "chapter": "Environmental Issues",
               "subject": "Biology"
