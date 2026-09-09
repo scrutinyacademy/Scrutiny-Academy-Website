@@ -2,11 +2,17 @@
   "subject": "Physics",
   "exam": "NEET UG",
   "icon": "⚛️",
-  "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
+  "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
   "chapters": [
     {
-      "id": "neet-physics-1",
-      "name": "Kinematics",
+      "id": "neet-physics-11-1",
+      "name": "Units and Measurements",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-11-2",
+      "name": "Motion in a Straight Line",
       "classLevel": 11,
       "mcqs": [
         {
@@ -27,7 +33,7 @@
       ]
     },
     {
-      "id": "neet-physics-2",
+      "id": "neet-physics-11-3",
       "name": "Motion in a Plane",
       "classLevel": 11,
       "mcqs": [
@@ -49,7 +55,7 @@
       ]
     },
     {
-      "id": "neet-physics-3",
+      "id": "neet-physics-11-4",
       "name": "Laws of Motion",
       "classLevel": 11,
       "mcqs": [
@@ -71,7 +77,7 @@
       ]
     },
     {
-      "id": "neet-physics-4",
+      "id": "neet-physics-11-5",
       "name": "Work, Energy and Power",
       "classLevel": 11,
       "mcqs": [
@@ -93,8 +99,8 @@
       ]
     },
     {
-      "id": "neet-physics-5",
-      "name": "Rotational Motion",
+      "id": "neet-physics-11-6",
+      "name": "System of Particles and Rotational Motion",
       "classLevel": 11,
       "mcqs": [
         {
@@ -115,7 +121,7 @@
       ]
     },
     {
-      "id": "neet-physics-6",
+      "id": "neet-physics-11-7",
       "name": "Gravitation",
       "classLevel": 11,
       "mcqs": [
@@ -152,7 +158,13 @@
       ]
     },
     {
-      "id": "neet-physics-7",
+      "id": "neet-physics-11-8",
+      "name": "Mechanical Properties of Solids",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-11-9",
       "name": "Mechanical Properties of Fluids",
       "classLevel": 11,
       "mcqs": [
@@ -174,7 +186,13 @@
       ]
     },
     {
-      "id": "neet-physics-8",
+      "id": "neet-physics-11-10",
+      "name": "Thermal Properties of Matter",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-11-11",
       "name": "Thermodynamics",
       "classLevel": 11,
       "mcqs": [
@@ -196,7 +214,7 @@
       ]
     },
     {
-      "id": "neet-physics-9",
+      "id": "neet-physics-11-12",
       "name": "Kinetic Theory",
       "classLevel": 11,
       "mcqs": [
@@ -218,7 +236,7 @@
       ]
     },
     {
-      "id": "neet-physics-10",
+      "id": "neet-physics-11-13",
       "name": "Oscillations",
       "classLevel": 11,
       "mcqs": [
@@ -240,7 +258,7 @@
       ]
     },
     {
-      "id": "neet-physics-11",
+      "id": "neet-physics-11-14",
       "name": "Waves",
       "classLevel": 11,
       "mcqs": [
@@ -262,8 +280,8 @@
       ]
     },
     {
-      "id": "neet-physics-12",
-      "name": "Electrostatics",
+      "id": "neet-physics-12-1",
+      "name": "Electric Charges and Fields",
       "classLevel": 12,
       "mcqs": [
         {
@@ -284,7 +302,13 @@
       ]
     },
     {
-      "id": "neet-physics-13",
+      "id": "neet-physics-12-2",
+      "name": "Electrostatic Potential and Capacitance",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-12-3",
       "name": "Current Electricity",
       "classLevel": 12,
       "mcqs": [
@@ -321,7 +345,7 @@
       ]
     },
     {
-      "id": "neet-physics-14",
+      "id": "neet-physics-12-4",
       "name": "Moving Charges and Magnetism",
       "classLevel": 12,
       "mcqs": [
@@ -358,7 +382,13 @@
       ]
     },
     {
-      "id": "neet-physics-15",
+      "id": "neet-physics-12-5",
+      "name": "Magnetism and Matter",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-12-6",
       "name": "Electromagnetic Induction",
       "classLevel": 12,
       "mcqs": [
@@ -380,7 +410,7 @@
       ]
     },
     {
-      "id": "neet-physics-16",
+      "id": "neet-physics-12-7",
       "name": "Alternating Current",
       "classLevel": 12,
       "mcqs": [
@@ -402,7 +432,7 @@
       ]
     },
     {
-      "id": "neet-physics-17",
+      "id": "neet-physics-12-8",
       "name": "Electromagnetic Waves",
       "classLevel": 12,
       "mcqs": [
@@ -424,7 +454,13 @@
       ]
     },
     {
-      "id": "neet-physics-18",
+      "id": "neet-physics-12-9",
+      "name": "Ray Optics and Optical Instruments",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-physics-12-10",
       "name": "Wave Optics",
       "classLevel": 12,
       "mcqs": [
@@ -446,7 +482,7 @@
       ]
     },
     {
-      "id": "neet-physics-19",
+      "id": "neet-physics-12-11",
       "name": "Dual Nature of Radiation and Matter",
       "classLevel": 12,
       "mcqs": [
@@ -483,7 +519,7 @@
       ]
     },
     {
-      "id": "neet-physics-20",
+      "id": "neet-physics-12-12",
       "name": "Atoms",
       "classLevel": 12,
       "mcqs": [
@@ -505,7 +541,7 @@
       ]
     },
     {
-      "id": "neet-physics-21",
+      "id": "neet-physics-12-13",
       "name": "Nuclei",
       "classLevel": 12,
       "mcqs": [
@@ -527,8 +563,8 @@
       ]
     },
     {
-      "id": "neet-physics-22",
-      "name": "Semiconductor Electronics",
+      "id": "neet-physics-12-14",
+      "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
       "classLevel": 12,
       "mcqs": [
         {

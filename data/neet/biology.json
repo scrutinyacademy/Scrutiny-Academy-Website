@@ -1,12 +1,55 @@
 {
   "subject": "Biology",
   "exam": "NEET UG",
-  "icon": "\ud83e\uddec",
-  "description": "Comprehensive NCERT-aligned Question Bank for NEET UG Biology covering Botany and Zoology.",
+  "icon": "🧬",
+  "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
   "chapters": [
     {
-      "id": "neet-bio-ch1",
-      "name": "Complete High-Yield NEET Biology Master Bank",
+      "id": "neet-biology-11-1",
+      "name": "The Living World",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-2",
+      "name": "Biological Classification",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-3",
+      "name": "Plant Kingdom",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-4",
+      "name": "Animal Kingdom",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-5",
+      "name": "Morphology of Flowering Plants",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-6",
+      "name": "Anatomy of Flowering Plants",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-7",
+      "name": "Structural Organisation in Animals",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-8",
+      "name": "Cell: The Unit of Life",
+      "classLevel": 11,
       "mcqs": [
         {
           "id": "NEET-BIO-001",
@@ -67,52 +110,14 @@
           "difficulty": "Medium",
           "chapter": "Cell: The Unit of Life",
           "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-005",
-          "question": "During cell division, crossing over occurs during which stage of Prophase I?",
-          "options": [
-            "Leptotene",
-            "Zygotene",
-            "Pachytene",
-            "Diplotene"
-          ],
-          "answer": 2,
-          "explanation": "Recombination nodules and crossing over between non-sister chromatids of homologous chromosomes take place in Pachytene.",
-          "difficulty": "Medium",
-          "chapter": "Cell Cycle and Cell Division",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-006",
-          "question": "Synaptonemal complex dissolves and chiasmata become visible during:",
-          "options": [
-            "Zygotene",
-            "Pachytene",
-            "Diplotene",
-            "Diakinesis"
-          ],
-          "answer": 2,
-          "explanation": "During Diplotene, the synaptonemal complex dissolves, leaving X-shaped points of crossing over called chiasmata.",
-          "difficulty": "Medium",
-          "chapter": "Cell Cycle and Cell Division",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-007",
-          "question": "Colchicine arrests cell division at which phase of mitosis?",
-          "options": [
-            "Anaphase",
-            "Metaphase",
-            "Telophase",
-            "Interphase"
-          ],
-          "answer": 1,
-          "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
-          "difficulty": "Hard",
-          "chapter": "Cell Cycle and Cell Division",
-          "subject": "Biology"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-9",
+      "name": "Biomolecules",
+      "classLevel": 11,
+      "mcqs": [
         {
           "id": "NEET-BIO-008",
           "question": "Which nitrogenous base is present in RNA but absent in DNA?",
@@ -172,7 +177,478 @@
           "difficulty": "Hard",
           "chapter": "Biomolecules",
           "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-10",
+      "name": "Cell Cycle and Cell Division",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-005",
+          "question": "During cell division, crossing over occurs during which stage of Prophase I?",
+          "options": [
+            "Leptotene",
+            "Zygotene",
+            "Pachytene",
+            "Diplotene"
+          ],
+          "answer": 2,
+          "explanation": "Recombination nodules and crossing over between non-sister chromatids of homologous chromosomes take place in Pachytene.",
+          "difficulty": "Medium",
+          "chapter": "Cell Cycle and Cell Division",
+          "subject": "Biology"
         },
+        {
+          "id": "NEET-BIO-006",
+          "question": "Synaptonemal complex dissolves and chiasmata become visible during:",
+          "options": [
+            "Zygotene",
+            "Pachytene",
+            "Diplotene",
+            "Diakinesis"
+          ],
+          "answer": 2,
+          "explanation": "During Diplotene, the synaptonemal complex dissolves, leaving X-shaped points of crossing over called chiasmata.",
+          "difficulty": "Medium",
+          "chapter": "Cell Cycle and Cell Division",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-007",
+          "question": "Colchicine arrests cell division at which phase of mitosis?",
+          "options": [
+            "Anaphase",
+            "Metaphase",
+            "Telophase",
+            "Interphase"
+          ],
+          "answer": 1,
+          "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
+          "difficulty": "Hard",
+          "chapter": "Cell Cycle and Cell Division",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-11",
+      "name": "Photosynthesis in Higher Plants",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-032",
+          "question": "The primary photochemical reaction center in Photosystem II (PS II) is:",
+          "options": [
+            "P700",
+            "P680",
+            "P840",
+            "Chlorophyll b"
+          ],
+          "answer": 1,
+          "explanation": "PS II has a reaction center absorption maximum at 680 nm (P680), whereas PS I has P700.",
+          "difficulty": "Easy",
+          "chapter": "Photosynthesis in Higher Plants",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-033",
+          "question": "Water splitting complex (oxygen-evolving complex) in photosynthesis is associated with:",
+          "options": [
+            "PS I on the outer stroma side",
+            "PS II on the inner thylakoid lumen side",
+            "Cytochrome b6f complex",
+            "ATP synthase CF0-CF1"
+          ],
+          "answer": 1,
+          "explanation": "The Mn-containing oxygen-evolving complex is located on the luminal face of the thylakoid membrane attached to PS II.",
+          "difficulty": "Hard",
+          "chapter": "Photosynthesis in Higher Plants",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-034",
+          "question": "Kranz anatomy is a characteristic anatomical adaptation observed in:",
+          "options": [
+            "C3 plants (e.g., Rice, Wheat)",
+            "C4 plants (e.g., Maize, Sugarcane)",
+            "CAM plants (e.g., Pineapple)",
+            "Gymnosperms"
+          ],
+          "answer": 1,
+          "explanation": "C4 plants exhibit Kranz anatomy with radially arranged bundle sheath cells packed with agranal chloroplasts surrounding vascular bundles.",
+          "difficulty": "Medium",
+          "chapter": "Photosynthesis in Higher Plants",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-035",
+          "question": "The primary CO2 fixing enzyme in C4 plants mesophyll cells is:",
+          "options": [
+            "RuBisCO",
+            "PEP carboxylase (PEPcase)",
+            "Carbonic anhydrase",
+            "Pyruvate kinase"
+          ],
+          "answer": 1,
+          "explanation": "Phosphoenolpyruvate carboxylase (PEPcase) fixes CO2 into oxaloacetate in mesophyll cells, avoiding photorespiration.",
+          "difficulty": "Medium",
+          "chapter": "Photosynthesis in Higher Plants",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-12",
+      "name": "Respiration in Plants",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-13",
+      "name": "Plant Growth and Development",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-036",
+          "question": "Which plant growth regulator is termed the 'Stress Hormone' due to promoting stomatal closure during drought?",
+          "options": [
+            "Auxin (IAA)",
+            "Gibberellic acid (GA3)",
+            "Abscisic acid (ABA)",
+            "Cytokinin"
+          ],
+          "answer": 2,
+          "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
+          "difficulty": "Easy",
+          "chapter": "Plant Growth and Development",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-14",
+      "name": "Breathing and Exchange of Gases",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-025",
+          "question": "The volume of air inspired or expired during normal quiet breathing is called:",
+          "options": [
+            "Inspiratory Reserve Volume (IRV)",
+            "Tidal Volume (TV)",
+            "Vital Capacity (VC)",
+            "Residual Volume (RV)"
+          ],
+          "answer": 1,
+          "explanation": "Tidal Volume is approximately 500 mL in a healthy adult human.",
+          "difficulty": "Easy",
+          "chapter": "Respiration",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-026",
+          "question": "Oxygen-hemoglobin dissociation curve shifts to the right under which condition?",
+          "options": [
+            "Decreased pCO2",
+            "Increased pH",
+            "Increased temperature and increased pCO2 (Bohr effect)",
+            "Decreased 2,3-DPG"
+          ],
+          "answer": 2,
+          "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
+          "difficulty": "Hard",
+          "chapter": "Respiration",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-15",
+      "name": "Body Fluids and Circulation",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-022",
+          "question": "The cardiac pacemaker in the human heart that initiates action potentials is the:",
+          "options": [
+            "Atrioventricular (AV) node",
+            "Sinoatrial (SA) node",
+            "Bundle of His",
+            "Purkinje fibres"
+          ],
+          "answer": 1,
+          "explanation": "The SA node located in the right atrium generates spontaneous action potentials at 70-75 bpm.",
+          "difficulty": "Easy",
+          "chapter": "Circulation",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-023",
+          "question": "Which heart valves prevent the backflow of blood from ventricles into atria?",
+          "options": [
+            "Semilunar valves",
+            "Tricuspid and Bicuspid (mitral) valves",
+            "Eustachian valve",
+            "Thebesian valve"
+          ],
+          "answer": 1,
+          "explanation": "Tricuspid (right) and bicuspid/mitral (left) AV valves prevent backflow into atria during ventricular systole.",
+          "difficulty": "Easy",
+          "chapter": "Circulation",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-024",
+          "question": "The QRS complex on a standard Electrocardiogram (ECG) represents:",
+          "options": [
+            "Atrial depolarization",
+            "Ventricular depolarization",
+            "Ventricular repolarization",
+            "Atrial repolarization"
+          ],
+          "answer": 1,
+          "explanation": "The QRS complex corresponds to rapid ventricular depolarization, which triggers ventricular contraction.",
+          "difficulty": "Medium",
+          "chapter": "Circulation",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-16",
+      "name": "Excretory Products and their Elimination",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-027",
+          "question": "Erythropoietin, the hormone stimulating red blood cell production, is secreted primarily by:",
+          "options": [
+            "Bone marrow",
+            "Spleen",
+            "Juxtaglomerular cells of Kidney",
+            "Adrenal cortex"
+          ],
+          "answer": 2,
+          "explanation": "Juxtaglomerular cells in the renal cortex secrete erythropoietin in response to tissue hypoxia.",
+          "difficulty": "Medium",
+          "chapter": "Excretion",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-028",
+          "question": "Podocytes are specialized epithelial cells found in the:",
+          "options": [
+            "Parietal layer of Bowman's capsule",
+            "Visceral layer of Bowman's capsule",
+            "Loop of Henle",
+            "Distal convoluted tubule"
+          ],
+          "answer": 1,
+          "explanation": "Podocytes wrap around glomerular capillaries with interdigitating foot processes, forming filtration slits.",
+          "difficulty": "Hard",
+          "chapter": "Excretion",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-029",
+          "question": "The counter-current multiplier system that concentrates medullary interstitium in the kidney operates between:",
+          "options": [
+            "Glomerulus and Bowman's capsule",
+            "Ascending and descending limbs of Henle's loop and Vasa Recta",
+            "PCT and DCT",
+            "Collecting duct and renal pelvis"
+          ],
+          "answer": 1,
+          "explanation": "Opposite flows in Henle's loop and capillary vasa recta maintain a hyperosmotic medullary gradient up to 1200 mOsm/L.",
+          "difficulty": "Hard",
+          "chapter": "Excretion",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-17",
+      "name": "Locomotion and Movement",
+      "classLevel": 11,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-11-18",
+      "name": "Neural Control and Coordination",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-031",
+          "question": "Resting membrane potential of a neuron (-70 mV) is maintained actively by:",
+          "options": [
+            "Voltage-gated calcium channels",
+            "Na+/K+ ATPase pump (3 Na+ out for 2 K+ in)",
+            "Passive chloride influx",
+            "Potassium leak channels only"
+          ],
+          "answer": 1,
+          "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
+          "difficulty": "Medium",
+          "chapter": "Neural Control",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-11-19",
+      "name": "Chemical Coordination and Integration",
+      "classLevel": 11,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-030",
+          "question": "Which endocrine hormone acts to lower blood calcium concentration?",
+          "options": [
+            "Parathyroid hormone (PTH)",
+            "Calcitonin",
+            "Aldosterone",
+            "Thyroxine"
+          ],
+          "answer": 1,
+          "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
+          "difficulty": "Medium",
+          "chapter": "Chemical Coordination",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-1",
+      "name": "Sexual Reproduction in Flowering Plants",
+      "classLevel": 12,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-037",
+          "question": "Triple fusion in angiosperm double fertilization results in the formation of:",
+          "options": [
+            "Diploid Zygote",
+            "Triploid Primary Endosperm Nucleus (PEN)",
+            "Haploid Synergid",
+            "Antipodal cells"
+          ],
+          "answer": 1,
+          "explanation": "One sperm nucleus (n) fuses with the diploid central secondary nucleus (2n) to form the triploid endosperm (3n).",
+          "difficulty": "Medium",
+          "chapter": "Sexual Reproduction in Flowering Plants",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-038",
+          "question": "Filiform apparatus is a specialized cellular thickening present in the:",
+          "options": [
+            "Antipodal cells",
+            "Egg cell",
+            "Synergids",
+            "Pollen tube wall"
+          ],
+          "answer": 2,
+          "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
+          "difficulty": "Medium",
+          "chapter": "Sexual Reproduction in Flowering Plants",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-2",
+      "name": "Human Reproduction",
+      "classLevel": 12,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-039",
+          "question": "Sertoli cells present in the seminiferous tubules function to:",
+          "options": [
+            "Secrete testosterone",
+            "Nourish and support developing spermatozoa",
+            "Produce luteinizing hormone",
+            "Synthesize semen fructose"
+          ],
+          "answer": 1,
+          "explanation": "Sertoli cells (sustentacular nurse cells) provide structural and metabolic support to developing germ cells and form the blood-testis barrier.",
+          "difficulty": "Easy",
+          "chapter": "Human Reproduction",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-040",
+          "question": "Ovulation in human females is directly triggered by a mid-cycle surge of:",
+          "options": [
+            "Progesterone",
+            "Estrogen",
+            "Luteinizing Hormone (LH)",
+            "Follicle Stimulating Hormone (FSH)"
+          ],
+          "answer": 2,
+          "explanation": "Positive feedback of elevated estrogen induces a massive LH surge around day 14, rupturing the Graafian follicle.",
+          "difficulty": "Easy",
+          "chapter": "Human Reproduction",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-041",
+          "question": "Corpus luteum secretes large amounts of which hormone essential for maintaining endometrium?",
+          "options": [
+            "Progesterone",
+            "Estrogen",
+            "Relaxin",
+            "Oxytocin"
+          ],
+          "answer": 0,
+          "explanation": "After ovulation, the collapsed follicle transforms into the corpus luteum, secreting high titers of progesterone.",
+          "difficulty": "Easy",
+          "chapter": "Human Reproduction",
+          "subject": "Biology"
+        },
+        {
+          "id": "NEET-BIO-042",
+          "question": "Human chorionic gonadotropin (hCG) is secreted by the:",
+          "options": [
+            "Corpus luteum",
+            "Syncytiotrophoblast of the placenta",
+            "Amnion",
+            "Anterior pituitary"
+          ],
+          "answer": 1,
+          "explanation": "Syncytiotrophoblastic cells of the developing blastocyst and placenta secrete hCG to rescue the corpus luteum.",
+          "difficulty": "Medium",
+          "chapter": "Human Reproduction",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-3",
+      "name": "Reproductive Health",
+      "classLevel": 12,
+      "mcqs": [
+        {
+          "id": "NEET-BIO-043",
+          "question": "Which of the following is a non-medicated Intrauterine Device (IUD)?",
+          "options": [
+            "CuT",
+            "Multiload 375",
+            "Lippes loop",
+            "LNG-20"
+          ],
+          "answer": 2,
+          "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
+          "difficulty": "Medium",
+          "chapter": "Reproductive Health",
+          "subject": "Biology"
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-4",
+      "name": "Principles of Inheritance and Variation",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-BIO-012",
           "question": "Mendel's Law of Independent Assortment is based on which cross?",
@@ -247,7 +723,14 @@
           "difficulty": "Easy",
           "chapter": "Principles of Inheritance",
           "subject": "Biology"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-5",
+      "name": "Molecular Basis of Inheritance",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-BIO-017",
           "question": "Which experiment unequivocally proved that DNA is the genetic material?",
@@ -322,337 +805,14 @@
           "difficulty": "Medium",
           "chapter": "Molecular Basis of Inheritance",
           "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-022",
-          "question": "The cardiac pacemaker in the human heart that initiates action potentials is the:",
-          "options": [
-            "Atrioventricular (AV) node",
-            "Sinoatrial (SA) node",
-            "Bundle of His",
-            "Purkinje fibres"
-          ],
-          "answer": 1,
-          "explanation": "The SA node located in the right atrium generates spontaneous action potentials at 70-75 bpm.",
-          "difficulty": "Easy",
-          "chapter": "Circulation",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-023",
-          "question": "Which heart valves prevent the backflow of blood from ventricles into atria?",
-          "options": [
-            "Semilunar valves",
-            "Tricuspid and Bicuspid (mitral) valves",
-            "Eustachian valve",
-            "Thebesian valve"
-          ],
-          "answer": 1,
-          "explanation": "Tricuspid (right) and bicuspid/mitral (left) AV valves prevent backflow into atria during ventricular systole.",
-          "difficulty": "Easy",
-          "chapter": "Circulation",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-024",
-          "question": "The QRS complex on a standard Electrocardiogram (ECG) represents:",
-          "options": [
-            "Atrial depolarization",
-            "Ventricular depolarization",
-            "Ventricular repolarization",
-            "Atrial repolarization"
-          ],
-          "answer": 1,
-          "explanation": "The QRS complex corresponds to rapid ventricular depolarization, which triggers ventricular contraction.",
-          "difficulty": "Medium",
-          "chapter": "Circulation",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-025",
-          "question": "The volume of air inspired or expired during normal quiet breathing is called:",
-          "options": [
-            "Inspiratory Reserve Volume (IRV)",
-            "Tidal Volume (TV)",
-            "Vital Capacity (VC)",
-            "Residual Volume (RV)"
-          ],
-          "answer": 1,
-          "explanation": "Tidal Volume is approximately 500 mL in a healthy adult human.",
-          "difficulty": "Easy",
-          "chapter": "Respiration",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-026",
-          "question": "Oxygen-hemoglobin dissociation curve shifts to the right under which condition?",
-          "options": [
-            "Decreased pCO2",
-            "Increased pH",
-            "Increased temperature and increased pCO2 (Bohr effect)",
-            "Decreased 2,3-DPG"
-          ],
-          "answer": 2,
-          "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
-          "difficulty": "Hard",
-          "chapter": "Respiration",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-027",
-          "question": "Erythropoietin, the hormone stimulating red blood cell production, is secreted primarily by:",
-          "options": [
-            "Bone marrow",
-            "Spleen",
-            "Juxtaglomerular cells of Kidney",
-            "Adrenal cortex"
-          ],
-          "answer": 2,
-          "explanation": "Juxtaglomerular cells in the renal cortex secrete erythropoietin in response to tissue hypoxia.",
-          "difficulty": "Medium",
-          "chapter": "Excretion",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-028",
-          "question": "Podocytes are specialized epithelial cells found in the:",
-          "options": [
-            "Parietal layer of Bowman's capsule",
-            "Visceral layer of Bowman's capsule",
-            "Loop of Henle",
-            "Distal convoluted tubule"
-          ],
-          "answer": 1,
-          "explanation": "Podocytes wrap around glomerular capillaries with interdigitating foot processes, forming filtration slits.",
-          "difficulty": "Hard",
-          "chapter": "Excretion",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-029",
-          "question": "The counter-current multiplier system that concentrates medullary interstitium in the kidney operates between:",
-          "options": [
-            "Glomerulus and Bowman's capsule",
-            "Ascending and descending limbs of Henle's loop and Vasa Recta",
-            "PCT and DCT",
-            "Collecting duct and renal pelvis"
-          ],
-          "answer": 1,
-          "explanation": "Opposite flows in Henle's loop and capillary vasa recta maintain a hyperosmotic medullary gradient up to 1200 mOsm/L.",
-          "difficulty": "Hard",
-          "chapter": "Excretion",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-030",
-          "question": "Which endocrine hormone acts to lower blood calcium concentration?",
-          "options": [
-            "Parathyroid hormone (PTH)",
-            "Calcitonin",
-            "Aldosterone",
-            "Thyroxine"
-          ],
-          "answer": 1,
-          "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
-          "difficulty": "Medium",
-          "chapter": "Chemical Coordination",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-031",
-          "question": "Resting membrane potential of a neuron (-70 mV) is maintained actively by:",
-          "options": [
-            "Voltage-gated calcium channels",
-            "Na+/K+ ATPase pump (3 Na+ out for 2 K+ in)",
-            "Passive chloride influx",
-            "Potassium leak channels only"
-          ],
-          "answer": 1,
-          "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
-          "difficulty": "Medium",
-          "chapter": "Neural Control",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-032",
-          "question": "The primary photochemical reaction center in Photosystem II (PS II) is:",
-          "options": [
-            "P700",
-            "P680",
-            "P840",
-            "Chlorophyll b"
-          ],
-          "answer": 1,
-          "explanation": "PS II has a reaction center absorption maximum at 680 nm (P680), whereas PS I has P700.",
-          "difficulty": "Easy",
-          "chapter": "Photosynthesis in Higher Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-033",
-          "question": "Water splitting complex (oxygen-evolving complex) in photosynthesis is associated with:",
-          "options": [
-            "PS I on the outer stroma side",
-            "PS II on the inner thylakoid lumen side",
-            "Cytochrome b6f complex",
-            "ATP synthase CF0-CF1"
-          ],
-          "answer": 1,
-          "explanation": "The Mn-containing oxygen-evolving complex is located on the luminal face of the thylakoid membrane attached to PS II.",
-          "difficulty": "Hard",
-          "chapter": "Photosynthesis in Higher Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-034",
-          "question": "Kranz anatomy is a characteristic anatomical adaptation observed in:",
-          "options": [
-            "C3 plants (e.g., Rice, Wheat)",
-            "C4 plants (e.g., Maize, Sugarcane)",
-            "CAM plants (e.g., Pineapple)",
-            "Gymnosperms"
-          ],
-          "answer": 1,
-          "explanation": "C4 plants exhibit Kranz anatomy with radially arranged bundle sheath cells packed with agranal chloroplasts surrounding vascular bundles.",
-          "difficulty": "Medium",
-          "chapter": "Photosynthesis in Higher Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-035",
-          "question": "The primary CO2 fixing enzyme in C4 plants mesophyll cells is:",
-          "options": [
-            "RuBisCO",
-            "PEP carboxylase (PEPcase)",
-            "Carbonic anhydrase",
-            "Pyruvate kinase"
-          ],
-          "answer": 1,
-          "explanation": "Phosphoenolpyruvate carboxylase (PEPcase) fixes CO2 into oxaloacetate in mesophyll cells, avoiding photorespiration.",
-          "difficulty": "Medium",
-          "chapter": "Photosynthesis in Higher Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-036",
-          "question": "Which plant growth regulator is termed the 'Stress Hormone' due to promoting stomatal closure during drought?",
-          "options": [
-            "Auxin (IAA)",
-            "Gibberellic acid (GA3)",
-            "Abscisic acid (ABA)",
-            "Cytokinin"
-          ],
-          "answer": 2,
-          "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
-          "difficulty": "Easy",
-          "chapter": "Plant Growth and Development",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-037",
-          "question": "Triple fusion in angiosperm double fertilization results in the formation of:",
-          "options": [
-            "Diploid Zygote",
-            "Triploid Primary Endosperm Nucleus (PEN)",
-            "Haploid Synergid",
-            "Antipodal cells"
-          ],
-          "answer": 1,
-          "explanation": "One sperm nucleus (n) fuses with the diploid central secondary nucleus (2n) to form the triploid endosperm (3n).",
-          "difficulty": "Medium",
-          "chapter": "Sexual Reproduction in Flowering Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-038",
-          "question": "Filiform apparatus is a specialized cellular thickening present in the:",
-          "options": [
-            "Antipodal cells",
-            "Egg cell",
-            "Synergids",
-            "Pollen tube wall"
-          ],
-          "answer": 2,
-          "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
-          "difficulty": "Medium",
-          "chapter": "Sexual Reproduction in Flowering Plants",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-039",
-          "question": "Sertoli cells present in the seminiferous tubules function to:",
-          "options": [
-            "Secrete testosterone",
-            "Nourish and support developing spermatozoa",
-            "Produce luteinizing hormone",
-            "Synthesize semen fructose"
-          ],
-          "answer": 1,
-          "explanation": "Sertoli cells (sustentacular nurse cells) provide structural and metabolic support to developing germ cells and form the blood-testis barrier.",
-          "difficulty": "Easy",
-          "chapter": "Human Reproduction",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-040",
-          "question": "Ovulation in human females is directly triggered by a mid-cycle surge of:",
-          "options": [
-            "Progesterone",
-            "Estrogen",
-            "Luteinizing Hormone (LH)",
-            "Follicle Stimulating Hormone (FSH)"
-          ],
-          "answer": 2,
-          "explanation": "Positive feedback of elevated estrogen induces a massive LH surge around day 14, rupturing the Graafian follicle.",
-          "difficulty": "Easy",
-          "chapter": "Human Reproduction",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-041",
-          "question": "Corpus luteum secretes large amounts of which hormone essential for maintaining endometrium?",
-          "options": [
-            "Progesterone",
-            "Estrogen",
-            "Relaxin",
-            "Oxytocin"
-          ],
-          "answer": 0,
-          "explanation": "After ovulation, the collapsed follicle transforms into the corpus luteum, secreting high titers of progesterone.",
-          "difficulty": "Easy",
-          "chapter": "Human Reproduction",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-042",
-          "question": "Human chorionic gonadotropin (hCG) is secreted by the:",
-          "options": [
-            "Corpus luteum",
-            "Syncytiotrophoblast of the placenta",
-            "Amnion",
-            "Anterior pituitary"
-          ],
-          "answer": 1,
-          "explanation": "Syncytiotrophoblastic cells of the developing blastocyst and placenta secrete hCG to rescue the corpus luteum.",
-          "difficulty": "Medium",
-          "chapter": "Human Reproduction",
-          "subject": "Biology"
-        },
-        {
-          "id": "NEET-BIO-043",
-          "question": "Which of the following is a non-medicated Intrauterine Device (IUD)?",
-          "options": [
-            "CuT",
-            "Multiload 375",
-            "Lippes loop",
-            "LNG-20"
-          ],
-          "answer": 2,
-          "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
-          "difficulty": "Medium",
-          "chapter": "Reproductive Health",
-          "subject": "Biology"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-6",
+      "name": "Evolution",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-BIO-044",
           "question": "The homologous organs represent:",
@@ -697,7 +857,44 @@
           "difficulty": "Easy",
           "chapter": "Evolution",
           "subject": "Biology"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-7",
+      "name": "Human Health and Disease",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-12-8",
+      "name": "Microbes in Human Welfare",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-12-9",
+      "name": "Biotechnology: Principles and Processes",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-12-10",
+      "name": "Biotechnology and its Applications",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-12-11",
+      "name": "Organisms and Populations",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-12-12",
+      "name": "Ecosystem",
+      "classLevel": 12,
+      "mcqs": [
         {
           "id": "NEET-BIO-047",
           "question": "According to Lindeman's 10 percent law, energy transferred between consecutive trophic levels is:",
@@ -712,7 +909,21 @@
           "difficulty": "Easy",
           "chapter": "Ecosystem",
           "subject": "Biology"
-        },
+        }
+      ]
+    },
+    {
+      "id": "neet-biology-12-13",
+      "name": "Biodiversity and Conservation",
+      "classLevel": 12,
+      "mcqs": []
+    },
+    {
+      "id": "neet-biology-legacy-33",
+      "name": "Environmental Issues",
+      "classLevel": 12,
+      "legacy": true,
+      "mcqs": [
         {
           "id": "NEET-BIO-048",
           "question": "The Montreal Protocol (1987) was signed to control the emission of:",

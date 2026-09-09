@@ -37,3 +37,7 @@ Practice and chapter tests use only available questions. They do not constitute 
 ## Validation
 
 Run `node scripts/validate-data.mjs` and `node --check script.js`. Check chapter navigation, question formats, NEET class/chapter filters, practice launch, empty states, search and offline fallback when browser testing is performed.
+
+## Published NEET navigation update
+
+NEET now uses Biology, Chemistry and Physics → Class 11 / Class 12 → chapter names, with 79 NCERT chapter entries plus one retained legacy Environmental Issues entry. Empty chapters are visible with disabled practice buttons. The three subject JSON files are canonical; earlier Botany/Zoology split files are unlisted historical files. This catalog is navigation, not a claim of verified 2027/2028 examination coverage. Check the official NEET syllabus for the target exam year. Source for textbook chapter organization: https://ncert.nic.in/textbook.php . Do not rerun the original add-intermediate migration after this navigation update.

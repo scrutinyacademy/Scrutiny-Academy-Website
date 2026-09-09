@@ -103,28 +103,19 @@ window.SCRUTINY_DATA = {
         "tagline": "National Eligibility Cum Entrance Test",
         "subjects": [
           {
-            "id": "botany",
-            "name": "Botany",
-            "icon": "🌿",
-            "file": "data/neet/botany.json"
-          },
-          {
-            "id": "zoology",
-            "name": "Zoology",
-            "icon": "🦋",
-            "file": "data/neet/zoology.json"
-          },
-          {
-            "id": "physics",
-            "name": "Physics",
-            "icon": "⚛️",
-            "file": "data/neet/physics.json"
+            "id": "biology",
+            "name": "Biology",
+            "file": "data/neet/biology.json"
           },
           {
             "id": "chemistry",
             "name": "Chemistry",
-            "icon": "⚗️",
             "file": "data/neet/chemistry.json"
+          },
+          {
+            "id": "physics",
+            "name": "Physics",
+            "file": "data/neet/physics.json"
           }
         ]
       },
@@ -4844,14 +4835,56 @@ window.SCRUTINY_DATA = {
     }
   },
   "neet": {
-    "botany": {
-      "subject": "Botany",
+    "biology": {
+      "subject": "Biology",
       "exam": "NEET UG",
-      "icon": "🌿",
-      "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
+      "icon": "🧬",
+      "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
       "chapters": [
         {
-          "id": "neet-botany-1",
+          "id": "neet-biology-11-1",
+          "name": "The Living World",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-2",
+          "name": "Biological Classification",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-3",
+          "name": "Plant Kingdom",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-4",
+          "name": "Animal Kingdom",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-5",
+          "name": "Morphology of Flowering Plants",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-6",
+          "name": "Anatomy of Flowering Plants",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-7",
+          "name": "Structural Organisation in Animals",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-8",
           "name": "Cell: The Unit of Life",
           "classLevel": 11,
           "mcqs": [
@@ -4918,59 +4951,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-botany-2",
-          "name": "Cell Cycle and Cell Division",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-005",
-              "question": "During cell division, crossing over occurs during which stage of Prophase I?",
-              "options": [
-                "Leptotene",
-                "Zygotene",
-                "Pachytene",
-                "Diplotene"
-              ],
-              "answer": 2,
-              "explanation": "Recombination nodules and crossing over between non-sister chromatids of homologous chromosomes take place in Pachytene.",
-              "difficulty": "Medium",
-              "chapter": "Cell Cycle and Cell Division",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-006",
-              "question": "Synaptonemal complex dissolves and chiasmata become visible during:",
-              "options": [
-                "Zygotene",
-                "Pachytene",
-                "Diplotene",
-                "Diakinesis"
-              ],
-              "answer": 2,
-              "explanation": "During Diplotene, the synaptonemal complex dissolves, leaving X-shaped points of crossing over called chiasmata.",
-              "difficulty": "Medium",
-              "chapter": "Cell Cycle and Cell Division",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-007",
-              "question": "Colchicine arrests cell division at which phase of mitosis?",
-              "options": [
-                "Anaphase",
-                "Metaphase",
-                "Telophase",
-                "Interphase"
-              ],
-              "answer": 1,
-              "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
-              "difficulty": "Hard",
-              "chapter": "Cell Cycle and Cell Division",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-botany-3",
+          "id": "neet-biology-11-9",
           "name": "Biomolecules",
           "classLevel": 11,
           "mcqs": [
@@ -5037,8 +5018,472 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-botany-4",
-          "name": "Principles of Inheritance",
+          "id": "neet-biology-11-10",
+          "name": "Cell Cycle and Cell Division",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-005",
+              "question": "During cell division, crossing over occurs during which stage of Prophase I?",
+              "options": [
+                "Leptotene",
+                "Zygotene",
+                "Pachytene",
+                "Diplotene"
+              ],
+              "answer": 2,
+              "explanation": "Recombination nodules and crossing over between non-sister chromatids of homologous chromosomes take place in Pachytene.",
+              "difficulty": "Medium",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-006",
+              "question": "Synaptonemal complex dissolves and chiasmata become visible during:",
+              "options": [
+                "Zygotene",
+                "Pachytene",
+                "Diplotene",
+                "Diakinesis"
+              ],
+              "answer": 2,
+              "explanation": "During Diplotene, the synaptonemal complex dissolves, leaving X-shaped points of crossing over called chiasmata.",
+              "difficulty": "Medium",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-007",
+              "question": "Colchicine arrests cell division at which phase of mitosis?",
+              "options": [
+                "Anaphase",
+                "Metaphase",
+                "Telophase",
+                "Interphase"
+              ],
+              "answer": 1,
+              "explanation": "Colchicine inhibits microtubule polymerization and spindle assembly, arresting dividing cells at metaphase.",
+              "difficulty": "Hard",
+              "chapter": "Cell Cycle and Cell Division",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-11",
+          "name": "Photosynthesis in Higher Plants",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-032",
+              "question": "The primary photochemical reaction center in Photosystem II (PS II) is:",
+              "options": [
+                "P700",
+                "P680",
+                "P840",
+                "Chlorophyll b"
+              ],
+              "answer": 1,
+              "explanation": "PS II has a reaction center absorption maximum at 680 nm (P680), whereas PS I has P700.",
+              "difficulty": "Easy",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-033",
+              "question": "Water splitting complex (oxygen-evolving complex) in photosynthesis is associated with:",
+              "options": [
+                "PS I on the outer stroma side",
+                "PS II on the inner thylakoid lumen side",
+                "Cytochrome b6f complex",
+                "ATP synthase CF0-CF1"
+              ],
+              "answer": 1,
+              "explanation": "The Mn-containing oxygen-evolving complex is located on the luminal face of the thylakoid membrane attached to PS II.",
+              "difficulty": "Hard",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-034",
+              "question": "Kranz anatomy is a characteristic anatomical adaptation observed in:",
+              "options": [
+                "C3 plants (e.g., Rice, Wheat)",
+                "C4 plants (e.g., Maize, Sugarcane)",
+                "CAM plants (e.g., Pineapple)",
+                "Gymnosperms"
+              ],
+              "answer": 1,
+              "explanation": "C4 plants exhibit Kranz anatomy with radially arranged bundle sheath cells packed with agranal chloroplasts surrounding vascular bundles.",
+              "difficulty": "Medium",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-035",
+              "question": "The primary CO2 fixing enzyme in C4 plants mesophyll cells is:",
+              "options": [
+                "RuBisCO",
+                "PEP carboxylase (PEPcase)",
+                "Carbonic anhydrase",
+                "Pyruvate kinase"
+              ],
+              "answer": 1,
+              "explanation": "Phosphoenolpyruvate carboxylase (PEPcase) fixes CO2 into oxaloacetate in mesophyll cells, avoiding photorespiration.",
+              "difficulty": "Medium",
+              "chapter": "Photosynthesis in Higher Plants",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-12",
+          "name": "Respiration in Plants",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-13",
+          "name": "Plant Growth and Development",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-036",
+              "question": "Which plant growth regulator is termed the 'Stress Hormone' due to promoting stomatal closure during drought?",
+              "options": [
+                "Auxin (IAA)",
+                "Gibberellic acid (GA3)",
+                "Abscisic acid (ABA)",
+                "Cytokinin"
+              ],
+              "answer": 2,
+              "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
+              "difficulty": "Easy",
+              "chapter": "Plant Growth and Development",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-14",
+          "name": "Breathing and Exchange of Gases",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-025",
+              "question": "The volume of air inspired or expired during normal quiet breathing is called:",
+              "options": [
+                "Inspiratory Reserve Volume (IRV)",
+                "Tidal Volume (TV)",
+                "Vital Capacity (VC)",
+                "Residual Volume (RV)"
+              ],
+              "answer": 1,
+              "explanation": "Tidal Volume is approximately 500 mL in a healthy adult human.",
+              "difficulty": "Easy",
+              "chapter": "Respiration",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-026",
+              "question": "Oxygen-hemoglobin dissociation curve shifts to the right under which condition?",
+              "options": [
+                "Decreased pCO2",
+                "Increased pH",
+                "Increased temperature and increased pCO2 (Bohr effect)",
+                "Decreased 2,3-DPG"
+              ],
+              "answer": 2,
+              "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
+              "difficulty": "Hard",
+              "chapter": "Respiration",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-15",
+          "name": "Body Fluids and Circulation",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-022",
+              "question": "The cardiac pacemaker in the human heart that initiates action potentials is the:",
+              "options": [
+                "Atrioventricular (AV) node",
+                "Sinoatrial (SA) node",
+                "Bundle of His",
+                "Purkinje fibres"
+              ],
+              "answer": 1,
+              "explanation": "The SA node located in the right atrium generates spontaneous action potentials at 70-75 bpm.",
+              "difficulty": "Easy",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-023",
+              "question": "Which heart valves prevent the backflow of blood from ventricles into atria?",
+              "options": [
+                "Semilunar valves",
+                "Tricuspid and Bicuspid (mitral) valves",
+                "Eustachian valve",
+                "Thebesian valve"
+              ],
+              "answer": 1,
+              "explanation": "Tricuspid (right) and bicuspid/mitral (left) AV valves prevent backflow into atria during ventricular systole.",
+              "difficulty": "Easy",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-024",
+              "question": "The QRS complex on a standard Electrocardiogram (ECG) represents:",
+              "options": [
+                "Atrial depolarization",
+                "Ventricular depolarization",
+                "Ventricular repolarization",
+                "Atrial repolarization"
+              ],
+              "answer": 1,
+              "explanation": "The QRS complex corresponds to rapid ventricular depolarization, which triggers ventricular contraction.",
+              "difficulty": "Medium",
+              "chapter": "Circulation",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-16",
+          "name": "Excretory Products and their Elimination",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-027",
+              "question": "Erythropoietin, the hormone stimulating red blood cell production, is secreted primarily by:",
+              "options": [
+                "Bone marrow",
+                "Spleen",
+                "Juxtaglomerular cells of Kidney",
+                "Adrenal cortex"
+              ],
+              "answer": 2,
+              "explanation": "Juxtaglomerular cells in the renal cortex secrete erythropoietin in response to tissue hypoxia.",
+              "difficulty": "Medium",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-028",
+              "question": "Podocytes are specialized epithelial cells found in the:",
+              "options": [
+                "Parietal layer of Bowman's capsule",
+                "Visceral layer of Bowman's capsule",
+                "Loop of Henle",
+                "Distal convoluted tubule"
+              ],
+              "answer": 1,
+              "explanation": "Podocytes wrap around glomerular capillaries with interdigitating foot processes, forming filtration slits.",
+              "difficulty": "Hard",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-029",
+              "question": "The counter-current multiplier system that concentrates medullary interstitium in the kidney operates between:",
+              "options": [
+                "Glomerulus and Bowman's capsule",
+                "Ascending and descending limbs of Henle's loop and Vasa Recta",
+                "PCT and DCT",
+                "Collecting duct and renal pelvis"
+              ],
+              "answer": 1,
+              "explanation": "Opposite flows in Henle's loop and capillary vasa recta maintain a hyperosmotic medullary gradient up to 1200 mOsm/L.",
+              "difficulty": "Hard",
+              "chapter": "Excretion",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-17",
+          "name": "Locomotion and Movement",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-biology-11-18",
+          "name": "Neural Control and Coordination",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-031",
+              "question": "Resting membrane potential of a neuron (-70 mV) is maintained actively by:",
+              "options": [
+                "Voltage-gated calcium channels",
+                "Na+/K+ ATPase pump (3 Na+ out for 2 K+ in)",
+                "Passive chloride influx",
+                "Potassium leak channels only"
+              ],
+              "answer": 1,
+              "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
+              "difficulty": "Medium",
+              "chapter": "Neural Control",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-11-19",
+          "name": "Chemical Coordination and Integration",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-030",
+              "question": "Which endocrine hormone acts to lower blood calcium concentration?",
+              "options": [
+                "Parathyroid hormone (PTH)",
+                "Calcitonin",
+                "Aldosterone",
+                "Thyroxine"
+              ],
+              "answer": 1,
+              "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
+              "difficulty": "Medium",
+              "chapter": "Chemical Coordination",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-12-1",
+          "name": "Sexual Reproduction in Flowering Plants",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-037",
+              "question": "Triple fusion in angiosperm double fertilization results in the formation of:",
+              "options": [
+                "Diploid Zygote",
+                "Triploid Primary Endosperm Nucleus (PEN)",
+                "Haploid Synergid",
+                "Antipodal cells"
+              ],
+              "answer": 1,
+              "explanation": "One sperm nucleus (n) fuses with the diploid central secondary nucleus (2n) to form the triploid endosperm (3n).",
+              "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-038",
+              "question": "Filiform apparatus is a specialized cellular thickening present in the:",
+              "options": [
+                "Antipodal cells",
+                "Egg cell",
+                "Synergids",
+                "Pollen tube wall"
+              ],
+              "answer": 2,
+              "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
+              "difficulty": "Medium",
+              "chapter": "Sexual Reproduction in Flowering Plants",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-12-2",
+          "name": "Human Reproduction",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-039",
+              "question": "Sertoli cells present in the seminiferous tubules function to:",
+              "options": [
+                "Secrete testosterone",
+                "Nourish and support developing spermatozoa",
+                "Produce luteinizing hormone",
+                "Synthesize semen fructose"
+              ],
+              "answer": 1,
+              "explanation": "Sertoli cells (sustentacular nurse cells) provide structural and metabolic support to developing germ cells and form the blood-testis barrier.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-040",
+              "question": "Ovulation in human females is directly triggered by a mid-cycle surge of:",
+              "options": [
+                "Progesterone",
+                "Estrogen",
+                "Luteinizing Hormone (LH)",
+                "Follicle Stimulating Hormone (FSH)"
+              ],
+              "answer": 2,
+              "explanation": "Positive feedback of elevated estrogen induces a massive LH surge around day 14, rupturing the Graafian follicle.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-041",
+              "question": "Corpus luteum secretes large amounts of which hormone essential for maintaining endometrium?",
+              "options": [
+                "Progesterone",
+                "Estrogen",
+                "Relaxin",
+                "Oxytocin"
+              ],
+              "answer": 0,
+              "explanation": "After ovulation, the collapsed follicle transforms into the corpus luteum, secreting high titers of progesterone.",
+              "difficulty": "Easy",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            },
+            {
+              "id": "NEET-BIO-042",
+              "question": "Human chorionic gonadotropin (hCG) is secreted by the:",
+              "options": [
+                "Corpus luteum",
+                "Syncytiotrophoblast of the placenta",
+                "Amnion",
+                "Anterior pituitary"
+              ],
+              "answer": 1,
+              "explanation": "Syncytiotrophoblastic cells of the developing blastocyst and placenta secrete hCG to rescue the corpus luteum.",
+              "difficulty": "Medium",
+              "chapter": "Human Reproduction",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-12-3",
+          "name": "Reproductive Health",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-BIO-043",
+              "question": "Which of the following is a non-medicated Intrauterine Device (IUD)?",
+              "options": [
+                "CuT",
+                "Multiload 375",
+                "Lippes loop",
+                "LNG-20"
+              ],
+              "answer": 2,
+              "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
+              "difficulty": "Medium",
+              "chapter": "Reproductive Health",
+              "subject": "Biology"
+            }
+          ]
+        },
+        {
+          "id": "neet-biology-12-4",
+          "name": "Principles of Inheritance and Variation",
           "classLevel": 12,
           "mcqs": [
             {
@@ -5119,7 +5564,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-botany-5",
+          "id": "neet-biology-12-5",
           "name": "Molecular Basis of Inheritance",
           "classLevel": 12,
           "mcqs": [
@@ -5201,474 +5646,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-botany-6",
-          "name": "Photosynthesis in Higher Plants",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-032",
-              "question": "The primary photochemical reaction center in Photosystem II (PS II) is:",
-              "options": [
-                "P700",
-                "P680",
-                "P840",
-                "Chlorophyll b"
-              ],
-              "answer": 1,
-              "explanation": "PS II has a reaction center absorption maximum at 680 nm (P680), whereas PS I has P700.",
-              "difficulty": "Easy",
-              "chapter": "Photosynthesis in Higher Plants",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-033",
-              "question": "Water splitting complex (oxygen-evolving complex) in photosynthesis is associated with:",
-              "options": [
-                "PS I on the outer stroma side",
-                "PS II on the inner thylakoid lumen side",
-                "Cytochrome b6f complex",
-                "ATP synthase CF0-CF1"
-              ],
-              "answer": 1,
-              "explanation": "The Mn-containing oxygen-evolving complex is located on the luminal face of the thylakoid membrane attached to PS II.",
-              "difficulty": "Hard",
-              "chapter": "Photosynthesis in Higher Plants",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-034",
-              "question": "Kranz anatomy is a characteristic anatomical adaptation observed in:",
-              "options": [
-                "C3 plants (e.g., Rice, Wheat)",
-                "C4 plants (e.g., Maize, Sugarcane)",
-                "CAM plants (e.g., Pineapple)",
-                "Gymnosperms"
-              ],
-              "answer": 1,
-              "explanation": "C4 plants exhibit Kranz anatomy with radially arranged bundle sheath cells packed with agranal chloroplasts surrounding vascular bundles.",
-              "difficulty": "Medium",
-              "chapter": "Photosynthesis in Higher Plants",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-035",
-              "question": "The primary CO2 fixing enzyme in C4 plants mesophyll cells is:",
-              "options": [
-                "RuBisCO",
-                "PEP carboxylase (PEPcase)",
-                "Carbonic anhydrase",
-                "Pyruvate kinase"
-              ],
-              "answer": 1,
-              "explanation": "Phosphoenolpyruvate carboxylase (PEPcase) fixes CO2 into oxaloacetate in mesophyll cells, avoiding photorespiration.",
-              "difficulty": "Medium",
-              "chapter": "Photosynthesis in Higher Plants",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-botany-7",
-          "name": "Plant Growth and Development",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-036",
-              "question": "Which plant growth regulator is termed the 'Stress Hormone' due to promoting stomatal closure during drought?",
-              "options": [
-                "Auxin (IAA)",
-                "Gibberellic acid (GA3)",
-                "Abscisic acid (ABA)",
-                "Cytokinin"
-              ],
-              "answer": 2,
-              "explanation": "Abscisic acid (ABA) surges under water deficit, triggering rapid efflux of K+ from guard cells and stomatal closure.",
-              "difficulty": "Easy",
-              "chapter": "Plant Growth and Development",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-botany-8",
-          "name": "Sexual Reproduction in Flowering Plants",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-037",
-              "question": "Triple fusion in angiosperm double fertilization results in the formation of:",
-              "options": [
-                "Diploid Zygote",
-                "Triploid Primary Endosperm Nucleus (PEN)",
-                "Haploid Synergid",
-                "Antipodal cells"
-              ],
-              "answer": 1,
-              "explanation": "One sperm nucleus (n) fuses with the diploid central secondary nucleus (2n) to form the triploid endosperm (3n).",
-              "difficulty": "Medium",
-              "chapter": "Sexual Reproduction in Flowering Plants",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-038",
-              "question": "Filiform apparatus is a specialized cellular thickening present in the:",
-              "options": [
-                "Antipodal cells",
-                "Egg cell",
-                "Synergids",
-                "Pollen tube wall"
-              ],
-              "answer": 2,
-              "explanation": "Finger-like projections at the micropylar tip of synergids guide the entering pollen tube into the embryo sac.",
-              "difficulty": "Medium",
-              "chapter": "Sexual Reproduction in Flowering Plants",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-botany-9",
-          "name": "Ecosystem",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-047",
-              "question": "According to Lindeman's 10 percent law, energy transferred between consecutive trophic levels is:",
-              "options": [
-                "1%",
-                "10%",
-                "50%",
-                "90%"
-              ],
-              "answer": 1,
-              "explanation": "Only about 10% of chemical energy stored as organic biomass at one trophic level is transferred to the next.",
-              "difficulty": "Easy",
-              "chapter": "Ecosystem",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-botany-10",
-          "name": "Environmental Issues",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-048",
-              "question": "The Montreal Protocol (1987) was signed to control the emission of:",
-              "options": [
-                "Greenhouse gases (CO2, CH4)",
-                "Ozone-depleting substances (Chlorofluorocarbons)",
-                "Heavy metals in effluents",
-                "Radioactive wastes"
-              ],
-              "answer": 1,
-              "explanation": "The international Montreal Protocol aims to protect the stratospheric ozone layer by phasing out CFCs and halons.",
-              "difficulty": "Easy",
-              "chapter": "Environmental Issues",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-049",
-              "question": "In an electrostatic precipitator, particulate matter is removed using:",
-              "options": [
-                "Centrifugal cyclone",
-                "Corona discharge producing electrons that charge dust particles",
-                "Lime scrubber",
-                "Activated charcoal filters"
-              ],
-              "answer": 1,
-              "explanation": "High voltage creates a corona discharge; electrons attach to dust particles, which are attracted to grounded collecting plates.",
-              "difficulty": "Medium",
-              "chapter": "Environmental Issues",
-              "subject": "Biology"
-            }
-          ]
-        }
-      ]
-    },
-    "zoology": {
-      "subject": "Zoology",
-      "exam": "NEET UG",
-      "icon": "🦋",
-      "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
-      "chapters": [
-        {
-          "id": "neet-zoology-1",
-          "name": "Circulation",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-022",
-              "question": "The cardiac pacemaker in the human heart that initiates action potentials is the:",
-              "options": [
-                "Atrioventricular (AV) node",
-                "Sinoatrial (SA) node",
-                "Bundle of His",
-                "Purkinje fibres"
-              ],
-              "answer": 1,
-              "explanation": "The SA node located in the right atrium generates spontaneous action potentials at 70-75 bpm.",
-              "difficulty": "Easy",
-              "chapter": "Circulation",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-023",
-              "question": "Which heart valves prevent the backflow of blood from ventricles into atria?",
-              "options": [
-                "Semilunar valves",
-                "Tricuspid and Bicuspid (mitral) valves",
-                "Eustachian valve",
-                "Thebesian valve"
-              ],
-              "answer": 1,
-              "explanation": "Tricuspid (right) and bicuspid/mitral (left) AV valves prevent backflow into atria during ventricular systole.",
-              "difficulty": "Easy",
-              "chapter": "Circulation",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-024",
-              "question": "The QRS complex on a standard Electrocardiogram (ECG) represents:",
-              "options": [
-                "Atrial depolarization",
-                "Ventricular depolarization",
-                "Ventricular repolarization",
-                "Atrial repolarization"
-              ],
-              "answer": 1,
-              "explanation": "The QRS complex corresponds to rapid ventricular depolarization, which triggers ventricular contraction.",
-              "difficulty": "Medium",
-              "chapter": "Circulation",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-2",
-          "name": "Respiration",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-025",
-              "question": "The volume of air inspired or expired during normal quiet breathing is called:",
-              "options": [
-                "Inspiratory Reserve Volume (IRV)",
-                "Tidal Volume (TV)",
-                "Vital Capacity (VC)",
-                "Residual Volume (RV)"
-              ],
-              "answer": 1,
-              "explanation": "Tidal Volume is approximately 500 mL in a healthy adult human.",
-              "difficulty": "Easy",
-              "chapter": "Respiration",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-026",
-              "question": "Oxygen-hemoglobin dissociation curve shifts to the right under which condition?",
-              "options": [
-                "Decreased pCO2",
-                "Increased pH",
-                "Increased temperature and increased pCO2 (Bohr effect)",
-                "Decreased 2,3-DPG"
-              ],
-              "answer": 2,
-              "explanation": "High pCO2, low pH (acidosis), high H+, and elevated temperature shift the curve rightward, facilitating O2 unloading to tissues.",
-              "difficulty": "Hard",
-              "chapter": "Respiration",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-3",
-          "name": "Excretion",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-027",
-              "question": "Erythropoietin, the hormone stimulating red blood cell production, is secreted primarily by:",
-              "options": [
-                "Bone marrow",
-                "Spleen",
-                "Juxtaglomerular cells of Kidney",
-                "Adrenal cortex"
-              ],
-              "answer": 2,
-              "explanation": "Juxtaglomerular cells in the renal cortex secrete erythropoietin in response to tissue hypoxia.",
-              "difficulty": "Medium",
-              "chapter": "Excretion",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-028",
-              "question": "Podocytes are specialized epithelial cells found in the:",
-              "options": [
-                "Parietal layer of Bowman's capsule",
-                "Visceral layer of Bowman's capsule",
-                "Loop of Henle",
-                "Distal convoluted tubule"
-              ],
-              "answer": 1,
-              "explanation": "Podocytes wrap around glomerular capillaries with interdigitating foot processes, forming filtration slits.",
-              "difficulty": "Hard",
-              "chapter": "Excretion",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-029",
-              "question": "The counter-current multiplier system that concentrates medullary interstitium in the kidney operates between:",
-              "options": [
-                "Glomerulus and Bowman's capsule",
-                "Ascending and descending limbs of Henle's loop and Vasa Recta",
-                "PCT and DCT",
-                "Collecting duct and renal pelvis"
-              ],
-              "answer": 1,
-              "explanation": "Opposite flows in Henle's loop and capillary vasa recta maintain a hyperosmotic medullary gradient up to 1200 mOsm/L.",
-              "difficulty": "Hard",
-              "chapter": "Excretion",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-4",
-          "name": "Chemical Coordination",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-030",
-              "question": "Which endocrine hormone acts to lower blood calcium concentration?",
-              "options": [
-                "Parathyroid hormone (PTH)",
-                "Calcitonin",
-                "Aldosterone",
-                "Thyroxine"
-              ],
-              "answer": 1,
-              "explanation": "Calcitonin secreted by thyroid parafollicular C-cells inhibits osteoclast activity and lowers blood calcium.",
-              "difficulty": "Medium",
-              "chapter": "Chemical Coordination",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-5",
-          "name": "Neural Control",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-031",
-              "question": "Resting membrane potential of a neuron (-70 mV) is maintained actively by:",
-              "options": [
-                "Voltage-gated calcium channels",
-                "Na+/K+ ATPase pump (3 Na+ out for 2 K+ in)",
-                "Passive chloride influx",
-                "Potassium leak channels only"
-              ],
-              "answer": 1,
-              "explanation": "The electrogenic Na+/K+ pump transports 3 Na+ ions out of the axon for every 2 K+ ions pumped in, using 1 ATP.",
-              "difficulty": "Medium",
-              "chapter": "Neural Control",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-6",
-          "name": "Human Reproduction",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-039",
-              "question": "Sertoli cells present in the seminiferous tubules function to:",
-              "options": [
-                "Secrete testosterone",
-                "Nourish and support developing spermatozoa",
-                "Produce luteinizing hormone",
-                "Synthesize semen fructose"
-              ],
-              "answer": 1,
-              "explanation": "Sertoli cells (sustentacular nurse cells) provide structural and metabolic support to developing germ cells and form the blood-testis barrier.",
-              "difficulty": "Easy",
-              "chapter": "Human Reproduction",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-040",
-              "question": "Ovulation in human females is directly triggered by a mid-cycle surge of:",
-              "options": [
-                "Progesterone",
-                "Estrogen",
-                "Luteinizing Hormone (LH)",
-                "Follicle Stimulating Hormone (FSH)"
-              ],
-              "answer": 2,
-              "explanation": "Positive feedback of elevated estrogen induces a massive LH surge around day 14, rupturing the Graafian follicle.",
-              "difficulty": "Easy",
-              "chapter": "Human Reproduction",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-041",
-              "question": "Corpus luteum secretes large amounts of which hormone essential for maintaining endometrium?",
-              "options": [
-                "Progesterone",
-                "Estrogen",
-                "Relaxin",
-                "Oxytocin"
-              ],
-              "answer": 0,
-              "explanation": "After ovulation, the collapsed follicle transforms into the corpus luteum, secreting high titers of progesterone.",
-              "difficulty": "Easy",
-              "chapter": "Human Reproduction",
-              "subject": "Biology"
-            },
-            {
-              "id": "NEET-BIO-042",
-              "question": "Human chorionic gonadotropin (hCG) is secreted by the:",
-              "options": [
-                "Corpus luteum",
-                "Syncytiotrophoblast of the placenta",
-                "Amnion",
-                "Anterior pituitary"
-              ],
-              "answer": 1,
-              "explanation": "Syncytiotrophoblastic cells of the developing blastocyst and placenta secrete hCG to rescue the corpus luteum.",
-              "difficulty": "Medium",
-              "chapter": "Human Reproduction",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-7",
-          "name": "Reproductive Health",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-BIO-043",
-              "question": "Which of the following is a non-medicated Intrauterine Device (IUD)?",
-              "options": [
-                "CuT",
-                "Multiload 375",
-                "Lippes loop",
-                "LNG-20"
-              ],
-              "answer": 2,
-              "explanation": "Lippes loop is a double-S shaped polyethylene non-medicated IUD that attracts macrophages to phagocytose sperm.",
-              "difficulty": "Medium",
-              "chapter": "Reproductive Health",
-              "subject": "Biology"
-            }
-          ]
-        },
-        {
-          "id": "neet-zoology-8",
+          "id": "neet-biology-12-6",
           "name": "Evolution",
           "classLevel": 12,
           "mcqs": [
@@ -5718,556 +5696,100 @@ window.SCRUTINY_DATA = {
               "subject": "Biology"
             }
           ]
-        }
-      ]
-    },
-    "physics": {
-      "subject": "Physics",
-      "exam": "NEET UG",
-      "icon": "⚛️",
-      "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
-      "chapters": [
-        {
-          "id": "neet-physics-1",
-          "name": "Kinematics",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-001",
-              "question": "A particle moves along a straight line such that its displacement x at time t is x = 3t^2 - 6t + 4. The velocity at t = 2 s is:",
-              "options": [
-                "6 m/s",
-                "12 m/s",
-                "0 m/s",
-                "18 m/s"
-              ],
-              "answer": 0,
-              "explanation": "v = dx/dt = d(3t^2 - 6t + 4)/dt = 6t - 6. At t = 2: v = 6(2) - 6 = 6 m/s.",
-              "difficulty": "Easy",
-              "chapter": "Kinematics",
-              "subject": "Physics"
-            }
-          ]
         },
         {
-          "id": "neet-physics-2",
-          "name": "Motion in a Plane",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-002",
-              "question": "A projectile is fired at an angle of 30 deg to the horizontal with velocity 40 m/s. Its maximum height reached is (take g = 10 m/s^2):",
-              "options": [
-                "20 m",
-                "40 m",
-                "80 m",
-                "10 m"
-              ],
-              "answer": 0,
-              "explanation": "H_max = (u^2 * sin^2(theta)) / (2g) = (40^2 * sin^2(30)) / (20) = (1600 * 0.25) / 20 = 400 / 20 = 20 m.",
-              "difficulty": "Medium",
-              "chapter": "Motion in a Plane",
-              "subject": "Physics"
-            }
-          ]
+          "id": "neet-biology-12-7",
+          "name": "Human Health and Disease",
+          "classLevel": 12,
+          "mcqs": []
         },
         {
-          "id": "neet-physics-3",
-          "name": "Laws of Motion",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-003",
-              "question": "A block of mass 5 kg rests on a rough horizontal surface (coefficient of static friction mu_s = 0.4). The minimum horizontal force required to just start moving the block is (g = 10 m/s^2):",
-              "options": [
-                "10 N",
-                "20 N",
-                "50 N",
-                "2 N"
-              ],
-              "answer": 1,
-              "explanation": "F_limiting = mu_s * N = mu_s * m * g = 0.4 * 5 * 10 = 20 N.",
-              "difficulty": "Easy",
-              "chapter": "Laws of Motion",
-              "subject": "Physics"
-            }
-          ]
+          "id": "neet-biology-12-8",
+          "name": "Microbes in Human Welfare",
+          "classLevel": 12,
+          "mcqs": []
         },
         {
-          "id": "neet-physics-4",
-          "name": "Work, Energy and Power",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-004",
-              "question": "A body of mass 2 kg moving at 10 m/s collides head-on with a stationary body of mass 3 kg. If the collision is perfectly inelastic, their common final velocity is:",
-              "options": [
-                "4 m/s",
-                "2 m/s",
-                "5 m/s",
-                "6 m/s"
-              ],
-              "answer": 0,
-              "explanation": "By conservation of linear momentum: m1*u1 + m2*u2 = (m1 + m2)*v => 2(10) + 3(0) = (2 + 3)*v => 20 = 5v => v = 4 m/s.",
-              "difficulty": "Medium",
-              "chapter": "Work, Energy and Power",
-              "subject": "Physics"
-            }
-          ]
+          "id": "neet-biology-12-9",
+          "name": "Biotechnology: Principles and Processes",
+          "classLevel": 12,
+          "mcqs": []
         },
         {
-          "id": "neet-physics-5",
-          "name": "Rotational Motion",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-005",
-              "question": "The moment of inertia of a uniform solid cylinder of mass M and radius R about its longitudinal axis is:",
-              "options": [
-                "M * R^2",
-                "(1/2) * M * R^2",
-                "(2/5) * M * R^2",
-                "(1/4) * M * R^2"
-              ],
-              "answer": 1,
-              "explanation": "Solid cylinder about axis of symmetry: I = 1/2 M R^2 (identical to a solid disk).",
-              "difficulty": "Easy",
-              "chapter": "Rotational Motion",
-              "subject": "Physics"
-            }
-          ]
+          "id": "neet-biology-12-10",
+          "name": "Biotechnology and its Applications",
+          "classLevel": 12,
+          "mcqs": []
         },
         {
-          "id": "neet-physics-6",
-          "name": "Gravitation",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-006",
-              "question": "The escape velocity from the surface of the Earth is 11.2 km/s. If a planet has twice the mass and half the radius of Earth, its escape velocity will be:",
-              "options": [
-                "11.2 km/s",
-                "22.4 km/s",
-                "5.6 km/s",
-                "44.8 km/s"
-              ],
-              "answer": 1,
-              "explanation": "v_e = sqrt(2GM/R). For M' = 2M and R' = R/2: v_e' = sqrt(2G(2M)/(R/2)) = sqrt(4 * 2GM/R) = 2 * v_e = 2 * 11.2 = 22.4 km/s.",
-              "difficulty": "Medium",
-              "chapter": "Gravitation",
-              "subject": "Physics"
-            },
-            {
-              "id": "NEET-PHY-007",
-              "question": "At what depth below Earth's surface does the acceleration due to gravity become g/4? (R = radius of Earth)",
-              "options": [
-                "R / 4",
-                "R / 2",
-                "3R / 4",
-                "R / 8"
-              ],
-              "answer": 2,
-              "explanation": "g' = g(1 - d/R) => g/4 = g(1 - d/R) => 1 - d/R = 1/4 => d/R = 3/4 => d = 3R/4.",
-              "difficulty": "Medium",
-              "chapter": "Gravitation",
-              "subject": "Physics"
-            }
-          ]
+          "id": "neet-biology-12-11",
+          "name": "Organisms and Populations",
+          "classLevel": 12,
+          "mcqs": []
         },
         {
-          "id": "neet-physics-7",
-          "name": "Mechanical Properties of Fluids",
-          "classLevel": 11,
+          "id": "neet-biology-12-12",
+          "name": "Ecosystem",
+          "classLevel": 12,
           "mcqs": [
             {
-              "id": "NEET-PHY-008",
-              "question": "Water rises to a height h in a capillary tube of radius r. If the tube radius is halved, the water will rise to height:",
+              "id": "NEET-BIO-047",
+              "question": "According to Lindeman's 10 percent law, energy transferred between consecutive trophic levels is:",
               "options": [
-                "h / 2",
-                "2h",
-                "4h",
-                "h"
-              ],
-              "answer": 1,
-              "explanation": "Jurin's law: h = (2 T cos(theta)) / (r rho g). Height is inversely proportional to radius (h * r = constant). Halving radius doubles height to 2h.",
-              "difficulty": "Easy",
-              "chapter": "Mechanical Properties of Fluids",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-8",
-          "name": "Thermodynamics",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-009",
-              "question": "An ideal heat engine works between temperatures 600 K and 300 K. Its Carnot efficiency is:",
-              "options": [
-                "25%",
+                "1%",
+                "10%",
                 "50%",
-                "75%",
-                "100%"
+                "90%"
               ],
               "answer": 1,
-              "explanation": "Carnot efficiency eta = 1 - T_cold / T_hot = 1 - 300/600 = 1 - 0.5 = 0.5 or 50%.",
+              "explanation": "Only about 10% of chemical energy stored as organic biomass at one trophic level is transferred to the next.",
               "difficulty": "Easy",
-              "chapter": "Thermodynamics",
-              "subject": "Physics"
+              "chapter": "Ecosystem",
+              "subject": "Biology"
             }
           ]
         },
         {
-          "id": "neet-physics-9",
-          "name": "Kinetic Theory",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-010",
-              "question": "The root-mean-square (RMS) speed of gas molecules of mass m at absolute temperature T is given by:",
-              "options": [
-                "sqrt(3kT / m)",
-                "sqrt(2kT / m)",
-                "sqrt(8kT / (pi*m))",
-                "3kT / 2m"
-              ],
-              "answer": 0,
-              "explanation": "v_rms = sqrt(3 k T / m) = sqrt(3 R T / M).",
-              "difficulty": "Easy",
-              "chapter": "Kinetic Theory",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-10",
-          "name": "Oscillations",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-011",
-              "question": "The time period of a simple pendulum on Earth is T. If it is taken inside an elevator moving downwards with acceleration a = g/2, its new time period will be:",
-              "options": [
-                "T * sqrt(2)",
-                "T / sqrt(2)",
-                "2T",
-                "T / 2"
-              ],
-              "answer": 0,
-              "explanation": "g_eff = g - a = g - g/2 = g/2. T' = 2*pi*sqrt(L / g_eff) = 2*pi*sqrt(2L/g) = T * sqrt(2).",
-              "difficulty": "Hard",
-              "chapter": "Oscillations",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-11",
-          "name": "Waves",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-012",
-              "question": "In a stationary sound wave in an organ pipe, the distance between two successive displacement nodes is:",
-              "options": [
-                "lambda",
-                "lambda / 2",
-                "lambda / 4",
-                "2 * lambda"
-              ],
-              "answer": 1,
-              "explanation": "The distance between consecutive nodes (or consecutive antinodes) is always lambda / 2.",
-              "difficulty": "Easy",
-              "chapter": "Waves",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-12",
-          "name": "Electrostatics",
+          "id": "neet-biology-12-13",
+          "name": "Biodiversity and Conservation",
           "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-013",
-              "question": "Two point charges +4 microcoulombs and +1 microcoulomb are placed 30 cm apart in vacuum. At what distance from the +1 microcoulomb charge is net electric field zero?",
-              "options": [
-                "10 cm",
-                "20 cm",
-                "15 cm",
-                "5 cm"
-              ],
-              "answer": 0,
-              "explanation": "Let distance from +1 muC be x, then distance from +4 muC is 30 - x. E1 = E2 => k(1)/x^2 = k(4)/(30 - x)^2 => 1/x = 2/(30 - x) => 30 - x = 2x => 3x = 30 => x = 10 cm.",
-              "difficulty": "Medium",
-              "chapter": "Electrostatics",
-              "subject": "Physics"
-            }
-          ]
+          "mcqs": []
         },
         {
-          "id": "neet-physics-13",
-          "name": "Current Electricity",
+          "id": "neet-biology-legacy-33",
+          "name": "Environmental Issues",
           "classLevel": 12,
+          "legacy": true,
           "mcqs": [
             {
-              "id": "NEET-PHY-014",
-              "question": "The capacitance of a parallel plate capacitor with plate area A and separation d filled with dielectric constant K is:",
+              "id": "NEET-BIO-048",
+              "question": "The Montreal Protocol (1987) was signed to control the emission of:",
               "options": [
-                "epsilon_0 * A / d",
-                "K * epsilon_0 * A / d",
-                "K * d / (epsilon_0 * A)",
-                "epsilon_0 * A / (K * d)"
+                "Greenhouse gases (CO2, CH4)",
+                "Ozone-depleting substances (Chlorofluorocarbons)",
+                "Heavy metals in effluents",
+                "Radioactive wastes"
               ],
               "answer": 1,
-              "explanation": "Inserting a dielectric of relative permittivity K increases the capacitance K-fold: C = K * epsilon_0 * A / d.",
+              "explanation": "The international Montreal Protocol aims to protect the stratospheric ozone layer by phasing out CFCs and halons.",
               "difficulty": "Easy",
-              "chapter": "Current Electricity",
-              "subject": "Physics"
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
             },
             {
-              "id": "NEET-PHY-015",
-              "question": "A wire of resistance R is stretched uniformly such that its length doubles. Its new resistance becomes:",
+              "id": "NEET-BIO-049",
+              "question": "In an electrostatic precipitator, particulate matter is removed using:",
               "options": [
-                "2R",
-                "4R",
-                "R / 2",
-                "R / 4"
+                "Centrifugal cyclone",
+                "Corona discharge producing electrons that charge dust particles",
+                "Lime scrubber",
+                "Activated charcoal filters"
               ],
               "answer": 1,
-              "explanation": "Since volume remains constant, doubling length (l' = 2l) causes area to halve (A' = A/2). Resistance R' = rho * l' / A' = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R.",
+              "explanation": "High voltage creates a corona discharge; electrons attach to dust particles, which are attracted to grounded collecting plates.",
               "difficulty": "Medium",
-              "chapter": "Current Electricity",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-14",
-          "name": "Moving Charges and Magnetism",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-016",
-              "question": "A proton and an alpha particle enter perpendicular to a uniform magnetic field with the same kinetic energy. The ratio of radii of their circular paths (r_p : r_alpha) is:",
-              "options": [
-                "1 : 1",
-                "1 : 2",
-                "2 : 1",
-                "1 : 4"
-              ],
-              "answer": 0,
-              "explanation": "r = mv / (qB) = sqrt(2 m K) / (qB). Ratio r_p / r_alpha = (sqrt(m_p) / q_p) / (sqrt(m_alpha) / q_alpha). Since m_alpha = 4m_p and q_alpha = 2q_p: (sqrt(1)/1) / (sqrt(4)/2) = 1 / (2/2) = 1:1.",
-              "difficulty": "Hard",
-              "chapter": "Moving Charges and Magnetism",
-              "subject": "Physics"
-            },
-            {
-              "id": "NEET-PHY-017",
-              "question": "A circular coil of 100 turns and radius 10 cm carries a current of 1 A. The magnetic field at its center is (mu_0 = 4*pi*10^-7 T*m/A):",
-              "options": [
-                "6.28 x 10^-4 T",
-                "3.14 x 10^-4 T",
-                "1.25 x 10^-3 T",
-                "6.28 x 10^-5 T"
-              ],
-              "answer": 0,
-              "explanation": "B = (mu_0 * N * I) / (2R) = (4 * pi * 10^-7 * 100 * 1) / (2 * 0.1) = (4 * pi * 10^-5) / 0.2 = 2 * pi * 10^-4 = 6.28 x 10^-4 Tesla.",
-              "difficulty": "Medium",
-              "chapter": "Moving Charges and Magnetism",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-15",
-          "name": "Electromagnetic Induction",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-018",
-              "question": "Lenz's Law of electromagnetic induction is a direct consequence of the conservation of:",
-              "options": [
-                "Electric charge",
-                "Linear momentum",
-                "Energy",
-                "Angular momentum"
-              ],
-              "answer": 2,
-              "explanation": "Lenz's law (induced current opposes the change that produces it) obeys the Law of Conservation of Energy.",
-              "difficulty": "Easy",
-              "chapter": "Electromagnetic Induction",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-16",
-          "name": "Alternating Current",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-019",
-              "question": "In a series LCR alternating current circuit at resonance, the power factor is:",
-              "options": [
-                "0",
-                "0.5",
-                "1",
-                "-1"
-              ],
-              "answer": 2,
-              "explanation": "At resonance, inductive reactance equals capacitive reactance (X_L = X_C), making the impedance purely resistive (Z = R) and phase angle phi = 0; power factor cos(phi) = cos(0) = 1.",
-              "difficulty": "Easy",
-              "chapter": "Alternating Current",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-17",
-          "name": "Electromagnetic Waves",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-020",
-              "question": "Which of the following electromagnetic waves has the highest frequency and shortest wavelength?",
-              "options": [
-                "Radio waves",
-                "Microwaves",
-                "Ultraviolet rays",
-                "Gamma rays"
-              ],
-              "answer": 3,
-              "explanation": "Gamma rays occupy the highest frequency (> 10^19 Hz) and shortest wavelength (< 10^-12 m) band of the EM spectrum.",
-              "difficulty": "Easy",
-              "chapter": "Electromagnetic Waves",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-18",
-          "name": "Wave Optics",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-021",
-              "question": "In Young's double slit experiment, if the distance between slits is doubled and distance to screen is halved, the fringe width beta will:",
-              "options": [
-                "Become 4 times",
-                "Become 1/4th",
-                "Remain unchanged",
-                "Double"
-              ],
-              "answer": 1,
-              "explanation": "Fringe width beta = (lambda * D) / d. For D' = D/2 and d' = 2d: beta' = lambda*(D/2)/(2d) = beta / 4.",
-              "difficulty": "Medium",
-              "chapter": "Wave Optics",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-19",
-          "name": "Dual Nature of Radiation and Matter",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-022",
-              "question": "In photoelectric effect, the maximum kinetic energy of emitted photoelectrons depends on:",
-              "options": [
-                "Intensity of incident light",
-                "Frequency of incident light",
-                "Distance from light source",
-                "Surface area of cathode"
-              ],
-              "answer": 1,
-              "explanation": "According to Einstein's photoelectric equation (KE_max = h*nu - Phi), KE_max depends solely on incident photon frequency and work function.",
-              "difficulty": "Easy",
-              "chapter": "Dual Nature of Radiation and Matter",
-              "subject": "Physics"
-            },
-            {
-              "id": "NEET-PHY-023",
-              "question": "The de Broglie wavelength associated with an electron accelerated through potential difference V volts is given by:",
-              "options": [
-                "lambda = 12.27 / sqrt(V) Angstroms",
-                "lambda = 1.227 / sqrt(V) Angstroms",
-                "lambda = 0.1227 / V Angstroms",
-                "lambda = sqrt(V) / 12.27 Angstroms"
-              ],
-              "answer": 0,
-              "explanation": "lambda = h / sqrt(2 m e V) = 1.227 nm / sqrt(V) = 12.27 / sqrt(V) Angstroms.",
-              "difficulty": "Medium",
-              "chapter": "Dual Nature of Radiation and Matter",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-20",
-          "name": "Atoms",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-024",
-              "question": "According to Bohr's atomic model, the radius of the nth orbit of hydrogen atom is proportional to:",
-              "options": [
-                "n",
-                "n^2",
-                "1 / n",
-                "n^3"
-              ],
-              "answer": 1,
-              "explanation": "Bohr radius r_n = 0.529 * (n^2 / Z) Angstroms; for hydrogen Z = 1, so r_n is directly proportional to n^2.",
-              "difficulty": "Easy",
-              "chapter": "Atoms",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-21",
-          "name": "Nuclei",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-025",
-              "question": "A radioactive isotope has a half-life of 10 days. What fraction of the initial sample remains undecayed after 40 days?",
-              "options": [
-                "1 / 4",
-                "1 / 8",
-                "1 / 16",
-                "1 / 32"
-              ],
-              "answer": 2,
-              "explanation": "Number of half-lives n = 40 / 10 = 4. Remaining fraction = (1/2)^n = (1/2)^4 = 1 / 16.",
-              "difficulty": "Easy",
-              "chapter": "Nuclei",
-              "subject": "Physics"
-            }
-          ]
-        },
-        {
-          "id": "neet-physics-22",
-          "name": "Semiconductor Electronics",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-PHY-026",
-              "question": "In a p-n junction diode under forward bias, the width of the depletion layer:",
-              "options": [
-                "Increases",
-                "Decreases",
-                "Remains constant",
-                "First increases then decreases"
-              ],
-              "answer": 1,
-              "explanation": "Forward bias opposes the built-in potential barrier, pushing majority carriers across and narrowing the depletion region.",
-              "difficulty": "Easy",
-              "chapter": "Semiconductor Electronics",
-              "subject": "Physics"
+              "chapter": "Environmental Issues",
+              "subject": "Biology"
             }
           ]
         }
@@ -6277,10 +5799,10 @@ window.SCRUTINY_DATA = {
       "subject": "Chemistry",
       "exam": "NEET UG",
       "icon": "⚗️",
-      "description": "Existing practice bank, organized by NCERT class and chapter. Syllabus coverage and answer review are not complete.",
+      "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
       "chapters": [
         {
-          "id": "neet-chemistry-1",
+          "id": "neet-chemistry-11-1",
           "name": "Some Basic Concepts of Chemistry",
           "classLevel": 11,
           "mcqs": [
@@ -6302,7 +5824,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-2",
+          "id": "neet-chemistry-11-2",
           "name": "Structure of Atom",
           "classLevel": 11,
           "mcqs": [
@@ -6324,7 +5846,29 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-3",
+          "id": "neet-chemistry-11-3",
+          "name": "Classification of Elements and Periodicity in Properties",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-CHEM-010",
+              "question": "Which of the following elements has the highest first ionization enthalpy?",
+              "options": [
+                "Boron",
+                "Carbon",
+                "Nitrogen",
+                "Oxygen"
+              ],
+              "answer": 2,
+              "explanation": "Nitrogen has a stable, half-filled 2p subshell (1s2 2s2 2p3), requiring significantly greater energy to remove an electron than oxygen (2p4).",
+              "difficulty": "Medium",
+              "chapter": "Periodic Classification",
+              "subject": "Chemistry"
+            }
+          ]
+        },
+        {
+          "id": "neet-chemistry-11-4",
           "name": "Chemical Bonding and Molecular Structure",
           "classLevel": 11,
           "mcqs": [
@@ -6361,7 +5905,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-4",
+          "id": "neet-chemistry-11-5",
           "name": "Thermodynamics",
           "classLevel": 11,
           "mcqs": [
@@ -6398,7 +5942,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-5",
+          "id": "neet-chemistry-11-6",
           "name": "Equilibrium",
           "classLevel": 11,
           "mcqs": [
@@ -6435,7 +5979,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-6",
+          "id": "neet-chemistry-11-7",
           "name": "Redox Reactions",
           "classLevel": 11,
           "mcqs": [
@@ -6457,52 +6001,8 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-7",
-          "name": "Periodic Classification",
-          "classLevel": 11,
-          "mcqs": [
-            {
-              "id": "NEET-CHEM-010",
-              "question": "Which of the following elements has the highest first ionization enthalpy?",
-              "options": [
-                "Boron",
-                "Carbon",
-                "Nitrogen",
-                "Oxygen"
-              ],
-              "answer": 2,
-              "explanation": "Nitrogen has a stable, half-filled 2p subshell (1s2 2s2 2p3), requiring significantly greater energy to remove an electron than oxygen (2p4).",
-              "difficulty": "Medium",
-              "chapter": "Periodic Classification",
-              "subject": "Chemistry"
-            }
-          ]
-        },
-        {
-          "id": "neet-chemistry-8",
-          "name": "d- and f-Block Elements",
-          "classLevel": 12,
-          "mcqs": [
-            {
-              "id": "NEET-CHEM-011",
-              "question": "Which transition metal ion is diamagnetic in nature?",
-              "options": [
-                "Fe2+ (d6)",
-                "Cu2+ (d9)",
-                "Zn2+ (d10)",
-                "Mn2+ (d5)"
-              ],
-              "answer": 2,
-              "explanation": "Zn2+ has a fully filled d10 electronic configuration with zero unpaired electrons, making it diamagnetic.",
-              "difficulty": "Easy",
-              "chapter": "d- and f-Block Elements",
-              "subject": "Chemistry"
-            }
-          ]
-        },
-        {
-          "id": "neet-chemistry-9",
-          "name": "Organic Chemistry - Nomenclature",
+          "id": "neet-chemistry-11-8",
+          "name": "Organic Chemistry - Some Basic Principles and Techniques",
           "classLevel": 11,
           "mcqs": [
             {
@@ -6523,7 +6023,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-10",
+          "id": "neet-chemistry-11-9",
           "name": "Hydrocarbons",
           "classLevel": 11,
           "mcqs": [
@@ -6560,7 +6060,65 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-11",
+          "id": "neet-chemistry-12-1",
+          "name": "Solutions",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-2",
+          "name": "Electrochemistry",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-3",
+          "name": "Chemical Kinetics",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-4",
+          "name": "The d- and f-Block Elements",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-CHEM-011",
+              "question": "Which transition metal ion is diamagnetic in nature?",
+              "options": [
+                "Fe2+ (d6)",
+                "Cu2+ (d9)",
+                "Zn2+ (d10)",
+                "Mn2+ (d5)"
+              ],
+              "answer": 2,
+              "explanation": "Zn2+ has a fully filled d10 electronic configuration with zero unpaired electrons, making it diamagnetic.",
+              "difficulty": "Easy",
+              "chapter": "d- and f-Block Elements",
+              "subject": "Chemistry"
+            }
+          ]
+        },
+        {
+          "id": "neet-chemistry-12-5",
+          "name": "Coordination Compounds",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-6",
+          "name": "Haloalkanes and Haloarenes",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-7",
+          "name": "Alcohols, Phenols and Ethers",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-chemistry-12-8",
           "name": "Aldehydes, Ketones and Carboxylic Acids",
           "classLevel": 12,
           "mcqs": [
@@ -6597,7 +6155,7 @@ window.SCRUTINY_DATA = {
           ]
         },
         {
-          "id": "neet-chemistry-12",
+          "id": "neet-chemistry-12-9",
           "name": "Amines",
           "classLevel": 12,
           "mcqs": [
@@ -6615,6 +6173,600 @@ window.SCRUTINY_DATA = {
               "difficulty": "Easy",
               "chapter": "Amines",
               "subject": "Chemistry"
+            }
+          ]
+        },
+        {
+          "id": "neet-chemistry-12-10",
+          "name": "Biomolecules",
+          "classLevel": 12,
+          "mcqs": []
+        }
+      ]
+    },
+    "physics": {
+      "subject": "Physics",
+      "exam": "NEET UG",
+      "icon": "⚛️",
+      "description": "NCERT chapter navigation for NEET UG study. Questions are available only in populated chapters; confirm exam-year coverage against the official NEET syllabus.",
+      "chapters": [
+        {
+          "id": "neet-physics-11-1",
+          "name": "Units and Measurements",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-11-2",
+          "name": "Motion in a Straight Line",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-001",
+              "question": "A particle moves along a straight line such that its displacement x at time t is x = 3t^2 - 6t + 4. The velocity at t = 2 s is:",
+              "options": [
+                "6 m/s",
+                "12 m/s",
+                "0 m/s",
+                "18 m/s"
+              ],
+              "answer": 0,
+              "explanation": "v = dx/dt = d(3t^2 - 6t + 4)/dt = 6t - 6. At t = 2: v = 6(2) - 6 = 6 m/s.",
+              "difficulty": "Easy",
+              "chapter": "Kinematics",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-3",
+          "name": "Motion in a Plane",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-002",
+              "question": "A projectile is fired at an angle of 30 deg to the horizontal with velocity 40 m/s. Its maximum height reached is (take g = 10 m/s^2):",
+              "options": [
+                "20 m",
+                "40 m",
+                "80 m",
+                "10 m"
+              ],
+              "answer": 0,
+              "explanation": "H_max = (u^2 * sin^2(theta)) / (2g) = (40^2 * sin^2(30)) / (20) = (1600 * 0.25) / 20 = 400 / 20 = 20 m.",
+              "difficulty": "Medium",
+              "chapter": "Motion in a Plane",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-4",
+          "name": "Laws of Motion",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-003",
+              "question": "A block of mass 5 kg rests on a rough horizontal surface (coefficient of static friction mu_s = 0.4). The minimum horizontal force required to just start moving the block is (g = 10 m/s^2):",
+              "options": [
+                "10 N",
+                "20 N",
+                "50 N",
+                "2 N"
+              ],
+              "answer": 1,
+              "explanation": "F_limiting = mu_s * N = mu_s * m * g = 0.4 * 5 * 10 = 20 N.",
+              "difficulty": "Easy",
+              "chapter": "Laws of Motion",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-5",
+          "name": "Work, Energy and Power",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-004",
+              "question": "A body of mass 2 kg moving at 10 m/s collides head-on with a stationary body of mass 3 kg. If the collision is perfectly inelastic, their common final velocity is:",
+              "options": [
+                "4 m/s",
+                "2 m/s",
+                "5 m/s",
+                "6 m/s"
+              ],
+              "answer": 0,
+              "explanation": "By conservation of linear momentum: m1*u1 + m2*u2 = (m1 + m2)*v => 2(10) + 3(0) = (2 + 3)*v => 20 = 5v => v = 4 m/s.",
+              "difficulty": "Medium",
+              "chapter": "Work, Energy and Power",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-6",
+          "name": "System of Particles and Rotational Motion",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-005",
+              "question": "The moment of inertia of a uniform solid cylinder of mass M and radius R about its longitudinal axis is:",
+              "options": [
+                "M * R^2",
+                "(1/2) * M * R^2",
+                "(2/5) * M * R^2",
+                "(1/4) * M * R^2"
+              ],
+              "answer": 1,
+              "explanation": "Solid cylinder about axis of symmetry: I = 1/2 M R^2 (identical to a solid disk).",
+              "difficulty": "Easy",
+              "chapter": "Rotational Motion",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-7",
+          "name": "Gravitation",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-006",
+              "question": "The escape velocity from the surface of the Earth is 11.2 km/s. If a planet has twice the mass and half the radius of Earth, its escape velocity will be:",
+              "options": [
+                "11.2 km/s",
+                "22.4 km/s",
+                "5.6 km/s",
+                "44.8 km/s"
+              ],
+              "answer": 1,
+              "explanation": "v_e = sqrt(2GM/R). For M' = 2M and R' = R/2: v_e' = sqrt(2G(2M)/(R/2)) = sqrt(4 * 2GM/R) = 2 * v_e = 2 * 11.2 = 22.4 km/s.",
+              "difficulty": "Medium",
+              "chapter": "Gravitation",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-007",
+              "question": "At what depth below Earth's surface does the acceleration due to gravity become g/4? (R = radius of Earth)",
+              "options": [
+                "R / 4",
+                "R / 2",
+                "3R / 4",
+                "R / 8"
+              ],
+              "answer": 2,
+              "explanation": "g' = g(1 - d/R) => g/4 = g(1 - d/R) => 1 - d/R = 1/4 => d/R = 3/4 => d = 3R/4.",
+              "difficulty": "Medium",
+              "chapter": "Gravitation",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-8",
+          "name": "Mechanical Properties of Solids",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-11-9",
+          "name": "Mechanical Properties of Fluids",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-008",
+              "question": "Water rises to a height h in a capillary tube of radius r. If the tube radius is halved, the water will rise to height:",
+              "options": [
+                "h / 2",
+                "2h",
+                "4h",
+                "h"
+              ],
+              "answer": 1,
+              "explanation": "Jurin's law: h = (2 T cos(theta)) / (r rho g). Height is inversely proportional to radius (h * r = constant). Halving radius doubles height to 2h.",
+              "difficulty": "Easy",
+              "chapter": "Mechanical Properties of Fluids",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-10",
+          "name": "Thermal Properties of Matter",
+          "classLevel": 11,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-11-11",
+          "name": "Thermodynamics",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-009",
+              "question": "An ideal heat engine works between temperatures 600 K and 300 K. Its Carnot efficiency is:",
+              "options": [
+                "25%",
+                "50%",
+                "75%",
+                "100%"
+              ],
+              "answer": 1,
+              "explanation": "Carnot efficiency eta = 1 - T_cold / T_hot = 1 - 300/600 = 1 - 0.5 = 0.5 or 50%.",
+              "difficulty": "Easy",
+              "chapter": "Thermodynamics",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-12",
+          "name": "Kinetic Theory",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-010",
+              "question": "The root-mean-square (RMS) speed of gas molecules of mass m at absolute temperature T is given by:",
+              "options": [
+                "sqrt(3kT / m)",
+                "sqrt(2kT / m)",
+                "sqrt(8kT / (pi*m))",
+                "3kT / 2m"
+              ],
+              "answer": 0,
+              "explanation": "v_rms = sqrt(3 k T / m) = sqrt(3 R T / M).",
+              "difficulty": "Easy",
+              "chapter": "Kinetic Theory",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-13",
+          "name": "Oscillations",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-011",
+              "question": "The time period of a simple pendulum on Earth is T. If it is taken inside an elevator moving downwards with acceleration a = g/2, its new time period will be:",
+              "options": [
+                "T * sqrt(2)",
+                "T / sqrt(2)",
+                "2T",
+                "T / 2"
+              ],
+              "answer": 0,
+              "explanation": "g_eff = g - a = g - g/2 = g/2. T' = 2*pi*sqrt(L / g_eff) = 2*pi*sqrt(2L/g) = T * sqrt(2).",
+              "difficulty": "Hard",
+              "chapter": "Oscillations",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-11-14",
+          "name": "Waves",
+          "classLevel": 11,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-012",
+              "question": "In a stationary sound wave in an organ pipe, the distance between two successive displacement nodes is:",
+              "options": [
+                "lambda",
+                "lambda / 2",
+                "lambda / 4",
+                "2 * lambda"
+              ],
+              "answer": 1,
+              "explanation": "The distance between consecutive nodes (or consecutive antinodes) is always lambda / 2.",
+              "difficulty": "Easy",
+              "chapter": "Waves",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-1",
+          "name": "Electric Charges and Fields",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-013",
+              "question": "Two point charges +4 microcoulombs and +1 microcoulomb are placed 30 cm apart in vacuum. At what distance from the +1 microcoulomb charge is net electric field zero?",
+              "options": [
+                "10 cm",
+                "20 cm",
+                "15 cm",
+                "5 cm"
+              ],
+              "answer": 0,
+              "explanation": "Let distance from +1 muC be x, then distance from +4 muC is 30 - x. E1 = E2 => k(1)/x^2 = k(4)/(30 - x)^2 => 1/x = 2/(30 - x) => 30 - x = 2x => 3x = 30 => x = 10 cm.",
+              "difficulty": "Medium",
+              "chapter": "Electrostatics",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-2",
+          "name": "Electrostatic Potential and Capacitance",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-12-3",
+          "name": "Current Electricity",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-014",
+              "question": "The capacitance of a parallel plate capacitor with plate area A and separation d filled with dielectric constant K is:",
+              "options": [
+                "epsilon_0 * A / d",
+                "K * epsilon_0 * A / d",
+                "K * d / (epsilon_0 * A)",
+                "epsilon_0 * A / (K * d)"
+              ],
+              "answer": 1,
+              "explanation": "Inserting a dielectric of relative permittivity K increases the capacitance K-fold: C = K * epsilon_0 * A / d.",
+              "difficulty": "Easy",
+              "chapter": "Current Electricity",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-015",
+              "question": "A wire of resistance R is stretched uniformly such that its length doubles. Its new resistance becomes:",
+              "options": [
+                "2R",
+                "4R",
+                "R / 2",
+                "R / 4"
+              ],
+              "answer": 1,
+              "explanation": "Since volume remains constant, doubling length (l' = 2l) causes area to halve (A' = A/2). Resistance R' = rho * l' / A' = rho * (2l) / (A/2) = 4 * (rho * l / A) = 4R.",
+              "difficulty": "Medium",
+              "chapter": "Current Electricity",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-4",
+          "name": "Moving Charges and Magnetism",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-016",
+              "question": "A proton and an alpha particle enter perpendicular to a uniform magnetic field with the same kinetic energy. The ratio of radii of their circular paths (r_p : r_alpha) is:",
+              "options": [
+                "1 : 1",
+                "1 : 2",
+                "2 : 1",
+                "1 : 4"
+              ],
+              "answer": 0,
+              "explanation": "r = mv / (qB) = sqrt(2 m K) / (qB). Ratio r_p / r_alpha = (sqrt(m_p) / q_p) / (sqrt(m_alpha) / q_alpha). Since m_alpha = 4m_p and q_alpha = 2q_p: (sqrt(1)/1) / (sqrt(4)/2) = 1 / (2/2) = 1:1.",
+              "difficulty": "Hard",
+              "chapter": "Moving Charges and Magnetism",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-017",
+              "question": "A circular coil of 100 turns and radius 10 cm carries a current of 1 A. The magnetic field at its center is (mu_0 = 4*pi*10^-7 T*m/A):",
+              "options": [
+                "6.28 x 10^-4 T",
+                "3.14 x 10^-4 T",
+                "1.25 x 10^-3 T",
+                "6.28 x 10^-5 T"
+              ],
+              "answer": 0,
+              "explanation": "B = (mu_0 * N * I) / (2R) = (4 * pi * 10^-7 * 100 * 1) / (2 * 0.1) = (4 * pi * 10^-5) / 0.2 = 2 * pi * 10^-4 = 6.28 x 10^-4 Tesla.",
+              "difficulty": "Medium",
+              "chapter": "Moving Charges and Magnetism",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-5",
+          "name": "Magnetism and Matter",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-12-6",
+          "name": "Electromagnetic Induction",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-018",
+              "question": "Lenz's Law of electromagnetic induction is a direct consequence of the conservation of:",
+              "options": [
+                "Electric charge",
+                "Linear momentum",
+                "Energy",
+                "Angular momentum"
+              ],
+              "answer": 2,
+              "explanation": "Lenz's law (induced current opposes the change that produces it) obeys the Law of Conservation of Energy.",
+              "difficulty": "Easy",
+              "chapter": "Electromagnetic Induction",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-7",
+          "name": "Alternating Current",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-019",
+              "question": "In a series LCR alternating current circuit at resonance, the power factor is:",
+              "options": [
+                "0",
+                "0.5",
+                "1",
+                "-1"
+              ],
+              "answer": 2,
+              "explanation": "At resonance, inductive reactance equals capacitive reactance (X_L = X_C), making the impedance purely resistive (Z = R) and phase angle phi = 0; power factor cos(phi) = cos(0) = 1.",
+              "difficulty": "Easy",
+              "chapter": "Alternating Current",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-8",
+          "name": "Electromagnetic Waves",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-020",
+              "question": "Which of the following electromagnetic waves has the highest frequency and shortest wavelength?",
+              "options": [
+                "Radio waves",
+                "Microwaves",
+                "Ultraviolet rays",
+                "Gamma rays"
+              ],
+              "answer": 3,
+              "explanation": "Gamma rays occupy the highest frequency (> 10^19 Hz) and shortest wavelength (< 10^-12 m) band of the EM spectrum.",
+              "difficulty": "Easy",
+              "chapter": "Electromagnetic Waves",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-9",
+          "name": "Ray Optics and Optical Instruments",
+          "classLevel": 12,
+          "mcqs": []
+        },
+        {
+          "id": "neet-physics-12-10",
+          "name": "Wave Optics",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-021",
+              "question": "In Young's double slit experiment, if the distance between slits is doubled and distance to screen is halved, the fringe width beta will:",
+              "options": [
+                "Become 4 times",
+                "Become 1/4th",
+                "Remain unchanged",
+                "Double"
+              ],
+              "answer": 1,
+              "explanation": "Fringe width beta = (lambda * D) / d. For D' = D/2 and d' = 2d: beta' = lambda*(D/2)/(2d) = beta / 4.",
+              "difficulty": "Medium",
+              "chapter": "Wave Optics",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-11",
+          "name": "Dual Nature of Radiation and Matter",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-022",
+              "question": "In photoelectric effect, the maximum kinetic energy of emitted photoelectrons depends on:",
+              "options": [
+                "Intensity of incident light",
+                "Frequency of incident light",
+                "Distance from light source",
+                "Surface area of cathode"
+              ],
+              "answer": 1,
+              "explanation": "According to Einstein's photoelectric equation (KE_max = h*nu - Phi), KE_max depends solely on incident photon frequency and work function.",
+              "difficulty": "Easy",
+              "chapter": "Dual Nature of Radiation and Matter",
+              "subject": "Physics"
+            },
+            {
+              "id": "NEET-PHY-023",
+              "question": "The de Broglie wavelength associated with an electron accelerated through potential difference V volts is given by:",
+              "options": [
+                "lambda = 12.27 / sqrt(V) Angstroms",
+                "lambda = 1.227 / sqrt(V) Angstroms",
+                "lambda = 0.1227 / V Angstroms",
+                "lambda = sqrt(V) / 12.27 Angstroms"
+              ],
+              "answer": 0,
+              "explanation": "lambda = h / sqrt(2 m e V) = 1.227 nm / sqrt(V) = 12.27 / sqrt(V) Angstroms.",
+              "difficulty": "Medium",
+              "chapter": "Dual Nature of Radiation and Matter",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-12",
+          "name": "Atoms",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-024",
+              "question": "According to Bohr's atomic model, the radius of the nth orbit of hydrogen atom is proportional to:",
+              "options": [
+                "n",
+                "n^2",
+                "1 / n",
+                "n^3"
+              ],
+              "answer": 1,
+              "explanation": "Bohr radius r_n = 0.529 * (n^2 / Z) Angstroms; for hydrogen Z = 1, so r_n is directly proportional to n^2.",
+              "difficulty": "Easy",
+              "chapter": "Atoms",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-13",
+          "name": "Nuclei",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-025",
+              "question": "A radioactive isotope has a half-life of 10 days. What fraction of the initial sample remains undecayed after 40 days?",
+              "options": [
+                "1 / 4",
+                "1 / 8",
+                "1 / 16",
+                "1 / 32"
+              ],
+              "answer": 2,
+              "explanation": "Number of half-lives n = 40 / 10 = 4. Remaining fraction = (1/2)^n = (1/2)^4 = 1 / 16.",
+              "difficulty": "Easy",
+              "chapter": "Nuclei",
+              "subject": "Physics"
+            }
+          ]
+        },
+        {
+          "id": "neet-physics-12-14",
+          "name": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+          "classLevel": 12,
+          "mcqs": [
+            {
+              "id": "NEET-PHY-026",
+              "question": "In a p-n junction diode under forward bias, the width of the depletion layer:",
+              "options": [
+                "Increases",
+                "Decreases",
+                "Remains constant",
+                "First increases then decreases"
+              ],
+              "answer": 1,
+              "explanation": "Forward bias opposes the built-in potential barrier, pushing majority carriers across and narrowing the depletion region.",
+              "difficulty": "Easy",
+              "chapter": "Semiconductor Electronics",
+              "subject": "Physics"
             }
           ]
         }

@@ -101,28 +101,19 @@
       "tagline": "National Eligibility Cum Entrance Test",
       "subjects": [
         {
-          "id": "botany",
-          "name": "Botany",
-          "icon": "🌿",
-          "file": "data/neet/botany.json"
-        },
-        {
-          "id": "zoology",
-          "name": "Zoology",
-          "icon": "🦋",
-          "file": "data/neet/zoology.json"
-        },
-        {
-          "id": "physics",
-          "name": "Physics",
-          "icon": "⚛️",
-          "file": "data/neet/physics.json"
+          "id": "biology",
+          "name": "Biology",
+          "file": "data/neet/biology.json"
         },
         {
           "id": "chemistry",
           "name": "Chemistry",
-          "icon": "⚗️",
           "file": "data/neet/chemistry.json"
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "file": "data/neet/physics.json"
         }
       ]
     },

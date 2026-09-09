@@ -343,7 +343,7 @@
     launchEngineWithQuestions(chapters.flatMap(c=>c.mcqs || []),`NEET ${currentNeetData?.subject || ''} · ${chapters.length===1?chapters[0].name:'Selected chapters'}`,mode);
   }
   async function renderNeetView() {
-    const activeSub=document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'botany';
+    const activeSub=document.querySelector('#neet-subject-tabs .pill-btn.active')?.dataset.subject || 'biology';
     const request=++neetRequest;
     currentNeetData=null;
     DOM.neetPracticeBtn.disabled=true;DOM.neetTestBtn.disabled=true;
@@ -356,7 +356,7 @@
     DOM.neetSubjectDesc.textContent=data.description;
     DOM.neetPreview.innerHTML=`
       <div class="neet-filters">
-        <div><label for="neet-class-select">NCERT class</label><select class="form-select" id="neet-class-select"><option value="all">Class 11 & Class 12</option><option value="11">Class 11</option><option value="12">Class 12</option></select></div>
+        <div><label for="neet-class-select">NCERT class</label><select class="form-select" id="neet-class-select"><option value="11">Class 11</option><option value="12">Class 12</option></select></div>
         <div><label for="neet-chapter-select">Chapter</label><select class="form-select" id="neet-chapter-select"></select></div>
       </div><p class="source-notice">NCERT class grouping differs from Telangana board years. This is an existing practice bank, not a complete NEET syllabus or full mock examination.</p>
       <p id="neet-bank-count" role="status"></p><div class="neet-chapters" id="neet-chapter-cards"></div>`;
@@ -371,7 +371,7 @@
       if(!chapters.length) cards.textContent='Questions for this selection are being prepared.';
       chapters.forEach(ch=>{
         const card=document.createElement('article');card.className='neet-chapter-card';
-        card.innerHTML=`<span>Class ${ch.classLevel}</span><h4>${escapeText(ch.name)}</h4><p>${ch.mcqs.length} MCQs</p><button type="button" class="btn btn-outline">Practice chapter</button>`;
+        card.innerHTML=`<span>Class ${ch.classLevel}</span><h4>${escapeText(ch.name)}</h4><p>${ch.mcqs.length} MCQs${ch.legacy ? " · Legacy topic; check exam syllabus" : ""}</p><button type="button" class="btn btn-outline" ${ch.mcqs.length ? "" : "disabled"}>${ch.mcqs.length ? "Practice chapter" : "Questions coming soon"}</button>`;
         card.querySelector('button').addEventListener('click',()=>launchEngineWithQuestions(ch.mcqs,`NEET ${data.subject} · ${ch.name}`,'practice'));cards.appendChild(card);
       });
     };
