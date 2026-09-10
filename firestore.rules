@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isAdmin() {
+      return signedIn() && request.auth.token.email == 'scrutinyacademy@gmail.com';
+    }
+
+    match /students/{uid} {
+      allow create: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.uid == uid
+        && request.resource.data.role == 'student'
+        && request.resource.data.accessStatus == 'unpaid'
+        && request.resource.data.paymentStatus == 'not_submitted';
+
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+
+      // Students may update only their own payment submission while keeping role/access controlled.
+      allow update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.uid == resource.data.uid
+        && request.resource.data.role == resource.data.role
+        && request.resource.data.accessPrice == resource.data.accessPrice
+        && resource.data.accessStatus in ['unpaid', 'rejected']
+        && request.resource.data.accessStatus == 'pending'
+        && request.resource.data.paymentStatus == 'submitted'
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'paymentStatus','accessStatus','payment','updatedAt'
+        ]);
+
+      // Only the Scrutiny Academy admin identity can approve or reject student access.
+      allow update: if isAdmin();
+      allow delete: if false;
+    }
+  }
+}
