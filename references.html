@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapter source references | Scrutiny Academy</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="references.js" defer></script>
+</head>
+<body class="reference-page">
+  <main class="reference-shell">
+    <a class="reference-back" href="index.html#neet">← Scrutiny Academy · NEET Biology</a>
+    <h1 id="source-title">Chapter source references</h1>
+    <p id="source-file"></p>
+    <p class="source-note">These passages are extracted from the chapter PDFs supplied for this question bank. Printed textbook pages and PDF page positions are shown separately. Paragraph numbers identify extracted text blocks; line numbers count nonempty extracted lines on each PDF page. These are study-edition locators, not publisher-assigned paragraph or line numbers. Extraction can preserve repeated words or imperfect mathematical symbols from the PDF.</p>
+    <form id="source-navigation" class="reference-navigation">
+      <label>Chapter <select id="source-select"><option value="cell">Cell: The Unit of Life</option><option value="biomolecules">Biomolecules</option><option value="division">Cell Cycle and Cell Division</option></select></label>
+      <label>PDF page <input id="source-page" type="number" min="1" value="1" required></label>
+      <button class="btn btn-primary" type="submit">Open page</button>
+    </form>
+    <p id="source-status" role="status">Loading numbered source text…</p>
+    <div id="source-passages"></div>
+    <noscript>Enable JavaScript to view the numbered source text.</noscript>
+  </main>
+</body>
+</html>

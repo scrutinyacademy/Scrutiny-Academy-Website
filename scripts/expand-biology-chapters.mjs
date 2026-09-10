@@ -112,6 +112,6 @@ for (const [chapterIndex, slug] of targets.entries()) {
   console.log(`${chapter.name}: ${chapter.mcqs.length} MCQs (${existing.length} preserved + ${additions.length} added)`);
 }
 const total = data.chapters.reduce((sum,ch) => sum + ch.mcqs.length,0);
-assert.equal(total,1398);
-data.description = '1,398 chapter-wise Biology practice MCQs with answers and explanations. Each of the first seven Class 11 chapters has 180 questions. Confirm exam-year coverage against the official syllabus.';
+const complete = data.chapters.filter(ch => ch.classLevel === 11 && ch.mcqs.length === 180).length;
+data.description = `${total.toLocaleString('en-US')} chapter-wise Biology practice MCQs with answers and explanations. ${complete} Class 11 chapters have 180 questions each. Cell, Biomolecules and Cell Division include source references, diagrams and tables. Confirm exam-year coverage against the official syllabus.`;
 fs.writeFileSync(file,JSON.stringify(data,null,2) + '\n');

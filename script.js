@@ -531,6 +531,8 @@
     DOM.qChapterTag.textContent = q.chapter || q.topic || 'General';
     DOM.stageDiffBadge.textContent = q.difficulty || 'Standard';
     DOM.qPromptText.textContent = q.question;
+    window.ScrutinyQuestionContent.renderExtras(document.getElementById('q-extras'), q);
+    document.getElementById('q-references').replaceChildren();
 
     // Progress Bar
     const percent = (current / total) * 100;
@@ -579,6 +581,7 @@
     if (AppState.engine.mode === 'practice' && isAnswered) {
       DOM.explanationBox.style.display = 'block';
       DOM.explanationText.textContent = q.explanation || 'Accurate syllabus concept justification.';
+      window.ScrutinyQuestionContent.renderReferences(document.getElementById('q-references'), q);
     } else {
       DOM.explanationBox.style.display = 'none';
     }
@@ -731,6 +734,7 @@
           </span>
         </div>
         <p style="font-weight: 600; margin-bottom: 12px; color: var(--color-navy);">${q.question}</p>
+        <div class="review-question-extras"></div>
         <div style="font-size: 0.9rem; margin-bottom: 8px;">
           <strong>Your Answer:</strong> <span style="color: ${isCorrect ? 'var(--color-success)' : 'var(--color-danger)'}">${userAnsText}</span>
         </div>
@@ -739,8 +743,11 @@
         </div>
         <div style="background: var(--color-white); padding: 12px; border-radius: var(--radius-sm); font-size: 0.85rem; line-height: 1.5; color: var(--color-gray-700);">
           <strong>Explanation:</strong> ${q.explanation || 'Verified academic syllabus answer.'}
+          <div class="review-question-references question-references"></div>
         </div>
       `;
+      window.ScrutinyQuestionContent.renderExtras(card.querySelector('.review-question-extras'), q);
+      window.ScrutinyQuestionContent.renderReferences(card.querySelector('.review-question-references'), q);
       DOM.resultBreakdownList.appendChild(card);
     });
   }
