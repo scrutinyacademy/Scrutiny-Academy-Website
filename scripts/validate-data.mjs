@@ -28,11 +28,23 @@ for(const cat of manifest.categories) for(const sub of cat.subjects){
     }
   }
 }
-assert.equal(biologyMcqs,180);assert.equal(neet.length,223);assert.equal(new Set(neet).size,223);
+assert.equal(biologyMcqs,702);assert.equal(neet.length,745);assert.equal(new Set(neet).size,745);
+for (const id of ['neet-biology-11-1','neet-biology-11-2','neet-biology-11-3']) {
+  const ch=bundle.neet.biology.chapters.find(c=>c.id===id);
+  assert.equal(ch.classLevel,11);
+  assert.equal(ch.mcqs.length,180,`Expected 180 MCQs: ${ch.name}`);
+  assert.equal(new Set(ch.mcqs.map(q=>q.question.trim().toLowerCase())).size,180);
+  for (const q of ch.mcqs) {
+    assert.equal(new Set(q.options.map(o=>o.trim().toLowerCase())).size,4,`Duplicate options: ${q.id}`);
+    assert.equal(q.chapter,ch.name);
+    assert.equal(q.subject,'Biology');
+    assert.ok(q.question.trim() && q.explanation.trim());
+  }
+}
 assert.equal(bundle.class11.botany.source.academicYear,'2026-2027');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
  const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
  assert.ok(fs.existsSync(path.join(root,ref)),`Missing asset: ${ref}`);
 }
-console.log('Validated 97 board chapters, 180 Biology MCQs, 223 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+console.log('Validated 97 board chapters, 702 Biology MCQs (180 in each requested chapter), 745 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
