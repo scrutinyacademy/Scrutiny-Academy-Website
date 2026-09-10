@@ -5,7 +5,9 @@ import assert from 'node:assert/strict';
 const root = path.resolve(import.meta.dirname, '..');
 const file = path.join(root, 'data/neet/biology.json');
 const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-const targets = ['living-world', 'biological-classification', 'plant-kingdom'];
+const targets = ['living-world', 'biological-classification', 'plant-kingdom',
+  'animal-kingdom', 'morphology-flowering-plants', 'anatomy-flowering-plants',
+  'structural-organisation-animals'];
 const permutations = [[0,1,2],[0,2,1],[1,0,2],[1,2,0],[2,0,1],[2,1,0]];
 
 // Deterministic shuffle: rebuilds preserve IDs and option order, including progress references.
@@ -110,6 +112,6 @@ for (const [chapterIndex, slug] of targets.entries()) {
   console.log(`${chapter.name}: ${chapter.mcqs.length} MCQs (${existing.length} preserved + ${additions.length} added)`);
 }
 const total = data.chapters.reduce((sum,ch) => sum + ch.mcqs.length,0);
-assert.equal(total,702);
-data.description = '702 chapter-wise Biology practice MCQs with answers and explanations. The Living World, Biological Classification and Plant Kingdom each have 180 questions. Confirm exam-year coverage against the official syllabus.';
+assert.equal(total,1398);
+data.description = '1,398 chapter-wise Biology practice MCQs with answers and explanations. Each of the first seven Class 11 chapters has 180 questions. Confirm exam-year coverage against the official syllabus.';
 fs.writeFileSync(file,JSON.stringify(data,null,2) + '\n');

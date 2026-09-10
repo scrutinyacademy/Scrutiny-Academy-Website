@@ -51,3 +51,11 @@ Concepts and distractors are maintained in `scripts/biology-concepts/*.txt`. `no
 Reference checks used NCERT Class 11 Biology chapters [1](https://ncert.nic.in/textbook/pdf/kebo101.pdf), [2](https://ncert.nic.in/textbook/pdf/kebo102.pdf) and [3](https://ncert.nic.in/textbook/pdf/kebo103.pdf). Taxonomic keys, herbaria and broader species concepts are retained as supplementary chapter practice. Historical fungal groups and traditional plant categories are explicitly framed as the textbook system. This update does not claim independent expert review or certification of exam-year syllabus coverage.
 
 The chapter practice button loads the full chapter bank instead of silently applying the engine's default 25-question limit. The existing difficulty filter still applies. Other engine entry points retain their question-count controls.
+
+## Chapters 4–7 practice expansion
+
+Animal Kingdom, Morphology of Flowering Plants, Anatomy of Flowering Plants and Structural Organisation in Animals now also contain 180 questions each. This adds 696 questions while preserving the six previously available questions in each chapter. The same direct, two-statement and matching formats revisit concepts through different tasks. All first seven Class 11 Biology chapters now have 180 MCQs; Biology has 1,398 and the combined NEET bank has 1,441.
+
+Four further concept catalogues live in `scripts/biology-concepts/` and are included in the existing deterministic expansion script. The earlier three expanded banks retain their question IDs, prompts, options and answers. Other chapter content is unchanged.
+
+Reference checks used NCERT Class 11 Biology chapters [4](https://ncert.nic.in/textbook/pdf/kebo104.pdf), [5](https://ncert.nic.in/textbook/pdf/kebo105.pdf), [6](https://ncert.nic.in/textbook/pdf/kebo106.pdf) and [7](https://ncert.nic.in/textbook/pdf/kebo107.pdf). Root and stem modifications, meristems, secondary growth and detailed animal-tissue comparisons include supplementary or earlier-edition concepts. Frog coverage emphasises external anatomy, digestion, respiration, circulation, excretion, neural control and reproduction. No past-paper year, official exam endorsement, independent expert review or exhaustive exam-year syllabus alignment is claimed.
