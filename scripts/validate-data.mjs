@@ -28,8 +28,8 @@ for(const cat of manifest.categories) for(const sub of cat.subjects){
     }
   }
 }
-assert.equal(biologyMcqs,1398);assert.equal(neet.length,1441);assert.equal(new Set(neet).size,1441);
-for (const id of Array.from({length:7},(_,i)=>`neet-biology-11-${i+1}`)) {
+assert.equal(biologyMcqs,1920);assert.equal(neet.length,1963);assert.equal(new Set(neet).size,1963);
+for (const id of Array.from({length:10},(_,i)=>`neet-biology-11-${i+1}`)) {
   const ch=bundle.neet.biology.chapters.find(c=>c.id===id);
   assert.equal(ch.classLevel,11);
   assert.equal(ch.mcqs.length,180,`Expected 180 MCQs: ${ch.name}`);
@@ -47,4 +47,4 @@ for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
  const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
  assert.ok(fs.existsSync(path.join(root,ref)),`Missing asset: ${ref}`);
 }
-console.log('Validated 97 board chapters, 1398 Biology MCQs (180 in each of the first seven chapters), 1441 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+console.log('Validated 97 board chapters, 1920 Biology MCQs (180 in each of the first ten chapters), 1963 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
