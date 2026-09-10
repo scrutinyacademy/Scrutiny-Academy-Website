@@ -372,7 +372,7 @@
       chapters.forEach(ch=>{
         const card=document.createElement('article');card.className='neet-chapter-card';
         card.innerHTML=`<span>Class ${ch.classLevel}</span><h4>${escapeText(ch.name)}</h4><p>${ch.mcqs.length} MCQs${ch.legacy ? " · Legacy topic; check exam syllabus" : ""}</p><button type="button" class="btn btn-outline" ${ch.mcqs.length ? "" : "disabled"}>${ch.mcqs.length ? "Practice chapter" : "Questions coming soon"}</button>`;
-        card.querySelector('button').addEventListener('click',()=>launchEngineWithQuestions(ch.mcqs,`NEET ${data.subject} · ${ch.name}`,'practice'));cards.appendChild(card);
+        card.querySelector('button').addEventListener('click',()=>launchEngineWithQuestions(ch.mcqs,`NEET ${data.subject} · ${ch.name}`,'practice',ch.mcqs.length));cards.appendChild(card);
       });
     };
     const updateChapters=()=>{

@@ -41,3 +41,13 @@ Run `node scripts/validate-data.mjs` and `node --check script.js`. Check chapter
 ## Published NEET navigation update
 
 NEET now uses Biology, Chemistry and Physics → Class 11 / Class 12 → chapter names, with 79 NCERT chapter entries plus one retained legacy Environmental Issues entry. Empty chapters are visible with disabled practice buttons. The three subject JSON files are canonical; earlier Botany/Zoology split files are unlisted historical files. This catalog is navigation, not a claim of verified 2027/2028 examination coverage. Check the official NEET syllabus for the target exam year. Source for textbook chapter organization: https://ncert.nic.in/textbook.php . Do not rerun the original add-intermediate migration after this navigation update.
+
+## Chapter practice expansion — September 2026
+
+The Living World, Biological Classification and Plant Kingdom each contain 180 MCQs under NEET Biology / Class 11. Each preserves six existing questions and adds 90 direct questions, 42 two-statement questions and 42 matching questions. The combined formats deliberately revisit concepts through different tasks; these are original practice materials, not authenticated past-paper questions. Biology now contains 702 questions; all NEET subjects together contain 745.
+
+Concepts and distractors are maintained in `scripts/biology-concepts/*.txt`. `node scripts/expand-biology-chapters.mjs` reproducibly assembles the expanded chapters while retaining other questions. IDs and option positions are stable on repeated builds. Run `node scripts/build-data.mjs` and `node scripts/validate-data.mjs` afterwards. The older `add-neet-biology-mcqs.mjs` was a one-time migration for the previous 180-total bank and must not be used to regenerate the current bank.
+
+Reference checks used NCERT Class 11 Biology chapters [1](https://ncert.nic.in/textbook/pdf/kebo101.pdf), [2](https://ncert.nic.in/textbook/pdf/kebo102.pdf) and [3](https://ncert.nic.in/textbook/pdf/kebo103.pdf). Taxonomic keys, herbaria and broader species concepts are retained as supplementary chapter practice. Historical fungal groups and traditional plant categories are explicitly framed as the textbook system. This update does not claim independent expert review or certification of exam-year syllabus coverage.
+
+The chapter practice button loads the full chapter bank instead of silently applying the engine's default 25-question limit. The existing difficulty filter still applies. Other engine entry points retain their question-count controls.
