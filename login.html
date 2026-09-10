@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102a56">
+  <title>Scrutiny Academy | Student Access</title>
+  <meta name="description" content="Student login and registration portal for Scrutiny Academy.">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+  <div class="auth-bg" aria-hidden="true"></div>
+  <main class="auth-shell">
+    <section class="brand-panel">
+      <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Scrutiny Academy logo"><span><strong>SCRUTINY ACADEMY</strong><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span></a>
+      <div class="brand-copy"><span class="eyebrow">STUDENT ACCESS</span><h1>Your learning journey starts here.</h1><p>Create your Scrutiny Academy account, complete the ₹59 access payment, submit your payment reference, and enter after verification.</p></div>
+      <div class="benefits"><span>✓ One student account</span><span>✓ NEET + school + medical learning ecosystem</span><span>✓ Progress tied to your authenticated profile once cloud sync is enabled</span></div>
+      <div class="social"><a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer">Instagram</a><a href="mailto:scrutinyacademy@gmail.com">Help Desk</a></div>
+    </section>
+
+    <section class="auth-card" aria-labelledby="authTitle">
+      <div class="tabs" role="tablist"><button class="tab active" id="loginTab" type="button">Login</button><button class="tab" id="registerTab" type="button">Register</button></div>
+      <div class="setup-warning" id="setupWarning" hidden><strong>Backend setup required</strong><span>Authentication files are built, but Firebase configuration has not been connected yet.</span></div>
+      <form id="loginForm" class="form active">
+        <div><span class="eyebrow">WELCOME BACK</span><h2 id="authTitle">Student Login</h2><p>Enter your registered email and password.</p></div>
+        <label>Email<input id="loginEmail" type="email" autocomplete="email" required placeholder="you@example.com"></label>
+        <label>Password<input id="loginPassword" type="password" autocomplete="current-password" required minlength="6" placeholder="••••••••"></label>
+        <button class="primary" type="submit">LOGIN</button>
+        <button class="link-btn" id="forgotPassword" type="button">Forgot password?</button>
+      </form>
+
+      <form id="registerForm" class="form">
+        <div><span class="eyebrow">NEW STUDENT</span><h2>Create Account</h2><p>Use your own email. You will verify it before access can be approved.</p></div>
+        <div class="two-col"><label>Full Name<input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name"></label><label>Mobile<input id="regPhone" type="tel" autocomplete="tel" required maxlength="15" placeholder="10-digit number"></label></div>
+        <label>Email<input id="regEmail" type="email" autocomplete="email" required placeholder="you@example.com"></label>
+        <label>Password<input id="regPassword" type="password" autocomplete="new-password" required minlength="8" placeholder="Minimum 8 characters"></label>
+        <label class="check"><input id="terms" type="checkbox" required><span>I agree to use this account only for my own learning and understand access is activated after payment verification.</span></label>
+        <button class="primary" type="submit">CREATE ACCOUNT</button>
+      </form>
+      <div class="message" id="authMessage" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED</footer>
+  <script type="module" src="auth.js"></script>
+</body>
+</html>
