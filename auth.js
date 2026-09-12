@@ -55,7 +55,7 @@ if(!configured){
         phone:$('regPhone').value.trim(),
         email,
         role:'student',
-        accessStatus:'pending',
+        accessStatus:'unpaid',
         accessPrice:SCRUTINY_ACCESS_PRICE,
         paymentStatus:'not_submitted',
         createdAt:serverTimestamp(),
