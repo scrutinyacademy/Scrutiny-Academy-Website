@@ -1,7 +1,7 @@
 import { firebaseConfig, SCRUTINY_ACCESS_PRICE } from './firebase-config.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
-import { getFirestore, doc, getDoc, updateDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
+import { getFirestore, doc, getDoc, setDoc, updateDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getFirestore(app),$=id=>document.getElementById(id);
 const message=(t,k='')=>{const e=$('paymentMessage');e.textContent=t;e.className=`message ${k}`};
@@ -12,11 +12,38 @@ $('paymentDate').value=new Date().toISOString().slice(0,10);
 onAuthStateChanged(auth,async user=>{
   if(!user){ location.replace('login.html'); return; }
   currentUser=user;
-  const ref=doc(db,'students',user.uid),snap=await getDoc(ref);
-  if(!snap.exists()){ await signOut(auth); location.replace('login.html'); return; }
-  const p=snap.data();
-  $('studentName').textContent=p.name?`Hi, ${p.name}`:'Student Access';
-  renderStatus(p);
+  try{
+    const ref=doc(db,'students',user.uid);
+    const snap=await getDoc(ref);
+    let p;
+    if(snap.exists()){
+      p=snap.data();
+    }else{
+      // Repair accounts created before the registration redirect race was fixed.
+      p={
+        uid:user.uid,
+        name:user.displayName||(user.email?user.email.split('@')[0]:'Student'),
+        phone:'',
+        email:user.email||'',
+        role:'student',
+        accessStatus:'pending',
+        accessPrice:SCRUTINY_ACCESS_PRICE,
+        paymentStatus:'not_submitted',
+        createdAt:serverTimestamp(),
+        updatedAt:serverTimestamp()
+      };
+      await setDoc(ref,p);
+    }
+    $('studentName').textContent=p.name?`Hi, ${p.name}`:'Student Access';
+    renderStatus(p);
+  }catch(err){
+    console.error('Scrutiny Academy profile recovery failed:',err);
+    $('statusText').textContent='We could not load your student profile. Please refresh the page or contact the help desk.';
+    $('statusPill').textContent='PROFILE ERROR';
+    $('statusPill').className='status-pill rejected';
+    $('paymentForm').style.display='none';
+    message('Your account is signed in, but its student profile could not be loaded.','error');
+  }
 });
 
 function renderStatus(p){
