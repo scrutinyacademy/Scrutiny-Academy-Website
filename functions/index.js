@@ -2,7 +2,7 @@ const crypto = require('node:crypto');
 const {initializeApp} = require('firebase-admin/app');
 const {getFirestore, FieldValue} = require('firebase-admin/firestore');
 const {defineSecret} = require('firebase-functions/params');
-const {HttpsError, onCall, onRequest} = require('firebase-functions/v2/https');
+const {HttpsError, onCall} = require('firebase-functions/v2/https');
 
 initializeApp();
 
@@ -13,7 +13,6 @@ const PRICE_PAISE = PRICE_RUPEES * 100;
 const CURRENCY = 'INR';
 const RAZORPAY_KEY_ID = defineSecret('RAZORPAY_KEY_ID');
 const RAZORPAY_KEY_SECRET = defineSecret('RAZORPAY_KEY_SECRET');
-const RAZORPAY_WEBHOOK_SECRET = defineSecret('RAZORPAY_WEBHOOK_SECRET');
 
 function secureEqual(actual, expected) {
   const a = Buffer.from(actual || '', 'utf8');
@@ -152,44 +151,37 @@ exports.verifyRazorpayPayment = onCall({
   return {active: true};
 });
 
-exports.razorpayWebhook = onRequest({
+exports.syncRazorpayPayment = onCall({
   region: REGION,
-  secrets: [RAZORPAY_WEBHOOK_SECRET],
-}, async (request, response) => {
-  if (request.method !== 'POST') {
-    response.status(405).send('Method not allowed');
-    return;
-  }
-  const signature = request.get('x-razorpay-signature') || '';
-  const expected = crypto
-      .createHmac('sha256', RAZORPAY_WEBHOOK_SECRET.value())
-      .update(request.rawBody)
-      .digest('hex');
-  if (!secureEqual(signature, expected)) {
-    response.status(401).send('Invalid signature');
-    return;
+  secrets: [RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET],
+  enforceAppCheck: false,
+}, async (request) => {
+  if (!request.auth) throw new HttpsError('unauthenticated', 'Sign in before checking payment.');
+
+  const uid = request.auth.uid;
+  const paymentRequest = await db.doc(`paymentRequests/${uid}`).get();
+  if (!paymentRequest.exists) return {active: false};
+  if (paymentRequest.data().status === 'paid') return {active: true};
+
+  const orderId = paymentRequest.data().orderId;
+  if (typeof orderId !== 'string' || !orderId.startsWith('order_')) {
+    throw new HttpsError('failed-precondition', 'No valid Razorpay order is linked to this account.');
   }
 
-  const event = request.body;
-  if (event.event !== 'payment.captured' && event.event !== 'order.paid') {
-    response.status(200).send('Ignored');
-    return;
-  }
-  const payment = event.payload?.payment?.entity;
-  const order = event.payload?.order?.entity;
-  const uid = payment?.notes?.firebase_uid || order?.notes?.firebase_uid;
-  const orderId = payment?.order_id || order?.id;
-  if (!uid || !orderId || !payment?.id || payment.amount !== PRICE_PAISE ||
-      payment.currency !== CURRENCY || payment.status !== 'captured') {
-    response.status(200).send('Ignored');
-    return;
-  }
+  const payments = await razorpayRequest(`/orders/${encodeURIComponent(orderId)}/payments`);
+  const capturedPayment = payments.items?.find((payment) =>
+    payment.order_id === orderId &&
+    payment.amount === PRICE_PAISE &&
+    payment.currency === CURRENCY &&
+    payment.status === 'captured',
+  );
+  if (!capturedPayment) return {active: false};
 
-  try {
-    await activateStudent({uid, orderId, paymentId: payment.id, source: 'webhook'});
-    response.status(200).send('OK');
-  } catch (error) {
-    console.error('Webhook activation failed', error);
-    response.status(500).send('Retry');
-  }
+  await activateStudent({
+    uid,
+    orderId,
+    paymentId: capturedPayment.id,
+    source: 'reconciliation',
+  });
+  return {active: true};
 });
