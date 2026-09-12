@@ -1,7 +1,7 @@
 // Scrutiny Academy Firebase Web configuration.
 // Firebase Web API keys are public client identifiers. Access control is enforced by Firebase Authentication + Firestore Security Rules.
 export const firebaseConfig = {
-  apiKey: "AIzaSyDxBIBifpRdB4iVGEqX_mLJrHILRn7g5e4",
+  apiKey: "AIzaSyDxBIBifpRdB4iVGEqX_mlJrHILRn7g5e4",
   authDomain: "scrutiny-academy.firebaseapp.com",
   projectId: "scrutiny-academy",
   storageBucket: "scrutiny-academy.firebasestorage.app",
