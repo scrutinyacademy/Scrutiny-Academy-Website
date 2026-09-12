@@ -1,6 +1,6 @@
 import { firebaseConfig, SCRUTINY_ACCESS_PRICE } from './firebase-config.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 const configured = firebaseConfig.apiKey && firebaseConfig.apiKey !== 'REPLACE_ME' && firebaseConfig.projectId !== 'REPLACE_ME';
@@ -46,13 +46,15 @@ if(!configured){
     try{
       const email=$('regEmail').value.trim().toLowerCase();
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
+      // Security rules require every new student to begin in pending access state.
+      // Payment remains not_submitted until the student provides a valid ₹59 UTR/reference.
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
         name:$('regName').value.trim(),
         phone:$('regPhone').value.trim(),
         email,
         role:'student',
-        accessStatus:'unpaid',
+        accessStatus:'pending',
         accessPrice:SCRUTINY_ACCESS_PRICE,
         paymentStatus:'not_submitted',
         createdAt:serverTimestamp(),
