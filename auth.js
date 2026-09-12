@@ -17,18 +17,21 @@ loginTab?.addEventListener('click',()=>activate('login'));
 registerTab?.addEventListener('click',()=>activate('register'));
 
 if(!configured){
-  if($('setupWarning')) $('setupWarning').hidden=false;
   document.querySelectorAll('form button[type="submit"]').forEach(b=>b.disabled=true);
-  msg('Connect Firebase using firebase-config.js before enabling real student accounts.','error');
+  msg('Firebase configuration is unavailable. Please contact scrutinyacademy@gmail.com.','error');
 } else {
   const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app);
 
   onAuthStateChanged(auth, async user=>{
     if(!user) return;
-    const snap=await getDoc(doc(db,'students',user.uid));
-    const profile=snap.exists()?snap.data():{};
-    if(profile.accessStatus==='active') location.replace('student.html');
-    else if(location.pathname.endsWith('login.html')) location.replace('payment.html');
+    try {
+      const snap=await getDoc(doc(db,'students',user.uid));
+      const profile=snap.exists()?snap.data():{};
+      if(profile.accessStatus==='active') location.replace('student.html');
+      else if(location.pathname.endsWith('login.html')) location.replace('payment.html');
+    } catch (err) {
+      console.error('Scrutiny Academy profile check failed:', err);
+    }
   });
 
   loginForm?.addEventListener('submit',async e=>{
@@ -38,7 +41,7 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
       if(p.accessStatus==='active') location.replace('student.html'); else location.replace('payment.html');
-    }catch(err){ msg(friendly(err),'error'); }
+    }catch(err){ msg(friendly(err),'error'); console.error(err); }
   });
 
   registerForm?.addEventListener('submit',async e=>{
@@ -46,8 +49,6 @@ if(!configured){
     try{
       const email=$('regEmail').value.trim().toLowerCase();
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
-      // Security rules require every new student to begin in pending access state.
-      // Payment remains not_submitted until the student provides a valid ₹59 UTR/reference.
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
         name:$('regName').value.trim(),
@@ -63,14 +64,18 @@ if(!configured){
       await sendEmailVerification(cred.user);
       msg('Account created. Verification email sent. Opening payment page…','success');
       setTimeout(()=>location.replace('payment.html'),900);
-    }catch(err){ msg(friendly(err),'error'); }
+    }catch(err){
+      console.error('Scrutiny Academy registration failed:',err);
+      const code=err?.code||err?.name||'unknown-error';
+      msg(`${friendly(err)} [${code}]`,'error');
+    }
   });
 
   $('forgotPassword')?.addEventListener('click',async()=>{
     const email=$('loginEmail').value.trim();
     if(!email){ msg('Enter your email first, then tap Forgot password.','error'); return; }
     try{ await sendPasswordResetEmail(auth,email); msg('Password reset email sent.','success'); }
-    catch(err){ msg(friendly(err),'error'); }
+    catch(err){ msg(`${friendly(err)} [${err?.code||'unknown-error'}]`,'error'); console.error(err); }
   });
 }
 
@@ -82,7 +87,11 @@ function friendly(err){
     'auth/weak-password':'Use a stronger password with at least 8 characters.',
     'auth/invalid-email':'Enter a valid email address.',
     'auth/too-many-requests':'Too many attempts. Please try again later.',
-    'auth/network-request-failed':'Network error. Check your internet connection.'
+    'auth/network-request-failed':'Network error. Check your internet connection.',
+    'auth/operation-not-allowed':'Email/password sign-up is not enabled in Firebase Authentication.',
+    'auth/unauthorized-domain':'This website domain is not authorized in Firebase Authentication.',
+    'auth/api-key-not-valid.-please-pass-a-valid-api-key.':'Firebase rejected the web API key.',
+    'permission-denied':'The account was created, but Firestore security rules rejected the student profile.'
   };
-  return map[code]||'Something went wrong. Please try again or contact scrutinyacademy@gmail.com.';
+  return map[code]||err?.message||'Something went wrong. Please try again or contact scrutinyacademy@gmail.com.';
 }
