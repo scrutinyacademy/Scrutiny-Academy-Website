@@ -1,13 +1,13 @@
-// Scrutiny Academy Firebase configuration.
-// Replace the placeholder values with the Web App configuration from your own Firebase project.
-// Firebase Web API keys are identifiers, not server secrets; security must be enforced with Authentication + Firestore Rules.
+// Scrutiny Academy Firebase Web configuration.
+// Firebase Web API keys are public client identifiers. Access control is enforced by Firebase Authentication + Firestore Security Rules.
 export const firebaseConfig = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME.firebaseapp.com",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME"
+  apiKey: "AIzaSyDxBIBifpRdB4iVGEqX_mLJrHILRn7g5e4",
+  authDomain: "scrutiny-academy.firebaseapp.com",
+  projectId: "scrutiny-academy",
+  storageBucket: "scrutiny-academy.firebasestorage.app",
+  messagingSenderId: "49190910579",
+  appId: "1:49190910579:web:bdd00ed647d2ce16c70806",
+  measurementId: "G-KFS89D65F1"
 };
 
 export const SCRUTINY_ACCESS_PRICE = 59;
