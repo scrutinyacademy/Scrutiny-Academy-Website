@@ -19,6 +19,7 @@ onAuthStateChanged(auth,async user=>{
     if(snap.exists()){
       p=snap.data();
     }else{
+      message('Restoring your student profile…');
       // Repair accounts created before the registration redirect race was fixed.
       p={
         uid:user.uid,
