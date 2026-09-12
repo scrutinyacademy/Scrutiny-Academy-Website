@@ -6,6 +6,7 @@ import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.
 const configured = firebaseConfig.apiKey && firebaseConfig.apiKey !== 'REPLACE_ME' && firebaseConfig.projectId !== 'REPLACE_ME';
 const $ = id => document.getElementById(id);
 const msg = (text, kind='') => { const el=$('authMessage'); if(!el) return; el.textContent=text; el.className=`message ${kind}`; };
+let authActionInProgress = false;
 
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 function activate(mode){
@@ -23,7 +24,9 @@ if(!configured){
   const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app);
 
   onAuthStateChanged(auth, async user=>{
-    if(!user) return;
+    // Account creation signs the new user in before the Firestore profile write
+    // finishes. Let the active form handler complete that write and redirect.
+    if(!user || authActionInProgress) return;
     try {
       const snap=await getDoc(doc(db,'students',user.uid));
       const profile=snap.exists()?snap.data():{};
@@ -35,17 +38,17 @@ if(!configured){
   });
 
   loginForm?.addEventListener('submit',async e=>{
-    e.preventDefault(); msg('Signing in…');
+    e.preventDefault(); authActionInProgress=true; msg('Signing in…');
     try{
       const cred=await signInWithEmailAndPassword(auth,$('loginEmail').value.trim(),$('loginPassword').value);
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
       if(p.accessStatus==='active') location.replace('student.html'); else location.replace('payment.html');
-    }catch(err){ msg(friendly(err),'error'); console.error(err); }
+    }catch(err){ authActionInProgress=false; msg(friendly(err),'error'); console.error(err); }
   });
 
   registerForm?.addEventListener('submit',async e=>{
-    e.preventDefault(); msg('Creating your account…');
+    e.preventDefault(); authActionInProgress=true; msg('Creating your account…');
     try{
       const email=$('regEmail').value.trim().toLowerCase();
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
@@ -65,6 +68,7 @@ if(!configured){
       msg('Account created. Verification email sent. Opening payment page…','success');
       setTimeout(()=>location.replace('payment.html'),900);
     }catch(err){
+      authActionInProgress=false;
       console.error('Scrutiny Academy registration failed:',err);
       const code=err?.code||err?.name||'unknown-error';
       msg(`${friendly(err)} [${code}]`,'error');
