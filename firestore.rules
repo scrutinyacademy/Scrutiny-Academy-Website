@@ -11,26 +11,34 @@ service cloud.firestore {
         && request.auth.uid == uid
         && request.resource.data.uid == uid
         && request.resource.data.role == 'student'
-        && request.resource.data.accessStatus == 'unpaid'
-        && request.resource.data.paymentStatus == 'not_submitted';
+        && request.resource.data.accessStatus == 'pending'
+        && request.resource.data.paymentStatus == 'not_submitted'
+        && request.resource.data.accessPrice == 59;
 
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
 
-      // Students may update only their own payment submission while keeping role/access controlled.
-      allow update: if signedIn() && request.auth.uid == uid
+      // Students can edit only harmless profile details. Payment/access fields are server-controlled.
+      allow update: if signedIn()
+        && request.auth.uid == uid
         && request.resource.data.uid == resource.data.uid
         && request.resource.data.role == resource.data.role
+        && request.resource.data.accessStatus == resource.data.accessStatus
+        && request.resource.data.paymentStatus == resource.data.paymentStatus
         && request.resource.data.accessPrice == resource.data.accessPrice
-        && resource.data.accessStatus in ['unpaid', 'rejected']
-        && request.resource.data.accessStatus == 'pending'
-        && request.resource.data.paymentStatus == 'submitted'
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
-          'paymentStatus','accessStatus','payment','updatedAt'
+          'name', 'phone', 'updatedAt'
         ]);
 
-      // Only the Scrutiny Academy admin identity can approve or reject student access.
-      allow update: if isAdmin();
       allow delete: if false;
+    }
+
+    match /paymentRequests/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      allow create, update, delete: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
     }
   }
 }
