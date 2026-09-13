@@ -10,7 +10,7 @@
   };
   function renderExtras(container, question) {
     container.replaceChildren();
-    if(question.image && /^assets\/questions\/[a-z0-9-]+\.jpg$/.test(question.image.src)) {
+    if(question.image && /^assets\/questions\/(?:physics\/)?[a-z0-9-]+\.(?:jpg|svg)$/.test(question.image.src)) {
       const figure=element('figure',undefined,'question-figure');
       const img=element('img');
       img.src=question.image.src;
@@ -46,16 +46,24 @@
     container.append(element('strong','Source references'));
     const list=element('ul');
     question.references.forEach(ref=>{
-      if(!titles[ref.source]) return;
       const item=element('li');
-      const a=element('a',`${titles[ref.source]} · printed p. ${ref.printedPage} (PDF p. ${ref.pdfPage}) · paragraph/block ${ref.paragraph} · lines ${ref.lineStart}–${ref.lineEnd}`);
-      const query=new URLSearchParams({source:ref.source,page:ref.pdfPage,paragraph:ref.paragraph});
-      a.href=`references.html?${query}#line-${ref.lineStart}`;
-      a.target='_blank';a.rel='noopener';
-      item.append(a);list.append(item);
+      if(ref.source && titles[ref.source] && ref.paragraph && ref.lineStart && ref.lineEnd) {
+        const a=element('a',`${titles[ref.source]} · printed p. ${ref.printedPage} (PDF p. ${ref.pdfPage}) · paragraph/block ${ref.paragraph} · lines ${ref.lineStart}–${ref.lineEnd}`);
+        const query=new URLSearchParams({source:ref.source,page:ref.pdfPage,paragraph:ref.paragraph});
+        a.href=`references.html?${query}#line-${ref.lineStart}`;
+        a.target='_blank';a.rel='noopener';item.append(a);
+      } else {
+        const details=[ref.sourceLabel||ref.pdfFilename,ref.printedPage&&`printed p. ${ref.printedPage}`,ref.pdfPage&&`PDF p. ${ref.pdfPage}`,ref.section,ref.equationNumber&&`Eq. ${ref.equationNumber}`,ref.figureNumber&&`Fig. ${ref.figureNumber}`,ref.paragraphContext].filter(Boolean);
+        item.append(element('span',details.join(' · ')));
+      }
+      list.append(item);
     });
     container.append(list);
-    container.append(element('p','Paragraph/block and line numbers are assigned to the extracted text, not printed in the textbook. Open a reference to inspect the numbered passage.','reference-convention'));
+    if(question.ncertBasis) container.append(element('p',`NCERT basis: ${question.ncertBasis}`,'reference-convention'));
+    if(question.formulaUsed) container.append(element('p',`Formula used: ${question.formulaUsed}`,'reference-convention'));
+    if(question.calculation) container.append(element('p',`Calculation: ${question.calculation}`,'reference-convention'));
+    if(question.commonTrap) container.append(element('p',`Common trap: ${question.commonTrap}`,'reference-convention'));
+    if(question.references.some(ref=>ref.source && titles[ref.source])) container.append(element('p','Paragraph/block and line numbers are assigned to the extracted text, not printed in the textbook. Open a reference to inspect the numbered passage.','reference-convention'));
     if(question.image) container.append(element('p',`Diagram: ${question.image.caption}, printed p. ${question.image.printedPage} (PDF p. ${question.image.pdfPage}).`,'reference-convention'));
   }
   window.ScrutinyQuestionContent={renderExtras,renderReferences};
