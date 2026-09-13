@@ -13,8 +13,13 @@ if(!configured){
     if(!user){ location.replace('login.html'); return; }
     const admin=SCRUTINY_ADMIN_EMAILS.map(x=>x.toLowerCase()).includes((user.email||'').toLowerCase());
     if(admin){ document.documentElement.classList.remove('auth-check'); return; }
-    const snap=await getDoc(doc(db,'students',user.uid));
-    if(!snap.exists()||snap.data().accessStatus!=='active'){ location.replace('payment.html'); return; }
-    document.documentElement.classList.remove('auth-check');
+    try {
+      const snap=await getDoc(doc(db,'students',user.uid));
+      if(!snap.exists()||snap.data().accessStatus!=='active'){ location.replace('payment.html'); return; }
+      document.documentElement.classList.remove('auth-check');
+    } catch (error) {
+      console.error('Scrutiny Academy access check failed:', error);
+      location.replace('payment.html');
+    }
   });
 }
