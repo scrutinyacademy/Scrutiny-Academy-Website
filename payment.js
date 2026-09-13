@@ -11,7 +11,7 @@ const functions = getFunctions(app, 'asia-south1');
 const createOrder = httpsCallable(functions, 'createRazorpayOrder');
 const verifyPayment = httpsCallable(functions, 'verifyRazorpayPayment');
 const syncPayment = httpsCallable(functions, 'syncRazorpayPayment');
-const $ = (id) => document.getElementById(id);
+const $ = id => document.getElementById(id);
 const message = (text, kind = '') => {
   const element = $('paymentMessage');
   element.textContent = text;
@@ -28,31 +28,32 @@ function showDashboardButton() {
   $('dashboardBtn').onclick = () => { location.href = 'student.html'; };
 }
 
-function renderStatus(profile) {
-  currentProfile = profile;
-  const status = profile.accessStatus || 'pending';
-  const pill = $('statusPill');
+function showPayButton() {
   const actions = $('paymentActions');
-  pill.className = `status-pill ${status === 'active' ? 'active' : status === 'rejected' ? 'rejected' : 'pending'}`;
+  actions.style.display = 'block';
+  actions.innerHTML = '<button class="primary" id="payBtn" type="button">PAY ₹59 & UNLOCK ACCESS</button>';
+  $('payBtn').onclick = startCheckout;
+}
+
+function renderStatus(profile) {
+  currentProfile = {...(currentProfile || {}), ...profile};
+  const status = currentProfile.accessStatus || 'pending';
+  const pill = $('statusPill');
+  pill.className = `status-pill ${status === 'active' ? 'active' : 'pending'}`;
 
   if (status === 'active') {
     pill.textContent = 'ACCESS ACTIVE';
-    $('statusText').textContent = 'Your payment is verified and your Scrutiny Academy access is active.';
+    $('statusText').textContent = 'Payment verified. Your Scrutiny Academy access is active.';
     showDashboardButton();
     return;
   }
-  if (profile.paymentStatus === 'submitted') {
-    pill.textContent = 'VERIFICATION PENDING';
-    $('statusText').textContent = 'Your earlier payment reference is awaiting review. Please do not pay again.';
-    actions.style.display = 'none';
-    return;
-  }
-  pill.textContent = status === 'rejected' ? 'PAYMENT NEEDED' : 'PAYMENT REQUIRED';
-  $('statusText').textContent = 'Pay ₹59 through Razorpay. Access will unlock automatically after verified payment.';
-  actions.style.display = 'block';
+
+  pill.textContent = currentProfile.paymentStatus === 'created' ? 'CHECKOUT READY' : 'PAYMENT REQUIRED';
+  $('statusText').textContent = 'Complete the ₹59 Razorpay payment. Access unlocks automatically after secure verification.';
+  showPayButton();
 }
 
-onAuthStateChanged(auth, async (user) => {
+onAuthStateChanged(auth, async user => {
   if (!user) {
     location.replace('login.html');
     return;
@@ -65,7 +66,6 @@ onAuthStateChanged(auth, async (user) => {
     if (snapshot.exists()) {
       profile = snapshot.data();
     } else {
-      message('Restoring your student profile…');
       profile = {
         uid: user.uid,
         name: user.displayName || (user.email ? user.email.split('@')[0] : 'Student'),
@@ -83,7 +83,8 @@ onAuthStateChanged(auth, async (user) => {
     $('studentName').textContent = profile.name ? `Hi, ${profile.name}` : 'Student Access';
     renderStatus(profile);
     message('');
-    if (profile.accessStatus !== 'active' && profile.paymentStatus !== 'submitted') {
+
+    if (profile.accessStatus !== 'active') {
       try {
         const {data: synced} = await syncPayment();
         if (synced.active) {
@@ -104,17 +105,26 @@ onAuthStateChanged(auth, async (user) => {
   }
 });
 
-$('payBtn').onclick = async () => {
+async function startCheckout() {
   if (!currentUser || currentProfile?.accessStatus === 'active') return;
   if (typeof window.Razorpay !== 'function') {
     message('Razorpay Checkout could not load. Check your connection and try again.', 'error');
     return;
   }
+
   const button = $('payBtn');
+  if (!button) return;
   button.disabled = true;
-  message('Preparing secure checkout…');
+  message('Preparing secure Razorpay checkout…');
+
   try {
     const {data: order} = await createOrder();
+    if (order?.active) {
+      message('Your access is already active.', 'success');
+      renderStatus({accessStatus: 'active', paymentStatus: 'verified'});
+      return;
+    }
+
     const checkout = new window.Razorpay({
       key: order.keyId,
       order_id: order.orderId,
@@ -122,33 +132,35 @@ $('payBtn').onclick = async () => {
       currency: order.currency,
       name: 'Scrutiny Academy',
       description: 'One-time student access',
-      image: new URL('assets/logo.png', location.href).href,
+      image: new URL('assets/logo.svg', location.href).href,
       prefill: {
         name: currentProfile?.name || currentUser.displayName || '',
         email: currentUser.email || '',
         contact: currentProfile?.phone || '',
       },
+      notes: {product: 'scrutiny_academy_access'},
       theme: {color: '#102a56'},
       modal: {
         ondismiss: () => {
           button.disabled = false;
-          message('Checkout closed. You have not been charged by this action.');
+          message('Checkout closed. Access was not changed.');
         },
       },
-      handler: async (result) => {
-        message('Payment received. Verifying it securely…');
+      handler: async result => {
+        message('Payment received. Verifying securely…');
         try {
           await verifyPayment(result);
           message('Payment verified. Your access is now active.', 'success');
           renderStatus({accessStatus: 'active', paymentStatus: 'verified'});
         } catch (error) {
           console.error('Payment verification failed:', error);
-          message('Payment was received but confirmation is still processing. Do not pay again; refresh shortly or contact support.', 'error');
+          message('Payment confirmation is still processing. Do not pay again. Refresh this page shortly.', 'error');
           button.disabled = false;
         }
       },
     });
-    checkout.on('payment.failed', (failure) => {
+
+    checkout.on('payment.failed', failure => {
       console.error('Razorpay payment failed:', failure.error?.code);
       message(failure.error?.description || 'Payment failed. No access change was made.', 'error');
       button.disabled = false;
@@ -156,10 +168,14 @@ $('payBtn').onclick = async () => {
     checkout.open();
   } catch (error) {
     console.error('Could not start Razorpay Checkout:', error);
-    message(error.message || 'Could not start secure checkout. Please try again.', 'error');
+    const code = error?.code || '';
+    const text = code.includes('not-found')
+      ? 'Payment service is not deployed yet. Please contact scrutinyacademy@gmail.com.'
+      : (error?.message || 'Could not start secure checkout. Please try again.');
+    message(text, 'error');
     button.disabled = false;
   }
-};
+}
 
 $('logoutBtn').onclick = async () => {
   await signOut(auth);
