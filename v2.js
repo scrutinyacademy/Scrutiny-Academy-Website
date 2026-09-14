@@ -25,7 +25,6 @@
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
       neet: { subject: "biology", data: null },
       custom: { subjects: [] },
-      flashcards: { catalog: null, subject: "biology", deck: null, order: [], index: 0, flipped: false },
       quiz: null,
       timer: null,
       lastResult: null,
@@ -106,7 +105,6 @@
         renderClass10(),
         renderNeet(),
         renderCustomBuilder(),
-        renderFlashcards(),
         renderMbbs(),
         renderCatalog("class11"),
         renderCatalog("class12"),
@@ -771,113 +769,6 @@
           )
           .join("")
       : '<div class="empty-state compact">No practice sessions saved yet.</div>';
-  }
-
-  const flashcardMasteryKey = "scrutiny_flashcards_mastered";
-  function getFlashcardMastery() {
-    try {
-      return new Set(JSON.parse(localStorage.getItem(flashcardMasteryKey) || "[]"));
-    } catch {
-      return new Set();
-    }
-  }
-  function saveFlashcardMastery(mastered) {
-    localStorage.setItem(flashcardMasteryKey, JSON.stringify([...mastered]));
-  }
-  async function renderFlashcards() {
-    state.flashcards.catalog = await load("data/flashcards/catalog.json");
-    const host = $("flashcardSubjects");
-    host.innerHTML = state.flashcards.catalog.subjects
-      .map(
-        (subject) =>
-          `<button type="button" class="flashcard-subject${subject.id === state.flashcards.subject ? " active" : ""}" data-subject="${esc(subject.id)}">
-            <span class="flashcard-subject-icon">${subject.icon}</span>
-            <span><strong>${esc(subject.name)}</strong><small>${esc(subject.chapters[0].name)} • ${subject.chapters[0].count} cards</small></span>
-          </button>`,
-      )
-      .join("");
-    host.querySelectorAll("[data-subject]").forEach((button) => {
-      button.onclick = async () => {
-        state.flashcards.subject = button.dataset.subject;
-        host.querySelectorAll("[data-subject]").forEach((item) =>
-          item.classList.toggle("active", item === button),
-        );
-        await openFlashcardDeck();
-      };
-    });
-    $("flashcardFlip").onclick = flipFlashcard;
-    $("flashcardPrev").onclick = () => moveFlashcard(-1);
-    $("flashcardNext").onclick = () => moveFlashcard(1);
-    $("flashcardShuffle").onclick = shuffleFlashcards;
-    $("flashcardKnown").onclick = () => markFlashcard(true);
-    $("flashcardAgain").onclick = () => markFlashcard(false);
-    await openFlashcardDeck();
-  }
-  async function openFlashcardDeck() {
-    const subject = state.flashcards.catalog.subjects.find(
-      (item) => item.id === state.flashcards.subject,
-    );
-    const chapter = subject.chapters[0];
-    state.flashcards.deck = await load(chapter.file);
-    state.flashcards.order = state.flashcards.deck.cards.map((_, index) => index);
-    state.flashcards.index = 0;
-    state.flashcards.flipped = false;
-    $("flashcardSubject").textContent = subject.name.toUpperCase();
-    $("flashcardChapterTitle").textContent = chapter.name;
-    renderFlashcard();
-  }
-  function currentFlashcard() {
-    const deck = state.flashcards.deck;
-    return deck?.cards[state.flashcards.order[state.flashcards.index]];
-  }
-  function renderFlashcard() {
-    const deck = state.flashcards.deck;
-    const card = currentFlashcard();
-    if (!deck || !card) return;
-    const mastered = getFlashcardMastery();
-    const masteredInDeck = deck.cards.filter((item) => mastered.has(item.id)).length;
-    $("flashcardTopic").textContent = `${card.topic} • ${card.mode}`;
-    $("flashcardPosition").textContent = `${state.flashcards.index + 1} / ${deck.cards.length}`;
-    $("flashcardMastery").textContent = `${masteredInDeck} known`;
-    $("flashcardProgressBar").style.width = `${((state.flashcards.index + 1) / deck.cards.length) * 100}%`;
-    $("flashcardFront").textContent = card.front;
-    $("flashcardBack").textContent = card.back;
-    $("flashcardFront").hidden = state.flashcards.flipped;
-    $("flashcardBack").hidden = !state.flashcards.flipped;
-    $("flashcardLabel").textContent = state.flashcards.flipped ? "ANSWER" : "QUESTION";
-    $("flashcardHint").textContent = state.flashcards.flipped
-      ? "Tap the card to see the question"
-      : "Tap the card to reveal the answer";
-    $("flashcardFlip").classList.toggle("flipped", state.flashcards.flipped);
-    $("flashcardKnown").textContent = mastered.has(card.id) ? "Known ✓" : "Mark known ✓";
-  }
-  function flipFlashcard() {
-    state.flashcards.flipped = !state.flashcards.flipped;
-    renderFlashcard();
-  }
-  function moveFlashcard(direction) {
-    const total = state.flashcards.order.length;
-    if (!total) return;
-    state.flashcards.index = (state.flashcards.index + direction + total) % total;
-    state.flashcards.flipped = false;
-    renderFlashcard();
-  }
-  function shuffleFlashcards() {
-    state.flashcards.order = shuffle(state.flashcards.order);
-    state.flashcards.index = 0;
-    state.flashcards.flipped = false;
-    renderFlashcard();
-    toast("Flashcards shuffled.");
-  }
-  function markFlashcard(known) {
-    const card = currentFlashcard();
-    if (!card) return;
-    const mastered = getFlashcardMastery();
-    if (known) mastered.add(card.id);
-    else mastered.delete(card.id);
-    saveFlashcardMastery(mastered);
-    renderFlashcard();
-    if (known) moveFlashcard(1);
   }
   init();
 })();
