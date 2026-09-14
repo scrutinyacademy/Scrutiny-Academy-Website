@@ -7,7 +7,7 @@
 
 ## 🏛️ About Scrutiny Academy
 
-**Scrutiny Academy** is a unified, open-access digital learning and competitive assessment platform. Designed with academic rigor and modern university aesthetics, it provides syllabus-aligned curriculum breakdowns, verified concept-oriented question banks, and an advanced cognitive MCQ practice engine.
+**Scrutiny Academy** is a unified, account-based digital learning and competitive assessment platform. Designed with academic rigor and a modern student experience, it provides syllabus-aligned curriculum breakdowns, verified concept-oriented question banks, personalised tests and revision tools.
 
 ---
 
@@ -84,22 +84,30 @@ scrutiny-academy/
    - Configurable question counts: 10, 25, 50, 100, 180 questions.
    - Option and question randomization toggles.
 
-5. **My Progress Tracking (Local Storage)**:
-   - Private, browser-based performance tracker without requiring accounts or logins.
-   - Tracks total attempts, correct/incorrect responses, accuracy percentages, and recent session history.
+5. **Student Dashboard and Progress Tracking**:
+   - Verified student accounts with a Firebase-backed access status.
+   - Tracks total attempts, correct/incorrect responses, accuracy, streaks and recent sessions.
+   - Saves locally first and syncs supported summaries, mistakes and bookmarks when the `learningProgress` Firestore rules are deployed.
 
-6. **Global Search Engine (`⌘K` / `Ctrl+K`)**:
+6. **Automatic Revision System**:
+   - Captures incorrect answers in a Mistake Notebook.
+   - Builds a revision queue, weak-topic analysis and detailed answer review.
+   - Lets students bookmark questions and export their own learning data.
+
+7. **Global Search Engine (`⌘K` / `Ctrl+K`)**:
    - Live instantaneous search across subjects, chapters, questions, and topics.
 
-7. **Brand Protection & Watermark Layer**:
+8. **Brand Protection & Watermark Layer**:
    - Subtle repeating diagonal watermark across the viewport and cards.
    - Print stylesheet embedding full copyright attribution.
    - Contextmenu notification deterrent and clipboard source attribution.
 
-8. **Support Scrutiny Academy**:
-   - Modal featuring the official UPI QR code card (`pramod sharma`, `iampramodsharma02-1@oksbi`) with one-click copy and payment instructions.
+9. **Verified Student Access**:
+   - One-time ₹59 checkout through Razorpay.
+   - Payment signatures and captured status are verified by Firebase Functions before access is activated.
+   - Email verification is required by the current frontend and the updated backend function.
 
-9. **Help Desk & Social Links**:
+10. **Help Desk & Social Links**:
    - Direct link to YouTube (`https://m.youtube.com/@ScrutinyAcademy`).
    - Direct link to Instagram (`https://www.instagram.com/scrutinyacademy`).
    - Help Desk contact button targeting `scrutinyacademy@gmail.com`.
@@ -155,6 +163,17 @@ git push -u origin main
 ```
 
 Then follow Step 3 above in the GitHub Settings UI to enable Pages on the `main` branch.
+
+### Firebase deployment required for backend changes
+
+GitHub Pages deploys the frontend, but it does not deploy Firebase Functions or Firestore rules. After signing into Firebase CLI with an authorised Scrutiny Academy account, deploy the backend separately:
+
+```bash
+npm --prefix functions ci
+firebase deploy --only firestore:rules,functions
+```
+
+Until the updated Firestore rules are deployed, the new learning tools continue saving on the student's current device and show that cloud sync is unavailable. Razorpay secret values must remain in Firebase Secret Manager and must never be committed to this repository.
 
 ---
 

@@ -3,6 +3,9 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
     function isAdmin() { return signedIn() && request.auth.token.email == 'scrutinyacademy@gmail.com'; }
+    function hasActiveAccess() {
+      return signedIn() && get(/databases/$(database)/documents/students/$(request.auth.uid)).data.accessStatus == 'active';
+    }
 
     match /students/{uid} {
       allow create: if signedIn() && request.auth.uid == uid && request.resource.data.uid == uid && request.resource.data.role == 'student' && request.resource.data.accessStatus == 'pending' && request.resource.data.paymentStatus == 'not_submitted' && request.resource.data.accessPrice == 59;
@@ -19,10 +22,29 @@ service cloud.firestore {
     // Authenticated students can see the learning leaderboard. Each student can write only their own row.
     // No email, phone or payment data belongs in this collection.
     match /leaderboard/{uid} {
-      allow read: if signedIn();
-      allow create: if signedIn() && request.auth.uid == uid && request.resource.data.uid == uid;
-      allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid;
-      allow delete: if false;
+      allow read: if hasActiveAccess() || isAdmin();
+      allow create: if hasActiveAccess() && request.auth.uid == uid && request.resource.data.uid == uid;
+      allow update: if hasActiveAccess() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid;
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
+    // Private learning data used for cross-device progress, bookmarks and revision.
+    // Payment and role fields are deliberately not permitted in this collection.
+    match /learningProgress/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      allow create, update: if hasActiveAccess() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly([
+          'schemaVersion', 'sessions', 'mistakes', 'bookmarks',
+          'streak', 'weakTopics', 'updatedAt'
+        ])
+        && request.resource.data.schemaVersion == 1
+        && request.resource.data.sessions is list
+        && request.resource.data.sessions.size() <= 40
+        && request.resource.data.mistakes is list
+        && request.resource.data.mistakes.size() <= 120
+        && request.resource.data.bookmarks is list
+        && request.resource.data.bookmarks.size() <= 100;
+      allow delete: if signedIn() && request.auth.uid == uid;
     }
 
     match /{document=**} { allow read, write: if false; }

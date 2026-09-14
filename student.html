@@ -1,1 +1,134 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scrutiny Academy | Student Dashboard</title><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="auth.css"></head><body><main class="student-shell"><header class="page-head"><a class="brand" href="student.html"><img src="assets/logo.svg" alt="Scrutiny Academy logo"><span><strong>SCRUTINY ACADEMY</strong><small>STUDENT DASHBOARD</small></span></a><button class="ghost" id="logoutBtn">Logout</button></header><section class="card" style="margin-bottom:16px"><span class="eyebrow">ACCESS ACTIVE</span><h1 id="welcome">Welcome</h1><p id="studentMeta">Loading your student profile…</p><span class="status-pill active">VERIFIED STUDENT</span></section><section class="dashboard-grid"><a class="card big-link" href="preview-v2.html"><div><span class="eyebrow">MAIN PLATFORM</span><h3>Open Scrutiny Academy</h3><p>Class 10, NEET, MBBS and study tools.</p></div><strong>ENTER →</strong></a><a class="card big-link" href="preview-v2.html#neet"><div><span class="eyebrow">NEET UG</span><h3>NEET Preparation</h3><p>Biology, Physics and Chemistry practice.</p></div><strong>START →</strong></a><a class="card big-link" href="preview-v2.html#progress"><div><span class="eyebrow">PROGRESS</span><h3>My Progress</h3><p>Continue your locally stored practice sessions.</p></div><strong>VIEW →</strong></a></section><section class="card" style="margin-top:16px"><h3>Account & Support</h3><p>Your login is personal to you. If you have any issue with access or payment verification, contact <a href="mailto:scrutinyacademy@gmail.com">scrutinyacademy@gmail.com</a>.</p><p><a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer">YouTube</a> · <a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer">Instagram</a></p></section></main><footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED</footer><script type="module" src="student.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Scrutiny Academy | Student Dashboard</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <main class="student-shell">
+      <header class="page-head">
+        <a class="brand" href="student.html"
+          ><img src="assets/logo.svg" alt="Scrutiny Academy logo" /><span
+            ><strong>SCRUTINY ACADEMY</strong
+            ><small>STUDENT DASHBOARD</small></span
+          ></a
+        ><button type="button" class="ghost" id="logoutBtn">Logout</button>
+      </header>
+      <section class="card" style="margin-bottom: 16px">
+        <span class="eyebrow">ACCESS ACTIVE</span>
+        <h1 id="welcome">Welcome</h1>
+        <p id="studentMeta">Loading your student profile…</p>
+        <span class="status-pill active">VERIFIED STUDENT</span>
+      </section>
+      <section class="dashboard-summary" aria-label="Learning summary">
+        <article class="card metric-card">
+          <strong id="dashSessions">0</strong><span>Sessions completed</span>
+        </article>
+        <article class="card metric-card">
+          <strong id="dashAccuracy">0%</strong><span>Overall accuracy</span>
+        </article>
+        <article class="card metric-card">
+          <strong id="dashStreak">0 days</strong><span>Current streak</span>
+        </article>
+        <article class="card metric-card">
+          <strong id="dashRevision">0</strong><span>Questions to revise</span>
+        </article>
+      </section>
+      <section class="dashboard-grid">
+        <a class="card big-link" href="preview-v2.html"
+          ><div>
+            <span class="eyebrow">MAIN PLATFORM</span>
+            <h3>Open Scrutiny Academy</h3>
+            <p>Class 10, NEET, MBBS and study tools.</p>
+          </div>
+          <strong>ENTER →</strong></a
+        ><a class="card big-link" href="preview-v2.html#neet"
+          ><div>
+            <span class="eyebrow">NEET UG</span>
+            <h3>NEET Preparation</h3>
+            <p>Biology, Physics and Chemistry practice.</p>
+          </div>
+          <strong>START →</strong></a
+        ><a class="card big-link" href="preview-v2.html#progress"
+          ><div>
+            <span class="eyebrow">PROGRESS</span>
+            <h3>My Progress</h3>
+            <p>Review synced performance, streaks and weak areas.</p>
+          </div>
+          <strong>VIEW →</strong></a
+        ><a class="card big-link" href="preview-v2.html#tools"
+          ><div>
+            <span class="eyebrow">MISTAKE NOTEBOOK</span>
+            <h3>Revision Queue</h3>
+            <p>Revisit incorrect questions and mark concepts revised.</p>
+          </div>
+          <strong>REVISE →</strong></a
+        ><a class="card big-link" href="preview-v2.html#neet"
+          ><div>
+            <span class="eyebrow">PERSONALISED</span>
+            <h3>Create a Test</h3>
+            <p>Mix subjects, chapters and question counts.</p>
+          </div>
+          <strong>BUILD →</strong></a
+        ><a class="card big-link" href="preview-v2.html#ncert"
+          ><div>
+            <span class="eyebrow">SOURCE AWARE</span>
+            <h3>NCERT Search</h3>
+            <p>Find indexed NCERT concepts and references.</p>
+          </div>
+          <strong>SEARCH →</strong></a
+        >
+      </section>
+      <section class="card continue-card" style="margin-top: 16px">
+        <div>
+          <span class="eyebrow">CONTINUE LEARNING</span>
+          <h3 id="continueTitle">Start your first practice session</h3>
+          <p id="continueMeta">
+            Your latest completed activity will appear here.
+          </p>
+        </div>
+        <a
+          class="primary dashboard-button"
+          id="continueLink"
+          href="preview-v2.html#neet"
+          >START PRACTICE</a
+        >
+      </section>
+      <section class="card" style="margin-top: 16px">
+        <h3>Account &amp; Support</h3>
+        <p>
+          Your login is personal to you. If you have any issue with access or
+          payment verification, contact
+          <a href="mailto:scrutinyacademy@gmail.com"
+            >scrutinyacademy@gmail.com</a
+          >.
+        </p>
+        <p>
+          <a
+            href="https://m.youtube.com/@ScrutinyAcademy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
+          ·
+          <a
+            href="https://www.instagram.com/scrutinyacademy"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      © 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED ·
+      <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> ·
+      <a href="refund-policy.html">Refund policy</a>
+    </footer>
+    <script type="module" src="student.js"></script>
+  </body>
+</html>

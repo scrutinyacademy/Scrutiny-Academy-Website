@@ -1,45 +1,77 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Scrutiny Academy | ₹59 Access</title>
-  <link rel="icon" href="assets/favicon.svg">
-  <link rel="stylesheet" href="auth.css">
-</head>
-<body>
-  <main class="payment-shell">
-    <header class="page-head">
-      <a class="brand" href="payment.html" aria-label="Scrutiny Academy payment page">
-        <img src="assets/logo.svg" alt="Scrutiny Academy logo">
-        <span><strong>SCRUTINY ACADEMY</strong><small>STUDENT ACCESS</small></span>
-      </a>
-      <button class="ghost" id="logoutBtn">Logout</button>
-    </header>
-    <section class="payment-grid">
-      <article class="card">
-        <span class="eyebrow">ONE-TIME ACCESS</span>
-        <div class="price">₹59</div>
-        <h2>Pay securely with Razorpay</h2>
-        <p>Use UPI, Google Pay, cards, netbanking, or another method offered by Razorpay.</p>
-        <p><strong>Automatic access:</strong> after Razorpay confirms the payment, your student access activates automatically.</p>
-        <p style="font-size:.82rem;color:#6b7689">Do not pay again if your access is already active or a completed payment is being confirmed.</p>
-      </article>
-      <article class="card">
-        <span class="eyebrow">PAYMENT STATUS</span>
-        <h2 id="studentName">Student Access</h2>
-        <p id="statusText">Loading your account…</p>
-        <div id="statusPill" class="status-pill pending">Checking</div>
-        <div id="paymentActions" style="display:none;margin-top:20px">
-          <button class="primary" id="payBtn" type="button">PAY ₹59 SECURELY</button>
-        </div>
-        <div id="paymentMessage" class="message" role="status" aria-live="polite"></div>
-        <p style="margin-top:18px;font-size:.82rem;color:#6b7689">Need help? <a href="mailto:scrutinyacademy@gmail.com">scrutinyacademy@gmail.com</a></p>
-      </article>
-    </section>
-  </main>
-  <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED</footer>
-  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-  <script type="module" src="payment.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Scrutiny Academy | ₹59 Access</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="auth.css" />
+  </head>
+  <body>
+    <main class="payment-shell">
+      <header class="page-head">
+        <a
+          class="brand"
+          href="payment.html"
+          aria-label="Scrutiny Academy payment page"
+        >
+          <img src="assets/logo.svg" alt="Scrutiny Academy logo" />
+          <span
+            ><strong>SCRUTINY ACADEMY</strong
+            ><small>STUDENT ACCESS</small></span
+          >
+        </a>
+        <button type="button" class="ghost" id="logoutBtn">Logout</button>
+      </header>
+      <section class="payment-grid">
+        <article class="card">
+          <span class="eyebrow">ONE-TIME ACCESS</span>
+          <div class="price">₹59</div>
+          <h2>Pay securely with Razorpay</h2>
+          <p>
+            Use UPI, Google Pay, cards, netbanking, or another method offered by
+            Razorpay.
+          </p>
+          <p>
+            <strong>Automatic access:</strong> after Razorpay confirms the
+            payment, your student access activates automatically.
+          </p>
+          <p style="font-size: 0.82rem; color: #6b7689">
+            Do not pay again if your access is already active or a completed
+            payment is being confirmed.
+          </p>
+        </article>
+        <article class="card">
+          <span class="eyebrow">PAYMENT STATUS</span>
+          <h2 id="studentName">Student Access</h2>
+          <p id="statusText">Loading your account…</p>
+          <div id="statusPill" class="status-pill pending">Checking</div>
+          <div id="paymentActions" style="display: none; margin-top: 20px">
+            <button class="primary" id="payBtn" type="button">
+              PAY ₹59 SECURELY
+            </button>
+          </div>
+          <div
+            id="paymentMessage"
+            class="message"
+            role="status"
+            aria-live="polite"
+          ></div>
+          <p style="margin-top: 18px; font-size: 0.82rem; color: #6b7689">
+            Need help?
+            <a href="mailto:scrutinyacademy@gmail.com"
+              >scrutinyacademy@gmail.com</a
+            >
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      © 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED ·
+      <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> ·
+      <a href="refund-policy.html">Refund policy</a>
+    </footer>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script type="module" src="payment.js"></script>
+  </body>
 </html>
