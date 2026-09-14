@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "totalCards": 600,
+  "subjects": [
+    {
+      "id": "biology",
+      "name": "Biology",
+      "icon": "🌿",
+      "accent": "#16a34a",
+      "chapters": [
+        {
+          "id": "plant-kingdom",
+          "name": "Plant Kingdom",
+          "count": 200,
+          "file": "data/flashcards/plant-kingdom.json"
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "icon": "⚗️",
+      "accent": "#7c3aed",
+      "chapters": [
+        {
+          "id": "some-basic-concepts-chemistry",
+          "name": "Some Basic Concepts of Chemistry",
+          "count": 200,
+          "file": "data/flashcards/some-basic-concepts-chemistry.json"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "icon": "⚡",
+      "accent": "#2563eb",
+      "chapters": [
+        {
+          "id": "electric-charges-fields",
+          "name": "Electric Charges and Fields",
+          "count": 200,
+          "file": "data/flashcards/electric-charges-fields.json"
+        }
+      ]
+    }
+  ]
+}
