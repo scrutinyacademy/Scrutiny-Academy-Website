@@ -7,6 +7,17 @@
     class12: "data/class12/catalog.json",
     ncert: "data/ncert/catalog.json",
   };
+  const temporarilyUnpublishedBiologyChapters = new Set([
+    "Photosynthesis in Higher Plants",
+    "Respiration in Plants",
+    "Plant Growth and Development",
+    "Breathing and Exchange of Gases",
+    "Body Fluids and Circulation",
+    "Excretory Products and their Elimination",
+    "Locomotion and Movement",
+    "Neural Control and Coordination",
+    "Chemical Coordination and Integration",
+  ]);
   const cache = new Map(),
     state = {
       platform: null,
@@ -24,6 +35,10 @@
     const r = await fetch(p);
     if (!r.ok) throw Error(p);
     const d = await r.json();
+    if (p === "data/neet/biology.json")
+      for (const chapter of d.chapters || [])
+        if (temporarilyUnpublishedBiologyChapters.has(chapter.name))
+          chapter.mcqs = [];
     cache.set(p, d);
     return d;
   }
@@ -47,8 +62,16 @@
     }
     return o;
   };
+  const isTemporarilyUnpublished = (d, chapter) =>
+    d?.subject === "Biology" &&
+    chapter?.classLevel === 11 &&
+    temporarilyUnpublishedBiologyChapters.has(chapter.name);
+  const publishedChapters = (d) =>
+    (d?.chapters || []).filter((chapter) =>
+      !isTemporarilyUnpublished(d, chapter),
+    );
   const allMcqs = (d) =>
-    (d?.chapters || []).flatMap((ch, ci) =>
+    publishedChapters(d).flatMap((ch, ci) =>
       (ch.mcqs || []).map((q) => ({
         ...q,
         __chapter: ch.name || ch.title || "",
@@ -184,7 +207,7 @@
         s++;
         try {
           const d = await load(x.file);
-          ch += (d.chapters || []).length;
+          ch += publishedChapters(d).length;
           q += allMcqs(d).length;
         } catch {}
       }
@@ -284,7 +307,7 @@
       d = await load(sub.file);
     state.neet.data = d;
     $("neetAvailability").innerHTML =
-      `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${(d.chapters || []).length}</strong> published chapters.`;
+      `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${publishedChapters(d).length}</strong> published chapters.`;
     return { d, sub };
   }
   function renderNeetChapters() {
@@ -297,6 +320,7 @@
       .map((ch, i) => ({ ch, i }))
       .filter(
         (x) =>
+          !isTemporarilyUnpublished(d, x.ch) &&
           (cls === "all" || String(x.ch.classLevel || "") === cls) &&
           (!search ||
             String(x.ch.name || x.ch.title)
@@ -342,7 +366,7 @@
     const { d, sub } = await renderNeetAvailability(),
       cls = $("neetClass").value,
       diff = $("neetDifficulty").value;
-    let qs = (d.chapters || [])
+    let qs = publishedChapters(d)
       .filter((ch) => cls === "all" || String(ch.classLevel || "") === cls)
       .flatMap((ch) =>
         (ch.mcqs || []).map((q) => ({ ...q, __chapter: ch.name || ch.title })),
@@ -374,7 +398,7 @@
           entry = { id, name: sub.name, data: d };
         state.custom.subjects.push(entry);
         cards.push(
-          `<article class="custom-subject" data-subject="${id}"><div class="custom-title"><h3>${esc(sub.name)}</h3><label><input type="checkbox" class="custom-enable" data-subject="${id}"> Include</label></div><label class="field">MCQs from this subject<input class="custom-count" data-subject="${id}" type="number" min="1" max="180" value="10"></label><div class="chapter-checks">${(d.chapters || []).map((ch, i) => `<label><input type="checkbox" class="custom-chapter" data-subject="${id}" value="${i}"> <span>${esc(ch.name || ch.title)} <small>(${(ch.mcqs || []).length})</small></span></label>`).join("")}</div></article>`,
+          `<article class="custom-subject" data-subject="${id}"><div class="custom-title"><h3>${esc(sub.name)}</h3><label><input type="checkbox" class="custom-enable" data-subject="${id}"> Include</label></div><label class="field">MCQs from this subject<input class="custom-count" data-subject="${id}" type="number" min="1" max="180" value="10"></label><div class="chapter-checks">${(d.chapters || []).map((ch, i) => ({ ch, i })).filter(({ ch }) => !isTemporarilyUnpublished(d, ch)).map(({ ch, i }) => `<label><input type="checkbox" class="custom-chapter" data-subject="${id}" value="${i}"> <span>${esc(ch.name || ch.title)} <small>(${(ch.mcqs || []).length})</small></span></label>`).join("")}</div></article>`,
         );
       } catch {
         cards.push(
