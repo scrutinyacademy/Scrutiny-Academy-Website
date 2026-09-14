@@ -437,6 +437,68 @@ select {
 .search-box input {
   flex: 1;
 }
+.ncert-results {
+  margin-top: 16px;
+}
+.ncert-result-count {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+.ncert-result-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.ncert-result-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 8px 24px #102a560a;
+}
+.ncert-result-card h3 {
+  margin: 8px 0 10px;
+  font-size: 1.25rem;
+}
+.ncert-result-meta {
+  display: flex;
+  gap: 7px;
+}
+.ncert-result-meta span {
+  border-radius: 999px;
+  background: #eaf2ff;
+  color: var(--blue);
+  padding: 4px 8px;
+  font-size: 0.67rem;
+  font-weight: 800;
+}
+.ncert-meaning {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 16px;
+  color: #31415b;
+}
+.ncert-meaning strong,
+.ncert-reference strong {
+  color: var(--ink);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ncert-reference {
+  display: grid;
+  gap: 3px;
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+  color: #53627a;
+  font-size: 0.78rem;
+}
+.ncert-reference small {
+  margin-top: 3px;
+  color: var(--muted);
+}
 .mbbs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -852,7 +914,8 @@ select {
     grid-template-columns: 1fr;
   }
   .subject-cards,
-  .mbbs-grid {
+  .mbbs-grid,
+  .ncert-result-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .study-panels {
@@ -883,7 +946,8 @@ select {
   .tool-grid,
   .progress-grid,
   .mbbs-grid,
-  .neet-chapter-grid {
+  .neet-chapter-grid,
+  .ncert-result-grid {
     grid-template-columns: 1fr;
   }
   .section-head.inline,

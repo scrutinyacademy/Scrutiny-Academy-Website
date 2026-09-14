@@ -226,18 +226,24 @@
         <div class="section-head">
           <span class="eyebrow">SOURCE-AWARE SEARCH</span>
           <h2>NCERT Search</h2>
+          <p>
+            Search Class 12 Physics concepts to see a concise meaning and the
+            exact NCERT chapter, section and page reference.
+          </p>
         </div>
         <div class="search-box">
           <input
             type="search"
             id="ncertQuery"
-            placeholder="Search indexed NCERT content…"
+            aria-label="Search NCERT Class 12 Physics concepts"
+            autocomplete="off"
+            placeholder="Try: electric flux, transformer, Bohr radius…"
           /><button type="button" class="btn primary" id="ncertSearch">
             Search
           </button>
         </div>
-        <div id="ncertResults" class="empty-state compact">
-          NCERT source index is still being populated.
+        <div id="ncertResults" class="ncert-results" aria-live="polite">
+          <div class="empty-state compact">Loading the NCERT source index…</div>
         </div>
       </section>
       <section class="section surface" id="mbbs">

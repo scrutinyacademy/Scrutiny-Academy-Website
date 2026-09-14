@@ -86,6 +86,7 @@
         renderCatalog("class11"),
         renderCatalog("class12"),
         renderInventory(),
+        renderNcertSummary(),
       ]);
       renderProgress();
       bind();
@@ -135,6 +136,9 @@
     $("neetStart").onclick = startNeet;
     $("buildCustomTest").onclick = buildCustomTest;
     $("ncertSearch").onclick = searchNcert;
+    $("ncertQuery").onkeydown = (event) => {
+      if (event.key === "Enter") searchNcert();
+    };
     $("clearProgress").onclick = () => {
       if (confirm("Clear all progress on this device?")) {
         localStorage.removeItem("scrutiny_v2_progress");
@@ -446,22 +450,97 @@
       } catch {}
     $("mbbsGrid").innerHTML = a.join("");
   }
+  const normalizeSearch = (value) =>
+    String(value ?? "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  function ncertHaystack(record) {
+    return normalizeSearch(
+      [
+        record.topic,
+        record.meaning,
+        record.chapter,
+        record.section,
+        record.sourceLabel,
+        record.pdfFilename,
+        record.keywords,
+      ].join(" "),
+    );
+  }
+  function ncertScore(record, query, terms) {
+    const topic = normalizeSearch(record.topic);
+    const chapter = normalizeSearch(record.chapter);
+    const section = normalizeSearch(record.section);
+    const meaning = normalizeSearch(record.meaning);
+    let score = terms.reduce(
+      (total, term) =>
+        total +
+        (topic.includes(term) ? 20 : 0) +
+        (chapter.includes(term) ? 10 : 0) +
+        (section.includes(term) ? 6 : 0) +
+        (meaning.includes(term) ? 4 : 0),
+      0,
+    );
+    if (topic === query) score += 100;
+    else if (topic.startsWith(query)) score += 60;
+    else if (topic.includes(query)) score += 40;
+    return score;
+  }
+  async function renderNcertSummary() {
+    const data = await load(repo.ncert);
+    $("ncertResults").innerHTML = `<div class="empty-state compact"><strong>${Number(data.records?.length || 0).toLocaleString("en-IN")} concepts</strong> indexed across <strong>${Number(data.chapterCount || 0)} Class 12 Physics chapters</strong>. Enter a keyword to find its meaning and NCERT reference.</div>`;
+  }
   async function searchNcert() {
-    const q = $("ncertQuery").value.trim().toLowerCase(),
-      d = await load(repo.ncert),
-      records = d.records || [];
-    if (!q) return;
-    $("ncertResults").innerHTML =
-      records
-        .filter((r) =>
-          Object.values(r).some((v) => String(v).toLowerCase().includes(q)),
-        )
-        .slice(0, 30)
+    const query = normalizeSearch($("ncertQuery").value);
+    if (!query) {
+      $("ncertQuery").focus();
+      return renderNcertSummary();
+    }
+    const data = await load(repo.ncert);
+    const terms = [...new Set(query.split(" ").filter(Boolean))];
+    const matches = (data.records || [])
+      .filter((record) => {
+        const haystack = ncertHaystack(record);
+        return terms.every((term) => haystack.includes(term));
+      })
+      .map((record) => ({
+        ...record,
+        __score: ncertScore(record, query, terms),
+      }))
+      .sort(
+        (a, b) =>
+          b.__score - a.__score ||
+          a.chapter.localeCompare(b.chapter) ||
+          a.topic.localeCompare(b.topic),
+      );
+
+    if (!matches.length) {
+      $("ncertResults").innerHTML = `<div class="empty-state compact">No indexed Class 12 Physics concept matches “${esc($("ncertQuery").value.trim())}”. Try a shorter scientific term or formula name.</div>`;
+      return;
+    }
+
+    const shown = matches.slice(0, 30);
+    $("ncertResults").innerHTML = `
+      <p class="ncert-result-count">${matches.length} result${matches.length === 1 ? "" : "s"} found${matches.length > shown.length ? ` · showing the top ${shown.length}` : ""}</p>
+      <div class="ncert-result-grid">${shown
         .map(
-          (r) =>
-            `<article><b>${esc(r.chapter || "")}</b><p>${esc(r.text || "")}</p></article>`,
+          (record) => `<article class="ncert-result-card">
+            <div class="ncert-result-meta"><span>Class ${esc(record.class)}</span><span>${esc(record.subject)}</span></div>
+            <h3>${esc(record.topic)}</h3>
+            <p class="ncert-meaning"><strong>Meaning</strong>${esc(record.meaning)}</p>
+            <div class="ncert-reference">
+              <strong>NCERT reference</strong>
+              <span>${esc(record.chapter)}</span>
+              <span>${esc(record.section)}</span>
+              <span>${esc(record.sourceLabel)} · Book page ${esc(record.printedPage)} · PDF page ${esc(record.pdfPage)}</span>
+              <small>${esc(record.pdfFilename)}</small>
+            </div>
+          </article>`,
         )
-        .join("") || "No indexed NCERT records match.";
+        .join("")}</div>`;
   }
   function startQuiz(qs, title, mode = "practice", count = 25) {
     const usable = (qs || []).filter(
