@@ -25,6 +25,7 @@
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
       neet: { subject: "biology", data: null },
       custom: { subjects: [] },
+      flashcards: { deck: null, cards: [], index: 0, flipped: false, view: "all", topic: "All" },
       quiz: null,
       timer: null,
       lastResult: null,
@@ -105,6 +106,7 @@
         renderClass10(),
         renderNeet(),
         renderCustomBuilder(),
+        renderFlashcards(),
         renderMbbs(),
         renderCatalog("class11"),
         renderCatalog("class12"),
@@ -769,6 +771,144 @@
           )
           .join("")
       : '<div class="empty-state compact">No practice sessions saved yet.</div>';
+  }
+
+  const flashStoreKey = "scrutiny_morphology_flashcards_v1";
+  function getFlashStore() {
+    try {
+      const value = JSON.parse(localStorage.getItem(flashStoreKey) || "{}");
+      return { known: new Set(value.known || []), review: new Set(value.review || []) };
+    } catch {
+      return { known: new Set(), review: new Set() };
+    }
+  }
+  function saveFlashStore(value) {
+    localStorage.setItem(
+      flashStoreKey,
+      JSON.stringify({ known: [...value.known], review: [...value.review] }),
+    );
+  }
+  async function renderFlashcards() {
+    const catalog = await load("data/flashcards/catalog.json");
+    const chapter = catalog.subjects
+      .find((subject) => subject.id === "biology")
+      .chapters[0];
+    state.flashcards.deck = await load(chapter.file);
+    const topics = [...new Set(state.flashcards.deck.cards.map((card) => card.topic))];
+    $("flashTopic").innerHTML =
+      '<option value="All">All NCERT topics</option>' +
+      topics.map((topic) => `<option value="${esc(topic)}">${esc(topic)}</option>`).join("");
+    document.querySelectorAll("[data-flash-view]").forEach((button) => {
+      button.onclick = () => {
+        state.flashcards.view = button.dataset.flashView;
+        document.querySelectorAll("[data-flash-view]").forEach((item) =>
+          item.classList.toggle("active", item === button),
+        );
+        applyFlashcardFilters();
+      };
+    });
+    $("flashTopic").onchange = (event) => {
+      state.flashcards.topic = event.target.value;
+      applyFlashcardFilters();
+    };
+    $("flashCard").onclick = flipStudyCard;
+    $("flashPrev").onclick = () => moveStudyCard(-1);
+    $("flashNext").onclick = () => moveStudyCard(1);
+    $("flashShuffle").onclick = shuffleStudyCards;
+    $("flashKnown").onclick = () => rateStudyCard("known");
+    $("flashReview").onclick = () => rateStudyCard("review");
+    applyFlashcardFilters();
+  }
+  function applyFlashcardFilters() {
+    const deck = state.flashcards.deck;
+    if (!deck) return;
+    const saved = getFlashStore();
+    let cards = deck.cards.filter(
+      (card) => state.flashcards.topic === "All" || card.topic === state.flashcards.topic,
+    );
+    if (state.flashcards.view === "pyq") cards = cards.filter((card) => card.pyqFocus);
+    if (state.flashcards.view === "known") cards = cards.filter((card) => saved.known.has(card.id));
+    if (state.flashcards.view === "review") cards = cards.filter((card) => saved.review.has(card.id));
+    state.flashcards.cards = cards;
+    state.flashcards.index = 0;
+    state.flashcards.flipped = false;
+    renderStudyCard();
+  }
+  function currentStudyCard() {
+    return state.flashcards.cards[state.flashcards.index];
+  }
+  function renderStudyCard() {
+    const card = currentStudyCard();
+    const saved = getFlashStore();
+    const total = state.flashcards.cards.length;
+    $("flashKnownCount").textContent = saved.known.size;
+    $("flashReviewCount").textContent = saved.review.size;
+    $("flashEmpty").hidden = total > 0;
+    $("flashCard").hidden = total === 0;
+    $("flashReference").hidden = total === 0;
+    $("flashPyqNote").hidden = true;
+    ["flashPrev", "flashNext", "flashShuffle", "flashKnown", "flashReview"].forEach(
+      (id) => ($(id).disabled = total === 0),
+    );
+    if (!card) {
+      $("flashPosition").textContent = "0 / 0";
+      $("flashProgressBar").style.width = "0%";
+      return;
+    }
+    $("flashMode").textContent = `${card.topic.toUpperCase()} • ${card.mode.toUpperCase()}`;
+    $("flashPyqBadge").hidden = !card.pyqFocus;
+    $("flashPosition").textContent = `${state.flashcards.index + 1} / ${total}`;
+    $("flashProgressBar").style.width = `${((state.flashcards.index + 1) / total) * 100}%`;
+    $("flashFront").textContent = card.front;
+    $("flashBack").textContent = card.back;
+    $("flashFront").hidden = state.flashcards.flipped;
+    $("flashBack").hidden = !state.flashcards.flipped;
+    $("flashFaceLabel").textContent = state.flashcards.flipped ? "NCERT ANSWER" : "QUESTION";
+    $("flashTapHint").textContent = state.flashcards.flipped
+      ? "Tap to return to the question"
+      : "Tap to reveal the NCERT answer";
+    $("flashCard").classList.toggle("answer", state.flashcards.flipped);
+    $("flashReference").textContent = card.reference;
+    $("flashPyqNote").textContent = card.pyqNote;
+    $("flashPyqNote").hidden = !(state.flashcards.flipped && card.pyqFocus);
+    $("flashKnown").textContent = saved.known.has(card.id) ? "Mastered ✓" : "Mark mastered ✓";
+    $("flashReview").textContent = saved.review.has(card.id) ? "In review queue" : "Review again";
+  }
+  function flipStudyCard() {
+    state.flashcards.flipped = !state.flashcards.flipped;
+    renderStudyCard();
+  }
+  function moveStudyCard(direction) {
+    const total = state.flashcards.cards.length;
+    if (!total) return;
+    state.flashcards.index = (state.flashcards.index + direction + total) % total;
+    state.flashcards.flipped = false;
+    renderStudyCard();
+  }
+  function shuffleStudyCards() {
+    state.flashcards.cards = shuffle(state.flashcards.cards);
+    state.flashcards.index = 0;
+    state.flashcards.flipped = false;
+    renderStudyCard();
+    toast("Flashcards shuffled.");
+  }
+  function rateStudyCard(rating) {
+    const card = currentStudyCard();
+    if (!card) return;
+    const saved = getFlashStore();
+    if (rating === "known") {
+      saved.known.add(card.id);
+      saved.review.delete(card.id);
+    } else {
+      saved.review.add(card.id);
+      saved.known.delete(card.id);
+    }
+    saveFlashStore(saved);
+    if (state.flashcards.view === "known" || state.flashcards.view === "review") {
+      applyFlashcardFilters();
+    } else {
+      moveStudyCard(1);
+    }
   }
   init();
 })();

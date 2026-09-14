@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "totalCards": 120,
+  "subjects": [
+    {
+      "id": "biology",
+      "name": "Biology",
+      "status": "available",
+      "icon": "🌿",
+      "chapters": [
+        {
+          "id": "morphology-of-flowering-plants",
+          "name": "Morphology of Flowering Plants",
+          "count": 120,
+          "file": "data/flashcards/morphology-of-flowering-plants.json"
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "status": "coming-soon",
+      "icon": "⚗️",
+      "chapters": []
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "status": "coming-soon",
+      "icon": "⚡",
+      "chapters": []
+    }
+  ]
+}

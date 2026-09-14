@@ -36,7 +36,7 @@
       <nav id="mainNav">
         <a href="#home">Home</a><a href="#class10">Class 10</a
         ><a href="#class11">Class 11</a><a href="#class12">Class 12</a
-        ><a href="#neet">NEET</a><a href="#pyqs">PYQs</a
+        ><a href="#neet">NEET</a><a href="#flashcards">Flashcards</a><a href="#pyqs">PYQs</a
         ><a href="#ncert">NCERT</a><a href="#mbbs">MBBS</a
         ><a href="#tools">Study Tools</a><a href="#progress">Progress</a
         ><a href="#support">Support</a>
@@ -209,6 +209,74 @@
             <button type="button" class="btn primary" id="buildCustomTest">
               Create my test
             </button>
+          </div>
+        </div>
+      </section>
+      <section class="section flashcards-section" id="flashcards">
+        <div class="section-head inline">
+          <div>
+            <span class="eyebrow">NCERT ACTIVE RECALL</span>
+            <h2>NEET Flashcards</h2>
+            <p>Learn directly from the current NCERT chapter, focus on recurring PYQ concepts and save your mastery on this device.</p>
+          </div>
+          <span class="status verified">✓ NCERT 2026–27 verified</span>
+        </div>
+        <div class="flash-subject-grid" id="flashSubjectGrid">
+          <article class="flash-subject available">
+            <span>🌿</span><div><strong>Biology</strong><small>1 chapter • 120 cards</small></div><b>AVAILABLE</b>
+          </article>
+          <article class="flash-subject soon">
+            <span>⚗️</span><div><strong>Chemistry</strong><small>Flashcards coming soon</small></div><b>COMING SOON</b>
+          </article>
+          <article class="flash-subject soon">
+            <span>⚡</span><div><strong>Physics</strong><small>Flashcards coming soon</small></div><b>COMING SOON</b>
+          </article>
+        </div>
+        <div class="flash-workspace">
+          <aside class="flash-panel">
+            <span class="eyebrow">BIOLOGY • CLASS 11</span>
+            <h3>Morphology of Flowering Plants</h3>
+            <p>120 cards • 100% current NCERT • 24 PYQ-focus cards</p>
+            <div class="flash-filter-group" aria-label="Flashcard filters">
+              <button type="button" class="flash-filter active" data-flash-view="all">All cards <span>120</span></button>
+              <button type="button" class="flash-filter" data-flash-view="pyq">PYQ focus <span>24</span></button>
+              <button type="button" class="flash-filter" data-flash-view="review">Review again <span id="flashReviewCount">0</span></button>
+              <button type="button" class="flash-filter" data-flash-view="known">Mastered <span id="flashKnownCount">0</span></button>
+            </div>
+            <label class="flash-topic-label" for="flashTopic">Study topic</label>
+            <select id="flashTopic" class="field">
+              <option value="All">All NCERT topics</option>
+            </select>
+            <div class="flash-source-note">
+              <strong>Source integrity</strong>
+              <span>Older rationalised-out content is excluded. “PYQ focus” marks a concept-level match, not copied question wording.</span>
+            </div>
+          </aside>
+          <div class="flash-study">
+            <div class="flash-topline">
+              <div>
+                <span id="flashMode" class="flash-mode">NCERT RECALL</span>
+                <span id="flashPyqBadge" class="flash-pyq" hidden>PYQ FOCUS</span>
+              </div>
+              <strong id="flashPosition">1 / 120</strong>
+            </div>
+            <div class="flash-progress" aria-hidden="true"><span id="flashProgressBar"></span></div>
+            <button type="button" id="flashCard" class="flash-card" aria-label="Flip flashcard">
+              <span id="flashFaceLabel">QUESTION</span>
+              <strong id="flashFront">Loading flashcards…</strong>
+              <span id="flashBack" hidden></span>
+              <small id="flashTapHint">Tap to reveal the NCERT answer</small>
+            </button>
+            <div class="flash-reference" id="flashReference">NCERT reference</div>
+            <div class="flash-pyq-note" id="flashPyqNote" hidden></div>
+            <div class="flash-actions">
+              <button type="button" class="btn secondary" id="flashPrev">← Previous</button>
+              <button type="button" class="btn secondary" id="flashShuffle">Shuffle</button>
+              <button type="button" class="btn flash-review-btn" id="flashReview">Review again</button>
+              <button type="button" class="btn primary" id="flashKnown">Mark mastered ✓</button>
+              <button type="button" class="btn secondary" id="flashNext">Next →</button>
+            </div>
+            <p class="flash-empty" id="flashEmpty" hidden>No cards match this filter yet. Choose another filter or topic.</p>
           </div>
         </div>
       </section>
