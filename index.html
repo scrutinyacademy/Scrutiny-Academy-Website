@@ -1,220 +1,105 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#102a56" />
-    <meta
-      name="description"
-      content="Scrutiny Academy learning platform for Telangana SSC Class 10, NEET UG and MBBS students."
-    />
-    <title>Scrutiny Academy | Learn • Understand • Practice • Master</title>
-    <link rel="icon" href="assets/favicon.svg" />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="v2.css" />
-  </head>
-  <body>
-    <div class="watermark"></div>
-    <header class="topbar">
-      <a class="brand" href="#home"
-        ><img src="assets/logo.svg" alt="Scrutiny Academy" /><span
-          ><strong>SCRUTINY ACADEMY</strong
-          ><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span
-        ></a
-      >
-      <button
-        type="button"
-        class="menu-btn"
-        id="menuBtn"
-        aria-label="Open navigation"
-      >
-        ☰
-      </button>
-      <nav id="mainNav">
-        <a href="#programs">Programs</a><a href="#features">Features</a
-        ><a href="#access">Access</a><a href="#faq">FAQ</a
-        ><a class="btn primary small" href="login.html">Student Login</a>
-      </nav>
-    </header>
-    <main>
-      <section class="hero landing-hero" id="home">
-        <div class="hero-copy">
-          <span class="eyebrow">SCHOOL • NEET • MEDICAL EDUCATION</span>
-          <h1>Study with a system that learns from your mistakes.</h1>
-          <p>
-            Chapter-wise practice, personalised tests, detailed explanations,
-            progress tracking and automatic revision tools in one focused
-            learning platform.
-          </p>
-          <div class="hero-actions">
-            <a class="btn primary" href="login.html">Start Learning</a
-            ><a class="btn ghost" href="#features">Explore Features</a>
-          </div>
-          <p class="trust-line">
-            Secure student accounts • Razorpay verification • Progress tracking
-          </p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#062f68" />
+  <title>Scrutiny Academy | Your Medical Career Starts Here</title>
+  <meta name="description" content="NCERT-focused study material, MCQs, PYQs and revision tools for NEET, Class 11 and Class 12 students." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preload" href="assets/medical-hero-v2.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="auth.css" />
+</head>
+<body class="medical-auth premium-home">
+  <div class="auth-bg" aria-hidden="true"></div>
+  <header class="auth-nav">
+    <a class="brand" href="index.html" aria-label="Scrutiny Academy home">
+      <img src="assets/logo.svg" alt="Scrutiny Academy logo" />
+      <span><strong>SCRUTINY ACADEMY</strong><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span>
+    </a>
+    <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="homeNav" aria-label="Main navigation">
+      <a href="index.html" class="active">Home</a>
+      <a href="#benefits">About</a>
+      <a href="preview-v2.html">Subjects</a>
+      <a href="preview-v2.html">NEET</a>
+      <a href="references.html">Study Material</a>
+      <a href="#pricing">Pricing</a>
+      <a class="login-pill" href="#authCard" data-auth-mode="login">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10 12 5l9 5-9 5-9-5Zm4 3.2V17c2.8 2 7.2 2 10 0v-3.8M20 11v6"/></svg>
+        Student Login
+      </a>
+    </nav>
+  </header>
+
+  <main class="auth-shell">
+    <section class="brand-panel" aria-labelledby="heroTitle">
+      <div class="hero-chip">NEET <span></span> CLASS 11 &amp; 12 <span></span> MEDICAL LEARNING ECOSYSTEM</div>
+      <div class="brand-copy">
+        <h1 id="heroTitle">Your Dream <span>Medical Career</span> Starts Here.</h1>
+        <p>Join Scrutiny Academy for structured study material, NCERT-based notes, MCQs, PYQs, revision tools and more — <strong>all in one place.</strong></p>
+      </div>
+      <div class="feature-row" id="benefits" aria-label="Platform benefits">
+        <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5c3-1 5.7-.4 8 1.5v12c-2.3-1.9-5-2.5-8-1.5v-12Zm16 0c-3-1-5.7-.4-8 1.5v12c2.3-1.9 5-2.5 8-1.5v-12Z"/></svg></b><span>NCERT<br />Focused</span></div>
+        <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><path d="m15 9 5-5m0 0v4m0-4h-4"/></svg></b><span>NEET<br />Oriented</span></div>
+        <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9m7 10V5m7 14v-7M3 19h18"/></svg></b><span>Practice &amp;<br />Track Progress</span></div>
+        <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 19c.4-4 2.2-6 5.5-6s5.1 2 5.5 6m.5-5c3.1-.5 5 1.2 5.5 4"/></svg></b><span>Learn<br />Anywhere</span></div>
+      </div>
+      <div class="offer-card" id="pricing">
+        <div class="offer-price"><s>₹1,299</s><strong>₹99</strong><span>Limited Time Offer</span></div>
+        <div class="offer-copy"><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2M9 2h6m-3 0v3"/></svg></b><span>Unlock Your Full<br />Learning Potential<br /><strong>at Just ₹99</strong></span></div>
+      </div>
+      <div class="doctor-note">Discipline Today<br /><strong>Doctor Tomorrow</strong><span class="heartbeat" aria-hidden="true"></span></div>
+      <div class="social">
+        <a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer"><i class="youtube">▶</i>YouTube</a>
+        <a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer"><i class="instagram">◎</i>Instagram</a>
+        <a href="mailto:scrutinyacademy@gmail.com"><i class="help">⌕</i>Help Desk</a>
+      </div>
+    </section>
+
+    <section class="auth-card" id="authCard" aria-label="Student account access">
+      <div class="tabs" role="tablist" aria-label="Student access">
+        <button class="tab" id="loginTab" type="button" role="tab" aria-controls="loginForm">Login</button>
+        <button class="tab active" id="registerTab" type="button" role="tab" aria-controls="registerForm">Register</button>
+      </div>
+      <form id="loginForm" class="form">
+        <div><span class="eyebrow">WELCOME BACK</span><h2>Student Login</h2><p>Continue your learning journey.</p></div>
+        <label>Email<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 7 9-7"/></svg><input id="loginEmail" type="email" autocomplete="email" required placeholder="you@example.com" /></div></label>
+        <label>Password<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input id="loginPassword" type="password" autocomplete="current-password" required minlength="6" placeholder="••••••••" /></div></label>
+        <button class="primary" type="submit">LOGIN <span>→</span></button>
+        <button class="link-btn" id="forgotPassword" type="button">Forgot password?</button>
+      </form>
+      <form id="registerForm" class="form active">
+        <div><span class="eyebrow">NEW STUDENT</span><h2 id="authTitle">Create Account</h2><p>Use your own email. You will verify it before access can be approved.</p></div>
+        <div class="two-col">
+          <label>Full Name<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.5-5 3-7 8-7s7.5 2 8 7"/></svg><input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name" /></div></label>
+          <label>Mobile<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 5c0 8 7 15 15 15l2-3-5-3-2 2c-3-1-5-3-6-6l2-2-3-5Z"/></svg><input id="regPhone" type="tel" inputmode="numeric" autocomplete="tel" required maxlength="15" placeholder="10-digit number" /></div></label>
         </div>
-        <aside class="hero-panel">
-          <span class="panel-label">ONE STUDENT DASHBOARD</span>
-          <div class="metric">
-            <strong>4,000+</strong><span>published practice questions</span>
-          </div>
-          <div class="metric">
-            <strong>180</strong><span>question test support</span>
-          </div>
-          <div class="metric">
-            <strong><s aria-label="Original price ₹1,299">₹1,299</s> ₹99</strong><span>limited-time one-time access</span>
-          </div>
-          <p>
-            Counts are based on the currently validated repository inventory and
-            may increase as new chapters are published.
-          </p>
-        </aside>
-      </section>
-      <section class="section" id="programs">
-        <div class="section-head">
-          <span class="eyebrow">CHOOSE YOUR PATH</span>
-          <h2>Built for every stage of your journey.</h2>
-        </div>
-        <div class="landing-programs">
-          <article class="program-card">
-            <span class="landing-icon">📘</span>
-            <h3>Class 10 SSC</h3>
-            <p>
-              Telangana board preparation with chapter practice and
-              written-answer formats.
-            </p>
-            <span class="status active">Active</span>
-          </article>
-          <article class="program-card">
-            <span class="landing-icon">🧬</span>
-            <h3>NEET UG</h3>
-            <p>
-              Biology, Physics and Chemistry banks with chapter filters and
-              custom tests.
-            </p>
-            <span class="status active">Active</span>
-          </article>
-          <article class="program-card">
-            <span class="landing-icon">🩺</span>
-            <h3>MBBS</h3>
-            <p>
-              Medical-subject foundations designed for focused undergraduate
-              revision.
-            </p>
-            <span class="status foundation">Growing</span>
-          </article>
-        </div>
-      </section>
-      <section class="section surface" id="features">
-        <div class="section-head">
-          <span class="eyebrow">ACTIVE-RECALL TOOLKIT</span>
-          <h2>More than an MCQ library.</h2>
-        </div>
-        <div class="feature-showcase">
-          <article>
-            <strong>Personalised Tests</strong
-            ><span
-              >Mix subjects, chapters, difficulty and question counts.</span
-            >
-          </article>
-          <article>
-            <strong>Mistake Notebook</strong
-            ><span>Incorrect answers automatically become revision tasks.</span>
-          </article>
-          <article>
-            <strong>Weakness Detector</strong
-            ><span>Find the chapters where accuracy needs attention.</span>
-          </article>
-          <article>
-            <strong>Detailed Review</strong
-            ><span
-              >Review answers, explanations and available NCERT
-              references.</span
-            >
-          </article>
-          <article>
-            <strong>Safe Progress</strong
-            ><span
-              >Save learning history on your device, with visible cloud-sync
-              status when available.</span
-            >
-          </article>
-          <article>
-            <strong>Bookmarks &amp; Streaks</strong
-            ><span>Save high-value questions and build daily consistency.</span>
-          </article>
-        </div>
-      </section>
-      <section class="section access-card" id="access">
-        <div>
-          <span class="eyebrow">SIMPLE ACCESS</span>
-          <h2>One payment. One verified student account.</h2>
-          <p>
-            Original price <s>₹1,299</s>. For a limited time, get one-time student
-            access for <strong>₹99</strong> securely through Razorpay. Once the
-            transaction is verified, your student dashboard activates automatically.
-          </p>
-        </div>
-        <a class="btn primary" href="login.html">Create Student Account</a>
-      </section>
-      <section class="section surface" id="faq">
-        <div class="section-head">
-          <span class="eyebrow">FREQUENTLY ASKED</span>
-          <h2>Before you begin.</h2>
-        </div>
-        <div class="faq-list">
-          <details>
-            <summary>Is the ₹99 payment recurring?</summary>
-            <p>
-              No. The current offer is described as one-time student access.
-            </p>
-          </details>
-          <details>
-            <summary>What happens after payment?</summary>
-            <p>
-              Razorpay confirmation is verified by the secure Firebase backend
-              and the linked account is activated automatically.
-            </p>
-          </details>
-          <details>
-            <summary>Can I use the same account on another device?</summary>
-            <p>
-              Yes. Sign in with the same verified account. Learning content is
-              available on supported devices; progress transfers only when the
-              platform shows “Cloud sync active”.
-            </p>
-          </details>
-          <details>
-            <summary>
-              What if payment succeeds but access does not open?
-            </summary>
-            <p>
-              Do not pay again. Contact scrutinyacademy@gmail.com with your
-              registered email and payment ID.
-            </p>
-          </details>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <strong>SCRUTINY ACADEMY</strong
-      ><span>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED</span
-      ><span
-        ><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> ·
-        <a href="refund-policy.html">Refund policy</a></span
-      >
-    </footer>
-    <script>
-      document
-        .getElementById("menuBtn")
-        .addEventListener("click", () =>
-          document.getElementById("mainNav").classList.toggle("open"),
-        );
-      if ("serviceWorker" in navigator)
-        addEventListener("load", () =>
-          navigator.serviceWorker.register("./sw.js").catch(console.error),
-        );
-    </script>
-  </body>
+        <label>Email<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 7 9-7"/></svg><input id="regEmail" type="email" autocomplete="email" required placeholder="you@example.com" /></div></label>
+        <label>Password<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input id="regPassword" type="password" autocomplete="new-password" required minlength="8" placeholder="Minimum 8 characters" /></div></label>
+        <label class="check"><input id="terms" type="checkbox" required /><span>I agree to use this account only for my own learning and understand access is activated after payment verification.</span></label>
+        <button class="primary" type="submit">CREATE ACCOUNT <span>→</span></button>
+      </form>
+      <div class="trust-line"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="10" width="12" height="10" rx="2"/><path d="M9 10V7a3 3 0 0 1 6 0v3"/></svg>Secure &amp; Trusted Payment via Razorpay</div>
+      <div class="trust-grid">
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6l-7-3Zm-3 9 2 2 4-5"/></svg><small>Safe &amp; Secure</small></span>
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m13 2-7 12h6l-1 8 7-12h-6l1-8Z"/></svg><small>Instant Access</small></span>
+        <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 8C5 8 3 12 5.5 14.5S11 14 12 12c1-2 4-5 6.5-2.5S19 16 15.5 16c-2 0-3-2-3.5-4-.5-2-1.5-4-3.5-4Z"/></svg><small>Learn Without Limits</small></span>
+      </div>
+      <div class="message" id="authMessage" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
+  <script type="module" src="auth.js"></script>
+  <script>
+    const menu = document.getElementById('mobileMenu');
+    const nav = document.getElementById('homeNav');
+    menu?.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      menu.setAttribute('aria-expanded', String(open));
+    });
+    if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(console.error));
+  </script>
+</body>
 </html>

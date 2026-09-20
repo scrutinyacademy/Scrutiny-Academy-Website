@@ -12,10 +12,17 @@ const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginFo
 function activate(mode){
   const login = mode==='login';
   loginTab?.classList.toggle('active',login); registerTab?.classList.toggle('active',!login);
+  loginTab?.setAttribute('aria-selected',String(login)); registerTab?.setAttribute('aria-selected',String(!login));
   loginForm?.classList.toggle('active',login); registerForm?.classList.toggle('active',!login); msg('');
 }
 loginTab?.addEventListener('click',()=>activate('login'));
 registerTab?.addEventListener('click',()=>activate('register'));
+document.querySelectorAll('[data-auth-mode]').forEach(control=>{
+  control.addEventListener('click',()=>{
+    activate(control.dataset.authMode==='register'?'register':'login');
+    document.getElementById('authCard')?.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+});
 
 if(!configured){
   document.querySelectorAll('form button[type="submit"]').forEach(b=>b.disabled=true);
@@ -31,7 +38,7 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',user.uid));
       const profile=snap.exists()?snap.data():{};
       if(profile.accessStatus==='active') location.replace('student.html');
-      else if(location.pathname.endsWith('login.html')) location.replace('payment.html');
+      else if(location.pathname.endsWith('login.html') || /\/$/.test(location.pathname) || location.pathname.endsWith('index.html')) location.replace('payment.html');
     } catch (err) {
       console.error('Scrutiny Academy profile check failed:', err);
     }
