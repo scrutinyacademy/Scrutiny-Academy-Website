@@ -49,7 +49,7 @@ function showPayButton() {
   const actions = $("paymentActions");
   actions.style.display = "block";
   actions.innerHTML =
-    '<button class="primary" id="payBtn" type="button">PAY ₹59 & UNLOCK ACCESS</button>';
+    '<button class="primary" id="payBtn" type="button">PAY ₹99 & UNLOCK ACCESS</button>';
   $("payBtn").onclick = startCheckout;
 }
 
@@ -108,7 +108,7 @@ function renderStatus(profile) {
       ? "CHECKOUT READY"
       : "PAYMENT REQUIRED";
   $("statusText").textContent =
-    "Complete the ₹59 Razorpay payment. Access unlocks automatically after secure verification.";
+    "Complete the ₹99 Razorpay payment. Access unlocks automatically after secure verification.";
   showPayButton();
 }
 
