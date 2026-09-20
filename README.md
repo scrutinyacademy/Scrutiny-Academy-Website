@@ -103,7 +103,7 @@ scrutiny-academy/
    - Contextmenu notification deterrent and clipboard source attribution.
 
 9. **Verified Student Access**:
-   - One-time ₹59 checkout through Razorpay.
+   - One-time ₹99 checkout through Razorpay (limited-time offer; original price ₹1,299).
    - Payment signatures and captured status are verified by Firebase Functions before access is activated.
    - Email verification is required by the current frontend and the updated backend function.
 
