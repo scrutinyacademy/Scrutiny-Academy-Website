@@ -12,7 +12,7 @@ initializeApp();
 
 const db = getFirestore();
 const REGION = "asia-south1";
-const PRICE_RUPEES = 59;
+const PRICE_RUPEES = 99;
 const PRICE_PAISE = PRICE_RUPEES * 100;
 const CURRENCY = "INR";
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
