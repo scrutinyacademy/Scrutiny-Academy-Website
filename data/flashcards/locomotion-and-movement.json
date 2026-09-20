@@ -1,0 +1,1215 @@
+{
+  "schemaVersion": 2,
+  "id": "locomotion-and-movement",
+  "subject": "Biology",
+  "classLevel": "Class 11",
+  "exam": "NEET UG",
+  "chapter": "Locomotion and Movement",
+  "ncertEdition": "Current NCERT",
+  "cardCount": 120,
+  "pyqFocusCount": 64,
+  "sourcePolicy": "Imported from the chapter flashcard set supplied by Scrutiny Academy.",
+  "pyqMethod": "[PYQ] labels are retained from the supplied flashcard set and indicate high-yield or previous-year-question-style facts.",
+  "cards": [
+    {
+      "id": "LAM-001",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Three main types of movement exhibited by cells of the human body?",
+      "back": "Amoeboid, ciliary, muscular",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-002",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Give examples of cells showing amoeboid movement.",
+      "back": "Macrophages, leucocytes",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-003",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "What structures effect amoeboid movement?",
+      "back": "Pseudopodia, formed by streaming of protoplasm",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-004",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Cytoskeletal elements involved in amoeboid movement?",
+      "back": "Microfilaments",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-005",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Examples of ciliary movement in the human body?",
+      "back": "Movement of ova through the female reproductive tract; removal of dust in trachea",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-006",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "What is locomotion?",
+      "back": "A voluntary movement that causes a change in place/location",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-007",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "How are movement and locomotion related?",
+      "back": "All locomotions are movements, but all movements are not locomotions",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-008",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Which type of movement helps in the swimming of spermatozoa?",
+      "back": "Flagellar movement",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-009",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Percentage of body weight contributed by muscles in an adult human?",
+      "back": "40–50%",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-010",
+      "topic": "Types of Movement",
+      "mode": "NCERT Recall",
+      "front": "Special properties of muscle tissue?",
+      "back": "Excitability, contractility, extensibility, elasticity",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-011",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Three types of muscles, based on location?",
+      "back": "Skeletal, visceral, cardiac",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-012",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Why are skeletal muscles called striated muscles?",
+      "back": "They have a striped appearance under the microscope",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-013",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Are skeletal muscles voluntary or involuntary?",
+      "back": "Voluntary",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-014",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Where are visceral muscles located?",
+      "back": "Inner walls of hollow visceral organs (e.g., alimentary canal)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-015",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Are visceral muscles striated?",
+      "back": "No — smooth (nonstriated)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-016",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Are visceral muscles voluntary?",
+      "back": "No — involuntary",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-017",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Are cardiac muscles striated?",
+      "back": "Yes",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-018",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Are cardiac muscles voluntary?",
+      "back": "No — involuntary",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-019",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Connective tissue layer holding muscle bundles together?",
+      "back": "Fascia",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-020",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "What are muscle bundles also called?",
+      "back": "Fascicles",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-021",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Plasma membrane of a muscle fibre?",
+      "back": "Sarcolemma",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-022",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Cytoplasm of a muscle fibre?",
+      "back": "Sarcoplasm",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-023",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Why is a muscle fibre called a \"syncitium\"?",
+      "back": "The sarcoplasm contains many nuclei",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-024",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Store house of calcium ions in the muscle fibre?",
+      "back": "Sarcoplasmic reticulum",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-025",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Parallel filaments present in the sarcoplasm are called?",
+      "back": "Myofilaments (myofibrils)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-026",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Two important proteins giving the striated appearance?",
+      "back": "Actin and myosin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-027",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "The light band of a sarcomere is called?",
+      "back": "I-band (Isotropic band) — contains actin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-028",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "The dark band of a sarcomere is called?",
+      "back": "A-band (Anisotropic band) — contains myosin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-029",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Elastic fibre that bisects the I-band?",
+      "back": "Z-line",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-030",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Fibrous membrane holding thick filaments together in the middle of the A-band?",
+      "back": "M-line",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-031",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "What is the functional unit of contraction?",
+      "back": "Sarcomere (portion between two successive Z-lines)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-032",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "The central part of the thick filament not overlapped by thin filaments?",
+      "back": "H-zone",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-033",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Each actin (thin) filament is made of how many F-actin strands?",
+      "back": "Two, helically wound",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-034",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "F-actin is a polymer of which monomer?",
+      "back": "G-actin (globular actin)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-035",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Two other proteins associated with the actin filament?",
+      "back": "Tropomyosin and troponin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-036",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "What masks the active myosin-binding sites on actin in the resting state?",
+      "back": "A subunit of troponin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-037",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "The myosin (thick) filament is a polymer of which monomeric units?",
+      "back": "Meromyosins",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-038",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Two parts of a meromyosin molecule?",
+      "back": "Heavy meromyosin (HMM) and light meromyosin (LMM)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-039",
+      "topic": "Skeletal Muscle",
+      "mode": "NCERT Recall",
+      "front": "Which part of myosin projects outward as a \"cross arm\"?",
+      "back": "HMM (head + short arm)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-040",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Enzymatic activity of the myosin globular head?",
+      "back": "ATPase",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-041",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Theory explaining the mechanism of muscle contraction?",
+      "back": "Sliding filament theory",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-042",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What initiates muscle contraction?",
+      "back": "A signal from the CNS via a motor neuron",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-043",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "A motor neuron plus the muscle fibres it innervates is called?",
+      "back": "A motor unit",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-044",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Junction between a motor neuron and the sarcolemma?",
+      "back": "Neuromuscular junction (motor end plate)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-045",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Neurotransmitter released at the neuromuscular junction?",
+      "back": "Acetylcholine",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-046",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What does acetylcholine generate in the sarcolemma?",
+      "back": "An action potential",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-047",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Which ion is released into the sarcoplasm upon muscle stimulation?",
+      "back": "Calcium ions (Ca++)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-048",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Ca++ binds to which protein, exposing the myosin-binding sites?",
+      "back": "Troponin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-049",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What forms when the myosin head binds the exposed actin site?",
+      "back": "A cross bridge",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-050",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What happens to sarcomere bands during contraction?",
+      "back": "I-band and H-zone shorten/reduce; A-band length stays constant",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-051",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What breaks the cross bridge, allowing the cycle to repeat?",
+      "back": "A new ATP molecule binding to the myosin head",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-052",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What restores the muscle's resting state after contraction?",
+      "back": "Ca++ is pumped back into the sarcoplasmic reticulum",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-053",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "What causes muscle fatigue?",
+      "back": "Accumulation of lactic acid from anaerobic breakdown of glycogen",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-054",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Red-coloured, oxygen-storing pigment in muscle?",
+      "back": "Myoglobin",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-055",
+      "topic": "Muscle Contraction",
+      "mode": "NCERT Recall",
+      "front": "Muscles with high myoglobin and many mitochondria are called?",
+      "back": "Red fibres (aerobic muscles)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-056",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Muscles with less myoglobin, appearing pale/whitish?",
+      "back": "White fibres (rely on anaerobic process)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-057",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Which fibre type contains more sarcoplasmic reticulum?",
+      "back": "White fibres",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-058",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Total number of bones in the adult human skeleton?",
+      "back": "206",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-059",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Two principal divisions of the human skeletal system?",
+      "back": "Axial and appendicular",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-060",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of bones in the axial skeleton?",
+      "back": "80",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-061",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "What structures make up the axial skeleton?",
+      "back": "Skull, vertebral column, sternum, ribs",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-062",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Total number of bones in the human skull?",
+      "back": "22",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-063",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of cranial bones?",
+      "back": "8",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-064",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of facial bones?",
+      "back": "14",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-065",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "U-shaped bone at the base of the buccal cavity?",
+      "back": "Hyoid bone",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-066",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "The three ear ossicles?",
+      "back": "Malleus, incus, stapes",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-067",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of vertebrae in the vertebral column?",
+      "back": "26",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-068",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Vertebral column regions and their number of vertebrae?",
+      "back": "Cervical (7), thoracic (12), lumbar (5), sacral (1 fused), coccygeal (1 fused)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-069",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Name of the first cervical vertebra?",
+      "back": "Atlas",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-070",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of cervical vertebrae in almost all mammals?",
+      "back": "7",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-071",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Flat bone on the ventral midline of the thorax?",
+      "back": "Sternum",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-072",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Total number of rib pairs in humans?",
+      "back": "12",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-073",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Why is a rib called \"bicephalic\"?",
+      "back": "It has two articulation surfaces on its dorsal end",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-074",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of true rib pairs?",
+      "back": "7",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-075",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of false (vertebrochondral) rib pairs?",
+      "back": "3 (8th, 9th, 10th)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-076",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Number of floating rib pairs?",
+      "back": "2 (11th and 12th)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-077",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "What structures together form the rib cage?",
+      "back": "Thoracic vertebrae, ribs, sternum",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-078",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Total number of bones per limb (appendicular)?",
+      "back": "30 bones",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-079",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Bones of the forelimb (hand)?",
+      "back": "Humerus, radius, ulna, carpals (8), metacarpals (5), phalanges (14)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-080",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Bones of the hind limb (leg)?",
+      "back": "Femur, tibia, fibula, tarsals (7), metatarsals (5), phalanges (14)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-081",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Longest bone in the human body?",
+      "back": "Femur",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-082",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Cup-shaped bone covering the knee ventrally?",
+      "back": "Patella (knee cap)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-083",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Two bones forming each half of the pectoral girdle?",
+      "back": "Clavicle and scapula",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-084",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Common name for the clavicle?",
+      "back": "Collar bone",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-085",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Elevated ridge on the scapula's dorsal surface?",
+      "back": "Spine (ending in the acromion process)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-086",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Depression on the scapula articulating with the humerus?",
+      "back": "Glenoid cavity",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-087",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Joint formed at the glenoid cavity?",
+      "back": "Shoulder joint",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-088",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Three bones that fuse to form each coxal bone?",
+      "back": "Ilium, ischium, pubis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-089",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Cavity at the fusion point of the coxal bones, articulating with the femur?",
+      "back": "Acetabulum",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-090",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "What do the two coxal bones form when they meet ventrally?",
+      "back": "Pubic symphysis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-091",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Three major structural types of joints?",
+      "back": "Fibrous, cartilaginous, synovial",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-092",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Example of a fibrous joint?",
+      "back": "Skull sutures",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-093",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Example of a cartilaginous joint?",
+      "back": "Joint between adjacent vertebrae",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-094",
+      "topic": "Skeletal System",
+      "mode": "NCERT Recall",
+      "front": "Fluid present in the cavity of a synovial joint?",
+      "back": "Synovial fluid",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-095",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Example of a ball and socket joint?",
+      "back": "Shoulder joint (between humerus and pectoral girdle)",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-096",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Example of a hinge joint?",
+      "back": "Knee joint",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-097",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Example of a pivot joint?",
+      "back": "Between atlas and axis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-098",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Example of a gliding joint?",
+      "back": "Between the carpals",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-099",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Example of a saddle joint?",
+      "back": "Between carpal and metacarpal of the thumb",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-100",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Autoimmune disorder affecting the neuromuscular junction, causing fatigue/paralysis?",
+      "back": "Myasthenia gravis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-101",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Genetic disorder causing progressive skeletal muscle degeneration?",
+      "back": "Muscular dystrophy",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-102",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Rapid, wild muscle spasms due to low Ca++ in body fluid?",
+      "back": "Tetany",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-103",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Inflammation of joints is called?",
+      "back": "Arthritis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-104",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Age-related disorder with decreased bone mass and increased fracture risk?",
+      "back": "Osteoporosis",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-105",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Hormone deficiency commonly linked to osteoporosis?",
+      "back": "Estrogen",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-106",
+      "topic": "Joints & Disorders",
+      "mode": "NCERT Recall",
+      "front": "Joint inflammation due to accumulation of uric acid crystals?",
+      "back": "Gout",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-107",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What tissue type are bone and cartilage classified as?",
+      "back": "Specialised connective tissues",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-108",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What gives bone matrix its hardness?",
+      "back": "Calcium salts",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-109",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What gives cartilage matrix its pliability?",
+      "back": "Chondroitin salts",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-110",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What connects true ribs to the sternum ventrally?",
+      "back": "Hyaline cartilage",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-111",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "How do false ribs connect to the sternum?",
+      "back": "Indirectly, via the cartilage of the 7th rib",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-112",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Do floating ribs connect ventrally to the sternum?",
+      "back": "No",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-113",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What is described as the \"anatomical unit\" of a muscle?",
+      "back": "Muscle fibre",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "LAM-114",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What does the H-zone represent in a relaxed sarcomere?",
+      "back": "The region of thick filament not overlapped by thin filaments",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-115",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What triggers vesicle release of acetylcholine at the neuromuscular junction?",
+      "back": "Arrival of a nerve impulse at the axon terminal",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-116",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What structure at the axon terminal contains neurotransmitter-filled vesicles?",
+      "back": "Synaptic knob",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-117",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Which vertebral regions consist of only fused bones?",
+      "back": "Sacral and coccygeal regions",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-118",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What serves as the point of attachment for ribs and back musculature?",
+      "back": "Vertebral column",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-119",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Which girdle articulates with the hind limb bones?",
+      "back": "Pelvic girdle",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "LAM-120",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Which girdle articulates with the forelimb bones?",
+      "back": "Pectoral girdle",
+      "reference": "NCERT Biology Class XI, Chapter 17 — Locomotion and Movement",
+      "pyqFocus": false,
+      "pyqNote": ""
+    }
+  ]
+}

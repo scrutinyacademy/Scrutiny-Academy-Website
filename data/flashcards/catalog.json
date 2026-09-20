@@ -1,13 +1,21 @@
 {
-  "version": 3,
-  "totalCards": 300,
+  "version": 4,
+  "totalCards": 1020,
   "subjects": [
     {
       "id": "biology",
       "name": "Biology",
       "status": "available",
       "icon": "🌿",
-      "chapters": [{"id":"morphology-of-flowering-plants","name":"Morphology of Flowering Plants","count":120,"file":"data/flashcards/morphology-of-flowering-plants.json"}]
+      "chapters": [
+        {"id":"morphology-of-flowering-plants","name":"Morphology of Flowering Plants","count":120,"file":"data/flashcards/morphology-of-flowering-plants.json"},
+        {"id":"breathing-and-exchange-of-gases","name":"Breathing and Exchange of Gases","count":120,"file":"data/flashcards/breathing-and-exchange-of-gases.json"},
+        {"id":"body-fluids-and-circulation","name":"Body Fluids and Circulation","count":120,"file":"data/flashcards/body-fluids-and-circulation.json"},
+        {"id":"excretory-products-and-their-elimination","name":"Excretory Products and their Elimination","count":120,"file":"data/flashcards/excretory-products-and-their-elimination.json"},
+        {"id":"locomotion-and-movement","name":"Locomotion and Movement","count":120,"file":"data/flashcards/locomotion-and-movement.json"},
+        {"id":"neural-control-and-coordination","name":"Neural Control and Coordination","count":120,"file":"data/flashcards/neural-control-and-coordination.json"},
+        {"id":"chemical-coordination-and-integration","name":"Chemical Coordination and Integration","count":120,"file":"data/flashcards/chemical-coordination-and-integration.json"}
+      ]
     },
     {
       "id": "chemistry",

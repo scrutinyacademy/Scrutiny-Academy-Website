@@ -25,7 +25,17 @@
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
       neet: { subject: "biology", data: null },
       custom: { subjects: [] },
-      flashcards: { deck: null, cards: [], index: 0, flipped: false, view: "all", topic: "All" },
+      flashcards: {
+        catalog: null,
+        subjectId: "biology",
+        chapterId: "morphology-of-flowering-plants",
+        deck: null,
+        cards: [],
+        index: 0,
+        flipped: false,
+        view: "all",
+        topic: "All",
+      },
       quiz: null,
       timer: null,
       lastResult: null,
@@ -773,10 +783,16 @@
       : '<div class="empty-state compact">No practice sessions saved yet.</div>';
   }
 
-  const flashStoreKey = "scrutiny_morphology_flashcards_v1";
+  function flashStoreKey() {
+    return `scrutiny_flashcards_${state.flashcards.deck?.id || "default"}_v2`;
+  }
   function getFlashStore() {
     try {
-      const value = JSON.parse(localStorage.getItem(flashStoreKey) || "{}");
+      const key = flashStoreKey();
+      let raw = localStorage.getItem(key);
+      if (!raw && state.flashcards.deck?.id === "morphology-of-flowering-plants")
+        raw = localStorage.getItem("scrutiny_morphology_flashcards_v1");
+      const value = JSON.parse(raw || "{}");
       return { known: new Set(value.known || []), review: new Set(value.review || []) };
     } catch {
       return { known: new Set(), review: new Set() };
@@ -784,20 +800,95 @@
   }
   function saveFlashStore(value) {
     localStorage.setItem(
-      flashStoreKey,
+      flashStoreKey(),
       JSON.stringify({ known: [...value.known], review: [...value.review] }),
     );
   }
-  async function renderFlashcards() {
-    const catalog = await load("data/flashcards/catalog.json");
-    const chapter = catalog.subjects
-      .find((subject) => subject.id === "biology")
-      .chapters[0];
-    state.flashcards.deck = await load(chapter.file);
+  function normaliseFlashDeck(deck) {
+    if (Array.isArray(deck.cards)) return deck;
+    if (!Array.isArray(deck.seeds)) return { ...deck, cards: [] };
+    const modes = [
+      ["NCERT Recall", (term) => `What is the key NCERT idea for ${term}?`, (_, answer) => answer],
+      ["Term Match", (_, answer) => `Identify the concept: ${answer}`, (term) => term],
+      ["Explain the Link", (term) => `Explain the NCERT link associated with “${term}”.`, (_, answer) => answer],
+      ["Rapid Revision", (term) => `In one line, recall ${term}.`, (_, answer) => answer],
+      ["NEET Concept Check", (term) => `Which fact should you remember for a NEET question on ${term}?`, (_, answer) => answer],
+      ["Reverse Recall", (_, answer) => `Which chapter concept is described by this statement? ${answer}`, (term) => term],
+    ];
+    const cards = deck.seeds.flatMap((seed, seedIndex) =>
+      modes.map((mode, modeIndex) => ({
+        id: `${deck.id}-${String(seedIndex * modes.length + modeIndex + 1).padStart(3, "0")}`,
+        topic: seed[0],
+        mode: mode[0],
+        front: mode[1](seed[0], seed[1]),
+        back: mode[2](seed[0], seed[1]),
+        reference: `NCERT ${deck.subject} ${deck.classLevel}, ${deck.chapter}, ${seed[2]}, printed page ${seed[3]}`,
+        pyqFocus: modeIndex === 4,
+        pyqNote: modeIndex === 4 ? "High-yield NEET concept check." : "",
+      })),
+    );
+    return { ...deck, cards, cardCount: cards.length, pyqFocusCount: cards.filter((card) => card.pyqFocus).length };
+  }
+  function renderFlashSubjects() {
+    const catalog = state.flashcards.catalog;
+    $("flashSubjectGrid").innerHTML = catalog.subjects
+      .map((subject) => {
+        const total = subject.chapters.reduce((sum, chapter) => sum + chapter.count, 0);
+        const available = subject.status === "available" && subject.chapters.length;
+        return `<button type="button" class="flash-subject ${available ? "available" : "soon"} ${state.flashcards.subjectId === subject.id ? "selected" : ""}" data-flash-subject="${esc(subject.id)}" ${available ? "" : "disabled"}>
+          <span>${esc(subject.icon)}</span><div><strong>${esc(subject.name)}</strong><small>${available ? `${subject.chapters.length} ${subject.chapters.length === 1 ? "chapter" : "chapters"} • ${total} cards` : "Flashcards coming soon"}</small></div><b>${available ? "AVAILABLE" : "COMING SOON"}</b>
+        </button>`;
+      })
+      .join("");
+  }
+  async function selectFlashSubject(subjectId) {
+    const subject = state.flashcards.catalog.subjects.find((item) => item.id === subjectId);
+    if (!subject?.chapters?.length) return;
+    state.flashcards.subjectId = subjectId;
+    if (!subject.chapters.some((chapter) => chapter.id === state.flashcards.chapterId))
+      state.flashcards.chapterId = subject.chapters[0].id;
+    renderFlashSubjects();
+    $("flashChapter").innerHTML = subject.chapters
+      .map((chapter) => `<option value="${esc(chapter.id)}">${esc(chapter.name)} (${chapter.count})</option>`)
+      .join("");
+    $("flashChapter").value = state.flashcards.chapterId;
+    await loadFlashChapter(state.flashcards.chapterId);
+  }
+  async function loadFlashChapter(chapterId) {
+    const subject = state.flashcards.catalog.subjects.find(
+      (item) => item.id === state.flashcards.subjectId,
+    );
+    const chapter = subject?.chapters.find((item) => item.id === chapterId);
+    if (!chapter) return;
+    state.flashcards.chapterId = chapterId;
+    state.flashcards.deck = normaliseFlashDeck(await load(chapter.file));
+    state.flashcards.view = "all";
+    state.flashcards.topic = "All";
+    document.querySelector(".flash-panel .eyebrow").textContent =
+      `${state.flashcards.deck.subject.toUpperCase()} • ${state.flashcards.deck.classLevel.toUpperCase()}`;
+    $("flashChapterTitle").textContent = state.flashcards.deck.chapter;
+    $("flashChapterSummary").textContent =
+      `${state.flashcards.deck.cardCount} cards • ${state.flashcards.deck.pyqFocusCount || 0} PYQ-focus cards • active recall`;
+    $("flashAllCount").textContent = state.flashcards.deck.cardCount;
+    $("flashPyqCount").textContent = state.flashcards.deck.pyqFocusCount || 0;
+    $("flashSourcePolicy").textContent = state.flashcards.deck.sourcePolicy ||
+      "Flashcards use concise active recall. PYQ focus identifies high-yield concepts.";
     const topics = [...new Set(state.flashcards.deck.cards.map((card) => card.topic))];
     $("flashTopic").innerHTML =
       '<option value="All">All NCERT topics</option>' +
       topics.map((topic) => `<option value="${esc(topic)}">${esc(topic)}</option>`).join("");
+    document.querySelectorAll("[data-flash-view]").forEach((item) =>
+      item.classList.toggle("active", item.dataset.flashView === "all"),
+    );
+    applyFlashcardFilters();
+  }
+  async function renderFlashcards() {
+    state.flashcards.catalog = await load("data/flashcards/catalog.json");
+    $("flashSubjectGrid").onclick = (event) => {
+      const button = event.target.closest("[data-flash-subject]");
+      if (button && !button.disabled) selectFlashSubject(button.dataset.flashSubject);
+    };
+    $("flashChapter").onchange = (event) => loadFlashChapter(event.target.value);
     document.querySelectorAll("[data-flash-view]").forEach((button) => {
       button.onclick = () => {
         state.flashcards.view = button.dataset.flashView;
@@ -817,7 +908,7 @@
     $("flashShuffle").onclick = shuffleStudyCards;
     $("flashKnown").onclick = () => rateStudyCard("known");
     $("flashReview").onclick = () => rateStudyCard("review");
-    applyFlashcardFilters();
+    await selectFlashSubject(state.flashcards.subjectId);
   }
   function applyFlashcardFilters() {
     const deck = state.flashcards.deck;

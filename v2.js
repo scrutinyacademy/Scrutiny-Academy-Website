@@ -1,1 +1,1 @@
-document.write('<script src="v2-core.js"><\/script><script src="ncert-biology-search.js"><\/script><script src="chemistry-flashcards.js"><\/script>');
+document.write('<script src="v2-core.js"><\/script><script src="ncert-biology-search.js"><\/script>');

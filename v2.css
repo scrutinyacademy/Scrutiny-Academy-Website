@@ -1002,6 +1002,10 @@ select {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 16px;
+  width: 100%;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
 }
 .flash-subject > span {
   display: grid;
@@ -1031,6 +1035,13 @@ select {
 .flash-subject.available {
   border-color: #86d5a2;
   box-shadow: 0 10px 28px rgba(22, 163, 74, 0.08);
+  cursor: pointer;
+}
+.flash-subject.available:hover,
+.flash-subject.available.selected {
+  border-color: #16a34a;
+  background: #f0fdf4;
+  transform: translateY(-1px);
 }
 .flash-subject.available b {
   color: #067647;

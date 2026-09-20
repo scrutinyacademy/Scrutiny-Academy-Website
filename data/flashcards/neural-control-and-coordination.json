@@ -1,0 +1,1215 @@
+{
+  "schemaVersion": 2,
+  "id": "neural-control-and-coordination",
+  "subject": "Biology",
+  "classLevel": "Class 11",
+  "exam": "NEET UG",
+  "chapter": "Neural Control and Coordination",
+  "ncertEdition": "Current NCERT",
+  "cardCount": 120,
+  "pyqFocusCount": 56,
+  "sourcePolicy": "Imported from the chapter flashcard set supplied by Scrutiny Academy.",
+  "pyqMethod": "[PYQ] labels are retained from the supplied flashcard set and indicate high-yield or previous-year-question-style facts.",
+  "cards": [
+    {
+      "id": "NCC-001",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "What is \"coordination\"?",
+      "back": "The process through which two or more organs interact and complement each other's function",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-002",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Which two systems provide coordination in the body?",
+      "back": "Neural system and endocrine system",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-003",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "What cells compose the neural system?",
+      "back": "Neurons",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-004",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Two main divisions of the human neural system?",
+      "back": "CNS (central neural system) and PNS (peripheral neural system)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-005",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "What does the CNS include?",
+      "back": "Brain and spinal cord",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-006",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "What does the PNS comprise?",
+      "back": "All nerves of the body associated with the CNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-007",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Two types of PNS nerve fibres?",
+      "back": "Afferent and efferent fibres",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-008",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Function of afferent fibres?",
+      "back": "Transmit impulses from tissues/organs to the CNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-009",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Function of efferent fibres?",
+      "back": "Transmit regulatory impulses from the CNS to peripheral organs",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-010",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Two divisions of the PNS?",
+      "back": "Somatic neural system and autonomic neural system",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-011",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Function of the somatic neural system?",
+      "back": "Relays impulses from CNS to skeletal muscles",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-012",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Function of the autonomic neural system?",
+      "back": "Transmits impulses from CNS to involuntary organs and smooth muscles",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-013",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "Two divisions of the autonomic neural system?",
+      "back": "Sympathetic and parasympathetic",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-014",
+      "topic": "Neural System",
+      "mode": "NCERT Recall",
+      "front": "What is the visceral nervous system?",
+      "back": "Part of PNS linking CNS to the viscera (organs) and back",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-015",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Three major parts of a neuron?",
+      "back": "Cell body, dendrites, axon",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-016",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Granular bodies found in the neuron's cell body?",
+      "back": "Nissl's granules",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-017",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Function of dendrites?",
+      "back": "Transmit impulses towards the cell body",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-018",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Function of the axon?",
+      "back": "Transmits impulses away from the cell body",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-019",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Bulb-like structure at the distal end of axon branches?",
+      "back": "Synaptic knob",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-020",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "What do synaptic knobs contain?",
+      "back": "Synaptic vesicles filled with neurotransmitters",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-021",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Neuron type with one axon and two or more dendrites (found in cerebral cortex)?",
+      "back": "Multipolar",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-022",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Neuron type with one axon and one dendrite (found in the retina)?",
+      "back": "Bipolar",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-023",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Neuron type with only one axon, cell body with no separate dendrite (embryonic)?",
+      "back": "Unipolar",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-024",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Two types of axons, based on covering?",
+      "back": "Myelinated and non-myelinated",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-025",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Cells that form the myelin sheath around an axon?",
+      "back": "Schwann cells",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-026",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Gaps between two adjacent myelin sheaths?",
+      "back": "Nodes of Ranvier",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-027",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Where are myelinated nerve fibres commonly found?",
+      "back": "Spinal and cranial nerves",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-028",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Why are neurons described as \"excitable cells\"?",
+      "back": "Their membranes are in a polarised state at rest",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-029",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Which ion is the axoplasm richer in, at rest?",
+      "back": "K+ (potassium)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-030",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Which ion is the extracellular fluid richer in, at rest?",
+      "back": "Na+ (sodium)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-031",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Pump maintaining the ionic gradient across the resting membrane?",
+      "back": "Sodium-potassium pump",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-032",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Ratio of Na+ pumped out to K+ pumped in by this pump?",
+      "back": "3 Na+ out : 2 K+ in",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-033",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Charge of the outer surface of the resting axonal membrane?",
+      "back": "Positive",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-034",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Charge of the inner surface of the resting axonal membrane?",
+      "back": "Negative",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-035",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Electrical potential difference across the resting membrane is called?",
+      "back": "Resting potential",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-036",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "What happens to membrane permeability when a stimulus is applied at a site?",
+      "back": "It becomes freely permeable to Na+",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-037",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "What is \"depolarisation\"?",
+      "back": "Reversal of membrane polarity at the stimulated site",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-038",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Electrical potential difference at a depolarised site is called?",
+      "back": "Action potential (nerve impulse)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-039",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "What restores the resting potential after depolarisation?",
+      "back": "Efflux of K+ (rise in K+ permeability)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-040",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "Junction through which impulse passes from one neuron to another?",
+      "back": "Synapse",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-041",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "The neuron sending the impulse across a synapse is called?",
+      "back": "Pre-synaptic neuron",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-042",
+      "topic": "Neuron & Nerve Impulse",
+      "mode": "NCERT Recall",
+      "front": "The neuron receiving the impulse is called?",
+      "back": "Post-synaptic neuron",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-043",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Fluid-filled space between pre- and post-synaptic neurons?",
+      "back": "Synaptic cleft",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-044",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Two types of synapses?",
+      "back": "Electrical and chemical",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-045",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Which type of synapse transmits impulses faster?",
+      "back": "Electrical synapse",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-046",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Which type of synapse is more common in the human body?",
+      "back": "Chemical synapse",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-047",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Chemicals involved in transmission at a chemical synapse?",
+      "back": "Neurotransmitters",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-048",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "Where do neurotransmitters bind on the post-synaptic membrane?",
+      "back": "Specific receptors",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-049",
+      "topic": "Synapse",
+      "mode": "NCERT Recall",
+      "front": "What kind of new potential can be generated in the post-synaptic neuron?",
+      "back": "Excitatory or inhibitory",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-050",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "What is described as the \"central information processing organ\" of the body?",
+      "back": "The brain",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-051",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "What bony structure protects the brain?",
+      "back": "Skull",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-052",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Three layers of cranial meninges (outer to inner)?",
+      "back": "Dura mater, arachnoid, pia mater",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-053",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Three major parts of the brain?",
+      "back": "Forebrain, midbrain, hindbrain",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-054",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Three components of the forebrain?",
+      "back": "Cerebrum, thalamus, hypothalamus",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-055",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "What divides the cerebrum into two hemispheres?",
+      "back": "A deep longitudinal cleft",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-056",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Tract of nerve fibres connecting the two cerebral hemispheres?",
+      "back": "Corpus callosum",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-057",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Layer of cells covering the cerebral hemisphere?",
+      "back": "Cerebral cortex",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-058",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Why is the cerebral cortex called \"grey matter\"?",
+      "back": "Concentration of neuron cell bodies gives it a greyish appearance",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-059",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Regions of the cerebral cortex responsible for memory, communication, intersensory association?",
+      "back": "Association areas",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-060",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Why is the inner part of the cerebral hemisphere called \"white matter\"?",
+      "back": "The myelin sheath on fibre tracts gives it an opaque white appearance",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-061",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Structure the cerebrum wraps around; a major coordinating centre for sensory/motor signalling?",
+      "back": "Thalamus",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-062",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Part of the brain controlling body temperature, hunger, and thirst?",
+      "back": "Hypothalamus",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-063",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "What does the hypothalamus secrete, besides controlling temperature/hunger?",
+      "back": "Hypothalamic (releasing/inhibiting) hormones",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-064",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Structure formed by inner cerebral hemisphere parts, amygdala, hippocampus, etc.?",
+      "back": "Limbic system (limbic lobe)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-065",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Functions regulated by the limbic system?",
+      "back": "Sexual behaviour, emotional reactions, motivation",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-066",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Where is the midbrain located?",
+      "back": "Between the thalamus/hypothalamus of the forebrain and the pons of the hindbrain",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-067",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Canal that passes through the midbrain?",
+      "back": "Cerebral aqueduct",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-068",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Four round swellings on the dorsal midbrain?",
+      "back": "Corpora quadrigemina",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-069",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Three components of the hindbrain?",
+      "back": "Pons, cerebellum, medulla",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-070",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Function of the pons?",
+      "back": "Fibre tracts interconnecting different regions of the brain",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-071",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Why does the cerebellum have a very convoluted surface?",
+      "back": "To provide additional space for more neurons",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-072",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Which part of the hindbrain connects directly to the spinal cord?",
+      "back": "Medulla (oblongata)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-073",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Functions controlled by the medulla?",
+      "back": "Respiration, cardiovascular reflexes, gastric secretions",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-074",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Three regions that make up the brain stem?",
+      "back": "Midbrain, pons, medulla oblongata",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-075",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "What integrates information received from the semicircular canals of the ear?",
+      "back": "Cerebellum",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-076",
+      "topic": "Central Neural System",
+      "mode": "NCERT Recall",
+      "front": "Which brain part is the site for processing vision, hearing, speech, and memory?",
+      "back": "Cerebrum (cerebral cortex)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-077",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "Which part of the CNS lies within the vertebral column?",
+      "back": "Spinal cord",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-078",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What controls voluntary movements and body balance overall?",
+      "back": "The brain (cerebrum and cerebellum)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-079",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "Which brain structure/system is linked to circadian rhythm regulation?",
+      "back": "Hypothalamus (with pineal gland/melatonin input)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-080",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "Give an example of a neurotransmitter.",
+      "back": "Acetylcholine",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-081",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What does neurotransmitter-receptor binding open on the post-synaptic membrane?",
+      "back": "Ion channels",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-082",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How would you describe neural coordination, in terms of speed and duration?",
+      "back": "Fast but short-lived (point-to-point)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-083",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How would you describe endocrine (hormonal) coordination?",
+      "back": "Chemical integration, generally slower but longer-lasting",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-084",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "On what basis do grey matter and white matter differ?",
+      "back": "Presence or absence of the myelin sheath",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-085",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How permeable is the resting axonal membrane to Na+?",
+      "back": "Nearly impermeable",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-086",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How permeable is the resting axonal membrane to K+?",
+      "back": "Comparatively more permeable",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-087",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How does conduction speed compare between myelinated and unmyelinated fibres?",
+      "back": "Myelinated fibres conduct impulses faster",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-088",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What is the special term for impulse \"jumping\" between nodes of Ranvier?",
+      "back": "Saltatory conduction",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-089",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What negatively charged molecules is the resting membrane impermeable to?",
+      "back": "Proteins in the axoplasm",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-090",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "Does the reversal of membrane potential occur only at one point, or does it spread?",
+      "back": "It spreads sequentially along the length of the axon",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-091",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What is the overall term for how the impulse travels along the axon?",
+      "back": "Conduction (propagation) of the nerve impulse",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-092",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What is the neural system in Hydra composed of?",
+      "back": "A simple network of neurons (nerve net)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-093",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "How is the neural system organised in insects?",
+      "back": "A brain, plus a number of ganglia and neural tissues",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-094",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What does it mean for a resting neural membrane to be \"polarised\"?",
+      "back": "There is a different electrical charge on the inner vs outer surface",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-095",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What is the general term describing the movement of the action potential along the axon?",
+      "back": "Nerve impulse conduction",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-096",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What kind of ion channels are present on the neural membrane?",
+      "back": "Selectively permeable ion channels",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-097",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What canal within each vertebra protects the spinal cord?",
+      "back": "Neural canal (central hollow portion of the vertebra)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-098",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "What structure lies at the base of the thalamus?",
+      "back": "Hypothalamus",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-099",
+      "topic": "Neurotransmission",
+      "mode": "NCERT Recall",
+      "front": "Which brain regions are neither purely sensory nor motor but handle memory and intersensory association?",
+      "back": "Association areas of the cerebral cortex",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-100",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "What does the sympathetic division of the ANS generally prepare the body for?",
+      "back": "Stress/emergency response (\"fight or flight\")",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-101",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "What does the parasympathetic division generally support?",
+      "back": "Routine/restful functions (\"rest and digest\")",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-102",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "What are ganglia?",
+      "back": "Clusters of neuron cell bodies located outside the CNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-103",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "Which meninx is the innermost layer, in contact with brain tissue?",
+      "back": "Pia mater",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-104",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "Which meninx is the tough, outermost layer?",
+      "back": "Dura mater",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-105",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "Which meninx is the very thin middle layer?",
+      "back": "Arachnoid",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-106",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "What kind of information do afferent neurons carry?",
+      "back": "Sensory information to the CNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-107",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "What kind of information do efferent neurons carry?",
+      "back": "Motor commands from the CNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-108",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "Is a cranial nerve part of the CNS or the PNS?",
+      "back": "PNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-109",
+      "topic": "Autonomic Nervous System",
+      "mode": "NCERT Recall",
+      "front": "Is a spinal nerve part of the CNS or the PNS?",
+      "back": "PNS",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-110",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What role does calcium play at a chemical synapse (general concept)?",
+      "back": "Triggers movement/fusion of synaptic vesicles for neurotransmitter release",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-111",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Where are synaptic vesicles located?",
+      "back": "In the axon terminal (synaptic knob)",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-112",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What ultimately generates the new potential in the post-synaptic neuron?",
+      "back": "Ion channels opened after neurotransmitter binds its receptor",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-113",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What is described as the structural and functional unit of the neural system?",
+      "back": "Neuron",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-114",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Does the unipolar neuron type persist commonly in adult humans?",
+      "back": "No — usually found only in the embryonic stage",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-115",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Where in the human body are bipolar neurons specifically found?",
+      "back": "Retina of the eye",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-116",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Where are multipolar neurons commonly found?",
+      "back": "Cerebral cortex",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-117",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What physically separates the left and right cerebral hemispheres?",
+      "back": "A deep longitudinal cleft/fissure",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-118",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What is the impulse-conduction process described as, in terms of a \"wave\"?",
+      "back": "A wave of depolarisation and repolarisation",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    },
+    {
+      "id": "NCC-119",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "Are electrical synapses common or rare in the human nervous system?",
+      "back": "Rare",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": true,
+      "pyqNote": "High-yield concept marked [PYQ] in the supplied flashcard set."
+    },
+    {
+      "id": "NCC-120",
+      "topic": "Rapid Revision",
+      "mode": "NCERT Recall",
+      "front": "What finally terminates an action potential at a given site, restoring rest?",
+      "back": "Restoration of the resting potential via K+ efflux",
+      "reference": "NCERT Biology Class XI, Chapter 18 — Neural Control and Coordination",
+      "pyqFocus": false,
+      "pyqNote": ""
+    }
+  ]
+}
