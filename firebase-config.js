@@ -10,7 +10,7 @@ export const firebaseConfig = {
   measurementId: "G-KFS89D65F1"
 };
 
-export const SCRUTINY_ACCESS_PRICE = 59;
+export const SCRUTINY_ACCESS_PRICE = 99;
 export const SCRUTINY_APP_ENTRY = "preview-v2.html";
 export const SCRUTINY_ADMIN_EMAILS = [
   "scrutinyacademy@gmail.com"
