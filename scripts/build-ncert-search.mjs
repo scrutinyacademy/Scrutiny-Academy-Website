@@ -3,8 +3,12 @@ import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
 const physicsPath = path.join(root, "data/neet/physics.json");
+const class11Path = path.join(root, "data/ncert/physics-class11-uploaded.json");
 const outputPath = path.join(root, "data/ncert/catalog.json");
 const physics = JSON.parse(fs.readFileSync(physicsPath, "utf8"));
+const class11Catalog = fs.existsSync(class11Path)
+  ? JSON.parse(fs.readFileSync(class11Path, "utf8"))
+  : { records: [], chapters: [] };
 
 const normalize = (value) =>
   String(value ?? "")
@@ -88,9 +92,9 @@ for (const [chapterIndex, chapter] of class12Chapters.entries()) {
 
 const catalog = {
   status: "active",
-  title: "NCERT Class 12 Physics concept index",
+  title: "NCERT Physics concept and source index",
   description:
-    "Concise meanings and source references generated from the published NCERT-based Physics question bank.",
+    "Concise meanings and source references generated from uploaded Class 11 Physics chapters and the published NCERT-based Class 12 Physics question bank.",
   policy:
     "Return concise study meanings with the supplied chapter, section and page reference; do not reproduce complete books.",
   recordFields: [
@@ -107,11 +111,13 @@ const catalog = {
     "printedPage",
     "keywords",
   ],
-  chapterCount: class12Chapters.length,
-  records,
+  chapterCount: class12Chapters.length + (class11Catalog.chapterCount || 0),
+  class11ChapterCount: class11Catalog.chapterCount || 0,
+  class12ChapterCount: class12Chapters.length,
+  records: [...(class11Catalog.records || []), ...records],
 };
 
 fs.writeFileSync(outputPath, `${JSON.stringify(catalog, null, 2)}\n`);
 console.log(
-  `Built ${records.length} searchable NCERT concepts across ${class12Chapters.length} Class 12 Physics chapters.`,
+  `Built ${catalog.records.length} searchable NCERT Physics records across ${catalog.chapterCount} chapters.`,
 );

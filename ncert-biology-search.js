@@ -167,15 +167,30 @@
     </section>`;
   }
 
-  function resultCard(record, crossChapters, firstInChapter) {
-    const otherChapters = crossChapters.filter((chapter) => chapter !== record.chapter);
-    const otherChapterLine = record.crossChapter
-      ? `<div class="ncert-other-chapters"><strong>${otherChapters.length ? "Also found in" : "Chapter occurrence"}</strong><span>${
-          otherChapters.length
-            ? otherChapters.map((chapter) => `<b>${esc(chapter)}</b>`).join("")
-            : "This term appears only in this uploaded chapter."
-        }</span></div>`
-      : "";
+  function sourceSummary(records) {
+    if (!records.length) return "";
+    const chapters = [...new Set(records.map((record) => record.chapter))].sort();
+    return `<section class="ncert-cross-summary">
+      <span class="eyebrow">CROSS-CHAPTER SOURCE MAP</span>
+      <h3>“${esc($("ncertQuery").value.trim())}” appears in ${chapters.length} NCERT chapter${chapters.length === 1 ? "" : "s"}</h3>
+      <p>${records.length} matching source reference${records.length === 1 ? "" : "s"} across the indexed NCERT Biology, Chemistry and Physics records.</p>
+      <div class="ncert-chapter-map">${chapters
+        .slice(0, 18)
+        .map((chapter) => `<a href="#ncert"><strong>NCERT</strong>${esc(chapter)}</a>`)
+        .join("")}</div>
+    </section>`;
+  }
+
+  function resultCard(record, matchingChapters, firstInChapter) {
+    const otherChapters = matchingChapters.filter((chapter) => chapter !== record.chapter);
+    const otherChapterLine =
+      otherChapters.length || record.crossChapter
+        ? `<div class="ncert-other-chapters"><strong>${otherChapters.length ? "Also found in" : "Chapter occurrence"}</strong><span>${
+            otherChapters.length
+              ? otherChapters.map((chapter) => `<b>${esc(chapter)}</b>`).join("")
+              : "This term appears only in this uploaded chapter."
+          }</span></div>`
+        : "";
     const meaning = record.crossChapter
       ? `NCERT discusses “${esc($("ncertQuery").value.trim())}” in this section. ${esc(record.meaning)}`
       : esc(record.meaning);
@@ -195,7 +210,7 @@
     const physicsCount = records.filter((record) => record.subject === "Physics").length;
     const element = $("ncertResults");
     if (!element) return;
-    element.innerHTML = `<div class="empty-state compact"><strong>${crossChapter.pageRecordCount} exact Biology source pages</strong> from <strong>${crossChapter.chapterCount} NCERT chapters</strong> are cross-linked, alongside <strong>${chemistryCount.toLocaleString("en-IN")} Chemistry concepts</strong> and <strong>${physicsCount.toLocaleString("en-IN")} Physics concepts</strong>. Search a term to see every chapter and page where it occurs.</div>`;
+    element.innerHTML = `<div class="empty-state compact"><strong>${crossChapter.pageRecordCount} exact Biology source pages</strong> from <strong>${crossChapter.chapterCount} NCERT chapters</strong> are cross-linked, alongside <strong>${chemistryCount.toLocaleString("en-IN")} Chemistry concepts</strong> and <strong>${physicsCount.toLocaleString("en-IN")} Physics Class 11/12 records</strong>. Search a term to see every chapter and page where it occurs.</div>`;
   }
 
   async function search() {
@@ -224,16 +239,16 @@
       return;
     }
     const crossMatches = matches.filter((record) => record.crossChapter);
-    const crossChapters = [...new Set(crossMatches.map((record) => record.chapter))];
+    const matchingChapters = [...new Set(matches.map((record) => record.chapter))];
     const shown = matches.slice(0, 80);
     const seenChapters = new Set();
-    element.innerHTML = `${crossChapterSummary(crossMatches)}
+    element.innerHTML = `${crossMatches.length ? crossChapterSummary(crossMatches) : sourceSummary(matches)}
       <p class="ncert-result-count">${matches.length} matching NCERT reference${matches.length === 1 ? "" : "s"}${matches.length > shown.length ? ` · showing the first ${shown.length}` : ""}</p>
       <div class="ncert-result-grid">${shown
         .map((record) => {
           const firstInChapter = record.crossChapter && !seenChapters.has(record.chapter);
           if (firstInChapter) seenChapters.add(record.chapter);
-          return resultCard(record, crossChapters, firstInChapter);
+          return resultCard(record, matchingChapters, firstInChapter);
         })
         .join("")}</div>`;
   }
@@ -242,10 +257,10 @@
     const description = document.querySelector("#ncert .section-head p");
     if (description)
       description.textContent =
-        "Search a Biology term or concept across nine NCERT chapters and instantly see every other chapter and exact page where it appears. Chemistry and Physics concept search remain available.";
+        "Search Biology, Chemistry, or Physics NCERT terms and instantly see the chapter, section and page where each concept appears. Physics now includes the uploaded Class 11 chapters plus Class 12 concept records.";
     const input = $("ncertQuery");
     if (input) {
-      input.placeholder = "Try: ATP, calcium, hormone, oxygen, pyruvate, haemoglobin…";
+      input.placeholder = "Try: friction, torque, escape velocity, ATP, calcium, hormone…";
       input.setAttribute("aria-label", "Search concepts across NCERT chapters");
       input.addEventListener(
         "keydown",

@@ -7,16 +7,23 @@ const read = (file) =>
   JSON.parse(fs.readFileSync(path.join(root, file), "utf8"));
 const catalog = read("data/ncert/catalog.json");
 const physics = read("data/neet/physics.json");
+const class11 = read("data/ncert/physics-class11-uploaded.json");
 const chapters = physics.chapters.filter(
   (chapter) => chapter.classLevel === 12 && chapter.mcqs?.length,
 );
 const chapterNames = new Set(chapters.map((chapter) => chapter.name));
+for (const chapter of class11.chapters || []) chapterNames.add(chapter.chapter);
 
 assert.equal(catalog.status, "active");
-assert.equal(catalog.chapterCount, 14);
+assert.equal(catalog.class11ChapterCount, 7);
+assert.equal(catalog.class12ChapterCount, 14);
+assert.equal(catalog.chapterCount, 21);
 assert.equal(chapters.length, 14);
-assert.equal(catalog.records.length, 420);
-assert.equal(new Set(catalog.records.map((record) => record.id)).size, 420);
+assert.ok(catalog.records.length > 420);
+assert.equal(
+  new Set(catalog.records.map((record) => record.id)).size,
+  catalog.records.length,
+);
 
 for (const chapter of chapters) {
   assert.equal(
@@ -27,7 +34,7 @@ for (const chapter of chapters) {
 }
 
 for (const record of catalog.records) {
-  assert.equal(record.class, 12);
+  assert.ok([11, 12].includes(record.class));
   assert.equal(record.subject, "Physics");
   assert.ok(chapterNames.has(record.chapter), `Unknown chapter: ${record.chapter}`);
   for (const field of [
@@ -45,6 +52,13 @@ for (const record of catalog.records) {
 }
 
 for (const term of [
+  "significant figures",
+  "instantaneous velocity",
+  "projectile motion",
+  "static friction",
+  "kinetic energy",
+  "torque",
+  "escape velocity",
   "electric flux",
   "capacitance",
   "kirchhoff",
@@ -79,5 +93,5 @@ for (const term of [
 }
 
 console.log(
-  "Validated 420 NCERT search concepts across all 14 Class 12 Physics chapters and representative keyword queries.",
+  `Validated ${catalog.records.length} NCERT Physics search records across 21 Class 11/12 chapters and representative keyword queries.`,
 );
