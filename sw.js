@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v7";
+const CACHE = "scrutiny-academy-v8";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
