@@ -98,6 +98,18 @@
           >START PRACTICE</a
         >
       </section>
+      <section class="card student-review-box" style="margin-top: 16px">
+        <span class="eyebrow">YOUR FEEDBACK</span>
+        <h3>Review Scrutiny Academy</h3>
+        <p>Only registered students can submit a review. Your name, star rating and review may appear publicly on the login page. Your email and phone are never shown.</p>
+        <form id="reviewForm" class="review-form">
+          <fieldset><legend>Your rating</legend><div class="star-picker" id="starPicker" aria-label="Choose a rating out of 5">
+            <button type="button" data-star="1" aria-label="1 star">★</button><button type="button" data-star="2" aria-label="2 stars">★</button><button type="button" data-star="3" aria-label="3 stars">★</button><button type="button" data-star="4" aria-label="4 stars">★</button><button type="button" data-star="5" aria-label="5 stars">★</button>
+          </div></fieldset>
+          <label>Share your experience<textarea id="reviewText" maxlength="500" minlength="10" required placeholder="What helped you most? Keep your review honest and useful for other students."></textarea></label>
+          <div class="review-submit-row"><button class="primary" type="submit">SUBMIT REVIEW</button><span id="reviewMessage" class="message" role="status" aria-live="polite"></span></div>
+        </form>
+      </section>
       <section class="card" style="margin-top: 16px">
         <h3>Account &amp; Support</h3>
         <p>
