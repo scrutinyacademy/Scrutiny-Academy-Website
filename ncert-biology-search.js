@@ -50,7 +50,7 @@
   let cache = null;
   async function getData() {
     if (cache) return cache;
-    const [physics, biology, chemistry, crossChapter, ...biologyDetails] =
+    const [physicsIndex, biology, chemistry, crossChapter, ...biologyDetails] =
       await Promise.all([
         fetch(sources.physics).then((response) => response.json()),
         fetch(sources.biology).then((response) => response.json()),
@@ -58,6 +58,13 @@
         fetch(sources.biologyCrossChapter).then((response) => response.json()),
         ...sources.biologyDetails.map((url) => fetch(url).then((response) => response.json())),
       ]);
+    const physicsShards = await Promise.all(
+      (physicsIndex.shards || []).map((url) => fetch(url).then((response) => response.json())),
+    );
+    const physicsRecords = [
+      ...(physicsIndex.records || []),
+      ...physicsShards.flatMap((shard) => shard.records || []),
+    ];
     const currentChapters = new Set(crossChapter.chapters.map((chapter) => chapter.name));
     const olderDetails = [];
     biologyDetails.forEach((dataset) =>
@@ -85,7 +92,7 @@
     cache = {
       crossChapter,
       records: [
-        ...(physics.records || []),
+        ...physicsRecords,
         ...olderDetails,
         ...(biology.records || []).filter((record) => !currentChapters.has(record.chapter)),
         ...(chemistry.records || []),

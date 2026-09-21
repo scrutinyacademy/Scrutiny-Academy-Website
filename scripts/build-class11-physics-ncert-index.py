@@ -259,8 +259,21 @@ def main():
     parser.add_argument("upload_directory")
     args = parser.parse_args()
     catalog = build_records(Path(args.upload_directory))
-    output = ROOT / "data" / "ncert" / "physics-class11-uploaded.json"
-    output.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
+    output_dir = ROOT / "data" / "ncert"
+    for old in output_dir.glob("physics-class11-source-*.json"):
+        old.unlink()
+    shard_size = 160
+    shards = []
+    for index in range(0, len(catalog["records"]), shard_size):
+        shard_name = f"physics-class11-source-{len(shards) + 1:02d}.json"
+        shard_records = catalog["records"][index : index + shard_size]
+        (output_dir / shard_name).write_text(
+            json.dumps({"records": shard_records}, ensure_ascii=False, indent=2) + "\n"
+        )
+        shards.append(f"data/ncert/{shard_name}")
+    output = output_dir / "physics-class11-uploaded.json"
+    compact_catalog = {**catalog, "recordCount": len(catalog["records"]), "records": [], "shards": shards}
+    output.write_text(json.dumps(compact_catalog, ensure_ascii=False, indent=2) + "\n")
     print(
         f"Built {len(catalog['records'])} Class 11 Physics NCERT source records "
         f"across {catalog['chapterCount']} uploaded chapters."

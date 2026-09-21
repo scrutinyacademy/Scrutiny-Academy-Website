@@ -8,6 +8,12 @@ const read = (file) =>
 const catalog = read("data/ncert/catalog.json");
 const physics = read("data/neet/physics.json");
 const class11 = read("data/ncert/physics-class11-uploaded.json");
+const class11Records = (class11.records || []).concat(
+  ...(class11.shards || []).map((file) => read(file).records || []),
+);
+const records = (catalog.records || []).concat(
+  ...(catalog.shards || []).map((file) => read(file).records || []),
+);
 const chapters = physics.chapters.filter(
   (chapter) => chapter.classLevel === 12 && chapter.mcqs?.length,
 );
@@ -19,21 +25,22 @@ assert.equal(catalog.class11ChapterCount, 7);
 assert.equal(catalog.class12ChapterCount, 14);
 assert.equal(catalog.chapterCount, 21);
 assert.equal(chapters.length, 14);
-assert.ok(catalog.records.length > 420);
+assert.ok(class11Records.length > 1000);
+assert.ok(records.length > 420);
 assert.equal(
-  new Set(catalog.records.map((record) => record.id)).size,
-  catalog.records.length,
+  new Set(records.map((record) => record.id)).size,
+  records.length,
 );
 
 for (const chapter of chapters) {
   assert.equal(
-    catalog.records.filter((record) => record.chapter === chapter.name).length,
+    records.filter((record) => record.chapter === chapter.name).length,
     30,
     `Expected 30 indexed concepts: ${chapter.name}`,
   );
 }
 
-for (const record of catalog.records) {
+for (const record of records) {
   assert.ok([11, 12].includes(record.class));
   assert.equal(record.subject, "Physics");
   assert.ok(chapterNames.has(record.chapter), `Unknown chapter: ${record.chapter}`);
@@ -76,7 +83,7 @@ for (const term of [
 ]) {
   const words = term.toLowerCase().split(/\s+/);
   assert.ok(
-    catalog.records.some((record) => {
+    records.some((record) => {
       const haystack = [
         record.topic,
         record.meaning,
@@ -93,5 +100,5 @@ for (const term of [
 }
 
 console.log(
-  `Validated ${catalog.records.length} NCERT Physics search records across 21 Class 11/12 chapters and representative keyword queries.`,
+  `Validated ${records.length} NCERT Physics search records across 21 Class 11/12 chapters and representative keyword queries.`,
 );

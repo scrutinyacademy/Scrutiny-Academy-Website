@@ -5,10 +5,16 @@ const root = path.resolve(import.meta.dirname, "..");
 const physicsPath = path.join(root, "data/neet/physics.json");
 const class11Path = path.join(root, "data/ncert/physics-class11-uploaded.json");
 const outputPath = path.join(root, "data/ncert/catalog.json");
+const outputDir = path.join(root, "data/ncert");
 const physics = JSON.parse(fs.readFileSync(physicsPath, "utf8"));
 const class11Catalog = fs.existsSync(class11Path)
   ? JSON.parse(fs.readFileSync(class11Path, "utf8"))
   : { records: [], chapters: [] };
+const class11Records = (class11Catalog.records || []).concat(
+  ...((class11Catalog.shards || []).map((file) =>
+    JSON.parse(fs.readFileSync(path.join(root, file), "utf8")).records || [],
+  )),
+);
 
 const normalize = (value) =>
   String(value ?? "")
@@ -90,6 +96,19 @@ for (const [chapterIndex, chapter] of class12Chapters.entries()) {
   });
 }
 
+const allRecords = [...class11Records, ...records];
+const shardSize = 160;
+const shards = [];
+for (let index = 0; index < allRecords.length; index += shardSize) {
+  const shardRecords = allRecords.slice(index, index + shardSize);
+  const shardName = `physics-search-${String(shards.length + 1).padStart(2, "0")}.json`;
+  fs.writeFileSync(
+    path.join(outputDir, shardName),
+    `${JSON.stringify({ records: shardRecords }, null, 2)}\n`,
+  );
+  shards.push(`data/ncert/${shardName}`);
+}
+
 const catalog = {
   status: "active",
   title: "NCERT Physics concept and source index",
@@ -114,10 +133,12 @@ const catalog = {
   chapterCount: class12Chapters.length + (class11Catalog.chapterCount || 0),
   class11ChapterCount: class11Catalog.chapterCount || 0,
   class12ChapterCount: class12Chapters.length,
-  records: [...(class11Catalog.records || []), ...records],
+  recordCount: allRecords.length,
+  shards,
+  records: [],
 };
 
 fs.writeFileSync(outputPath, `${JSON.stringify(catalog, null, 2)}\n`);
 console.log(
-  `Built ${catalog.records.length} searchable NCERT Physics records across ${catalog.chapterCount} chapters.`,
+  `Built ${allRecords.length} searchable NCERT Physics records across ${catalog.chapterCount} chapters in ${shards.length} shards.`,
 );
