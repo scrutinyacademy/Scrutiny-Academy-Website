@@ -9,6 +9,8 @@ import {
   getFirestore,
   doc,
   getDoc,
+  setDoc,
+  serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const app = initializeApp(firebaseConfig),
   auth = getAuth(app),
@@ -111,6 +113,7 @@ onAuthStateChanged(auth, async (user) => {
   $("studentMeta").textContent =
     `${p.email || user.email} • Access status: Active`;
   renderSummary();
+  setupReview(user, p);
   try {
     const progress = await getDoc(doc(db, "learningProgress", user.uid));
     if (progress.exists()) renderSummary(progress.data());
@@ -122,6 +125,51 @@ $("logoutBtn").onclick = async () => {
   await signOut(auth);
   location.replace("login.html");
 };
+
+let selectedRating=0;
+function paintStars(){
+  document.querySelectorAll('#starPicker button').forEach(button=>{
+    button.classList.toggle('selected',Number(button.dataset.star)<=selectedRating);
+  });
+}
+function setupReview(user, profile){
+  const form=$('reviewForm');
+  if(!form) return;
+  document.querySelectorAll('#starPicker button').forEach(button=>button.addEventListener('click',()=>{
+    selectedRating=Number(button.dataset.star); paintStars();
+  }));
+  getDoc(doc(db,'reviews',user.uid)).then(snap=>{
+    if(!snap.exists()) return;
+    const review=snap.data();
+    selectedRating=Number(review.rating)||0;
+    $('reviewText').value=review.review||'';
+    paintStars();
+  }).catch(console.error);
+  form.addEventListener('submit',async event=>{
+    event.preventDefault();
+    const message=$('reviewMessage');
+    const review=$('reviewText').value.trim();
+    if(selectedRating<1){ message.textContent='Choose a star rating first.'; message.className='message error'; return; }
+    if(review.length<10){ message.textContent='Please write at least 10 characters.'; message.className='message error'; return; }
+    message.textContent='Saving your review…'; message.className='message';
+    try{
+      await setDoc(doc(db,'reviews',user.uid),{
+        uid:user.uid,
+        studentName:(profile.name||'Student').trim().slice(0,80),
+        rating:selectedRating,
+        review:review.slice(0,500),
+        verifiedRegisteredStudent:true,
+        updatedAt:serverTimestamp()
+      },{merge:true});
+      message.textContent='Thank you. Your review is now saved.';
+      message.className='message success';
+    }catch(error){
+      console.error('Review save failed',error);
+      message.textContent='Could not save your review. Please try again.';
+      message.className='message error';
+    }
+  });
+}
 
 if ("serviceWorker" in navigator) {
   addEventListener("load", () =>
