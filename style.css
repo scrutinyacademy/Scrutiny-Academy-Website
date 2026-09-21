@@ -1317,6 +1317,113 @@ button {
   border-color: var(--color-danger);
 }
 
+/* NCERT Physics subtopic practice */
+.chapter-actions,
+.subtopic-actions,
+.question-tools,
+.subtopic-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subtopic-panel {
+  margin: 28px 0 42px;
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid #cbd5e1;
+  border-radius: 24px;
+  background: linear-gradient(145deg, #f8fbff, #eef6ff);
+  scroll-margin-top: 90px;
+}
+
+.subtopic-panel-head,
+.subtopic-card-meta,
+.answer-feedback,
+.solution-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.subtopic-filter-row { margin: 22px 0; }
+
+.filter-pill {
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  background: #fff;
+  color: #1e3a8a;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-pill.active { background: #1d4ed8; color: #fff; border-color: #1d4ed8; }
+
+.subtopic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.subtopic-card {
+  padding: 20px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgb(30 64 175 / 8%);
+}
+
+.subtopic-card h4 { margin: 12px 0; font-size: 1.05rem; line-height: 1.4; }
+.subtopic-card > strong { font-size: 1.6rem; color: #1d4ed8; }
+.subtopic-card-meta { color: #475569; font-size: .8rem; font-weight: 700; }
+.subtopic-actions .btn { min-width: 56px; }
+
+.quiz-visual {
+  max-width: 520px;
+  margin: 0 auto 20px;
+  padding: 12px;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.quiz-visual svg { display: block; width: 100%; height: auto; }
+.graph-axis { stroke: #334155; stroke-width: 2; }
+.graph-line { fill: none; stroke: #2563eb; stroke-width: 4; }
+.quiz-visual text { font: 14px system-ui, sans-serif; fill: #334155; }
+.question-tools { margin-top: 14px; }
+
+.answer-feedback {
+  align-items: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgb(22 101 52 / 18%);
+}
+
+.answer-feedback.is-wrong { color: #991b1b; }
+.detailed-solution { margin-top: 14px; }
+.detailed-solution summary { cursor: pointer; font-weight: 800; text-transform: uppercase; }
+.detailed-solution p { margin: 12px 0 0; }
+.detailed-solution p strong { display: block; margin-bottom: 4px; }
+.detailed-solution ol { padding-left: 22px; }
+.detailed-solution li { margin: 10px 0; line-height: 1.55; }
+.solution-grid p { flex: 1; }
+.solution-reference { font-size: .88rem; opacity: .85; }
+
+@media (max-width: 640px) {
+  .subtopic-panel-head,
+  .answer-feedback,
+  .solution-grid { flex-direction: column; }
+  .chapter-actions .btn { width: 100%; }
+  .subtopic-grid { grid-template-columns: 1fr; }
+  .subtopic-filter-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; }
+  .filter-pill { flex: 0 0 auto; }
+  .quiz-shell section { padding-inline: 16px; }
+  .quiz-shell h2 { overflow-wrap: anywhere; }
+  .options button { overflow-wrap: anywhere; }
+}
+
 /* Explanation Box */
 .explanation-box {
   background: #F0FDF4;

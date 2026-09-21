@@ -23,7 +23,7 @@
       platform: null,
       manifest: null,
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
-      neet: { subject: "biology", data: null },
+      neet: { subject: "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
       flashcards: {
         catalog: null,
@@ -46,6 +46,10 @@
     const r = await fetch(p);
     if (!r.ok) throw Error(p);
     const d = await r.json();
+    if (p === "data/neet/physics.json" && Array.isArray(window.SCRUTINY_CLASS11_PHYSICS)) {
+      const generated = new Map(window.SCRUTINY_CLASS11_PHYSICS.map((chapter) => [chapter.id, chapter]));
+      d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
+    }
     if (p === "data/neet/biology.json")
       for (const chapter of d.chapters || [])
         if (temporarilyUnpublishedBiologyChapters.has(chapter.name))
@@ -91,9 +95,10 @@
       })),
     );
   function difficulty(q) {
-    return String(q.difficulty || q.level || "")
+    const value = String(q.difficulty || q.level || "")
       .trim()
       .toLowerCase();
+    return ({ easy: "foundation", moderate: "neet standard", medium: "neet standard", difficult: "challenge", hard: "challenge" })[value] || value;
   }
   function filterDifficulty(qs, d) {
     return d === "all" ? qs : qs.filter((q) => difficulty(q) === d);
@@ -162,6 +167,8 @@
     );
     $("neetSubject").onchange = async (e) => {
       state.neet.subject = e.target.value;
+      state.neet.chapter = null;
+      $("neetSubtopicPanel").hidden = true;
       await renderNeetAvailability();
       renderNeetChapters();
     };
@@ -185,6 +192,9 @@
     $("quizPrev").onclick = () => moveQuiz(-1);
     $("quizNext").onclick = () => moveQuiz(1);
     $("quizSubmit").onclick = finishQuiz;
+    $("quizBookmark").onclick = toggleQuizBookmark;
+    $("quizReport").onclick = reportQuizQuestion;
+    $("retryWrong").onclick = retryWrongQuestions;
     $("shareResult").onclick = shareResult;
     $("closeResult").onclick = () => $("resultDialog").close();
   }
@@ -347,7 +357,8 @@
                 __chapter: ch.name || ch.title,
               })),
               qs = filterDifficulty(all, diff);
-            return `<article class="neet-chapter-card"><div class="chapter-meta"><span>Class ${esc(ch.classLevel || "—")}</span><span>•</span><span>Chapter ${i + 1}</span></div><h3>${esc(ch.name || ch.title)}</h3><div class="chapter-count">${qs.length}</div><p>${diff === "all" ? "published" : esc(diff)} MCQs available</p><button class="btn primary neet-chapter-practice" data-i="${i}" ${qs.length ? "" : "disabled"}>Practice this chapter</button></article>`;
+            const hasSubtopics = Array.isArray(ch.subtopics) && ch.subtopics.length;
+            return `<article class="neet-chapter-card"><div class="chapter-meta"><span>Class ${esc(ch.classLevel || "—")}</span><span>•</span><span>Chapter ${i + 1}</span></div><h3>${esc(ch.name || ch.title)}</h3><div class="chapter-count">${qs.length}</div><p>${diff === "all" ? "published" : esc(diff)} MCQs available${hasSubtopics ? ` • ${ch.subtopics.length} subtopics` : ""}</p><div class="chapter-actions"><button class="btn primary neet-chapter-practice" data-i="${i}" ${qs.length ? "" : "disabled"}>Mixed chapter test</button>${hasSubtopics ? `<button class="btn ghost neet-subtopic-open" data-i="${i}">Explore subtopics</button>` : ""}</div></article>`;
           })
           .join("")
       : '<div class="empty-state">No chapters match.</div>';
@@ -373,6 +384,53 @@
             );
           }),
       );
+    $("neetChapterGrid")
+      .querySelectorAll(".neet-subtopic-open")
+      .forEach((button) => {
+        button.onclick = () => renderNeetSubtopics(+button.dataset.i);
+      });
+  }
+  function questionMatchesType(q, filter) {
+    if (filter === "all") return true;
+    const type = String(q.questionType || "").toLowerCase();
+    if (["foundation", "neet standard", "challenge"].includes(filter)) return difficulty(q) === filter;
+    if (filter === "visual") return Boolean(q.visualRequired || q.visualSpec || q.image);
+    if (filter === "common traps") return type.includes("trap") || type.includes("misconception");
+    if (filter === "conceptual") return type.includes("concept") || type.includes("statement") || type.includes("assertion");
+    return type.includes(filter);
+  }
+  function renderNeetSubtopics(chapterIndex) {
+    const chapter = state.neet.data?.chapters?.[chapterIndex];
+    if (!chapter?.subtopics?.length) return;
+    state.neet.chapter = chapterIndex;
+    state.neet.subtopicFilter = "all";
+    const panel = $("neetSubtopicPanel");
+    panel.hidden = false;
+    panel.innerHTML = `<div class="subtopic-panel-head"><div><span class="eyebrow">CLASS ${esc(chapter.classLevel)} PHYSICS</span><h3>${esc(chapter.name)}</h3><p>${chapter.subtopics.length} NCERT-mapped subtopics • ${(chapter.mcqs || []).length} validated MCQs</p></div><button class="icon-btn" type="button" id="closeSubtopics" aria-label="Close subtopics">×</button></div><div class="subtopic-filter-row">${["all","foundation","neet standard","challenge","numerical","conceptual","graph","visual","common traps"].map(filter => `<button type="button" class="filter-pill ${filter === "all" ? "active" : ""}" data-sub-filter="${filter}">${filter.replace(/\b\w/g, c => c.toUpperCase())}</button>`).join("")}</div><div id="subtopicGrid" class="subtopic-grid"></div>`;
+    $("closeSubtopics").onclick = () => { panel.hidden = true; };
+    panel.querySelectorAll("[data-sub-filter]").forEach(button => {
+      button.onclick = () => {
+        state.neet.subtopicFilter = button.dataset.subFilter;
+        panel.querySelectorAll("[data-sub-filter]").forEach(x => x.classList.toggle("active", x === button));
+        renderSubtopicCards(chapter);
+      };
+    });
+    renderSubtopicCards(chapter);
+    panel.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  function renderSubtopicCards(chapter) {
+    const filter = state.neet.subtopicFilter;
+    $("subtopicGrid").innerHTML = chapter.subtopics.map((subtopic, index) => {
+      const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter));
+      return `<article class="subtopic-card"><div class="subtopic-card-meta"><span>${esc(subtopic.ncertSections)}</span><span>${esc(subtopic.importance || "High")}</span></div><h4>${esc(subtopic.name)}</h4><strong>${questions.length} MCQs</strong><p>${filter === "all" ? "Complete targeted practice" : `${esc(filter)} filter`}</p><div class="subtopic-actions">${[10,20,40].map(count => `<button type="button" class="btn ${count === 40 ? "primary" : "ghost"} small subtopic-start" data-sub="${index}" data-count="${count}" ${questions.length ? "" : "disabled"}>${count}</button>`).join("")}</div></article>`;
+    }).join("");
+    $("subtopicGrid").querySelectorAll(".subtopic-start").forEach(button => {
+      button.onclick = () => {
+        const subtopic = chapter.subtopics[+button.dataset.sub];
+        const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter)).map(q => ({ ...q, __chapter: chapter.name, __subject: "Physics" }));
+        startQuiz(questions, `${chapter.name} • ${subtopic.name}`, $("neetMode").value, Math.min(+button.dataset.count, questions.length));
+      };
+    });
   }
   async function startNeet() {
     const { d, sub } = await renderNeetAvailability(),
@@ -613,14 +671,56 @@
     }
     return -1;
   }
+  function renderQuestionVisual(q) {
+    const host = $("quizVisual");
+    if (!q.visualSpec || q.visualSpec.type !== "line") {
+      host.hidden = true;
+      host.innerHTML = "";
+      return;
+    }
+    const points = q.visualSpec.points || [];
+    const polyline = points.map(([x, y]) => `${50 + x * 75},${190 - y * 45}`).join(" ");
+    host.hidden = false;
+    host.innerHTML = `<svg viewBox="0 0 340 230" role="img" aria-label="${esc(q.visualSpec.yLabel)} versus ${esc(q.visualSpec.xLabel)} graph"><line x1="50" y1="190" x2="315" y2="190" class="graph-axis"/><line x1="50" y1="190" x2="50" y2="20" class="graph-axis"/><polyline points="${polyline}" class="graph-line"/><text x="185" y="222">${esc(q.visualSpec.xLabel)}</text><text x="18" y="110" transform="rotate(-90 18 110)">${esc(q.visualSpec.yLabel)}</text></svg>`;
+  }
+  function getQuestionMarks(key) {
+    try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
+    catch { return new Set(); }
+  }
+  function toggleQuizBookmark() {
+    const q = state.quiz?.questions?.[state.quiz.index];
+    if (!q) return;
+    const marks = getQuestionMarks("scrutiny_physics_bookmarks");
+    marks.has(q.id) ? marks.delete(q.id) : marks.add(q.id);
+    localStorage.setItem("scrutiny_physics_bookmarks", JSON.stringify([...marks]));
+    $("quizBookmark").textContent = marks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
+    toast(marks.has(q.id) ? "Question bookmarked." : "Bookmark removed.");
+  }
+  function reportQuizQuestion() {
+    const q = state.quiz?.questions?.[state.quiz.index];
+    if (!q) return;
+    const reports = getQuestionMarks("scrutiny_physics_reports");
+    reports.add(q.id);
+    localStorage.setItem("scrutiny_physics_reports", JSON.stringify([...reports]));
+    $("quizReport").textContent = "⚑ Reported";
+    const subject = encodeURIComponent(`Physics MCQ report: ${q.id}`);
+    const body = encodeURIComponent(`Question ID: ${q.id}\nChapter: ${q.__chapter || q.chapter || ""}\nSubtopic: ${q.subtopic || ""}\n\nPlease describe the issue:\n`);
+    window.open(`mailto:scrutinyacademy@gmail.com?subject=${subject}&body=${body}`, "_blank", "noopener");
+    toast(`Report prepared for ${q.id}.`);
+  }
+  function detailedSolution(q, chosen, correctIndex) {
+    const steps = (q.solutionSteps || [q.explanation || "Apply the stated NCERT principle."]).map((step, index) => `<li><strong>Step ${index + 1}</strong> ${esc(step)}</li>`).join("");
+    return `<div class="answer-feedback ${chosen === correctIndex ? "is-correct" : "is-wrong"}"><strong>${chosen === correctIndex ? "Correct" : "Incorrect"}</strong><span>Correct answer: ${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span></div><details class="detailed-solution"><summary>View detailed solution</summary><div class="solution-grid"><p><strong>Concept</strong>${esc(q.conceptTested || q.topic || "NCERT concept")}</p><p><strong>Formula</strong>${esc(q.formulaUsed || "Not required")}</p></div><ol>${steps}</ol><p><strong>Why students get this wrong</strong>${esc(q.commonTrap || "A related formula or sign is applied without checking the conditions.")}</p><p><strong>NEET shortcut</strong>${esc(q.neetShortcut || "Write the governing relation and check units before selecting an option.")}</p><p class="solution-reference"><strong>NCERT link</strong>${esc(q.ncertSection || q.references?.[0]?.section || "Mapped to uploaded chapter")}</p></details>`;
+  }
   function renderQuiz() {
     const z = state.quiz,
       q = z.questions[z.index],
       chosen = z.answers[z.index],
       ans = answer(q);
     $("quizChapter").textContent =
-      `${q.__subject ? `${q.__subject} • ` : ""}${q.__chapter || ""}${difficulty(q) ? ` • ${difficulty(q)}` : ""}`;
+      `${q.__subject ? `${q.__subject} • ` : ""}${q.__chapter || ""}${q.subtopic ? ` • ${q.subtopic}` : ""}${difficulty(q) ? ` • ${difficulty(q)}` : ""}${q.questionType ? ` • ${q.questionType}` : ""}`;
     $("quizQuestion").textContent = q.question;
+    renderQuestionVisual(q);
     $("quizPosition").textContent = `${z.index + 1} / ${z.questions.length}`;
     $("quizProgress").style.width =
       `${((z.index + 1) / z.questions.length) * 100}%`;
@@ -648,8 +748,11 @@
       z.mode === "practice" && chosen !== undefined
     );
     if (!$("quizExplanation").hidden)
-      $("quizExplanation").innerHTML =
-        `<strong>${chosen === ans ? "Correct" : "Review this concept"}</strong><br>${esc(q.explanation || "Explanation not published yet.")}`;
+      $("quizExplanation").innerHTML = detailedSolution(q, chosen, ans);
+    const bookmarks = getQuestionMarks("scrutiny_physics_bookmarks");
+    const reports = getQuestionMarks("scrutiny_physics_reports");
+    $("quizBookmark").textContent = bookmarks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
+    $("quizReport").textContent = reports.has(q.id) ? "⚑ Reported" : "⚑ Report question";
   }
   function moveQuiz(d) {
     state.quiz.index = Math.max(
@@ -679,6 +782,16 @@
         correctIndex,
         isCorrect,
         explanation: q.explanation || "",
+        solutionSteps: q.solutionSteps || [],
+        conceptTested: q.conceptTested || q.topic || "",
+        formulaUsed: q.formulaUsed || "",
+        commonTrap: q.commonTrap || "",
+        neetShortcut: q.neetShortcut || "",
+        questionType: q.questionType || "",
+        subtopic: q.subtopic || "",
+        ncertSection: q.ncertSection || "",
+        visualSpec: q.visualSpec || null,
+        visualRequired: Boolean(q.visualRequired),
         subject: q.__subject || "",
         chapter: q.__chapter || "",
         difficulty: difficulty(q),
@@ -711,9 +824,22 @@
     $("resultTitle").textContent = r.title;
     $("resultScore").textContent = `${r.correct}/${r.total}`;
     $("resultAccuracy").textContent = `${r.accuracy}% accuracy`;
-    $("resultAttempted").textContent = `Attempted: ${r.attempted}/${r.total}`;
+    $("resultAttempted").textContent = `Attempted: ${r.attempted}/${r.total} • Incorrect: ${r.attempted - r.correct} • Unattempted: ${r.total - r.attempted}`;
     $("resultTime").textContent = `Time: ${formatTime(r.seconds)}`;
     $("resultDialog").showModal();
+  }
+  function retryWrongQuestions() {
+    const r = state.lastResult;
+    if (!r) return;
+    const wrong = r.review.filter(item => item.selected !== undefined && !item.isCorrect).map(item => ({
+      ...item,
+      answer: item.correctIndex,
+      __subject: item.subject,
+      __chapter: item.chapter,
+    }));
+    if (!wrong.length) return toast("No incorrect attempted questions in this session.");
+    $("resultDialog").close();
+    startQuiz(wrong, `${r.title} • Wrong questions`, "practice", wrong.length);
   }
   async function shareResult() {
     const r = state.lastResult;

@@ -155,9 +155,9 @@
           ><label class="field"
             >Difficulty<select id="neetDifficulty">
               <option value="all">All</option>
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
+              <option value="foundation">Foundation</option>
+              <option value="neet standard">NEET Standard</option>
+              <option value="challenge">Challenge</option>
             </select></label
           ><label class="field"
             >Mode<select id="neetMode">
@@ -167,6 +167,8 @@
           ><label class="field"
             >Questions<select id="neetCount">
               <option>10</option>
+              <option>20</option>
+              <option>40</option>
               <option>25</option>
               <option>50</option>
               <option>100</option>
@@ -190,6 +192,7 @@
           />
         </div>
         <div id="neetChapterGrid" class="neet-chapter-grid"></div>
+        <section id="neetSubtopicPanel" class="subtopic-panel" hidden></section>
         <div class="test-builder">
           <div class="section-head">
             <span class="eyebrow">PERSONALISED TEST</span>
@@ -458,8 +461,13 @@
         <section>
           <span id="quizChapter" class="eyebrow"></span>
           <h2 id="quizQuestion">Question loading…</h2>
+          <div id="quizVisual" class="quiz-visual" hidden></div>
           <div id="quizOptions" class="options"></div>
           <div id="quizExplanation" class="explanation" hidden></div>
+          <div class="question-tools">
+            <button type="button" class="btn ghost small" id="quizBookmark">♡ Bookmark</button>
+            <button type="button" class="btn ghost small" id="quizReport">⚑ Report question</button>
+          </div>
         </section>
         <footer>
           <button type="button" class="btn ghost" id="quizPrev">Previous</button
@@ -488,6 +496,9 @@
           </button>
           <button type="button" class="btn ghost" id="shareResult">
             Share result
+          </button>
+          <button type="button" class="btn ghost" id="retryWrong">
+            Practice wrong questions again
           </button>
           <button type="button" class="btn ghost" id="closeResult">Done</button>
         </div>
@@ -521,6 +532,7 @@
         <a href="refund-policy.html">Refund policy</a></span
       >
     </footer>
+    <script src="data/neet/class11-physics-bank.js"></script>
     <script src="v2.js"></script>
     <script type="module" src="learning-tools.js"></script>
   </body>
