@@ -14,6 +14,28 @@ service cloud.firestore {
       allow delete: if false;
     }
 
+    // Publicly readable testimonials. Only the matching authenticated, registered
+    // student may create/update their own review. Contact details are not allowed.
+    match /reviews/{uid} {
+      allow read: if true;
+      allow create, update: if signedIn()
+        && request.auth.uid == uid
+        && exists(/databases/$(database)/documents/students/$(request.auth.uid))
+        && request.resource.data.uid == uid
+        && request.resource.data.verifiedRegisteredStudent == true
+        && request.resource.data.rating is int
+        && request.resource.data.rating >= 1
+        && request.resource.data.rating <= 5
+        && request.resource.data.studentName is string
+        && request.resource.data.studentName.size() >= 1
+        && request.resource.data.studentName.size() <= 80
+        && request.resource.data.review is string
+        && request.resource.data.review.size() >= 10
+        && request.resource.data.review.size() <= 500
+        && request.resource.data.keys().hasOnly(['uid','studentName','rating','review','verifiedRegisteredStudent','updatedAt']);
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
     match /paymentRequests/{uid} {
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
       allow create, update, delete: if false;
