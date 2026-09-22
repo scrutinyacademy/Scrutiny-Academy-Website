@@ -74,6 +74,176 @@
     ).join("");
   }
 
+  const ascii = (value) =>
+    String(value)
+      .replace(/[\u2010-\u2015]/g, "-")
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/[\u201c\u201d]/g, '"')
+      .replace(/[^\x20-\x7e]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const pdfEscape = (value) =>
+    ascii(value).replace(/\\/g, "\\\\").replace(/\(/g, "\\(").replace(/\)/g, "\\)");
+
+  const wrapText = (value, maxCharacters) => {
+    const words = ascii(value).split(" ");
+    const lines = [];
+    let line = "";
+    words.forEach((word) => {
+      const candidate = line ? `${line} ${word}` : word;
+      if (candidate.length > maxCharacters && line) {
+        lines.push(line);
+        line = word;
+      } else {
+        line = candidate;
+      }
+    });
+    if (line) lines.push(line);
+    return lines;
+  };
+
+  const pdfText = (x, y, size, text, font = "F1", colour = "0.09 0.16 0.28") =>
+    `BT /${font} ${size} Tf ${colour} rg 1 0 0 1 ${x} ${y} Tm (${pdfEscape(text)}) Tj ET\n`;
+
+  const circle = (x, y, radius) => {
+    const c = radius * 0.5522847498;
+    return `${x + radius} ${y} m ${x + radius} ${y + c} ${x + c} ${y + radius} ${x} ${y + radius} c ${x - c} ${y + radius} ${x - radius} ${y + c} ${x - radius} ${y} c ${x - radius} ${y - c} ${x - c} ${y - radius} ${x} ${y - radius} c ${x + c} ${y - radius} ${x + radius} ${y - c} ${x + radius} ${y} c`;
+  };
+
+  const paginateMilestones = () => {
+    const pages = [[]];
+    let y = 688;
+    milestones.forEach(([year, fact], index) => {
+      const lines = wrapText(fact, 84);
+      const height = Math.max(32, 15 + lines.length * 10);
+      if (y - height < 65) {
+        pages.push([]);
+        y = 688;
+      }
+      pages.at(-1).push({ index: index + 1, year, lines, y, height });
+      y -= height + 5;
+    });
+    return pages;
+  };
+
+  const makePageStream = (items, pageNumber, pageCount) => {
+    let stream = "";
+    stream += "q 1 1 1 rg 0 0 595 842 re f Q\n";
+
+    // Repeating, small background watermark across every generated PDF page.
+    for (let row = 0; row < 7; row += 1) {
+      for (let column = 0; column < 3; column += 1) {
+        const x = 16 + column * 190;
+        const y = 110 + row * 105;
+        stream += `q 0.92 0.95 0.98 rg BT /F2 8 Tf 0.866 0.5 -0.5 0.866 ${x} ${y} Tm (SCRUTINY ACADEMY) Tj ET Q\n`;
+      }
+    }
+
+    stream += "q 0.73 0.89 1 rg ";
+    stream += `${circle(58, 788, 24)} f Q\n`;
+    stream += pdfText(44, 784, 18, "S", "F2", "0 0 0");
+    stream += pdfText(58, 775, 18, "A", "F2", "0 0 0");
+    stream += pdfText(91, 796, 12, "SCRUTINY ACADEMY", "F2");
+    stream += pdfText(91, 781, 7, "LEARN - UNDERSTAND - PRACTICE - MASTER", "F1", "0.32 0.39 0.49");
+    stream += pdfText(305, 799, 9, "NCERT BOOSTER CORNER", "F2", "0.12 0.37 0.75");
+    stream += pdfText(305, 779, 17, "Important Years in Biology", "F2");
+    stream += "0.07 0.16 0.34 RG 1.5 w 36 756 m 559 756 l S\n";
+
+    items.forEach(({ index, year, lines, y, height }) => {
+      stream += `q 0.98 0.99 1 rg 0.78 0.84 0.92 RG 0.6 w 36 ${y - height + 5} 523 ${height} re B Q\n`;
+      stream += pdfText(46, y - 11, 8, `${index}.`, "F2", "0.12 0.37 0.75");
+      stream += "q 0.07 0.16 0.34 rg 70 " + (y - 18) + " 76 20 re f Q\n";
+      stream += pdfText(79, y - 12, 8, year, "F2", "1 1 1");
+      lines.forEach((line, lineIndex) => {
+        stream += pdfText(158, y - 10 - lineIndex * 10, 8.4, line);
+      });
+    });
+
+    stream += "0.78 0.84 0.92 RG 0.6 w 36 49 m 559 49 l S\n";
+    stream += pdfText(36, 32, 8, "SCRUTINY ACADEMY", "F2");
+    stream += pdfText(146, 32, 7, "NCERT Booster Corner - Educational revision material", "F1", "0.32 0.39 0.49");
+    stream += pdfText(492, 32, 7, `Page ${pageNumber} of ${pageCount}`, "F1", "0.32 0.39 0.49");
+    stream += pdfText(36, 19, 6.5, "scrutinyacademy.github.io/Scrutiny-Academy-Website - (c) 2026 Scrutiny Academy", "F1", "0.32 0.39 0.49");
+    return stream;
+  };
+
+  const buildPdf = () => {
+    const pages = paginateMilestones();
+    const objects = [];
+    const addObject = (value) => {
+      objects.push(value);
+      return objects.length;
+    };
+
+    const catalogId = addObject("");
+    const pagesId = addObject("");
+    const regularFontId = addObject("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>");
+    const boldFontId = addObject("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>");
+    const pageIds = [];
+
+    pages.forEach((items, index) => {
+      const stream = makePageStream(items, index + 1, pages.length);
+      const contentId = addObject(`<< /Length ${stream.length} >>\nstream\n${stream}endstream`);
+      const pageId = addObject(
+        `<< /Type /Page /Parent ${pagesId} 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 ${regularFontId} 0 R /F2 ${boldFontId} 0 R >> >> /Contents ${contentId} 0 R >>`,
+      );
+      pageIds.push(pageId);
+    });
+
+    objects[catalogId - 1] = `<< /Type /Catalog /Pages ${pagesId} 0 R >>`;
+    objects[pagesId - 1] = `<< /Type /Pages /Kids [${pageIds.map((id) => `${id} 0 R`).join(" ")}] /Count ${pageIds.length} >>`;
+
+    let pdf = "%PDF-1.4\n%SCRUTINY-ACADEMY\n";
+    const offsets = [0];
+    objects.forEach((object, index) => {
+      offsets.push(pdf.length);
+      pdf += `${index + 1} 0 obj\n${object}\nendobj\n`;
+    });
+    const xref = pdf.length;
+    pdf += `xref\n0 ${objects.length + 1}\n0000000000 65535 f \n`;
+    offsets.slice(1).forEach((offset) => {
+      pdf += `${String(offset).padStart(10, "0")} 00000 n \n`;
+    });
+    pdf += `trailer\n<< /Size ${objects.length + 1} /Root ${catalogId} 0 R >>\nstartxref\n${xref}\n%%EOF`;
+    return new Blob([pdf], { type: "application/pdf" });
+  };
+
+  const showStatus = (message) => {
+    const toast = document.getElementById("toast");
+    if (!toast) return;
+    toast.textContent = message;
+    toast.classList.add("show");
+    window.setTimeout(() => toast.classList.remove("show"), 2800);
+  };
+
+  const downloadButton = document.getElementById("downloadNcertBooster");
+  if (downloadButton) {
+    downloadButton.addEventListener("click", () => {
+      const originalText = downloadButton.textContent;
+      downloadButton.disabled = true;
+      downloadButton.textContent = "Creating PDF...";
+      try {
+        const url = URL.createObjectURL(buildPdf());
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "Scrutiny-Academy-NCERT-Booster-Biology.pdf";
+        link.rel = "noopener";
+        document.body.appendChild(link);
+        link.click();
+        link.remove();
+        window.setTimeout(() => URL.revokeObjectURL(url), 60000);
+        showStatus("PDF created. Check your Downloads folder.");
+      } catch (error) {
+        console.error("Unable to create NCERT Booster PDF", error);
+        showStatus("PDF download failed. Please use Print instead.");
+      } finally {
+        downloadButton.disabled = false;
+        downloadButton.textContent = originalText;
+      }
+    });
+  }
+
   const printButton = document.getElementById("printNcertBooster");
   if (printButton) {
     printButton.addEventListener("click", () => {
