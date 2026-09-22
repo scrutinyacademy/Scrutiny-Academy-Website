@@ -56,3 +56,10 @@ footer{text-align:center;color:var(--muted);font-size:.66rem;padding:8px 20px 22
 @media(max-width:900px){.reviews-grid{grid-template-columns:1fr 1fr}.reviews-head{align-items:start}}
 @media(max-width:600px){.reviews-section{padding:20px 16px}.reviews-head{display:grid}.rating-summary{width:100%}.reviews-grid{grid-template-columns:1fr}}
 
+
+/* Founder note */
+.founder-card{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(260px,380px) 1fr;gap:30px;align-items:center;padding:24px}
+.founder-photo-wrap{width:100%;overflow:hidden;border-radius:20px;box-shadow:0 14px 34px rgba(16,42,86,.12);background:#eef4fa}
+.founder-photo{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+.founder-copy{min-width:0}.founder-copy p{line-height:1.7;color:#405169}.founder-copy blockquote{margin:18px 0 0;padding:14px 18px;border-left:4px solid var(--blue);background:#f4f9ff;border-radius:0 12px 12px 0;color:var(--navy);font-weight:700;line-height:1.55}
+@media(max-width:760px){.founder-card{grid-template-columns:1fr;padding:16px;gap:20px}.founder-photo-wrap{max-width:520px;margin:0 auto}.founder-login-note .reviews-head h2{font-size:1.8rem}}
