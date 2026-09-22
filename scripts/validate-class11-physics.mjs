@@ -15,6 +15,13 @@ const targetNames = [
   'Work, Energy and Power',
   'System of Particles and Rotational Motion',
   'Gravitation',
+  'Mechanical Properties of Solids',
+  'Mechanical Properties of Fluids',
+  'Thermal Properties of Matter',
+  'Thermodynamics',
+  'Kinetic Theory',
+  'Oscillations',
+  'Waves',
 ];
 const pdfByChapter = {
   'Units and Measurements': 'UNITS AND MEASUREMENT.pdf',
@@ -24,6 +31,13 @@ const pdfByChapter = {
   'Work, Energy and Power': 'WORK, ENERGY AND POWER.pdf',
   'System of Particles and Rotational Motion': 'SYSTEMS OF PARTICLES AND ROTATIONAL MOTION.pdf',
   Gravitation: 'GRAVITATION.pdf',
+  'Mechanical Properties of Solids': 'MECHANICAL PROPERTIES OF SOLIDS.pdf',
+  'Mechanical Properties of Fluids': 'MECHANICAL PROPERTIES OF FLUIDS.pdf',
+  'Thermal Properties of Matter': 'THERMAL PROPERTIES OF MATTER.pdf',
+  Thermodynamics: 'THERMODYNAMICS.pdf',
+  'Kinetic Theory': 'KINETIC THEORY.pdf',
+  Oscillations: 'OSCILLATIONS.pdf',
+  Waves: 'WAVES.pdf',
 };
 const ids = new Set();
 const exact = new Map();
@@ -81,5 +95,5 @@ for (const name of targetNames) {
   report.push(chapterStats);
 }
 
-assert.equal(ids.size, 1120, 'Total unique IDs');
+assert.equal(ids.size, 2240, 'Total unique IDs');
 console.log(JSON.stringify({ chapters: report, totalQuestions: ids.size, duplicateIds: 0, exactDuplicateQuestions: 0, missingAnswers: 0, missingSolutions: 0, invalidAnswerKeys: 0, brokenVisuals: 0 }, null, 2));
