@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v9";
+const CACHE = "scrutiny-academy-v10";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -6,6 +6,7 @@ const APP_SHELL = [
   "./auth.css",
   "./v2.css",
   "./v2.js",
+  "./ncert-booster.js",
   "./learning-tools.js",
   "./firebase-config.js",
   "./assets/logo.svg",
