@@ -639,6 +639,12 @@ select {
   margin: 0;
   color: var(--muted);
 }
+.booster-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
 .biology-timeline {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1147,6 +1153,9 @@ select {
   }
   .booster-print {
     width: max-content;
+  }
+  .booster-actions {
+    justify-content: flex-start;
   }
 }
 @media (max-width: 520px) {
