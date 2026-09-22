@@ -50,6 +50,10 @@
       const generated = new Map(window.SCRUTINY_CLASS11_PHYSICS.map((chapter) => [chapter.id, chapter]));
       d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
     }
+    if (p === "data/neet/chemistry.json" && Array.isArray(window.SCRUTINY_CLASS11_CHEMISTRY)) {
+      const generated = new Map(window.SCRUTINY_CLASS11_CHEMISTRY.map((chapter) => [chapter.id, chapter]));
+      d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
+    }
     if (p === "data/neet/biology.json")
       for (const chapter of d.chapters || [])
         if (temporarilyUnpublishedBiologyChapters.has(chapter.name))
@@ -406,7 +410,7 @@
     state.neet.subtopicFilter = "all";
     const panel = $("neetSubtopicPanel");
     panel.hidden = false;
-    panel.innerHTML = `<div class="subtopic-panel-head"><div><span class="eyebrow">CLASS ${esc(chapter.classLevel)} PHYSICS</span><h3>${esc(chapter.name)}</h3><p>${chapter.subtopics.length} NCERT-mapped subtopics • ${(chapter.mcqs || []).length} validated MCQs</p></div><button class="icon-btn" type="button" id="closeSubtopics" aria-label="Close subtopics">×</button></div><div class="subtopic-filter-row">${["all","foundation","neet standard","challenge","numerical","conceptual","graph","visual","common traps"].map(filter => `<button type="button" class="filter-pill ${filter === "all" ? "active" : ""}" data-sub-filter="${filter}">${filter.replace(/\b\w/g, c => c.toUpperCase())}</button>`).join("")}</div><div id="subtopicGrid" class="subtopic-grid"></div>`;
+    panel.innerHTML = `<div class="subtopic-panel-head"><div><span class="eyebrow">CLASS ${esc(chapter.classLevel)} ${esc(state.neet.data?.subject || "NEET")}</span><h3>${esc(chapter.name)}</h3><p>${chapter.subtopics.length} NCERT-mapped subtopics • ${(chapter.mcqs || []).length} validated MCQs</p></div><button class="icon-btn" type="button" id="closeSubtopics" aria-label="Close subtopics">×</button></div><div class="subtopic-filter-row">${["all","foundation","neet standard","challenge","numerical","conceptual","graph","visual","common traps"].map(filter => `<button type="button" class="filter-pill ${filter === "all" ? "active" : ""}" data-sub-filter="${filter}">${filter.replace(/\b\w/g, c => c.toUpperCase())}</button>`).join("")}</div><div id="subtopicGrid" class="subtopic-grid"></div>`;
     $("closeSubtopics").onclick = () => { panel.hidden = true; };
     panel.querySelectorAll("[data-sub-filter]").forEach(button => {
       button.onclick = () => {
@@ -427,7 +431,7 @@
     $("subtopicGrid").querySelectorAll(".subtopic-start").forEach(button => {
       button.onclick = () => {
         const subtopic = chapter.subtopics[+button.dataset.sub];
-        const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter)).map(q => ({ ...q, __chapter: chapter.name, __subject: "Physics" }));
+        const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter)).map(q => ({ ...q, __chapter: chapter.name, __subject: state.neet.data?.subject || "NEET" }));
         startQuiz(questions, `${chapter.name} • ${subtopic.name}`, $("neetMode").value, Math.min(+button.dataset.count, questions.length));
       };
     });
@@ -673,15 +677,36 @@
   }
   function renderQuestionVisual(q) {
     const host = $("quizVisual");
-    if (!q.visualSpec || q.visualSpec.type !== "line") {
+    if (!q.visualSpec) {
       host.hidden = true;
       host.innerHTML = "";
       return;
     }
-    const points = q.visualSpec.points || [];
-    const polyline = points.map(([x, y]) => `${50 + x * 75},${190 - y * 45}`).join(" ");
+    const spec = q.visualSpec;
+    let art = "";
+    if (spec.type === "line") {
+      const points = spec.points || [];
+      const polyline = points.map(([x, y]) => `${50 + x * 75},${190 - y * 45}`).join(" ");
+      art = `<line x1="50" y1="190" x2="315" y2="190" class="graph-axis"/><line x1="50" y1="190" x2="50" y2="20" class="graph-axis"/><polyline points="${polyline}" class="graph-line"/><text x="185" y="222">${esc(spec.xLabel || "X")}</text><text x="18" y="110" transform="rotate(-90 18 110)">${esc(spec.yLabel || "output")}</text>`;
+    } else if (spec.type === "orbital") {
+      art = `<ellipse cx="128" cy="112" rx="72" ry="28"/><ellipse cx="212" cy="112" rx="72" ry="28"/><circle cx="170" cy="112" r="10" class="chem-core"/><path d="M170 30v164" class="chem-dash"/>`;
+    } else if (spec.type === "periodic") {
+      art = Array.from({length: 18}, (_, i) => `<rect x="${28 + (i%9)*32}" y="${42 + Math.floor(i/9)*42}" width="26" height="32"/><text x="${41 + (i%9)*32}" y="${63 + Math.floor(i/9)*42}">${i+1}</text>`).join("") + `<path d="M44 154h240" class="chem-arrow"/>`;
+    } else if (spec.type === "energy") {
+      art = `<line x1="42" y1="185" x2="305" y2="185" class="graph-axis"/><line x1="42" y1="185" x2="42" y2="28" class="graph-axis"/><path d="M55 150 C110 150 105 55 170 55 S230 120 290 120" class="graph-line"/><line x1="60" y1="150" x2="105" y2="150"/><line x1="240" y1="120" x2="290" y2="120"/>`;
+    } else if (spec.type === "equilibrium") {
+      art = `<circle cx="85" cy="112" r="28"/><circle cx="255" cy="112" r="28"/><path d="M120 92h96l-18-14m18 54h-96l18 14" class="chem-arrow"/><text x="77" y="119">R</text><text x="247" y="119">P</text>`;
+    } else if (spec.type === "measurement") {
+      art = `<path d="M92 35v112c0 28 22 48 48 48s48-20 48-48V35"/><path d="M93 130h94v18c0 27-21 47-47 47s-47-20-47-47z" class="chem-fill"/><line x1="210" y1="45" x2="210" y2="185"/><line x1="202" y1="75" x2="218" y2="75"/><line x1="202" y1="115" x2="218" y2="115"/><line x1="202" y1="155" x2="218" y2="155"/>`;
+    } else {
+      art = `<circle cx="100" cy="112" r="34"/><circle cx="240" cy="112" r="34"/><line x1="134" y1="112" x2="206" y2="112" class="chem-bond"/><circle cx="170" cy="112" r="8" class="chem-core"/>`;
+    }
     host.hidden = false;
-    host.innerHTML = `<svg viewBox="0 0 340 230" role="img" aria-label="${esc(q.visualSpec.yLabel)} versus ${esc(q.visualSpec.xLabel)} graph"><line x1="50" y1="190" x2="315" y2="190" class="graph-axis"/><line x1="50" y1="190" x2="50" y2="20" class="graph-axis"/><polyline points="${polyline}" class="graph-line"/><text x="185" y="222">${esc(q.visualSpec.xLabel)}</text><text x="18" y="110" transform="rotate(-90 18 110)">${esc(q.visualSpec.yLabel)}</text></svg>`;
+    host.innerHTML = `<strong class="chem-visual-title">${esc(spec.label || q.subtopic || "Question visual")}</strong><svg viewBox="0 0 340 230" role="img" aria-label="${esc(spec.caption || spec.label || "Chemistry question visual")}">${art}</svg>`;
+  }
+  function questionMarkKey(kind, q) {
+    const subject = String(q?.__subject || q?.subject || "general").toLowerCase().replace(/[^a-z0-9]+/g, "_");
+    return `scrutiny_${subject}_${kind}`;
   }
   function getQuestionMarks(key) {
     try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
@@ -690,20 +715,20 @@
   function toggleQuizBookmark() {
     const q = state.quiz?.questions?.[state.quiz.index];
     if (!q) return;
-    const marks = getQuestionMarks("scrutiny_physics_bookmarks");
+    const marks = getQuestionMarks(questionMarkKey("bookmarks", q));
     marks.has(q.id) ? marks.delete(q.id) : marks.add(q.id);
-    localStorage.setItem("scrutiny_physics_bookmarks", JSON.stringify([...marks]));
+    localStorage.setItem(questionMarkKey("bookmarks", q), JSON.stringify([...marks]));
     $("quizBookmark").textContent = marks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
     toast(marks.has(q.id) ? "Question bookmarked." : "Bookmark removed.");
   }
   function reportQuizQuestion() {
     const q = state.quiz?.questions?.[state.quiz.index];
     if (!q) return;
-    const reports = getQuestionMarks("scrutiny_physics_reports");
+    const reports = getQuestionMarks(questionMarkKey("reports", q));
     reports.add(q.id);
-    localStorage.setItem("scrutiny_physics_reports", JSON.stringify([...reports]));
+    localStorage.setItem(questionMarkKey("reports", q), JSON.stringify([...reports]));
     $("quizReport").textContent = "⚑ Reported";
-    const subject = encodeURIComponent(`Physics MCQ report: ${q.id}`);
+    const subject = encodeURIComponent(`${q.__subject || q.subject || "NEET"} MCQ report: ${q.id}`);
     const body = encodeURIComponent(`Question ID: ${q.id}\nChapter: ${q.__chapter || q.chapter || ""}\nSubtopic: ${q.subtopic || ""}\n\nPlease describe the issue:\n`);
     window.open(`mailto:scrutinyacademy@gmail.com?subject=${subject}&body=${body}`, "_blank", "noopener");
     toast(`Report prepared for ${q.id}.`);
@@ -749,8 +774,8 @@
     );
     if (!$("quizExplanation").hidden)
       $("quizExplanation").innerHTML = detailedSolution(q, chosen, ans);
-    const bookmarks = getQuestionMarks("scrutiny_physics_bookmarks");
-    const reports = getQuestionMarks("scrutiny_physics_reports");
+    const bookmarks = getQuestionMarks(questionMarkKey("bookmarks", q));
+    const reports = getQuestionMarks(questionMarkKey("reports", q));
     $("quizBookmark").textContent = bookmarks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
     $("quizReport").textContent = reports.has(q.id) ? "⚑ Reported" : "⚑ Report question";
   }

@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v11";
+const CACHE = "scrutiny-academy-v12";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -6,6 +6,7 @@ const APP_SHELL = [
   "./auth.css",
   "./v2.css",
   "./v2.js",
+  "./v2-core.js",
   "./ncert-booster.js",
   "./learning-tools.js",
   "./firebase-config.js",
@@ -14,6 +15,8 @@ const APP_SHELL = [
   "./assets/medical-hero-v2.webp",
   "./data/manifest.json",
   "./data/platform.json",
+  "./data/neet/class11-physics-bank.js",
+  "./data/neet/class11-chemistry-bank.js",
 ];
 
 self.addEventListener("install", (event) => {

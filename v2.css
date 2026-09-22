@@ -1026,6 +1026,41 @@ select {
   color: var(--muted);
   margin: 8px 0;
 }
+.quiz-visual {
+  margin: 14px 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f8fbff, #eef7ff);
+  text-align: center;
+}
+.quiz-visual svg {
+  display: block;
+  width: min(100%, 430px);
+  max-height: 250px;
+  margin: 4px auto 0;
+  fill: none;
+  stroke: #173a62;
+  stroke-width: 2.5;
+}
+.quiz-visual text {
+  fill: #173a62;
+  stroke: none;
+  font: 13px system-ui, sans-serif;
+  text-anchor: middle;
+}
+.chem-visual-title {
+  display: block;
+  color: #173a62;
+  font-size: 0.84rem;
+}
+.graph-axis { stroke: #526b86; stroke-width: 2; }
+.graph-line { stroke: #087ea4; stroke-width: 4; fill: none; }
+.chem-arrow { stroke: #087ea4; stroke-width: 4; fill: none; }
+.chem-bond { stroke: #087ea4; stroke-width: 7; }
+.chem-core { fill: #ffba3b; stroke: #9a5b00; }
+.chem-fill { fill: #9adcf0; stroke: #087ea4; }
+.chem-dash { stroke-dasharray: 6 6; }
 .footer {
   flex-wrap: wrap;
 }
