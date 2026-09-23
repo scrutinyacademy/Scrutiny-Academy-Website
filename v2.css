@@ -1043,6 +1043,25 @@ select {
   stroke: #173a62;
   stroke-width: 2.5;
 }
+.quiz-visual img {
+  display: block;
+  width: min(100%, 720px);
+  max-height: 330px;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #fff;
+}
+.syllabus-note {
+  display: inline-flex;
+  margin: .2rem 0 .55rem;
+  padding: .28rem .55rem;
+  border-radius: 999px;
+  background: #fff4db;
+  color: #7a4b00;
+  font-size: .73rem;
+  font-weight: 700;
+}
 .quiz-visual text {
   fill: #173a62;
   stroke: none;

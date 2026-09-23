@@ -397,8 +397,14 @@
   function questionMatchesType(q, filter) {
     if (filter === "all") return true;
     const type = String(q.questionType || "").toLowerCase();
+    const searchable = `${type} ${q.topic || ""} ${q.subtopic || ""} ${(q.tags || []).join(" ")}`.toLowerCase();
     if (["foundation", "neet standard", "challenge"].includes(filter)) return difficulty(q) === filter;
-    if (filter === "visual") return Boolean(q.visualRequired || q.visualSpec || q.image);
+    if (filter === "image-based") return Boolean(q.visualRequired || q.visualAsset || q.image);
+    if (filter === "ncert-based") return Boolean(q.ncertSection || q.references?.length);
+    if (filter === "structure-based") return /structure|isomer|nomenclature|bond-line|wedge|geometry/.test(searchable);
+    if (filter === "reaction-based") return /reaction|mechanism|product|addition|elimination|substitution|redox/.test(searchable);
+    if (filter === "bookmarked") return getQuestionMarks(questionMarkKey("bookmarks", q)).has(q.id);
+    if (filter === "incorrect questions") return incorrectQuestionIds().has(q.id);
     if (filter === "common traps") return type.includes("trap") || type.includes("misconception");
     if (filter === "conceptual") return type.includes("concept") || type.includes("statement") || type.includes("assertion");
     return type.includes(filter);
@@ -410,7 +416,7 @@
     state.neet.subtopicFilter = "all";
     const panel = $("neetSubtopicPanel");
     panel.hidden = false;
-    panel.innerHTML = `<div class="subtopic-panel-head"><div><span class="eyebrow">CLASS ${esc(chapter.classLevel)} ${esc(state.neet.data?.subject || "NEET")}</span><h3>${esc(chapter.name)}</h3><p>${chapter.subtopics.length} NCERT-mapped subtopics • ${(chapter.mcqs || []).length} validated MCQs</p></div><button class="icon-btn" type="button" id="closeSubtopics" aria-label="Close subtopics">×</button></div><div class="subtopic-filter-row">${["all","foundation","neet standard","challenge","numerical","conceptual","graph","visual","common traps"].map(filter => `<button type="button" class="filter-pill ${filter === "all" ? "active" : ""}" data-sub-filter="${filter}">${filter.replace(/\b\w/g, c => c.toUpperCase())}</button>`).join("")}</div><div id="subtopicGrid" class="subtopic-grid"></div>`;
+    panel.innerHTML = `<div class="subtopic-panel-head"><div><span class="eyebrow">CLASS ${esc(chapter.classLevel)} ${esc(state.neet.data?.subject || "NEET")}</span><h3>${esc(chapter.name)}</h3><p>${chapter.subtopics.length} NCERT-mapped subtopics • ${(chapter.mcqs || []).length} validated MCQs</p></div><button class="icon-btn" type="button" id="closeSubtopics" aria-label="Close subtopics">×</button></div><div class="subtopic-filter-row">${["all","foundation","neet standard","challenge","conceptual","numerical","structure-based","reaction-based","image-based","ncert-based","bookmarked","incorrect questions"].map(filter => `<button type="button" class="filter-pill ${filter === "all" ? "active" : ""}" data-sub-filter="${filter}">${filter === "all" ? "All Questions" : filter.replace(/\b\w/g, c => c.toUpperCase())}</button>`).join("")}</div><div id="subtopicGrid" class="subtopic-grid"></div>`;
     $("closeSubtopics").onclick = () => { panel.hidden = true; };
     panel.querySelectorAll("[data-sub-filter]").forEach(button => {
       button.onclick = () => {
@@ -426,7 +432,8 @@
     const filter = state.neet.subtopicFilter;
     $("subtopicGrid").innerHTML = chapter.subtopics.map((subtopic, index) => {
       const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter));
-      return `<article class="subtopic-card"><div class="subtopic-card-meta"><span>${esc(subtopic.ncertSections)}</span><span>${esc(subtopic.importance || "High")}</span></div><h4>${esc(subtopic.name)}</h4><strong>${questions.length} MCQs</strong><p>${filter === "all" ? "Complete targeted practice" : `${esc(filter)} filter`}</p><div class="subtopic-actions">${[10,20,40].map(count => `<button type="button" class="btn ${count === 40 ? "primary" : "ghost"} small subtopic-start" data-sub="${index}" data-count="${count}" ${questions.length ? "" : "disabled"}>${count}</button>`).join("")}</div></article>`;
+      const status = subtopic.syllabusStatus && !subtopic.syllabusStatus.startsWith("NEET 2026 core") ? `<span class="syllabus-note">${esc(subtopic.syllabusStatus)}</span>` : "";
+      return `<article class="subtopic-card"><div class="subtopic-card-meta"><span>${esc(subtopic.ncertSections)}</span><span>${esc(subtopic.importance || "High")}</span></div><h4>${esc(subtopic.name)}</h4>${status}<strong>${questions.length} MCQs</strong><p>${filter === "all" ? "Complete targeted practice" : `${esc(filter)} filter`}</p><div class="subtopic-actions">${[10,20,40].filter(count => count <= Math.max(questions.length, 20) || count === 10).map(count => `<button type="button" class="btn ${count === 40 ? "primary" : "ghost"} small subtopic-start" data-sub="${index}" data-count="${count}" ${questions.length ? "" : "disabled"}>${count}</button>`).join("")}</div></article>`;
     }).join("");
     $("subtopicGrid").querySelectorAll(".subtopic-start").forEach(button => {
       button.onclick = () => {
@@ -677,6 +684,11 @@
   }
   function renderQuestionVisual(q) {
     const host = $("quizVisual");
+    if (q.visualAsset && !String(q.visualAsset).startsWith("programmatic:")) {
+      host.hidden = false;
+      host.innerHTML = `<strong class="chem-visual-title">${esc(q.visualSpec?.label || q.subtopic || "Question visual")}</strong><img src="${esc(q.visualAsset)}" alt="${esc(q.visualSpec?.caption || q.subtopic || "Chemistry question visual")}" loading="eager">`;
+      return;
+    }
     if (!q.visualSpec) {
       host.hidden = true;
       host.innerHTML = "";
@@ -711,6 +723,13 @@
   function getQuestionMarks(key) {
     try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
     catch { return new Set(); }
+  }
+  function incorrectQuestionIds() {
+    const ids = new Set();
+    for (const session of getProgress().sessions || [])
+      for (const item of session.review || [])
+        if (item.selected !== undefined && !item.isCorrect) ids.add(item.id);
+    return ids;
   }
   function toggleQuizBookmark() {
     const q = state.quiz?.questions?.[state.quiz.index];

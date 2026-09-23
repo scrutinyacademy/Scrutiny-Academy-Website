@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v12";
+const CACHE = "scrutiny-academy-v13";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -13,6 +13,18 @@ const APP_SHELL = [
   "./assets/logo.svg",
   "./assets/favicon.svg",
   "./assets/medical-hero-v2.webp",
+  "./assets/chemistry/redox-transfer.svg",
+  "./assets/chemistry/redox-number.svg",
+  "./assets/chemistry/redox-balancing.svg",
+  "./assets/chemistry/redox-electrode.svg",
+  "./assets/chemistry/organic-bonding.svg",
+  "./assets/chemistry/organic-representations.svg",
+  "./assets/chemistry/organic-intermediates.svg",
+  "./assets/chemistry/organic-effects.svg",
+  "./assets/chemistry/organic-lab.svg",
+  "./assets/chemistry/hydrocarbon-conformations.svg",
+  "./assets/chemistry/hydrocarbon-addition.svg",
+  "./assets/chemistry/hydrocarbon-benzene.svg",
   "./data/manifest.json",
   "./data/platform.json",
   "./data/neet/class11-physics-bank.js",
