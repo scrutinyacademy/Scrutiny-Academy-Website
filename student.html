@@ -16,13 +16,17 @@
             ><strong>SCRUTINY ACADEMY</strong
             ><small>STUDENT DASHBOARD</small></span
           ></a
-        ><button type="button" class="ghost" id="logoutBtn">Logout</button>
+        ><div class="student-head-actions"><label for="courseSwitch">Current course</label><select id="courseSwitch" aria-label="Switch active course"></select><button type="button" class="ghost" id="logoutBtn">Logout</button></div>
       </header>
       <section class="card" style="margin-bottom: 16px">
         <span class="eyebrow">ACCESS ACTIVE</span>
         <h1 id="welcome">Welcome</h1>
         <p id="studentMeta">Loading your student profile…</p>
         <span class="status-pill active">VERIFIED STUDENT</span>
+      </section>
+      <section class="card active-course-card" id="activeCourseCard" style="margin-bottom: 16px">
+        <div><span class="eyebrow" id="activeCourseLabel">YOUR LEARNING PORTAL</span><h2 id="activeCourseName">Choose your course</h2><p id="activeCourseDescription">Your course content, tests and progress stay separate from every other programme.</p></div>
+        <a class="primary dashboard-button" id="openCourse" href="preview-v2.html">OPEN PORTAL →</a>
       </section>
       <section class="dashboard-summary" aria-label="Learning summary">
         <article class="card metric-card">
@@ -38,50 +42,11 @@
           <strong id="dashRevision">0</strong><span>Questions to revise</span>
         </article>
       </section>
-      <section class="dashboard-grid">
-        <a class="card big-link" href="preview-v2.html"
-          ><div>
-            <span class="eyebrow">MAIN PLATFORM</span>
-            <h3>Open Scrutiny Academy</h3>
-            <p>Class 10, NEET, MBBS and study tools.</p>
-          </div>
-          <strong>ENTER →</strong></a
-        ><a class="card big-link" href="preview-v2.html#neet"
-          ><div>
-            <span class="eyebrow">NEET UG</span>
-            <h3>NEET Preparation</h3>
-            <p>Biology, Physics and Chemistry practice.</p>
-          </div>
-          <strong>START →</strong></a
-        ><a class="card big-link" href="preview-v2.html#progress"
-          ><div>
-            <span class="eyebrow">PROGRESS</span>
-            <h3>My Progress</h3>
-            <p>Review synced performance, streaks and weak areas.</p>
-          </div>
-          <strong>VIEW →</strong></a
-        ><a class="card big-link" href="preview-v2.html#tools"
-          ><div>
-            <span class="eyebrow">MISTAKE NOTEBOOK</span>
-            <h3>Revision Queue</h3>
-            <p>Revisit incorrect questions and mark concepts revised.</p>
-          </div>
-          <strong>REVISE →</strong></a
-        ><a class="card big-link" href="preview-v2.html#neet"
-          ><div>
-            <span class="eyebrow">PERSONALISED</span>
-            <h3>Create a Test</h3>
-            <p>Mix subjects, chapters and question counts.</p>
-          </div>
-          <strong>BUILD →</strong></a
-        ><a class="card big-link" href="preview-v2.html#ncert"
-          ><div>
-            <span class="eyebrow">SOURCE AWARE</span>
-            <h3>NCERT Search</h3>
-            <p>Find indexed NCERT concepts and references.</p>
-          </div>
-          <strong>SEARCH →</strong></a
-        >
+      <section class="card course-chooser" style="margin-bottom:16px">
+        <div class="section-title"><div><span class="eyebrow">MY COURSES</span><h2>Choose a learning space</h2></div><p>Changing course never mixes your learning records.</p></div>
+        <div class="course-card-grid" id="courseCardGrid"></div>
+      </section>
+      <section class="dashboard-grid" id="courseActions">
       </section>
       <section class="card continue-card" style="margin-top: 16px">
         <div>

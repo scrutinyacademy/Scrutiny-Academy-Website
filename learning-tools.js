@@ -22,6 +22,8 @@ const TOOLS_KEY = "scrutiny_learning_tools";
 const MAX_MISTAKES = 120;
 const MAX_BOOKMARKS = 100;
 const $ = (id) => document.getElementById(id);
+const activeCourseId = () => document.documentElement.dataset.course || localStorage.getItem("scrutiny_active_course") || "neet";
+const belongsToActiveCourse = (item = {}) => (item.courseId || "neet") === activeCourseId();
 const esc = (value) =>
   String(value ?? "").replace(
     /[&<>"']/g,
@@ -75,6 +77,7 @@ function compactQuestion(item) {
     subject: String(item.subject || "").slice(0, 120),
     chapter: String(item.chapter || "").slice(0, 180),
     difficulty: String(item.difficulty || "").slice(0, 30),
+    courseId: item.courseId || activeCourseId(),
     reference: referenceText(item.reference).slice(0, 350) || null,
   };
 }
@@ -106,7 +109,7 @@ function captureMistakes(session) {
 
 function studyDates() {
   return new Set(
-    (getProgress().sessions || [])
+    (getProgress().sessions || []).filter(belongsToActiveCourse)
       .map((session) => session.completedAt)
       .filter(Boolean)
       .map((value) => dateKey(new Date(value))),
@@ -132,7 +135,7 @@ function streakCount() {
 
 function weakTopics() {
   const rows = new Map();
-  for (const session of getProgress().sessions || []) {
+  for (const session of (getProgress().sessions || []).filter(belongsToActiveCourse)) {
     for (const item of session.review || []) {
       if (item.selected === undefined) continue;
       const key = `${item.subject || "General"} • ${item.chapter || "Mixed practice"}`;
@@ -180,17 +183,19 @@ function questionCard(item, actions = true) {
 
 function renderTools() {
   const tools = getTools();
-  const due = tools.mistakes.filter(
+  const courseMistakes = tools.mistakes.filter(belongsToActiveCourse);
+  const courseBookmarks = tools.bookmarks.filter(belongsToActiveCourse);
+  const due = courseMistakes.filter(
     (item) => !item.mastered && (item.nextReviewAt || 0) <= Date.now(),
   );
   const streak = streakCount();
   if ($("toolStreak"))
     $("toolStreak").textContent = `${streak} day${streak === 1 ? "" : "s"}`;
   if ($("toolMistakes"))
-    $("toolMistakes").textContent = String(tools.mistakes.length);
+    $("toolMistakes").textContent = String(courseMistakes.length);
   if ($("toolDue")) $("toolDue").textContent = String(due.length);
   if ($("toolBookmarks"))
-    $("toolBookmarks").textContent = String(tools.bookmarks.length);
+    $("toolBookmarks").textContent = String(courseBookmarks.length);
 
   if ($("revisionList")) {
     $("revisionList").innerHTML = due.length
@@ -201,8 +206,8 @@ function renderTools() {
       : '<div class="empty-state compact">No questions are due. Complete a test to build your revision queue.</div>';
   }
   if ($("bookmarkList")) {
-    $("bookmarkList").innerHTML = tools.bookmarks.length
-      ? tools.bookmarks
+    $("bookmarkList").innerHTML = courseBookmarks.length
+      ? courseBookmarks
           .slice(0, 8)
           .map((item) => questionCard(item, false))
           .join("")
@@ -362,6 +367,7 @@ function cloudPayload() {
       accuracy: session.accuracy || 0,
       seconds: session.seconds || 0,
       completedAt: session.completedAt || null,
+      courseId: session.courseId || "neet",
     })),
     mistakes: tools.mistakes.slice(0, MAX_MISTAKES),
     bookmarks: tools.bookmarks.slice(0, MAX_BOOKMARKS),
@@ -459,8 +465,12 @@ window.addEventListener("scrutiny:progress-changed", () => {
   renderTools();
   scheduleCloudSync();
 });
-window.addEventListener("scrutiny:progress-cleared", () => {
-  localStorage.removeItem(TOOLS_KEY);
+window.addEventListener("scrutiny:progress-cleared", (event) => {
+  const courseId = event.detail?.courseId || activeCourseId();
+  const tools = getTools();
+  tools.mistakes = tools.mistakes.filter((item) => (item.courseId || "neet") !== courseId);
+  tools.bookmarks = tools.bookmarks.filter((item) => (item.courseId || "neet") !== courseId);
+  localStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
   renderTools();
   scheduleCloudSync();
 });

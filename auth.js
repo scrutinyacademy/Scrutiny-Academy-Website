@@ -58,6 +58,7 @@ if(!configured){
     e.preventDefault(); authActionInProgress=true; msg('Creating your account…');
     try{
       const email=$('regEmail').value.trim().toLowerCase();
+      const activeCourse=$('regCourse').value;
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
@@ -68,6 +69,8 @@ if(!configured){
         accessStatus:'pending',
         accessPrice:SCRUTINY_ACCESS_PRICE,
         paymentStatus:'not_submitted',
+        activeCourse,
+        enrolledCourses:[activeCourse],
         createdAt:serverTimestamp(),
         updatedAt:serverTimestamp()
       });

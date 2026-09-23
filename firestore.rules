@@ -10,7 +10,7 @@ service cloud.firestore {
     match /students/{uid} {
       allow create: if signedIn() && request.auth.uid == uid && request.resource.data.uid == uid && request.resource.data.role == 'student' && request.resource.data.accessStatus == 'pending' && request.resource.data.paymentStatus == 'not_submitted' && request.resource.data.accessPrice == 59;
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
-      allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','updatedAt']);
+      allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','activeCourse','enrolledCourses','updatedAt']);
       allow delete: if false;
     }
 

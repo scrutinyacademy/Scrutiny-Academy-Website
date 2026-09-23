@@ -17,6 +17,67 @@ const app = initializeApp(firebaseConfig),
   db = getFirestore(app),
   $ = (id) => document.getElementById(id);
 
+const COURSE_PORTALS = {
+  class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", icon: "📘", color: "#1677d2", target: "class10", description: "Telangana SSC subjects, board questions, revision and chapter practice.", actions: [["Subjects", "Open Class 10 subjects and chapters.", "class10"], ["Board Practice", "VSAQ, SAQ, LAQ and MCQ preparation.", "class10"], ["My Progress", "See only your Class 10 learning record.", "progress"], ["Revision Queue", "Review Class 10 mistakes and bookmarks.", "tools"]] },
+  class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", icon: "🌱", color: "#138a5b", target: "class11", description: "First-year Botany, Zoology, Physics and Chemistry in a board-focused portal.", actions: [["Class 11 Subjects", "Open the first-year chapter catalogue.", "class11"], ["Flashcards", "Revise available Class 11 concept decks.", "flashcards"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 11 learning record.", "progress"]] },
+  class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", icon: "🎓", color: "#7254c7", target: "class12", description: "Second-year board subjects, revision resources and exam preparation.", actions: [["Class 12 Subjects", "Open the second-year chapter catalogue.", "class12"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 12 learning record.", "progress"], ["Revision Queue", "Review Class 12 mistakes and bookmarks.", "tools"]] },
+  neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", icon: "🧬", color: "#d65328", target: "neet", description: "NCERT-focused Biology, Physics and Chemistry MCQs, PYQs and tests.", actions: [["Chapter Practice", "Biology, Physics and Chemistry MCQs.", "neet"], ["Create a Test", "Build a personalised NEET test.", "neet"], ["NCERT Search", "Find indexed NCERT concepts and references.", "ncert"], ["Mistake Notebook", "Revise incorrect NEET questions.", "tools"], ["Previous Years", "Open published NEET PYQs.", "pyqs"], ["My Progress", "See only your NEET performance.", "progress"]] },
+  mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
+};
+let activeCourse = "neet";
+
+function inferCourse(item = {}) {
+  if (COURSE_PORTALS[item.courseId]) return item.courseId;
+  const text = `${item.title || ""} ${item.subject || ""}`.toLowerCase();
+  if (text.includes("neet")) return "neet";
+  if (text.includes("mbbs") || /anatomy|physiology|pathology|pharmacology|medicine|surgery/.test(text)) return "mbbs";
+  if (text.includes("class 10")) return "class10";
+  if (text.includes("class 11")) return "class11";
+  if (text.includes("class 12")) return "class12";
+  return "neet";
+}
+
+function portalUrl(anchor) {
+  return `preview-v2.html?course=${activeCourse}#${anchor}`;
+}
+
+function renderCourseDashboard() {
+  const course = COURSE_PORTALS[activeCourse];
+  document.documentElement.style.setProperty("--course-accent", course.color);
+  $("activeCourseLabel").textContent = course.label;
+  $("activeCourseName").textContent = `${course.icon} ${course.name}`;
+  $("activeCourseDescription").textContent = course.description;
+  $("openCourse").href = portalUrl(course.target);
+  $("continueLink").href = portalUrl(course.target);
+  $("courseCardGrid").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<button type="button" class="course-card ${id === activeCourse ? "active" : ""}" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : "OPEN PORTAL"}</small></button>`).join("");
+  $("courseActions").innerHTML = course.actions.map(([title, description, anchor]) => `<a class="card big-link" href="${portalUrl(anchor)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
+  document.querySelectorAll("[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
+}
+
+async function changeCourse(courseId) {
+  if (!COURSE_PORTALS[courseId] || courseId === activeCourse) return;
+  activeCourse = courseId;
+  localStorage.setItem("scrutiny_active_course", courseId);
+  $("courseSwitch").value = courseId;
+  renderCourseDashboard();
+  renderSummary(window.__scrutinyProgress || {});
+  try {
+    const user = auth.currentUser;
+    if (user) await setDoc(doc(db, "students", user.uid), { activeCourse: courseId, enrolledCourses: Object.keys(COURSE_PORTALS), updatedAt: serverTimestamp() }, { merge: true });
+  } catch (error) {
+    console.warn("Course preference saved on this device only", error);
+  }
+}
+
+function setupCourseDashboard(profile = {}) {
+  const saved = localStorage.getItem("scrutiny_active_course");
+  activeCourse = COURSE_PORTALS[saved] ? saved : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : "neet";
+  localStorage.setItem("scrutiny_active_course", activeCourse);
+  $("courseSwitch").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${item.name}</option>`).join("");
+  $("courseSwitch").addEventListener("change", (event) => changeCourse(event.target.value));
+  renderCourseDashboard();
+}
+
 function localProgress() {
   try {
     return (
@@ -61,8 +122,10 @@ function localStreak(sessions) {
 }
 
 function renderSummary(data = {}) {
+  window.__scrutinyProgress = data;
   const local = localProgress();
-  const sessions = data.sessions?.length ? data.sessions : local.sessions || [];
+  const allSessions = data.sessions?.length ? data.sessions : local.sessions || [];
+  const sessions = allSessions.filter((session) => inferCourse(session) === activeCourse);
   const attempted = sessions.reduce(
     (sum, session) => sum + (session.attempted || 0),
     0,
@@ -71,7 +134,8 @@ function renderSummary(data = {}) {
     (sum, session) => sum + (session.correct || 0),
     0,
   );
-  const revision = data.mistakes?.length ?? localTools().mistakes.length;
+  const allMistakes = data.mistakes?.length ? data.mistakes : localTools().mistakes || [];
+  const revision = allMistakes.filter((item) => inferCourse(item) === activeCourse).length;
   $("dashSessions").textContent = String(sessions.length);
   $("dashAccuracy").textContent =
     `${attempted ? Math.round((correct / attempted) * 100) : 0}%`;
@@ -90,6 +154,12 @@ function renderSummary(data = {}) {
     $("continueMeta").textContent =
       `${latest.correct || 0}/${latest.total || 0} correct • ${latest.accuracy || 0}% accuracy`;
     $("continueLink").textContent = "PRACTISE AGAIN";
+    $("continueLink").href = portalUrl(COURSE_PORTALS[activeCourse].target);
+  } else {
+    $("continueTitle").textContent = `Start your first ${COURSE_PORTALS[activeCourse].name} session`;
+    $("continueMeta").textContent = "Your latest completed activity for this course will appear here.";
+    $("continueLink").textContent = "START PRACTICE";
+    $("continueLink").href = portalUrl(COURSE_PORTALS[activeCourse].target);
   }
 }
 
@@ -112,6 +182,7 @@ onAuthStateChanged(auth, async (user) => {
   $("welcome").textContent = `Welcome${p.name ? `, ${p.name}` : ""}`;
   $("studentMeta").textContent =
     `${p.email || user.email} • Access status: Active`;
+  setupCourseDashboard(p);
   renderSummary();
   setupReview(user, p);
   try {

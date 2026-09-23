@@ -41,6 +41,8 @@
       lastResult: null,
     };
   const $ = (id) => document.getElementById(id);
+  const COURSE_PORTALS_LABELS = { class10: "Class 10", class11: "Class 11", class12: "Class 12", neet: "NEET-UG", mbbs: "MBBS" };
+  const activeCourseId = () => document.documentElement.dataset.course || localStorage.getItem("scrutiny_active_course") || "neet";
   async function load(p) {
     if (cache.has(p)) return cache.get(p);
     const r = await fetch(p);
@@ -141,13 +143,16 @@
   }
   function bind() {
     $("menuBtn").onclick = () => $("mainNav").classList.toggle("open");
-    $("quickPractice").onclick = async () =>
-      startQuiz(
-        allMcqs(await load("data/class10/biology.json")),
-        "Class 10 Biology",
-        "practice",
-        10,
-      );
+    $("quickPractice").onclick = async () => {
+      const courseId = activeCourseId();
+      if (courseId === "class10") return startQuiz(allMcqs(await load("data/class10/biology.json")), "Class 10 Biology", "practice", 10);
+      if (courseId === "neet") return startQuiz(allMcqs(state.neet.data), `NEET ${state.neet.data?.subject || "Biology"}`, "practice", 10);
+      if (courseId === "mbbs") {
+        const subject = state.manifest.categories.find((item) => item.id === "mbbs")?.subjects?.[0];
+        if (subject) return startQuiz(allMcqs(await load(subject.file)), `MBBS ${subject.name}`, "practice", 10);
+      }
+      document.getElementById(courseId)?.scrollIntoView({ behavior: "smooth" });
+    };
     $("c10Practice").onclick = () =>
       startQuiz(
         allMcqs(state.class10.data),
@@ -186,10 +191,13 @@
       if (event.key === "Enter") searchNcert();
     };
     $("clearProgress").onclick = () => {
-      if (confirm("Clear all progress on this device?")) {
-        localStorage.removeItem("scrutiny_v2_progress");
+      const courseId = activeCourseId();
+      if (confirm(`Clear ${courseId.toUpperCase()} progress on this device? Other courses will be kept.`)) {
+        const progress = getProgress();
+        progress.sessions = (progress.sessions || []).filter((session) => (session.courseId || "neet") !== courseId);
+        localStorage.setItem("scrutiny_v2_progress", JSON.stringify(progress));
         renderProgress();
-        window.dispatchEvent(new CustomEvent("scrutiny:progress-cleared"));
+        window.dispatchEvent(new CustomEvent("scrutiny:progress-cleared", { detail: { courseId } }));
       }
     };
     $("quizClose").onclick = closeQuiz;
@@ -228,7 +236,13 @@
     let s = 0,
       ch = 0,
       q = 0;
-    for (const c of state.manifest.categories || [])
+    const courseId = activeCourseId();
+    if (courseId === "class11" || courseId === "class12") {
+      const catalog = await load(repo[courseId]);
+      s = (catalog.subjects || []).length;
+      ch = (catalog.subjects || []).reduce((total, subject) => total + (subject.chapters || []).length, 0);
+    }
+    for (const c of (state.manifest.categories || []).filter((item) => item.id === courseId))
       for (const x of c.subjects || []) {
         s++;
         try {
@@ -241,7 +255,7 @@
     $("metricChapters").textContent = ch;
     $("metricMcqs").textContent = q.toLocaleString("en-IN");
     $("inventoryNote").textContent =
-      "Calculated from currently published data.";
+      `Published inside the ${COURSE_PORTALS_LABELS[courseId] || "selected"} portal only.`;
   }
   async function renderClass10() {
     const cat = state.manifest.categories.find((c) => c.id === "class10");
@@ -839,6 +853,7 @@
         subject: q.__subject || "",
         chapter: q.__chapter || "",
         difficulty: difficulty(q),
+        courseId: activeCourseId(),
         reference: q.reference || q.ncertReference || q.source || null,
       };
     });
@@ -853,6 +868,7 @@
         accuracy,
         seconds,
         completedAt: new Date().toISOString(),
+        courseId: activeCourseId(),
         review,
       };
     saveSession(r);
@@ -935,7 +951,8 @@
     );
   }
   function renderProgress() {
-    const ss = getProgress().sessions || [],
+    const courseId = activeCourseId(),
+      ss = (getProgress().sessions || []).filter((session) => (session.courseId || "neet") === courseId),
       a = ss.reduce((n, s) => n + (s.attempted || 0), 0),
       c = ss.reduce((n, s) => n + (s.correct || 0), 0);
     $("pAttempts").textContent = a;

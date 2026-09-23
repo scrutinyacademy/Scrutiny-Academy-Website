@@ -1616,3 +1616,33 @@ select {
     flex: 1 1 44%;
   }
 }
+
+/* Course portals keep each academic journey visually and structurally separate. */
+.course-portal-bar {
+  position: sticky;
+  top: 74px;
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 12px max(22px, calc((100vw - 1240px) / 2));
+  color: #fff;
+  background: linear-gradient(100deg, var(--portal-accent, #175cd3), #102a56);
+  box-shadow: 0 12px 28px rgba(16, 42, 86, 0.16);
+}
+.course-portal-bar > div { display: grid; gap: 2px; }
+.course-portal-bar span { font-size: .63rem; font-weight: 900; letter-spacing: .13em; opacity: .8; }
+.course-portal-bar strong { font-size: 1rem; }
+.course-portal-bar label { display: flex; align-items: center; gap: 9px; font-size: .72rem; font-weight: 800; }
+.course-portal-bar select { min-width: 230px; border: 1px solid rgba(255,255,255,.4); border-radius: 10px; padding: 9px 34px 9px 11px; color: #102a56; background: #fff; font: inherit; font-weight: 800; }
+.course-portal-bar a { border: 1px solid rgba(255,255,255,.45); border-radius: 10px; padding: 9px 13px; color: #fff; text-decoration: none; font-size: .75rem; font-weight: 900; }
+html[data-course] .hero { border-top: 5px solid var(--portal-accent); }
+html[data-course] .hero .eyebrow { color: var(--portal-accent); }
+html[data-course] .section-head .eyebrow { color: var(--portal-accent); }
+#mainNav a[hidden], main > section[hidden] { display: none !important; }
+@media (max-width: 760px) {
+  .course-portal-bar { top: 66px; display: grid; grid-template-columns: 1fr auto; padding: 10px 15px; }
+  .course-portal-bar label { grid-column: 1 / -1; justify-content: space-between; }
+  .course-portal-bar select { min-width: 0; width: min(68vw, 320px); }
+}
