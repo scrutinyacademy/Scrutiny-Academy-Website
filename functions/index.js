@@ -1,6 +1,6 @@
 const crypto = require("node:crypto");
 const { initializeApp } = require("firebase-admin/app");
-const { getFirestore, FieldValue } = require("firebase-admin/firestore");
+const { getFirestore, FieldValue, FieldPath } = require("firebase-admin/firestore");
 const { defineSecret } = require("firebase-functions/params");
 const {
   HttpsError,
@@ -12,12 +12,35 @@ initializeApp();
 
 const db = getFirestore();
 const REGION = "asia-south1";
-const PRICE_RUPEES = 99;
-const PRICE_PAISE = PRICE_RUPEES * 100;
 const CURRENCY = "INR";
+const NEET_PROMO_END_MS = Date.parse("2026-10-05T18:29:59.999Z");
+const COURSES = {
+  class10: { name: "Class 10 SSC Complete Course 2027", price: 99, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude" },
+  class11: { name: "Class 11 Board Booster 2027", price: 149, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude" },
+  class12: { name: "Class 12 Board Booster 2027", price: 149, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude" },
+  neet: { name: "NEET-UG Target Course", price: 499 },
+};
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
 const RAZORPAY_WEBHOOK_SECRET = defineSecret("RAZORPAY_WEBHOOK_SECRET");
+
+function coursePrice(courseId, now = Date.now()) {
+  if (!COURSES[courseId]) return null;
+  return courseId === "neet" && now <= NEET_PROMO_END_MS ? 99 : COURSES[courseId].price;
+}
+
+function courseValidity(courseId, neetExamYear) {
+  if (courseId === "neet") {
+    if (!["2027", "2028"].includes(String(neetExamYear))) return null;
+    return { code: `NEET_${neetExamYear}`, label: `Until the NEET-UG ${neetExamYear} examination` };
+  }
+  const course = COURSES[courseId];
+  return course ? { code: course.validityCode, label: course.validityLabel } : null;
+}
+
+function paymentRequestId(uid, courseId) {
+  return `${uid}_${courseId}`;
+}
 
 function secureEqual(actual, expected) {
   const a = Buffer.from(actual || "", "utf8");
@@ -57,7 +80,11 @@ async function razorpayRequest(path, options = {}) {
 }
 
 async function activateStudent({ uid, orderId, paymentId, source }) {
-  const requestRef = db.doc(`paymentRequests/${uid}`);
+  const linkedRequest = await findPaymentRequestForOrder(orderId);
+  if (!linkedRequest || linkedRequest.data().uid !== uid) {
+    throw new HttpsError("failed-precondition", "This payment order is not linked to this student account.");
+  }
+  const requestRef = linkedRequest.ref;
   const studentRef = db.doc(`students/${uid}`);
 
   await db.runTransaction(async (transaction) => {
@@ -70,24 +97,45 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
     }
     if (paymentRequest.data().status === "paid") return;
 
-    transaction.set(
+    const requestData = paymentRequest.data();
+    const courseId = requestData.courseId;
+    const validity = courseValidity(courseId, requestData.neetExamYear);
+    if (!COURSES[courseId] || !validity) {
+      throw new HttpsError("failed-precondition", "The purchased course details are invalid.");
+    }
+    if (courseId === "neet" && requestData.amount === 99 && Date.now() > NEET_PROMO_END_MS) {
+      throw new HttpsError("failed-precondition", "The NEET introductory offer has ended. Create a new ₹499 order.");
+    }
+
+    transaction.update(
       studentRef,
-      {
-        accessStatus: "active",
-        accessPrice: PRICE_RUPEES,
-        paymentStatus: "verified",
-        payment: {
+      "accessStatus", "active",
+      "accessPrice", requestData.amount,
+      "paymentStatus", "verified",
+      "purchasedCourse", courseId,
+      "activeCourse", courseId,
+      "enrolledCourses", FieldValue.arrayUnion(courseId),
+      "payment", {
           provider: "razorpay",
           orderId,
           paymentId,
-          amount: PRICE_RUPEES,
+          amount: requestData.amount,
+          courseId,
           verifiedAt: FieldValue.serverTimestamp(),
           verificationSource: source,
         },
-        paidAt: FieldValue.serverTimestamp(),
-        updatedAt: FieldValue.serverTimestamp(),
+      new FieldPath("courseEntitlements", courseId), {
+        status: "active",
+        courseId,
+        courseName: COURSES[courseId].name,
+        neetExamYear: requestData.neetExamYear || null,
+        validityCode: validity.code,
+        validityLabel: validity.label,
+        pricePaid: requestData.amount,
+        activatedAt: FieldValue.serverTimestamp(),
       },
-      { merge: true },
+      "paidAt", FieldValue.serverTimestamp(),
+      "updatedAt", FieldValue.serverTimestamp(),
     );
 
     transaction.set(
@@ -104,13 +152,13 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
   });
 }
 
-async function findUidForOrder(orderId) {
+async function findPaymentRequestForOrder(orderId) {
   const snap = await db
     .collection("paymentRequests")
     .where("orderId", "==", orderId)
     .limit(1)
     .get();
-  return snap.empty ? null : snap.docs[0].id;
+  return snap.empty ? null : snap.docs[0];
 }
 
 exports.createRazorpayOrder = onCall(
@@ -131,17 +179,27 @@ exports.createRazorpayOrder = onCall(
 
     const uid = request.auth.uid;
     const studentRef = db.doc(`students/${uid}`);
-    const requestRef = db.doc(`paymentRequests/${uid}`);
-    const [student, existingRequest] = await Promise.all([
-      studentRef.get(),
-      requestRef.get(),
-    ]);
+    const student = await studentRef.get();
 
     if (!student.exists)
       throw new HttpsError("failed-precondition", "Student profile not found.");
-    if (student.data().accessStatus === "active") {
-      throw new HttpsError("already-exists", "Your access is already active.");
+    const profile = student.data();
+    const requestedCourse = request.data?.courseId;
+    const courseId = COURSES[requestedCourse] ? requestedCourse : profile.requestedCourse || profile.activeCourse;
+    const course = COURSES[courseId];
+    const neetExamYear = courseId === "neet" ? String(request.data?.neetExamYear || profile.neetExamYear || "") : null;
+    const validity = courseValidity(courseId, neetExamYear);
+    const priceRupees = coursePrice(courseId);
+    if (!course || !validity || !priceRupees) {
+      throw new HttpsError("failed-precondition", "Choose a valid course and examination year before paying.");
     }
+    const legacyOwnedCourse = profile.purchasedCourse || profile.requestedCourse || profile.activeCourse;
+    if (profile.courseEntitlements?.[courseId]?.status === "active" || (profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
+      return { active: true, courseId };
+    }
+    const pricePaise = priceRupees * 100;
+    const requestRef = db.doc(`paymentRequests/${paymentRequestId(uid, courseId)}`);
+    const existingRequest = await requestRef.get();
 
     if (existingRequest.exists) {
       const existing = existingRequest.data();
@@ -151,14 +209,18 @@ exports.createRazorpayOrder = onCall(
       if (
         typeof existing.orderId === "string" &&
         existing.orderId.startsWith("order_") &&
-        existing.amountPaise === PRICE_PAISE &&
+        existing.courseId === courseId &&
+        existing.neetExamYear === neetExamYear &&
+        existing.amountPaise === pricePaise &&
         existing.currency === CURRENCY
       ) {
         return {
           keyId: RAZORPAY_KEY_ID.value(),
           orderId: existing.orderId,
-          amount: PRICE_PAISE,
+          amount: pricePaise,
           currency: CURRENCY,
+          courseId,
+          courseName: course.name,
         };
       }
     }
@@ -166,10 +228,10 @@ exports.createRazorpayOrder = onCall(
     const order = await razorpayRequest("/orders", {
       method: "POST",
       body: JSON.stringify({
-        amount: PRICE_PAISE,
+        amount: pricePaise,
         currency: CURRENCY,
         receipt: `sa_${uid.slice(0, 12)}_${Date.now()}`,
-        notes: { firebase_uid: uid, product: "scrutiny_academy_access" },
+        notes: { firebase_uid: uid, course_id: courseId, exam_year: neetExamYear || "board" },
       }),
     });
 
@@ -178,8 +240,12 @@ exports.createRazorpayOrder = onCall(
         uid,
         provider: "razorpay",
         orderId: order.id,
-        amount: PRICE_RUPEES,
-        amountPaise: PRICE_PAISE,
+        courseId,
+        courseName: course.name,
+        neetExamYear,
+        validityCode: validity.code,
+        amount: priceRupees,
+        amountPaise: pricePaise,
         currency: CURRENCY,
         status: "pending",
         createdAt: FieldValue.serverTimestamp(),
@@ -197,8 +263,10 @@ exports.createRazorpayOrder = onCall(
     return {
       keyId: RAZORPAY_KEY_ID.value(),
       orderId: order.id,
-      amount: PRICE_PAISE,
+      amount: pricePaise,
       currency: CURRENCY,
+      courseId,
+      courseName: course.name,
     };
   },
 );
@@ -238,12 +306,17 @@ exports.verifyRazorpayPayment = onCall(
       );
     }
 
+    const paymentRequest = await findPaymentRequestForOrder(orderId);
+    if (!paymentRequest || paymentRequest.data().uid !== request.auth.uid) {
+      throw new HttpsError("failed-precondition", "This order is not linked to your student account.");
+    }
+    const expectedAmount = paymentRequest.data().amountPaise;
     const payment = await razorpayRequest(
       `/payments/${encodeURIComponent(paymentId)}`,
     );
     if (
       payment.order_id !== orderId ||
-      payment.amount !== PRICE_PAISE ||
+      payment.amount !== expectedAmount ||
       payment.currency !== CURRENCY ||
       payment.status !== "captured"
     ) {
@@ -277,7 +350,9 @@ exports.syncRazorpayPayment = onCall(
       );
 
     const uid = request.auth.uid;
-    const paymentRequest = await db.doc(`paymentRequests/${uid}`).get();
+    const courseId = request.data?.courseId;
+    if (!COURSES[courseId]) throw new HttpsError("invalid-argument", "Choose a valid course.");
+    const paymentRequest = await db.doc(`paymentRequests/${paymentRequestId(uid, courseId)}`).get();
     if (!paymentRequest.exists) return { active: false };
     if (paymentRequest.data().status === "paid") return { active: true };
 
@@ -285,13 +360,14 @@ exports.syncRazorpayPayment = onCall(
     if (typeof orderId !== "string" || !orderId.startsWith("order_"))
       return { active: false };
 
+    const expectedAmount = paymentRequest.data().amountPaise;
     const payments = await razorpayRequest(
       `/orders/${encodeURIComponent(orderId)}/payments`,
     );
     const capturedPayment = payments.items?.find(
       (payment) =>
         payment.order_id === orderId &&
-        payment.amount === PRICE_PAISE &&
+        payment.amount === expectedAmount &&
         payment.currency === CURRENCY &&
         payment.status === "captured",
     );
@@ -329,21 +405,13 @@ exports.razorpayWebhook = onRequest(
     try {
       const event = req.body?.event;
       const payment = req.body?.payload?.payment?.entity;
-      if (
-        event === "payment.captured" &&
-        payment &&
-        payment.amount === PRICE_PAISE &&
-        payment.currency === CURRENCY &&
-        typeof payment.order_id === "string"
-      ) {
-        const uid = await findUidForOrder(payment.order_id);
-        if (uid) {
-          await activateStudent({
-            uid,
-            orderId: payment.order_id,
-            paymentId: payment.id,
-            source: "webhook",
-          });
+      if (event === "payment.captured" && payment && payment.currency === CURRENCY && typeof payment.order_id === "string") {
+        const linked = await findPaymentRequestForOrder(payment.order_id);
+        if (linked) {
+          const uid = linked.data().uid;
+          if (linked.data().amountPaise === payment.amount) {
+            await activateStudent({ uid, orderId: payment.order_id, paymentId: payment.id, source: "webhook" });
+          }
         }
       }
       res.status(200).send("ok");
