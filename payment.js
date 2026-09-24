@@ -1,4 +1,5 @@
-import { firebaseConfig, SCRUTINY_ACCESS_PRICE } from "./firebase-config.js";
+import { firebaseConfig } from "./firebase-config.js";
+import { COURSE_CATALOG, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -34,6 +35,13 @@ const message = (text, kind = "") => {
 
 let currentUser = null;
 let currentProfile = null;
+const query = new URLSearchParams(location.search);
+let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
+let purchaseNeetYear = ["2027", "2028"].includes(query.get("exam")) ? query.get("exam") : "";
+
+function hasPurchasedCourse(profile = {}) {
+  return entitledCourses(profile).includes(purchaseCourseId);
+}
 
 function showDashboardButton() {
   const actions = $("paymentActions");
@@ -49,7 +57,7 @@ function showPayButton() {
   const actions = $("paymentActions");
   actions.style.display = "block";
   actions.innerHTML =
-    '<button class="primary" id="payBtn" type="button">PAY ₹99 & UNLOCK ACCESS</button>';
+    `<button class="primary" id="payBtn" type="button">PAY ₹${currentCoursePrice(purchaseCourseId) ?? "—"} & UNLOCK THIS COURSE</button>`;
   $("payBtn").onclick = startCheckout;
 }
 
@@ -91,24 +99,37 @@ function showVerificationActions() {
 
 function renderStatus(profile) {
   currentProfile = { ...(currentProfile || {}), ...profile };
-  const status = currentProfile.accessStatus || "pending";
+  purchaseCourseId ||= currentProfile.requestedCourse || currentProfile.activeCourse;
+  if (purchaseCourseId === "neet") purchaseNeetYear ||= String(currentProfile.neetExamYear || "");
+  const courseId = purchaseCourseId;
+  const course = COURSE_CATALOG[courseId];
+  const price = currentCoursePrice(courseId);
+  if (course) {
+    $("paymentPrice").textContent = `₹${price}`;
+    $("paymentCourseName").textContent = course.name;
+    $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
+    $("paymentValidity").textContent = courseValidity(courseId, purchaseNeetYear) || "Choose your NEET exam year below.";
+    const yearWrap = $("paymentNeetYearWrap");
+    if (yearWrap) {
+      yearWrap.hidden = courseId !== "neet";
+      $("paymentNeetYear").value = purchaseNeetYear;
+    }
+  }
+  const active = hasPurchasedCourse(currentProfile);
   const pill = $("statusPill");
-  pill.className = `status-pill ${status === "active" ? "active" : "pending"}`;
+  pill.className = `status-pill ${active ? "active" : "pending"}`;
 
-  if (status === "active") {
-    pill.textContent = "ACCESS ACTIVE";
+  if (active) {
+    pill.textContent = "COURSE UNLOCKED";
     $("statusText").textContent =
-      "Payment verified. Your Scrutiny Academy access is active.";
+      `${course?.shortName || "This course"} is already included in your account.`;
     showDashboardButton();
     return;
   }
 
-  pill.textContent =
-    currentProfile.paymentStatus === "created"
-      ? "CHECKOUT READY"
-      : "PAYMENT REQUIRED";
+  pill.textContent = "PAYMENT REQUIRED";
   $("statusText").textContent =
-    "Complete the ₹99 Razorpay payment. Access unlocks automatically after secure verification.";
+    `Complete the ₹${price} Razorpay payment for ${course?.shortName || "your selected course"}. Only this course unlocks after secure verification.`;
   showPayButton();
 }
 
@@ -134,18 +155,22 @@ onAuthStateChanged(auth, async (user) => {
         email: user.email || "",
         role: "student",
         accessStatus: "pending",
-        accessPrice: SCRUTINY_ACCESS_PRICE,
+        accessPrice: null,
         paymentStatus: "not_submitted",
+        requestedCourse: null,
         createdAt: serverTimestamp(),
         updatedAt: serverTimestamp(),
       };
       await setDoc(studentRef, profile);
     }
+    purchaseCourseId ||= profile.requestedCourse || profile.activeCourse;
+    if (!COURSE_CATALOG[purchaseCourseId]) throw new Error("No valid course was selected.");
+    if (purchaseCourseId === "neet") purchaseNeetYear ||= String(profile.neetExamYear || "");
     $("studentName").textContent = profile.name
       ? `Hi, ${profile.name}`
       : "Student Access";
     renderStatus(profile);
-    if (profile.accessStatus !== "active" && !user.emailVerified) {
+    if (!hasPurchasedCourse(profile) && !user.emailVerified) {
       $("statusPill").textContent = "EMAIL VERIFICATION REQUIRED";
       $("statusText").textContent =
         "Open the verification link sent to your email before paying.";
@@ -153,15 +178,16 @@ onAuthStateChanged(auth, async (user) => {
     }
     message("");
 
-    if (profile.accessStatus !== "active") {
+    if (!hasPurchasedCourse(profile)) {
       try {
-        const { data: synced } = await syncPayment();
+        const { data: synced } = await syncPayment({ courseId: purchaseCourseId });
         if (synced.active) {
           message(
             "Your completed payment was verified. Access is now active.",
             "success",
           );
-          renderStatus({ accessStatus: "active", paymentStatus: "verified" });
+          currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+          renderStatus(currentProfile);
         }
       } catch (syncError) {
         console.warn("Payment reconciliation unavailable:", syncError);
@@ -182,7 +208,7 @@ onAuthStateChanged(auth, async (user) => {
 });
 
 async function startCheckout() {
-  if (!currentUser || currentProfile?.accessStatus === "active") return;
+  if (!currentUser || hasPurchasedCourse(currentProfile)) return;
   await currentUser.reload();
   currentUser = auth.currentUser;
   if (!currentUser?.emailVerified) {
@@ -197,6 +223,11 @@ async function startCheckout() {
     );
     return;
   }
+  if (purchaseCourseId === "neet" && !["2027", "2028"].includes(purchaseNeetYear)) {
+    message("Choose whether you are preparing for NEET-UG 2027 or 2028.", "error");
+    $("paymentNeetYear")?.focus();
+    return;
+  }
 
   const button = $("payBtn");
   if (!button) return;
@@ -204,10 +235,11 @@ async function startCheckout() {
   message("Preparing secure Razorpay checkout…");
 
   try {
-    const { data: order } = await createOrder();
+    const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null });
     if (order?.active) {
       message("Your access is already active.", "success");
-      renderStatus({ accessStatus: "active", paymentStatus: "verified" });
+      currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+      renderStatus(currentProfile);
       return;
     }
 
@@ -217,14 +249,14 @@ async function startCheckout() {
       amount: order.amount,
       currency: order.currency,
       name: "Scrutiny Academy",
-      description: "One-time student access",
+      description: order.courseName || "Scrutiny Academy course access",
       image: new URL("assets/logo.svg", location.href).href,
       prefill: {
         name: currentProfile?.name || currentUser.displayName || "",
         email: currentUser.email || "",
         contact: currentProfile?.phone || "",
       },
-      notes: { product: "scrutiny_academy_access" },
+      notes: { product: order.courseId || currentProfile?.requestedCourse || "course_access" },
       theme: { color: "#102a56" },
       modal: {
         ondismiss: () => {
@@ -237,7 +269,8 @@ async function startCheckout() {
         try {
           await verifyPayment(result);
           message("Payment verified. Your access is now active.", "success");
-          renderStatus({ accessStatus: "active", paymentStatus: "verified" });
+          currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+          renderStatus(currentProfile);
         } catch (error) {
           console.error("Payment verification failed:", error);
           message(
@@ -274,3 +307,8 @@ $("logoutBtn").onclick = async () => {
   await signOut(auth);
   location.replace("login.html");
 };
+
+$("paymentNeetYear")?.addEventListener("change", (event) => {
+  purchaseNeetYear = event.target.value;
+  $("paymentValidity").textContent = courseValidity("neet", purchaseNeetYear);
+});

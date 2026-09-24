@@ -1,4 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
+import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -25,6 +26,7 @@ const COURSE_PORTALS = {
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
 };
 let activeCourse = "neet";
+let availableCourses = [];
 
 function inferCourse(item = {}) {
   if (COURSE_PORTALS[item.courseId]) return item.courseId;
@@ -49,13 +51,18 @@ function renderCourseDashboard() {
   $("activeCourseDescription").textContent = course.description;
   $("openCourse").href = portalUrl(course.target);
   $("continueLink").href = portalUrl(course.target);
-  $("courseCardGrid").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<button type="button" class="course-card ${id === activeCourse ? "active" : ""}" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : "OPEN PORTAL"}</small></button>`).join("");
+  $("courseCardGrid").innerHTML = Object.entries(COURSE_CATALOG).map(([id, plan]) => {
+    const item = COURSE_PORTALS[id];
+    const owned = availableCourses.includes(id);
+    if (owned) return `<button type="button" class="course-card ${id === activeCourse ? "active" : ""}" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : "OPEN PURCHASED COURSE"}</small></button>`;
+    return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
+  }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor]) => `<a class="card big-link" href="${portalUrl(anchor)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
-  document.querySelectorAll("[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
+  document.querySelectorAll("button[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
 }
 
 async function changeCourse(courseId) {
-  if (!COURSE_PORTALS[courseId] || courseId === activeCourse) return;
+  if (!availableCourses.includes(courseId) || courseId === activeCourse) return;
   activeCourse = courseId;
   localStorage.setItem("scrutiny_active_course", courseId);
   $("courseSwitch").value = courseId;
@@ -63,17 +70,22 @@ async function changeCourse(courseId) {
   renderSummary(window.__scrutinyProgress || {});
   try {
     const user = auth.currentUser;
-    if (user) await setDoc(doc(db, "students", user.uid), { activeCourse: courseId, enrolledCourses: Object.keys(COURSE_PORTALS), updatedAt: serverTimestamp() }, { merge: true });
+    if (user) await setDoc(doc(db, "students", user.uid), { activeCourse: courseId, updatedAt: serverTimestamp() }, { merge: true });
   } catch (error) {
     console.warn("Course preference saved on this device only", error);
   }
 }
 
 function setupCourseDashboard(profile = {}) {
+  availableCourses = entitledCourses(profile);
+  if (!availableCourses.length) {
+    location.replace("payment.html");
+    return;
+  }
   const saved = localStorage.getItem("scrutiny_active_course");
-  activeCourse = COURSE_PORTALS[saved] ? saved : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : "neet";
+  activeCourse = availableCourses.includes(saved) ? saved : availableCourses.includes(profile.activeCourse) ? profile.activeCourse : availableCourses[0];
   localStorage.setItem("scrutiny_active_course", activeCourse);
-  $("courseSwitch").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${item.name}</option>`).join("");
+  $("courseSwitch").innerHTML = availableCourses.map((id) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("");
   $("courseSwitch").addEventListener("change", (event) => changeCourse(event.target.value));
   renderCourseDashboard();
 }
@@ -181,8 +193,9 @@ onAuthStateChanged(auth, async (user) => {
   }
   $("welcome").textContent = `Welcome${p.name ? `, ${p.name}` : ""}`;
   $("studentMeta").textContent =
-    `${p.email || user.email} • Access status: Active`;
+    `${p.email || user.email} • ${courseValidity(p.purchasedCourse || p.requestedCourse || p.activeCourse, p.neetExamYear)}`;
   setupCourseDashboard(p);
+  $("class10LectureEntry").hidden = !availableCourses.includes("class10");
   renderSummary();
   setupReview(user, p);
   try {

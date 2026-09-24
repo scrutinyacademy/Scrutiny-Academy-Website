@@ -1,4 +1,5 @@
-import { firebaseConfig, SCRUTINY_ACCESS_PRICE } from './firebase-config.js';
+import { firebaseConfig } from './firebase-config.js';
+import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
@@ -9,6 +10,27 @@ const msg = (text, kind='') => { const el=$('authMessage'); if(!el) return; el.t
 let authActionInProgress = false;
 
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
+const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
+function updateCourseSelection(){
+  const courseId=courseSelect?.value;
+  const course=COURSE_CATALOG[courseId];
+  const isNeet=courseId==='neet';
+  if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
+  if(selectionSummary){
+    if(!course){ selectionSummary.hidden=true; return; }
+    const price=currentCoursePrice(courseId);
+    selectionSummary.hidden=false;
+    selectionSummary.innerHTML=`<strong>${course.name} · ₹${price}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : course.validity}</small>`;
+  }
+}
+courseSelect?.addEventListener('change',updateCourseSelection);
+const neetPrice=currentCoursePrice('neet');
+const neetOption=courseSelect?.querySelector('option[value="neet"]');
+if(neetOption) neetOption.textContent=`NEET-UG Target Course — ₹${neetPrice}${neetPrice===99?' until 5 Oct':''}`;
+document.querySelectorAll('[data-neet-price]').forEach(el=>{ el.textContent=`₹${neetPrice}`; });
+document.querySelectorAll('[data-neet-price-note]').forEach(el=>{ el.textContent=neetPrice===99?'until 5 October 2026':'standard price'; });
+document.querySelectorAll('[data-neet-next-price]').forEach(el=>{ el.hidden=neetPrice!==99; });
+document.querySelectorAll('[data-neet-badge]').forEach(el=>{ el.textContent=neetPrice===99?'INTRODUCTORY OFFER':'NEET-UG COURSE'; });
 function activate(mode){
   const login = mode==='login';
   loginTab?.classList.toggle('active',login); registerTab?.classList.toggle('active',!login);
@@ -58,7 +80,11 @@ if(!configured){
     e.preventDefault(); authActionInProgress=true; msg('Creating your account…');
     try{
       const email=$('regEmail').value.trim().toLowerCase();
-      const activeCourse=$('regCourse').value;
+      const activeCourse=courseSelect.value;
+      const selectedCourse=COURSE_CATALOG[activeCourse];
+      const selectedNeetYear=activeCourse==='neet'?neetYear.value:'';
+      if(!selectedCourse) throw new Error('Choose a valid course.');
+      if(activeCourse==='neet' && !['2027','2028'].includes(selectedNeetYear)) throw new Error('Choose the NEET exam year you are preparing for.');
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
@@ -67,10 +93,13 @@ if(!configured){
         email,
         role:'student',
         accessStatus:'pending',
-        accessPrice:SCRUTINY_ACCESS_PRICE,
+        accessPrice:currentCoursePrice(activeCourse),
         paymentStatus:'not_submitted',
         activeCourse,
-        enrolledCourses:[activeCourse],
+        requestedCourse:activeCourse,
+        neetExamYear:selectedNeetYear || null,
+        enrolledCourses:[],
+        courseEntitlements:{},
         createdAt:serverTimestamp(),
         updatedAt:serverTimestamp()
       });

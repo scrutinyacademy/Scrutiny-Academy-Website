@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Scrutiny Academy | ₹99 Limited-Time Access</title>
+    <title>Scrutiny Academy | Secure Course Payment</title>
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="stylesheet" href="auth.css" />
   </head>
@@ -25,9 +25,13 @@
       </header>
       <section class="payment-grid">
         <article class="card">
-          <span class="eyebrow">ONE-TIME ACCESS</span>
-          <div class="price"><span style="display:block;font-size:1rem;font-weight:700;color:#7a8495;margin-bottom:4px"><s>₹1,299</s> original price</span>₹99<small style="display:block;font-size:.78rem;letter-spacing:.08em;color:#138a4b;margin-top:4px">LIMITED-TIME OFFER</small></div>
-          <h2>Pay securely with Razorpay</h2>
+          <span class="eyebrow">SELECTED COURSE</span>
+          <div class="price" id="paymentPrice">—</div>
+          <h2 id="paymentCourseName">Loading your course…</h2>
+          <p id="paymentIncludes"></p>
+          <p><strong id="paymentValidity"></strong></p>
+          <label id="paymentNeetYearWrap" hidden style="display:grid;gap:7px;margin:14px 0;font-size:.82rem;font-weight:800">NEET examination year<select id="paymentNeetYear" style="padding:11px;border:1px solid #c7d4e2;border-radius:10px;background:#fff;font:inherit"><option value="">Choose NEET year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
+          <h3>Pay securely with Razorpay</h3>
           <p>
             Use UPI, Google Pay, cards, netbanking, or another method offered by
             Razorpay.
@@ -48,7 +52,7 @@
           <div id="statusPill" class="status-pill pending">Checking</div>
           <div id="paymentActions" style="display: none; margin-top: 20px">
             <button class="primary" id="payBtn" type="button">
-              PAY ₹99 SECURELY
+              CONTINUE TO SECURE PAYMENT
             </button>
           </div>
           <div

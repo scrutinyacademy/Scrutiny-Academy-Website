@@ -103,7 +103,8 @@ scrutiny-academy/
    - Contextmenu notification deterrent and clipboard source attribution.
 
 9. **Verified Student Access**:
-   - One-time ₹99 checkout through Razorpay (limited-time offer; original price ₹1,299).
+   - Course-specific Razorpay checkout: Class 10 ₹99, Class 11 ₹149, Class 12 ₹149, and NEET-UG ₹99 through 5 October 2026 / ₹499 afterward.
+   - Verified entitlements unlock only the purchased course and retain its exam-validity metadata.
    - Payment signatures and captured status are verified by Firebase Functions before access is activated.
    - Email verification is required by the current frontend and the updated backend function.
 

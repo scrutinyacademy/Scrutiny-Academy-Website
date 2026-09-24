@@ -47,8 +47,8 @@
         <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 19c.4-4 2.2-6 5.5-6s5.1 2 5.5 6m.5-5c3.1-.5 5 1.2 5.5 4"/></svg></b><span>Learn<br />Anywhere</span></div>
       </div>
       <div class="offer-card" id="pricing">
-        <div class="offer-price"><s>₹1,299</s><strong>₹99</strong><span>Limited Time Offer</span></div>
-        <div class="offer-copy"><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2M9 2h6m-3 0v3"/></svg></b><span>Unlock Your Full<br />Learning Potential<br /><strong>at Just ₹99</strong></span></div>
+        <div class="offer-price"><strong>4</strong><span>Course-specific plans</span></div>
+        <div class="offer-copy"><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2M9 2h6m-3 0v3"/></svg></b><span>Choose one course.<br />Pay only for that course.<br /><strong>Access stays separate.</strong></span></div>
       </div>
       <div class="doctor-note">Discipline Today<br /><strong>Doctor Tomorrow</strong><span class="heartbeat" aria-hidden="true"></span></div>
       <div class="social">
@@ -76,7 +76,9 @@
           <label>Full Name<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.5-5 3-7 8-7s7.5 2 8 7"/></svg><input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name" /></div></label>
           <label>Mobile<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 5c0 8 7 15 15 15l2-3-5-3-2 2c-3-1-5-3-6-6l2-2-3-5Z"/></svg><input id="regPhone" type="tel" inputmode="numeric" autocomplete="tel" required maxlength="15" placeholder="10-digit number" /></div></label>
         </div>
-        <label>Primary course<select id="regCourse" required><option value="" disabled selected>Choose your learning portal</option><option value="class10">Class 10 Telangana SSC</option><option value="class11">Class 11 Telangana Intermediate</option><option value="class12">Class 12 Telangana Intermediate</option><option value="neet">NEET-UG</option><option value="mbbs">MBBS</option></select></label>
+        <label>Choose your course<select id="regCourse" required><option value="" disabled selected>Select course and price</option><option value="class10">Class 10 SSC Complete Course — ₹99</option><option value="class11">Class 11 Board Booster — ₹149</option><option value="class12">Class 12 Board Booster — ₹149</option><option value="neet">NEET-UG Target Course — ₹99 until 5 Oct</option></select></label>
+        <label id="neetYearWrap" hidden>Which NEET exam are you preparing for?<select id="regNeetYear"><option value="" disabled selected>Choose NEET exam year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
+        <div class="course-selection-summary" id="courseSelectionSummary" hidden></div>
         <label>Email<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 7 9-7"/></svg><input id="regEmail" type="email" autocomplete="email" required placeholder="you@example.com" /></div></label>
         <label>Password<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><input id="regPassword" type="password" autocomplete="new-password" required minlength="8" placeholder="Minimum 8 characters" /></div></label>
         <label class="check"><input id="terms" type="checkbox" required /><span>I agree to use this account only for my own learning and understand access is activated after payment verification.</span></label>
@@ -91,6 +93,15 @@
       <div class="message" id="authMessage" role="status" aria-live="polite"></div>
     </section>
   </main>
+  <section class="course-pricing-section" aria-labelledby="coursePlansTitle">
+    <div class="course-pricing-head"><span class="eyebrow">CHOOSE YOUR COURSE</span><h2 id="coursePlansTitle">One payment. One protected learning portal.</h2><p>Your payment unlocks only the course you select. Other course content remains locked.</p></div>
+    <div class="course-pricing-grid">
+      <article class="course-plan"><span class="plan-icon">📘</span><h3>Class 10 SSC Complete Course 2027</h3><div class="plan-price">₹99 <small>one-time</small></div><ul><li>Lectures</li><li>Notes</li><li>Revision sheets</li><li>Flashcards</li><li>MCQs</li></ul><p class="plan-validity">Valid until your 2027 Class 10 board examinations conclude.</p><a href="#authCard" data-select-course="class10">SELECT CLASS 10</a></article>
+      <article class="course-plan"><span class="plan-icon">🌱</span><h3>Class 11 Board Booster 2027</h3><div class="plan-price">₹149 <small>one-time</small></div><ul><li>Revision sheets</li><li>VSAQs</li><li>SAQs</li><li>LAQs</li></ul><p class="plan-validity">Valid until your 2027 Class 11 annual examinations conclude.</p><a href="#authCard" data-select-course="class11">SELECT CLASS 11</a></article>
+      <article class="course-plan"><span class="plan-icon">🎓</span><h3>Class 12 Board Booster 2027</h3><div class="plan-price">₹149 <small>one-time</small></div><ul><li>Revision sheets</li><li>VSAQs</li><li>SAQs</li><li>LAQs</li></ul><p class="plan-validity">Valid until your 2027 Class 12 board examinations conclude.</p><a href="#authCard" data-select-course="class12">SELECT CLASS 12</a></article>
+      <article class="course-plan featured"><span class="plan-badge" data-neet-badge>INTRODUCTORY OFFER</span><span class="plan-icon">🧬</span><h3>NEET-UG Target Course</h3><div class="plan-price"><span data-neet-price>₹99</span> <small data-neet-price-note>until 5 October 2026</small></div><p class="next-price" data-neet-next-price>₹499 from 6 October 2026</p><ul><li>Physics, Chemistry and Biology MCQs</li><li>NCERT search and revision tools</li><li>PYQs, tests and analytics</li><li>Mistake revision</li></ul><p class="plan-validity">Choose NEET 2027 or 2028. Access remains valid through that examination.</p><a href="#authCard" data-select-course="neet">SELECT NEET-UG</a></article>
+    </div>
+  </section>
   <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
   <script type="module" src="auth.js"></script>
   <script>
@@ -101,6 +112,11 @@
       menu.setAttribute('aria-expanded', String(open));
     });
     if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(console.error));
+    document.querySelectorAll('[data-select-course]').forEach(link => link.addEventListener('click', () => {
+      document.getElementById('registerTab')?.click();
+      const select = document.getElementById('regCourse');
+      if (select) { select.value = link.dataset.selectCourse; select.dispatchEvent(new Event('change')); }
+    }));
   </script>
 </body>
 </html>
