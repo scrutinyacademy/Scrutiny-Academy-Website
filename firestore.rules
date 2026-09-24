@@ -14,7 +14,7 @@ service cloud.firestore {
         && request.resource.data.role == 'student'
         && request.resource.data.accessStatus == 'pending'
         && request.resource.data.paymentStatus == 'not_submitted'
-        && request.resource.data.requestedCourse in ['class10','class11','class12','neet']
+        && request.resource.data.requestedCourse in ['class10','class11','class12','neet','mbbs']
         && request.resource.data.activeCourse == request.resource.data.requestedCourse
         && request.resource.data.enrolledCourses is list
         && request.resource.data.enrolledCourses.size() == 0
@@ -22,6 +22,7 @@ service cloud.firestore {
         && request.resource.data.courseEntitlements.size() == 0
         && ((request.resource.data.requestedCourse == 'class10' && request.resource.data.accessPrice == 99)
           || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice == 149)
+          || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice == 799)
           || (request.resource.data.requestedCourse == 'neet'
             && request.resource.data.accessPrice in [99,499]
             && request.resource.data.neetExamYear in ['2027','2028']));

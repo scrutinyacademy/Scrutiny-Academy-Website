@@ -38,6 +38,15 @@ export const COURSE_CATALOG = {
     validity: "Valid through the selected NEET-UG examination",
     includes: ["Physics, Chemistry and Biology MCQs", "NCERT search and revision tools", "Previous-year questions", "Tests, analytics and mistake revision"],
   },
+  mbbs: {
+    id: "mbbs",
+    name: "MBBS Complete Learning Course",
+    shortName: "MBBS",
+    price: 799,
+    icon: "🩺",
+    validity: "Lifetime access",
+    includes: ["19 MBBS subjects", "Phase-wise medical learning", "Clinical revision tools", "MCQs, bookmarks and progress tracking"],
+  },
 };
 
 export function currentCoursePrice(courseId, now = new Date()) {
