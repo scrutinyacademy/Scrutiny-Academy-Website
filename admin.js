@@ -27,21 +27,20 @@ async function loadStudents() {
       getDocs(collection(db, 'students')),
       getDocs(collection(db, 'paymentRequests')),
     ]);
-    const requests = new Map();
-    requestsSnap.forEach(d => requests.set(d.id, d.data()));
+    const students = new Map();
+    studentsSnap.forEach(d => students.set(d.id, d.data()));
     const rows = [];
-    studentsSnap.forEach(d => {
-      const p = d.data();
-      const req = requests.get(d.id) || {};
-      const pay = p.payment || {};
-      const paymentStatus = p.paymentStatus || req.status || 'not_submitted';
-      const accessStatus = p.accessStatus || 'pending';
-      const orderId = pay.orderId || req.orderId || '—';
-      const paymentId = pay.paymentId || req.paymentId || '—';
-      const amount = pay.amount || req.amount || p.accessPrice || 59;
+    requestsSnap.forEach(d => {
+      const req = d.data();
+      const p = students.get(req.uid) || {};
+      const paymentStatus = req.status || 'pending';
+      const accessStatus = p.courseEntitlements?.[req.courseId]?.status || 'pending';
+      const orderId = req.orderId || '—';
+      const paymentId = req.paymentId || '—';
+      const amount = req.amount || '—';
       rows.push(`<tr>
         <td><strong>${esc(p.name || 'Student')}</strong><br>${esc(p.email || '')}<br>${esc(p.phone || '')}</td>
-        <td>₹${esc(amount)}<br><span class="status-pill ${paymentStatus === 'verified' ? 'active' : 'pending'}">${esc(paymentStatus.toUpperCase())}</span></td>
+        <td><strong>${esc(req.courseName || req.courseId || 'Course')}</strong><br>₹${esc(amount)}<br><span class="status-pill ${paymentStatus === 'paid' ? 'active' : 'pending'}">${esc(paymentStatus.toUpperCase())}</span></td>
         <td><span class="status-pill ${accessStatus === 'active' ? 'active' : 'pending'}">${esc(accessStatus.toUpperCase())}</span></td>
         <td><small>Order: ${esc(orderId)}</small><br><small>Payment: ${esc(paymentId)}</small></td>
       </tr>`);
