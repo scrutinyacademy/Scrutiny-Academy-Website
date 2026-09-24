@@ -82,11 +82,28 @@
   </main>
   <section class="reviews-section" aria-labelledby="reviewsTitle">
     <div class="reviews-head">
-      <div><span class="eyebrow">REGISTERED STUDENT FEEDBACK</span><h2 id="reviewsTitle">What students say</h2><p>Reviews shown here are submitted by registered Scrutiny Academy students.</p></div>
-      <div class="rating-summary"><strong id="publicRating">—</strong><span class="stars" id="publicStars">★★★★★</span><small id="publicReviewCount">Loading verified reviews…</small></div>
+      <div><span class="eyebrow">STUDENT &amp; COMMUNITY FEEDBACK</span><h2 id="reviewsTitle">What learners say</h2><p>Everyone is welcome to share an honest rating and review. Reviews from registered students carry a verified badge.</p></div>
+      <div class="rating-summary"><strong id="publicRating">—</strong><span class="stars" id="publicStars">★★★★★</span><small id="publicReviewCount">Loading reviews…</small></div>
     </div>
     <div class="reviews-grid" id="publicReviews"><div class="review-empty">Loading student reviews…</div></div>
-    <p class="review-note">Registered students can submit or update one review from their Student Dashboard after signing in.</p>
+    <div class="public-review-panel">
+      <div class="public-review-copy">
+        <span class="eyebrow">SHARE YOUR EXPERIENCE</span>
+        <h3>Add your rating and review</h3>
+        <p>Tell students what you found useful. Your name, rating and review will be shown publicly; contact details are never requested or displayed.</p>
+        <div class="verified-explainer"><span class="verified-check" aria-hidden="true">✓</span><span><strong>Verified Scrutiny Student</strong><small>Shown only when a registered student reviews from their signed-in dashboard.</small></span></div>
+      </div>
+      <form id="publicReviewForm" class="review-form public-review-form">
+        <label>Your name<input id="publicReviewName" type="text" autocomplete="name" minlength="2" maxlength="80" required placeholder="Enter your name" /></label>
+        <fieldset><legend>Your rating</legend><div class="star-picker" id="publicStarPicker" aria-label="Choose a rating out of 5">
+          <button type="button" data-star="1" aria-label="1 star">★</button><button type="button" data-star="2" aria-label="2 stars">★</button><button type="button" data-star="3" aria-label="3 stars">★</button><button type="button" data-star="4" aria-label="4 stars">★</button><button type="button" data-star="5" aria-label="5 stars">★</button>
+        </div></fieldset>
+        <label>Your review<textarea id="publicReviewText" maxlength="500" minlength="10" required placeholder="Share an honest and useful review in at least 10 characters."></textarea></label>
+        <label class="review-honeypot" aria-hidden="true">Leave this empty<input id="publicReviewWebsite" type="text" tabindex="-1" autocomplete="off" /></label>
+        <div class="review-submit-row"><button class="primary" type="submit">SUBMIT REVIEW</button><span id="publicReviewMessage" class="message" role="status" aria-live="polite"></span></div>
+      </form>
+    </div>
+    <p class="review-note">Registered students can submit or update their verified review from the Student Dashboard after signing in.</p>
   </section>
   <section class="reviews-section founder-login-note" aria-labelledby="founderLoginTitle">
     <div class="reviews-head">
