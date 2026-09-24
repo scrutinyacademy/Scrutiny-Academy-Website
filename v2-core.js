@@ -142,7 +142,6 @@
     }
   }
   function bind() {
-    $("menuBtn").onclick = () => $("mainNav").classList.toggle("open");
     $("quickPractice").onclick = async () => {
       const courseId = activeCourseId();
       if (courseId === "class10") return startQuiz(allMcqs(await load("data/class10/biology.json")), "Class 10 Biology", "practice", 10);

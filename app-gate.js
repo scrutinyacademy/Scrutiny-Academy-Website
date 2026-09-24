@@ -24,7 +24,7 @@ const COURSE_PORTALS = {
 function selectedCourse(profile = {}) {
   const requested = new URLSearchParams(location.search).get("course");
   const saved = localStorage.getItem("scrutiny_active_course");
-  return COURSE_PORTALS[requested] ? requested : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : COURSE_PORTALS[saved] ? saved : "neet";
+  return COURSE_PORTALS[requested] ? requested : COURSE_PORTALS[saved] ? saved : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : "neet";
 }
 
 function applyCoursePortal(courseId, auth, user, db) {
@@ -33,17 +33,10 @@ function applyCoursePortal(courseId, auth, user, db) {
   document.documentElement.dataset.course = courseId;
   document.documentElement.style.setProperty("--portal-accent", course.color);
 
-  const header = document.querySelector(".topbar");
-  let bar = document.getElementById("coursePortalBar");
-  if (!bar && header) {
-    bar = document.createElement("div");
-    bar.id = "coursePortalBar";
-    bar.className = "course-portal-bar";
-    header.insertAdjacentElement("afterend", bar);
-  }
-  if (bar) {
-    bar.innerHTML = `<div><span>${course.label}</span><strong>${course.name}</strong></div><label>Switch course<select id="platformCourseSwitch">${Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === courseId ? "selected" : ""}>${item.name}</option>`).join("")}</select></label><a href="student.html">My Courses</a>`;
-    bar.querySelector("select")?.addEventListener("change", async (event) => {
+  const tools = document.getElementById("courseHeaderTools");
+  if (tools) {
+    tools.innerHTML = `<div class="active-course-title"><span>${course.label}</span><strong>${course.name}</strong></div><label class="course-switch-label"><span>Switch course</span><select id="platformCourseSwitch" aria-label="Switch active course">${Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === courseId ? "selected" : ""}>${item.name}</option>`).join("")}</select></label><a class="my-courses-link" href="student.html">My Courses</a>`;
+    tools.querySelector("select")?.addEventListener("change", async (event) => {
       const next = event.target.value;
       localStorage.setItem("scrutiny_active_course", next);
       try {
@@ -74,33 +67,51 @@ function applyCoursePortal(courseId, auth, user, db) {
   if (explore) { explore.href = `#${course.target}`; explore.textContent = "Open course content"; }
 }
 
+function setupResponsiveNavigation() {
+  const button = document.getElementById("menuBtn");
+  const nav = document.getElementById("mainNav");
+  const backdrop = document.getElementById("navBackdrop");
+  if (!button || !nav || button.dataset.bound === "true") return;
+  button.dataset.bound = "true";
+
+  const setOpen = (open) => {
+    nav.classList.toggle("open", open);
+    backdrop?.classList.toggle("show", open);
+    document.body.classList.toggle("nav-open", open);
+    button.classList.toggle("active", open);
+    button.setAttribute("aria-expanded", String(open));
+    button.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+  };
+
+  button.addEventListener("click", () => setOpen(!nav.classList.contains("open")));
+  backdrop?.addEventListener("click", () => setOpen(false));
+  nav.addEventListener("click", (event) => {
+    if (event.target.closest("a")) setOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setOpen(false);
+  });
+  addEventListener("resize", () => {
+    if (innerWidth > 1280) setOpen(false);
+  });
+}
+
 const configured =
   firebaseConfig.apiKey &&
   firebaseConfig.apiKey !== "REPLACE_ME" &&
   firebaseConfig.projectId !== "REPLACE_ME";
 
 function addAccountControls(auth, user) {
-  if (document.getElementById("platformLogout")) return;
+  const logout = document.getElementById("platformLogout");
   const nav = document.getElementById("mainNav");
-  if (!nav) return;
-  const account = document.createElement("div");
-  account.className = "platform-account";
-  account.style.cssText =
-    "display:flex;align-items:center;gap:8px;margin-left:8px;";
+  if (!logout || !nav || logout.dataset.bound === "true") return;
+  logout.dataset.bound = "true";
   const identity = document.createElement("span");
   identity.className = "platform-user";
   identity.textContent =
-    user.displayName || (user.email || "Student").split("@")[0] || "Student";
+    `Signed in as ${user.displayName || (user.email || "Student").split("@")[0] || "Student"}`;
   identity.title = user.email || "";
-  identity.style.cssText =
-    "font-size:12px;font-weight:700;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;";
-  const logout = document.createElement("button");
-  logout.id = "platformLogout";
-  logout.type = "button";
-  logout.textContent = "Logout";
-  logout.setAttribute("aria-label", "Logout of Scrutiny Academy");
-  logout.style.cssText =
-    "appearance:none;border:1px solid #cbd7e8;background:#fff;color:#102a56;border-radius:10px;padding:9px 14px;font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap;";
+  nav.appendChild(identity);
   logout.addEventListener("click", async () => {
     logout.disabled = true;
     logout.textContent = "Logging out…";
@@ -114,10 +125,9 @@ function addAccountControls(auth, user) {
       alert("Logout failed. Please try again.");
     }
   });
-  account.append(identity, logout);
-  nav.appendChild(account);
 }
 async function openPlatform(auth, user, profile, db) {
+  setupResponsiveNavigation();
   addAccountControls(auth, user);
   applyCoursePortal(selectedCourse(profile), auth, user, db);
   document.documentElement.classList.remove("auth-check");
@@ -127,6 +137,8 @@ async function openPlatform(auth, user, profile, db) {
     console.error("Leaderboard module failed to load", e);
   }
 }
+
+setupResponsiveNavigation();
 if (!configured) {
   console.error("Scrutiny Academy authentication is not configured.");
   location.replace("login.html?error=config");

@@ -25,23 +25,20 @@
           ><strong>SCRUTINY ACADEMY</strong
           ><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span
         ></a
-      ><button
-        type="button"
-        class="menu-btn"
-        id="menuBtn"
-        aria-label="Open navigation"
-      >
-        ☰
-      </button>
-      <nav id="mainNav">
+      ><nav id="mainNav" aria-label="Course navigation">
         <a href="#home">Home</a><a href="#class10">Class 10</a
         ><a href="#class11">Class 11</a><a href="#class12">Class 12</a
         ><a href="#neet">NEET</a><a href="#flashcards">Flashcards</a><a href="#pyqs">PYQs</a
         ><a href="#ncert">NCERT</a><a href="#ncert-booster">Booster</a><a href="#mbbs">MBBS</a
         ><a href="#tools">Study Tools</a><a href="#progress">Progress</a
-        ><a href="#support">Support</a>
+        ><a href="#support">Support</a><div id="courseHeaderTools" class="course-header-tools"></div>
       </nav>
+      <div class="header-session-actions">
+        <button type="button" class="header-logout" id="platformLogout" aria-label="Logout of Scrutiny Academy">Logout</button>
+        <button type="button" class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-controls="mainNav" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
     </header>
+    <button type="button" class="nav-backdrop" id="navBackdrop" aria-label="Close navigation" tabindex="-1"></button>
     <main>
       <section class="hero" id="home">
         <div class="hero-copy">
