@@ -8,10 +8,24 @@ service cloud.firestore {
     }
 
     match /students/{uid} {
-      allow create: if signedIn() && request.auth.uid == uid && request.resource.data.uid == uid && request.resource.data.role == 'student' && request.resource.data.accessStatus == 'pending' && request.resource.data.paymentStatus == 'not_submitted' && request.resource.data.accessPrice == 99;
+      allow create: if signedIn() && request.auth.uid == uid
+        && request.resource.data.uid == uid
+        && request.resource.data.role == 'student'
+        && request.resource.data.accessStatus == 'pending'
+        && request.resource.data.paymentStatus == 'not_submitted'
+        && request.resource.data.accessPrice in [99, 149]
+        && request.resource.data.enrolledCourses is list
+        && request.resource.data.enrolledCourses.size() == 0
+        && request.resource.data.courseEntitlements is map
+        && request.resource.data.courseEntitlements.size() == 0;
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
-      allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','activeCourse','enrolledCourses','updatedAt']);
+      allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','activeCourse','updatedAt']);
       allow delete: if false;
+
+      match /invoices/{invoiceId} {
+        allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+        allow write: if false;
+      }
     }
 
     // Publicly readable testimonials. Registered students own their verified
@@ -68,8 +82,8 @@ service cloud.firestore {
       allow delete: if signedIn() && request.auth.uid == reviewId;
     }
 
-    match /paymentRequests/{uid} {
-      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+    match /paymentRequests/{requestId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isAdmin());
       allow create, update, delete: if false;
     }
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Scrutiny Academy | ₹99 Limited-Time Access</title>
+    <title>Scrutiny Academy | Secure Course Payment</title>
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="stylesheet" href="auth.css" />
   </head>
@@ -25,8 +25,10 @@
       </header>
       <section class="payment-grid">
         <article class="card">
-          <span class="eyebrow">ONE-TIME ACCESS</span>
-          <div class="price"><span style="display:block;font-size:1rem;font-weight:700;color:#7a8495;margin-bottom:4px"><s>₹1,299</s> original price</span>₹99<small style="display:block;font-size:.78rem;letter-spacing:.08em;color:#138a4b;margin-top:4px">LIMITED-TIME OFFER</small></div>
+          <span class="eyebrow">SELECTED COURSE</span>
+          <h1 id="courseName">Loading course…</h1>
+          <div class="price" id="coursePrice">—</div>
+          <ul class="purchase-feature-list" id="courseFeatures"></ul>
           <h2>Pay securely with Razorpay</h2>
           <p>
             Use UPI, Google Pay, cards, netbanking, or another method offered by
@@ -34,7 +36,7 @@
           </p>
           <p>
             <strong>Automatic access:</strong> after Razorpay confirms the
-            payment, your student access activates automatically.
+            payment, only this purchased course activates automatically.
           </p>
           <p style="font-size: 0.82rem; color: #6b7689">
             Do not pay again if your access is already active or a completed
@@ -64,6 +66,42 @@
             >
           </p>
         </article>
+      </section>
+      <section class="card purchase-success" id="purchaseSuccess" hidden aria-live="polite">
+        <div class="success-mark" aria-hidden="true">✓</div>
+        <span class="eyebrow">PAYMENT SUCCESSFUL</span>
+        <h1>Thank You for Joining Scrutiny Academy! 🎓❤️</h1>
+        <h2>Welcome to the Scrutiny Family! 🎉</h2>
+        <div class="founder-message">
+          <span class="eyebrow">A PERSONAL MESSAGE FROM OUR FOUNDER</span>
+          <p>Dear <strong id="successStudentName">Student</strong>,</p>
+          <p>Thank you for trusting Scrutiny Academy and choosing us to be part of your learning journey.</p>
+          <p>Your decision to invest in your education is something we truly value. Whether you’re preparing for your board examinations, NEET UG or strengthening your concepts, we’re here to help you learn with confidence.</p>
+          <p>At Scrutiny Academy, our mission is simple: quality education should be accessible, affordable and effective for every student.</p>
+          <p>Your course is now unlocked. Explore your study materials, practise regularly and make every day count.</p>
+          <p>Remember, your dreams are important to us, and we’re excited to be part of your journey towards achieving them.</p>
+          <p>Keep learning. Keep improving. Keep believing in yourself.</p>
+          <p>With warm wishes,<br><strong>Pramod Sharma</strong><br>Founder, Scrutiny Academy ❤️</p>
+          <blockquote>Your success is our mission.</blockquote>
+        </div>
+        <div class="enrollment-confirmation">
+          <span class="eyebrow">ENROLLMENT CONFIRMED</span>
+          <h2 id="successCourseHeading">Your course is unlocked.</h2>
+          <p>Here’s everything included in your course:</p>
+          <ul id="successFeatures"></ul>
+          <dl class="purchase-details">
+            <div><dt>Student</dt><dd id="detailStudent">—</dd></div>
+            <div><dt>Course</dt><dd id="detailCourse">—</dd></div>
+            <div><dt>Amount paid</dt><dd id="detailAmount">—</dd></div>
+            <div><dt>Payment ID</dt><dd id="detailPaymentId">—</dd></div>
+            <div><dt>Payment status</dt><dd class="success-text">Successful</dd></div>
+          </dl>
+        </div>
+        <div class="success-actions">
+          <button class="ghost" id="copyCourseMessage" type="button">COPY COURSE MESSAGE</button>
+          <a class="primary dashboard-button" href="student.html">OPEN MY COURSE →</a>
+        </div>
+        <p class="delivery-note">A confirmation email and a separate invoice email are being sent to your registered email. Your invoice is also saved in your student account.</p>
       </section>
     </main>
     <footer>

@@ -1,4 +1,5 @@
 import { firebaseConfig, SCRUTINY_ADMIN_EMAILS } from "./firebase-config.js";
+import { verifiedCourses } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -21,13 +22,13 @@ const COURSE_PORTALS = {
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", target: "mbbs", sections: ["mbbs", "tools", "progress", "support"], color: "#087f87", description: "Phase-wise medical subjects, clinical learning, revision and assessments." },
 };
 
-function selectedCourse(profile = {}) {
+function selectedCourse(profile = {}, available = []) {
   const requested = new URLSearchParams(location.search).get("course");
   const saved = localStorage.getItem("scrutiny_active_course");
-  return COURSE_PORTALS[requested] ? requested : COURSE_PORTALS[saved] ? saved : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : "neet";
+  return available.includes(requested) ? requested : available.includes(saved) ? saved : available.includes(profile.activeCourse) ? profile.activeCourse : available[0];
 }
 
-function applyCoursePortal(courseId, auth, user, db) {
+function applyCoursePortal(courseId, available, auth, user, db) {
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   localStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
@@ -35,12 +36,12 @@ function applyCoursePortal(courseId, auth, user, db) {
 
   const tools = document.getElementById("courseHeaderTools");
   if (tools) {
-    tools.innerHTML = `<div class="active-course-title"><span>${course.label}</span><strong>${course.name}</strong></div><label class="course-switch-label"><span>Switch course</span><select id="platformCourseSwitch" aria-label="Switch active course">${Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === courseId ? "selected" : ""}>${item.name}</option>`).join("")}</select></label><a class="my-courses-link" href="student.html">My Courses</a>`;
+    tools.innerHTML = `<div class="active-course-title"><span>${course.label}</span><strong>${course.name}</strong></div><label class="course-switch-label"><span>Switch course</span><select id="platformCourseSwitch" aria-label="Switch active course">${available.map((id) => `<option value="${id}" ${id === courseId ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("")}</select></label><a class="my-courses-link" href="student.html">My Courses</a>`;
     tools.querySelector("select")?.addEventListener("change", async (event) => {
       const next = event.target.value;
       localStorage.setItem("scrutiny_active_course", next);
       try {
-        await setDoc(doc(db, "students", user.uid), { activeCourse: next, enrolledCourses: Object.keys(COURSE_PORTALS), updatedAt: serverTimestamp() }, { merge: true });
+        await setDoc(doc(db, "students", user.uid), { activeCourse: next, updatedAt: serverTimestamp() }, { merge: true });
       } catch (error) {
         console.warn("Course preference saved on this device only", error);
       }
@@ -127,9 +128,13 @@ function addAccountControls(auth, user) {
   });
 }
 async function openPlatform(auth, user, profile, db) {
+  const available = verifiedCourses(profile);
+  const requested = new URLSearchParams(location.search).get("course");
+  if (!available.length) { location.replace(`payment.html?course=${encodeURIComponent(requested || profile.activeCourse || "neet")}`); return; }
+  if (requested && COURSE_PORTALS[requested] && !available.includes(requested)) { location.replace(`payment.html?course=${encodeURIComponent(requested)}`); return; }
   setupResponsiveNavigation();
   addAccountControls(auth, user);
-  applyCoursePortal(selectedCourse(profile), auth, user, db);
+  applyCoursePortal(selectedCourse(profile, available), available, auth, user, db);
   document.documentElement.classList.remove("auth-check");
   try {
     await import("./leaderboard.js");
@@ -155,12 +160,12 @@ if (!configured) {
       (user.email || "").toLowerCase(),
     );
     if (admin) {
-      await openPlatform(auth, user, {}, db);
+      await openPlatform(auth, user, { accessStatus: "active", activeCourse: "neet" }, db);
       return;
     }
     try {
       const snap = await getDoc(doc(db, "students", user.uid));
-      if (!snap.exists() || snap.data().accessStatus !== "active") {
+      if (!snap.exists() || !verifiedCourses(snap.data()).length) {
         location.replace("payment.html");
         return;
       }

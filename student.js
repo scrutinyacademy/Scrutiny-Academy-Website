@@ -1,4 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
+import { COURSE_CATALOG, verifiedCourses } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -9,13 +10,16 @@ import {
   getFirestore,
   doc,
   getDoc,
+  getDocs,
+  collection,
   setDoc,
   serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const app = initializeApp(firebaseConfig),
   auth = getAuth(app),
   db = getFirestore(app),
-  $ = (id) => document.getElementById(id);
+  $ = (id) => document.getElementById(id),
+  esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 
 const COURSE_PORTALS = {
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", icon: "📘", color: "#1677d2", target: "class10", description: "Telangana SSC subjects, board questions, revision and chapter practice.", actions: [["Subjects", "Open Class 10 subjects and chapters.", "class10"], ["Board Practice", "VSAQ, SAQ, LAQ and MCQ preparation.", "class10"], ["My Progress", "See only your Class 10 learning record.", "progress"], ["Revision Queue", "Review Class 10 mistakes and bookmarks.", "tools"]] },
@@ -25,6 +29,7 @@ const COURSE_PORTALS = {
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
 };
 let activeCourse = "neet";
+let enrolledCourseIds = [];
 
 function inferCourse(item = {}) {
   if (COURSE_PORTALS[item.courseId]) return item.courseId;
@@ -43,19 +48,28 @@ function portalUrl(anchor) {
 
 function renderCourseDashboard() {
   const course = COURSE_PORTALS[activeCourse];
+  if (!course) return;
   document.documentElement.style.setProperty("--course-accent", course.color);
   $("activeCourseLabel").textContent = course.label;
   $("activeCourseName").textContent = `${course.icon} ${course.name}`;
   $("activeCourseDescription").textContent = course.description;
   $("openCourse").href = portalUrl(course.target);
   $("continueLink").href = portalUrl(course.target);
-  $("courseCardGrid").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<button type="button" class="course-card ${id === activeCourse ? "active" : ""}" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : "OPEN PORTAL"}</small></button>`).join("");
+  $("courseCardGrid").innerHTML = Object.entries(COURSE_PORTALS).filter(([id]) => COURSE_CATALOG[id]).map(([id, item]) => {
+    const owned = enrolledCourseIds.includes(id);
+    return `<button type="button" class="course-card ${id === activeCourse ? "active" : ""} ${owned ? "" : "locked-course"}" data-course="${id}" style="--card-accent:${item.color}"><span>${owned ? item.icon : "🔒"}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : owned ? "OPEN PORTAL" : "PURCHASE TO UNLOCK"}</small>${owned ? "" : `<span class="course-price">₹${COURSE_CATALOG[id].price}</span>`}</button>`;
+  }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor]) => `<a class="card big-link" href="${portalUrl(anchor)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
+  if ($("class10LectureEntry")) $("class10LectureEntry").hidden = activeCourse !== "class10";
   document.querySelectorAll("[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
 }
 
 async function changeCourse(courseId) {
   if (!COURSE_PORTALS[courseId] || courseId === activeCourse) return;
+  if (!enrolledCourseIds.includes(courseId)) {
+    location.href = `payment.html?course=${encodeURIComponent(courseId)}`;
+    return;
+  }
   activeCourse = courseId;
   localStorage.setItem("scrutiny_active_course", courseId);
   $("courseSwitch").value = courseId;
@@ -63,19 +77,44 @@ async function changeCourse(courseId) {
   renderSummary(window.__scrutinyProgress || {});
   try {
     const user = auth.currentUser;
-    if (user) await setDoc(doc(db, "students", user.uid), { activeCourse: courseId, enrolledCourses: Object.keys(COURSE_PORTALS), updatedAt: serverTimestamp() }, { merge: true });
+    if (user) await setDoc(doc(db, "students", user.uid), { activeCourse: courseId, updatedAt: serverTimestamp() }, { merge: true });
   } catch (error) {
     console.warn("Course preference saved on this device only", error);
   }
 }
 
 function setupCourseDashboard(profile = {}) {
+  enrolledCourseIds = verifiedCourses(profile);
   const saved = localStorage.getItem("scrutiny_active_course");
-  activeCourse = COURSE_PORTALS[saved] ? saved : COURSE_PORTALS[profile.activeCourse] ? profile.activeCourse : "neet";
+  activeCourse = enrolledCourseIds.includes(saved) ? saved : enrolledCourseIds.includes(profile.activeCourse) ? profile.activeCourse : enrolledCourseIds[0];
   localStorage.setItem("scrutiny_active_course", activeCourse);
-  $("courseSwitch").innerHTML = Object.entries(COURSE_PORTALS).map(([id, item]) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${item.name}</option>`).join("");
+  $("courseSwitch").innerHTML = enrolledCourseIds.map((id) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("");
   $("courseSwitch").addEventListener("change", (event) => changeCourse(event.target.value));
   renderCourseDashboard();
+}
+
+async function loadInvoices(user) {
+  const list = $("invoiceList");
+  if (!list) return;
+  try {
+    const snap = await getDocs(collection(db, "students", user.uid, "invoices"));
+    const invoices = snap.docs.map((item) => ({ id: item.id, ...item.data() })).sort((a, b) => Number(b.createdAt?.seconds || 0) - Number(a.createdAt?.seconds || 0));
+    if (!invoices.length) { list.innerHTML = "<p>Your course invoices will appear here after payment.</p>"; return; }
+    list.innerHTML = invoices.map((invoice) => `<article class="invoice-row"><div><strong>${esc(invoice.courseName)}</strong><p>${esc(invoice.invoiceNumber)} · ₹${esc(invoice.amount)} · ${esc(invoice.paymentId)}</p></div><button class="ghost" type="button" data-invoice="${esc(invoice.id)}">DOWNLOAD PDF</button></article>`).join("");
+    list.querySelectorAll("[data-invoice]").forEach((button) => button.addEventListener("click", () => {
+      const invoice = invoices.find((item) => item.id === button.dataset.invoice);
+      if (!invoice?.pdfBase64) return;
+      const binary = atob(invoice.pdfBase64);
+      const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+      const url = URL.createObjectURL(new Blob([bytes], { type: "application/pdf" }));
+      const anchor = document.createElement("a");
+      anchor.href = url; anchor.download = `${invoice.invoiceNumber}.pdf`; anchor.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }));
+  } catch (error) {
+    console.error("Invoice load failed", error);
+    list.innerHTML = "<p>Invoices are temporarily unavailable. Please try again later.</p>";
+  }
 }
 
 function localProgress() {
@@ -175,7 +214,7 @@ onAuthStateChanged(auth, async (user) => {
     return;
   }
   const p = snap.data();
-  if (p.accessStatus !== "active") {
+  if (!verifiedCourses(p).length) {
     location.replace("payment.html");
     return;
   }
@@ -183,8 +222,10 @@ onAuthStateChanged(auth, async (user) => {
   $("studentMeta").textContent =
     `${p.email || user.email} • Access status: Active`;
   setupCourseDashboard(p);
+  $("class10LectureEntry").hidden = activeCourse !== "class10";
   renderSummary();
   setupReview(user, p);
+  loadInvoices(user);
   try {
     const progress = await getDoc(doc(db, "learningProgress", user.uid));
     if (progress.exists()) renderSummary(progress.data());
