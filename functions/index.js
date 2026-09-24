@@ -19,6 +19,7 @@ const COURSES = {
   class11: { name: "Class 11 Board Booster 2027", price: 149, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude" },
   class12: { name: "Class 12 Board Booster 2027", price: 149, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude" },
   neet: { name: "NEET-UG Target Course", price: 499 },
+  mbbs: { name: "MBBS Complete Learning Course", price: 799, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access" },
 };
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
