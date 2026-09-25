@@ -23,6 +23,7 @@ const COURSE_CATALOG = Object.freeze({
   class11: { name: "Class 11", price: 149, features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   class12: { name: "Class 12", price: 149, features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   neet: { name: "NEET UG", price: 99, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
+  mbbs: { name: "MBBS Lifetime Access", price: 799, features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
 });
 
 function courseFor(courseId) {

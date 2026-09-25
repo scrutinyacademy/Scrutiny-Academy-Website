@@ -38,6 +38,19 @@ export const COURSE_CATALOG = Object.freeze({
       "Tests, progress tracking and mistake notebook",
     ],
   },
+  mbbs: {
+    id: "mbbs",
+    name: "MBBS",
+    fullName: "MBBS Lifetime Access",
+    price: 799,
+    features: [
+      "Phase-wise MBBS subjects",
+      "Clinical learning and revision resources",
+      "Question practice and assessments",
+      "Bookmarks, progress tracking and revision tools",
+      "Lifetime course access",
+    ],
+  },
 });
 
 export function courseById(courseId) {

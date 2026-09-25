@@ -13,7 +13,7 @@ service cloud.firestore {
         && request.resource.data.role == 'student'
         && request.resource.data.accessStatus == 'pending'
         && request.resource.data.paymentStatus == 'not_submitted'
-        && request.resource.data.accessPrice in [99, 149]
+        && request.resource.data.accessPrice in [99, 149, 799]
         && request.resource.data.enrolledCourses is list
         && request.resource.data.enrolledCourses.size() == 0
         && request.resource.data.courseEntitlements is map
