@@ -6,7 +6,8 @@
     "node": "22"
   },
   "scripts": {
-    "check": "node --check index.js"
+    "check": "node --check index.js && node --check scripts/backfill-student-emails.js",
+    "backfill:emails": "node scripts/backfill-student-emails.js"
   },
   "dependencies": {
     "firebase-admin": "^13.0.0",
