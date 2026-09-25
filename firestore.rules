@@ -29,6 +29,11 @@ service cloud.firestore {
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
       allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.requestedCourse == resource.data.requestedCourse && request.resource.data.enrolledCourses == resource.data.enrolledCourses && request.resource.data.courseEntitlements == resource.data.courseEntitlements && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','activeCourse','updatedAt']) && (request.resource.data.activeCourse == resource.data.activeCourse || (resource.data.courseEntitlements is map && request.resource.data.activeCourse in resource.data.courseEntitlements && resource.data.courseEntitlements[request.resource.data.activeCourse].status == 'active'));
       allow delete: if false;
+
+      match /invoices/{invoiceId} {
+        allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+        allow create, update, delete: if false;
+      }
     }
 
     // Publicly readable testimonials. Registered students own their verified

@@ -10,13 +10,16 @@ import {
   getFirestore,
   doc,
   getDoc,
+  getDocs,
+  collection,
   setDoc,
   serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const app = initializeApp(firebaseConfig),
   auth = getAuth(app),
   db = getFirestore(app),
-  $ = (id) => document.getElementById(id);
+  $ = (id) => document.getElementById(id),
+  esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 
 const COURSE_PORTALS = {
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", icon: "📘", color: "#1677d2", target: "class10", description: "Telangana SSC subjects, board questions, revision and chapter practice.", actions: [["Subjects", "Open Class 10 subjects and chapters.", "class10"], ["Board Practice", "VSAQ, SAQ, LAQ and MCQ preparation.", "class10"], ["My Progress", "See only your Class 10 learning record.", "progress"], ["Revision Queue", "Review Class 10 mistakes and bookmarks.", "tools"]] },
@@ -88,6 +91,35 @@ function setupCourseDashboard(profile = {}) {
   $("courseSwitch").innerHTML = availableCourses.map((id) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("");
   $("courseSwitch").addEventListener("change", (event) => changeCourse(event.target.value));
   renderCourseDashboard();
+}
+
+async function loadInvoices(user) {
+  const list = $("invoiceList");
+  if (!list) return;
+  try {
+    const snap = await getDocs(collection(db, "students", user.uid, "invoices"));
+    const invoices = snap.docs.map((item) => ({ id: item.id, ...item.data() })).sort((a, b) => Number(b.createdAt?.seconds || 0) - Number(a.createdAt?.seconds || 0));
+    if (!invoices.length) {
+      list.innerHTML = "<p>Your course invoices will appear here after payment.</p>";
+      return;
+    }
+    list.innerHTML = invoices.map((invoice) => `<article class="invoice-row"><div><strong>${esc(invoice.courseName)}</strong><p>${esc(invoice.invoiceNumber)} · ₹${esc(invoice.amount)} · ${esc(invoice.paymentId)}</p></div><button class="ghost" type="button" data-invoice="${esc(invoice.id)}">DOWNLOAD PDF</button></article>`).join("");
+    list.querySelectorAll("[data-invoice]").forEach((button) => button.addEventListener("click", () => {
+      const invoice = invoices.find((item) => item.id === button.dataset.invoice);
+      if (!invoice?.pdfBase64) return;
+      const binary = atob(invoice.pdfBase64);
+      const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+      const url = URL.createObjectURL(new Blob([bytes], { type: "application/pdf" }));
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = `${invoice.invoiceNumber}.pdf`;
+      anchor.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }));
+  } catch (error) {
+    console.error("Invoice load failed", error);
+    list.innerHTML = "<p>Invoices are temporarily unavailable. Please try again later.</p>";
+  }
 }
 
 function localProgress() {
@@ -195,6 +227,7 @@ onAuthStateChanged(auth, async (user) => {
   $("studentMeta").textContent =
     `${p.email || user.email} • ${courseValidity(p.purchasedCourse || p.requestedCourse || p.activeCourse, p.neetExamYear)}`;
   setupCourseDashboard(p);
+  loadInvoices(user);
   $("class10LectureEntry").hidden = !availableCourses.includes("class10");
   renderSummary();
   setupReview(user, p);

@@ -35,6 +35,7 @@ const message = (text, kind = "") => {
 
 let currentUser = null;
 let currentProfile = null;
+let latestPurchase = null;
 const query = new URLSearchParams(location.search);
 let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
 let purchaseNeetYear = ["2027", "2028"].includes(query.get("exam")) ? query.get("exam") : "";
@@ -133,6 +134,34 @@ function renderStatus(profile) {
   showPayButton();
 }
 
+function purchaseMessage(purchase) {
+  const features = purchase.features.map((item) => `• ${item}`).join("\n");
+  return `Enrollment confirmed\n\nCongratulations! Your ${purchase.courseName} course is unlocked.\n\nHere’s everything included in your course:\n${features}\n\nStudent: ${purchase.studentName}\nCourse: ${purchase.courseName}\nAmount paid: ₹${purchase.amount}\nPayment ID: ${purchase.paymentId}\nPayment status: Successful`;
+}
+
+function showPurchaseSuccess(purchase) {
+  latestPurchase = purchase;
+  $("successStudentName").textContent = purchase.studentName;
+  $("successCourseHeading").textContent = `Congratulations! Your ${purchase.courseName} course is unlocked.`;
+  $("successFeatures").innerHTML = purchase.features.map((item) => `<li>${item}</li>`).join("");
+  $("detailStudent").textContent = purchase.studentName;
+  $("detailCourse").textContent = purchase.courseName;
+  $("detailAmount").textContent = `₹${purchase.amount}`;
+  $("detailPaymentId").textContent = purchase.paymentId;
+  $("purchaseSuccess").hidden = false;
+  $("purchaseSuccess").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+$("copyCourseMessage").onclick = async () => {
+  if (!latestPurchase) return;
+  try {
+    await navigator.clipboard.writeText(purchaseMessage(latestPurchase));
+    $("copyCourseMessage").textContent = "COPIED ✓";
+  } catch {
+    message("Could not copy automatically. Please select and copy the purchase details.", "error");
+  }
+};
+
 onAuthStateChanged(auth, async (user) => {
   if (!user) {
     location.replace("login.html");
@@ -188,6 +217,7 @@ onAuthStateChanged(auth, async (user) => {
           );
           currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
           renderStatus(currentProfile);
+          if (synced.purchase) showPurchaseSuccess(synced.purchase);
         }
       } catch (syncError) {
         console.warn("Payment reconciliation unavailable:", syncError);
@@ -267,10 +297,11 @@ async function startCheckout() {
       handler: async (result) => {
         message("Payment received. Verifying securely…");
         try {
-          await verifyPayment(result);
+          const { data } = await verifyPayment(result);
           message("Payment verified. Your access is now active.", "success");
           currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
           renderStatus(currentProfile);
+          if (data.purchase) showPurchaseSuccess(data.purchase);
         } catch (error) {
           console.error("Payment verification failed:", error);
           message(
