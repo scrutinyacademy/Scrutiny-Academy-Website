@@ -16,7 +16,20 @@
             ><strong>SCRUTINY ACADEMY</strong
             ><small>STUDENT DASHBOARD</small></span
           ></a
-        ><div class="student-head-actions"><label for="courseSwitch">Current course</label><select id="courseSwitch" aria-label="Switch active course"></select><button type="button" class="ghost" id="logoutBtn">Logout</button></div>
+        ><div class="student-head-actions">
+          <span class="current-course-label">Current course</span>
+          <div class="course-switcher" id="courseSwitcher">
+            <button type="button" class="course-switch-trigger" id="courseSwitchTrigger" aria-haspopup="menu" aria-expanded="false" aria-controls="courseSwitchMenu">
+              <span id="courseSwitchCurrent">Loading…</span><i aria-hidden="true">⌄</i>
+            </button>
+            <div class="course-switch-menu" id="courseSwitchMenu" role="menu" aria-label="My courses and courses available to buy" hidden>
+              <div class="course-menu-head"><div><strong>Choose your course</strong><small>Use the same login for every course</small></div><button type="button" id="courseSwitchClose" aria-label="Close course menu">×</button></div>
+              <div class="course-menu-list" id="courseSwitchList"></div>
+              <p class="course-menu-note">🔒 Secure payment through Razorpay. Purchased courses open immediately with this account.</p>
+            </div>
+          </div>
+          <button type="button" class="ghost" id="logoutBtn">Logout</button>
+        </div>
       </header>
       <section class="card" style="margin-bottom: 16px">
         <span class="eyebrow">ACCESS ACTIVE</span>

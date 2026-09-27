@@ -30,6 +30,8 @@ const COURSE_PORTALS = {
 };
 let activeCourse = "neet";
 let availableCourses = [];
+let studentProfile = {};
+const requestedDashboardCourse = new URLSearchParams(location.search).get("course");
 
 function inferCourse(item = {}) {
   if (COURSE_PORTALS[item.courseId]) return item.courseId;
@@ -54,6 +56,10 @@ function renderCourseDashboard() {
   $("activeCourseDescription").textContent = course.description;
   $("openCourse").href = portalUrl(course.target);
   $("continueLink").href = portalUrl(course.target);
+  $("courseSwitchCurrent").textContent = `${course.icon} ${course.name}`;
+  $("studentMeta").textContent =
+    `${studentProfile.email || auth.currentUser?.email || "Student"} • ${courseValidity(activeCourse, studentProfile.courseEntitlements?.[activeCourse]?.neetExamYear || studentProfile.neetExamYear)}`;
+  renderCourseSwitchMenu();
   $("courseCardGrid").innerHTML = Object.entries(COURSE_CATALOG).map(([id, plan]) => {
     const item = COURSE_PORTALS[id];
     const owned = availableCourses.includes(id);
@@ -64,11 +70,50 @@ function renderCourseDashboard() {
   document.querySelectorAll("button[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
 }
 
+function renderCourseSwitchMenu() {
+  const list = $("courseSwitchList");
+  list.innerHTML = Object.entries(COURSE_CATALOG).map(([id, plan]) => {
+    const portal = COURSE_PORTALS[id];
+    const owned = availableCourses.includes(id);
+    const current = id === activeCourse;
+    const detail = plan.includes.slice(0, 3).join(" • ");
+    const status = current
+      ? '<span class="course-menu-badge current">CURRENT</span>'
+      : owned
+        ? '<span class="course-menu-badge owned">OWNED</span>'
+        : `<span class="course-menu-price">₹${currentCoursePrice(id)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
+    const action = owned
+      ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}" ${current ? "disabled" : ""}>${current ? "OPEN" : "SWITCH"}</button>`
+      : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id)}">BUY COURSE</a>`;
+    return `<article class="course-menu-item ${current ? "active" : ""}" role="menuitem"><span class="course-menu-icon" style="--item-accent:${portal.color}">${portal.icon}</span><span class="course-menu-copy"><strong>${esc(portal.name)}</strong><small>${esc(detail)}</small></span>${status}${action}</article>`;
+  }).join("");
+  list.querySelectorAll("[data-switch-course]").forEach((button) => button.addEventListener("click", () => {
+    closeCourseMenu();
+    changeCourse(button.dataset.switchCourse);
+  }));
+}
+
+function openCourseMenu() {
+  $("courseSwitchMenu").hidden = false;
+  $("courseSwitchTrigger").setAttribute("aria-expanded", "true");
+  document.body.classList.add("course-menu-open");
+}
+
+function closeCourseMenu() {
+  $("courseSwitchMenu").hidden = true;
+  $("courseSwitchTrigger").setAttribute("aria-expanded", "false");
+  document.body.classList.remove("course-menu-open");
+}
+
+function toggleCourseMenu() {
+  if ($("courseSwitchMenu").hidden) openCourseMenu();
+  else closeCourseMenu();
+}
+
 async function changeCourse(courseId) {
   if (!availableCourses.includes(courseId) || courseId === activeCourse) return;
   activeCourse = courseId;
   localStorage.setItem("scrutiny_active_course", courseId);
-  $("courseSwitch").value = courseId;
   renderCourseDashboard();
   renderSummary(window.__scrutinyProgress || {});
   try {
@@ -80,16 +125,30 @@ async function changeCourse(courseId) {
 }
 
 function setupCourseDashboard(profile = {}) {
+  studentProfile = profile;
   availableCourses = entitledCourses(profile);
   if (!availableCourses.length) {
     location.replace("payment.html");
     return;
   }
   const saved = localStorage.getItem("scrutiny_active_course");
-  activeCourse = availableCourses.includes(saved) ? saved : availableCourses.includes(profile.activeCourse) ? profile.activeCourse : availableCourses[0];
+  activeCourse = availableCourses.includes(requestedDashboardCourse)
+    ? requestedDashboardCourse
+    : availableCourses.includes(saved)
+      ? saved
+      : availableCourses.includes(profile.activeCourse)
+        ? profile.activeCourse
+        : availableCourses[0];
   localStorage.setItem("scrutiny_active_course", activeCourse);
-  $("courseSwitch").innerHTML = availableCourses.map((id) => `<option value="${id}" ${id === activeCourse ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("");
-  $("courseSwitch").addEventListener("change", (event) => changeCourse(event.target.value));
+  if (requestedDashboardCourse) history.replaceState({}, "", "student.html");
+  $("courseSwitchTrigger").addEventListener("click", toggleCourseMenu);
+  $("courseSwitchClose").addEventListener("click", closeCourseMenu);
+  document.addEventListener("click", (event) => {
+    if (!$("courseSwitcher").contains(event.target)) closeCourseMenu();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeCourseMenu();
+  });
   renderCourseDashboard();
 }
 
@@ -224,8 +283,6 @@ onAuthStateChanged(auth, async (user) => {
     return;
   }
   $("welcome").textContent = `Welcome${p.name ? `, ${p.name}` : ""}`;
-  $("studentMeta").textContent =
-    `${p.email || user.email} • ${courseValidity(p.purchasedCourse || p.requestedCourse || p.activeCourse, p.neetExamYear)}`;
   setupCourseDashboard(p);
   loadInvoices(user);
   $("class10LectureEntry").hidden = !availableCourses.includes("class10");

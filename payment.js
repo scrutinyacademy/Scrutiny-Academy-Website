@@ -148,6 +148,7 @@ function showPurchaseSuccess(purchase) {
   $("detailCourse").textContent = purchase.courseName;
   $("detailAmount").textContent = `₹${purchase.amount}`;
   $("detailPaymentId").textContent = purchase.paymentId;
+  $("successDashboardLink").href = `student.html?course=${encodeURIComponent(purchase.courseId || purchaseCourseId)}`;
   $("purchaseSuccess").hidden = false;
   $("purchaseSuccess").scrollIntoView({ behavior: "smooth", block: "start" });
 }
