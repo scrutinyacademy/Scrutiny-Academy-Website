@@ -5,6 +5,7 @@ import {
   getAuth,
   onAuthStateChanged,
   signOut,
+  getIdTokenResult,
   sendEmailVerification,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {
@@ -170,6 +171,8 @@ onAuthStateChanged(auth, async (user) => {
   }
   currentUser = user;
   try {
+    const token = await getIdTokenResult(user, true);
+    if (token.claims.founder === true) { location.replace('student.html'); return; }
     const studentRef = doc(db, "students", user.uid);
     const snapshot = await getDoc(studentRef);
     let profile;
