@@ -3597,181 +3597,3917 @@ window.SCRUTINY_DATA = {
         "kind": "Syllabus",
         "note": ""
       },
-      "description": "Telangana Intermediate First Year Botany",
+      "description": "Complete Telangana Intermediate First Year Botany board bank: 14 chapters, 210 VSAQs, 140 SAQs and 70 LAQs with answer guidance.",
       "chapters": [
         {
           "id": "class11-botany-01",
           "number": 1,
           "name": "The Living World",
-          "topics": [],
+          "topics": [
+            "Living organism",
+            "Growth",
+            "Metabolism",
+            "Consciousness",
+            "Biodiversity",
+            "Taxonomy",
+            "Systematics",
+            "Species",
+            "Binomial nomenclature",
+            "Taxonomic hierarchy",
+            "Herbarium",
+            "Botanical garden",
+            "Museum",
+            "Taxonomic key",
+            "Flora and manuals"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-1-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Living organism.",
+              "answer": "A living organism is a self-replicating, evolving and self-regulating system capable of responding to external stimuli.",
+              "keyPoints": "Living organism"
+            },
+            {
+              "id": "c11-bot-1-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Growth?",
+              "answer": "Growth is an irreversible increase in mass or cell number; in living organisms it normally occurs from within.",
+              "keyPoints": "Growth"
+            },
+            {
+              "id": "c11-bot-1-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Metabolism.",
+              "answer": "Metabolism is the sum of all anabolic and catabolic reactions occurring in a living organism.",
+              "keyPoints": "Metabolism"
+            },
+            {
+              "id": "c11-bot-1-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Consciousness.",
+              "answer": "Consciousness is the ability to sense the environment and respond to physical, chemical or biological stimuli.",
+              "keyPoints": "Consciousness"
+            },
+            {
+              "id": "c11-bot-1-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Biodiversity?",
+              "answer": "Biodiversity is the variety and variability of organisms at genetic, species and ecosystem levels.",
+              "keyPoints": "Biodiversity"
+            },
+            {
+              "id": "c11-bot-1-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Taxonomy.",
+              "answer": "Taxonomy is the science of identification, nomenclature and classification of organisms.",
+              "keyPoints": "Taxonomy"
+            },
+            {
+              "id": "c11-bot-1-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Systematics.",
+              "answer": "Systematics studies organismal diversity together with evolutionary relationships among organisms.",
+              "keyPoints": "Systematics"
+            },
+            {
+              "id": "c11-bot-1-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Species?",
+              "answer": "A species is the basic taxonomic unit whose members naturally interbreed and produce fertile offspring.",
+              "keyPoints": "Species"
+            },
+            {
+              "id": "c11-bot-1-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Binomial nomenclature.",
+              "answer": "Each scientific name has a capitalised genus and a lower-case specific epithet, printed in italics or underlined separately.",
+              "keyPoints": "Binomial nomenclature"
+            },
+            {
+              "id": "c11-bot-1-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Taxonomic hierarchy.",
+              "answer": "The main ascending categories are species, genus, family, order, class, phylum or division, and kingdom.",
+              "keyPoints": "Taxonomic hierarchy"
+            },
+            {
+              "id": "c11-bot-1-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Herbarium?",
+              "answer": "A herbarium is a repository of dried, pressed, mounted and labelled plant specimens arranged systematically.",
+              "keyPoints": "Herbarium"
+            },
+            {
+              "id": "c11-bot-1-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Botanical garden.",
+              "answer": "A botanical garden maintains correctly identified living plant collections for study, conservation and public education.",
+              "keyPoints": "Botanical garden"
+            },
+            {
+              "id": "c11-bot-1-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Museum.",
+              "answer": "A biological museum preserves plant and animal specimens in jars, boxes or as dry preparations for reference.",
+              "keyPoints": "Museum"
+            },
+            {
+              "id": "c11-bot-1-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Taxonomic key?",
+              "answer": "A taxonomic key identifies an organism through a sequence of paired contrasting statements called couplets.",
+              "keyPoints": "Taxonomic key"
+            },
+            {
+              "id": "c11-bot-1-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Flora and manuals.",
+              "answer": "A flora records plants of an area, while manuals help identify species and provide concise diagnostic information.",
+              "keyPoints": "Flora and manuals"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-1-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Living organism and Taxonomy.",
+              "answer": "• Living organism: A living organism is a self-replicating, evolving and self-regulating system capable of responding to external stimuli.\n• Taxonomy: Taxonomy is the science of identification, nomenclature and classification of organisms.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Living organism • Taxonomy • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Growth and Systematics with their biological significance.",
+              "answer": "• Growth: Growth is an irreversible increase in mass or cell number; in living organisms it normally occurs from within.\n• Systematics: Systematics studies organismal diversity together with evolutionary relationships among organisms.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Growth • Systematics • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Metabolism and Species.",
+              "answer": "• Metabolism: Metabolism is the sum of all anabolic and catabolic reactions occurring in a living organism.\n• Species: A species is the basic taxonomic unit whose members naturally interbreed and produce fertile offspring.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Metabolism • Species • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Consciousness and Binomial nomenclature with their biological significance.",
+              "answer": "• Consciousness: Consciousness is the ability to sense the environment and respond to physical, chemical or biological stimuli.\n• Binomial nomenclature: Each scientific name has a capitalised genus and a lower-case specific epithet, printed in italics or underlined separately.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Consciousness • Binomial nomenclature • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Biodiversity and Taxonomic hierarchy.",
+              "answer": "• Biodiversity: Biodiversity is the variety and variability of organisms at genetic, species and ecosystem levels.\n• Taxonomic hierarchy: The main ascending categories are species, genus, family, order, class, phylum or division, and kingdom.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Biodiversity • Taxonomic hierarchy • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Taxonomy and Herbarium with their biological significance.",
+              "answer": "• Taxonomy: Taxonomy is the science of identification, nomenclature and classification of organisms.\n• Herbarium: A herbarium is a repository of dried, pressed, mounted and labelled plant specimens arranged systematically.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Taxonomy • Herbarium • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Systematics and Botanical garden.",
+              "answer": "• Systematics: Systematics studies organismal diversity together with evolutionary relationships among organisms.\n• Botanical garden: A botanical garden maintains correctly identified living plant collections for study, conservation and public education.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Systematics • Botanical garden • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Species and Museum with their biological significance.",
+              "answer": "• Species: A species is the basic taxonomic unit whose members naturally interbreed and produce fertile offspring.\n• Museum: A biological museum preserves plant and animal specimens in jars, boxes or as dry preparations for reference.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Species • Museum • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Binomial nomenclature and Taxonomic key.",
+              "answer": "• Binomial nomenclature: Each scientific name has a capitalised genus and a lower-case specific epithet, printed in italics or underlined separately.\n• Taxonomic key: A taxonomic key identifies an organism through a sequence of paired contrasting statements called couplets.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Binomial nomenclature • Taxonomic key • definition • significance"
+            },
+            {
+              "id": "c11-bot-1-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Taxonomic hierarchy and Flora and manuals with their biological significance.",
+              "answer": "• Taxonomic hierarchy: The main ascending categories are species, genus, family, order, class, phylum or division, and kingdom.\n• Flora and manuals: A flora records plants of an area, while manuals help identify species and provide concise diagnostic information.\n• Relationship: Both are central to the living world, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Taxonomic hierarchy • Flora and manuals • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-1-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Living organism, Growth, Metabolism in the context of The Living World.",
+              "answer": "Introduction: The Living World is best understood by connecting structure, process and significance.\n\n1. Living organism: A living organism is a self-replicating, evolving and self-regulating system capable of responding to external stimuli.\n2. Growth: Growth is an irreversible increase in mass or cell number; in living organisms it normally occurs from within.\n3. Metabolism: Metabolism is the sum of all anabolic and catabolic reactions occurring in a living organism.\n4. Consciousness: Consciousness is the ability to sense the environment and respond to physical, chemical or biological stimuli.\n5. Biodiversity: Biodiversity is the variety and variability of organisms at genetic, species and ecosystem levels.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Living organism • Growth • Metabolism • Consciousness • Biodiversity"
+            },
+            {
+              "id": "c11-bot-1-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Consciousness, Biodiversity, Taxonomy in the context of The Living World.",
+              "answer": "Introduction: The Living World is best understood by connecting structure, process and significance.\n\n1. Consciousness: Consciousness is the ability to sense the environment and respond to physical, chemical or biological stimuli.\n2. Biodiversity: Biodiversity is the variety and variability of organisms at genetic, species and ecosystem levels.\n3. Taxonomy: Taxonomy is the science of identification, nomenclature and classification of organisms.\n4. Systematics: Systematics studies organismal diversity together with evolutionary relationships among organisms.\n5. Species: A species is the basic taxonomic unit whose members naturally interbreed and produce fertile offspring.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Consciousness • Biodiversity • Taxonomy • Systematics • Species"
+            },
+            {
+              "id": "c11-bot-1-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Systematics, Species, Binomial nomenclature in the context of The Living World.",
+              "answer": "Introduction: The Living World is best understood by connecting structure, process and significance.\n\n1. Systematics: Systematics studies organismal diversity together with evolutionary relationships among organisms.\n2. Species: A species is the basic taxonomic unit whose members naturally interbreed and produce fertile offspring.\n3. Binomial nomenclature: Each scientific name has a capitalised genus and a lower-case specific epithet, printed in italics or underlined separately.\n4. Taxonomic hierarchy: The main ascending categories are species, genus, family, order, class, phylum or division, and kingdom.\n5. Herbarium: A herbarium is a repository of dried, pressed, mounted and labelled plant specimens arranged systematically.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Systematics • Species • Binomial nomenclature • Taxonomic hierarchy • Herbarium"
+            },
+            {
+              "id": "c11-bot-1-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Taxonomic hierarchy, Herbarium, Botanical garden in the context of The Living World.",
+              "answer": "Introduction: The Living World is best understood by connecting structure, process and significance.\n\n1. Taxonomic hierarchy: The main ascending categories are species, genus, family, order, class, phylum or division, and kingdom.\n2. Herbarium: A herbarium is a repository of dried, pressed, mounted and labelled plant specimens arranged systematically.\n3. Botanical garden: A botanical garden maintains correctly identified living plant collections for study, conservation and public education.\n4. Museum: A biological museum preserves plant and animal specimens in jars, boxes or as dry preparations for reference.\n5. Taxonomic key: A taxonomic key identifies an organism through a sequence of paired contrasting statements called couplets.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Taxonomic hierarchy • Herbarium • Botanical garden • Museum • Taxonomic key"
+            },
+            {
+              "id": "c11-bot-1-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Museum, Taxonomic key, Flora and manuals in the context of The Living World.",
+              "answer": "Introduction: The Living World is best understood by connecting structure, process and significance.\n\n1. Museum: A biological museum preserves plant and animal specimens in jars, boxes or as dry preparations for reference.\n2. Taxonomic key: A taxonomic key identifies an organism through a sequence of paired contrasting statements called couplets.\n3. Flora and manuals: A flora records plants of an area, while manuals help identify species and provide concise diagnostic information.\n4. Living organism: A living organism is a self-replicating, evolving and self-regulating system capable of responding to external stimuli.\n5. Growth: Growth is an irreversible increase in mass or cell number; in living organisms it normally occurs from within.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Museum • Taxonomic key • Flora and manuals • Living organism • Growth"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-02",
           "number": 2,
           "name": "Biological Classification",
-          "topics": [],
+          "topics": [
+            "Five-kingdom classification",
+            "Three-domain system",
+            "Archaebacteria",
+            "Eubacteria",
+            "Cyanobacteria",
+            "Mycoplasma",
+            "Protista",
+            "Diatoms",
+            "Dinoflagellates",
+            "Euglenoids",
+            "Fungi",
+            "Fungal classes",
+            "Virus",
+            "Viroid and prion",
+            "Lichen"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-2-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Five-kingdom classification.",
+              "answer": "R. H. Whittaker classified organisms into Monera, Protista, Fungi, Plantae and Animalia using cell type, organisation, nutrition, reproduction and phylogeny.",
+              "keyPoints": "Five-kingdom classification"
+            },
+            {
+              "id": "c11-bot-2-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Three-domain system?",
+              "answer": "Carl Woese recognised Bacteria, Archaea and Eukarya mainly from ribosomal RNA and molecular differences.",
+              "keyPoints": "Three-domain system"
+            },
+            {
+              "id": "c11-bot-2-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Archaebacteria.",
+              "answer": "Archaea have ether-linked membrane lipids and distinctive cell walls, enabling many to live in extreme habitats.",
+              "keyPoints": "Archaebacteria"
+            },
+            {
+              "id": "c11-bot-2-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Eubacteria.",
+              "answer": "Eubacteria are true prokaryotes with peptidoglycan walls; they may be autotrophic or heterotrophic.",
+              "keyPoints": "Eubacteria"
+            },
+            {
+              "id": "c11-bot-2-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Cyanobacteria?",
+              "answer": "Cyanobacteria are oxygenic photosynthetic prokaryotes; heterocysts in forms such as Nostoc fix atmospheric nitrogen.",
+              "keyPoints": "Cyanobacteria"
+            },
+            {
+              "id": "c11-bot-2-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Mycoplasma.",
+              "answer": "Mycoplasmas are the smallest self-replicating cells and lack a cell wall, so their shape is variable.",
+              "keyPoints": "Mycoplasma"
+            },
+            {
+              "id": "c11-bot-2-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Protista.",
+              "answer": "Protista contains mostly unicellular eukaryotes, including chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans.",
+              "keyPoints": "Protista"
+            },
+            {
+              "id": "c11-bot-2-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Diatoms?",
+              "answer": "Diatoms have siliceous, two-piece walls called frustules; accumulated walls form diatomaceous earth.",
+              "keyPoints": "Diatoms"
+            },
+            {
+              "id": "c11-bot-2-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Dinoflagellates.",
+              "answer": "Dinoflagellates possess two unequal flagella; rapid multiplication of some marine species causes red tides.",
+              "keyPoints": "Dinoflagellates"
+            },
+            {
+              "id": "c11-bot-2-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Euglenoids.",
+              "answer": "Euglenoids lack a cell wall, possess a protein-rich pellicle and can shift between autotrophic and heterotrophic nutrition.",
+              "keyPoints": "Euglenoids"
+            },
+            {
+              "id": "c11-bot-2-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Fungi?",
+              "answer": "Fungi are absorptive heterotrophs with chitinous walls; their hyphae form a mycelium and reproduce by spores.",
+              "keyPoints": "Fungi"
+            },
+            {
+              "id": "c11-bot-2-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Fungal classes.",
+              "answer": "Phycomycetes, Ascomycetes, Basidiomycetes and Deuteromycetes are distinguished mainly by mycelium and sexual spores.",
+              "keyPoints": "Fungal classes"
+            },
+            {
+              "id": "c11-bot-2-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Virus.",
+              "answer": "A virus is an acellular nucleoprotein particle that multiplies only inside a living host cell.",
+              "keyPoints": "Virus"
+            },
+            {
+              "id": "c11-bot-2-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Viroid and prion?",
+              "answer": "A viroid is naked infectious RNA, whereas a prion is an infectious misfolded protein.",
+              "keyPoints": "Viroid and prion"
+            },
+            {
+              "id": "c11-bot-2-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Lichen.",
+              "answer": "A lichen is a mutualistic association in which an alga supplies food and a fungus provides shelter, water and minerals.",
+              "keyPoints": "Lichen"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-2-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Five-kingdom classification and Mycoplasma.",
+              "answer": "• Five-kingdom classification: R. H. Whittaker classified organisms into Monera, Protista, Fungi, Plantae and Animalia using cell type, organisation, nutrition, reproduction and phylogeny.\n• Mycoplasma: Mycoplasmas are the smallest self-replicating cells and lack a cell wall, so their shape is variable.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Five-kingdom classification • Mycoplasma • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Three-domain system and Protista with their biological significance.",
+              "answer": "• Three-domain system: Carl Woese recognised Bacteria, Archaea and Eukarya mainly from ribosomal RNA and molecular differences.\n• Protista: Protista contains mostly unicellular eukaryotes, including chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Three-domain system • Protista • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Archaebacteria and Diatoms.",
+              "answer": "• Archaebacteria: Archaea have ether-linked membrane lipids and distinctive cell walls, enabling many to live in extreme habitats.\n• Diatoms: Diatoms have siliceous, two-piece walls called frustules; accumulated walls form diatomaceous earth.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Archaebacteria • Diatoms • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Eubacteria and Dinoflagellates with their biological significance.",
+              "answer": "• Eubacteria: Eubacteria are true prokaryotes with peptidoglycan walls; they may be autotrophic or heterotrophic.\n• Dinoflagellates: Dinoflagellates possess two unequal flagella; rapid multiplication of some marine species causes red tides.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Eubacteria • Dinoflagellates • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cyanobacteria and Euglenoids.",
+              "answer": "• Cyanobacteria: Cyanobacteria are oxygenic photosynthetic prokaryotes; heterocysts in forms such as Nostoc fix atmospheric nitrogen.\n• Euglenoids: Euglenoids lack a cell wall, possess a protein-rich pellicle and can shift between autotrophic and heterotrophic nutrition.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cyanobacteria • Euglenoids • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Mycoplasma and Fungi with their biological significance.",
+              "answer": "• Mycoplasma: Mycoplasmas are the smallest self-replicating cells and lack a cell wall, so their shape is variable.\n• Fungi: Fungi are absorptive heterotrophs with chitinous walls; their hyphae form a mycelium and reproduce by spores.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Mycoplasma • Fungi • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Protista and Fungal classes.",
+              "answer": "• Protista: Protista contains mostly unicellular eukaryotes, including chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans.\n• Fungal classes: Phycomycetes, Ascomycetes, Basidiomycetes and Deuteromycetes are distinguished mainly by mycelium and sexual spores.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Protista • Fungal classes • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Diatoms and Virus with their biological significance.",
+              "answer": "• Diatoms: Diatoms have siliceous, two-piece walls called frustules; accumulated walls form diatomaceous earth.\n• Virus: A virus is an acellular nucleoprotein particle that multiplies only inside a living host cell.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Diatoms • Virus • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Dinoflagellates and Viroid and prion.",
+              "answer": "• Dinoflagellates: Dinoflagellates possess two unequal flagella; rapid multiplication of some marine species causes red tides.\n• Viroid and prion: A viroid is naked infectious RNA, whereas a prion is an infectious misfolded protein.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Dinoflagellates • Viroid and prion • definition • significance"
+            },
+            {
+              "id": "c11-bot-2-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Euglenoids and Lichen with their biological significance.",
+              "answer": "• Euglenoids: Euglenoids lack a cell wall, possess a protein-rich pellicle and can shift between autotrophic and heterotrophic nutrition.\n• Lichen: A lichen is a mutualistic association in which an alga supplies food and a fungus provides shelter, water and minerals.\n• Relationship: Both are central to biological classification, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Euglenoids • Lichen • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-2-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Five-kingdom classification, Three-domain system, Archaebacteria in the context of Biological Classification.",
+              "answer": "Introduction: Biological Classification is best understood by connecting structure, process and significance.\n\n1. Five-kingdom classification: R. H. Whittaker classified organisms into Monera, Protista, Fungi, Plantae and Animalia using cell type, organisation, nutrition, reproduction and phylogeny.\n2. Three-domain system: Carl Woese recognised Bacteria, Archaea and Eukarya mainly from ribosomal RNA and molecular differences.\n3. Archaebacteria: Archaea have ether-linked membrane lipids and distinctive cell walls, enabling many to live in extreme habitats.\n4. Eubacteria: Eubacteria are true prokaryotes with peptidoglycan walls; they may be autotrophic or heterotrophic.\n5. Cyanobacteria: Cyanobacteria are oxygenic photosynthetic prokaryotes; heterocysts in forms such as Nostoc fix atmospheric nitrogen.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Five-kingdom classification • Three-domain system • Archaebacteria • Eubacteria • Cyanobacteria"
+            },
+            {
+              "id": "c11-bot-2-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Eubacteria, Cyanobacteria, Mycoplasma in the context of Biological Classification.",
+              "answer": "Introduction: Biological Classification is best understood by connecting structure, process and significance.\n\n1. Eubacteria: Eubacteria are true prokaryotes with peptidoglycan walls; they may be autotrophic or heterotrophic.\n2. Cyanobacteria: Cyanobacteria are oxygenic photosynthetic prokaryotes; heterocysts in forms such as Nostoc fix atmospheric nitrogen.\n3. Mycoplasma: Mycoplasmas are the smallest self-replicating cells and lack a cell wall, so their shape is variable.\n4. Protista: Protista contains mostly unicellular eukaryotes, including chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans.\n5. Diatoms: Diatoms have siliceous, two-piece walls called frustules; accumulated walls form diatomaceous earth.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Eubacteria • Cyanobacteria • Mycoplasma • Protista • Diatoms"
+            },
+            {
+              "id": "c11-bot-2-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Protista, Diatoms, Dinoflagellates in the context of Biological Classification.",
+              "answer": "Introduction: Biological Classification is best understood by connecting structure, process and significance.\n\n1. Protista: Protista contains mostly unicellular eukaryotes, including chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans.\n2. Diatoms: Diatoms have siliceous, two-piece walls called frustules; accumulated walls form diatomaceous earth.\n3. Dinoflagellates: Dinoflagellates possess two unequal flagella; rapid multiplication of some marine species causes red tides.\n4. Euglenoids: Euglenoids lack a cell wall, possess a protein-rich pellicle and can shift between autotrophic and heterotrophic nutrition.\n5. Fungi: Fungi are absorptive heterotrophs with chitinous walls; their hyphae form a mycelium and reproduce by spores.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Protista • Diatoms • Dinoflagellates • Euglenoids • Fungi"
+            },
+            {
+              "id": "c11-bot-2-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Euglenoids, Fungi, Fungal classes in the context of Biological Classification.",
+              "answer": "Introduction: Biological Classification is best understood by connecting structure, process and significance.\n\n1. Euglenoids: Euglenoids lack a cell wall, possess a protein-rich pellicle and can shift between autotrophic and heterotrophic nutrition.\n2. Fungi: Fungi are absorptive heterotrophs with chitinous walls; their hyphae form a mycelium and reproduce by spores.\n3. Fungal classes: Phycomycetes, Ascomycetes, Basidiomycetes and Deuteromycetes are distinguished mainly by mycelium and sexual spores.\n4. Virus: A virus is an acellular nucleoprotein particle that multiplies only inside a living host cell.\n5. Viroid and prion: A viroid is naked infectious RNA, whereas a prion is an infectious misfolded protein.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Euglenoids • Fungi • Fungal classes • Virus • Viroid and prion"
+            },
+            {
+              "id": "c11-bot-2-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Virus, Viroid and prion, Lichen in the context of Biological Classification.",
+              "answer": "Introduction: Biological Classification is best understood by connecting structure, process and significance.\n\n1. Virus: A virus is an acellular nucleoprotein particle that multiplies only inside a living host cell.\n2. Viroid and prion: A viroid is naked infectious RNA, whereas a prion is an infectious misfolded protein.\n3. Lichen: A lichen is a mutualistic association in which an alga supplies food and a fungus provides shelter, water and minerals.\n4. Five-kingdom classification: R. H. Whittaker classified organisms into Monera, Protista, Fungi, Plantae and Animalia using cell type, organisation, nutrition, reproduction and phylogeny.\n5. Three-domain system: Carl Woese recognised Bacteria, Archaea and Eukarya mainly from ribosomal RNA and molecular differences.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Virus • Viroid and prion • Lichen • Five-kingdom classification • Three-domain system"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-03",
           "number": 3,
           "name": "Science of Plants - Botany",
-          "topics": [],
+          "topics": [
+            "Botany",
+            "Theophrastus",
+            "Indian botany",
+            "Morphology",
+            "Anatomy",
+            "Taxonomy",
+            "Cytology",
+            "Embryology",
+            "Physiology",
+            "Genetics",
+            "Ecology",
+            "Palaeobotany",
+            "Economic botany",
+            "Plant pathology",
+            "Biotechnology and scope"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-3-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Botany.",
+              "answer": "Botany is the scientific study of plants, including their structure, function, diversity, heredity, ecology and uses.",
+              "keyPoints": "Botany"
+            },
+            {
+              "id": "c11-bot-3-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Theophrastus?",
+              "answer": "Theophrastus is called the Father of Botany because his works Historia Plantarum and De Causis Plantarum systematically described plants.",
+              "keyPoints": "Theophrastus"
+            },
+            {
+              "id": "c11-bot-3-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Indian botany.",
+              "answer": "Ancient Indian works such as Vrikshayurveda recorded plant classification, cultivation, diseases and medicinal uses.",
+              "keyPoints": "Indian botany"
+            },
+            {
+              "id": "c11-bot-3-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Morphology.",
+              "answer": "Plant morphology studies the external form and visible organs of plants.",
+              "keyPoints": "Morphology"
+            },
+            {
+              "id": "c11-bot-3-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Anatomy?",
+              "answer": "Plant anatomy studies internal organisation of cells, tissues and organs.",
+              "keyPoints": "Anatomy"
+            },
+            {
+              "id": "c11-bot-3-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Taxonomy.",
+              "answer": "Plant taxonomy identifies, names and classifies plants using diagnostic characters.",
+              "keyPoints": "Taxonomy"
+            },
+            {
+              "id": "c11-bot-3-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Cytology.",
+              "answer": "Cytology studies plant cells, their organelles, chromosomes and division.",
+              "keyPoints": "Cytology"
+            },
+            {
+              "id": "c11-bot-3-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Embryology?",
+              "answer": "Plant embryology examines formation and development of gametes, embryo and seed.",
+              "keyPoints": "Embryology"
+            },
+            {
+              "id": "c11-bot-3-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Physiology.",
+              "answer": "Plant physiology explains functions such as absorption, transport, photosynthesis, respiration and growth.",
+              "keyPoints": "Physiology"
+            },
+            {
+              "id": "c11-bot-3-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Genetics.",
+              "answer": "Plant genetics studies inheritance, variation and the expression of genes in plants.",
+              "keyPoints": "Genetics"
+            },
+            {
+              "id": "c11-bot-3-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Ecology?",
+              "answer": "Plant ecology examines relationships of plants with one another and with their physical environment.",
+              "keyPoints": "Ecology"
+            },
+            {
+              "id": "c11-bot-3-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Palaeobotany.",
+              "answer": "Palaeobotany reconstructs the history and evolution of plants from fossils.",
+              "keyPoints": "Palaeobotany"
+            },
+            {
+              "id": "c11-bot-3-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Economic botany.",
+              "answer": "Economic botany studies plants and plant products used as food, fibre, timber, medicines and industrial raw materials.",
+              "keyPoints": "Economic botany"
+            },
+            {
+              "id": "c11-bot-3-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Plant pathology?",
+              "answer": "Plant pathology investigates plant diseases, their causes, spread, effects and control.",
+              "keyPoints": "Plant pathology"
+            },
+            {
+              "id": "c11-bot-3-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Biotechnology and scope.",
+              "answer": "Plant biotechnology uses cells, genes and tissue culture to improve crops, conserve germplasm and produce useful compounds.",
+              "keyPoints": "Biotechnology and scope"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-3-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Botany and Taxonomy.",
+              "answer": "• Botany: Botany is the scientific study of plants, including their structure, function, diversity, heredity, ecology and uses.\n• Taxonomy: Plant taxonomy identifies, names and classifies plants using diagnostic characters.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Botany • Taxonomy • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Theophrastus and Cytology with their biological significance.",
+              "answer": "• Theophrastus: Theophrastus is called the Father of Botany because his works Historia Plantarum and De Causis Plantarum systematically described plants.\n• Cytology: Cytology studies plant cells, their organelles, chromosomes and division.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Theophrastus • Cytology • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Indian botany and Embryology.",
+              "answer": "• Indian botany: Ancient Indian works such as Vrikshayurveda recorded plant classification, cultivation, diseases and medicinal uses.\n• Embryology: Plant embryology examines formation and development of gametes, embryo and seed.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Indian botany • Embryology • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Morphology and Physiology with their biological significance.",
+              "answer": "• Morphology: Plant morphology studies the external form and visible organs of plants.\n• Physiology: Plant physiology explains functions such as absorption, transport, photosynthesis, respiration and growth.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Morphology • Physiology • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Anatomy and Genetics.",
+              "answer": "• Anatomy: Plant anatomy studies internal organisation of cells, tissues and organs.\n• Genetics: Plant genetics studies inheritance, variation and the expression of genes in plants.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Anatomy • Genetics • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Taxonomy and Ecology with their biological significance.",
+              "answer": "• Taxonomy: Plant taxonomy identifies, names and classifies plants using diagnostic characters.\n• Ecology: Plant ecology examines relationships of plants with one another and with their physical environment.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Taxonomy • Ecology • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Cytology and Palaeobotany.",
+              "answer": "• Cytology: Cytology studies plant cells, their organelles, chromosomes and division.\n• Palaeobotany: Palaeobotany reconstructs the history and evolution of plants from fossils.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cytology • Palaeobotany • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Embryology and Economic botany with their biological significance.",
+              "answer": "• Embryology: Plant embryology examines formation and development of gametes, embryo and seed.\n• Economic botany: Economic botany studies plants and plant products used as food, fibre, timber, medicines and industrial raw materials.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Embryology • Economic botany • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Physiology and Plant pathology.",
+              "answer": "• Physiology: Plant physiology explains functions such as absorption, transport, photosynthesis, respiration and growth.\n• Plant pathology: Plant pathology investigates plant diseases, their causes, spread, effects and control.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Physiology • Plant pathology • definition • significance"
+            },
+            {
+              "id": "c11-bot-3-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Genetics and Biotechnology and scope with their biological significance.",
+              "answer": "• Genetics: Plant genetics studies inheritance, variation and the expression of genes in plants.\n• Biotechnology and scope: Plant biotechnology uses cells, genes and tissue culture to improve crops, conserve germplasm and produce useful compounds.\n• Relationship: Both are central to science of plants - botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Genetics • Biotechnology and scope • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-3-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Botany, Theophrastus, Indian botany in the context of Science of Plants - Botany.",
+              "answer": "Introduction: Science of Plants - Botany is best understood by connecting structure, process and significance.\n\n1. Botany: Botany is the scientific study of plants, including their structure, function, diversity, heredity, ecology and uses.\n2. Theophrastus: Theophrastus is called the Father of Botany because his works Historia Plantarum and De Causis Plantarum systematically described plants.\n3. Indian botany: Ancient Indian works such as Vrikshayurveda recorded plant classification, cultivation, diseases and medicinal uses.\n4. Morphology: Plant morphology studies the external form and visible organs of plants.\n5. Anatomy: Plant anatomy studies internal organisation of cells, tissues and organs.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Botany • Theophrastus • Indian botany • Morphology • Anatomy"
+            },
+            {
+              "id": "c11-bot-3-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Morphology, Anatomy, Taxonomy in the context of Science of Plants - Botany.",
+              "answer": "Introduction: Science of Plants - Botany is best understood by connecting structure, process and significance.\n\n1. Morphology: Plant morphology studies the external form and visible organs of plants.\n2. Anatomy: Plant anatomy studies internal organisation of cells, tissues and organs.\n3. Taxonomy: Plant taxonomy identifies, names and classifies plants using diagnostic characters.\n4. Cytology: Cytology studies plant cells, their organelles, chromosomes and division.\n5. Embryology: Plant embryology examines formation and development of gametes, embryo and seed.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Morphology • Anatomy • Taxonomy • Cytology • Embryology"
+            },
+            {
+              "id": "c11-bot-3-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Cytology, Embryology, Physiology in the context of Science of Plants - Botany.",
+              "answer": "Introduction: Science of Plants - Botany is best understood by connecting structure, process and significance.\n\n1. Cytology: Cytology studies plant cells, their organelles, chromosomes and division.\n2. Embryology: Plant embryology examines formation and development of gametes, embryo and seed.\n3. Physiology: Plant physiology explains functions such as absorption, transport, photosynthesis, respiration and growth.\n4. Genetics: Plant genetics studies inheritance, variation and the expression of genes in plants.\n5. Ecology: Plant ecology examines relationships of plants with one another and with their physical environment.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Cytology • Embryology • Physiology • Genetics • Ecology"
+            },
+            {
+              "id": "c11-bot-3-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Genetics, Ecology, Palaeobotany in the context of Science of Plants - Botany.",
+              "answer": "Introduction: Science of Plants - Botany is best understood by connecting structure, process and significance.\n\n1. Genetics: Plant genetics studies inheritance, variation and the expression of genes in plants.\n2. Ecology: Plant ecology examines relationships of plants with one another and with their physical environment.\n3. Palaeobotany: Palaeobotany reconstructs the history and evolution of plants from fossils.\n4. Economic botany: Economic botany studies plants and plant products used as food, fibre, timber, medicines and industrial raw materials.\n5. Plant pathology: Plant pathology investigates plant diseases, their causes, spread, effects and control.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Genetics • Ecology • Palaeobotany • Economic botany • Plant pathology"
+            },
+            {
+              "id": "c11-bot-3-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Economic botany, Plant pathology, Biotechnology and scope in the context of Science of Plants - Botany.",
+              "answer": "Introduction: Science of Plants - Botany is best understood by connecting structure, process and significance.\n\n1. Economic botany: Economic botany studies plants and plant products used as food, fibre, timber, medicines and industrial raw materials.\n2. Plant pathology: Plant pathology investigates plant diseases, their causes, spread, effects and control.\n3. Biotechnology and scope: Plant biotechnology uses cells, genes and tissue culture to improve crops, conserve germplasm and produce useful compounds.\n4. Botany: Botany is the scientific study of plants, including their structure, function, diversity, heredity, ecology and uses.\n5. Theophrastus: Theophrastus is called the Father of Botany because his works Historia Plantarum and De Causis Plantarum systematically described plants.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Economic botany • Plant pathology • Biotechnology and scope • Botany • Theophrastus"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-04",
           "number": 4,
           "name": "Plant Kingdom",
-          "topics": [],
+          "topics": [
+            "Algae",
+            "Chlorophyceae",
+            "Phaeophyceae",
+            "Rhodophyceae",
+            "Bryophytes",
+            "Liverworts",
+            "Moss life cycle",
+            "Pteridophytes",
+            "Heterospory",
+            "Gymnosperms",
+            "Coralloid roots",
+            "Angiosperms",
+            "Monocot and dicot",
+            "Alternation of generations",
+            "Evolutionary trend"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-4-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Algae.",
+              "answer": "Algae are simple, chlorophyll-bearing thalloid autotrophs, chiefly aquatic, with no true roots, stems or leaves.",
+              "keyPoints": "Algae"
+            },
+            {
+              "id": "c11-bot-4-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Chlorophyceae?",
+              "answer": "Green algae contain chlorophyll a and b, store starch in pyrenoids and usually have cellulose-rich walls.",
+              "keyPoints": "Chlorophyceae"
+            },
+            {
+              "id": "c11-bot-4-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Phaeophyceae.",
+              "answer": "Brown algae contain fucoxanthin, store laminarin and mannitol, and have algin in their walls.",
+              "keyPoints": "Phaeophyceae"
+            },
+            {
+              "id": "c11-bot-4-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Rhodophyceae.",
+              "answer": "Red algae contain phycoerythrin, store floridean starch and mostly inhabit marine environments.",
+              "keyPoints": "Rhodophyceae"
+            },
+            {
+              "id": "c11-bot-4-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Bryophytes?",
+              "answer": "Bryophytes are non-vascular land plants with a dominant gametophyte and water-dependent fertilisation.",
+              "keyPoints": "Bryophytes"
+            },
+            {
+              "id": "c11-bot-4-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Liverworts.",
+              "answer": "Liverworts generally have a dorsiventral thallus or leafy gametophyte and reproduce asexually by fragmentation or gemmae.",
+              "keyPoints": "Liverworts"
+            },
+            {
+              "id": "c11-bot-4-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Moss life cycle.",
+              "answer": "In mosses the protonema produces leafy gametophores; the attached sporophyte consists of foot, seta and capsule.",
+              "keyPoints": "Moss life cycle"
+            },
+            {
+              "id": "c11-bot-4-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Pteridophytes?",
+              "answer": "Pteridophytes are seedless vascular plants with dominant, independent sporophytes and small prothallial gametophytes.",
+              "keyPoints": "Pteridophytes"
+            },
+            {
+              "id": "c11-bot-4-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Heterospory.",
+              "answer": "Heterospory is production of microspores and megaspores; it is an important step toward the seed habit.",
+              "keyPoints": "Heterospory"
+            },
+            {
+              "id": "c11-bot-4-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Gymnosperms.",
+              "answer": "Gymnosperms bear naked ovules and seeds, commonly on cone scales, and lack true fruits.",
+              "keyPoints": "Gymnosperms"
+            },
+            {
+              "id": "c11-bot-4-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Coralloid roots?",
+              "answer": "Cycas has coralloid roots containing nitrogen-fixing cyanobacteria such as Nostoc and Anabaena.",
+              "keyPoints": "Coralloid roots"
+            },
+            {
+              "id": "c11-bot-4-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Angiosperms.",
+              "answer": "Angiosperms bear flowers, enclose ovules within an ovary and produce seeds inside fruits after double fertilisation.",
+              "keyPoints": "Angiosperms"
+            },
+            {
+              "id": "c11-bot-4-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Monocot and dicot.",
+              "answer": "Monocots usually have one cotyledon, parallel venation and fibrous roots; dicots usually show two cotyledons, reticulate venation and tap roots.",
+              "keyPoints": "Monocot and dicot"
+            },
+            {
+              "id": "c11-bot-4-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Alternation of generations?",
+              "answer": "Plants alternate between a haploid gametophyte producing gametes and a diploid sporophyte producing spores by meiosis.",
+              "keyPoints": "Alternation of generations"
+            },
+            {
+              "id": "c11-bot-4-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Evolutionary trend.",
+              "answer": "From algae to angiosperms, vascular tissue, sporophyte dominance, heterospory, seeds, pollen and protected embryos progressively increase.",
+              "keyPoints": "Evolutionary trend"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-4-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Algae and Liverworts.",
+              "answer": "• Algae: Algae are simple, chlorophyll-bearing thalloid autotrophs, chiefly aquatic, with no true roots, stems or leaves.\n• Liverworts: Liverworts generally have a dorsiventral thallus or leafy gametophyte and reproduce asexually by fragmentation or gemmae.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Algae • Liverworts • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Chlorophyceae and Moss life cycle with their biological significance.",
+              "answer": "• Chlorophyceae: Green algae contain chlorophyll a and b, store starch in pyrenoids and usually have cellulose-rich walls.\n• Moss life cycle: In mosses the protonema produces leafy gametophores; the attached sporophyte consists of foot, seta and capsule.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Chlorophyceae • Moss life cycle • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Phaeophyceae and Pteridophytes.",
+              "answer": "• Phaeophyceae: Brown algae contain fucoxanthin, store laminarin and mannitol, and have algin in their walls.\n• Pteridophytes: Pteridophytes are seedless vascular plants with dominant, independent sporophytes and small prothallial gametophytes.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Phaeophyceae • Pteridophytes • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Rhodophyceae and Heterospory with their biological significance.",
+              "answer": "• Rhodophyceae: Red algae contain phycoerythrin, store floridean starch and mostly inhabit marine environments.\n• Heterospory: Heterospory is production of microspores and megaspores; it is an important step toward the seed habit.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Rhodophyceae • Heterospory • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Bryophytes and Gymnosperms.",
+              "answer": "• Bryophytes: Bryophytes are non-vascular land plants with a dominant gametophyte and water-dependent fertilisation.\n• Gymnosperms: Gymnosperms bear naked ovules and seeds, commonly on cone scales, and lack true fruits.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Bryophytes • Gymnosperms • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Liverworts and Coralloid roots with their biological significance.",
+              "answer": "• Liverworts: Liverworts generally have a dorsiventral thallus or leafy gametophyte and reproduce asexually by fragmentation or gemmae.\n• Coralloid roots: Cycas has coralloid roots containing nitrogen-fixing cyanobacteria such as Nostoc and Anabaena.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Liverworts • Coralloid roots • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Moss life cycle and Angiosperms.",
+              "answer": "• Moss life cycle: In mosses the protonema produces leafy gametophores; the attached sporophyte consists of foot, seta and capsule.\n• Angiosperms: Angiosperms bear flowers, enclose ovules within an ovary and produce seeds inside fruits after double fertilisation.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Moss life cycle • Angiosperms • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Pteridophytes and Monocot and dicot with their biological significance.",
+              "answer": "• Pteridophytes: Pteridophytes are seedless vascular plants with dominant, independent sporophytes and small prothallial gametophytes.\n• Monocot and dicot: Monocots usually have one cotyledon, parallel venation and fibrous roots; dicots usually show two cotyledons, reticulate venation and tap roots.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Pteridophytes • Monocot and dicot • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Heterospory and Alternation of generations.",
+              "answer": "• Heterospory: Heterospory is production of microspores and megaspores; it is an important step toward the seed habit.\n• Alternation of generations: Plants alternate between a haploid gametophyte producing gametes and a diploid sporophyte producing spores by meiosis.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Heterospory • Alternation of generations • definition • significance"
+            },
+            {
+              "id": "c11-bot-4-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Gymnosperms and Evolutionary trend with their biological significance.",
+              "answer": "• Gymnosperms: Gymnosperms bear naked ovules and seeds, commonly on cone scales, and lack true fruits.\n• Evolutionary trend: From algae to angiosperms, vascular tissue, sporophyte dominance, heterospory, seeds, pollen and protected embryos progressively increase.\n• Relationship: Both are central to plant kingdom, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Gymnosperms • Evolutionary trend • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-4-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Algae, Chlorophyceae, Phaeophyceae in the context of Plant Kingdom.",
+              "answer": "Introduction: Plant Kingdom is best understood by connecting structure, process and significance.\n\n1. Algae: Algae are simple, chlorophyll-bearing thalloid autotrophs, chiefly aquatic, with no true roots, stems or leaves.\n2. Chlorophyceae: Green algae contain chlorophyll a and b, store starch in pyrenoids and usually have cellulose-rich walls.\n3. Phaeophyceae: Brown algae contain fucoxanthin, store laminarin and mannitol, and have algin in their walls.\n4. Rhodophyceae: Red algae contain phycoerythrin, store floridean starch and mostly inhabit marine environments.\n5. Bryophytes: Bryophytes are non-vascular land plants with a dominant gametophyte and water-dependent fertilisation.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Algae • Chlorophyceae • Phaeophyceae • Rhodophyceae • Bryophytes",
+              "diagram": "assets/botany/plant-kingdom.svg",
+              "diagramAlt": "Labelled study diagram for Plant Kingdom"
+            },
+            {
+              "id": "c11-bot-4-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Rhodophyceae, Bryophytes, Liverworts in the context of Plant Kingdom.",
+              "answer": "Introduction: Plant Kingdom is best understood by connecting structure, process and significance.\n\n1. Rhodophyceae: Red algae contain phycoerythrin, store floridean starch and mostly inhabit marine environments.\n2. Bryophytes: Bryophytes are non-vascular land plants with a dominant gametophyte and water-dependent fertilisation.\n3. Liverworts: Liverworts generally have a dorsiventral thallus or leafy gametophyte and reproduce asexually by fragmentation or gemmae.\n4. Moss life cycle: In mosses the protonema produces leafy gametophores; the attached sporophyte consists of foot, seta and capsule.\n5. Pteridophytes: Pteridophytes are seedless vascular plants with dominant, independent sporophytes and small prothallial gametophytes.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Rhodophyceae • Bryophytes • Liverworts • Moss life cycle • Pteridophytes",
+              "diagram": "assets/botany/plant-kingdom.svg",
+              "diagramAlt": "Labelled study diagram for Plant Kingdom"
+            },
+            {
+              "id": "c11-bot-4-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Moss life cycle, Pteridophytes, Heterospory in the context of Plant Kingdom.",
+              "answer": "Introduction: Plant Kingdom is best understood by connecting structure, process and significance.\n\n1. Moss life cycle: In mosses the protonema produces leafy gametophores; the attached sporophyte consists of foot, seta and capsule.\n2. Pteridophytes: Pteridophytes are seedless vascular plants with dominant, independent sporophytes and small prothallial gametophytes.\n3. Heterospory: Heterospory is production of microspores and megaspores; it is an important step toward the seed habit.\n4. Gymnosperms: Gymnosperms bear naked ovules and seeds, commonly on cone scales, and lack true fruits.\n5. Coralloid roots: Cycas has coralloid roots containing nitrogen-fixing cyanobacteria such as Nostoc and Anabaena.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Moss life cycle • Pteridophytes • Heterospory • Gymnosperms • Coralloid roots"
+            },
+            {
+              "id": "c11-bot-4-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Gymnosperms, Coralloid roots, Angiosperms in the context of Plant Kingdom.",
+              "answer": "Introduction: Plant Kingdom is best understood by connecting structure, process and significance.\n\n1. Gymnosperms: Gymnosperms bear naked ovules and seeds, commonly on cone scales, and lack true fruits.\n2. Coralloid roots: Cycas has coralloid roots containing nitrogen-fixing cyanobacteria such as Nostoc and Anabaena.\n3. Angiosperms: Angiosperms bear flowers, enclose ovules within an ovary and produce seeds inside fruits after double fertilisation.\n4. Monocot and dicot: Monocots usually have one cotyledon, parallel venation and fibrous roots; dicots usually show two cotyledons, reticulate venation and tap roots.\n5. Alternation of generations: Plants alternate between a haploid gametophyte producing gametes and a diploid sporophyte producing spores by meiosis.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Gymnosperms • Coralloid roots • Angiosperms • Monocot and dicot • Alternation of generations"
+            },
+            {
+              "id": "c11-bot-4-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Monocot and dicot, Alternation of generations, Evolutionary trend in the context of Plant Kingdom.",
+              "answer": "Introduction: Plant Kingdom is best understood by connecting structure, process and significance.\n\n1. Monocot and dicot: Monocots usually have one cotyledon, parallel venation and fibrous roots; dicots usually show two cotyledons, reticulate venation and tap roots.\n2. Alternation of generations: Plants alternate between a haploid gametophyte producing gametes and a diploid sporophyte producing spores by meiosis.\n3. Evolutionary trend: From algae to angiosperms, vascular tissue, sporophyte dominance, heterospory, seeds, pollen and protected embryos progressively increase.\n4. Algae: Algae are simple, chlorophyll-bearing thalloid autotrophs, chiefly aquatic, with no true roots, stems or leaves.\n5. Chlorophyceae: Green algae contain chlorophyll a and b, store starch in pyrenoids and usually have cellulose-rich walls.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Monocot and dicot • Alternation of generations • Evolutionary trend • Algae • Chlorophyceae"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-05",
           "number": 5,
           "name": "Morphology of Flowering Plants",
-          "topics": [],
+          "topics": [
+            "Root systems",
+            "Root modifications",
+            "Stem modifications",
+            "Leaf parts",
+            "Venation",
+            "Phyllotaxy",
+            "Leaf modifications",
+            "Inflorescence",
+            "Flower whorls",
+            "Aestivation",
+            "Androecium",
+            "Gynoecium",
+            "Placentation",
+            "Fruit",
+            "Seed"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-5-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Root systems.",
+              "answer": "Tap roots arise from the radicle, whereas fibrous roots form a cluster of similarly sized adventitious roots.",
+              "keyPoints": "Root systems"
+            },
+            {
+              "id": "c11-bot-5-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Root modifications?",
+              "answer": "Roots may store food, provide support, respire or absorb moisture; examples include carrot, banyan, Rhizophora and orchids.",
+              "keyPoints": "Root modifications"
+            },
+            {
+              "id": "c11-bot-5-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Stem modifications.",
+              "answer": "Stems may become underground storage organs, climbing tendrils, defensive thorns or photosynthetic phylloclades.",
+              "keyPoints": "Stem modifications"
+            },
+            {
+              "id": "c11-bot-5-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Leaf parts.",
+              "answer": "A typical leaf has leaf base, petiole and lamina; stipules may occur at the leaf base.",
+              "keyPoints": "Leaf parts"
+            },
+            {
+              "id": "c11-bot-5-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Venation?",
+              "answer": "Reticulate venation forms a network and is common in dicots; parallel venation is common in monocots.",
+              "keyPoints": "Venation"
+            },
+            {
+              "id": "c11-bot-5-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Phyllotaxy.",
+              "answer": "Alternate, opposite and whorled phyllotaxy describe the number and arrangement of leaves at a node.",
+              "keyPoints": "Phyllotaxy"
+            },
+            {
+              "id": "c11-bot-5-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Leaf modifications.",
+              "answer": "Leaves may form tendrils, spines, storage scales, insect traps or phyllodes according to function.",
+              "keyPoints": "Leaf modifications"
+            },
+            {
+              "id": "c11-bot-5-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Inflorescence?",
+              "answer": "In racemose inflorescence the axis continues to grow; in cymose inflorescence it ends in a flower.",
+              "keyPoints": "Inflorescence"
+            },
+            {
+              "id": "c11-bot-5-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Flower whorls.",
+              "answer": "A complete flower has calyx, corolla, androecium and gynoecium arranged on the thalamus.",
+              "keyPoints": "Flower whorls"
+            },
+            {
+              "id": "c11-bot-5-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Aestivation.",
+              "answer": "Aestivation is arrangement of sepals or petals in a bud: valvate, twisted, imbricate or vexillary.",
+              "keyPoints": "Aestivation"
+            },
+            {
+              "id": "c11-bot-5-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Androecium?",
+              "answer": "The androecium consists of stamens; cohesion and adhesion produce conditions such as monadelphous and epipetalous.",
+              "keyPoints": "Androecium"
+            },
+            {
+              "id": "c11-bot-5-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Gynoecium.",
+              "answer": "The gynoecium consists of one or more carpels, each usually differentiated into stigma, style and ovary.",
+              "keyPoints": "Gynoecium"
+            },
+            {
+              "id": "c11-bot-5-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Placentation.",
+              "answer": "Marginal, axile, parietal, free-central, basal and superficial placentation describe ovule arrangement within an ovary.",
+              "keyPoints": "Placentation"
+            },
+            {
+              "id": "c11-bot-5-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Fruit?",
+              "answer": "A fruit is a mature ovary; true fruits develop only from the ovary, while false fruits include accessory floral parts.",
+              "keyPoints": "Fruit"
+            },
+            {
+              "id": "c11-bot-5-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Seed.",
+              "answer": "A seed contains an embryo, reserve food and protective coat; albuminous seeds retain endosperm at maturity.",
+              "keyPoints": "Seed"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-5-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Root systems and Phyllotaxy.",
+              "answer": "• Root systems: Tap roots arise from the radicle, whereas fibrous roots form a cluster of similarly sized adventitious roots.\n• Phyllotaxy: Alternate, opposite and whorled phyllotaxy describe the number and arrangement of leaves at a node.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Root systems • Phyllotaxy • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Root modifications and Leaf modifications with their biological significance.",
+              "answer": "• Root modifications: Roots may store food, provide support, respire or absorb moisture; examples include carrot, banyan, Rhizophora and orchids.\n• Leaf modifications: Leaves may form tendrils, spines, storage scales, insect traps or phyllodes according to function.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Root modifications • Leaf modifications • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Stem modifications and Inflorescence.",
+              "answer": "• Stem modifications: Stems may become underground storage organs, climbing tendrils, defensive thorns or photosynthetic phylloclades.\n• Inflorescence: In racemose inflorescence the axis continues to grow; in cymose inflorescence it ends in a flower.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Stem modifications • Inflorescence • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Leaf parts and Flower whorls with their biological significance.",
+              "answer": "• Leaf parts: A typical leaf has leaf base, petiole and lamina; stipules may occur at the leaf base.\n• Flower whorls: A complete flower has calyx, corolla, androecium and gynoecium arranged on the thalamus.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Leaf parts • Flower whorls • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Venation and Aestivation.",
+              "answer": "• Venation: Reticulate venation forms a network and is common in dicots; parallel venation is common in monocots.\n• Aestivation: Aestivation is arrangement of sepals or petals in a bud: valvate, twisted, imbricate or vexillary.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Venation • Aestivation • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Phyllotaxy and Androecium with their biological significance.",
+              "answer": "• Phyllotaxy: Alternate, opposite and whorled phyllotaxy describe the number and arrangement of leaves at a node.\n• Androecium: The androecium consists of stamens; cohesion and adhesion produce conditions such as monadelphous and epipetalous.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Phyllotaxy • Androecium • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Leaf modifications and Gynoecium.",
+              "answer": "• Leaf modifications: Leaves may form tendrils, spines, storage scales, insect traps or phyllodes according to function.\n• Gynoecium: The gynoecium consists of one or more carpels, each usually differentiated into stigma, style and ovary.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Leaf modifications • Gynoecium • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Inflorescence and Placentation with their biological significance.",
+              "answer": "• Inflorescence: In racemose inflorescence the axis continues to grow; in cymose inflorescence it ends in a flower.\n• Placentation: Marginal, axile, parietal, free-central, basal and superficial placentation describe ovule arrangement within an ovary.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Inflorescence • Placentation • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Flower whorls and Fruit.",
+              "answer": "• Flower whorls: A complete flower has calyx, corolla, androecium and gynoecium arranged on the thalamus.\n• Fruit: A fruit is a mature ovary; true fruits develop only from the ovary, while false fruits include accessory floral parts.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Flower whorls • Fruit • definition • significance"
+            },
+            {
+              "id": "c11-bot-5-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Aestivation and Seed with their biological significance.",
+              "answer": "• Aestivation: Aestivation is arrangement of sepals or petals in a bud: valvate, twisted, imbricate or vexillary.\n• Seed: A seed contains an embryo, reserve food and protective coat; albuminous seeds retain endosperm at maturity.\n• Relationship: Both are central to morphology of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Aestivation • Seed • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-5-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Root systems, Root modifications, Stem modifications in the context of Morphology of Flowering Plants.",
+              "answer": "Introduction: Morphology of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Root systems: Tap roots arise from the radicle, whereas fibrous roots form a cluster of similarly sized adventitious roots.\n2. Root modifications: Roots may store food, provide support, respire or absorb moisture; examples include carrot, banyan, Rhizophora and orchids.\n3. Stem modifications: Stems may become underground storage organs, climbing tendrils, defensive thorns or photosynthetic phylloclades.\n4. Leaf parts: A typical leaf has leaf base, petiole and lamina; stipules may occur at the leaf base.\n5. Venation: Reticulate venation forms a network and is common in dicots; parallel venation is common in monocots.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Root systems • Root modifications • Stem modifications • Leaf parts • Venation",
+              "diagram": "assets/botany/flower-morphology.svg",
+              "diagramAlt": "Labelled study diagram for Morphology of Flowering Plants"
+            },
+            {
+              "id": "c11-bot-5-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Leaf parts, Venation, Phyllotaxy in the context of Morphology of Flowering Plants.",
+              "answer": "Introduction: Morphology of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Leaf parts: A typical leaf has leaf base, petiole and lamina; stipules may occur at the leaf base.\n2. Venation: Reticulate venation forms a network and is common in dicots; parallel venation is common in monocots.\n3. Phyllotaxy: Alternate, opposite and whorled phyllotaxy describe the number and arrangement of leaves at a node.\n4. Leaf modifications: Leaves may form tendrils, spines, storage scales, insect traps or phyllodes according to function.\n5. Inflorescence: In racemose inflorescence the axis continues to grow; in cymose inflorescence it ends in a flower.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Leaf parts • Venation • Phyllotaxy • Leaf modifications • Inflorescence",
+              "diagram": "assets/botany/flower-morphology.svg",
+              "diagramAlt": "Labelled study diagram for Morphology of Flowering Plants"
+            },
+            {
+              "id": "c11-bot-5-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Leaf modifications, Inflorescence, Flower whorls in the context of Morphology of Flowering Plants.",
+              "answer": "Introduction: Morphology of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Leaf modifications: Leaves may form tendrils, spines, storage scales, insect traps or phyllodes according to function.\n2. Inflorescence: In racemose inflorescence the axis continues to grow; in cymose inflorescence it ends in a flower.\n3. Flower whorls: A complete flower has calyx, corolla, androecium and gynoecium arranged on the thalamus.\n4. Aestivation: Aestivation is arrangement of sepals or petals in a bud: valvate, twisted, imbricate or vexillary.\n5. Androecium: The androecium consists of stamens; cohesion and adhesion produce conditions such as monadelphous and epipetalous.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Leaf modifications • Inflorescence • Flower whorls • Aestivation • Androecium"
+            },
+            {
+              "id": "c11-bot-5-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Aestivation, Androecium, Gynoecium in the context of Morphology of Flowering Plants.",
+              "answer": "Introduction: Morphology of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Aestivation: Aestivation is arrangement of sepals or petals in a bud: valvate, twisted, imbricate or vexillary.\n2. Androecium: The androecium consists of stamens; cohesion and adhesion produce conditions such as monadelphous and epipetalous.\n3. Gynoecium: The gynoecium consists of one or more carpels, each usually differentiated into stigma, style and ovary.\n4. Placentation: Marginal, axile, parietal, free-central, basal and superficial placentation describe ovule arrangement within an ovary.\n5. Fruit: A fruit is a mature ovary; true fruits develop only from the ovary, while false fruits include accessory floral parts.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Aestivation • Androecium • Gynoecium • Placentation • Fruit"
+            },
+            {
+              "id": "c11-bot-5-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Placentation, Fruit, Seed in the context of Morphology of Flowering Plants.",
+              "answer": "Introduction: Morphology of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Placentation: Marginal, axile, parietal, free-central, basal and superficial placentation describe ovule arrangement within an ovary.\n2. Fruit: A fruit is a mature ovary; true fruits develop only from the ovary, while false fruits include accessory floral parts.\n3. Seed: A seed contains an embryo, reserve food and protective coat; albuminous seeds retain endosperm at maturity.\n4. Root systems: Tap roots arise from the radicle, whereas fibrous roots form a cluster of similarly sized adventitious roots.\n5. Root modifications: Roots may store food, provide support, respire or absorb moisture; examples include carrot, banyan, Rhizophora and orchids.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Placentation • Fruit • Seed • Root systems • Root modifications"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-06",
           "number": 6,
           "name": "Modes of Reproduction",
-          "topics": [],
+          "topics": [
+            "Reproduction",
+            "Vegetative reproduction",
+            "Fission",
+            "Budding",
+            "Fragmentation",
+            "Sporulation",
+            "Natural root propagation",
+            "Natural stem propagation",
+            "Natural leaf propagation",
+            "Cutting",
+            "Layering",
+            "Grafting",
+            "Micropropagation",
+            "Sexual reproduction",
+            "Life-cycle phases"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-6-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Reproduction.",
+              "answer": "Reproduction is the biological process by which organisms produce new individuals and maintain continuity of a species.",
+              "keyPoints": "Reproduction"
+            },
+            {
+              "id": "c11-bot-6-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Vegetative reproduction?",
+              "answer": "Vegetative reproduction forms new plants from roots, stems or leaves without gamete fusion.",
+              "keyPoints": "Vegetative reproduction"
+            },
+            {
+              "id": "c11-bot-6-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Fission.",
+              "answer": "In binary fission one parent cell divides into two; in multiple fission it produces many daughter cells.",
+              "keyPoints": "Fission"
+            },
+            {
+              "id": "c11-bot-6-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Budding.",
+              "answer": "A small outgrowth develops on the parent and separates after maturation, as in yeast.",
+              "keyPoints": "Budding"
+            },
+            {
+              "id": "c11-bot-6-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Fragmentation?",
+              "answer": "The parent body breaks into fragments and each fragment grows into a new individual, as in Spirogyra.",
+              "keyPoints": "Fragmentation"
+            },
+            {
+              "id": "c11-bot-6-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Sporulation.",
+              "answer": "Specialised spores disperse and germinate under favourable conditions to form new organisms.",
+              "keyPoints": "Sporulation"
+            },
+            {
+              "id": "c11-bot-6-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Natural root propagation.",
+              "answer": "Adventitious buds on storage roots can form new plants, as in sweet potato and Dahlia.",
+              "keyPoints": "Natural root propagation"
+            },
+            {
+              "id": "c11-bot-6-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Natural stem propagation?",
+              "answer": "Rhizomes, tubers, bulbs, corms, runners, stolons, suckers and offsets naturally propagate plants.",
+              "keyPoints": "Natural stem propagation"
+            },
+            {
+              "id": "c11-bot-6-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Natural leaf propagation.",
+              "answer": "Epiphyllous buds along Bryophyllum leaf margins develop into plantlets.",
+              "keyPoints": "Natural leaf propagation"
+            },
+            {
+              "id": "c11-bot-6-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Cutting.",
+              "answer": "A detached stem, root or leaf piece is planted and induced to form roots and shoots.",
+              "keyPoints": "Cutting"
+            },
+            {
+              "id": "c11-bot-6-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Layering?",
+              "answer": "A branch forms roots while still attached to the parent and is then separated for planting.",
+              "keyPoints": "Layering"
+            },
+            {
+              "id": "c11-bot-6-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Grafting.",
+              "answer": "A scion is joined to a rooted stock so their cambia unite and grow as one plant.",
+              "keyPoints": "Grafting"
+            },
+            {
+              "id": "c11-bot-6-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Micropropagation.",
+              "answer": "Tissue culture rapidly multiplies disease-free, genetically similar plantlets from a small explant under sterile conditions.",
+              "keyPoints": "Micropropagation"
+            },
+            {
+              "id": "c11-bot-6-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Sexual reproduction?",
+              "answer": "Sexual reproduction involves meiosis, formation of male and female gametes, fertilisation and development of a genetically variable offspring.",
+              "keyPoints": "Sexual reproduction"
+            },
+            {
+              "id": "c11-bot-6-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Life-cycle phases.",
+              "answer": "Juvenile or vegetative, reproductive and senescent phases occur sequentially in the life cycle of a flowering plant.",
+              "keyPoints": "Life-cycle phases"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-6-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Reproduction and Sporulation.",
+              "answer": "• Reproduction: Reproduction is the biological process by which organisms produce new individuals and maintain continuity of a species.\n• Sporulation: Specialised spores disperse and germinate under favourable conditions to form new organisms.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Reproduction • Sporulation • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Vegetative reproduction and Natural root propagation with their biological significance.",
+              "answer": "• Vegetative reproduction: Vegetative reproduction forms new plants from roots, stems or leaves without gamete fusion.\n• Natural root propagation: Adventitious buds on storage roots can form new plants, as in sweet potato and Dahlia.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Vegetative reproduction • Natural root propagation • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Fission and Natural stem propagation.",
+              "answer": "• Fission: In binary fission one parent cell divides into two; in multiple fission it produces many daughter cells.\n• Natural stem propagation: Rhizomes, tubers, bulbs, corms, runners, stolons, suckers and offsets naturally propagate plants.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Fission • Natural stem propagation • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Budding and Natural leaf propagation with their biological significance.",
+              "answer": "• Budding: A small outgrowth develops on the parent and separates after maturation, as in yeast.\n• Natural leaf propagation: Epiphyllous buds along Bryophyllum leaf margins develop into plantlets.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Budding • Natural leaf propagation • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Fragmentation and Cutting.",
+              "answer": "• Fragmentation: The parent body breaks into fragments and each fragment grows into a new individual, as in Spirogyra.\n• Cutting: A detached stem, root or leaf piece is planted and induced to form roots and shoots.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Fragmentation • Cutting • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Sporulation and Layering with their biological significance.",
+              "answer": "• Sporulation: Specialised spores disperse and germinate under favourable conditions to form new organisms.\n• Layering: A branch forms roots while still attached to the parent and is then separated for planting.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Sporulation • Layering • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Natural root propagation and Grafting.",
+              "answer": "• Natural root propagation: Adventitious buds on storage roots can form new plants, as in sweet potato and Dahlia.\n• Grafting: A scion is joined to a rooted stock so their cambia unite and grow as one plant.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Natural root propagation • Grafting • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Natural stem propagation and Micropropagation with their biological significance.",
+              "answer": "• Natural stem propagation: Rhizomes, tubers, bulbs, corms, runners, stolons, suckers and offsets naturally propagate plants.\n• Micropropagation: Tissue culture rapidly multiplies disease-free, genetically similar plantlets from a small explant under sterile conditions.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Natural stem propagation • Micropropagation • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Natural leaf propagation and Sexual reproduction.",
+              "answer": "• Natural leaf propagation: Epiphyllous buds along Bryophyllum leaf margins develop into plantlets.\n• Sexual reproduction: Sexual reproduction involves meiosis, formation of male and female gametes, fertilisation and development of a genetically variable offspring.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Natural leaf propagation • Sexual reproduction • definition • significance"
+            },
+            {
+              "id": "c11-bot-6-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Cutting and Life-cycle phases with their biological significance.",
+              "answer": "• Cutting: A detached stem, root or leaf piece is planted and induced to form roots and shoots.\n• Life-cycle phases: Juvenile or vegetative, reproductive and senescent phases occur sequentially in the life cycle of a flowering plant.\n• Relationship: Both are central to modes of reproduction, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cutting • Life-cycle phases • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-6-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Reproduction, Vegetative reproduction, Fission in the context of Modes of Reproduction.",
+              "answer": "Introduction: Modes of Reproduction is best understood by connecting structure, process and significance.\n\n1. Reproduction: Reproduction is the biological process by which organisms produce new individuals and maintain continuity of a species.\n2. Vegetative reproduction: Vegetative reproduction forms new plants from roots, stems or leaves without gamete fusion.\n3. Fission: In binary fission one parent cell divides into two; in multiple fission it produces many daughter cells.\n4. Budding: A small outgrowth develops on the parent and separates after maturation, as in yeast.\n5. Fragmentation: The parent body breaks into fragments and each fragment grows into a new individual, as in Spirogyra.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Reproduction • Vegetative reproduction • Fission • Budding • Fragmentation"
+            },
+            {
+              "id": "c11-bot-6-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Budding, Fragmentation, Sporulation in the context of Modes of Reproduction.",
+              "answer": "Introduction: Modes of Reproduction is best understood by connecting structure, process and significance.\n\n1. Budding: A small outgrowth develops on the parent and separates after maturation, as in yeast.\n2. Fragmentation: The parent body breaks into fragments and each fragment grows into a new individual, as in Spirogyra.\n3. Sporulation: Specialised spores disperse and germinate under favourable conditions to form new organisms.\n4. Natural root propagation: Adventitious buds on storage roots can form new plants, as in sweet potato and Dahlia.\n5. Natural stem propagation: Rhizomes, tubers, bulbs, corms, runners, stolons, suckers and offsets naturally propagate plants.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Budding • Fragmentation • Sporulation • Natural root propagation • Natural stem propagation"
+            },
+            {
+              "id": "c11-bot-6-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Natural root propagation, Natural stem propagation, Natural leaf propagation in the context of Modes of Reproduction.",
+              "answer": "Introduction: Modes of Reproduction is best understood by connecting structure, process and significance.\n\n1. Natural root propagation: Adventitious buds on storage roots can form new plants, as in sweet potato and Dahlia.\n2. Natural stem propagation: Rhizomes, tubers, bulbs, corms, runners, stolons, suckers and offsets naturally propagate plants.\n3. Natural leaf propagation: Epiphyllous buds along Bryophyllum leaf margins develop into plantlets.\n4. Cutting: A detached stem, root or leaf piece is planted and induced to form roots and shoots.\n5. Layering: A branch forms roots while still attached to the parent and is then separated for planting.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Natural root propagation • Natural stem propagation • Natural leaf propagation • Cutting • Layering"
+            },
+            {
+              "id": "c11-bot-6-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Cutting, Layering, Grafting in the context of Modes of Reproduction.",
+              "answer": "Introduction: Modes of Reproduction is best understood by connecting structure, process and significance.\n\n1. Cutting: A detached stem, root or leaf piece is planted and induced to form roots and shoots.\n2. Layering: A branch forms roots while still attached to the parent and is then separated for planting.\n3. Grafting: A scion is joined to a rooted stock so their cambia unite and grow as one plant.\n4. Micropropagation: Tissue culture rapidly multiplies disease-free, genetically similar plantlets from a small explant under sterile conditions.\n5. Sexual reproduction: Sexual reproduction involves meiosis, formation of male and female gametes, fertilisation and development of a genetically variable offspring.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Cutting • Layering • Grafting • Micropropagation • Sexual reproduction"
+            },
+            {
+              "id": "c11-bot-6-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Micropropagation, Sexual reproduction, Life-cycle phases in the context of Modes of Reproduction.",
+              "answer": "Introduction: Modes of Reproduction is best understood by connecting structure, process and significance.\n\n1. Micropropagation: Tissue culture rapidly multiplies disease-free, genetically similar plantlets from a small explant under sterile conditions.\n2. Sexual reproduction: Sexual reproduction involves meiosis, formation of male and female gametes, fertilisation and development of a genetically variable offspring.\n3. Life-cycle phases: Juvenile or vegetative, reproductive and senescent phases occur sequentially in the life cycle of a flowering plant.\n4. Reproduction: Reproduction is the biological process by which organisms produce new individuals and maintain continuity of a species.\n5. Vegetative reproduction: Vegetative reproduction forms new plants from roots, stems or leaves without gamete fusion.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Micropropagation • Sexual reproduction • Life-cycle phases • Reproduction • Vegetative reproduction"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-07",
           "number": 7,
           "name": "Sexual Reproduction in Flowering Plants",
-          "topics": [],
+          "topics": [
+            "Stamen and anther",
+            "Microsporangium wall",
+            "Microsporogenesis",
+            "Pollen grain",
+            "Ovule",
+            "Megasporogenesis",
+            "Embryo sac",
+            "Pollination",
+            "Outbreeding devices",
+            "Pollen-pistil interaction",
+            "Double fertilisation",
+            "Endosperm",
+            "Embryo",
+            "Seed and fruit formation",
+            "Apomixis and polyembryony"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-7-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Stamen and anther.",
+              "answer": "A typical stamen has a filament and bilobed, dithecous anther containing four microsporangia.",
+              "keyPoints": "Stamen and anther"
+            },
+            {
+              "id": "c11-bot-7-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Microsporangium wall?",
+              "answer": "The anther wall comprises epidermis, endothecium, middle layers and nutritive tapetum around sporogenous tissue.",
+              "keyPoints": "Microsporangium wall"
+            },
+            {
+              "id": "c11-bot-7-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Microsporogenesis.",
+              "answer": "Microspore mother cells undergo meiosis to form haploid microspore tetrads that separate into pollen grains.",
+              "keyPoints": "Microsporogenesis"
+            },
+            {
+              "id": "c11-bot-7-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Pollen grain.",
+              "answer": "A pollen grain has resistant sporopollenin exine and pecto-cellulosic intine; germ pores lack sporopollenin.",
+              "keyPoints": "Pollen grain"
+            },
+            {
+              "id": "c11-bot-7-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Ovule?",
+              "answer": "A typical anatropous ovule has funicle, hilum, raphe, integuments, micropyle, chalaza and nucellus.",
+              "keyPoints": "Ovule"
+            },
+            {
+              "id": "c11-bot-7-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Megasporogenesis.",
+              "answer": "A megaspore mother cell undergoes meiosis to produce four megaspores, usually only one of which remains functional.",
+              "keyPoints": "Megasporogenesis"
+            },
+            {
+              "id": "c11-bot-7-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Embryo sac.",
+              "answer": "The common Polygonum-type embryo sac is seven-celled and eight-nucleate, with egg apparatus, three antipodals and a central cell.",
+              "keyPoints": "Embryo sac"
+            },
+            {
+              "id": "c11-bot-7-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Pollination?",
+              "answer": "Pollination transfers pollen from anther to stigma and may be autogamy, geitonogamy or xenogamy.",
+              "keyPoints": "Pollination"
+            },
+            {
+              "id": "c11-bot-7-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Outbreeding devices.",
+              "answer": "Dichogamy, herkogamy, self-incompatibility and unisexuality reduce self-pollination and promote genetic variation.",
+              "keyPoints": "Outbreeding devices"
+            },
+            {
+              "id": "c11-bot-7-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Pollen-pistil interaction.",
+              "answer": "The pistil recognises compatible pollen, permits germination and guides the pollen tube to the ovule.",
+              "keyPoints": "Pollen-pistil interaction"
+            },
+            {
+              "id": "c11-bot-7-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Double fertilisation?",
+              "answer": "One male gamete forms the diploid zygote; the other fuses with two polar nuclei to form triploid primary endosperm nucleus.",
+              "keyPoints": "Double fertilisation"
+            },
+            {
+              "id": "c11-bot-7-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Endosperm.",
+              "answer": "Endosperm develops before the embryo and nourishes it; development may be nuclear, cellular or helobial.",
+              "keyPoints": "Endosperm"
+            },
+            {
+              "id": "c11-bot-7-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Embryo.",
+              "answer": "A dicot embryo has two cotyledons and an embryonal axis with plumule and radicle; a monocot embryo has one scutellum.",
+              "keyPoints": "Embryo"
+            },
+            {
+              "id": "c11-bot-7-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Seed and fruit formation?",
+              "answer": "After fertilisation the ovule becomes a seed, integuments become seed coats and the ovary generally becomes a fruit.",
+              "keyPoints": "Seed and fruit formation"
+            },
+            {
+              "id": "c11-bot-7-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Apomixis and polyembryony.",
+              "answer": "Apomixis forms seed without fertilisation; polyembryony is occurrence of more than one embryo in a seed.",
+              "keyPoints": "Apomixis and polyembryony"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-7-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Stamen and anther and Megasporogenesis.",
+              "answer": "• Stamen and anther: A typical stamen has a filament and bilobed, dithecous anther containing four microsporangia.\n• Megasporogenesis: A megaspore mother cell undergoes meiosis to produce four megaspores, usually only one of which remains functional.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Stamen and anther • Megasporogenesis • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Microsporangium wall and Embryo sac with their biological significance.",
+              "answer": "• Microsporangium wall: The anther wall comprises epidermis, endothecium, middle layers and nutritive tapetum around sporogenous tissue.\n• Embryo sac: The common Polygonum-type embryo sac is seven-celled and eight-nucleate, with egg apparatus, three antipodals and a central cell.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Microsporangium wall • Embryo sac • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Microsporogenesis and Pollination.",
+              "answer": "• Microsporogenesis: Microspore mother cells undergo meiosis to form haploid microspore tetrads that separate into pollen grains.\n• Pollination: Pollination transfers pollen from anther to stigma and may be autogamy, geitonogamy or xenogamy.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Microsporogenesis • Pollination • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Pollen grain and Outbreeding devices with their biological significance.",
+              "answer": "• Pollen grain: A pollen grain has resistant sporopollenin exine and pecto-cellulosic intine; germ pores lack sporopollenin.\n• Outbreeding devices: Dichogamy, herkogamy, self-incompatibility and unisexuality reduce self-pollination and promote genetic variation.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Pollen grain • Outbreeding devices • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ovule and Pollen-pistil interaction.",
+              "answer": "• Ovule: A typical anatropous ovule has funicle, hilum, raphe, integuments, micropyle, chalaza and nucellus.\n• Pollen-pistil interaction: The pistil recognises compatible pollen, permits germination and guides the pollen tube to the ovule.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Ovule • Pollen-pistil interaction • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Megasporogenesis and Double fertilisation with their biological significance.",
+              "answer": "• Megasporogenesis: A megaspore mother cell undergoes meiosis to produce four megaspores, usually only one of which remains functional.\n• Double fertilisation: One male gamete forms the diploid zygote; the other fuses with two polar nuclei to form triploid primary endosperm nucleus.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Megasporogenesis • Double fertilisation • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Embryo sac and Endosperm.",
+              "answer": "• Embryo sac: The common Polygonum-type embryo sac is seven-celled and eight-nucleate, with egg apparatus, three antipodals and a central cell.\n• Endosperm: Endosperm develops before the embryo and nourishes it; development may be nuclear, cellular or helobial.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Embryo sac • Endosperm • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Pollination and Embryo with their biological significance.",
+              "answer": "• Pollination: Pollination transfers pollen from anther to stigma and may be autogamy, geitonogamy or xenogamy.\n• Embryo: A dicot embryo has two cotyledons and an embryonal axis with plumule and radicle; a monocot embryo has one scutellum.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Pollination • Embryo • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Outbreeding devices and Seed and fruit formation.",
+              "answer": "• Outbreeding devices: Dichogamy, herkogamy, self-incompatibility and unisexuality reduce self-pollination and promote genetic variation.\n• Seed and fruit formation: After fertilisation the ovule becomes a seed, integuments become seed coats and the ovary generally becomes a fruit.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Outbreeding devices • Seed and fruit formation • definition • significance"
+            },
+            {
+              "id": "c11-bot-7-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Pollen-pistil interaction and Apomixis and polyembryony with their biological significance.",
+              "answer": "• Pollen-pistil interaction: The pistil recognises compatible pollen, permits germination and guides the pollen tube to the ovule.\n• Apomixis and polyembryony: Apomixis forms seed without fertilisation; polyembryony is occurrence of more than one embryo in a seed.\n• Relationship: Both are central to sexual reproduction in flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Pollen-pistil interaction • Apomixis and polyembryony • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-7-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Stamen and anther, Microsporangium wall, Microsporogenesis in the context of Sexual Reproduction in Flowering Plants.",
+              "answer": "Introduction: Sexual Reproduction in Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Stamen and anther: A typical stamen has a filament and bilobed, dithecous anther containing four microsporangia.\n2. Microsporangium wall: The anther wall comprises epidermis, endothecium, middle layers and nutritive tapetum around sporogenous tissue.\n3. Microsporogenesis: Microspore mother cells undergo meiosis to form haploid microspore tetrads that separate into pollen grains.\n4. Pollen grain: A pollen grain has resistant sporopollenin exine and pecto-cellulosic intine; germ pores lack sporopollenin.\n5. Ovule: A typical anatropous ovule has funicle, hilum, raphe, integuments, micropyle, chalaza and nucellus.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Stamen and anther • Microsporangium wall • Microsporogenesis • Pollen grain • Ovule",
+              "diagram": "assets/botany/double-fertilisation.svg",
+              "diagramAlt": "Labelled study diagram for Sexual Reproduction in Flowering Plants"
+            },
+            {
+              "id": "c11-bot-7-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Pollen grain, Ovule, Megasporogenesis in the context of Sexual Reproduction in Flowering Plants.",
+              "answer": "Introduction: Sexual Reproduction in Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Pollen grain: A pollen grain has resistant sporopollenin exine and pecto-cellulosic intine; germ pores lack sporopollenin.\n2. Ovule: A typical anatropous ovule has funicle, hilum, raphe, integuments, micropyle, chalaza and nucellus.\n3. Megasporogenesis: A megaspore mother cell undergoes meiosis to produce four megaspores, usually only one of which remains functional.\n4. Embryo sac: The common Polygonum-type embryo sac is seven-celled and eight-nucleate, with egg apparatus, three antipodals and a central cell.\n5. Pollination: Pollination transfers pollen from anther to stigma and may be autogamy, geitonogamy or xenogamy.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Pollen grain • Ovule • Megasporogenesis • Embryo sac • Pollination",
+              "diagram": "assets/botany/double-fertilisation.svg",
+              "diagramAlt": "Labelled study diagram for Sexual Reproduction in Flowering Plants"
+            },
+            {
+              "id": "c11-bot-7-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Embryo sac, Pollination, Outbreeding devices in the context of Sexual Reproduction in Flowering Plants.",
+              "answer": "Introduction: Sexual Reproduction in Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Embryo sac: The common Polygonum-type embryo sac is seven-celled and eight-nucleate, with egg apparatus, three antipodals and a central cell.\n2. Pollination: Pollination transfers pollen from anther to stigma and may be autogamy, geitonogamy or xenogamy.\n3. Outbreeding devices: Dichogamy, herkogamy, self-incompatibility and unisexuality reduce self-pollination and promote genetic variation.\n4. Pollen-pistil interaction: The pistil recognises compatible pollen, permits germination and guides the pollen tube to the ovule.\n5. Double fertilisation: One male gamete forms the diploid zygote; the other fuses with two polar nuclei to form triploid primary endosperm nucleus.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Embryo sac • Pollination • Outbreeding devices • Pollen-pistil interaction • Double fertilisation"
+            },
+            {
+              "id": "c11-bot-7-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Pollen-pistil interaction, Double fertilisation, Endosperm in the context of Sexual Reproduction in Flowering Plants.",
+              "answer": "Introduction: Sexual Reproduction in Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Pollen-pistil interaction: The pistil recognises compatible pollen, permits germination and guides the pollen tube to the ovule.\n2. Double fertilisation: One male gamete forms the diploid zygote; the other fuses with two polar nuclei to form triploid primary endosperm nucleus.\n3. Endosperm: Endosperm develops before the embryo and nourishes it; development may be nuclear, cellular or helobial.\n4. Embryo: A dicot embryo has two cotyledons and an embryonal axis with plumule and radicle; a monocot embryo has one scutellum.\n5. Seed and fruit formation: After fertilisation the ovule becomes a seed, integuments become seed coats and the ovary generally becomes a fruit.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Pollen-pistil interaction • Double fertilisation • Endosperm • Embryo • Seed and fruit formation"
+            },
+            {
+              "id": "c11-bot-7-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Embryo, Seed and fruit formation, Apomixis and polyembryony in the context of Sexual Reproduction in Flowering Plants.",
+              "answer": "Introduction: Sexual Reproduction in Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Embryo: A dicot embryo has two cotyledons and an embryonal axis with plumule and radicle; a monocot embryo has one scutellum.\n2. Seed and fruit formation: After fertilisation the ovule becomes a seed, integuments become seed coats and the ovary generally becomes a fruit.\n3. Apomixis and polyembryony: Apomixis forms seed without fertilisation; polyembryony is occurrence of more than one embryo in a seed.\n4. Stamen and anther: A typical stamen has a filament and bilobed, dithecous anther containing four microsporangia.\n5. Microsporangium wall: The anther wall comprises epidermis, endothecium, middle layers and nutritive tapetum around sporogenous tissue.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Embryo • Seed and fruit formation • Apomixis and polyembryony • Stamen and anther • Microsporangium wall"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-08",
           "number": 8,
           "name": "Taxonomy of Angiosperms",
-          "topics": [],
+          "topics": [
+            "Artificial classification",
+            "Natural classification",
+            "Phylogenetic classification",
+            "Numerical taxonomy",
+            "Cytotaxonomy",
+            "Chemotaxonomy",
+            "Taxonomic description",
+            "Floral formula",
+            "Floral diagram",
+            "Fabaceae habit",
+            "Fabaceae flower",
+            "Solanaceae habit",
+            "Solanaceae flower",
+            "Liliaceae habit",
+            "Liliaceae flower"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-8-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Artificial classification.",
+              "answer": "Artificial systems use a few convenient characters and may group unrelated plants together.",
+              "keyPoints": "Artificial classification"
+            },
+            {
+              "id": "c11-bot-8-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Natural classification?",
+              "answer": "Natural systems use many characters and reflect overall similarities and natural affinities.",
+              "keyPoints": "Natural classification"
+            },
+            {
+              "id": "c11-bot-8-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Phylogenetic classification.",
+              "answer": "Phylogenetic systems arrange taxa according to common ancestry and evolutionary relationships.",
+              "keyPoints": "Phylogenetic classification"
+            },
+            {
+              "id": "c11-bot-8-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Numerical taxonomy.",
+              "answer": "Numerical taxonomy codes many characters and uses computers to measure overall similarity objectively.",
+              "keyPoints": "Numerical taxonomy"
+            },
+            {
+              "id": "c11-bot-8-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Cytotaxonomy?",
+              "answer": "Cytotaxonomy uses chromosome number, structure and behaviour as taxonomic evidence.",
+              "keyPoints": "Cytotaxonomy"
+            },
+            {
+              "id": "c11-bot-8-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Chemotaxonomy.",
+              "answer": "Chemotaxonomy uses characteristic proteins, pigments and secondary metabolites to establish relationships.",
+              "keyPoints": "Chemotaxonomy"
+            },
+            {
+              "id": "c11-bot-8-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Taxonomic description.",
+              "answer": "A plant is described systematically by habit, vegetative characters, inflorescence, floral whorls, fruit and seed.",
+              "keyPoints": "Taxonomic description"
+            },
+            {
+              "id": "c11-bot-8-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Floral formula?",
+              "answer": "A floral formula expresses symmetry, sexuality, number, fusion, adhesion and ovary position with standard symbols.",
+              "keyPoints": "Floral formula"
+            },
+            {
+              "id": "c11-bot-8-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Floral diagram.",
+              "answer": "A floral diagram is a top-view plan showing relative number, position and union of floral parts.",
+              "keyPoints": "Floral diagram"
+            },
+            {
+              "id": "c11-bot-8-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Fabaceae habit.",
+              "answer": "Fabaceae includes herbs, shrubs or trees with alternate, usually compound stipulate leaves and root nodules.",
+              "keyPoints": "Fabaceae habit"
+            },
+            {
+              "id": "c11-bot-8-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Fabaceae flower?",
+              "answer": "The flower is bisexual, zygomorphic and papilionaceous, commonly with diadelphous stamens, superior monocarpellary ovary and legume fruit.",
+              "keyPoints": "Fabaceae flower"
+            },
+            {
+              "id": "c11-bot-8-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Solanaceae habit.",
+              "answer": "Solanaceae plants are mostly herbs or shrubs with alternate simple leaves and often cymose inflorescences.",
+              "keyPoints": "Solanaceae habit"
+            },
+            {
+              "id": "c11-bot-8-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Solanaceae flower.",
+              "answer": "The flower is bisexual, actinomorphic and pentamerous, with epipetalous stamens, bicarpellary superior ovary and axile placentation.",
+              "keyPoints": "Solanaceae flower"
+            },
+            {
+              "id": "c11-bot-8-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Liliaceae habit?",
+              "answer": "Liliaceae plants are perennial monocot herbs with bulbs or rhizomes, fibrous roots and parallel-veined leaves.",
+              "keyPoints": "Liliaceae habit"
+            },
+            {
+              "id": "c11-bot-8-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Liliaceae flower.",
+              "answer": "The flower is actinomorphic and trimerous, with six tepals, six epiphyllous stamens and a tricarpellary superior ovary.",
+              "keyPoints": "Liliaceae flower"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-8-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Artificial classification and Chemotaxonomy.",
+              "answer": "• Artificial classification: Artificial systems use a few convenient characters and may group unrelated plants together.\n• Chemotaxonomy: Chemotaxonomy uses characteristic proteins, pigments and secondary metabolites to establish relationships.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Artificial classification • Chemotaxonomy • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Natural classification and Taxonomic description with their biological significance.",
+              "answer": "• Natural classification: Natural systems use many characters and reflect overall similarities and natural affinities.\n• Taxonomic description: A plant is described systematically by habit, vegetative characters, inflorescence, floral whorls, fruit and seed.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Natural classification • Taxonomic description • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Phylogenetic classification and Floral formula.",
+              "answer": "• Phylogenetic classification: Phylogenetic systems arrange taxa according to common ancestry and evolutionary relationships.\n• Floral formula: A floral formula expresses symmetry, sexuality, number, fusion, adhesion and ovary position with standard symbols.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Phylogenetic classification • Floral formula • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Numerical taxonomy and Floral diagram with their biological significance.",
+              "answer": "• Numerical taxonomy: Numerical taxonomy codes many characters and uses computers to measure overall similarity objectively.\n• Floral diagram: A floral diagram is a top-view plan showing relative number, position and union of floral parts.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Numerical taxonomy • Floral diagram • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cytotaxonomy and Fabaceae habit.",
+              "answer": "• Cytotaxonomy: Cytotaxonomy uses chromosome number, structure and behaviour as taxonomic evidence.\n• Fabaceae habit: Fabaceae includes herbs, shrubs or trees with alternate, usually compound stipulate leaves and root nodules.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cytotaxonomy • Fabaceae habit • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Chemotaxonomy and Fabaceae flower with their biological significance.",
+              "answer": "• Chemotaxonomy: Chemotaxonomy uses characteristic proteins, pigments and secondary metabolites to establish relationships.\n• Fabaceae flower: The flower is bisexual, zygomorphic and papilionaceous, commonly with diadelphous stamens, superior monocarpellary ovary and legume fruit.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Chemotaxonomy • Fabaceae flower • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Taxonomic description and Solanaceae habit.",
+              "answer": "• Taxonomic description: A plant is described systematically by habit, vegetative characters, inflorescence, floral whorls, fruit and seed.\n• Solanaceae habit: Solanaceae plants are mostly herbs or shrubs with alternate simple leaves and often cymose inflorescences.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Taxonomic description • Solanaceae habit • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Floral formula and Solanaceae flower with their biological significance.",
+              "answer": "• Floral formula: A floral formula expresses symmetry, sexuality, number, fusion, adhesion and ovary position with standard symbols.\n• Solanaceae flower: The flower is bisexual, actinomorphic and pentamerous, with epipetalous stamens, bicarpellary superior ovary and axile placentation.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Floral formula • Solanaceae flower • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Floral diagram and Liliaceae habit.",
+              "answer": "• Floral diagram: A floral diagram is a top-view plan showing relative number, position and union of floral parts.\n• Liliaceae habit: Liliaceae plants are perennial monocot herbs with bulbs or rhizomes, fibrous roots and parallel-veined leaves.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Floral diagram • Liliaceae habit • definition • significance"
+            },
+            {
+              "id": "c11-bot-8-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Fabaceae habit and Liliaceae flower with their biological significance.",
+              "answer": "• Fabaceae habit: Fabaceae includes herbs, shrubs or trees with alternate, usually compound stipulate leaves and root nodules.\n• Liliaceae flower: The flower is actinomorphic and trimerous, with six tepals, six epiphyllous stamens and a tricarpellary superior ovary.\n• Relationship: Both are central to taxonomy of angiosperms, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Fabaceae habit • Liliaceae flower • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-8-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Artificial classification, Natural classification, Phylogenetic classification in the context of Taxonomy of Angiosperms.",
+              "answer": "Introduction: Taxonomy of Angiosperms is best understood by connecting structure, process and significance.\n\n1. Artificial classification: Artificial systems use a few convenient characters and may group unrelated plants together.\n2. Natural classification: Natural systems use many characters and reflect overall similarities and natural affinities.\n3. Phylogenetic classification: Phylogenetic systems arrange taxa according to common ancestry and evolutionary relationships.\n4. Numerical taxonomy: Numerical taxonomy codes many characters and uses computers to measure overall similarity objectively.\n5. Cytotaxonomy: Cytotaxonomy uses chromosome number, structure and behaviour as taxonomic evidence.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Artificial classification • Natural classification • Phylogenetic classification • Numerical taxonomy • Cytotaxonomy",
+              "diagram": "assets/botany/floral-families.svg",
+              "diagramAlt": "Labelled study diagram for Taxonomy of Angiosperms"
+            },
+            {
+              "id": "c11-bot-8-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Numerical taxonomy, Cytotaxonomy, Chemotaxonomy in the context of Taxonomy of Angiosperms.",
+              "answer": "Introduction: Taxonomy of Angiosperms is best understood by connecting structure, process and significance.\n\n1. Numerical taxonomy: Numerical taxonomy codes many characters and uses computers to measure overall similarity objectively.\n2. Cytotaxonomy: Cytotaxonomy uses chromosome number, structure and behaviour as taxonomic evidence.\n3. Chemotaxonomy: Chemotaxonomy uses characteristic proteins, pigments and secondary metabolites to establish relationships.\n4. Taxonomic description: A plant is described systematically by habit, vegetative characters, inflorescence, floral whorls, fruit and seed.\n5. Floral formula: A floral formula expresses symmetry, sexuality, number, fusion, adhesion and ovary position with standard symbols.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Numerical taxonomy • Cytotaxonomy • Chemotaxonomy • Taxonomic description • Floral formula",
+              "diagram": "assets/botany/floral-families.svg",
+              "diagramAlt": "Labelled study diagram for Taxonomy of Angiosperms"
+            },
+            {
+              "id": "c11-bot-8-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Taxonomic description, Floral formula, Floral diagram in the context of Taxonomy of Angiosperms.",
+              "answer": "Introduction: Taxonomy of Angiosperms is best understood by connecting structure, process and significance.\n\n1. Taxonomic description: A plant is described systematically by habit, vegetative characters, inflorescence, floral whorls, fruit and seed.\n2. Floral formula: A floral formula expresses symmetry, sexuality, number, fusion, adhesion and ovary position with standard symbols.\n3. Floral diagram: A floral diagram is a top-view plan showing relative number, position and union of floral parts.\n4. Fabaceae habit: Fabaceae includes herbs, shrubs or trees with alternate, usually compound stipulate leaves and root nodules.\n5. Fabaceae flower: The flower is bisexual, zygomorphic and papilionaceous, commonly with diadelphous stamens, superior monocarpellary ovary and legume fruit.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Taxonomic description • Floral formula • Floral diagram • Fabaceae habit • Fabaceae flower"
+            },
+            {
+              "id": "c11-bot-8-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Fabaceae habit, Fabaceae flower, Solanaceae habit in the context of Taxonomy of Angiosperms.",
+              "answer": "Introduction: Taxonomy of Angiosperms is best understood by connecting structure, process and significance.\n\n1. Fabaceae habit: Fabaceae includes herbs, shrubs or trees with alternate, usually compound stipulate leaves and root nodules.\n2. Fabaceae flower: The flower is bisexual, zygomorphic and papilionaceous, commonly with diadelphous stamens, superior monocarpellary ovary and legume fruit.\n3. Solanaceae habit: Solanaceae plants are mostly herbs or shrubs with alternate simple leaves and often cymose inflorescences.\n4. Solanaceae flower: The flower is bisexual, actinomorphic and pentamerous, with epipetalous stamens, bicarpellary superior ovary and axile placentation.\n5. Liliaceae habit: Liliaceae plants are perennial monocot herbs with bulbs or rhizomes, fibrous roots and parallel-veined leaves.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Fabaceae habit • Fabaceae flower • Solanaceae habit • Solanaceae flower • Liliaceae habit"
+            },
+            {
+              "id": "c11-bot-8-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Solanaceae flower, Liliaceae habit, Liliaceae flower in the context of Taxonomy of Angiosperms.",
+              "answer": "Introduction: Taxonomy of Angiosperms is best understood by connecting structure, process and significance.\n\n1. Solanaceae flower: The flower is bisexual, actinomorphic and pentamerous, with epipetalous stamens, bicarpellary superior ovary and axile placentation.\n2. Liliaceae habit: Liliaceae plants are perennial monocot herbs with bulbs or rhizomes, fibrous roots and parallel-veined leaves.\n3. Liliaceae flower: The flower is actinomorphic and trimerous, with six tepals, six epiphyllous stamens and a tricarpellary superior ovary.\n4. Artificial classification: Artificial systems use a few convenient characters and may group unrelated plants together.\n5. Natural classification: Natural systems use many characters and reflect overall similarities and natural affinities.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Solanaceae flower • Liliaceae habit • Liliaceae flower • Artificial classification • Natural classification"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-09",
           "number": 9,
           "name": "Cell: The Unit of Life",
-          "topics": [],
+          "topics": [
+            "Cell theory",
+            "Prokaryotic cell",
+            "Plant cell wall",
+            "Plasma membrane",
+            "Endomembrane system",
+            "Endoplasmic reticulum",
+            "Golgi apparatus",
+            "Lysosome and vacuole",
+            "Mitochondrion",
+            "Chloroplast",
+            "Ribosome",
+            "Cytoskeleton",
+            "Cilia and flagella",
+            "Nucleus",
+            "Chromatin and nucleosome"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-9-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Cell theory.",
+              "answer": "Schleiden and Schwann proposed that organisms consist of cells; Virchow added that every cell arises from a pre-existing cell.",
+              "keyPoints": "Cell theory"
+            },
+            {
+              "id": "c11-bot-9-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Prokaryotic cell?",
+              "answer": "A prokaryotic cell lacks a membrane-bound nucleus and organelles; its circular DNA lies in a nucleoid.",
+              "keyPoints": "Prokaryotic cell"
+            },
+            {
+              "id": "c11-bot-9-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Plant cell wall.",
+              "answer": "The cellulose-rich cell wall gives shape, prevents osmotic bursting and communicates through plasmodesmata.",
+              "keyPoints": "Plant cell wall"
+            },
+            {
+              "id": "c11-bot-9-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Plasma membrane.",
+              "answer": "The plasma membrane is a selectively permeable fluid mosaic of lipids and proteins controlling cellular exchange.",
+              "keyPoints": "Plasma membrane"
+            },
+            {
+              "id": "c11-bot-9-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Endomembrane system?",
+              "answer": "Endoplasmic reticulum, Golgi apparatus, lysosomes and vacuoles coordinate synthesis, modification, packaging and transport.",
+              "keyPoints": "Endomembrane system"
+            },
+            {
+              "id": "c11-bot-9-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Endoplasmic reticulum.",
+              "answer": "Rough ER bears ribosomes and synthesises proteins; smooth ER synthesises lipids and aids detoxification.",
+              "keyPoints": "Endoplasmic reticulum"
+            },
+            {
+              "id": "c11-bot-9-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Golgi apparatus.",
+              "answer": "Golgi cisternae receive materials at the cis face, modify and sort them, then dispatch vesicles from the trans face.",
+              "keyPoints": "Golgi apparatus"
+            },
+            {
+              "id": "c11-bot-9-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Lysosome and vacuole?",
+              "answer": "Lysosomes carry hydrolytic enzymes, while the plant vacuole stores solutes and maintains turgor through its tonoplast.",
+              "keyPoints": "Lysosome and vacuole"
+            },
+            {
+              "id": "c11-bot-9-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Mitochondrion.",
+              "answer": "A mitochondrion has cristae and matrix and produces ATP through aerobic respiration; it contains its own DNA and ribosomes.",
+              "keyPoints": "Mitochondrion"
+            },
+            {
+              "id": "c11-bot-9-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Chloroplast.",
+              "answer": "A chloroplast has grana for light reactions and stroma for carbon fixation, besides circular DNA and 70S ribosomes.",
+              "keyPoints": "Chloroplast"
+            },
+            {
+              "id": "c11-bot-9-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Ribosome?",
+              "answer": "Ribosomes are non-membranous ribonucleoprotein particles that translate mRNA into polypeptides.",
+              "keyPoints": "Ribosome"
+            },
+            {
+              "id": "c11-bot-9-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Cytoskeleton.",
+              "answer": "Microtubules, microfilaments and intermediate filaments provide shape, movement and intracellular transport.",
+              "keyPoints": "Cytoskeleton"
+            },
+            {
+              "id": "c11-bot-9-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Cilia and flagella.",
+              "answer": "Eukaryotic cilia and flagella usually have a 9+2 axoneme anchored in a basal body.",
+              "keyPoints": "Cilia and flagella"
+            },
+            {
+              "id": "c11-bot-9-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Nucleus?",
+              "answer": "The nucleus has a double envelope, pores, nucleoplasm, chromatin and nucleolus and controls gene expression.",
+              "keyPoints": "Nucleus"
+            },
+            {
+              "id": "c11-bot-9-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Chromatin and nucleosome.",
+              "answer": "DNA wraps around histone octamers to form nucleosomes, which coil further to produce chromatin and chromosomes.",
+              "keyPoints": "Chromatin and nucleosome"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-9-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cell theory and Endoplasmic reticulum.",
+              "answer": "• Cell theory: Schleiden and Schwann proposed that organisms consist of cells; Virchow added that every cell arises from a pre-existing cell.\n• Endoplasmic reticulum: Rough ER bears ribosomes and synthesises proteins; smooth ER synthesises lipids and aids detoxification.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cell theory • Endoplasmic reticulum • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Prokaryotic cell and Golgi apparatus with their biological significance.",
+              "answer": "• Prokaryotic cell: A prokaryotic cell lacks a membrane-bound nucleus and organelles; its circular DNA lies in a nucleoid.\n• Golgi apparatus: Golgi cisternae receive materials at the cis face, modify and sort them, then dispatch vesicles from the trans face.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Prokaryotic cell • Golgi apparatus • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Plant cell wall and Lysosome and vacuole.",
+              "answer": "• Plant cell wall: The cellulose-rich cell wall gives shape, prevents osmotic bursting and communicates through plasmodesmata.\n• Lysosome and vacuole: Lysosomes carry hydrolytic enzymes, while the plant vacuole stores solutes and maintains turgor through its tonoplast.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Plant cell wall • Lysosome and vacuole • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Plasma membrane and Mitochondrion with their biological significance.",
+              "answer": "• Plasma membrane: The plasma membrane is a selectively permeable fluid mosaic of lipids and proteins controlling cellular exchange.\n• Mitochondrion: A mitochondrion has cristae and matrix and produces ATP through aerobic respiration; it contains its own DNA and ribosomes.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Plasma membrane • Mitochondrion • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Endomembrane system and Chloroplast.",
+              "answer": "• Endomembrane system: Endoplasmic reticulum, Golgi apparatus, lysosomes and vacuoles coordinate synthesis, modification, packaging and transport.\n• Chloroplast: A chloroplast has grana for light reactions and stroma for carbon fixation, besides circular DNA and 70S ribosomes.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Endomembrane system • Chloroplast • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Endoplasmic reticulum and Ribosome with their biological significance.",
+              "answer": "• Endoplasmic reticulum: Rough ER bears ribosomes and synthesises proteins; smooth ER synthesises lipids and aids detoxification.\n• Ribosome: Ribosomes are non-membranous ribonucleoprotein particles that translate mRNA into polypeptides.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Endoplasmic reticulum • Ribosome • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Golgi apparatus and Cytoskeleton.",
+              "answer": "• Golgi apparatus: Golgi cisternae receive materials at the cis face, modify and sort them, then dispatch vesicles from the trans face.\n• Cytoskeleton: Microtubules, microfilaments and intermediate filaments provide shape, movement and intracellular transport.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Golgi apparatus • Cytoskeleton • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Lysosome and vacuole and Cilia and flagella with their biological significance.",
+              "answer": "• Lysosome and vacuole: Lysosomes carry hydrolytic enzymes, while the plant vacuole stores solutes and maintains turgor through its tonoplast.\n• Cilia and flagella: Eukaryotic cilia and flagella usually have a 9+2 axoneme anchored in a basal body.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Lysosome and vacuole • Cilia and flagella • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Mitochondrion and Nucleus.",
+              "answer": "• Mitochondrion: A mitochondrion has cristae and matrix and produces ATP through aerobic respiration; it contains its own DNA and ribosomes.\n• Nucleus: The nucleus has a double envelope, pores, nucleoplasm, chromatin and nucleolus and controls gene expression.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Mitochondrion • Nucleus • definition • significance"
+            },
+            {
+              "id": "c11-bot-9-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Chloroplast and Chromatin and nucleosome with their biological significance.",
+              "answer": "• Chloroplast: A chloroplast has grana for light reactions and stroma for carbon fixation, besides circular DNA and 70S ribosomes.\n• Chromatin and nucleosome: DNA wraps around histone octamers to form nucleosomes, which coil further to produce chromatin and chromosomes.\n• Relationship: Both are central to cell: the unit of life, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Chloroplast • Chromatin and nucleosome • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-9-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Cell theory, Prokaryotic cell, Plant cell wall in the context of Cell: The Unit of Life.",
+              "answer": "Introduction: Cell: The Unit of Life is best understood by connecting structure, process and significance.\n\n1. Cell theory: Schleiden and Schwann proposed that organisms consist of cells; Virchow added that every cell arises from a pre-existing cell.\n2. Prokaryotic cell: A prokaryotic cell lacks a membrane-bound nucleus and organelles; its circular DNA lies in a nucleoid.\n3. Plant cell wall: The cellulose-rich cell wall gives shape, prevents osmotic bursting and communicates through plasmodesmata.\n4. Plasma membrane: The plasma membrane is a selectively permeable fluid mosaic of lipids and proteins controlling cellular exchange.\n5. Endomembrane system: Endoplasmic reticulum, Golgi apparatus, lysosomes and vacuoles coordinate synthesis, modification, packaging and transport.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Cell theory • Prokaryotic cell • Plant cell wall • Plasma membrane • Endomembrane system",
+              "diagram": "assets/botany/plant-cell.svg",
+              "diagramAlt": "Labelled study diagram for Cell: The Unit of Life"
+            },
+            {
+              "id": "c11-bot-9-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Plasma membrane, Endomembrane system, Endoplasmic reticulum in the context of Cell: The Unit of Life.",
+              "answer": "Introduction: Cell: The Unit of Life is best understood by connecting structure, process and significance.\n\n1. Plasma membrane: The plasma membrane is a selectively permeable fluid mosaic of lipids and proteins controlling cellular exchange.\n2. Endomembrane system: Endoplasmic reticulum, Golgi apparatus, lysosomes and vacuoles coordinate synthesis, modification, packaging and transport.\n3. Endoplasmic reticulum: Rough ER bears ribosomes and synthesises proteins; smooth ER synthesises lipids and aids detoxification.\n4. Golgi apparatus: Golgi cisternae receive materials at the cis face, modify and sort them, then dispatch vesicles from the trans face.\n5. Lysosome and vacuole: Lysosomes carry hydrolytic enzymes, while the plant vacuole stores solutes and maintains turgor through its tonoplast.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Plasma membrane • Endomembrane system • Endoplasmic reticulum • Golgi apparatus • Lysosome and vacuole",
+              "diagram": "assets/botany/plant-cell.svg",
+              "diagramAlt": "Labelled study diagram for Cell: The Unit of Life"
+            },
+            {
+              "id": "c11-bot-9-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Golgi apparatus, Lysosome and vacuole, Mitochondrion in the context of Cell: The Unit of Life.",
+              "answer": "Introduction: Cell: The Unit of Life is best understood by connecting structure, process and significance.\n\n1. Golgi apparatus: Golgi cisternae receive materials at the cis face, modify and sort them, then dispatch vesicles from the trans face.\n2. Lysosome and vacuole: Lysosomes carry hydrolytic enzymes, while the plant vacuole stores solutes and maintains turgor through its tonoplast.\n3. Mitochondrion: A mitochondrion has cristae and matrix and produces ATP through aerobic respiration; it contains its own DNA and ribosomes.\n4. Chloroplast: A chloroplast has grana for light reactions and stroma for carbon fixation, besides circular DNA and 70S ribosomes.\n5. Ribosome: Ribosomes are non-membranous ribonucleoprotein particles that translate mRNA into polypeptides.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Golgi apparatus • Lysosome and vacuole • Mitochondrion • Chloroplast • Ribosome"
+            },
+            {
+              "id": "c11-bot-9-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Chloroplast, Ribosome, Cytoskeleton in the context of Cell: The Unit of Life.",
+              "answer": "Introduction: Cell: The Unit of Life is best understood by connecting structure, process and significance.\n\n1. Chloroplast: A chloroplast has grana for light reactions and stroma for carbon fixation, besides circular DNA and 70S ribosomes.\n2. Ribosome: Ribosomes are non-membranous ribonucleoprotein particles that translate mRNA into polypeptides.\n3. Cytoskeleton: Microtubules, microfilaments and intermediate filaments provide shape, movement and intracellular transport.\n4. Cilia and flagella: Eukaryotic cilia and flagella usually have a 9+2 axoneme anchored in a basal body.\n5. Nucleus: The nucleus has a double envelope, pores, nucleoplasm, chromatin and nucleolus and controls gene expression.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Chloroplast • Ribosome • Cytoskeleton • Cilia and flagella • Nucleus"
+            },
+            {
+              "id": "c11-bot-9-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Cilia and flagella, Nucleus, Chromatin and nucleosome in the context of Cell: The Unit of Life.",
+              "answer": "Introduction: Cell: The Unit of Life is best understood by connecting structure, process and significance.\n\n1. Cilia and flagella: Eukaryotic cilia and flagella usually have a 9+2 axoneme anchored in a basal body.\n2. Nucleus: The nucleus has a double envelope, pores, nucleoplasm, chromatin and nucleolus and controls gene expression.\n3. Chromatin and nucleosome: DNA wraps around histone octamers to form nucleosomes, which coil further to produce chromatin and chromosomes.\n4. Cell theory: Schleiden and Schwann proposed that organisms consist of cells; Virchow added that every cell arises from a pre-existing cell.\n5. Prokaryotic cell: A prokaryotic cell lacks a membrane-bound nucleus and organelles; its circular DNA lies in a nucleoid.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Cilia and flagella • Nucleus • Chromatin and nucleosome • Cell theory • Prokaryotic cell"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-10",
           "number": 10,
           "name": "Biomolecules",
-          "topics": [],
+          "topics": [
+            "Biomolecule",
+            "Primary metabolites",
+            "Secondary metabolites",
+            "Monosaccharide",
+            "Disaccharide",
+            "Polysaccharide",
+            "Amino acid",
+            "Protein structure",
+            "Enzyme",
+            "Enzyme factors",
+            "Lipid",
+            "Saturated and unsaturated fats",
+            "Nucleotide",
+            "DNA and RNA",
+            "Metabolism"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-10-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Biomolecule.",
+              "answer": "Biomolecules are carbon-based compounds of living cells, including carbohydrates, lipids, proteins and nucleic acids.",
+              "keyPoints": "Biomolecule"
+            },
+            {
+              "id": "c11-bot-10-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Primary metabolites?",
+              "answer": "Primary metabolites such as sugars, amino acids and nucleotides directly support growth and normal metabolism.",
+              "keyPoints": "Primary metabolites"
+            },
+            {
+              "id": "c11-bot-10-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Secondary metabolites.",
+              "answer": "Alkaloids, terpenoids, pigments and essential oils have ecological roles and many medicinal or commercial uses.",
+              "keyPoints": "Secondary metabolites"
+            },
+            {
+              "id": "c11-bot-10-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Monosaccharide.",
+              "answer": "A monosaccharide is the simplest carbohydrate unit; glucose is a six-carbon reducing sugar and major respiratory substrate.",
+              "keyPoints": "Monosaccharide"
+            },
+            {
+              "id": "c11-bot-10-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Disaccharide?",
+              "answer": "A disaccharide contains two monosaccharides joined by a glycosidic bond, as in sucrose, maltose and lactose.",
+              "keyPoints": "Disaccharide"
+            },
+            {
+              "id": "c11-bot-10-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Polysaccharide.",
+              "answer": "Polysaccharides are long sugar polymers; starch stores plant food, cellulose forms plant walls and glycogen stores animal food.",
+              "keyPoints": "Polysaccharide"
+            },
+            {
+              "id": "c11-bot-10-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Amino acid.",
+              "answer": "An amino acid has amino and carboxyl groups attached to an alpha carbon; its variable R group determines properties.",
+              "keyPoints": "Amino acid"
+            },
+            {
+              "id": "c11-bot-10-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Protein structure?",
+              "answer": "Proteins possess primary sequence and may fold into secondary, tertiary and quaternary levels of organisation.",
+              "keyPoints": "Protein structure"
+            },
+            {
+              "id": "c11-bot-10-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Enzyme.",
+              "answer": "An enzyme is a biological catalyst that lowers activation energy through a specific active site without being consumed.",
+              "keyPoints": "Enzyme"
+            },
+            {
+              "id": "c11-bot-10-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Enzyme factors.",
+              "answer": "Temperature, pH, substrate concentration and inhibitors affect enzyme activity by changing collisions or protein conformation.",
+              "keyPoints": "Enzyme factors"
+            },
+            {
+              "id": "c11-bot-10-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Lipid?",
+              "answer": "Lipids are water-insoluble molecules; fats contain glycerol esterified with fatty acids and serve in energy storage and membranes.",
+              "keyPoints": "Lipid"
+            },
+            {
+              "id": "c11-bot-10-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Saturated and unsaturated fats.",
+              "answer": "Saturated fatty acids lack carbon-carbon double bonds, while unsaturated fatty acids contain one or more.",
+              "keyPoints": "Saturated and unsaturated fats"
+            },
+            {
+              "id": "c11-bot-10-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Nucleotide.",
+              "answer": "A nucleotide consists of a nitrogenous base, pentose sugar and phosphate group.",
+              "keyPoints": "Nucleotide"
+            },
+            {
+              "id": "c11-bot-10-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by DNA and RNA?",
+              "answer": "DNA usually stores hereditary information as a double helix; RNA is generally single-stranded and functions in gene expression.",
+              "keyPoints": "DNA and RNA"
+            },
+            {
+              "id": "c11-bot-10-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Metabolism.",
+              "answer": "Anabolism builds complex molecules using energy, whereas catabolism releases energy by breaking molecules down.",
+              "keyPoints": "Metabolism"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-10-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Biomolecule and Polysaccharide.",
+              "answer": "• Biomolecule: Biomolecules are carbon-based compounds of living cells, including carbohydrates, lipids, proteins and nucleic acids.\n• Polysaccharide: Polysaccharides are long sugar polymers; starch stores plant food, cellulose forms plant walls and glycogen stores animal food.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Biomolecule • Polysaccharide • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Primary metabolites and Amino acid with their biological significance.",
+              "answer": "• Primary metabolites: Primary metabolites such as sugars, amino acids and nucleotides directly support growth and normal metabolism.\n• Amino acid: An amino acid has amino and carboxyl groups attached to an alpha carbon; its variable R group determines properties.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Primary metabolites • Amino acid • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Secondary metabolites and Protein structure.",
+              "answer": "• Secondary metabolites: Alkaloids, terpenoids, pigments and essential oils have ecological roles and many medicinal or commercial uses.\n• Protein structure: Proteins possess primary sequence and may fold into secondary, tertiary and quaternary levels of organisation.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Secondary metabolites • Protein structure • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Monosaccharide and Enzyme with their biological significance.",
+              "answer": "• Monosaccharide: A monosaccharide is the simplest carbohydrate unit; glucose is a six-carbon reducing sugar and major respiratory substrate.\n• Enzyme: An enzyme is a biological catalyst that lowers activation energy through a specific active site without being consumed.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Monosaccharide • Enzyme • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Disaccharide and Enzyme factors.",
+              "answer": "• Disaccharide: A disaccharide contains two monosaccharides joined by a glycosidic bond, as in sucrose, maltose and lactose.\n• Enzyme factors: Temperature, pH, substrate concentration and inhibitors affect enzyme activity by changing collisions or protein conformation.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Disaccharide • Enzyme factors • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Polysaccharide and Lipid with their biological significance.",
+              "answer": "• Polysaccharide: Polysaccharides are long sugar polymers; starch stores plant food, cellulose forms plant walls and glycogen stores animal food.\n• Lipid: Lipids are water-insoluble molecules; fats contain glycerol esterified with fatty acids and serve in energy storage and membranes.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Polysaccharide • Lipid • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Amino acid and Saturated and unsaturated fats.",
+              "answer": "• Amino acid: An amino acid has amino and carboxyl groups attached to an alpha carbon; its variable R group determines properties.\n• Saturated and unsaturated fats: Saturated fatty acids lack carbon-carbon double bonds, while unsaturated fatty acids contain one or more.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Amino acid • Saturated and unsaturated fats • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Protein structure and Nucleotide with their biological significance.",
+              "answer": "• Protein structure: Proteins possess primary sequence and may fold into secondary, tertiary and quaternary levels of organisation.\n• Nucleotide: A nucleotide consists of a nitrogenous base, pentose sugar and phosphate group.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Protein structure • Nucleotide • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Enzyme and DNA and RNA.",
+              "answer": "• Enzyme: An enzyme is a biological catalyst that lowers activation energy through a specific active site without being consumed.\n• DNA and RNA: DNA usually stores hereditary information as a double helix; RNA is generally single-stranded and functions in gene expression.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Enzyme • DNA and RNA • definition • significance"
+            },
+            {
+              "id": "c11-bot-10-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Enzyme factors and Metabolism with their biological significance.",
+              "answer": "• Enzyme factors: Temperature, pH, substrate concentration and inhibitors affect enzyme activity by changing collisions or protein conformation.\n• Metabolism: Anabolism builds complex molecules using energy, whereas catabolism releases energy by breaking molecules down.\n• Relationship: Both are central to biomolecules, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Enzyme factors • Metabolism • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-10-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Biomolecule, Primary metabolites, Secondary metabolites in the context of Biomolecules.",
+              "answer": "Introduction: Biomolecules is best understood by connecting structure, process and significance.\n\n1. Biomolecule: Biomolecules are carbon-based compounds of living cells, including carbohydrates, lipids, proteins and nucleic acids.\n2. Primary metabolites: Primary metabolites such as sugars, amino acids and nucleotides directly support growth and normal metabolism.\n3. Secondary metabolites: Alkaloids, terpenoids, pigments and essential oils have ecological roles and many medicinal or commercial uses.\n4. Monosaccharide: A monosaccharide is the simplest carbohydrate unit; glucose is a six-carbon reducing sugar and major respiratory substrate.\n5. Disaccharide: A disaccharide contains two monosaccharides joined by a glycosidic bond, as in sucrose, maltose and lactose.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Biomolecule • Primary metabolites • Secondary metabolites • Monosaccharide • Disaccharide"
+            },
+            {
+              "id": "c11-bot-10-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Monosaccharide, Disaccharide, Polysaccharide in the context of Biomolecules.",
+              "answer": "Introduction: Biomolecules is best understood by connecting structure, process and significance.\n\n1. Monosaccharide: A monosaccharide is the simplest carbohydrate unit; glucose is a six-carbon reducing sugar and major respiratory substrate.\n2. Disaccharide: A disaccharide contains two monosaccharides joined by a glycosidic bond, as in sucrose, maltose and lactose.\n3. Polysaccharide: Polysaccharides are long sugar polymers; starch stores plant food, cellulose forms plant walls and glycogen stores animal food.\n4. Amino acid: An amino acid has amino and carboxyl groups attached to an alpha carbon; its variable R group determines properties.\n5. Protein structure: Proteins possess primary sequence and may fold into secondary, tertiary and quaternary levels of organisation.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Monosaccharide • Disaccharide • Polysaccharide • Amino acid • Protein structure"
+            },
+            {
+              "id": "c11-bot-10-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Amino acid, Protein structure, Enzyme in the context of Biomolecules.",
+              "answer": "Introduction: Biomolecules is best understood by connecting structure, process and significance.\n\n1. Amino acid: An amino acid has amino and carboxyl groups attached to an alpha carbon; its variable R group determines properties.\n2. Protein structure: Proteins possess primary sequence and may fold into secondary, tertiary and quaternary levels of organisation.\n3. Enzyme: An enzyme is a biological catalyst that lowers activation energy through a specific active site without being consumed.\n4. Enzyme factors: Temperature, pH, substrate concentration and inhibitors affect enzyme activity by changing collisions or protein conformation.\n5. Lipid: Lipids are water-insoluble molecules; fats contain glycerol esterified with fatty acids and serve in energy storage and membranes.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Amino acid • Protein structure • Enzyme • Enzyme factors • Lipid"
+            },
+            {
+              "id": "c11-bot-10-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Enzyme factors, Lipid, Saturated and unsaturated fats in the context of Biomolecules.",
+              "answer": "Introduction: Biomolecules is best understood by connecting structure, process and significance.\n\n1. Enzyme factors: Temperature, pH, substrate concentration and inhibitors affect enzyme activity by changing collisions or protein conformation.\n2. Lipid: Lipids are water-insoluble molecules; fats contain glycerol esterified with fatty acids and serve in energy storage and membranes.\n3. Saturated and unsaturated fats: Saturated fatty acids lack carbon-carbon double bonds, while unsaturated fatty acids contain one or more.\n4. Nucleotide: A nucleotide consists of a nitrogenous base, pentose sugar and phosphate group.\n5. DNA and RNA: DNA usually stores hereditary information as a double helix; RNA is generally single-stranded and functions in gene expression.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Enzyme factors • Lipid • Saturated and unsaturated fats • Nucleotide • DNA and RNA"
+            },
+            {
+              "id": "c11-bot-10-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Nucleotide, DNA and RNA, Metabolism in the context of Biomolecules.",
+              "answer": "Introduction: Biomolecules is best understood by connecting structure, process and significance.\n\n1. Nucleotide: A nucleotide consists of a nitrogenous base, pentose sugar and phosphate group.\n2. DNA and RNA: DNA usually stores hereditary information as a double helix; RNA is generally single-stranded and functions in gene expression.\n3. Metabolism: Anabolism builds complex molecules using energy, whereas catabolism releases energy by breaking molecules down.\n4. Biomolecule: Biomolecules are carbon-based compounds of living cells, including carbohydrates, lipids, proteins and nucleic acids.\n5. Primary metabolites: Primary metabolites such as sugars, amino acids and nucleotides directly support growth and normal metabolism.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Nucleotide • DNA and RNA • Metabolism • Biomolecule • Primary metabolites"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-11",
           "number": 11,
           "name": "Cell Cycle and Cell Division",
-          "topics": [],
+          "topics": [
+            "Cell cycle",
+            "G1 phase",
+            "S phase",
+            "G2 phase",
+            "Mitosis",
+            "Prophase",
+            "Metaphase",
+            "Anaphase",
+            "Telophase and cytokinesis",
+            "Meiosis",
+            "Prophase I",
+            "Synapsis and bivalent",
+            "Crossing over",
+            "Meiosis I and II",
+            "Significance of division"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-11-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Cell cycle.",
+              "answer": "The cell cycle consists of interphase and M phase, producing orderly growth, DNA duplication and cell division.",
+              "keyPoints": "Cell cycle"
+            },
+            {
+              "id": "c11-bot-11-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by G1 phase?",
+              "answer": "During G1 the cell grows, synthesises RNA and proteins, and decides whether to continue the cycle.",
+              "keyPoints": "G1 phase"
+            },
+            {
+              "id": "c11-bot-11-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on S phase.",
+              "answer": "DNA replication occurs in S phase, doubling DNA content while chromosome number remains unchanged.",
+              "keyPoints": "S phase"
+            },
+            {
+              "id": "c11-bot-11-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define G2 phase.",
+              "answer": "During G2 the cell grows further and synthesises proteins needed for mitosis.",
+              "keyPoints": "G2 phase"
+            },
+            {
+              "id": "c11-bot-11-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Mitosis?",
+              "answer": "Mitosis is equational division producing two genetically similar daughter cells with the parental chromosome number.",
+              "keyPoints": "Mitosis"
+            },
+            {
+              "id": "c11-bot-11-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Prophase.",
+              "answer": "Chromatin condenses, nucleolus disappears, spindle forms and the nuclear envelope disintegrates during late prophase.",
+              "keyPoints": "Prophase"
+            },
+            {
+              "id": "c11-bot-11-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Metaphase.",
+              "answer": "Maximally condensed chromosomes align at the equatorial plate with spindle fibres attached to kinetochores.",
+              "keyPoints": "Metaphase"
+            },
+            {
+              "id": "c11-bot-11-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Anaphase?",
+              "answer": "Centromeres divide and sister chromatids move to opposite poles, each becoming a daughter chromosome.",
+              "keyPoints": "Anaphase"
+            },
+            {
+              "id": "c11-bot-11-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Telophase and cytokinesis.",
+              "answer": "Chromosomes decondense and nuclei reform; plant cytokinesis proceeds by a centripetal cell plate.",
+              "keyPoints": "Telophase and cytokinesis"
+            },
+            {
+              "id": "c11-bot-11-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Meiosis.",
+              "answer": "Meiosis is reduction division in which one diploid cell produces four haploid cells through two successive divisions.",
+              "keyPoints": "Meiosis"
+            },
+            {
+              "id": "c11-bot-11-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Prophase I?",
+              "answer": "Leptotene, zygotene, pachytene, diplotene and diakinesis bring pairing, crossing over and separation of homologues.",
+              "keyPoints": "Prophase I"
+            },
+            {
+              "id": "c11-bot-11-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Synapsis and bivalent.",
+              "answer": "Homologous chromosomes pair by a synaptonemal complex during zygotene, forming bivalents or tetrads.",
+              "keyPoints": "Synapsis and bivalent"
+            },
+            {
+              "id": "c11-bot-11-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Crossing over.",
+              "answer": "Non-sister chromatids exchange segments at pachytene; chiasmata become visible in diplotene.",
+              "keyPoints": "Crossing over"
+            },
+            {
+              "id": "c11-bot-11-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Meiosis I and II?",
+              "answer": "Meiosis I separates homologues and reduces ploidy; meiosis II separates sister chromatids without another DNA replication.",
+              "keyPoints": "Meiosis I and II"
+            },
+            {
+              "id": "c11-bot-11-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Significance of division.",
+              "answer": "Mitosis enables growth and repair; meiosis maintains chromosome number across generations and creates variation.",
+              "keyPoints": "Significance of division"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-11-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cell cycle and Prophase.",
+              "answer": "• Cell cycle: The cell cycle consists of interphase and M phase, producing orderly growth, DNA duplication and cell division.\n• Prophase: Chromatin condenses, nucleolus disappears, spindle forms and the nuclear envelope disintegrates during late prophase.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cell cycle • Prophase • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain G1 phase and Metaphase with their biological significance.",
+              "answer": "• G1 phase: During G1 the cell grows, synthesises RNA and proteins, and decides whether to continue the cycle.\n• Metaphase: Maximally condensed chromosomes align at the equatorial plate with spindle fibres attached to kinetochores.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "G1 phase • Metaphase • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate S phase and Anaphase.",
+              "answer": "• S phase: DNA replication occurs in S phase, doubling DNA content while chromosome number remains unchanged.\n• Anaphase: Centromeres divide and sister chromatids move to opposite poles, each becoming a daughter chromosome.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "S phase • Anaphase • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain G2 phase and Telophase and cytokinesis with their biological significance.",
+              "answer": "• G2 phase: During G2 the cell grows further and synthesises proteins needed for mitosis.\n• Telophase and cytokinesis: Chromosomes decondense and nuclei reform; plant cytokinesis proceeds by a centripetal cell plate.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "G2 phase • Telophase and cytokinesis • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Mitosis and Meiosis.",
+              "answer": "• Mitosis: Mitosis is equational division producing two genetically similar daughter cells with the parental chromosome number.\n• Meiosis: Meiosis is reduction division in which one diploid cell produces four haploid cells through two successive divisions.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Mitosis • Meiosis • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Prophase and Prophase I with their biological significance.",
+              "answer": "• Prophase: Chromatin condenses, nucleolus disappears, spindle forms and the nuclear envelope disintegrates during late prophase.\n• Prophase I: Leptotene, zygotene, pachytene, diplotene and diakinesis bring pairing, crossing over and separation of homologues.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Prophase • Prophase I • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Metaphase and Synapsis and bivalent.",
+              "answer": "• Metaphase: Maximally condensed chromosomes align at the equatorial plate with spindle fibres attached to kinetochores.\n• Synapsis and bivalent: Homologous chromosomes pair by a synaptonemal complex during zygotene, forming bivalents or tetrads.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Metaphase • Synapsis and bivalent • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Anaphase and Crossing over with their biological significance.",
+              "answer": "• Anaphase: Centromeres divide and sister chromatids move to opposite poles, each becoming a daughter chromosome.\n• Crossing over: Non-sister chromatids exchange segments at pachytene; chiasmata become visible in diplotene.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Anaphase • Crossing over • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Telophase and cytokinesis and Meiosis I and II.",
+              "answer": "• Telophase and cytokinesis: Chromosomes decondense and nuclei reform; plant cytokinesis proceeds by a centripetal cell plate.\n• Meiosis I and II: Meiosis I separates homologues and reduces ploidy; meiosis II separates sister chromatids without another DNA replication.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Telophase and cytokinesis • Meiosis I and II • definition • significance"
+            },
+            {
+              "id": "c11-bot-11-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Meiosis and Significance of division with their biological significance.",
+              "answer": "• Meiosis: Meiosis is reduction division in which one diploid cell produces four haploid cells through two successive divisions.\n• Significance of division: Mitosis enables growth and repair; meiosis maintains chromosome number across generations and creates variation.\n• Relationship: Both are central to cell cycle and cell division, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Meiosis • Significance of division • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-11-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Cell cycle, G1 phase, S phase in the context of Cell Cycle and Cell Division.",
+              "answer": "Introduction: Cell Cycle and Cell Division is best understood by connecting structure, process and significance.\n\n1. Cell cycle: The cell cycle consists of interphase and M phase, producing orderly growth, DNA duplication and cell division.\n2. G1 phase: During G1 the cell grows, synthesises RNA and proteins, and decides whether to continue the cycle.\n3. S phase: DNA replication occurs in S phase, doubling DNA content while chromosome number remains unchanged.\n4. G2 phase: During G2 the cell grows further and synthesises proteins needed for mitosis.\n5. Mitosis: Mitosis is equational division producing two genetically similar daughter cells with the parental chromosome number.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Cell cycle • G1 phase • S phase • G2 phase • Mitosis",
+              "diagram": "assets/botany/cell-division.svg",
+              "diagramAlt": "Labelled study diagram for Cell Cycle and Cell Division"
+            },
+            {
+              "id": "c11-bot-11-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of G2 phase, Mitosis, Prophase in the context of Cell Cycle and Cell Division.",
+              "answer": "Introduction: Cell Cycle and Cell Division is best understood by connecting structure, process and significance.\n\n1. G2 phase: During G2 the cell grows further and synthesises proteins needed for mitosis.\n2. Mitosis: Mitosis is equational division producing two genetically similar daughter cells with the parental chromosome number.\n3. Prophase: Chromatin condenses, nucleolus disappears, spindle forms and the nuclear envelope disintegrates during late prophase.\n4. Metaphase: Maximally condensed chromosomes align at the equatorial plate with spindle fibres attached to kinetochores.\n5. Anaphase: Centromeres divide and sister chromatids move to opposite poles, each becoming a daughter chromosome.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "G2 phase • Mitosis • Prophase • Metaphase • Anaphase",
+              "diagram": "assets/botany/cell-division.svg",
+              "diagramAlt": "Labelled study diagram for Cell Cycle and Cell Division"
+            },
+            {
+              "id": "c11-bot-11-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Metaphase, Anaphase, Telophase and cytokinesis in the context of Cell Cycle and Cell Division.",
+              "answer": "Introduction: Cell Cycle and Cell Division is best understood by connecting structure, process and significance.\n\n1. Metaphase: Maximally condensed chromosomes align at the equatorial plate with spindle fibres attached to kinetochores.\n2. Anaphase: Centromeres divide and sister chromatids move to opposite poles, each becoming a daughter chromosome.\n3. Telophase and cytokinesis: Chromosomes decondense and nuclei reform; plant cytokinesis proceeds by a centripetal cell plate.\n4. Meiosis: Meiosis is reduction division in which one diploid cell produces four haploid cells through two successive divisions.\n5. Prophase I: Leptotene, zygotene, pachytene, diplotene and diakinesis bring pairing, crossing over and separation of homologues.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Metaphase • Anaphase • Telophase and cytokinesis • Meiosis • Prophase I"
+            },
+            {
+              "id": "c11-bot-11-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Meiosis, Prophase I, Synapsis and bivalent in the context of Cell Cycle and Cell Division.",
+              "answer": "Introduction: Cell Cycle and Cell Division is best understood by connecting structure, process and significance.\n\n1. Meiosis: Meiosis is reduction division in which one diploid cell produces four haploid cells through two successive divisions.\n2. Prophase I: Leptotene, zygotene, pachytene, diplotene and diakinesis bring pairing, crossing over and separation of homologues.\n3. Synapsis and bivalent: Homologous chromosomes pair by a synaptonemal complex during zygotene, forming bivalents or tetrads.\n4. Crossing over: Non-sister chromatids exchange segments at pachytene; chiasmata become visible in diplotene.\n5. Meiosis I and II: Meiosis I separates homologues and reduces ploidy; meiosis II separates sister chromatids without another DNA replication.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Meiosis • Prophase I • Synapsis and bivalent • Crossing over • Meiosis I and II"
+            },
+            {
+              "id": "c11-bot-11-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Crossing over, Meiosis I and II, Significance of division in the context of Cell Cycle and Cell Division.",
+              "answer": "Introduction: Cell Cycle and Cell Division is best understood by connecting structure, process and significance.\n\n1. Crossing over: Non-sister chromatids exchange segments at pachytene; chiasmata become visible in diplotene.\n2. Meiosis I and II: Meiosis I separates homologues and reduces ploidy; meiosis II separates sister chromatids without another DNA replication.\n3. Significance of division: Mitosis enables growth and repair; meiosis maintains chromosome number across generations and creates variation.\n4. Cell cycle: The cell cycle consists of interphase and M phase, producing orderly growth, DNA duplication and cell division.\n5. G1 phase: During G1 the cell grows, synthesises RNA and proteins, and decides whether to continue the cycle.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Crossing over • Meiosis I and II • Significance of division • Cell cycle • G1 phase"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-12",
           "number": 12,
           "name": "Histology and Anatomy of Flowering Plants",
-          "topics": [],
+          "topics": [
+            "Meristematic tissue",
+            "Apical, intercalary and lateral meristems",
+            "Simple permanent tissues",
+            "Xylem",
+            "Phloem",
+            "Tissue systems",
+            "Dicot root",
+            "Monocot root",
+            "Dicot stem",
+            "Monocot stem",
+            "Dorsiventral leaf",
+            "Isobilateral leaf",
+            "Vascular cambium",
+            "Cork cambium",
+            "Wood and annual rings"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-12-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Meristematic tissue.",
+              "answer": "Meristematic cells actively divide, have dense cytoplasm, prominent nuclei, thin walls and little or no vacuolation.",
+              "keyPoints": "Meristematic tissue"
+            },
+            {
+              "id": "c11-bot-12-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Apical, intercalary and lateral meristems?",
+              "answer": "Apical and intercalary meristems lengthen organs; lateral meristems increase girth by secondary growth.",
+              "keyPoints": "Apical, intercalary and lateral meristems"
+            },
+            {
+              "id": "c11-bot-12-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Simple permanent tissues.",
+              "answer": "Parenchyma performs storage or photosynthesis, collenchyma gives flexible support, and lignified sclerenchyma gives strength.",
+              "keyPoints": "Simple permanent tissues"
+            },
+            {
+              "id": "c11-bot-12-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Xylem.",
+              "answer": "Xylem conducts water and minerals through tracheids and vessels; fibres support and parenchyma stores food.",
+              "keyPoints": "Xylem"
+            },
+            {
+              "id": "c11-bot-12-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Phloem?",
+              "answer": "Phloem transports organic food through sieve elements assisted by companion cells; fibres support and parenchyma stores.",
+              "keyPoints": "Phloem"
+            },
+            {
+              "id": "c11-bot-12-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Tissue systems.",
+              "answer": "Epidermal, ground and vascular tissue systems respectively protect, perform basic functions and conduct materials.",
+              "keyPoints": "Tissue systems"
+            },
+            {
+              "id": "c11-bot-12-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Dicot root.",
+              "answer": "A dicot root has radial vascular bundles, exarch xylem, small pith and later develops secondary growth.",
+              "keyPoints": "Dicot root"
+            },
+            {
+              "id": "c11-bot-12-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Monocot root?",
+              "answer": "A monocot root has many radial xylem bundles, large pith and normally lacks secondary growth.",
+              "keyPoints": "Monocot root"
+            },
+            {
+              "id": "c11-bot-12-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Dicot stem.",
+              "answer": "A dicot stem has vascular bundles in a ring; bundles are conjoint, collateral and open due to cambium.",
+              "keyPoints": "Dicot stem"
+            },
+            {
+              "id": "c11-bot-12-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Monocot stem.",
+              "answer": "A monocot stem has numerous scattered, closed vascular bundles surrounded by sclerenchymatous bundle sheaths.",
+              "keyPoints": "Monocot stem"
+            },
+            {
+              "id": "c11-bot-12-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Dorsiventral leaf?",
+              "answer": "A dicot leaf has palisade tissue above, spongy tissue below and more stomata on the lower epidermis.",
+              "keyPoints": "Dorsiventral leaf"
+            },
+            {
+              "id": "c11-bot-12-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Isobilateral leaf.",
+              "answer": "A monocot leaf has similar surfaces, stomata on both, undifferentiated mesophyll and bulliform cells.",
+              "keyPoints": "Isobilateral leaf"
+            },
+            {
+              "id": "c11-bot-12-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Vascular cambium.",
+              "answer": "Cambial ring produces secondary xylem inward and secondary phloem outward, increasing stem girth.",
+              "keyPoints": "Vascular cambium"
+            },
+            {
+              "id": "c11-bot-12-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Cork cambium?",
+              "answer": "Phellogen forms cork outward and secondary cortex inward; lenticels permit gaseous exchange through periderm.",
+              "keyPoints": "Cork cambium"
+            },
+            {
+              "id": "c11-bot-12-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Wood and annual rings.",
+              "answer": "Seasonal differences create spring wood and autumn wood; one pair forms an annual ring useful in estimating age.",
+              "keyPoints": "Wood and annual rings"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-12-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Meristematic tissue and Tissue systems.",
+              "answer": "• Meristematic tissue: Meristematic cells actively divide, have dense cytoplasm, prominent nuclei, thin walls and little or no vacuolation.\n• Tissue systems: Epidermal, ground and vascular tissue systems respectively protect, perform basic functions and conduct materials.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Meristematic tissue • Tissue systems • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Apical, intercalary and lateral meristems and Dicot root with their biological significance.",
+              "answer": "• Apical, intercalary and lateral meristems: Apical and intercalary meristems lengthen organs; lateral meristems increase girth by secondary growth.\n• Dicot root: A dicot root has radial vascular bundles, exarch xylem, small pith and later develops secondary growth.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Apical, intercalary and lateral meristems • Dicot root • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Simple permanent tissues and Monocot root.",
+              "answer": "• Simple permanent tissues: Parenchyma performs storage or photosynthesis, collenchyma gives flexible support, and lignified sclerenchyma gives strength.\n• Monocot root: A monocot root has many radial xylem bundles, large pith and normally lacks secondary growth.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Simple permanent tissues • Monocot root • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Xylem and Dicot stem with their biological significance.",
+              "answer": "• Xylem: Xylem conducts water and minerals through tracheids and vessels; fibres support and parenchyma stores food.\n• Dicot stem: A dicot stem has vascular bundles in a ring; bundles are conjoint, collateral and open due to cambium.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Xylem • Dicot stem • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Phloem and Monocot stem.",
+              "answer": "• Phloem: Phloem transports organic food through sieve elements assisted by companion cells; fibres support and parenchyma stores.\n• Monocot stem: A monocot stem has numerous scattered, closed vascular bundles surrounded by sclerenchymatous bundle sheaths.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Phloem • Monocot stem • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Tissue systems and Dorsiventral leaf with their biological significance.",
+              "answer": "• Tissue systems: Epidermal, ground and vascular tissue systems respectively protect, perform basic functions and conduct materials.\n• Dorsiventral leaf: A dicot leaf has palisade tissue above, spongy tissue below and more stomata on the lower epidermis.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Tissue systems • Dorsiventral leaf • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Dicot root and Isobilateral leaf.",
+              "answer": "• Dicot root: A dicot root has radial vascular bundles, exarch xylem, small pith and later develops secondary growth.\n• Isobilateral leaf: A monocot leaf has similar surfaces, stomata on both, undifferentiated mesophyll and bulliform cells.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Dicot root • Isobilateral leaf • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Monocot root and Vascular cambium with their biological significance.",
+              "answer": "• Monocot root: A monocot root has many radial xylem bundles, large pith and normally lacks secondary growth.\n• Vascular cambium: Cambial ring produces secondary xylem inward and secondary phloem outward, increasing stem girth.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Monocot root • Vascular cambium • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Dicot stem and Cork cambium.",
+              "answer": "• Dicot stem: A dicot stem has vascular bundles in a ring; bundles are conjoint, collateral and open due to cambium.\n• Cork cambium: Phellogen forms cork outward and secondary cortex inward; lenticels permit gaseous exchange through periderm.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Dicot stem • Cork cambium • definition • significance"
+            },
+            {
+              "id": "c11-bot-12-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Monocot stem and Wood and annual rings with their biological significance.",
+              "answer": "• Monocot stem: A monocot stem has numerous scattered, closed vascular bundles surrounded by sclerenchymatous bundle sheaths.\n• Wood and annual rings: Seasonal differences create spring wood and autumn wood; one pair forms an annual ring useful in estimating age.\n• Relationship: Both are central to histology and anatomy of flowering plants, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Monocot stem • Wood and annual rings • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-12-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Meristematic tissue, Apical, intercalary and lateral meristems, Simple permanent tissues in the context of Histology and Anatomy of Flowering Plants.",
+              "answer": "Introduction: Histology and Anatomy of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Meristematic tissue: Meristematic cells actively divide, have dense cytoplasm, prominent nuclei, thin walls and little or no vacuolation.\n2. Apical, intercalary and lateral meristems: Apical and intercalary meristems lengthen organs; lateral meristems increase girth by secondary growth.\n3. Simple permanent tissues: Parenchyma performs storage or photosynthesis, collenchyma gives flexible support, and lignified sclerenchyma gives strength.\n4. Xylem: Xylem conducts water and minerals through tracheids and vessels; fibres support and parenchyma stores food.\n5. Phloem: Phloem transports organic food through sieve elements assisted by companion cells; fibres support and parenchyma stores.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Meristematic tissue • Apical, intercalary and lateral meristems • Simple permanent tissues • Xylem • Phloem",
+              "diagram": "assets/botany/dicot-anatomy.svg",
+              "diagramAlt": "Labelled study diagram for Histology and Anatomy of Flowering Plants"
+            },
+            {
+              "id": "c11-bot-12-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Xylem, Phloem, Tissue systems in the context of Histology and Anatomy of Flowering Plants.",
+              "answer": "Introduction: Histology and Anatomy of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Xylem: Xylem conducts water and minerals through tracheids and vessels; fibres support and parenchyma stores food.\n2. Phloem: Phloem transports organic food through sieve elements assisted by companion cells; fibres support and parenchyma stores.\n3. Tissue systems: Epidermal, ground and vascular tissue systems respectively protect, perform basic functions and conduct materials.\n4. Dicot root: A dicot root has radial vascular bundles, exarch xylem, small pith and later develops secondary growth.\n5. Monocot root: A monocot root has many radial xylem bundles, large pith and normally lacks secondary growth.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Xylem • Phloem • Tissue systems • Dicot root • Monocot root",
+              "diagram": "assets/botany/dicot-anatomy.svg",
+              "diagramAlt": "Labelled study diagram for Histology and Anatomy of Flowering Plants"
+            },
+            {
+              "id": "c11-bot-12-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Dicot root, Monocot root, Dicot stem in the context of Histology and Anatomy of Flowering Plants.",
+              "answer": "Introduction: Histology and Anatomy of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Dicot root: A dicot root has radial vascular bundles, exarch xylem, small pith and later develops secondary growth.\n2. Monocot root: A monocot root has many radial xylem bundles, large pith and normally lacks secondary growth.\n3. Dicot stem: A dicot stem has vascular bundles in a ring; bundles are conjoint, collateral and open due to cambium.\n4. Monocot stem: A monocot stem has numerous scattered, closed vascular bundles surrounded by sclerenchymatous bundle sheaths.\n5. Dorsiventral leaf: A dicot leaf has palisade tissue above, spongy tissue below and more stomata on the lower epidermis.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Dicot root • Monocot root • Dicot stem • Monocot stem • Dorsiventral leaf"
+            },
+            {
+              "id": "c11-bot-12-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Monocot stem, Dorsiventral leaf, Isobilateral leaf in the context of Histology and Anatomy of Flowering Plants.",
+              "answer": "Introduction: Histology and Anatomy of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Monocot stem: A monocot stem has numerous scattered, closed vascular bundles surrounded by sclerenchymatous bundle sheaths.\n2. Dorsiventral leaf: A dicot leaf has palisade tissue above, spongy tissue below and more stomata on the lower epidermis.\n3. Isobilateral leaf: A monocot leaf has similar surfaces, stomata on both, undifferentiated mesophyll and bulliform cells.\n4. Vascular cambium: Cambial ring produces secondary xylem inward and secondary phloem outward, increasing stem girth.\n5. Cork cambium: Phellogen forms cork outward and secondary cortex inward; lenticels permit gaseous exchange through periderm.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Monocot stem • Dorsiventral leaf • Isobilateral leaf • Vascular cambium • Cork cambium"
+            },
+            {
+              "id": "c11-bot-12-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Vascular cambium, Cork cambium, Wood and annual rings in the context of Histology and Anatomy of Flowering Plants.",
+              "answer": "Introduction: Histology and Anatomy of Flowering Plants is best understood by connecting structure, process and significance.\n\n1. Vascular cambium: Cambial ring produces secondary xylem inward and secondary phloem outward, increasing stem girth.\n2. Cork cambium: Phellogen forms cork outward and secondary cortex inward; lenticels permit gaseous exchange through periderm.\n3. Wood and annual rings: Seasonal differences create spring wood and autumn wood; one pair forms an annual ring useful in estimating age.\n4. Meristematic tissue: Meristematic cells actively divide, have dense cytoplasm, prominent nuclei, thin walls and little or no vacuolation.\n5. Apical, intercalary and lateral meristems: Apical and intercalary meristems lengthen organs; lateral meristems increase girth by secondary growth.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Vascular cambium • Cork cambium • Wood and annual rings • Meristematic tissue • Apical, intercalary and lateral meristems"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-13",
           "number": 13,
           "name": "Plant Communities and Ecological Adaptations",
           "topics": [
-            "Introduction",
-            "Plant communities and ecological adaptations",
-            "Hydrophytes and their ecological adaptations",
-            "Mesophytes",
-            "Xerophytes and their ecological adaptations"
+            "Plant community",
+            "Community characters",
+            "Ecological succession",
+            "Primary and secondary succession",
+            "Hydrophyte",
+            "Hydrophyte roots and tissues",
+            "Hydrophyte aerenchyma",
+            "Floating-leaf adaptation",
+            "Mesophyte",
+            "Xerophyte",
+            "Xerophyte roots",
+            "Xerophyte leaves",
+            "Xerophyte epidermis and stomata",
+            "Succulent xerophytes",
+            "Convergent adaptation"
           ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-13-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Plant community.",
+              "answer": "A plant community is an assemblage of interacting plant populations living in a shared habitat.",
+              "keyPoints": "Plant community"
+            },
+            {
+              "id": "c11-bot-13-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Community characters?",
+              "answer": "Species composition, stratification, dominance, frequency, density and abundance describe community structure.",
+              "keyPoints": "Community characters"
+            },
+            {
+              "id": "c11-bot-13-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Ecological succession.",
+              "answer": "Succession is the orderly replacement of communities over time, culminating in a relatively stable climax community.",
+              "keyPoints": "Ecological succession"
+            },
+            {
+              "id": "c11-bot-13-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Primary and secondary succession.",
+              "answer": "Primary succession begins on bare substrate without soil; secondary succession begins where a previous community and soil remain.",
+              "keyPoints": "Primary and secondary succession"
+            },
+            {
+              "id": "c11-bot-13-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Hydrophyte?",
+              "answer": "A hydrophyte is adapted to live wholly or partly in water, as in Hydrilla, Nymphaea or Eichhornia.",
+              "keyPoints": "Hydrophyte"
+            },
+            {
+              "id": "c11-bot-13-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Hydrophyte roots and tissues.",
+              "answer": "Hydrophytes have reduced roots and vascular or mechanical tissues because water and support are readily available.",
+              "keyPoints": "Hydrophyte roots and tissues"
+            },
+            {
+              "id": "c11-bot-13-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Hydrophyte aerenchyma.",
+              "answer": "Large interconnected air spaces provide buoyancy, internal aeration and gas storage in aquatic plants.",
+              "keyPoints": "Hydrophyte aerenchyma"
+            },
+            {
+              "id": "c11-bot-13-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Floating-leaf adaptation?",
+              "answer": "Floating leaves are broad and waxy with stomata mainly on the upper surface, which remains exposed to air.",
+              "keyPoints": "Floating-leaf adaptation"
+            },
+            {
+              "id": "c11-bot-13-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Mesophyte.",
+              "answer": "A mesophyte grows where water is neither severely deficient nor excessive and shows ordinary roots, tissues and stomata.",
+              "keyPoints": "Mesophyte"
+            },
+            {
+              "id": "c11-bot-13-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Xerophyte.",
+              "answer": "A xerophyte survives dry habitats through features that acquire, store or conserve water.",
+              "keyPoints": "Xerophyte"
+            },
+            {
+              "id": "c11-bot-13-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Xerophyte roots?",
+              "answer": "Extensive deep or spreading root systems rapidly absorb water from a large soil volume.",
+              "keyPoints": "Xerophyte roots"
+            },
+            {
+              "id": "c11-bot-13-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Xerophyte leaves.",
+              "answer": "Leaves may be small, rolled, leathery or converted to spines, reducing exposed surface and transpiration.",
+              "keyPoints": "Xerophyte leaves"
+            },
+            {
+              "id": "c11-bot-13-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Xerophyte epidermis and stomata.",
+              "answer": "A thick cuticle, multiple epidermis, hairs and sunken stomata reduce water loss.",
+              "keyPoints": "Xerophyte epidermis and stomata"
+            },
+            {
+              "id": "c11-bot-13-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Succulent xerophytes?",
+              "answer": "Succulents store water in fleshy stems or leaves and often use stems for photosynthesis.",
+              "keyPoints": "Succulent xerophytes"
+            },
+            {
+              "id": "c11-bot-13-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Convergent adaptation.",
+              "answer": "Unrelated plants exposed to similar habitats may independently evolve similar adaptive features.",
+              "keyPoints": "Convergent adaptation"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-13-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Plant community and Hydrophyte roots and tissues.",
+              "answer": "• Plant community: A plant community is an assemblage of interacting plant populations living in a shared habitat.\n• Hydrophyte roots and tissues: Hydrophytes have reduced roots and vascular or mechanical tissues because water and support are readily available.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Plant community • Hydrophyte roots and tissues • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Community characters and Hydrophyte aerenchyma with their biological significance.",
+              "answer": "• Community characters: Species composition, stratification, dominance, frequency, density and abundance describe community structure.\n• Hydrophyte aerenchyma: Large interconnected air spaces provide buoyancy, internal aeration and gas storage in aquatic plants.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Community characters • Hydrophyte aerenchyma • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ecological succession and Floating-leaf adaptation.",
+              "answer": "• Ecological succession: Succession is the orderly replacement of communities over time, culminating in a relatively stable climax community.\n• Floating-leaf adaptation: Floating leaves are broad and waxy with stomata mainly on the upper surface, which remains exposed to air.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Ecological succession • Floating-leaf adaptation • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Primary and secondary succession and Mesophyte with their biological significance.",
+              "answer": "• Primary and secondary succession: Primary succession begins on bare substrate without soil; secondary succession begins where a previous community and soil remain.\n• Mesophyte: A mesophyte grows where water is neither severely deficient nor excessive and shows ordinary roots, tissues and stomata.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Primary and secondary succession • Mesophyte • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Hydrophyte and Xerophyte.",
+              "answer": "• Hydrophyte: A hydrophyte is adapted to live wholly or partly in water, as in Hydrilla, Nymphaea or Eichhornia.\n• Xerophyte: A xerophyte survives dry habitats through features that acquire, store or conserve water.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Hydrophyte • Xerophyte • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Hydrophyte roots and tissues and Xerophyte roots with their biological significance.",
+              "answer": "• Hydrophyte roots and tissues: Hydrophytes have reduced roots and vascular or mechanical tissues because water and support are readily available.\n• Xerophyte roots: Extensive deep or spreading root systems rapidly absorb water from a large soil volume.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Hydrophyte roots and tissues • Xerophyte roots • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Hydrophyte aerenchyma and Xerophyte leaves.",
+              "answer": "• Hydrophyte aerenchyma: Large interconnected air spaces provide buoyancy, internal aeration and gas storage in aquatic plants.\n• Xerophyte leaves: Leaves may be small, rolled, leathery or converted to spines, reducing exposed surface and transpiration.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Hydrophyte aerenchyma • Xerophyte leaves • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Floating-leaf adaptation and Xerophyte epidermis and stomata with their biological significance.",
+              "answer": "• Floating-leaf adaptation: Floating leaves are broad and waxy with stomata mainly on the upper surface, which remains exposed to air.\n• Xerophyte epidermis and stomata: A thick cuticle, multiple epidermis, hairs and sunken stomata reduce water loss.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Floating-leaf adaptation • Xerophyte epidermis and stomata • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Mesophyte and Succulent xerophytes.",
+              "answer": "• Mesophyte: A mesophyte grows where water is neither severely deficient nor excessive and shows ordinary roots, tissues and stomata.\n• Succulent xerophytes: Succulents store water in fleshy stems or leaves and often use stems for photosynthesis.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Mesophyte • Succulent xerophytes • definition • significance"
+            },
+            {
+              "id": "c11-bot-13-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Xerophyte and Convergent adaptation with their biological significance.",
+              "answer": "• Xerophyte: A xerophyte survives dry habitats through features that acquire, store or conserve water.\n• Convergent adaptation: Unrelated plants exposed to similar habitats may independently evolve similar adaptive features.\n• Relationship: Both are central to plant communities and ecological adaptations, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Xerophyte • Convergent adaptation • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-13-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Plant community, Community characters, Ecological succession in the context of Plant Communities and Ecological Adaptations.",
+              "answer": "Introduction: Plant Communities and Ecological Adaptations is best understood by connecting structure, process and significance.\n\n1. Plant community: A plant community is an assemblage of interacting plant populations living in a shared habitat.\n2. Community characters: Species composition, stratification, dominance, frequency, density and abundance describe community structure.\n3. Ecological succession: Succession is the orderly replacement of communities over time, culminating in a relatively stable climax community.\n4. Primary and secondary succession: Primary succession begins on bare substrate without soil; secondary succession begins where a previous community and soil remain.\n5. Hydrophyte: A hydrophyte is adapted to live wholly or partly in water, as in Hydrilla, Nymphaea or Eichhornia.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Plant community • Community characters • Ecological succession • Primary and secondary succession • Hydrophyte",
+              "diagram": "assets/botany/ecological-adaptations.svg",
+              "diagramAlt": "Labelled study diagram for Plant Communities and Ecological Adaptations"
+            },
+            {
+              "id": "c11-bot-13-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Primary and secondary succession, Hydrophyte, Hydrophyte roots and tissues in the context of Plant Communities and Ecological Adaptations.",
+              "answer": "Introduction: Plant Communities and Ecological Adaptations is best understood by connecting structure, process and significance.\n\n1. Primary and secondary succession: Primary succession begins on bare substrate without soil; secondary succession begins where a previous community and soil remain.\n2. Hydrophyte: A hydrophyte is adapted to live wholly or partly in water, as in Hydrilla, Nymphaea or Eichhornia.\n3. Hydrophyte roots and tissues: Hydrophytes have reduced roots and vascular or mechanical tissues because water and support are readily available.\n4. Hydrophyte aerenchyma: Large interconnected air spaces provide buoyancy, internal aeration and gas storage in aquatic plants.\n5. Floating-leaf adaptation: Floating leaves are broad and waxy with stomata mainly on the upper surface, which remains exposed to air.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Primary and secondary succession • Hydrophyte • Hydrophyte roots and tissues • Hydrophyte aerenchyma • Floating-leaf adaptation",
+              "diagram": "assets/botany/ecological-adaptations.svg",
+              "diagramAlt": "Labelled study diagram for Plant Communities and Ecological Adaptations"
+            },
+            {
+              "id": "c11-bot-13-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Hydrophyte aerenchyma, Floating-leaf adaptation, Mesophyte in the context of Plant Communities and Ecological Adaptations.",
+              "answer": "Introduction: Plant Communities and Ecological Adaptations is best understood by connecting structure, process and significance.\n\n1. Hydrophyte aerenchyma: Large interconnected air spaces provide buoyancy, internal aeration and gas storage in aquatic plants.\n2. Floating-leaf adaptation: Floating leaves are broad and waxy with stomata mainly on the upper surface, which remains exposed to air.\n3. Mesophyte: A mesophyte grows where water is neither severely deficient nor excessive and shows ordinary roots, tissues and stomata.\n4. Xerophyte: A xerophyte survives dry habitats through features that acquire, store or conserve water.\n5. Xerophyte roots: Extensive deep or spreading root systems rapidly absorb water from a large soil volume.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Hydrophyte aerenchyma • Floating-leaf adaptation • Mesophyte • Xerophyte • Xerophyte roots"
+            },
+            {
+              "id": "c11-bot-13-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Xerophyte, Xerophyte roots, Xerophyte leaves in the context of Plant Communities and Ecological Adaptations.",
+              "answer": "Introduction: Plant Communities and Ecological Adaptations is best understood by connecting structure, process and significance.\n\n1. Xerophyte: A xerophyte survives dry habitats through features that acquire, store or conserve water.\n2. Xerophyte roots: Extensive deep or spreading root systems rapidly absorb water from a large soil volume.\n3. Xerophyte leaves: Leaves may be small, rolled, leathery or converted to spines, reducing exposed surface and transpiration.\n4. Xerophyte epidermis and stomata: A thick cuticle, multiple epidermis, hairs and sunken stomata reduce water loss.\n5. Succulent xerophytes: Succulents store water in fleshy stems or leaves and often use stems for photosynthesis.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Xerophyte • Xerophyte roots • Xerophyte leaves • Xerophyte epidermis and stomata • Succulent xerophytes"
+            },
+            {
+              "id": "c11-bot-13-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Xerophyte epidermis and stomata, Succulent xerophytes, Convergent adaptation in the context of Plant Communities and Ecological Adaptations.",
+              "answer": "Introduction: Plant Communities and Ecological Adaptations is best understood by connecting structure, process and significance.\n\n1. Xerophyte epidermis and stomata: A thick cuticle, multiple epidermis, hairs and sunken stomata reduce water loss.\n2. Succulent xerophytes: Succulents store water in fleshy stems or leaves and often use stems for photosynthesis.\n3. Convergent adaptation: Unrelated plants exposed to similar habitats may independently evolve similar adaptive features.\n4. Plant community: A plant community is an assemblage of interacting plant populations living in a shared habitat.\n5. Community characters: Species composition, stratification, dominance, frequency, density and abundance describe community structure.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Xerophyte epidermis and stomata • Succulent xerophytes • Convergent adaptation • Plant community • Community characters"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         },
         {
           "id": "class11-botany-14",
           "number": 14,
           "name": "Economic Botany",
           "topics": [
-            "Introduction",
-            "Cereals: Rice",
-            "Millets: Ragi",
-            "Pulses: Red gram",
-            "Oil seeds: Sunflower",
-            "Fibres: Cotton",
-            "Phytomedicines: Neem",
-            "Spices: Black pepper",
-            "Beverages (non-alcoholic): Coffee",
-            "Timber: Teak",
-            "Biodiesel: Jatropha"
+            "Economic botany",
+            "Rice",
+            "Ragi",
+            "Red gram",
+            "Sunflower",
+            "Cotton",
+            "Neem",
+            "Black pepper",
+            "Coffee",
+            "Teak",
+            "Jatropha",
+            "Cereal, millet and pulse",
+            "Fibre crop",
+            "Phytomedicine",
+            "Sustainable use"
           ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "vsaq": [
+            {
+              "id": "c11-bot-14-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Economic botany.",
+              "answer": "Economic botany studies plants directly or indirectly useful to people and the products obtained from them.",
+              "keyPoints": "Economic botany"
+            },
+            {
+              "id": "c11-bot-14-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Rice?",
+              "answer": "Oryza sativa is a cereal of Poaceae; its starchy endosperm is staple food and bran yields oil.",
+              "keyPoints": "Rice"
+            },
+            {
+              "id": "c11-bot-14-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Ragi.",
+              "answer": "Eleusine coracana is a drought-tolerant millet rich in calcium and dietary fibre.",
+              "keyPoints": "Ragi"
+            },
+            {
+              "id": "c11-bot-14-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Red gram.",
+              "answer": "Cajanus cajan is a protein-rich pulse whose Rhizobium-bearing roots improve soil nitrogen.",
+              "keyPoints": "Red gram"
+            },
+            {
+              "id": "c11-bot-14-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Sunflower?",
+              "answer": "Helianthus annuus of Asteraceae yields edible oil from its cypsela-like fruits and oil-rich seeds.",
+              "keyPoints": "Sunflower"
+            },
+            {
+              "id": "c11-bot-14-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Cotton.",
+              "answer": "Gossypium species of Malvaceae produce unicellular seed-coat fibres used by the textile industry.",
+              "keyPoints": "Cotton"
+            },
+            {
+              "id": "c11-bot-14-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Neem.",
+              "answer": "Azadirachta indica provides medicinal limonoids such as azadirachtin and is used as a biopesticide.",
+              "keyPoints": "Neem"
+            },
+            {
+              "id": "c11-bot-14-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Black pepper?",
+              "answer": "Piper nigrum is a climbing vine whose dried drupes are used as spice; piperine produces pungency.",
+              "keyPoints": "Black pepper"
+            },
+            {
+              "id": "c11-bot-14-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Coffee.",
+              "answer": "Coffea seeds are processed to make a stimulant beverage; caffeine is its principal alkaloid.",
+              "keyPoints": "Coffee"
+            },
+            {
+              "id": "c11-bot-14-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Teak.",
+              "answer": "Tectona grandis yields strong, durable, termite-resistant timber used in furniture and construction.",
+              "keyPoints": "Teak"
+            },
+            {
+              "id": "c11-bot-14-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Jatropha?",
+              "answer": "Jatropha curcas seeds yield non-edible oil that can be converted into biodiesel.",
+              "keyPoints": "Jatropha"
+            },
+            {
+              "id": "c11-bot-14-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Cereal, millet and pulse.",
+              "answer": "Cereals and millets chiefly provide carbohydrate-rich grains, while pulses supply protein-rich legume seeds.",
+              "keyPoints": "Cereal, millet and pulse"
+            },
+            {
+              "id": "c11-bot-14-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Fibre crop.",
+              "answer": "A fibre crop supplies long, strong cells used for textiles, ropes or other materials; cotton is a surface fibre.",
+              "keyPoints": "Fibre crop"
+            },
+            {
+              "id": "c11-bot-14-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Phytomedicine?",
+              "answer": "A phytomedicine is a medicinal preparation or active compound obtained from plants.",
+              "keyPoints": "Phytomedicine"
+            },
+            {
+              "id": "c11-bot-14-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Sustainable use.",
+              "answer": "Sustainable cultivation, processing and conservation protect useful plant diversity while supporting livelihoods.",
+              "keyPoints": "Sustainable use"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-bot-14-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Economic botany and Cotton.",
+              "answer": "• Economic botany: Economic botany studies plants directly or indirectly useful to people and the products obtained from them.\n• Cotton: Gossypium species of Malvaceae produce unicellular seed-coat fibres used by the textile industry.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Economic botany • Cotton • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Rice and Neem with their biological significance.",
+              "answer": "• Rice: Oryza sativa is a cereal of Poaceae; its starchy endosperm is staple food and bran yields oil.\n• Neem: Azadirachta indica provides medicinal limonoids such as azadirachtin and is used as a biopesticide.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Rice • Neem • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ragi and Black pepper.",
+              "answer": "• Ragi: Eleusine coracana is a drought-tolerant millet rich in calcium and dietary fibre.\n• Black pepper: Piper nigrum is a climbing vine whose dried drupes are used as spice; piperine produces pungency.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Ragi • Black pepper • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Red gram and Coffee with their biological significance.",
+              "answer": "• Red gram: Cajanus cajan is a protein-rich pulse whose Rhizobium-bearing roots improve soil nitrogen.\n• Coffee: Coffea seeds are processed to make a stimulant beverage; caffeine is its principal alkaloid.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Red gram • Coffee • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Sunflower and Teak.",
+              "answer": "• Sunflower: Helianthus annuus of Asteraceae yields edible oil from its cypsela-like fruits and oil-rich seeds.\n• Teak: Tectona grandis yields strong, durable, termite-resistant timber used in furniture and construction.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Sunflower • Teak • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Cotton and Jatropha with their biological significance.",
+              "answer": "• Cotton: Gossypium species of Malvaceae produce unicellular seed-coat fibres used by the textile industry.\n• Jatropha: Jatropha curcas seeds yield non-edible oil that can be converted into biodiesel.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Cotton • Jatropha • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Neem and Cereal, millet and pulse.",
+              "answer": "• Neem: Azadirachta indica provides medicinal limonoids such as azadirachtin and is used as a biopesticide.\n• Cereal, millet and pulse: Cereals and millets chiefly provide carbohydrate-rich grains, while pulses supply protein-rich legume seeds.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Neem • Cereal, millet and pulse • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Black pepper and Fibre crop with their biological significance.",
+              "answer": "• Black pepper: Piper nigrum is a climbing vine whose dried drupes are used as spice; piperine produces pungency.\n• Fibre crop: A fibre crop supplies long, strong cells used for textiles, ropes or other materials; cotton is a surface fibre.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Black pepper • Fibre crop • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Coffee and Phytomedicine.",
+              "answer": "• Coffee: Coffea seeds are processed to make a stimulant beverage; caffeine is its principal alkaloid.\n• Phytomedicine: A phytomedicine is a medicinal preparation or active compound obtained from plants.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Coffee • Phytomedicine • definition • significance"
+            },
+            {
+              "id": "c11-bot-14-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Teak and Sustainable use with their biological significance.",
+              "answer": "• Teak: Tectona grandis yields strong, durable, termite-resistant timber used in furniture and construction.\n• Sustainable use: Sustainable cultivation, processing and conservation protect useful plant diversity while supporting livelihoods.\n• Relationship: Both are central to economic botany, but they describe different levels, structures or processes.\n• Exam point: State the defining feature first, then add the example, function or consequence.",
+              "keyPoints": "Teak • Sustainable use • definition • significance"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-bot-14-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Economic botany, Rice, Ragi in the context of Economic Botany.",
+              "answer": "Introduction: Economic Botany is best understood by connecting structure, process and significance.\n\n1. Economic botany: Economic botany studies plants directly or indirectly useful to people and the products obtained from them.\n2. Rice: Oryza sativa is a cereal of Poaceae; its starchy endosperm is staple food and bran yields oil.\n3. Ragi: Eleusine coracana is a drought-tolerant millet rich in calcium and dietary fibre.\n4. Red gram: Cajanus cajan is a protein-rich pulse whose Rhizobium-bearing roots improve soil nitrogen.\n5. Sunflower: Helianthus annuus of Asteraceae yields edible oil from its cypsela-like fruits and oil-rich seeds.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Economic botany • Rice • Ragi • Red gram • Sunflower"
+            },
+            {
+              "id": "c11-bot-14-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Red gram, Sunflower, Cotton in the context of Economic Botany.",
+              "answer": "Introduction: Economic Botany is best understood by connecting structure, process and significance.\n\n1. Red gram: Cajanus cajan is a protein-rich pulse whose Rhizobium-bearing roots improve soil nitrogen.\n2. Sunflower: Helianthus annuus of Asteraceae yields edible oil from its cypsela-like fruits and oil-rich seeds.\n3. Cotton: Gossypium species of Malvaceae produce unicellular seed-coat fibres used by the textile industry.\n4. Neem: Azadirachta indica provides medicinal limonoids such as azadirachtin and is used as a biopesticide.\n5. Black pepper: Piper nigrum is a climbing vine whose dried drupes are used as spice; piperine produces pungency.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Red gram • Sunflower • Cotton • Neem • Black pepper"
+            },
+            {
+              "id": "c11-bot-14-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Neem, Black pepper, Coffee in the context of Economic Botany.",
+              "answer": "Introduction: Economic Botany is best understood by connecting structure, process and significance.\n\n1. Neem: Azadirachta indica provides medicinal limonoids such as azadirachtin and is used as a biopesticide.\n2. Black pepper: Piper nigrum is a climbing vine whose dried drupes are used as spice; piperine produces pungency.\n3. Coffee: Coffea seeds are processed to make a stimulant beverage; caffeine is its principal alkaloid.\n4. Teak: Tectona grandis yields strong, durable, termite-resistant timber used in furniture and construction.\n5. Jatropha: Jatropha curcas seeds yield non-edible oil that can be converted into biodiesel.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Neem • Black pepper • Coffee • Teak • Jatropha"
+            },
+            {
+              "id": "c11-bot-14-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Teak, Jatropha, Cereal, millet and pulse in the context of Economic Botany.",
+              "answer": "Introduction: Economic Botany is best understood by connecting structure, process and significance.\n\n1. Teak: Tectona grandis yields strong, durable, termite-resistant timber used in furniture and construction.\n2. Jatropha: Jatropha curcas seeds yield non-edible oil that can be converted into biodiesel.\n3. Cereal, millet and pulse: Cereals and millets chiefly provide carbohydrate-rich grains, while pulses supply protein-rich legume seeds.\n4. Fibre crop: A fibre crop supplies long, strong cells used for textiles, ropes or other materials; cotton is a surface fibre.\n5. Phytomedicine: A phytomedicine is a medicinal preparation or active compound obtained from plants.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Teak • Jatropha • Cereal, millet and pulse • Fibre crop • Phytomedicine"
+            },
+            {
+              "id": "c11-bot-14-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Fibre crop, Phytomedicine, Sustainable use in the context of Economic Botany.",
+              "answer": "Introduction: Economic Botany is best understood by connecting structure, process and significance.\n\n1. Fibre crop: A fibre crop supplies long, strong cells used for textiles, ropes or other materials; cotton is a surface fibre.\n2. Phytomedicine: A phytomedicine is a medicinal preparation or active compound obtained from plants.\n3. Sustainable use: Sustainable cultivation, processing and conservation protect useful plant diversity while supporting livelihoods.\n4. Economic botany: Economic botany studies plants directly or indirectly useful to people and the products obtained from them.\n5. Rice: Oryza sativa is a cereal of Poaceae; its starchy endosperm is staple food and bran yields oil.\n\nConclusion: These points together explain the chapter concept from its definition through its biological role. In an 8-mark answer, use these subheadings, underline technical terms and add the labelled diagram when relevant.",
+              "keyPoints": "Fibre crop • Phytomedicine • Sustainable use • Economic botany • Rice"
+            }
+          ],
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Write to the command word, underline keywords, and add a neat labelled diagram wherever requested.",
+            "sourceNote": "Prior Telangana Intermediate paper pattern and complete chapter syllabus coverage; not a prediction of the next paper."
+          }
         }
-      ]
+      ],
+      "boardAnalysis": {
+        "exam": "Telangana Intermediate First Year Botany",
+        "duration": "3 hours",
+        "maximumMarks": 60,
+        "sections": [
+          {
+            "name": "Section A",
+            "format": "VSAQ",
+            "marks": "10 × 2 = 20",
+            "rule": "Answer all 10; about five lines each."
+          },
+          {
+            "name": "Section B",
+            "format": "SAQ",
+            "marks": "6 × 4 = 24",
+            "rule": "Answer any 6 of 8; about twenty lines each."
+          },
+          {
+            "name": "Section C",
+            "format": "LAQ",
+            "marks": "2 × 8 = 16",
+            "rule": "Answer any 2 of 3; about sixty lines each."
+          }
+        ],
+        "note": "Built from the recurring structure of available Telangana Intermediate papers and the complete published syllabus. Importance labels guide revision; they are not guaranteed questions."
+      }
     },
     "zoology": {
       "subject": "Zoology",
