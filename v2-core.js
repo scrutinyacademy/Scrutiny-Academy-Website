@@ -23,6 +23,7 @@
       platform: null,
       manifest: null,
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
+      class11: { chapter: 0, format: "vsaq", data: null, search: "" },
       neet: { subject: "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
       flashcards: {
@@ -321,6 +322,7 @@
   }
   async function renderCatalog(k) {
     const d = await load(repo[k]);
+    if (k === "class11") await renderBotanyBank();
     document.querySelector(`[data-catalog="${k}"]`).innerHTML = (
       d.subjects || []
     )
@@ -329,6 +331,75 @@
           `<article><strong>${esc(s.name)}</strong><span>${(s.chapters || []).length} chapters listed</span></article>`,
       )
       .join("");
+  }
+
+  async function renderBotanyBank() {
+    const subject = state.manifest.categories
+      .find((c) => c.id === "class11")?.subjects
+      .find((s) => s.id === "botany");
+    if (!subject) return;
+    state.class11.data = await load(subject.file);
+    const analysis = state.class11.data.boardAnalysis;
+    $("botanyPattern").innerHTML = analysis.sections.map((section) =>
+      `<article><span>${esc(section.name)}</span><strong>${esc(section.format)}</strong><b>${esc(section.marks)}</b><small>${esc(section.rule)}</small></article>`
+    ).join("") + `<p><strong>Paper analysis:</strong> ${esc(analysis.note)}</p>`;
+    $("botanySearch").oninput = (event) => {
+      state.class11.search = event.target.value.trim().toLowerCase();
+      renderBotanyChapters();
+    };
+    $("botanyTabs").querySelectorAll("button").forEach((button) => {
+      button.onclick = () => {
+        state.class11.format = button.dataset.format;
+        $("botanyTabs").querySelectorAll("button").forEach((item) => item.classList.toggle("active", item === button));
+        renderBotanyContent();
+      };
+    });
+    renderBotanyChapters();
+    renderBotanyContent();
+  }
+
+  function renderBotanyChapters() {
+    const chapters = state.class11.data?.chapters || [];
+    const visible = chapters.map((chapter, index) => ({ chapter, index })).filter(({chapter}) =>
+      !state.class11.search || chapter.name.toLowerCase().includes(state.class11.search) ||
+      (chapter.topics || []).some((topic) => topic.toLowerCase().includes(state.class11.search))
+    );
+    $("botanyChapterList").innerHTML = visible.length ? visible.map(({chapter,index}) =>
+      `<button type="button" data-index="${index}" class="${index === state.class11.chapter ? "active" : ""}"><span>${String(chapter.number).padStart(2,"0")}</span><b>${esc(chapter.name)}</b><small>30 answers</small></button>`
+    ).join("") : '<div class="empty-state">No chapter matches that search.</div>';
+    $("botanyChapterList").querySelectorAll("button").forEach((button) => {
+      button.onclick = () => {
+        state.class11.chapter = Number(button.dataset.index);
+        renderBotanyChapters();
+        renderBotanyContent();
+        $("botanyChapterTitle").scrollIntoView({behavior:"smooth",block:"center"});
+      };
+    });
+  }
+
+  function answerHtml(answer) {
+    return String(answer || "").split(/\n\n+/).map((paragraph) =>
+      `<p>${paragraph.split("\n").map((line) => esc(line)).join("<br>")}</p>`
+    ).join("");
+  }
+
+  function renderBotanyContent() {
+    const chapter = state.class11.data?.chapters?.[state.class11.chapter];
+    if (!chapter) return;
+    const format = state.class11.format, items = chapter[format] || [];
+    $("botanyChapterNumber").textContent = `CHAPTER ${chapter.number} • ${format.toUpperCase()}`;
+    $("botanyChapterTitle").textContent = chapter.name;
+    $("botanyQuestionCount").textContent = `${items.length} questions • ${items[0]?.marks || 0} marks each`;
+    $("botanyGuidance").innerHTML = `<strong>How to score:</strong> ${esc(chapter.examAnalysis.approach)} <span>${esc(chapter.examAnalysis.sourceNote)}</span>`;
+    $("botanyContent").innerHTML = items.map((item,index) =>
+      `<details class="botany-question"><summary><span class="q-number">${String(index+1).padStart(2,"0")}</span><span><small>${esc(item.priority)} • ${item.marks} marks</small><b>${esc(item.question)}</b></span><i aria-hidden="true">+</i></summary><div class="botany-answer"><div class="answer-label">MODEL ANSWER</div>${answerHtml(item.answer)}<div class="keyword-strip"><strong>Keywords:</strong> ${esc(item.keyPoints)}</div>${item.diagram ? `<figure><img src="${esc(item.diagram)}" alt="${esc(item.diagramAlt)}" loading="lazy"><figcaption>${esc(item.diagramAlt)} — redraw neatly and label it in the exam.</figcaption></figure>` : ""}</div></details>`
+    ).join("");
+    $("botanyContent").querySelectorAll("details").forEach((details) => {
+      details.addEventListener("toggle", () => {
+        const icon = details.querySelector("summary i");
+        if (icon) icon.textContent = details.open ? "−" : "+";
+      });
+    });
   }
   function neetCat() {
     return state.manifest.categories.find((c) => c.id === "neet");
