@@ -3,133 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#0d3b76" />
-  <title>Scrutiny Academy | Student Access</title>
-  <meta name="description" content="Student login and registration portal for Scrutiny Academy." />
-  <link rel="icon" href="assets/favicon.svg" />
-  <link rel="stylesheet" href="auth.css" />
+  <meta name="robots" content="noindex" />
+  <title>Opening Scrutiny Academy…</title>
+  <link rel="canonical" href="index.html" />
+  <meta http-equiv="refresh" content="0;url=index.html?mode=login#authCard" />
 </head>
-<body class="medical-auth">
-  <div class="auth-bg" aria-hidden="true"></div>
-  <header class="auth-nav">
-    <a class="brand" href="login.html" aria-label="Scrutiny Academy">
-      <img src="assets/logo.svg" alt="Scrutiny Academy logo" />
-      <span><strong>SCRUTINY ACADEMY</strong><small>LEARN • UNDERSTAND • PRACTICE • MASTER</small></span>
-    </a>
-    <nav aria-label="Student portal">
-      <a href="login.html" class="active">Home</a>
-      <a href="preview-v2.html">Study Material</a>
-      <a href="references.html">NCERT Tools</a>
-      <a class="login-pill" href="#authCard">🎓 Student Login</a>
-    </nav>
-  </header>
-
-  <main class="auth-shell">
-    <section class="brand-panel">
-      <div class="hero-chip">NEET &nbsp;|&nbsp; CLASS 11 &amp; 12 &nbsp;|&nbsp; MEDICAL LEARNING ECOSYSTEM</div>
-      <div class="brand-copy">
-        <h1>Your Dream <span>Medical Career</span> Starts Here.</h1>
-        <p>Join Scrutiny Academy and get structured study material, NCERT-based notes, MCQs, PYQs, revision tools and more — <strong>all in one place.</strong></p>
-      </div>
-      <div class="feature-row" aria-label="Platform benefits">
-        <div><b>▣</b><span>NCERT<br />Focused</span></div>
-        <div><b>◎</b><span>NEET<br />Oriented</span></div>
-        <div><b>↗</b><span>Practice &amp;<br />Track Progress</span></div>
-        <div><b>♟</b><span>Learn<br />Anywhere</span></div>
-      </div>
-      <div class="offer-card">
-        <div class="offer-price"><strong>5</strong><span>Protected course plans</span></div>
-        <div class="offer-copy"><b>⏱</b><span>Plans from ₹99<br />Choose your course<br /><strong>Access stays separate</strong></span></div>
-      </div>
-      <div class="doctor-note">Discipline Today<br /><strong>Doctor Tomorrow</strong> <span>〰 ♥</span></div>
-      <div class="social">
-        <a href="https://m.youtube.com/@ScrutinyAcademy" target="_blank" rel="noopener noreferrer">▶ YouTube</a>
-        <a href="https://www.instagram.com/scrutinyacademy" target="_blank" rel="noopener noreferrer">◎ Instagram</a>
-        <a href="mailto:scrutinyacademy@gmail.com">☏ Help Desk</a>
-      </div>
-    </section>
-
-    <section class="auth-card" id="authCard" aria-labelledby="authTitle">
-      <div class="medical-corner" aria-hidden="true">🩺</div>
-      <div class="tabs" role="tablist">
-        <button class="tab active" id="loginTab" type="button">Login</button>
-        <button class="tab" id="registerTab" type="button">Register</button>
-      </div>
-      <form id="loginForm" class="form active">
-        <div><span class="eyebrow">WELCOME BACK</span><h2 id="authTitle">Student Login</h2><p>Enter your registered email and password.</p></div>
-        <label>Email<input id="loginEmail" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
-        <label>Password<input id="loginPassword" type="password" autocomplete="current-password" required minlength="6" placeholder="••••••••" /></label>
-        <button class="primary" type="submit">LOGIN →</button>
-        <button class="link-btn" id="forgotPassword" type="button">Forgot password?</button>
-      </form>
-
-      <form id="registerForm" class="form">
-        <div><span class="eyebrow">NEW STUDENT</span><h2>Create Account</h2><p>Use your own email. You will verify it before access can be approved.</p></div>
-        <div class="two-col">
-          <label>Full Name<input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name" /></label>
-          <label>Mobile<input id="regPhone" type="tel" autocomplete="tel" required maxlength="15" placeholder="10-digit number" /></label>
-        </div>
-        <label>Choose your course<select id="regCourse" required><option value="" disabled selected>Select course and price</option><option value="class10">Class 10 SSC Complete Course — ₹99</option><option value="class11">Class 11 Board Booster — ₹149</option><option value="class12">Class 12 Board Booster — ₹149</option><option value="neet">NEET-UG Target Course — ₹99 until 5 Oct</option><option value="mbbs">MBBS Complete Learning Course — ₹799 lifetime</option></select></label>
-        <label id="neetYearWrap" hidden>Which NEET exam are you preparing for?<select id="regNeetYear"><option value="" disabled selected>Choose NEET exam year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
-        <div class="course-selection-summary" id="courseSelectionSummary" hidden></div>
-        <label>Email<input id="regEmail" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
-        <label>Password<input id="regPassword" type="password" autocomplete="new-password" required minlength="8" placeholder="Minimum 8 characters" /></label>
-        <label class="check"><input id="terms" type="checkbox" required /><span>I agree to use this account only for my own learning and understand access is activated after payment verification.</span></label>
-        <button class="primary" type="submit">CREATE ACCOUNT →</button>
-      </form>
-      <div class="trust-line">🔒 Secure &amp; Trusted Payment via Razorpay</div>
-      <div class="trust-grid"><span>♢<small>Safe &amp; Secure</small></span><span>ϟ<small>Instant Access</small></span><span>∞<small>Learn Without Limits</small></span></div>
-      <div class="message" id="authMessage" role="status" aria-live="polite"></div>
-    </section>
-  </main>
-  <section class="reviews-section" aria-labelledby="reviewsTitle">
-    <div class="reviews-head">
-      <div><span class="eyebrow">STUDENT &amp; COMMUNITY FEEDBACK</span><h2 id="reviewsTitle">What learners say</h2><p>Everyone is welcome to share an honest rating and review. Reviews from registered students carry a verified badge.</p></div>
-      <div class="rating-summary"><strong id="publicRating">—</strong><span class="stars" id="publicStars">★★★★★</span><small id="publicReviewCount">Loading reviews…</small></div>
-    </div>
-    <div class="reviews-grid" id="publicReviews"><div class="review-empty">Loading student reviews…</div></div>
-    <div class="public-review-panel">
-      <div class="public-review-copy">
-        <span class="eyebrow">SHARE YOUR EXPERIENCE</span>
-        <h3>Add your rating and review</h3>
-        <p>Tell students what you found useful. Your name, rating and review will be shown publicly; contact details are never requested or displayed.</p>
-        <div class="verified-explainer"><span class="verified-check" aria-hidden="true">✓</span><span><strong>Verified Scrutiny Student</strong><small>Shown only when a registered student reviews from their signed-in dashboard.</small></span></div>
-      </div>
-      <form id="publicReviewForm" class="review-form public-review-form">
-        <label>Your name<input id="publicReviewName" type="text" autocomplete="name" minlength="2" maxlength="80" required placeholder="Enter your name" /></label>
-        <fieldset><legend>Your rating</legend><div class="star-picker" id="publicStarPicker" aria-label="Choose a rating out of 5">
-          <button type="button" data-star="1" aria-label="1 star">★</button><button type="button" data-star="2" aria-label="2 stars">★</button><button type="button" data-star="3" aria-label="3 stars">★</button><button type="button" data-star="4" aria-label="4 stars">★</button><button type="button" data-star="5" aria-label="5 stars">★</button>
-        </div></fieldset>
-        <label>Your review<textarea id="publicReviewText" maxlength="500" minlength="10" required placeholder="Share an honest and useful review in at least 10 characters."></textarea></label>
-        <label class="review-honeypot" aria-hidden="true">Leave this empty<input id="publicReviewWebsite" type="text" tabindex="-1" autocomplete="off" /></label>
-        <div class="review-submit-row"><button class="primary" type="submit">SUBMIT REVIEW</button><span id="publicReviewMessage" class="message" role="status" aria-live="polite"></span></div>
-      </form>
-    </div>
-    <p class="review-note">Registered students can submit or update their verified review from the Student Dashboard after signing in.</p>
-  </section>
-  <section class="reviews-section founder-login-note" aria-labelledby="founderLoginTitle">
-    <div class="reviews-head">
-      <div>
-        <span class="eyebrow">A NOTE FROM THE FOUNDER</span>
-        <h2 id="founderLoginTitle">Built for students who want to understand, practise and improve.</h2>
-      </div>
-    </div>
-    <div class="card founder-card">
-      <div class="founder-photo-wrap">
-        <img class="founder-photo" src="assets/%20%20%20%20founder-pramod-sharma.jpeg.png" alt="Pramod Sharma, Founder of Scrutiny Academy" loading="lazy" decoding="async" />
-      </div>
-      <div class="founder-copy">
-      <p>Scrutiny Academy started with a simple idea: quality preparation should be clear, structured and genuinely useful to students.</p>
-      <p>Preparing for an exam can feel overwhelming—not because students lack potential, but because there is simply too much to study and too much noise around what actually matters. That is why we focus on turning the syllabus into focused learning resources, NCERT-based practice, revision tools and tests that help you identify exactly where you need to improve.</p>
-      <p>Every test you attempt, every mistake you analyse and every concept you revise is progress. <strong>Don’t study just to finish the syllabus. Study until you can trust yourself in the examination hall.</strong></p>
-      <p>We will continue improving Scrutiny Academy based on what students actually need. Your reviews and suggestions help shape what we build next.</p>
-      <p><strong>Keep learning. Keep questioning. Keep improving.</strong></p>
-      <p><strong>Pramod Sharma</strong><br><span>Founder, Scrutiny Academy</span></p>
-      <blockquote>“Your score is a result. Your preparation is something you can control every single day.”</blockquote>
-      </div>
-    </div>
-  </section>
-<footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund policy</a></footer>
-  <script type="module" src="auth.js"></script>\n  <script type="module" src="reviews.js"></script>
+<body>
+  <p>Opening the Scrutiny Academy student login… <a href="index.html?mode=login#authCard">Continue</a></p>
+  <script>
+    const target = new URL('index.html', location.href);
+    const current = new URLSearchParams(location.search);
+    current.forEach((value, key) => target.searchParams.set(key, value));
+    target.searchParams.set('mode', 'login');
+    target.hash = 'authCard';
+    location.replace(target.href);
+  </script>
 </body>
 </html>
