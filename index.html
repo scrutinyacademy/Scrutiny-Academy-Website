@@ -20,10 +20,10 @@
     </a>
     <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav id="homeNav" aria-label="Main navigation">
-      <a href="index.html" class="active">Home</a>
+      <a href="#home" class="active">Home</a>
       <a href="#benefits">About</a>
-      <a href="preview-v2.html">Subjects</a>
-      <a href="preview-v2.html">NEET</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#neet-plan">NEET</a>
       <a href="references.html">Study Material</a>
       <a href="#pricing">Pricing</a>
       <a class="login-pill" href="#authCard" data-auth-mode="login">
@@ -33,7 +33,7 @@
     </nav>
   </header>
 
-  <main class="auth-shell">
+  <main class="auth-shell" id="home">
     <section class="brand-panel" aria-labelledby="heroTitle">
       <div class="hero-chip">NEET <span></span> CLASS 11 &amp; 12 <span></span> MEDICAL LEARNING ECOSYSTEM</div>
       <div class="brand-copy">
@@ -93,24 +93,82 @@
       <div class="message" id="authMessage" role="status" aria-live="polite"></div>
     </section>
   </main>
-  <section class="course-pricing-section" aria-labelledby="coursePlansTitle">
+  <section class="course-pricing-section" id="subjects" aria-labelledby="coursePlansTitle">
     <div class="course-pricing-head"><span class="eyebrow">CHOOSE YOUR COURSE</span><h2 id="coursePlansTitle">One payment. One protected learning portal.</h2><p>Your payment unlocks only the course you select. Other course content remains locked.</p></div>
     <div class="course-pricing-grid">
       <article class="course-plan"><span class="plan-icon">📘</span><h3>Class 10 SSC Complete Course 2027</h3><div class="plan-price">₹99 <small>one-time</small></div><ul><li>Lectures</li><li>Notes</li><li>Revision sheets</li><li>Flashcards</li><li>MCQs</li></ul><p class="plan-validity">Valid until your 2027 Class 10 board examinations conclude.</p><a href="#authCard" data-select-course="class10">SELECT CLASS 10</a></article>
       <article class="course-plan"><span class="plan-icon">🌱</span><h3>Class 11 Board Booster 2027</h3><div class="plan-price">₹149 <small>one-time</small></div><ul><li>Revision sheets</li><li>VSAQs</li><li>SAQs</li><li>LAQs</li></ul><p class="plan-validity">Valid until your 2027 Class 11 annual examinations conclude.</p><a href="#authCard" data-select-course="class11">SELECT CLASS 11</a></article>
       <article class="course-plan"><span class="plan-icon">🎓</span><h3>Class 12 Board Booster 2027</h3><div class="plan-price">₹149 <small>one-time</small></div><ul><li>Revision sheets</li><li>VSAQs</li><li>SAQs</li><li>LAQs</li></ul><p class="plan-validity">Valid until your 2027 Class 12 board examinations conclude.</p><a href="#authCard" data-select-course="class12">SELECT CLASS 12</a></article>
-      <article class="course-plan featured"><span class="plan-badge" data-neet-badge>INTRODUCTORY OFFER</span><span class="plan-icon">🧬</span><h3>NEET-UG Target Course</h3><div class="plan-price"><span data-neet-price>₹99</span> <small data-neet-price-note>until 5 October 2026</small></div><p class="next-price" data-neet-next-price>₹499 from 6 October 2026</p><ul><li>Physics, Chemistry and Biology MCQs</li><li>NCERT search and revision tools</li><li>PYQs, tests and analytics</li><li>Mistake revision</li></ul><p class="plan-validity">Choose NEET 2027 or 2028. Access remains valid through that examination.</p><a href="#authCard" data-select-course="neet">SELECT NEET-UG</a></article>
+      <article class="course-plan featured" id="neet-plan"><span class="plan-badge" data-neet-badge>INTRODUCTORY OFFER</span><span class="plan-icon">🧬</span><h3>NEET-UG Target Course</h3><div class="plan-price"><span data-neet-price>₹99</span> <small data-neet-price-note>until 5 October 2026</small></div><p class="next-price" data-neet-next-price>₹499 from 6 October 2026</p><ul><li>Physics, Chemistry and Biology MCQs</li><li>NCERT search and revision tools</li><li>PYQs, tests and analytics</li><li>Mistake revision</li></ul><p class="plan-validity">Choose NEET 2027 or 2028. Access remains valid through that examination.</p><a href="#authCard" data-select-course="neet">SELECT NEET-UG</a></article>
       <article class="course-plan mbbs-plan"><span class="plan-badge">LIFETIME ACCESS</span><span class="plan-icon">🩺</span><h3>MBBS Complete Learning Course</h3><div class="plan-price">₹799 <small>one-time</small></div><ul><li>19 MBBS subjects</li><li>Phase-wise medical learning</li><li>Clinical revision tools</li><li>MCQs, bookmarks and progress tracking</li></ul><p class="plan-validity">Lifetime access to the MBBS learning portal.</p><a href="#authCard" data-select-course="mbbs">SELECT MBBS</a></article>
+    </div>
+  </section>
+  <section class="reviews-section" aria-labelledby="reviewsTitle">
+    <div class="reviews-head">
+      <div><span class="eyebrow">STUDENT &amp; COMMUNITY FEEDBACK</span><h2 id="reviewsTitle">What learners say</h2><p>Everyone is welcome to share an honest rating and review. Reviews from registered students carry a verified badge.</p></div>
+      <div class="rating-summary"><strong id="publicRating">—</strong><span class="stars" id="publicStars">★★★★★</span><small id="publicReviewCount">Loading reviews…</small></div>
+    </div>
+    <div class="reviews-grid" id="publicReviews"><div class="review-empty">Loading student reviews…</div></div>
+    <div class="public-review-panel">
+      <div class="public-review-copy">
+        <span class="eyebrow">SHARE YOUR EXPERIENCE</span>
+        <h3>Add your rating and review</h3>
+        <p>Tell students what you found useful. Your name, rating and review will be shown publicly; contact details are never requested or displayed.</p>
+        <div class="verified-explainer"><span class="verified-check" aria-hidden="true">✓</span><span><strong>Verified Scrutiny Student</strong><small>Shown only when a registered student reviews from their signed-in dashboard.</small></span></div>
+      </div>
+      <form id="publicReviewForm" class="review-form public-review-form">
+        <label>Your name<input id="publicReviewName" type="text" autocomplete="name" minlength="2" maxlength="80" required placeholder="Enter your name" /></label>
+        <fieldset><legend>Your rating</legend><div class="star-picker" id="publicStarPicker" aria-label="Choose a rating out of 5">
+          <button type="button" data-star="1" aria-label="1 star">★</button><button type="button" data-star="2" aria-label="2 stars">★</button><button type="button" data-star="3" aria-label="3 stars">★</button><button type="button" data-star="4" aria-label="4 stars">★</button><button type="buttoon" data-star="5" aria-label="5 stars">★</button>
+        </div></fieldset>
+        <label>Your review<textarea id="publicReviewText" maxlength="500" minlength="10" required placeholder="Share an honest and useful review in at least 10 characters."></textarea></label>
+        <label class="review-honeypot" aria-hidden="true">Leave this empty<input id="publicReviewWebsite" type="text" tabindex="-1" autocomplete="off" /></label>
+        <div class="review-submit-row"><button class="primary" type="submit">SUBMIT REVIEW</button><span id="publicReviewMessage" class="message" role="status" aria-live="polite"></span></div>
+      </form>
+    </div>
+    <p class="review-note">Registered students can submit or update their verified review from the Student Dashboard after signing in.</p>
+  </section>
+  <section class="reviews-section founder-login-note" aria-labelledby="founderLoginTitle">
+    <div class="reviews-head">
+      <div>
+        <span class="eyebrow">A NOTE FROM THE FOUNDER</span>
+        <h2 id="founderLoginTitle">Built for students who want to understand, practise and improve.</h2>
+      </div>
+    </div>
+    <div class="card founder-card">
+      <div class="founder-photo-wrap">
+        <img class="founder-photo" src="assets/%20%20%20%20founder-pramod-sharma.jpeg.png" alt="Pramod Sharma, Founder of Scrutiny Academy" loading="lazy" decoding="async" />
+      </div>
+      <div class="founder-copy">
+        <p>Scrutiny Academy started with a simple idea: quality preparation should be clear, structured and genuinely useful to students.</p>
+        <p>Preparing for an exam can feel overwhelming—not because students lack potential, but because there is simply too much to study and too much noise around what actually matters. That is why we focus on turning the syllabus into focused learning resources, NCERT-based practice, revision tools and tests that help you identify exactly where you need to improve.</p>
+        <p>Every test you attempt, every mistake you analyse and every concept you revise is progress. <strong>Don’t study just to finish the syllabus. Study until you can trust yourself in the examination hall.</strong></p>
+        <p>We will continue improving Scrutiny Academy based on what students actually need. Your reviews and suggestions help shape what we build next.</p>
+        <p><strong>Keep learning. Keep questioning. Keep improving.</strong></p>
+        <p><strong>Pramod Sharma</strong><br /><span>Founder, Scrutiny Academy</span></p>
+        <blockquote>“Your score is a result. Your preparation is something you can control every single day.”</blockquote>
+      </div>
     </div>
   </section>
   <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
   <script type="module" src="auth.js"></script>
+  <script type="module" src="reviews.js"></script>
   <script>
     const menu = document.getElementById('mobileMenu');
     const nav = document.getElementById('homeNav');
     menu?.addEventListener('click', () => {
       const open = nav.classList.toggle('open');
       menu.setAttribute('aria-expanded', String(open));
+    });
+    nav?.addEventListener('click', event => {
+      if (!event.target.closest('a')) return;
+      nav.classList.remove('open');
+      menu?.setAttribute('aria-expanded', 'false');
+    });
+    addEventListener('DOMContentLoaded', () => {
+      if (new URLSearchParams(location.search).get('mode') === 'login') {
+        document.getElementById('loginTab')?.click();
+      }
     });
     if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(console.error));
     document.querySelectorAll('[data-select-course]').forEach(link => link.addEventListener('click', () => {
