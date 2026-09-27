@@ -42,9 +42,26 @@ for (const id of Array.from({length:10},(_,i)=>`neet-biology-11-${i+1}`)) {
   }
 }
 assert.equal(bundle.class11.botany.source.academicYear,'2026-2027');
+const botany=bundle.class11.botany;
+assert.equal(botany.chapters.length,14);
+const botanyIds=[];
+for (const chapter of botany.chapters) {
+  assert.equal(chapter.vsaq.length,15,`${chapter.name}: expected 15 VSAQs`);
+  assert.equal(chapter.saq.length,10,`${chapter.name}: expected 10 SAQs`);
+  assert.equal(chapter.laq.length,5,`${chapter.name}: expected 5 LAQs`);
+  for (const [format,marks] of [['vsaq',2],['saq',4],['laq',8]]) for (const question of chapter[format]) {
+    botanyIds.push(question.id);
+    assert.equal(question.marks,marks,`${question.id}: wrong mark value`);
+    assert.ok(question.question?.trim() && question.answer?.trim(),`${question.id}: incomplete answer`);
+    assert.ok(question.keyPoints?.trim(),`${question.id}: missing keywords`);
+    if (question.diagram) assert.ok(fs.existsSync(path.join(root,question.diagram)),`${question.id}: missing diagram`);
+  }
+}
+assert.equal(botanyIds.length,420);
+assert.equal(new Set(botanyIds).size,420,'Botany question IDs must be unique');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
  const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
- assert.ok(fs.existsSync(path.join(root,ref)),`Missing asset: ${ref}`);
+ assert.ok(fs.existsSync(path.join(root,decodeURIComponent(ref))),`Missing asset: ${ref}`);
 }
-console.log('Validated 97 board chapters, 1920 Biology MCQs, 2520 Class 12 Physics MCQs, 4469 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+console.log('Validated 420 Class 11 Botany answers, 97 board chapters, 1920 Biology MCQs, 2520 Class 12 Physics MCQs, 4469 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
