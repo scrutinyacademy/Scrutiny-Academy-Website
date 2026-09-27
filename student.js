@@ -5,6 +5,7 @@ import {
   getAuth,
   onAuthStateChanged,
   signOut,
+  getIdTokenResult,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {
   getFirestore,
@@ -278,12 +279,15 @@ onAuthStateChanged(auth, async (user) => {
     return;
   }
   const p = snap.data();
-  if (p.accessStatus !== "active") {
+  const token = await getIdTokenResult(user, true);
+  const founderAccess = token.claims.founder === true;
+  if (p.accessStatus !== "active" && !founderAccess) {
     location.replace("payment.html");
     return;
   }
   $("welcome").textContent = `Welcome${p.name ? `, ${p.name}` : ""}`;
-  setupCourseDashboard(p);
+  setupCourseDashboard({ ...p, founderAccess });
+  if (founderAccess) $("studentMeta").textContent = `${user.email} • FOUNDER PREVIEW • ALL COURSES`;
   loadInvoices(user);
   $("class10LectureEntry").hidden = !availableCourses.includes("class10");
   renderSummary();
