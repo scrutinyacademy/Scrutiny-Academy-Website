@@ -64,6 +64,7 @@ export function courseValidity(courseId, neetExamYear = "") {
 }
 
 export function entitledCourses(profile = {}) {
+  if (profile.founderAccess === true) return Object.keys(COURSE_CATALOG);
   if (profile.courseEntitlements && typeof profile.courseEntitlements === "object") {
     const verified = Object.entries(profile.courseEntitlements)
       .filter(([, value]) => value && value.status === "active")
