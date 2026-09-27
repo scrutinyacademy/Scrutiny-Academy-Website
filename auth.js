@@ -1,7 +1,7 @@
 import { firebaseConfig } from './firebase-config.js';
 import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 const configured = firebaseConfig.apiKey && firebaseConfig.apiKey !== 'REPLACE_ME' && firebaseConfig.projectId !== 'REPLACE_ME';
@@ -59,7 +59,8 @@ if(!configured){
     try {
       const snap=await getDoc(doc(db,'students',user.uid));
       const profile=snap.exists()?snap.data():{};
-      if(profile.accessStatus==='active') location.replace('student.html');
+      const founder=(await getIdTokenResult(user,true)).claims.founder===true;
+      if(profile.accessStatus==='active'||founder) location.replace('student.html');
       else if(location.pathname.endsWith('login.html') || /\/$/.test(location.pathname) || location.pathname.endsWith('index.html')) location.replace('payment.html');
     } catch (err) {
       console.error('Scrutiny Academy profile check failed:', err);
@@ -72,7 +73,8 @@ if(!configured){
       const cred=await signInWithEmailAndPassword(auth,$('loginEmail').value.trim(),$('loginPassword').value);
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
-      if(p.accessStatus==='active') location.replace('student.html'); else location.replace('payment.html');
+      const founder=(await getIdTokenResult(cred.user,true)).claims.founder===true;
+      if(p.accessStatus==='active'||founder) location.replace('student.html'); else location.replace('payment.html');
     }catch(err){ authActionInProgress=false; msg(friendly(err),'error'); console.error(err); }
   });
 
