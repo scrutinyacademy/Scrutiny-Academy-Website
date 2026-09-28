@@ -6,164 +6,2496 @@
   "source": {
     "file": "PHYSICS_I_SYLLABUS.pdf",
     "academicYear": "2026-2027",
-    "kind": "Syllabus",
-    "note": ""
+    "kind": "Revised TGBIE syllabus",
+    "note": "14-unit revised course"
   },
-  "description": "Telangana Intermediate First Year Physics",
+  "description": "Complete Telangana Intermediate First Year Physics board bank: 14 units, 140 VSAQs, 70 SAQs and 42 LAQs with formulas, derivations and labelled diagrams.",
   "chapters": [
     {
       "id": "class11-physics-01",
       "number": 1,
       "name": "Physical World and Measurement",
-      "topics": [],
+      "topics": [
+        "Physics",
+        "Four fundamental forces",
+        "SI base quantities",
+        "Accuracy and precision",
+        "Least count",
+        "Absolute error",
+        "Relative error",
+        "Significant figures",
+        "Dimensional formula",
+        "Principle of homogeneity"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Compulsory fundamentals: SI units, errors, significant figures and dimensional analysis. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-1-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Physics.",
+          "answer": "Physics studies matter, energy and their interactions through observation, experiment and mathematical laws.",
+          "keyPoints": "Physics"
+        },
+        {
+          "id": "c11-phy-1-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Four fundamental forces.",
+          "answer": "Gravitational, electromagnetic, strong nuclear and weak nuclear forces are the four fundamental interactions.",
+          "keyPoints": "Four fundamental forces"
+        },
+        {
+          "id": "c11-phy-1-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for SI base quantities.",
+          "answer": "Length, mass, time, electric current, thermodynamic temperature, amount of substance and luminous intensity are the seven SI base quantities.",
+          "keyPoints": "SI base quantities"
+        },
+        {
+          "id": "c11-phy-1-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Accuracy and precision.",
+          "answer": "Accuracy is closeness to the true value; precision is the repeatability or resolution of measurements.",
+          "keyPoints": "Accuracy and precision"
+        },
+        {
+          "id": "c11-phy-1-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Least count.",
+          "answer": "Least count is the smallest value that an instrument can measure directly.",
+          "keyPoints": "Least count"
+        },
+        {
+          "id": "c11-phy-1-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Absolute error.",
+          "answer": "For repeated readings, absolute error is the magnitude of the difference between a reading and the mean value.",
+          "keyPoints": "Absolute error"
+        },
+        {
+          "id": "c11-phy-1-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Relative error.",
+          "answer": "Relative error equals mean absolute error divided by the mean measured value; percentage error is 100 times this ratio.",
+          "keyPoints": "Relative error"
+        },
+        {
+          "id": "c11-phy-1-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Significant figures.",
+          "answer": "Significant figures are all reliably known digits plus the first uncertain digit in a measured value.",
+          "keyPoints": "Significant figures"
+        },
+        {
+          "id": "c11-phy-1-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Dimensional formula.",
+          "answer": "The dimensional formula expresses a physical quantity in powers of M, L, T and other base dimensions.",
+          "keyPoints": "Dimensional formula"
+        },
+        {
+          "id": "c11-phy-1-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Principle of homogeneity.",
+          "answer": "Every term in a valid physical equation must have identical dimensions.",
+          "keyPoints": "Principle of homogeneity"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-1-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Physics and Four fundamental forces with the relevant formula or physical distinction.",
+          "answer": "1. Physics: Physics studies matter, energy and their interactions through observation, experiment and mathematical laws.\n2. Four fundamental forces: Gravitational, electromagnetic, strong nuclear and weak nuclear forces are the four fundamental interactions.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Physics • Four fundamental forces • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-1-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between SI base quantities and Accuracy and precision, and state one application of each.",
+          "answer": "1. SI base quantities: Length, mass, time, electric current, thermodynamic temperature, amount of substance and luminous intensity are the seven SI base quantities.\n2. Accuracy and precision: Accuracy is closeness to the true value; precision is the repeatability or resolution of measurements.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "SI base quantities • Accuracy and precision • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-1-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Least count and Absolute error with the relevant formula or physical distinction.",
+          "answer": "1. Least count: Least count is the smallest value that an instrument can measure directly.\n2. Absolute error: For repeated readings, absolute error is the magnitude of the difference between a reading and the mean value.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Least count • Absolute error • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-1-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Relative error and Significant figures, and state one application of each.",
+          "answer": "1. Relative error: Relative error equals mean absolute error divided by the mean measured value; percentage error is 100 times this ratio.\n2. Significant figures: Significant figures are all reliably known digits plus the first uncertain digit in a measured value.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Relative error • Significant figures • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-1-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Dimensional formula and Principle of homogeneity with the relevant formula or physical distinction.",
+          "answer": "1. Dimensional formula: The dimensional formula expresses a physical quantity in powers of M, L, T and other base dimensions.\n2. Principle of homogeneity: Every term in a valid physical equation must have identical dimensions.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Dimensional formula • Principle of homogeneity • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-1-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain the types of measurement errors and the rules for combining them.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nErrors may be systematic, random or due to instrument least count. For readings a₁…aₙ, mean ā = Σaᵢ/n and mean absolute error Δa = Σ|aᵢ−ā|/n. Report a = ā ± Δa.\n\nFor z = x ± y, absolute errors add: Δz = Δx + Δy. For z = xy or x/y, fractional errors add: Δz/z = Δx/x + Δy/y. For z = xⁿ, Δz/z = |n|Δx/x. State units and round uncertainty to sensible significant figures.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • the • types • of • measurement • errors • and • the"
+        },
+        {
+          "id": "c11-phy-1-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe dimensional analysis and discuss its uses and limitations.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nWrite each quantity as MᵃLᵇTᶜ. Equate exponents on both sides using dimensional homogeneity. This checks dimensional consistency, converts units and can obtain the form of a relation up to a dimensionless constant.\n\nIt cannot determine numerical constants, distinguish quantities with identical dimensions, decide additive terms or prove an equation physically correct. Trigonometric, exponential and logarithmic arguments must be dimensionless.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Describe • dimensional • analysis • and • discuss • its • uses • and"
+        },
+        {
+          "id": "c11-phy-1-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain significant figures and the rules used in calculations.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nAll non-zero digits are significant; zeros between non-zero digits are significant; leading zeros are not; trailing zeros after a decimal are significant. In multiplication/division retain the least number of significant figures. In addition/subtraction retain the least number of decimal places.\n\nRound only at the end: discard below 5, increase the last retained digit for above 5, and follow the prescribed rounding convention for an exact 5.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • significant • figures • and • the • rules • used • in"
+        }
+      ]
     },
     {
       "id": "class11-physics-02",
       "number": 2,
       "name": "Motion along a Straight Line",
-      "topics": [],
+      "topics": [
+        "Distance and displacement",
+        "Average speed",
+        "Average velocity",
+        "Instantaneous velocity",
+        "Acceleration",
+        "Uniform acceleration",
+        "First kinematic equation",
+        "Second kinematic equation",
+        "Third kinematic equation",
+        "Relative velocity"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Graphs, equations of uniformly accelerated motion and relative velocity are recurring scoring areas. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-2-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Distance and displacement.",
+          "answer": "Distance is total path length; displacement is the directed change from initial to final position.",
+          "keyPoints": "Distance and displacement"
+        },
+        {
+          "id": "c11-phy-2-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Average speed.",
+          "answer": "Average speed equals total distance divided by total time.",
+          "keyPoints": "Average speed"
+        },
+        {
+          "id": "c11-phy-2-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Average velocity.",
+          "answer": "Average velocity equals total displacement divided by total time.",
+          "keyPoints": "Average velocity"
+        },
+        {
+          "id": "c11-phy-2-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Instantaneous velocity.",
+          "answer": "Instantaneous velocity is dx/dt and equals the slope of the position–time graph.",
+          "keyPoints": "Instantaneous velocity"
+        },
+        {
+          "id": "c11-phy-2-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Acceleration.",
+          "answer": "Acceleration is dv/dt and equals the slope of the velocity–time graph.",
+          "keyPoints": "Acceleration"
+        },
+        {
+          "id": "c11-phy-2-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Uniform acceleration.",
+          "answer": "Acceleration is uniform when velocity changes by equal amounts in equal time intervals.",
+          "keyPoints": "Uniform acceleration"
+        },
+        {
+          "id": "c11-phy-2-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define First kinematic equation.",
+          "answer": "For constant acceleration, v = u + at.",
+          "keyPoints": "First kinematic equation"
+        },
+        {
+          "id": "c11-phy-2-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Second kinematic equation.",
+          "answer": "For constant acceleration, s = ut + ½at².",
+          "keyPoints": "Second kinematic equation"
+        },
+        {
+          "id": "c11-phy-2-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Third kinematic equation.",
+          "answer": "For constant acceleration, v² = u² + 2as.",
+          "keyPoints": "Third kinematic equation"
+        },
+        {
+          "id": "c11-phy-2-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Relative velocity.",
+          "answer": "Velocity of A relative to B is v_AB = v_A − v_B.",
+          "keyPoints": "Relative velocity"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-2-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Distance and displacement and Average speed with the relevant formula or physical distinction.",
+          "answer": "1. Distance and displacement: Distance is total path length; displacement is the directed change from initial to final position.\n2. Average speed: Average speed equals total distance divided by total time.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Distance and displacement • Average speed • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-2-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Average velocity and Instantaneous velocity, and state one application of each.",
+          "answer": "1. Average velocity: Average velocity equals total displacement divided by total time.\n2. Instantaneous velocity: Instantaneous velocity is dx/dt and equals the slope of the position–time graph.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Average velocity • Instantaneous velocity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-2-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Acceleration and Uniform acceleration with the relevant formula or physical distinction.",
+          "answer": "1. Acceleration: Acceleration is dv/dt and equals the slope of the velocity–time graph.\n2. Uniform acceleration: Acceleration is uniform when velocity changes by equal amounts in equal time intervals.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Acceleration • Uniform acceleration • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-2-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between First kinematic equation and Second kinematic equation, and state one application of each.",
+          "answer": "1. First kinematic equation: For constant acceleration, v = u + at.\n2. Second kinematic equation: For constant acceleration, s = ut + ½at².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "First kinematic equation • Second kinematic equation • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-2-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Third kinematic equation and Relative velocity with the relevant formula or physical distinction.",
+          "answer": "1. Third kinematic equation: For constant acceleration, v² = u² + 2as.\n2. Relative velocity: Velocity of A relative to B is v_AB = v_A − v_B.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Third kinematic equation • Relative velocity • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-2-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the three equations of uniformly accelerated motion.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFrom a = (v−u)/t, obtain v = u + at. Average velocity for uniform acceleration is (u+v)/2, hence s = (u+v)t/2. Substituting v = u+at gives s = ut + ½at².\n\nEliminate t using t=(v−u)/a in s=(u+v)t/2 to obtain v² = u² + 2as. Mention that these equations apply only to constant acceleration along a straight line.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • three • equations • of • uniformly • accelerated • motion.",
+          "diagram": "assets/physics-board/straight-line-graphs.svg",
+          "diagramAlt": "Labelled Physics board diagram for Motion along a Straight Line"
+        },
+        {
+          "id": "c11-phy-2-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain position–time and velocity–time graphs and obtain displacement from them.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nThe slope of an x–t graph gives velocity; a horizontal line means rest and a straight inclined line means constant velocity. The slope of a v–t graph gives acceleration.\n\nThe signed area under the v–t curve between two instants equals displacement because ∫v dt = Δx. Area under a speed–time graph gives distance. For constant acceleration, the rectangular and triangular areas give s = ut + ½at².\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • position–time • and • velocity–time • graphs • and • obtain • displacement"
+        },
+        {
+          "id": "c11-phy-2-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Discuss free fall as uniformly accelerated motion.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nChoose upward as positive. Near Earth, acceleration is a = −g. Therefore v = u−gt, y = ut−½gt² and v² = u²−2gy. For a body dropped from rest, u=0 and downward distance h=½gt².\n\nAt the highest point of upward projection v=0, so time of ascent u/g and maximum height u²/(2g). Neglect air resistance.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Discuss • free • fall • as • uniformly • accelerated • motion."
+        }
+      ]
     },
     {
       "id": "class11-physics-03",
       "number": 3,
       "name": "Motion in a Plane",
-      "topics": [],
+      "topics": [
+        "Scalar and vector",
+        "Unit vector",
+        "Vector components",
+        "Resultant of two vectors",
+        "Projectile",
+        "Time of flight",
+        "Maximum height",
+        "Horizontal range",
+        "Centripetal acceleration",
+        "Angular speed"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Vector resolution, projectile motion and uniform circular motion commonly appear as numericals and derivations. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-3-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Scalar and vector.",
+          "answer": "A scalar has magnitude only; a vector has magnitude and direction and obeys vector addition.",
+          "keyPoints": "Scalar and vector"
+        },
+        {
+          "id": "c11-phy-3-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Unit vector.",
+          "answer": "A unit vector has magnitude one and specifies direction; Â = A/|A|.",
+          "keyPoints": "Unit vector"
+        },
+        {
+          "id": "c11-phy-3-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Vector components.",
+          "answer": "For A at angle θ to x-axis, Aₓ=A cosθ and Aᵧ=A sinθ.",
+          "keyPoints": "Vector components"
+        },
+        {
+          "id": "c11-phy-3-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Resultant of two vectors.",
+          "answer": "For vectors A and B at angle θ, R = √(A²+B²+2AB cosθ).",
+          "keyPoints": "Resultant of two vectors"
+        },
+        {
+          "id": "c11-phy-3-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Projectile.",
+          "answer": "A projectile moves under gravity alone after projection, with horizontal velocity constant and vertical acceleration −g.",
+          "keyPoints": "Projectile"
+        },
+        {
+          "id": "c11-phy-3-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Time of flight.",
+          "answer": "For projection speed u at angle θ on level ground, T = 2u sinθ/g.",
+          "keyPoints": "Time of flight"
+        },
+        {
+          "id": "c11-phy-3-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Maximum height.",
+          "answer": "Projectile maximum height H = u²sin²θ/(2g).",
+          "keyPoints": "Maximum height"
+        },
+        {
+          "id": "c11-phy-3-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Horizontal range.",
+          "answer": "Projectile range R = u²sin2θ/g on level ground.",
+          "keyPoints": "Horizontal range"
+        },
+        {
+          "id": "c11-phy-3-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Centripetal acceleration.",
+          "answer": "In uniform circular motion, acceleration v²/r = ω²r acts toward the centre.",
+          "keyPoints": "Centripetal acceleration"
+        },
+        {
+          "id": "c11-phy-3-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Angular speed.",
+          "answer": "Angular speed ω=dθ/dt and linear speed v=rω.",
+          "keyPoints": "Angular speed"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-3-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Scalar and vector and Unit vector with the relevant formula or physical distinction.",
+          "answer": "1. Scalar and vector: A scalar has magnitude only; a vector has magnitude and direction and obeys vector addition.\n2. Unit vector: A unit vector has magnitude one and specifies direction; Â = A/|A|.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Scalar and vector • Unit vector • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-3-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Vector components and Resultant of two vectors, and state one application of each.",
+          "answer": "1. Vector components: For A at angle θ to x-axis, Aₓ=A cosθ and Aᵧ=A sinθ.\n2. Resultant of two vectors: For vectors A and B at angle θ, R = √(A²+B²+2AB cosθ).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Vector components • Resultant of two vectors • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-3-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Projectile and Time of flight with the relevant formula or physical distinction.",
+          "answer": "1. Projectile: A projectile moves under gravity alone after projection, with horizontal velocity constant and vertical acceleration −g.\n2. Time of flight: For projection speed u at angle θ on level ground, T = 2u sinθ/g.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Projectile • Time of flight • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-3-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Maximum height and Horizontal range, and state one application of each.",
+          "answer": "1. Maximum height: Projectile maximum height H = u²sin²θ/(2g).\n2. Horizontal range: Projectile range R = u²sin2θ/g on level ground.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Maximum height • Horizontal range • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-3-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Centripetal acceleration and Angular speed with the relevant formula or physical distinction.",
+          "answer": "1. Centripetal acceleration: In uniform circular motion, acceleration v²/r = ω²r acts toward the centre.\n2. Angular speed: Angular speed ω=dθ/dt and linear speed v=rω.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Centripetal acceleration • Angular speed • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-3-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the trajectory, time of flight, maximum height and range of a projectile.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nResolve u into u cosθ horizontally and u sinθ vertically. Then x=u cosθ·t and y=u sinθ·t−½gt². Eliminating t gives y=x tanθ−gx²/(2u²cos²θ), a parabola.\n\nPutting y=0 gives T=2u sinθ/g. At the top vᵧ=0, hence H=u²sin²θ/(2g). Range R=(u cosθ)T=u²sin2θ/g. Maximum range u²/g occurs at 45°.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • trajectory, • time • of • flight, • maximum • height",
+          "diagram": "assets/physics-board/projectile-vectors.svg",
+          "diagramAlt": "Labelled Physics board diagram for Motion in a Plane"
+        },
+        {
+          "id": "c11-phy-3-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain addition and resolution of vectors by analytical method.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nLet A=Aₓi+Aᵧj and B=Bₓi+Bᵧj. Their resultant R=(Aₓ+Bₓ)i+(Aᵧ+Bᵧ)j. Hence R=√(Rₓ²+Rᵧ²) and tanφ=Rᵧ/Rₓ, with the quadrant checked.\n\nA vector A making angle θ with x-axis resolves as A cosθ along x and A sinθ along y. Components are independent and add algebraically.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • addition • and • resolution • of • vectors • by • analytical"
+        },
+        {
+          "id": "c11-phy-3-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive centripetal acceleration in uniform circular motion.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nTwo velocity vectors separated by a small angle Δθ have change Δv ≈ vΔθ directed toward the centre. Since Δθ=Δs/r=vΔt/r, acceleration a=lim(Δv/Δt)=v²/r.\n\nUsing v=rω gives a=ω²r. The velocity is tangential while acceleration and net force are radially inward.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • centripetal • acceleration • in • uniform • circular • motion."
+        }
+      ]
     },
     {
       "id": "class11-physics-04",
       "number": 4,
       "name": "Laws of Motion",
-      "topics": [],
+      "topics": [
+        "Inertia",
+        "Newton’s first law",
+        "Newton’s second law",
+        "Newton’s third law",
+        "Momentum",
+        "Impulse",
+        "Static friction",
+        "Kinetic friction",
+        "Conservation of momentum",
+        "Centripetal force"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Free-body diagrams, friction, impulse and circular dynamics are high-value applications. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-4-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Inertia.",
+          "answer": "Inertia is the tendency of a body to resist change in its state of rest or uniform straight-line motion.",
+          "keyPoints": "Inertia"
+        },
+        {
+          "id": "c11-phy-4-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Newton’s first law.",
+          "answer": "A body remains at rest or in uniform straight-line motion unless acted upon by an unbalanced external force.",
+          "keyPoints": "Newton’s first law"
+        },
+        {
+          "id": "c11-phy-4-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Newton’s second law.",
+          "answer": "Net force equals the time rate of change of momentum; for constant mass F=ma.",
+          "keyPoints": "Newton’s second law"
+        },
+        {
+          "id": "c11-phy-4-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Newton’s third law.",
+          "answer": "For every action there is an equal and opposite reaction acting on the other body.",
+          "keyPoints": "Newton’s third law"
+        },
+        {
+          "id": "c11-phy-4-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Momentum.",
+          "answer": "Linear momentum p=mv is a vector in the direction of velocity.",
+          "keyPoints": "Momentum"
+        },
+        {
+          "id": "c11-phy-4-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Impulse.",
+          "answer": "Impulse J=∫Fdt equals change in momentum Δp.",
+          "keyPoints": "Impulse"
+        },
+        {
+          "id": "c11-phy-4-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Static friction.",
+          "answer": "Static friction self-adjusts up to limiting value fₛ≤μₛN.",
+          "keyPoints": "Static friction"
+        },
+        {
+          "id": "c11-phy-4-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Kinetic friction.",
+          "answer": "During sliding, kinetic friction fₖ=μₖN opposes relative motion and generally μₖ<μₛ.",
+          "keyPoints": "Kinetic friction"
+        },
+        {
+          "id": "c11-phy-4-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Conservation of momentum.",
+          "answer": "If net external force is zero, total linear momentum remains constant.",
+          "keyPoints": "Conservation of momentum"
+        },
+        {
+          "id": "c11-phy-4-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Centripetal force.",
+          "answer": "Centripetal force is the inward resultant force mv²/r required for circular motion.",
+          "keyPoints": "Centripetal force"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-4-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Inertia and Newton’s first law with the relevant formula or physical distinction.",
+          "answer": "1. Inertia: Inertia is the tendency of a body to resist change in its state of rest or uniform straight-line motion.\n2. Newton’s first law: A body remains at rest or in uniform straight-line motion unless acted upon by an unbalanced external force.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Inertia • Newton’s first law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-4-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Newton’s second law and Newton’s third law, and state one application of each.",
+          "answer": "1. Newton’s second law: Net force equals the time rate of change of momentum; for constant mass F=ma.\n2. Newton’s third law: For every action there is an equal and opposite reaction acting on the other body.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Newton’s second law • Newton’s third law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-4-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Momentum and Impulse with the relevant formula or physical distinction.",
+          "answer": "1. Momentum: Linear momentum p=mv is a vector in the direction of velocity.\n2. Impulse: Impulse J=∫Fdt equals change in momentum Δp.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Momentum • Impulse • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-4-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Static friction and Kinetic friction, and state one application of each.",
+          "answer": "1. Static friction: Static friction self-adjusts up to limiting value fₛ≤μₛN.\n2. Kinetic friction: During sliding, kinetic friction fₖ=μₖN opposes relative motion and generally μₖ<μₛ.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Static friction • Kinetic friction • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-4-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Conservation of momentum and Centripetal force with the relevant formula or physical distinction.",
+          "answer": "1. Conservation of momentum: If net external force is zero, total linear momentum remains constant.\n2. Centripetal force: Centripetal force is the inward resultant force mv²/r required for circular motion.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Conservation of momentum • Centripetal force • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-4-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "State Newton’s laws and show how the second law gives F = ma.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFirst law defines inertial frames. Second law states F=dp/dt. For constant mass, p=mv, so F=m(dv/dt)=ma. Third law states F_AB=−F_BA; the pair acts on different bodies.\n\nAlways isolate one body, draw all external forces, choose axes and apply ΣFₓ=maₓ and ΣFᵧ=maᵧ. Action–reaction forces must never be placed on the same free-body diagram.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "State • Newton’s • laws • and • show • how • the • second",
+          "diagram": "assets/physics-board/friction-incline.svg",
+          "diagramAlt": "Labelled Physics board diagram for Laws of Motion"
+        },
+        {
+          "id": "c11-phy-4-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain friction on a rough inclined plane and obtain the angle of repose.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor a body on an incline θ, resolve weight into mg sinθ down the plane and mg cosθ normal to it. Thus N=mg cosθ. At impending downward motion, limiting friction μₛN acts upward.\n\nEquilibrium gives mg sinθ=μₛmg cosθ, so tanθ=μₛ. This limiting θ is the angle of repose. Friction is self-adjusting below this limit.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • friction • on • a • rough • inclined • plane • and"
+        },
+        {
+          "id": "c11-phy-4-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive conservation of linear momentum for two interacting bodies.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor bodies 1 and 2, Newton’s third law gives F₁₂=−F₂₁. By the second law, dp₁/dt=−dp₂/dt, hence d(p₁+p₂)/dt=0. Therefore p₁+p₂ is constant.\n\nFor a collision, m₁u₁+m₂u₂=m₁v₁+m₂v₂ provided external impulse is negligible.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • conservation • of • linear • momentum • for • two • interacting"
+        }
+      ]
     },
     {
       "id": "class11-physics-05",
       "number": 5,
       "name": "Work, Energy and Power",
-      "topics": [],
+      "topics": [
+        "Work",
+        "Kinetic energy",
+        "Work–energy theorem",
+        "Potential energy",
+        "Conservative force",
+        "Power",
+        "Spring energy",
+        "Mechanical energy",
+        "Elastic collision",
+        "Inelastic collision"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Work–energy theorem, conservation of energy, collisions and power are traditional LAQ areas. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-5-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Work.",
+          "answer": "For constant force, work W=F·s=Fs cosθ.",
+          "keyPoints": "Work"
+        },
+        {
+          "id": "c11-phy-5-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Kinetic energy.",
+          "answer": "Translational kinetic energy K=½mv².",
+          "keyPoints": "Kinetic energy"
+        },
+        {
+          "id": "c11-phy-5-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Work–energy theorem.",
+          "answer": "Net work done on a particle equals its change in kinetic energy.",
+          "keyPoints": "Work–energy theorem"
+        },
+        {
+          "id": "c11-phy-5-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Potential energy.",
+          "answer": "Potential energy represents stored energy due to configuration; near Earth U=mgh.",
+          "keyPoints": "Potential energy"
+        },
+        {
+          "id": "c11-phy-5-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Conservative force.",
+          "answer": "Work by a conservative force is path independent and equals −ΔU.",
+          "keyPoints": "Conservative force"
+        },
+        {
+          "id": "c11-phy-5-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Power.",
+          "answer": "Instantaneous power P=dW/dt=F·v.",
+          "keyPoints": "Power"
+        },
+        {
+          "id": "c11-phy-5-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Spring energy.",
+          "answer": "Elastic potential energy of an ideal spring is ½kx².",
+          "keyPoints": "Spring energy"
+        },
+        {
+          "id": "c11-phy-5-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Mechanical energy.",
+          "answer": "For conservative forces only, K+U remains constant.",
+          "keyPoints": "Mechanical energy"
+        },
+        {
+          "id": "c11-phy-5-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Elastic collision.",
+          "answer": "Both momentum and kinetic energy are conserved in an elastic collision.",
+          "keyPoints": "Elastic collision"
+        },
+        {
+          "id": "c11-phy-5-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Inelastic collision.",
+          "answer": "Momentum is conserved but kinetic energy is not conserved in an inelastic collision.",
+          "keyPoints": "Inelastic collision"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-5-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Work and Kinetic energy with the relevant formula or physical distinction.",
+          "answer": "1. Work: For constant force, work W=F·s=Fs cosθ.\n2. Kinetic energy: Translational kinetic energy K=½mv².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Work • Kinetic energy • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-5-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Work–energy theorem and Potential energy, and state one application of each.",
+          "answer": "1. Work–energy theorem: Net work done on a particle equals its change in kinetic energy.\n2. Potential energy: Potential energy represents stored energy due to configuration; near Earth U=mgh.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Work–energy theorem • Potential energy • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-5-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Conservative force and Power with the relevant formula or physical distinction.",
+          "answer": "1. Conservative force: Work by a conservative force is path independent and equals −ΔU.\n2. Power: Instantaneous power P=dW/dt=F·v.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Conservative force • Power • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-5-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Spring energy and Mechanical energy, and state one application of each.",
+          "answer": "1. Spring energy: Elastic potential energy of an ideal spring is ½kx².\n2. Mechanical energy: For conservative forces only, K+U remains constant.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Spring energy • Mechanical energy • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-5-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Elastic collision and Inelastic collision with the relevant formula or physical distinction.",
+          "answer": "1. Elastic collision: Both momentum and kinetic energy are conserved in an elastic collision.\n2. Inelastic collision: Momentum is conserved but kinetic energy is not conserved in an inelastic collision.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Elastic collision • Inelastic collision • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-5-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Prove the work–energy theorem for a variable force.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor one-dimensional motion, F=ma=m v(dv/dx). Therefore dW=Fdx=mv dv. Integrating from u to v gives W_net=∫ᵤᵛmv dv=½mv²−½mu²=ΔK.\n\nIn vector form W_net=∫F·dr. The theorem is valid for the net work of all forces and links dynamics to energy.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Prove • the • work–energy • theorem • for • a • variable • force.",
+          "diagram": "assets/physics-board/work-energy.svg",
+          "diagramAlt": "Labelled Physics board diagram for Work, Energy and Power"
+        },
+        {
+          "id": "c11-phy-5-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain conservation of mechanical energy for a freely falling body.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nAt height h, take U=mgh and K=0. After falling a distance x, v²=2gx, so K=mgx and U=mg(h−x). Hence K+U=mgx+mg(h−x)=mgh, constant.\n\nAt the ground, U=0 and K=mgh. Mechanical energy is conserved because gravity is conservative and air resistance is neglected.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • conservation • of • mechanical • energy • for • a • freely"
+        },
+        {
+          "id": "c11-phy-5-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Discuss one-dimensional elastic collision and obtain final velocities.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nApply momentum conservation: m₁u₁+m₂u₂=m₁v₁+m₂v₂. Elasticity gives relative speed of separation equals relative speed of approach: v₂−v₁=u₁−u₂.\n\nSolving, v₁=[(m₁−m₂)u₁+2m₂u₂]/(m₁+m₂) and v₂=[2m₁u₁+(m₂−m₁)u₂]/(m₁+m₂). State special cases such as equal masses exchanging velocities.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Discuss • one-dimensional • elastic • collision • and • obtain • final • velocities."
+        }
+      ]
     },
     {
       "id": "class11-physics-06",
       "number": 6,
       "name": "System of Particles and Rotational Motion",
-      "topics": [],
+      "topics": [
+        "Centre of mass",
+        "Torque",
+        "Angular momentum",
+        "Moment of inertia",
+        "Radius of gyration",
+        "Rotational equation",
+        "Rotational kinetic energy",
+        "Parallel-axis theorem",
+        "Perpendicular-axis theorem",
+        "Rolling condition"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Centre of mass, torque, angular momentum and moment of inertia require formulas plus diagrams. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-6-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Centre of mass.",
+          "answer": "For particles, R=(Σmᵢrᵢ)/(Σmᵢ).",
+          "keyPoints": "Centre of mass"
+        },
+        {
+          "id": "c11-phy-6-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Torque.",
+          "answer": "Torque τ=r×F has magnitude rF sinθ and changes angular momentum.",
+          "keyPoints": "Torque"
+        },
+        {
+          "id": "c11-phy-6-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Angular momentum.",
+          "answer": "For a particle, L=r×p; for a rigid body about a fixed axis, L=Iω.",
+          "keyPoints": "Angular momentum"
+        },
+        {
+          "id": "c11-phy-6-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Moment of inertia.",
+          "answer": "Moment of inertia I=Σmᵢrᵢ² measures rotational inertia about an axis.",
+          "keyPoints": "Moment of inertia"
+        },
+        {
+          "id": "c11-phy-6-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Radius of gyration.",
+          "answer": "Radius of gyration k is defined by I=Mk².",
+          "keyPoints": "Radius of gyration"
+        },
+        {
+          "id": "c11-phy-6-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Rotational equation.",
+          "answer": "For a fixed axis, net torque τ=Iα.",
+          "keyPoints": "Rotational equation"
+        },
+        {
+          "id": "c11-phy-6-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Rotational kinetic energy.",
+          "answer": "K_rot=½Iω².",
+          "keyPoints": "Rotational kinetic energy"
+        },
+        {
+          "id": "c11-phy-6-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Parallel-axis theorem.",
+          "answer": "Moment of inertia about a parallel axis is I=I_CM+Md².",
+          "keyPoints": "Parallel-axis theorem"
+        },
+        {
+          "id": "c11-phy-6-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Perpendicular-axis theorem.",
+          "answer": "For a plane lamina, I_z=I_x+I_y for mutually perpendicular axes through one point.",
+          "keyPoints": "Perpendicular-axis theorem"
+        },
+        {
+          "id": "c11-phy-6-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Rolling condition.",
+          "answer": "For pure rolling without slipping, v_CM=Rω.",
+          "keyPoints": "Rolling condition"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-6-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Centre of mass and Torque with the relevant formula or physical distinction.",
+          "answer": "1. Centre of mass: For particles, R=(Σmᵢrᵢ)/(Σmᵢ).\n2. Torque: Torque τ=r×F has magnitude rF sinθ and changes angular momentum.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Centre of mass • Torque • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-6-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Angular momentum and Moment of inertia, and state one application of each.",
+          "answer": "1. Angular momentum: For a particle, L=r×p; for a rigid body about a fixed axis, L=Iω.\n2. Moment of inertia: Moment of inertia I=Σmᵢrᵢ² measures rotational inertia about an axis.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Angular momentum • Moment of inertia • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-6-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Radius of gyration and Rotational equation with the relevant formula or physical distinction.",
+          "answer": "1. Radius of gyration: Radius of gyration k is defined by I=Mk².\n2. Rotational equation: For a fixed axis, net torque τ=Iα.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Radius of gyration • Rotational equation • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-6-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Rotational kinetic energy and Parallel-axis theorem, and state one application of each.",
+          "answer": "1. Rotational kinetic energy: K_rot=½Iω².\n2. Parallel-axis theorem: Moment of inertia about a parallel axis is I=I_CM+Md².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Rotational kinetic energy • Parallel-axis theorem • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-6-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Perpendicular-axis theorem and Rolling condition with the relevant formula or physical distinction.",
+          "answer": "1. Perpendicular-axis theorem: For a plane lamina, I_z=I_x+I_y for mutually perpendicular axes through one point.\n2. Rolling condition: For pure rolling without slipping, v_CM=Rω.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Perpendicular-axis theorem • Rolling condition • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-6-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the relation between torque and angular momentum.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor a particle L=r×p. Differentiating, dL/dt=(dr/dt)×p+r×dp/dt. Since v×mv=0 and dp/dt=F, dL/dt=r×F=τ.\n\nThus external torque equals the rate of change of angular momentum. If external torque is zero, total angular momentum is conserved.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • relation • between • torque • and • angular • momentum.",
+          "diagram": "assets/physics-board/rotational-motion.svg",
+          "diagramAlt": "Labelled Physics board diagram for System of Particles and Rotational Motion"
+        },
+        {
+          "id": "c11-phy-6-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "State and prove the parallel-axis theorem.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nLet an axis through O be parallel to the centre-of-mass axis and separated by d. For element dm at coordinates relative to CM, its squared distance from O expands to r²+d²+2xd.\n\nIntegrating, ∫x dm=0 by the CM definition. Hence I_O=∫r²dm+d²∫dm=I_CM+Md².\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "State • and • prove • the • parallel-axis • theorem."
+        },
+        {
+          "id": "c11-phy-6-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain pure rolling and derive its total kinetic energy.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nA rolling body has translation of its centre of mass and rotation about the CM. For no slipping, v_CM=Rω.\n\nTotal kinetic energy K=½Mv_CM²+½I_CMω² = ½Mv²[1+I_CM/(MR²)]. The point of contact is instantaneously at rest relative to the ground, while the top point has speed 2v_CM.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • pure • rolling • and • derive • its • total • kinetic"
+        }
+      ]
     },
     {
       "id": "class11-physics-07",
       "number": 7,
       "name": "Oscillations",
-      "topics": [],
+      "topics": [
+        "Periodic motion",
+        "Simple harmonic motion",
+        "Amplitude",
+        "Phase",
+        "SHM displacement",
+        "SHM velocity",
+        "SHM acceleration",
+        "Spring period",
+        "Pendulum period",
+        "SHM energy"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: SHM equation, energy and simple pendulum derivations are core 8-mark preparation. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-7-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Periodic motion.",
+          "answer": "Periodic motion repeats itself after equal intervals of time.",
+          "keyPoints": "Periodic motion"
+        },
+        {
+          "id": "c11-phy-7-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Simple harmonic motion.",
+          "answer": "SHM has restoring acceleration directly proportional and opposite to displacement: a=−ω²x.",
+          "keyPoints": "Simple harmonic motion"
+        },
+        {
+          "id": "c11-phy-7-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Amplitude.",
+          "answer": "Amplitude is the maximum displacement from equilibrium.",
+          "keyPoints": "Amplitude"
+        },
+        {
+          "id": "c11-phy-7-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Phase.",
+          "answer": "Phase ωt+φ specifies the state of an oscillator at an instant.",
+          "keyPoints": "Phase"
+        },
+        {
+          "id": "c11-phy-7-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of SHM displacement.",
+          "answer": "Displacement may be written x=A cos(ωt+φ).",
+          "keyPoints": "SHM displacement"
+        },
+        {
+          "id": "c11-phy-7-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for SHM velocity.",
+          "answer": "Velocity v=−Aω sin(ωt+φ), with maximum Aω.",
+          "keyPoints": "SHM velocity"
+        },
+        {
+          "id": "c11-phy-7-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define SHM acceleration.",
+          "answer": "Acceleration a=−ω²x, with maximum Aω².",
+          "keyPoints": "SHM acceleration"
+        },
+        {
+          "id": "c11-phy-7-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Spring period.",
+          "answer": "For mass m on spring k, T=2π√(m/k).",
+          "keyPoints": "Spring period"
+        },
+        {
+          "id": "c11-phy-7-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Pendulum period.",
+          "answer": "For small oscillations, simple pendulum T=2π√(l/g).",
+          "keyPoints": "Pendulum period"
+        },
+        {
+          "id": "c11-phy-7-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define SHM energy.",
+          "answer": "Total energy E=½kA²; K=½k(A²−x²) and U=½kx².",
+          "keyPoints": "SHM energy"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-7-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Periodic motion and Simple harmonic motion with the relevant formula or physical distinction.",
+          "answer": "1. Periodic motion: Periodic motion repeats itself after equal intervals of time.\n2. Simple harmonic motion: SHM has restoring acceleration directly proportional and opposite to displacement: a=−ω²x.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Periodic motion • Simple harmonic motion • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-7-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Amplitude and Phase, and state one application of each.",
+          "answer": "1. Amplitude: Amplitude is the maximum displacement from equilibrium.\n2. Phase: Phase ωt+φ specifies the state of an oscillator at an instant.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Amplitude • Phase • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-7-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain SHM displacement and SHM velocity with the relevant formula or physical distinction.",
+          "answer": "1. SHM displacement: Displacement may be written x=A cos(ωt+φ).\n2. SHM velocity: Velocity v=−Aω sin(ωt+φ), with maximum Aω.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "SHM displacement • SHM velocity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-7-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between SHM acceleration and Spring period, and state one application of each.",
+          "answer": "1. SHM acceleration: Acceleration a=−ω²x, with maximum Aω².\n2. Spring period: For mass m on spring k, T=2π√(m/k).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "SHM acceleration • Spring period • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-7-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Pendulum period and SHM energy with the relevant formula or physical distinction.",
+          "answer": "1. Pendulum period: For small oscillations, simple pendulum T=2π√(l/g).\n2. SHM energy: Total energy E=½kA²; K=½k(A²−x²) and U=½kx².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Pendulum period • SHM energy • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-7-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive displacement, velocity and acceleration relations for SHM.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nRepresent SHM as projection of uniform circular motion: x=A cos(ωt+φ). Differentiation gives v=dx/dt=−Aω sin(ωt+φ), so v²=ω²(A²−x²).\n\nAgain differentiating gives a=−Aω² cos(ωt+φ)=−ω²x. Velocity is maximum at mean position and zero at extremes; acceleration behaves oppositely.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • displacement, • velocity • and • acceleration • relations • for • SHM.",
+          "diagram": "assets/physics-board/shm-energy.svg",
+          "diagramAlt": "Labelled Physics board diagram for Oscillations"
+        },
+        {
+          "id": "c11-phy-7-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive the time period of a simple pendulum for small oscillations.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nRestoring torque about the support is τ=−mgl sinθ≈−mglθ. With I=ml² and α=d²θ/dt², ml²θ¨=−mglθ.\n\nThus θ¨+(g/l)θ=0, which is SHM with ω=√(g/l). Therefore T=2π√(l/g). The approximation requires small angular displacement.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • time • period • of • a • simple • pendulum"
+        },
+        {
+          "id": "c11-phy-7-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain energy changes in a simple harmonic oscillator.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor a spring oscillator, U=½kx². Since v²=ω²(A²−x²) and k=mω², K=½mv²=½k(A²−x²).\n\nTherefore E=K+U=½kA², constant. At equilibrium K is maximum and U=0; at either extreme U is maximum and K=0.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • energy • changes • in • a • simple • harmonic • oscillator."
+        }
+      ]
     },
     {
       "id": "class11-physics-08",
       "number": 8,
       "name": "Gravitation",
-      "topics": [],
+      "topics": [
+        "Universal gravitation",
+        "Acceleration due to gravity",
+        "Gravitational field",
+        "Gravitational potential",
+        "Potential energy",
+        "Orbital speed",
+        "Escape speed",
+        "Kepler’s second law",
+        "Kepler’s third law",
+        "Geostationary satellite"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Variation of g, orbital speed, escape speed and satellites are common derivation questions. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-8-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Universal gravitation.",
+          "answer": "Two masses attract with F=Gm₁m₂/r² along their joining line.",
+          "keyPoints": "Universal gravitation"
+        },
+        {
+          "id": "c11-phy-8-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Acceleration due to gravity.",
+          "answer": "At Earth’s surface g=GM/R².",
+          "keyPoints": "Acceleration due to gravity"
+        },
+        {
+          "id": "c11-phy-8-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Gravitational field.",
+          "answer": "Field at distance r from mass M is g=GM/r² directed toward M.",
+          "keyPoints": "Gravitational field"
+        },
+        {
+          "id": "c11-phy-8-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Gravitational potential.",
+          "answer": "Potential due to mass M is V=−GM/r with zero at infinity.",
+          "keyPoints": "Gravitational potential"
+        },
+        {
+          "id": "c11-phy-8-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Potential energy.",
+          "answer": "Potential energy of masses M and m is U=−GMm/r.",
+          "keyPoints": "Potential energy"
+        },
+        {
+          "id": "c11-phy-8-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Orbital speed.",
+          "answer": "For a circular orbit of radius r, vₒ=√(GM/r).",
+          "keyPoints": "Orbital speed"
+        },
+        {
+          "id": "c11-phy-8-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Escape speed.",
+          "answer": "From a planet surface, vₑ=√(2GM/R)=√(2gR).",
+          "keyPoints": "Escape speed"
+        },
+        {
+          "id": "c11-phy-8-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Kepler’s second law.",
+          "answer": "The line joining a planet and the Sun sweeps equal areas in equal times.",
+          "keyPoints": "Kepler’s second law"
+        },
+        {
+          "id": "c11-phy-8-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Kepler’s third law.",
+          "answer": "For planets around the same star, T²∝r³.",
+          "keyPoints": "Kepler’s third law"
+        },
+        {
+          "id": "c11-phy-8-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Geostationary satellite.",
+          "answer": "A geostationary satellite has a 24-hour period, circular equatorial orbit and moves west to east.",
+          "keyPoints": "Geostationary satellite"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-8-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Universal gravitation and Acceleration due to gravity with the relevant formula or physical distinction.",
+          "answer": "1. Universal gravitation: Two masses attract with F=Gm₁m₂/r² along their joining line.\n2. Acceleration due to gravity: At Earth’s surface g=GM/R².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Universal gravitation • Acceleration due to gravity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-8-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Gravitational field and Gravitational potential, and state one application of each.",
+          "answer": "1. Gravitational field: Field at distance r from mass M is g=GM/r² directed toward M.\n2. Gravitational potential: Potential due to mass M is V=−GM/r with zero at infinity.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Gravitational field • Gravitational potential • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-8-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Potential energy and Orbital speed with the relevant formula or physical distinction.",
+          "answer": "1. Potential energy: Potential energy of masses M and m is U=−GMm/r.\n2. Orbital speed: For a circular orbit of radius r, vₒ=√(GM/r).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Potential energy • Orbital speed • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-8-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Escape speed and Kepler’s second law, and state one application of each.",
+          "answer": "1. Escape speed: From a planet surface, vₑ=√(2GM/R)=√(2gR).\n2. Kepler’s second law: The line joining a planet and the Sun sweeps equal areas in equal times.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Escape speed • Kepler’s second law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-8-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Kepler’s third law and Geostationary satellite with the relevant formula or physical distinction.",
+          "answer": "1. Kepler’s third law: For planets around the same star, T²∝r³.\n2. Geostationary satellite: A geostationary satellite has a 24-hour period, circular equatorial orbit and moves west to east.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Kepler’s third law • Geostationary satellite • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-8-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive expressions for orbital speed and time period of a satellite.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor circular orbit, gravity supplies centripetal force: GMm/r²=mv²/r. Thus v=√(GM/r).\n\nPeriod T=2πr/v=2π√(r³/GM), hence T²=4π²r³/(GM), which is Kepler’s third law for circular orbits.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • expressions • for • orbital • speed • and • time • period",
+          "diagram": "assets/physics-board/orbit-escape.svg",
+          "diagramAlt": "Labelled Physics board diagram for Gravitation"
+        },
+        {
+          "id": "c11-phy-8-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive escape speed from Earth’s surface.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nAt launch, total energy is ½mvₑ²−GMm/R. The minimum escape condition has final speed zero and potential zero at infinity, so total energy is zero.\n\nTherefore ½mvₑ²=GMm/R and vₑ=√(2GM/R)=√(2gR). It is independent of projectile mass and assumes no atmosphere or Earth rotation.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • escape • speed • from • Earth’s • surface."
+        },
+        {
+          "id": "c11-phy-8-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain variation of acceleration due to gravity with altitude and depth.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nAt altitude h, g_h=GM/(R+h)²=g[R/(R+h)]²≈g(1−2h/R) for h≪R.\n\nInside a uniform Earth at depth d, only mass within radius R−d contributes. This gives g_d=g(1−d/R). Thus g decreases with both altitude and depth and becomes zero at Earth’s centre.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • variation • of • acceleration • due • to • gravity • with"
+        }
+      ]
     },
     {
       "id": "class11-physics-09",
       "number": 9,
       "name": "Mechanical Properties of Solids",
-      "topics": [],
+      "topics": [
+        "Elasticity",
+        "Stress",
+        "Strain",
+        "Hooke’s law",
+        "Young’s modulus",
+        "Bulk modulus",
+        "Shear modulus",
+        "Poisson’s ratio",
+        "Elastic energy density",
+        "Elastic limit"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Stress–strain curve, elastic moduli and energy stored in a wire are standard board questions. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-9-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Elasticity.",
+          "answer": "Elasticity is the property by which a body regains original dimensions after deforming force is removed.",
+          "keyPoints": "Elasticity"
+        },
+        {
+          "id": "c11-phy-9-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Stress.",
+          "answer": "Stress is restoring force per unit area, measured in pascal.",
+          "keyPoints": "Stress"
+        },
+        {
+          "id": "c11-phy-9-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Strain.",
+          "answer": "Strain is fractional deformation and is dimensionless.",
+          "keyPoints": "Strain"
+        },
+        {
+          "id": "c11-phy-9-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Hooke’s law.",
+          "answer": "Within elastic limit, stress is directly proportional to strain.",
+          "keyPoints": "Hooke’s law"
+        },
+        {
+          "id": "c11-phy-9-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Young’s modulus.",
+          "answer": "Young’s modulus Y=longitudinal stress/longitudinal strain.",
+          "keyPoints": "Young’s modulus"
+        },
+        {
+          "id": "c11-phy-9-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Bulk modulus.",
+          "answer": "Bulk modulus K=−pressure/volume strain.",
+          "keyPoints": "Bulk modulus"
+        },
+        {
+          "id": "c11-phy-9-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Shear modulus.",
+          "answer": "Shear modulus equals tangential stress divided by shear strain.",
+          "keyPoints": "Shear modulus"
+        },
+        {
+          "id": "c11-phy-9-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Poisson’s ratio.",
+          "answer": "Poisson’s ratio is lateral strain divided by longitudinal strain in magnitude.",
+          "keyPoints": "Poisson’s ratio"
+        },
+        {
+          "id": "c11-phy-9-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Elastic energy density.",
+          "answer": "Energy stored per unit volume is ½×stress×strain within Hooke’s-law region.",
+          "keyPoints": "Elastic energy density"
+        },
+        {
+          "id": "c11-phy-9-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Elastic limit.",
+          "answer": "Elastic limit is the maximum stress up to which a body completely regains its original form.",
+          "keyPoints": "Elastic limit"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-9-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Elasticity and Stress with the relevant formula or physical distinction.",
+          "answer": "1. Elasticity: Elasticity is the property by which a body regains original dimensions after deforming force is removed.\n2. Stress: Stress is restoring force per unit area, measured in pascal.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Elasticity • Stress • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-9-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Strain and Hooke’s law, and state one application of each.",
+          "answer": "1. Strain: Strain is fractional deformation and is dimensionless.\n2. Hooke’s law: Within elastic limit, stress is directly proportional to strain.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Strain • Hooke’s law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-9-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Young’s modulus and Bulk modulus with the relevant formula or physical distinction.",
+          "answer": "1. Young’s modulus: Young’s modulus Y=longitudinal stress/longitudinal strain.\n2. Bulk modulus: Bulk modulus K=−pressure/volume strain.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Young’s modulus • Bulk modulus • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-9-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Shear modulus and Poisson’s ratio, and state one application of each.",
+          "answer": "1. Shear modulus: Shear modulus equals tangential stress divided by shear strain.\n2. Poisson’s ratio: Poisson’s ratio is lateral strain divided by longitudinal strain in magnitude.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Shear modulus • Poisson’s ratio • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-9-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Elastic energy density and Elastic limit with the relevant formula or physical distinction.",
+          "answer": "1. Elastic energy density: Energy stored per unit volume is ½×stress×strain within Hooke’s-law region.\n2. Elastic limit: Elastic limit is the maximum stress up to which a body completely regains its original form.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Elastic energy density • Elastic limit • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-9-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain the stress–strain curve for a ductile material.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFrom the origin to proportional limit, stress is proportional to strain. Up to elastic limit the specimen regains its shape. Beyond it, permanent deformation begins.\n\nAt yield, large strain occurs for small stress change. Stress then rises to ultimate tensile strength and finally falls to fracture. Mark proportional limit, elastic limit, yield point, ultimate point and breaking point on the graph.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • the • stress–strain • curve • for • a • ductile • material.",
+          "diagram": "assets/physics-board/stress-strain.svg",
+          "diagramAlt": "Labelled Physics board diagram for Mechanical Properties of Solids"
+        },
+        {
+          "id": "c11-phy-9-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive the expression for elastic potential energy stored in a stretched wire.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor extension x, force increases from 0 to F, so average force is F/2. Work stored U=½Fx. With stress=F/A and strain=x/L, U=½(stress)(strain)(AL).\n\nHence energy per unit volume u=½×stress×strain=½Y(strain)²=stress²/(2Y).\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • expression • for • elastic • potential • energy • stored"
+        },
+        {
+          "id": "c11-phy-9-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Define elastic moduli and explain their physical significance.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nYoung’s modulus relates longitudinal stress and strain, bulk modulus relates pressure to volume strain, and shear modulus relates tangential stress to angular deformation.\n\nA larger modulus means greater resistance to the corresponding deformation. All moduli have pressure units, while strain and Poisson’s ratio are dimensionless.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Define • elastic • moduli • and • explain • their • physical • significance."
+        }
+      ]
     },
     {
       "id": "class11-physics-10",
       "number": 10,
       "name": "Mechanical Properties of Fluids",
-      "topics": [],
+      "topics": [
+        "Pressure",
+        "Pascal’s law",
+        "Buoyant force",
+        "Equation of continuity",
+        "Bernoulli’s theorem",
+        "Viscosity",
+        "Stokes’ law",
+        "Surface tension",
+        "Excess pressure",
+        "Capillary rise"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Bernoulli’s theorem, surface tension, viscosity and capillarity feature in VSAQ/SAQ sections. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-10-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Pressure.",
+          "answer": "Fluid pressure is normal force per unit area; at depth h, gauge pressure ρgh.",
+          "keyPoints": "Pressure"
+        },
+        {
+          "id": "c11-phy-10-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Pascal’s law.",
+          "answer": "Pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid.",
+          "keyPoints": "Pascal’s law"
+        },
+        {
+          "id": "c11-phy-10-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Buoyant force.",
+          "answer": "Buoyant force equals the weight of displaced fluid and acts upward.",
+          "keyPoints": "Buoyant force"
+        },
+        {
+          "id": "c11-phy-10-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Equation of continuity.",
+          "answer": "For steady incompressible flow, Av is constant.",
+          "keyPoints": "Equation of continuity"
+        },
+        {
+          "id": "c11-phy-10-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Bernoulli’s theorem.",
+          "answer": "Along a streamline, P+½ρv²+ρgh remains constant for ideal steady flow.",
+          "keyPoints": "Bernoulli’s theorem"
+        },
+        {
+          "id": "c11-phy-10-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Viscosity.",
+          "answer": "Viscosity is internal resistance between adjacent fluid layers in relative motion.",
+          "keyPoints": "Viscosity"
+        },
+        {
+          "id": "c11-phy-10-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Stokes’ law.",
+          "answer": "Viscous drag on a small sphere is F=6πηrv at low Reynolds number.",
+          "keyPoints": "Stokes’ law"
+        },
+        {
+          "id": "c11-phy-10-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Surface tension.",
+          "answer": "Surface tension is force per unit length or surface energy per unit area.",
+          "keyPoints": "Surface tension"
+        },
+        {
+          "id": "c11-phy-10-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Excess pressure.",
+          "answer": "Excess pressure is 2T/r in a liquid drop and 4T/r in a soap bubble.",
+          "keyPoints": "Excess pressure"
+        },
+        {
+          "id": "c11-phy-10-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Capillary rise.",
+          "answer": "For tube radius r, h=2T cosθ/(ρgr).",
+          "keyPoints": "Capillary rise"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-10-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Pressure and Pascal’s law with the relevant formula or physical distinction.",
+          "answer": "1. Pressure: Fluid pressure is normal force per unit area; at depth h, gauge pressure ρgh.\n2. Pascal’s law: Pressure applied to an enclosed fluid is transmitted undiminished throughout the fluid.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Pressure • Pascal’s law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-10-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Buoyant force and Equation of continuity, and state one application of each.",
+          "answer": "1. Buoyant force: Buoyant force equals the weight of displaced fluid and acts upward.\n2. Equation of continuity: For steady incompressible flow, Av is constant.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Buoyant force • Equation of continuity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-10-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Bernoulli’s theorem and Viscosity with the relevant formula or physical distinction.",
+          "answer": "1. Bernoulli’s theorem: Along a streamline, P+½ρv²+ρgh remains constant for ideal steady flow.\n2. Viscosity: Viscosity is internal resistance between adjacent fluid layers in relative motion.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Bernoulli’s theorem • Viscosity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-10-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Stokes’ law and Surface tension, and state one application of each.",
+          "answer": "1. Stokes’ law: Viscous drag on a small sphere is F=6πηrv at low Reynolds number.\n2. Surface tension: Surface tension is force per unit length or surface energy per unit area.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Stokes’ law • Surface tension • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-10-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Excess pressure and Capillary rise with the relevant formula or physical distinction.",
+          "answer": "1. Excess pressure: Excess pressure is 2T/r in a liquid drop and 4T/r in a soap bubble.\n2. Capillary rise: For tube radius r, h=2T cosθ/(ρgr).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Excess pressure • Capillary rise • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-10-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "State and derive Bernoulli’s theorem for steady ideal flow.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor volume ΔV moving from section 1 to 2, pressure work is (P₁−P₂)ΔV. This equals increase in kinetic plus potential energy: ½ρΔV(v₂²−v₁²)+ρgΔV(h₂−h₁).\n\nRearranging gives P+½ρv²+ρgh=constant. Assumptions: steady, incompressible, non-viscous flow along a streamline. Applications include Venturimeter, atomiser and lift on an aerofoil.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "State • and • derive • Bernoulli’s • theorem • for • steady • ideal",
+          "diagram": "assets/physics-board/bernoulli-capillary.svg",
+          "diagramAlt": "Labelled Physics board diagram for Mechanical Properties of Fluids"
+        },
+        {
+          "id": "c11-phy-10-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive terminal velocity of a sphere falling through a viscous liquid.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor a sphere of radius r, weight=(4/3)πr³ρ_sg, buoyancy=(4/3)πr³ρ_fg, and viscous drag=6πηrv. At terminal speed v_t, net force is zero.\n\nThus (4/3)πr³(ρ_s−ρ_f)g=6πηrv_t, giving v_t=2r²(ρ_s−ρ_f)g/(9η).\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • terminal • velocity • of • a • sphere • falling • through"
+        },
+        {
+          "id": "c11-phy-10-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive capillary rise and explain the role of angle of contact.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nUpward vertical component of surface-tension force around the rim is 2πrT cosθ. The weight of the liquid column is πr²hρg.\n\nEquating gives h=2T cosθ/(ρgr). For wetting liquids θ<90° and the liquid rises; for non-wetting liquids θ>90° and depression occurs.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • capillary • rise • and • explain • the • role • of"
+        }
+      ]
     },
     {
       "id": "class11-physics-11",
       "number": 11,
       "name": "Thermal Properties of Matter",
-      "topics": [],
+      "topics": [
+        "Temperature",
+        "Heat",
+        "Linear expansion",
+        "Area expansion",
+        "Volume expansion",
+        "Specific heat capacity",
+        "Latent heat",
+        "Conduction",
+        "Convection",
+        "Stefan–Boltzmann law"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Expansion, calorimetry and heat-transfer mechanisms are frequent short-answer areas. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-11-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Temperature.",
+          "answer": "Temperature determines thermal equilibrium and the direction of heat flow.",
+          "keyPoints": "Temperature"
+        },
+        {
+          "id": "c11-phy-11-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Heat.",
+          "answer": "Heat is energy transferred solely because of a temperature difference.",
+          "keyPoints": "Heat"
+        },
+        {
+          "id": "c11-phy-11-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Linear expansion.",
+          "answer": "For small temperature rise, ΔL=αLΔT.",
+          "keyPoints": "Linear expansion"
+        },
+        {
+          "id": "c11-phy-11-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Area expansion.",
+          "answer": "For an isotropic solid, superficial expansion coefficient β≈2α.",
+          "keyPoints": "Area expansion"
+        },
+        {
+          "id": "c11-phy-11-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Volume expansion.",
+          "answer": "For an isotropic solid, cubical expansion coefficient γ≈3α.",
+          "keyPoints": "Volume expansion"
+        },
+        {
+          "id": "c11-phy-11-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Specific heat capacity.",
+          "answer": "Specific heat c=Q/(mΔT).",
+          "keyPoints": "Specific heat capacity"
+        },
+        {
+          "id": "c11-phy-11-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Latent heat.",
+          "answer": "During a phase change Q=mL while temperature remains constant.",
+          "keyPoints": "Latent heat"
+        },
+        {
+          "id": "c11-phy-11-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Conduction.",
+          "answer": "Conduction transfers heat through microscopic interactions without bulk transport.",
+          "keyPoints": "Conduction"
+        },
+        {
+          "id": "c11-phy-11-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Convection.",
+          "answer": "Convection transfers heat by bulk motion of a fluid.",
+          "keyPoints": "Convection"
+        },
+        {
+          "id": "c11-phy-11-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Stefan–Boltzmann law.",
+          "answer": "Net radiant power P=εσA(T⁴−T₀⁴).",
+          "keyPoints": "Stefan–Boltzmann law"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-11-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Temperature and Heat with the relevant formula or physical distinction.",
+          "answer": "1. Temperature: Temperature determines thermal equilibrium and the direction of heat flow.\n2. Heat: Heat is energy transferred solely because of a temperature difference.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Temperature • Heat • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-11-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Linear expansion and Area expansion, and state one application of each.",
+          "answer": "1. Linear expansion: For small temperature rise, ΔL=αLΔT.\n2. Area expansion: For an isotropic solid, superficial expansion coefficient β≈2α.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Linear expansion • Area expansion • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-11-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Volume expansion and Specific heat capacity with the relevant formula or physical distinction.",
+          "answer": "1. Volume expansion: For an isotropic solid, cubical expansion coefficient γ≈3α.\n2. Specific heat capacity: Specific heat c=Q/(mΔT).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Volume expansion • Specific heat capacity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-11-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Latent heat and Conduction, and state one application of each.",
+          "answer": "1. Latent heat: During a phase change Q=mL while temperature remains constant.\n2. Conduction: Conduction transfers heat through microscopic interactions without bulk transport.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Latent heat • Conduction • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-11-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Convection and Stefan–Boltzmann law with the relevant formula or physical distinction.",
+          "answer": "1. Convection: Convection transfers heat by bulk motion of a fluid.\n2. Stefan–Boltzmann law: Net radiant power P=εσA(T⁴−T₀⁴).\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Convection • Stefan–Boltzmann law • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-11-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain thermal expansion and derive relations among expansion coefficients.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor a cube side L, after ΔT each side becomes L(1+αΔT). Area A′≈A(1+2αΔT), so β=2α. Volume V′≈V(1+3αΔT), so γ=3α.\n\nProducts containing (αΔT)² and higher are neglected. Liquids have only volume expansion; apparent expansion depends on the containing vessel.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • thermal • expansion • and • derive • relations • among • expansion",
+          "diagram": "assets/physics-board/heat-transfer.svg",
+          "diagramAlt": "Labelled Physics board diagram for Thermal Properties of Matter"
+        },
+        {
+          "id": "c11-phy-11-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "State the principle of calorimetry and solve the general heat-balance condition.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nIn an isolated calorimeter, heat lost by hotter bodies equals heat gained by colder bodies. For no phase change, Σmc(T_f−T_i)=0 with signs.\n\nIf phase change occurs, include mL and sensible-heat terms before and after the transition. Choose one consistent reference direction and state that heat exchange with surroundings is neglected.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "State • the • principle • of • calorimetry • and • solve • the"
+        },
+        {
+          "id": "c11-phy-11-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Compare conduction, convection and radiation with governing relations.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nConduction rate through a slab is H=kAΔT/L. Convection involves bulk fluid movement driven naturally by density differences or forced by fans/pumps. Radiation needs no medium and net power is εσA(T⁴−T₀⁴).\n\nA thermos reduces conduction with poor contacts, convection with vacuum and radiation with silvered surfaces.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Compare • conduction, • convection • and • radiation • with • governing • relations."
+        }
+      ]
     },
     {
       "id": "class11-physics-12",
       "number": 12,
       "name": "Thermodynamics",
-      "topics": [],
+      "topics": [
+        "Thermodynamic system",
+        "State variables",
+        "Zeroth law",
+        "First law",
+        "Isothermal process",
+        "Adiabatic process",
+        "Isochoric process",
+        "Isobaric process",
+        "Heat engine efficiency",
+        "Second law"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: First law, thermodynamic processes and heat engines are major derivation areas. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-12-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Thermodynamic system.",
+          "answer": "A system is the chosen matter or region separated from surroundings by a boundary.",
+          "keyPoints": "Thermodynamic system"
+        },
+        {
+          "id": "c11-phy-12-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of State variables.",
+          "answer": "Pressure, volume, temperature and internal energy specify an equilibrium state.",
+          "keyPoints": "State variables"
+        },
+        {
+          "id": "c11-phy-12-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Zeroth law.",
+          "answer": "If two systems are separately in thermal equilibrium with a third, they are in equilibrium with each other.",
+          "keyPoints": "Zeroth law"
+        },
+        {
+          "id": "c11-phy-12-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define First law.",
+          "answer": "With work done by the system positive, ΔQ=ΔU+ΔW.",
+          "keyPoints": "First law"
+        },
+        {
+          "id": "c11-phy-12-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Isothermal process.",
+          "answer": "In an isothermal process temperature is constant; for an ideal gas ΔU=0.",
+          "keyPoints": "Isothermal process"
+        },
+        {
+          "id": "c11-phy-12-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Adiabatic process.",
+          "answer": "In an adiabatic process ΔQ=0 and PV^γ remains constant for an ideal gas.",
+          "keyPoints": "Adiabatic process"
+        },
+        {
+          "id": "c11-phy-12-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Isochoric process.",
+          "answer": "At constant volume, work is zero and heat supplied equals change in internal energy.",
+          "keyPoints": "Isochoric process"
+        },
+        {
+          "id": "c11-phy-12-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Isobaric process.",
+          "answer": "At constant pressure, work done is PΔV.",
+          "keyPoints": "Isobaric process"
+        },
+        {
+          "id": "c11-phy-12-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Heat engine efficiency.",
+          "answer": "Efficiency η=W/Q_H=1−Q_C/Q_H.",
+          "keyPoints": "Heat engine efficiency"
+        },
+        {
+          "id": "c11-phy-12-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Second law.",
+          "answer": "No cyclic engine can convert all absorbed heat into work; entropy of an isolated system does not decrease.",
+          "keyPoints": "Second law"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-12-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Thermodynamic system and State variables with the relevant formula or physical distinction.",
+          "answer": "1. Thermodynamic system: A system is the chosen matter or region separated from surroundings by a boundary.\n2. State variables: Pressure, volume, temperature and internal energy specify an equilibrium state.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Thermodynamic system • State variables • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-12-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Zeroth law and First law, and state one application of each.",
+          "answer": "1. Zeroth law: If two systems are separately in thermal equilibrium with a third, they are in equilibrium with each other.\n2. First law: With work done by the system positive, ΔQ=ΔU+ΔW.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Zeroth law • First law • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-12-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Isothermal process and Adiabatic process with the relevant formula or physical distinction.",
+          "answer": "1. Isothermal process: In an isothermal process temperature is constant; for an ideal gas ΔU=0.\n2. Adiabatic process: In an adiabatic process ΔQ=0 and PV^γ remains constant for an ideal gas.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Isothermal process • Adiabatic process • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-12-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Isochoric process and Isobaric process, and state one application of each.",
+          "answer": "1. Isochoric process: At constant volume, work is zero and heat supplied equals change in internal energy.\n2. Isobaric process: At constant pressure, work done is PΔV.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Isochoric process • Isobaric process • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-12-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Heat engine efficiency and Second law with the relevant formula or physical distinction.",
+          "answer": "1. Heat engine efficiency: Efficiency η=W/Q_H=1−Q_C/Q_H.\n2. Second law: No cyclic engine can convert all absorbed heat into work; entropy of an isolated system does not decrease.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Heat engine efficiency • Second law • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-12-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "State and explain the first law for important thermodynamic processes.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nThe first law is ΔQ=ΔU+ΔW, where ΔW is work done by the system. Isochoric: ΔW=0, so ΔQ=ΔU. Isothermal ideal gas: ΔU=0, so ΔQ=ΔW. Adiabatic: ΔQ=0, so ΔU=−ΔW.\n\nFor a complete cycle ΔU=0, hence net heat absorbed equals net work done.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "State • and • explain • the • first • law • for • important",
+          "diagram": "assets/physics-board/heat-engine.svg",
+          "diagramAlt": "Labelled Physics board diagram for Thermodynamics"
+        },
+        {
+          "id": "c11-phy-12-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Derive work done in isothermal expansion of an ideal gas.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFor n moles at constant T, P=nRT/V. Work from V₁ to V₂ is W=∫P dV=nRT∫dV/V=nRT ln(V₂/V₁).\n\nFor expansion W>0 and equals heat absorbed because ΔU=0. The result assumes a quasistatic reversible path.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • work • done • in • isothermal • expansion • of • an"
+        },
+        {
+          "id": "c11-phy-12-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain a heat engine, refrigerator and the second law of thermodynamics.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nA heat engine absorbs Q_H from a hot reservoir, performs W and rejects Q_C; W=Q_H−Q_C and η=1−Q_C/Q_H. A refrigerator uses work to remove Q_C from a cold reservoir; COP=Q_C/W.\n\nKelvin–Planck statement forbids complete conversion of heat from one reservoir into work. Clausius statement forbids spontaneous heat flow from cold to hot. They express the same second-law limitation.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • a • heat • engine, • refrigerator • and • the • second"
+        }
+      ]
     },
     {
       "id": "class11-physics-13",
       "number": 13,
       "name": "Kinetic Theory",
-      "topics": [],
+      "topics": [
+        "Ideal gas",
+        "Pressure relation",
+        "RMS speed",
+        "Mean kinetic energy",
+        "Degree of freedom",
+        "Equipartition theorem",
+        "Monoatomic heat capacity",
+        "Diatomic heat capacity",
+        "Mean free path",
+        "Avogadro constant"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: Ideal-gas assumptions, pressure equation, rms speed and equipartition form a compact scoring unit. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-13-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Ideal gas.",
+          "answer": "An ideal gas obeys PV=nRT and has negligible molecular volume and intermolecular forces except during collisions.",
+          "keyPoints": "Ideal gas"
+        },
+        {
+          "id": "c11-phy-13-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Pressure relation.",
+          "answer": "Kinetic theory gives P=(1/3)ρc_rms².",
+          "keyPoints": "Pressure relation"
+        },
+        {
+          "id": "c11-phy-13-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for RMS speed.",
+          "answer": "c_rms=√(3RT/M)=√(3kT/m).",
+          "keyPoints": "RMS speed"
+        },
+        {
+          "id": "c11-phy-13-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Mean kinetic energy.",
+          "answer": "Average translational kinetic energy per molecule is 3kT/2.",
+          "keyPoints": "Mean kinetic energy"
+        },
+        {
+          "id": "c11-phy-13-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Degree of freedom.",
+          "answer": "A degree of freedom is an independent coordinate or mode that can store energy.",
+          "keyPoints": "Degree of freedom"
+        },
+        {
+          "id": "c11-phy-13-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Equipartition theorem.",
+          "answer": "Each quadratic degree of freedom contributes ½kT per molecule to mean energy.",
+          "keyPoints": "Equipartition theorem"
+        },
+        {
+          "id": "c11-phy-13-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Monoatomic heat capacity.",
+          "answer": "For a monoatomic ideal gas C_V=3R/2 and C_P=5R/2.",
+          "keyPoints": "Monoatomic heat capacity"
+        },
+        {
+          "id": "c11-phy-13-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Diatomic heat capacity.",
+          "answer": "At ordinary temperature, a rigid diatomic gas has C_V=5R/2 and C_P=7R/2.",
+          "keyPoints": "Diatomic heat capacity"
+        },
+        {
+          "id": "c11-phy-13-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Mean free path.",
+          "answer": "Mean free path is the average distance travelled between successive molecular collisions.",
+          "keyPoints": "Mean free path"
+        },
+        {
+          "id": "c11-phy-13-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Avogadro constant.",
+          "answer": "One mole contains N_A particles and R=N_Ak.",
+          "keyPoints": "Avogadro constant"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-13-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Ideal gas and Pressure relation with the relevant formula or physical distinction.",
+          "answer": "1. Ideal gas: An ideal gas obeys PV=nRT and has negligible molecular volume and intermolecular forces except during collisions.\n2. Pressure relation: Kinetic theory gives P=(1/3)ρc_rms².\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Ideal gas • Pressure relation • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-13-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between RMS speed and Mean kinetic energy, and state one application of each.",
+          "answer": "1. RMS speed: c_rms=√(3RT/M)=√(3kT/m).\n2. Mean kinetic energy: Average translational kinetic energy per molecule is 3kT/2.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "RMS speed • Mean kinetic energy • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-13-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Degree of freedom and Equipartition theorem with the relevant formula or physical distinction.",
+          "answer": "1. Degree of freedom: A degree of freedom is an independent coordinate or mode that can store energy.\n2. Equipartition theorem: Each quadratic degree of freedom contributes ½kT per molecule to mean energy.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Degree of freedom • Equipartition theorem • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-13-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Monoatomic heat capacity and Diatomic heat capacity, and state one application of each.",
+          "answer": "1. Monoatomic heat capacity: For a monoatomic ideal gas C_V=3R/2 and C_P=5R/2.\n2. Diatomic heat capacity: At ordinary temperature, a rigid diatomic gas has C_V=5R/2 and C_P=7R/2.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Monoatomic heat capacity • Diatomic heat capacity • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-13-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Mean free path and Avogadro constant with the relevant formula or physical distinction.",
+          "answer": "1. Mean free path: Mean free path is the average distance travelled between successive molecular collisions.\n2. Avogadro constant: One mole contains N_A particles and R=N_Ak.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Mean free path • Avogadro constant • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-13-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the kinetic-theory expression for pressure of an ideal gas.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nConsider N molecules in a cube. A molecule with x-component cₓ transfers momentum 2mcₓ per collision with a wall and collides at rate cₓ/(2l). Its average force contribution is mcₓ²/l.\n\nSumming and dividing by wall area gives P=(Nm/V)⟨cₓ²⟩. Isotropy gives ⟨cₓ²⟩=⟨c²⟩/3, hence P=(1/3)ρc_rms².\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Derive • the • kinetic-theory • expression • for • pressure • of • an"
+        },
+        {
+          "id": "c11-phy-13-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Use equipartition to obtain molar heat capacities of ideal gases.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nIf a molecule has f quadratic degrees of freedom, mean energy is f kT/2. For one mole U=fRT/2, so C_V=(∂U/∂T)_V=fR/2. Since C_P−C_V=R, C_P=(f+2)R/2 and γ=(f+2)/f.\n\nFor monoatomic gas f=3; for a rigid diatomic gas at ordinary temperature f=5.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Use • equipartition • to • obtain • molar • heat • capacities • of"
+        },
+        {
+          "id": "c11-phy-13-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Relate temperature to molecular kinetic energy and obtain rms speed.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nFrom kinetic theory P=(1/3)(Nm/V)c_rms² and ideal-gas equation PV=NkT. Equating gives (1/3)Nm c_rms²=NkT.\n\nTherefore ½m c_rms²=3kT/2 and c_rms=√(3kT/m)=√(3RT/M). Absolute temperature measures mean translational kinetic energy.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Relate • temperature • to • molecular • kinetic • energy • and • obtain"
+        }
+      ]
     },
     {
       "id": "class11-physics-14",
       "number": 14,
       "name": "Physics of Emerging Technologies",
-      "topics": [],
+      "topics": [
+        "Artificial intelligence",
+        "Machine learning",
+        "Sensor",
+        "Internet of Things",
+        "Robotics",
+        "Quantum tunnelling",
+        "Nanotechnology",
+        "Semiconductor technology",
+        "Renewable-energy technology",
+        "Responsible technology"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Write the principle first, define symbols, show substitutions with SI units and box the final result. For derivations, use a neat diagram and do not skip algebraic steps.",
+        "sourceNote": "2026–27 revised syllabus focus: New 2026–27 unit: concise definitions, working principles, applications and ethical limitations. Importance is preparation guidance, not a prediction."
+      },
+      "vsaq": [
+        {
+          "id": "c11-phy-14-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Artificial intelligence.",
+          "answer": "AI enables machines to perform tasks involving perception, reasoning, prediction or decision-making.",
+          "keyPoints": "Artificial intelligence"
+        },
+        {
+          "id": "c11-phy-14-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the meaning of Machine learning.",
+          "answer": "Machine learning uses data to train algorithms that improve predictions without explicit rule-by-rule programming.",
+          "keyPoints": "Machine learning"
+        },
+        {
+          "id": "c11-phy-14-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key relation or statement for Sensor.",
+          "answer": "A sensor converts a physical quantity such as light, pressure or temperature into a usable signal.",
+          "keyPoints": "Sensor"
+        },
+        {
+          "id": "c11-phy-14-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define Internet of Things.",
+          "answer": "IoT connects sensor-equipped devices so they can collect, exchange and act on data.",
+          "keyPoints": "Internet of Things"
+        },
+        {
+          "id": "c11-phy-14-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the meaning of Robotics.",
+          "answer": "Robotics integrates sensors, control algorithms and actuators to perform physical tasks.",
+          "keyPoints": "Robotics"
+        },
+        {
+          "id": "c11-phy-14-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key relation or statement for Quantum tunnelling.",
+          "answer": "Quantum tunnelling is the finite probability of a particle crossing a barrier higher than its classical energy.",
+          "keyPoints": "Quantum tunnelling"
+        },
+        {
+          "id": "c11-phy-14-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define Nanotechnology.",
+          "answer": "Nanotechnology controls matter roughly at 1–100 nm, where surface and quantum effects become important.",
+          "keyPoints": "Nanotechnology"
+        },
+        {
+          "id": "c11-phy-14-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the meaning of Semiconductor technology.",
+          "answer": "Controlled doping and junctions allow semiconductor devices to switch, sense and process signals.",
+          "keyPoints": "Semiconductor technology"
+        },
+        {
+          "id": "c11-phy-14-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key relation or statement for Renewable-energy technology.",
+          "answer": "Solar cells, wind turbines and storage systems convert and manage naturally replenished energy.",
+          "keyPoints": "Renewable-energy technology"
+        },
+        {
+          "id": "c11-phy-14-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define Responsible technology.",
+          "answer": "Responsible technology protects safety, privacy, fairness, sustainability and human oversight.",
+          "keyPoints": "Responsible technology"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-phy-14-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Artificial intelligence and Machine learning with the relevant formula or physical distinction.",
+          "answer": "1. Artificial intelligence: AI enables machines to perform tasks involving perception, reasoning, prediction or decision-making.\n2. Machine learning: Machine learning uses data to train algorithms that improve predictions without explicit rule-by-rule programming.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Artificial intelligence • Machine learning • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-14-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Sensor and Internet of Things, and state one application of each.",
+          "answer": "1. Sensor: A sensor converts a physical quantity such as light, pressure or temperature into a usable signal.\n2. Internet of Things: IoT connects sensor-equipped devices so they can collect, exchange and act on data.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Sensor • Internet of Things • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-14-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Robotics and Quantum tunnelling with the relevant formula or physical distinction.",
+          "answer": "1. Robotics: Robotics integrates sensors, control algorithms and actuators to perform physical tasks.\n2. Quantum tunnelling: Quantum tunnelling is the finite probability of a particle crossing a barrier higher than its classical energy.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Robotics • Quantum tunnelling • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-14-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Distinguish between Nanotechnology and Semiconductor technology, and state one application of each.",
+          "answer": "1. Nanotechnology: Nanotechnology controls matter roughly at 1–100 nm, where surface and quantum effects become important.\n2. Semiconductor technology: Controlled doping and junctions allow semiconductor devices to switch, sense and process signals.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Nanotechnology • Semiconductor technology • condition • SI unit • example"
+        },
+        {
+          "id": "c11-phy-14-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Renewable-energy technology and Responsible technology with the relevant formula or physical distinction.",
+          "answer": "1. Renewable-energy technology: Solar cells, wind turbines and storage systems convert and manage naturally replenished energy.\n2. Responsible technology: Responsible technology protects safety, privacy, fairness, sustainability and human oversight.\n3. Link: Identify the governing quantity, direction and condition under which each statement applies.\n4. Exam presentation: Define every symbol, use SI units and add one suitable physical example.",
+          "keyPoints": "Renewable-energy technology • Responsible technology • condition • SI unit • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-phy-14-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain how sensors, control systems and actuators work together in a robot.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nSensors measure the environment and convert physical inputs into electrical or digital signals. A controller processes these signals using programmed logic or a trained model. Actuators then convert control commands into motion or another physical output.\n\nFeedback repeats this loop, allowing correction of error. Give examples such as a line-following robot or an automated medical device, and mention safety interlocks.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • how • sensors, • control • systems • and • actuators • work",
+          "diagram": "assets/physics-board/emerging-tech.svg",
+          "diagramAlt": "Labelled Physics board diagram for Physics of Emerging Technologies"
+        },
+        {
+          "id": "c11-phy-14-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain quantum tunnelling and give technological applications.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nA quantum particle is described by a wavefunction that can penetrate a finite potential barrier. Its amplitude decays inside the barrier but may remain non-zero beyond it, giving a finite transmission probability even when classical energy is lower than barrier height.\n\nApplications include tunnel diodes, scanning tunnelling microscopy, flash-memory operation and nuclear alpha decay. Tunnelling probability falls rapidly with barrier width and height.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Explain • quantum • tunnelling • and • give • technological • applications."
+        },
+        {
+          "id": "c11-phy-14-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Discuss artificial intelligence and machine learning with benefits, limits and responsible use.",
+          "answer": "Principle: Begin with the relevant physical law and state the assumptions.\n\nMachine learning trains a model on examples to detect patterns and make predictions; AI is the broader field that uses such models with perception, reasoning and action. Applications include medical-image assistance, weather prediction, adaptive learning and industrial quality control.\n\nModels can inherit bias, make confident errors and threaten privacy. Responsible use requires quality data, testing, transparency, security, human oversight and energy-aware design.\n\nScoring finish: Define every symbol, check dimensions, include SI units and box the final expression.",
+          "keyPoints": "Discuss • artificial • intelligence • and • machine • learning • with • benefits,"
+        }
+      ]
     }
-  ]
+  ],
+  "boardAnalysis": {
+    "exam": "Telangana Intermediate First Year Physics",
+    "duration": "3 hours",
+    "maximumMarks": 60,
+    "sections": [
+      {
+        "name": "Section A",
+        "format": "VSAQ",
+        "marks": "10 × 2 = 20",
+        "rule": "Answer all 10; definition/formula, symbol meanings and SI unit."
+      },
+      {
+        "name": "Section B",
+        "format": "SAQ",
+        "marks": "6 × 4 = 24",
+        "rule": "Answer the prescribed choice; show method, substitution and final unit."
+      },
+      {
+        "name": "Section C",
+        "format": "LAQ",
+        "marks": "2 × 8 = 16",
+        "rule": "Answer the prescribed choice; use principle, derivation, diagram and boxed result."
+      }
+    ],
+    "note": "The bank follows the revised 14-unit 2026–27 syllabus and the established 60-mark Physics framework. It contains 252 model answers—far more than one paper—so students can prepare definitions, numericals, graphs and derivations across every unit. Final internal-choice counts should be checked against the latest TGBIE model paper."
+  }
 }
