@@ -8,7 +8,7 @@ const manifest=read('data/manifest.json');
 const context={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'data/prebundled_data.js'),'utf8'),context);
 const bundle=JSON.parse(JSON.stringify(context.window.SCRUTINY_DATA));
 assert.deepEqual(manifest,bundle.manifest);
-const expected={class11:{botany:14,zoology:8,physics:14,chemistry:10},class12:{botany:14,zoology:8,physics:16,chemistry:13}};
+const expected={class11:{botany:14,zoology:8,physics:14,chemistry:13},class12:{botany:14,zoology:8,physics:16,chemistry:13}};
 const neet=[];
 let biologyMcqs=0;
 for(const cat of manifest.categories) for(const sub of cat.subjects){
@@ -64,4 +64,4 @@ for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
  const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
  assert.ok(fs.existsSync(path.join(root,decodeURIComponent(ref))),`Missing asset: ${ref}`);
 }
-console.log('Validated 420 Class 11 Botany answers, 97 board chapters, 1920 Biology MCQs, 2520 Class 12 Physics MCQs, 4469 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+console.log('Validated 420 Class 11 Botany answers, 100 board chapters, 1920 Biology MCQs, 2520 Class 12 Physics MCQs, 4469 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
