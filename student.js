@@ -24,7 +24,7 @@ const app = initializeApp(firebaseConfig),
 
 const COURSE_PORTALS = {
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", icon: "📘", color: "#1677d2", target: "class10", description: "Telangana SSC subjects, board questions, revision and chapter practice.", actions: [["Subjects", "Open Class 10 subjects and chapters.", "class10"], ["Board Practice", "VSAQ, SAQ, LAQ and MCQ preparation.", "class10"], ["My Progress", "See only your Class 10 learning record.", "progress"], ["Revision Queue", "Review Class 10 mistakes and bookmarks.", "tools"]] },
-  class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", icon: "🌱", color: "#138a5b", target: "class11", description: "First-year Botany, Zoology, Physics and Chemistry in a board-focused portal.", actions: [["Class 11 Subjects", "Open the first-year chapter catalogue.", "class11"], ["Flashcards", "Revise available Class 11 concept decks.", "flashcards"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 11 learning record.", "progress"]] },
+  class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", icon: "🌱", color: "#138a5b", target: "class11", description: "First-year Botany, Zoology, Physics and Chemistry in a board-focused portal.", actions: [["Botany Answer Bank", "Open all 14 chapters with 210 VSAQs, 140 SAQs and 70 LAQs.", "class11"], ["Flashcards", "Revise available Class 11 concept decks.", "flashcards"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 11 learning record.", "progress"]] },
   class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", icon: "🎓", color: "#7254c7", target: "class12", description: "Second-year board subjects, revision resources and exam preparation.", actions: [["Class 12 Subjects", "Open the second-year chapter catalogue.", "class12"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 12 learning record.", "progress"], ["Revision Queue", "Review Class 12 mistakes and bookmarks.", "tools"]] },
   neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", icon: "🧬", color: "#d65328", target: "neet", description: "NCERT-focused Biology, Physics and Chemistry MCQs, PYQs and tests.", actions: [["Chapter Practice", "Biology, Physics and Chemistry MCQs.", "neet"], ["Create a Test", "Build a personalised NEET test.", "neet"], ["NCERT Search", "Find indexed NCERT concepts and references.", "ncert"], ["Mistake Notebook", "Revise incorrect NEET questions.", "tools"], ["Previous Years", "Open published NEET PYQs.", "pyqs"], ["My Progress", "See only your NEET performance.", "progress"]] },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
@@ -68,6 +68,7 @@ function renderCourseDashboard() {
     return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
   }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor]) => `<a class="card big-link" href="${portalUrl(anchor)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
+  $("class10LectureEntry").hidden = activeCourse !== "class10";
   document.querySelectorAll("button[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
 }
 
@@ -289,7 +290,6 @@ onAuthStateChanged(auth, async (user) => {
   setupCourseDashboard({ ...p, founderAccess });
   if (founderAccess) $("studentMeta").textContent = `${user.email} • FOUNDER PREVIEW • ALL COURSES`;
   loadInvoices(user);
-  $("class10LectureEntry").hidden = !availableCourses.includes("class10");
   renderSummary();
   setupReview(user, p);
   try {

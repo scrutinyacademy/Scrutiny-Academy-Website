@@ -3,6 +3,7 @@ import { entitledCourses } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
+  getIdTokenResult,
   onAuthStateChanged,
   signOut,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
@@ -157,8 +158,24 @@ if (!configured) {
     const admin = SCRUTINY_ADMIN_EMAILS.map((x) => x.toLowerCase()).includes(
       (user.email || "").toLowerCase(),
     );
-    if (admin) {
-      await openPlatform(auth, user, { accessStatus: "active", activeCourse: "neet", courseEntitlements: { neet: { status: "active" } } }, db);
+    let founderAccess = admin;
+    if (!founderAccess) {
+      try {
+        const token = await getIdTokenResult(user, true);
+        founderAccess = token.claims.founder === true;
+      } catch (error) {
+        console.warn("Founder access claim could not be checked", error);
+      }
+    }
+    if (founderAccess) {
+      let founderProfile = {};
+      try {
+        const founderSnap = await getDoc(doc(db, "students", user.uid));
+        if (founderSnap.exists()) founderProfile = founderSnap.data();
+      } catch (error) {
+        console.warn("Founder profile could not be loaded; continuing with founder access", error);
+      }
+      await openPlatform(auth, user, { ...founderProfile, accessStatus: "active", founderAccess: true }, db);
       return;
     }
     try {
