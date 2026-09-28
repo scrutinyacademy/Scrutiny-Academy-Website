@@ -233,27 +233,56 @@
       .join("");
   }
   async function renderInventory() {
-    let s = 0,
-      ch = 0,
-      q = 0;
     const courseId = activeCourseId();
-    if (courseId === "class11" || courseId === "class12") {
+
+    // Class 11 is a board-answer-bank portal, so show the inventory students
+    // actually see: published chapters, covered syllabus topics and VSAQ/SAQ/LAQ questions.
+    if (courseId === "class11") {
+      const class11Category = state.manifest.categories.find((item) => item.id === "class11");
+      let chapters = 0, topics = 0, questions = 0, subjects = 0;
+      for (const subject of class11Category?.subjects || []) {
+        try {
+          const data = await load(subject.file);
+          subjects++;
+          for (const chapter of data.chapters || []) {
+            chapters++;
+            topics += (chapter.topics || []).length;
+            questions += (chapter.vsaq || []).length + (chapter.saq || []).length + (chapter.laq || []).length;
+          }
+        } catch {}
+      }
+      $("metricSubjects").textContent = chapters.toLocaleString("en-IN");
+      $("metricSubjectsLabel").textContent = "published chapters";
+      $("metricChapters").textContent = topics.toLocaleString("en-IN");
+      $("metricChaptersLabel").textContent = "topics covered";
+      $("metricMcqs").textContent = questions.toLocaleString("en-IN");
+      $("metricMcqsLabel").textContent = "VSAQ • SAQ • LAQ questions";
+      $("inventoryNote").textContent =
+        `${subjects} board subjects • Botany, Zoology, Physics & Chemistry • Class 11 portal only.`;
+      return;
+    }
+
+    let s = 0, ch = 0, q = 0;
+    if (courseId === "class12") {
       const catalog = await load(repo[courseId]);
       s = (catalog.subjects || []).length;
       ch = (catalog.subjects || []).reduce((total, subject) => total + (subject.chapters || []).length, 0);
     }
-    for (const c of (state.manifest.categories || []).filter((item) => item.id === courseId))
-      for (const x of c.subjects || []) {
+    for (const category of (state.manifest.categories || []).filter((item) => item.id === courseId))
+      for (const subject of category.subjects || []) {
         s++;
         try {
-          const d = await load(x.file);
-          ch += publishedChapters(d).length;
-          q += allMcqs(d).length;
+          const data = await load(subject.file);
+          ch += publishedChapters(data).length;
+          q += allMcqs(data).length;
         } catch {}
       }
     $("metricSubjects").textContent = s;
+    $("metricSubjectsLabel").textContent = "active subjects";
     $("metricChapters").textContent = ch;
+    $("metricChaptersLabel").textContent = "published chapters";
     $("metricMcqs").textContent = q.toLocaleString("en-IN");
+    $("metricMcqsLabel").textContent = "published MCQs";
     $("inventoryNote").textContent =
       `Published inside the ${COURSE_PORTALS_LABELS[courseId] || "selected"} portal only.`;
   }
