@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v24-class11-physics-bank";
+const CACHE = "scrutiny-academy-v25-class11-chemistry-bank";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -33,6 +33,7 @@ const APP_SHELL = [
   "./data/platform.json",
   "./data/class11/zoology.json",
   "./data/class11/physics.json",
+  "./data/class11/chemistry.json",
   "./assets/zoology/body-plans.svg",
   "./assets/zoology/invertebrate-phyla.svg",
   "./assets/zoology/chordate-classes.svg",
@@ -52,6 +53,19 @@ const APP_SHELL = [
   "./assets/physics-board/heat-transfer.svg",
   "./assets/physics-board/heat-engine.svg",
   "./assets/physics-board/emerging-tech.svg",
+  "./assets/chemistry-board/atomic-orbitals.svg",
+  "./assets/chemistry-board/periodic-trends.svg",
+  "./assets/chemistry-board/molecular-shapes.svg",
+  "./assets/chemistry-board/gas-laws.svg",
+  "./assets/chemistry-board/stoichiometry-redox.svg",
+  "./assets/chemistry-board/hess-cycle.svg",
+  "./assets/chemistry-board/equilibrium-ph.svg",
+  "./assets/chemistry-board/hydrogen-peroxide.svg",
+  "./assets/chemistry-board/sblock-flame.svg",
+  "./assets/chemistry-board/diborane.svg",
+  "./assets/chemistry-board/carbon-silicon.svg",
+  "./assets/chemistry-board/pollution-cycle.svg",
+  "./assets/chemistry-board/organic-reactions.svg",
   "./data/neet/class11-physics-bank.js",
   "./data/neet/class11-chemistry-bank.js",
 ];
