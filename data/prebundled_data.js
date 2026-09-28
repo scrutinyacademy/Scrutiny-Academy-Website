@@ -7515,102 +7515,2268 @@ window.SCRUTINY_DATA = {
       "classLevel": 11,
       "board": "Telangana Intermediate",
       "source": {
-        "file": "ZOOLOGY_-I_SYLLABUS.pdf",
-        "academicYear": "2026-2027",
-        "kind": "Syllabus",
-        "note": ""
+        "file": "Annual_Plan_Zoology-1.pdf",
+        "academicYear": "2025-2026",
+        "kind": "Official annual academic plan",
+        "note": "TGBIE"
       },
-      "description": "Telangana Intermediate First Year Zoology",
+      "description": "Complete Telangana Intermediate First Year Zoology board bank: 8 units, 120 VSAQs, 80 SAQs and 40 LAQs with explanatory answers.",
       "chapters": [
         {
           "id": "class11-zoology-01",
           "number": 1,
-          "name": "The Living World",
-          "topics": [],
+          "name": "Diversity of the Living World",
+          "topics": [
+            "Life",
+            "Zoology",
+            "Branches of zoology",
+            "Classification",
+            "Phylogenetic classification",
+            "Taxonomic hierarchy",
+            "Binomial nomenclature",
+            "Trinomial nomenclature",
+            "Species",
+            "Kingdom Animalia",
+            "Genetic diversity",
+            "Species diversity",
+            "Ecosystem diversity",
+            "Biodiversity threats",
+            "Conservation"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-1-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Life.",
+              "answer": "Life is expressed through cellular organisation, metabolism, growth, reproduction, response to stimuli and evolutionary continuity.",
+              "keyPoints": "Life"
+            },
+            {
+              "id": "c11-zoo-1-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Zoology?",
+              "answer": "Zoology is the scientific study of animals, including their diversity, structure, physiology, development, evolution and ecology.",
+              "keyPoints": "Zoology"
+            },
+            {
+              "id": "c11-zoo-1-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Branches of zoology.",
+              "answer": "Morphology, anatomy, physiology, embryology, taxonomy, genetics, ecology and ethology examine different aspects of animals.",
+              "keyPoints": "Branches of zoology"
+            },
+            {
+              "id": "c11-zoo-1-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Classification.",
+              "answer": "Classification arranges animals into groups using shared characters, making identification and evolutionary comparison systematic.",
+              "keyPoints": "Classification"
+            },
+            {
+              "id": "c11-zoo-1-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Phylogenetic classification?",
+              "answer": "Phylogenetic classification groups organisms according to common ancestry and evolutionary relationships.",
+              "keyPoints": "Phylogenetic classification"
+            },
+            {
+              "id": "c11-zoo-1-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Taxonomic hierarchy.",
+              "answer": "The principal ascending ranks are species, genus, family, order, class, phylum and kingdom.",
+              "keyPoints": "Taxonomic hierarchy"
+            },
+            {
+              "id": "c11-zoo-1-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Binomial nomenclature.",
+              "answer": "A scientific name has a capitalised genus and lower-case specific epithet, printed in italics or underlined separately.",
+              "keyPoints": "Binomial nomenclature"
+            },
+            {
+              "id": "c11-zoo-1-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Trinomial nomenclature?",
+              "answer": "Trinomial nomenclature adds a third name below species to identify a subspecies or geographical race.",
+              "keyPoints": "Trinomial nomenclature"
+            },
+            {
+              "id": "c11-zoo-1-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Species.",
+              "answer": "A species is a natural population whose members interbreed and normally produce fertile offspring.",
+              "keyPoints": "Species"
+            },
+            {
+              "id": "c11-zoo-1-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Kingdom Animalia.",
+              "answer": "Animals are multicellular eukaryotic heterotrophs without cell walls; most show specialised tissues and active movement.",
+              "keyPoints": "Kingdom Animalia"
+            },
+            {
+              "id": "c11-zoo-1-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Genetic diversity?",
+              "answer": "Genetic diversity is variation in genes and alleles among individuals or populations of a species.",
+              "keyPoints": "Genetic diversity"
+            },
+            {
+              "id": "c11-zoo-1-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Species diversity.",
+              "answer": "Species diversity combines the number of species with their relative abundance in a community.",
+              "keyPoints": "Species diversity"
+            },
+            {
+              "id": "c11-zoo-1-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Ecosystem diversity.",
+              "answer": "Ecosystem diversity is the variety of habitats, communities and ecological processes in a region.",
+              "keyPoints": "Ecosystem diversity"
+            },
+            {
+              "id": "c11-zoo-1-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Biodiversity threats?",
+              "answer": "Habitat loss, overexploitation, invasive species, pollution and climate change are major drivers of biodiversity decline.",
+              "keyPoints": "Biodiversity threats"
+            },
+            {
+              "id": "c11-zoo-1-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Conservation.",
+              "answer": "In-situ conservation protects organisms in natural habitats; ex-situ conservation uses zoos, gene banks and captive breeding.",
+              "keyPoints": "Conservation"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-1-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Life and Taxonomic hierarchy.",
+              "answer": "• Life: Life is expressed through cellular organisation, metabolism, growth, reproduction, response to stimuli and evolutionary continuity.\n• Taxonomic hierarchy: The principal ascending ranks are species, genus, family, order, class, phylum and kingdom.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Life • Taxonomic hierarchy • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Zoology and Binomial nomenclature with suitable zoological examples.",
+              "answer": "• Zoology: Zoology is the scientific study of animals, including their diversity, structure, physiology, development, evolution and ecology.\n• Binomial nomenclature: A scientific name has a capitalised genus and lower-case specific epithet, printed in italics or underlined separately.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Zoology • Binomial nomenclature • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Branches of zoology and Trinomial nomenclature.",
+              "answer": "• Branches of zoology: Morphology, anatomy, physiology, embryology, taxonomy, genetics, ecology and ethology examine different aspects of animals.\n• Trinomial nomenclature: Trinomial nomenclature adds a third name below species to identify a subspecies or geographical race.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Branches of zoology • Trinomial nomenclature • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Classification and Species with suitable zoological examples.",
+              "answer": "• Classification: Classification arranges animals into groups using shared characters, making identification and evolutionary comparison systematic.\n• Species: A species is a natural population whose members interbreed and normally produce fertile offspring.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Classification • Species • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Phylogenetic classification and Kingdom Animalia.",
+              "answer": "• Phylogenetic classification: Phylogenetic classification groups organisms according to common ancestry and evolutionary relationships.\n• Kingdom Animalia: Animals are multicellular eukaryotic heterotrophs without cell walls; most show specialised tissues and active movement.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Phylogenetic classification • Kingdom Animalia • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Taxonomic hierarchy and Genetic diversity with suitable zoological examples.",
+              "answer": "• Taxonomic hierarchy: The principal ascending ranks are species, genus, family, order, class, phylum and kingdom.\n• Genetic diversity: Genetic diversity is variation in genes and alleles among individuals or populations of a species.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Taxonomic hierarchy • Genetic diversity • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Binomial nomenclature and Species diversity.",
+              "answer": "• Binomial nomenclature: A scientific name has a capitalised genus and lower-case specific epithet, printed in italics or underlined separately.\n• Species diversity: Species diversity combines the number of species with their relative abundance in a community.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Binomial nomenclature • Species diversity • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Trinomial nomenclature and Ecosystem diversity with suitable zoological examples.",
+              "answer": "• Trinomial nomenclature: Trinomial nomenclature adds a third name below species to identify a subspecies or geographical race.\n• Ecosystem diversity: Ecosystem diversity is the variety of habitats, communities and ecological processes in a region.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Trinomial nomenclature • Ecosystem diversity • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Species and Biodiversity threats.",
+              "answer": "• Species: A species is a natural population whose members interbreed and normally produce fertile offspring.\n• Biodiversity threats: Habitat loss, overexploitation, invasive species, pollution and climate change are major drivers of biodiversity decline.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Species • Biodiversity threats • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-1-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Kingdom Animalia and Conservation with suitable zoological examples.",
+              "answer": "• Kingdom Animalia: Animals are multicellular eukaryotic heterotrophs without cell walls; most show specialised tissues and active movement.\n• Conservation: In-situ conservation protects organisms in natural habitats; ex-situ conservation uses zoos, gene banks and captive breeding.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Kingdom Animalia • Conservation • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-1-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Life, Zoology, Branches of zoology in Diversity of the Living World.",
+              "answer": "Introduction: Diversity of the Living World should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Life: Life is expressed through cellular organisation, metabolism, growth, reproduction, response to stimuli and evolutionary continuity.\n2. Zoology: Zoology is the scientific study of animals, including their diversity, structure, physiology, development, evolution and ecology.\n3. Branches of zoology: Morphology, anatomy, physiology, embryology, taxonomy, genetics, ecology and ethology examine different aspects of animals.\n4. Classification: Classification arranges animals into groups using shared characters, making identification and evolutionary comparison systematic.\n5. Phylogenetic classification: Phylogenetic classification groups organisms according to common ancestry and evolutionary relationships.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Life • Zoology • Branches of zoology • Classification • Phylogenetic classification"
+            },
+            {
+              "id": "c11-zoo-1-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Classification, Phylogenetic classification, Taxonomic hierarchy in Diversity of the Living World.",
+              "answer": "Introduction: Diversity of the Living World should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Classification: Classification arranges animals into groups using shared characters, making identification and evolutionary comparison systematic.\n2. Phylogenetic classification: Phylogenetic classification groups organisms according to common ancestry and evolutionary relationships.\n3. Taxonomic hierarchy: The principal ascending ranks are species, genus, family, order, class, phylum and kingdom.\n4. Binomial nomenclature: A scientific name has a capitalised genus and lower-case specific epithet, printed in italics or underlined separately.\n5. Trinomial nomenclature: Trinomial nomenclature adds a third name below species to identify a subspecies or geographical race.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Classification • Phylogenetic classification • Taxonomic hierarchy • Binomial nomenclature • Trinomial nomenclature"
+            },
+            {
+              "id": "c11-zoo-1-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Binomial nomenclature, Trinomial nomenclature, Species in Diversity of the Living World.",
+              "answer": "Introduction: Diversity of the Living World should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Binomial nomenclature: A scientific name has a capitalised genus and lower-case specific epithet, printed in italics or underlined separately.\n2. Trinomial nomenclature: Trinomial nomenclature adds a third name below species to identify a subspecies or geographical race.\n3. Species: A species is a natural population whose members interbreed and normally produce fertile offspring.\n4. Kingdom Animalia: Animals are multicellular eukaryotic heterotrophs without cell walls; most show specialised tissues and active movement.\n5. Genetic diversity: Genetic diversity is variation in genes and alleles among individuals or populations of a species.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Binomial nomenclature • Trinomial nomenclature • Species • Kingdom Animalia • Genetic diversity"
+            },
+            {
+              "id": "c11-zoo-1-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Kingdom Animalia, Genetic diversity, Species diversity in Diversity of the Living World.",
+              "answer": "Introduction: Diversity of the Living World should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Kingdom Animalia: Animals are multicellular eukaryotic heterotrophs without cell walls; most show specialised tissues and active movement.\n2. Genetic diversity: Genetic diversity is variation in genes and alleles among individuals or populations of a species.\n3. Species diversity: Species diversity combines the number of species with their relative abundance in a community.\n4. Ecosystem diversity: Ecosystem diversity is the variety of habitats, communities and ecological processes in a region.\n5. Biodiversity threats: Habitat loss, overexploitation, invasive species, pollution and climate change are major drivers of biodiversity decline.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Kingdom Animalia • Genetic diversity • Species diversity • Ecosystem diversity • Biodiversity threats"
+            },
+            {
+              "id": "c11-zoo-1-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Ecosystem diversity, Biodiversity threats, Conservation in Diversity of the Living World.",
+              "answer": "Introduction: Diversity of the Living World should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Ecosystem diversity: Ecosystem diversity is the variety of habitats, communities and ecological processes in a region.\n2. Biodiversity threats: Habitat loss, overexploitation, invasive species, pollution and climate change are major drivers of biodiversity decline.\n3. Conservation: In-situ conservation protects organisms in natural habitats; ex-situ conservation uses zoos, gene banks and captive breeding.\n4. Life: Life is expressed through cellular organisation, metabolism, growth, reproduction, response to stimuli and evolutionary continuity.\n5. Zoology: Zoology is the scientific study of animals, including their diversity, structure, physiology, development, evolution and ecology.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Ecosystem diversity • Biodiversity threats • Conservation • Life • Zoology"
+            }
+          ]
         },
         {
           "id": "class11-zoology-02",
           "number": 2,
-          "name": "Animal Tissues",
-          "topics": [],
+          "name": "Structural Organisation in Animals",
+          "topics": [
+            "Cellular level",
+            "Tissue level",
+            "Organ and organ-system levels",
+            "Diploblastic organisation",
+            "Triploblastic organisation",
+            "Radial symmetry",
+            "Bilateral symmetry",
+            "Acoelomate",
+            "Pseudocoelomate",
+            "Eucoelomate",
+            "Schizocoel",
+            "Enterocoel",
+            "Segmentation",
+            "Cephalisation",
+            "Germ-layer derivatives"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-2-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Cellular level.",
+              "answer": "At the cellular level, specialised cells show division of labour but true tissues are absent, as in sponges.",
+              "keyPoints": "Cellular level"
+            },
+            {
+              "id": "c11-zoo-2-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Tissue level?",
+              "answer": "At the tissue level, similar cells coordinate for a function, as in cnidarians and ctenophores.",
+              "keyPoints": "Tissue level"
+            },
+            {
+              "id": "c11-zoo-2-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Organ and organ-system levels.",
+              "answer": "Organs combine tissues; organ systems coordinate several organs to perform complex body functions.",
+              "keyPoints": "Organ and organ-system levels"
+            },
+            {
+              "id": "c11-zoo-2-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Diploblastic organisation.",
+              "answer": "Diploblastic animals develop ectoderm and endoderm separated by mesoglea.",
+              "keyPoints": "Diploblastic organisation"
+            },
+            {
+              "id": "c11-zoo-2-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Triploblastic organisation?",
+              "answer": "Triploblastic animals develop ectoderm, mesoderm and endoderm, permitting greater tissue and organ complexity.",
+              "keyPoints": "Triploblastic organisation"
+            },
+            {
+              "id": "c11-zoo-2-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Radial symmetry.",
+              "answer": "A radially symmetrical body can be divided into similar halves by several planes through its central axis.",
+              "keyPoints": "Radial symmetry"
+            },
+            {
+              "id": "c11-zoo-2-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Bilateral symmetry.",
+              "answer": "A bilaterally symmetrical body is divisible into mirror-image halves in only one median plane.",
+              "keyPoints": "Bilateral symmetry"
+            },
+            {
+              "id": "c11-zoo-2-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Acoelomate?",
+              "answer": "An acoelomate lacks a body cavity between the body wall and gut, as in platyhelminths.",
+              "keyPoints": "Acoelomate"
+            },
+            {
+              "id": "c11-zoo-2-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Pseudocoelomate.",
+              "answer": "A pseudocoelom is not completely lined by mesoderm, as in aschelminths.",
+              "keyPoints": "Pseudocoelomate"
+            },
+            {
+              "id": "c11-zoo-2-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Eucoelomate.",
+              "answer": "A true coelom is completely lined by mesodermal peritoneum and contains visceral organs.",
+              "keyPoints": "Eucoelomate"
+            },
+            {
+              "id": "c11-zoo-2-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Schizocoel?",
+              "answer": "A schizocoel forms by splitting of mesodermal bands and is typical of many protostomes.",
+              "keyPoints": "Schizocoel"
+            },
+            {
+              "id": "c11-zoo-2-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Enterocoel.",
+              "answer": "An enterocoel develops as outpocketings of the archenteron and occurs in deuterostomes.",
+              "keyPoints": "Enterocoel"
+            },
+            {
+              "id": "c11-zoo-2-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Segmentation.",
+              "answer": "Metamerism is serial repetition of body parts along the longitudinal axis, conspicuous in annelids.",
+              "keyPoints": "Segmentation"
+            },
+            {
+              "id": "c11-zoo-2-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Cephalisation?",
+              "answer": "Cephalisation concentrates sensory structures and nervous tissue at the anterior end of a bilaterally moving animal.",
+              "keyPoints": "Cephalisation"
+            },
+            {
+              "id": "c11-zoo-2-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Germ-layer derivatives.",
+              "answer": "Ectoderm forms epidermis and nervous tissue, mesoderm forms muscles and connective tissues, and endoderm forms gut lining.",
+              "keyPoints": "Germ-layer derivatives"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-2-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cellular level and Radial symmetry.",
+              "answer": "• Cellular level: At the cellular level, specialised cells show division of labour but true tissues are absent, as in sponges.\n• Radial symmetry: A radially symmetrical body can be divided into similar halves by several planes through its central axis.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Cellular level • Radial symmetry • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Tissue level and Bilateral symmetry with suitable zoological examples.",
+              "answer": "• Tissue level: At the tissue level, similar cells coordinate for a function, as in cnidarians and ctenophores.\n• Bilateral symmetry: A bilaterally symmetrical body is divisible into mirror-image halves in only one median plane.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Tissue level • Bilateral symmetry • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Organ and organ-system levels and Acoelomate.",
+              "answer": "• Organ and organ-system levels: Organs combine tissues; organ systems coordinate several organs to perform complex body functions.\n• Acoelomate: An acoelomate lacks a body cavity between the body wall and gut, as in platyhelminths.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Organ and organ-system levels • Acoelomate • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Diploblastic organisation and Pseudocoelomate with suitable zoological examples.",
+              "answer": "• Diploblastic organisation: Diploblastic animals develop ectoderm and endoderm separated by mesoglea.\n• Pseudocoelomate: A pseudocoelom is not completely lined by mesoderm, as in aschelminths.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Diploblastic organisation • Pseudocoelomate • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Triploblastic organisation and Eucoelomate.",
+              "answer": "• Triploblastic organisation: Triploblastic animals develop ectoderm, mesoderm and endoderm, permitting greater tissue and organ complexity.\n• Eucoelomate: A true coelom is completely lined by mesodermal peritoneum and contains visceral organs.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Triploblastic organisation • Eucoelomate • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Radial symmetry and Schizocoel with suitable zoological examples.",
+              "answer": "• Radial symmetry: A radially symmetrical body can be divided into similar halves by several planes through its central axis.\n• Schizocoel: A schizocoel forms by splitting of mesodermal bands and is typical of many protostomes.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Radial symmetry • Schizocoel • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Bilateral symmetry and Enterocoel.",
+              "answer": "• Bilateral symmetry: A bilaterally symmetrical body is divisible into mirror-image halves in only one median plane.\n• Enterocoel: An enterocoel develops as outpocketings of the archenteron and occurs in deuterostomes.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Bilateral symmetry • Enterocoel • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Acoelomate and Segmentation with suitable zoological examples.",
+              "answer": "• Acoelomate: An acoelomate lacks a body cavity between the body wall and gut, as in platyhelminths.\n• Segmentation: Metamerism is serial repetition of body parts along the longitudinal axis, conspicuous in annelids.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Acoelomate • Segmentation • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Pseudocoelomate and Cephalisation.",
+              "answer": "• Pseudocoelomate: A pseudocoelom is not completely lined by mesoderm, as in aschelminths.\n• Cephalisation: Cephalisation concentrates sensory structures and nervous tissue at the anterior end of a bilaterally moving animal.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Pseudocoelomate • Cephalisation • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-2-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Eucoelomate and Germ-layer derivatives with suitable zoological examples.",
+              "answer": "• Eucoelomate: A true coelom is completely lined by mesodermal peritoneum and contains visceral organs.\n• Germ-layer derivatives: Ectoderm forms epidermis and nervous tissue, mesoderm forms muscles and connective tissues, and endoderm forms gut lining.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Eucoelomate • Germ-layer derivatives • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-2-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Cellular level, Tissue level, Organ and organ-system levels in Structural Organisation in Animals.",
+              "answer": "Introduction: Structural Organisation in Animals should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Cellular level: At the cellular level, specialised cells show division of labour but true tissues are absent, as in sponges.\n2. Tissue level: At the tissue level, similar cells coordinate for a function, as in cnidarians and ctenophores.\n3. Organ and organ-system levels: Organs combine tissues; organ systems coordinate several organs to perform complex body functions.\n4. Diploblastic organisation: Diploblastic animals develop ectoderm and endoderm separated by mesoglea.\n5. Triploblastic organisation: Triploblastic animals develop ectoderm, mesoderm and endoderm, permitting greater tissue and organ complexity.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Cellular level • Tissue level • Organ and organ-system levels • Diploblastic organisation • Triploblastic organisation",
+              "diagram": "assets/zoology/body-plans.svg",
+              "diagramAlt": "Labelled board diagram for Structural Organisation in Animals"
+            },
+            {
+              "id": "c11-zoo-2-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Diploblastic organisation, Triploblastic organisation, Radial symmetry in Structural Organisation in Animals.",
+              "answer": "Introduction: Structural Organisation in Animals should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Diploblastic organisation: Diploblastic animals develop ectoderm and endoderm separated by mesoglea.\n2. Triploblastic organisation: Triploblastic animals develop ectoderm, mesoderm and endoderm, permitting greater tissue and organ complexity.\n3. Radial symmetry: A radially symmetrical body can be divided into similar halves by several planes through its central axis.\n4. Bilateral symmetry: A bilaterally symmetrical body is divisible into mirror-image halves in only one median plane.\n5. Acoelomate: An acoelomate lacks a body cavity between the body wall and gut, as in platyhelminths.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Diploblastic organisation • Triploblastic organisation • Radial symmetry • Bilateral symmetry • Acoelomate",
+              "diagram": "assets/zoology/body-plans.svg",
+              "diagramAlt": "Labelled board diagram for Structural Organisation in Animals"
+            },
+            {
+              "id": "c11-zoo-2-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Bilateral symmetry, Acoelomate, Pseudocoelomate in Structural Organisation in Animals.",
+              "answer": "Introduction: Structural Organisation in Animals should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Bilateral symmetry: A bilaterally symmetrical body is divisible into mirror-image halves in only one median plane.\n2. Acoelomate: An acoelomate lacks a body cavity between the body wall and gut, as in platyhelminths.\n3. Pseudocoelomate: A pseudocoelom is not completely lined by mesoderm, as in aschelminths.\n4. Eucoelomate: A true coelom is completely lined by mesodermal peritoneum and contains visceral organs.\n5. Schizocoel: A schizocoel forms by splitting of mesodermal bands and is typical of many protostomes.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Bilateral symmetry • Acoelomate • Pseudocoelomate • Eucoelomate • Schizocoel"
+            },
+            {
+              "id": "c11-zoo-2-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Eucoelomate, Schizocoel, Enterocoel in Structural Organisation in Animals.",
+              "answer": "Introduction: Structural Organisation in Animals should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Eucoelomate: A true coelom is completely lined by mesodermal peritoneum and contains visceral organs.\n2. Schizocoel: A schizocoel forms by splitting of mesodermal bands and is typical of many protostomes.\n3. Enterocoel: An enterocoel develops as outpocketings of the archenteron and occurs in deuterostomes.\n4. Segmentation: Metamerism is serial repetition of body parts along the longitudinal axis, conspicuous in annelids.\n5. Cephalisation: Cephalisation concentrates sensory structures and nervous tissue at the anterior end of a bilaterally moving animal.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Eucoelomate • Schizocoel • Enterocoel • Segmentation • Cephalisation"
+            },
+            {
+              "id": "c11-zoo-2-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Segmentation, Cephalisation, Germ-layer derivatives in Structural Organisation in Animals.",
+              "answer": "Introduction: Structural Organisation in Animals should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Segmentation: Metamerism is serial repetition of body parts along the longitudinal axis, conspicuous in annelids.\n2. Cephalisation: Cephalisation concentrates sensory structures and nervous tissue at the anterior end of a bilaterally moving animal.\n3. Germ-layer derivatives: Ectoderm forms epidermis and nervous tissue, mesoderm forms muscles and connective tissues, and endoderm forms gut lining.\n4. Cellular level: At the cellular level, specialised cells show division of labour but true tissues are absent, as in sponges.\n5. Tissue level: At the tissue level, similar cells coordinate for a function, as in cnidarians and ctenophores.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Segmentation • Cephalisation • Germ-layer derivatives • Cellular level • Tissue level"
+            }
+          ]
         },
         {
           "id": "class11-zoology-03",
           "number": 3,
-          "name": "Animal Diversity - I (Invertebrate Phyla)",
-          "topics": [],
+          "name": "Animal Diversity–I: Invertebrate Phyla",
+          "topics": [
+            "Porifera",
+            "Canal system",
+            "Cnidaria",
+            "Polyp and medusa",
+            "Ctenophora",
+            "Platyhelminthes",
+            "Aschelminthes",
+            "Annelida",
+            "Arthropoda",
+            "Moulting",
+            "Mollusca",
+            "Echinodermata",
+            "Water vascular system",
+            "Hemichordata",
+            "Invertebrate comparison"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-3-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Porifera.",
+              "answer": "Sponges are asymmetrical or radial, cellular-grade filter feeders with choanocytes, canals and spicules or spongin skeleton.",
+              "keyPoints": "Porifera"
+            },
+            {
+              "id": "c11-zoo-3-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Canal system?",
+              "answer": "Water enters through ostia, passes through canals and choanocyte chambers, and exits through the osculum.",
+              "keyPoints": "Canal system"
+            },
+            {
+              "id": "c11-zoo-3-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Cnidaria.",
+              "answer": "Cnidarians are diploblastic radial animals with a gastrovascular cavity and cnidocytes bearing nematocysts.",
+              "keyPoints": "Cnidaria"
+            },
+            {
+              "id": "c11-zoo-3-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Polyp and medusa.",
+              "answer": "A polyp is sessile and cylindrical; a medusa is free-swimming, umbrella-shaped and usually sexual.",
+              "keyPoints": "Polyp and medusa"
+            },
+            {
+              "id": "c11-zoo-3-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Ctenophora?",
+              "answer": "Comb jellies are marine diploblasts that move with eight rows of ciliary comb plates and capture prey using colloblasts.",
+              "keyPoints": "Ctenophora"
+            },
+            {
+              "id": "c11-zoo-3-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Platyhelminthes.",
+              "answer": "Flatworms are bilateral, triploblastic acoelomates with dorsoventrally flattened bodies and flame-cell excretion.",
+              "keyPoints": "Platyhelminthes"
+            },
+            {
+              "id": "c11-zoo-3-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Aschelminthes.",
+              "answer": "Roundworms are bilateral pseudocoelomates with a complete gut, tough cuticle and separate sexes in many species.",
+              "keyPoints": "Aschelminthes"
+            },
+            {
+              "id": "c11-zoo-3-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Annelida?",
+              "answer": "Annelids are true coelomates with metameric segmentation, closed circulation and nephridia.",
+              "keyPoints": "Annelida"
+            },
+            {
+              "id": "c11-zoo-3-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Arthropoda.",
+              "answer": "Arthropods have jointed appendages, chitinous exoskeleton, haemocoel, open circulation and Malpighian tubules or other excretory organs.",
+              "keyPoints": "Arthropoda"
+            },
+            {
+              "id": "c11-zoo-3-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Moulting.",
+              "answer": "Ecdysis is periodic shedding of the non-living exoskeleton so an arthropod can grow.",
+              "keyPoints": "Moulting"
+            },
+            {
+              "id": "c11-zoo-3-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Mollusca?",
+              "answer": "Molluscs have head, muscular foot and visceral mass; the mantle forms a shell and mantle cavity, and most possess a radula.",
+              "keyPoints": "Mollusca"
+            },
+            {
+              "id": "c11-zoo-3-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Echinodermata.",
+              "answer": "Echinoderms are marine deuterostomes with calcareous endoskeleton, pentaradial adults and a water vascular system.",
+              "keyPoints": "Echinodermata"
+            },
+            {
+              "id": "c11-zoo-3-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Water vascular system.",
+              "answer": "The echinoderm water vascular system powers tube feet used in locomotion, feeding and respiration.",
+              "keyPoints": "Water vascular system"
+            },
+            {
+              "id": "c11-zoo-3-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Hemichordata?",
+              "answer": "Hemichordates are marine worm-like deuterostomes divided into proboscis, collar and trunk, with pharyngeal gill slits.",
+              "keyPoints": "Hemichordata"
+            },
+            {
+              "id": "c11-zoo-3-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Invertebrate comparison.",
+              "answer": "Symmetry, germ layers, coelom, segmentation, digestive tract and circulation are key characters for separating invertebrate phyla.",
+              "keyPoints": "Invertebrate comparison"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-3-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Porifera and Platyhelminthes.",
+              "answer": "• Porifera: Sponges are asymmetrical or radial, cellular-grade filter feeders with choanocytes, canals and spicules or spongin skeleton.\n• Platyhelminthes: Flatworms are bilateral, triploblastic acoelomates with dorsoventrally flattened bodies and flame-cell excretion.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Porifera • Platyhelminthes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Canal system and Aschelminthes with suitable zoological examples.",
+              "answer": "• Canal system: Water enters through ostia, passes through canals and choanocyte chambers, and exits through the osculum.\n• Aschelminthes: Roundworms are bilateral pseudocoelomates with a complete gut, tough cuticle and separate sexes in many species.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Canal system • Aschelminthes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cnidaria and Annelida.",
+              "answer": "• Cnidaria: Cnidarians are diploblastic radial animals with a gastrovascular cavity and cnidocytes bearing nematocysts.\n• Annelida: Annelids are true coelomates with metameric segmentation, closed circulation and nephridia.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Cnidaria • Annelida • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Polyp and medusa and Arthropoda with suitable zoological examples.",
+              "answer": "• Polyp and medusa: A polyp is sessile and cylindrical; a medusa is free-swimming, umbrella-shaped and usually sexual.\n• Arthropoda: Arthropods have jointed appendages, chitinous exoskeleton, haemocoel, open circulation and Malpighian tubules or other excretory organs.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Polyp and medusa • Arthropoda • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ctenophora and Moulting.",
+              "answer": "• Ctenophora: Comb jellies are marine diploblasts that move with eight rows of ciliary comb plates and capture prey using colloblasts.\n• Moulting: Ecdysis is periodic shedding of the non-living exoskeleton so an arthropod can grow.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Ctenophora • Moulting • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Platyhelminthes and Mollusca with suitable zoological examples.",
+              "answer": "• Platyhelminthes: Flatworms are bilateral, triploblastic acoelomates with dorsoventrally flattened bodies and flame-cell excretion.\n• Mollusca: Molluscs have head, muscular foot and visceral mass; the mantle forms a shell and mantle cavity, and most possess a radula.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Platyhelminthes • Mollusca • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Aschelminthes and Echinodermata.",
+              "answer": "• Aschelminthes: Roundworms are bilateral pseudocoelomates with a complete gut, tough cuticle and separate sexes in many species.\n• Echinodermata: Echinoderms are marine deuterostomes with calcareous endoskeleton, pentaradial adults and a water vascular system.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Aschelminthes • Echinodermata • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Annelida and Water vascular system with suitable zoological examples.",
+              "answer": "• Annelida: Annelids are true coelomates with metameric segmentation, closed circulation and nephridia.\n• Water vascular system: The echinoderm water vascular system powers tube feet used in locomotion, feeding and respiration.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Annelida • Water vascular system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Arthropoda and Hemichordata.",
+              "answer": "• Arthropoda: Arthropods have jointed appendages, chitinous exoskeleton, haemocoel, open circulation and Malpighian tubules or other excretory organs.\n• Hemichordata: Hemichordates are marine worm-like deuterostomes divided into proboscis, collar and trunk, with pharyngeal gill slits.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Arthropoda • Hemichordata • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-3-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Moulting and Invertebrate comparison with suitable zoological examples.",
+              "answer": "• Moulting: Ecdysis is periodic shedding of the non-living exoskeleton so an arthropod can grow.\n• Invertebrate comparison: Symmetry, germ layers, coelom, segmentation, digestive tract and circulation are key characters for separating invertebrate phyla.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Moulting • Invertebrate comparison • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-3-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Porifera, Canal system, Cnidaria in Animal Diversity–I: Invertebrate Phyla.",
+              "answer": "Introduction: Animal Diversity–I: Invertebrate Phyla should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Porifera: Sponges are asymmetrical or radial, cellular-grade filter feeders with choanocytes, canals and spicules or spongin skeleton.\n2. Canal system: Water enters through ostia, passes through canals and choanocyte chambers, and exits through the osculum.\n3. Cnidaria: Cnidarians are diploblastic radial animals with a gastrovascular cavity and cnidocytes bearing nematocysts.\n4. Polyp and medusa: A polyp is sessile and cylindrical; a medusa is free-swimming, umbrella-shaped and usually sexual.\n5. Ctenophora: Comb jellies are marine diploblasts that move with eight rows of ciliary comb plates and capture prey using colloblasts.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Porifera • Canal system • Cnidaria • Polyp and medusa • Ctenophora",
+              "diagram": "assets/zoology/invertebrate-phyla.svg",
+              "diagramAlt": "Labelled board diagram for Animal Diversity–I: Invertebrate Phyla"
+            },
+            {
+              "id": "c11-zoo-3-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Polyp and medusa, Ctenophora, Platyhelminthes in Animal Diversity–I: Invertebrate Phyla.",
+              "answer": "Introduction: Animal Diversity–I: Invertebrate Phyla should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Polyp and medusa: A polyp is sessile and cylindrical; a medusa is free-swimming, umbrella-shaped and usually sexual.\n2. Ctenophora: Comb jellies are marine diploblasts that move with eight rows of ciliary comb plates and capture prey using colloblasts.\n3. Platyhelminthes: Flatworms are bilateral, triploblastic acoelomates with dorsoventrally flattened bodies and flame-cell excretion.\n4. Aschelminthes: Roundworms are bilateral pseudocoelomates with a complete gut, tough cuticle and separate sexes in many species.\n5. Annelida: Annelids are true coelomates with metameric segmentation, closed circulation and nephridia.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Polyp and medusa • Ctenophora • Platyhelminthes • Aschelminthes • Annelida",
+              "diagram": "assets/zoology/invertebrate-phyla.svg",
+              "diagramAlt": "Labelled board diagram for Animal Diversity–I: Invertebrate Phyla"
+            },
+            {
+              "id": "c11-zoo-3-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Aschelminthes, Annelida, Arthropoda in Animal Diversity–I: Invertebrate Phyla.",
+              "answer": "Introduction: Animal Diversity–I: Invertebrate Phyla should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Aschelminthes: Roundworms are bilateral pseudocoelomates with a complete gut, tough cuticle and separate sexes in many species.\n2. Annelida: Annelids are true coelomates with metameric segmentation, closed circulation and nephridia.\n3. Arthropoda: Arthropods have jointed appendages, chitinous exoskeleton, haemocoel, open circulation and Malpighian tubules or other excretory organs.\n4. Moulting: Ecdysis is periodic shedding of the non-living exoskeleton so an arthropod can grow.\n5. Mollusca: Molluscs have head, muscular foot and visceral mass; the mantle forms a shell and mantle cavity, and most possess a radula.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Aschelminthes • Annelida • Arthropoda • Moulting • Mollusca"
+            },
+            {
+              "id": "c11-zoo-3-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Moulting, Mollusca, Echinodermata in Animal Diversity–I: Invertebrate Phyla.",
+              "answer": "Introduction: Animal Diversity–I: Invertebrate Phyla should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Moulting: Ecdysis is periodic shedding of the non-living exoskeleton so an arthropod can grow.\n2. Mollusca: Molluscs have head, muscular foot and visceral mass; the mantle forms a shell and mantle cavity, and most possess a radula.\n3. Echinodermata: Echinoderms are marine deuterostomes with calcareous endoskeleton, pentaradial adults and a water vascular system.\n4. Water vascular system: The echinoderm water vascular system powers tube feet used in locomotion, feeding and respiration.\n5. Hemichordata: Hemichordates are marine worm-like deuterostomes divided into proboscis, collar and trunk, with pharyngeal gill slits.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Moulting • Mollusca • Echinodermata • Water vascular system • Hemichordata"
+            },
+            {
+              "id": "c11-zoo-3-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Water vascular system, Hemichordata, Invertebrate comparison in Animal Diversity–I: Invertebrate Phyla.",
+              "answer": "Introduction: Animal Diversity–I: Invertebrate Phyla should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Water vascular system: The echinoderm water vascular system powers tube feet used in locomotion, feeding and respiration.\n2. Hemichordata: Hemichordates are marine worm-like deuterostomes divided into proboscis, collar and trunk, with pharyngeal gill slits.\n3. Invertebrate comparison: Symmetry, germ layers, coelom, segmentation, digestive tract and circulation are key characters for separating invertebrate phyla.\n4. Porifera: Sponges are asymmetrical or radial, cellular-grade filter feeders with choanocytes, canals and spicules or spongin skeleton.\n5. Canal system: Water enters through ostia, passes through canals and choanocyte chambers, and exits through the osculum.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Water vascular system • Hemichordata • Invertebrate comparison • Porifera • Canal system"
+            }
+          ]
         },
         {
           "id": "class11-zoology-04",
           "number": 4,
-          "name": "Animal Diversity - II (Phylum: Chordata)",
-          "topics": [],
+          "name": "Animal Diversity–II: Phylum Chordata",
+          "topics": [
+            "Chordate characters",
+            "Urochordata",
+            "Cephalochordata",
+            "Vertebrata",
+            "Cyclostomata",
+            "Chondrichthyes",
+            "Osteichthyes",
+            "Amphibia",
+            "Reptilia",
+            "Aves",
+            "Mammalia",
+            "Poikilothermy and homeothermy",
+            "Amniotic egg",
+            "Flight adaptations",
+            "Vertebrate comparison"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-4-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Chordate characters.",
+              "answer": "Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at least embryonically.",
+              "keyPoints": "Chordate characters"
+            },
+            {
+              "id": "c11-zoo-4-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Urochordata?",
+              "answer": "Tunicates are marine chordates whose larva shows a tail notochord and dorsal nerve cord, while the adult is usually sessile.",
+              "keyPoints": "Urochordata"
+            },
+            {
+              "id": "c11-zoo-4-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Cephalochordata.",
+              "answer": "In amphioxus the notochord extends from head to tail and persists throughout life.",
+              "keyPoints": "Cephalochordata"
+            },
+            {
+              "id": "c11-zoo-4-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Vertebrata.",
+              "answer": "Vertebrates replace the embryonic notochord partly or wholly with a vertebral column and possess a cranium.",
+              "keyPoints": "Vertebrata"
+            },
+            {
+              "id": "c11-zoo-4-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Cyclostomata?",
+              "answer": "Cyclostomes are jawless, eel-like ectoparasites or scavengers with circular suctorial mouths and no paired fins.",
+              "keyPoints": "Cyclostomata"
+            },
+            {
+              "id": "c11-zoo-4-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Chondrichthyes.",
+              "answer": "Cartilaginous fishes have placoid scales, ventral mouth, separate gill slits, no swim bladder and internal fertilisation.",
+              "keyPoints": "Chondrichthyes"
+            },
+            {
+              "id": "c11-zoo-4-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Osteichthyes.",
+              "answer": "Bony fishes have an operculum, swim bladder in most forms, bony endoskeleton and generally external fertilisation.",
+              "keyPoints": "Osteichthyes"
+            },
+            {
+              "id": "c11-zoo-4-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Amphibia?",
+              "answer": "Amphibians are ectothermic tetrapods with moist skin, three-chambered heart and aquatic larvae that undergo metamorphosis.",
+              "keyPoints": "Amphibia"
+            },
+            {
+              "id": "c11-zoo-4-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Reptilia.",
+              "answer": "Reptiles have dry cornified skin, internal fertilisation and cleidoic amniotic eggs adapted for terrestrial development.",
+              "keyPoints": "Reptilia"
+            },
+            {
+              "id": "c11-zoo-4-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Aves.",
+              "answer": "Birds are endothermic vertebrates with feathers, wings, pneumatic bones, air sacs and a four-chambered heart.",
+              "keyPoints": "Aves"
+            },
+            {
+              "id": "c11-zoo-4-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Mammalia?",
+              "answer": "Mammals possess hair, mammary glands, external ears, a diaphragm and a four-chambered heart.",
+              "keyPoints": "Mammalia"
+            },
+            {
+              "id": "c11-zoo-4-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Poikilothermy and homeothermy.",
+              "answer": "Poikilotherms vary body temperature with surroundings; homeotherms regulate a comparatively stable internal temperature.",
+              "keyPoints": "Poikilothermy and homeothermy"
+            },
+            {
+              "id": "c11-zoo-4-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Amniotic egg.",
+              "answer": "The amnion, chorion, allantois and yolk sac protect and support an embryo developing away from open water.",
+              "keyPoints": "Amniotic egg"
+            },
+            {
+              "id": "c11-zoo-4-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Flight adaptations?",
+              "answer": "A streamlined body, wings, feathers, light fused bones, air sacs and strong pectoral muscles support bird flight.",
+              "keyPoints": "Flight adaptations"
+            },
+            {
+              "id": "c11-zoo-4-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Vertebrate comparison.",
+              "answer": "Skin, appendages, respiration, circulation, fertilisation and development distinguish the major vertebrate classes.",
+              "keyPoints": "Vertebrate comparison"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-4-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Chordate characters and Chondrichthyes.",
+              "answer": "• Chordate characters: Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at least embryonically.\n• Chondrichthyes: Cartilaginous fishes have placoid scales, ventral mouth, separate gill slits, no swim bladder and internal fertilisation.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Chordate characters • Chondrichthyes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Urochordata and Osteichthyes with suitable zoological examples.",
+              "answer": "• Urochordata: Tunicates are marine chordates whose larva shows a tail notochord and dorsal nerve cord, while the adult is usually sessile.\n• Osteichthyes: Bony fishes have an operculum, swim bladder in most forms, bony endoskeleton and generally external fertilisation.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Urochordata • Osteichthyes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cephalochordata and Amphibia.",
+              "answer": "• Cephalochordata: In amphioxus the notochord extends from head to tail and persists throughout life.\n• Amphibia: Amphibians are ectothermic tetrapods with moist skin, three-chambered heart and aquatic larvae that undergo metamorphosis.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Cephalochordata • Amphibia • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Vertebrata and Reptilia with suitable zoological examples.",
+              "answer": "• Vertebrata: Vertebrates replace the embryonic notochord partly or wholly with a vertebral column and possess a cranium.\n• Reptilia: Reptiles have dry cornified skin, internal fertilisation and cleidoic amniotic eggs adapted for terrestrial development.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Vertebrata • Reptilia • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Cyclostomata and Aves.",
+              "answer": "• Cyclostomata: Cyclostomes are jawless, eel-like ectoparasites or scavengers with circular suctorial mouths and no paired fins.\n• Aves: Birds are endothermic vertebrates with feathers, wings, pneumatic bones, air sacs and a four-chambered heart.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Cyclostomata • Aves • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Chondrichthyes and Mammalia with suitable zoological examples.",
+              "answer": "• Chondrichthyes: Cartilaginous fishes have placoid scales, ventral mouth, separate gill slits, no swim bladder and internal fertilisation.\n• Mammalia: Mammals possess hair, mammary glands, external ears, a diaphragm and a four-chambered heart.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Chondrichthyes • Mammalia • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Osteichthyes and Poikilothermy and homeothermy.",
+              "answer": "• Osteichthyes: Bony fishes have an operculum, swim bladder in most forms, bony endoskeleton and generally external fertilisation.\n• Poikilothermy and homeothermy: Poikilotherms vary body temperature with surroundings; homeotherms regulate a comparatively stable internal temperature.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Osteichthyes • Poikilothermy and homeothermy • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Amphibia and Amniotic egg with suitable zoological examples.",
+              "answer": "• Amphibia: Amphibians are ectothermic tetrapods with moist skin, three-chambered heart and aquatic larvae that undergo metamorphosis.\n• Amniotic egg: The amnion, chorion, allantois and yolk sac protect and support an embryo developing away from open water.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Amphibia • Amniotic egg • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Reptilia and Flight adaptations.",
+              "answer": "• Reptilia: Reptiles have dry cornified skin, internal fertilisation and cleidoic amniotic eggs adapted for terrestrial development.\n• Flight adaptations: A streamlined body, wings, feathers, light fused bones, air sacs and strong pectoral muscles support bird flight.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Reptilia • Flight adaptations • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-4-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Aves and Vertebrate comparison with suitable zoological examples.",
+              "answer": "• Aves: Birds are endothermic vertebrates with feathers, wings, pneumatic bones, air sacs and a four-chambered heart.\n• Vertebrate comparison: Skin, appendages, respiration, circulation, fertilisation and development distinguish the major vertebrate classes.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Aves • Vertebrate comparison • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-4-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Chordate characters, Urochordata, Cephalochordata in Animal Diversity–II: Phylum Chordata.",
+              "answer": "Introduction: Animal Diversity–II: Phylum Chordata should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Chordate characters: Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at least embryonically.\n2. Urochordata: Tunicates are marine chordates whose larva shows a tail notochord and dorsal nerve cord, while the adult is usually sessile.\n3. Cephalochordata: In amphioxus the notochord extends from head to tail and persists throughout life.\n4. Vertebrata: Vertebrates replace the embryonic notochord partly or wholly with a vertebral column and possess a cranium.\n5. Cyclostomata: Cyclostomes are jawless, eel-like ectoparasites or scavengers with circular suctorial mouths and no paired fins.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Chordate characters • Urochordata • Cephalochordata • Vertebrata • Cyclostomata",
+              "diagram": "assets/zoology/chordate-classes.svg",
+              "diagramAlt": "Labelled board diagram for Animal Diversity–II: Phylum Chordata"
+            },
+            {
+              "id": "c11-zoo-4-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Vertebrata, Cyclostomata, Chondrichthyes in Animal Diversity–II: Phylum Chordata.",
+              "answer": "Introduction: Animal Diversity–II: Phylum Chordata should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Vertebrata: Vertebrates replace the embryonic notochord partly or wholly with a vertebral column and possess a cranium.\n2. Cyclostomata: Cyclostomes are jawless, eel-like ectoparasites or scavengers with circular suctorial mouths and no paired fins.\n3. Chondrichthyes: Cartilaginous fishes have placoid scales, ventral mouth, separate gill slits, no swim bladder and internal fertilisation.\n4. Osteichthyes: Bony fishes have an operculum, swim bladder in most forms, bony endoskeleton and generally external fertilisation.\n5. Amphibia: Amphibians are ectothermic tetrapods with moist skin, three-chambered heart and aquatic larvae that undergo metamorphosis.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Vertebrata • Cyclostomata • Chondrichthyes • Osteichthyes • Amphibia",
+              "diagram": "assets/zoology/chordate-classes.svg",
+              "diagramAlt": "Labelled board diagram for Animal Diversity–II: Phylum Chordata"
+            },
+            {
+              "id": "c11-zoo-4-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Osteichthyes, Amphibia, Reptilia in Animal Diversity–II: Phylum Chordata.",
+              "answer": "Introduction: Animal Diversity–II: Phylum Chordata should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Osteichthyes: Bony fishes have an operculum, swim bladder in most forms, bony endoskeleton and generally external fertilisation.\n2. Amphibia: Amphibians are ectothermic tetrapods with moist skin, three-chambered heart and aquatic larvae that undergo metamorphosis.\n3. Reptilia: Reptiles have dry cornified skin, internal fertilisation and cleidoic amniotic eggs adapted for terrestrial development.\n4. Aves: Birds are endothermic vertebrates with feathers, wings, pneumatic bones, air sacs and a four-chambered heart.\n5. Mammalia: Mammals possess hair, mammary glands, external ears, a diaphragm and a four-chambered heart.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Osteichthyes • Amphibia • Reptilia • Aves • Mammalia"
+            },
+            {
+              "id": "c11-zoo-4-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Aves, Mammalia, Poikilothermy and homeothermy in Animal Diversity–II: Phylum Chordata.",
+              "answer": "Introduction: Animal Diversity–II: Phylum Chordata should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Aves: Birds are endothermic vertebrates with feathers, wings, pneumatic bones, air sacs and a four-chambered heart.\n2. Mammalia: Mammals possess hair, mammary glands, external ears, a diaphragm and a four-chambered heart.\n3. Poikilothermy and homeothermy: Poikilotherms vary body temperature with surroundings; homeotherms regulate a comparatively stable internal temperature.\n4. Amniotic egg: The amnion, chorion, allantois and yolk sac protect and support an embryo developing away from open water.\n5. Flight adaptations: A streamlined body, wings, feathers, light fused bones, air sacs and strong pectoral muscles support bird flight.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Aves • Mammalia • Poikilothermy and homeothermy • Amniotic egg • Flight adaptations"
+            },
+            {
+              "id": "c11-zoo-4-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Amniotic egg, Flight adaptations, Vertebrate comparison in Animal Diversity–II: Phylum Chordata.",
+              "answer": "Introduction: Animal Diversity–II: Phylum Chordata should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Amniotic egg: The amnion, chorion, allantois and yolk sac protect and support an embryo developing away from open water.\n2. Flight adaptations: A streamlined body, wings, feathers, light fused bones, air sacs and strong pectoral muscles support bird flight.\n3. Vertebrate comparison: Skin, appendages, respiration, circulation, fertilisation and development distinguish the major vertebrate classes.\n4. Chordate characters: Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at least embryonically.\n5. Urochordata: Tunicates are marine chordates whose larva shows a tail notochord and dorsal nerve cord, while the adult is usually sessile.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Amniotic egg • Flight adaptations • Vertebrate comparison • Chordate characters • Urochordata"
+            }
+          ]
         },
         {
           "id": "class11-zoology-05",
           "number": 5,
-          "name": "Biology in Human Welfare",
-          "topics": [],
+          "name": "Locomotion and Reproduction in Protozoa",
+          "topics": [
+            "Pseudopodia",
+            "Lobopodia",
+            "Filopodia",
+            "Reticulopodia",
+            "Axopodia",
+            "Flagellum",
+            "Cilium",
+            "Effective and recovery strokes",
+            "Metachronal rhythm",
+            "Binary fission",
+            "Multiple fission",
+            "Budding",
+            "Syngamy",
+            "Conjugation in Paramecium",
+            "Encystment"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-5-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Pseudopodia.",
+              "answer": "Pseudopodia are temporary cytoplasmic extensions used by amoeboid protozoans for movement and food capture.",
+              "keyPoints": "Pseudopodia"
+            },
+            {
+              "id": "c11-zoo-5-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Lobopodia?",
+              "answer": "Lobopodia are broad blunt pseudopodia containing ectoplasm and endoplasm, characteristic of Amoeba.",
+              "keyPoints": "Lobopodia"
+            },
+            {
+              "id": "c11-zoo-5-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Filopodia.",
+              "answer": "Filopodia are slender, tapering pseudopodia often branching into delicate extensions.",
+              "keyPoints": "Filopodia"
+            },
+            {
+              "id": "c11-zoo-5-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Reticulopodia.",
+              "answer": "Reticulopodia branch and fuse into a network used in movement and feeding.",
+              "keyPoints": "Reticulopodia"
+            },
+            {
+              "id": "c11-zoo-5-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Axopodia?",
+              "answer": "Axopodia are stiff radiating pseudopodia supported by axial microtubules.",
+              "keyPoints": "Axopodia"
+            },
+            {
+              "id": "c11-zoo-5-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Flagellum.",
+              "answer": "A flagellum is a long 9+2 axonemal organelle whose undulations propel cells such as Euglena.",
+              "keyPoints": "Flagellum"
+            },
+            {
+              "id": "c11-zoo-5-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Cilium.",
+              "answer": "Cilia are numerous short 9+2 organelles beating in coordinated strokes, as in Paramecium.",
+              "keyPoints": "Cilium"
+            },
+            {
+              "id": "c11-zoo-5-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Effective and recovery strokes?",
+              "answer": "The rigid effective stroke pushes water backward; the flexible recovery stroke returns the cilium with minimal resistance.",
+              "keyPoints": "Effective and recovery strokes"
+            },
+            {
+              "id": "c11-zoo-5-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Metachronal rhythm.",
+              "answer": "In metachronal movement adjacent cilia beat slightly out of phase, creating a travelling wave.",
+              "keyPoints": "Metachronal rhythm"
+            },
+            {
+              "id": "c11-zoo-5-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Binary fission.",
+              "answer": "Binary fission produces two daughter individuals after nuclear division and cytokinesis.",
+              "keyPoints": "Binary fission"
+            },
+            {
+              "id": "c11-zoo-5-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Multiple fission?",
+              "answer": "During multiple fission repeated nuclear divisions precede cytoplasmic division, producing many daughter cells.",
+              "keyPoints": "Multiple fission"
+            },
+            {
+              "id": "c11-zoo-5-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Budding.",
+              "answer": "In budding an unequal outgrowth receives a nucleus and separates as a new individual.",
+              "keyPoints": "Budding"
+            },
+            {
+              "id": "c11-zoo-5-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Syngamy.",
+              "answer": "Syngamy is fusion of compatible gametes or gametic nuclei to form a zygote.",
+              "keyPoints": "Syngamy"
+            },
+            {
+              "id": "c11-zoo-5-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Conjugation in Paramecium?",
+              "answer": "Two compatible paramecia exchange haploid micronuclear material and reorganise their nuclei without immediately increasing number.",
+              "keyPoints": "Conjugation in Paramecium"
+            },
+            {
+              "id": "c11-zoo-5-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Encystment.",
+              "answer": "A resistant cyst protects a protozoan during adverse conditions and may facilitate dispersal.",
+              "keyPoints": "Encystment"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-5-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Pseudopodia and Flagellum.",
+              "answer": "• Pseudopodia: Pseudopodia are temporary cytoplasmic extensions used by amoeboid protozoans for movement and food capture.\n• Flagellum: A flagellum is a long 9+2 axonemal organelle whose undulations propel cells such as Euglena.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Pseudopodia • Flagellum • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Lobopodia and Cilium with suitable zoological examples.",
+              "answer": "• Lobopodia: Lobopodia are broad blunt pseudopodia containing ectoplasm and endoplasm, characteristic of Amoeba.\n• Cilium: Cilia are numerous short 9+2 organelles beating in coordinated strokes, as in Paramecium.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Lobopodia • Cilium • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Filopodia and Effective and recovery strokes.",
+              "answer": "• Filopodia: Filopodia are slender, tapering pseudopodia often branching into delicate extensions.\n• Effective and recovery strokes: The rigid effective stroke pushes water backward; the flexible recovery stroke returns the cilium with minimal resistance.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Filopodia • Effective and recovery strokes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Reticulopodia and Metachronal rhythm with suitable zoological examples.",
+              "answer": "• Reticulopodia: Reticulopodia branch and fuse into a network used in movement and feeding.\n• Metachronal rhythm: In metachronal movement adjacent cilia beat slightly out of phase, creating a travelling wave.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Reticulopodia • Metachronal rhythm • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Axopodia and Binary fission.",
+              "answer": "• Axopodia: Axopodia are stiff radiating pseudopodia supported by axial microtubules.\n• Binary fission: Binary fission produces two daughter individuals after nuclear division and cytokinesis.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Axopodia • Binary fission • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Flagellum and Multiple fission with suitable zoological examples.",
+              "answer": "• Flagellum: A flagellum is a long 9+2 axonemal organelle whose undulations propel cells such as Euglena.\n• Multiple fission: During multiple fission repeated nuclear divisions precede cytoplasmic division, producing many daughter cells.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Flagellum • Multiple fission • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Cilium and Budding.",
+              "answer": "• Cilium: Cilia are numerous short 9+2 organelles beating in coordinated strokes, as in Paramecium.\n• Budding: In budding an unequal outgrowth receives a nucleus and separates as a new individual.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Cilium • Budding • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Effective and recovery strokes and Syngamy with suitable zoological examples.",
+              "answer": "• Effective and recovery strokes: The rigid effective stroke pushes water backward; the flexible recovery stroke returns the cilium with minimal resistance.\n• Syngamy: Syngamy is fusion of compatible gametes or gametic nuclei to form a zygote.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Effective and recovery strokes • Syngamy • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Metachronal rhythm and Conjugation in Paramecium.",
+              "answer": "• Metachronal rhythm: In metachronal movement adjacent cilia beat slightly out of phase, creating a travelling wave.\n• Conjugation in Paramecium: Two compatible paramecia exchange haploid micronuclear material and reorganise their nuclei without immediately increasing number.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Metachronal rhythm • Conjugation in Paramecium • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-5-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Binary fission and Encystment with suitable zoological examples.",
+              "answer": "• Binary fission: Binary fission produces two daughter individuals after nuclear division and cytokinesis.\n• Encystment: A resistant cyst protects a protozoan during adverse conditions and may facilitate dispersal.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Binary fission • Encystment • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-5-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Pseudopodia, Lobopodia, Filopodia in Locomotion and Reproduction in Protozoa.",
+              "answer": "Introduction: Locomotion and Reproduction in Protozoa should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Pseudopodia: Pseudopodia are temporary cytoplasmic extensions used by amoeboid protozoans for movement and food capture.\n2. Lobopodia: Lobopodia are broad blunt pseudopodia containing ectoplasm and endoplasm, characteristic of Amoeba.\n3. Filopodia: Filopodia are slender, tapering pseudopodia often branching into delicate extensions.\n4. Reticulopodia: Reticulopodia branch and fuse into a network used in movement and feeding.\n5. Axopodia: Axopodia are stiff radiating pseudopodia supported by axial microtubules.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Pseudopodia • Lobopodia • Filopodia • Reticulopodia • Axopodia",
+              "diagram": "assets/zoology/paramecium-conjugation.svg",
+              "diagramAlt": "Labelled board diagram for Locomotion and Reproduction in Protozoa"
+            },
+            {
+              "id": "c11-zoo-5-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Reticulopodia, Axopodia, Flagellum in Locomotion and Reproduction in Protozoa.",
+              "answer": "Introduction: Locomotion and Reproduction in Protozoa should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Reticulopodia: Reticulopodia branch and fuse into a network used in movement and feeding.\n2. Axopodia: Axopodia are stiff radiating pseudopodia supported by axial microtubules.\n3. Flagellum: A flagellum is a long 9+2 axonemal organelle whose undulations propel cells such as Euglena.\n4. Cilium: Cilia are numerous short 9+2 organelles beating in coordinated strokes, as in Paramecium.\n5. Effective and recovery strokes: The rigid effective stroke pushes water backward; the flexible recovery stroke returns the cilium with minimal resistance.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Reticulopodia • Axopodia • Flagellum • Cilium • Effective and recovery strokes",
+              "diagram": "assets/zoology/paramecium-conjugation.svg",
+              "diagramAlt": "Labelled board diagram for Locomotion and Reproduction in Protozoa"
+            },
+            {
+              "id": "c11-zoo-5-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Cilium, Effective and recovery strokes, Metachronal rhythm in Locomotion and Reproduction in Protozoa.",
+              "answer": "Introduction: Locomotion and Reproduction in Protozoa should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Cilium: Cilia are numerous short 9+2 organelles beating in coordinated strokes, as in Paramecium.\n2. Effective and recovery strokes: The rigid effective stroke pushes water backward; the flexible recovery stroke returns the cilium with minimal resistance.\n3. Metachronal rhythm: In metachronal movement adjacent cilia beat slightly out of phase, creating a travelling wave.\n4. Binary fission: Binary fission produces two daughter individuals after nuclear division and cytokinesis.\n5. Multiple fission: During multiple fission repeated nuclear divisions precede cytoplasmic division, producing many daughter cells.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Cilium • Effective and recovery strokes • Metachronal rhythm • Binary fission • Multiple fission"
+            },
+            {
+              "id": "c11-zoo-5-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Binary fission, Multiple fission, Budding in Locomotion and Reproduction in Protozoa.",
+              "answer": "Introduction: Locomotion and Reproduction in Protozoa should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Binary fission: Binary fission produces two daughter individuals after nuclear division and cytokinesis.\n2. Multiple fission: During multiple fission repeated nuclear divisions precede cytoplasmic division, producing many daughter cells.\n3. Budding: In budding an unequal outgrowth receives a nucleus and separates as a new individual.\n4. Syngamy: Syngamy is fusion of compatible gametes or gametic nuclei to form a zygote.\n5. Conjugation in Paramecium: Two compatible paramecia exchange haploid micronuclear material and reorganise their nuclei without immediately increasing number.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Binary fission • Multiple fission • Budding • Syngamy • Conjugation in Paramecium"
+            },
+            {
+              "id": "c11-zoo-5-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Syngamy, Conjugation in Paramecium, Encystment in Locomotion and Reproduction in Protozoa.",
+              "answer": "Introduction: Locomotion and Reproduction in Protozoa should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Syngamy: Syngamy is fusion of compatible gametes or gametic nuclei to form a zygote.\n2. Conjugation in Paramecium: Two compatible paramecia exchange haploid micronuclear material and reorganise their nuclei without immediately increasing number.\n3. Encystment: A resistant cyst protects a protozoan during adverse conditions and may facilitate dispersal.\n4. Pseudopodia: Pseudopodia are temporary cytoplasmic extensions used by amoeboid protozoans for movement and food capture.\n5. Lobopodia: Lobopodia are broad blunt pseudopodia containing ectoplasm and endoplasm, characteristic of Amoeba.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Syngamy • Conjugation in Paramecium • Encystment • Pseudopodia • Lobopodia"
+            }
+          ]
         },
         {
           "id": "class11-zoology-06",
           "number": 6,
-          "name": "Periplaneta americana (Cockroach)",
-          "topics": [],
+          "name": "Biology and Human Welfare",
+          "topics": [
+            "Health",
+            "Disease transmission",
+            "Entamoebiasis",
+            "Giardiasis",
+            "Trichomoniasis",
+            "Trypanosomiasis",
+            "Leishmaniasis",
+            "Malaria",
+            "Plasmodium life cycle",
+            "Ascariasis",
+            "Filariasis",
+            "Taeniasis",
+            "Vector control",
+            "Personal and public hygiene",
+            "Prevention strategy"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-6-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Health.",
+              "answer": "Health is a state of physical, mental and social well-being, supported by nutrition, hygiene, immunity and a safe environment.",
+              "keyPoints": "Health"
+            },
+            {
+              "id": "c11-zoo-6-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Disease transmission?",
+              "answer": "Pathogens spread through air, contaminated food or water, vectors, direct contact, blood or sexual contact.",
+              "keyPoints": "Disease transmission"
+            },
+            {
+              "id": "c11-zoo-6-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Entamoebiasis.",
+              "answer": "Entamoeba histolytica causes amoebic dysentery; cysts spread by contaminated food and water and damage the large intestine.",
+              "keyPoints": "Entamoebiasis"
+            },
+            {
+              "id": "c11-zoo-6-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Giardiasis.",
+              "answer": "Giardia intestinalis colonises the small intestine and causes diarrhoea, cramps and malabsorption after ingestion of cysts.",
+              "keyPoints": "Giardiasis"
+            },
+            {
+              "id": "c11-zoo-6-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Trichomoniasis?",
+              "answer": "Trichomonas vaginalis is sexually transmitted and may cause inflammation and discharge; both partners require treatment.",
+              "keyPoints": "Trichomoniasis"
+            },
+            {
+              "id": "c11-zoo-6-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Trypanosomiasis.",
+              "answer": "Trypanosoma causes sleeping sickness and is transmitted by the tsetse fly.",
+              "keyPoints": "Trypanosomiasis"
+            },
+            {
+              "id": "c11-zoo-6-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Leishmaniasis.",
+              "answer": "Leishmania causes kala-azar and is transmitted by sandflies; fever and enlargement of spleen and liver are common.",
+              "keyPoints": "Leishmaniasis"
+            },
+            {
+              "id": "c11-zoo-6-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Malaria?",
+              "answer": "Plasmodium alternates between humans and female Anopheles mosquitoes; red-cell rupture produces periodic fever.",
+              "keyPoints": "Malaria"
+            },
+            {
+              "id": "c11-zoo-6-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Plasmodium life cycle.",
+              "answer": "Sporozoites enter humans, merozoites infect red cells, gametocytes enter mosquitoes, and new sporozoites reach salivary glands.",
+              "keyPoints": "Plasmodium life cycle"
+            },
+            {
+              "id": "c11-zoo-6-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Ascariasis.",
+              "answer": "Ascaris eggs are ingested from contaminated soil or food; adult worms live in the intestine and may cause obstruction or malnutrition.",
+              "keyPoints": "Ascariasis"
+            },
+            {
+              "id": "c11-zoo-6-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Filariasis?",
+              "answer": "Wuchereria transmitted by mosquitoes blocks lymphatics and can produce chronic swelling or elephantiasis.",
+              "keyPoints": "Filariasis"
+            },
+            {
+              "id": "c11-zoo-6-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Taeniasis.",
+              "answer": "Taenia infection follows consumption of undercooked infected meat; the adult tapeworm attaches to the human intestine.",
+              "keyPoints": "Taeniasis"
+            },
+            {
+              "id": "c11-zoo-6-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Vector control.",
+              "answer": "Removing breeding sites, using nets, repellents and biological control, and timely treatment interrupt vector-borne transmission.",
+              "keyPoints": "Vector control"
+            },
+            {
+              "id": "c11-zoo-6-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Personal and public hygiene?",
+              "answer": "Safe water, sanitation, handwashing, properly cooked food and waste management prevent many infections.",
+              "keyPoints": "Personal and public hygiene"
+            },
+            {
+              "id": "c11-zoo-6-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Prevention strategy.",
+              "answer": "Prevention combines source control, interruption of transmission, vaccination where available, early diagnosis and complete treatment.",
+              "keyPoints": "Prevention strategy"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-6-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Health and Trypanosomiasis.",
+              "answer": "• Health: Health is a state of physical, mental and social well-being, supported by nutrition, hygiene, immunity and a safe environment.\n• Trypanosomiasis: Trypanosoma causes sleeping sickness and is transmitted by the tsetse fly.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Health • Trypanosomiasis • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Disease transmission and Leishmaniasis with suitable zoological examples.",
+              "answer": "• Disease transmission: Pathogens spread through air, contaminated food or water, vectors, direct contact, blood or sexual contact.\n• Leishmaniasis: Leishmania causes kala-azar and is transmitted by sandflies; fever and enlargement of spleen and liver are common.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Disease transmission • Leishmaniasis • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Entamoebiasis and Malaria.",
+              "answer": "• Entamoebiasis: Entamoeba histolytica causes amoebic dysentery; cysts spread by contaminated food and water and damage the large intestine.\n• Malaria: Plasmodium alternates between humans and female Anopheles mosquitoes; red-cell rupture produces periodic fever.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Entamoebiasis • Malaria • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Giardiasis and Plasmodium life cycle with suitable zoological examples.",
+              "answer": "• Giardiasis: Giardia intestinalis colonises the small intestine and causes diarrhoea, cramps and malabsorption after ingestion of cysts.\n• Plasmodium life cycle: Sporozoites enter humans, merozoites infect red cells, gametocytes enter mosquitoes, and new sporozoites reach salivary glands.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Giardiasis • Plasmodium life cycle • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Trichomoniasis and Ascariasis.",
+              "answer": "• Trichomoniasis: Trichomonas vaginalis is sexually transmitted and may cause inflammation and discharge; both partners require treatment.\n• Ascariasis: Ascaris eggs are ingested from contaminated soil or food; adult worms live in the intestine and may cause obstruction or malnutrition.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Trichomoniasis • Ascariasis • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Trypanosomiasis and Filariasis with suitable zoological examples.",
+              "answer": "• Trypanosomiasis: Trypanosoma causes sleeping sickness and is transmitted by the tsetse fly.\n• Filariasis: Wuchereria transmitted by mosquitoes blocks lymphatics and can produce chronic swelling or elephantiasis.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Trypanosomiasis • Filariasis • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Leishmaniasis and Taeniasis.",
+              "answer": "• Leishmaniasis: Leishmania causes kala-azar and is transmitted by sandflies; fever and enlargement of spleen and liver are common.\n• Taeniasis: Taenia infection follows consumption of undercooked infected meat; the adult tapeworm attaches to the human intestine.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Leishmaniasis • Taeniasis • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Malaria and Vector control with suitable zoological examples.",
+              "answer": "• Malaria: Plasmodium alternates between humans and female Anopheles mosquitoes; red-cell rupture produces periodic fever.\n• Vector control: Removing breeding sites, using nets, repellents and biological control, and timely treatment interrupt vector-borne transmission.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Malaria • Vector control • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Plasmodium life cycle and Personal and public hygiene.",
+              "answer": "• Plasmodium life cycle: Sporozoites enter humans, merozoites infect red cells, gametocytes enter mosquitoes, and new sporozoites reach salivary glands.\n• Personal and public hygiene: Safe water, sanitation, handwashing, properly cooked food and waste management prevent many infections.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Plasmodium life cycle • Personal and public hygiene • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-6-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Ascariasis and Prevention strategy with suitable zoological examples.",
+              "answer": "• Ascariasis: Ascaris eggs are ingested from contaminated soil or food; adult worms live in the intestine and may cause obstruction or malnutrition.\n• Prevention strategy: Prevention combines source control, interruption of transmission, vaccination where available, early diagnosis and complete treatment.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Ascariasis • Prevention strategy • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-6-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Health, Disease transmission, Entamoebiasis in Biology and Human Welfare.",
+              "answer": "Introduction: Biology and Human Welfare should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Health: Health is a state of physical, mental and social well-being, supported by nutrition, hygiene, immunity and a safe environment.\n2. Disease transmission: Pathogens spread through air, contaminated food or water, vectors, direct contact, blood or sexual contact.\n3. Entamoebiasis: Entamoeba histolytica causes amoebic dysentery; cysts spread by contaminated food and water and damage the large intestine.\n4. Giardiasis: Giardia intestinalis colonises the small intestine and causes diarrhoea, cramps and malabsorption after ingestion of cysts.\n5. Trichomoniasis: Trichomonas vaginalis is sexually transmitted and may cause inflammation and discharge; both partners require treatment.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Health • Disease transmission • Entamoebiasis • Giardiasis • Trichomoniasis",
+              "diagram": "assets/zoology/plasmodium-cycle.svg",
+              "diagramAlt": "Labelled board diagram for Biology and Human Welfare"
+            },
+            {
+              "id": "c11-zoo-6-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Giardiasis, Trichomoniasis, Trypanosomiasis in Biology and Human Welfare.",
+              "answer": "Introduction: Biology and Human Welfare should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Giardiasis: Giardia intestinalis colonises the small intestine and causes diarrhoea, cramps and malabsorption after ingestion of cysts.\n2. Trichomoniasis: Trichomonas vaginalis is sexually transmitted and may cause inflammation and discharge; both partners require treatment.\n3. Trypanosomiasis: Trypanosoma causes sleeping sickness and is transmitted by the tsetse fly.\n4. Leishmaniasis: Leishmania causes kala-azar and is transmitted by sandflies; fever and enlargement of spleen and liver are common.\n5. Malaria: Plasmodium alternates between humans and female Anopheles mosquitoes; red-cell rupture produces periodic fever.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Giardiasis • Trichomoniasis • Trypanosomiasis • Leishmaniasis • Malaria",
+              "diagram": "assets/zoology/plasmodium-cycle.svg",
+              "diagramAlt": "Labelled board diagram for Biology and Human Welfare"
+            },
+            {
+              "id": "c11-zoo-6-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Leishmaniasis, Malaria, Plasmodium life cycle in Biology and Human Welfare.",
+              "answer": "Introduction: Biology and Human Welfare should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Leishmaniasis: Leishmania causes kala-azar and is transmitted by sandflies; fever and enlargement of spleen and liver are common.\n2. Malaria: Plasmodium alternates between humans and female Anopheles mosquitoes; red-cell rupture produces periodic fever.\n3. Plasmodium life cycle: Sporozoites enter humans, merozoites infect red cells, gametocytes enter mosquitoes, and new sporozoites reach salivary glands.\n4. Ascariasis: Ascaris eggs are ingested from contaminated soil or food; adult worms live in the intestine and may cause obstruction or malnutrition.\n5. Filariasis: Wuchereria transmitted by mosquitoes blocks lymphatics and can produce chronic swelling or elephantiasis.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Leishmaniasis • Malaria • Plasmodium life cycle • Ascariasis • Filariasis"
+            },
+            {
+              "id": "c11-zoo-6-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Ascariasis, Filariasis, Taeniasis in Biology and Human Welfare.",
+              "answer": "Introduction: Biology and Human Welfare should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Ascariasis: Ascaris eggs are ingested from contaminated soil or food; adult worms live in the intestine and may cause obstruction or malnutrition.\n2. Filariasis: Wuchereria transmitted by mosquitoes blocks lymphatics and can produce chronic swelling or elephantiasis.\n3. Taeniasis: Taenia infection follows consumption of undercooked infected meat; the adult tapeworm attaches to the human intestine.\n4. Vector control: Removing breeding sites, using nets, repellents and biological control, and timely treatment interrupt vector-borne transmission.\n5. Personal and public hygiene: Safe water, sanitation, handwashing, properly cooked food and waste management prevent many infections.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Ascariasis • Filariasis • Taeniasis • Vector control • Personal and public hygiene"
+            },
+            {
+              "id": "c11-zoo-6-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Vector control, Personal and public hygiene, Prevention strategy in Biology and Human Welfare.",
+              "answer": "Introduction: Biology and Human Welfare should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Vector control: Removing breeding sites, using nets, repellents and biological control, and timely treatment interrupt vector-borne transmission.\n2. Personal and public hygiene: Safe water, sanitation, handwashing, properly cooked food and waste management prevent many infections.\n3. Prevention strategy: Prevention combines source control, interruption of transmission, vaccination where available, early diagnosis and complete treatment.\n4. Health: Health is a state of physical, mental and social well-being, supported by nutrition, hygiene, immunity and a safe environment.\n5. Disease transmission: Pathogens spread through air, contaminated food or water, vectors, direct contact, blood or sexual contact.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Vector control • Personal and public hygiene • Prevention strategy • Health • Disease transmission"
+            }
+          ]
         },
         {
           "id": "class11-zoology-07",
           "number": 7,
-          "name": "Ecology and Biodiversity",
-          "topics": [],
+          "name": "Type Study of Periplaneta americana",
+          "topics": [
+            "Habit and habitat",
+            "External divisions",
+            "Head appendages",
+            "Thorax and locomotion",
+            "Sexual dimorphism",
+            "Digestive system",
+            "Respiratory system",
+            "Circulatory system",
+            "Excretory system",
+            "Nervous system",
+            "Compound eye",
+            "Mosaic vision",
+            "Male reproductive system",
+            "Female reproductive system",
+            "Development"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-7-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Habit and habitat.",
+              "answer": "The American cockroach is a nocturnal omnivore living in warm, dark and moist human habitations.",
+              "keyPoints": "Habit and habitat"
+            },
+            {
+              "id": "c11-zoo-7-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by External divisions?",
+              "answer": "Its dorsoventrally flattened body is divided into head, thorax and abdomen and covered by a chitinous exoskeleton.",
+              "keyPoints": "External divisions"
+            },
+            {
+              "id": "c11-zoo-7-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Head appendages.",
+              "answer": "The head bears antennae, compound eyes and biting-chewing mouthparts formed by labrum, mandibles, maxillae, labium and hypopharynx.",
+              "keyPoints": "Head appendages"
+            },
+            {
+              "id": "c11-zoo-7-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Thorax and locomotion.",
+              "answer": "Three thoracic segments bear three pairs of jointed walking legs; mesothorax and metathorax also bear wings.",
+              "keyPoints": "Thorax and locomotion"
+            },
+            {
+              "id": "c11-zoo-7-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Sexual dimorphism?",
+              "answer": "Males are slender with anal styles; females are broader and lack anal styles.",
+              "keyPoints": "Sexual dimorphism"
+            },
+            {
+              "id": "c11-zoo-7-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Digestive system.",
+              "answer": "The alimentary canal has foregut, midgut and hindgut; crop stores food, gizzard grinds it and hepatic caeca secrete enzymes.",
+              "keyPoints": "Digestive system"
+            },
+            {
+              "id": "c11-zoo-7-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Respiratory system.",
+              "answer": "Ten pairs of spiracles open into branching tracheae and tracheoles that deliver oxygen directly to tissues.",
+              "keyPoints": "Respiratory system"
+            },
+            {
+              "id": "c11-zoo-7-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Circulatory system?",
+              "answer": "The open circulatory system contains colourless haemolymph pumped anteriorly by a 13-chambered dorsal heart.",
+              "keyPoints": "Circulatory system"
+            },
+            {
+              "id": "c11-zoo-7-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Excretory system.",
+              "answer": "Malpighian tubules remove nitrogenous wastes from haemolymph and discharge them into the hindgut; cockroach is uricotelic.",
+              "keyPoints": "Excretory system"
+            },
+            {
+              "id": "c11-zoo-7-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Nervous system.",
+              "answer": "Paired brain and circumoesophageal connectives join a double ventral nerve cord with segmental ganglia.",
+              "keyPoints": "Nervous system"
+            },
+            {
+              "id": "c11-zoo-7-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Compound eye?",
+              "answer": "Each compound eye contains many ommatidia; each ommatidium has cornea, crystalline cone, retinula cells and rhabdom.",
+              "keyPoints": "Compound eye"
+            },
+            {
+              "id": "c11-zoo-7-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Mosaic vision.",
+              "answer": "Each ommatidium contributes part of an image, producing mosaic vision; superposition improves dim-light sensitivity.",
+              "keyPoints": "Mosaic vision"
+            },
+            {
+              "id": "c11-zoo-7-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Male reproductive system.",
+              "answer": "A pair of testes, vasa deferentia, seminal vesicles, ejaculatory duct, accessory glands and phallomeres form the male system.",
+              "keyPoints": "Male reproductive system"
+            },
+            {
+              "id": "c11-zoo-7-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Female reproductive system?",
+              "answer": "Two ovaries with ovarioles connect by oviducts to a vagina; spermatheca stores sperm and colleterial glands form the ootheca.",
+              "keyPoints": "Female reproductive system"
+            },
+            {
+              "id": "c11-zoo-7-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Development.",
+              "answer": "Fertilisation is internal; eggs lie in an ootheca and hatch into nymphs that undergo paurometabolous development.",
+              "keyPoints": "Development"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-7-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Habit and habitat and Digestive system.",
+              "answer": "• Habit and habitat: The American cockroach is a nocturnal omnivore living in warm, dark and moist human habitations.\n• Digestive system: The alimentary canal has foregut, midgut and hindgut; crop stores food, gizzard grinds it and hepatic caeca secrete enzymes.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Habit and habitat • Digestive system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain External divisions and Respiratory system with suitable zoological examples.",
+              "answer": "• External divisions: Its dorsoventrally flattened body is divided into head, thorax and abdomen and covered by a chitinous exoskeleton.\n• Respiratory system: Ten pairs of spiracles open into branching tracheae and tracheoles that deliver oxygen directly to tissues.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "External divisions • Respiratory system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Head appendages and Circulatory system.",
+              "answer": "• Head appendages: The head bears antennae, compound eyes and biting-chewing mouthparts formed by labrum, mandibles, maxillae, labium and hypopharynx.\n• Circulatory system: The open circulatory system contains colourless haemolymph pumped anteriorly by a 13-chambered dorsal heart.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Head appendages • Circulatory system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Thorax and locomotion and Excretory system with suitable zoological examples.",
+              "answer": "• Thorax and locomotion: Three thoracic segments bear three pairs of jointed walking legs; mesothorax and metathorax also bear wings.\n• Excretory system: Malpighian tubules remove nitrogenous wastes from haemolymph and discharge them into the hindgut; cockroach is uricotelic.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Thorax and locomotion • Excretory system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Sexual dimorphism and Nervous system.",
+              "answer": "• Sexual dimorphism: Males are slender with anal styles; females are broader and lack anal styles.\n• Nervous system: Paired brain and circumoesophageal connectives join a double ventral nerve cord with segmental ganglia.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Sexual dimorphism • Nervous system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Digestive system and Compound eye with suitable zoological examples.",
+              "answer": "• Digestive system: The alimentary canal has foregut, midgut and hindgut; crop stores food, gizzard grinds it and hepatic caeca secrete enzymes.\n• Compound eye: Each compound eye contains many ommatidia; each ommatidium has cornea, crystalline cone, retinula cells and rhabdom.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Digestive system • Compound eye • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Respiratory system and Mosaic vision.",
+              "answer": "• Respiratory system: Ten pairs of spiracles open into branching tracheae and tracheoles that deliver oxygen directly to tissues.\n• Mosaic vision: Each ommatidium contributes part of an image, producing mosaic vision; superposition improves dim-light sensitivity.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Respiratory system • Mosaic vision • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Circulatory system and Male reproductive system with suitable zoological examples.",
+              "answer": "• Circulatory system: The open circulatory system contains colourless haemolymph pumped anteriorly by a 13-chambered dorsal heart.\n• Male reproductive system: A pair of testes, vasa deferentia, seminal vesicles, ejaculatory duct, accessory glands and phallomeres form the male system.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Circulatory system • Male reproductive system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Excretory system and Female reproductive system.",
+              "answer": "• Excretory system: Malpighian tubules remove nitrogenous wastes from haemolymph and discharge them into the hindgut; cockroach is uricotelic.\n• Female reproductive system: Two ovaries with ovarioles connect by oviducts to a vagina; spermatheca stores sperm and colleterial glands form the ootheca.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Excretory system • Female reproductive system • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-7-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Nervous system and Development with suitable zoological examples.",
+              "answer": "• Nervous system: Paired brain and circumoesophageal connectives join a double ventral nerve cord with segmental ganglia.\n• Development: Fertilisation is internal; eggs lie in an ootheca and hatch into nymphs that undergo paurometabolous development.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Nervous system • Development • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-7-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Habit and habitat, External divisions, Head appendages in Type Study of Periplaneta americana.",
+              "answer": "Introduction: Type Study of Periplaneta americana should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Habit and habitat: The American cockroach is a nocturnal omnivore living in warm, dark and moist human habitations.\n2. External divisions: Its dorsoventrally flattened body is divided into head, thorax and abdomen and covered by a chitinous exoskeleton.\n3. Head appendages: The head bears antennae, compound eyes and biting-chewing mouthparts formed by labrum, mandibles, maxillae, labium and hypopharynx.\n4. Thorax and locomotion: Three thoracic segments bear three pairs of jointed walking legs; mesothorax and metathorax also bear wings.\n5. Sexual dimorphism: Males are slender with anal styles; females are broader and lack anal styles.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Habit and habitat • External divisions • Head appendages • Thorax and locomotion • Sexual dimorphism",
+              "diagram": "assets/zoology/cockroach-systems.svg",
+              "diagramAlt": "Labelled board diagram for Type Study of Periplaneta americana"
+            },
+            {
+              "id": "c11-zoo-7-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Thorax and locomotion, Sexual dimorphism, Digestive system in Type Study of Periplaneta americana.",
+              "answer": "Introduction: Type Study of Periplaneta americana should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Thorax and locomotion: Three thoracic segments bear three pairs of jointed walking legs; mesothorax and metathorax also bear wings.\n2. Sexual dimorphism: Males are slender with anal styles; females are broader and lack anal styles.\n3. Digestive system: The alimentary canal has foregut, midgut and hindgut; crop stores food, gizzard grinds it and hepatic caeca secrete enzymes.\n4. Respiratory system: Ten pairs of spiracles open into branching tracheae and tracheoles that deliver oxygen directly to tissues.\n5. Circulatory system: The open circulatory system contains colourless haemolymph pumped anteriorly by a 13-chambered dorsal heart.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Thorax and locomotion • Sexual dimorphism • Digestive system • Respiratory system • Circulatory system",
+              "diagram": "assets/zoology/cockroach-systems.svg",
+              "diagramAlt": "Labelled board diagram for Type Study of Periplaneta americana"
+            },
+            {
+              "id": "c11-zoo-7-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Respiratory system, Circulatory system, Excretory system in Type Study of Periplaneta americana.",
+              "answer": "Introduction: Type Study of Periplaneta americana should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Respiratory system: Ten pairs of spiracles open into branching tracheae and tracheoles that deliver oxygen directly to tissues.\n2. Circulatory system: The open circulatory system contains colourless haemolymph pumped anteriorly by a 13-chambered dorsal heart.\n3. Excretory system: Malpighian tubules remove nitrogenous wastes from haemolymph and discharge them into the hindgut; cockroach is uricotelic.\n4. Nervous system: Paired brain and circumoesophageal connectives join a double ventral nerve cord with segmental ganglia.\n5. Compound eye: Each compound eye contains many ommatidia; each ommatidium has cornea, crystalline cone, retinula cells and rhabdom.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Respiratory system • Circulatory system • Excretory system • Nervous system • Compound eye"
+            },
+            {
+              "id": "c11-zoo-7-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Nervous system, Compound eye, Mosaic vision in Type Study of Periplaneta americana.",
+              "answer": "Introduction: Type Study of Periplaneta americana should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Nervous system: Paired brain and circumoesophageal connectives join a double ventral nerve cord with segmental ganglia.\n2. Compound eye: Each compound eye contains many ommatidia; each ommatidium has cornea, crystalline cone, retinula cells and rhabdom.\n3. Mosaic vision: Each ommatidium contributes part of an image, producing mosaic vision; superposition improves dim-light sensitivity.\n4. Male reproductive system: A pair of testes, vasa deferentia, seminal vesicles, ejaculatory duct, accessory glands and phallomeres form the male system.\n5. Female reproductive system: Two ovaries with ovarioles connect by oviducts to a vagina; spermatheca stores sperm and colleterial glands form the ootheca.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Nervous system • Compound eye • Mosaic vision • Male reproductive system • Female reproductive system"
+            },
+            {
+              "id": "c11-zoo-7-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Male reproductive system, Female reproductive system, Development in Type Study of Periplaneta americana.",
+              "answer": "Introduction: Type Study of Periplaneta americana should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Male reproductive system: A pair of testes, vasa deferentia, seminal vesicles, ejaculatory duct, accessory glands and phallomeres form the male system.\n2. Female reproductive system: Two ovaries with ovarioles connect by oviducts to a vagina; spermatheca stores sperm and colleterial glands form the ootheca.\n3. Development: Fertilisation is internal; eggs lie in an ootheca and hatch into nymphs that undergo paurometabolous development.\n4. Habit and habitat: The American cockroach is a nocturnal omnivore living in warm, dark and moist human habitations.\n5. External divisions: Its dorsoventrally flattened body is divided into head, thorax and abdomen and covered by a chitinous exoskeleton.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Male reproductive system • Female reproductive system • Development • Habit and habitat • External divisions"
+            }
+          ]
         },
         {
           "id": "class11-zoology-08",
           "number": 8,
-          "name": "Economic Zoology",
-          "topics": [],
+          "name": "Ecology and Environment",
+          "topics": [
+            "Ecology",
+            "Habitat and niche",
+            "Population",
+            "Community",
+            "Ecosystem",
+            "Abiotic factors",
+            "Adaptation",
+            "Population attributes",
+            "Exponential growth",
+            "Logistic growth",
+            "Population interactions",
+            "Food chain and food web",
+            "Ecological pyramids",
+            "Biogeochemical cycles",
+            "Environmental protection"
+          ],
           "resources": [],
-          "vsaq": [],
-          "saq": [],
-          "laq": [],
-          "mcqs": []
+          "mcqs": [],
+          "examAnalysis": {
+            "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+            "approach": "Answer to the command word, underline zoological terms, give a relevant example and draw a neat labelled diagram where indicated.",
+            "sourceNote": "Prepared from the official TGBIE unit plan and recurring Telangana Intermediate 60-mark paper pattern; importance is guidance, not a prediction."
+          },
+          "vsaq": [
+            {
+              "id": "c11-zoo-8-v-1",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Ecology.",
+              "answer": "Ecology studies interactions among organisms and between organisms and the physical environment.",
+              "keyPoints": "Ecology"
+            },
+            {
+              "id": "c11-zoo-8-v-2",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Habitat and niche?",
+              "answer": "Habitat is where an organism lives; niche is its functional role, resource use and environmental position.",
+              "keyPoints": "Habitat and niche"
+            },
+            {
+              "id": "c11-zoo-8-v-3",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Write a short note on Population.",
+              "answer": "A population comprises individuals of one species occupying a defined area at a given time.",
+              "keyPoints": "Population"
+            },
+            {
+              "id": "c11-zoo-8-v-4",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "Define Community.",
+              "answer": "A community is the interacting assemblage of populations of different species in an area.",
+              "keyPoints": "Community"
+            },
+            {
+              "id": "c11-zoo-8-v-5",
+              "marks": 2,
+              "priority": "Must revise",
+              "question": "What is meant by Ecosystem?",
+              "answer": "An ecosystem consists of a biotic community and its abiotic environment linked by energy flow and nutrient cycling.",
+              "keyPoints": "Ecosystem"
+            },
+            {
+              "id": "c11-zoo-8-v-6",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Abiotic factors.",
+              "answer": "Temperature, water, light, soil, salinity and pH influence survival, distribution and productivity.",
+              "keyPoints": "Abiotic factors"
+            },
+            {
+              "id": "c11-zoo-8-v-7",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Adaptation.",
+              "answer": "An adaptation is a heritable structural, physiological or behavioural feature that improves fitness in a habitat.",
+              "keyPoints": "Adaptation"
+            },
+            {
+              "id": "c11-zoo-8-v-8",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "What is meant by Population attributes?",
+              "answer": "Density, natality, mortality, age structure, sex ratio, immigration and emigration describe population dynamics.",
+              "keyPoints": "Population attributes"
+            },
+            {
+              "id": "c11-zoo-8-v-9",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Write a short note on Exponential growth.",
+              "answer": "Under unlimited resources population growth follows a J-shaped curve: dN/dt = rN.",
+              "keyPoints": "Exponential growth"
+            },
+            {
+              "id": "c11-zoo-8-v-10",
+              "marks": 2,
+              "priority": "High yield",
+              "question": "Define Logistic growth.",
+              "answer": "With limited resources growth slows near carrying capacity K and follows an S-shaped curve.",
+              "keyPoints": "Logistic growth"
+            },
+            {
+              "id": "c11-zoo-8-v-11",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Population interactions?",
+              "answer": "Mutualism benefits both species; competition harms both; predation and parasitism benefit one while harming the other.",
+              "keyPoints": "Population interactions"
+            },
+            {
+              "id": "c11-zoo-8-v-12",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Food chain and food web.",
+              "answer": "A food chain is a linear feeding path; interconnected chains form a more stable food web.",
+              "keyPoints": "Food chain and food web"
+            },
+            {
+              "id": "c11-zoo-8-v-13",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Define Ecological pyramids.",
+              "answer": "Pyramids of number, biomass and energy represent trophic structure; the energy pyramid is always upright.",
+              "keyPoints": "Ecological pyramids"
+            },
+            {
+              "id": "c11-zoo-8-v-14",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "What is meant by Biogeochemical cycles?",
+              "answer": "Carbon, nitrogen, phosphorus and water circulate between biotic components and air, water or soil reservoirs.",
+              "keyPoints": "Biogeochemical cycles"
+            },
+            {
+              "id": "c11-zoo-8-v-15",
+              "marks": 2,
+              "priority": "Core syllabus",
+              "question": "Write a short note on Environmental protection.",
+              "answer": "Pollution control, habitat restoration, sustainable use and biodiversity conservation protect ecosystem services.",
+              "keyPoints": "Environmental protection"
+            }
+          ],
+          "saq": [
+            {
+              "id": "c11-zoo-8-s-1",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ecology and Abiotic factors.",
+              "answer": "• Ecology: Ecology studies interactions among organisms and between organisms and the physical environment.\n• Abiotic factors: Temperature, water, light, soil, salinity and pH influence survival, distribution and productivity.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Ecology • Abiotic factors • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-2",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Habitat and niche and Adaptation with suitable zoological examples.",
+              "answer": "• Habitat and niche: Habitat is where an organism lives; niche is its functional role, resource use and environmental position.\n• Adaptation: An adaptation is a heritable structural, physiological or behavioural feature that improves fitness in a habitat.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Habitat and niche • Adaptation • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-3",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Population and Population attributes.",
+              "answer": "• Population: A population comprises individuals of one species occupying a defined area at a given time.\n• Population attributes: Density, natality, mortality, age structure, sex ratio, immigration and emigration describe population dynamics.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Population • Population attributes • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-4",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Explain Community and Exponential growth with suitable zoological examples.",
+              "answer": "• Community: A community is the interacting assemblage of populations of different species in an area.\n• Exponential growth: Under unlimited resources population growth follows a J-shaped curve: dN/dt = rN.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Community • Exponential growth • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-5",
+              "marks": 4,
+              "priority": "Must revise",
+              "question": "Differentiate or relate Ecosystem and Logistic growth.",
+              "answer": "• Ecosystem: An ecosystem consists of a biotic community and its abiotic environment linked by energy flow and nutrient cycling.\n• Logistic growth: With limited resources growth slows near carrying capacity K and follows an S-shaped curve.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Ecosystem • Logistic growth • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-6",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Abiotic factors and Population interactions with suitable zoological examples.",
+              "answer": "• Abiotic factors: Temperature, water, light, soil, salinity and pH influence survival, distribution and productivity.\n• Population interactions: Mutualism benefits both species; competition harms both; predation and parasitism benefit one while harming the other.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Abiotic factors • Population interactions • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-7",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Adaptation and Food chain and food web.",
+              "answer": "• Adaptation: An adaptation is a heritable structural, physiological or behavioural feature that improves fitness in a habitat.\n• Food chain and food web: A food chain is a linear feeding path; interconnected chains form a more stable food web.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Adaptation • Food chain and food web • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-8",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Population attributes and Ecological pyramids with suitable zoological examples.",
+              "answer": "• Population attributes: Density, natality, mortality, age structure, sex ratio, immigration and emigration describe population dynamics.\n• Ecological pyramids: Pyramids of number, biomass and energy represent trophic structure; the energy pyramid is always upright.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Population attributes • Ecological pyramids • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-9",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Differentiate or relate Exponential growth and Biogeochemical cycles.",
+              "answer": "• Exponential growth: Under unlimited resources population growth follows a J-shaped curve: dN/dt = rN.\n• Biogeochemical cycles: Carbon, nitrogen, phosphorus and water circulate between biotic components and air, water or soil reservoirs.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Exponential growth • Biogeochemical cycles • diagnostic character • example"
+            },
+            {
+              "id": "c11-zoo-8-s-10",
+              "marks": 4,
+              "priority": "High yield",
+              "question": "Explain Logistic growth and Environmental protection with suitable zoological examples.",
+              "answer": "• Logistic growth: With limited resources growth slows near carrying capacity K and follows an S-shaped curve.\n• Environmental protection: Pollution control, habitat restoration, sustainable use and biodiversity conservation protect ecosystem services.\n• Comparison: Identify the level of organisation, structure, process or ecological role represented by each.\n• Scoring point: Add one accurate example and underline the diagnostic characters.",
+              "keyPoints": "Logistic growth • Environmental protection • diagnostic character • example"
+            }
+          ],
+          "laq": [
+            {
+              "id": "c11-zoo-8-l-1",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Ecology, Habitat and niche, Population in Ecology and Environment.",
+              "answer": "Introduction: Ecology and Environment should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Ecology: Ecology studies interactions among organisms and between organisms and the physical environment.\n2. Habitat and niche: Habitat is where an organism lives; niche is its functional role, resource use and environmental position.\n3. Population: A population comprises individuals of one species occupying a defined area at a given time.\n4. Community: A community is the interacting assemblage of populations of different species in an area.\n5. Ecosystem: An ecosystem consists of a biotic community and its abiotic environment linked by energy flow and nutrient cycling.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Ecology • Habitat and niche • Population • Community • Ecosystem",
+              "diagram": "assets/zoology/ecosystem-flow.svg",
+              "diagramAlt": "Labelled board diagram for Ecology and Environment"
+            },
+            {
+              "id": "c11-zoo-8-l-2",
+              "marks": 8,
+              "priority": "Must revise",
+              "question": "Give a detailed account of Community, Ecosystem, Abiotic factors in Ecology and Environment.",
+              "answer": "Introduction: Ecology and Environment should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Community: A community is the interacting assemblage of populations of different species in an area.\n2. Ecosystem: An ecosystem consists of a biotic community and its abiotic environment linked by energy flow and nutrient cycling.\n3. Abiotic factors: Temperature, water, light, soil, salinity and pH influence survival, distribution and productivity.\n4. Adaptation: An adaptation is a heritable structural, physiological or behavioural feature that improves fitness in a habitat.\n5. Population attributes: Density, natality, mortality, age structure, sex ratio, immigration and emigration describe population dynamics.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Community • Ecosystem • Abiotic factors • Adaptation • Population attributes",
+              "diagram": "assets/zoology/ecosystem-flow.svg",
+              "diagramAlt": "Labelled board diagram for Ecology and Environment"
+            },
+            {
+              "id": "c11-zoo-8-l-3",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Adaptation, Population attributes, Exponential growth in Ecology and Environment.",
+              "answer": "Introduction: Ecology and Environment should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Adaptation: An adaptation is a heritable structural, physiological or behavioural feature that improves fitness in a habitat.\n2. Population attributes: Density, natality, mortality, age structure, sex ratio, immigration and emigration describe population dynamics.\n3. Exponential growth: Under unlimited resources population growth follows a J-shaped curve: dN/dt = rN.\n4. Logistic growth: With limited resources growth slows near carrying capacity K and follows an S-shaped curve.\n5. Population interactions: Mutualism benefits both species; competition harms both; predation and parasitism benefit one while harming the other.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Adaptation • Population attributes • Exponential growth • Logistic growth • Population interactions"
+            },
+            {
+              "id": "c11-zoo-8-l-4",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Logistic growth, Population interactions, Food chain and food web in Ecology and Environment.",
+              "answer": "Introduction: Ecology and Environment should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Logistic growth: With limited resources growth slows near carrying capacity K and follows an S-shaped curve.\n2. Population interactions: Mutualism benefits both species; competition harms both; predation and parasitism benefit one while harming the other.\n3. Food chain and food web: A food chain is a linear feeding path; interconnected chains form a more stable food web.\n4. Ecological pyramids: Pyramids of number, biomass and energy represent trophic structure; the energy pyramid is always upright.\n5. Biogeochemical cycles: Carbon, nitrogen, phosphorus and water circulate between biotic components and air, water or soil reservoirs.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Logistic growth • Population interactions • Food chain and food web • Ecological pyramids • Biogeochemical cycles"
+            },
+            {
+              "id": "c11-zoo-8-l-5",
+              "marks": 8,
+              "priority": "High yield",
+              "question": "Give a detailed account of Ecological pyramids, Biogeochemical cycles, Environmental protection in Ecology and Environment.",
+              "answer": "Introduction: Ecology and Environment should be presented through definitions, diagnostic characters, biological significance and examples.\n\n1. Ecological pyramids: Pyramids of number, biomass and energy represent trophic structure; the energy pyramid is always upright.\n2. Biogeochemical cycles: Carbon, nitrogen, phosphorus and water circulate between biotic components and air, water or soil reservoirs.\n3. Environmental protection: Pollution control, habitat restoration, sustainable use and biodiversity conservation protect ecosystem services.\n4. Ecology: Ecology studies interactions among organisms and between organisms and the physical environment.\n5. Habitat and niche: Habitat is where an organism lives; niche is its functional role, resource use and environmental position.\n\nConclusion: Relate the listed characters to animal organisation, survival, health or environment as appropriate. Use numbered subheadings, underline keywords and finish the labelled diagram before writing its explanation.",
+              "keyPoints": "Ecological pyramids • Biogeochemical cycles • Environmental protection • Ecology • Habitat and niche"
+            }
+          ]
         }
-      ]
+      ],
+      "boardAnalysis": {
+        "exam": "Telangana Intermediate First Year Zoology",
+        "duration": "3 hours",
+        "maximumMarks": 60,
+        "sections": [
+          {
+            "name": "Section A",
+            "format": "VSAQ",
+            "marks": "10 × 2 = 20",
+            "rule": "Answer all 10 questions; use concise definitions and examples."
+          },
+          {
+            "name": "Section B",
+            "format": "SAQ",
+            "marks": "6 × 4 = 24",
+            "rule": "Answer any 6 of 8; include diagrams where asked."
+          },
+          {
+            "name": "Section C",
+            "format": "LAQ",
+            "marks": "2 × 8 = 16",
+            "rule": "Answer any 2 of 3; organise with headings and labelled diagrams."
+          }
+        ],
+        "note": "Paper analysis follows the recurring Telangana Intermediate pattern: 10 VSAQs, 6 answered SAQs and 2 answered LAQs for 60 theory marks. The bank deliberately exceeds one paper so every official unit is covered."
+      }
     },
     "physics": {
       "subject": "Physics",
