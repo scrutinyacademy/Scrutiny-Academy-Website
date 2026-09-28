@@ -1,125 +1,2328 @@
 {
   "subject": "Chemistry",
-  "icon": "⚗️",
+  "icon": "🧪",
   "classLevel": 11,
   "board": "Telangana Intermediate",
   "source": {
-    "file": "CHEMISTRY_I_SYLLABUS.pdf",
-    "academicYear": "2026-2027",
-    "kind": "Syllabus",
-    "note": ""
+    "academicYear": "2026-2027 preparation",
+    "kind": "TGBIE-aligned reference syllabus and March 2026 paper analysis",
+    "note": "The 2026–27 syllabus was not yet officially published when the bank was prepared; all 13 chapters in the latest available first-year reference syllabus are covered."
   },
-  "description": "Telangana Intermediate First Year Chemistry",
+  "description": "Complete Telangana Intermediate First Year Chemistry board bank: all 13 chapters, 130 VSAQs, 65 SAQs and 39 LAQs with equations, numerical methods, reactions and labelled diagrams.",
   "chapters": [
     {
       "id": "class11-chemistry-01",
       "number": 1,
       "name": "Atomic Structure",
-      "topics": [],
+      "topics": [
+        "Rutherford model",
+        "Atomic number and mass number",
+        "Electromagnetic relation",
+        "Bohr energy",
+        "de Broglie relation",
+        "Uncertainty principle",
+        "Quantum numbers",
+        "Orbital capacity",
+        "Aufbau, Pauli and Hund rules",
+        "Half-filled stability"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Atomic models, quantum numbers, electronic configuration and hydrogen spectrum repeatedly support definitions, reasons and numerical questions. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-1-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Rutherford model.",
+          "answer": "Rutherford proposed a very small, dense, positively charged nucleus containing almost all atomic mass, with electrons outside it; the atom is mostly empty space.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Rutherford model • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Atomic number and mass number.",
+          "answer": "Atomic number Z is the number of protons. Mass number A is the total number of protons and neutrons, so neutrons = A − Z.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Atomic number and mass number • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Electromagnetic relation.",
+          "answer": "For radiation in vacuum, c = νλ, where c is speed, ν frequency and λ wavelength. Photon energy is E = hν.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Electromagnetic relation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Bohr energy.",
+          "answer": "For a hydrogen-like species, Eₙ = −13.6Z²/n² eV. A negative value shows that the electron is bound to the nucleus.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Bohr energy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for de Broglie relation.",
+          "answer": "Every moving particle has wavelength λ = h/mv = h/p; matter-wave character is significant for microscopic particles.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "de Broglie relation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Uncertainty principle.",
+          "answer": "The position and momentum of a microscopic particle cannot both be measured exactly: Δx·Δp ≥ h/4π.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Uncertainty principle • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Quantum numbers.",
+          "answer": "n gives shell and energy; l gives subshell and shape; mₗ gives orientation; mₛ gives electron spin.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Quantum numbers • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Orbital capacity.",
+          "answer": "A shell holds at most 2n² electrons; a subshell holds 2(2l+1), and one orbital holds two electrons with opposite spins.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Orbital capacity • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Aufbau, Pauli and Hund rules.",
+          "answer": "Orbitals fill in increasing energy; no two electrons have all four quantum numbers identical; degenerate orbitals fill singly before pairing.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Aufbau, Pauli and Hund rules • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-1-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Half-filled stability.",
+          "answer": "Half-filled and completely filled subshells are relatively stable because of symmetrical distribution and greater exchange energy.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Half-filled stability • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-1-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Rutherford model and Atomic number and mass number with the relevant relation, reason or example.",
+          "answer": "1. Rutherford model: Rutherford proposed a very small, dense, positively charged nucleus containing almost all atomic mass, with electrons outside it; the atom is mostly empty space.\n2. Atomic number and mass number: Atomic number Z is the number of protons. Mass number A is the total number of protons and neutrons, so neutrons = A − Z.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Rutherford model • Atomic number and mass number • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-1-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Electromagnetic relation and Bohr energy. Give the chemical basis and one example.",
+          "answer": "1. Electromagnetic relation: For radiation in vacuum, c = νλ, where c is speed, ν frequency and λ wavelength. Photon energy is E = hν.\n2. Bohr energy: For a hydrogen-like species, Eₙ = −13.6Z²/n² eV. A negative value shows that the electron is bound to the nucleus.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Electromagnetic relation • Bohr energy • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-1-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain de Broglie relation and Uncertainty principle with the relevant relation, reason or example.",
+          "answer": "1. de Broglie relation: Every moving particle has wavelength λ = h/mv = h/p; matter-wave character is significant for microscopic particles.\n2. Uncertainty principle: The position and momentum of a microscopic particle cannot both be measured exactly: Δx·Δp ≥ h/4π.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "de Broglie relation • Uncertainty principle • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-1-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Quantum numbers and Orbital capacity. Give the chemical basis and one example.",
+          "answer": "1. Quantum numbers: n gives shell and energy; l gives subshell and shape; mₗ gives orientation; mₛ gives electron spin.\n2. Orbital capacity: A shell holds at most 2n² electrons; a subshell holds 2(2l+1), and one orbital holds two electrons with opposite spins.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Quantum numbers • Orbital capacity • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-1-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Aufbau, Pauli and Hund rules and Half-filled stability with the relevant relation, reason or example.",
+          "answer": "1. Aufbau, Pauli and Hund rules: Orbitals fill in increasing energy; no two electrons have all four quantum numbers identical; degenerate orbitals fill singly before pairing.\n2. Half-filled stability: Half-filled and completely filled subshells are relatively stable because of symmetrical distribution and greater exchange energy.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Aufbau, Pauli and Hund rules • Half-filled stability • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-1-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain Bohr’s model of the hydrogen atom and derive the radius and energy of its nth orbit.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nPostulates: the electron moves only in permitted stationary orbits; angular momentum is quantised, mvr = nh/2π; radiation is emitted or absorbed only during a transition, hν = |E₂−E₁|.\n\nFor a hydrogen-like ion, electrostatic attraction supplies centripetal force: mv²/r = Ze²/(4πε₀r²). Combining this with mvr = nh/2π gives rₙ = 4πε₀n²h²/(4π²mZe²) = a₀n²/Z, where a₀ = 0.529 Å.\n\nTotal energy E = ½mv² − Ze²/(4πε₀r). Using the force equation, Eₙ = −mZ²e⁴/(8ε₀²h²n²) = −13.6Z²/n² eV. The model explains hydrogen-like spectra but not multi-electron atoms, fine structure or Zeeman effect.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • Bohr’s • model • of • the • hydrogen • atom • and • derive • the",
+          "diagram": "assets/chemistry-board/atomic-orbitals.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Atomic Structure"
+        },
+        {
+          "id": "c11-chem-1-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe the four quantum numbers and state the allowed values and significance of each.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\n1. Principal quantum number n = 1, 2, 3… specifies the main shell, approximate size and energy. A shell contains n² orbitals and at most 2n² electrons.\n2. Azimuthal quantum number l = 0 to n−1 specifies subshell and shape: s, p, d, f correspond to 0, 1, 2, 3.\n3. Magnetic quantum number mₗ = −l to +l specifies orbital orientation; a subshell therefore contains 2l+1 orbitals.\n4. Spin quantum number mₛ = +½ or −½ specifies the two allowed electron-spin orientations.\n\nApply Pauli’s principle: no two electrons in one atom can have the same set of all four quantum numbers.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • the • four • quantum • numbers • and • state • the • allowed • values"
+        },
+        {
+          "id": "c11-chem-1-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain the Aufbau principle, Pauli exclusion principle and Hund’s rule with electronic-configuration examples.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAufbau principle: electrons occupy available orbitals in increasing (n+l) order; when (n+l) is equal, the orbital with lower n fills first. Pauli principle: an orbital can contain at most two electrons and their spins must be opposite. Hund’s rule: degenerate orbitals are singly occupied with parallel spins before pairing.\n\nExample: N (Z=7) is 1s² 2s² 2pₓ¹2pᵧ¹2p_z¹, showing three parallel unpaired p electrons. O (Z=8) has one paired and two singly occupied 2p orbitals. Chromium is [Ar]3d⁵4s¹ and copper is [Ar]3d¹⁰4s¹ because half-filled and filled d subshells gain extra stability.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • the • Aufbau • principle, • Pauli • exclusion • principle • and • Hund’s • rule"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-02",
       "number": 2,
       "name": "Classification of Elements and Periodicity in Properties",
-      "topics": [],
+      "topics": [
+        "Modern periodic law",
+        "Period and group",
+        "Blocks",
+        "Atomic radius trend",
+        "Ionic radius",
+        "Ionisation enthalpy",
+        "Electron-gain enthalpy",
+        "Electronegativity",
+        "Diagonal relationship",
+        "Valency trend"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Modern periodic law, block identification and explanations of trend exceptions are high-yield board areas. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-2-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Modern periodic law.",
+          "answer": "The physical and chemical properties of elements are periodic functions of their atomic numbers.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Modern periodic law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Period and group.",
+          "answer": "The highest principal quantum number generally gives the period; related valence-shell configurations place main-group elements in the same group.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Period and group • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Blocks.",
+          "answer": "The subshell receiving the differentiating electron identifies the s, p, d or f block of an element.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Blocks • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Atomic radius trend.",
+          "answer": "Atomic radius generally decreases across a period due to increasing effective nuclear charge and increases down a group as shells are added.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Atomic radius trend • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Ionic radius.",
+          "answer": "A cation is smaller than its atom, while an anion is larger. In an isoelectronic series, radius decreases with increasing nuclear charge.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Ionic radius • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Ionisation enthalpy.",
+          "answer": "Ionisation enthalpy generally increases across a period and decreases down a group; stable filled and half-filled subshells cause exceptions.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Ionisation enthalpy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Electron-gain enthalpy.",
+          "answer": "Electron-gain enthalpy is the enthalpy change when an isolated gaseous atom accepts an electron; a more negative value usually indicates favourable addition.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Electron-gain enthalpy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Electronegativity.",
+          "answer": "Electronegativity is the tendency of a bonded atom to attract the shared electron pair; it generally rises across a period and falls down a group.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Electronegativity • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Diagonal relationship.",
+          "answer": "The first element of some groups resembles the diagonally placed element of the next group, for example Li–Mg and Be–Al.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Diagonal relationship • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-2-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Valency trend.",
+          "answer": "Across a main-group period, valency with respect to hydrogen rises from 1 to 4 and then falls to 0; oxidation-state patterns follow valence electrons.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Valency trend • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-2-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Modern periodic law and Period and group with the relevant relation, reason or example.",
+          "answer": "1. Modern periodic law: The physical and chemical properties of elements are periodic functions of their atomic numbers.\n2. Period and group: The highest principal quantum number generally gives the period; related valence-shell configurations place main-group elements in the same group.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Modern periodic law • Period and group • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-2-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Blocks and Atomic radius trend. Give the chemical basis and one example.",
+          "answer": "1. Blocks: The subshell receiving the differentiating electron identifies the s, p, d or f block of an element.\n2. Atomic radius trend: Atomic radius generally decreases across a period due to increasing effective nuclear charge and increases down a group as shells are added.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Blocks • Atomic radius trend • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-2-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Ionic radius and Ionisation enthalpy with the relevant relation, reason or example.",
+          "answer": "1. Ionic radius: A cation is smaller than its atom, while an anion is larger. In an isoelectronic series, radius decreases with increasing nuclear charge.\n2. Ionisation enthalpy: Ionisation enthalpy generally increases across a period and decreases down a group; stable filled and half-filled subshells cause exceptions.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Ionic radius • Ionisation enthalpy • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-2-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Electron-gain enthalpy and Electronegativity. Give the chemical basis and one example.",
+          "answer": "1. Electron-gain enthalpy: Electron-gain enthalpy is the enthalpy change when an isolated gaseous atom accepts an electron; a more negative value usually indicates favourable addition.\n2. Electronegativity: Electronegativity is the tendency of a bonded atom to attract the shared electron pair; it generally rises across a period and falls down a group.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Electron-gain enthalpy • Electronegativity • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-2-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Diagonal relationship and Valency trend with the relevant relation, reason or example.",
+          "answer": "1. Diagonal relationship: The first element of some groups resembles the diagonally placed element of the next group, for example Li–Mg and Be–Al.\n2. Valency trend: Across a main-group period, valency with respect to hydrogen rises from 1 to 4 and then falls to 0; oxidation-state patterns follow valence electrons.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Diagonal relationship • Valency trend • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-2-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain periodic trends in atomic radius, ionisation enthalpy, electron-gain enthalpy and electronegativity.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAcross a period, nuclear charge increases while electrons enter the same shell. Effective nuclear attraction therefore rises: atomic radius falls, while ionisation enthalpy and electronegativity generally rise. Electron-gain enthalpy tends to become more negative, subject to subshell stability and small-size repulsion.\n\nDown a group, new shells increase size and shielding. Atomic radius rises, whereas ionisation enthalpy and electronegativity generally fall. Electron-gain enthalpy usually becomes less negative. Cite exceptions: Be > B and N > O in ionisation enthalpy; chlorine has more negative electron-gain enthalpy than fluorine because fluorine’s compact 2p shell has greater repulsion.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • periodic • trends • in • atomic • radius, • ionisation • enthalpy, • electron-gain • enthalpy",
+          "diagram": "assets/chemistry-board/periodic-trends.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Classification of Elements and Periodicity in Properties"
+        },
+        {
+          "id": "c11-chem-2-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe the long form of the periodic table and relate position to electronic configuration.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nThe long form has seven periods and eighteen groups. The period equals the highest occupied shell number. The differentiating electron determines the block: ns¹–² gives s block; ns²np¹–⁶ gives p block; (n−1)d¹–¹⁰ns⁰–² gives d block; and (n−2)f¹–¹⁴ gives f block.\n\nFor p-block elements, group number is generally 10 plus the number of valence electrons. Helium is placed in group 18 because its shell is complete despite 1s² configuration. Lanthanoids and actinoids are displayed separately to keep the table compact.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • the • long • form • of • the • periodic • table • and • relate"
+        },
+        {
+          "id": "c11-chem-2-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain important anomalies in periodic properties using electronic configuration.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nBoron has lower first ionisation enthalpy than beryllium because the electron removed from B is a higher-energy 2p electron, while Be has stable 2s². Oxygen is lower than nitrogen because O has one paired 2p electron with extra repulsion, whereas N has stable 2p³.\n\nFluorine has less negative electron-gain enthalpy than chlorine because its very small 2p orbital produces strong incoming-electron repulsion. Noble gases have very high ionisation enthalpy and positive or near-zero electron-gain enthalpy because their valence shells are complete.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • important • anomalies • in • periodic • properties • using • electronic • configuration"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-03",
       "number": 3,
       "name": "Chemical Bonding and Molecular Structure",
-      "topics": [],
+      "topics": [
+        "Ionic bond",
+        "Covalent bond",
+        "Formal charge",
+        "Bond order",
+        "VSEPR principle",
+        "Hybridisation",
+        "Coordinate bond",
+        "Resonance",
+        "Hydrogen bonding",
+        "Dipole moment"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Lewis structures, VSEPR shapes, hybridisation, hydrogen bonding and molecular-orbital bond order dominate board questions. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-3-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Ionic bond.",
+          "answer": "An ionic bond is the electrostatic attraction between oppositely charged ions formed after electron transfer.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Ionic bond • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Covalent bond.",
+          "answer": "A covalent bond forms by mutual sharing of one or more electron pairs between atoms.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Covalent bond • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Formal charge.",
+          "answer": "Formal charge = valence electrons − lone-pair electrons − ½(bonding electrons); minimum charge separation favours a Lewis structure.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Formal charge • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Bond order.",
+          "answer": "For comparable atoms, greater bond order normally means shorter and stronger bonding. In MO theory, bond order = ½(Nᵦ−Nₐ).\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Bond order • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for VSEPR principle.",
+          "answer": "Electron pairs around a central atom arrange themselves to minimise repulsion: LP–LP > LP–BP > BP–BP.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "VSEPR principle • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Hybridisation.",
+          "answer": "Hybridisation is mixing of similar-energy atomic orbitals on one atom to form equivalent, directed hybrid orbitals.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hybridisation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Coordinate bond.",
+          "answer": "In a coordinate covalent bond, both shared electrons are donated by the same atom, as in NH₄⁺ formation.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Coordinate bond • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Resonance.",
+          "answer": "The actual molecule is a resonance hybrid of contributing Lewis structures and is more stable than any one contributor.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Resonance • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Hydrogen bonding.",
+          "answer": "Hydrogen bonding occurs when H bonded to F, O or N interacts with a lone pair on an electronegative atom.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hydrogen bonding • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-3-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Dipole moment.",
+          "answer": "Dipole moment μ = qr measures bond or molecular polarity; molecular geometry determines whether bond moments cancel.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Dipole moment • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-3-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Ionic bond and Covalent bond with the relevant relation, reason or example.",
+          "answer": "1. Ionic bond: An ionic bond is the electrostatic attraction between oppositely charged ions formed after electron transfer.\n2. Covalent bond: A covalent bond forms by mutual sharing of one or more electron pairs between atoms.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Ionic bond • Covalent bond • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-3-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Formal charge and Bond order. Give the chemical basis and one example.",
+          "answer": "1. Formal charge: Formal charge = valence electrons − lone-pair electrons − ½(bonding electrons); minimum charge separation favours a Lewis structure.\n2. Bond order: For comparable atoms, greater bond order normally means shorter and stronger bonding. In MO theory, bond order = ½(Nᵦ−Nₐ).\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Formal charge • Bond order • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-3-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain VSEPR principle and Hybridisation with the relevant relation, reason or example.",
+          "answer": "1. VSEPR principle: Electron pairs around a central atom arrange themselves to minimise repulsion: LP–LP > LP–BP > BP–BP.\n2. Hybridisation: Hybridisation is mixing of similar-energy atomic orbitals on one atom to form equivalent, directed hybrid orbitals.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "VSEPR principle • Hybridisation • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-3-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Coordinate bond and Resonance. Give the chemical basis and one example.",
+          "answer": "1. Coordinate bond: In a coordinate covalent bond, both shared electrons are donated by the same atom, as in NH₄⁺ formation.\n2. Resonance: The actual molecule is a resonance hybrid of contributing Lewis structures and is more stable than any one contributor.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Coordinate bond • Resonance • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-3-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Hydrogen bonding and Dipole moment with the relevant relation, reason or example.",
+          "answer": "1. Hydrogen bonding: Hydrogen bonding occurs when H bonded to F, O or N interacts with a lone pair on an electronegative atom.\n2. Dipole moment: Dipole moment μ = qr measures bond or molecular polarity; molecular geometry determines whether bond moments cancel.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Hydrogen bonding • Dipole moment • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-3-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain VSEPR theory and predict the shapes of BeCl₂, BF₃, CH₄, NH₃, H₂O and PCl₅.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nVSEPR theory states that valence-shell electron pairs stay as far apart as possible. Multiple bonds act as one electron domain but repel more strongly; lone pairs occupy more space and compress bond angles.\n\nBeCl₂: two bond pairs, linear, 180°. BF₃: three bond pairs, trigonal planar, 120°. CH₄: four bond pairs, tetrahedral, 109.5°. NH₃: three bond pairs and one lone pair, trigonal pyramidal, about 107°. H₂O: two bond pairs and two lone pairs, bent, about 104.5°. PCl₅: five bond pairs, trigonal bipyramidal, with three equatorial and two axial positions.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • VSEPR • theory • and • predict • the • shapes • of • BeCl₂, • BF₃,",
+          "diagram": "assets/chemistry-board/molecular-shapes.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Chemical Bonding and Molecular Structure"
+        },
+        {
+          "id": "c11-chem-3-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe hybridisation and geometry in methane, ethene, ethyne and PCl₅.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nIn CH₄, carbon uses sp³ hybridisation: one s and three p orbitals form four tetrahedral hybrids, producing four σ bonds at 109.5°. In ethene, each carbon is sp² hybridised; three coplanar sp² orbitals form σ bonds and the unhybridised p orbitals overlap sideways to form one π bond.\n\nIn ethyne, each carbon is sp hybridised and linear; two perpendicular unhybridised p pairs form two π bonds in addition to the C–C σ bond. In PCl₅, phosphorus uses sp³d description with trigonal-bipyramidal arrangement. Clearly distinguish head-on σ overlap from sidewise π overlap.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • hybridisation • and • geometry • in • methane, • ethene, • ethyne • and • PCl₅"
+        },
+        {
+          "id": "c11-chem-3-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain molecular-orbital theory and compare O₂, O₂⁺, O₂⁻ and O₂²⁻ using bond order and magnetism.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAtomic orbitals of suitable energy and symmetry combine to form bonding and antibonding molecular orbitals. Electrons fill them by Aufbau, Pauli and Hund rules. Bond order = ½(Nᵦ−Nₐ); a positive value indicates bonding.\n\nO₂ has bond order 2 and two unpaired π* electrons, so it is paramagnetic. Removing one antibonding electron gives O₂⁺ bond order 2.5. Adding one gives O₂⁻ bond order 1.5 with one unpaired electron. Adding two gives peroxide O₂²⁻ bond order 1 and all electrons paired. Thus bond strength follows O₂⁺ > O₂ > O₂⁻ > O₂²⁻, while bond length follows the reverse order.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • molecular-orbital • theory • and • compare • O₂, • O₂⁺, • O₂⁻ • and • O₂²⁻"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-04",
       "number": 4,
-      "name": "Stoichiometry",
-      "topics": [],
+      "name": "States of Matter: Gases and Liquids",
+      "topics": [
+        "Boyle’s law",
+        "Charles’s law",
+        "Ideal gas equation",
+        "Dalton’s law",
+        "Graham’s law",
+        "RMS speed",
+        "Kinetic pressure",
+        "Compressibility factor",
+        "Critical temperature",
+        "Surface tension and viscosity"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Gas-law numericals, kinetic theory, molecular speeds and real-gas graphs are standard scoring problems. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-4-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Boyle’s law.",
+          "answer": "At constant temperature and amount, pressure is inversely proportional to volume: P₁V₁ = P₂V₂.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Boyle’s law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Charles’s law.",
+          "answer": "At constant pressure and amount, volume is directly proportional to absolute temperature: V₁/T₁ = V₂/T₂.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Charles’s law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Ideal gas equation.",
+          "answer": "For n moles of an ideal gas, PV = nRT. Temperature must be in kelvin.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Ideal gas equation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Dalton’s law.",
+          "answer": "The total pressure of non-reacting gases is the sum of partial pressures: P = ΣPᵢ; Pᵢ = xᵢP.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Dalton’s law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Graham’s law.",
+          "answer": "At the same temperature and pressure, diffusion or effusion rate is inversely proportional to √M.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Graham’s law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of RMS speed.",
+          "answer": "Root-mean-square speed uᵣₘₛ = √(3RT/M); molecular speeds rise with temperature and fall with molar mass.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "RMS speed • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Kinetic pressure.",
+          "answer": "Kinetic theory gives P = ⅓ρuᵣₘₛ², relating gas pressure to molecular motion.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Kinetic pressure • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Compressibility factor.",
+          "answer": "Z = PV/nRT. For an ideal gas Z=1; deviation from unity measures real-gas behaviour.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Compressibility factor • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Critical temperature.",
+          "answer": "Critical temperature is the highest temperature at which a gas can be liquefied by pressure alone.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Critical temperature • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-4-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Surface tension and viscosity.",
+          "answer": "Surface tension minimises liquid surface area; viscosity resists flow. Both depend on intermolecular forces and temperature.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Surface tension and viscosity • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-4-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Boyle’s law and Charles’s law with the relevant relation, reason or example.",
+          "answer": "1. Boyle’s law: At constant temperature and amount, pressure is inversely proportional to volume: P₁V₁ = P₂V₂.\n2. Charles’s law: At constant pressure and amount, volume is directly proportional to absolute temperature: V₁/T₁ = V₂/T₂.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Boyle’s law • Charles’s law • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-4-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Ideal gas equation and Dalton’s law. Give the chemical basis and one example.",
+          "answer": "1. Ideal gas equation: For n moles of an ideal gas, PV = nRT. Temperature must be in kelvin.\n2. Dalton’s law: The total pressure of non-reacting gases is the sum of partial pressures: P = ΣPᵢ; Pᵢ = xᵢP.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Ideal gas equation • Dalton’s law • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-4-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Graham’s law and RMS speed with the relevant relation, reason or example.",
+          "answer": "1. Graham’s law: At the same temperature and pressure, diffusion or effusion rate is inversely proportional to √M.\n2. RMS speed: Root-mean-square speed uᵣₘₛ = √(3RT/M); molecular speeds rise with temperature and fall with molar mass.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Graham’s law • RMS speed • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-4-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Kinetic pressure and Compressibility factor. Give the chemical basis and one example.",
+          "answer": "1. Kinetic pressure: Kinetic theory gives P = ⅓ρuᵣₘₛ², relating gas pressure to molecular motion.\n2. Compressibility factor: Z = PV/nRT. For an ideal gas Z=1; deviation from unity measures real-gas behaviour.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Kinetic pressure • Compressibility factor • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-4-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Critical temperature and Surface tension and viscosity with the relevant relation, reason or example.",
+          "answer": "1. Critical temperature: Critical temperature is the highest temperature at which a gas can be liquefied by pressure alone.\n2. Surface tension and viscosity: Surface tension minimises liquid surface area; viscosity resists flow. Both depend on intermolecular forces and temperature.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Critical temperature • Surface tension and viscosity • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-4-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the ideal gas equation from the gas laws and explain the significance of R.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nBoyle’s law gives V ∝ 1/P at constant T and n. Charles’s law gives V ∝ T at constant P and n. Avogadro’s law gives V ∝ n at constant P and T. Combining: V ∝ nT/P, hence PV = nRT.\n\nR is the universal gas constant: 8.314 J mol⁻¹ K⁻¹ in SI units or 0.0821 L atm mol⁻¹ K⁻¹. Use absolute temperature. For a fixed sample, P₁V₁/T₁ = P₂V₂/T₂. State assumptions of ideal behaviour: negligible molecular volume and intermolecular attraction.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Derive • the • ideal • gas • equation • from • the • gas • laws • and",
+          "diagram": "assets/chemistry-board/gas-laws.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for States of Matter: Gases and Liquids"
+        },
+        {
+          "id": "c11-chem-4-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "State the postulates of kinetic molecular theory and derive P = ⅓ρuᵣₘₛ².",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nA gas contains many tiny molecules in continuous random motion; their own volume is negligible, intermolecular forces are absent except during collision, collisions are perfectly elastic, and collision time is negligible.\n\nFor N molecules of mass m in a cube, momentum transfer to a wall gives P = (Nm/V)⟨cₓ²⟩. Random motion makes ⟨cₓ²⟩ = ⟨c²⟩/3. Since density ρ = Nm/V and uᵣₘₛ² = ⟨c²⟩, P = ⅓ρuᵣₘₛ². With PV=NkT, the mean translational kinetic energy per molecule is 3kT/2.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "State • the • postulates • of • kinetic • molecular • theory • and • derive • P"
+        },
+        {
+          "id": "c11-chem-4-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain deviation of real gases from ideal behaviour and the van der Waals correction.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nReal molecules have finite volume and attractions. Attractive forces reduce the observed pressure, so pressure is corrected as P + an²/V². Available volume is less than container volume, so volume is corrected as V − nb. The van der Waals equation is (P + an²/V²)(V − nb) = nRT.\n\nAt low pressure and high temperature, molecules are far apart and real gases approach ideal behaviour. Z<1 shows attraction dominates; Z>1 shows repulsion or excluded-volume effects dominate. Liquefaction is favoured below the critical temperature by cooling and compression.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • deviation • of • real • gases • from • ideal • behaviour • and • the"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-05",
       "number": 5,
-      "name": "Thermodynamics",
-      "topics": [],
+      "name": "Stoichiometry",
+      "topics": [
+        "Mole",
+        "Molar mass",
+        "Limiting reagent",
+        "Empirical formula",
+        "Molarity",
+        "Molality",
+        "Oxidation number",
+        "Oxidation and reduction",
+        "Disproportionation",
+        "Equivalent mass"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Mole concept, concentration, formula calculations and redox balancing offer reliable numerical and equation-based marks. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-5-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Mole.",
+          "answer": "One mole contains 6.022 × 10²³ specified entities. Amount n = mass/molar mass.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Mole • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Molar mass.",
+          "answer": "Molar mass is the mass of one mole of a substance, expressed in g mol⁻¹.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Molar mass • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Limiting reagent.",
+          "answer": "The limiting reagent is consumed first in stoichiometric proportion and therefore fixes the maximum product yield.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Limiting reagent • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Empirical formula.",
+          "answer": "An empirical formula gives the simplest whole-number ratio of atoms; molecular formula = empirical formula × n.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Empirical formula • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Molarity.",
+          "answer": "Molarity M = moles of solute/litre of solution and changes with temperature because volume changes.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Molarity • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Molality.",
+          "answer": "Molality m = moles of solute/kg of solvent and is temperature independent.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Molality • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Oxidation number.",
+          "answer": "Oxidation number is formal electron bookkeeping; its algebraic sum equals zero in a neutral compound and ionic charge in an ion.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Oxidation number • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Oxidation and reduction.",
+          "answer": "Oxidation is electron loss or increase in oxidation number; reduction is electron gain or decrease in oxidation number.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Oxidation and reduction • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Disproportionation.",
+          "answer": "In disproportionation, the same species is simultaneously oxidised and reduced to products with higher and lower oxidation numbers.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Disproportionation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-5-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Equivalent mass.",
+          "answer": "Equivalent mass = molar mass/n-factor; equivalents of reacting oxidant and reductant are equal at the equivalence point.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Equivalent mass • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-5-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Mole and Molar mass with the relevant relation, reason or example.",
+          "answer": "1. Mole: One mole contains 6.022 × 10²³ specified entities. Amount n = mass/molar mass.\n2. Molar mass: Molar mass is the mass of one mole of a substance, expressed in g mol⁻¹.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Mole • Molar mass • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-5-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Limiting reagent and Empirical formula. Give the chemical basis and one example.",
+          "answer": "1. Limiting reagent: The limiting reagent is consumed first in stoichiometric proportion and therefore fixes the maximum product yield.\n2. Empirical formula: An empirical formula gives the simplest whole-number ratio of atoms; molecular formula = empirical formula × n.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Limiting reagent • Empirical formula • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-5-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Molarity and Molality with the relevant relation, reason or example.",
+          "answer": "1. Molarity: Molarity M = moles of solute/litre of solution and changes with temperature because volume changes.\n2. Molality: Molality m = moles of solute/kg of solvent and is temperature independent.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Molarity • Molality • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-5-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Oxidation number and Oxidation and reduction. Give the chemical basis and one example.",
+          "answer": "1. Oxidation number: Oxidation number is formal electron bookkeeping; its algebraic sum equals zero in a neutral compound and ionic charge in an ion.\n2. Oxidation and reduction: Oxidation is electron loss or increase in oxidation number; reduction is electron gain or decrease in oxidation number.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Oxidation number • Oxidation and reduction • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-5-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Disproportionation and Equivalent mass with the relevant relation, reason or example.",
+          "answer": "1. Disproportionation: In disproportionation, the same species is simultaneously oxidised and reduced to products with higher and lower oxidation numbers.\n2. Equivalent mass: Equivalent mass = molar mass/n-factor; equivalents of reacting oxidant and reductant are equal at the equivalence point.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Disproportionation • Equivalent mass • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-5-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain the mole concept and solve the general steps for stoichiometric calculations.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nWrite and balance the chemical equation. Convert each given amount to moles using n=m/M, n=V/22.4 L for an ideal gas at STP when appropriate, or n=MV for a solution. Divide available moles by the stoichiometric coefficient to identify the limiting reagent.\n\nUse the mole ratio to calculate product moles, then convert to mass, volume or particles using the required relation. Percentage yield = actual yield/theoretical yield ×100. Always retain units and appropriate significant figures.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • the • mole • concept • and • solve • the • general • steps • for",
+          "diagram": "assets/chemistry-board/stoichiometry-redox.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Stoichiometry"
+        },
+        {
+          "id": "c11-chem-5-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe how empirical and molecular formulae are determined from percentage composition.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAssume 100 g of compound, so each percentage becomes grams. Divide each elemental mass by its atomic mass to obtain relative moles. Divide all mole values by the smallest and multiply when necessary to obtain whole-number ratios; these give the empirical formula.\n\nCalculate empirical-formula mass E. If molar mass M is given, n=M/E must be a whole number. Molecular formula = (empirical formula)ₙ. Verify that the calculated percentages and molar mass match the data.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • how • empirical • and • molecular • formulae • are • determined • from • percentage"
+        },
+        {
+          "id": "c11-chem-5-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Balance a redox equation by the ion–electron method and state the checking rules.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nSeparate oxidation and reduction half-reactions. Balance atoms other than O and H. In acidic medium balance O with H₂O, H with H⁺ and charge with electrons. Multiply half-reactions to equalise electrons, add and cancel common species.\n\nFor basic medium, add OH⁻ to both sides to neutralise H⁺, convert it to H₂O and cancel excess water. Finally verify equality of every atom and net charge on the two sides. Identify oxidising agent as the species reduced and reducing agent as the species oxidised.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Balance • a • redox • equation • by • the • ion–electron • method • and • state"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-06",
       "number": 6,
-      "name": "Chemical Equilibrium and Acids-Bases",
-      "topics": [],
+      "name": "Thermodynamics",
+      "topics": [
+        "System and surroundings",
+        "State function",
+        "First law",
+        "Enthalpy",
+        "Extensive and intensive",
+        "Hess’s law",
+        "Formation enthalpy",
+        "Entropy",
+        "Gibbs energy",
+        "Calorimetry"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: First law, enthalpy cycles, calorimetry, spontaneity and Gibbs-energy calculations are major LAQ areas. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-6-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain System and surroundings.",
+          "answer": "The system is the chosen part of the universe under study; everything else is the surroundings.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "System and surroundings • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for State function.",
+          "answer": "A state function depends only on initial and final states, not path; U, H, S and G are state functions.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "State function • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of First law.",
+          "answer": "Using the chemistry sign convention, ΔU = q + w; expansion work at constant external pressure is w = −PₑₓₜΔV.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "First law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Enthalpy.",
+          "answer": "H = U + PV. At constant pressure with only PV work, heat exchanged qₚ = ΔH.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Enthalpy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Extensive and intensive.",
+          "answer": "Extensive properties depend on amount, such as mass and U; intensive properties do not, such as temperature and pressure.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Extensive and intensive • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Hess’s law.",
+          "answer": "The enthalpy change of a reaction is independent of path and equals the sum of enthalpy changes of suitable steps.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hess’s law • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Formation enthalpy.",
+          "answer": "Standard enthalpy of formation forms one mole of a substance from elements in their standard states.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Formation enthalpy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Entropy.",
+          "answer": "Entropy measures energy dispersal or number of accessible arrangements; an isolated system tends toward increasing total entropy.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Entropy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Gibbs energy.",
+          "answer": "At constant T and P, ΔG = ΔH − TΔS; ΔG<0 is spontaneous, ΔG=0 equilibrium and ΔG>0 non-spontaneous forward.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Gibbs energy • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-6-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Calorimetry.",
+          "answer": "At constant heat capacity, q = mcΔT; in an isolated calorimeter, heat lost equals heat gained.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Calorimetry • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-6-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain System and surroundings and State function with the relevant relation, reason or example.",
+          "answer": "1. System and surroundings: The system is the chosen part of the universe under study; everything else is the surroundings.\n2. State function: A state function depends only on initial and final states, not path; U, H, S and G are state functions.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "System and surroundings • State function • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-6-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect First law and Enthalpy. Give the chemical basis and one example.",
+          "answer": "1. First law: Using the chemistry sign convention, ΔU = q + w; expansion work at constant external pressure is w = −PₑₓₜΔV.\n2. Enthalpy: H = U + PV. At constant pressure with only PV work, heat exchanged qₚ = ΔH.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "First law • Enthalpy • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-6-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Extensive and intensive and Hess’s law with the relevant relation, reason or example.",
+          "answer": "1. Extensive and intensive: Extensive properties depend on amount, such as mass and U; intensive properties do not, such as temperature and pressure.\n2. Hess’s law: The enthalpy change of a reaction is independent of path and equals the sum of enthalpy changes of suitable steps.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Extensive and intensive • Hess’s law • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-6-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Formation enthalpy and Entropy. Give the chemical basis and one example.",
+          "answer": "1. Formation enthalpy: Standard enthalpy of formation forms one mole of a substance from elements in their standard states.\n2. Entropy: Entropy measures energy dispersal or number of accessible arrangements; an isolated system tends toward increasing total entropy.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Formation enthalpy • Entropy • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-6-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Gibbs energy and Calorimetry with the relevant relation, reason or example.",
+          "answer": "1. Gibbs energy: At constant T and P, ΔG = ΔH − TΔS; ΔG<0 is spontaneous, ΔG=0 equilibrium and ΔG>0 non-spontaneous forward.\n2. Calorimetry: At constant heat capacity, q = mcΔT; in an isolated calorimeter, heat lost equals heat gained.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Gibbs energy • Calorimetry • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-6-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "State the first law of thermodynamics and derive the relation between ΔH and ΔU for a gaseous reaction.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nThe first law expresses energy conservation: ΔU = q + w. With pressure–volume work w = −PₑₓₜΔV, heat absorbed raises internal energy or is used for expansion.\n\nH = U + PV, hence ΔH = ΔU + Δ(PV). For ideal gases at fixed temperature, PV=nRT, so Δ(PV)=Δn_gRT. Therefore ΔH = ΔU + Δn_gRT, where Δn_g = gaseous product moles − gaseous reactant moles. Include only gaseous species and use the balanced equation.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "State • the • first • law • of • thermodynamics • and • derive • the • relation",
+          "diagram": "assets/chemistry-board/hess-cycle.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Thermodynamics"
+        },
+        {
+          "id": "c11-chem-6-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain Hess’s law and calculate reaction enthalpy using formation or bond enthalpy data.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nHess’s law follows because enthalpy is a state function. Thermochemical equations may be reversed (change the sign of ΔH), multiplied (multiply ΔH by the same factor), and added to obtain the target equation.\n\nUsing formation data: ΔᵣH° = ΣνΔfH°(products) − ΣνΔfH°(reactants). Using average bond enthalpies for gas-phase estimates: ΔH ≈ ΣBE(bonds broken) − ΣBE(bonds formed). Write coefficients, units and physical states; these are common sources of lost marks.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • Hess’s • law • and • calculate • reaction • enthalpy • using • formation • or"
+        },
+        {
+          "id": "c11-chem-6-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Discuss spontaneity using entropy and Gibbs energy and explain the effect of temperature.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAt constant T and P, ΔG = ΔH − TΔS. A process is thermodynamically spontaneous when ΔG<0, but it need not be fast. If ΔH<0 and ΔS>0, it is spontaneous at all temperatures. If ΔH>0 and ΔS<0, it is never spontaneous.\n\nFor ΔH<0, ΔS<0, low temperature favours spontaneity. For ΔH>0, ΔS>0, high temperature favours it. At equilibrium ΔG=0 and, when ΔH and ΔS are treated as constant, the crossover temperature is T=ΔH/ΔS. Convert entropy units before substitution.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Discuss • spontaneity • using • entropy • and • Gibbs • energy • and • explain • the"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-07",
       "number": 7,
-      "name": "The s-Block Elements",
-      "topics": [],
+      "name": "Chemical Equilibrium and Acids–Bases",
+      "topics": [
+        "Dynamic equilibrium",
+        "Equilibrium constant",
+        "Kp and Kc",
+        "Reaction quotient",
+        "Le Chatelier principle",
+        "Brønsted acid and base",
+        "Lewis acid and base",
+        "pH and ionic product",
+        "Buffer",
+        "Solubility product"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Kc/Kp, Le Chatelier, pH, buffers and solubility product produce frequent numericals and explanations. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-7-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Dynamic equilibrium.",
+          "answer": "At equilibrium, forward and reverse reaction rates are equal while concentrations remain constant, not necessarily equal.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Dynamic equilibrium • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Equilibrium constant.",
+          "answer": "For aA+bB⇌cC+dD, Kc=[C]ᶜ[D]ᵈ/[A]ᵃ[B]ᵇ using equilibrium concentrations; pure solids and liquids are omitted.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Equilibrium constant • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Kp and Kc.",
+          "answer": "For gaseous reactions, Kp = Kc(RT)^Δn, where Δn = gaseous product coefficients − gaseous reactant coefficients.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Kp and Kc • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Reaction quotient.",
+          "answer": "Q has the form of K using current concentrations. Q<K drives forward, Q>K reverse and Q=K means equilibrium.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Reaction quotient • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Le Chatelier principle.",
+          "answer": "An equilibrium shifts in the direction that opposes an imposed concentration, pressure or temperature change.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Le Chatelier principle • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Brønsted acid and base.",
+          "answer": "A Brønsted acid donates H⁺ and a base accepts H⁺; conjugate pairs differ by one proton.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Brønsted acid and base • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Lewis acid and base.",
+          "answer": "A Lewis acid accepts an electron pair, while a Lewis base donates an electron pair.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Lewis acid and base • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for pH and ionic product.",
+          "answer": "pH=−log[H⁺]. At 298 K, Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴ and pH+pOH=14.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "pH and ionic product • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Buffer.",
+          "answer": "A buffer contains a weak acid/base and its conjugate partner and resists small additions of acid or base.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Buffer • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-7-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Solubility product.",
+          "answer": "Ksp is the equilibrium product of ion concentrations raised to stoichiometric powers for a sparingly soluble salt.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Solubility product • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-7-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Dynamic equilibrium and Equilibrium constant with the relevant relation, reason or example.",
+          "answer": "1. Dynamic equilibrium: At equilibrium, forward and reverse reaction rates are equal while concentrations remain constant, not necessarily equal.\n2. Equilibrium constant: For aA+bB⇌cC+dD, Kc=[C]ᶜ[D]ᵈ/[A]ᵃ[B]ᵇ using equilibrium concentrations; pure solids and liquids are omitted.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Dynamic equilibrium • Equilibrium constant • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-7-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Kp and Kc and Reaction quotient. Give the chemical basis and one example.",
+          "answer": "1. Kp and Kc: For gaseous reactions, Kp = Kc(RT)^Δn, where Δn = gaseous product coefficients − gaseous reactant coefficients.\n2. Reaction quotient: Q has the form of K using current concentrations. Q<K drives forward, Q>K reverse and Q=K means equilibrium.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Kp and Kc • Reaction quotient • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-7-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Le Chatelier principle and Brønsted acid and base with the relevant relation, reason or example.",
+          "answer": "1. Le Chatelier principle: An equilibrium shifts in the direction that opposes an imposed concentration, pressure or temperature change.\n2. Brønsted acid and base: A Brønsted acid donates H⁺ and a base accepts H⁺; conjugate pairs differ by one proton.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Le Chatelier principle • Brønsted acid and base • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-7-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Lewis acid and base and pH and ionic product. Give the chemical basis and one example.",
+          "answer": "1. Lewis acid and base: A Lewis acid accepts an electron pair, while a Lewis base donates an electron pair.\n2. pH and ionic product: pH=−log[H⁺]. At 298 K, Kw=[H⁺][OH⁻]=1.0×10⁻¹⁴ and pH+pOH=14.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Lewis acid and base • pH and ionic product • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-7-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Buffer and Solubility product with the relevant relation, reason or example.",
+          "answer": "1. Buffer: A buffer contains a weak acid/base and its conjugate partner and resists small additions of acid or base.\n2. Solubility product: Ksp is the equilibrium product of ion concentrations raised to stoichiometric powers for a sparingly soluble salt.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Buffer • Solubility product • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-7-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Derive the relation between Kp and Kc and explain the meaning of equilibrium constant.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nFor a gaseous reaction aA+bB⇌cC+dD, Kp=(P_CᶜP_Dᵈ)/(P_AᵃP_Bᵇ). Since each partial pressure Pᵢ=CᵢRT, substitution gives Kp=Kc(RT)^(c+d−a−b)=Kc(RT)^Δn.\n\nK depends only on temperature. K≫1 means products predominate; K≪1 means reactants predominate. It does not give reaction speed. Reversing a reaction gives 1/K; multiplying coefficients by n gives Kⁿ; adding reactions multiplies their equilibrium constants.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Derive • the • relation • between • Kp • and • Kc • and • explain • the",
+          "diagram": "assets/chemistry-board/equilibrium-ph.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Chemical Equilibrium and Acids–Bases"
+        },
+        {
+          "id": "c11-chem-7-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain Le Chatelier’s principle using the Haber process and contact process.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nFor N₂+3H₂⇌2NH₃, ΔH<0. High pressure favours the side with fewer gas moles and lower temperature favours ammonia, but a moderate temperature is used for adequate rate. Removing NH₃ shifts the reaction forward. Iron catalyst speeds both directions without changing K or equilibrium composition.\n\nFor 2SO₂+O₂⇌2SO₃, ΔH<0, high pressure and low temperature favour SO₃; practical conditions balance yield, rate and cost. Concentration and pressure change composition, temperature changes K, while catalyst only shortens time to equilibrium.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • Le • Chatelier’s • principle • using • the • Haber • process • and • contact"
+        },
+        {
+          "id": "c11-chem-7-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain pH of weak acids, buffer action and solubility product with useful formulae.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nFor weak monoprotic acid HA of concentration C and small ionisation, Ka=x²/(C−x)≈x²/C, so [H⁺]=x≈√(KaC) and pH=−log[H⁺]. For an acidic buffer, pH=pKa+log([A⁻]/[HA]). Added H⁺ is consumed by A⁻; added OH⁻ is consumed by HA.\n\nFor AB(s)⇌A⁺+B⁻, Ksp=s² in pure water. For CaF₂, Ksp=[Ca²⁺][F⁻]²=s(2s)²=4s³. Precipitation is expected when ionic product exceeds Ksp. A common ion lowers molar solubility.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • pH • of • weak • acids, • buffer • action • and • solubility • product"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-08",
       "number": 8,
-      "name": "The p-Block Elements - Group 13",
-      "topics": [],
+      "name": "Hydrogen and its Compounds",
+      "topics": [
+        "Isotopes of hydrogen",
+        "Hydrides",
+        "Hard water",
+        "Temporary hardness removal",
+        "Permanent hardness removal",
+        "Hydrogen peroxide structure",
+        "H₂O₂ oxidation state",
+        "Heavy water",
+        "Hydrogen fuel",
+        "Water anomaly"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Hydrides, hardness of water, hydrogen peroxide and heavy water are traditional reaction-rich board questions. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-8-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Isotopes of hydrogen.",
+          "answer": "Protium ¹H has no neutron, deuterium ²H has one and tritium ³H has two neutrons; tritium is radioactive.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Isotopes of hydrogen • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Hydrides.",
+          "answer": "Hydrides are classified as ionic or saline, covalent or molecular, and metallic or non-stoichiometric.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hydrides • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Hard water.",
+          "answer": "Hardness is caused mainly by Ca²⁺ and Mg²⁺ salts; bicarbonates cause temporary hardness, while chlorides and sulphates cause permanent hardness.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hard water • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Temporary hardness removal.",
+          "answer": "Boiling or lime treatment decomposes soluble bicarbonates and precipitates insoluble carbonates or hydroxides.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Temporary hardness removal • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Permanent hardness removal.",
+          "answer": "Washing soda precipitates Ca²⁺/Mg²⁺ as carbonates; ion-exchange or zeolite methods replace hardness ions.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Permanent hardness removal • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Hydrogen peroxide structure.",
+          "answer": "H₂O₂ is non-planar with an open-book structure; each oxygen is approximately sp³ hybridised.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hydrogen peroxide structure • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain H₂O₂ oxidation state.",
+          "answer": "Oxygen has oxidation number −1 in H₂O₂, so it can act as both oxidising and reducing agent.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "H₂O₂ oxidation state • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Heavy water.",
+          "answer": "Heavy water D₂O contains deuterium; it is used as moderator and coolant in some nuclear reactors.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Heavy water • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Hydrogen fuel.",
+          "answer": "Hydrogen has high calorific value and forms water on combustion, but storage, transport and production route affect safety and sustainability.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hydrogen fuel • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-8-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Water anomaly.",
+          "answer": "Hydrogen bonding explains unusually high boiling point, heat capacity and surface tension of water and the open structure of ice.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Water anomaly • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-8-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Isotopes of hydrogen and Hydrides with the relevant relation, reason or example.",
+          "answer": "1. Isotopes of hydrogen: Protium ¹H has no neutron, deuterium ²H has one and tritium ³H has two neutrons; tritium is radioactive.\n2. Hydrides: Hydrides are classified as ionic or saline, covalent or molecular, and metallic or non-stoichiometric.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Isotopes of hydrogen • Hydrides • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-8-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Hard water and Temporary hardness removal. Give the chemical basis and one example.",
+          "answer": "1. Hard water: Hardness is caused mainly by Ca²⁺ and Mg²⁺ salts; bicarbonates cause temporary hardness, while chlorides and sulphates cause permanent hardness.\n2. Temporary hardness removal: Boiling or lime treatment decomposes soluble bicarbonates and precipitates insoluble carbonates or hydroxides.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Hard water • Temporary hardness removal • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-8-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Permanent hardness removal and Hydrogen peroxide structure with the relevant relation, reason or example.",
+          "answer": "1. Permanent hardness removal: Washing soda precipitates Ca²⁺/Mg²⁺ as carbonates; ion-exchange or zeolite methods replace hardness ions.\n2. Hydrogen peroxide structure: H₂O₂ is non-planar with an open-book structure; each oxygen is approximately sp³ hybridised.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Permanent hardness removal • Hydrogen peroxide structure • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-8-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect H₂O₂ oxidation state and Heavy water. Give the chemical basis and one example.",
+          "answer": "1. H₂O₂ oxidation state: Oxygen has oxidation number −1 in H₂O₂, so it can act as both oxidising and reducing agent.\n2. Heavy water: Heavy water D₂O contains deuterium; it is used as moderator and coolant in some nuclear reactors.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "H₂O₂ oxidation state • Heavy water • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-8-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Hydrogen fuel and Water anomaly with the relevant relation, reason or example.",
+          "answer": "1. Hydrogen fuel: Hydrogen has high calorific value and forms water on combustion, but storage, transport and production route affect safety and sustainability.\n2. Water anomaly: Hydrogen bonding explains unusually high boiling point, heat capacity and surface tension of water and the open structure of ice.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Hydrogen fuel • Water anomaly • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-8-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Describe preparation, properties, structure and uses of hydrogen peroxide.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nLaboratory preparation: BaO₂·8H₂O + H₂SO₄(dilute, cold) → BaSO₄↓ + H₂O₂ + 8H₂O. Industrial production commonly uses an anthraquinone cycle. Pure H₂O₂ is pale blue, viscous and decomposes as 2H₂O₂→2H₂O+O₂; light and impurities accelerate decomposition, so it is stored in dark, stabilised containers.\n\nIts non-planar open-book structure contains an O–O single bond. It oxidises Fe²⁺ to Fe³⁺ in acid and reduces strong oxidants such as acidified KMnO₄, itself forming O₂. Uses include bleaching, disinfection, pollution control and chemical synthesis.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • preparation, • properties, • structure • and • uses • of • hydrogen • peroxide",
+          "diagram": "assets/chemistry-board/hydrogen-peroxide.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Hydrogen and its Compounds"
+        },
+        {
+          "id": "c11-chem-8-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain temporary and permanent hardness of water and methods for removing each.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nTemporary hardness is due to Ca(HCO₃)₂ and Mg(HCO₃)₂. Boiling forms insoluble CaCO₃ and Mg(OH)₂. Clark’s lime method adds calculated Ca(OH)₂ to precipitate hardness.\n\nPermanent hardness is due mainly to Ca/Mg chlorides and sulphates. Washing soda supplies CO₃²⁻ to precipitate carbonates. Zeolite exchanges Na⁺ for Ca²⁺/Mg²⁺ and is regenerated with brine. Ion-exchange resins can remove both cations and anions to demineralise water. State one balanced representative equation for full marks.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • temporary • and • permanent • hardness • of • water • and • methods • for"
+        },
+        {
+          "id": "c11-chem-8-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Classify hydrides and explain their characteristic properties with examples.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nIonic hydrides such as NaH and CaH₂ contain H⁻, are crystalline and react with water to release H₂. Covalent hydrides are molecular compounds of p-block elements; they may be electron-deficient (B₂H₆), electron-precise (CH₄) or electron-rich (NH₃, H₂O).\n\nMetallic hydrides are formed by many d- and f-block metals, are often non-stoichiometric and conduct electricity. Classification should be based on bonding and electronic character, followed by at least two correct examples and one characteristic reaction or use.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Classify • hydrides • and • explain • their • characteristic • properties • with • examples"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-09",
       "number": 9,
-      "name": "The p-Block Elements - Group 14",
-      "topics": [],
+      "name": "The s-Block Elements",
+      "topics": [
+        "s-block configuration",
+        "Alkali reactivity",
+        "Flame colours",
+        "Lithium anomaly",
+        "Li–Mg diagonal relation",
+        "Beryllium anomaly",
+        "Solvay process",
+        "Baking soda",
+        "Plaster of Paris",
+        "Biological importance"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Anomalous behaviour, diagonal relationships and preparation/properties of sodium and calcium compounds are common long answers. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-9-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain s-block configuration.",
+          "answer": "Group 1 elements have ns¹ and group 2 elements have ns² valence configurations.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "s-block configuration • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Alkali reactivity.",
+          "answer": "Alkali-metal reactivity increases down the group as ionisation enthalpy decreases; they are stored away from air and moisture.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Alkali reactivity • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Flame colours.",
+          "answer": "Li gives crimson red, Na golden yellow, K lilac and Ca brick red due to characteristic electronic excitation.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Flame colours • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Lithium anomaly.",
+          "answer": "Lithium differs because of very small size, high polarising power, high hydration enthalpy and absence of d orbitals.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Lithium anomaly • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Li–Mg diagonal relation.",
+          "answer": "Li and Mg form nitrides, their carbonates decompose on heating, and their fluorides are sparingly soluble.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Li–Mg diagonal relation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Beryllium anomaly.",
+          "answer": "Beryllium compounds are mainly covalent; BeO and Be(OH)₂ are amphoteric because Be²⁺ is small and strongly polarising.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Beryllium anomaly • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Solvay process.",
+          "answer": "Sodium carbonate is manufactured by precipitating NaHCO₃ from ammoniated brine and calcining it.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Solvay process • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Baking soda.",
+          "answer": "NaHCO₃ is a mild base used in baking powder, antacids and fire extinguishers; on heating it gives Na₂CO₃, CO₂ and H₂O.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Baking soda • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Plaster of Paris.",
+          "answer": "CaSO₄·½H₂O is plaster of Paris; with water it sets to gypsum, CaSO₄·2H₂O.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Plaster of Paris • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-9-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Biological importance.",
+          "answer": "Na⁺ and K⁺ maintain membrane potential and fluid balance; Ca²⁺ supports bones, clotting and contraction, while Mg²⁺ activates enzymes.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Biological importance • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-9-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain s-block configuration and Alkali reactivity with the relevant relation, reason or example.",
+          "answer": "1. s-block configuration: Group 1 elements have ns¹ and group 2 elements have ns² valence configurations.\n2. Alkali reactivity: Alkali-metal reactivity increases down the group as ionisation enthalpy decreases; they are stored away from air and moisture.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "s-block configuration • Alkali reactivity • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-9-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Flame colours and Lithium anomaly. Give the chemical basis and one example.",
+          "answer": "1. Flame colours: Li gives crimson red, Na golden yellow, K lilac and Ca brick red due to characteristic electronic excitation.\n2. Lithium anomaly: Lithium differs because of very small size, high polarising power, high hydration enthalpy and absence of d orbitals.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Flame colours • Lithium anomaly • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-9-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Li–Mg diagonal relation and Beryllium anomaly with the relevant relation, reason or example.",
+          "answer": "1. Li–Mg diagonal relation: Li and Mg form nitrides, their carbonates decompose on heating, and their fluorides are sparingly soluble.\n2. Beryllium anomaly: Beryllium compounds are mainly covalent; BeO and Be(OH)₂ are amphoteric because Be²⁺ is small and strongly polarising.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Li–Mg diagonal relation • Beryllium anomaly • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-9-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Solvay process and Baking soda. Give the chemical basis and one example.",
+          "answer": "1. Solvay process: Sodium carbonate is manufactured by precipitating NaHCO₃ from ammoniated brine and calcining it.\n2. Baking soda: NaHCO₃ is a mild base used in baking powder, antacids and fire extinguishers; on heating it gives Na₂CO₃, CO₂ and H₂O.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Solvay process • Baking soda • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-9-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Plaster of Paris and Biological importance with the relevant relation, reason or example.",
+          "answer": "1. Plaster of Paris: CaSO₄·½H₂O is plaster of Paris; with water it sets to gypsum, CaSO₄·2H₂O.\n2. Biological importance: Na⁺ and K⁺ maintain membrane potential and fluid balance; Ca²⁺ supports bones, clotting and contraction, while Mg²⁺ activates enzymes.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Plaster of Paris • Biological importance • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-9-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain the anomalous behaviour of lithium and its diagonal relationship with magnesium.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nLithium is unusually small, has high ionisation enthalpy, high hydration enthalpy and strong polarising power. It forms Li₃N directly, mainly Li₂O on combustion, and its carbonate and nitrate decompose on heating. LiF, Li₂CO₃ and Li₃PO₄ are comparatively sparingly soluble.\n\nLithium resembles magnesium diagonally: both form nitrides; carbonates decompose to oxides; fluorides are sparingly soluble; chlorides are deliquescent and show covalent character; bicarbonates exist mainly in solution. Relate each similarity to comparable charge density and polarising power.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • the • anomalous • behaviour • of • lithium • and • its • diagonal • relationship",
+          "diagram": "assets/chemistry-board/sblock-flame.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for The s-Block Elements"
+        },
+        {
+          "id": "c11-chem-9-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe manufacture of sodium carbonate by the Solvay process with equations and recycling.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nPurified brine is saturated with NH₃ and CO₂. NH₃+CO₂+H₂O→NH₄HCO₃; then NH₄HCO₃+NaCl→NaHCO₃↓+NH₄Cl. Sodium hydrogen carbonate is filtered and heated: 2NaHCO₃→Na₂CO₃+CO₂+H₂O.\n\nCO₂ is regenerated by CaCO₃→CaO+CO₂. CaO+H₂O→Ca(OH)₂, which recovers ammonia: 2NH₄Cl+Ca(OH)₂→2NH₃+CaCl₂+2H₂O. The net raw materials are brine and limestone; ammonia is recycled.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • manufacture • of • sodium • carbonate • by • the • Solvay • process • with"
+        },
+        {
+          "id": "c11-chem-9-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe important compounds of calcium: quicklime, slaked lime, gypsum and plaster of Paris.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nQuicklime CaO is formed by calcining limestone: CaCO₃→CaO+CO₂. Adding water gives slaked lime: CaO+H₂O→Ca(OH)₂, used in mortar, whitewash and neutralisation.\n\nGypsum is CaSO₄·2H₂O. Heating it near 373 K gives plaster of Paris, CaSO₄·½H₂O. On mixing with water, plaster resets to interlocking gypsum crystals: CaSO₄·½H₂O+1½H₂O→CaSO₄·2H₂O. Controlled heating is essential; excessive heating produces dead-burnt plaster.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • important • compounds • of • calcium: • quicklime, • slaked • lime, • gypsum • and"
+        }
+      ]
     },
     {
       "id": "class11-chemistry-10",
       "number": 10,
-      "name": "Organic Chemistry - Some Basic Principles and Techniques and Hydrocarbons",
-      "topics": [],
+      "name": "The p-Block Elements – Group 13",
+      "topics": [
+        "Group 13 configuration",
+        "Inert-pair effect",
+        "Boron anomaly",
+        "Lewis acidity of BX₃",
+        "Borax",
+        "Boric acid",
+        "Diborane",
+        "Aluminium amphoterism",
+        "Aluminium chloride",
+        "Borax bead test"
+      ],
       "resources": [],
-      "vsaq": [],
-      "saq": [],
-      "laq": [],
-      "mcqs": []
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Boron anomaly and structures, preparation and reactions of borax, boric acid and diborane are core board material. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-10-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Group 13 configuration.",
+          "answer": "Group 13 elements have valence configuration ns²np¹ and commonly show +3 oxidation state.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Group 13 configuration • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Inert-pair effect.",
+          "answer": "Down the group, the +1 state becomes more stable relative to +3 because the ns² pair increasingly resists bonding.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Inert-pair effect • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Boron anomaly.",
+          "answer": "Boron is a hard non-metal and forms covalent, electron-deficient compounds because of its small size and high ionisation enthalpy.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Boron anomaly • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Lewis acidity of BX₃.",
+          "answer": "Boron trihalides are Lewis acids because boron has an incomplete octet; BF₃ is weaker than BCl₃ due to pπ–pπ back bonding.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Lewis acidity of BX₃ • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Borax.",
+          "answer": "Borax is Na₂B₄O₇·10H₂O and gives alkaline solution due to hydrolysis.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Borax • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Boric acid.",
+          "answer": "H₃BO₃ is a weak monobasic Lewis acid; it accepts OH⁻ from water rather than directly donating three protons.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Boric acid • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Diborane.",
+          "answer": "B₂H₆ contains four terminal two-centre bonds and two B–H–B three-centre two-electron bridge bonds.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Diborane • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Aluminium amphoterism.",
+          "answer": "Al₂O₃ and Al(OH)₃ react with both acids and bases and are therefore amphoteric.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Aluminium amphoterism • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Aluminium chloride.",
+          "answer": "Anhydrous AlCl₃ is covalent and exists as dimer Al₂Cl₆ because electron-deficient Al accepts chloride lone pairs.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Aluminium chloride • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-10-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Borax bead test.",
+          "answer": "On heating, borax forms a glassy B₂O₃ bead that dissolves metal oxides and develops characteristic colours.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Borax bead test • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-10-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Group 13 configuration and Inert-pair effect with the relevant relation, reason or example.",
+          "answer": "1. Group 13 configuration: Group 13 elements have valence configuration ns²np¹ and commonly show +3 oxidation state.\n2. Inert-pair effect: Down the group, the +1 state becomes more stable relative to +3 because the ns² pair increasingly resists bonding.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Group 13 configuration • Inert-pair effect • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-10-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Boron anomaly and Lewis acidity of BX₃. Give the chemical basis and one example.",
+          "answer": "1. Boron anomaly: Boron is a hard non-metal and forms covalent, electron-deficient compounds because of its small size and high ionisation enthalpy.\n2. Lewis acidity of BX₃: Boron trihalides are Lewis acids because boron has an incomplete octet; BF₃ is weaker than BCl₃ due to pπ–pπ back bonding.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Boron anomaly • Lewis acidity of BX₃ • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-10-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Borax and Boric acid with the relevant relation, reason or example.",
+          "answer": "1. Borax: Borax is Na₂B₄O₇·10H₂O and gives alkaline solution due to hydrolysis.\n2. Boric acid: H₃BO₃ is a weak monobasic Lewis acid; it accepts OH⁻ from water rather than directly donating three protons.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Borax • Boric acid • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-10-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Diborane and Aluminium amphoterism. Give the chemical basis and one example.",
+          "answer": "1. Diborane: B₂H₆ contains four terminal two-centre bonds and two B–H–B three-centre two-electron bridge bonds.\n2. Aluminium amphoterism: Al₂O₃ and Al(OH)₃ react with both acids and bases and are therefore amphoteric.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Diborane • Aluminium amphoterism • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-10-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Aluminium chloride and Borax bead test with the relevant relation, reason or example.",
+          "answer": "1. Aluminium chloride: Anhydrous AlCl₃ is covalent and exists as dimer Al₂Cl₆ because electron-deficient Al accepts chloride lone pairs.\n2. Borax bead test: On heating, borax forms a glassy B₂O₃ bead that dissolves metal oxides and develops characteristic colours.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Aluminium chloride • Borax bead test • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-10-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Describe the structure and bonding of diborane and explain its important reactions.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nDiborane has four terminal B–H bonds in one plane and two bridging hydrogen atoms above and below it. Each bridge is a three-centre two-electron B–H–B banana bond, explaining electron deficiency. The terminal bonds are ordinary two-centre two-electron bonds.\n\nIt is prepared by reducing boron halides, for example 4BF₃+3LiAlH₄→2B₂H₆+3LiF+3AlF₃. It burns to B₂O₃ and water, hydrolyses to boric acid and H₂, and forms donor adducts with Lewis bases. Draw and label terminal and bridge hydrogens.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • the • structure • and • bonding • of • diborane • and • explain • its",
+          "diagram": "assets/chemistry-board/diborane.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for The p-Block Elements – Group 13"
+        },
+        {
+          "id": "c11-chem-10-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain preparation, properties and uses of borax and boric acid.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nBorax may be obtained from natural deposits or by treating borate minerals. In water it hydrolyses to boric acid and NaOH, so the solution is alkaline. On heating it loses water, swells and finally gives transparent B₂O₃ glass used in the borax bead test.\n\nAcidifying a hot borax solution gives H₃BO₃. Boric acid has layered hydrogen-bonded structure and acts as a monobasic Lewis acid: B(OH)₃+2H₂O⇌[B(OH)₄]⁻+H₃O⁺. On heating it successively forms metaboric acid, tetraboric acid and B₂O₃. Uses include borosilicate glass, enamels and mild antiseptic formulations.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • preparation, • properties • and • uses • of • borax • and • boric • acid"
+        },
+        {
+          "id": "c11-chem-10-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Discuss trends in Group 13 and explain anomalous behaviour of boron.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAtomic and ionic radii generally increase down the group, while irregular shielding by d and f electrons causes deviations. +3 is common, but +1 stability increases down the group due to inert-pair effect. Metallic character increases from B to Tl.\n\nBoron is non-metallic, does not form B³⁺ in ordinary chemistry, forms covalent and electron-deficient compounds, and has high melting point. Aluminium is metallic and amphoteric. Explain BF₃ Lewis acidity, covalent halides and the inability of boron to expand its octet using its small size and absence of low-energy d orbitals.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Discuss • trends • in • Group • 13 • and • explain • anomalous • behaviour • of"
+        }
+      ]
+    },
+    {
+      "id": "class11-chemistry-11",
+      "number": 11,
+      "name": "The p-Block Elements – Group 14",
+      "topics": [
+        "Group 14 configuration",
+        "Catenation",
+        "Carbon anomaly",
+        "Diamond",
+        "Graphite",
+        "Carbon monoxide",
+        "Carbon dioxide",
+        "Silica",
+        "Silicones",
+        "Zeolites"
+      ],
+      "resources": [],
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Carbon anomaly, allotropes and compounds of carbon and silicon feature in descriptive and structure-based questions. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-11-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Group 14 configuration.",
+          "answer": "Group 14 elements have ns²np² valence configuration and show +4 and +2 oxidation states.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Group 14 configuration • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Catenation.",
+          "answer": "Catenation is self-linking into chains and rings; carbon shows it strongly because the C–C bond is small and strong.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Catenation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Carbon anomaly.",
+          "answer": "Carbon differs through small size, high electronegativity, strong multiple bonding and absence of vacant d orbitals.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Carbon anomaly • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Diamond.",
+          "answer": "Diamond is a three-dimensional sp³ covalent network, extremely hard and an electrical insulator.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Diamond • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Graphite.",
+          "answer": "Graphite has sp² hexagonal layers with delocalised electrons, making it soft and electrically conducting.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Graphite • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Carbon monoxide.",
+          "answer": "CO is colourless, odourless and toxic because it binds haemoglobin strongly; it is a reducing agent and ligand.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Carbon monoxide • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Carbon dioxide.",
+          "answer": "CO₂ is linear and non-polar overall; it is an acidic oxide and contributes to greenhouse warming.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Carbon dioxide • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Silica.",
+          "answer": "SiO₂ is a giant covalent network of corner-linked SiO₄ tetrahedra and therefore has high melting point.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Silica • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Silicones.",
+          "answer": "Silicones contain alternating –Si–O–Si– chains with organic groups and show thermal stability and water repellence.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Silicones • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-11-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Zeolites.",
+          "answer": "Zeolites are porous hydrated aluminosilicates used as molecular sieves, ion exchangers and catalysts.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Zeolites • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-11-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Group 14 configuration and Catenation with the relevant relation, reason or example.",
+          "answer": "1. Group 14 configuration: Group 14 elements have ns²np² valence configuration and show +4 and +2 oxidation states.\n2. Catenation: Catenation is self-linking into chains and rings; carbon shows it strongly because the C–C bond is small and strong.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Group 14 configuration • Catenation • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-11-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Carbon anomaly and Diamond. Give the chemical basis and one example.",
+          "answer": "1. Carbon anomaly: Carbon differs through small size, high electronegativity, strong multiple bonding and absence of vacant d orbitals.\n2. Diamond: Diamond is a three-dimensional sp³ covalent network, extremely hard and an electrical insulator.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Carbon anomaly • Diamond • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-11-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Graphite and Carbon monoxide with the relevant relation, reason or example.",
+          "answer": "1. Graphite: Graphite has sp² hexagonal layers with delocalised electrons, making it soft and electrically conducting.\n2. Carbon monoxide: CO is colourless, odourless and toxic because it binds haemoglobin strongly; it is a reducing agent and ligand.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Graphite • Carbon monoxide • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-11-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Carbon dioxide and Silica. Give the chemical basis and one example.",
+          "answer": "1. Carbon dioxide: CO₂ is linear and non-polar overall; it is an acidic oxide and contributes to greenhouse warming.\n2. Silica: SiO₂ is a giant covalent network of corner-linked SiO₄ tetrahedra and therefore has high melting point.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Carbon dioxide • Silica • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-11-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Silicones and Zeolites with the relevant relation, reason or example.",
+          "answer": "1. Silicones: Silicones contain alternating –Si–O–Si– chains with organic groups and show thermal stability and water repellence.\n2. Zeolites: Zeolites are porous hydrated aluminosilicates used as molecular sieves, ion exchangers and catalysts.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Silicones • Zeolites • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-11-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Compare diamond and graphite in structure, bonding and properties.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nDiamond: each carbon is sp³ hybridised and tetrahedrally bonded to four others in a rigid 3D network. All valence electrons are localised in σ bonds, so diamond is extremely hard, has high thermal conductivity and is an electrical insulator.\n\nGraphite: each carbon is sp² hybridised and bonded to three atoms in planar hexagonal sheets. The remaining p electrons are delocalised, so graphite conducts electricity. Weak forces between layers allow them to slide, making graphite soft and lubricating. Link every property to the drawn structure.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Compare • diamond • and • graphite • in • structure, • bonding • and • properties",
+          "diagram": "assets/chemistry-board/carbon-silicon.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for The p-Block Elements – Group 14"
+        },
+        {
+          "id": "c11-chem-11-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain preparation, properties and uses of carbon monoxide and carbon dioxide.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nCO is prepared in the laboratory by dehydrating formic acid with concentrated H₂SO₄ and industrially in producer or water gas. It burns to CO₂, reduces heated metal oxides and forms metal carbonyls. Its strong binding to haemoglobin makes it poisonous.\n\nCO₂ may be produced by acid on a carbonate. It is linear, an acidic oxide, does not support ordinary combustion and reacts with bases to form carbonates/bicarbonates. It is used in fire extinguishers, carbonated drinks, dry ice and controlled atmospheres. Excess atmospheric CO₂ contributes to greenhouse warming.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • preparation, • properties • and • uses • of • carbon • monoxide • and • carbon"
+        },
+        {
+          "id": "c11-chem-11-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe the structures and uses of silica, silicates, silicones and zeolites.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nSilica is a 3D network in which each Si is tetrahedrally bonded to four O atoms and each O bridges two Si atoms. Silicates are built from SiO₄ tetrahedra that may be isolated, form chains, sheets or frameworks by sharing corners.\n\nSilicones have –R₂Si–O– repeating backbones and may be oils, rubbers or resins; they resist heat and water. Zeolites are porous aluminosilicate frameworks containing exchangeable cations and water. Their uniform pores allow molecular sieving, ion exchange, water softening and shape-selective catalysis.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • the • structures • and • uses • of • silica, • silicates, • silicones • and"
+        }
+      ]
+    },
+    {
+      "id": "class11-chemistry-12",
+      "number": 12,
+      "name": "Environmental Chemistry",
+      "topics": [
+        "Primary and secondary pollutants",
+        "Photochemical smog",
+        "Acid rain",
+        "Greenhouse effect",
+        "Ozone depletion",
+        "BOD",
+        "Eutrophication",
+        "Particulate matter",
+        "Soil pollution",
+        "Green chemistry"
+      ],
+      "resources": [],
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: Pollutant sources, mechanisms, effects and control measures support direct, highly scorable answers. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-12-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Primary and secondary pollutants.",
+          "answer": "Primary pollutants are emitted directly; secondary pollutants such as ozone in smog form by atmospheric reactions.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Primary and secondary pollutants • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Photochemical smog.",
+          "answer": "Sunlight acts on NOₓ and hydrocarbons to form oxidants such as O₃ and PAN, causing eye and respiratory irritation.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Photochemical smog • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Acid rain.",
+          "answer": "Rain with pH below about 5.6 results mainly when SO₂ and NOₓ form sulphuric and nitric acids.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Acid rain • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Greenhouse effect.",
+          "answer": "Greenhouse gases absorb outgoing infrared radiation; their enhanced concentration raises Earth’s average temperature.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Greenhouse effect • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Ozone depletion.",
+          "answer": "Stratospheric chlorine radicals from CFCs catalytically convert ozone to oxygen, increasing harmful UV-B at the surface.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Ozone depletion • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of BOD.",
+          "answer": "Biochemical oxygen demand measures oxygen used by microorganisms to oxidise biodegradable matter; high BOD signals organic pollution.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "BOD • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Eutrophication.",
+          "answer": "Excess nutrients cause algal growth, decomposition and dissolved-oxygen depletion in water bodies.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Eutrophication • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Particulate matter.",
+          "answer": "Fine particles enter deep into lungs, reduce visibility and can carry toxic chemicals; size strongly affects health risk.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Particulate matter • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Soil pollution.",
+          "answer": "Persistent pesticides, plastics, salts and industrial wastes degrade soil organisms, fertility and food-chain safety.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Soil pollution • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-12-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Green chemistry.",
+          "answer": "Green chemistry designs products and processes that reduce hazardous substances, waste and energy use at the source.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Green chemistry • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-12-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Primary and secondary pollutants and Photochemical smog with the relevant relation, reason or example.",
+          "answer": "1. Primary and secondary pollutants: Primary pollutants are emitted directly; secondary pollutants such as ozone in smog form by atmospheric reactions.\n2. Photochemical smog: Sunlight acts on NOₓ and hydrocarbons to form oxidants such as O₃ and PAN, causing eye and respiratory irritation.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Primary and secondary pollutants • Photochemical smog • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-12-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Acid rain and Greenhouse effect. Give the chemical basis and one example.",
+          "answer": "1. Acid rain: Rain with pH below about 5.6 results mainly when SO₂ and NOₓ form sulphuric and nitric acids.\n2. Greenhouse effect: Greenhouse gases absorb outgoing infrared radiation; their enhanced concentration raises Earth’s average temperature.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Acid rain • Greenhouse effect • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-12-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Ozone depletion and BOD with the relevant relation, reason or example.",
+          "answer": "1. Ozone depletion: Stratospheric chlorine radicals from CFCs catalytically convert ozone to oxygen, increasing harmful UV-B at the surface.\n2. BOD: Biochemical oxygen demand measures oxygen used by microorganisms to oxidise biodegradable matter; high BOD signals organic pollution.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Ozone depletion • BOD • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-12-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Eutrophication and Particulate matter. Give the chemical basis and one example.",
+          "answer": "1. Eutrophication: Excess nutrients cause algal growth, decomposition and dissolved-oxygen depletion in water bodies.\n2. Particulate matter: Fine particles enter deep into lungs, reduce visibility and can carry toxic chemicals; size strongly affects health risk.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Eutrophication • Particulate matter • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-12-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Soil pollution and Green chemistry with the relevant relation, reason or example.",
+          "answer": "1. Soil pollution: Persistent pesticides, plastics, salts and industrial wastes degrade soil organisms, fertility and food-chain safety.\n2. Green chemistry: Green chemistry designs products and processes that reduce hazardous substances, waste and energy use at the source.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Soil pollution • Green chemistry • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-12-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain photochemical smog: formation, effects and control.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nIn sunny urban air, NO₂ absorbs light and forms NO and atomic oxygen; O combines with O₂ to form ozone. Hydrocarbon radicals convert NO back to NO₂ without consuming ozone and generate PAN, aldehydes and other oxidants. This brown oxidising smog irritates eyes and lungs, damages plants, rubber and materials, and reduces visibility.\n\nControl requires catalytic converters, low-emission fuels, vehicle maintenance, public transport, vapour recovery and reduction of NOₓ and volatile-organic emissions. Do not confuse it with sulphurous smog associated with coal smoke and humid conditions.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • photochemical • smog: • formation, • effects • and • control",
+          "diagram": "assets/chemistry-board/pollution-cycle.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Environmental Chemistry"
+        },
+        {
+          "id": "c11-chem-12-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe causes, effects and control of water pollution using BOD and eutrophication.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nDomestic sewage, industrial effluents, fertiliser runoff, pesticides, oil and heated discharges pollute water. Biodegradable organic matter raises BOD as microbes consume dissolved oxygen, stressing aquatic life. Nitrate and phosphate enrichment causes eutrophication: algal bloom, reduced light, decomposition, oxygen depletion and fish death.\n\nControl includes primary screening/sedimentation, biological secondary treatment, nutrient removal, disinfection, effluent standards, safe sanitation and reduced fertiliser runoff. Lower BOD after treatment indicates removal of biodegradable load.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • causes, • effects • and • control • of • water • pollution • using • BOD"
+        },
+        {
+          "id": "c11-chem-12-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain acid rain, greenhouse warming and ozone depletion with key chemical steps and prevention.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nSO₂ and NOₓ are oxidised and hydrated to H₂SO₄ and HNO₃, producing acid deposition that damages lakes, soil, monuments and vegetation. CO₂, CH₄, N₂O and other greenhouse gases enhance infrared trapping and climate warming.\n\nIn the stratosphere, UV light releases Cl radicals from CFCs: Cl·+O₃→ClO·+O₂; ClO·+O→Cl·+O₂, giving net O₃+O→2O₂. Prevention includes low-sulphur energy, NOₓ controls, efficiency and renewables, methane reduction, and replacement/recovery of ozone-depleting substances.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • acid • rain, • greenhouse • warming • and • ozone • depletion • with • key"
+        }
+      ]
+    },
+    {
+      "id": "class11-chemistry-13",
+      "number": 13,
+      "name": "Organic Chemistry – Basic Principles, Techniques and Hydrocarbons",
+      "topics": [
+        "Homologous series",
+        "Functional group",
+        "Structural isomerism",
+        "Inductive effect",
+        "Resonance effect",
+        "Hyperconjugation",
+        "Electrophile and nucleophile",
+        "Carbocation stability",
+        "Markovnikov rule",
+        "Aromaticity of benzene"
+      ],
+      "resources": [],
+      "mcqs": [],
+      "examAnalysis": {
+        "pattern": "VSAQ 2 marks • SAQ 4 marks • LAQ 8 marks",
+        "approach": "Start with the definition or governing principle. Write balanced equations and conditions, show every numerical step with units, and use a labelled structure or graph where it earns marks.",
+        "sourceNote": "Board-paper focus: IUPAC naming, isomerism, electronic effects, mechanisms, purification and hydrocarbon reactions dominate the organic portion. Priority labels guide revision and are not predictions of exact questions."
+      },
+      "vsaq": [
+        {
+          "id": "c11-chem-13-v-1",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Homologous series.",
+          "answer": "A homologous series has the same functional group and general formula; successive members differ by –CH₂– and show graded physical properties.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Homologous series • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-2",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Write the key statement for Functional group.",
+          "answer": "A functional group is the atom or group responsible for characteristic organic reactions, such as –OH, –CHO or –COOH.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Functional group • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-3",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "State the important relation or chemical significance of Structural isomerism.",
+          "answer": "Structural isomers have the same molecular formula but different connectivity, including chain, position and functional isomerism.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Structural isomerism • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-4",
+          "marks": 2,
+          "priority": "Must revise",
+          "question": "Define or explain Inductive effect.",
+          "answer": "The inductive effect is permanent σ-bond electron displacement caused by electronegativity or charge and decreases with distance.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Inductive effect • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-5",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Write the key statement for Resonance effect.",
+          "answer": "Resonance delocalises π or lone-pair electrons; the real hybrid is more stable than any contributing structure.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Resonance effect • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-6",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "State the important relation or chemical significance of Hyperconjugation.",
+          "answer": "Hyperconjugation delocalises adjacent C–H σ electrons into a π bond or empty p orbital and stabilises substituted alkenes and carbocations.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Hyperconjugation • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-7",
+          "marks": 2,
+          "priority": "High yield",
+          "question": "Define or explain Electrophile and nucleophile.",
+          "answer": "An electrophile accepts an electron pair; a nucleophile donates an electron pair to an electron-deficient centre.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Electrophile and nucleophile • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-8",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Write the key statement for Carbocation stability.",
+          "answer": "Simple carbocation stability is generally 3°>2°>1°>CH₃⁺ due to +I effect and hyperconjugation; resonance can dominate.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Carbocation stability • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-9",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "State the important relation or chemical significance of Markovnikov rule.",
+          "answer": "In addition of HX to an unsymmetrical alkene, H usually adds to the carbon already bearing more H, through the more stable carbocation.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Markovnikov rule • definition • condition • example"
+        },
+        {
+          "id": "c11-chem-13-v-10",
+          "marks": 2,
+          "priority": "Core syllabus",
+          "question": "Define or explain Aromaticity of benzene.",
+          "answer": "Benzene is planar, cyclic and conjugated with six π electrons satisfying the 4n+2 rule; it prefers substitution over addition.\n\nExam line: Write the definition first, then add the relation, condition or one suitable example.",
+          "keyPoints": "Aromaticity of benzene • definition • condition • example"
+        }
+      ],
+      "saq": [
+        {
+          "id": "c11-chem-13-s-1",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Homologous series and Functional group with the relevant relation, reason or example.",
+          "answer": "1. Homologous series: A homologous series has the same functional group and general formula; successive members differ by –CH₂– and show graded physical properties.\n2. Functional group: A functional group is the atom or group responsible for characteristic organic reactions, such as –OH, –CHO or –COOH.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Homologous series • Functional group • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-13-s-2",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Structural isomerism and Inductive effect. Give the chemical basis and one example.",
+          "answer": "1. Structural isomerism: Structural isomers have the same molecular formula but different connectivity, including chain, position and functional isomerism.\n2. Inductive effect: The inductive effect is permanent σ-bond electron displacement caused by electronegativity or charge and decreases with distance.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Structural isomerism • Inductive effect • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-13-s-3",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Explain Resonance effect and Hyperconjugation with the relevant relation, reason or example.",
+          "answer": "1. Resonance effect: Resonance delocalises π or lone-pair electrons; the real hybrid is more stable than any contributing structure.\n2. Hyperconjugation: Hyperconjugation delocalises adjacent C–H σ electrons into a π bond or empty p orbital and stabilises substituted alkenes and carbocations.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Resonance effect • Hyperconjugation • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-13-s-4",
+          "marks": 4,
+          "priority": "Must revise",
+          "question": "Differentiate or connect Electrophile and nucleophile and Carbocation stability. Give the chemical basis and one example.",
+          "answer": "1. Electrophile and nucleophile: An electrophile accepts an electron pair; a nucleophile donates an electron pair to an electron-deficient centre.\n2. Carbocation stability: Simple carbocation stability is generally 3°>2°>1°>CH₃⁺ due to +I effect and hyperconjugation; resonance can dominate.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Electrophile and nucleophile • Carbocation stability • reason • equation • example"
+        },
+        {
+          "id": "c11-chem-13-s-5",
+          "marks": 4,
+          "priority": "High yield",
+          "question": "Explain Markovnikov rule and Aromaticity of benzene with the relevant relation, reason or example.",
+          "answer": "1. Markovnikov rule: In addition of HX to an unsymmetrical alkene, H usually adds to the carbon already bearing more H, through the more stable carbocation.\n2. Aromaticity of benzene: Benzene is planar, cyclic and conjugated with six π electrons satisfying the 4n+2 rule; it prefers substitution over addition.\n3. Chemical link: State how electronic structure, intermolecular force, equilibrium or stoichiometry connects the two ideas in this chapter.\n4. Scoring presentation: Add the relevant equation/formula, define symbols and write one correct example or condition.",
+          "keyPoints": "Markovnikov rule • Aromaticity of benzene • reason • equation • example"
+        }
+      ],
+      "laq": [
+        {
+          "id": "c11-chem-13-l-1",
+          "marks": 8,
+          "priority": "Must revise",
+          "question": "Explain IUPAC nomenclature and structural isomerism with a systematic method.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nChoose the longest parent chain containing the principal functional group and maximum multiple bonds. Number it to give the principal group, multiple bond and substituents the lowest permitted locants in that order. Name substituents alphabetically, use multiplicative prefixes, then write parent prefix, unsaturation and suffix with correct locants.\n\nStructural isomers differ in connectivity: chain isomers have different carbon skeletons, position isomers differ in location of substituent or multiple bond, and functional isomers have different functional groups. Draw complete structures and verify valency and molecular formula.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • IUPAC • nomenclature • and • structural • isomerism • with • a • systematic • method",
+          "diagram": "assets/chemistry-board/organic-reactions.svg",
+          "diagramAlt": "Labelled board-exam Chemistry diagram for Organic Chemistry – Basic Principles, Techniques and Hydrocarbons"
+        },
+        {
+          "id": "c11-chem-13-l-2",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Explain homolytic and heterolytic bond fission, reaction intermediates and electronic effects.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nHomolysis divides a bond equally to give radicals and is favoured by heat, light or non-polar conditions. Heterolysis gives ions and is favoured by polar bonds/solvents. Carbocations are electron-deficient and usually planar; carbanions contain a lone pair; radicals contain an unpaired electron.\n\nInductive effect is σ polarisation and weakens with distance. Resonance delocalises electrons across conjugated p orbitals. Hyperconjugation delocalises adjacent C–H σ bonding electrons. Use these effects to explain intermediate stability, acidity/basicity and orientation of reactions.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Explain • homolytic • and • heterolytic • bond • fission, • reaction • intermediates • and • electronic"
+        },
+        {
+          "id": "c11-chem-13-l-3",
+          "marks": 8,
+          "priority": "High yield",
+          "question": "Describe preparation and characteristic reactions of alkanes, alkenes, alkynes and benzene.",
+          "answer": "Answer plan: Begin with the law, definition or correctly balanced reaction. Organise the body under short steps and show conditions above the reaction arrow.\n\nAlkanes are prepared by hydrogenation, Wurtz reaction or decarboxylation and undergo combustion and free-radical halogen substitution. Alkenes are prepared by dehydration of alcohols or dehydrohalogenation and undergo electrophilic addition of H₂, X₂, HX and water, oxidation and polymerisation.\n\nAlkynes are formed by double dehydrohalogenation; they undergo addition and terminal alkynes form metal acetylides because of acidic hydrogen. Benzene undergoes electrophilic substitution: nitration, sulphonation, halogenation and Friedel–Crafts reactions. For each, state reagent/condition, balanced transformation, major product and governing rule.\n\nScoring finish: Check atoms and charge, include units in numericals, underline the final relation or product, and label the diagram if used.",
+          "keyPoints": "Describe • preparation • and • characteristic • reactions • of • alkanes, • alkenes, • alkynes • and"
+        }
+      ]
     }
-  ]
+  ],
+  "boardAnalysis": {
+    "exam": "Telangana Intermediate First Year Chemistry",
+    "duration": "3 hours",
+    "maximumMarks": 60,
+    "sections": [
+      {
+        "name": "Section A",
+        "format": "VSAQ",
+        "marks": "10 × 2 = 20",
+        "rule": "Answer all 10. Give the exact definition, relation/reason and one example where useful."
+      },
+      {
+        "name": "Section B",
+        "format": "SAQ",
+        "marks": "6 × 4 = 24",
+        "rule": "Eight are given; answer any six. Use four clear points, equations and conditions."
+      },
+      {
+        "name": "Section C",
+        "format": "LAQ",
+        "marks": "2 × 8 = 16",
+        "rule": "Three are given; answer any two. Present principle, steps, equations/derivation, diagram and result."
+      }
+    ],
+    "note": "The March 2026 paper used 10 compulsory 2-mark VSAQs, 8 four-mark SAQs with any 6, and 3 eight-mark LAQs with any 2. This 234-answer bank covers all 13 chapters in the latest available first-year reference syllabus, with extra breadth for revision rather than predicting the exact paper."
+  }
 }
