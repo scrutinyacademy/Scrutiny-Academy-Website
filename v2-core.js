@@ -23,7 +23,7 @@
       platform: null,
       manifest: null,
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
-      class11: { chapter: 0, format: "vsaq", data: null, search: "" },
+      class11: { subject: new URLSearchParams(location.search).get("subject") === "zoology" ? "zoology" : "botany", chapter: 0, format: "vsaq", data: null, search: "" },
       neet: { subject: "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
       flashcards: {
@@ -321,24 +321,38 @@
         );
   }
   async function renderCatalog(k) {
-    const d = await load(repo[k]);
-    if (k === "class11") await renderBotanyBank();
-    document.querySelector(`[data-catalog="${k}"]`).innerHTML = (
-      d.subjects || []
-    )
-      .map(
-        (s) =>
-          `<article><strong>${esc(s.name)}</strong><span>${(s.chapters || []).length} chapters listed</span></article>`,
-      )
-      .join("");
+    if (k === "class11") await renderBoardBank();
+    const subjects = state.manifest.categories.find((category) => category.id === k)?.subjects || [];
+    document.querySelector(`[data-catalog="${k}"]`).innerHTML = (await Promise.all(subjects.map(async (subject) => {
+      try {
+        const data = await load(subject.file);
+        return `<article><strong>${esc(subject.icon || "📚")} ${esc(subject.name)}</strong><span>${(data.chapters || []).length} chapters published</span></article>`;
+      } catch {
+        return `<article><strong>${esc(subject.icon || "📚")} ${esc(subject.name)}</strong><span>Content unavailable</span></article>`;
+      }
+    }))).join("");
   }
 
-  async function renderBotanyBank() {
+  async function renderBoardBank() {
     const subject = state.manifest.categories
       .find((c) => c.id === "class11")?.subjects
-      .find((s) => s.id === "botany");
+      .find((s) => s.id === state.class11.subject);
     if (!subject) return;
     state.class11.data = await load(subject.file);
+    const chapters = state.class11.data.chapters || [];
+    const totals = chapters.reduce((sum,chapter) => ({
+      vsaq:sum.vsaq+(chapter.vsaq||[]).length,
+      saq:sum.saq+(chapter.saq||[]).length,
+      laq:sum.laq+(chapter.laq||[]).length
+    }),{vsaq:0,saq:0,laq:0});
+    $("boardBankTitle").textContent = `Class 11 ${state.class11.data.subject} Answer Bank`;
+    $("boardBankDescription").textContent = state.class11.data.description;
+    $("boardAnswerTotal").textContent = `${totals.vsaq+totals.saq+totals.laq} answers live`;
+    $("boardChapterTotal").textContent = chapters.length;
+    $("boardVsaqTotal").textContent = totals.vsaq;
+    $("boardSaqTotal").textContent = totals.saq;
+    $("boardLaqTotal").textContent = totals.laq;
+    $("botanySearch").placeholder = `Search ${chapters.length} units…`;
     const analysis = state.class11.data.boardAnalysis;
     $("botanyPattern").innerHTML = analysis.sections.map((section) =>
       `<article><span>${esc(section.name)}</span><strong>${esc(section.format)}</strong><b>${esc(section.marks)}</b><small>${esc(section.rule)}</small></article>`
@@ -352,6 +366,16 @@
         state.class11.format = button.dataset.format;
         $("botanyTabs").querySelectorAll("button").forEach((item) => item.classList.toggle("active", item === button));
         renderBotanyContent();
+      };
+    });
+    $("boardSubjectTabs").querySelectorAll("button").forEach((button) => {
+      button.classList.toggle("active", button.dataset.subject === state.class11.subject);
+      button.onclick = async () => {
+        state.class11.subject = button.dataset.subject;
+        state.class11.chapter = 0;
+        state.class11.search = "";
+        $("botanySearch").value = "";
+        await renderBoardBank();
       };
     });
     renderBotanyChapters();

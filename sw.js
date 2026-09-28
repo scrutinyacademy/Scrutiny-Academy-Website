@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v22-class11-board-isolation";
+const CACHE = "scrutiny-academy-v23-class11-zoology-bank";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -31,6 +31,14 @@ const APP_SHELL = [
   "./assets/chemistry/hydrocarbon-benzene.svg",
   "./data/manifest.json",
   "./data/platform.json",
+  "./data/class11/zoology.json",
+  "./assets/zoology/body-plans.svg",
+  "./assets/zoology/invertebrate-phyla.svg",
+  "./assets/zoology/chordate-classes.svg",
+  "./assets/zoology/paramecium-conjugation.svg",
+  "./assets/zoology/plasmodium-cycle.svg",
+  "./assets/zoology/cockroach-systems.svg",
+  "./assets/zoology/ecosystem-flow.svg",
   "./data/neet/class11-physics-bank.js",
   "./data/neet/class11-chemistry-bank.js",
 ];

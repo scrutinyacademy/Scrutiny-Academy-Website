@@ -112,22 +112,26 @@
         <div class="section-head inline">
           <div>
             <span class="eyebrow">TELANGANA INTERMEDIATE • BOARD FOCUS</span>
-            <h2>Class 11 Botany Answer Bank</h2>
-            <p>Complete chapter-wise VSAQ, SAQ and LAQ preparation with mark-aware answers.</p>
+            <h2 id="boardBankTitle">Class 11 Board Answer Bank</h2>
+            <p id="boardBankDescription">Complete chapter-wise VSAQ, SAQ and LAQ preparation with mark-aware answers.</p>
           </div>
-          <span class="status active">420 answers live</span>
+          <span class="status active" id="boardAnswerTotal">420 answers live</span>
+        </div>
+        <div class="subject-tabs board-subject-tabs" id="boardSubjectTabs" aria-label="Choose Class 11 board subject">
+          <button type="button" class="active" data-subject="botany">🌿 Botany</button>
+          <button type="button" data-subject="zoology">🦋 Zoology</button>
         </div>
         <div class="botany-hero">
-          <div><span>14</span><small>complete chapters</small></div>
-          <div><span>210</span><small>2-mark VSAQs</small></div>
-          <div><span>140</span><small>4-mark SAQs</small></div>
-          <div><span>70</span><small>8-mark LAQs</small></div>
+          <div><span id="boardChapterTotal">14</span><small>complete chapters</small></div>
+          <div><span id="boardVsaqTotal">210</span><small>2-mark VSAQs</small></div>
+          <div><span id="boardSaqTotal">140</span><small>4-mark SAQs</small></div>
+          <div><span id="boardLaqTotal">70</span><small>8-mark LAQs</small></div>
         </div>
         <div class="board-pattern" id="botanyPattern"></div>
         <div class="botany-explorer">
           <aside class="botany-chapters">
-            <label class="field">Find a chapter<input id="botanySearch" type="search" placeholder="Search 14 chapters…"></label>
-            <nav id="botanyChapterList" aria-label="Botany chapters"></nav>
+            <label class="field">Find a chapter<input id="botanySearch" type="search" placeholder="Search chapters…"></label>
+            <nav id="botanyChapterList" aria-label="Board subject chapters"></nav>
           </aside>
           <div class="botany-main">
             <div class="botany-title-row">
