@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v21-class11-portal-routing";
+const CACHE = "scrutiny-academy-v22-class11-board-isolation";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
