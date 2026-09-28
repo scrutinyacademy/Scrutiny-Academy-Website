@@ -23,7 +23,7 @@
       platform: null,
       manifest: null,
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
-      class11: { subject: new URLSearchParams(location.search).get("subject") === "zoology" ? "zoology" : "botany", chapter: 0, format: "vsaq", data: null, search: "" },
+      class11: { subject: ["botany", "zoology", "physics"].includes(new URLSearchParams(location.search).get("subject")) ? new URLSearchParams(location.search).get("subject") : "botany", chapter: 0, format: "vsaq", data: null, search: "" },
       neet: { subject: "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
       flashcards: {
@@ -339,6 +339,7 @@
       .find((s) => s.id === state.class11.subject);
     if (!subject) return;
     state.class11.data = await load(subject.file);
+    $("class11").dataset.boardSubject = state.class11.subject;
     const chapters = state.class11.data.chapters || [];
     const totals = chapters.reduce((sum,chapter) => ({
       vsaq:sum.vsaq+(chapter.vsaq||[]).length,
@@ -389,7 +390,7 @@
       (chapter.topics || []).some((topic) => topic.toLowerCase().includes(state.class11.search))
     );
     $("botanyChapterList").innerHTML = visible.length ? visible.map(({chapter,index}) =>
-      `<button type="button" data-index="${index}" class="${index === state.class11.chapter ? "active" : ""}"><span>${String(chapter.number).padStart(2,"0")}</span><b>${esc(chapter.name)}</b><small>30 answers</small></button>`
+      `<button type="button" data-index="${index}" class="${index === state.class11.chapter ? "active" : ""}"><span>${String(chapter.number).padStart(2,"0")}</span><b>${esc(chapter.name)}</b><small>${(chapter.vsaq||[]).length+(chapter.saq||[]).length+(chapter.laq||[]).length} answers</small></button>`
     ).join("") : '<div class="empty-state">No chapter matches that search.</div>';
     $("botanyChapterList").querySelectorAll("button").forEach((button) => {
       button.onclick = () => {

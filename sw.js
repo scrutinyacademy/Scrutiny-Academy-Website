@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v23-class11-zoology-bank";
+const CACHE = "scrutiny-academy-v24-class11-physics-bank";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -32,6 +32,7 @@ const APP_SHELL = [
   "./data/manifest.json",
   "./data/platform.json",
   "./data/class11/zoology.json",
+  "./data/class11/physics.json",
   "./assets/zoology/body-plans.svg",
   "./assets/zoology/invertebrate-phyla.svg",
   "./assets/zoology/chordate-classes.svg",
@@ -39,6 +40,18 @@ const APP_SHELL = [
   "./assets/zoology/plasmodium-cycle.svg",
   "./assets/zoology/cockroach-systems.svg",
   "./assets/zoology/ecosystem-flow.svg",
+  "./assets/physics-board/straight-line-graphs.svg",
+  "./assets/physics-board/projectile-vectors.svg",
+  "./assets/physics-board/friction-incline.svg",
+  "./assets/physics-board/work-energy.svg",
+  "./assets/physics-board/rotational-motion.svg",
+  "./assets/physics-board/shm-energy.svg",
+  "./assets/physics-board/orbit-escape.svg",
+  "./assets/physics-board/stress-strain.svg",
+  "./assets/physics-board/bernoulli-capillary.svg",
+  "./assets/physics-board/heat-transfer.svg",
+  "./assets/physics-board/heat-engine.svg",
+  "./assets/physics-board/emerging-tech.svg",
   "./data/neet/class11-physics-bank.js",
   "./data/neet/class11-chemistry-bank.js",
 ];

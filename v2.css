@@ -402,6 +402,16 @@ select {
 .board-subject-tabs { display:flex; gap:10px; width:max-content; max-width:100%; margin:0 0 14px; padding:6px; border:1px solid #d5e4df; border-radius:16px; background:#fff; box-shadow:0 10px 30px rgba(16,42,86,.07); }
 .board-subject-tabs button { min-width:150px; padding:11px 18px; border:0; border-radius:11px; color:#35506c; background:transparent; font-weight:900; cursor:pointer; }
 .board-subject-tabs button.active { color:#fff; background:linear-gradient(135deg,#08765d,#149a78); box-shadow:0 8px 20px rgba(8,118,93,.22); }
+#class11[data-board-subject="physics"] .board-subject-tabs button.active { background:linear-gradient(135deg,#0b4ea2,#1787e7); box-shadow:0 8px 20px rgba(11,78,162,.24); }
+#class11[data-board-subject="physics"] .botany-hero { background:linear-gradient(135deg,#0a326b,#1267bd 58%,#28a4e5); }
+#class11[data-board-subject="physics"] .botany-chapters { background:linear-gradient(#f3f8ff,#eaf3ff); border-color:#ccdeef; }
+#class11[data-board-subject="physics"] .botany-chapters nav button > span { color:#0b5dab; background:#dcecff; }
+#class11[data-board-subject="physics"] .botany-chapters nav button:hover,
+#class11[data-board-subject="physics"] .botany-chapters nav button.active { border-color:#78ace0; box-shadow:0 8px 20px rgba(11,78,162,.1); }
+#class11[data-board-subject="physics"] .botany-tabs button.active { background:#0b67bd; box-shadow:0 6px 16px rgba(11,78,162,.22); }
+#class11[data-board-subject="physics"] .botany-count { color:#0b5dab; background:#e5f1ff; }
+#class11[data-board-subject="physics"] .botany-question[open] { border-color:#72a9dc; box-shadow:0 12px 30px rgba(11,78,162,.1); }
+#class11[data-board-subject="physics"] .botany-question summary i { color:#0b67bd; }
 .botany-hero div { display: grid; padding: 8px 16px; border-right: 1px solid rgba(255,255,255,.18); }
 .botany-hero div:last-child { border-right: 0; }
 .botany-hero span { font-size: clamp(1.65rem,3vw,2.55rem); font-weight: 900; letter-spacing: -.04em; }
@@ -1459,7 +1469,7 @@ select {
   .botany-title-row { display:grid; }
   .botany-count { width:max-content; }
   .botany-tabs { display:grid; grid-template-columns:repeat(3,1fr); }
-  .board-subject-tabs { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); width:100%; }
+  .board-subject-tabs { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:100%; }
   .board-subject-tabs button { min-width:0; padding:10px 8px; }
   .botany-tabs button { padding:8px 4px; }
   .botany-answer { padding:0 15px 16px; }
