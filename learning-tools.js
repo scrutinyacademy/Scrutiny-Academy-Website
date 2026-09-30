@@ -98,6 +98,7 @@ function captureMistakes(session) {
       firstMissedAt: previous?.firstMissedAt || now,
       lastMissedAt: now,
       nextReviewAt: now,
+      reviewCount: previous?.mastered ? 0 : (previous?.reviewCount || 0),
       mastered: false,
     });
   }
@@ -242,9 +243,13 @@ function markRevised(id) {
   const tools = getTools();
   const item = tools.mistakes.find((entry) => stableId(entry) === id);
   if (!item) return;
-  item.mastered = true;
+  const intervals = [1, 3, 7, 21];
+  item.reviewCount = Math.min((item.reviewCount || 0) + 1, intervals.length);
   item.revisedAt = Date.now();
-  item.nextReviewAt = Date.now() + 7 * 86400000;
+  item.mastered = item.reviewCount >= intervals.length;
+  item.nextReviewAt = item.mastered
+    ? null
+    : Date.now() + intervals[item.reviewCount - 1] * 86400000;
   saveTools(tools);
 }
 

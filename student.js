@@ -70,6 +70,13 @@ function renderCourseDashboard() {
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor, subject]) => `<a class="card big-link" href="${portalUrl(anchor, subject)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
   $("class10LectureEntry").hidden = activeCourse !== "class10";
   document.querySelectorAll("button[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
+  document.documentElement.dataset.course = activeCourse;
+  window.__scrutinyStudentContext = {
+    activeCourse,
+    availableCourses: [...availableCourses],
+    profile: { name: studentProfile.name || "Student", neetExamYear: studentProfile.neetExamYear || null },
+  };
+  window.dispatchEvent(new CustomEvent("scrutiny:dashboard-context", { detail: window.__scrutinyStudentContext }));
 }
 
 function renderCourseSwitchMenu() {
@@ -228,6 +235,7 @@ function localStreak(sessions) {
 
 function renderSummary(data = {}) {
   window.__scrutinyProgress = data;
+  window.dispatchEvent(new CustomEvent("scrutiny:dashboard-progress", { detail: data }));
   const local = localProgress();
   const allSessions = data.sessions?.length ? data.sessions : local.sessions || [];
   const sessions = allSessions.filter((session) => inferCourse(session) === activeCourse);

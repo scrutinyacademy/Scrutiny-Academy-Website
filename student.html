@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="auth.css" />
+    <link rel="stylesheet" href="student-success.css" />
   </head>
   <body>
     <main class="student-shell">
@@ -53,6 +54,82 @@
         </article>
         <article class="card metric-card">
           <strong id="dashRevision">0</strong><span>Questions to revise</span>
+        </article>
+      </section>
+      <section class="success-command" id="successCommand" aria-labelledby="successTitle">
+        <article class="success-hero">
+          <div class="success-hero-copy">
+            <span class="success-kicker"><i aria-hidden="true"></i><span id="successDate">TODAY</span> · PERSONALISED FOR YOU</span>
+            <h2 id="successTitle">Your smartest study day starts here.</h2>
+            <p id="successGoalText">Complete today’s focused tasks to move closer to your target.</p>
+            <div class="success-actions">
+              <a class="success-primary" id="startTodayPlan" href="preview-v2.html">START TODAY’S PLAN</a>
+              <button class="success-secondary" id="editStudyProfile" type="button">EDIT MY GOAL</button>
+            </div>
+            <div class="success-mini-stats">
+              <span><strong id="successTarget">—</strong><small>Target score</small></span>
+              <span><strong id="successMinutes">—</strong><small>Daily minutes</small></span>
+              <span><strong id="successLanguage">—</strong><small>Study language</small></span>
+            </div>
+          </div>
+          <div class="readiness-wrap" aria-label="Exam readiness">
+            <div class="readiness-ring" id="readinessRing" style="--readiness:0"><span><strong id="readinessScore">0%</strong><small>READINESS</small></span></div>
+            <p id="readinessMessage">Complete your study profile and first practice session.</p>
+          </div>
+        </article>
+
+        <div class="success-layout">
+          <article class="success-card today-card">
+            <header class="success-card-head"><div><span class="success-label">YOUR DAILY ROADMAP</span><h2>Today’s Plan</h2></div><span class="plan-progress" id="planProgress">0/3 complete</span></header>
+            <div class="today-progress" aria-hidden="true"><span id="todayProgressBar"></span></div>
+            <div class="today-task-list" id="todayTaskList"></div>
+            <p class="success-note" id="planNote">Your plan adapts to recent performance and pending revision.</p>
+          </article>
+
+          <article class="success-card insight-card">
+            <span class="success-label">SMART RECOMMENDATION</span>
+            <div class="insight-icon" aria-hidden="true">✦</div>
+            <h2 id="smartInsightTitle">Start with a baseline session</h2>
+            <p id="smartInsightText">Your first practice session will help identify strong and weak chapters.</p>
+            <a id="smartInsightLink" href="preview-v2.html">OPEN RECOMMENDED ACTIVITY</a>
+            <div class="insight-reason"><strong>WHY THIS?</strong><span id="smartInsightReason">Recommendations become more accurate as you practise.</span></div>
+          </article>
+        </div>
+
+        <article class="success-card mastery-card">
+          <header class="success-card-head"><div><span class="success-label">CHAPTER INTELLIGENCE</span><h2>Your Mastery Map</h2><p>Calculated from your attempts, accuracy and revision history.</p></div><div class="mastery-legend"><span><i class="mastered"></i>Mastered</span><span><i class="improving"></i>Improving</span><span><i class="focus"></i>Needs focus</span></div></header>
+          <div class="mastery-grid" id="masteryGrid"></div>
+        </article>
+
+        <div class="success-layout lower-layout">
+          <article class="success-card revision-card">
+            <header class="success-card-head"><div><span class="success-label">SPACED REVISION</span><h2>Revision Radar</h2></div><a id="openRevisionRadar" href="preview-v2.html#tools">OPEN NOTEBOOK</a></header>
+            <div class="revision-summary">
+              <span class="revision-big"><strong id="revisionDueNow">0</strong><small>Due now</small></span>
+              <span><strong id="revisionUpcoming">0</strong><small>Upcoming</small></span>
+              <span><strong id="revisionMastered">0</strong><small>Revised</small></span>
+            </div>
+            <div class="revision-preview" id="revisionPreview"></div>
+          </article>
+
+          <article class="success-card weekly-card">
+            <span class="success-label">WEEKLY MOMENTUM</span>
+            <h2>Your consistency</h2>
+            <div class="week-strip" id="weekStrip" aria-label="Study activity during the last seven days"></div>
+            <p id="weeklySummary">Complete a session today to begin your learning streak.</p>
+            <button type="button" id="shareWeeklyReport">SHARE MY WEEKLY REPORT</button>
+          </article>
+        </div>
+
+        <article class="success-card comfort-card">
+          <div><span class="success-label">STUDY COMFORT</span><h2>Make learning comfortable for you</h2><p>Your preferences stay on this device.</p></div>
+          <div class="comfort-controls" aria-label="Reading and accessibility controls">
+            <button type="button" id="fontDecrease" aria-label="Decrease text size">A−</button>
+            <button type="button" id="fontIncrease" aria-label="Increase text size">A+</button>
+            <button type="button" id="toggleContrast" aria-pressed="false">◐ HIGH CONTRAST</button>
+            <button type="button" id="readTodayPlan">🔊 READ MY PLAN</button>
+            <span class="connection-status" id="connectionStatus"><i></i>Online</span>
+          </div>
         </article>
       </section>
       <section class="card" id="class10LectureEntry" style="margin-bottom:16px" hidden><span class="eyebrow">CLASS 10 SSC</span><h2>Video lectures by subject</h2><p>Hindi · Telugu · Physics · Social Studies · English · Biology</p><a class="primary dashboard-button" href="class10-lectures.html">OPEN LECTURES →</a></section>
@@ -132,12 +209,27 @@
         </p>
       </section>
     </main>
+    <dialog class="study-profile-dialog" id="studyProfileDialog" aria-labelledby="studyProfileTitle">
+      <form method="dialog" id="studyProfileForm">
+        <header><div><span class="success-label">PERSONALISE SCRUTINY ACADEMY</span><h2 id="studyProfileTitle">Build my study plan</h2><p>Tell us your goal once. You can change it anytime.</p></div><button type="button" id="closeStudyProfile" aria-label="Close study profile">×</button></header>
+        <div class="study-profile-grid">
+          <label>Target score<input id="profileTarget" type="number" min="1" max="720" inputmode="numeric" required /></label>
+          <label>Daily study time<select id="profileMinutes" required><option value="30">30 minutes</option><option value="60">1 hour</option><option value="90">1.5 hours</option><option value="120">2 hours</option><option value="180">3 hours</option></select></label>
+          <label>Preferred language<select id="profileLanguage" required><option>English</option><option>Hinglish</option><option>Hindi</option><option>Telugu</option></select></label>
+          <label>Best study time<select id="profileStudyTime" required><option value="morning">Morning</option><option value="afternoon">Afternoon</option><option value="evening">Evening</option><option value="night">Night</option></select></label>
+          <label class="profile-wide">Current confidence<select id="profileConfidence" required><option value="beginner">I need to strengthen my basics</option><option value="developing">I understand concepts but need practice</option><option value="confident">I am confident and want exam-level tests</option></select></label>
+        </div>
+        <div class="profile-promise"><span aria-hidden="true">🔒</span><p><strong>Private by design.</strong> These preferences are used only to personalise your plan on this device.</p></div>
+        <button class="success-primary profile-save" type="submit">CREATE MY PERSONALISED PLAN</button>
+      </form>
+    </dialog>
     <footer>
       © 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED ·
       <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> ·
       <a href="refund-policy.html">Refund policy</a>
     </footer>
     <script type="module" src="student.js"></script>
+    <script src="student-success.js" defer></script>
     <script src="help-bot.js" defer></script>
 </body>
 </html>

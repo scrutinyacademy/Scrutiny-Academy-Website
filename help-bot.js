@@ -31,6 +31,7 @@
     { id: "price", keys: ["price", "fees", "cost", "how much", "₹", "rupees", "validity"], answer: () => `Current plans: Class 10 SSC ₹99, Class 11 ₹149, Class 12 ₹149 and MBBS ₹799 lifetime. ${neetPriceAnswer()} Each plan is a one-time payment for that course.` },
     { id: "content", keys: ["content", "study material", "notes", "revision sheet", "flashcard", "question", "lecture", "syllabus"], answer: "Open your Student Dashboard and select your active course. Available chapters and tools appear inside the course portal. Free SA-1 resources can be opened directly from the home page without payment." },
     { id: "progress", keys: ["progress", "score", "mistake", "bookmark", "incorrect", "result"], answer: "Your supported practice progress, bookmarked questions, scores and mistakes are stored in the Student Dashboard. Sign in with the same registered account and device/browser storage should not be cleared unnecessarily." },
+    { id: "success", keys: ["today plan", "daily plan", "study plan", "mastery", "readiness", "revision radar", "target score", "weekly report"], answer: "Open your Student Dashboard to use Today’s Plan, Exam Readiness, Chapter Mastery Map, Revision Radar and Weekly Report. First set your target score, daily study time and preferred language; your plan then adapts using your real practice and mistake data." },
     { id: "browser", keys: ["technical", "error", "blank", "loading", "button", "not working", "mobile", "android", "iphone", "browser", "page"], answer: "First refresh the page, check your internet connection and reopen the site in the latest Chrome or Safari. If the issue continues, sign out and sign in again. When contacting support, include the page name and a screenshot of the error." },
     { id: "refund", keys: ["refund", "cancel", "cancellation", "return money"], answer: "Refund eligibility follows the Refund Policy linked in the website footer. For a payment-specific review, contact support with your registered email and Razorpay payment ID." },
     { id: "contact", keys: ["contact", "support", "human", "talk", "whatsapp", "help desk", "founder"], answer: "You can contact the Scrutiny Academy Help Desk on WhatsApp. Please share your registered email, selected course, a short description of the issue and payment ID only when relevant." },
@@ -113,7 +114,7 @@
     messages.appendChild(home);
     scrollToLatest();
   };
-  const mainOptions = [["Account & Login", "account"], ["Email Verification", "email"], ["Payment Issue", "payment"], ["Course Access", "course"], ["Study Material", "studies"], ["Technical Issue", "technical"], ["Talk to Help Desk", "contact"]];
+  const mainOptions = [["My Study Plan", "success"], ["Account & Login", "account"], ["Email Verification", "email"], ["Payment Issue", "payment"], ["Course Access", "course"], ["Study Material", "studies"], ["Technical Issue", "technical"], ["Talk to Help Desk", "contact"]];
   function showMainChoices() {
     addMessage("What kind of issue are you facing? Choose an option or type your question below.");
     addOptions(mainOptions);
