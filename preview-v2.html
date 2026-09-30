@@ -276,6 +276,10 @@
             <p id="rankerAvailability">214 answer-key verified Biology MCQs available.</p>
           </div>
         </div>
+        <div class="ranker-dna-dashboard" id="rankerDnaDashboard">
+          <div><span class="eyebrow">SCRUTINY EXAM TWIN</span><h3>Your Mistake DNA</h3><p>Complete a Ranker session to discover whether marks are being lost through knowledge gaps, fragile knowledge or dangerous misconceptions.</p></div>
+          <div class="ranker-dna-empty" id="rankerDnaSummary">Your personalised diagnostic will appear here.</div>
+        </div>
       </section>
       <section class="section flashcards-section" id="flashcards">
         <div class="section-head inline">
@@ -576,6 +580,7 @@
           <span id="quizChapter" class="eyebrow"></span>
           <h2 id="quizQuestion">Question loading…</h2>
           <div id="quizVisual" class="quiz-visual" hidden></div>
+          <div id="quizConfidence" class="confidence-check" hidden></div>
           <div id="quizOptions" class="options"></div>
           <div id="quizExplanation" class="explanation" hidden></div>
           <div class="question-tools">
@@ -604,6 +609,7 @@
         <div class="result-stats">
           <span id="resultAttempted"></span><span id="resultTime"></span>
         </div>
+        <div id="resultDna" class="result-dna" hidden></div>
         <div class="result-actions">
           <button type="button" class="btn primary" id="reviewAnswers">
             Review answers

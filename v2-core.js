@@ -226,6 +226,7 @@
   async function renderRanker() {
     state.ranker.data = await load(repo.rankerBiology);
     updateRankerAvailability();
+    renderRankerDna();
   }
   function rankerQuestions() {
     const selected = $("rankerSet")?.value || "all";
@@ -239,6 +240,26 @@
     const questions = rankerQuestions();
     const set = state.ranker.data.sets?.find((item) => item.id === $("rankerSet").value);
     $("rankerAvailability").textContent = `${questions.length} answer-key verified Biology MCQ${questions.length === 1 ? "" : "s"} available${set ? ` in ${set.name}` : " across all three sets"}.`;
+  }
+  function getRankerDna() {
+    try { return JSON.parse(localStorage.getItem("scrutiny_ranker_dna") || '{"sessions":[]}'); }
+    catch { return { sessions: [] }; }
+  }
+  function saveRankerDna(result) {
+    const stored = getRankerDna();
+    stored.sessions = [{ completedAt: result.completedAt, title: result.title, ...result.mistakeDNA }, ...(stored.sessions || [])].slice(0, 20);
+    localStorage.setItem("scrutiny_ranker_dna", JSON.stringify(stored));
+    renderRankerDna();
+  }
+  function renderRankerDna() {
+    const host = $("rankerDnaSummary");
+    if (!host) return;
+    const sessions = getRankerDna().sessions || [];
+    if (!sessions.length) { host.className = "ranker-dna-empty"; host.textContent = "Your personalised diagnostic will appear here."; return; }
+    const latest = sessions[0];
+    const totalRecovered = sessions.reduce((sum, item) => sum + (item.recoverableMarks || 0), 0);
+    host.className = "ranker-dna-summary";
+    host.innerHTML = `<div><span>LATEST DIAGNOSTIC</span><strong>${latest.recoverableMarks || 0}</strong><small>marks recoverable</small></div><div><span>YOUR CURRENT PATTERN</span><p><b>${latest.dangerous || 0}</b> dangerous misconceptions · <b>${latest.gaps || 0}</b> knowledge gaps · <b>${latest.fragile || 0}</b> fragile answers</p><small>${totalRecovered} total recoverable marks identified across ${sessions.length} session${sessions.length === 1 ? "" : "s"}.</small></div>`;
   }
   function startRanker() {
     const questions = rankerQuestions();
@@ -839,6 +860,8 @@
       questions: shuffle(usable).slice(0, Math.min(count, usable.length)),
       index: 0,
       answers: {},
+      confidence: {},
+      reasons: {},
       started: Date.now(),
     };
     $("quizTitle").textContent = title;
@@ -937,8 +960,29 @@
     const steps = (q.solutionSteps || [q.explanation || "Apply the stated NCERT principle."]).map((step, index) => `<li><strong>Step ${index + 1}</strong> ${esc(step)}</li>`).join("");
     return `<div class="answer-feedback ${chosen === correctIndex ? "is-correct" : "is-wrong"}"><strong>${chosen === correctIndex ? "Correct" : "Incorrect"}</strong><span>Correct answer: ${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span></div><details class="detailed-solution"><summary>View detailed solution</summary><div class="solution-grid"><p><strong>Concept</strong>${esc(q.conceptTested || q.topic || "NCERT concept")}</p><p><strong>Formula</strong>${esc(q.formulaUsed || "Not required")}</p></div><ol>${steps}</ol><p><strong>Why students get this wrong</strong>${esc(q.commonTrap || "A related formula or sign is applied without checking the conditions.")}</p><p><strong>NEET shortcut</strong>${esc(q.neetShortcut || "Write the governing relation and check units before selecting an option.")}</p><p class="solution-reference"><strong>NCERT link</strong>${esc(q.ncertSection || q.references?.[0]?.section || "Mapped to uploaded chapter")}</p></details>`;
   }
-  function rankerAnswer(q, correctIndex) {
-    return `<div class="answer-feedback is-correct ranker-answer-only"><strong>Correct answer</strong><span>${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span></div>`;
+  const confidenceLabels = { sure: "100% sure", two: "Confused between two", educated: "Educated guess", random: "Random guess" };
+  const reasonLabels = { concept: "Concept confusion", ncert: "NCERT fact", misread: "Misread question", trap: "Option trap", calculation: "Calculation", time: "Time pressure" };
+  function mistakeClass(isCorrect, confidence) {
+    if (isCorrect && confidence === "sure") return "mastered";
+    if (isCorrect) return "fragile";
+    if (confidence === "sure") return "dangerous";
+    return "gap";
+  }
+  function renderConfidence(q, chosen) {
+    const host = $("quizConfidence");
+    if (!q.rankerSet) { host.hidden = true; host.innerHTML = ""; return; }
+    const selected = state.quiz.confidence[state.quiz.index];
+    host.hidden = false;
+    host.innerHTML = `<div><strong>How confident are you?</strong><span>Your confidence reveals hidden exam risk.</span></div><div class="confidence-options">${Object.entries(confidenceLabels).map(([value, label]) => `<button type="button" data-confidence="${value}" class="${selected === value ? "active" : ""}" ${chosen !== undefined ? "disabled" : ""}>${esc(label)}</button>`).join("")}</div>`;
+    host.querySelectorAll("[data-confidence]").forEach((button) => button.onclick = () => { state.quiz.confidence[state.quiz.index] = button.dataset.confidence; renderQuiz(); });
+  }
+  function rankerAnswer(q, correctIndex, chosen) {
+    const isCorrect = chosen === correctIndex;
+    const classification = mistakeClass(isCorrect, state.quiz.confidence[state.quiz.index]);
+    const labels = { mastered: "Truly mastered", fragile: "Fragile knowledge", dangerous: "Dangerous misconception", gap: "Knowledge gap" };
+    const reason = state.quiz.reasons[state.quiz.index];
+    const reasonPicker = isCorrect ? "" : `<div class="mistake-reason"><strong>What caused this mistake?</strong><div>${Object.entries(reasonLabels).map(([value, label]) => `<button type="button" data-mistake-reason="${value}" class="${reason === value ? "active" : ""}">${esc(label)}</button>`).join("")}</div></div>`;
+    return `<div class="answer-feedback is-correct ranker-answer-only"><strong>Correct answer</strong><span>${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span><b class="dna-class ${classification}">${labels[classification]}</b></div>${reasonPicker}`;
   }
   function renderQuiz() {
     const z = state.quiz,
@@ -949,6 +993,7 @@
       `${q.__subject ? `${q.__subject} • ` : ""}${q.__chapter || ""}${q.subtopic ? ` • ${q.subtopic}` : ""}${difficulty(q) ? ` • ${difficulty(q)}` : ""}${q.questionType ? ` • ${q.questionType}` : ""}`;
     $("quizQuestion").textContent = q.question;
     renderQuestionVisual(q);
+    renderConfidence(q, chosen);
     $("quizPosition").textContent = `${z.index + 1} / ${z.questions.length}`;
     $("quizProgress").style.width =
       `${((z.index + 1) / z.questions.length) * 100}%`;
@@ -958,7 +1003,7 @@
     $("quizOptions").innerHTML = q.options
       .map(
         (o, i) =>
-          `<button class="option ${chosen === i ? "selected" : ""} ${z.mode === "practice" && chosen !== undefined ? (i === ans ? "correct" : i === chosen ? "incorrect" : "") : ""}" data-i="${i}">${String.fromCharCode(65 + i)}. ${esc(o)}</button>`,
+          `<button class="option ${chosen === i ? "selected" : ""} ${z.mode === "practice" && chosen !== undefined ? (i === ans ? "correct" : i === chosen ? "incorrect" : "") : ""}" data-i="${i}" ${q.rankerSet && !z.confidence[z.index] ? "disabled" : ""}>${String.fromCharCode(65 + i)}. ${esc(o)}</button>`,
       )
       .join("");
     $("quizOptions")
@@ -968,6 +1013,7 @@
           (b.onclick = () => {
             if (z.mode === "practice" && z.answers[z.index] !== undefined)
               return;
+            if (q.rankerSet && !z.confidence[z.index]) return toast("Choose your confidence first.");
             z.answers[z.index] = +b.dataset.i;
             renderQuiz();
           }),
@@ -977,8 +1023,9 @@
     );
     if (!$("quizExplanation").hidden)
       $("quizExplanation").innerHTML = q.rankerSet
-        ? rankerAnswer(q, ans)
+        ? rankerAnswer(q, ans, chosen)
         : detailedSolution(q, chosen, ans);
+    $("quizExplanation").querySelectorAll?.("[data-mistake-reason]").forEach((button) => button.onclick = () => { z.reasons[z.index] = button.dataset.mistakeReason; renderQuiz(); });
     const bookmarks = getQuestionMarks(questionMarkKey("bookmarks", q));
     const reports = getQuestionMarks(questionMarkKey("reports", q));
     $("quizBookmark").textContent = bookmarks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
@@ -1027,6 +1074,9 @@
         difficulty: difficulty(q),
         courseId: activeCourseId(),
         reference: q.reference || q.ncertReference || q.source || null,
+        confidence: z.confidence[i] || "",
+        mistakeReason: z.reasons[i] || "",
+        mistakeClass: q.rankerSet && selected !== undefined ? mistakeClass(isCorrect, z.confidence[i]) : "",
       };
     });
     const seconds = Math.floor((Date.now() - z.started) / 1000),
@@ -1043,6 +1093,17 @@
         courseId: activeCourseId(),
         review,
       };
+    const rankerReview = review.filter((item) => item.mistakeClass);
+    if (rankerReview.length) {
+      r.mistakeDNA = {
+        mastered: rankerReview.filter((item) => item.mistakeClass === "mastered").length,
+        fragile: rankerReview.filter((item) => item.mistakeClass === "fragile").length,
+        dangerous: rankerReview.filter((item) => item.mistakeClass === "dangerous").length,
+        gaps: rankerReview.filter((item) => item.mistakeClass === "gap").length,
+        recoverableMarks: rankerReview.filter((item) => !item.isCorrect).length * 5,
+      };
+      saveRankerDna(r);
+    }
     saveSession(r);
     state.lastResult = r;
     window.dispatchEvent(
@@ -1058,6 +1119,11 @@
     $("resultAccuracy").textContent = `${r.accuracy}% accuracy`;
     $("resultAttempted").textContent = `Attempted: ${r.attempted}/${r.total} • Incorrect: ${r.attempted - r.correct} • Unattempted: ${r.total - r.attempted}`;
     $("resultTime").textContent = `Time: ${formatTime(r.seconds)}`;
+    $("resultDna").hidden = !r.mistakeDNA;
+    if (r.mistakeDNA) {
+      const d = r.mistakeDNA;
+      $("resultDna").innerHTML = `<span class="eyebrow">SCRUTINY EXAM TWIN · MISTAKE DNA</span><h3>${d.recoverableMarks} marks recoverable</h3><p>Your answers and confidence reveal the real source of exam risk.</p><div><span><b>${d.mastered}</b>Truly mastered</span><span><b>${d.fragile}</b>Fragile knowledge</span><span><b>${d.dangerous}</b>Dangerous misconceptions</span><span><b>${d.gaps}</b>Knowledge gaps</span></div>`;
+    }
     $("resultDialog").showModal();
   }
   function retryWrongQuestions() {
