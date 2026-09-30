@@ -91,6 +91,9 @@ def main(source):
                 # Group titles are navigation, not part of the previous chapter.
                 if not (col == 0 and pno in group_start_pages and start < 110):
                     fragment(447.0 if code == "1.1" else start)
+                # Normalize ligatures emitted by the PDF text layer so chapter
+                # labels and deep-link IDs remain readable and searchable.
+                title = title.translate(str.maketrans({"ﬀ": "ff", "ﬁ": "fi", "ﬂ": "fl", "ﬃ": "ffi", "ﬄ": "ffl"}))
                 slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
                 if code == "4.4":
                     title, slug = "Thermodynamic Processes", "thermodynamic-processes"
