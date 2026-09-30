@@ -24,7 +24,7 @@
       manifest: null,
       class10: { subject: "biology", chapter: 0, format: "mcqs", data: null },
       class11: { subject: ["botany", "zoology", "physics", "chemistry"].includes(new URLSearchParams(location.search).get("subject")) ? new URLSearchParams(location.search).get("subject") : "botany", chapter: 0, format: "vsaq", data: null, search: "" },
-      neet: { subject: "biology", data: null, chapter: null, subtopicFilter: "all" },
+      neet: { subject: ["biology", "physics", "chemistry"].includes(new URLSearchParams(location.search).get("subject")) ? new URLSearchParams(location.search).get("subject") : "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
       flashcards: {
         catalog: null,
@@ -463,6 +463,7 @@
     $("neetSubject").innerHTML = (cat.subjects || [])
       .map((s) => `<option value="${s.id}">${esc(s.name)}</option>`)
       .join("");
+    $("neetSubject").value = state.neet.subject;
     await renderNeetAvailability();
     renderNeetChapters();
   }

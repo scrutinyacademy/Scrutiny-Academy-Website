@@ -18,16 +18,18 @@
     class10: { label: "Class 10 SSC", target: 95, max: 100, subjects: ["Mathematics", "Physical Science", "Biology", "Social Studies"], anchor: "class10" },
     class11: { label: "Class 11 Boards", target: 95, max: 100, subjects: ["Botany", "Zoology", "Physics", "Chemistry"], anchor: "class11" },
     class12: { label: "Class 12 Boards", target: 95, max: 100, subjects: ["Botany", "Zoology", "Physics", "Chemistry"], anchor: "class12" },
-    neet: { label: "NEET-UG", target: 650, max: 720, subjects: ["Physics", "Chemistry", "Botany", "Zoology"], anchor: "neet" },
+    neet: { label: "NEET-UG", target: 650, max: 720, subjects: ["Biology", "Physics", "Chemistry"], anchor: "neet" },
     mbbs: { label: "MBBS", target: 70, max: 100, subjects: ["Anatomy", "Physiology", "Biochemistry", "Pathology"], anchor: "mbbs" },
   };
 
   let context = window.__scrutinyStudentContext || null;
   let cloudProgress = window.__scrutinyProgress || {};
-  let activeCourse = context?.activeCourse || localStorage.getItem("scrutiny_active_course") || "neet";
+  let activeCourse = "neet";
 
   const courseInfo = () => courses[activeCourse] || courses.neet;
-  const portalUrl = (anchor = courseInfo().anchor) => `preview-v2.html?course=${encodeURIComponent(activeCourse)}#${anchor}`;
+  const portalUrl = (anchor = courseInfo().anchor, subject = "") => `preview-v2.html?course=${encodeURIComponent(activeCourse)}${subject ? `&subject=${encodeURIComponent(subject)}` : ""}#${anchor}`;
+  const practiceUrl = () => activeCourse === "neet" ? portalUrl("neet", "biology") : portalUrl(courseInfo().anchor);
+  const subjectLabel = (subject) => activeCourse === "neet" && /^(botany|zoology)$/i.test(String(subject || "")) ? "Biology" : subject;
   const localProgress = () => read(PROGRESS_KEY, { sessions: [] });
   const tools = () => read(TOOLS_KEY, { mistakes: [], bookmarks: [] });
   const sessions = () => {
@@ -48,7 +50,13 @@
 
   function setContext(detail = {}) {
     context = detail;
-    activeCourse = detail.activeCourse || localStorage.getItem("scrutiny_active_course") || "neet";
+    const available = Array.isArray(detail.availableCourses) ? detail.availableCourses : [];
+    // The personalised success plan is NEET-first whenever the student owns NEET.
+    // This prevents an old Class 11 dashboard selection from sending NEET students
+    // to board-answer content. Board-only students continue to use their own course.
+    activeCourse = available.includes("neet")
+      ? "neet"
+      : detail.activeCourse || localStorage.getItem("scrutiny_active_course") || "neet";
     document.documentElement.dataset.successCourse = activeCourse;
     render();
     if (!profile() && !$('studyProfileDialog')?.open) setTimeout(openProfile, 450);
@@ -63,7 +71,7 @@
     for (const session of courseSessions()) {
       for (const item of session.review || []) {
         if (item.selected === undefined) continue;
-        const topic = [item.subject, item.chapter].filter(Boolean).join(" · ") || session.title || "Mixed practice";
+        const topic = [subjectLabel(item.subject), item.chapter].filter(Boolean).join(" · ") || session.title || "Mixed practice";
         const row = map.get(topic) || { topic, attempted: 0, correct: 0, lastAt: session.completedAt || "" };
         row.attempted += 1;
         if (item.isCorrect) row.correct += 1;
@@ -94,9 +102,9 @@
         ? { id: "revision", title: `Revise ${Math.min(due.length, 10)} due mistake${due.length === 1 ? "" : "s"}`, meta: "Fix old errors before learning something new.", action: "REVISE", href: portalUrl("tools") }
         : { id: "revision", title: "Review one saved concept", meta: "Active recall keeps important ideas available in the exam.", action: "REVIEW", href: portalUrl("tools") },
       weakest
-        ? { id: "focus", title: `Strengthen ${weakest.topic}`, meta: `${weakest.accuracy}% accuracy from ${weakest.attempted} attempts · your current focus area.`, action: "PRACTISE", href: portalUrl(courseInfo().anchor) }
-        : { id: "focus", title: `Explore ${courseInfo().subjects[0]}`, meta: "Start a baseline activity so Scrutiny can measure your mastery.", action: "START", href: portalUrl(courseInfo().anchor) },
-      { id: "practice", title: `Complete a ${count}-question focus session`, meta: `Designed for your ${profile()?.minutes || 60}-minute daily study goal.`, action: "BEGIN", href: portalUrl(courseInfo().anchor) },
+        ? { id: "focus", title: `Strengthen ${weakest.topic}`, meta: `${weakest.accuracy}% accuracy from ${weakest.attempted} attempts · your current focus area.`, action: "PRACTISE", href: practiceUrl() }
+        : { id: "focus", title: `Explore ${courseInfo().subjects[0]}`, meta: "Start a baseline activity so Scrutiny can measure your mastery.", action: "START", href: practiceUrl() },
+      { id: "practice", title: `Complete a ${count}-question focus session`, meta: `Designed for your ${profile()?.minutes || 60}-minute daily study goal.`, action: "BEGIN", href: practiceUrl() },
     ];
   }
 
@@ -129,7 +137,7 @@
     $("readinessMessage").textContent = score.attempted
       ? `${score.accuracy}% accuracy across ${score.attempted} attempted questions.`
       : "Complete your first practice session to establish a baseline.";
-    $("startTodayPlan").href = buildTasks()[0].href;
+    $("startTodayPlan").href = buildTasks().find((task) => task.id === "practice")?.href || practiceUrl();
   }
 
   function renderPlan() {
@@ -166,13 +174,13 @@
       $("smartInsightText").textContent = `Current accuracy is ${weakest.accuracy}% across ${weakest.attempted} attempts.`;
       $("smartInsightReason").textContent = "This is the lowest measured mastery area in your recent detailed sessions.";
       $("smartInsightLink").textContent = "PRACTISE THIS AREA";
-      $("smartInsightLink").href = portalUrl(courseInfo().anchor);
+      $("smartInsightLink").href = practiceUrl();
     } else {
       $("smartInsightTitle").textContent = "Start with a baseline session";
       $("smartInsightText").textContent = `Complete your first ${courseInfo().label} practice session to reveal weak areas.`;
       $("smartInsightReason").textContent = "Recommendations become personal only after the platform observes real question attempts.";
       $("smartInsightLink").textContent = "START BASELINE PRACTICE";
-      $("smartInsightLink").href = portalUrl(courseInfo().anchor);
+      $("smartInsightLink").href = practiceUrl();
     }
   }
 
