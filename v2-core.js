@@ -937,6 +937,9 @@
     const steps = (q.solutionSteps || [q.explanation || "Apply the stated NCERT principle."]).map((step, index) => `<li><strong>Step ${index + 1}</strong> ${esc(step)}</li>`).join("");
     return `<div class="answer-feedback ${chosen === correctIndex ? "is-correct" : "is-wrong"}"><strong>${chosen === correctIndex ? "Correct" : "Incorrect"}</strong><span>Correct answer: ${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span></div><details class="detailed-solution"><summary>View detailed solution</summary><div class="solution-grid"><p><strong>Concept</strong>${esc(q.conceptTested || q.topic || "NCERT concept")}</p><p><strong>Formula</strong>${esc(q.formulaUsed || "Not required")}</p></div><ol>${steps}</ol><p><strong>Why students get this wrong</strong>${esc(q.commonTrap || "A related formula or sign is applied without checking the conditions.")}</p><p><strong>NEET shortcut</strong>${esc(q.neetShortcut || "Write the governing relation and check units before selecting an option.")}</p><p class="solution-reference"><strong>NCERT link</strong>${esc(q.ncertSection || q.references?.[0]?.section || "Mapped to uploaded chapter")}</p></details>`;
   }
+  function rankerAnswer(q, correctIndex) {
+    return `<div class="answer-feedback is-correct ranker-answer-only"><strong>Correct answer</strong><span>${String.fromCharCode(65 + correctIndex)}. ${esc(q.options[correctIndex])}</span></div>`;
+  }
   function renderQuiz() {
     const z = state.quiz,
       q = z.questions[z.index],
@@ -973,7 +976,9 @@
       z.mode === "practice" && chosen !== undefined
     );
     if (!$("quizExplanation").hidden)
-      $("quizExplanation").innerHTML = detailedSolution(q, chosen, ans);
+      $("quizExplanation").innerHTML = q.rankerSet
+        ? rankerAnswer(q, ans)
+        : detailedSolution(q, chosen, ans);
     const bookmarks = getQuestionMarks(questionMarkKey("bookmarks", q));
     const reports = getQuestionMarks(questionMarkKey("reports", q));
     $("quizBookmark").textContent = bookmarks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";

@@ -1,8 +1,9 @@
-const CACHE = "scrutiny-academy-v31-neet-ranker";
+const CACHE = "scrutiny-academy-v32-free-ranker";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
   "./preview-v2.html",
+  "./neet-ranker-free.html",
   "./auth.css",
   "./auth.js",
   "./student.js",
@@ -12,6 +13,8 @@ const APP_SHELL = [
   "./v2.css",
   "./v2.js",
   "./v2-core.js",
+  "./ranker-free.css",
+  "./ranker-free.js",
   "./ncert-booster.js",
   "./learning-tools.js",
   "./firebase-config.js",
