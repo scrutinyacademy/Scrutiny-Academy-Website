@@ -1,0 +1,944 @@
+{
+  "version": 1,
+  "source": {
+    "url": "assets/physics-formulas/source.pdf",
+    "filename": "source.pdf",
+    "title": "Physics Formulas for Class 11 and Class 12",
+    "author": "Jitender Singh",
+    "pageCount": 11,
+    "sha256": "2b4c9698ffc1bfb1b5eb60416a8adabca8f5698bc871069bd1ab0512424ad980",
+    "width": 595.4400024414062,
+    "height": 841.6799926757812
+  },
+  "chapters": [
+    {
+      "id": "physical-constants",
+      "code": "0.1",
+      "title": "Physical Constants",
+      "group": "Reference",
+      "topics": "Units and measurements, SI constants, electron, proton, Planck, Boltzmann, Avogadro, gravitational constant",
+      "fragments": [
+        {
+          "page": 1,
+          "column": 1,
+          "viewBox": [
+            14,
+            90.136,
+            283.72,
+            356.864
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "vectors",
+      "code": "1.1",
+      "title": "Vectors",
+      "group": "Mechanics",
+      "topics": "Motion in a plane, components, vector addition, dot product, cross product",
+      "fragments": [
+        {
+          "page": 1,
+          "column": 1,
+          "viewBox": [
+            14,
+            476.558,
+            283.72,
+            203.992
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "kinematics",
+      "code": "1.2",
+      "title": "Kinematics",
+      "group": "Mechanics",
+      "topics": "Motion in a straight line, motion in a plane, acceleration, projectile, range, relative velocity, circular motion",
+      "fragments": [
+        {
+          "page": 1,
+          "column": 1,
+          "viewBox": [
+            14,
+            680.55,
+            283.72,
+            122.45
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        },
+        {
+          "page": 1,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            255.231
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "newton-s-laws-and-friction",
+      "code": "1.3",
+      "title": "Newton’s Laws and Friction",
+      "group": "Mechanics",
+      "topics": "Laws of motion, momentum, impulse, friction, centripetal force, banking",
+      "fragments": [
+        {
+          "page": 1,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            273.231,
+            283.72,
+            329.499
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        }
+      ],
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "work-power-and-energy",
+      "code": "1.4",
+      "title": "Work, Power and Energy",
+      "group": "Mechanics",
+      "topics": "Work energy and power, kinetic energy, potential energy, spring, conservation",
+      "fragments": [
+        {
+          "page": 1,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            602.73,
+            283.72,
+            200.27
+          ],
+          "asset": "assets/physics-formulas/page-01.svg"
+        },
+        {
+          "page": 2,
+          "column": 1,
+          "viewBox": [
+            14,
+            18.0,
+            283.72,
+            79.513
+          ],
+          "asset": "assets/physics-formulas/page-02.svg"
+        }
+      ],
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "centre-of-mass-and-collision",
+      "code": "1.5",
+      "title": "Centre of Mass and Collision",
+      "group": "Mechanics",
+      "topics": "System of particles, centre of mass, center of mass, momentum, elastic collision, restitution",
+      "fragments": [
+        {
+          "page": 2,
+          "column": 1,
+          "viewBox": [
+            14,
+            97.513,
+            283.72,
+            619.667
+          ],
+          "asset": "assets/physics-formulas/page-02.svg"
+        }
+      ],
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "rigid-body-dynamics",
+      "code": "1.6",
+      "title": "Rigid Body Dynamics",
+      "group": "Mechanics",
+      "topics": "System of particles and rotational motion, torque, moment of inertia, angular momentum, rolling",
+      "fragments": [
+        {
+          "page": 2,
+          "column": 1,
+          "viewBox": [
+            14,
+            717.18,
+            283.72,
+            85.82
+          ],
+          "asset": "assets/physics-formulas/page-02.svg"
+        },
+        {
+          "page": 2,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            507.05
+          ],
+          "asset": "assets/physics-formulas/page-02.svg"
+        }
+      ],
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "gravitation",
+      "code": "1.7",
+      "title": "Gravitation",
+      "group": "Mechanics",
+      "topics": "Gravitation, satellite, escape velocity, orbital velocity, Kepler, gravitational potential",
+      "fragments": [
+        {
+          "page": 2,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            525.05,
+            283.72,
+            277.95
+          ],
+          "asset": "assets/physics-formulas/page-02.svg"
+        },
+        {
+          "page": 3,
+          "column": 1,
+          "viewBox": [
+            14,
+            18.0,
+            283.72,
+            254.375
+          ],
+          "asset": "assets/physics-formulas/page-03.svg"
+        }
+      ],
+      "pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "simple-harmonic-motion",
+      "code": "1.8",
+      "title": "Simple Harmonic Motion",
+      "group": "Mechanics",
+      "topics": "Oscillations, SHM, spring, pendulum, simple harmonic motion, superposition",
+      "fragments": [
+        {
+          "page": 3,
+          "column": 1,
+          "viewBox": [
+            14,
+            272.375,
+            283.72,
+            530.625
+          ],
+          "asset": "assets/physics-formulas/page-03.svg"
+        },
+        {
+          "page": 3,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            166.458
+          ],
+          "asset": "assets/physics-formulas/page-03.svg"
+        }
+      ],
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "properties-of-matter",
+      "code": "1.9",
+      "title": "Properties of Matter",
+      "group": "Mechanics",
+      "topics": "Mechanical properties of solids, mechanical properties of fluids, elasticity, Young modulus, surface tension, viscosity, Bernoulli, Stokes, capillary",
+      "fragments": [
+        {
+          "page": 3,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            184.458,
+            283.72,
+            618.542
+          ],
+          "asset": "assets/physics-formulas/page-03.svg"
+        }
+      ],
+      "pages": [
+        3
+      ]
+    },
+    {
+      "id": "waves-motion",
+      "code": "2.1",
+      "title": "Waves Motion",
+      "group": "Waves",
+      "topics": "Waves, wave equation, wavelength, wave number, progressive wave, frequency",
+      "fragments": [
+        {
+          "page": 4,
+          "column": 1,
+          "viewBox": [
+            14,
+            54.229,
+            283.72,
+            243.313
+          ],
+          "asset": "assets/physics-formulas/page-04.svg"
+        }
+      ],
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "waves-on-a-string",
+      "code": "2.2",
+      "title": "Waves on a String",
+      "group": "Waves",
+      "topics": "Waves, string, transverse wave, standing wave, interference, harmonics, sonometer",
+      "fragments": [
+        {
+          "page": 4,
+          "column": 1,
+          "viewBox": [
+            14,
+            297.542,
+            283.72,
+            505.458
+          ],
+          "asset": "assets/physics-formulas/page-04.svg"
+        },
+        {
+          "page": 4,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            353.576
+          ],
+          "asset": "assets/physics-formulas/page-04.svg"
+        }
+      ],
+      "pages": [
+        4
+      ]
+    },
+    {
+      "id": "sound-waves",
+      "code": "2.3",
+      "title": "Sound Waves",
+      "group": "Waves",
+      "topics": "Waves, sound, organ pipe, resonance, Doppler effect, beats, intensity",
+      "fragments": [
+        {
+          "page": 4,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            371.576,
+            283.72,
+            431.424
+          ],
+          "asset": "assets/physics-formulas/page-04.svg"
+        },
+        {
+          "page": 5,
+          "column": 1,
+          "viewBox": [
+            14,
+            18.0,
+            283.72,
+            618.518
+          ],
+          "asset": "assets/physics-formulas/page-05.svg"
+        }
+      ],
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "light-waves",
+      "code": "2.4",
+      "title": "Light Waves",
+      "group": "Waves",
+      "topics": "Wave optics, interference, Young double slit, YDSE, diffraction, polarization, Malus law",
+      "fragments": [
+        {
+          "page": 5,
+          "column": 1,
+          "viewBox": [
+            14,
+            636.518,
+            283.72,
+            166.482
+          ],
+          "asset": "assets/physics-formulas/page-05.svg"
+        },
+        {
+          "page": 5,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            785.0
+          ],
+          "asset": "assets/physics-formulas/page-05.svg"
+        }
+      ],
+      "pages": [
+        5
+      ]
+    },
+    {
+      "id": "re-ection-of-light",
+      "code": "3.1",
+      "title": "Reﬂection of Light",
+      "group": "Optics",
+      "topics": "Ray optics and optical instruments, mirror formula, reflection, magnification, focal length",
+      "fragments": [
+        {
+          "page": 6,
+          "column": 1,
+          "viewBox": [
+            14,
+            57.019,
+            283.72,
+            268.794
+          ],
+          "asset": "assets/physics-formulas/page-06.svg"
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "refraction-of-light",
+      "code": "3.2",
+      "title": "Refraction of Light",
+      "group": "Optics",
+      "topics": "Ray optics and optical instruments, refraction, Snell law, critical angle, prism, lens formula, lens maker, power of lens",
+      "fragments": [
+        {
+          "page": 6,
+          "column": 1,
+          "viewBox": [
+            14,
+            325.813,
+            283.72,
+            477.187
+          ],
+          "asset": "assets/physics-formulas/page-06.svg"
+        },
+        {
+          "page": 6,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            210.029
+          ],
+          "asset": "assets/physics-formulas/page-06.svg"
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "optical-instruments",
+      "code": "3.3",
+      "title": "Optical Instruments",
+      "group": "Optics",
+      "topics": "Ray optics and optical instruments, microscope, telescope, magnification, resolving power",
+      "fragments": [
+        {
+          "page": 6,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            228.029,
+            283.72,
+            298.043
+          ],
+          "asset": "assets/physics-formulas/page-06.svg"
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "dispersion",
+      "code": "3.4",
+      "title": "Dispersion",
+      "group": "Optics",
+      "topics": "Ray optics, dispersion, prism, Cauchy equation, dispersive power",
+      "fragments": [
+        {
+          "page": 6,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            526.072,
+            283.72,
+            276.928
+          ],
+          "asset": "assets/physics-formulas/page-06.svg"
+        }
+      ],
+      "pages": [
+        6
+      ]
+    },
+    {
+      "id": "heat-and-temperature",
+      "code": "4.1",
+      "title": "Heat and Temperature",
+      "group": "Heat & Thermodynamics",
+      "topics": "Thermal properties of matter, temperature, expansion, ideal gas, van der Waals, thermal stress",
+      "fragments": [
+        {
+          "page": 7,
+          "column": 1,
+          "viewBox": [
+            14,
+            57.306,
+            283.72,
+            154.124
+          ],
+          "asset": "assets/physics-formulas/page-07.svg"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "kinetic-theory-of-gases",
+      "code": "4.2",
+      "title": "Kinetic Theory of Gases",
+      "group": "Heat & Thermodynamics",
+      "topics": "Kinetic theory, gases, RMS speed, average speed, Maxwell distribution, equipartition",
+      "fragments": [
+        {
+          "page": 7,
+          "column": 1,
+          "viewBox": [
+            14,
+            211.43,
+            283.72,
+            293.352
+          ],
+          "asset": "assets/physics-formulas/page-07.svg"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "speci-c-heat",
+      "code": "4.3",
+      "title": "Speciﬁc Heat",
+      "group": "Heat & Thermodynamics",
+      "topics": "Thermal properties of matter, specific heat, heat capacity, latent heat, gas mixture, internal energy",
+      "fragments": [
+        {
+          "page": 7,
+          "column": 1,
+          "viewBox": [
+            14,
+            504.782,
+            283.72,
+            298.218
+          ],
+          "asset": "assets/physics-formulas/page-07.svg"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "thermodynamic-processes",
+      "code": "4.4",
+      "title": "Thermodynamic Processes",
+      "group": "Heat & Thermodynamics",
+      "topics": "Thermodynamics, first law, isothermal, isobaric, adiabatic, isochoric, Carnot, entropy, refrigerator",
+      "fragments": [
+        {
+          "page": 7,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            34.401,
+            283.72,
+            478.731
+          ],
+          "asset": "assets/physics-formulas/page-07.svg"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "heat-transfer",
+      "code": "4.5",
+      "title": "Heat Transfer",
+      "group": "Heat & Thermodynamics",
+      "topics": "Thermal properties of matter, heat transfer, conduction, thermal resistance, radiation, Wien, Stefan Boltzmann, cooling",
+      "fragments": [
+        {
+          "page": 7,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            513.132,
+            283.72,
+            289.868
+          ],
+          "asset": "assets/physics-formulas/page-07.svg"
+        }
+      ],
+      "pages": [
+        7
+      ]
+    },
+    {
+      "id": "electrostatics",
+      "code": "5.1",
+      "title": "Electrostatics",
+      "group": "Electricity & Magnetism",
+      "topics": "Electric charges and fields, electrostatic potential, Coulomb law, dipole, electric field, potential energy",
+      "fragments": [
+        {
+          "page": 8,
+          "column": 1,
+          "viewBox": [
+            14,
+            57.019,
+            283.72,
+            361.03
+          ],
+          "asset": "assets/physics-formulas/page-08.svg"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "gauss-s-law-and-its-applications",
+      "code": "5.2",
+      "title": "Gauss’s Law and its Applications",
+      "group": "Electricity & Magnetism",
+      "topics": "Electric charges and fields, electrostatic potential, Gauss law, flux, charged sphere, shell, ring, sheet",
+      "fragments": [
+        {
+          "page": 8,
+          "column": 1,
+          "viewBox": [
+            14,
+            418.049,
+            283.72,
+            384.951
+          ],
+          "asset": "assets/physics-formulas/page-08.svg"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "capacitors",
+      "code": "5.3",
+      "title": "Capacitors",
+      "group": "Electricity & Magnetism",
+      "topics": "Electrostatic potential and capacitance, capacitors, dielectric, series, parallel, energy",
+      "fragments": [
+        {
+          "page": 8,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            34.401,
+            283.72,
+            386.429
+          ],
+          "asset": "assets/physics-formulas/page-08.svg"
+        }
+      ],
+      "pages": [
+        8
+      ]
+    },
+    {
+      "id": "current-electricity",
+      "code": "5.4",
+      "title": "Current electricity",
+      "group": "Electricity & Magnetism",
+      "topics": "Current electricity, Ohm law, Kirchhoff, resistivity, Wheatstone bridge, galvanometer, RC circuit, charging capacitor, thermoelectricity, electrolysis",
+      "fragments": [
+        {
+          "page": 8,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            420.83,
+            283.72,
+            382.17
+          ],
+          "asset": "assets/physics-formulas/page-08.svg"
+        },
+        {
+          "page": 9,
+          "column": 1,
+          "viewBox": [
+            14,
+            18.0,
+            283.72,
+            524.947
+          ],
+          "asset": "assets/physics-formulas/page-09.svg"
+        }
+      ],
+      "pages": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "magnetism",
+      "code": "5.5",
+      "title": "Magnetism",
+      "group": "Electricity & Magnetism",
+      "topics": "Moving charges and magnetism, magnetism and matter, Lorentz force, magnetic moment, Hall effect",
+      "fragments": [
+        {
+          "page": 9,
+          "column": 1,
+          "viewBox": [
+            14,
+            542.947,
+            283.72,
+            260.053
+          ],
+          "asset": "assets/physics-formulas/page-09.svg"
+        },
+        {
+          "page": 9,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            99.668
+          ],
+          "asset": "assets/physics-formulas/page-09.svg"
+        }
+      ],
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "magnetic-field-due-to-current",
+      "code": "5.6",
+      "title": "Magnetic Field due to Current",
+      "group": "Electricity & Magnetism",
+      "topics": "Moving charges and magnetism, magnetism and matter, Biot Savart, Ampere, solenoid, toroid, dip, galvanometer",
+      "fragments": [
+        {
+          "page": 9,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            117.668,
+            283.72,
+            685.332
+          ],
+          "asset": "assets/physics-formulas/page-09.svg"
+        }
+      ],
+      "pages": [
+        9
+      ]
+    },
+    {
+      "id": "electromagnetic-induction",
+      "code": "5.7",
+      "title": "Electromagnetic Induction",
+      "group": "Electricity & Magnetism",
+      "topics": "Electromagnetic induction, alternating current, electromagnetic waves, Faraday, Lenz, inductance, LCR, impedance, transformer, resonance",
+      "fragments": [
+        {
+          "page": 10,
+          "column": 1,
+          "viewBox": [
+            14,
+            34.401,
+            283.72,
+            768.599
+          ],
+          "asset": "assets/physics-formulas/page-10.svg"
+        },
+        {
+          "page": 10,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            785.0
+          ],
+          "asset": "assets/physics-formulas/page-10.svg"
+        }
+      ],
+      "pages": [
+        10
+      ]
+    },
+    {
+      "id": "photo-electric-e-ect",
+      "code": "6.1",
+      "title": "Photo-electric eﬀect",
+      "group": "Modern Physics",
+      "topics": "Dual nature of radiation and matter, photoelectric effect, photon, stopping potential, de Broglie",
+      "fragments": [
+        {
+          "page": 11,
+          "column": 1,
+          "viewBox": [
+            14,
+            57.019,
+            283.72,
+            193.84
+          ],
+          "asset": "assets/physics-formulas/page-11.svg"
+        }
+      ],
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "the-atom",
+      "code": "6.2",
+      "title": "The Atom",
+      "group": "Modern Physics",
+      "topics": "Atoms, Bohr, Rydberg, spectrum, X ray, Moseley, uncertainty principle",
+      "fragments": [
+        {
+          "page": 11,
+          "column": 1,
+          "viewBox": [
+            14,
+            250.859,
+            283.72,
+            444.621
+          ],
+          "asset": "assets/physics-formulas/page-11.svg"
+        }
+      ],
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "the-nucleus",
+      "code": "6.3",
+      "title": "The Nucleus",
+      "group": "Modern Physics",
+      "topics": "Nuclei, radioactivity, half life, mass defect, binding energy, decay, nuclear reaction",
+      "fragments": [
+        {
+          "page": 11,
+          "column": 1,
+          "viewBox": [
+            14,
+            695.48,
+            283.72,
+            107.52
+          ],
+          "asset": "assets/physics-formulas/page-11.svg"
+        },
+        {
+          "page": 11,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            18.0,
+            283.72,
+            250.888
+          ],
+          "asset": "assets/physics-formulas/page-11.svg"
+        }
+      ],
+      "pages": [
+        11
+      ]
+    },
+    {
+      "id": "vacuum-tubes-and-semiconductors",
+      "code": "6.4",
+      "title": "Vacuum tubes and Semiconductors",
+      "group": "Modern Physics",
+      "topics": "Semiconductor electronics, electronic devices, diode, rectifier, transistor, logic gates, vacuum tube, triode",
+      "fragments": [
+        {
+          "page": 11,
+          "column": 2,
+          "viewBox": [
+            297.72,
+            268.888,
+            283.72,
+            534.112
+          ],
+          "asset": "assets/physics-formulas/page-11.svg"
+        }
+      ],
+      "pages": [
+        11
+      ]
+    }
+  ]
+}

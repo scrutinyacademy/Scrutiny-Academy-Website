@@ -219,6 +219,15 @@
     $("quizSubmit").onclick = finishQuiz;
     $("quizBookmark").onclick = toggleQuizBookmark;
     $("quizReport").onclick = reportQuizQuestion;
+    $("quizFormulas").onclick = () => {
+      const q = state.quiz?.questions[state.quiz.index];
+      if (!q || !/physics/i.test(q.__subject || q.subject || "")) return;
+      if (!window.ScrutinyFormulas) return toast("Formula library is loading. Please try again shortly.");
+      window.ScrutinyFormulas.open({ quiz: true, chapter: q.__chapter || q.chapter || "", mode: state.quiz.mode });
+    };
+    document.addEventListener("scrutiny:formulas-consulted", () => {
+      if (state.quiz) state.quiz.referenceAssisted = true;
+    });
     $("retryWrong").onclick = retryWrongQuestions;
     $("shareResult").onclick = shareResult;
     $("closeResult").onclick = () => $("resultDialog").close();
@@ -561,6 +570,7 @@
             const all = (ch.mcqs || []).map((q) => ({
                 ...q,
                 __chapter: ch.name || ch.title,
+                __subject: d.subject || "NEET",
               })),
               qs = filterDifficulty(all, diff);
             const hasSubtopics = Array.isArray(ch.subtopics) && ch.subtopics.length;
@@ -578,6 +588,7 @@
                 (ch.mcqs || []).map((q) => ({
                   ...q,
                   __chapter: ch.name || ch.title,
+                  __subject: d.subject || "NEET",
                 })),
                 diff,
               ),
@@ -652,7 +663,7 @@
     let qs = publishedChapters(d)
       .filter((ch) => cls === "all" || String(ch.classLevel || "") === cls)
       .flatMap((ch) =>
-        (ch.mcqs || []).map((q) => ({ ...q, __chapter: ch.name || ch.title })),
+        (ch.mcqs || []).map((q) => ({ ...q, __chapter: ch.name || ch.title, __subject: d.subject || "NEET" })),
       );
     qs = filterDifficulty(qs, diff);
     if (!qs.length) return toast("No MCQs match this difficulty yet.");
@@ -992,6 +1003,7 @@
     $("quizChapter").textContent =
       `${q.__subject ? `${q.__subject} • ` : ""}${q.__chapter || ""}${q.subtopic ? ` • ${q.subtopic}` : ""}${difficulty(q) ? ` • ${difficulty(q)}` : ""}${q.questionType ? ` • ${q.questionType}` : ""}`;
     $("quizQuestion").textContent = q.question;
+    $("quizFormulas").hidden = !/physics/i.test(q.__subject || q.subject || "");
     renderQuestionVisual(q);
     renderConfidence(q, chosen);
     $("quizPosition").textContent = `${z.index + 1} / ${z.questions.length}`;
@@ -1090,6 +1102,7 @@
         accuracy,
         seconds,
         completedAt: new Date().toISOString(),
+        referenceAssisted: Boolean(z.referenceAssisted),
         courseId: activeCourseId(),
         review,
       };
@@ -1118,7 +1131,7 @@
     $("resultScore").textContent = `${r.correct}/${r.total}`;
     $("resultAccuracy").textContent = `${r.accuracy}% accuracy`;
     $("resultAttempted").textContent = `Attempted: ${r.attempted}/${r.total} • Incorrect: ${r.attempted - r.correct} • Unattempted: ${r.total - r.attempted}`;
-    $("resultTime").textContent = `Time: ${formatTime(r.seconds)}`;
+    $("resultTime").textContent = `Time: ${formatTime(r.seconds)}${r.referenceAssisted ? " • Formula-assisted practice" : ""}`;
     $("resultDna").hidden = !r.mistakeDNA;
     if (r.mistakeDNA) {
       const d = r.mistakeDNA;

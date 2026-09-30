@@ -10,6 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <link rel="stylesheet" href="v2.css?v=33" />
+    <link rel="stylesheet" href="physics-formulas.css?v=1" />
     <style>
       .auth-check body {
         visibility: hidden;
@@ -210,6 +211,10 @@
           </button>
         </div>
         <div id="neetAvailability" class="availability"></div>
+        <div class="pf-entry">
+          <div><strong>Physics Formula Vault</strong><p>34 chapter-wise topics, original diagrams, zoom and recall mode. Open it inside Physics practice without losing your question.</p></div>
+          <button type="button" class="pf-button pf-primary" data-open-formulas>ƒₓ Open formulas</button>
+        </div>
         <div class="neet-chapter-head">
           <div>
             <h3>Choose a chapter</h3>
@@ -578,6 +583,7 @@
         <div class="quiz-progress"><span id="quizProgress"></span></div>
         <section>
           <span id="quizChapter" class="eyebrow"></span>
+          <button type="button" class="pf-button" id="quizFormulas" hidden>ƒₓ Physics formulas</button>
           <h2 id="quizQuestion">Question loading…</h2>
           <div id="quizVisual" class="quiz-visual" hidden></div>
           <div id="quizConfidence" class="confidence-check" hidden></div>
@@ -659,5 +665,7 @@
     <script type="module" src="learning-tools.js"></script>
     <script src="today-goal.js" defer></script>
     <script src="help-bot.js" defer></script>
+    <script src="physics-formula-notes.js?v=1" defer></script>
+    <script src="physics-formulas.js?v=1" defer></script>
 </body>
 </html>
