@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v26-email-verification-note";
+const CACHE = "scrutiny-academy-v27-help-assistant";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -14,6 +14,7 @@ const APP_SHELL = [
   "./learning-tools.js",
   "./firebase-config.js",
   "./course-catalog.js",
+  "./help-bot.js",
   "./assets/logo.svg",
   "./assets/favicon.svg",
   "./assets/medical-hero-v2.webp",
