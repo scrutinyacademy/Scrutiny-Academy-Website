@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v34-physics-formulas";
+const CACHE = "scrutiny-academy-v35-formula-source";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -25,7 +25,7 @@ const APP_SHELL = [
   "./physics-formulas.css?v=1",
   "./physics-formulas.js?v=1",
   "./physics-formula-notes.js?v=1",
-  "./assets/physics-formulas/catalog.json?v=1",
+  "./assets/physics-formulas/catalog.json?v=2",
   "./assets/logo.svg",
   "./assets/favicon.svg",
   "./assets/medical-hero-v2.webp",

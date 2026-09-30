@@ -103,12 +103,14 @@ def main(source):
             fragment(803.0)
     assert len(chapters) == len(TOPICS) == 34
     assert {c["code"] for c in chapters} == set(TOPICS)
+    source_sha = hashlib.sha256(target.read_bytes()).hexdigest()
+    asset_version = source_sha[:12]
     # Catalog follows actual reading order (left column, then right column).
     for chapter in chapters:
         chapter["pages"] = sorted({f["page"] for f in chapter["fragments"]})
         for fragment in chapter["fragments"]:
-            fragment["asset"] = f"assets/physics-formulas/page-{fragment['page']:02}.svg"
-    catalog = {"version": 1, "source": {"url": "assets/physics-formulas/source.pdf", "filename": source.name, "title": "Physics Formulas for Class 11 and Class 12", "author": pdf.metadata.get("author", ""), "pageCount": len(pdf), "sha256": hashlib.sha256(target.read_bytes()).hexdigest(), "width": pdf[0].rect.width, "height": pdf[0].rect.height}, "chapters": chapters}
+            fragment["asset"] = f"assets/physics-formulas/page-{fragment['page']:02}.svg?v={asset_version}"
+    catalog = {"version": 2, "source": {"url": f"assets/physics-formulas/source.pdf?v={asset_version}", "filename": source.name, "title": "Physics Formulas for Class 11 and Class 12", "author": pdf.metadata.get("author", ""), "pageCount": len(pdf), "sha256": source_sha, "width": pdf[0].rect.width, "height": pdf[0].rect.height}, "chapters": chapters}
     (DEST / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n")
     print(f"Extracted {len(pdf)} vector pages, {len(chapters)} chapters, {sum(len(c['fragments']) for c in chapters)} source regions.")
 

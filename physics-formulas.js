@@ -73,7 +73,7 @@
 
   async function getCatalog() {
     if (catalog) return catalog;
-    if (!loading) loading = fetch("assets/physics-formulas/catalog.json?v=1")
+    if (!loading) loading = fetch("assets/physics-formulas/catalog.json?v=2")
       .then(r => { if (!r.ok) throw new Error("catalog unavailable"); return r.json(); })
       .then(data => {
         if (!Array.isArray(data.chapters) || !data.chapters.length) throw new Error("invalid catalog");
