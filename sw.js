@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v30-dashboard-goals";
+const CACHE = "scrutiny-academy-v31-neet-ranker";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -21,6 +21,8 @@ const APP_SHELL = [
   "./assets/logo.svg",
   "./assets/favicon.svg",
   "./assets/medical-hero-v2.webp",
+  "./assets/ranker/plasma-membrane.png",
+  "./assets/ranker/mitochondrion.png",
   "./assets/chemistry/redox-transfer.svg",
   "./assets/chemistry/redox-number.svg",
   "./assets/chemistry/redox-balancing.svg",
@@ -72,6 +74,7 @@ const APP_SHELL = [
   "./assets/chemistry-board/organic-reactions.svg",
   "./data/neet/class11-physics-bank.js",
   "./data/neet/class11-chemistry-bank.js",
+  "./data/neet/ranker/cell-unit-of-life.json",
 ];
 
 self.addEventListener("install", (event) => {

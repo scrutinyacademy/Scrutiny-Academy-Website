@@ -19,7 +19,7 @@ const COURSE_PORTALS = {
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", target: "class10", sections: ["class10", "tools", "progress", "support"], color: "#1677d2", description: "Board questions, chapter practice, revision and Telangana SSC preparation." },
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", target: "class11", sections: ["class11", "progress", "support"], color: "#138a5b", description: "A separate Telangana Intermediate board portal with chapter-wise Botany VSAQs, SAQs and LAQs." },
   class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", target: "class12", sections: ["class12", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#7254c7", description: "Second-year board preparation, revision and subject resources." },
-  neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", target: "neet", sections: ["neet", "flashcards", "pyqs", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#d65328", description: "NCERT-focused Biology, Physics and Chemistry practice, tests, PYQs and analysis." },
+  neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", target: "neet", sections: ["neet", "ranker", "flashcards", "pyqs", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#d65328", description: "NCERT-focused Biology, Physics and Chemistry practice, tests, PYQs and analysis." },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", target: "mbbs", sections: ["mbbs", "tools", "progress", "support"], color: "#087f87", description: "Phase-wise medical subjects, clinical learning, revision and assessments." },
 };
 

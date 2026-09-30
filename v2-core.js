@@ -6,6 +6,7 @@
     class11: "data/class11/catalog.json",
     class12: "data/class12/catalog.json",
     ncert: "data/ncert/catalog.json",
+    rankerBiology: "data/neet/ranker/cell-unit-of-life.json",
   };
   const temporarilyUnpublishedBiologyChapters = new Set([
     "Photosynthesis in Higher Plants",
@@ -26,6 +27,7 @@
       class11: { subject: ["botany", "zoology", "physics", "chemistry"].includes(new URLSearchParams(location.search).get("subject")) ? new URLSearchParams(location.search).get("subject") : "botany", chapter: 0, format: "vsaq", data: null, search: "" },
       neet: { subject: ["biology", "physics", "chemistry"].includes(new URLSearchParams(location.search).get("subject")) ? new URLSearchParams(location.search).get("subject") : "biology", data: null, chapter: null, subtopicFilter: "all" },
       custom: { subjects: [] },
+      ranker: { subject: "biology", data: null },
       flashcards: {
         catalog: null,
         subjectId: "biology",
@@ -127,6 +129,7 @@
         renderPrograms(),
         renderClass10(),
         renderNeet(),
+        renderRanker(),
         renderCustomBuilder(),
         renderFlashcards(),
         renderMbbs(),
@@ -185,6 +188,16 @@
     $("neetDifficulty").onchange = renderNeetChapters;
     $("neetChapterSearch").oninput = renderNeetChapters;
     $("neetStart").onclick = startNeet;
+    $("rankerSet").onchange = updateRankerAvailability;
+    $("rankerStart").onclick = startRanker;
+    document.querySelectorAll("[data-ranker-subject]").forEach((button) => {
+      button.onclick = () => {
+        const subject = button.dataset.rankerSubject;
+        if (subject !== "biology") return toast(`${subject[0].toUpperCase() + subject.slice(1)} Ranker MCQs are coming soon.`);
+        document.querySelectorAll("[data-ranker-subject]").forEach((item) => item.classList.toggle("active", item === button));
+        $("rankerStart").focus();
+      };
+    });
     $("buildCustomTest").onclick = buildCustomTest;
     $("ncertSearch").onclick = searchNcert;
     $("ncertQuery").onkeydown = (event) => {
@@ -209,6 +222,35 @@
     $("retryWrong").onclick = retryWrongQuestions;
     $("shareResult").onclick = shareResult;
     $("closeResult").onclick = () => $("resultDialog").close();
+  }
+  async function renderRanker() {
+    state.ranker.data = await load(repo.rankerBiology);
+    updateRankerAvailability();
+  }
+  function rankerQuestions() {
+    const selected = $("rankerSet")?.value || "all";
+    const questions = allMcqs(state.ranker.data);
+    return selected === "all"
+      ? questions
+      : questions.filter((question) => question.rankerSet === selected);
+  }
+  function updateRankerAvailability() {
+    if (!state.ranker.data || !$("rankerAvailability")) return;
+    const questions = rankerQuestions();
+    const set = state.ranker.data.sets?.find((item) => item.id === $("rankerSet").value);
+    $("rankerAvailability").textContent = `${questions.length} answer-key verified Biology MCQ${questions.length === 1 ? "" : "s"} available${set ? ` in ${set.name}` : " across all three sets"}.`;
+  }
+  function startRanker() {
+    const questions = rankerQuestions();
+    const requested = $("rankerCount").value;
+    const count = requested === "all" ? questions.length : Number(requested);
+    const set = state.ranker.data.sets?.find((item) => item.id === $("rankerSet").value);
+    startQuiz(
+      questions,
+      `NEET RANKER • Biology • ${set?.name || "All verified sets"}`,
+      $("rankerMode").value,
+      count,
+    );
   }
   async function renderPrograms() {
     const icons = {

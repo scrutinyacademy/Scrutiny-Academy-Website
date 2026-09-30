@@ -28,7 +28,7 @@
       ><nav id="mainNav" aria-label="Course navigation">
         <a href="student.html">Home</a><a href="#class10">Class 10</a
         ><a href="#class11">Class 11</a><a href="#class12">Class 12</a
-        ><a href="#neet">NEET</a><a href="#flashcards">Flashcards</a><a href="#pyqs">PYQs</a
+        ><a href="#neet">NEET</a><a href="#ranker">Ranker MCQs</a><a href="#flashcards">Flashcards</a><a href="#pyqs">PYQs</a
         ><a href="#ncert">NCERT</a><a href="#ncert-booster">Booster</a><a href="#mbbs">MBBS</a
         ><a href="#tools">Study Tools</a><a href="#progress">Progress</a
         ><a href="#support">Support</a><div id="courseHeaderTools" class="course-header-tools"></div>
@@ -243,6 +243,37 @@
             <button type="button" class="btn primary" id="buildCustomTest">
               Create my test
             </button>
+          </div>
+        </div>
+      </section>
+      <section class="section ranker-section" id="ranker">
+        <div class="ranker-hero">
+          <div>
+            <span class="ranker-kicker">EXCLUSIVE QUESTION BANK</span>
+            <h2>NEET RANKER MCQs</h2>
+            <p>High-intensity, answer-key verified practice designed to move you from preparation to rank-level performance.</p>
+            <div class="ranker-proof"><span>✓ 214 Biology MCQs</span><span>✓ Answer key verified</span><span>✓ Practice &amp; test modes</span></div>
+          </div>
+          <div class="ranker-score"><strong>214</strong><span>questions ready</span><small>Cell: The Unit of Life</small></div>
+        </div>
+        <div class="ranker-subjects" aria-label="NEET Ranker subjects">
+          <button type="button" class="ranker-subject active" data-ranker-subject="biology"><span>🧬</span><strong>Biology</strong><small>1 chapter · 214 MCQs</small><b>ACTIVE</b></button>
+          <button type="button" class="ranker-subject" data-ranker-subject="physics"><span>⚛️</span><strong>Physics</strong><small>Ranker bank coming next</small><b>COMING SOON</b></button>
+          <button type="button" class="ranker-subject" data-ranker-subject="chemistry"><span>🧪</span><strong>Chemistry</strong><small>Ranker bank coming next</small><b>COMING SOON</b></button>
+        </div>
+        <div class="ranker-workspace">
+          <div class="ranker-chapter">
+            <span class="eyebrow">BIOLOGY · CLASS 11</span>
+            <h3>Cell: The Unit of Life</h3>
+            <p>Choose a curated set or combine all three. Every correct option is mapped directly from the supplied answer key.</p>
+            <div class="ranker-set-stats"><span><strong>79</strong> Concept Builder</span><span><strong>80</strong> AIPMT &amp; NEET PYQs</span><span><strong>55</strong> NCERT &amp; Analytical</span></div>
+          </div>
+          <div class="ranker-controls">
+            <label class="field">Question set<select id="rankerSet"><option value="all">All verified sets (214)</option><option value="conceptual">Concept Builder (79)</option><option value="pyq">AIPMT &amp; NEET PYQs (80)</option><option value="ncert_analytical">NCERT &amp; Analytical (55)</option></select></label>
+            <label class="field">Mode<select id="rankerMode"><option value="practice">Practice with answers</option><option value="test">Timed test</option></select></label>
+            <label class="field">Questions<select id="rankerCount"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="all">All available</option></select></label>
+            <button type="button" class="btn ranker-start" id="rankerStart">Start Ranker Quiz →</button>
+            <p id="rankerAvailability">214 answer-key verified Biology MCQs available.</p>
           </div>
         </div>
       </section>
