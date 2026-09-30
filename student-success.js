@@ -58,6 +58,8 @@
       ? "neet"
       : detail.activeCourse || localStorage.getItem("scrutiny_active_course") || "neet";
     document.documentElement.dataset.successCourse = activeCourse;
+    const name = detail.profile?.name;
+    if (name && $("successTitle")) $("successTitle").textContent = `${name}, your smartest study day starts here.`;
     render();
     if (!profile() && !$('studyProfileDialog')?.open) setTimeout(openProfile, 450);
   }

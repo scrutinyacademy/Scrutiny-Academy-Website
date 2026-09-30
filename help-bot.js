@@ -161,6 +161,7 @@
     showMainChoices();
   }
   function openPanel() {
+    document.dispatchEvent(new CustomEvent("scrutiny:overlay-open", { detail: { source: "help" } }));
     panel.classList.add("open");
     launcher.setAttribute("aria-expanded", "true");
     launcher.querySelector(".help-pulse")?.remove();
@@ -174,6 +175,7 @@
   }
   launcher.addEventListener("click", () => panel.classList.contains("open") ? closePanel() : openPanel());
   closeButton.addEventListener("click", closePanel);
+  document.addEventListener("scrutiny:overlay-open", (event) => { if (event.detail?.source !== "help" && panel.classList.contains("open")) closePanel(); });
   document.addEventListener("keydown", (event) => { if (event.key === "Escape" && panel.classList.contains("open")) closePanel(); });
   form.addEventListener("submit", (event) => {
     event.preventDefault();

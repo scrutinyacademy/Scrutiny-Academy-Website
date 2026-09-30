@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v29-neet-dashboard-fix";
+const CACHE = "scrutiny-academy-v30-dashboard-goals";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -17,6 +17,7 @@ const APP_SHELL = [
   "./firebase-config.js",
   "./course-catalog.js",
   "./help-bot.js",
+  "./today-goal.js",
   "./assets/logo.svg",
   "./assets/favicon.svg",
   "./assets/medical-hero-v2.webp",

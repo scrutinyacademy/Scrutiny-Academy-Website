@@ -23,13 +23,21 @@ const COURSE_PORTALS = {
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", target: "mbbs", sections: ["mbbs", "tools", "progress", "support"], color: "#087f87", description: "Phase-wise medical subjects, clinical learning, revision and assessments." },
 };
 
+function friendlyStudentName(profile = {}, user = {}) {
+  let value = String(profile.preferredName || profile.fullName || profile.name || user.displayName || (user.email || "").split("@")[0] || "Student").trim();
+  if (value.toLowerCase() === "iampramodsharma02") return "Pramod";
+  value = value.replace(/^(i[._-]?am|its|official)[._-]?/i, "").replace(/[._-]+/g, " ").replace(/\d+/g, " ").replace(/\s+/g, " ").trim();
+  if (!value) return "Student";
+  return value.split(" ").slice(0, 2).map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()).join(" ");
+}
+
 function selectedCourse(profile = {}, allowed = []) {
   const requested = new URLSearchParams(location.search).get("course");
   const saved = localStorage.getItem("scrutiny_active_course");
   return allowed.includes(requested) ? requested : allowed.includes(saved) ? saved : allowed.includes(profile.activeCourse) ? profile.activeCourse : allowed[0];
 }
 
-function applyCoursePortal(courseId, auth, user, db, allowed) {
+function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   localStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
@@ -62,7 +70,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed) {
   const eyebrow = document.querySelector("#home .eyebrow");
   const title = document.querySelector("#home h1");
   const copy = document.querySelector("#home .hero-copy p");
-  if (eyebrow) eyebrow.textContent = course.label;
+  if (eyebrow) eyebrow.textContent = `WELCOME BACK, ${friendlyStudentName(profile, user).toUpperCase()} • ${course.label}`;
   if (title) title.textContent = `Your ${course.name} learning space.`;
   if (copy) copy.textContent = course.description;
   const explore = document.querySelector("#home .hero-actions a");
@@ -103,15 +111,14 @@ const configured =
   firebaseConfig.apiKey !== "REPLACE_ME" &&
   firebaseConfig.projectId !== "REPLACE_ME";
 
-function addAccountControls(auth, user) {
+function addAccountControls(auth, user, profile = {}) {
   const logout = document.getElementById("platformLogout");
   const nav = document.getElementById("mainNav");
   if (!logout || !nav || logout.dataset.bound === "true") return;
   logout.dataset.bound = "true";
   const identity = document.createElement("span");
   identity.className = "platform-user";
-  identity.textContent =
-    `Signed in as ${user.displayName || (user.email || "Student").split("@")[0] || "Student"}`;
+  identity.textContent = `Signed in as ${friendlyStudentName(profile, user)}`;
   identity.title = user.email || "";
   nav.appendChild(identity);
   logout.addEventListener("click", async () => {
@@ -132,8 +139,8 @@ async function openPlatform(auth, user, profile, db) {
   const allowed = entitledCourses(profile);
   if (!allowed.length) { location.replace("payment.html"); return; }
   setupResponsiveNavigation();
-  addAccountControls(auth, user);
-  applyCoursePortal(selectedCourse(profile, allowed), auth, user, db, allowed);
+  addAccountControls(auth, user, profile);
+  applyCoursePortal(selectedCourse(profile, allowed), auth, user, db, allowed, profile);
   document.documentElement.classList.remove("auth-check");
   try {
     await import("./leaderboard.js");

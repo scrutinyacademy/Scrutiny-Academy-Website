@@ -49,6 +49,22 @@ function portalUrl(anchor, subject = "") {
   return `preview-v2.html?course=${activeCourse}${subject ? `&subject=${subject}` : ""}#${anchor}`;
 }
 
+function friendlyStudentName(profile = {}, user = auth.currentUser) {
+  const emailHandle = String(user?.email || "").split("@")[0].toLowerCase();
+  let value = String(profile.preferredName || profile.fullName || profile.name || user?.displayName || emailHandle || "Student").trim();
+  if (value.toLowerCase() === "iampramodsharma02") return "Pramod";
+  if (value.includes("@")) value = value.split("@")[0];
+  value = value.replace(/^(i[._-]?am|its|official)[._-]?/i, "").replace(/[._-]+/g, " ").replace(/\d+/g, " ").replace(/\s+/g, " ").trim();
+  if (!value) return "Student";
+  return value.split(" ").slice(0, 2).map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()).join(" ");
+}
+
+function welcomeLine(name) {
+  const hour = new Date().getHours();
+  const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
+  return `${greeting}, ${name} 👋`;
+}
+
 function renderCourseDashboard() {
   const course = COURSE_PORTALS[activeCourse];
   document.documentElement.style.setProperty("--course-accent", course.color);
@@ -64,7 +80,8 @@ function renderCourseDashboard() {
   $("courseCardGrid").innerHTML = Object.entries(COURSE_CATALOG).map(([id, plan]) => {
     const item = COURSE_PORTALS[id];
     const owned = availableCourses.includes(id);
-    if (owned) return `<button type="button" class="course-card ${id === activeCourse ? "active" : ""}" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>${id === activeCourse ? "CURRENT COURSE" : "OPEN PURCHASED COURSE"}</small></button>`;
+    if (owned && id === activeCourse) return `<a class="course-card active" href="${portalUrl(item.target)}" style="--card-accent:${item.color}" aria-label="Open ${esc(item.name)}"><span>${item.icon}</span><strong>${item.name}</strong><small>OPEN CURRENT COURSE →</small></a>`;
+    if (owned) return `<button type="button" class="course-card" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>SWITCH &amp; OPEN COURSE →</small></button>`;
     return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
   }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor, subject]) => `<a class="card big-link" href="${portalUrl(anchor, subject)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
@@ -74,7 +91,7 @@ function renderCourseDashboard() {
   window.__scrutinyStudentContext = {
     activeCourse,
     availableCourses: [...availableCourses],
-    profile: { name: studentProfile.name || "Student", neetExamYear: studentProfile.neetExamYear || null },
+    profile: { name: friendlyStudentName(studentProfile), neetExamYear: studentProfile.neetExamYear || null },
   };
   window.dispatchEvent(new CustomEvent("scrutiny:dashboard-context", { detail: window.__scrutinyStudentContext }));
 }
@@ -91,8 +108,10 @@ function renderCourseSwitchMenu() {
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
         : `<span class="course-menu-price">₹${currentCoursePrice(id)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
-    const action = owned
-      ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}" ${current ? "disabled" : ""}>${current ? "OPEN" : "SWITCH"}</button>`
+    const action = current
+      ? `<a class="course-menu-action owned-action" href="preview-v2.html?course=${id}#${portal.target}">OPEN</a>`
+      : owned
+        ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}">SWITCH</button>`
       : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id)}">BUY COURSE</a>`;
     return `<article class="course-menu-item ${current ? "active" : ""}" role="menuitem"><span class="course-menu-icon" style="--item-accent:${portal.color}">${portal.icon}</span><span class="course-menu-copy"><strong>${esc(portal.name)}</strong><small>${esc(detail)}</small></span>${status}${action}</article>`;
   }).join("");
@@ -294,7 +313,8 @@ onAuthStateChanged(auth, async (user) => {
     location.replace("payment.html");
     return;
   }
-  $("welcome").textContent = `Welcome${p.name ? `, ${p.name}` : ""}`;
+  const studentName = friendlyStudentName(p, user);
+  $("welcome").textContent = welcomeLine(studentName);
   setupCourseDashboard({ ...p, founderAccess });
   if (founderAccess) $("studentMeta").textContent = `${user.email} • FOUNDER PREVIEW • ALL COURSES`;
   loadInvoices(user);
