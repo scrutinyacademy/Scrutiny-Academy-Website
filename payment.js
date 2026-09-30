@@ -68,7 +68,7 @@ function showVerificationActions() {
   actions.style.display = "grid";
   actions.style.gap = "9px";
   actions.innerHTML =
-    '<button class="primary" id="verifiedBtn" type="button">I VERIFIED MY EMAIL</button><button class="ghost" id="resendVerificationBtn" type="button">RESEND VERIFICATION EMAIL</button>';
+    '<div class="email-delivery-note verification-note"><span aria-hidden="true">✉</span><span><strong>Can’t find the verification email?</strong> Check your Gmail <strong>Spam or Promotions</strong> folder. If it is in Spam, open it and tap <strong>“Report not spam”</strong>.</span></div><button class="primary" id="verifiedBtn" type="button">I VERIFIED MY EMAIL</button><button class="ghost" id="resendVerificationBtn" type="button">RESEND VERIFICATION EMAIL</button>';
   $("verifiedBtn").onclick = async () => {
     message("Checking your email verification…");
     await currentUser.reload();
@@ -81,7 +81,7 @@ function showVerificationActions() {
       renderStatus(currentProfile || {});
     } else {
       message(
-        "Email is not verified yet. Open the verification link sent to your inbox.",
+        "Email is not verified yet. Check your Gmail Inbox, Spam or Promotions folder, then open the verification link.",
         "error",
       );
     }
@@ -90,7 +90,7 @@ function showVerificationActions() {
     try {
       await sendEmailVerification(currentUser);
       message(
-        "A new verification email was sent. Check Inbox and Spam.",
+        "A new verification email was sent. Check your Gmail Inbox, Spam or Promotions folder.",
         "success",
       );
     } catch (error) {

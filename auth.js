@@ -106,7 +106,7 @@ if(!configured){
         updatedAt:serverTimestamp()
       });
       await sendEmailVerification(cred.user);
-      msg('Account created. Verification email sent. Opening payment page…','success');
+      msg('Account created. Verification email sent. Check your Gmail Inbox, Spam or Promotions folder. Opening verification page…','success');
       setTimeout(()=>location.replace('payment.html'),900);
     }catch(err){
       authActionInProgress=false;
@@ -119,7 +119,7 @@ if(!configured){
   $('forgotPassword')?.addEventListener('click',async()=>{
     const email=$('loginEmail').value.trim();
     if(!email){ msg('Enter your email first, then tap Forgot password.','error'); return; }
-    try{ await sendPasswordResetEmail(auth,email); msg('Password reset email sent.','success'); }
+    try{ await sendPasswordResetEmail(auth,email); msg('Password reset email sent. Check your Gmail Inbox, Spam or Promotions folder.','success'); }
     catch(err){ msg(`${friendly(err)} [${err?.code||'unknown-error'}]`,'error'); console.error(err); }
   });
 }
