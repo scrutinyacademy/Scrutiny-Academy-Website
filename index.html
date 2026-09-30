@@ -21,6 +21,7 @@
     <button class="mobile-menu" id="mobileMenu" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav id="homeNav" aria-label="Main navigation">
       <a href="#home" class="active">Home</a>
+      <a href="#reviews">Review Us</a>
       <a href="#benefits">About</a>
       <a href="#subjects">Subjects</a>
       <a href="#neet-plan">NEET</a>
@@ -125,7 +126,7 @@
       <article class="course-plan mbbs-plan"><span class="plan-badge">LIFETIME ACCESS</span><span class="plan-icon">🩺</span><h3>MBBS Complete Learning Course</h3><div class="plan-price">₹799 <small>one-time</small></div><ul><li>19 MBBS subjects</li><li>Phase-wise medical learning</li><li>Clinical revision tools</li><li>MCQs, bookmarks and progress tracking</li></ul><p class="plan-validity">Lifetime access to the MBBS learning portal.</p><a href="#authCard" data-select-course="mbbs">SELECT MBBS</a></article>
     </div>
   </section>
-  <section class="reviews-section" aria-labelledby="reviewsTitle">
+  <section class="reviews-section" id="reviews" aria-labelledby="reviewsTitle">
     <div class="reviews-head">
       <div><span class="eyebrow">STUDENT &amp; COMMUNITY FEEDBACK</span><h2 id="reviewsTitle">What learners say</h2><p>Everyone is welcome to share an honest rating and review. Reviews from registered students carry a verified badge.</p></div>
       <div class="rating-summary"><strong id="publicRating">—</strong><span class="stars" id="publicStars">★★★★★</span><small id="publicReviewCount">Loading reviews…</small></div>
@@ -172,6 +173,17 @@
       </div>
     </div>
   </section>
+  <dialog class="review-invite" id="reviewInvite" aria-labelledby="reviewInviteTitle" aria-describedby="reviewInviteText">
+    <button class="review-invite-close" id="reviewInviteClose" type="button" aria-label="Close review invitation">×</button>
+    <span class="review-invite-icon" aria-hidden="true">★</span>
+    <span class="eyebrow">YOUR FEEDBACK MATTERS</span>
+    <h2 id="reviewInviteTitle">We would love to hear from you!</h2>
+    <p id="reviewInviteText">Review Scrutiny Academy and help us understand what is working well and how we can serve students even better.</p>
+    <div class="review-invite-actions">
+      <a class="primary" id="reviewInviteAction" href="#reviews">REVIEW &amp; RATE US →</a>
+      <button class="review-invite-later" id="reviewInviteLater" type="button">Not now</button>
+    </div>
+  </dialog>
   <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
   <script type="module" src="auth.js"></script>
   <script type="module" src="reviews.js"></script>
@@ -198,6 +210,21 @@
       const select = document.getElementById('regCourse');
       if (select) { select.value = link.dataset.selectCourse; select.dispatchEvent(new Event('change')); }
     }));
+    const reviewInvite = document.getElementById('reviewInvite');
+    const closeReviewInvite = () => {
+      if (reviewInvite?.open) reviewInvite.close();
+    };
+    document.getElementById('reviewInviteClose')?.addEventListener('click', closeReviewInvite);
+    document.getElementById('reviewInviteLater')?.addEventListener('click', closeReviewInvite);
+    document.getElementById('reviewInviteAction')?.addEventListener('click', closeReviewInvite);
+    reviewInvite?.addEventListener('click', event => {
+      if (event.target === reviewInvite) closeReviewInvite();
+    });
+    addEventListener('load', () => {
+      if (!reviewInvite || location.hash === '#reviews' || sessionStorage.getItem('scrutiny_review_invite_seen')) return;
+      sessionStorage.setItem('scrutiny_review_invite_seen', 'true');
+      setTimeout(() => reviewInvite.showModal(), 1200);
+    });
   </script>
   <script src="help-bot.js" defer></script>
 </body>
