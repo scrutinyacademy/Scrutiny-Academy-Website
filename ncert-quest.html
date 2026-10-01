@@ -3,84 +3,71 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <meta name="theme-color" content="#061f35" />
-    <title>NCERT Quest | Scrutiny Academy</title>
-    <meta name="description" content="Play short NCERT-powered Biology missions and build durable NEET recall." />
+    <meta name="theme-color" content="#06182a" />
+    <title>NCERT Learning Arcade | Scrutiny Academy</title>
+    <meta name="description" content="Ten interactive NCERT learning games for NEET Biology, Physics and Chemistry." />
     <link rel="icon" href="assets/favicon.svg" />
-    <link rel="stylesheet" href="ncert-quest.css?v=1" />
-    <style>.auth-check body{visibility:hidden}</style>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="ncert-quest.css?v=2" />
+    <style>.auth-check body{visibility:hidden}.word-token.missed{color:#fff;border-color:#ff7182;background:rgba(255,113,130,.13)}</style>
     <script type="module" src="ncert-quest-gate.js"></script>
   </head>
   <body>
-    <div class="quest-noise" aria-hidden="true"></div>
-    <header class="quest-header">
-      <a class="quest-brand" href="preview-v2.html?course=neet#neet"><img src="assets/logo.svg" alt="Scrutiny Academy" /><span><strong>NCERT QUEST</strong><small>BY SCRUTINY ACADEMY</small></span></a>
-      <div class="header-stats" aria-label="Quest statistics"><span><small>XP</small><strong id="xpValue">0</strong></span><span><small>STREAK</small><strong id="streakValue">0 🔥</strong></span></div>
-      <a class="exit-link" href="preview-v2.html?course=neet#neet">Exit game</a>
+    <div class="grid-glow" aria-hidden="true"></div>
+    <header class="arcade-header">
+      <a class="arcade-brand" href="preview-v2.html?course=neet#neet"><img src="assets/logo.svg" alt="Scrutiny Academy" /><span><strong>NCERT ARCADE</strong><small>PLAY · RECALL · MASTER</small></span></a>
+      <div class="student-stats"><span><small>TOTAL XP</small><strong id="totalXp">0</strong></span><span><small>STREAK</small><strong id="streak">0 🔥</strong></span><span><small>MASTERED</small><strong id="mastered">0</strong></span></div>
+      <a class="portal-link" href="preview-v2.html?course=neet#neet">NEET Portal</a>
     </header>
 
     <main>
-      <section class="quest-home" id="questHome">
-        <div class="hero-copy">
-          <span class="live-chip"><i></i> FIRST MISSION LIVE</span>
-          <p class="overline">CLASS 11 BIOLOGY · NCERT-POWERED</p>
-          <h1>Cell Under <em>Attack</em></h1>
-          <p class="hero-text">The cell city is failing. Restore its systems using exact NCERT knowledge before the damage spreads.</p>
-          <div class="hero-actions">
-            <button class="play-button" id="startQuest"><span>▶</span> START 5-MINUTE MISSION</button>
-            <button class="secondary-button" id="openHow">HOW TO PLAY</button>
-          </div>
-          <div class="proof-row"><span>24 NCERT challenges</span><span>Instant explanations</span><span>Smart mistake comeback</span></div>
+      <section class="arcade-hero">
+        <div>
+          <span class="live-badge"><i></i> 10 LEARNING GAMES LIVE</span>
+          <p class="eyebrow">WHEN YOU ARE BORED, YOUR PREPARATION DOESN'T HAVE TO STOP</p>
+          <h1>Turn NCERT into a <em>game.</em></h1>
+          <p class="hero-copy">Short, interactive challenges for exact lines, diagrams, pathways, formulas, reactions and textbook navigation—built for NEET recall.</p>
+          <div class="hero-buttons"><button class="primary-button" id="quickPlay">▶ QUICK PLAY</button><a class="ghost-button" href="#gameModes">EXPLORE ALL GAMES</a></div>
+          <div class="hero-proof"><span>NCERT-grounded</span><span>Instant feedback</span><span>Mistakes return</span><span>Works on mobile</span></div>
         </div>
-        <div class="cell-visual" aria-hidden="true">
-          <div class="orbit orbit-one"><b></b></div><div class="orbit orbit-two"><b></b></div>
-          <div class="cell-core"><span></span><i></i><b></b><em></em></div>
-          <div class="danger-pulse"></div>
-          <p>SYSTEM INTEGRITY <strong>42%</strong></p>
-        </div>
+        <div class="arcade-machine" aria-hidden="true"><div class="machine-screen"><span>SELECT</span><strong>GAME</strong><div><i></i><i></i><i></i></div></div><div class="machine-controls"><b></b><span>+</span></div><div class="machine-light one"></div><div class="machine-light two"></div><div class="machine-light three"></div></div>
       </section>
 
-      <section class="mission-map" id="missionMap">
-        <div class="section-heading"><div><span>YOUR PROGRESS</span><h2>Cell City Map</h2></div><p id="mapSummary">Start a mission to restore your first zone.</p></div>
-        <div class="zone-track" id="zoneTrack"></div>
+      <section class="daily-strip">
+        <div><span class="daily-icon">✦</span><div><small>DAILY ARCADE MISSION</small><strong id="dailyTitle">Loading today's mission…</strong></div></div>
+        <div class="daily-progress"><span><i id="dailyBar"></i></span><small id="dailyText">0/3 games complete</small></div>
+        <button id="dailyPlay">PLAY TODAY'S PICK →</button>
       </section>
 
-      <section class="mastery-panel">
-        <article><span class="panel-icon">🧠</span><div><small>MASTERED CONCEPTS</small><strong id="masteredValue">0 / 24</strong><div class="tiny-bar"><i id="masteredBar"></i></div></div></article>
-        <article><span class="panel-icon">↻</span><div><small>COMEBACK CARDS</small><strong id="dueValue">0 due</strong><p>Mistakes return until mastered.</p></div></article>
-        <article><span class="panel-icon">⚡</span><div><small>BEST RUN</small><strong id="bestValue">—</strong><p>Your highest mission accuracy.</p></div></article>
+      <section class="games-section" id="gameModes">
+        <div class="section-head"><div><span>CHOOSE YOUR GAME</span><h2>Ten ways to master NCERT</h2></div><p>Every game trains a different NEET skill. Your weakest concepts automatically return.</p></div>
+        <div class="filter-row" role="group" aria-label="Filter games by subject"><button class="active" data-filter="all">All games</button><button data-filter="Biology">Biology</button><button data-filter="Physics">Physics</button><button data-filter="Chemistry">Chemistry</button><button data-filter="Mixed">Mixed</button></div>
+        <div class="game-grid" id="gameGrid"></div>
+      </section>
+
+      <section class="progress-section">
+        <div class="section-head"><div><span>YOUR MASTERY</span><h2>Arcade progress</h2></div><p id="progressMessage">Play your first game to begin building mastery.</p></div>
+        <div class="progress-grid" id="progressGrid"></div>
       </section>
     </main>
 
-    <dialog class="how-dialog" id="howDialog">
-      <div><button class="dialog-close" id="closeHow" aria-label="Close">×</button><span class="dialog-kicker">HOW TO PLAY</span><h2>Learn by rescuing Cell City</h2><ol><li><b>Complete seven challenges.</b><span>Each run takes about five minutes.</span></li><li><b>Use exact NCERT knowledge.</b><span>Every answer includes its textbook location.</span></li><li><b>Face comeback cards.</b><span>Incorrect concepts return in later sessions.</span></li><li><b>Build mastery.</b><span>Repeated correct recall restores each zone.</span></li></ol><button class="play-button" id="howStart">START MISSION</button></div>
-    </dialog>
-
     <dialog class="game-dialog" id="gameDialog">
       <div class="game-shell">
-        <header class="game-top"><div><button id="quitQuest" aria-label="Quit mission">×</button><span id="missionZone">DISCOVERY BAY</span></div><div class="life-row" id="lifeRow" aria-label="Mission lives">● ● ●</div></header>
-        <div class="game-progress"><i id="gameProgress"></i></div>
-        <section class="challenge-card">
-          <div class="challenge-meta"><span id="challengeType">WHO AM I?</span><strong id="challengeNumber">1 / 7</strong></div>
-          <h2 id="challengePrompt">Loading mission…</h2>
-          <p class="challenge-clue" id="challengeClue" hidden></p>
-          <figure class="challenge-image" id="challengeImage" hidden><img alt="" /></figure>
-          <div class="answer-grid" id="answerGrid"></div>
-          <div class="feedback" id="feedback" hidden>
-            <div class="feedback-title"><span id="feedbackIcon">✓</span><strong id="feedbackTitle">System restored</strong></div>
-            <p id="feedbackText"></p>
-            <div class="ncert-source"><span>NCERT SOURCE</span><p id="sourceText"></p></div>
-            <button class="next-button" id="nextChallenge">NEXT CHALLENGE →</button>
-          </div>
+        <header class="game-header"><button class="round-button" id="closeGame" aria-label="Exit game">×</button><div><span id="gameSubject">BIOLOGY</span><strong id="gameTitle">NCERT Line Hunter</strong></div><div class="run-stats"><span id="runLives">♥ ♥ ♥</span><b id="runXp">+0 XP</b></div></header>
+        <div class="progress-bar"><i id="questionProgress"></i></div>
+        <section class="play-card">
+          <div class="question-meta"><span id="questionType">CHALLENGE</span><b id="questionCount">1 / 5</b></div>
+          <div id="gameStage"></div>
+          <div class="feedback-box" id="feedbackBox" hidden><div><span id="feedbackIcon">✓</span><strong id="feedbackHeading">Correct</strong></div><p id="feedbackExplanation"></p><aside><small>NCERT SOURCE</small><span id="feedbackSource"></span></aside><button id="nextQuestion">NEXT →</button></div>
         </section>
       </div>
     </dialog>
 
     <dialog class="result-dialog" id="resultDialog">
-      <div class="result-shell"><span class="result-kicker">MISSION COMPLETE</span><div class="result-ring" id="resultRing"><strong id="resultPercent">0%</strong><small>ACCURACY</small></div><h2 id="resultHeading">Cell City stabilised</h2><p id="resultMessage"></p><div class="result-grid"><span><small>CORRECT</small><strong id="resultCorrect">0/7</strong></span><span><small>XP EARNED</small><strong id="resultXp">+0</strong></span><span><small>COMEBACKS</small><strong id="resultComebacks">0</strong></span></div><div class="result-actions"><button class="play-button" id="playAgain">PLAY AGAIN</button><a href="preview-v2.html?course=neet#neet">BACK TO NEET PORTAL</a></div></div>
+      <div class="result-card"><span class="result-label">GAME COMPLETE</span><div class="score-ring" id="scoreRing"><strong id="scorePercent">0%</strong><small>ACCURACY</small></div><h2 id="resultTitle">Strong run!</h2><p id="resultCopy"></p><div class="result-stats"><span><small>CORRECT</small><strong id="resultCorrect">0/5</strong></span><span><small>XP EARNED</small><strong id="resultXp">+0</strong></span><span><small>BEST</small><strong id="resultBest">0%</strong></span></div><div class="result-actions"><button class="primary-button" id="playAgain">PLAY AGAIN</button><button class="ghost-button" id="chooseGame">CHOOSE ANOTHER GAME</button></div></div>
     </dialog>
 
-    <div class="toast" id="questToast" role="status" aria-live="polite"></div>
-    <script src="ncert-quest.js?v=1" defer></script>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="ncert-quest.js?v=2" defer></script>
   </body>
 </html>

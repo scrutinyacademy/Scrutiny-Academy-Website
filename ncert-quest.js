@@ -1,42 +1,35 @@
 (() => {
   "use strict";
-  const DATA_URL = "data/ncert-quest/cell-under-attack.json";
-  const STORAGE_KEY = "scrutiny_ncert_quest_v1";
-  const SESSION_SIZE = 7;
-  const TYPE_LABELS = { who: "WHO AM I?", timeline: "TIMELINE REPAIR", line: "NCERT LINE HUNTER", rescue: "CELL RESCUE", impostor: "SPOT THE IMPOSTOR", match: "MATCH LAB", sequence: "SEQUENCE SPRINT", diagram: "DIAGRAM DETECTIVE" };
-  const ZONES = ["Discovery Bay", "Theory Vault", "Cell Interior", "Prokaryote Outpost", "Ribosome Factory", "Membrane Gate", "Plant Fortress", "Organelle District", "Golgi Shipping Hub", "Power Station", "Nuclear Command", "Movement Dock"];
+  const ARCADE_URL = "data/ncert-quest/arcade.json";
+  const BOSS_URL = "data/ncert-quest/cell-under-attack.json";
+  const STORAGE_KEY = "scrutiny_ncert_arcade_v1";
+  const SESSION_SIZE = 5;
   const $ = (id) => document.getElementById(id);
-  let data;
-  let profile = loadProfile();
+  let modes = [];
+  let activeFilter = "all";
   let run = null;
+  let profile = loadProfile();
 
   function loadProfile() {
     try {
-      return { xp: 0, streak: 0, lastPlayed: "", best: 0, runs: 0, mastery: {}, ...JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") };
-    } catch (_) { return { xp: 0, streak: 0, lastPlayed: "", best: 0, runs: 0, mastery: {} }; }
+      return { xp: 0, streak: 0, lastPlayed: "", modes: {}, questions: {}, daily: {}, ...JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") };
+    } catch (_) {
+      return { xp: 0, streak: 0, lastPlayed: "", modes: {}, questions: {}, daily: {} };
+    }
   }
   function saveProfile() { localStorage.setItem(STORAGE_KEY, JSON.stringify(profile)); }
   function dayKey(date = new Date()) { return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`; }
-  function shuffled(items) {
+  function shuffle(items) {
     const copy = [...items];
     for (let i = copy.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; }
     return copy;
   }
-  function dueMissions() {
-    const now = Date.now();
-    return data.missions.filter((mission) => profile.mastery[mission.id]?.nextDue && profile.mastery[mission.id].nextDue <= now);
-  }
-  function selectMissions() {
-    const due = shuffled(dueMissions());
-    const unseen = shuffled(data.missions.filter((mission) => !profile.mastery[mission.id]));
-    const rest = shuffled(data.missions.filter((mission) => !due.includes(mission) && !unseen.includes(mission)));
-    return [...due, ...unseen, ...rest].slice(0, SESSION_SIZE);
-  }
+  function esc(value) { return String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]); }
   function toast(message) {
-    $("questToast").textContent = message;
-    $("questToast").classList.add("show");
+    $("toast").textContent = message;
+    $("toast").classList.add("show");
     clearTimeout(toast.timer);
-    toast.timer = setTimeout(() => $("questToast").classList.remove("show"), 2200);
+    toast.timer = setTimeout(() => $("toast").classList.remove("show"), 2200);
   }
   function updateStreak() {
     const today = dayKey();
@@ -45,131 +38,254 @@
     profile.streak = profile.lastPlayed === dayKey(yesterday) ? profile.streak + 1 : 1;
     profile.lastPlayed = today;
   }
-  function masteryLevel(entry = {}) { return entry.correctStreak >= 3 ? "mastered" : entry.correctStreak >= 1 ? "restoring" : "unstable"; }
-  function renderDashboard() {
-    const entries = Object.values(profile.mastery);
-    const mastered = entries.filter((entry) => masteryLevel(entry) === "mastered").length;
-    const due = data ? dueMissions().length : 0;
-    $("xpValue").textContent = profile.xp;
-    $("streakValue").textContent = `${profile.streak} 🔥`;
-    $("masteredValue").textContent = `${mastered} / ${data?.missions.length || 24}`;
-    $("masteredBar").style.width = `${Math.round((mastered / (data?.missions.length || 24)) * 100)}%`;
-    $("dueValue").textContent = `${due} due`;
-    $("bestValue").textContent = profile.runs ? `${profile.best}%` : "—";
-    if (!data) return;
-    const zones = ZONES.map((name) => {
-      const missions = data.missions.filter((mission) => mission.zone === name);
-      if (!missions.length) return null;
-      const masteredCount = missions.filter((mission) => masteryLevel(profile.mastery[mission.id]) === "mastered").length;
-      return { name, masteredCount, total: missions.length };
-    }).filter(Boolean);
-    $("zoneTrack").innerHTML = zones.map((zone, index) => `<article class="zone-card ${zone.masteredCount === zone.total ? "restored" : ""}"><small>ZONE ${String(index + 1).padStart(2, "0")}</small><strong>${zone.name}</strong><p>${zone.masteredCount} of ${zone.total} concepts mastered</p><span>${zone.masteredCount === zone.total ? "✓ RESTORED" : zone.masteredCount ? "◉ RESTORING" : "○ UNEXPLORED"}</span></article>`).join("");
-    $("mapSummary").textContent = mastered ? `${mastered} concepts permanently restored. Keep returning to stabilise every zone.` : "Start a mission to restore your first zone.";
+  function bossMode(data) {
+    return {
+      id: "boss-battle", title: "Chapter Boss Battle", icon: "♛", subject: "Biology", skill: "Chapter mastery",
+      description: "Defeat a mixed Cell: The Unit of Life boss with five challenge types.", accent: "#ff765f",
+      challenges: data.missions.map((mission) => ({ ...mission, id: `boss-${mission.id}`, source: `${data.subject} XI · ${data.chapter} · ${mission.reference.section} · printed p.${mission.reference.printedPage}` }))
+    };
   }
-  function startMission() {
-    const missions = selectMissions();
-    run = { missions, index: 0, correct: 0, lives: 3, xp: 0, comebackCount: missions.filter((mission) => profile.mastery[mission.id]?.nextDue <= Date.now()).length, locked: false };
-    $("howDialog").close();
+  function questionState(id) { return profile.questions[id] || { attempts: 0, correct: 0, streak: 0, nextDue: 0 }; }
+  function masteredQuestions() { return Object.values(profile.questions).filter((item) => item.streak >= 3).length; }
+  function selectChallenges(mode) {
+    if (mode.id === "escape-room") return [...mode.challenges];
+    const now = Date.now();
+    const due = shuffle(mode.challenges.filter((challenge) => questionState(challenge.id).nextDue && questionState(challenge.id).nextDue <= now));
+    const unseen = shuffle(mode.challenges.filter((challenge) => !questionState(challenge.id).attempts));
+    const remaining = shuffle(mode.challenges.filter((challenge) => !due.includes(challenge) && !unseen.includes(challenge)));
+    return [...due, ...unseen, ...remaining].slice(0, SESSION_SIZE);
+  }
+  function renderDashboard() {
+    $("totalXp").textContent = profile.xp;
+    $("streak").textContent = `${profile.streak} 🔥`;
+    $("mastered").textContent = masteredQuestions();
+    renderGames();
+    renderProgress();
+    renderDaily();
+  }
+  function renderGames() {
+    const visible = modes.filter((mode) => activeFilter === "all" || mode.subject === activeFilter || (activeFilter === "Mixed" && mode.subject === "Mixed"));
+    $("gameGrid").innerHTML = visible.map((mode) => {
+      const stats = profile.modes[mode.id] || { best: 0, plays: 0 };
+      return `<button class="game-card" data-mode="${mode.id}" style="--accent:${mode.accent}"><span class="game-icon">${mode.icon}</span><span class="game-copy"><small>${esc(mode.subject.toUpperCase())} · ${stats.plays ? `BEST ${stats.best}%` : "NEW"}</small><h3>${esc(mode.title)}</h3><p>${esc(mode.description)}</p><span class="game-tags"><span>${esc(mode.skill)}</span><span>${mode.challenges.length} challenges</span></span></span><span class="play-arrow">→</span></button>`;
+    }).join("");
+    $("gameGrid").querySelectorAll("[data-mode]").forEach((button) => button.addEventListener("click", () => startMode(button.dataset.mode)));
+  }
+  function renderProgress() {
+    const played = modes.filter((mode) => profile.modes[mode.id]?.plays);
+    $("progressMessage").textContent = played.length ? `${played.length} of ${modes.length} games explored · ${masteredQuestions()} concepts mastered through repeated recall.` : "Play your first game to begin building mastery.";
+    $("progressGrid").innerHTML = modes.map((mode) => {
+      const stats = profile.modes[mode.id] || { best: 0, plays: 0 };
+      return `<article class="progress-card" style="--accent:${mode.accent}"><span>${esc(mode.title)}</span><strong>${stats.plays ? `${stats.best}%` : "—"}</strong><div class="mini-progress"><i style="width:${stats.best || 0}%"></i></div></article>`;
+    }).join("");
+  }
+  function dailyMode() { return modes[new Date().getDate() % modes.length] || modes[0]; }
+  function renderDaily() {
+    const mode = dailyMode();
+    const completed = Math.min(3, profile.daily[dayKey()] || 0);
+    $("dailyTitle").textContent = mode ? `${mode.title}: complete one five-question run` : "Loading today's mission…";
+    $("dailyText").textContent = `${completed}/3 games complete`;
+    $("dailyBar").style.width = `${completed / 3 * 100}%`;
+  }
+  function startMode(modeId) {
+    const mode = modes.find((item) => item.id === modeId);
+    if (!mode) return;
+    run = { mode, challenges: selectChallenges(mode), index: 0, correct: 0, lives: 3, xp: 0, locked: false, clueCount: 1, selectedSequence: [], escapeCode: [] };
+    $("resultDialog").close();
     $("gameDialog").showModal();
+    $("gameSubject").textContent = mode.subject.toUpperCase();
+    $("gameTitle").textContent = mode.title;
     renderChallenge();
   }
   function renderChallenge() {
-    const mission = run.missions[run.index];
+    const challenge = run.challenges[run.index];
     run.locked = false;
-    $("missionZone").textContent = mission.zone.toUpperCase();
-    $("challengeType").textContent = TYPE_LABELS[mission.type] || "NCERT CHALLENGE";
-    $("challengeNumber").textContent = `${run.index + 1} / ${run.missions.length}`;
-    $("challengePrompt").textContent = mission.prompt;
-    $("challengeClue").hidden = !mission.clue;
-    $("challengeClue").textContent = mission.clue || "";
-    const image = $("challengeImage");
-    image.hidden = !mission.image;
-    if (mission.image) { image.querySelector("img").src = mission.image; image.querySelector("img").alt = mission.imageAlt || "NCERT challenge diagram"; }
-    $("feedback").hidden = true;
-    $("feedback").classList.remove("incorrect");
-    $("lifeRow").textContent = `${"● ".repeat(run.lives)}${"○ ".repeat(3 - run.lives)}`.trim();
-    $("gameProgress").style.width = `${(run.index / run.missions.length) * 100}%`;
-    $("answerGrid").innerHTML = mission.options.map((option, index) => `<button class="answer-button" data-index="${index}"><b>${String.fromCharCode(65 + index)}</b><span>${option}</span></button>`).join("");
-    $("answerGrid").querySelectorAll("button").forEach((button) => button.addEventListener("click", () => answer(Number(button.dataset.index))));
+    run.subAnswerCorrect = true;
+    run.clueCount = 1;
+    run.selectedSequence = [];
+    $("feedbackBox").hidden = true;
+    $("feedbackBox").classList.remove("incorrect");
+    $("questionType").textContent = run.mode.title.toUpperCase();
+    $("questionCount").textContent = `${run.index + 1} / ${run.challenges.length}`;
+    $("questionProgress").style.width = `${run.index / run.challenges.length * 100}%`;
+    updateRunHeader();
+    const renderers = { "line-hunter": renderLine, "who-am-i": renderWho, "sequence-sprint": renderSequence, "physics-lab": renderPhysics, "reaction-forge": renderReaction, "treasure-hunt": renderTreasure, "diagram-detective": renderDiagram, "escape-room": renderEscape };
+    (renderers[run.mode.id] || renderChoice)(challenge);
   }
-  function answer(selected) {
+  function updateRunHeader() {
+    $("runLives").textContent = `${"♥ ".repeat(run.lives)}${"♡ ".repeat(3 - run.lives)}`.trim();
+    $("runXp").textContent = `+${run.xp} XP`;
+  }
+  function heading(prompt, instruction = "Choose the best answer.") { return `<h2>${esc(prompt)}</h2><p class="instruction">${esc(instruction)}</p>`; }
+  function choiceMarkup(options) { return `<div class="choice-grid">${options.map((option, index) => `<button class="choice" data-choice="${index}"><b>${String.fromCharCode(65 + index)}</b><span>${esc(option)}</span></button>`).join("")}</div>`; }
+  function bindChoices(challenge) { $("gameStage").querySelectorAll("[data-choice]").forEach((button) => button.addEventListener("click", () => answerChoice(challenge, Number(button.dataset.choice)))); }
+  function renderChoice(challenge) {
+    $("gameStage").innerHTML = heading(challenge.prompt) + choiceMarkup(challenge.options);
+    bindChoices(challenge);
+  }
+  function renderDiagram(challenge) {
+    $("gameStage").innerHTML = heading(challenge.prompt, "Inspect the diagram before choosing.") + `<figure class="diagram-frame"><img src="${esc(challenge.image)}" alt="${esc(challenge.alt)}"></figure>` + choiceMarkup(challenge.options);
+    bindChoices(challenge);
+  }
+  function renderPhysics(challenge) {
+    $("gameStage").innerHTML = heading(challenge.prompt, "First select the correct formula, then calculate the repair value.") + `<div class="formula-card"><small>STEP 1 · SELECT A FORMULA</small><div class="choice-grid">${challenge.formulaOptions.map((formula, index) => `<button class="choice" data-formula="${index}"><b>${index + 1}</b><span>${esc(formula)}</span></button>`).join("")}</div></div><div id="physicsValue" hidden><p class="instruction">STEP 2 · Calculate and select the value.</p>${choiceMarkup(challenge.options)}</div>`;
+    $("gameStage").querySelectorAll("[data-formula]").forEach((button) => button.addEventListener("click", () => {
+      const selected = Number(button.dataset.formula);
+      run.subAnswerCorrect = selected === challenge.formulaAnswer;
+      $("gameStage").querySelectorAll("[data-formula]").forEach((item, index) => { item.disabled = true; if (index === challenge.formulaAnswer) item.classList.add("correct"); if (index === selected && !run.subAnswerCorrect) item.classList.add("wrong"); });
+      $("physicsValue").hidden = false;
+      bindChoices(challenge);
+    }));
+  }
+  function renderReaction(challenge) {
+    $("gameStage").innerHTML = heading(challenge.prompt, "Use the reagent and condition to forge the product.") + `<div class="reaction-card"><small>REACTION FORGE</small><strong>${esc(challenge.equation)}</strong><span>Condition: ${esc(challenge.condition)}</span></div>` + choiceMarkup(challenge.options);
+    bindChoices(challenge);
+  }
+  function renderTreasure(challenge) {
+    $("gameStage").innerHTML = heading(challenge.prompt, "Follow the clue to locate the NCERT treasure.") + `<div class="treasure-hint"><small>MAP HINT</small>${esc(challenge.hint)}</div>` + choiceMarkup(challenge.options);
+    bindChoices(challenge);
+  }
+  function renderEscape(challenge) {
+    const code = run.escapeCode.length ? run.escapeCode.join(" ") : "_ _ _ _ _";
+    $("gameStage").innerHTML = heading(challenge.prompt, "Solve every door to reveal the five-letter exit code.") + `<div class="escape-code"><small>EXIT CODE</small><b>${esc(code)}</b></div>` + choiceMarkup(challenge.options);
+    bindChoices(challenge);
+  }
+  function renderWho(challenge) {
+    $("gameStage").innerHTML = heading("Who am I?", "Reveal fewer clues to earn the full recall bonus.") + `<div class="clue-panel" id="cluePanel">${challenge.clues.slice(0, 1).map((clue, i) => `<p>CLUE ${i + 1}: ${esc(clue)}</p>`).join("")}</div><button class="reveal-clue" id="revealClue">REVEAL ANOTHER CLUE</button>` + choiceMarkup(challenge.options);
+    $("revealClue").addEventListener("click", () => {
+      if (run.clueCount >= challenge.clues.length) return toast("All clues are already visible.");
+      run.clueCount += 1;
+      $("cluePanel").innerHTML = challenge.clues.slice(0, run.clueCount).map((clue, i) => `<p>CLUE ${i + 1}: ${esc(clue)}</p>`).join("");
+      if (run.clueCount === challenge.clues.length) $("revealClue").disabled = true;
+    });
+    bindChoices(challenge);
+  }
+  function renderLine(challenge) {
+    const tokens = challenge.sentence.split(/\s+/);
+    $("gameStage").innerHTML = heading("Find the altered word", "Tap the one word that makes this NCERT statement incorrect.") + `<div class="line-statement">${tokens.map((token, index) => `<button class="word-token" data-word="${index}">${esc(token)}</button>`).join("")}</div><div class="repair-box" id="repairBox" hidden></div>`;
+    $("gameStage").querySelectorAll("[data-word]").forEach((button) => button.addEventListener("click", () => {
+      if (run.locked) return;
+      const raw = tokens[Number(button.dataset.word)].replace(/[.,;:!?“”"']/g, "");
+      const target = challenge.wrong.replace(/[.,;:!?“”"']/g, "");
+      const correct = raw.toLowerCase() === target.toLowerCase();
+      button.classList.add(correct ? "wrong" : "missed");
+      if (correct) { $("repairBox").hidden = false; $("repairBox").textContent = `Repair: ${challenge.wrong} → ${challenge.repair}`; }
+      finishAnswer(challenge, correct);
+    }));
+  }
+  function renderSequence(challenge) {
+    const scrambled = shuffle(challenge.items);
+    $("gameStage").innerHTML = heading(challenge.prompt, "Tap the steps in order. Tap a selected step to return it.") + `<div class="sequence-answer" id="sequenceAnswer"><span class="instruction">Your sequence appears here</span></div><div class="sequence-bank" id="sequenceBank">${scrambled.map((item, index) => `<button class="sequence-token" data-item="${index}">${esc(item)}</button>`).join("")}</div><button class="check-sequence" id="checkSequence">CHECK SEQUENCE</button>`;
+    const bank = $("sequenceBank"), answer = $("sequenceAnswer");
+    bank.querySelectorAll("[data-item]").forEach((button) => button.addEventListener("click", () => {
+      if (run.locked) return;
+      if (button.parentElement === bank) {
+        if (!run.selectedSequence.length) answer.innerHTML = "";
+        run.selectedSequence.push(button.textContent);
+        button.dataset.order = run.selectedSequence.length;
+        answer.appendChild(button);
+      } else {
+        const index = run.selectedSequence.indexOf(button.textContent);
+        if (index >= 0) run.selectedSequence.splice(index, 1);
+        bank.appendChild(button);
+        [...answer.querySelectorAll("[data-item]")].forEach((item, i) => item.dataset.order = i + 1);
+        if (!run.selectedSequence.length) answer.innerHTML = '<span class="instruction">Your sequence appears here</span>';
+      }
+    }));
+    $("checkSequence").addEventListener("click", () => {
+      if (run.selectedSequence.length !== challenge.items.length) return toast("Place every step before checking.");
+      const correct = run.selectedSequence.every((item, index) => item === challenge.items[index]);
+      finishAnswer(challenge, correct);
+    });
+  }
+  function answerChoice(challenge, selected) {
+    if (run.locked) return;
+    const correct = selected === challenge.answer && run.subAnswerCorrect;
+    $("gameStage").querySelectorAll("[data-choice]").forEach((button, index) => {
+      button.disabled = true;
+      if (index === challenge.answer) button.classList.add("correct");
+      if (index === selected && !correct) button.classList.add("wrong");
+    });
+    if (run.mode.id === "escape-room") run.escapeCode.push(correct ? challenge.code : "×");
+    finishAnswer(challenge, correct);
+  }
+  function finishAnswer(challenge, correct) {
     if (run.locked) return;
     run.locked = true;
-    const mission = run.missions[run.index];
-    const correct = selected === mission.answer;
-    const buttons = [...$("answerGrid").querySelectorAll("button")];
-    buttons.forEach((button, index) => { button.disabled = true; if (index === mission.answer) button.classList.add("correct"); if (index === selected && !correct) button.classList.add("wrong"); });
-    if (correct) { run.correct += 1; run.xp += 15; } else { run.lives = Math.max(0, run.lives - 1); run.xp += 3; }
-    const previous = profile.mastery[mission.id] || { attempts: 0, correct: 0, correctStreak: 0, intervalIndex: 0 };
-    previous.attempts += 1;
+    let gained = correct ? 15 : 3;
+    if (run.mode.id === "who-am-i" && correct) gained += (3 - run.clueCount) * 3;
+    if (correct) run.correct += 1; else run.lives = Math.max(0, run.lives - 1);
+    run.xp += gained;
+    const state = questionState(challenge.id);
+    state.attempts += 1;
     if (correct) {
-      previous.correct += 1;
-      previous.correctStreak += 1;
+      state.correct += 1; state.streak += 1;
       const intervals = [1, 3, 7, 14, 30];
-      previous.intervalIndex = Math.min((previous.intervalIndex || 0) + 1, intervals.length - 1);
-      previous.nextDue = Date.now() + intervals[previous.intervalIndex] * 86400000;
+      state.nextDue = Date.now() + intervals[Math.min(state.streak - 1, intervals.length - 1)] * 86400000;
     } else {
-      previous.correctStreak = 0;
-      previous.intervalIndex = 0;
-      previous.nextDue = Date.now() + 5 * 60000;
+      state.streak = 0; state.nextDue = Date.now() + 5 * 60000;
     }
-    profile.mastery[mission.id] = previous;
+    profile.questions[challenge.id] = state;
     saveProfile();
-    $("feedback").hidden = false;
-    $("feedback").classList.toggle("incorrect", !correct);
+    updateRunHeader();
+    $("feedbackBox").hidden = false;
+    $("feedbackBox").classList.toggle("incorrect", !correct);
     $("feedbackIcon").textContent = correct ? "✓" : "!";
-    $("feedbackTitle").textContent = correct ? "System restored" : "Comeback card created";
-    $("feedbackText").textContent = mission.explanation;
-    $("sourceText").textContent = `${data.chapter} · ${mission.reference.section} · Printed page ${mission.reference.printedPage} · PDF page ${mission.reference.pdfPage}`;
-    $("nextChallenge").textContent = run.index === run.missions.length - 1 ? "COMPLETE MISSION →" : "NEXT CHALLENGE →";
-    $("lifeRow").textContent = `${"● ".repeat(run.lives)}${"○ ".repeat(3 - run.lives)}`.trim();
+    $("feedbackHeading").textContent = correct ? `Correct · +${gained} XP` : "Comeback card created";
+    $("feedbackExplanation").textContent = challenge.explanation;
+    $("feedbackSource").textContent = challenge.source;
+    $("nextQuestion").textContent = run.index === run.challenges.length - 1 ? "FINISH GAME →" : "NEXT CHALLENGE →";
   }
-  function nextChallenge() {
-    if (!run?.locked) return toast("Choose an answer first.");
+  function nextQuestion() {
+    if (!run?.locked) return toast("Complete the challenge first.");
     run.index += 1;
-    if (run.index >= run.missions.length) return finishMission();
-    renderChallenge();
+    if (run.index >= run.challenges.length) finishRun(); else renderChallenge();
   }
-  function finishMission() {
+  function finishRun() {
     updateStreak();
     profile.xp += run.xp;
-    profile.runs += 1;
-    const percent = Math.round((run.correct / run.missions.length) * 100);
-    profile.best = Math.max(profile.best || 0, percent);
+    const percent = Math.round(run.correct / run.challenges.length * 100);
+    const stats = profile.modes[run.mode.id] || { best: 0, plays: 0 };
+    stats.plays += 1; stats.best = Math.max(stats.best, percent); stats.lastPlayed = Date.now();
+    profile.modes[run.mode.id] = stats;
+    profile.daily[dayKey()] = (profile.daily[dayKey()] || 0) + 1;
     saveProfile();
     $("gameDialog").close();
-    $("resultPercent").textContent = `${percent}%`;
-    $("resultRing").style.setProperty("--score", `${percent}%`);
-    $("resultHeading").textContent = percent >= 86 ? "Cell City restored!" : percent >= 60 ? "Cell City stabilised" : "The rescue continues";
-    $("resultMessage").textContent = percent >= 86 ? "Excellent NCERT recall. Your restored concepts are now scheduled for future reinforcement." : "Your weak concepts have become comeback cards and will return until they are mastered.";
-    $("resultCorrect").textContent = `${run.correct}/${run.missions.length}`;
+    $("scorePercent").textContent = `${percent}%`;
+    $("scoreRing").style.setProperty("--score", `${percent}%`);
+    $("resultTitle").textContent = percent === 100 ? "Perfect NCERT run!" : percent >= 80 ? "Excellent recall!" : percent >= 60 ? "Strong progress!" : "Comeback cards ready";
+    $("resultCopy").textContent = percent >= 80 ? "Your recalled concepts are scheduled for spaced reinforcement." : "Missed concepts will return in future sessions until they are mastered.";
+    $("resultCorrect").textContent = `${run.correct}/${run.challenges.length}`;
     $("resultXp").textContent = `+${run.xp}`;
-    $("resultComebacks").textContent = run.missions.length - run.correct;
+    $("resultBest").textContent = `${stats.best}%`;
     $("resultDialog").showModal();
     renderDashboard();
   }
-  function quitMission() {
-    if (confirm("Quit this mission? Your answered concepts are already saved.")) { $("gameDialog").close(); run = null; renderDashboard(); }
+  function quitGame() {
+    if (!run || confirm("Exit this game? Answered concepts are already saved.")) { $("gameDialog").close(); run = null; }
   }
   async function init() {
     try {
-      const response = await fetch(DATA_URL);
-      if (!response.ok) throw new Error(`Quest data ${response.status}`);
-      data = await response.json();
+      const [arcadeResponse, bossResponse] = await Promise.all([fetch(ARCADE_URL), fetch(BOSS_URL)]);
+      if (!arcadeResponse.ok || !bossResponse.ok) throw new Error("Arcade data unavailable");
+      const arcade = await arcadeResponse.json();
+      const boss = await bossResponse.json();
+      modes = [...arcade.modes, bossMode(boss)];
       renderDashboard();
     } catch (error) {
-      console.error(error);
-      $("startQuest").disabled = true;
-      toast("Mission data could not be loaded. Please refresh.");
+      console.error(error); toast("Game data could not be loaded. Please refresh.");
     }
   }
-  $("startQuest").addEventListener("click", () => data && startMission());
-  $("openHow").addEventListener("click", () => $("howDialog").showModal());
-  $("closeHow").addEventListener("click", () => $("howDialog").close());
-  $("howStart").addEventListener("click", () => data && startMission());
-  $("nextChallenge").addEventListener("click", nextChallenge);
-  $("quitQuest").addEventListener("click", quitMission);
-  $("playAgain").addEventListener("click", () => { $("resultDialog").close(); startMission(); });
+  document.querySelectorAll("[data-filter]").forEach((button) => button.addEventListener("click", () => {
+    document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("active", item === button));
+    activeFilter = button.dataset.filter; renderGames();
+  }));
+  $("quickPlay").addEventListener("click", () => modes.length && startMode(shuffle(modes)[0].id));
+  $("dailyPlay").addEventListener("click", () => dailyMode() && startMode(dailyMode().id));
+  $("closeGame").addEventListener("click", quitGame);
+  $("nextQuestion").addEventListener("click", nextQuestion);
+  $("playAgain").addEventListener("click", () => startMode(run.mode.id));
+  $("chooseGame").addEventListener("click", () => { $("resultDialog").close(); $("gameModes").scrollIntoView({ behavior: "smooth" }); });
   init();
   if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("./sw.js").catch(console.error));
 })();

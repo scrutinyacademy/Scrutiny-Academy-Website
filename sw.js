@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v36-ncert-quest";
+const CACHE = "scrutiny-academy-v37-ncert-arcade";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -16,8 +16,8 @@ const APP_SHELL = [
   "./v2-core.js",
   "./ranker-free.css",
   "./ranker-free.js",
-  "./ncert-quest.css?v=1",
-  "./ncert-quest.js?v=1",
+  "./ncert-quest.css?v=2",
+  "./ncert-quest.js?v=2",
   "./ncert-quest-gate.js",
   "./ncert-booster.js",
   "./learning-tools.js",
@@ -88,6 +88,7 @@ const APP_SHELL = [
   "./data/neet/class11-chemistry-bank.js",
   "./data/neet/ranker/cell-unit-of-life.json",
   "./data/ncert-quest/cell-under-attack.json",
+  "./data/ncert-quest/arcade.json",
 ];
 
 self.addEventListener("install", (event) => {
