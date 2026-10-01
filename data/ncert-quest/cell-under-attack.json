@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "id": "cell-under-attack",
+  "title": "Cell Under Attack",
+  "chapter": "Cell: The Unit of Life",
+  "classLevel": 11,
+  "subject": "Biology",
+  "editionNote": "References use the indexed NCERT Biology source currently published by Scrutiny Academy.",
+  "missions": [
+    {
+      "id": "cell-live-observer",
+      "type": "who",
+      "zone": "Discovery Bay",
+      "prompt": "A scientist is transmitting from the first live-cell observation. Identify the scientist.",
+      "clue": "He used an improved microscope and described living cells.",
+      "options": ["Robert Hooke", "Antonie van Leeuwenhoek", "Robert Brown", "Rudolf Virchow"],
+      "answer": 1,
+      "explanation": "Antonie van Leeuwenhoek first saw and described a live cell.",
+      "reference": { "printedPage": 87, "pdfPage": 3, "section": "Cell Theory" }
+    },
+    {
+      "id": "cell-nucleus-discovery",
+      "type": "who",
+      "zone": "Discovery Bay",
+      "prompt": "The nucleus archive has lost its discoverer's name. Restore it.",
+      "clue": "The discovery was reported in 1831.",
+      "options": ["Theodor Schwann", "Robert Brown", "George Palade", "Matthias Schleiden"],
+      "answer": 1,
+      "explanation": "Robert Brown discovered the nucleus.",
+      "reference": { "printedPage": 87, "pdfPage": 3, "section": "Cell Theory" }
+    },
+    {
+      "id": "cell-schleiden",
+      "type": "timeline",
+      "zone": "Theory Vault",
+      "prompt": "Which event belongs at 1838 on the cell-theory timeline?",
+      "options": ["Schwann studied animal cells", "Schleiden examined plant tissues", "Virchow proposed that cells arise from cells", "Brown discovered the nucleus"],
+      "answer": 1,
+      "explanation": "In 1838, Matthias Schleiden examined plant tissues and concluded that plants are composed of cells.",
+      "reference": { "printedPage": 87, "pdfPage": 3, "section": "Cell Theory" }
+    },
+    {
+      "id": "cell-schwann",
+      "type": "timeline",
+      "zone": "Theory Vault",
+      "prompt": "Which observation belongs to Theodor Schwann's 1839 report?",
+      "options": ["Animal cells possess a thin outer plasma membrane", "All cells contain chloroplasts", "The nucleus controls heredity", "Cells arise spontaneously"],
+      "answer": 0,
+      "explanation": "Schwann studied animal cells and reported a thin outer layer now called the plasma membrane.",
+      "reference": { "printedPage": 88, "pdfPage": 4, "section": "Cell Theory" }
+    },
+    {
+      "id": "cell-virchow",
+      "type": "line",
+      "zone": "Theory Vault",
+      "prompt": "Repair the corrupted cell-theory line: “New cells arise from non-living matter.”",
+      "clue": "Tap the replacement for the corrupted phrase.",
+      "options": ["pre-existing cells", "cell organelles", "intercellular matrix", "nuclear material"],
+      "answer": 0,
+      "explanation": "Virchow explained that new cells arise from pre-existing cells: Omnis cellula-e cellula.",
+      "reference": { "printedPage": 88, "pdfPage": 4, "section": "Cell Theory" }
+    },
+    {
+      "id": "cell-basic-unit",
+      "type": "line",
+      "zone": "Theory Vault",
+      "prompt": "Complete the NCERT idea: The basic structural and functional unit of life is the ____.",
+      "options": ["tissue", "cell", "organelle", "molecule"],
+      "answer": 1,
+      "explanation": "The cell is the basic structural and functional unit of life.",
+      "reference": { "printedPage": 87, "pdfPage": 3, "section": "What is a Cell?" }
+    },
+    {
+      "id": "cell-cytoplasm",
+      "type": "rescue",
+      "zone": "Cell Interior",
+      "prompt": "Most cellular chemical activity has stopped. Which region must be restored first?",
+      "options": ["Middle lamella", "Cytoplasm", "Cell wall", "Glycocalyx"],
+      "answer": 1,
+      "explanation": "The cytoplasm is the principal arena of cellular activities in both plant and animal cells.",
+      "reference": { "printedPage": 88, "pdfPage": 4, "section": "An Overview of Cell" }
+    },
+    {
+      "id": "cell-prokaryote-nucleus",
+      "type": "impostor",
+      "zone": "Prokaryote Outpost",
+      "prompt": "Which feature cannot belong to a prokaryotic cell?",
+      "options": ["Naked circular DNA", "70S ribosomes", "Membrane-bound nucleus", "Plasma membrane"],
+      "answer": 2,
+      "explanation": "Prokaryotic cells lack a membrane-bound nucleus; their genetic material lies in a nucleoid.",
+      "reference": { "printedPage": 88, "pdfPage": 4, "section": "An Overview of Cell" }
+    },
+    {
+      "id": "cell-mesosome",
+      "type": "match",
+      "zone": "Prokaryote Outpost",
+      "prompt": "Match the prokaryotic structure to NCERT's description: plasma-membrane infoldings in the form of vesicles, tubules and lamellae.",
+      "options": ["Mesosome", "Chromatophore", "Pilus", "Inclusion body"],
+      "answer": 0,
+      "explanation": "NCERT describes mesosomes as extensions of the plasma membrane into the cell, appearing as vesicles, tubules and lamellae.",
+      "reference": { "printedPage": 91, "pdfPage": 7, "section": "Cell Envelope and Its Modifications" }
+    },
+    {
+      "id": "cell-glycocalyx",
+      "type": "line",
+      "zone": "Prokaryote Outpost",
+      "prompt": "The outermost layer of the bacterial cell envelope is the ____.",
+      "options": ["cell wall", "glycocalyx", "plasma membrane", "mesosome"],
+      "answer": 1,
+      "explanation": "The bacterial cell envelope consists of glycocalyx, cell wall and plasma membrane; glycocalyx is outermost.",
+      "reference": { "printedPage": 90, "pdfPage": 6, "section": "Cell Envelope and Its Modifications" }
+    },
+    {
+      "id": "cell-gram-negative",
+      "type": "impostor",
+      "zone": "Prokaryote Outpost",
+      "prompt": "After Gram staining, one group does not retain the stain. What is it called?",
+      "options": ["Gram positive", "Gram negative", "Acid-fast", "Facultative"],
+      "answer": 1,
+      "explanation": "Bacteria that do not retain the Gram stain are called Gram-negative bacteria.",
+      "reference": { "printedPage": 90, "pdfPage": 6, "section": "Cell Envelope and Its Modifications" }
+    },
+    {
+      "id": "cell-ribosome-prok",
+      "type": "match",
+      "zone": "Ribosome Factory",
+      "prompt": "Build a prokaryotic ribosome. Which complete particle should the factory assemble?",
+      "options": ["80S", "70S", "60S", "50S"],
+      "answer": 1,
+      "explanation": "Prokaryotic ribosomes are 70S particles made of 50S and 30S subunits.",
+      "reference": { "printedPage": 92, "pdfPage": 8, "section": "Ribosomes and Inclusion Bodies" }
+    },
+    {
+      "id": "cell-ribosome-euk",
+      "type": "match",
+      "zone": "Ribosome Factory",
+      "prompt": "Which ribosome is found in the eukaryotic cytoplasm?",
+      "options": ["70S", "80S", "50S", "30S"],
+      "answer": 1,
+      "explanation": "The cytoplasmic ribosomes of eukaryotic cells are 80S particles.",
+      "reference": { "printedPage": 101, "pdfPage": 17, "section": "Ribosomes" }
+    },
+    {
+      "id": "cell-fluid-mosaic",
+      "type": "who",
+      "zone": "Membrane Gate",
+      "prompt": "Who proposed the fluid mosaic model of the plasma membrane?",
+      "options": ["Watson and Crick", "Singer and Nicolson", "Schleiden and Schwann", "Hooke and Brown"],
+      "answer": 1,
+      "explanation": "Singer and Nicolson proposed the fluid mosaic model in 1972.",
+      "reference": { "printedPage": 94, "pdfPage": 10, "section": "Cell Membrane" }
+    },
+    {
+      "id": "cell-membrane-lipid",
+      "type": "diagram",
+      "zone": "Membrane Gate",
+      "prompt": "In the membrane diagram, the polar heads face which environment?",
+      "image": "assets/ranker/plasma-membrane.png",
+      "imageAlt": "A labelled educational diagram of the plasma membrane",
+      "options": ["Only the bilayer centre", "Aqueous surroundings", "Only integral proteins", "Fatty-acid tails"],
+      "answer": 1,
+      "explanation": "Polar lipid heads face the aqueous exterior and cytosol, while hydrophobic tails face inward.",
+      "reference": { "printedPage": 94, "pdfPage": 10, "section": "Cell Membrane" }
+    },
+    {
+      "id": "cell-middle-lamella",
+      "type": "line",
+      "zone": "Plant Fortress",
+      "prompt": "Repair this line: “The middle lamella is mainly composed of calcium carbonate.”",
+      "clue": "Replace the corrupted chemical term.",
+      "options": ["calcium pectate", "cellulose", "chitin", "peptidoglycan"],
+      "answer": 0,
+      "explanation": "The middle lamella is mainly composed of calcium pectate and holds neighbouring cells together.",
+      "reference": { "printedPage": 95, "pdfPage": 11, "section": "Cell Wall" }
+    },
+    {
+      "id": "cell-endomembrane",
+      "type": "impostor",
+      "zone": "Organelle District",
+      "prompt": "Which organelle is NOT considered part of the endomembrane system?",
+      "options": ["Endoplasmic reticulum", "Golgi complex", "Lysosome", "Mitochondrion"],
+      "answer": 3,
+      "explanation": "The endomembrane system includes ER, Golgi complex, lysosomes and vacuoles; mitochondria function independently of it.",
+      "reference": { "printedPage": 96, "pdfPage": 12, "section": "Endomembrane System" }
+    },
+    {
+      "id": "cell-rer",
+      "type": "rescue",
+      "zone": "Organelle District",
+      "prompt": "A secretory cell has stopped producing export proteins. Which structure needs urgent repair?",
+      "options": ["Smooth endoplasmic reticulum", "Rough endoplasmic reticulum", "Peroxisome", "Centriole"],
+      "answer": 1,
+      "explanation": "RER bears ribosomes and is prominent in cells actively involved in protein synthesis and secretion.",
+      "reference": { "printedPage": 96, "pdfPage": 12, "section": "Endoplasmic Reticulum" }
+    },
+    {
+      "id": "cell-golgi-cis",
+      "type": "sequence",
+      "zone": "Golgi Shipping Hub",
+      "prompt": "A transport vesicle from the ER reaches the Golgi. Which face receives it first?",
+      "options": ["Trans face", "Cis face", "Lumenal face", "Matrix face"],
+      "answer": 1,
+      "explanation": "The cis or forming face of the Golgi is usually located near the ER and receives material; the trans face dispatches it.",
+      "reference": { "printedPage": 97, "pdfPage": 13, "section": "Golgi Apparatus" }
+    },
+    {
+      "id": "cell-lysosome",
+      "type": "rescue",
+      "zone": "Organelle District",
+      "prompt": "A vesicle must digest carbohydrates, proteins, lipids and nucleic acids. Choose the correct organelle.",
+      "options": ["Lysosome", "Centriole", "Nucleolus", "Ribosome"],
+      "answer": 0,
+      "explanation": "Lysosomes contain hydrolytic enzymes active at acidic pH and can digest these macromolecules.",
+      "reference": { "printedPage": 98, "pdfPage": 14, "section": "Lysosomes" }
+    },
+    {
+      "id": "cell-mito-cristae",
+      "type": "diagram",
+      "zone": "Power Station",
+      "prompt": "Which labelled structural idea increases the inner mitochondrial membrane's surface area?",
+      "image": "assets/ranker/mitochondrion.png",
+      "imageAlt": "A labelled educational diagram of a mitochondrion",
+      "options": ["Cristae", "Cisternae", "Thylakoids", "Grana"],
+      "answer": 0,
+      "explanation": "The inner mitochondrial membrane forms infoldings called cristae, increasing surface area.",
+      "reference": { "printedPage": 99, "pdfPage": 15, "section": "Mitochondria" }
+    },
+    {
+      "id": "cell-plastid-pigments",
+      "type": "match",
+      "zone": "Plant Fortress",
+      "prompt": "Match the plastid: coloured pigments other than chlorophyll are stored in ____.",
+      "options": ["Leucoplasts", "Chromoplasts", "Amyloplasts", "Elaioplasts"],
+      "answer": 1,
+      "explanation": "Chromoplasts contain fat-soluble carotenoid pigments such as carotene and xanthophylls.",
+      "reference": { "printedPage": 99, "pdfPage": 15, "section": "Plastids" }
+    },
+    {
+      "id": "cell-nucleolus",
+      "type": "rescue",
+      "zone": "Nuclear Command",
+      "prompt": "Ribosomal RNA production has failed. Which non-membranous nuclear structure should be inspected?",
+      "options": ["Nucleolus", "Nuclear pore", "Chromatin", "Centromere"],
+      "answer": 0,
+      "explanation": "The nucleolus is not membrane-bound and is the site of active ribosomal RNA synthesis.",
+      "reference": { "printedPage": 102, "pdfPage": 18, "section": "Nucleus" }
+    },
+    {
+      "id": "cell-cilia-axoneme",
+      "type": "match",
+      "zone": "Movement Dock",
+      "prompt": "Choose the microtubule arrangement in the axoneme of eukaryotic cilia and flagella.",
+      "options": ["9 + 2", "9 + 0", "8 + 2", "7 + 2"],
+      "answer": 0,
+      "explanation": "The axoneme usually has nine peripheral doublets and two central microtubules: the 9 + 2 arrangement.",
+      "reference": { "printedPage": 103, "pdfPage": 19, "section": "Cilia and Flagella" }
+    }
+  ]
+}
