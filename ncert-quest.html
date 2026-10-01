@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="auth-check">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#061f35" />
+    <title>NCERT Quest | Scrutiny Academy</title>
+    <meta name="description" content="Play short NCERT-powered Biology missions and build durable NEET recall." />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="ncert-quest.css?v=1" />
+    <style>.auth-check body{visibility:hidden}</style>
+    <script type="module" src="ncert-quest-gate.js"></script>
+  </head>
+  <body>
+    <div class="quest-noise" aria-hidden="true"></div>
+    <header class="quest-header">
+      <a class="quest-brand" href="preview-v2.html?course=neet#neet"><img src="assets/logo.svg" alt="Scrutiny Academy" /><span><strong>NCERT QUEST</strong><small>BY SCRUTINY ACADEMY</small></span></a>
+      <div class="header-stats" aria-label="Quest statistics"><span><small>XP</small><strong id="xpValue">0</strong></span><span><small>STREAK</small><strong id="streakValue">0 🔥</strong></span></div>
+      <a class="exit-link" href="preview-v2.html?course=neet#neet">Exit game</a>
+    </header>
+
+    <main>
+      <section class="quest-home" id="questHome">
+        <div class="hero-copy">
+          <span class="live-chip"><i></i> FIRST MISSION LIVE</span>
+          <p class="overline">CLASS 11 BIOLOGY · NCERT-POWERED</p>
+          <h1>Cell Under <em>Attack</em></h1>
+          <p class="hero-text">The cell city is failing. Restore its systems using exact NCERT knowledge before the damage spreads.</p>
+          <div class="hero-actions">
+            <button class="play-button" id="startQuest"><span>▶</span> START 5-MINUTE MISSION</button>
+            <button class="secondary-button" id="openHow">HOW TO PLAY</button>
+          </div>
+          <div class="proof-row"><span>24 NCERT challenges</span><span>Instant explanations</span><span>Smart mistake comeback</span></div>
+        </div>
+        <div class="cell-visual" aria-hidden="true">
+          <div class="orbit orbit-one"><b></b></div><div class="orbit orbit-two"><b></b></div>
+          <div class="cell-core"><span></span><i></i><b></b><em></em></div>
+          <div class="danger-pulse"></div>
+          <p>SYSTEM INTEGRITY <strong>42%</strong></p>
+        </div>
+      </section>
+
+      <section class="mission-map" id="missionMap">
+        <div class="section-heading"><div><span>YOUR PROGRESS</span><h2>Cell City Map</h2></div><p id="mapSummary">Start a mission to restore your first zone.</p></div>
+        <div class="zone-track" id="zoneTrack"></div>
+      </section>
+
+      <section class="mastery-panel">
+        <article><span class="panel-icon">🧠</span><div><small>MASTERED CONCEPTS</small><strong id="masteredValue">0 / 24</strong><div class="tiny-bar"><i id="masteredBar"></i></div></div></article>
+        <article><span class="panel-icon">↻</span><div><small>COMEBACK CARDS</small><strong id="dueValue">0 due</strong><p>Mistakes return until mastered.</p></div></article>
+        <article><span class="panel-icon">⚡</span><div><small>BEST RUN</small><strong id="bestValue">—</strong><p>Your highest mission accuracy.</p></div></article>
+      </section>
+    </main>
+
+    <dialog class="how-dialog" id="howDialog">
+      <div><button class="dialog-close" id="closeHow" aria-label="Close">×</button><span class="dialog-kicker">HOW TO PLAY</span><h2>Learn by rescuing Cell City</h2><ol><li><b>Complete seven challenges.</b><span>Each run takes about five minutes.</span></li><li><b>Use exact NCERT knowledge.</b><span>Every answer includes its textbook location.</span></li><li><b>Face comeback cards.</b><span>Incorrect concepts return in later sessions.</span></li><li><b>Build mastery.</b><span>Repeated correct recall restores each zone.</span></li></ol><button class="play-button" id="howStart">START MISSION</button></div>
+    </dialog>
+
+    <dialog class="game-dialog" id="gameDialog">
+      <div class="game-shell">
+        <header class="game-top"><div><button id="quitQuest" aria-label="Quit mission">×</button><span id="missionZone">DISCOVERY BAY</span></div><div class="life-row" id="lifeRow" aria-label="Mission lives">● ● ●</div></header>
+        <div class="game-progress"><i id="gameProgress"></i></div>
+        <section class="challenge-card">
+          <div class="challenge-meta"><span id="challengeType">WHO AM I?</span><strong id="challengeNumber">1 / 7</strong></div>
+          <h2 id="challengePrompt">Loading mission…</h2>
+          <p class="challenge-clue" id="challengeClue" hidden></p>
+          <figure class="challenge-image" id="challengeImage" hidden><img alt="" /></figure>
+          <div class="answer-grid" id="answerGrid"></div>
+          <div class="feedback" id="feedback" hidden>
+            <div class="feedback-title"><span id="feedbackIcon">✓</span><strong id="feedbackTitle">System restored</strong></div>
+            <p id="feedbackText"></p>
+            <div class="ncert-source"><span>NCERT SOURCE</span><p id="sourceText"></p></div>
+            <button class="next-button" id="nextChallenge">NEXT CHALLENGE →</button>
+          </div>
+        </section>
+      </div>
+    </dialog>
+
+    <dialog class="result-dialog" id="resultDialog">
+      <div class="result-shell"><span class="result-kicker">MISSION COMPLETE</span><div class="result-ring" id="resultRing"><strong id="resultPercent">0%</strong><small>ACCURACY</small></div><h2 id="resultHeading">Cell City stabilised</h2><p id="resultMessage"></p><div class="result-grid"><span><small>CORRECT</small><strong id="resultCorrect">0/7</strong></span><span><small>XP EARNED</small><strong id="resultXp">+0</strong></span><span><small>COMEBACKS</small><strong id="resultComebacks">0</strong></span></div><div class="result-actions"><button class="play-button" id="playAgain">PLAY AGAIN</button><a href="preview-v2.html?course=neet#neet">BACK TO NEET PORTAL</a></div></div>
+    </dialog>
+
+    <div class="toast" id="questToast" role="status" aria-live="polite"></div>
+    <script src="ncert-quest.js?v=1" defer></script>
+  </body>
+</html>

@@ -1,9 +1,10 @@
-const CACHE = "scrutiny-academy-v35-formula-source";
+const CACHE = "scrutiny-academy-v36-ncert-quest";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
   "./preview-v2.html",
   "./neet-ranker-free.html",
+  "./ncert-quest.html",
   "./auth.css",
   "./auth.js",
   "./student.js",
@@ -15,6 +16,9 @@ const APP_SHELL = [
   "./v2-core.js",
   "./ranker-free.css",
   "./ranker-free.js",
+  "./ncert-quest.css?v=1",
+  "./ncert-quest.js?v=1",
+  "./ncert-quest-gate.js",
   "./ncert-booster.js",
   "./learning-tools.js",
   "./firebase-config.js",
@@ -83,6 +87,7 @@ const APP_SHELL = [
   "./data/neet/class11-physics-bank.js",
   "./data/neet/class11-chemistry-bank.js",
   "./data/neet/ranker/cell-unit-of-life.json",
+  "./data/ncert-quest/cell-under-attack.json",
 ];
 
 self.addEventListener("install", (event) => {
