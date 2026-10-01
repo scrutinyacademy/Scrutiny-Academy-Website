@@ -40,7 +40,7 @@ Run `node scripts/validate-data.mjs` and `node --check script.js`. Check chapter
 
 ## Published NEET navigation update
 
-NEET now uses Biology, Chemistry and Physics → Class 11 / Class 12 → chapter names, with 79 NCERT chapter entries plus one retained legacy Environmental Issues entry. Empty chapters are visible with disabled practice buttons. The three subject JSON files are canonical; earlier Botany/Zoology split files are unlisted historical files. This catalog is navigation, not a claim of verified 2027/2028 examination coverage. Check the official NEET syllabus for the target exam year. Source for textbook chapter organization: https://ncert.nic.in/textbook.php . Do not rerun the original add-intermediate migration after this navigation update.
+NEET now uses Biology, Chemistry and Physics → Class 11 / Class 12 → chapter names. Biology contains the 32 current NCERT chapters that map to the official NEET-UG 2026 Biology syllabus: 19 from Class 11 and 13 from Class 12. The legacy Environmental Issues card is no longer active because it is outside the current syllabus. The three subject JSON files are canonical; earlier Botany/Zoology split files are unlisted historical files. Check the official syllabus again before adapting the bank for a later examination year. Source for textbook chapter organization: https://ncert.nic.in/textbook.php . Do not rerun the original add-intermediate migration after this navigation update.
 
 ## Chapter practice expansion — September 2026
 
@@ -59,3 +59,9 @@ Animal Kingdom, Morphology of Flowering Plants, Anatomy of Flowering Plants and 
 Four further concept catalogues live in `scripts/biology-concepts/` and are included in the existing deterministic expansion script. The earlier three expanded banks retain their question IDs, prompts, options and answers. Other chapter content is unchanged.
 
 Reference checks used NCERT Class 11 Biology chapters [4](https://ncert.nic.in/textbook/pdf/kebo104.pdf), [5](https://ncert.nic.in/textbook/pdf/kebo105.pdf), [6](https://ncert.nic.in/textbook/pdf/kebo106.pdf) and [7](https://ncert.nic.in/textbook/pdf/kebo107.pdf). Root and stem modifications, meristems, secondary growth and detailed animal-tissue comparisons include supplementary or earlier-edition concepts. Frog coverage emphasises external anatomy, digestion, respiration, circulation, excretion, neural control and reproduction. No past-paper year, official exam endorsement, independent expert review or exhaustive exam-year syllabus alignment is claimed.
+
+## Complete Biology bank — October 2026
+
+Biology now contains 4,000 questions across all 32 current chapters. The first ten Class 11 chapters retain their reviewed 180-question banks; each of the remaining 22 chapters contains 100 original questions in direct recall, reverse recall, two-statement and matching formats. Every question has four options, a keyed answer and an explanation. `scripts/build-complete-neet-biology.mjs` reproducibly builds the 22 new chapter banks from reviewed concept maps and removes the out-of-syllabus legacy Environmental Issues card.
+
+The active chapter list follows the official NEET-UG 2026 Biology syllabus and current NCERT Class 11 and 12 Biology books. These questions are original practice material and are not labelled as past-paper questions or an official NTA product.
