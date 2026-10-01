@@ -38,17 +38,27 @@
     profile.streak = profile.lastPlayed === dayKey(yesterday) ? profile.streak + 1 : 1;
     profile.lastPlayed = today;
   }
-  function bossMode(data) {
+  function bossMode(data, arcadeModes) {
+    const chapterMissions = data.missions.map((mission) => ({
+      ...mission,
+      id: `boss-${mission.id}`,
+      source: `${data.subject} XI · ${data.chapter} · ${mission.reference.section} · printed p.${mission.reference.printedPage}`
+    }));
+    const eligibleModes = arcadeModes.map((mode) => ({ ...mode, challenges: mode.challenges.filter((challenge) => Array.isArray(challenge.options)) })).filter((mode) => mode.challenges.length);
+    const borrowedMissions = Array.from({ length: 100 }, (_, index) => {
+      const mode = eligibleModes[index % eligibleModes.length];
+      const challenge = mode.challenges[Math.floor(index / eligibleModes.length) % mode.challenges.length];
+      return { ...challenge, id: `boss-${mode.id}-${challenge.id}`, prompt: `${mode.title}: ${challenge.prompt}` };
+    });
     return {
-      id: "boss-battle", title: "Chapter Boss Battle", icon: "♛", subject: "Biology", skill: "Chapter mastery",
-      description: "Defeat a mixed Cell: The Unit of Life boss with five challenge types.", accent: "#ff765f",
-      challenges: data.missions.map((mission) => ({ ...mission, id: `boss-${mission.id}`, source: `${data.subject} XI · ${data.chapter} · ${mission.reference.section} · printed p.${mission.reference.printedPage}` }))
+      id: "boss-battle", title: "Chapter Boss Battle", icon: "♛", subject: "Mixed", skill: "Chapter mastery",
+      description: "Defeat a mixed NCERT boss drawn from every arcade challenge type.", accent: "#ff765f",
+      challenges: [...chapterMissions, ...borrowedMissions].slice(0, 100)
     };
   }
   function questionState(id) { return profile.questions[id] || { attempts: 0, correct: 0, streak: 0, nextDue: 0 }; }
   function masteredQuestions() { return Object.values(profile.questions).filter((item) => item.streak >= 3).length; }
   function selectChallenges(mode) {
-    if (mode.id === "escape-room") return [...mode.challenges];
     const now = Date.now();
     const due = shuffle(mode.challenges.filter((challenge) => questionState(challenge.id).nextDue && questionState(challenge.id).nextDue <= now));
     const unseen = shuffle(mode.challenges.filter((challenge) => !questionState(challenge.id).attempts));
@@ -128,6 +138,7 @@
     bindChoices(challenge);
   }
   function renderPhysics(challenge) {
+    if (!Array.isArray(challenge.formulaOptions)) return renderChoice(challenge);
     $("gameStage").innerHTML = heading(challenge.prompt, "First select the correct formula, then calculate the repair value.") + `<div class="formula-card"><small>STEP 1 · SELECT A FORMULA</small><div class="choice-grid">${challenge.formulaOptions.map((formula, index) => `<button class="choice" data-formula="${index}"><b>${index + 1}</b><span>${esc(formula)}</span></button>`).join("")}</div></div><div id="physicsValue" hidden><p class="instruction">STEP 2 · Calculate and select the value.</p>${choiceMarkup(challenge.options)}</div>`;
     $("gameStage").querySelectorAll("[data-formula]").forEach((button) => button.addEventListener("click", () => {
       const selected = Number(button.dataset.formula);
@@ -138,6 +149,7 @@
     }));
   }
   function renderReaction(challenge) {
+    if (!challenge.equation) return renderChoice(challenge);
     $("gameStage").innerHTML = heading(challenge.prompt, "Use the reagent and condition to forge the product.") + `<div class="reaction-card"><small>REACTION FORGE</small><strong>${esc(challenge.equation)}</strong><span>Condition: ${esc(challenge.condition)}</span></div>` + choiceMarkup(challenge.options);
     bindChoices(challenge);
   }
@@ -270,7 +282,7 @@
       if (!arcadeResponse.ok || !bossResponse.ok) throw new Error("Arcade data unavailable");
       const arcade = await arcadeResponse.json();
       const boss = await bossResponse.json();
-      modes = [...arcade.modes, bossMode(boss)];
+      modes = [...arcade.modes, bossMode(boss, arcade.modes)];
       renderDashboard();
     } catch (error) {
       console.error(error); toast("Game data could not be loaded. Please refresh.");

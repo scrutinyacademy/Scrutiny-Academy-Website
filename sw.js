@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v37-ncert-arcade";
+const CACHE = "scrutiny-academy-v38-ncert-arcade-1000";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -16,8 +16,8 @@ const APP_SHELL = [
   "./v2-core.js",
   "./ranker-free.css",
   "./ranker-free.js",
-  "./ncert-quest.css?v=2",
-  "./ncert-quest.js?v=2",
+  "./ncert-quest.css?v=3",
+  "./ncert-quest.js?v=3",
   "./ncert-quest-gate.js",
   "./ncert-booster.js",
   "./learning-tools.js",
