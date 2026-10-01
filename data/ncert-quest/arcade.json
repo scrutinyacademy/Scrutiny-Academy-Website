@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "title": "NCERT Learning Arcade",
+  "modes": [
+    {
+      "id": "line-hunter",
+      "title": "NCERT Line Hunter",
+      "icon": "⌁",
+      "subject": "Biology",
+      "skill": "Exact-line recall",
+      "description": "Tap the single altered word, then repair the NCERT statement.",
+      "accent": "#55ebc5",
+      "challenges": [
+        {"id":"lh1","sentence":"The middle lamella is mainly composed of calcium carbonate.","wrong":"carbonate","repair":"pectate","explanation":"The middle lamella is mainly composed of calcium pectate and holds neighbouring cells together.","source":"Biology XI · Cell: The Unit of Life · Cell Wall · printed p.95"},
+        {"id":"lh2","sentence":"Prokaryotic ribosomes are 80S particles.","wrong":"80S","repair":"70S","explanation":"Prokaryotic ribosomes are 70S particles, formed by 50S and 30S subunits.","source":"Biology XI · Cell: The Unit of Life · Ribosomes and Inclusion Bodies · printed p.92"},
+        {"id":"lh3","sentence":"The cis face of the Golgi apparatus is the maturing face.","wrong":"cis","repair":"trans","explanation":"The trans face is the maturing face; the cis face is the forming face.","source":"Biology XI · Cell: The Unit of Life · Golgi Apparatus · printed p.97"},
+        {"id":"lh4","sentence":"The nucleolus is a membrane-bound structure.","wrong":"membrane-bound","repair":"non-membranous","explanation":"The nucleolus is not membrane-bound and is a site of active rRNA synthesis.","source":"Biology XI · Cell: The Unit of Life · Nucleus · printed p.102"},
+        {"id":"lh5","sentence":"Chromoplasts contain chlorophyll and perform photosynthesis.","wrong":"Chromoplasts","repair":"Chloroplasts","explanation":"Chloroplasts contain chlorophyll and perform photosynthesis; chromoplasts contain other carotenoid pigments.","source":"Biology XI · Cell: The Unit of Life · Plastids · printed p.99"}
+      ]
+    },
+    {
+      "id": "diagram-detective",
+      "title": "Diagram Detective",
+      "icon": "◎",
+      "subject": "Biology",
+      "skill": "Visual memory",
+      "description": "Inspect NCERT-style diagrams and identify or repair their labels.",
+      "accent": "#65b8ff",
+      "challenges": [
+        {"id":"dd1","image":"assets/ranker/mitochondrion.png","alt":"Mitochondrion diagram","prompt":"A label incorrectly calls the inner membrane folds ‘cisternae’. Which label repairs the diagram?","options":["Cristae","Cisternae","Grana","Thylakoids"],"answer":0,"explanation":"The inner mitochondrial membrane forms infoldings called cristae.","source":"Biology XI · Cell: The Unit of Life · Mitochondria · printed p.99"},
+        {"id":"dd2","image":"assets/ranker/plasma-membrane.png","alt":"Plasma membrane diagram","prompt":"Where do the hydrophobic lipid tails point in this bilayer?","options":["Toward the aqueous exterior","Toward one another inside the bilayer","Only toward proteins","Toward carbohydrate chains"],"answer":1,"explanation":"Hydrophobic tails face inward, while polar heads face the aqueous environments.","source":"Biology XI · Cell: The Unit of Life · Cell Membrane · printed p.94"},
+        {"id":"dd3","image":"assets/botany/plant-cell.svg","alt":"Plant cell diagram","prompt":"Which boundary outside the plasma membrane provides shape and mechanical support?","options":["Tonoplast","Cell wall","Nuclear envelope","Middle membrane"],"answer":1,"explanation":"The cell wall lies outside the plasma membrane and provides shape and protection.","source":"Biology XI · Cell: The Unit of Life · Cell Wall"},
+        {"id":"dd4","image":"assets/botany/cell-division.svg","alt":"Cell division diagram","prompt":"Chromosomes aligned at the equatorial plate indicate which mitotic stage?","options":["Prophase","Metaphase","Anaphase","Telophase"],"answer":1,"explanation":"During metaphase, chromosomes align at the equatorial plate.","source":"Biology XI · Cell Cycle and Cell Division · M Phase"},
+        {"id":"dd5","image":"assets/questions/cell-axoneme.jpg","alt":"Axoneme cross-section","prompt":"What arrangement is shown in a typical eukaryotic cilium or flagellum?","options":["9 + 2","9 + 0","8 + 2","7 + 2"],"answer":0,"explanation":"Nine peripheral doublets surround two central microtubules: the 9 + 2 arrangement.","source":"Biology XI · Cell: The Unit of Life · Cilia and Flagella · printed p.103"}
+      ]
+    },
+    {
+      "id": "who-am-i",
+      "title": "Who Am I?",
+      "icon": "?",
+      "subject": "Mixed",
+      "skill": "Fast concept recall",
+      "description": "Reveal clues one at a time and identify the hidden NCERT term.",
+      "accent": "#b58cff",
+      "challenges": [
+        {"id":"who1","clues":["I first saw and described a living cell.","I used an improved microscope.","My surname begins with L."],"options":["Robert Hooke","Antonie van Leeuwenhoek","Robert Brown","Rudolf Virchow"],"answer":1,"explanation":"Antonie van Leeuwenhoek first observed and described a live cell.","source":"Biology XI · Cell: The Unit of Life · Cell Theory · printed p.87"},
+        {"id":"who2","clues":["I am secreted by the corpus luteum.","I support the endometrium.","I help maintain pregnancy."],"options":["FSH","Progesterone","Oxytocin","Prolactin"],"answer":1,"explanation":"Progesterone supports the endometrium and helps maintain pregnancy.","source":"Biology XII · Human Reproduction · Menstrual Cycle"},
+        {"id":"who3","clues":["I am a C4 plant.","Kranz anatomy occurs in my leaves.","I am an important cereal crop."],"options":["Wheat","Rice","Maize","Potato"],"answer":2,"explanation":"Maize is a classic C4 plant with Kranz anatomy.","source":"Biology XI · Photosynthesis in Higher Plants · C4 Pathway"},
+        {"id":"who4","clues":["I am an electrophile.","I attack the benzene ring during nitration.","My formula is NO₂⁺."],"options":["Nitrite ion","Nitronium ion","Nitrate ion","Ammonium ion"],"answer":1,"explanation":"The nitronium ion, NO₂⁺, is the electrophile in benzene nitration.","source":"Chemistry XI · Hydrocarbons · Aromatic Hydrocarbons"},
+        {"id":"who5","clues":["I proposed that new cells arise from pre-existing cells.","My statement is associated with Omnis cellula-e cellula.","I modified cell theory."],"options":["Schleiden","Schwann","Virchow","Brown"],"answer":2,"explanation":"Rudolf Virchow explained that new cells arise from pre-existing cells.","source":"Biology XI · Cell: The Unit of Life · Cell Theory · printed p.88"}
+      ]
+    },
+    {
+      "id": "sequence-sprint",
+      "title": "Sequence Sprint",
+      "icon": "⇢",
+      "subject": "Biology",
+      "skill": "Pathway retention",
+      "description": "Tap steps in the correct biological order before time runs out.",
+      "accent": "#ffb765",
+      "challenges": [
+        {"id":"seq1","prompt":"Arrange the stages of mitosis.","items":["Prophase","Metaphase","Anaphase","Telophase"],"explanation":"Mitosis progresses through prophase, metaphase, anaphase and telophase.","source":"Biology XI · Cell Cycle and Cell Division · M Phase"},
+        {"id":"seq2","prompt":"Arrange the path of air to the gas-exchange surface.","items":["External nostrils","Nasal chamber","Pharynx","Larynx","Trachea","Bronchi","Bronchioles","Alveoli"],"explanation":"Air travels through this conducting pathway before reaching the alveoli.","source":"Biology XI · Breathing and Exchange of Gases · Respiratory System"},
+        {"id":"seq3","prompt":"Arrange the flow of blood from the right ventricle to the left atrium.","items":["Right ventricle","Pulmonary artery","Lungs","Pulmonary veins","Left atrium"],"explanation":"Pulmonary circulation carries deoxygenated blood to lungs and oxygenated blood back to the left atrium.","source":"Biology XI · Body Fluids and Circulation · Double Circulation"},
+        {"id":"seq4","prompt":"Arrange the major stages of glycolysis shown here.","items":["Glucose","Glucose-6-phosphate","Fructose-6-phosphate","Fructose-1,6-bisphosphate","Pyruvate"],"explanation":"Glucose is phosphorylated and rearranged before cleavage ultimately produces pyruvate.","source":"Biology XI · Respiration in Plants · Glycolysis"},
+        {"id":"seq5","prompt":"Arrange the menstrual-cycle phases.","items":["Menstrual phase","Follicular phase","Ovulation","Luteal phase"],"explanation":"The menstrual phase is followed by follicular growth, ovulation and the luteal phase.","source":"Biology XII · Human Reproduction · Menstrual Cycle"}
+      ]
+    },
+    {
+      "id": "escape-room",
+      "title": "NCERT Escape Room",
+      "icon": "▣",
+      "subject": "Biology",
+      "skill": "Connected application",
+      "description": "Solve five connected Cell City clues to unlock the laboratory exit.",
+      "accent": "#ff7182",
+      "challenges": [
+        {"id":"esc1","prompt":"Door 1: Select the organelle that modifies and packages material received from the ER.","options":["Golgi apparatus","Ribosome","Centriole","Peroxisome"],"answer":0,"code":"G","explanation":"The Golgi apparatus modifies, packages and dispatches cellular material.","source":"Biology XI · Cell: The Unit of Life · Golgi Apparatus"},
+        {"id":"esc2","prompt":"Door 2: Which Golgi face receives material from the ER?","options":["Trans face","Cis face","Matrix face","Outer face"],"answer":1,"code":"O","explanation":"The cis or forming face receives material from the ER.","source":"Biology XI · Cell: The Unit of Life · Golgi Apparatus"},
+        {"id":"esc3","prompt":"Door 3: Which vesicle contains hydrolytic enzymes active at acidic pH?","options":["Lysosome","Vacuole","Nucleolus","Centrosome"],"answer":0,"code":"L","explanation":"Lysosomes contain acid hydrolases.","source":"Biology XI · Cell: The Unit of Life · Lysosomes"},
+        {"id":"esc4","prompt":"Door 4: Which organelle produces most cellular ATP aerobically?","options":["Mitochondrion","Golgi apparatus","SER","Nucleus"],"answer":0,"code":"G","explanation":"Mitochondria are major sites of aerobic respiration and ATP production.","source":"Biology XI · Cell: The Unit of Life · Mitochondria"},
+        {"id":"esc5","prompt":"Door 5: Which nuclear structure actively synthesises rRNA?","options":["Nucleolus","Chromatin","Nuclear pore","Centromere"],"answer":0,"code":"I","explanation":"The nucleolus is the site of active ribosomal RNA synthesis.","source":"Biology XI · Cell: The Unit of Life · Nucleus"}
+      ]
+    },
+    {
+      "id": "physics-lab",
+      "title": "Physics Rescue Lab",
+      "icon": "⚡",
+      "subject": "Physics",
+      "skill": "Formula selection",
+      "description": "Choose the right relation and calculate the value needed to repair the lab.",
+      "accent": "#63d7ff",
+      "challenges": [
+        {"id":"phy1","prompt":"A 2 kg emergency cart accelerates at 3 m s⁻². What force restores its motion?","formula":"F = ma","formulaOptions":["F = ma","F = mv","F = m/a"],"formulaAnswer":0,"options":["1.5 N","5 N","6 N","9 N"],"answer":2,"explanation":"F = 2 × 3 = 6 N.","source":"Physics XI · Laws of Motion · Newton's Second Law"},
+        {"id":"phy2","prompt":"A 10 N force moves a supply box 5 m in its direction. Calculate the work done.","formula":"W = Fs cos θ","formulaOptions":["W = F/s","W = Fs cos θ","W = Fs sin θ"],"formulaAnswer":1,"options":["2 J","15 J","50 J","500 J"],"answer":2,"explanation":"Here θ = 0°, so W = 10 × 5 = 50 J.","source":"Physics XI · Work, Energy and Power · Work"},
+        {"id":"phy3","prompt":"A 4 Ω safety resistor carries 2 A. What potential difference is required?","formula":"V = IR","formulaOptions":["V = I/R","V = IR","V = R/I"],"formulaAnswer":1,"options":["2 V","6 V","8 V","16 V"],"answer":2,"explanation":"V = 2 × 4 = 8 V.","source":"Physics XII · Current Electricity · Ohm's Law"},
+        {"id":"phy4","prompt":"A 2 μF capacitor is charged to 10 V. Find the stored energy.","formula":"U = ½CV²","formulaOptions":["U = CV","U = ½CV²","U = C/V²"],"formulaAnswer":1,"options":["10 μJ","50 μJ","100 μJ","200 μJ"],"answer":2,"explanation":"U = ½ × 2 μF × (10)² = 100 μJ.","source":"Physics XII · Electrostatic Potential and Capacitance · Energy Stored"},
+        {"id":"phy5","prompt":"A wave has frequency 50 Hz and wavelength 2 m. Find its speed.","formula":"v = νλ","formulaOptions":["v = ν/λ","v = νλ","v = λ/ν"],"formulaAnswer":1,"options":["25 m s⁻¹","52 m s⁻¹","100 m s⁻¹","250 m s⁻¹"],"answer":2,"explanation":"v = 50 × 2 = 100 m s⁻¹.","source":"Physics XI · Waves · Speed of a Travelling Wave"}
+      ]
+    },
+    {
+      "id": "reaction-forge",
+      "title": "Reaction Forge",
+      "icon": "⚗",
+      "subject": "Chemistry",
+      "skill": "Reaction recall",
+      "description": "Combine substrate, reagent and condition to forge the correct product.",
+      "accent": "#d5ff6d",
+      "challenges": [
+        {"id":"rx1","equation":"Ethene + H₂  ⟶  ?","condition":"Ni/Pt/Pd catalyst","prompt":"Forge the major product.","options":["Ethyne","Ethane","Ethanol","Ethanal"],"answer":1,"explanation":"Catalytic hydrogenation adds H₂ across the double bond to form ethane.","source":"Chemistry XI · Hydrocarbons · Alkenes"},
+        {"id":"rx2","equation":"Benzene + conc. HNO₃  ⟶  ?","condition":"conc. H₂SO₄","prompt":"Forge the major organic product.","options":["Nitrobenzene","Aniline","Benzoic acid","Phenol"],"answer":0,"explanation":"Nitration of benzene produces nitrobenzene through electrophilic substitution.","source":"Chemistry XI · Hydrocarbons · Aromatic Hydrocarbons"},
+        {"id":"rx3","equation":"CH₃CH₂Br + aq. KOH  ⟶  ?","condition":"Heat","prompt":"Choose the substitution product.","options":["Ethene","Ethanol","Ethanal","Ethanoic acid"],"answer":1,"explanation":"Aqueous KOH replaces bromide with hydroxyl to form ethanol.","source":"Chemistry XII · Haloalkanes and Haloarenes · Nucleophilic Substitution"},
+        {"id":"rx4","equation":"Primary alcohol + [O]  ⟶  ?","condition":"Controlled oxidation","prompt":"What forms first?","options":["Ketone","Aldehyde","Ether","Alkene"],"answer":1,"explanation":"Controlled oxidation of a primary alcohol first gives an aldehyde.","source":"Chemistry XII · Alcohols, Phenols and Ethers · Oxidation"},
+        {"id":"rx5","equation":"2Na + 2H₂O  ⟶  ? + H₂","condition":"Room temperature","prompt":"Complete the reaction.","options":["2NaOH","Na₂O","Na₂O₂","NaH"],"answer":0,"explanation":"Sodium reacts with water to produce sodium hydroxide and hydrogen.","source":"Chemistry XI · The s-Block Elements · Group 1"}
+      ]
+    },
+    {
+      "id": "impostor",
+      "title": "Spot the Impostor",
+      "icon": "◈",
+      "subject": "Mixed",
+      "skill": "Statement analysis",
+      "description": "Find the one statement that is not supported by NCERT.",
+      "accent": "#ff8fd2",
+      "challenges": [
+        {"id":"imp1","prompt":"Three statements describe mitochondria. Tap the impostor.","options":["They possess a double membrane.","The inner membrane forms cristae.","They contain 70S ribosomes.","They are part of the endomembrane system."],"answer":3,"explanation":"Mitochondria are not considered part of the endomembrane system.","source":"Biology XI · Cell: The Unit of Life · Endomembrane System"},
+        {"id":"imp2","prompt":"Three statements describe prokaryotes. Tap the impostor.","options":["They lack a membrane-bound nucleus.","They contain 70S ribosomes.","Their DNA lies in a nucleoid.","They possess membrane-bound mitochondria."],"answer":3,"explanation":"Prokaryotes do not possess membrane-bound mitochondria.","source":"Biology XI · Cell: The Unit of Life · Prokaryotic Cells"},
+        {"id":"imp3","prompt":"Three statements describe enzymes. Tap the impostor.","options":["Most enzymes are proteins.","Enzymes lower activation energy.","Enzymes are consumed permanently in every reaction.","Their activity can depend on pH and temperature."],"answer":2,"explanation":"Enzymes act as catalysts and are not permanently consumed by the reaction.","source":"Biology XI · Biomolecules · Enzymes"},
+        {"id":"imp4","prompt":"Three statements agree with Ohm's law conditions. Tap the impostor.","options":["V is proportional to I at constant physical conditions.","Resistance equals V/I.","The V-I graph is linear for an ohmic conductor.","Resistance must become zero when current increases."],"answer":3,"explanation":"For an ohmic conductor at constant conditions, resistance remains constant rather than becoming zero.","source":"Physics XII · Current Electricity · Ohm's Law"},
+        {"id":"imp5","prompt":"Three statements describe benzene. Tap the impostor.","options":["It is planar.","Its π electrons are delocalised.","All carbon-carbon bonds have equal length.","It readily undergoes addition like an ordinary alkene."],"answer":3,"explanation":"Benzene characteristically undergoes electrophilic substitution and resists ordinary addition because of aromatic stability.","source":"Chemistry XI · Hydrocarbons · Aromatic Hydrocarbons"}
+      ]
+    },
+    {
+      "id": "treasure-hunt",
+      "title": "NCERT Treasure Hunt",
+      "icon": "⌖",
+      "subject": "Biology",
+      "skill": "Textbook navigation",
+      "description": "Use a hint to locate the correct NCERT section, diagram or page.",
+      "accent": "#ffd45f",
+      "challenges": [
+        {"id":"tr1","prompt":"Find the NCERT location that explains Omnis cellula-e cellula.","hint":"Look immediately after Schleiden and Schwann's original cell theory.","options":["Cell Theory · printed p.88","Cell Wall · printed p.95","Ribosomes · printed p.101","Nucleus · printed p.102"],"answer":0,"explanation":"Virchow's modification of cell theory appears in the Cell Theory section.","source":"Biology XI · Cell: The Unit of Life · printed p.88"},
+        {"id":"tr2","prompt":"Where would you find the fluid mosaic model?","hint":"Search the section describing lipids and proteins in the cell boundary.","options":["Cell Membrane · printed p.94","Golgi Apparatus · printed p.97","Mitochondria · printed p.99","Nucleus · printed p.102"],"answer":0,"explanation":"Singer and Nicolson's fluid mosaic model is discussed under Cell Membrane.","source":"Biology XI · Cell: The Unit of Life · printed p.94"},
+        {"id":"tr3","prompt":"Locate the section containing cisternae with distinct cis and trans faces.","hint":"This organelle packages and dispatches material.","options":["Endoplasmic Reticulum","Golgi Apparatus","Lysosomes","Vacuoles"],"answer":1,"explanation":"Cis and trans faces are structural features of the Golgi apparatus.","source":"Biology XI · Cell: The Unit of Life · Golgi Apparatus · printed p.97"},
+        {"id":"tr4","prompt":"Where is the 9 + 2 axoneme arrangement described?","hint":"Search structures responsible for cellular movement.","options":["Centrosome and Centrioles","Cilia and Flagella","Ribosomes","Cytoskeleton"],"answer":1,"explanation":"The axoneme of cilia and flagella has the 9 + 2 arrangement.","source":"Biology XI · Cell: The Unit of Life · Cilia and Flagella · printed p.103"},
+        {"id":"tr5","prompt":"Find the page discussing cristae and the mitochondrial matrix.","hint":"Look near the plastid section.","options":["Printed p.92","Printed p.95","Printed p.99","Printed p.103"],"answer":2,"explanation":"NCERT discusses mitochondrial membranes, cristae and matrix on printed page 99 in the indexed edition.","source":"Biology XI · Cell: The Unit of Life · Mitochondria · printed p.99"}
+      ]
+    }
+  ]
+}
