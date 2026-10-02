@@ -28,7 +28,7 @@ for(const cat of manifest.categories) for(const sub of cat.subjects){
     }
   }
 }
-assert.equal(biologyMcqs,1920);assert.equal(neet.length,4469);assert.equal(new Set(neet).size,4469);
+assert.equal(biologyMcqs,4000);assert.equal(neet.length,6549);assert.equal(new Set(neet).size,6549);
 for (const id of Array.from({length:10},(_,i)=>`neet-biology-11-${i+1}`)) {
   const ch=bundle.neet.biology.chapters.find(c=>c.id===id);
   assert.equal(ch.classLevel,11);
@@ -60,8 +60,16 @@ for (const chapter of botany.chapters) {
 assert.equal(botanyIds.length,420);
 assert.equal(new Set(botanyIds).size,420,'Botany question IDs must be unique');
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const v2Core=fs.readFileSync(path.join(root,'v2-core.js'),'utf8');
+assert.ok(!v2Core.includes('temporarilyUnpublishedBiologyChapters'),'Complete Biology chapters must not be hidden by the UI');
 for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
- const ref=match[1];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
+ const ref=match[1].split('?')[0];if(/^(https?:|mailto:|tel:|upi:)/.test(ref))continue;
  assert.ok(fs.existsSync(path.join(root,decodeURIComponent(ref))),`Missing asset: ${ref}`);
 }
-console.log('Validated 420 Class 11 Botany answers, 100 board chapters, 1920 Biology MCQs, 2520 Class 12 Physics MCQs, 4469 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
+const currentBiology=bundle.neet.biology;
+assert.equal(currentBiology.chapters.length,32,'Expected all 32 current NCERT Biology chapters');
+assert.equal(currentBiology.chapters.filter(ch=>ch.classLevel===11).length,19);
+assert.equal(currentBiology.chapters.filter(ch=>ch.classLevel===12).length,13);
+assert.ok(currentBiology.chapters.every(ch=>ch.mcqs.length>=100),'Every Biology chapter must have at least 100 MCQs');
+assert.ok(!currentBiology.chapters.some(ch=>ch.name==='Environmental Issues'),'Legacy out-of-syllabus chapter must not be active');
+console.log('Validated 420 Class 11 Botany answers, 100 board chapters, 4000 Biology MCQs across 32 current chapters, 2520 Class 12 Physics MCQs, 6549 unique NEET MCQs, manifest/bundle parity and local HTML assets.');
