@@ -1262,6 +1262,57 @@ select {
   background: linear-gradient(145deg, #f8fbff, #eef7ff);
   text-align: center;
 }
+.quiz-visual[hidden],
+.confidence-check[hidden] {
+  display: none !important;
+}
+.question-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.question-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  color: #18344f;
+  background: #fff;
+  border: 1px solid #bdd2e4;
+  border-radius: 12px;
+  text-align: left;
+  font-size: clamp(.78rem, 1.5vw, .92rem);
+}
+.question-table caption {
+  padding: 0 0 9px;
+  color: #173a62;
+  font-size: .78rem;
+  font-weight: 850;
+  text-align: left;
+}
+.question-table th,
+.question-table td {
+  padding: 11px 13px;
+  border-right: 1px solid #d5e2ec;
+  border-bottom: 1px solid #d5e2ec;
+  vertical-align: top;
+  line-height: 1.45;
+}
+.question-table thead th {
+  color: #fff;
+  background: #173a62;
+  font-weight: 850;
+}
+.question-table tbody th {
+  color: #173a62;
+  background: #f2f7fb;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.question-table tr:last-child > * { border-bottom: 0; }
+.question-table tr > *:last-child { border-right: 0; }
+.question-table tbody tr:nth-child(even) td { background: #f8fbfd; }
 .quiz-visual svg {
   display: block;
   width: min(100%, 430px);

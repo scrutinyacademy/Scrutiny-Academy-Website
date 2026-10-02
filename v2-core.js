@@ -44,10 +44,6 @@
       const generated = new Map(window.SCRUTINY_CLASS11_PHYSICS.map((chapter) => [chapter.id, chapter]));
       d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
     }
-    if (p === "data/neet/chemistry.json" && Array.isArray(window.SCRUTINY_CLASS11_CHEMISTRY)) {
-      const generated = new Map(window.SCRUTINY_CLASS11_CHEMISTRY.map((chapter) => [chapter.id, chapter]));
-      d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
-    }
     cache.set(p, d);
     return d;
   }
@@ -876,6 +872,13 @@
   }
   function renderQuestionVisual(q) {
     const host = $("quizVisual");
+    if (q.table?.headers?.length && q.table?.rows?.length) {
+      const headers = q.table.headers.map((header) => `<th scope="col">${esc(header)}</th>`).join("");
+      const rows = q.table.rows.map((row) => `<tr>${row.map((cell, index) => index === 0 && q.table.headers.length > 2 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`).join("")}</tr>`).join("");
+      host.hidden = false;
+      host.innerHTML = `<div class="question-table-wrap"><table class="question-table"><caption>${esc(q.table.caption || "Question data")}</caption><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table></div>`;
+      return;
+    }
     if (q.visualAsset && !String(q.visualAsset).startsWith("programmatic:")) {
       host.hidden = false;
       host.innerHTML = `<strong class="chem-visual-title">${esc(q.visualSpec?.label || q.subtopic || "Question visual")}</strong><img src="${esc(q.visualAsset)}" alt="${esc(q.visualSpec?.caption || q.subtopic || "Chemistry question visual")}" loading="eager">`;
