@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v40-neet-biology-chemistry-250";
+const CACHE = "scrutiny-academy-v41-neet-all-subjects-350";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -84,7 +84,6 @@ const APP_SHELL = [
   "./assets/chemistry-board/carbon-silicon.svg",
   "./assets/chemistry-board/pollution-cycle.svg",
   "./assets/chemistry-board/organic-reactions.svg",
-  "./data/neet/class11-physics-bank.js",
   "./data/neet/ranker/cell-unit-of-life.json",
   "./data/ncert-quest/cell-under-attack.json",
   "./data/ncert-quest/arcade.json",

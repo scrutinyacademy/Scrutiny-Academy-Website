@@ -40,10 +40,6 @@
     const r = await fetch(p);
     if (!r.ok) throw Error(p);
     const d = await r.json();
-    if (p === "data/neet/physics.json" && Array.isArray(window.SCRUTINY_CLASS11_PHYSICS)) {
-      const generated = new Map(window.SCRUTINY_CLASS11_PHYSICS.map((chapter) => [chapter.id, chapter]));
-      d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
-    }
     cache.set(p, d);
     return d;
   }
