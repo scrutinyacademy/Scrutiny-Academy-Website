@@ -8,17 +8,6 @@
     ncert: "data/ncert/catalog.json",
     rankerBiology: "data/neet/ranker/cell-unit-of-life.json",
   };
-  const temporarilyUnpublishedBiologyChapters = new Set([
-    "Photosynthesis in Higher Plants",
-    "Respiration in Plants",
-    "Plant Growth and Development",
-    "Breathing and Exchange of Gases",
-    "Body Fluids and Circulation",
-    "Excretory Products and their Elimination",
-    "Locomotion and Movement",
-    "Neural Control and Coordination",
-    "Chemical Coordination and Integration",
-  ]);
   const cache = new Map(),
     state = {
       platform: null,
@@ -59,10 +48,6 @@
       const generated = new Map(window.SCRUTINY_CLASS11_CHEMISTRY.map((chapter) => [chapter.id, chapter]));
       d.chapters = (d.chapters || []).map((chapter) => generated.get(chapter.id) || chapter);
     }
-    if (p === "data/neet/biology.json")
-      for (const chapter of d.chapters || [])
-        if (temporarilyUnpublishedBiologyChapters.has(chapter.name))
-          chapter.mcqs = [];
     cache.set(p, d);
     return d;
   }
@@ -86,14 +71,7 @@
     }
     return o;
   };
-  const isTemporarilyUnpublished = (d, chapter) =>
-    d?.subject === "Biology" &&
-    chapter?.classLevel === 11 &&
-    temporarilyUnpublishedBiologyChapters.has(chapter.name);
-  const publishedChapters = (d) =>
-    (d?.chapters || []).filter((chapter) =>
-      !isTemporarilyUnpublished(d, chapter),
-    );
+  const publishedChapters = (d) => d?.chapters || [];
   const allMcqs = (d) =>
     publishedChapters(d).flatMap((ch, ci) =>
       (ch.mcqs || []).map((q) => ({
@@ -557,7 +535,6 @@
       .map((ch, i) => ({ ch, i }))
       .filter(
         (x) =>
-          !isTemporarilyUnpublished(d, x.ch) &&
           (cls === "all" || String(x.ch.classLevel || "") === cls) &&
           (!search ||
             String(x.ch.name || x.ch.title)
@@ -692,7 +669,7 @@
           entry = { id, name: sub.name, data: d };
         state.custom.subjects.push(entry);
         cards.push(
-          `<article class="custom-subject" data-subject="${id}"><div class="custom-title"><h3>${esc(sub.name)}</h3><label><input type="checkbox" class="custom-enable" data-subject="${id}"> Include</label></div><label class="field">MCQs from this subject<input class="custom-count" data-subject="${id}" type="number" min="1" max="180" value="10"></label><div class="chapter-checks">${(d.chapters || []).map((ch, i) => ({ ch, i })).filter(({ ch }) => !isTemporarilyUnpublished(d, ch)).map(({ ch, i }) => `<label><input type="checkbox" class="custom-chapter" data-subject="${id}" value="${i}"> <span>${esc(ch.name || ch.title)} <small>(${(ch.mcqs || []).length})</small></span></label>`).join("")}</div></article>`,
+          `<article class="custom-subject" data-subject="${id}"><div class="custom-title"><h3>${esc(sub.name)}</h3><label><input type="checkbox" class="custom-enable" data-subject="${id}"> Include</label></div><label class="field">MCQs from this subject<input class="custom-count" data-subject="${id}" type="number" min="1" max="180" value="10"></label><div class="chapter-checks">${(d.chapters || []).map((ch, i) => ({ ch, i })).map(({ ch, i }) => `<label><input type="checkbox" class="custom-chapter" data-subject="${id}" value="${i}"> <span>${esc(ch.name || ch.title)} <small>(${(ch.mcqs || []).length})</small></span></label>`).join("")}</div></article>`,
         );
       } catch {
         cards.push(
