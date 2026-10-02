@@ -19,9 +19,9 @@ let structuredTables = 0;
 
 for (const category of manifest.categories) for (const subject of category.subjects) {
   const data = read(subject.file);
-  // The live v2 portal fetches these two large banks directly. Keeping them out
-  // of the legacy offline prebundle prevents a 25+ MB duplicate download.
-  if (!(category.id === 'neet' && ['biology', 'chemistry'].includes(subject.id))) {
+  // The live v2 portal fetches the three large NEET banks directly. Keeping
+  // them out of the legacy offline prebundle avoids duplicating 27,650 items.
+  if (!(category.id === 'neet' && ['biology', 'chemistry', 'physics'].includes(subject.id))) {
     assert.deepEqual(data, bundle[category.id][subject.id], `Stale bundle: ${subject.file}`);
   }
   if (expected[category.id]) assert.equal(data.chapters.length, expected[category.id][subject.id]);
@@ -38,8 +38,9 @@ for (const category of manifest.categories) for (const subject of category.subje
         neetIds.push(question.id);
         neetCounts[subject.id]++;
         assert.equal(question.options.length, 4, `NEET MCQ must have four options: ${question.id}`);
-        if (['biology', 'chemistry'].includes(subject.id)) assert.equal(new Set(question.options.map(option => option.trim().toLowerCase())).size, 4, `Duplicate options: ${question.id}`);
+        assert.equal(new Set(question.options.map(option => option.trim())).size, 4, `Duplicate options: ${question.id}`);
         assert.ok(question.explanation?.trim(), `Missing explanation: ${question.id}`);
+        assert.ok(!/\bncert\b/i.test(question.question), `Repetitive NCERT stem: ${question.id}`);
         if (question.table) {
           structuredTables++;
           assert.ok(question.table.caption && question.table.headers?.length >= 2 && question.table.rows?.length >= 2, `Invalid table: ${question.id}`);
@@ -50,23 +51,29 @@ for (const category of manifest.categories) for (const subject of category.subje
   }
 }
 
-assert.deepEqual(neetCounts, {biology: 8000, physics: 2532, chemistry: 4750});
-assert.equal(neetIds.length, 15282);
-assert.equal(new Set(neetIds).size, 15282);
+assert.deepEqual(neetCounts, {biology: 11200, physics: 9800, chemistry: 6650});
+assert.equal(neetIds.length, 27650);
+assert.equal(new Set(neetIds).size, 27650);
 
 const biology = liveNeet.biology;
 assert.equal(biology.chapters.length, 32, 'Expected all 32 current NCERT Biology chapters');
 assert.equal(biology.chapters.filter(chapter => chapter.classLevel === 11).length, 19);
 assert.equal(biology.chapters.filter(chapter => chapter.classLevel === 12).length, 13);
-assert.ok(biology.chapters.every(chapter => chapter.mcqs.length === 250), 'Every Biology chapter must have exactly 250 MCQs');
+assert.ok(biology.chapters.every(chapter => chapter.mcqs.length === 350), 'Every Biology chapter must have exactly 350 MCQs');
 assert.ok(!biology.chapters.some(chapter => chapter.name === 'Environmental Issues'), 'Legacy out-of-syllabus chapter must not be active');
 
 const chemistry = liveNeet.chemistry;
 assert.equal(chemistry.chapters.length, 19, 'Expected all 19 current NEET Chemistry chapters');
 assert.equal(chemistry.chapters.filter(chapter => chapter.classLevel === 11).length, 9);
 assert.equal(chemistry.chapters.filter(chapter => chapter.classLevel === 12).length, 10);
-assert.ok(chemistry.chapters.every(chapter => chapter.mcqs.length === 250), 'Every Chemistry chapter must have exactly 250 MCQs');
-assert.ok(structuredTables >= 6900, 'Expected extensive structured table coverage');
+assert.ok(chemistry.chapters.every(chapter => chapter.mcqs.length === 350), 'Every Chemistry chapter must have exactly 350 MCQs');
+
+const physics = liveNeet.physics;
+assert.equal(physics.chapters.length, 28, 'Expected all 28 current NEET Physics chapters');
+assert.equal(physics.chapters.filter(chapter => chapter.classLevel === 11).length, 14);
+assert.equal(physics.chapters.filter(chapter => chapter.classLevel === 12).length, 14);
+assert.ok(physics.chapters.every(chapter => chapter.mcqs.length === 350), 'Every Physics chapter must have exactly 350 MCQs');
+assert.ok(structuredTables >= 13000, 'Expected extensive structured table coverage');
 
 assert.equal(bundle.class11.botany.source.academicYear, '2026-2027');
 const botany = bundle.class11.botany;
@@ -99,4 +106,4 @@ for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
   assert.ok(fs.existsSync(path.join(root, decodeURIComponent(ref))), `Missing asset: ${ref}`);
 }
 
-console.log(`Validated 420 Class 11 Botany answers, 8,000 Biology MCQs, 4,750 Chemistry MCQs, ${structuredTables.toLocaleString('en-IN')} structured tables and 15,282 unique NEET MCQs.`);
+console.log(`Validated 420 Class 11 Botany answers, 11,200 Biology MCQs, 6,650 Chemistry MCQs, 9,800 Physics MCQs, ${structuredTables.toLocaleString('en-IN')} structured tables and 27,650 unique NEET MCQs.`);
