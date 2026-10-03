@@ -19,6 +19,7 @@ const SENDER_EMAIL = "scrutinyacademy@gmail.com";
 const FOUNDER_EMAIL_SIGNATURE = "Parmod Sharma\nFounder, Scrutiny Academy";
 const NEET_PROMO_END_MS = Date.parse("2026-10-05T18:29:59.999Z");
 const COURSES = {
+  class8: { name: "Class 8 SSC Complete Learning Course", price: 79, validityCode: "CLASS8_ACADEMIC_YEAR", validityLabel: "Class 8 academic year access", features: ["SCERT-aligned subject learning", "Visual revision notes and flashcards", "Chapter practice and tests", "Mistake Book and smart revision", "Progress tracking and study planning"] },
   class10: { name: "Class 10 SSC Complete Course 2027", price: 99, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude", features: ["Chapter-wise lectures", "Comprehensive notes", "Revision sheets", "Flashcards", "Chapter-wise MCQs"] },
   class11: { name: "Class 11 Board Booster 2027", price: 149, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   class12: { name: "Class 12 Board Booster 2027", price: 149, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
