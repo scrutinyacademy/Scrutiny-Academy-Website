@@ -16,6 +16,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const COURSE_PORTALS = {
+  class8: { name: "Class 8 Telangana SSC", label: "SSC FOUNDATION PORTAL", target: "class8", sections: ["support"], color: "#7c3aed", description: "Guided Telangana SSC learning with concepts, practice, writing, tests and smart revision." },
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", target: "class10", sections: ["class10", "tools", "progress", "support"], color: "#1677d2", description: "Board questions, chapter practice, revision and Telangana SSC preparation." },
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", target: "class11", sections: ["class11", "progress", "support"], color: "#138a5b", description: "A separate Telangana Intermediate board portal with chapter-wise Botany VSAQs, SAQs and LAQs." },
   class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", target: "class12", sections: ["class12", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#7254c7", description: "Second-year board preparation, revision and subject resources." },
@@ -38,6 +39,7 @@ function selectedCourse(profile = {}, allowed = []) {
 }
 
 function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
+  if (courseId === "class8") { location.replace("class8-ssc.html"); return; }
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   localStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
