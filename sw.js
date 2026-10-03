@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v41-neet-all-subjects-350";
+const CACHE = "scrutiny-academy-v42-no-email-activation";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -111,6 +111,12 @@ self.addEventListener("fetch", (event) => {
   const request = event.request;
   const url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
+  // Prefer fresh account/payment code so old activation gates do not persist.
+  const accountFiles = ["index.html", "login.html", "payment.html", "auth.js", "payment.js", "help-bot.js"];
+  if (url.pathname.endsWith("/") || accountFiles.some(file => url.pathname.endsWith(`/${file}`))) {
+    event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match(request)));
+    return;
+  }
   event.respondWith(
     caches.match(request).then((cached) => {
       const fresh = fetch(request)

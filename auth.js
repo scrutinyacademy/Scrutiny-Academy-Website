@@ -1,7 +1,7 @@
 import { firebaseConfig } from './firebase-config.js';
 import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 const configured = firebaseConfig.apiKey && firebaseConfig.apiKey !== 'REPLACE_ME' && firebaseConfig.projectId !== 'REPLACE_ME';
@@ -105,9 +105,10 @@ if(!configured){
         createdAt:serverTimestamp(),
         updatedAt:serverTimestamp()
       });
-      await sendEmailVerification(cred.user);
-      msg('Account created. Verification email sent. Check your Gmail Inbox, Spam or Promotions folder. Opening verification page…','success');
-      setTimeout(()=>location.replace('payment.html'),900);
+      msg('Account created. Continue to secure payment to unlock your selected course.','success');
+      const paymentQuery = new URLSearchParams({ course: activeCourse });
+      if (selectedNeetYear) paymentQuery.set('exam', selectedNeetYear);
+      location.replace(`payment.html?${paymentQuery}`);
     }catch(err){
       authActionInProgress=false;
       console.error('Scrutiny Academy registration failed:',err);

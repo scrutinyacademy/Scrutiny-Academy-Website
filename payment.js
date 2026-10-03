@@ -6,7 +6,6 @@ import {
   onAuthStateChanged,
   signOut,
   getIdTokenResult,
-  sendEmailVerification,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {
   getFirestore,
@@ -61,42 +60,6 @@ function showPayButton() {
   actions.innerHTML =
     `<button class="primary" id="payBtn" type="button">PAY ₹${currentCoursePrice(purchaseCourseId) ?? "—"} & UNLOCK THIS COURSE</button>`;
   $("payBtn").onclick = startCheckout;
-}
-
-function showVerificationActions() {
-  const actions = $("paymentActions");
-  actions.style.display = "grid";
-  actions.style.gap = "9px";
-  actions.innerHTML =
-    '<div class="email-delivery-note verification-note"><span aria-hidden="true">✉</span><span><strong>Can’t find the verification email?</strong> Check your Gmail <strong>Spam or Promotions</strong> folder. If it is in Spam, open it and tap <strong>“Report not spam”</strong>.</span></div><button class="primary" id="verifiedBtn" type="button">I VERIFIED MY EMAIL</button><button class="ghost" id="resendVerificationBtn" type="button">RESEND VERIFICATION EMAIL</button>';
-  $("verifiedBtn").onclick = async () => {
-    message("Checking your email verification…");
-    await currentUser.reload();
-    currentUser = auth.currentUser;
-    if (currentUser?.emailVerified) {
-      message(
-        "Email verified. You can now continue to secure payment.",
-        "success",
-      );
-      renderStatus(currentProfile || {});
-    } else {
-      message(
-        "Email is not verified yet. Check your Gmail Inbox, Spam or Promotions folder, then open the verification link.",
-        "error",
-      );
-    }
-  };
-  $("resendVerificationBtn").onclick = async () => {
-    try {
-      await sendEmailVerification(currentUser);
-      message(
-        "A new verification email was sent. Check your Gmail Inbox, Spam or Promotions folder.",
-        "success",
-      );
-    } catch (error) {
-      message("Could not resend yet. Wait briefly and try again.", "error");
-    }
-  };
 }
 
 function renderStatus(profile) {
@@ -203,12 +166,6 @@ onAuthStateChanged(auth, async (user) => {
       ? `Hi, ${profile.name}`
       : "Student Access";
     renderStatus(profile);
-    if (!hasPurchasedCourse(profile) && !user.emailVerified) {
-      $("statusPill").textContent = "EMAIL VERIFICATION REQUIRED";
-      $("statusText").textContent =
-        "Open the verification link sent to your email before paying.";
-      showVerificationActions();
-    }
     message("");
 
     if (!hasPurchasedCourse(profile)) {
@@ -243,13 +200,6 @@ onAuthStateChanged(auth, async (user) => {
 
 async function startCheckout() {
   if (!currentUser || hasPurchasedCourse(currentProfile)) return;
-  await currentUser.reload();
-  currentUser = auth.currentUser;
-  if (!currentUser?.emailVerified) {
-    message("Verify your email address before starting payment.", "error");
-    showVerificationActions();
-    return;
-  }
   if (typeof window.Razorpay !== "function") {
     message(
       "Razorpay Checkout could not load. Check your connection and try again.",

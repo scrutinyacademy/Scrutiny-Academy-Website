@@ -322,12 +322,6 @@ exports.createRazorpayOrder = onCall(
   async (request) => {
     if (!request.auth)
       throw new HttpsError("unauthenticated", "Sign in before paying.");
-    if (request.auth.token.email_verified !== true) {
-      throw new HttpsError(
-        "failed-precondition",
-        "Verify your email address before starting payment.",
-      );
-    }
 
     const uid = request.auth.uid;
     const studentRef = db.doc(`students/${uid}`);

@@ -15,9 +15,9 @@
   const faq = [
     { id: "login", keys: ["login", "log in", "sign in", "password", "incorrect password", "cannot login", "can't login"], answer: "Use the same email and password you used while registering. If the password is forgotten, enter your email on the Login tab and tap “Forgot password?”. Also check Gmail Spam or Promotions for the reset email." },
     { id: "forgot", keys: ["forgot password", "reset password", "password reset", "change password"], answer: "Open Student Login, enter your registered email, then tap “Forgot password?”. Open the reset link sent to Gmail. If it is not in Inbox, check Spam and Promotions." },
-    { id: "verify", keys: ["verify", "verification", "email not received", "verification email", "spam", "promotions", "mail not", "link expired"], answer: "Check Gmail Inbox, Spam and Promotions. If found in Spam, tap “Report not spam”, then open the verification link. If it is missing or expired, return to the verification page and tap “Resend verification email”." },
+    { id: "verify", keys: ["verify", "verification", "email not received", "verification email", "spam", "promotions", "mail not", "link expired"], answer: "Email activation is not required. Register or log in, complete payment for your selected course and access it after payment confirmation." },
     { id: "register", keys: ["register", "registration", "create account", "sign up", "new account"], answer: "Choose your course, enter your real name, mobile number, email and a password of at least 8 characters. After creating the account, verify your email before payment." },
-    { id: "payment", keys: ["payment", "pay", "upi", "razorpay", "card", "netbanking", "google pay", "phonepe"], answer: "Payments are completed securely through Razorpay using the methods shown there, such as UPI, cards or netbanking. Verify your email first. Never pay twice if one payment is already processing." },
+    { id: "payment", keys: ["payment", "pay", "upi", "razorpay", "card", "netbanking", "google pay", "phonepe"], answer: "Payments are completed securely through Razorpay using the methods shown there, such as UPI, cards or netbanking. No email activation is required. Never pay twice if one payment is already processing." },
     { id: "debited", keys: ["debited", "money deducted", "charged", "paid but", "payment successful", "payment pending", "not unlocked", "amount deducted"], answer: "If money was deducted, do not pay again. Wait 2–5 minutes, reopen the Student Dashboard and check My Courses. If access is still locked, contact support with your registered email and Razorpay payment ID." },
     { id: "failed", keys: ["payment failed", "transaction failed", "upi failed", "payment cancelled"], answer: "If Razorpay shows Failed or Cancelled and no money was deducted, you can retry. If money was deducted, do not retry immediately—check your bank/Razorpay status and contact support with the payment ID." },
     { id: "invoice", keys: ["invoice", "receipt", "bill", "payment id"], answer: "After successful payment, the invoice is emailed to your registered address and is also available in your student account. Check Spam/Promotions if the email is not visible." },
@@ -38,7 +38,7 @@
   ];
 
   const categoryReplies = {
-    account: { text: "What account issue are you facing?", options: [["I can’t log in", "login"], ["Forgot password", "forgot"], ["Create an account", "register"], ["Email verification", "verify"]] },
+    account: { text: "What account issue are you facing?", options: [["I can’t log in", "login"], ["Forgot password", "forgot"], ["Create an account", "register"], ["Do I need to activate my email?", "verify"]] },
     email: { text: "Choose the email issue:", options: [["Verification email missing", "verify"], ["Verification link expired", "verify"], ["Password reset email missing", "forgot"]] },
     payment: { text: "What happened with the payment?", options: [["Money deducted, course locked", "debited"], ["Payment failed", "failed"], ["How can I pay?", "payment"], ["Need invoice/receipt", "invoice"]] },
     course: { text: "Choose your course-access issue:", options: [["Paid course is locked", "access"], ["Buy another course", "multiple"], ["Course prices & validity", "price"], ["Find study material", "content"]] },
@@ -157,7 +157,7 @@
   function start() {
     if (started) return;
     started = true;
-    addMessage("Hi! I’m the Scrutiny Academy Help Assistant 👋\nI can instantly help with account, email verification, payment, course access and study-material questions.");
+    addMessage("Hi! I’m the Scrutiny Academy Help Assistant 👋\nI can instantly help with account, registration, payment, course access and study-material questions.");
     showMainChoices();
   }
   function openPanel() {

@@ -106,7 +106,7 @@ scrutiny-academy/
    - Course-specific Razorpay checkout: Class 10 ₹99, Class 11 ₹149, Class 12 ₹149, NEET-UG ₹99 through 5 October 2026 / ₹499 afterward, and MBBS lifetime access ₹799.
    - Verified entitlements unlock only the purchased course and retain its exam-validity metadata.
    - Payment signatures and captured status are verified by Firebase Functions before access is activated.
-   - Email verification is required by the current frontend and the updated backend function.
+   - Email activation is not required. Registration leads directly to the selected course payment page. Authentication, server-side pricing, payment signatures and captured-payment checks remain required. Deploy createRazorpayOrder to Firebase when publishing this update.
 
 10. **Help Desk & Social Links**:
    - Direct link to YouTube (`https://m.youtube.com/@ScrutinyAcademy`).
