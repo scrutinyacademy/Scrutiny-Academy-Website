@@ -1,6 +1,15 @@
 export const NEET_PROMO_END = "2026-10-05T18:29:59.999Z";
 
 export const COURSE_CATALOG = {
+  class8: {
+    id: "class8",
+    name: "Class 8 SSC Complete Learning Course",
+    shortName: "Class 8 Telangana SSC",
+    price: 79,
+    icon: "🚀",
+    validity: "Valid for the Class 8 academic year",
+    includes: ["SCERT-aligned subject learning", "Visual revision notes", "Flashcards and active recall", "Practice and chapter tests", "Mistake Book and smart revision"],
+  },
   class10: {
     id: "class10",
     name: "Class 10 SSC Complete Course 2027",
