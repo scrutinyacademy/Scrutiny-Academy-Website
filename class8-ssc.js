@@ -16,6 +16,7 @@ let activeMode = "learn";
 let quizIndex = 0;
 let quizScore = 0;
 let quizLocked = false;
+let practiceQuestions = [];
 let state = {xp:0,streak:1,lastVisit:"",activities:0,chapters:{},mistakes:[],mission:{date:"",done:[]},lastChapter:""};
 
 function loadState() {
@@ -77,6 +78,12 @@ function renderSubjects() {
   $("subjectTabs").innerHTML = SUBJECTS.map((subject) => `<button data-subject="${esc(subject)}" style="--subject-color:${CONTENT[subject].color}" class="${subject===selectedSubject?"active":""}">${CONTENT[subject].icon} ${esc(subject)}</button>`).join("");
   $("subjectTabs").querySelectorAll("button").forEach((button) => button.addEventListener("click", () => {selectedSubject=button.dataset.subject;renderSubjects();renderChapters();}));
   $("examSubject").innerHTML = SUBJECTS.map((s)=>`<option>${esc(s)}</option>`).join("");
+  const chapters=SUBJECTS.flatMap(s=>CONTENT[s].chapters);
+  $("publishedChapters").textContent=chapters.length.toLocaleString("en-IN");
+  $("publishedTopics").textContent=chapters.reduce((n,c)=>n+c.concepts.length,0).toLocaleString("en-IN");
+  $("publishedCards").textContent=chapters.reduce((n,c)=>n+c.cards.length,0).toLocaleString("en-IN");
+  $("publishedMcqs").textContent=chapters.reduce((n,c)=>n+c.quiz.length,0).toLocaleString("en-IN");
+  $("publishedWriting").textContent=chapters.reduce((n,c)=>n+c.writing.length,0).toLocaleString("en-IN");
 }
 
 function chapterMastery(chapter) {
@@ -86,7 +93,7 @@ function chapterMastery(chapter) {
 
 function renderChapters() {
   const subject = CONTENT[selectedSubject];
-  $("chapterGrid").innerHTML = subject.chapters.map((chapter,index) => `<article class="chapter-card" style="--subject-color:${subject.color}"><span class="number">${index+1}</span><h3>${esc(chapter.title)}</h3><p>${esc(chapter.intro)}</p><div class="chapter-meta"><span>${chapter.concepts.length} concept lessons</span><strong>${chapterMastery(chapter)}% mastered</strong></div><button data-chapter="${chapter.id}">${state.lastChapter===chapter.id?"Continue":"Start learning"}</button></article>`).join("");
+  $("chapterGrid").innerHTML = subject.chapters.map((chapter,index) => `<article class="chapter-card" style="--subject-color:${subject.color}"><span class="number">${index+1}</span><h3>${esc(chapter.title)}</h3><p>${esc(chapter.intro)}</p><div class="bank-counts"><span>${chapter.concepts.length} topics</span><span>${chapter.cards.length} flashcards</span><span>${chapter.quiz.length} MCQs</span><span>${chapter.writing.length} writing</span></div><div class="chapter-meta"><span>Textbook aligned</span><strong>${chapterMastery(chapter)}% mastered</strong></div><button data-chapter="${chapter.id}">${state.lastChapter===chapter.id?"Continue":"Start learning"}</button></article>`).join("");
   $("chapterGrid").querySelectorAll("button").forEach((button) => button.addEventListener("click", () => openChapter(button.dataset.chapter)));
 }
 
@@ -125,14 +132,18 @@ function renderFlashcards(start = 0) {
   }; draw();
 }
 
-function startQuiz() { quizIndex=0;quizScore=0;quizLocked=false;renderQuestion(); }
+function startQuiz(setIndex = null) {
+  const size=20,totalSets=Math.ceil(activeChapter.quiz.length/size);
+  if(setIndex===null){$("learningPanel").innerHTML=`<div class="set-picker"><span class="eyebrow">${activeChapter.quiz.length} MCQS PUBLISHED</span><h3>Choose a 20-question practice set</h3><p>Complete every set to practise the full chapter bank. Incorrect answers are saved automatically.</p><div>${Array.from({length:totalSets},(_,i)=>`<button data-set="${i}">Set ${i+1}<small>Questions ${i*size+1}-${Math.min((i+1)*size,activeChapter.quiz.length)}</small></button>`).join("")}</div></div>`;$("learningPanel").querySelectorAll("[data-set]").forEach(b=>b.onclick=()=>startQuiz(Number(b.dataset.set)));return;}
+  practiceQuestions=activeChapter.quiz.slice(setIndex*size,(setIndex+1)*size);quizIndex=0;quizScore=0;quizLocked=false;renderQuestion();
+}
 function renderQuestion() {
-  const questions = activeChapter.quiz;
+  const questions = practiceQuestions;
   if (quizIndex >= questions.length) {
     const percentage = Math.round(quizScore/questions.length*100);
     earn("practice",25,percentage);
     $("learningPanel").innerHTML = `<div class="quiz-card"><span class="eyebrow">RESULT</span><h3>${quizScore}/${questions.length} correct • ${percentage}%</h3><p class="feedback">${percentage>=80?"Excellent. Your concept application is strong.":percentage>=50?"Good start. Review the mistakes saved below, then retry.":"Return to Learn, revise each concept and try once more."}</p><button class="primary-action" id="retryQuiz">Try again</button></div>`;
-    $("retryQuiz").onclick=startQuiz; return;
+    $("retryQuiz").onclick=()=>startQuiz(null); return;
   }
   const [question,answer,options] = questions[quizIndex]; quizLocked=false;
   $("learningPanel").innerHTML = `<div class="quiz-card"><div class="quiz-progress"><span style="width:${quizIndex/questions.length*100}%"></span></div><span class="eyebrow">QUESTION ${quizIndex+1} OF ${questions.length}</span><h3>${esc(question)}</h3><div class="options">${options.map((option)=>`<button class="option">${esc(option)}</button>`).join("")}</div><div id="quizFeedback"></div></div>`;
@@ -145,15 +156,17 @@ function answerQuestion(button, answer, question) {
   button.classList.add(correct?"correct":"wrong");
   $("learningPanel").querySelectorAll(".option").forEach((b)=>{b.disabled=true;if(b.textContent===answer)b.classList.add("correct");});
   if(correct){quizScore++;removeMistake(question);}else addMistake(question,answer,activeChapter.id);
-  $("quizFeedback").innerHTML=`<div class="feedback"><b>${correct?"Correct!":"Not quite."}</b> ${correct?"Well done.":`Correct answer: ${esc(answer)}`}</div><button class="primary-action" id="nextQuestion" style="margin-top:12px">${quizIndex===activeChapter.quiz.length-1?"See result":"Next question"}</button>`;
+  $("quizFeedback").innerHTML=`<div class="feedback"><b>${correct?"Correct!":"Not quite."}</b> ${correct?"Well done.":`Correct answer: ${esc(answer)}`}</div><button class="primary-action" id="nextQuestion" style="margin-top:12px">${quizIndex===practiceQuestions.length-1?"See result":"Next question"}</button>`;
   $("nextQuestion").onclick=()=>{quizIndex++;renderQuestion();};
 }
 
 function addMistake(question,answer,chapterId){if(!state.mistakes.some((m)=>m.question===question)){state.mistakes.push({question,answer,chapterId,date:todayKey()});saveState(false);}}
 function removeMistake(question){state.mistakes=state.mistakes.filter((m)=>m.question!==question);saveState(false);}
 
-function renderWriting() {
-  $("learningPanel").innerHTML = `<div class="writing-area"><div><span class="eyebrow">SSC-STYLE WRITTEN PRACTICE</span><h3>${esc(activeChapter.write)}</h3><textarea id="writtenAnswer" placeholder="Write your complete answer here…"></textarea></div><aside class="rubric"><h3>Self-check before submitting</h3>${activeChapter.rubric.map((item,index)=>`<label><input type="checkbox" data-rubric="${index}"><span>${esc(item)}</span></label>`).join("")}<button class="primary-action" id="saveWriting">Save writing practice</button><p id="writingFeedback"></p></aside></div>`;
+function renderWriting(selected = 0) {
+  const prompt=activeChapter.writing[selected]||activeChapter.write;
+  $("learningPanel").innerHTML = `<div class="writing-picker"><label>Choose from ${activeChapter.writing.length} published questions<select id="writingQuestion">${activeChapter.writing.map((q,i)=>`<option value="${i}" ${i===selected?"selected":""}>Question ${i+1}: ${esc(q)}</option>`).join("")}</select></label></div><div class="writing-area"><div><span class="eyebrow">SSC-STYLE WRITTEN PRACTICE • QUESTION ${selected+1}</span><h3>${esc(prompt)}</h3><textarea id="writtenAnswer" placeholder="Write your complete answer here…"></textarea></div><aside class="rubric"><h3>Self-check before submitting</h3>${activeChapter.rubric.map((item,index)=>`<label><input type="checkbox" data-rubric="${index}"><span>${esc(item)}</span></label>`).join("")}<button class="primary-action" id="saveWriting">Save writing practice</button><p id="writingFeedback"></p></aside></div>`;
+  $("writingQuestion").onchange=e=>renderWriting(Number(e.target.value));
   $("saveWriting").onclick=()=>{const answer=$("writtenAnswer").value.trim();const checks=[...document.querySelectorAll("[data-rubric]:checked")].length;if(answer.length<40){$("writingFeedback").textContent="Write at least a few complete sentences first.";return}const score=Math.round(checks/activeChapter.rubric.length*100);earn("write",30,Math.max(40,score));$("writingFeedback").innerHTML=`Saved ✓ Self-check score: <b>${score}%</b>. ${checks<activeChapter.rubric.length?"Improve the unchecked points, then rewrite once.":"Strong structure—well done."}`;};
 }
 

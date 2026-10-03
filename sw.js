@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v43-class8-learning";
+const CACHE = "scrutiny-academy-v44-class8-textbooks";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -11,9 +11,10 @@ const APP_SHELL = [
   "./student-success.js",
   "./student-success.css",
   "./class8-ssc.html",
-  "./class8-ssc.css?v=2",
-  "./class8-ssc.js?v=2",
-  "./class8-content.js?v=2",
+  "./class8-ssc.css?v=3",
+  "./class8-enhanced.css?v=3",
+  "./class8-ssc.js?v=3",
+  "./class8-content.js?v=3",
   "./app-gate.js",
   "./v2.css",
   "./v2.js",
