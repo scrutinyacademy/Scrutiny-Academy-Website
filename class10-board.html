@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="auth-check">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#082d4f">
+  <meta name="description" content="Scrutiny Academy Class 10 Telangana SSC board preparation portal.">
+  <title>Class 10 Board Mission | Scrutiny Academy</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="class10-board.css?v=1">
+  <style>.auth-check body{visibility:hidden}</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="student.html"><img src="assets/logo.svg" alt="Scrutiny Academy"><span><b>SCRUTINY ACADEMY</b><small>CLASS 10 • TELANGANA SSC</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav"><a href="#today">Today</a><a href="#subjects">Subjects</a><a href="#workspace">Learning Lab</a><a href="#readiness">Readiness</a><a href="#mistakes">Mistakes</a><a href="#boardMode">90-Day Mode</a></nav>
+    <div class="top-actions"><a href="student.html">My Courses</a><button id="logoutBtn" type="button">Logout</button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="today">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR PERSONALISED BOARD COMMAND CENTRE</span>
+        <h1 id="welcome">Know what to study. Practise it. Write it like a topper.</h1>
+        <p>One guided system for Telangana SSC concepts, memory, board questions, answer writing, testing and mistake revision.</p>
+        <div class="hero-actions"><button class="primary" id="startMission">Start today’s 60-minute mission</button><a href="#subjects">Explore subjects</a></div>
+        <div class="hero-stats"><span><b id="streak">1</b><small>day streak</small></span><span><b id="activities">0</b><small>activities</small></span><span><b id="dueCount">0</b><small>revision due</small></span></div>
+      </div>
+      <aside class="mission-card">
+        <header><div><span>TODAY’S MISSION</span><h2>60 focused minutes</h2></div><strong id="missionCount">0/5</strong></header>
+        <div id="missionList"></div>
+        <div class="mission-progress"><span id="missionBar"></span></div>
+        <button id="missionAction" type="button">BEGIN WITH LEARN →</button>
+      </aside>
+    </section>
+
+    <section class="promise-strip" aria-label="Scrutiny learning loop"><span>01 LEARN</span><i>→</i><span>02 REMEMBER</span><i>→</i><span>03 PRACTISE</span><i>→</i><span>04 WRITE</span><i>→</i><span>05 TEST</span><i>→</i><span>06 IMPROVE</span></section>
+
+    <section id="subjects" class="section">
+      <div class="section-head"><div><span class="eyebrow">BOARD-FOCUSED SUBJECT LIBRARY</span><h2>Choose a subject. See exactly what is published.</h2></div><p>Every chapter opens the same six-step mastery loop, so students never need to decide what to do next.</p></div>
+      <div class="subject-tabs" id="subjectTabs"></div>
+      <div class="chapter-grid" id="chapterGrid"></div>
+    </section>
+
+    <section id="workspace" class="workspace" hidden>
+      <header class="workspace-head">
+        <button id="allChapters" type="button">← All chapters</button><span id="chapterSubject">Subject</span>
+        <h2 id="chapterTitle">Chapter title</h2><p id="chapterOverview"></p>
+        <div class="chapter-counts" id="chapterCounts"></div>
+      </header>
+      <div class="mode-tabs" role="tablist" aria-label="Chapter learning modes">
+        <button data-mode="learn" class="active">📖 Learn</button><button data-mode="remember">🧠 Remember</button><button data-mode="practice">🎯 Practise</button><button data-mode="write">✍️ Write</button><button data-mode="test">🧪 Test</button><button data-mode="improve">📈 Improve</button>
+      </div>
+      <div id="learningPanel" class="learning-panel"></div>
+    </section>
+
+    <section id="readiness" class="section readiness-section">
+      <div class="section-head"><div><span class="eyebrow">BOARD READINESS</span><h2>Your marks are a result. This shows what to improve next.</h2></div><button class="outline" id="parentReport" type="button">Copy parent progress report</button></div>
+      <div class="readiness-layout">
+        <div class="readiness-ring" id="readinessRing"><span><strong id="readinessScore">0%</strong><small>BOARD READY</small></span></div>
+        <div class="diagnostics" id="diagnostics"></div>
+        <aside class="coach"><span>SCRUTINY COACH</span><h3 id="coachTitle">Begin your first chapter</h3><p id="coachText">Your next best action will appear after you complete an activity.</p><button id="coachAction" type="button">START NOW</button></aside>
+      </div>
+      <div class="subject-readiness" id="subjectReadiness"></div>
+    </section>
+
+    <section id="mistakes" class="section mistake-section">
+      <div class="section-head"><div><span class="eyebrow">AUTOMATIC ERROR NOTEBOOK</span><h2>Turn every wrong answer into future marks.</h2><p>Questions stay here until you answer them correctly or mark them revised.</p></div><button class="primary small" id="weakAreaTest" type="button">Practise my weak areas</button></div>
+      <div class="mistake-filters" id="mistakeFilters"></div><div id="mistakeList"></div>
+    </section>
+
+    <section id="boardMode" class="section board-mode">
+      <div class="board-mode-copy"><span class="eyebrow">FINAL 90-DAY BOARD MODE</span><h2 id="countdownTitle">Set your exam date and activate the countdown.</h2><p id="countdownCopy">Your recommended phase changes automatically from concept completion to practice, PYQs, sample papers and exam rescue.</p></div>
+      <form id="examDateForm"><label>First board exam date<input id="examDate" type="date" required></label><button type="submit">Activate board mode</button></form>
+      <div class="timeline" id="timeline"></div>
+      <div class="rescue-card"><div><span>1 DAY LEFT</span><h3>Exam Rescue Mode</h3><p>Only essential definitions, formulae, diagrams, answer formats and your own mistakes.</p></div><button id="nightBefore" type="button">Open Night Before Exam</button></div>
+    </section>
+  </main>
+
+  <dialog id="activityDialog"><button class="dialog-close" id="closeDialog" aria-label="Close">×</button><div id="dialogContent"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <footer><img src="assets/logo.svg" alt=""><p><b>Scrutiny Academy</b><br>Learn simply. Write confidently. Improve until exam day.</p><a href="mailto:scrutinyacademy@gmail.com">Need help?</a></footer>
+  <script type="module" src="class10-board.js?v=1"></script>
+</body>
+</html>

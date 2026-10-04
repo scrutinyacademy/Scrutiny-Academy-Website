@@ -19,7 +19,7 @@ export const COURSE_CATALOG = {
     regularPrice: 495,
     icon: "📘",
     validity: "Valid until your 2027 Class 10 board examinations conclude",
-    includes: ["Video lectures", "Chapter notes", "Revision sheets", "Flashcards", "MCQs"],
+    includes: ["Daily 60-minute board mission", "Answer Writing Lab", "Flashcards and spaced revision", "Mark-wise practice and tests", "Board Readiness and Error Notebook"],
   },
   class11: {
     id: "class11",

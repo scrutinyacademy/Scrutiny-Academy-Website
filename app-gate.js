@@ -41,6 +41,7 @@ function selectedCourse(profile = {}, allowed = []) {
 
 function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   if (courseId === "class8") { location.replace("class8-ssc.html"); return; }
+  if (courseId === "class10") { location.replace("class10-board.html"); return; }
   if (courseId === "jee") { location.replace("jee.html"); return; }
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   localStorage.setItem("scrutiny_active_course", courseId);
@@ -59,6 +60,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
         console.warn("Course preference saved on this device only", error);
       }
       if (next === "class8") location.assign("class8-ssc.html");
+      else if (next === "class10") location.assign("class10-board.html");
       else if (next === "jee") location.assign("jee.html");
       else location.assign(`preview-v2.html?course=${next}#${COURSE_PORTALS[next].target}`);
     });
