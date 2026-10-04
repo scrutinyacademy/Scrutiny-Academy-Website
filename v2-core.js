@@ -1075,15 +1075,40 @@
       };
     });
     const seconds = Math.floor((Date.now() - z.started) / 1000),
+      incorrect = attempted - correct,
+      unattempted = z.questions.length - attempted,
+      score = correct * 4 - incorrect,
+      maxScore = z.questions.length * 4,
       accuracy = attempted ? Math.round((correct / attempted) * 100) : 0,
-      r = {
+      avgSecondsPerAttempt = attempted ? Math.round(seconds / attempted) : 0,
+      topicRows = new Map();
+    review.forEach((item) => {
+      if (item.selected === undefined) return;
+      const topic = item.subtopic || item.conceptTested || item.chapter || item.subject || "Mixed practice";
+      const row = topicRows.get(topic) || { topic, attempted: 0, correct: 0 };
+      row.attempted++;
+      if (item.isCorrect) row.correct++;
+      topicRows.set(topic, row);
+    });
+    const topicPerformance = [...topicRows.values()].map((row) => ({ ...row, accuracy: Math.round((row.correct / row.attempted) * 100) })).sort((a,b) => a.accuracy - b.accuracy || b.attempted - a.attempted);
+    const weakAreas = topicPerformance.filter((row) => row.accuracy < 70).slice(0, 5);
+    const focusMessage = !attempted ? "Attempt the questions to generate a performance diagnosis." : weakAreas.length ? `Focus next on ${weakAreas.slice(0,3).map((row)=>row.topic).join(", ")}. Revisit concepts, then retry incorrect questions.` : accuracy < 85 ? "Accuracy is improving. Review incorrect questions and aim for 85%+ before moving on." : "Strong session. Maintain accuracy while gradually reducing time per MCQ.";
+    const r = {
         id: `session-${Date.now()}`,
         title: z.title,
         total: z.questions.length,
         attempted,
         correct,
+        incorrect,
+        unattempted,
+        score,
+        maxScore,
         accuracy,
         seconds,
+        avgSecondsPerAttempt,
+        topicPerformance,
+        weakAreas,
+        focusMessage,
         completedAt: new Date().toISOString(),
         referenceAssisted: Boolean(z.referenceAssisted),
         courseId: activeCourseId(),
@@ -1111,10 +1136,10 @@
   }
   function showResult(r) {
     $("resultTitle").textContent = r.title;
-    $("resultScore").textContent = `${r.correct}/${r.total}`;
+    $("resultScore").textContent = `${r.score}/${r.maxScore} marks`;
     $("resultAccuracy").textContent = `${r.accuracy}% accuracy`;
-    $("resultAttempted").textContent = `Attempted: ${r.attempted}/${r.total} • Incorrect: ${r.attempted - r.correct} • Unattempted: ${r.total - r.attempted}`;
-    $("resultTime").textContent = `Time: ${formatTime(r.seconds)}${r.referenceAssisted ? " • Formula-assisted practice" : ""}`;
+    $("resultAttempted").textContent = `+4 correct / −1 wrong • Correct: ${r.correct} • Incorrect: ${r.incorrect} • Unattempted: ${r.unattempted} • Net score: ${r.score}/${r.maxScore}`;
+    $("resultTime").textContent = `Time: ${formatTime(r.seconds)} • Avg: ${r.avgSecondsPerAttempt || 0}s/attempt${r.referenceAssisted ? " • Formula-assisted practice" : ""} • ${r.focusMessage}`;
     $("resultDna").hidden = !r.mistakeDNA;
     if (r.mistakeDNA) {
       const d = r.mistakeDNA;
@@ -1198,7 +1223,7 @@
           .slice(0, 8)
           .map(
             (s) =>
-              `<div class="session"><strong>${esc(s.title)}</strong><span>${s.correct}/${s.total} • ${s.accuracy}%</span></div>`,
+              `<div class="session"><strong>${esc(s.title)}</strong><span>${Number.isFinite(s.score) ? s.score : ((s.correct||0)*4-Math.max(0,(s.attempted||0)-(s.correct||0)))}/${s.maxScore || (s.total||0)*4} marks • ${s.accuracy}% • ${formatTime(s.seconds||0)}</span></div>`,
           )
           .join("")
       : '<div class="empty-state compact">No practice sessions saved yet.</div>';
