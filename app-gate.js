@@ -21,6 +21,7 @@ const COURSE_PORTALS = {
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", target: "class11", sections: ["class11", "progress", "support"], color: "#138a5b", description: "A separate Telangana Intermediate board portal with chapter-wise Botany VSAQs, SAQs and LAQs." },
   class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", target: "class12", sections: ["class12", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#7254c7", description: "Second-year board preparation, revision and subject resources." },
   neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", target: "neet", sections: ["neet", "ranker", "flashcards", "pyqs", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#d65328", description: "NCERT-focused Biology, Physics and Chemistry practice, tests, PYQs and analysis." },
+  jee: { name: "IIT-JEE", label: "ENGINEERING ENTRANCE PORTAL", target: "jee", sections: ["jee", "tools", "progress", "support"], color: "#ef6c00", description: "Physics, Chemistry and Mathematics preparation for JEE Main and Advanced." },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", target: "mbbs", sections: ["mbbs", "tools", "progress", "support"], color: "#087f87", description: "Phase-wise medical subjects, clinical learning, revision and assessments." },
 };
 
@@ -40,6 +41,7 @@ function selectedCourse(profile = {}, allowed = []) {
 
 function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   if (courseId === "class8") { location.replace("class8-ssc.html"); return; }
+  if (courseId === "jee") { location.replace("jee.html"); return; }
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   localStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
@@ -56,7 +58,9 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
       } catch (error) {
         console.warn("Course preference saved on this device only", error);
       }
-      location.assign(`preview-v2.html?course=${next}#${COURSE_PORTALS[next].target}`);
+      if (next === "class8") location.assign("class8-ssc.html");
+      else if (next === "jee") location.assign("jee.html");
+      else location.assign(`preview-v2.html?course=${next}#${COURSE_PORTALS[next].target}`);
     });
   }
 

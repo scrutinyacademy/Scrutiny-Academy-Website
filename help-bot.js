@@ -42,7 +42,7 @@
     email: { text: "Choose the email issue:", options: [["Verification email missing", "verify"], ["Verification link expired", "verify"], ["Password reset email missing", "forgot"]] },
     payment: { text: "What happened with the payment?", options: [["Money deducted, course locked", "debited"], ["Payment failed", "failed"], ["How can I pay?", "payment"], ["Need invoice/receipt", "invoice"]] },
     course: { text: "Choose your course-access issue:", options: [["Paid course is locked", "access"], ["Buy another course", "multiple"], ["Course prices & validity", "price"], ["Find study material", "content"]] },
-    studies: { text: "Which study section do you need help with?", options: [["Class 10 SSC / SA-1", "class10"], ["Class 11 Boards", "class11"], ["Class 12 Boards", "class12"], ["NEET-UG", "neet"], ["MBBS", "mbbs"]] },
+    studies: { text: "Which study section do you need help with?", options: [["Class 8 Telangana SSC", "class8"], ["Class 10 SSC / SA-1", "class10"], ["Class 11 Boards", "class11"], ["Class 12 Boards", "class12"], ["NEET-UG", "neet"], ["IIT-JEE", "jee"], ["MBBS", "mbbs"]] },
     technical: { text: faq.find((item) => item.id === "browser").answer, options: [["Paid course still locked", "access"], ["Contact support", "contact"]] },
   };
 

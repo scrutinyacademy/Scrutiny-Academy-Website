@@ -12,7 +12,7 @@ const paymentHtml=read('payment.html');
 const backend=read('functions/index.js');
 const courseIds=Object.keys(COURSE_CATALOG);
 
-assert.deepEqual(courseIds,['class10','class11','class12','neet','mbbs']);
+assert.deepEqual(courseIds,['class8','class10','class11','class12','neet','jee','mbbs']);
 assert.ok(studentHtml.includes('id="courseSwitchMenu"'));
 assert.ok(studentHtml.includes('id="courseSwitchList"'));
 assert.ok(studentJs.includes('Object.entries(COURSE_CATALOG)'),'Switcher must render every catalog course');
@@ -25,4 +25,4 @@ assert.ok(backend.includes('FieldValue.arrayUnion(courseId)'),'Backend must pres
 
 const multi=entitledCourses({courseEntitlements:{neet:{status:'active'},class11:{status:'active'},mbbs:{status:'pending'}}});
 assert.deepEqual(multi.sort(),['class11','neet']);
-console.log('Validated five-course discovery, locked-course payment routes, multi-entitlement preservation, and same-account post-payment switching.');
+console.log('Validated seven-course discovery, locked-course payment routes, multi-entitlement preservation, and same-account post-payment switching.');

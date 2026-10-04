@@ -28,6 +28,7 @@ const COURSE_PORTALS = {
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", icon: "🌱", color: "#138a5b", target: "class11", description: "A separate Telangana Intermediate board portal with complete Botany, Zoology, Physics and Chemistry answer banks.", actions: [["Botany Answer Bank", "Open all 14 Botany chapters with VSAQs, SAQs and LAQs.", "class11", "botany"], ["Zoology Answer Bank", "Open all 8 official Zoology units with 240 explained answers.", "class11", "zoology"], ["Physics Answer Bank", "Open all 14 revised Physics units with 252 explained answers, derivations and diagrams.", "class11", "physics"], ["Chemistry Answer Bank", "Open all 13 Chemistry chapters with 234 explained answers, reactions and diagrams.", "class11", "chemistry"], ["My Board Progress", "See only your Class 11 learning record.", "progress"]] },
   class12: { name: "Class 12 Telangana Intermediate", label: "INTERMEDIATE 2ND YEAR", icon: "🎓", color: "#7254c7", target: "class12", description: "Second-year board subjects, revision resources and exam preparation.", actions: [["Class 12 Subjects", "Open the second-year chapter catalogue.", "class12"], ["NCERT Tools", "Search connected NCERT concepts.", "ncert"], ["My Progress", "See only your Class 12 learning record.", "progress"], ["Revision Queue", "Review Class 12 mistakes and bookmarks.", "tools"]] },
   neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", icon: "🧬", color: "#d65328", target: "neet", description: "NCERT-focused Biology, Physics and Chemistry MCQs, PYQs and tests.", actions: [["NCERT Learning Arcade", "Play ten interactive NCERT mastery games.", "quest"], ["Chapter Practice", "Biology, Physics and Chemistry MCQs.", "neet"], ["Create a Test", "Build a personalised NEET test.", "neet"], ["NCERT Search", "Find indexed NCERT concepts and references.", "ncert"], ["Mistake Notebook", "Revise incorrect NEET questions.", "tools"], ["Previous Years", "Open published NEET PYQs.", "pyqs"], ["My Progress", "See only your NEET performance.", "progress"]] },
+  jee: { name: "IIT-JEE", label: "ENGINEERING ENTRANCE PORTAL", icon: "⚙️", color: "#ef6c00", target: "jee.html", description: "Physics, Chemistry and Mathematics preparation for JEE Main and Advanced.", actions: [["Rigid Body & Rotational Motion", "Open the complete masterclass with 200 flashcards, 200 MCQs, formulae and JEE tricks.", "jee-rigid-body-free.html?course=jee"], ["Course Roadmap", "View the IIT-JEE subject roadmap and upcoming modules.", "jee.html#roadmap"], ["My JEE Progress", "See only your IIT-JEE learning record.", "progress"]] },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
 };
 let activeCourse = "neet";
@@ -48,6 +49,12 @@ function inferCourse(item = {}) {
 
 function portalUrl(anchor, subject = "") {
   if (activeCourse === "class8") return anchor.startsWith("class8-ssc.html") ? anchor : "class8-ssc.html";
+  if (activeCourse === "jee") {
+    if (anchor.startsWith("jee-rigid-body-free.html")) return anchor;
+    if (anchor.startsWith("jee.html")) return anchor;
+    if (anchor === "progress") return "student.html?course=jee#progress";
+    return "jee.html";
+  }
   if (anchor === "quest") return "ncert-quest.html";
   return `preview-v2.html?course=${activeCourse}${subject ? `&subject=${subject}` : ""}#${anchor}`;
 }
@@ -70,6 +77,7 @@ function welcomeLine(name) {
 
 function renderCourseDashboard() {
   const course = COURSE_PORTALS[activeCourse];
+  document.body.classList.toggle("physics-formulas-enabled", ["neet", "jee"].includes(activeCourse));
   document.documentElement.style.setProperty("--course-accent", course.color);
   $("activeCourseLabel").textContent = course.label;
   $("activeCourseName").textContent = `${course.icon} ${course.name}`;
@@ -111,8 +119,9 @@ function renderCourseSwitchMenu() {
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
         : `<span class="course-menu-price">₹${currentCoursePrice(id)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
+    const openUrl = id === "class8" ? "class8-ssc.html" : id === "jee" ? "jee.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
-      ? `<a class="course-menu-action owned-action" href="preview-v2.html?course=${id}#${portal.target}">OPEN</a>`
+      ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`
       : owned
         ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}">SWITCH</button>`
       : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id)}">BUY COURSE</a>`;

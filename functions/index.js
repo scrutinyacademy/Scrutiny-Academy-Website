@@ -24,6 +24,7 @@ const COURSES = {
   class11: { name: "Class 11 Board Booster 2027", price: 149, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   class12: { name: "Class 12 Board Booster 2027", price: 149, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   neet: { name: "NEET-UG Target Course", price: 499, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
+  jee: { name: "IIT-JEE Complete Preparation Course", price: 499, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
   mbbs: { name: "MBBS Complete Learning Course", price: 799, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
 };
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");

@@ -47,6 +47,15 @@ export const COURSE_CATALOG = {
     validity: "Valid through the selected NEET-UG examination",
     includes: ["Physics, Chemistry and Biology MCQs", "NCERT search and revision tools", "Previous-year questions", "Tests, analytics and mistake revision"],
   },
+  jee: {
+    id: "jee",
+    name: "IIT-JEE Complete Preparation Course",
+    shortName: "IIT-JEE",
+    price: 499,
+    icon: "⚙️",
+    validity: "Valid until you complete your IIT-JEE examination",
+    includes: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"],
+  },
   mbbs: {
     id: "mbbs",
     name: "MBBS Complete Learning Course",

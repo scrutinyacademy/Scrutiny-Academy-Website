@@ -15,10 +15,12 @@
   const dateKey = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 
   const courses = {
+    class8: { label: "Class 8 Telangana SSC", target: 90, max: 100, subjects: ["Mathematics", "Physical Science", "Biological Science", "Social Studies"], anchor: "class8" },
     class10: { label: "Class 10 SSC", target: 95, max: 100, subjects: ["Mathematics", "Physical Science", "Biology", "Social Studies"], anchor: "class10" },
     class11: { label: "Class 11 Boards", target: 95, max: 100, subjects: ["Botany", "Zoology", "Physics", "Chemistry"], anchor: "class11" },
     class12: { label: "Class 12 Boards", target: 95, max: 100, subjects: ["Botany", "Zoology", "Physics", "Chemistry"], anchor: "class12" },
     neet: { label: "NEET-UG", target: 650, max: 720, subjects: ["Biology", "Physics", "Chemistry"], anchor: "neet" },
+    jee: { label: "IIT-JEE", target: 270, max: 300, subjects: ["Physics", "Chemistry", "Mathematics"], anchor: "jee" },
     mbbs: { label: "MBBS", target: 70, max: 100, subjects: ["Anatomy", "Physiology", "Biochemistry", "Pathology"], anchor: "mbbs" },
   };
 
@@ -27,7 +29,11 @@
   let activeCourse = "neet";
 
   const courseInfo = () => courses[activeCourse] || courses.neet;
-  const portalUrl = (anchor = courseInfo().anchor, subject = "") => `preview-v2.html?course=${encodeURIComponent(activeCourse)}${subject ? `&subject=${encodeURIComponent(subject)}` : ""}#${anchor}`;
+  const portalUrl = (anchor = courseInfo().anchor, subject = "") => {
+    if (activeCourse === "class8") return "class8-ssc.html";
+    if (activeCourse === "jee") return anchor === "tools" ? "student.html?course=jee" : "jee-rigid-body-free.html?course=jee";
+    return `preview-v2.html?course=${encodeURIComponent(activeCourse)}${subject ? `&subject=${encodeURIComponent(subject)}` : ""}#${anchor}`;
+  };
   const practiceUrl = () => activeCourse === "neet" ? portalUrl("neet", "biology") : portalUrl(courseInfo().anchor);
   const subjectLabel = (subject) => activeCourse === "neet" && /^(botany|zoology)$/i.test(String(subject || "")) ? "Biology" : subject;
   const localProgress = () => read(PROGRESS_KEY, { sessions: [] });
@@ -51,17 +57,14 @@
   function setContext(detail = {}) {
     context = detail;
     const available = Array.isArray(detail.availableCourses) ? detail.availableCourses : [];
-    // The personalised success plan is NEET-first whenever the student owns NEET.
-    // This prevents an old Class 11 dashboard selection from sending NEET students
-    // to board-answer content. Board-only students continue to use their own course.
-    activeCourse = available.includes("neet")
-      ? "neet"
-      : detail.activeCourse || localStorage.getItem("scrutiny_active_course") || "neet";
+    const requested = detail.activeCourse || localStorage.getItem("scrutiny_active_course");
+    activeCourse = available.includes(requested) ? requested : available[0] || "neet";
     document.documentElement.dataset.successCourse = activeCourse;
+    if ($("successCommand")) $("successCommand").hidden = activeCourse === "class8";
     const name = detail.profile?.name;
     if (name && $("successTitle")) $("successTitle").textContent = `${name}, your smartest study day starts here.`;
     render();
-    if (!profile() && !$('studyProfileDialog')?.open) setTimeout(openProfile, 450);
+    if (activeCourse !== "class8" && !profile() && !$('studyProfileDialog')?.open) setTimeout(openProfile, 450);
   }
 
   function courseSessions() {
