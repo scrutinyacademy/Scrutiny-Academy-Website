@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v49-class10-board-mission";
+const CACHE = "scrutiny-academy-v50-complete-class10-textbooks";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -20,8 +20,8 @@ const APP_SHELL = [
   "./class8-ssc.js?v=3",
   "./class8-content.js?v=3",
   "./class10-board.html",
-  "./class10-board.css?v=1",
-  "./class10-board.js?v=1",
+  "./class10-board.css?v=2",
+  "./class10-board.js?v=2",
   "./app-gate.js",
   "./v2.css",
   "./v2.js",
@@ -61,10 +61,10 @@ const APP_SHELL = [
   "./assets/chemistry/hydrocarbon-benzene.svg",
   "./data/manifest.json",
   "./data/platform.json",
-  "./data/class10/biology.json",
-  "./data/class10/physics.json",
-  "./data/class10/mathematics.json",
-  "./data/class10/social-science.json",
+  "./data/class10/textbooks/biology/catalog.json",
+  "./data/class10/textbooks/physics/catalog.json",
+  "./data/class10/textbooks/mathematics/catalog.json",
+  "./data/class10/textbooks/social-science/catalog.json",
   "./data/class11/zoology.json",
   "./data/class11/physics.json",
   "./data/class11/chemistry.json",

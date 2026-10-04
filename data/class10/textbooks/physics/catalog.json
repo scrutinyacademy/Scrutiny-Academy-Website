@@ -1,0 +1,346 @@
+{
+  "subject": "Physical Science",
+  "curriculum": "Telangana SSC Class 10",
+  "academicYear": "2025-26",
+  "icon": "⚛️",
+  "description": "Complete textbook-grounded Physical Science chapter bank for Telangana SSC Class 10.",
+  "sourceTextbook": "class 10th physics(1).pdf",
+  "chapters": [
+    {
+      "id": "c10-physics-ch1",
+      "name": "Reflection of Light at Curved Surfaces",
+      "overview": "The image is formed at a distance of 30 cm from the mirror. They enlarge the image when the object is held close to the mirror (less than the focal length). A set of parallel rays are falling on a convex mirror.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 1,
+        "to": 19
+      },
+      "keyConcepts": [
+        "Mirror",
+        "Image",
+        "Point",
+        "Normal",
+        "Angle",
+        "Object",
+        "Reflected",
+        "Curved",
+        "Mirrors",
+        "Reflection",
+        "Surface",
+        "Concave",
+        "Surfaces",
+        "Incident",
+        "Curvature"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-01.json"
+    },
+    {
+      "id": "c10-physics-ch2",
+      "name": "Chemical Equations",
+      "overview": "A chemical equation gives information about the reactants and products through their symbols and formulae. Note: Unbalanced chemical equation containing molecular formulae of the substances is known as skeleton equation. Though the equation (11) is balanced, the coefficients are not the smallest whole numbers.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 20,
+        "to": 32
+      },
+      "keyConcepts": [
+        "Equation",
+        "Chemical",
+        "Reactants",
+        "Products",
+        "Balanced",
+        "Atoms",
+        "Reaction",
+        "Coefficients",
+        "Reactions",
+        "Masses",
+        "Formulae",
+        "Substances",
+        "Smallest",
+        "Amount",
+        "Precipitate"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-02.json"
+    },
+    {
+      "id": "c10-physics-ch3",
+      "name": "Acids, Bases and Salts",
+      "overview": "On dissolving bases in water produces hydroxide (OH-) ions. Acidic and basic solutions in water conduct electricity because they produce hydrogen ions and hydroxide ions respectively. Bases which are soluble in water are called alkalis.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 33,
+        "to": 56
+      },
+      "keyConcepts": [
+        "Water",
+        "Solution",
+        "Acidic",
+        "Acids",
+        "Bases",
+        "Basic",
+        "Salts",
+        "Indicators",
+        "Indicator",
+        "Hydrogen",
+        "Reaction",
+        "Strong",
+        "Dioxide",
+        "Mouth",
+        "Carbonate"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-03.json"
+    },
+    {
+      "id": "c10-physics-ch4",
+      "name": "Refraction of Light at Curved Surfaces",
+      "overview": "PO, PI and PF1 are the object distance, image distance and focal length respectively. So a point sized image is formed at the focal point. This point is the image of the point OI of the object.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 57,
+        "to": 80
+      },
+      "keyConcepts": [
+        "Image",
+        "Focal",
+        "Principal",
+        "Object",
+        "Point",
+        "Distance",
+        "Refractive",
+        "Surface",
+        "Convex",
+        "Length",
+        "Centre",
+        "Index",
+        "Curved",
+        "Surfaces",
+        "Lenses"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-04.json"
+    },
+    {
+      "id": "c10-physics-ch5",
+      "name": "Human Eye and Colourful World",
+      "overview": "It is experimentally observed that the intensity of scattered light varies with angle of scattering. This is the basic process happens in scattering of light. Consequently, the refractive index of a medium depends on wavelength of light.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 81,
+        "to": 106
+      },
+      "keyConcepts": [
+        "Light",
+        "Angle",
+        "Vision",
+        "Scattering",
+        "Colours",
+        "Object",
+        "Retina",
+        "Image",
+        "Prism",
+        "Distance",
+        "Colour",
+        "Focal",
+        "Length",
+        "Distinct",
+        "Refraction"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-05.json"
+    },
+    {
+      "id": "c10-physics-ch6",
+      "name": "Structure of Atom",
+      "overview": "The Pauli Exclusion Principle Helium atom has two electrons. Hund’s rule: The orbitals of equal energy (degenerate) are occupied with one electron each before pairing of electrons starts. Following orbital diagram shows the electron configuration of nitrogen atom.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 107,
+        "to": 122
+      },
+      "keyConcepts": [
+        "Electrons",
+        "Electron",
+        "Quantum",
+        "Energy",
+        "Wavelength",
+        "Electromagnetic",
+        "Orbitals",
+        "Light",
+        "Atomic",
+        "Nucleus",
+        "Orbital",
+        "Principle",
+        "Configuration",
+        "Waves",
+        "Electronic"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-06.json"
+    },
+    {
+      "id": "c10-physics-ch7",
+      "name": "Classification of Elements - The Periodic Table",
+      "overview": "Therefore, the first period contains only two elements. These elements show similar physical and chemical properties for example they are reactive metals. Mendeleeff’s Periodic law: The physical and chemical Properties of the elements are the periodic functions of their Atomic Masses.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 123,
+        "to": 149
+      },
+      "keyConcepts": [
+        "Elements",
+        "Element",
+        "Group",
+        "Atomic",
+        "Period",
+        "Ionization",
+        "Electron",
+        "Metals",
+        "Properties",
+        "Electrons",
+        "Periodic",
+        "Shell",
+        "Energy",
+        "Chlorine",
+        "Outer"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-07.json"
+    },
+    {
+      "id": "c10-physics-ch8",
+      "name": "Chemical Bonding",
+      "overview": "Both the oxygen atoms have octet in the valence shell. Electrons in valence shell (valence electrons) are responsible for the formation of bonds between atoms. Each atom in the F2 molecule has an octet of valence electrons.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 150,
+        "to": 175
+      },
+      "keyConcepts": [
+        "Atoms",
+        "Electrons",
+        "Valence",
+        "Octet",
+        "Covalent",
+        "Molecule",
+        "Electron",
+        "Elements",
+        "Orbitals",
+        "Shell",
+        "Bonds",
+        "Ionic",
+        "Group",
+        "Configuration",
+        "Formed"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-08.json"
+    },
+    {
+      "id": "c10-physics-ch9",
+      "name": "Electric Current",
+      "overview": "Electric power is the product of potential difference and the current. This ordered motion of electrons is called electric current. Usually an ammeter is used to measure electric current.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 176,
+        "to": 208
+      },
+      "keyConcepts": [
+        "Electric",
+        "Current",
+        "Resistance",
+        "Battery",
+        "Conductor",
+        "Potential",
+        "Positive",
+        "Circuit",
+        "Connected",
+        "Difference",
+        "Negative",
+        "Direction",
+        "Charges",
+        "Charge",
+        "Field"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-09.json"
+    },
+    {
+      "id": "c10-physics-ch10",
+      "name": "Electromagnetism",
+      "overview": "Magnetic field due to currents current flows through the circuit. We have seen that current carrying wires produce magnetic field. Note: This equation holds well only when direction of electric current is perpendicular to magnetic field.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 209,
+        "to": 236
+      },
+      "keyConcepts": [
+        "Field",
+        "Magnetic",
+        "Current",
+        "Direction",
+        "Magnet",
+        "Induced",
+        "Force",
+        "Needle",
+        "Perpendicular",
+        "North",
+        "Induction",
+        "South",
+        "Strength",
+        "Electric",
+        "Lines"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-10.json"
+    },
+    {
+      "id": "c10-physics-ch11",
+      "name": "Principles of Metallurgy",
+      "overview": "The methods used for Extracting of Crude metal are Calcination, Roasting, Chemical reduction, Auto reduction, Displacement method, Electrolytic reduction . To make the process economical, electrolysis methods are to be adopted. Alloying is a method of improving the properties of a metal.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 237,
+        "to": 252
+      },
+      "keyConcepts": [
+        "Metal",
+        "Copper",
+        "Metals",
+        "Gangue",
+        "Impurities",
+        "Methods",
+        "Reduction",
+        "Molten",
+        "Process",
+        "Electrolysis",
+        "Cathode",
+        "Sulphide",
+        "Strongly",
+        "Corrosion",
+        "Method"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-11.json"
+    },
+    {
+      "id": "c10-physics-ch12",
+      "name": "Carbon and Its Compounds",
+      "overview": "Therefore, organic chemistry is totally allotted to carbon compounds. Like graphite, graphene is entirely composed of carbon atoms. The compounds containing only carbon and hydrogen in their molecules are called hydrocarbons.",
+      "textbookSource": "class 10th physics(1).pdf",
+      "textbookPages": {
+        "from": 253,
+        "to": 292
+      },
+      "keyConcepts": [
+        "Carbon",
+        "Compounds",
+        "Group",
+        "Atoms",
+        "Hydrocarbons",
+        "Organic",
+        "Functional",
+        "Alkyl",
+        "Prefix",
+        "Bonds",
+        "Ethanol",
+        "Acids",
+        "Reaction",
+        "Graphite",
+        "Hydrogen"
+      ],
+      "file": "data/class10/textbooks/physics/chapter-12.json"
+    }
+  ]
+}

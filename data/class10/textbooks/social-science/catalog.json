@@ -1,0 +1,598 @@
+{
+  "subject": "Social Science",
+  "curriculum": "Telangana SSC Class 10",
+  "academicYear": "2025-26",
+  "icon": "🌏",
+  "description": "Complete textbook-grounded Social Science chapter bank for Telangana SSC Class 10.",
+  "sourceTextbook": "CLASS 10 SOCIAL(2).pdf",
+  "chapters": [
+    {
+      "id": "c10-social-science-ch1",
+      "name": "India: Relief Features",
+      "overview": "In comparison to the Gangetic plains, the plateau region is dry. The eastern most boundary of the Himalayas is the Brahmaputra valley. Eastern Ghats and Nilgiris form of above plateaus with that of Tibetan plateau.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 1,
+        "to": 14
+      },
+      "keyConcepts": [
+        "Himalayas",
+        "Plateau",
+        "Plains",
+        "Eastern",
+        "Rivers",
+        "Hills",
+        "Range",
+        "Ghats",
+        "Western",
+        "Peninsular",
+        "Himalayan",
+        "Located",
+        "Himalaya",
+        "Mussoorie",
+        "River"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-01.json"
+    },
+    {
+      "id": "c10-social-science-ch2",
+      "name": "Ideas of Development",
+      "overview": "However, for comparison between countries, total income is not such a useful measure. Countries with higher income are more developed than countries with lower income. Income and per capita income, though very often used, is only one aspect of development.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 15,
+        "to": 28
+      },
+      "keyConcepts": [
+        "Income",
+        "Himachal",
+        "Development",
+        "Education",
+        "Countries",
+        "Pradesh",
+        "Average",
+        "Children",
+        "Girls",
+        "Comparison",
+        "Capita",
+        "Human",
+        "Indicators",
+        "Energy",
+        "Health"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-02.json"
+    },
+    {
+      "id": "c10-social-science-ch3",
+      "name": "Production and Employment",
+      "overview": "GDP is made up of production from the three sectors – agriculture, industry and services. People engaged in various economic activities in the above sectors produce a large number of goods and services. Production (in industry and services) has increased without a similar increase in employment.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 29,
+        "to": 44
+      },
+      "keyConcepts": [
+        "Sector",
+        "Services",
+        "Sectors",
+        "Goods",
+        "Workers",
+        "Employment",
+        "Final",
+        "Employed",
+        "Service",
+        "Unorganised",
+        "Production",
+        "Activities",
+        "Total",
+        "Three",
+        "Gross"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-03.json"
+    },
+    {
+      "id": "c10-social-science-ch4",
+      "name": "Climate of India",
+      "overview": "Disturbances cause low to moderate average temperature is 250C, there’s rainfall over northern India. Delhi) have wide differences in temperature across the months. You have learnt that temperature decreases as altitude increases.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 45,
+        "to": 58
+      },
+      "keyConcepts": [
+        "Temperature",
+        "Climate",
+        "Winds",
+        "Northern",
+        "Weather",
+        "Warming",
+        "Rainfall",
+        "Earth",
+        "Atmosphere",
+        "Global",
+        "Pressure",
+        "Gases",
+        "Conditions",
+        "Monsoon",
+        "Methane"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-04.json"
+    },
+    {
+      "id": "c10-social-science-ch5",
+      "name": "Indian Rivers and Water Resources",
+      "overview": "Some regions depend on rainfall and underground water (wells and tube wells). Water flowing out via surface flows and groundwater: Imagine a region such as a village. Today, this is the major source of water for people.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 59,
+        "to": 71
+      },
+      "keyConcepts": [
+        "Water",
+        "Groundwater",
+        "Rivers",
+        "Rainfall",
+        "Wells",
+        "Available",
+        "Flows",
+        "Crops",
+        "River",
+        "Village",
+        "Peninsular",
+        "Amount",
+        "Surface",
+        "Flowing",
+        "Availability"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-05.json"
+    },
+    {
+      "id": "c10-social-science-ch6",
+      "name": "The Population",
+      "overview": "The third component of population change is migration. Population density is calculated as the number of persons per unit area. Population density Population density provides a better picture of its distribution.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 72,
+        "to": 87
+      },
+      "keyConcepts": [
+        "Population",
+        "Children",
+        "Census",
+        "Group",
+        "Fertility",
+        "Density",
+        "Persons",
+        "Information",
+        "Males",
+        "Ratio",
+        "Births",
+        "Working",
+        "Survey",
+        "Females",
+        "Medical"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-06.json"
+    },
+    {
+      "id": "c10-social-science-ch7",
+      "name": "Settlements - Migrations",
+      "overview": "Only one-fifth of the growth is due to rural - to - urban migration. Most of the population increase in cities and towns took place as a consequence of natural growth within the urban areas. We have examined the statistics of rural – urban migration and the multiple reasons for migration.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 88,
+        "to": 102
+      },
+      "keyConcepts": [
+        "Migration",
+        "Migrants",
+        "Urban",
+        "Rural",
+        "Cities",
+        "Areas",
+        "Place",
+        "Settlement",
+        "Growth",
+        "Urbanisation",
+        "Workers",
+        "Census",
+        "Towns",
+        "Migrate",
+        "Migrant"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-07.json"
+    },
+    {
+      "id": "c10-social-science-ch8",
+      "name": "Rampur: A Village Economy",
+      "overview": "Most small farmers have to borrow money to arrange for the working capital. Each worker is providing the necessary labour for production. This, in turn, means that the farmers require a sufficient amount of capital for production, and therefore money.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 103,
+        "to": 117
+      },
+      "keyConcepts": [
+        "Production",
+        "Rampur",
+        "Capital",
+        "Farmers",
+        "Labour",
+        "Activities",
+        "Working",
+        "Villages",
+        "Small",
+        "Wheat",
+        "Village",
+        "Produce",
+        "Natural",
+        "Goods",
+        "Non-Farm"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-08.json"
+    },
+    {
+      "id": "c10-social-science-ch9",
+      "name": "Globalisation",
+      "overview": "These organisations believe that barriers to foreign trade and investment are harmful. How is it Distinguish between foreign trade and foreign investment. The Indian government, after Independence, had put barriers to foreign trade and foreign investment.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 118,
+        "to": 131
+      },
+      "keyConcepts": [
+        "Trade",
+        "Globalisation",
+        "Foreign",
+        "Countries",
+        "Investment",
+        "Producers",
+        "Barriers",
+        "Companies",
+        "Production",
+        "Technology",
+        "World",
+        "Indian",
+        "Industries",
+        "Products",
+        "Price"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-09.json"
+    },
+    {
+      "id": "c10-social-science-ch10",
+      "name": "Food Security",
+      "overview": "Increasing foodgrain production Producing sufficient amount of foodgrains is an important requirement for food security. It is not sufficient to produce foodgrains and other items. Farmers producing foodgrains can go for crop diversification in order to increase their incomes.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 132,
+        "to": 145
+      },
+      "keyConcepts": [
+        "Foodgrains",
+        "Availability",
+        "Children",
+        "Weight",
+        "Wheat",
+        "Underweight",
+        "Security",
+        "Whether",
+        "Farmers",
+        "Foodgrain",
+        "Yield",
+        "Vegetables",
+        "Whereas",
+        "Production",
+        "Increase"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-10.json"
+    },
+    {
+      "id": "c10-social-science-ch11",
+      "name": "Sustainable Development with Equity",
+      "overview": "Because of modern development projects, they have lost access to their greatest resource, the local environment. There is another function that the environment provides. Millets were the obvious crop choice because of their suitability to the local environment.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 146,
+        "to": 162
+      },
+      "keyConcepts": [
+        "Environment",
+        "Development",
+        "Groundwater",
+        "Water",
+        "Organic",
+        "Local",
+        "Future",
+        "Generations",
+        "Modern",
+        "River",
+        "Crops",
+        "Chemical",
+        "Sustainable",
+        "Narmada",
+        "Millets"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-11.json"
+    },
+    {
+      "id": "c10-social-science-ch12",
+      "name": "World Between the World Wars",
+      "overview": "But the Russian economy had suffered a lot by the first World War. This was the immediate cause of the First World War. The Russian Socialist Revolution (1917-1922) Russia was ruled by Tsars (emperors) in early 20th century.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 163,
+        "to": 186
+      },
+      "keyConcepts": [
+        "World",
+        "Russia",
+        "Germany",
+        "Russian",
+        "Countries",
+        "Austria",
+        "Economy",
+        "Nations",
+        "German",
+        "Powers",
+        "First",
+        "Fascism",
+        "Britain",
+        "Revolution",
+        "Italy"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-12.json"
+    },
+    {
+      "id": "c10-social-science-ch13",
+      "name": "National Liberation Movements in the Colonies",
+      "overview": "Manchu dynasty was unsuccessful in defending the interests of China from the western colonial powers. Even independent countries like China were actually under the control of many colonial powers and independent only in name. These powers had become very powerful and influential in different parts of China.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 187,
+        "to": 197
+      },
+      "keyConcepts": [
+        "China",
+        "Nigeria",
+        "Women",
+        "South",
+        "Colonial",
+        "Emperors",
+        "North",
+        "Nigerian",
+        "Ethnic",
+        "Countries",
+        "Powers",
+        "Powerful",
+        "Forced",
+        "Established",
+        "Rural"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-13.json"
+    },
+    {
+      "id": "c10-social-science-ch14",
+      "name": "National Movement in India - Partition and Independence: 1939-1947",
+      "overview": "The Congress won 26 out of the 58 Muslim seats it had contested. Congress party had never accepted the “two-nation theory”. The Congress was unable to fulfill the demands of M A Jinnah, leader of the Muslim League.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 198,
+        "to": 211
+      },
+      "keyConcepts": [
+        "Muslim",
+        "Congress",
+        "British",
+        "Hindus",
+        "Muslims",
+        "League",
+        "India",
+        "Nation",
+        "Princely",
+        "Party",
+        "Started",
+        "States",
+        "Gandhi",
+        "Tried",
+        "Seats"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-14.json"
+    },
+    {
+      "id": "c10-social-science-ch15",
+      "name": "The Making of Independent India's Constitution",
+      "overview": "The Constitution of India was prepared and adopted by the Constituent Assembly. What the Draft Constitution proposes is the Parliamentary system. Princely States were identified through ourselves this Constitution.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 212,
+        "to": 228
+      },
+      "keyConcepts": [
+        "Constitution",
+        "Constituent",
+        "Assembly",
+        "Draft",
+        "Members",
+        "Ambedkar",
+        "President",
+        "Polity",
+        "Federal",
+        "Judiciary",
+        "Untouchability",
+        "Social",
+        "British",
+        "Elected",
+        "Federation"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-15.json"
+    },
+    {
+      "id": "c10-social-science-ch16",
+      "name": "Election Process in India",
+      "overview": "General Elections are conducted for every 5 years at national/state level. To conduct and monitor elections in every constituency, an officer is appointed. Political parties in Elections A political party is formed when it has a written code of conduct and registers at the Election Commission.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 229,
+        "to": 238
+      },
+      "keyConcepts": [
+        "Elections",
+        "Election",
+        "Party",
+        "Commission",
+        "Voters",
+        "Conduct",
+        "Polling",
+        "Appointed",
+        "Parties",
+        "Conducted",
+        "Staff",
+        "Symbols",
+        "Votes",
+        "Voter",
+        "Candidates"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-16.json"
+    },
+    {
+      "id": "c10-social-science-ch17",
+      "name": "Independent India: The First 30 Years (1947-77)",
+      "overview": "Yet, the Congress under Indira Gandhi was making new promises. This inaugurated what some observers called the Congress System. The Congress party formed the government in many of the states as well.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 239,
+        "to": 253
+      },
+      "keyConcepts": [
+        "Congress",
+        "India",
+        "States",
+        "Economic",
+        "Period",
+        "Elections",
+        "Democracy",
+        "Parties",
+        "System",
+        "Party",
+        "Place",
+        "Achievement",
+        "Unity",
+        "Reorganisation",
+        "Kashmir"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-17.json"
+    },
+    {
+      "id": "c10-social-science-ch18",
+      "name": "Emerging Political Trends 1977 to 2000",
+      "overview": "Assam (Assom) Movement A similar but much stronger demand for autonomy was also taking place in Assom. It began with the state of Emergency in which basic democratic rights were denied and ended with the historic electoral victory of the Congress led by Rajiv Gandhi. This also allowed many different political viewpoints and sectional interests to become active in state level as well as national politics.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 254,
+        "to": 271
+      },
+      "keyConcepts": [
+        "Congress",
+        "Party",
+        "State",
+        "Punjab",
+        "Parties",
+        "Politics",
+        "Campaign",
+        "Democracy",
+        "Political",
+        "Assom",
+        "Communities",
+        "Communal",
+        "Temple",
+        "Indian",
+        "Place"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-18.json"
+    },
+    {
+      "id": "c10-social-science-ch19",
+      "name": "Post-War World and India",
+      "overview": "India was one of the first countries to recognise China’s Communist government. These were to determine India’s relations with other countries, especially its neighbours – China, Pakistan, Sri Lanka and subsequently, Bangladesh. India helped China take part in Bandung conference in spite of their ideological differences.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 272,
+        "to": 287
+      },
+      "keyConcepts": [
+        "Countries",
+        "India",
+        "China",
+        "Bangladesh",
+        "Palestine",
+        "Pakistan",
+        "Nations",
+        "Prime",
+        "Minister",
+        "Peace",
+        "Organisation",
+        "Nuclear",
+        "Military",
+        "Border",
+        "World"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-19.json"
+    },
+    {
+      "id": "c10-social-science-ch20",
+      "name": "Social Movements in Our Times",
+      "overview": "One of the most important movements was the American Civil Rights Movement. These movements for human rights had many shades of differences. Women have been at the forefront of many important social movements in the recent past.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 288,
+        "to": 303
+      },
+      "keyConcepts": [
+        "Movements",
+        "Rights",
+        "Women",
+        "Movement",
+        "Nuclear",
+        "Vietnam",
+        "Arrack",
+        "Equal",
+        "Human",
+        "World",
+        "Large",
+        "Manipur",
+        "Press",
+        "Social",
+        "Money"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-20.json"
+    },
+    {
+      "id": "c10-social-science-ch21",
+      "name": "The Movement for the Formation of Telangana State",
+      "overview": "At that time, Coastal Andhra and Rayalaseema regions were parts of Madras Presidency. All areas of the state of Andhra Pradesh were treated as one. There were three distinct regions which spoke Telugu language.",
+      "textbookSource": "CLASS 10 SOCIAL(2).pdf",
+      "textbookPages": {
+        "from": 304,
+        "to": 320
+      },
+      "keyConcepts": [
+        "Andhra",
+        "Coastal",
+        "Region",
+        "Regions",
+        "Organizations",
+        "State",
+        "Formed",
+        "Hyderabad",
+        "Language",
+        "Culture",
+        "Activists",
+        "University",
+        "Movement",
+        "Committee",
+        "Development"
+      ],
+      "file": "data/class10/textbooks/social-science/chapter-21.json"
+    }
+  ]
+}

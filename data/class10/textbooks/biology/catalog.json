@@ -1,0 +1,290 @@
+{
+  "subject": "Biology",
+  "curriculum": "Telangana SSC Class 10",
+  "academicYear": "2025-26",
+  "icon": "🧬",
+  "description": "Complete textbook-grounded Biology chapter bank for Telangana SSC Class 10.",
+  "sourceTextbook": "X Biology EM 2025-26 2.pdf",
+  "chapters": [
+    {
+      "id": "c10-biology-ch1",
+      "name": "Nutrition",
+      "overview": "Several steps occur in the light dependent reaction. The light reaction takes place in chlorophyll containing thylakoids called grana of chloroplasts. Plants release oxygen as a product during photosynthesis.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 1,
+        "to": 25
+      },
+      "keyConcepts": [
+        "Light",
+        "Oxygen",
+        "Chlorophyll",
+        "Reaction",
+        "Photosynthesis",
+        "Plants",
+        "Plant",
+        "Molecules",
+        "Proteins",
+        "Reactions",
+        "Obtained",
+        "Bright",
+        "Condition",
+        "Deficiency",
+        "Studied"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-01.json"
+    },
+    {
+      "id": "c10-biology-ch2",
+      "name": "Respiration",
+      "overview": "Gaseous exchange takes place here as blood capillaries take up oxygen and expel carbon dioxide. If the oxygen is not sufficient during vigorous exersise muscles start anaerobic respiration. Gaseous exchange takes place here as blood capillaries take up oxygen and expel carbon dioxide here.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 26,
+        "to": 50
+      },
+      "keyConcepts": [
+        "Oxygen",
+        "Respiration",
+        "Lungs",
+        "Glucose",
+        "Energy",
+        "Cavity",
+        "Breathing",
+        "Alveoli",
+        "Chest",
+        "Exchange",
+        "Respiratory",
+        "Gases",
+        "Blood",
+        "Water",
+        "Cells"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-02.json"
+    },
+    {
+      "id": "c10-biology-ch3",
+      "name": "Circulation",
+      "overview": "Rigid blood vessels attached to the heart are called arteries. The cardiac cycle includes blood flows into arteries. As though the blood was trying to flow toward the heart.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 51,
+        "to": 77
+      },
+      "keyConcepts": [
+        "Heart",
+        "Blood",
+        "Ventricles",
+        "Vessels",
+        "Thalassemia",
+        "Valves",
+        "Atria",
+        "Hairs",
+        "Water",
+        "Chambers",
+        "Veins",
+        "Arteries",
+        "Pressure",
+        "System",
+        "Fluid"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-03.json"
+    },
+    {
+      "id": "c10-biology-ch4",
+      "name": "Excretion",
+      "overview": "Kidney transplantation is a permanent solution to renal failure patients. The best long term solution for kidney failure (acute renal failure) is Kidney transplantation. The right kidney is placed slightly lower than the left kidney.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 78,
+        "to": 99
+      },
+      "keyConcepts": [
+        "Kidney",
+        "Urine",
+        "Excretion",
+        "Waste",
+        "Wastes",
+        "Bladder",
+        "Metabolites",
+        "Blood",
+        "Urinary",
+        "Organ",
+        "Organs",
+        "Metabolic",
+        "Products",
+        "Excretory",
+        "Liver"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-04.json"
+    },
+    {
+      "id": "c10-biology-ch5",
+      "name": "Coordination",
+      "overview": "It has been called as enteric nervous system (ENS) or second brain. Both these functions occur under the influence of the autonomous nervous system. The various actions of the body are controlled by hormones and co-ordinated by nervous system.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 100,
+        "to": 122
+      },
+      "keyConcepts": [
+        "Nervous",
+        "Nerves",
+        "System",
+        "Hormones",
+        "Spinal",
+        "Brain",
+        "Response",
+        "Hormone",
+        "Means",
+        "Insulin",
+        "Control",
+        "Nerve",
+        "Light",
+        "Controlled",
+        "Growth"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-05.json"
+    },
+    {
+      "id": "c10-biology-ch6",
+      "name": "Reproduction",
+      "overview": "When compared with animals, sexual reproduction is less complex in flowering plants. Reproduction may occur in higher plants from their vegetative parts (leaves, stems, roots). In sexual reproduction only half of each parent’s chromosomes are passed to the next generation.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 123,
+        "to": 152
+      },
+      "keyConcepts": [
+        "Reproduction",
+        "Division",
+        "Cells",
+        "Sexual",
+        "Divide",
+        "Chromosomes",
+        "Embryo",
+        "Plants",
+        "Flowering",
+        "Nuclei",
+        "Parent",
+        "Reproductive",
+        "Pollen",
+        "Formation",
+        "Female"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-06.json"
+    },
+    {
+      "id": "c10-biology-ch7",
+      "name": "Coordination in Life Processes",
+      "overview": "The hormone Ghrelin secreted in the stomach is responsible for hunger generating sensations. During belching some digestive juices move back into the mouth through oesophagus. Juices secreted in the stomach breaks down the food into a smooth mixture called chyme.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 153,
+        "to": 175
+      },
+      "keyConcepts": [
+        "Stomach",
+        "Taste",
+        "Digestive",
+        "Mouth",
+        "Nervous",
+        "Tongue",
+        "Swallowing",
+        "System",
+        "Muscles",
+        "Secreted",
+        "Chewing",
+        "Brain",
+        "Digestion",
+        "Nerve",
+        "Action"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-07.json"
+    },
+    {
+      "id": "c10-biology-ch8",
+      "name": "Heredity - Evolution",
+      "overview": "Colour of the seed The seeds are either yellow or green colour. The trait expressed in F1 generation is called dominant. In F2 generation about 75% seeds were with dominant character (Eg: Yellow seeds) and about 25% seeds were with recessive character (Eg: Green seeds).",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 176,
+        "to": 204
+      },
+      "keyConcepts": [
+        "Yellow",
+        "Colour",
+        "Green",
+        "Generation",
+        "Traits",
+        "Factors",
+        "Character",
+        "Population",
+        "Variations",
+        "Characters",
+        "Seeds",
+        "Beetles",
+        "Mendel",
+        "Responsible",
+        "Trait"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-08.json"
+    },
+    {
+      "id": "c10-biology-ch9",
+      "name": "Our Environment",
+      "overview": "Hence, the structure of biomass pyramid in aquatic ecosystem is inverted. Pyramid of numbers shows the population of organisms at each trophic level in a food chain. In short we can say that biomass is food for the next trophic level in a food chain.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 205,
+        "to": 224
+      },
+      "keyConcepts": [
+        "Pyramid",
+        "Chain",
+        "Biomass",
+        "Level",
+        "Trophic",
+        "Pesticides",
+        "Energy",
+        "Bioaccumulation",
+        "Aquatic",
+        "Organisms",
+        "Factors",
+        "Environment",
+        "Animals",
+        "Biological",
+        "Relationship"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-09.json"
+    },
+    {
+      "id": "c10-biology-ch10",
+      "name": "Natural Resources",
+      "overview": "These can help sustain or maintain natural resources. Management of resources is essential for their conservation and restoration. Finally, governments often provide incentives for conserving resources.",
+      "textbookSource": "X Biology EM 2025-26 2.pdf",
+      "textbookPages": {
+        "from": 225,
+        "to": 248
+      },
+      "keyConcepts": [
+        "Resources",
+        "Conservation",
+        "Wells",
+        "Water",
+        "Villages",
+        "Teaching",
+        "Children",
+        "Natural",
+        "State",
+        "Areas",
+        "Science",
+        "Activities",
+        "Efforts",
+        "Farmers",
+        "Village"
+      ],
+      "file": "data/class10/textbooks/biology/chapter-10.json"
+    }
+  ]
+}

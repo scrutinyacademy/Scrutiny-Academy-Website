@@ -1,0 +1,402 @@
+{
+  "subject": "Mathematics",
+  "curriculum": "Telangana SSC Class 10",
+  "academicYear": "2025-26",
+  "icon": "📐",
+  "description": "Complete textbook-grounded Mathematics chapter bank for Telangana SSC Class 10.",
+  "sourceTextbook": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+  "chapters": [
+    {
+      "id": "c10-mathematics-ch1",
+      "name": "Real Numbers",
+      "overview": "Therefore, the decimal forms of such a rational number terminate. Theorem-1.3 : Let x be a rational number whose decimal form terminates. Without performing division, state whether the following rational numbers will have a terminating decimal form or a non-terminating repeating decimal form.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 1,
+        "to": 27
+      },
+      "keyConcepts": [
+        "Rational",
+        "Prime",
+        "Integer",
+        "Decimal",
+        "Integers",
+        "Positive",
+        "Algorithm",
+        "Factorization",
+        "Primes",
+        "Irrational",
+        "Division",
+        "Theorem",
+        "Strip",
+        "Repeating",
+        "Terminating"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-01.json"
+    },
+    {
+      "id": "c10-mathematics-ch2",
+      "name": "Sets",
+      "overview": "And, the set J also has infinite number of elements. We find that the number of elements in B is infinite. Number of elements in set C is 4 (In the set C, the element ‘I’ repeats twice.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 28,
+        "to": 50
+      },
+      "keyConcepts": [
+        "Elements",
+        "Element",
+        "Subset",
+        "Finite",
+        "Infinite",
+        "Written",
+        "Denote",
+        "Belong",
+        "Teeth",
+        "Natural",
+        "Denoted",
+        "Roster",
+        "Molars",
+        "Union",
+        "Belongs"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-02.json"
+    },
+    {
+      "id": "c10-mathematics-ch3",
+      "name": "Polynomials",
+      "overview": "A polynomial of degree 2 is called a quadratic polynomial. This also means that a polynomial of degree 2 has atmost two zeroes. In other words, any polynomial of degree 3 can have at most three zeroes.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 51,
+        "to": 76
+      },
+      "keyConcepts": [
+        "Polynomial",
+        "Zeroes",
+        "Quadratic",
+        "Degree",
+        "X-Axis",
+        "Intersects",
+        "Graph",
+        "Polynomials",
+        "Cubic",
+        "Linear",
+        "X-Coordinates",
+        "Variable",
+        "Division",
+        "Remainder",
+        "Divide"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-03.json"
+    },
+    {
+      "id": "c10-mathematics-ch4",
+      "name": "Pair of Linear Equations in Two Variables",
+      "overview": "Is a dependent pair of linear equations always consistent. Check whether the following equations are consistent or inconsistent. Check whether the following pair of equations is consistent.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 77,
+        "to": 104
+      },
+      "keyConcepts": [
+        "Equations",
+        "Linear",
+        "Equation",
+        "Variables",
+        "Solutions",
+        "Lines",
+        "Consistent",
+        "Marks",
+        "Step-",
+        "Solution",
+        "Coincident",
+        "Units",
+        "Unique",
+        "Method",
+        "Train"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-04.json"
+    },
+    {
+      "id": "c10-mathematics-ch5",
+      "name": "Quadratic Equations",
+      "overview": "Therefore, the given equation is a quadratic equation. Hence, the given quadratic equation has two equal real roots. We have three methods to solve a quadratic equation.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 105,
+        "to": 128
+      },
+      "keyConcepts": [
+        "Equation",
+        "Quadratic",
+        "Roots",
+        "Years",
+        "Speed",
+        "Square",
+        "Equations",
+        "Product",
+        "Train",
+        "Sides",
+        "Polynomial",
+        "Cannot",
+        "Marks",
+        "Sheet",
+        "Piece"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-05.json"
+    },
+    {
+      "id": "c10-mathematics-ch6",
+      "name": "Progressions",
+      "overview": "The first term is 1 and the common difference is also 1. In all the lists given above, we see that successive terms are obtained by multiplying the preceding term by a fixed number. In all the lists above, we can observe that successive terms are obtained by adding or subtracting a fixed number to the preceding terms.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 129,
+        "to": 162
+      },
+      "keyConcepts": [
+        "Terms",
+        "Preceding",
+        "First",
+        "Common",
+        "Obtained",
+        "Difference",
+        "Fixed",
+        "Adding",
+        "Multiplying",
+        "Consecutive",
+        "Progression",
+        "Arithmetic",
+        "Succeeding",
+        "Progressions",
+        "Ratio"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-06.json"
+    },
+    {
+      "id": "c10-mathematics-ch7",
+      "name": "Coordinate Geometry",
+      "overview": "Since the y-coordinates are equal, points lie on a line, parallel to X-axis. Therefore, the points A, B, C, D are vertices of a parallelogram. Hence the three points are collinear i.e., they lie on the same Example-22.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 163,
+        "to": 194
+      },
+      "keyConcepts": [
+        "Points",
+        "Distance",
+        "Triangle",
+        "Vertices",
+        "Ratio",
+        "Point",
+        "X-Axis",
+        "Divides",
+        "Y-Axis",
+        "Centroid",
+        "Collinear",
+        "Slope",
+        "Parallel",
+        "Segment",
+        "Origin"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-07.json"
+    },
+    {
+      "id": "c10-mathematics-ch8",
+      "name": "Similar Triangles",
+      "overview": "Equilateral triangles are drawn on the three sides of a right angled triangle. Further, in triangles ABC and DEC, corresponding angles Basic proportionality are equal. Similar triangles ACD and ABE A are constructed on sides AC and AB.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 195,
+        "to": 228
+      },
+      "keyConcepts": [
+        "Sides",
+        "Triangle",
+        "Triangles",
+        "Similar",
+        "Corresponding",
+        "Angles",
+        "Right",
+        "Similarity",
+        "Negation",
+        "Ratio",
+        "Equilateral",
+        "Respectively",
+        "Equal",
+        "Angle",
+        "Angled"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-08.json"
+    },
+    {
+      "id": "c10-mathematics-ch9",
+      "name": "Tangents and Secants to a Circle",
+      "overview": "Theorem-9.2 : The lengths of tangents drawn from an external point to a circle are equal. The lengths of the two tangents from an external point to a circle are equal. Case(iii): There are exactly two tangents to a circle through a point outside the circle.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 229,
+        "to": 248
+      },
+      "keyConcepts": [
+        "Circle",
+        "Tangents",
+        "Point",
+        "Tangent",
+        "Radius",
+        "Chord",
+        "Perpendicular",
+        "Centre",
+        "Contact",
+        "Outside",
+        "External",
+        "Drawn",
+        "Points",
+        "Proof",
+        "Plane"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-09.json"
+    },
+    {
+      "id": "c10-mathematics-ch10",
+      "name": "Mensuration",
+      "overview": "A right circular cylinder has base radius 14cm and height 21cm. It is melted and recast into a solid cylinder of diameter 14 cm. A container shaped a right circular cylinder having diameter 12 cm and height 15 cm is full of ice cream.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 249,
+        "to": 272
+      },
+      "keyConcepts": [
+        "Cylinder",
+        "Diameter",
+        "Height",
+        "Solid",
+        "Radius",
+        "Hemisphere",
+        "Cylindrical",
+        "Circular",
+        "Water",
+        "Conical",
+        "Volume",
+        "Shape",
+        "Surface",
+        "Sphere",
+        "Melted"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-10.json"
+    },
+    {
+      "id": "c10-mathematics-ch11",
+      "name": "Trigonometry",
+      "overview": "In a right angled triangle ABC, right angle is at C. In a right angled triangle ABC, right angle is at B. Therefore, ABC is a right angled triangle with right angle at B.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 273,
+        "to": 297
+      },
+      "keyConcepts": [
+        "Angle",
+        "Right",
+        "Ratios",
+        "Acute",
+        "Triangle",
+        "Angled",
+        "Angles",
+        "Triangles",
+        "Trigonometric",
+        "Opposite",
+        "Identity",
+        "Sides",
+        "Constant",
+        "Adjacent",
+        "Increases"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-11.json"
+    },
+    {
+      "id": "c10-mathematics-ch12",
+      "name": "Applications of Trigonometry",
+      "overview": "The angle of elevation of a jet plane from a point A on the ground is 60º. From a point on the other side directly opposite to the tower, the angle of elevation of the top of tower is 600. They use Theodolites to measure angles of elevation or depression in the process of survey.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 298,
+        "to": 308
+      },
+      "keyConcepts": [
+        "Elevation",
+        "Tower",
+        "Angle",
+        "Building",
+        "Ground",
+        "Point",
+        "Height",
+        "Meters",
+        "Depression",
+        "Distance",
+        "Meter",
+        "Theodolites",
+        "Survey",
+        "Angles",
+        "Observed"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-12.json"
+    },
+    {
+      "id": "c10-mathematics-ch13",
+      "name": "Probability",
+      "overview": "Are the outcomes of every experiment equally likely? c. We assume that these 365 outcomes are equally likely. Therefore, for each of these outcomes, the probability is .",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 309,
+        "to": 326
+      },
+      "keyConcepts": [
+        "Probability",
+        "Event",
+        "Outcomes",
+        "Events",
+        "Likely",
+        "Experiment",
+        "Equally",
+        "Getting",
+        "Random",
+        "Heads",
+        "Elementary",
+        "Coins",
+        "Experimental",
+        "Experiments",
+        "Outcome"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-13.json"
+    },
+    {
+      "id": "c10-mathematics-ch14",
+      "name": "Statistics",
+      "overview": "Let us now represent a cumulative frequency distribution graphically. Is it possible to obtain the median from these two cumulative frequency curves . Even these problems are solved by mathematical modelling.",
+      "textbookSource": "X Mathematics EM  2025-26 (02-11-2024)(1).pdf",
+      "textbookPages": {
+        "from": 327,
+        "to": 356
+      },
+      "keyConcepts": [
+        "Frequency",
+        "Marks",
+        "Median",
+        "Mathematical",
+        "Method",
+        "Grouped",
+        "Cumulative",
+        "Assumed",
+        "Observations",
+        "Formula",
+        "Finding",
+        "Obtained",
+        "Years",
+        "Model",
+        "Ungrouped"
+      ],
+      "file": "data/class10/textbooks/mathematics/chapter-14.json"
+    }
+  ]
+}
