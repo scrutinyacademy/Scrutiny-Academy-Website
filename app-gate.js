@@ -1,3 +1,4 @@
+import "./student-storage.js";
 import { firebaseConfig, SCRUTINY_ADMIN_EMAILS } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
@@ -35,7 +36,7 @@ function friendlyStudentName(profile = {}, user = {}) {
 
 function selectedCourse(profile = {}, allowed = []) {
   const requested = new URLSearchParams(location.search).get("course");
-  const saved = localStorage.getItem("scrutiny_active_course");
+  const saved = window.ScrutinyStudentStorage.getItem("scrutiny_active_course");
   return allowed.includes(requested) ? requested : allowed.includes(saved) ? saved : allowed.includes(profile.activeCourse) ? profile.activeCourse : allowed[0];
 }
 
@@ -44,7 +45,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   if (courseId === "class10") { location.replace("class10-board.html"); return; }
   if (courseId === "jee") { location.replace("jee.html"); return; }
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
-  localStorage.setItem("scrutiny_active_course", courseId);
+  window.ScrutinyStudentStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
   document.documentElement.style.setProperty("--portal-accent", course.color);
 
@@ -53,7 +54,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
     tools.innerHTML = `<div class="active-course-title"><span>${course.label}</span><strong>${course.name}</strong></div>${allowed.length > 1 ? `<label class="course-switch-label"><span>Switch course</span><select id="platformCourseSwitch" aria-label="Switch active course">${allowed.map((id) => `<option value="${id}" ${id === courseId ? "selected" : ""}>${COURSE_PORTALS[id].name}</option>`).join("")}</select></label>` : ""}<a class="my-courses-link" href="student.html">My Course</a>`;
     tools.querySelector("select")?.addEventListener("change", async (event) => {
       const next = event.target.value;
-      localStorage.setItem("scrutiny_active_course", next);
+      window.ScrutinyStudentStorage.setItem("scrutiny_active_course", next);
       try {
         await setDoc(doc(db, "students", user.uid), { activeCourse: next, updatedAt: serverTimestamp() }, { merge: true });
       } catch (error) {
@@ -150,6 +151,7 @@ async function openPlatform(auth, user, profile, db) {
   addAccountControls(auth, user, profile);
   applyCoursePortal(selectedCourse(profile, allowed), auth, user, db, allowed, profile);
   window.__scrutinyStudentContext = {
+    uid: user.uid,
     activeCourse: selectedCourse(profile, allowed),
     availableCourses: [...allowed],
     profile: { neetExamYear: profile.courseEntitlements?.neet?.neetExamYear || profile.neetExamYear || null },
@@ -172,6 +174,9 @@ if (!configured) {
     auth = getAuth(app),
     db = getFirestore(app);
   onAuthStateChanged(auth, async (user) => {
+  window.ScrutinyStudentStorage.setUser(user);
+  const identityGeneration = window.ScrutinyStudentStorage.generation;
+  const stillCurrent = () => auth.currentUser?.uid === user?.uid && identityGeneration === window.ScrutinyStudentStorage.generation;
     if (!user) {
       location.replace("login.html");
       return;
@@ -188,6 +193,7 @@ if (!configured) {
         console.warn("Founder access claim could not be checked", error);
       }
     }
+    if (!stillCurrent()) return;
     if (founderAccess) {
       let founderProfile = {};
       try {
@@ -196,17 +202,21 @@ if (!configured) {
       } catch (error) {
         console.warn("Founder profile could not be loaded; continuing with founder access", error);
       }
+      if (!stillCurrent()) return;
       await openPlatform(auth, user, { ...founderProfile, accessStatus: "active", founderAccess: true }, db);
       return;
     }
     try {
       const snap = await getDoc(doc(db, "students", user.uid));
+      if (!stillCurrent()) return;
       if (!snap.exists() || snap.data().accessStatus !== "active") {
         location.replace("payment.html");
         return;
       }
+      if (!stillCurrent()) return;
       await openPlatform(auth, user, snap.data(), db);
     } catch (error) {
+      if (!stillCurrent()) return;
       console.error("Scrutiny Academy access check failed:", error);
       location.replace("payment.html");
     }

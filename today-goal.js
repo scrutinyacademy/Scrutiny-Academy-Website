@@ -4,10 +4,10 @@
   const STORE_KEY = "scrutiny_today_goal_v1";
   const dateKey = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
   const readStore = () => {
-    try { return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+    try { return JSON.parse(window.ScrutinyStudentStorage.getItem(STORE_KEY)) || {}; }
     catch { return {}; }
   };
-  const saveStore = (store) => localStorage.setItem(STORE_KEY, JSON.stringify(store));
+  const saveStore = (store) => window.ScrutinyStudentStorage.setItem(STORE_KEY, JSON.stringify(store));
   const todayGoal = () => readStore()[dateKey()] || { text: "", complete: false };
   const friendly = (value = "Student") => String(value || "Student").trim().split(/\s+/)[0] || "Student";
 
@@ -53,6 +53,8 @@
     launcher.classList.toggle("complete", Boolean(goal.complete));
     launcher.setAttribute("aria-label", goal.text ? `Today's goal: ${goal.text}` : "Open today's goal");
   }
+
+  addEventListener("scrutiny:student-changed", () => { studentName = "Student"; render(); });
 
   function openPanel() {
     document.dispatchEvent(new CustomEvent("scrutiny:overlay-open", { detail: { source: "goal" } }));

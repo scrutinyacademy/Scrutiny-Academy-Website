@@ -34,7 +34,7 @@
     };
   const $ = (id) => document.getElementById(id);
   const COURSE_PORTALS_LABELS = { class10: "Class 10", class11: "Class 11", class12: "Class 12", neet: "NEET-UG", mbbs: "MBBS" };
-  const activeCourseId = () => document.documentElement.dataset.course || localStorage.getItem("scrutiny_active_course") || "neet";
+  const activeCourseId = () => document.documentElement.dataset.course || window.ScrutinyStudentStorage.getItem("scrutiny_active_course") || "neet";
   async function load(p) {
     if (cache.has(p)) return cache.get(p);
     const r = await fetch(p);
@@ -178,7 +178,7 @@
       if (confirm(`Clear ${courseId.toUpperCase()} progress on this device? Other courses will be kept.`)) {
         const progress = getProgress();
         progress.sessions = (progress.sessions || []).filter((session) => (session.courseId || "neet") !== courseId);
-        localStorage.setItem("scrutiny_v2_progress", JSON.stringify(progress));
+        window.ScrutinyStudentStorage.setItem("scrutiny_v2_progress", JSON.stringify(progress));
         renderProgress();
         window.dispatchEvent(new CustomEvent("scrutiny:progress-cleared", { detail: { courseId } }));
       }
@@ -221,13 +221,13 @@
     $("rankerAvailability").textContent = `${questions.length} answer-key verified Biology MCQ${questions.length === 1 ? "" : "s"} available${set ? ` in ${set.name}` : " across all three sets"}.`;
   }
   function getRankerDna() {
-    try { return JSON.parse(localStorage.getItem("scrutiny_ranker_dna") || '{"sessions":[]}'); }
+    try { return JSON.parse(window.ScrutinyStudentStorage.getItem("scrutiny_ranker_dna") || '{"sessions":[]}'); }
     catch { return { sessions: [] }; }
   }
   function saveRankerDna(result) {
     const stored = getRankerDna();
     stored.sessions = [{ completedAt: result.completedAt, title: result.title, ...result.mistakeDNA }, ...(stored.sessions || [])].slice(0, 20);
-    localStorage.setItem("scrutiny_ranker_dna", JSON.stringify(stored));
+    window.ScrutinyStudentStorage.setItem("scrutiny_ranker_dna", JSON.stringify(stored));
     renderRankerDna();
   }
   function renderRankerDna() {
@@ -919,7 +919,7 @@
     return `scrutiny_${subject}_${kind}`;
   }
   function getQuestionMarks(key) {
-    try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); }
+    try { return new Set(JSON.parse(window.ScrutinyStudentStorage.getItem(key) || "[]")); }
     catch { return new Set(); }
   }
   function incorrectQuestionIds() {
@@ -934,7 +934,7 @@
     if (!q) return;
     const marks = getQuestionMarks(questionMarkKey("bookmarks", q));
     marks.has(q.id) ? marks.delete(q.id) : marks.add(q.id);
-    localStorage.setItem(questionMarkKey("bookmarks", q), JSON.stringify([...marks]));
+    window.ScrutinyStudentStorage.setItem(questionMarkKey("bookmarks", q), JSON.stringify([...marks]));
     $("quizBookmark").textContent = marks.has(q.id) ? "♥ Bookmarked" : "♡ Bookmark";
     toast(marks.has(q.id) ? "Question bookmarked." : "Bookmark removed.");
   }
@@ -943,7 +943,7 @@
     if (!q) return;
     const reports = getQuestionMarks(questionMarkKey("reports", q));
     reports.add(q.id);
-    localStorage.setItem(questionMarkKey("reports", q), JSON.stringify([...reports]));
+    window.ScrutinyStudentStorage.setItem(questionMarkKey("reports", q), JSON.stringify([...reports]));
     $("quizReport").textContent = "⚑ Reported";
     const subject = encodeURIComponent(`${q.__subject || q.subject || "NEET"} MCQ report: ${q.id}`);
     const body = encodeURIComponent(`Question ID: ${q.id}\nChapter: ${q.__chapter || q.chapter || ""}\nSubtopic: ${q.subtopic || ""}\n\nPlease describe the issue:\n`);
@@ -1167,7 +1167,7 @@
   function getProgress() {
     try {
       return (
-        JSON.parse(localStorage.getItem("scrutiny_v2_progress")) || {
+        JSON.parse(window.ScrutinyStudentStorage.getItem("scrutiny_v2_progress")) || {
           sessions: [],
         }
       );
@@ -1179,7 +1179,7 @@
     const p = getProgress();
     p.sessions.unshift(s);
     p.sessions = p.sessions.slice(0, 40);
-    localStorage.setItem("scrutiny_v2_progress", JSON.stringify(p));
+    window.ScrutinyStudentStorage.setItem("scrutiny_v2_progress", JSON.stringify(p));
     window.dispatchEvent(
       new CustomEvent("scrutiny:progress-changed", { detail: p }),
     );
@@ -1210,9 +1210,9 @@
   function getFlashStore() {
     try {
       const key = flashStoreKey();
-      let raw = localStorage.getItem(key);
+      let raw = window.ScrutinyStudentStorage.getItem(key);
       if (!raw && state.flashcards.deck?.id === "morphology-of-flowering-plants")
-        raw = localStorage.getItem("scrutiny_morphology_flashcards_v1");
+        raw = window.ScrutinyStudentStorage.getItem("scrutiny_morphology_flashcards_v1");
       const value = JSON.parse(raw || "{}");
       return { known: new Set(value.known || []), review: new Set(value.review || []) };
     } catch {
@@ -1220,7 +1220,7 @@
     }
   }
   function saveFlashStore(value) {
-    localStorage.setItem(
+    window.ScrutinyStudentStorage.setItem(
       flashStoreKey(),
       JSON.stringify({ known: [...value.known], review: [...value.review] }),
     );
@@ -1422,5 +1422,14 @@
       moveStudyCard(1);
     }
   }
+  window.addEventListener("scrutiny:student-changed", () => {
+    closeQuiz();
+    state.lastResult = null;
+    if ($("resultDialog")?.open) $("resultDialog").close();
+    renderProgress();
+    renderRankerDna();
+    if (state.flashcards.deck) applyFlashcardFilters();
+  });
+  window.addEventListener("scrutiny:progress-loaded", renderProgress);
   init();
 })();

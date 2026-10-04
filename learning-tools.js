@@ -1,3 +1,4 @@
+import "./student-storage.js";
 import { firebaseConfig } from "./firebase-config.js";
 import {
   getApps,
@@ -22,7 +23,7 @@ const TOOLS_KEY = "scrutiny_learning_tools";
 const MAX_MISTAKES = 120;
 const MAX_BOOKMARKS = 100;
 const $ = (id) => document.getElementById(id);
-const activeCourseId = () => document.documentElement.dataset.course || localStorage.getItem("scrutiny_active_course") || "neet";
+const activeCourseId = () => document.documentElement.dataset.course || window.ScrutinyStudentStorage.getItem("scrutiny_active_course") || "neet";
 const belongsToActiveCourse = (item = {}) => (item.courseId || "neet") === activeCourseId();
 const esc = (value) =>
   String(value ?? "").replace(
@@ -36,10 +37,11 @@ const esc = (value) =>
 let latestSession = null;
 let currentUser = null;
 let syncTimer = null;
+let cloudReady = false;
 
 function readJson(key, fallback) {
   try {
-    return JSON.parse(localStorage.getItem(key)) || fallback;
+    return JSON.parse(window.ScrutinyStudentStorage.getItem(key)) || fallback;
   } catch {
     return fallback;
   }
@@ -54,7 +56,7 @@ function getTools() {
 }
 
 function saveTools(tools) {
-  localStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
+  window.ScrutinyStudentStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
   renderTools();
   scheduleCloudSync();
 }
@@ -314,9 +316,9 @@ function bindInterface() {
   const leaderboardOptIn = $("leaderboardOptIn");
   if (leaderboardOptIn) {
     leaderboardOptIn.checked =
-      localStorage.getItem("scrutiny_leaderboard_opt_in") === "true";
+      window.ScrutinyStudentStorage.getItem("scrutiny_leaderboard_opt_in") === "true";
     leaderboardOptIn.addEventListener("change", async () => {
-      localStorage.setItem(
+      window.ScrutinyStudentStorage.setItem(
         "scrutiny_leaderboard_opt_in",
         String(leaderboardOptIn.checked),
       );
@@ -382,9 +384,11 @@ function cloudPayload() {
   };
 }
 
-async function pullCloud(db, user) {
+async function pullCloud(db, user, generation) {
+  const ownsScope = () => currentUser?.uid === user.uid && window.ScrutinyStudentStorage.uid === user.uid && window.ScrutinyStudentStorage.generation === generation;
   const ref = doc(db, "learningProgress", user.uid);
   const snapshot = await getDoc(ref);
+  if (!ownsScope()) return;
   if (snapshot.exists()) {
     const cloud = snapshot.data();
     const progress = getProgress();
@@ -402,7 +406,7 @@ async function pullCloud(db, user) {
         String(b.completedAt || "").localeCompare(String(a.completedAt || "")),
       )
       .slice(0, 40);
-    localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    window.ScrutinyStudentStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
     const tools = getTools();
     tools.mistakes = mergeById(tools.mistakes, cloud.mistakes, MAX_MISTAKES);
     tools.bookmarks = mergeById(
@@ -410,27 +414,37 @@ async function pullCloud(db, user) {
       cloud.bookmarks,
       MAX_BOOKMARKS,
     );
-    localStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
+    window.ScrutinyStudentStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
     renderTools();
   }
+  if (!ownsScope()) return;
+  window.dispatchEvent(new CustomEvent("scrutiny:progress-loaded"));
   await setDoc(ref, cloudPayload(), { merge: true });
+  if (!ownsScope()) return;
+  cloudReady = true;
+  scheduleCloudSync();
   document.documentElement.dataset.cloudSync = "ready";
   if ($("cloudStatus")) $("cloudStatus").textContent = "Cloud sync active";
 }
 
 function scheduleCloudSync() {
-  if (!currentUser) return;
+  if (!currentUser || !cloudReady) return;
+  const user = currentUser;
+  const generation = window.ScrutinyStudentStorage.generation;
   clearTimeout(syncTimer);
   syncTimer = setTimeout(async () => {
+    if (currentUser?.uid !== user.uid || window.ScrutinyStudentStorage.generation !== generation) return;
     try {
       const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
       await setDoc(
-        doc(getFirestore(app), "learningProgress", currentUser.uid),
+        doc(getFirestore(app), "learningProgress", user.uid),
         cloudPayload(),
         { merge: true },
       );
+      if (window.ScrutinyStudentStorage.generation !== generation) return;
       if ($("cloudStatus")) $("cloudStatus").textContent = "Cloud sync active";
     } catch (error) {
+      if (window.ScrutinyStudentStorage.generation !== generation) return;
       console.error("Learning progress sync failed", error);
       if ($("cloudStatus"))
         $("cloudStatus").textContent = "Saved on this device";
@@ -444,11 +458,16 @@ function startCloudSync() {
     const auth = getAuth(app);
     const db = getFirestore(app);
     onAuthStateChanged(auth, async (user) => {
+      clearTimeout(syncTimer);
+      cloudReady = false;
       currentUser = user;
+      window.ScrutinyStudentStorage.setUser(user);
+      const generation = window.ScrutinyStudentStorage.generation;
       if (!user) return;
       try {
-        await pullCloud(db, user);
+        await pullCloud(db, user, generation);
       } catch (error) {
+        if (window.ScrutinyStudentStorage.generation !== generation) return;
         console.error("Learning progress could not be loaded", error);
         if ($("cloudStatus"))
           $("cloudStatus").textContent = "Saved on this device";
@@ -475,11 +494,21 @@ window.addEventListener("scrutiny:progress-cleared", (event) => {
   const tools = getTools();
   tools.mistakes = tools.mistakes.filter((item) => (item.courseId || "neet") !== courseId);
   tools.bookmarks = tools.bookmarks.filter((item) => (item.courseId || "neet") !== courseId);
-  localStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
+  window.ScrutinyStudentStorage.setItem(TOOLS_KEY, JSON.stringify(tools));
   renderTools();
   scheduleCloudSync();
 });
 
+window.addEventListener("scrutiny:student-changed", () => {
+  clearTimeout(syncTimer);
+  cloudReady = false;
+  latestSession = null;
+  document.documentElement.dataset.cloudSync = "pending";
+  if ($("cloudStatus")) $("cloudStatus").textContent = "Loading your progress…";
+  if ($("leaderboardOptIn")) $("leaderboardOptIn").checked = window.ScrutinyStudentStorage.getItem("scrutiny_leaderboard_opt_in") === "true";
+  $("reviewDialog")?.close();
+  renderTools();
+});
 bindInterface();
 renderTools();
 startCloudSync();

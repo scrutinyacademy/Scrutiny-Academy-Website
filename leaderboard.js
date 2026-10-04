@@ -1,3 +1,4 @@
+import "./student-storage.js";
 import { firebaseConfig } from "./firebase-config.js";
 import {
   getApps,
@@ -22,7 +23,7 @@ const app = getApps().length ? getApp() : initializeApp(firebaseConfig),
   auth = getAuth(app),
   db = getFirestore(app);
 const leaderboardEnabled =
-  localStorage.getItem("scrutiny_leaderboard_opt_in") === "true";
+  window.ScrutinyStudentStorage.getItem("scrutiny_leaderboard_opt_in") === "true";
 const esc = (v) =>
   String(v ?? "").replace(
     /[&<>"']/g,

@@ -8,10 +8,10 @@
   const $ = (id) => document.getElementById(id);
   const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
   const read = (key, fallback) => {
-    try { return JSON.parse(localStorage.getItem(key)) || fallback; }
+    try { return JSON.parse(window.ScrutinyStudentStorage.getItem(key)) || fallback; }
     catch { return fallback; }
   };
-  const write = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+  const write = (key, value) => window.ScrutinyStudentStorage.setItem(key, JSON.stringify(value));
   const dateKey = (date = new Date()) => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
 
   const courses = {
@@ -25,6 +25,11 @@
   };
 
   let context = window.__scrutinyStudentContext || null;
+  addEventListener("scrutiny:student-changed", () => {
+    cloudProgress = {};
+    context = null;
+    render();
+  });
   let cloudProgress = window.__scrutinyProgress || {};
   let activeCourse = "neet";
 
@@ -57,7 +62,7 @@
   function setContext(detail = {}) {
     context = detail;
     const available = Array.isArray(detail.availableCourses) ? detail.availableCourses : [];
-    const requested = detail.activeCourse || localStorage.getItem("scrutiny_active_course");
+    const requested = detail.activeCourse || window.ScrutinyStudentStorage.getItem("scrutiny_active_course");
     activeCourse = available.includes(requested) ? requested : available[0] || "neet";
     document.documentElement.dataset.successCourse = activeCourse;
     if ($("successCommand")) $("successCommand").hidden = activeCourse === "class8";

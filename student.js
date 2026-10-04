@@ -1,3 +1,4 @@
+import "./student-storage.js";
 import { firebaseConfig } from "./firebase-config.js";
 import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=2";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
@@ -104,6 +105,7 @@ function renderCourseDashboard() {
   document.querySelectorAll("button[data-course]").forEach((button) => button.addEventListener("click", () => changeCourse(button.dataset.course)));
   document.documentElement.dataset.course = activeCourse;
   window.__scrutinyStudentContext = {
+    uid: auth.currentUser?.uid,
     activeCourse,
     availableCourses: [...availableCourses],
     profile: { name: friendlyStudentName(studentProfile), neetExamYear: studentProfile.courseEntitlements?.neet?.neetExamYear || studentProfile.neetExamYear || null },
@@ -157,7 +159,7 @@ function toggleCourseMenu() {
 async function changeCourse(courseId) {
   if (!availableCourses.includes(courseId) || courseId === activeCourse) return;
   activeCourse = courseId;
-  localStorage.setItem("scrutiny_active_course", courseId);
+  window.ScrutinyStudentStorage.setItem("scrutiny_active_course", courseId);
   renderCourseDashboard();
   renderSummary(window.__scrutinyProgress || {});
   try {
@@ -175,7 +177,7 @@ function setupCourseDashboard(profile = {}) {
     location.replace("payment.html");
     return;
   }
-  const saved = localStorage.getItem("scrutiny_active_course");
+  const saved = window.ScrutinyStudentStorage.getItem("scrutiny_active_course");
   activeCourse = availableCourses.includes(requestedDashboardCourse)
     ? requestedDashboardCourse
     : availableCourses.includes(saved)
@@ -183,7 +185,7 @@ function setupCourseDashboard(profile = {}) {
       : availableCourses.includes(profile.activeCourse)
         ? profile.activeCourse
         : availableCourses[0];
-  localStorage.setItem("scrutiny_active_course", activeCourse);
+  window.ScrutinyStudentStorage.setItem("scrutiny_active_course", activeCourse);
   if (requestedDashboardCourse) history.replaceState({}, "", "student.html");
   $("courseSwitchTrigger").addEventListener("click", toggleCourseMenu);
   $("courseSwitchClose").addEventListener("click", closeCourseMenu);
@@ -228,7 +230,7 @@ async function loadInvoices(user) {
 function localProgress() {
   try {
     return (
-      JSON.parse(localStorage.getItem("scrutiny_v2_progress")) || {
+      JSON.parse(window.ScrutinyStudentStorage.getItem("scrutiny_v2_progress")) || {
         sessions: [],
       }
     );
@@ -240,7 +242,7 @@ function localProgress() {
 function localTools() {
   try {
     return (
-      JSON.parse(localStorage.getItem("scrutiny_learning_tools")) || {
+      JSON.parse(window.ScrutinyStudentStorage.getItem("scrutiny_learning_tools")) || {
         mistakes: [],
       }
     );
@@ -311,19 +313,27 @@ function renderSummary(data = {}) {
   }
 }
 
+window.addEventListener("scrutiny:student-changed", () => renderSummary({}));
+
 onAuthStateChanged(auth, async (user) => {
+  window.ScrutinyStudentStorage.setUser(user);
+  const identityGeneration = window.ScrutinyStudentStorage.generation;
+  const stillCurrent = () => auth.currentUser?.uid === user?.uid && identityGeneration === window.ScrutinyStudentStorage.generation;
   if (!user) {
     location.replace("login.html");
     return;
   }
   const snap = await getDoc(doc(db, "students", user.uid));
+  if (!stillCurrent()) return;
   if (!snap.exists()) {
     await signOut(auth);
     location.replace("login.html");
     return;
   }
+  if (!stillCurrent()) return;
   const p = snap.data();
   const token = await getIdTokenResult(user, true);
+  if (!stillCurrent()) return;
   const founderAccess = token.claims.founder === true;
   if (p.accessStatus !== "active" && !founderAccess) {
     location.replace("payment.html");
@@ -337,6 +347,7 @@ onAuthStateChanged(auth, async (user) => {
   } catch (offerError) {
     console.warn("Student offer status unavailable:", offerError);
   }
+  if (!stillCurrent()) return;
   $("welcome").textContent = welcomeLine(studentName);
   setupCourseDashboard({ ...p, founderAccess });
   if (founderAccess) $("studentMeta").textContent = `${user.email} • FOUNDER PREVIEW • ALL COURSES`;
@@ -345,7 +356,7 @@ onAuthStateChanged(auth, async (user) => {
   setupReview(user, p);
   try {
     const progress = await getDoc(doc(db, "learningProgress", user.uid));
-    if (progress.exists()) renderSummary(progress.data());
+    if (stillCurrent() && progress.exists()) renderSummary(progress.data());
   } catch (error) {
     console.error("Dashboard progress load failed", error);
   }
