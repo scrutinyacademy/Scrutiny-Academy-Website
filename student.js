@@ -286,6 +286,19 @@ function renderSummary(data = {}) {
   );
   const allMistakes = data.mistakes?.length ? data.mistakes : localTools().mistakes || [];
   const revision = allMistakes.filter((item) => inferCourse(item) === activeCourse).length;
+  const history = $("practiceHistoryList");
+  if (history) {
+    const ordered = [...sessions].filter((x)=>x.completedAt).sort((a,b)=>String(b.completedAt).localeCompare(String(a.completedAt)));
+    history.innerHTML = ordered.length ? ordered.slice(0,20).map((session) => {
+      const wrong = Number.isFinite(session.incorrect) ? session.incorrect : Math.max(0,(session.attempted||0)-(session.correct||0));
+      const score = Number.isFinite(session.score) ? session.score : (session.correct||0)*4-wrong;
+      const maxScore = session.maxScore || (session.total||0)*4;
+      const mins = Math.floor((session.seconds||0)/60), secs = (session.seconds||0)%60;
+      const focus = session.focusMessage || (session.accuracy < 70 ? "Revise weak concepts and retry incorrect MCQs." : session.accuracy < 85 ? "Review errors and improve accuracy before increasing speed." : "Strong accuracy — now work on maintaining it with better pace.");
+      const weak = (session.weakAreas||[]).map((x)=>x.topic).filter(Boolean).slice(0,3).join(" • ");
+      return `<article class="invoice-row"><div><strong>${esc(session.title || "Practice session")}</strong><p>${new Date(session.completedAt).toLocaleString("en-IN")} · ${session.attempted||0} attempted · ${session.correct||0} correct · ${wrong} wrong</p><p><b>${score}/${maxScore} marks</b> (+4/−1) · ${session.accuracy||0}% accuracy · ${String(mins).padStart(2,"0")}:${String(secs).padStart(2,"0")} · ${session.avgSecondsPerAttempt||((session.attempted||0)?Math.round((session.seconds||0)/session.attempted):0)}s/MCQ</p>${weak?`<p><b>Needs focus:</b> ${esc(weak)}</p>`:""}<p><b>Next step:</b> ${esc(focus)}</p></div></article>`;
+    }).join("") : "<p>No MCQ practice sessions yet. Your completed sessions will appear here automatically.</p>";
+  }
   $("dashSessions").textContent = String(sessions.length);
   $("dashAccuracy").textContent =
     `${attempted ? Math.round((correct / attempted) * 100) : 0}%`;
@@ -302,7 +315,7 @@ function renderSummary(data = {}) {
   if (latest) {
     $("continueTitle").textContent = latest.title || "Continue practising";
     $("continueMeta").textContent =
-      `${latest.correct || 0}/${latest.total || 0} correct • ${latest.accuracy || 0}% accuracy`;
+      `${Number.isFinite(latest.score) ? latest.score : ((latest.correct||0)*4-Math.max(0,(latest.attempted||0)-(latest.correct||0)))}/${latest.maxScore || (latest.total||0)*4} marks • ${latest.accuracy || 0}% accuracy • +4/−1`;
     $("continueLink").textContent = "PRACTISE AGAIN";
     $("continueLink").href = portalUrl(COURSE_PORTALS[activeCourse].target);
   } else {
