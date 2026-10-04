@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="auth-check">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#061b18">
+  <title>KOTA Level Biology MCQs | Scrutiny Academy</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="neet-kota-biology.css?v=1">
+  <style>.auth-check body{visibility:hidden}</style>
+  <script type="module" src="neet-kota-gate.js?v=1"></script>
+</head>
+<body>
+  <header class="kota-head">
+    <a class="brand" href="student.html"><img src="assets/logo.svg" alt="Scrutiny Academy"><span><strong>SCRUTINY ACADEMY</strong><small>NEET BIOLOGY · FACULTY SELECTED</small></span></a>
+    <nav><a href="preview-v2.html?course=neet#neet">NEET Portal</a><a href="#chapters">Chapters</a><button type="button" id="logoutButton">Logout</button></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="live-pill"><i></i> FACULTY SELECTED · KOTA LEVEL</span>
+        <h1>KOTA LEVEL MCQs <em>FOR NEET</em></h1>
+        <p>Original faculty question sheets, rebuilt as a fast, premium Biology quiz experience with exact printed answer-key scoring.</p>
+        <div class="hero-actions"><a class="primary" href="#chapters">START PRACTICE</a><button class="secondary" type="button" id="startGrandTest">BUILD TIMED TEST</button></div>
+      </div>
+      <div class="hero-stats" aria-label="Question bank summary">
+        <article><strong id="totalMcqs">1,872</strong><span>verified MCQs</span></article>
+        <article><strong>10</strong><span>high-yield chapters</span></article>
+        <article><strong>3</strong><span>exercise levels</span></article>
+        <small>Tables, diagrams and scientific layouts preserved from the supplied faculty PDFs.</small>
+      </div>
+    </section>
+
+    <section class="trust-strip"><span>✓ Printed answer keys mapped</span><span>✓ Practice + timed test</span><span>✓ Live pace tracker</span><span>✓ Instant answer review</span></section>
+
+    <section class="chapters" id="chapters">
+      <header><div><span class="eyebrow">BIOLOGY QUESTION VAULT</span><h2>Choose a chapter</h2><p>Start a focused chapter drill or combine the complete bank into a timed test.</p></div><label class="search">Search chapters<input type="search" id="chapterSearch" placeholder="Inheritance, enzymes…"></label></header>
+      <div class="chapter-grid" id="chapterGrid" aria-live="polite"><p class="loading">Loading faculty-selected MCQs…</p></div>
+    </section>
+  </main>
+
+  <dialog id="setupDialog" class="setup-dialog">
+    <form method="dialog" id="setupForm">
+      <header><div><span class="eyebrow">CREATE YOUR SESSION</span><h2 id="setupTitle">KOTA Biology Practice</h2><p id="setupMeta"></p></div><button type="button" class="close" data-close-setup aria-label="Close">×</button></header>
+      <div class="setup-grid">
+        <label>Exercise<select id="exerciseSelect"><option value="all">All exercises</option><option value="conceptual">Exercise I · Conceptual</option><option value="previous-year">Exercise II · Previous Year</option><option value="mastery">Exercise III · NCERT &amp; Analytical</option></select></label>
+        <label>Mode<select id="modeSelect"><option value="practice">Practice · instant feedback</option><option value="test">Test · answers after submission</option></select></label>
+        <label>Questions<select id="countSelect"></select></label>
+        <label>Timer pace<select id="paceSelect"><option value="90">NEET pace · 90 sec/question</option><option value="60">Sprint · 60 sec/question</option><option value="120">Learning · 120 sec/question</option><option value="0">Elapsed timer only</option></select></label>
+      </div>
+      <div class="mode-note" id="modeNote">Practice mode shows the correct answer after every attempt while the elapsed timer and question pace remain visible.</div>
+      <button class="primary wide" value="default" type="submit">START SESSION →</button>
+    </form>
+  </dialog>
+
+  <section class="quiz-shell" id="quizShell" hidden aria-live="polite">
+    <header class="quiz-top">
+      <button type="button" class="quit" id="quitQuiz">← Exit</button>
+      <div><span id="quizChapter">Biology</span><strong id="quizMode">Practice</strong></div>
+      <div class="timer-card"><span id="timerLabel">ELAPSED</span><strong id="sessionTimer">00:00</strong><small id="paceReadout">0 answered</small></div>
+    </header>
+    <div class="progress-track"><i id="quizProgress"></i></div>
+    <main class="question-stage">
+      <aside class="question-index"><span id="questionPosition">Question 1 of 10</span><strong id="questionExercise">Exercise I</strong></aside>
+      <article class="question-card">
+        <p class="question-text" id="questionText"></p>
+        <button type="button" class="visual-frame" id="visualFrame" hidden><img id="questionVisual" alt="Exact faculty question layout"><span>Tap to enlarge source diagram or table</span></button>
+        <div class="options" id="optionList"></div>
+        <div class="feedback" id="answerFeedback" hidden></div>
+      </article>
+      <footer class="question-actions"><button type="button" class="secondary" id="previousQuestion">← Previous</button><button type="button" class="primary" id="nextQuestion">Next →</button><button type="button" class="primary submit" id="submitTest" hidden>SUBMIT TEST</button></footer>
+    </main>
+  </section>
+
+  <dialog id="resultDialog" class="result-dialog">
+    <div class="result-card"><span class="eyebrow">SESSION COMPLETE</span><div class="result-ring" id="resultRing"><strong id="resultPercent">0%</strong><small>ACCURACY</small></div><h2 id="resultTitle">Strong attempt</h2><p id="resultSummary"></p><div class="result-metrics"><span><strong id="resultScore">0/0</strong><small>Score</small></span><span><strong id="resultTime">00:00</strong><small>Time</small></span><span><strong id="resultPace">—</strong><small>Per MCQ</small></span></div><div class="result-actions"><button type="button" class="primary" id="reviewResult">REVIEW ANSWERS</button><button type="button" class="secondary" id="newSession">NEW SESSION</button></div><div class="review-list" id="reviewList" hidden></div></div>
+  </dialog>
+
+  <dialog id="visualDialog" class="visual-dialog"><button type="button" id="closeVisual" aria-label="Close image">×</button><img id="visualLarge" alt="Enlarged faculty question layout"></dialog>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="neet-countdown.js?v=1" defer></script>
+  <script src="neet-kota-biology.js?v=1" defer></script>
+</body>
+</html>

@@ -19,10 +19,11 @@ if (!configured) {
     if (!founder) {
       try { founder = (await getIdTokenResult(user, true)).claims.founder === true; } catch (error) { console.warn("Founder claim unavailable", error); }
     }
+    let profile = {};
     if (!founder) {
       try {
         const snapshot = await getDoc(doc(db, "students", user.uid));
-        const profile = snapshot.exists() ? snapshot.data() : {};
+        profile = snapshot.exists() ? snapshot.data() : {};
         if (profile.accessStatus !== "active" || !entitledCourses(profile).includes("neet")) return location.replace("payment.html?course=neet");
       } catch (error) {
         console.error("NCERT Quest access check failed", error);
@@ -30,6 +31,8 @@ if (!configured) {
       }
     }
     localStorage.setItem("scrutiny_active_course", "neet");
+    window.__scrutinyStudentContext = { activeCourse: "neet", availableCourses: ["neet"], profile: { neetExamYear: profile.courseEntitlements?.neet?.neetExamYear || profile.neetExamYear || null } };
+    window.dispatchEvent(new CustomEvent("scrutiny:dashboard-context", { detail: window.__scrutinyStudentContext }));
     document.documentElement.classList.remove("auth-check");
   });
 }

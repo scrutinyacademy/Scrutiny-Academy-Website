@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "faculty-selected-kota-biology",
+  "title": "Faculty Selected KOTA Level MCQs",
+  "label": "KOTA LEVEL MCQs FOR NEET",
+  "subject": "Biology",
+  "description": "1,872 faculty-selected MCQs reproduced as interactive practice and timed tests with printed answer-key scoring.",
+  "totalQuestions": 1872,
+  "chapters": [
+    {
+      "slug": "molecular-basis-of-inheritance",
+      "title": "Molecular Basis of Inheritance",
+      "classLevel": 12,
+      "file": "data/neet/kota-biology/molecular-basis-of-inheritance.json",
+      "totalQuestions": 376,
+      "visualQuestions": 52,
+      "exerciseCounts": {
+        "conceptual": 173,
+        "previous-year": 117,
+        "mastery": 86
+      }
+    },
+    {
+      "slug": "photosynthesis-in-higher-plants",
+      "title": "Photosynthesis in Higher Plants",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/photosynthesis-in-higher-plants.json",
+      "totalQuestions": 202,
+      "visualQuestions": 75,
+      "exerciseCounts": {
+        "conceptual": 85,
+        "previous-year": 47,
+        "mastery": 70
+      }
+    },
+    {
+      "slug": "locomotion-and-movement",
+      "title": "Locomotion & Movement",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/locomotion-and-movement.json",
+      "totalQuestions": 87,
+      "visualQuestions": 19,
+      "exerciseCounts": {
+        "conceptual": 37,
+        "previous-year": 20,
+        "mastery": 30
+      }
+    },
+    {
+      "slug": "biomolecules",
+      "title": "Biomolecules",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/biomolecules.json",
+      "totalQuestions": 124,
+      "visualQuestions": 24,
+      "exerciseCounts": {
+        "conceptual": 49,
+        "previous-year": 38,
+        "mastery": 37
+      }
+    },
+    {
+      "slug": "enzymes",
+      "title": "Enzymes",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/enzymes.json",
+      "totalQuestions": 65,
+      "visualQuestions": 26,
+      "exerciseCounts": {
+        "conceptual": 20,
+        "previous-year": 15,
+        "mastery": 30
+      }
+    },
+    {
+      "slug": "principles-of-inheritance-and-variation",
+      "title": "Principles of Inheritance & Variation",
+      "classLevel": 12,
+      "file": "data/neet/kota-biology/principles-of-inheritance-and-variation.json",
+      "totalQuestions": 466,
+      "visualQuestions": 61,
+      "exerciseCounts": {
+        "conceptual": 264,
+        "previous-year": 103,
+        "mastery": 99
+      }
+    },
+    {
+      "slug": "breathing-and-exchange-of-gases",
+      "title": "Breathing & Exchange of Gases",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/breathing-and-exchange-of-gases.json",
+      "totalQuestions": 162,
+      "visualQuestions": 30,
+      "exerciseCounts": {
+        "conceptual": 72,
+        "previous-year": 39,
+        "mastery": 51
+      }
+    },
+    {
+      "slug": "cockroach",
+      "title": "Cockroach",
+      "classLevel": 11,
+      "file": "data/neet/kota-biology/cockroach.json",
+      "totalQuestions": 114,
+      "visualQuestions": 11,
+      "exerciseCounts": {
+        "conceptual": 82,
+        "previous-year": 17,
+        "mastery": 15
+      }
+    },
+    {
+      "slug": "strategies-for-enhancement-in-food-production",
+      "title": "Strategies for Enhancement in Food Production",
+      "classLevel": 12,
+      "file": "data/neet/kota-biology/strategies-for-enhancement-in-food-production.json",
+      "totalQuestions": 72,
+      "visualQuestions": 3,
+      "exerciseCounts": {
+        "conceptual": 25,
+        "previous-year": 19,
+        "mastery": 28
+      }
+    },
+    {
+      "slug": "human-health-and-disease",
+      "title": "Human Health & Disease",
+      "classLevel": 12,
+      "file": "data/neet/kota-biology/human-health-and-disease.json",
+      "totalQuestions": 204,
+      "visualQuestions": 30,
+      "exerciseCounts": {
+        "conceptual": 60,
+        "previous-year": 104,
+        "mastery": 40
+      }
+    }
+  ]
+}

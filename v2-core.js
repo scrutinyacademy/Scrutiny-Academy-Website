@@ -319,6 +319,13 @@
           q += allMcqs(data).length;
         } catch {}
       }
+    if (courseId === "neet") {
+      try {
+        const kota = await load("data/neet/kota-biology/catalog.json");
+        ch += (kota.chapters || []).length;
+        q += Number(kota.totalQuestions || 0);
+      } catch {}
+    }
     $("metricSubjects").textContent = s;
     $("metricSubjectsLabel").textContent = "active subjects";
     $("metricChapters").textContent = ch;

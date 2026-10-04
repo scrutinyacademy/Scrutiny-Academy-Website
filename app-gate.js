@@ -149,6 +149,12 @@ async function openPlatform(auth, user, profile, db) {
   setupResponsiveNavigation();
   addAccountControls(auth, user, profile);
   applyCoursePortal(selectedCourse(profile, allowed), auth, user, db, allowed, profile);
+  window.__scrutinyStudentContext = {
+    activeCourse: selectedCourse(profile, allowed),
+    availableCourses: [...allowed],
+    profile: { neetExamYear: profile.courseEntitlements?.neet?.neetExamYear || profile.neetExamYear || null },
+  };
+  window.dispatchEvent(new CustomEvent("scrutiny:dashboard-context", { detail: window.__scrutinyStudentContext }));
   document.documentElement.classList.remove("auth-check");
   try {
     await import("./leaderboard.js");

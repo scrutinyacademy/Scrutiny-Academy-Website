@@ -1,8 +1,13 @@
-const CACHE = "scrutiny-academy-v54-public-cbse-upcoming";
+const CACHE = "scrutiny-academy-v55-kota-biology";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
   "./preview-v2.html",
+  "./neet-kota-biology.html",
+  "./neet-kota-biology.css?v=1",
+  "./neet-kota-biology.js?v=1",
+  "./neet-kota-gate.js?v=1",
+  "./neet-countdown.js?v=1",
   "./neet-ranker-free.html",
   "./ncert-quest.html",
   "./auth.css?v=3",
