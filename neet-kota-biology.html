@@ -21,24 +21,31 @@
       <div class="hero-copy">
         <span class="live-pill"><i></i> FACULTY SELECTED · KOTA LEVEL</span>
         <h1>KOTA LEVEL MCQs <em>FOR NEET</em></h1>
-        <p>Original faculty question sheets, rebuilt as a fast, premium Biology quiz experience with exact printed answer-key scoring.</p>
+        <p>Choose only the chapters you need. Each chapter unlocks for ₹9 with exact printed answer-key scoring, premium practice and timed tests.</p>
         <div class="hero-actions"><a class="primary" href="#chapters">START PRACTICE</a><button class="secondary" type="button" id="startGrandTest">BUILD TIMED TEST</button></div>
       </div>
       <div class="hero-stats" aria-label="Question bank summary">
         <article><strong id="totalMcqs">1,872</strong><span>verified MCQs</span></article>
-        <article><strong>10</strong><span>high-yield chapters</span></article>
+        <article><strong>₹9</strong><span>per chapter</span></article>
         <article><strong>3</strong><span>exercise levels</span></article>
         <small>Tables, diagrams and scientific layouts preserved from the supplied faculty PDFs.</small>
       </div>
     </section>
 
-    <section class="trust-strip"><span>✓ Printed answer keys mapped</span><span>✓ Practice + timed test</span><span>✓ Live pace tracker</span><span>✓ Instant answer review</span></section>
+    <section class="trust-strip"><span>✓ Select chapters</span><span>✓ Add to cart</span><span>✓ Pay once securely</span><span>✓ Access until NEET course expiry</span></section>
 
     <section class="chapters" id="chapters">
       <header><div><span class="eyebrow">BIOLOGY QUESTION VAULT</span><h2>Choose a chapter</h2><p>Start a focused chapter drill or combine the complete bank into a timed test.</p></div><label class="search">Search chapters<input type="search" id="chapterSearch" placeholder="Inheritance, enzymes…"></label></header>
       <div class="chapter-grid" id="chapterGrid" aria-live="polite"><p class="loading">Loading faculty-selected MCQs…</p></div>
     </section>
   </main>
+
+  <aside class="chapter-cart" id="chapterCart" hidden aria-live="polite">
+    <div><span>YOUR KOTA CART</span><strong id="cartSummary">0 chapters selected</strong><small id="cartNames"></small></div>
+    <div class="cart-price"><small>TOTAL</small><strong id="cartTotal">₹0</strong></div>
+    <button type="button" class="primary" id="checkoutChapters">PAY &amp; UNLOCK →</button>
+    <button type="button" class="cart-clear" id="clearCart" aria-label="Clear selected chapters">×</button>
+  </aside>
 
   <dialog id="setupDialog" class="setup-dialog">
     <form method="dialog" id="setupForm">
@@ -79,7 +86,9 @@
 
   <dialog id="visualDialog" class="visual-dialog"><button type="button" id="closeVisual" aria-label="Close image">×</button><img id="visualLarge" alt="Enlarged faculty question layout"></dialog>
   <div class="toast" id="toast" role="status"></div>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
   <script src="neet-countdown.js?v=1" defer></script>
   <script src="neet-kota-biology.js?v=1" defer></script>
+  <script type="module" src="neet-kota-purchase.js?v=1"></script>
 </body>
 </html>

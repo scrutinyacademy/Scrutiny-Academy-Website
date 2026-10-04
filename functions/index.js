@@ -27,6 +27,19 @@ const COURSES = {
   jee: { name: "IIT-JEE Complete Preparation Course", offerPrice: 499, regularPrice: 2495, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
   mbbs: { name: "MBBS Complete Learning Course", offerPrice: 799, regularPrice: 3995, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
 };
+const KOTA_CHAPTER_PRICE = 9;
+const KOTA_BIOLOGY_CHAPTERS = {
+  "molecular-basis-of-inheritance": "Molecular Basis of Inheritance",
+  "photosynthesis-in-higher-plants": "Photosynthesis in Higher Plants",
+  "locomotion-and-movement": "Locomotion & Movement",
+  biomolecules: "Biomolecules",
+  enzymes: "Enzymes",
+  "principles-of-inheritance-and-variation": "Principles of Inheritance & Variation",
+  "breathing-and-exchange-of-gases": "Breathing & Exchange of Gases",
+  cockroach: "Cockroach",
+  "strategies-for-enhancement-in-food-production": "Strategies for Enhancement in Food Production",
+  "human-health-and-disease": "Human Health & Disease",
+};
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
 const RAZORPAY_WEBHOOK_SECRET = defineSecret("RAZORPAY_WEBHOOK_SECRET");
@@ -61,6 +74,22 @@ function courseValidity(courseId, neetExamYear) {
 
 function paymentRequestId(uid, courseId) {
   return `${uid}_${courseId}`;
+}
+
+function kotaPaymentRequestId(uid, chapterIds) {
+  const fingerprint = crypto.createHash("sha256").update([...chapterIds].sort().join(",")).digest("hex").slice(0, 18);
+  return `${uid}_kota_${fingerprint}`;
+}
+
+function validKotaChapterIds(value) {
+  if (!Array.isArray(value)) return [];
+  return [...new Set(value.map(String))].filter((id) => KOTA_BIOLOGY_CHAPTERS[id]).sort();
+}
+
+function hasActiveNeetCourse(profile = {}) {
+  if (profile.courseEntitlements?.neet?.status === "active") return true;
+  const legacy = profile.purchasedCourse || profile.requestedCourse || profile.activeCourse;
+  return profile.accessStatus === "active" && legacy === "neet";
 }
 
 function secureEqual(actual, expected) {
@@ -208,6 +237,93 @@ async function razorpayRequest(path, options = {}) {
   return body;
 }
 
+async function activateKotaChapters({ uid, orderId, paymentId, source, linkedRequest }) {
+  const requestRef = linkedRequest.ref;
+  const requestData = linkedRequest.data();
+  const chapterIds = validKotaChapterIds(requestData.chapterIds);
+  if (!chapterIds.length || requestData.amount !== chapterIds.length * KOTA_CHAPTER_PRICE) {
+    throw new HttpsError("failed-precondition", "The selected KOTA chapters are invalid.");
+  }
+  const studentRef = db.doc(`students/${uid}`);
+  const studentSnap = await studentRef.get();
+  if (!studentSnap.exists) throw new HttpsError("failed-precondition", "Student profile not found.");
+  const student = studentSnap.data();
+  if (!hasActiveNeetCourse(student)) {
+    throw new HttpsError("permission-denied", "An active NEET course is required for KOTA chapter access.");
+  }
+  const neetEntitlement = student.courseEntitlements?.neet || {};
+  const validity = courseValidity("neet", neetEntitlement.neetExamYear || student.neetExamYear);
+  const chapterNames = chapterIds.map((id) => KOTA_BIOLOGY_CHAPTERS[id]);
+  const invoiceId = paymentId;
+  const invoiceRef = db.doc(`students/${uid}/invoices/${invoiceId}`);
+  const now = new Date();
+  const invoice = {
+    invoiceId,
+    invoiceNumber: invoiceNumber(paymentId),
+    uid,
+    studentName: student.name || "Student",
+    studentEmail: student.email || "",
+    courseId: "kota-biology-chapters",
+    courseName: `${chapterIds.length} KOTA Level Biology Chapter${chapterIds.length === 1 ? "" : "s"}`,
+    features: chapterNames.map((name) => `${name} — KOTA Level MCQs`),
+    chapterIds,
+    parentCourseId: "neet",
+    amount: requestData.amount,
+    currency: CURRENCY,
+    paymentId,
+    orderId,
+    paymentStatus: "Successful",
+    paymentDate: now.toLocaleString("en-IN", { timeZone: "Asia/Kolkata", dateStyle: "medium", timeStyle: "short" }),
+  };
+  const pdfBuffer = await createInvoicePdf(invoice);
+  let invoiceCreated = false;
+
+  await db.runTransaction(async (transaction) => {
+    const [paymentRequest, currentStudent, currentInvoice] = await Promise.all([
+      transaction.get(requestRef), transaction.get(studentRef), transaction.get(invoiceRef),
+    ]);
+    if (!paymentRequest.exists || paymentRequest.data().orderId !== orderId) {
+      throw new HttpsError("failed-precondition", "This payment order is not linked to this student account.");
+    }
+    if (!currentStudent.exists || !hasActiveNeetCourse(currentStudent.data())) {
+      throw new HttpsError("permission-denied", "Your NEET course is not active.");
+    }
+    const existing = currentStudent.data().addonEntitlements?.kotaBiologyChapters || {};
+    const updated = { ...existing };
+    chapterIds.forEach((chapterId) => {
+      updated[chapterId] = {
+        status: "active",
+        chapterId,
+        chapterName: KOTA_BIOLOGY_CHAPTERS[chapterId],
+        parentCourseId: "neet",
+        expiresWithParentCourse: true,
+        validityCode: validity?.code || neetEntitlement.validityCode || null,
+        validityLabel: validity?.label || neetEntitlement.validityLabel || "Until the enrolled NEET course expires",
+        pricePaid: KOTA_CHAPTER_PRICE,
+        purchasePaymentId: paymentId,
+        activatedAt: FieldValue.serverTimestamp(),
+      };
+    });
+    transaction.update(studentRef, {
+      "addonEntitlements.kotaBiologyChapters": updated,
+      updatedAt: FieldValue.serverTimestamp(),
+    });
+    transaction.set(requestRef, {
+      status: "paid", paymentId, invoiceId, verifiedAt: FieldValue.serverTimestamp(),
+      verificationSource: source, updatedAt: FieldValue.serverTimestamp(),
+    }, { merge: true });
+    if (!currentInvoice.exists) {
+      transaction.set(invoiceRef, { ...invoice, pdfBase64: pdfBuffer.toString("base64"), emailStatus: "pending", createdAt: FieldValue.serverTimestamp() });
+      invoiceCreated = true;
+    }
+  });
+
+  const stored = await invoiceRef.get();
+  const finalInvoice = stored.exists ? stored.data() : invoice;
+  if (invoiceCreated) await sendPurchaseEmails(finalInvoice, pdfBuffer);
+  return { ...purchasePayload(finalInvoice), chapterIds };
+}
+
 async function activateStudent({ uid, orderId, paymentId, source }) {
   const linkedRequest = await findPaymentRequestForOrder(orderId);
   if (!linkedRequest || linkedRequest.data().uid !== uid) {
@@ -215,6 +331,9 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
   }
   const requestRef = linkedRequest.ref;
   const requestData = linkedRequest.data();
+  if (requestData.purchaseType === "kota_biology_chapters") {
+    return activateKotaChapters({ uid, orderId, paymentId, source, linkedRequest });
+  }
   const studentRef = db.doc(`students/${uid}`);
   const studentSnap = await studentRef.get();
   if (!studentSnap.exists) throw new HttpsError("failed-precondition", "Student profile not found.");
@@ -438,6 +557,68 @@ exports.createRazorpayOrder = onCall(
   },
 );
 
+exports.createKotaChapterOrder = onCall(
+  {
+    region: REGION,
+    secrets: [RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET],
+    enforceAppCheck: false,
+  },
+  async (request) => {
+    if (!request.auth) throw new HttpsError("unauthenticated", "Sign in before paying.");
+    const uid = request.auth.uid;
+    const studentRef = db.doc(`students/${uid}`);
+    const student = await studentRef.get();
+    if (!student.exists) throw new HttpsError("failed-precondition", "Student profile not found.");
+    const profile = student.data();
+    if (!hasActiveNeetCourse(profile)) {
+      throw new HttpsError("permission-denied", "Enroll in the NEET course before purchasing KOTA chapters.");
+    }
+    const requestedIds = validKotaChapterIds(request.data?.chapterIds);
+    const owned = profile.addonEntitlements?.kotaBiologyChapters || {};
+    const chapterIds = requestedIds.filter((id) => owned[id]?.status !== "active");
+    if (!chapterIds.length) return { active: true, chapterIds: requestedIds };
+    const amountRupees = chapterIds.length * KOTA_CHAPTER_PRICE;
+    const amountPaise = amountRupees * 100;
+    const requestRef = db.doc(`paymentRequests/${kotaPaymentRequestId(uid, chapterIds)}`);
+    const existingRequest = await requestRef.get();
+    if (existingRequest.exists) {
+      const existing = existingRequest.data();
+      if (existing.status === "paid") return { active: true, chapterIds };
+      if (typeof existing.orderId === "string" && existing.orderId.startsWith("order_") &&
+          existing.amountPaise === amountPaise && existing.currency === CURRENCY) {
+        return { keyId: RAZORPAY_KEY_ID.value(), orderId: existing.orderId, amount: amountPaise,
+          currency: CURRENCY, productName: `${chapterIds.length} KOTA Biology Chapter${chapterIds.length === 1 ? "" : "s"}`, chapterIds };
+      }
+    }
+    const order = await razorpayRequest("/orders", {
+      method: "POST",
+      body: JSON.stringify({
+        amount: amountPaise,
+        currency: CURRENCY,
+        receipt: `sa_kota_${uid.slice(0, 8)}_${Date.now()}`,
+        notes: { firebase_uid: uid, product: "kota_biology_chapters", chapter_ids: chapterIds.join(",") },
+      }),
+    });
+    await requestRef.set({
+      uid,
+      provider: "razorpay",
+      orderId: order.id,
+      purchaseType: "kota_biology_chapters",
+      parentCourseId: "neet",
+      chapterIds,
+      chapterNames: chapterIds.map((id) => KOTA_BIOLOGY_CHAPTERS[id]),
+      amount: amountRupees,
+      amountPaise,
+      currency: CURRENCY,
+      status: "pending",
+      createdAt: FieldValue.serverTimestamp(),
+      updatedAt: FieldValue.serverTimestamp(),
+    });
+    return { keyId: RAZORPAY_KEY_ID.value(), orderId: order.id, amount: amountPaise,
+      currency: CURRENCY, productName: `${chapterIds.length} KOTA Biology Chapter${chapterIds.length === 1 ? "" : "s"}`, chapterIds };
+  },
+);
+
 exports.verifyRazorpayPayment = onCall(
   {
     region: REGION,
@@ -552,6 +733,31 @@ exports.syncRazorpayPayment = onCall(
       source: "reconciliation",
     });
     return { active: true, purchase };
+  },
+);
+
+exports.syncKotaChapterPayment = onCall(
+  {
+    region: REGION,
+    secrets: [RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET, GMAIL_APP_PASSWORD],
+    enforceAppCheck: false,
+  },
+  async (request) => {
+    if (!request.auth) throw new HttpsError("unauthenticated", "Sign in before checking payment.");
+    const uid = request.auth.uid;
+    const chapterIds = validKotaChapterIds(request.data?.chapterIds);
+    if (!chapterIds.length) throw new HttpsError("invalid-argument", "Choose at least one chapter.");
+    const paymentRequest = await db.doc(`paymentRequests/${kotaPaymentRequestId(uid, chapterIds)}`).get();
+    if (!paymentRequest.exists) return { active: false };
+    if (paymentRequest.data().status === "paid") return { active: true, chapterIds };
+    const orderId = paymentRequest.data().orderId;
+    if (typeof orderId !== "string" || !orderId.startsWith("order_")) return { active: false };
+    const payments = await razorpayRequest(`/orders/${encodeURIComponent(orderId)}/payments`);
+    const captured = payments.items?.find((payment) => payment.order_id === orderId &&
+      payment.amount === paymentRequest.data().amountPaise && payment.currency === CURRENCY && payment.status === "captured");
+    if (!captured) return { active: false };
+    const purchase = await activateStudent({ uid, orderId, paymentId: captured.id, source: "reconciliation" });
+    return { active: true, chapterIds, purchase };
   },
 );
 

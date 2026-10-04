@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v55-kota-biology";
+const CACHE = "scrutiny-academy-v56-kota-chapter-cart";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -7,6 +7,7 @@ const APP_SHELL = [
   "./neet-kota-biology.css?v=1",
   "./neet-kota-biology.js?v=1",
   "./neet-kota-gate.js?v=1",
+  "./neet-kota-purchase.js?v=1",
   "./neet-countdown.js?v=1",
   "./neet-ranker-free.html",
   "./ncert-quest.html",

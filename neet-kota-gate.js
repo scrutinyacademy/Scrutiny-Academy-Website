@@ -18,7 +18,23 @@ onAuthStateChanged(auth, async (user) => {
     const allowed = founder ? ["neet"] : entitledCourses(profile);
     if (!allowed.includes("neet")) { location.replace("student.html"); return; }
     const neetExamYear = profile.courseEntitlements?.neet?.neetExamYear || profile.neetExamYear || null;
-    window.__scrutinyStudentContext = { activeCourse: "neet", availableCourses: allowed, profile: { neetExamYear }, founderAccess: founder };
+    const unlockedKotaChapters = founder
+      ? ["*"]
+      : Object.entries(profile.addonEntitlements?.kotaBiologyChapters || {})
+          .filter(([, entitlement]) => entitlement?.status === "active")
+          .map(([chapterId]) => chapterId);
+    window.__scrutinyStudentContext = {
+      activeCourse: "neet",
+      availableCourses: allowed,
+      profile: {
+        neetExamYear,
+        name: profile.name || user.displayName || "Student",
+        email: profile.email || user.email || "",
+        phone: profile.phone || "",
+        unlockedKotaChapters,
+      },
+      founderAccess: founder,
+    };
     window.dispatchEvent(new CustomEvent("scrutiny:dashboard-context", { detail: window.__scrutinyStudentContext }));
     document.documentElement.classList.remove("auth-check");
     document.getElementById("logoutButton")?.addEventListener("click", async () => { await signOut(auth); location.replace("login.html"); });
