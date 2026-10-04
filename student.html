@@ -6,7 +6,7 @@
     <title>Scrutiny Academy | Student Dashboard</title>
     <link rel="icon" href="assets/favicon.svg" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="stylesheet" href="auth.css" />
+    <link rel="stylesheet" href="auth.css?v=2" />
     <link rel="stylesheet" href="student-success.css" />
     <link rel="stylesheet" href="physics-formulas.css?v=1" />
   </head>
@@ -138,6 +138,19 @@
       <section class="card course-chooser" style="margin-bottom:16px">
         <div class="section-title"><div><span class="eyebrow">MY COURSES &amp; AVAILABLE COURSES</span><h2>Open what you own. Unlock what you need.</h2></div><p>Purchased courses open immediately. Locked courses require their own one-time payment.</p></div>
         <div class="course-card-grid" id="courseCardGrid"></div>
+      </section>
+      <section class="card cbse-upcoming" style="margin-bottom:16px" aria-labelledby="cbseUpcomingTitle">
+        <div class="section-title cbse-upcoming-head">
+          <div><span class="eyebrow">CBSE SECTION · COMING SOON</span><h2 id="cbseUpcomingTitle">CBSE courses are on the way.</h2></div>
+          <p>Complete board-focused learning for CBSE students is currently being prepared.</p>
+        </div>
+        <div class="cbse-course-grid" aria-label="Upcoming CBSE courses">
+          <article class="cbse-course-card"><span class="cbse-class-icon">9</span><div><small>CBSE</small><strong>Class 9</strong><p>Concept learning and school-exam preparation</p></div><b>UPCOMING</b></article>
+          <article class="cbse-course-card"><span class="cbse-class-icon">10</span><div><small>CBSE BOARD</small><strong>Class 10</strong><p>Board preparation, practice and revision</p></div><b>UPCOMING</b></article>
+          <article class="cbse-course-card"><span class="cbse-class-icon">11</span><div><small>CBSE</small><strong>Class 11</strong><p>Subject-wise concepts and exam preparation</p></div><b>UPCOMING</b></article>
+          <article class="cbse-course-card"><span class="cbse-class-icon">12</span><div><small>CBSE BOARD</small><strong>Class 12</strong><p>Board-focused learning and question practice</p></div><b>UPCOMING</b></article>
+        </div>
+        <p class="cbse-upcoming-note">🔔 These courses are not open for purchase yet. Students will be notified when enrolment begins.</p>
       </section>
       <section class="dashboard-grid" id="courseActions">
       </section>

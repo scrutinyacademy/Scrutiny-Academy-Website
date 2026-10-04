@@ -1,11 +1,11 @@
-const CACHE = "scrutiny-academy-v51-class10-mcq-quiz";
+const CACHE = "scrutiny-academy-v52-cbse-upcoming";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
   "./preview-v2.html",
   "./neet-ranker-free.html",
   "./ncert-quest.html",
-  "./auth.css",
+  "./auth.css?v=2",
   "./auth.js",
   "./student.js",
   "./student-success.js",
