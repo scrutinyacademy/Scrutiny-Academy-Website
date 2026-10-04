@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
-import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js";
+import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=2";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,

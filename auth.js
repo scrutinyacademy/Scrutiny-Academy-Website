@@ -1,5 +1,5 @@
 import { firebaseConfig } from './firebase-config.js';
-import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js';
+import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js?v=2';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';

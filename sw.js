@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v47-live-pricing";
+const CACHE = "scrutiny-academy-v48-live-pricing-import";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
