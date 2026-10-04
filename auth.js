@@ -3,11 +3,13 @@ import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
+import { getFunctions, httpsCallable } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-functions.js';
 
 const configured = firebaseConfig.apiKey && firebaseConfig.apiKey !== 'REPLACE_ME' && firebaseConfig.projectId !== 'REPLACE_ME';
 const $ = id => document.getElementById(id);
 const msg = (text, kind='') => { const el=$('authMessage'); if(!el) return; el.textContent=text; el.className=`message ${kind}`; };
 let authActionInProgress = false;
+let studentOfferActive = true;
 
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
@@ -18,19 +20,33 @@ function updateCourseSelection(){
   if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
   if(selectionSummary){
     if(!course){ selectionSummary.hidden=true; return; }
-    const price=currentCoursePrice(courseId);
+    const price=currentCoursePrice(courseId,studentOfferActive);
     selectionSummary.hidden=false;
     selectionSummary.innerHTML=`<strong>${course.name} · ₹${price}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : course.validity}</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
-const neetPrice=currentCoursePrice('neet');
-const neetOption=courseSelect?.querySelector('option[value="neet"]');
-if(neetOption) neetOption.textContent=`NEET-UG Target Course — ₹${neetPrice}${neetPrice===99?' until 5 Oct':''}`;
-document.querySelectorAll('[data-neet-price]').forEach(el=>{ el.textContent=`₹${neetPrice}`; });
-document.querySelectorAll('[data-neet-price-note]').forEach(el=>{ el.textContent=neetPrice===99?'until 5 October 2026':'standard price'; });
-document.querySelectorAll('[data-neet-next-price]').forEach(el=>{ el.hidden=neetPrice!==99; });
-document.querySelectorAll('[data-neet-badge]').forEach(el=>{ el.textContent=neetPrice===99?'INTRODUCTORY OFFER':'NEET-UG COURSE'; });
+function updateOfferPresentation(status={active:true,remaining:100,limit:100}){
+  studentOfferActive=status.active!==false;
+  Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
+    const price=currentCoursePrice(id,studentOfferActive);
+    const option=courseSelect?.querySelector(`option[value="${id}"]`);
+    if(option) option.textContent=`${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
+    const card=document.querySelector(`[data-offer-card="${id}"]`);
+    if(!card) return;
+    card.classList.toggle('offer-ended',!studentOfferActive);
+    if(!studentOfferActive){
+      card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>regular price</small>`;
+      const action=card.querySelector('a[data-select-course]');
+      if(action) action.textContent='SELECT COURSE';
+    }
+  });
+  const statusText=document.getElementById('studentOfferStatus');
+  if(statusText) statusText.textContent=studentOfferActive
+    ? `${status.remaining} of the first ${status.limit} website-wide student offer places remain. The offer ends automatically when Scrutiny Academy reaches ${status.limit} paid students.`
+    : `The first ${status.limit} paid-student launch offer is complete. Regular course prices now apply.`;
+  updateCourseSelection();
+}
 function activate(mode){
   const login = mode==='login';
   loginTab?.classList.toggle('active',login); registerTab?.classList.toggle('active',!login);
@@ -51,6 +67,8 @@ if(!configured){
   msg('Firebase configuration is unavailable. Please contact scrutinyacademy@gmail.com.','error');
 } else {
   const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app);
+  const getOfferStatus=httpsCallable(getFunctions(app,'asia-south1'),'getStudentOfferStatus');
+  getOfferStatus().then(({data})=>updateOfferPresentation(data)).catch(error=>console.warn('Student offer status unavailable:',error));
 
   onAuthStateChanged(auth, async user=>{
     // Account creation signs the new user in before the Firestore profile write
@@ -95,7 +113,7 @@ if(!configured){
         email,
         role:'student',
         accessStatus:'pending',
-        accessPrice:currentCoursePrice(activeCourse),
+        accessPrice:currentCoursePrice(activeCourse,studentOfferActive),
         paymentStatus:'not_submitted',
         activeCourse,
         requestedCourse:activeCourse,

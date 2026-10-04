@@ -20,13 +20,13 @@ service cloud.firestore {
         && request.resource.data.enrolledCourses.size() == 0
         && request.resource.data.courseEntitlements is map
         && request.resource.data.courseEntitlements.size() == 0
-        && ((request.resource.data.requestedCourse == 'class8' && request.resource.data.accessPrice == 79)
-          || (request.resource.data.requestedCourse == 'class10' && request.resource.data.accessPrice == 99)
-          || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice == 149)
-          || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice == 799)
-          || (request.resource.data.requestedCourse == 'jee' && request.resource.data.accessPrice == 499)
+        && ((request.resource.data.requestedCourse == 'class8' && request.resource.data.accessPrice in [79,395])
+          || (request.resource.data.requestedCourse == 'class10' && request.resource.data.accessPrice in [99,495])
+          || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice in [149,745])
+          || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice in [799,3995])
+          || (request.resource.data.requestedCourse == 'jee' && request.resource.data.accessPrice in [499,2495])
           || (request.resource.data.requestedCourse == 'neet'
-            && request.resource.data.accessPrice in [99,499]
+            && request.resource.data.accessPrice in [99,495,499]
             && request.resource.data.neetExamYear in ['2027','2028']));
       allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
       allow update: if signedIn() && request.auth.uid == uid && request.resource.data.uid == resource.data.uid && request.resource.data.role == resource.data.role && request.resource.data.accessStatus == resource.data.accessStatus && request.resource.data.paymentStatus == resource.data.paymentStatus && request.resource.data.accessPrice == resource.data.accessPrice && request.resource.data.requestedCourse == resource.data.requestedCourse && request.resource.data.enrolledCourses == resource.data.enrolledCourses && request.resource.data.courseEntitlements == resource.data.courseEntitlements && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name','phone','activeCourse','updatedAt']) && (request.resource.data.activeCourse == resource.data.activeCourse || isAdmin() || (resource.data.courseEntitlements is map && request.resource.data.activeCourse in resource.data.courseEntitlements && resource.data.courseEntitlements[request.resource.data.activeCourse].status == 'active'));

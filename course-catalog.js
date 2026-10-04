@@ -1,4 +1,4 @@
-export const NEET_PROMO_END = "2026-10-05T18:29:59.999Z";
+export const STUDENT_OFFER_LIMIT = 100;
 
 export const COURSE_CATALOG = {
   class8: {
@@ -6,6 +6,7 @@ export const COURSE_CATALOG = {
     name: "Class 8 SSC Complete Learning Course",
     shortName: "Class 8 Telangana SSC",
     price: 79,
+    regularPrice: 395,
     icon: "🚀",
     validity: "Valid for the Class 8 academic year",
     includes: ["SCERT-aligned subject learning", "Visual revision notes", "Flashcards and active recall", "Practice and chapter tests", "Mistake Book and smart revision"],
@@ -15,6 +16,7 @@ export const COURSE_CATALOG = {
     name: "Class 10 SSC Complete Course 2027",
     shortName: "Class 10 Telangana SSC",
     price: 99,
+    regularPrice: 495,
     icon: "📘",
     validity: "Valid until your 2027 Class 10 board examinations conclude",
     includes: ["Video lectures", "Chapter notes", "Revision sheets", "Flashcards", "MCQs"],
@@ -24,6 +26,7 @@ export const COURSE_CATALOG = {
     name: "Class 11 Board Booster 2027",
     shortName: "Class 11 Telangana Intermediate",
     price: 149,
+    regularPrice: 745,
     icon: "🌱",
     validity: "Valid until your 2027 Class 11 annual examinations conclude",
     includes: ["Revision sheets", "VSAQs", "SAQs", "LAQs"],
@@ -33,6 +36,7 @@ export const COURSE_CATALOG = {
     name: "Class 12 Board Booster 2027",
     shortName: "Class 12 Telangana Intermediate",
     price: 149,
+    regularPrice: 745,
     icon: "🎓",
     validity: "Valid until your 2027 Class 12 board examinations conclude",
     includes: ["Revision sheets", "VSAQs", "SAQs", "LAQs"],
@@ -41,8 +45,8 @@ export const COURSE_CATALOG = {
     id: "neet",
     name: "NEET-UG Target Course",
     shortName: "NEET-UG",
-    price: 499,
-    promoPrice: 99,
+    price: 99,
+    regularPrice: 495,
     icon: "🧬",
     validity: "Valid through the selected NEET-UG examination",
     includes: ["Physics, Chemistry and Biology MCQs", "NCERT search and revision tools", "Previous-year questions", "Tests, analytics and mistake revision"],
@@ -52,6 +56,7 @@ export const COURSE_CATALOG = {
     name: "IIT-JEE Complete Preparation Course",
     shortName: "IIT-JEE",
     price: 499,
+    regularPrice: 2495,
     icon: "⚙️",
     validity: "Valid until you complete your IIT-JEE examination",
     includes: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"],
@@ -61,17 +66,21 @@ export const COURSE_CATALOG = {
     name: "MBBS Complete Learning Course",
     shortName: "MBBS",
     price: 799,
+    regularPrice: 3995,
     icon: "🩺",
     validity: "Lifetime access",
     includes: ["19 MBBS subjects", "Phase-wise medical learning", "Clinical revision tools", "MCQs, bookmarks and progress tracking"],
   },
 };
 
-export function currentCoursePrice(courseId, now = new Date()) {
+export function currentCoursePrice(courseId, offerActive = true) {
   const course = COURSE_CATALOG[courseId];
   if (!course) return null;
-  if (courseId === "neet" && now.getTime() <= new Date(NEET_PROMO_END).getTime()) return course.promoPrice;
-  return course.price;
+  return offerActive ? course.price : course.regularPrice;
+}
+
+export function regularCoursePrice(courseId) {
+  return COURSE_CATALOG[courseId]?.regularPrice ?? null;
 }
 
 export function courseValidity(courseId, neetExamYear = "") {

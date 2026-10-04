@@ -17,24 +17,37 @@ const REGION = "asia-south1";
 const CURRENCY = "INR";
 const SENDER_EMAIL = "scrutinyacademy@gmail.com";
 const FOUNDER_EMAIL_SIGNATURE = "Parmod Sharma\nFounder, Scrutiny Academy";
-const NEET_PROMO_END_MS = Date.parse("2026-10-05T18:29:59.999Z");
+const STUDENT_OFFER_LIMIT = 100;
 const COURSES = {
-  class8: { name: "Class 8 SSC Complete Learning Course", price: 79, validityCode: "CLASS8_ACADEMIC_YEAR", validityLabel: "Class 8 academic year access", features: ["SCERT-aligned subject learning", "Visual revision notes and flashcards", "Chapter practice and tests", "Mistake Book and smart revision", "Progress tracking and study planning"] },
-  class10: { name: "Class 10 SSC Complete Course 2027", price: 99, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude", features: ["Chapter-wise lectures", "Comprehensive notes", "Revision sheets", "Flashcards", "Chapter-wise MCQs"] },
-  class11: { name: "Class 11 Board Booster 2027", price: 149, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
-  class12: { name: "Class 12 Board Booster 2027", price: 149, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
-  neet: { name: "NEET-UG Target Course", price: 499, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
-  jee: { name: "IIT-JEE Complete Preparation Course", price: 499, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
-  mbbs: { name: "MBBS Complete Learning Course", price: 799, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
+  class8: { name: "Class 8 SSC Complete Learning Course", offerPrice: 79, regularPrice: 395, validityCode: "CLASS8_ACADEMIC_YEAR", validityLabel: "Class 8 academic year access", features: ["SCERT-aligned subject learning", "Visual revision notes and flashcards", "Chapter practice and tests", "Mistake Book and smart revision", "Progress tracking and study planning"] },
+  class10: { name: "Class 10 SSC Complete Course 2027", offerPrice: 99, regularPrice: 495, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude", features: ["Chapter-wise lectures", "Comprehensive notes", "Revision sheets", "Flashcards", "Chapter-wise MCQs"] },
+  class11: { name: "Class 11 Board Booster 2027", offerPrice: 149, regularPrice: 745, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
+  class12: { name: "Class 12 Board Booster 2027", offerPrice: 149, regularPrice: 745, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
+  neet: { name: "NEET-UG Target Course", offerPrice: 99, regularPrice: 495, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
+  jee: { name: "IIT-JEE Complete Preparation Course", offerPrice: 499, regularPrice: 2495, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
+  mbbs: { name: "MBBS Complete Learning Course", offerPrice: 799, regularPrice: 3995, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
 };
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
 const RAZORPAY_WEBHOOK_SECRET = defineSecret("RAZORPAY_WEBHOOK_SECRET");
 const GMAIL_APP_PASSWORD = defineSecret("GMAIL_APP_PASSWORD");
 
-function coursePrice(courseId, now = Date.now()) {
-  if (!COURSES[courseId]) return null;
-  return courseId === "neet" && now <= NEET_PROMO_END_MS ? 99 : COURSES[courseId].price;
+async function studentOfferStatus() {
+  const paid = await db.collection("students").where("paymentStatus", "==", "verified").get();
+  const paidStudents = paid.size;
+  return {
+    limit: STUDENT_OFFER_LIMIT,
+    paidStudents,
+    remaining: Math.max(0, STUDENT_OFFER_LIMIT - paidStudents),
+    active: paidStudents < STUDENT_OFFER_LIMIT,
+  };
+}
+
+async function coursePrice(courseId) {
+  const course = COURSES[courseId];
+  if (!course) return null;
+  const offer = await studentOfferStatus();
+  return { rupees: offer.active ? course.offerPrice : course.regularPrice, offer };
 }
 
 function courseValidity(courseId, neetExamYear) {
@@ -212,10 +225,6 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
   if (!course || !validity) {
     throw new HttpsError("failed-precondition", "The purchased course details are invalid.");
   }
-  if (courseId === "neet" && requestData.amount === 99 && Date.now() > NEET_PROMO_END_MS) {
-    throw new HttpsError("failed-precondition", "The NEET introductory offer has ended. Create a new ₹499 order.");
-  }
-
   const invoiceId = paymentId;
   const invoiceRef = db.doc(`students/${uid}/invoices/${invoiceId}`);
   const now = new Date();
@@ -315,6 +324,11 @@ async function findPaymentRequestForOrder(orderId) {
   return snap.empty ? null : snap.docs[0];
 }
 
+exports.getStudentOfferStatus = onCall(
+  { region: REGION, enforceAppCheck: false },
+  async () => studentOfferStatus(),
+);
+
 exports.createRazorpayOrder = onCall(
   {
     region: REGION,
@@ -337,7 +351,8 @@ exports.createRazorpayOrder = onCall(
     const course = COURSES[courseId];
     const neetExamYear = courseId === "neet" ? String(request.data?.neetExamYear || profile.neetExamYear || "") : null;
     const validity = courseValidity(courseId, neetExamYear);
-    const priceRupees = coursePrice(courseId);
+    const pricing = await coursePrice(courseId);
+    const priceRupees = pricing?.rupees;
     if (!course || !validity || !priceRupees) {
       throw new HttpsError("failed-precondition", "Choose a valid course and examination year before paying.");
     }
@@ -369,6 +384,7 @@ exports.createRazorpayOrder = onCall(
           currency: CURRENCY,
           courseId,
           courseName: course.name,
+          offer: pricing.offer,
         };
       }
     }
@@ -396,6 +412,8 @@ exports.createRazorpayOrder = onCall(
         amountPaise: pricePaise,
         currency: CURRENCY,
         status: "pending",
+        studentOfferApplied: pricing.offer.active,
+        offerPaidStudentsAtOrder: pricing.offer.paidStudents,
         createdAt: FieldValue.serverTimestamp(),
         updatedAt: FieldValue.serverTimestamp(),
       }),
@@ -415,6 +433,7 @@ exports.createRazorpayOrder = onCall(
       currency: CURRENCY,
       courseId,
       courseName: course.name,
+      offer: pricing.offer,
     };
   },
 );

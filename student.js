@@ -16,6 +16,7 @@ import {
   setDoc,
   serverTimestamp,
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-functions.js";
 const app = initializeApp(firebaseConfig),
   auth = getAuth(app),
   db = getFirestore(app),
@@ -34,6 +35,7 @@ const COURSE_PORTALS = {
 let activeCourse = "neet";
 let availableCourses = [];
 let studentProfile = {};
+let studentOfferActive = true;
 const requestedDashboardCourse = new URLSearchParams(location.search).get("course");
 
 function inferCourse(item = {}) {
@@ -93,7 +95,7 @@ function renderCourseDashboard() {
     const owned = availableCourses.includes(id);
     if (owned && id === activeCourse) return `<a class="course-card active" href="${portalUrl(item.target)}" style="--card-accent:${item.color}" aria-label="Open ${esc(item.name)}"><span>${item.icon}</span><strong>${item.name}</strong><small>OPEN CURRENT COURSE →</small></a>`;
     if (owned) return `<button type="button" class="course-card" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>SWITCH &amp; OPEN COURSE →</small></button>`;
-    return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
+    return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id, studentOfferActive)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id, studentOfferActive)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
   }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor, subject]) => `<a class="card big-link" href="${portalUrl(anchor, subject)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
   $("class10LectureEntry").hidden = activeCourse !== "class10";
@@ -118,13 +120,13 @@ function renderCourseSwitchMenu() {
       ? '<span class="course-menu-badge current">CURRENT</span>'
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
-        : `<span class="course-menu-price">₹${currentCoursePrice(id)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
+        : `<span class="course-menu-price">₹${currentCoursePrice(id, studentOfferActive)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
     const openUrl = id === "class8" ? "class8-ssc.html" : id === "jee" ? "jee.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
       ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`
       : owned
         ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}">SWITCH</button>`
-      : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id)}">BUY COURSE</a>`;
+      : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id, studentOfferActive)}">BUY COURSE</a>`;
     return `<article class="course-menu-item ${current ? "active" : ""}" role="menuitem"><span class="course-menu-icon" style="--item-accent:${portal.color}">${portal.icon}</span><span class="course-menu-copy"><strong>${esc(portal.name)}</strong><small>${esc(detail)}</small></span>${status}${action}</article>`;
   }).join("");
   list.querySelectorAll("[data-switch-course]").forEach((button) => button.addEventListener("click", () => {
@@ -326,6 +328,13 @@ onAuthStateChanged(auth, async (user) => {
     return;
   }
   const studentName = friendlyStudentName(p, user);
+  try {
+    const status = httpsCallable(getFunctions(app, "asia-south1"), "getStudentOfferStatus");
+    const { data } = await status();
+    studentOfferActive = data?.active !== false;
+  } catch (offerError) {
+    console.warn("Student offer status unavailable:", offerError);
+  }
   $("welcome").textContent = welcomeLine(studentName);
   setupCourseDashboard({ ...p, founderAccess });
   if (founderAccess) $("studentMeta").textContent = `${user.email} • FOUNDER PREVIEW • ALL COURSES`;

@@ -26,6 +26,7 @@ const functions = getFunctions(app, "asia-south1");
 const createOrder = httpsCallable(functions, "createRazorpayOrder");
 const verifyPayment = httpsCallable(functions, "verifyRazorpayPayment");
 const syncPayment = httpsCallable(functions, "syncRazorpayPayment");
+const getOfferStatus = httpsCallable(functions, "getStudentOfferStatus");
 const $ = (id) => document.getElementById(id);
 const message = (text, kind = "") => {
   const element = $("paymentMessage");
@@ -36,6 +37,7 @@ const message = (text, kind = "") => {
 let currentUser = null;
 let currentProfile = null;
 let latestPurchase = null;
+let studentOfferActive = true;
 const query = new URLSearchParams(location.search);
 let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
 let purchaseNeetYear = ["2027", "2028"].includes(query.get("exam")) ? query.get("exam") : "";
@@ -58,7 +60,7 @@ function showPayButton() {
   const actions = $("paymentActions");
   actions.style.display = "block";
   actions.innerHTML =
-    `<button class="primary" id="payBtn" type="button">PAY ₹${currentCoursePrice(purchaseCourseId) ?? "—"} & UNLOCK THIS COURSE</button>`;
+    `<button class="primary" id="payBtn" type="button">PAY ₹${currentCoursePrice(purchaseCourseId, studentOfferActive) ?? "—"} & UNLOCK THIS COURSE</button>`;
   $("payBtn").onclick = startCheckout;
 }
 
@@ -68,7 +70,7 @@ function renderStatus(profile) {
   if (purchaseCourseId === "neet") purchaseNeetYear ||= String(currentProfile.neetExamYear || "");
   const courseId = purchaseCourseId;
   const course = COURSE_CATALOG[courseId];
-  const price = currentCoursePrice(courseId);
+  const price = currentCoursePrice(courseId, studentOfferActive);
   if (course) {
     $("paymentPrice").textContent = `₹${price}`;
     $("paymentCourseName").textContent = course.name;
@@ -165,6 +167,12 @@ onAuthStateChanged(auth, async (user) => {
     $("studentName").textContent = profile.name
       ? `Hi, ${profile.name}`
       : "Student Access";
+    try {
+      const { data: offer } = await getOfferStatus();
+      studentOfferActive = offer?.active !== false;
+    } catch (offerError) {
+      console.warn("Student offer status unavailable:", offerError);
+    }
     renderStatus(profile);
     message("");
 
@@ -225,6 +233,12 @@ async function startCheckout() {
       currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
       renderStatus(currentProfile);
       return;
+    }
+    const checkoutRupees = Number(order.amount || 0) / 100;
+    if (checkoutRupees > 0) {
+      studentOfferActive = order.offer?.active !== false;
+      $("paymentPrice").textContent = `₹${checkoutRupees.toLocaleString("en-IN")}`;
+      button.textContent = `PAY ₹${checkoutRupees.toLocaleString("en-IN")} & UNLOCK THIS COURSE`;
     }
 
     const checkout = new window.Razorpay({
