@@ -14,13 +14,24 @@ service cloud.firestore {
         && request.resource.data.role == 'student'
         && request.resource.data.accessStatus == 'pending'
         && request.resource.data.paymentStatus == 'not_submitted'
-        && request.resource.data.requestedCourse in ['class8','class10','class11','class12','neet','jee','mbbs']
+        && request.resource.data.requestedCourse in ['class6','class8','class10','class11','class12','neet','jee','mbbs']
         && request.resource.data.activeCourse == request.resource.data.requestedCourse
         && request.resource.data.enrolledCourses is list
         && request.resource.data.enrolledCourses.size() == 0
         && request.resource.data.courseEntitlements is map
         && request.resource.data.courseEntitlements.size() == 0
-        && ((request.resource.data.requestedCourse == 'class8' && request.resource.data.accessPrice in [79,395])
+        && ((request.resource.data.requestedCourse == 'class6'
+          && request.resource.data.accessPrice is int
+          && request.resource.data.accessPrice >= 49
+          && request.resource.data.accessPrice <= 2484
+          && request.resource.data.class6Months is int
+          && request.resource.data.class6Months >= 1
+          && request.resource.data.class6Months <= 12
+          && request.resource.data.class6Subjects is list
+          && request.resource.data.class6Subjects.size() >= 1
+          && request.resource.data.class6Subjects.size() <= 3
+          && request.resource.data.class6Subjects.hasOnly(['mathematics','science','social-science']))
+          || (request.resource.data.requestedCourse == 'class8' && request.resource.data.accessPrice in [79,395])
           || (request.resource.data.requestedCourse == 'class10' && request.resource.data.accessPrice in [99,495])
           || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice in [149,745])
           || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice in [799,3995])

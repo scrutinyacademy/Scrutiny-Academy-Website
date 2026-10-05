@@ -1,6 +1,6 @@
 import "./student-storage.js";
 import { firebaseConfig } from "./firebase-config.js";
-import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=2";
+import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=3";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -25,6 +25,7 @@ const app = initializeApp(firebaseConfig),
   esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 
 const COURSE_PORTALS = {
+  class6: { name: "Class 6 CBSE", label: "CBSE LEARNING PORTAL", icon: "🎒", color: "#1267b2", target: "class6-cbse.html", description: "A cheerful subject-wise learning space with simple lessons, tricks, flashcards, important answers, MCQs and mistake review.", actions: [["Open My Class 6 Course", "Continue learning in your purchased Mathematics, Science or Social Science subjects.", "class6-cbse.html"], ["Chapter Learning", "Understand every chapter with key ideas and simple explanations.", "class6-cbse.html"], ["Flashcards & Tricks", "Remember definitions and concepts through active recall.", "class6-cbse.html"], ["Important Q&A", "Practise exam-ready questions with model answers.", "class6-cbse.html"], ["MCQs & Mistake Book", "Practise questions and retry concepts you missed.", "class6-cbse.html"]] },
   class8: { name: "Class 8 Telangana SSC", label: "SSC FOUNDATION PORTAL", icon: "🚀", color: "#7c3aed", target: "class8-ssc.html", description: "A guided Class 8 learning system for Telangana SSC with concepts, recall, writing practice, tests and smart revision.", actions: [["My Learning Brain", "See subject mastery and what to study next.", "class8-ssc.html#mastery"], ["Learn by Subject", "Open Mathematics, Physical Science, Biological Science, Social Studies, English and Telugu.", "class8-ssc.html#subjects"], ["Practice & Tests", "Build recall with chapter practice and timed tests.", "class8-ssc.html#practice"], ["Mistake Book", "Return to concepts you previously missed.", "class8-ssc.html#mistakes"], ["Exam Planner", "Turn upcoming exams into a daily preparation plan.", "class8-ssc.html#planner"]] },
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD MISSION", icon: "📘", color: "#0a67b2", target: "class10-board.html", description: "A guided Learn → Remember → Practise → Write → Test → Improve system for Telangana SSC Boards.", actions: [["Today’s 60-Minute Mission", "Follow a ready-made daily plan without deciding what to study.", "class10-board.html#today"], ["Learn by Subject", "Open board-focused concepts, flashcards and mark-wise questions.", "class10-board.html#subjects"], ["Answer Writing Lab", "Practise model answers, marking points and examiner keywords.", "class10-board.html#workspace"], ["Board Readiness", "See strengths, weak skills and your next best action.", "class10-board.html#readiness"], ["My Mistakes", "Revise automatic error notes and weak-area tests.", "class10-board.html#mistakes"], ["90-Day Board Mode", "Activate a countdown that changes your preparation phase.", "class10-board.html#boardMode"]] },
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", icon: "🌱", color: "#138a5b", target: "class11", description: "A separate Telangana Intermediate board portal with complete Botany, Zoology, Physics and Chemistry answer banks.", actions: [["Botany Answer Bank", "Open all 14 Botany chapters with VSAQs, SAQs and LAQs.", "class11", "botany"], ["Zoology Answer Bank", "Open all 8 official Zoology units with 240 explained answers.", "class11", "zoology"], ["Physics Answer Bank", "Open all 14 revised Physics units with 252 explained answers, derivations and diagrams.", "class11", "physics"], ["Chemistry Answer Bank", "Open all 13 Chemistry chapters with 234 explained answers, reactions and diagrams.", "class11", "chemistry"], ["My Board Progress", "See only your Class 11 learning record.", "progress"]] },
@@ -51,6 +52,7 @@ function inferCourse(item = {}) {
 }
 
 function portalUrl(anchor, subject = "") {
+  if (activeCourse === "class6") return "class6-cbse.html";
   if (activeCourse === "class8") return anchor.startsWith("class8-ssc.html") ? anchor : "class8-ssc.html";
   if (activeCourse === "class10") return anchor.startsWith("class10-board.html") ? anchor : "class10-board.html";
   if (activeCourse === "jee") {
@@ -125,7 +127,7 @@ function renderCourseSwitchMenu() {
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
         : `<span class="course-menu-price">₹${currentCoursePrice(id, studentOfferActive)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
-    const openUrl = id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : `preview-v2.html?course=${id}#${portal.target}`;
+    const openUrl = id === "class6" ? "class6-cbse.html" : id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
       ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`
       : owned

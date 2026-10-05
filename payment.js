@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
-import { COURSE_CATALOG, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=2";
+import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=3";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -41,6 +41,32 @@ let studentOfferActive = true;
 const query = new URLSearchParams(location.search);
 let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
 let purchaseNeetYear = ["2027", "2028"].includes(query.get("exam")) ? query.get("exam") : "";
+let purchaseClass6Subjects = (query.get("subjects") || "").split(",").filter((id) => CLASS6_SUBJECTS[id]);
+let purchaseClass6Months = Math.min(12, Math.max(1, Number.parseInt(query.get("months"), 10) || 1));
+
+function class6SelectionPrice() {
+  return class6Price(purchaseClass6Subjects, purchaseClass6Months);
+}
+
+function renderClass6Picker() {
+  const picker = $("paymentClass6Picker");
+  if (!picker) return;
+  picker.hidden = purchaseCourseId !== "class6";
+  if (picker.hidden) return;
+  document.querySelectorAll('input[name="paymentClass6Subject"]').forEach((input) => {
+    input.checked = purchaseClass6Subjects.includes(input.value);
+  });
+  $("paymentClass6Months").value = String(purchaseClass6Months);
+  const pricing = class6SelectionPrice();
+  const names = pricing.subjects.map((id) => CLASS6_SUBJECTS[id]).join(" + ");
+  $("paymentClass6PricePreview").innerHTML = !pricing.subjects.length
+    ? "Select at least one subject."
+    : `${names}<br><strong>₹${pricing.total}</strong> for ${pricing.months} month${pricing.months === 1 ? "" : "s"}${pricing.discount ? ` · <s>₹${pricing.subtotal}</s> · Save ₹${pricing.discount} (${pricing.discountPercent}%)` : ""}`;
+}
+
+function displayedPrice() {
+  return purchaseCourseId === "class6" ? class6SelectionPrice().total : currentCoursePrice(purchaseCourseId, studentOfferActive);
+}
 
 function hasPurchasedCourse(profile = {}) {
   return entitledCourses(profile).includes(purchaseCourseId);
@@ -60,7 +86,7 @@ function showPayButton() {
   const actions = $("paymentActions");
   actions.style.display = "block";
   actions.innerHTML =
-    `<button class="primary" id="payBtn" type="button">PAY ₹${currentCoursePrice(purchaseCourseId, studentOfferActive) ?? "—"} & UNLOCK THIS COURSE</button>`;
+    `<button class="primary" id="payBtn" type="button">PAY ₹${displayedPrice() || "—"} & UNLOCK THIS COURSE</button>`;
   $("payBtn").onclick = startCheckout;
 }
 
@@ -68,19 +94,24 @@ function renderStatus(profile) {
   currentProfile = { ...(currentProfile || {}), ...profile };
   purchaseCourseId ||= currentProfile.requestedCourse || currentProfile.activeCourse;
   if (purchaseCourseId === "neet") purchaseNeetYear ||= String(currentProfile.neetExamYear || "");
+  if (purchaseCourseId === "class6") {
+    if (!purchaseClass6Subjects.length) purchaseClass6Subjects = (currentProfile.class6Subjects || []).filter((id) => CLASS6_SUBJECTS[id]);
+    purchaseClass6Months = Math.min(12, Math.max(1, Number.parseInt(query.get("months") || currentProfile.class6Months, 10) || 1));
+  }
   const courseId = purchaseCourseId;
   const course = COURSE_CATALOG[courseId];
-  const price = currentCoursePrice(courseId, studentOfferActive);
+  const price = displayedPrice();
   if (course) {
     $("paymentPrice").textContent = `₹${price}`;
     $("paymentCourseName").textContent = course.name;
     $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
-    $("paymentValidity").textContent = courseValidity(courseId, purchaseNeetYear) || "Choose your NEET exam year below.";
+    $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : courseValidity(courseId, purchaseNeetYear) || "Choose your NEET exam year below.";
     const yearWrap = $("paymentNeetYearWrap");
     if (yearWrap) {
       yearWrap.hidden = courseId !== "neet";
       $("paymentNeetYear").value = purchaseNeetYear;
     }
+    renderClass6Picker();
   }
   const active = hasPurchasedCourse(currentProfile);
   const pill = $("statusPill");
@@ -96,7 +127,9 @@ function renderStatus(profile) {
 
   pill.textContent = "PAYMENT REQUIRED";
   $("statusText").textContent =
-    `Complete the ₹${price} Razorpay payment for ${course?.shortName || "your selected course"}. Only this course unlocks after secure verification.`;
+    purchaseCourseId === "class6" && !purchaseClass6Subjects.length
+      ? "Choose at least one Class 6 subject to continue."
+      : `Complete the ₹${price} Razorpay payment for ${course?.shortName || "your selected course"}. Only this course unlocks after secure verification.`;
   showPayButton();
 }
 
@@ -220,6 +253,11 @@ async function startCheckout() {
     $("paymentNeetYear")?.focus();
     return;
   }
+  if (purchaseCourseId === "class6" && !purchaseClass6Subjects.length) {
+    message("Choose at least one Class 6 subject before paying.", "error");
+    $("paymentClass6Picker")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
 
   const button = $("payBtn");
   if (!button) return;
@@ -227,7 +265,7 @@ async function startCheckout() {
   message("Preparing secure Razorpay checkout…");
 
   try {
-    const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null });
+    const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null, class6Subjects: purchaseClass6Subjects, class6Months: purchaseClass6Months });
     if (order?.active) {
       message("Your access is already active.", "success");
       currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
@@ -310,4 +348,12 @@ $("logoutBtn").onclick = async () => {
 $("paymentNeetYear")?.addEventListener("change", (event) => {
   purchaseNeetYear = event.target.value;
   $("paymentValidity").textContent = courseValidity("neet", purchaseNeetYear);
+});
+document.querySelectorAll('input[name="paymentClass6Subject"]').forEach((input) => input.addEventListener("change", () => {
+  purchaseClass6Subjects = [...document.querySelectorAll('input[name="paymentClass6Subject"]:checked')].map((item) => item.value);
+  renderStatus(currentProfile || {});
+}));
+$("paymentClass6Months")?.addEventListener("change", (event) => {
+  purchaseClass6Months = Number.parseInt(event.target.value, 10) || 1;
+  renderStatus(currentProfile || {});
 });

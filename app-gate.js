@@ -1,6 +1,6 @@
 import "./student-storage.js";
 import { firebaseConfig, SCRUTINY_ADMIN_EMAILS } from "./firebase-config.js";
-import { entitledCourses } from "./course-catalog.js";
+import { entitledCourses } from "./course-catalog.js?v=3";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -17,6 +17,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const COURSE_PORTALS = {
+  class6: { name: "Class 6 CBSE", label: "CBSE LEARNING PORTAL", target: "class6", sections: ["support"], color: "#1267b2", description: "Subject-wise CBSE learning with chapter lessons, tricks, flashcards, important answers and MCQs." },
   class8: { name: "Class 8 Telangana SSC", label: "SSC FOUNDATION PORTAL", target: "class8", sections: ["support"], color: "#7c3aed", description: "Guided Telangana SSC learning with concepts, practice, writing, tests and smart revision." },
   class10: { name: "Class 10 Telangana SSC", label: "SSC BOARD PORTAL", target: "class10", sections: ["class10", "tools", "progress", "support"], color: "#1677d2", description: "Board questions, chapter practice, revision and Telangana SSC preparation." },
   class11: { name: "Class 11 Telangana Intermediate", label: "INTERMEDIATE 1ST YEAR", target: "class11", sections: ["class11", "progress", "support"], color: "#138a5b", description: "A separate Telangana Intermediate board portal with chapter-wise Botany VSAQs, SAQs and LAQs." },
@@ -41,6 +42,7 @@ function selectedCourse(profile = {}, allowed = []) {
 }
 
 function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
+  if (courseId === "class6") { location.replace("class6-cbse.html"); return; }
   if (courseId === "class8") { location.replace("class8-ssc.html"); return; }
   if (courseId === "class10") { location.replace("class10-board.html"); return; }
   if (courseId === "jee") { location.replace("jee.html"); return; }
@@ -60,7 +62,8 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
       } catch (error) {
         console.warn("Course preference saved on this device only", error);
       }
-      if (next === "class8") location.assign("class8-ssc.html");
+      if (next === "class6") location.assign("class6-cbse.html");
+      else if (next === "class8") location.assign("class8-ssc.html");
       else if (next === "class10") location.assign("class10-board.html");
       else if (next === "jee") location.assign("jee.html");
       else location.assign(`preview-v2.html?course=${next}#${COURSE_PORTALS[next].target}`);

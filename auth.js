@@ -1,5 +1,5 @@
 import { firebaseConfig } from './firebase-config.js';
-import { COURSE_CATALOG, currentCoursePrice } from './course-catalog.js?v=2';
+import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=3';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
@@ -13,29 +13,45 @@ let studentOfferActive = true;
 
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
+const class6Picker=$('class6Picker'), class6Months=$('regClass6Months'), class6PricePreview=$('class6PricePreview');
+const selectedClass6Subjects=()=>[...document.querySelectorAll('input[name="class6Subject"]:checked')].map(input=>input.value);
+function updateClass6Price(){
+  if(!class6PricePreview) return;
+  const pricing=class6Price(selectedClass6Subjects(),class6Months?.value);
+  if(!pricing.subjects.length){ class6PricePreview.textContent='Select at least one subject.'; return; }
+  const names=pricing.subjects.map(id=>CLASS6_SUBJECTS[id]).join(' + ');
+  const discount=pricing.discount ? ` · <s>₹${pricing.subtotal}</s> · Save ₹${pricing.discount} (${pricing.discountPercent}%)` : '';
+  class6PricePreview.innerHTML=`${names}<br><strong>₹${pricing.total}</strong> for ${pricing.months} month${pricing.months===1?'':'s'}${discount}`;
+}
 function updateCourseSelection(){
   const courseId=courseSelect?.value;
   const course=COURSE_CATALOG[courseId];
   const isNeet=courseId==='neet';
+  const isClass6=courseId==='class6';
   if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
+  if(class6Picker){ class6Picker.hidden=!isClass6; }
+  if(isClass6) updateClass6Price();
   if(selectionSummary){
     if(!course){ selectionSummary.hidden=true; return; }
-    const price=currentCoursePrice(courseId,studentOfferActive);
+    const class6Pricing=class6Price(selectedClass6Subjects(),class6Months?.value);
+    const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,studentOfferActive);
     selectionSummary.hidden=false;
-    selectionSummary.innerHTML=`<strong>${course.name} · ₹${price}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : course.validity}</small>`;
+    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price}`}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
+document.querySelectorAll('input[name="class6Subject"]').forEach(input=>input.addEventListener('change',updateCourseSelection));
+class6Months?.addEventListener('change',updateCourseSelection);
 function updateOfferPresentation(status={active:true,remaining:100,limit:100}){
   studentOfferActive=status.active!==false;
   Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
     const price=currentCoursePrice(id,studentOfferActive);
     const option=courseSelect?.querySelector(`option[value="${id}"]`);
-    if(option) option.textContent=`${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
+    if(option) option.textContent=id==='class6' ? `${course.name} — ₹69 per subject/month` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
     const card=document.querySelector(`[data-offer-card="${id}"]`);
     if(!card) return;
-    card.classList.toggle('offer-ended',!studentOfferActive);
-    if(!studentOfferActive){
+    card.classList.toggle('offer-ended',!studentOfferActive && id!=='class6');
+    if(!studentOfferActive && id!=='class6'){
       card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>regular price</small>`;
       const action=card.querySelector('a[data-select-course]');
       if(action) action.textContent='SELECT COURSE';
@@ -103,8 +119,12 @@ if(!configured){
       const activeCourse=courseSelect.value;
       const selectedCourse=COURSE_CATALOG[activeCourse];
       const selectedNeetYear=activeCourse==='neet'?neetYear.value:'';
+      const selectedSubjects=activeCourse==='class6'?selectedClass6Subjects():[];
+      const selectedMonths=activeCourse==='class6'?class6Price(selectedSubjects,class6Months?.value).months:null;
       if(!selectedCourse) throw new Error('Choose a valid course.');
       if(activeCourse==='neet' && !['2027','2028'].includes(selectedNeetYear)) throw new Error('Choose the NEET exam year you are preparing for.');
+      if(activeCourse==='class6' && !selectedSubjects.length) throw new Error('Choose at least one Class 6 subject.');
+      const selectedPrice=activeCourse==='class6'?class6Price(selectedSubjects,selectedMonths).total:currentCoursePrice(activeCourse,studentOfferActive);
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
@@ -113,11 +133,13 @@ if(!configured){
         email,
         role:'student',
         accessStatus:'pending',
-        accessPrice:currentCoursePrice(activeCourse,studentOfferActive),
+        accessPrice:selectedPrice,
         paymentStatus:'not_submitted',
         activeCourse,
         requestedCourse:activeCourse,
         neetExamYear:selectedNeetYear || null,
+        class6Subjects:selectedSubjects,
+        class6Months:selectedMonths,
         enrolledCourses:[],
         courseEntitlements:{},
         createdAt:serverTimestamp(),
@@ -126,6 +148,8 @@ if(!configured){
       msg('Account created. Continue to secure payment to unlock your selected course.','success');
       const paymentQuery = new URLSearchParams({ course: activeCourse });
       if (selectedNeetYear) paymentQuery.set('exam', selectedNeetYear);
+      if (selectedSubjects.length) paymentQuery.set('subjects', selectedSubjects.join(','));
+      if (selectedMonths) paymentQuery.set('months', String(selectedMonths));
       location.replace(`payment.html?${paymentQuery}`);
     }catch(err){
       authActionInProgress=false;

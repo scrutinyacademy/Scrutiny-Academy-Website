@@ -1,6 +1,32 @@
 export const STUDENT_OFFER_LIMIT = 100;
+export const CLASS6_SUBJECT_PRICE = 69;
+export const CLASS6_SUBJECTS = {
+  mathematics: "Mathematics",
+  science: "Science",
+  "social-science": "Social Science",
+};
+
+export function class6Price(subjects = [], months = 1) {
+  const validSubjects = [...new Set(Array.isArray(subjects) ? subjects : [])]
+    .filter((subject) => CLASS6_SUBJECTS[subject]);
+  const validMonths = Math.min(12, Math.max(1, Number.parseInt(months, 10) || 1));
+  const subtotal = validSubjects.length * CLASS6_SUBJECT_PRICE * validMonths;
+  const discountPercent = Math.min(33, Math.max(0, validMonths - 1) * 3);
+  const discount = Math.min(20, Math.round(subtotal * discountPercent / 100));
+  return { subjects: validSubjects, months: validMonths, subtotal, discountPercent, discount, total: Math.max(0, subtotal - discount) };
+}
 
 export const COURSE_CATALOG = {
+  class6: {
+    id: "class6",
+    name: "Class 6 CBSE Subject Course",
+    shortName: "Class 6 CBSE",
+    price: CLASS6_SUBJECT_PRICE,
+    regularPrice: CLASS6_SUBJECT_PRICE,
+    icon: "🎒",
+    validity: "Choose 1–12 months of access",
+    includes: ["Choose Mathematics, Science or Social Science", "Chapter learning and memory tricks", "Flashcards and active recall", "MCQs and important question answers", "Progress and mistake review"],
+  },
   class8: {
     id: "class8",
     name: "Class 8 SSC Complete Learning Course",
@@ -94,7 +120,12 @@ export function entitledCourses(profile = {}) {
   if (profile.founderAccess === true) return Object.keys(COURSE_CATALOG);
   if (profile.courseEntitlements && typeof profile.courseEntitlements === "object") {
     const verified = Object.entries(profile.courseEntitlements)
-      .filter(([, value]) => value && value.status === "active")
+      .filter(([id, value]) => {
+        if (!value || value.status !== "active") return false;
+        if (id !== "class6" || !value.expiresAt) return true;
+        const expiry = typeof value.expiresAt.toDate === "function" ? value.expiresAt.toDate() : new Date(value.expiresAt);
+        return Number.isFinite(expiry.getTime()) && expiry > new Date();
+      })
       .map(([id]) => id)
       .filter((id) => COURSE_CATALOG[id]);
     if (verified.length) return [...new Set(verified)];

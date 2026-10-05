@@ -2,7 +2,7 @@ const crypto = require("node:crypto");
 const PDFDocument = require("pdfkit");
 const nodemailer = require("nodemailer");
 const { initializeApp } = require("firebase-admin/app");
-const { getFirestore, FieldValue, FieldPath } = require("firebase-admin/firestore");
+const { getFirestore, FieldValue, FieldPath, Timestamp } = require("firebase-admin/firestore");
 const { defineSecret } = require("firebase-functions/params");
 const {
   HttpsError,
@@ -18,7 +18,14 @@ const CURRENCY = "INR";
 const SENDER_EMAIL = "scrutinyacademy@gmail.com";
 const FOUNDER_EMAIL_SIGNATURE = "Parmod Sharma\nFounder, Scrutiny Academy";
 const STUDENT_OFFER_LIMIT = 100;
+const CLASS6_SUBJECT_PRICE = 69;
+const CLASS6_SUBJECTS = {
+  mathematics: "Mathematics",
+  science: "Science",
+  "social-science": "Social Science",
+};
 const COURSES = {
+  class6: { name: "Class 6 CBSE Subject Course", features: ["Chapter-wise concept learning and tricks", "Flashcards and active recall", "MCQs with instant explanations", "Important questions with model answers", "Progress and mistake review"] },
   class8: { name: "Class 8 SSC Complete Learning Course", offerPrice: 79, regularPrice: 395, validityCode: "CLASS8_ACADEMIC_YEAR", validityLabel: "Class 8 academic year access", features: ["SCERT-aligned subject learning", "Visual revision notes and flashcards", "Chapter practice and tests", "Mistake Book and smart revision", "Progress tracking and study planning"] },
   class10: { name: "Class 10 SSC Complete Course 2027", offerPrice: 99, regularPrice: 495, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude", features: ["Chapter-wise lectures", "Comprehensive notes", "Revision sheets", "Flashcards", "Chapter-wise MCQs"] },
   class11: { name: "Class 11 Board Booster 2027", offerPrice: 149, regularPrice: 745, validityCode: "CLASS11_EXAM_2027", validityLabel: "Until the 2027 Class 11 annual examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
@@ -56,14 +63,33 @@ async function studentOfferStatus() {
   };
 }
 
-async function coursePrice(courseId) {
+function validClass6Subjects(value) {
+  if (!Array.isArray(value)) return [];
+  return [...new Set(value.map(String))].filter((id) => CLASS6_SUBJECTS[id]);
+}
+
+function class6Pricing(subjects, months) {
+  const selected = validClass6Subjects(subjects);
+  const duration = Math.min(12, Math.max(1, Number.parseInt(months, 10) || 1));
+  const subtotal = selected.length * CLASS6_SUBJECT_PRICE * duration;
+  const discountPercent = Math.min(33, Math.max(0, duration - 1) * 3);
+  const discount = Math.min(20, Math.round(subtotal * discountPercent / 100));
+  return { subjects: selected, months: duration, subtotal, discountPercent, discount, rupees: Math.max(0, subtotal - discount) };
+}
+
+async function coursePrice(courseId, options = {}) {
   const course = COURSES[courseId];
   if (!course) return null;
+  if (courseId === "class6") return { ...class6Pricing(options.class6Subjects, options.class6Months), offer: { active: true } };
   const offer = await studentOfferStatus();
   return { rupees: offer.active ? course.offerPrice : course.regularPrice, offer };
 }
 
-function courseValidity(courseId, neetExamYear) {
+function courseValidity(courseId, neetExamYear, class6Months) {
+  if (courseId === "class6") {
+    const months = Math.min(12, Math.max(1, Number.parseInt(class6Months, 10) || 1));
+    return { code: `CLASS6_${months}_MONTHS`, label: `${months} month${months === 1 ? "" : "s"} from activation` };
+  }
   if (courseId === "neet") {
     if (!["2027", "2028"].includes(String(neetExamYear))) return null;
     return { code: `NEET_${neetExamYear}`, label: `Until the NEET-UG ${neetExamYear} examination` };
@@ -340,13 +366,14 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
   const student = studentSnap.data();
   const courseId = requestData.courseId;
   const course = COURSES[courseId];
-  const validity = courseValidity(courseId, requestData.neetExamYear);
+  const validity = courseValidity(courseId, requestData.neetExamYear, requestData.class6Months);
   if (!course || !validity) {
     throw new HttpsError("failed-precondition", "The purchased course details are invalid.");
   }
   const invoiceId = paymentId;
   const invoiceRef = db.doc(`students/${uid}/invoices/${invoiceId}`);
   const now = new Date();
+  const selectedClass6Names = validClass6Subjects(requestData.class6Subjects).map((id) => CLASS6_SUBJECTS[id]);
   const invoice = {
     invoiceId,
     invoiceNumber: invoiceNumber(paymentId),
@@ -354,8 +381,8 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
     studentName: student.name || "Student",
     studentEmail: student.email || "",
     courseId,
-    courseName: course.name,
-    features: course.features,
+    courseName: courseId === "class6" ? `Class 6 CBSE — ${selectedClass6Names.join(" + ")}` : course.name,
+    features: courseId === "class6" ? [...selectedClass6Names.map((name) => `${name} complete subject access`), ...course.features, validity.label] : course.features,
     amount: requestData.amount,
     currency: CURRENCY,
     paymentId,
@@ -381,6 +408,8 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
     if (!currentStudent.exists) throw new HttpsError("failed-precondition", "Student profile not found.");
 
     if (paymentRequest.data().status !== "paid") {
+      const activationDate = new Date();
+      const expiryDate = courseId === "class6" ? new Date(Date.UTC(activationDate.getUTCFullYear(), activationDate.getUTCMonth() + requestData.class6Months, activationDate.getUTCDate(), 23, 59, 59)) : null;
       transaction.update(
         studentRef,
         "accessStatus", "active",
@@ -406,6 +435,9 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
           validityCode: validity.code,
           validityLabel: validity.label,
           pricePaid: requestData.amount,
+          selectedSubjects: courseId === "class6" ? validClass6Subjects(requestData.class6Subjects) : null,
+          months: courseId === "class6" ? requestData.class6Months : null,
+          expiresAt: expiryDate ? Timestamp.fromDate(expiryDate) : null,
           activatedAt: FieldValue.serverTimestamp(),
         },
         "paidAt", FieldValue.serverTimestamp(),
@@ -469,14 +501,20 @@ exports.createRazorpayOrder = onCall(
     const courseId = COURSES[requestedCourse] ? requestedCourse : profile.requestedCourse || profile.activeCourse;
     const course = COURSES[courseId];
     const neetExamYear = courseId === "neet" ? String(request.data?.neetExamYear || profile.neetExamYear || "") : null;
-    const validity = courseValidity(courseId, neetExamYear);
-    const pricing = await coursePrice(courseId);
+    const class6Subjects = courseId === "class6" ? validClass6Subjects(request.data?.class6Subjects?.length ? request.data.class6Subjects : profile.class6Subjects) : [];
+    const class6Months = courseId === "class6" ? Math.min(12, Math.max(1, Number.parseInt(request.data?.class6Months || profile.class6Months, 10) || 1)) : null;
+    const validity = courseValidity(courseId, neetExamYear, class6Months);
+    const pricing = await coursePrice(courseId, { class6Subjects, class6Months });
     const priceRupees = pricing?.rupees;
-    if (!course || !validity || !priceRupees) {
+    const checkoutCourseName = courseId === "class6" ? `Class 6 CBSE — ${class6Subjects.map((id) => CLASS6_SUBJECTS[id]).join(" + ")}` : course?.name;
+    if (!course || !validity || !priceRupees || (courseId === "class6" && !class6Subjects.length)) {
       throw new HttpsError("failed-precondition", "Choose a valid course and examination year before paying.");
     }
     const legacyOwnedCourse = profile.purchasedCourse || profile.requestedCourse || profile.activeCourse;
-    if (profile.courseEntitlements?.[courseId]?.status === "active" || (profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
+    const entitlement = profile.courseEntitlements?.[courseId];
+    const class6Expiry = entitlement?.expiresAt?.toDate?.();
+    const entitlementActive = entitlement?.status === "active" && (courseId !== "class6" || (class6Expiry && class6Expiry > new Date()));
+    if (entitlementActive || (courseId !== "class6" && profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
       return { active: true, courseId };
     }
     const pricePaise = priceRupees * 100;
@@ -485,7 +523,7 @@ exports.createRazorpayOrder = onCall(
 
     if (existingRequest.exists) {
       const existing = existingRequest.data();
-      if (existing.status === "paid") {
+      if (existing.status === "paid" && entitlementActive) {
         return { active: true };
       }
       if (
@@ -493,6 +531,8 @@ exports.createRazorpayOrder = onCall(
         existing.orderId.startsWith("order_") &&
         existing.courseId === courseId &&
         existing.neetExamYear === neetExamYear &&
+        JSON.stringify(existing.class6Subjects || []) === JSON.stringify(class6Subjects) &&
+        (existing.class6Months || null) === class6Months &&
         existing.amountPaise === pricePaise &&
         existing.currency === CURRENCY
       ) {
@@ -502,7 +542,7 @@ exports.createRazorpayOrder = onCall(
           amount: pricePaise,
           currency: CURRENCY,
           courseId,
-          courseName: course.name,
+          courseName: checkoutCourseName,
           offer: pricing.offer,
         };
       }
@@ -514,7 +554,7 @@ exports.createRazorpayOrder = onCall(
         amount: pricePaise,
         currency: CURRENCY,
         receipt: `sa_${uid.slice(0, 12)}_${Date.now()}`,
-        notes: { firebase_uid: uid, course_id: courseId, exam_year: neetExamYear || "board" },
+        notes: { firebase_uid: uid, course_id: courseId, exam_year: neetExamYear || "board", class6_subjects: class6Subjects.join(","), class6_months: class6Months ? String(class6Months) : "" },
       }),
     });
 
@@ -524,15 +564,20 @@ exports.createRazorpayOrder = onCall(
         provider: "razorpay",
         orderId: order.id,
         courseId,
-        courseName: course.name,
+        courseName: checkoutCourseName,
         neetExamYear,
+        class6Subjects,
+        class6Months,
+        class6Subtotal: pricing.subtotal || null,
+        class6DiscountPercent: pricing.discountPercent || 0,
+        class6Discount: pricing.discount || 0,
         validityCode: validity.code,
         amount: priceRupees,
         amountPaise: pricePaise,
         currency: CURRENCY,
         status: "pending",
         studentOfferApplied: pricing.offer.active,
-        offerPaidStudentsAtOrder: pricing.offer.paidStudents,
+        offerPaidStudentsAtOrder: pricing.offer.paidStudents ?? null,
         createdAt: FieldValue.serverTimestamp(),
         updatedAt: FieldValue.serverTimestamp(),
       }),
@@ -551,7 +596,7 @@ exports.createRazorpayOrder = onCall(
       amount: pricePaise,
       currency: CURRENCY,
       courseId,
-      courseName: course.name,
+      courseName: checkoutCourseName,
       offer: pricing.offer,
     };
   },

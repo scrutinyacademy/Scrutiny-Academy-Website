@@ -1,7 +1,10 @@
-const CACHE = "scrutiny-academy-v57-private-learning-history";
+const CACHE = "scrutiny-academy-v58-class6-cbse";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
+  "./class6-cbse.html",
+  "./class6-cbse.css?v=1",
+  "./class6-cbse.js?v=1",
   "./preview-v2.html",
   "./neet-kota-biology.html",
   "./neet-kota-biology.css?v=1",
@@ -135,7 +138,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
   // Prefer fresh account/payment code so old activation gates do not persist.
-  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "class10-board.html", "class10-board.js"];
+  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "class6-cbse.html", "class6-cbse.js", "class6-cbse.css", "class10-board.html", "class10-board.js"];
   if (url.pathname.endsWith("/") || accountFiles.some(file => url.pathname.endsWith(`/${file}`))) {
     event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match(request)));
     return;

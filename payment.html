@@ -32,6 +32,16 @@
           <p id="paymentIncludes"></p>
           <p><strong id="paymentValidity"></strong></p>
           <label id="paymentNeetYearWrap" hidden style="display:grid;gap:7px;margin:14px 0;font-size:.82rem;font-weight:800">NEET examination year<select id="paymentNeetYear" style="padding:11px;border:1px solid #c7d4e2;border-radius:10px;background:#fff;font:inherit"><option value="">Choose NEET year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
+          <fieldset class="class6-picker" id="paymentClass6Picker" hidden>
+            <legend>Class 6 plan</legend>
+            <div class="subject-checks">
+              <label><input type="checkbox" name="paymentClass6Subject" value="mathematics" /> <span>➗ Mathematics</span></label>
+              <label><input type="checkbox" name="paymentClass6Subject" value="science" /> <span>🔬 Science</span></label>
+              <label><input type="checkbox" name="paymentClass6Subject" value="social-science" /> <span>🌍 Social Science</span></label>
+            </div>
+            <label>Access duration<select id="paymentClass6Months"><option value="1">1 month</option><option value="2">2 months</option><option value="3">3 months</option><option value="4">4 months</option><option value="5">5 months</option><option value="6">6 months</option><option value="7">7 months</option><option value="8">8 months</option><option value="9">9 months</option><option value="10">10 months</option><option value="11">11 months</option><option value="12">12 months</option></select></label>
+            <div class="class6-price-preview" id="paymentClass6PricePreview">Select at least one subject.</div>
+          </fieldset>
           <h3>Pay securely with Razorpay</h3>
           <p>
             Use UPI, Google Pay, cards, netbanking, or another method offered by
