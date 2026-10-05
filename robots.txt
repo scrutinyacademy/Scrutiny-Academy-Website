@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /student.html
+Disallow: /payment.html
+Disallow: /tools/
+
+Sitemap: https://scrutinyacademy.github.io/Scrutiny-Academy-Website/sitemap.xml
