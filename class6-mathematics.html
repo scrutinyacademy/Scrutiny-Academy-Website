@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Class 6 CBSE Mathematics | Scrutiny Academy</title>
+  <link rel="icon" href="assets/logo.svg" />
+  <link rel="stylesheet" href="class6-mathematics.css?v=1" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="student.html"><img src="assets/logo.svg" alt="" /><span><strong>SCRUTINY ACADEMY</strong><small>CLASS 6 · MATHEMATICS</small></span></a>
+    <div class="top-actions"><span id="studentName">Verifying access…</span><a href="class6-cbse.html">Class 6 Home</a><a href="student.html">My Courses</a><button id="logoutBtn" type="button">Logout</button></div>
+  </header>
+  <div class="loading" id="loading"><span class="loader"></span><strong>Opening Mathematics course…</strong><p>Preparing 10 chapters, 550 flashcards and 1,500 MCQs.</p></div>
+  <main id="app" hidden>
+    <section class="hero">
+      <div><span class="eyebrow">NCERT GANITA PRAKASH · REPRINT 2026–27</span><h1>Understand the idea.<br><em>Then make it yours.</em></h1><p>Every chapter is broken into simple topics, worked examples, tricks, active-recall cards, important answers and 15 focused MCQ sets.</p><div class="hero-pills"><span>10 chapters</span><span>550 flashcards</span><span>1,500 MCQs</span><span>+4 / −1 scoring</span></div></div>
+      <div class="math-visual" aria-hidden="true"><b>6</b><i>×</i><b>?</b><span>=</span><strong>confidence</strong></div>
+    </section>
+    <section class="course-progress"><div><span>COURSE PROGRESS</span><strong id="courseProgressText">0 of 10 chapters</strong></div><div class="progress-track"><i id="courseProgressBar"></i></div><div><span>MCQ SCORE</span><strong id="lifetimeScore">0</strong></div></section>
+    <section class="course-shell">
+      <aside class="chapter-sidebar">
+        <div class="sidebar-head"><span class="eyebrow">CHAPTER JOURNEY</span><h2>Ganita Prakash</h2><p>Select a chapter to begin.</p></div>
+        <div class="chapter-list" id="chapterList"></div>
+      </aside>
+      <section class="chapter-workspace">
+        <header class="chapter-hero"><span class="chapter-index" id="chapterIndex">01</span><div><span class="eyebrow" id="chapterSource">CHAPTER</span><h2 id="chapterTitle">Patterns in Mathematics</h2><p id="chapterGoal"></p></div><button id="completeChapter" type="button">MARK COMPLETE</button></header>
+        <nav class="learning-tabs" id="learningTabs" aria-label="Chapter learning sections">
+          <button class="active" data-tab="roadmap" type="button">Roadmap</button><button data-tab="learn" type="button">Topic Lessons</button><button data-tab="tricks" type="button">Tricks</button><button data-tab="flashcards" type="button">55 Flashcards</button><button data-tab="qa" type="button">Important Q&amp;A</button><button data-tab="mcqs" type="button">150 MCQs</button>
+        </nav>
+        <div class="content" id="content"></div>
+      </section>
+    </section>
+  </main>
+  <script type="module" src="class6-mathematics.js?v=1"></script>
+  <script src="help-bot.js" defer></script>
+</body>
+</html>

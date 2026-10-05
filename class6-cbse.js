@@ -62,7 +62,10 @@ function chapterKey(){ return `${state.activeSubject}:${state.chapter}`; }
 
 function renderSubjects(){
   $("subjectTabs").innerHTML = state.subjects.map((id) => `<button type="button" data-subject="${id}" class="${id===state.activeSubject?"active":""}">${SUBJECTS[id].icon} ${SUBJECTS[id].name}</button>`).join("");
-  $("subjectTabs").querySelectorAll("button").forEach((button) => button.onclick = () => { state.activeSubject=button.dataset.subject; state.chapter=0; state.view="learn"; render(); });
+  $("subjectTabs").querySelectorAll("button").forEach((button) => button.onclick = () => {
+    if(button.dataset.subject==="mathematics"){ location.href="class6-mathematics.html"; return; }
+    state.activeSubject=button.dataset.subject; state.chapter=0; state.view="learn"; render();
+  });
 }
 
 function renderChapters(){
@@ -80,7 +83,7 @@ function renderLesson(){
   $("chapterGoal").textContent=chapter[1];
   document.querySelectorAll("[data-view]").forEach(button=>button.classList.toggle("active",button.dataset.view===state.view));
   const facts=[chapter[2],chapter[3]];
-  if(state.view==="learn") $("lessonContent").innerHTML=`<div class="learn-card"><h3>What you will understand</h3><p>${esc(chapter[1])}</p><div class="concept-grid">${facts.map(f=>`<div class="concept"><strong>${esc(f[0])}</strong><p>${esc(f[1])}</p></div>`).join("")}</div><button class="complete-btn" id="completeChapter" type="button">${state.completed[chapterKey()]?"COMPLETED ✓":"MARK CHAPTER COMPLETE"}</button></div>`;
+  if(state.view==="learn") $("lessonContent").innerHTML=`${state.activeSubject==="mathematics"?`<div class="trick-card"><h3>✨ Your complete Mathematics course is ready</h3><p>Open all 10 in-depth chapters with 550 flashcards, important answers, tricks and 1,500 MCQs.</p><p><a class="complete-btn" href="class6-mathematics.html">OPEN FULL MATHEMATICS COURSE →</a></p></div>`:""}<div class="learn-card"><h3>What you will understand</h3><p>${esc(chapter[1])}</p><div class="concept-grid">${facts.map(f=>`<div class="concept"><strong>${esc(f[0])}</strong><p>${esc(f[1])}</p></div>`).join("")}</div><button class="complete-btn" id="completeChapter" type="button">${state.completed[chapterKey()]?"COMPLETED ✓":"MARK CHAPTER COMPLETE"}</button></div>`;
   if(state.view==="tricks") $("lessonContent").innerHTML=`<div class="trick-card"><h3>🧠 Memory trick</h3><p><strong>${esc(chapter[4])}</strong></p><p>Say it aloud, write it once, then explain it without looking.</p></div>`;
   if(state.view==="flashcards") $("lessonContent").innerHTML=`<div class="flash-grid">${facts.map((f,i)=>`<button class="flashcard" type="button"><span>TAP TO REVEAL · CARD ${i+1}</span><strong class="question">What is ${esc(f[0])}?</strong><strong class="answer">${esc(f[1])}</strong></button>`).join("")}</div>`;
   if(state.view==="questions") $("lessonContent").innerHTML=`<div class="qa-list"><details class="qa-card"><summary>1. Explain ${esc(facts[0][0])}.</summary><p>${esc(facts[0][1])}</p></details><details class="qa-card"><summary>2. What is the main learning goal of this chapter?</summary><p>${esc(chapter[1])} A good answer should use the keywords <strong>${esc(facts[0][0])}</strong> and <strong>${esc(facts[1][0])}</strong>.</p></details><details class="qa-card"><summary>3. Write one exam-ready comparison or example.</summary><p>${esc(facts[0][0])}: ${esc(facts[0][1])} ${esc(facts[1][0])}: ${esc(facts[1][1])}</p></details></div>`;
