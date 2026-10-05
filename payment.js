@@ -39,6 +39,8 @@ let currentProfile = null;
 let latestPurchase = null;
 let studentOfferActive = true;
 const query = new URLSearchParams(location.search);
+const requestedReturn = query.get("return");
+const returnTarget = ["class6-mathematics.html", "class6-cbse.html", "student.html"].includes(requestedReturn) ? requestedReturn : "student.html";
 let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
 let purchaseNeetYear = ["2027", "2028"].includes(query.get("exam")) ? query.get("exam") : "";
 let purchaseClass6Subjects = (query.get("subjects") || "").split(",").filter((id) => CLASS6_SUBJECTS[id]);
@@ -68,17 +70,53 @@ function displayedPrice() {
   return purchaseCourseId === "class6" ? class6SelectionPrice().total : currentCoursePrice(purchaseCourseId, studentOfferActive);
 }
 
+function dateValue(value) {
+  if (!value) return null;
+  const date = typeof value.toDate === "function" ? value.toDate() : new Date(value);
+  return Number.isFinite(date.getTime()) ? date : null;
+}
+
+function hasClass6Selection(profile = {}) {
+  if (!purchaseClass6Subjects.length) return false;
+  const entitlement = profile.courseEntitlements?.class6;
+  if (!entitlement || entitlement.status !== "active") return false;
+  return purchaseClass6Subjects.every((subject) => {
+    if (!entitlement.selectedSubjects?.includes(subject)) return false;
+    const expiry = dateValue(entitlement.subjectAccess?.[subject]?.expiresAt) || dateValue(entitlement.expiresAt);
+    return expiry && expiry > new Date();
+  });
+}
+
 function hasPurchasedCourse(profile = {}) {
-  return entitledCourses(profile).includes(purchaseCourseId);
+  return purchaseCourseId === "class6" ? hasClass6Selection(profile) : entitledCourses(profile).includes(purchaseCourseId);
+}
+
+function applyLocalClass6Entitlement() {
+  if (purchaseCourseId !== "class6") return;
+  const existing = currentProfile.courseEntitlements?.class6 || {};
+  const expiry = new Date();
+  expiry.setMonth(expiry.getMonth() + purchaseClass6Months);
+  const subjectAccess = { ...(existing.subjectAccess || {}) };
+  purchaseClass6Subjects.forEach((subject) => { subjectAccess[subject] = { status: "active", expiresAt: expiry }; });
+  currentProfile.courseEntitlements = {
+    ...(currentProfile.courseEntitlements || {}),
+    class6: {
+      ...existing,
+      status: "active",
+      selectedSubjects: [...new Set([...(existing.selectedSubjects || []), ...purchaseClass6Subjects])],
+      subjectAccess,
+      expiresAt: expiry,
+    },
+  };
 }
 
 function showDashboardButton() {
   const actions = $("paymentActions");
   actions.style.display = "block";
   actions.innerHTML =
-    '<button class="primary" id="dashboardBtn" type="button">OPEN STUDENT DASHBOARD</button>';
+    `<button class="primary" id="dashboardBtn" type="button">${returnTarget === "class6-mathematics.html" ? "OPEN MATHEMATICS COURSE" : "OPEN STUDENT DASHBOARD"}</button>`;
   $("dashboardBtn").onclick = () => {
-    location.href = "student.html";
+    location.href = returnTarget;
   };
 }
 
@@ -147,7 +185,7 @@ function showPurchaseSuccess(purchase) {
   $("detailCourse").textContent = purchase.courseName;
   $("detailAmount").textContent = `₹${purchase.amount}`;
   $("detailPaymentId").textContent = purchase.paymentId;
-  $("successDashboardLink").href = `student.html?course=${encodeURIComponent(purchase.courseId || purchaseCourseId)}`;
+  $("successDashboardLink").href = returnTarget === "student.html" ? `student.html?course=${encodeURIComponent(purchase.courseId || purchaseCourseId)}` : returnTarget;
   $("purchaseSuccess").hidden = false;
   $("purchaseSuccess").scrollIntoView({ behavior: "smooth", block: "start" });
 }
@@ -211,13 +249,14 @@ onAuthStateChanged(auth, async (user) => {
 
     if (!hasPurchasedCourse(profile)) {
       try {
-        const { data: synced } = await syncPayment({ courseId: purchaseCourseId });
+        const { data: synced } = await syncPayment({ courseId: purchaseCourseId, class6Subjects: purchaseClass6Subjects, class6Months: purchaseClass6Months });
         if (synced.active) {
           message(
             "Your completed payment was verified. Access is now active.",
             "success",
           );
-          currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+          if (purchaseCourseId === "class6") applyLocalClass6Entitlement();
+          else currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
           renderStatus(currentProfile);
           if (synced.purchase) showPurchaseSuccess(synced.purchase);
         }
@@ -268,7 +307,8 @@ async function startCheckout() {
     const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null, class6Subjects: purchaseClass6Subjects, class6Months: purchaseClass6Months });
     if (order?.active) {
       message("Your access is already active.", "success");
-      currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+      if (purchaseCourseId === "class6") applyLocalClass6Entitlement();
+      else currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
       renderStatus(currentProfile);
       return;
     }
@@ -305,7 +345,8 @@ async function startCheckout() {
         try {
           const { data } = await verifyPayment(result);
           message("Payment verified. Your access is now active.", "success");
-          currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
+          if (purchaseCourseId === "class6") applyLocalClass6Entitlement();
+          else currentProfile.courseEntitlements = { ...(currentProfile.courseEntitlements || {}), [purchaseCourseId]: { status: "active" } };
           renderStatus(currentProfile);
           if (data.purchase) showPurchaseSuccess(data.purchase);
         } catch (error) {

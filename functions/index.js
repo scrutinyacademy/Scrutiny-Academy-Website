@@ -68,6 +68,29 @@ function validClass6Subjects(value) {
   return [...new Set(value.map(String))].filter((id) => CLASS6_SUBJECTS[id]);
 }
 
+function timestampDate(value) {
+  if (!value) return null;
+  const date = typeof value.toDate === "function" ? value.toDate() : new Date(value);
+  return Number.isFinite(date.getTime()) ? date : null;
+}
+
+function class6SubjectExpiry(entitlement, subject) {
+  return timestampDate(entitlement?.subjectAccess?.[subject]?.expiresAt) || timestampDate(entitlement?.expiresAt);
+}
+
+function hasActiveClass6Subjects(entitlement, subjects, at = new Date()) {
+  const selected = validClass6Subjects(subjects);
+  if (!selected.length || entitlement?.status !== "active") return false;
+  return selected.every((subject) => entitlement.selectedSubjects?.includes(subject) && class6SubjectExpiry(entitlement, subject)?.getTime() > at.getTime());
+}
+
+function addUtcMonths(date, months) {
+  const result = new Date(date);
+  result.setUTCMonth(result.getUTCMonth() + months);
+  result.setUTCHours(23, 59, 59, 999);
+  return result;
+}
+
 function class6Pricing(subjects, months) {
   const selected = validClass6Subjects(subjects);
   const duration = Math.min(12, Math.max(1, Number.parseInt(months, 10) || 1));
@@ -409,7 +432,65 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
 
     if (paymentRequest.data().status !== "paid") {
       const activationDate = new Date();
-      const expiryDate = courseId === "class6" ? new Date(Date.UTC(activationDate.getUTCFullYear(), activationDate.getUTCMonth() + requestData.class6Months, activationDate.getUTCDate(), 23, 59, 59)) : null;
+      let expiryDate = null;
+      let entitlementPayload;
+      if (courseId === "class6") {
+        const currentData = currentStudent.data();
+        const existing = currentData.courseEntitlements?.class6 || {};
+        const purchasedSubjects = validClass6Subjects(requestData.class6Subjects);
+        const selectedSubjects = [...new Set([...validClass6Subjects(existing.selectedSubjects), ...purchasedSubjects])];
+        const subjectAccess = { ...(existing.subjectAccess || {}) };
+        const legacyExpiry = timestampDate(existing.expiresAt);
+        selectedSubjects.forEach((subject) => {
+          if (!subjectAccess[subject]?.expiresAt && legacyExpiry) {
+            subjectAccess[subject] = { status: "active", expiresAt: Timestamp.fromDate(legacyExpiry) };
+          }
+        });
+        purchasedSubjects.forEach((subject) => {
+          const currentExpiry = validClass6Subjects(existing.selectedSubjects).includes(subject)
+            ? class6SubjectExpiry({ ...existing, subjectAccess }, subject)
+            : null;
+          const startsAt = currentExpiry && currentExpiry > activationDate ? currentExpiry : activationDate;
+          const subjectExpiry = addUtcMonths(startsAt, requestData.class6Months);
+          subjectAccess[subject] = {
+            status: "active",
+            expiresAt: Timestamp.fromDate(subjectExpiry),
+            monthsAdded: requestData.class6Months,
+            latestPaymentId: paymentId,
+            activatedAt: Timestamp.fromDate(activationDate),
+          };
+        });
+        const expiryDates = selectedSubjects.map((subject) => class6SubjectExpiry({ ...existing, subjectAccess }, subject)).filter(Boolean);
+        expiryDate = expiryDates.length ? new Date(Math.max(...expiryDates.map((date) => date.getTime()))) : addUtcMonths(activationDate, requestData.class6Months);
+        entitlementPayload = {
+          status: "active",
+          courseId,
+          courseName: course.name,
+          validityCode: validity.code,
+          validityLabel: "Subject access is valid through each subject's individual expiry date",
+          pricePaid: requestData.amount,
+          selectedSubjects,
+          subjectAccess,
+          months: requestData.class6Months,
+          expiresAt: Timestamp.fromDate(expiryDate),
+          activatedAt: existing.activatedAt || FieldValue.serverTimestamp(),
+          updatedAt: FieldValue.serverTimestamp(),
+        };
+      } else {
+        entitlementPayload = {
+          status: "active",
+          courseId,
+          courseName: course.name,
+          neetExamYear: requestData.neetExamYear || null,
+          validityCode: validity.code,
+          validityLabel: validity.label,
+          pricePaid: requestData.amount,
+          selectedSubjects: null,
+          months: null,
+          expiresAt: null,
+          activatedAt: FieldValue.serverTimestamp(),
+        };
+      }
       transaction.update(
         studentRef,
         "accessStatus", "active",
@@ -427,19 +508,7 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
           verifiedAt: FieldValue.serverTimestamp(),
           verificationSource: source,
         },
-        new FieldPath("courseEntitlements", courseId), {
-          status: "active",
-          courseId,
-          courseName: course.name,
-          neetExamYear: requestData.neetExamYear || null,
-          validityCode: validity.code,
-          validityLabel: validity.label,
-          pricePaid: requestData.amount,
-          selectedSubjects: courseId === "class6" ? validClass6Subjects(requestData.class6Subjects) : null,
-          months: courseId === "class6" ? requestData.class6Months : null,
-          expiresAt: expiryDate ? Timestamp.fromDate(expiryDate) : null,
-          activatedAt: FieldValue.serverTimestamp(),
-        },
+        new FieldPath("courseEntitlements", courseId), entitlementPayload,
         "paidAt", FieldValue.serverTimestamp(),
         "updatedAt", FieldValue.serverTimestamp(),
       );
@@ -512,8 +581,9 @@ exports.createRazorpayOrder = onCall(
     }
     const legacyOwnedCourse = profile.purchasedCourse || profile.requestedCourse || profile.activeCourse;
     const entitlement = profile.courseEntitlements?.[courseId];
-    const class6Expiry = entitlement?.expiresAt?.toDate?.();
-    const entitlementActive = entitlement?.status === "active" && (courseId !== "class6" || (class6Expiry && class6Expiry > new Date()));
+    const entitlementActive = courseId === "class6"
+      ? hasActiveClass6Subjects(entitlement, class6Subjects)
+      : entitlement?.status === "active";
     if (entitlementActive || (courseId !== "class6" && profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
       return { active: true, courseId };
     }
@@ -747,6 +817,14 @@ exports.syncRazorpayPayment = onCall(
     if (!COURSES[courseId]) throw new HttpsError("invalid-argument", "Choose a valid course.");
     const paymentRequest = await db.doc(`paymentRequests/${paymentRequestId(uid, courseId)}`).get();
     if (!paymentRequest.exists) return { active: false };
+    if (courseId === "class6") {
+      const requestedSubjects = validClass6Subjects(request.data?.class6Subjects);
+      const paidSubjects = validClass6Subjects(paymentRequest.data().class6Subjects);
+      const requestedMonths = Math.min(12, Math.max(1, Number.parseInt(request.data?.class6Months, 10) || 1));
+      if (!requestedSubjects.length || requestedSubjects.length !== paidSubjects.length || !requestedSubjects.every((subject) => paidSubjects.includes(subject)) || requestedMonths !== paymentRequest.data().class6Months) {
+        return { active: false };
+      }
+    }
     if (paymentRequest.data().status === "paid") {
       const invoiceId = paymentRequest.data().invoiceId;
       if (!invoiceId) return { active: true };

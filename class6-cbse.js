@@ -57,6 +57,12 @@ const mistakeKey = "scrutiny_class6_mistakes_v1";
 let state = { subjects: [], activeSubject: "", chapter: 0, view: "learn", completed: JSON.parse(localStorage.getItem(storageKey) || "{}"), mistakes: JSON.parse(localStorage.getItem(mistakeKey) || "[]") };
 
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
+const dateValue = (value) => { if(!value) return null; const date=typeof value.toDate==="function"?value.toDate():new Date(value); return Number.isFinite(date.getTime())?date:null; };
+const activeClass6Subject = (entitlement,id) => {
+  if(!entitlement || entitlement.status!=="active" || !entitlement.selectedSubjects?.includes(id)) return false;
+  const expiry=dateValue(entitlement.subjectAccess?.[id]?.expiresAt)||dateValue(entitlement.expiresAt);
+  return expiry && expiry>new Date();
+};
 function chapterData(){ return SUBJECTS[state.activeSubject].chapters[state.chapter]; }
 function chapterKey(){ return `${state.activeSubject}:${state.chapter}`; }
 
@@ -126,8 +132,7 @@ onAuthStateChanged(auth,async(user)=>{
     const entitlement=profile.courseEntitlements?.class6;
     const founder=token.claims.founder===true;
     if(!founder && entitlement?.status!=="active"){location.replace("payment.html?course=class6");return;}
-    if(!founder && entitlement?.expiresAt?.toDate && entitlement.expiresAt.toDate()<new Date()){location.replace("payment.html?course=class6");return;}
-    state.subjects=founder?Object.keys(SUBJECTS):(entitlement?.selectedSubjects||[]).filter(id=>SUBJECTS[id]);
+    state.subjects=founder?Object.keys(SUBJECTS):(entitlement?.selectedSubjects||[]).filter(id=>SUBJECTS[id]&&activeClass6Subject(entitlement,id));
     if(!state.subjects.length){location.replace("payment.html?course=class6");return;}
     state.activeSubject=state.subjects[0];
     $("studentLabel").textContent=`Hi, ${profile.name||user.displayName||"Student"}`;

@@ -1,11 +1,13 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
-import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getAuth, onAuthStateChanged, signOut, getIdTokenResult } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const $ = (id) => document.getElementById(id);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[character]);
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+const db = getFirestore(app);
 
 let course;
 let currentChapter = 0;
@@ -178,16 +180,49 @@ $("completeChapter").onclick = () => {
   render();
 };
 
-onAuthStateChanged(auth, (user) => {
-  studentId = user?.uid || "guest";
-  loadProgress();
-  $("studentName").textContent = user ? `Hi, ${user.displayName || user.email?.split("@")[0] || "Student"}` : "Guest learner";
-  $("logoutBtn").textContent = user ? "Logout" : "Sign in";
-  $("logoutBtn").onclick = async () => {
-    if (auth.currentUser) await signOut(auth);
-    location.href = "login.html";
-  };
-  if (course) render();
+function dateValue(value) {
+  if (!value) return null;
+  const date = typeof value.toDate === "function" ? value.toDate() : new Date(value);
+  return Number.isFinite(date.getTime()) ? date : null;
+}
+
+function hasMathematicsAccess(entitlement) {
+  if (!entitlement || entitlement.status !== "active") return false;
+  if (!Array.isArray(entitlement.selectedSubjects) || !entitlement.selectedSubjects.includes("mathematics")) return false;
+  const subjectExpiry = dateValue(entitlement.subjectAccess?.mathematics?.expiresAt);
+  const legacyExpiry = dateValue(entitlement.expiresAt);
+  return (subjectExpiry || legacyExpiry)?.getTime() > Date.now();
+}
+
+onAuthStateChanged(auth, async (user) => {
+  if (!user) {
+    location.replace("login.html?course=class6&subjects=mathematics&months=1");
+    return;
+  }
+  try {
+    const [token, snapshot] = await Promise.all([
+      getIdTokenResult(user, true),
+      getDoc(doc(db, "students", user.uid)),
+    ]);
+    const profile = snapshot.exists() ? snapshot.data() : {};
+    const founder = token.claims.founder === true || user.email === "scrutinyacademy@gmail.com";
+    if (!founder && !hasMathematicsAccess(profile.courseEntitlements?.class6)) {
+      location.replace("payment.html?course=class6&subjects=mathematics&months=1&return=class6-mathematics.html");
+      return;
+    }
+    studentId = user.uid;
+    loadProgress();
+    $("studentName").textContent = `Hi, ${profile.name || user.displayName || user.email?.split("@")[0] || "Student"}`;
+    $("logoutBtn").textContent = "Logout";
+    $("logoutBtn").onclick = async () => {
+      await signOut(auth);
+      location.replace("login.html");
+    };
+    await start();
+  } catch (error) {
+    console.error("Mathematics authorization failed:", error);
+    $("loading").innerHTML = "<strong>We could not verify your Mathematics access.</strong><p>Please refresh or contact Scrutiny Academy support.</p>";
+  }
 });
 
 async function start() {
@@ -207,5 +242,3 @@ async function start() {
     $("loading").innerHTML = "<strong>We could not load the course.</strong><p>Please refresh the page. If the problem continues, contact Scrutiny Academy support.</p>";
   }
 }
-
-start();

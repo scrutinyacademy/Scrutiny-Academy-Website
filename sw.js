@@ -1,14 +1,13 @@
-const CACHE = "scrutiny-academy-v59-class6-mathematics";
+const CACHE = "scrutiny-academy-v60-class6-payment-authorization";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
   "./class6-cbse.html",
   "./class6-cbse.css?v=1",
-  "./class6-cbse.js?v=1",
+  "./class6-cbse.js?v=2",
   "./class6-mathematics.html",
   "./class6-mathematics.css?v=1",
-  "./class6-mathematics.js?v=1",
-  "./data/class6/mathematics.json?v=1",
+  "./class6-mathematics.js?v=2",
   "./preview-v2.html",
   "./neet-kota-biology.html",
   "./neet-kota-biology.css?v=1",
@@ -142,7 +141,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
   // Prefer fresh account/payment code so old activation gates do not persist.
-  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "class6-cbse.html", "class6-cbse.js", "class6-cbse.css", "class10-board.html", "class10-board.js"];
+  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "class6-cbse.html", "class6-cbse.js", "class6-cbse.css", "class6-mathematics.html", "class6-mathematics.js", "class6-mathematics.css", "class10-board.html", "class10-board.js"];
   if (url.pathname.endsWith("/") || accountFiles.some(file => url.pathname.endsWith(`/${file}`))) {
     event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match(request)));
     return;
