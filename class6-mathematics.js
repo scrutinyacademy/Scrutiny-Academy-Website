@@ -227,7 +227,7 @@ onAuthStateChanged(auth, async (user) => {
 
 async function start() {
   try {
-    const response = await fetch("data/class6/mathematics.json?v=1");
+    const response = await fetch("data/class6/mathematics.json?v=3", { cache: "no-store" });
     if (!response.ok) throw new Error(`Course data returned ${response.status}`);
     course = await response.json();
     const requested = new URLSearchParams(location.search).get("chapter");

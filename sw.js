@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v60-class6-payment-authorization";
+const CACHE = "scrutiny-academy-v61-class6-mathematics-content";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -7,7 +7,7 @@ const APP_SHELL = [
   "./class6-cbse.js?v=2",
   "./class6-mathematics.html",
   "./class6-mathematics.css?v=1",
-  "./class6-mathematics.js?v=2",
+  "./class6-mathematics.js?v=3",
   "./preview-v2.html",
   "./neet-kota-biology.html",
   "./neet-kota-biology.css?v=1",

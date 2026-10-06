@@ -169,6 +169,15 @@ function optionsFor(correct, distractors, rnd){
   const options=shuffle(unique.slice(0,4),rnd); return {options,correctIndex:options.findIndex(v=>String(v)===String(correct))};
 }
 function item(question,correct,distractors,explanation,topic,difficulty,rnd){const o=optionsFor(correct,distractors,rnd);return{question,options:o.options.map(String),correctIndex:o.correctIndex,explanation,topic,difficulty};}
+function primeFactors(value){
+  const factors=[];
+  let n=value;
+  for(let divisor=2;divisor*divisor<=n;divisor++){
+    while(n%divisor===0){factors.push(divisor);n/=divisor;}
+  }
+  if(n>1) factors.push(n);
+  return factors;
+}
 
 function generateMcqs(chapter, ci){
   const rnd=seeded(6112026+ci*101), out=[];
@@ -199,7 +208,7 @@ function generateMcqs(chapter, ci){
       if(k<3){const x=2+(i%20),m=2+(i%10),ans=x*m;add(`Which is the ${m}th multiple of ${x}?`,ans,[x+m,ans+x,ans-1],`${x} × ${m} = ${ans}.`,"Multiples","Easy");}
       else if(k<5){const x=12+(i%30),ans=[...Array(x).keys()].map(v=>v+1).filter(v=>x%v===0).length;add(`How many positive factors does ${x} have?`,ans,[ans-1,ans+1,x],`List all whole-number divisors of ${x}; there are ${ans}.`,"Factors","Medium");}
       else if(k<7){const primes=[11,13,17,19,23,29,31,37,41,43],ans=primes[i%primes.length];add(`Which number is prime in set ${n}?`,ans,[ans+1,ans+3,ans+5],`${ans} has exactly two factors: 1 and ${ans}.`,"Prime numbers","Easy");}
-      else if(k<9){const x=2+(i%8),y=3+(i%7),num=x*y*5,ans=`${x} × ${y} × 5`;add(`A factor tree for ${num} ends with which product?`,ans,[`${x+y} × 5`,`${x} × ${y+5}`,`${num} × 1`],`Multiplying the prime factors reconstructs ${num}.`,"Prime factorisation","Medium");}
+      else if(k<9){const num=24+((i*13)%96),factors=primeFactors(num),ans=factors.join(" × ");add(`A complete factor tree for ${num} ends with which prime-factor product?`,ans,[`${num} × 1`,`${factors[0]} × ${num/factors[0]}`,`${factors.join(" + ")}`],`${num} = ${ans}; every factor shown is prime.`,"Prime factorisation","Medium");}
       else {const num=1000+((i*81)%8000),sum=String(num).split("").reduce((s,d)=>s+Number(d),0),ans=sum%3===0?"Yes":"No";add(`Is ${num} divisible by 3?`,ans,[ans==="Yes"?"No":"Yes","Only by 2","Cannot tell"],`Digit sum is ${sum}; ${sum%3===0?"it is":"it is not"} divisible by 3.`,"Divisibility tests","Medium");}
     } else if(ci===5){
       if(k<3){const l=3+(i%18),w=2+(i%11),ans=2*(l+w);add(`Find the perimeter of a ${l} cm by ${w} cm rectangle.`,ans,[l*w,l+w,2*l+w],`P=2(l+w)=2(${l}+${w})=${ans} cm.`,"Rectangle perimeter","Easy");}
@@ -249,7 +258,16 @@ const course={
   chapters:chapterSpecs.map((chapter,index)=>({
     id:chapter.id,title:chapter.title,source:chapter.source,goal:chapter.goal,
     summary:chapter.topics.map(t=>t[1]).join(" "),
-    topics:chapter.topics.map((t,ti)=>({id:`${chapter.id}-t${ti+1}`,title:t[0],explanation:t[1],keyPoints:t[2],workedExample:t[3],tryIt:t[4],answer:t[5],tip:`Pause after each step and explain why it is valid. ${t[2][0]}.`})),
+    topics:chapter.topics.map((t,ti)=>({
+      id:`${chapter.id}-t${ti+1}`,
+      title:t[0],
+      explanation:t[1],
+      keyPoints:t[2],
+      workedExample:t[3],
+      tryIt:t[4],
+      answer:t[5],
+      tip:`Remember “${t[0]}” through this anchor: ${t[2][0]}. Cover the answer and rebuild the worked example from memory: ${t[3]}`
+    })),
     flashcards:makeFlashcards(chapter),
     importantQuestions:makeQuestions(chapter),
     mcqs:generateMcqs(chapter,index)
