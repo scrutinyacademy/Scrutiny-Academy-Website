@@ -162,7 +162,7 @@ service cloud.firestore {
         && request.resource.data.completed is list
         && request.resource.data.completed.size() <= 100
         && request.resource.data.completed.toSet().size() == request.resource.data.completed.size();
-      allow delete: if false;
+      allow delete: if signedIn() && request.auth.token.founder == true;
     }
 
     match /{document=**} { allow read, write: if false; }
