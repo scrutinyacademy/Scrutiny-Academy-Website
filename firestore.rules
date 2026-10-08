@@ -136,6 +136,35 @@ service cloud.firestore {
       allow delete: if signedIn() && request.auth.uid == uid;
     }
 
+    // Founder-controlled personalised study plans. Students may read only their own plan.
+    match /studyPlans/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || request.auth.token.founder == true);
+      allow create, update: if signedIn() && request.auth.token.founder == true
+        && request.resource.data.keys().hasOnly(['uid','studentName','title','startDate','endDate','tasks','updatedAt'])
+        && request.resource.data.uid == uid
+        && request.resource.data.studentName is string
+        && request.resource.data.studentName.size() <= 100
+        && request.resource.data.title is string
+        && request.resource.data.title.size() <= 160
+        && request.resource.data.startDate is string
+        && request.resource.data.endDate is string
+        && request.resource.data.tasks is list
+        && request.resource.data.tasks.size() <= 100;
+      allow delete: if signedIn() && request.auth.token.founder == true;
+    }
+
+    // Completion is separate: students cannot modify assigned plan content.
+    match /studyPlanProgress/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || request.auth.token.founder == true);
+      allow create, update: if signedIn() && request.auth.uid == uid
+        && exists(/databases/$(database)/documents/studyPlans/$(uid))
+        && request.resource.data.keys().hasOnly(['completed','updatedAt'])
+        && request.resource.data.completed is list
+        && request.resource.data.completed.size() <= 100
+        && request.resource.data.completed.toSet().size() == request.resource.data.completed.size();
+      allow delete: if false;
+    }
+
     match /{document=**} { allow read, write: if false; }
   }
 }
