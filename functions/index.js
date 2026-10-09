@@ -922,3 +922,10 @@ exports.razorpayWebhook = onRequest(
     }
   },
 );
+
+// Mission 600 uses item-level entitlements and a separate idempotent order flow.
+// Keeping it in its own module prevents changes to legacy course activation.
+const mission600 = require("./mission600");
+exports.createMission600Order = mission600.createMission600Order;
+exports.verifyMission600Payment = mission600.verifyMission600Payment;
+exports.mission600RazorpayWebhook = mission600.mission600RazorpayWebhook;

@@ -6,7 +6,7 @@
     "node": "22"
   },
   "scripts": {
-    "check": "node --check index.js && node --check scripts/backfill-student-emails.js",
+    "check": "node --check index.js && node --check mission600.js && node --check scripts/backfill-student-emails.js && node --check scripts/set-founder-claim.js",
     "backfill:emails": "node scripts/backfill-student-emails.js"
   },
   "dependencies": {
