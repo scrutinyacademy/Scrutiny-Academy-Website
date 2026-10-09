@@ -3,6 +3,22 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
     function isAdmin() { return signedIn() && (request.auth.token.founder == true || request.auth.token.email == 'scrutinyacademy@gmail.com'); }
+    function isFounder() { return signedIn() && request.auth.token.founder == true; }
+    function owns(uid) { return signedIn() && request.auth.uid == uid; }
+    function hasClass10Access() {
+      let student = get(/databases/$(database)/documents/students/$(request.auth.uid)).data;
+      return signedIn() && (isFounder()
+        || (student.courseEntitlements is map
+          && 'class10' in student.courseEntitlements
+          && student.courseEntitlements.class10.status == 'active')
+        || (student.accessStatus == 'active'
+          && (student.purchasedCourse == 'class10' || student.requestedCourse == 'class10' || student.activeCourse == 'class10')));
+    }
+    function hasMissionEntitlement(resourceId) {
+      return signedIn()
+        && exists(/databases/$(database)/documents/mission600Entitlements/$(request.auth.uid + '_' + resourceId))
+        && get(/databases/$(database)/documents/mission600Entitlements/$(request.auth.uid + '_' + resourceId)).data.status == 'active';
+    }
     function hasActiveAccess() {
       return signedIn() && (isAdmin() || get(/databases/$(database)/documents/students/$(request.auth.uid)).data.accessStatus == 'active');
     }
@@ -134,6 +150,80 @@ service cloud.firestore {
         && request.resource.data.bookmarks is list
         && request.resource.data.bookmarks.size() <= 100;
       allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
+    // Mission 600 public catalogue documents contain metadata only. Question
+    // papers, answer keys and paid content live in separately protected paths.
+    match /mission600Series/{id} { allow read: if signedIn(); allow write: if isFounder(); }
+    match /mission600Chapters/{id} { allow read: if signedIn(); allow write: if isFounder(); }
+    match /mission600Calendar/{id} { allow read: if signedIn(); allow write: if isFounder(); }
+    match /mission600Lectures/{id} { allow read: if signedIn(); allow write: if isFounder(); }
+    match /mission600DPPs/{id} { allow read: if hasClass10Access(); allow write: if isFounder(); }
+    match /mission600Tests/{id} { allow read: if hasClass10Access(); allow write: if isFounder(); }
+
+    match /mission600DPPContent/{resourceId} {
+      allow read: if isFounder() || (signedIn() && exists(/databases/$(database)/documents/mission600Entitlements/$(request.auth.uid + '_' + resourceId)));
+      allow write: if isFounder();
+    }
+    match /mission600TestContent/{resourceId} {
+      allow read: if isFounder() || (signedIn() && exists(/databases/$(database)/documents/mission600Entitlements/$(request.auth.uid + '_' + resourceId)));
+      allow write: if isFounder();
+    }
+    match /mission600AnswerKeys/{resourceId} {
+      allow read: if isFounder() || (signedIn()
+        && resource.data.released == true
+        && exists(/databases/$(database)/documents/mission600Entitlements/$(request.auth.uid + '_' + resourceId)));
+      allow write: if isFounder();
+    }
+
+    match /mission600CartOrders/{orderId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create, update, delete: if false;
+    }
+    match /mission600Purchases/{purchaseId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create, update, delete: if false;
+    }
+    match /mission600Entitlements/{entitlementId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create, update, delete: if false;
+    }
+    match /mission600Attempts/{attemptId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid && hasClass10Access()
+        && hasMissionEntitlement(request.resource.data.resourceId)
+        && request.resource.data.keys().hasOnly(['uid','resourceId','status','answers','startedAt','updatedAt']);
+      allow update: if signedIn() && resource.data.uid == request.auth.uid && request.resource.data.uid == resource.data.uid
+        && request.resource.data.resourceId == resource.data.resourceId
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','answers','submittedAt','updatedAt']);
+      allow delete: if false;
+    }
+    match /mission600Submissions/{submissionId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create: if signedIn() && request.resource.data.uid == request.auth.uid && hasClass10Access()
+        && hasMissionEntitlement(request.resource.data.resourceId)
+        && request.resource.data.keys().hasOnly(['uid','resourceId','attemptId','status','typedAnswers','files','createdAt','submittedAt','updatedAt']);
+      allow update: if signedIn() && resource.data.uid == request.auth.uid && resource.data.status == 'draft'
+        && request.resource.data.uid == resource.data.uid && request.resource.data.resourceId == resource.data.resourceId
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','typedAnswers','files','submittedAt','updatedAt']);
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid && resource.data.status == 'draft';
+    }
+    match /mission600Results/{resultId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow write: if isFounder();
+    }
+    match /mission600StudentProgress/{uid} {
+      allow read: if owns(uid) || isFounder();
+      allow create, update: if owns(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.keys().hasOnly(['uid','weeklyCompletion','completedResources','mistakes','preferences','updatedAt']);
+      allow delete: if false;
+    }
+    match /mission600Notifications/{notificationId} {
+      allow read: if signedIn() && (resource.data.uid == request.auth.uid || isFounder());
+      allow create, delete: if isFounder();
+      allow update: if signedIn() && resource.data.uid == request.auth.uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['readAt']);
     }
 
     match /{document=**} { allow read, write: if false; }

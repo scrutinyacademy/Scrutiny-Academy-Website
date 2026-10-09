@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="auth-check">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Scrutiny Academy Mission 600 — Telangana SSC Class 10 board preparation system.">
+  <title>Mission 600 | Scrutiny Academy</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="mission600.css?v=1">
+  <style>.auth-check body{visibility:hidden}</style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="class10-board.html"><img src="assets/logo.svg" alt="Scrutiny Academy"><span><strong>SCRUTINY ACADEMY</strong><small>MISSION 600 · SSC 2027</small></span></a>
+    <div class="top-actions"><button id="cartButton" type="button">Cart <b id="cartCount">0</b></button><a href="student.html">My Courses</a><button id="logoutButton" type="button">Logout</button></div>
+  </header>
+
+  <section class="hero">
+    <div><span class="eyebrow">SSC TELANGANA CLASS 10 · 2027 BOARDS</span><h1>MISSION <em>600</em></h1><p>Learn → Revise → Practise → Test → Analyse → Improve</p><div class="hero-pills"><span>₹2 per published DPP</span><span>₹9 per published written test</span><span>Human-reviewed descriptive answers</span></div></div>
+    <div class="score-card"><span>YOUR TARGET</span><strong>600</strong><small>Every mark. Every subject. One mission.</small></div>
+  </section>
+
+  <main class="shell">
+    <section class="source-notice" id="sourceNotice" aria-live="polite"></section>
+    <nav class="module-nav" aria-label="Mission 600 modules">
+      <button class="active" data-view="dashboard">Dashboard</button><button data-view="calendar">Calendar</button><button data-view="lectures">Learning Journey</button><button data-view="dpps">DPP Store</button><button data-view="tests">Written Tests</button><button data-view="library">My Resources</button><button data-view="results">Results</button><button data-view="mistakes">Mistake Book</button><button data-view="progress">Progress</button>
+    </nav>
+
+    <section class="view active" id="view-dashboard">
+      <div class="section-head"><div><span class="eyebrow">MY WEEKLY MISSION</span><h2 id="welcomeTitle">Welcome to Mission 600</h2></div><p id="currentPhase">Loading your programme…</p></div>
+      <div class="metric-grid"><article><span>Weekly progress</span><strong id="weeklyProgress">0%</strong><i><b style="width:0" id="weeklyBar"></b></i></article><article><span>Purchased DPPs</span><strong id="ownedDpps">0</strong><small>Available in My Resources</small></article><article><span>Written tests</span><strong id="ownedTests">0</strong><small>Purchased and submitted</small></article><article><span>Next assessment</span><strong id="nextTest">—</strong><small id="nextTestDate">Schedule loading</small></article></div>
+      <div class="dashboard-grid"><article class="panel"><div class="panel-head"><h3>This Week’s Learning Journey</h3><button data-jump="lectures">View all</button></div><div id="weeklyMission" class="mission-list"></div></article><article class="panel"><div class="panel-head"><h3>Upcoming Written Tests</h3><button data-jump="tests">View all</button></div><div id="upcomingTests" class="compact-list"></div></article></div>
+      <div class="phase-strip"><article><b>1</b><span><strong>Complete Syllabus</strong><small>12 Oct – 11 Dec 2026</small></span></article><article><b>2</b><span><strong>High-Yield Booster</strong><small>12 Dec – 11 Jan</small></span></article><article><b>3</b><span><strong>Mock Championship</strong><small>12 Jan – 12 Feb</small></span></article><article><b>4</b><span><strong>Final Board Revision</strong><small>From 13 February</small></span></article></div>
+    </section>
+
+    <section class="view" id="view-calendar"><div class="section-head"><div><span class="eyebrow">COMPLETE ACADEMIC CALENDAR</span><h2>Every week, chapter and assessment</h2></div><div class="segmented"><button class="active" data-calendar-view="list">List</button><button data-calendar-view="calendar">Calendar</button><button data-calendar-view="subject">Subject</button></div></div><div id="calendarContent"></div></section>
+    <section class="view" id="view-lectures"><div class="section-head"><div><span class="eyebrow">THIS WEEK’S LEARNING JOURNEY</span><h2>Lectures, notes, revision and practice</h2></div><p>Only actual published YouTube links will open. Unpublished lessons remain marked Coming Soon.</p></div><div id="lectureJourney" class="journey-grid"></div></section>
+    <section class="view" id="view-dpps"><div class="section-head"><div><span class="eyebrow">MISSION 600 DPP STORE</span><h2>Choose exactly what you need</h2></div><p>3% off per distinct chapter, capped at 30%. Owned resources are never charged twice.</p></div><div class="toolbar"><select id="dppSubject"><option value="all">All subjects</option></select><select id="dppDifficulty"><option value="all">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select><input id="dppSearch" type="search" placeholder="Search chapter"></div><div id="subjectBundles" class="bundle-grid"></div><div id="dppStore" class="resource-grid"></div></section>
+    <section class="view" id="view-tests"><div class="section-head"><div><span class="eyebrow">WEEKLY WRITTEN TEST SERIES</span><h2>Saturday and Sunday board writing practice</h2></div><p>Typed answers and authenticated image/PDF submissions; final descriptive marks require human review.</p></div><div class="toolbar"><select id="testPhase"><option value="all">All phases</option><option value="SYL">Syllabus Completion</option><option value="HY">High-Yield</option><option value="MOCK">Mock Examination</option></select><select id="testSubject"><option value="all">All subjects</option></select></div><div id="testStore" class="test-list"></div></section>
+    <section class="view" id="view-library"><div class="section-head"><div><span class="eyebrow">MY PURCHASED RESOURCES</span><h2>Your DPP and test library</h2></div></div><div id="libraryContent" class="empty-state"></div></section>
+    <section class="view" id="view-results"><div class="section-head"><div><span class="eyebrow">MY TEST RESULTS</span><h2>Evaluation, feedback and reattempts</h2></div></div><div id="resultsContent" class="empty-state"></div></section>
+    <section class="view" id="view-mistakes"><div class="section-head"><div><span class="eyebrow">MY MISTAKE BOOK</span><h2>Turn every error into revision</h2></div></div><div id="mistakeContent" class="empty-state"></div></section>
+    <section class="view" id="view-progress"><div class="section-head"><div><span class="eyebrow">PERSONAL PROGRESS TRACKER</span><h2>Subject mastery and next actions</h2></div></div><div id="progressContent" class="performance-grid"></div></section>
+  </main>
+
+  <aside class="cart" id="cartDrawer" aria-hidden="true"><div class="cart-head"><div><span class="eyebrow">DPP SHOPPING CART</span><h2>Your selection</h2></div><button id="closeCart" aria-label="Close cart">×</button></div><div id="cartItems" class="cart-items"></div><dl class="totals"><div><dt>Eligible DPPs</dt><dd id="cartItemCount">0</dd></div><div><dt>Distinct chapters</dt><dd id="cartChapters">0</dd></div><div><dt>Subtotal</dt><dd id="cartSubtotal">₹0.00</dd></div><div class="discount"><dt>Chapter discount</dt><dd id="cartDiscount">−₹0.00</dd></div><div class="total"><dt>Payable</dt><dd id="cartTotal">₹0.00</dd></div></dl><p class="rounding">Stored in paise and rounded half-up to the nearest paisa. Backend recalculates totals.</p><button class="checkout" id="checkoutButton" disabled>CHECKOUT UNAVAILABLE</button><p class="cart-message" id="cartMessage">Only reviewed, published resources can be purchased.</p></aside><div class="scrim" id="scrim"></div>
+  <footer><strong>SCRUTINY ACADEMY</strong><span>Mission 600 · Telangana SSC Class 10 · 2027</span><a href="mailto:scrutinyacademy@gmail.com">Student Support & Academic Counsellor</a></footer>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script type="module" src="mission600.js?v=1"></script>
+</body>
+</html>
+

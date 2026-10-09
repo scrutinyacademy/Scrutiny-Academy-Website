@@ -1,0 +1,23 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() { return request.auth != null; }
+    function isFounder() { return signedIn() && request.auth.token.founder == true; }
+    function supportedAnswerFile() {
+      return request.resource.size <= 20 * 1024 * 1024
+        && (request.resource.contentType.matches('image/(jpeg|png|webp)')
+          || request.resource.contentType == 'application/pdf');
+    }
+    match /mission600-submissions/{uid}/{submissionId}/{fileName} {
+      allow read: if signedIn() && (request.auth.uid == uid || isFounder());
+      allow create, update: if signedIn() && request.auth.uid == uid && supportedAnswerFile()
+        && firestore.exists(/databases/(default)/documents/mission600Submissions/$(submissionId))
+        && firestore.get(/databases/(default)/documents/mission600Submissions/$(submissionId)).data.uid == uid;
+      allow delete: if signedIn() && (request.auth.uid == uid || isFounder());
+    }
+    match /mission600-admin/{allPaths=**} {
+      allow read, write: if isFounder();
+    }
+    match /{allPaths=**} { allow read, write: if false; }
+  }
+}
