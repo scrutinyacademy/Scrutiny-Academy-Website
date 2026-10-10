@@ -28,11 +28,12 @@
 - Each selected subject has one to three dated YouTube lecture blocks per week. A few short, related Social Studies chapters are paired inside integrated one-shot blocks because 57 chapters cannot fit into 54 standalone slots (nine weeks × two subjects × three blocks).
 - All 57 current non-language chapters are covered by lectures by 11 December 2026, ahead of the 12 December deadline. Unpublished lectures show their scheduled date and Coming Soon until an actual YouTube URL is added.
 - 171 DPP catalogue records exist: three per chapter (Easy, Medium and Hard).
+- Mathematics now has 42 complete protected DPP banks: 14 textbook chapters × Easy/Medium/Hard × 20 MCQs = 840 MCQs. Every item has four options, a keyed answer and an explanation.
 - Language practice is scheduled weekly, but exact Telugu/Hindi/English lesson names remain gated until the prescribed 2026–27 language combinations and books are confirmed.
 
 ## Content and payment gates
 
-All generated DPP and test records are drafts. They are deliberately not purchasable. A resource can be published only when:
+Incomplete DPP and test records are drafts. The 42 Mathematics banks are marked Ready, but remain deliberately non-purchasable until their protected content is seeded and academic review is signed off. A resource can be published only when:
 
 1. private question content exists;
 2. an answer key/explanations or marking rubric exists;
@@ -57,6 +58,8 @@ Pricing is stored and calculated in integer paise. Individual DPPs remain ₹2 a
 ## Validation
 
 ```bash
+node scripts/build-mission600-math-dpps.mjs
+node scripts/test-mission600-math-dpps.mjs
 node scripts/build-mission600.mjs
 node scripts/test-mission600.mjs
 node scripts/validate-data.mjs

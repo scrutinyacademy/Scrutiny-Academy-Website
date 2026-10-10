@@ -33,6 +33,35 @@
 .watch-link { color: var(--blue); }
 .coming-link { color: var(--muted); }
 
+.resource-ready { border-color: #89c7a3; }
+.resource-open { color: inherit; text-decoration: none; }
+
+.dpp-reader-page { background: #f1f7fb; }
+.dpp-reader-shell { width: min(900px, calc(100% - 28px)); margin: 36px auto 80px; }
+.dpp-reader-head, .dpp-question-card, .dpp-result { background: #fff; border: 1px solid #dbe8f0; border-radius: 20px; padding: clamp(20px, 4vw, 38px); box-shadow: 0 18px 50px rgba(10, 46, 76, .08); }
+.dpp-reader-head h1 { margin: 8px 0; color: var(--navy); font-size: clamp(1.7rem, 4vw, 2.7rem); }
+.dpp-progress { display: grid; gap: 8px; margin-top: 22px; color: var(--muted); font-weight: 800; }
+.dpp-progress i { height: 9px; overflow: hidden; border-radius: 999px; background: #e5eef4; }
+.dpp-progress b { display: block; width: 5%; height: 100%; background: linear-gradient(90deg, #1379b7, #19a974); transition: width .2s ease; }
+.dpp-question-card { margin-top: 20px; }
+.dpp-question-card h2 { color: var(--navy); line-height: 1.45; }
+.question-number { color: var(--blue); font-size: .72rem; font-weight: 900; letter-spacing: .12em; }
+.dpp-options { display: grid; gap: 11px; margin-top: 24px; }
+.dpp-options label { display: grid; grid-template-columns: 36px 1fr; align-items: center; gap: 12px; padding: 14px; border: 1px solid #d7e4ec; border-radius: 13px; cursor: pointer; }
+.dpp-options label.selected { border-color: var(--blue); background: #edf8ff; }
+.dpp-options input { position: absolute; opacity: 0; }
+.dpp-options span { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: #e8f0f5; font-weight: 900; }
+.dpp-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.dpp-actions button { padding: 12px 18px; border: 0; border-radius: 10px; background: var(--navy); color: #fff; font-weight: 900; }
+.dpp-actions button:disabled { opacity: .45; }
+#submitDpp { margin-left: auto; background: #16875d; }
+.answer-explanation { margin-top: 24px; padding: 16px; border-radius: 12px; }
+.answer-explanation.correct { background: #e9f8ef; color: #135b3f; }
+.answer-explanation.incorrect { background: #fff2ea; color: #873c16; }
+.dpp-result { margin-top: 20px; text-align: center; }
+.dpp-result h2 { margin: 8px; color: var(--navy); font-size: 3rem; }
+.dpp-message { min-height: 1.4em; color: var(--muted); font-weight: 700; }
+
 .totals .discount.applied {
   padding: 8px;
   border-radius: 8px;

@@ -26,7 +26,14 @@ async function mergePublishedCatalogue(db) {
   const merge = (localItems, snapshot) => {
     if (!snapshot) return localItems;
     const remote = new Map(snapshot.docs.map((item) => [item.id, item.data()]));
-    return localItems.map((item) => remote.has(item.id) ? { ...item, ...remote.get(item.id), id: item.id } : item);
+    return localItems.map((item) => {
+      if (!remote.has(item.id)) return item;
+      const serverItem = remote.get(item.id);
+      const merged = { ...item, ...serverItem, id: item.id };
+      return item.status === "ready" && serverItem.status !== "published"
+        ? { ...merged, status: "ready", contentComplete: true, purchaseEnabled: false, questionCount: item.questionCount, suggestedQuestionCount: item.suggestedQuestionCount }
+        : merged;
+    });
   };
   state.catalog.dpps = merge(state.catalog.dpps, dppSnapshot);
   state.catalog.tests = merge(state.catalog.tests, testSnapshot);
@@ -38,7 +45,7 @@ function resolveCurrentWeek() {
 }
 
 function renderNotice() {
-  $("sourceNotice").innerHTML = `<strong>Curriculum verification gate:</strong> ${state.catalog.sourceStatus.textbookBasis} Draft DPPs and tests cannot be purchased. <strong>Pricing:</strong> ${state.catalog.pricingPolicy.text}`;
+  $("sourceNotice").innerHTML = `<strong>Curriculum verification gate:</strong> ${state.catalog.sourceStatus.textbookBasis} Mathematics DPP banks marked Ready contain 20 MCQs with explanations; checkout activates only after secure content deployment and academic review. <strong>Pricing:</strong> ${state.catalog.pricingPolicy.text}`;
 }
 
 function setupNavigation() {
@@ -131,8 +138,14 @@ function renderProgrammeBundles() {
 function renderDpps() {
   const subject = $("dppSubject").value, difficulty = $("dppDifficulty").value, search = $("dppSearch").value.trim().toLowerCase();
   const rows = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
-  $("dppStore").innerHTML = rows.map((dpp) => `<article class="resource-card"><div class="resource-meta"><span>${dpp.subject}</span><b>${formatRupees(dpp.pricePaise)}</b></div><h3>${dpp.title}</h3><p>${dpp.id}<br>${dpp.suggestedQuestionCount} questions · ${dpp.suggestedDurationMinutes} minutes</p>${!isPurchasableResource(dpp) ? `<span class="draft-note">Draft — question bank and academic review incomplete</span>` : ""}<button data-add="${dpp.id}" ${!isPurchasableResource(dpp) || state.entitlements.has(dpp.id) ? "disabled" : ""}>${state.entitlements.has(dpp.id) ? "OWNED" : isPurchasableResource(dpp) ? "ADD TO CART" : "COMING SOON"}</button></article>`).join("");
+  $("dppStore").innerHTML = rows.map((dpp) => {
+    const owned = state.entitlements.has(dpp.id), purchasable = isPurchasableResource(dpp), ready = dpp.contentComplete === true && dpp.status === "ready";
+    const note = ready ? `20 MCQs ready · secure activation and academic review pending` : `Draft — question bank and academic review incomplete`;
+    const action = owned ? "OPEN DPP" : purchasable ? "ADD TO CART" : ready ? "PAYMENT ACTIVATION PENDING" : "COMING SOON";
+    return `<article class="resource-card ${ready ? "resource-ready" : ""}"><div class="resource-meta"><span>${dpp.subject}</span><b>${formatRupees(dpp.pricePaise)}</b></div><h3>${dpp.title}</h3><p>${dpp.id}<br>${dpp.suggestedQuestionCount} MCQs · ${dpp.maximumMarks || 20} marks · ${dpp.suggestedDurationMinutes} minutes</p>${!purchasable && !owned ? `<span class="draft-note">${note}</span>` : ""}<button data-add="${dpp.id}" ${(!purchasable && !owned) ? "disabled" : ""}>${action}</button></article>`;
+  }).join("");
   document.querySelectorAll("[data-add]").forEach((button) => button.onclick = () => { const dpp = state.catalog.dpps.find((item) => item.id === button.dataset.add); if (isPurchasableResource(dpp)) { state.cart.set(dpp.id, dpp); renderCart(); } });
+  document.querySelectorAll("[data-add]").forEach((button) => { if (state.entitlements.has(button.dataset.add)) button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.add)}`; }; });
 }
 
 function renderTests() {
@@ -185,7 +198,7 @@ function renderPrivateModules() {
   const ownedDpps = [...state.entitlements].filter((id) => id.startsWith("SA-DPP-")).length, ownedTests = [...state.entitlements].filter((id) => id.startsWith("SA-M600-")).length;
   $("ownedDpps").textContent = ownedDpps; $("ownedTests").textContent = ownedTests;
   const owned = [...state.entitlements].map((id) => state.catalog.dpps.find((item) => item.id === id) || state.catalog.tests.find((item) => item.id === id)).filter(Boolean);
-  $("libraryContent").innerHTML = owned.length ? `<div class="compact-list">${owned.map((item) => `<div class="compact-item"><b>${item.kind === "dpp" ? "📝" : "✍️"}</b><span><strong>${item.title || item.name}</strong><small>${item.id}</small></span><i>OWNED</i></div>`).join("")}</div>` : `<strong>No Mission 600 purchases yet.</strong><p>Published resources you buy will appear here immediately after server-verified payment.</p>`;
+  $("libraryContent").innerHTML = owned.length ? `<div class="compact-list">${owned.map((item) => `<a class="compact-item resource-open" href="${item.kind === "dpp" ? `mission600-dpp.html?dpp=${encodeURIComponent(item.id)}` : `mission600-submit.html?test=${encodeURIComponent(item.id)}`}"><b>${item.kind === "dpp" ? "📝" : "✍️"}</b><span><strong>${item.title || item.name}</strong><small>${item.id}</small></span><i>OPEN</i></a>`).join("")}</div>` : `<strong>No Mission 600 purchases yet.</strong><p>Published resources you buy will appear here immediately after server-verified payment.</p>`;
   const publishedResults = state.results.filter((item) => item.status === "published");
   $("resultsContent").innerHTML = publishedResults.length ? `<div class="compact-list">${publishedResults.map((item) => `<div class="compact-item"><b>🏆</b><span><strong>${item.resourceId}</strong><small>${item.teacherFeedback || "Evaluation published"}</small></span><i>${item.totalMarks} MARKS</i></div>`).join("")}</div>` : `<strong>No published Mission 600 results yet.</strong><p>Submitted written tests will show Pending Evaluation, Reviewed or Published here.</p>`;
   const revision = publishedResults.filter((item) => item.revisionTopics);
