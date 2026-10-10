@@ -32,6 +32,14 @@ jobs:
           node scripts/build-mission600-math-dpps.mjs
           node scripts/test-mission600-math-dpps.mjs
 
+      - name: Prepare revocable Firebase credentials
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-adc.json
+        run: |
+          node -e 'const fs=require("fs");fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,JSON.stringify({type:"authorized_user",client_id:"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",client_secret:"j9iVZfS8kkCEFUPaAeJV0sAi",refresh_token:process.env.FIREBASE_TOKEN}),{mode:0o600})'
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS" >> "$GITHUB_ENV"
+
       - name: Deploy Mission 600 rules and payment functions
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
@@ -43,10 +51,8 @@ jobs:
           --only firestore:rules,functions:createMission600Order,functions:verifyMission600Payment,functions:mission600RazorpayWebhook
 
       - name: Publish the approved Mathematics DPPs
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: >-
-          node functions/scripts/seed-mission600-math-dpps-rest.js
+          node functions/scripts/seed-mission600-math-dpps.js
           --confirm-production-change
           --academically-reviewed
           --enable-purchases
