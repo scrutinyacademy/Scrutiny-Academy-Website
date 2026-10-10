@@ -34,9 +34,17 @@ jobs:
         run: |
           node --check functions/index.js
           node scripts/validate-neetss-phase1.mjs
+          node scripts/validate-neetss-pricing.mjs
           node scripts/validate-multi-course-switcher.mjs
           node tests/student-progress-isolation.cjs
-      - name: Deploy NEET-SS security rules and founder access function
+      - name: Prepare revocable Firebase credentials
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-adc.json
+        run: |
+          node -e 'const fs=require("fs");fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,JSON.stringify({type:"authorized_user",client_id:"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",client_secret:"j9iVZfS8kkCEFUPaAeJV0sAi",refresh_token:process.env.FIREBASE_TOKEN}),{mode:0o600})'
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS" >> "$GITHUB_ENV"
+      - name: Deploy NEET-SS rules and secure payment functions
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: >-
@@ -44,4 +52,4 @@ jobs:
           --project scrutiny-academy
           --token "$FIREBASE_TOKEN"
           --non-interactive
-          --only firestore:rules,functions:setNeetssComplimentaryAccess
+          --only firestore:rules,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess

@@ -25,6 +25,7 @@ assert.ok(backend.includes('FieldValue.arrayUnion(courseId)'),'Backend must pres
 
 const multi=entitledCourses({courseEntitlements:{neet:{status:'active'},class11:{status:'active'},mbbs:{status:'pending'}}});
 assert.deepEqual(multi.sort(),['class11','neet']);
-assert.equal(COURSE_CATALOG.neetss.inviteOnly,true);
-assert.equal(currentCoursePrice('neetss'),0);
-console.log('Validated nine-course discovery, invite-only NEET-SS access, locked-course routes, multi-entitlement preservation, and same-account switching.');
+assert.equal(currentCoursePrice('neetss'),999);
+assert.equal(currentCoursePrice('neetss',false),1999);
+assert.equal(COURSE_CATALOG.neetss.fullPrice,8999);
+console.log('Validated nine-course discovery, paid NEET-SS tiers, locked-course routes, multi-entitlement preservation, and same-account switching.');
