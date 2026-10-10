@@ -48,23 +48,23 @@ async function submitDpp() {
 async function init(user) {
   if (!/^SA-DPP-27-MAT-CH\d{2}-[EMH]$/.test(resourceId || "")) throw new Error("Invalid Mathematics DPP code.");
   state.user = user;
-  const [profileSnap, token, catalogResponse, bankResponse] = await Promise.all([
+  const [profileSnap, token, catalogResponse] = await Promise.all([
     getDoc(doc(db, "students", user.uid)), getIdTokenResult(user, true),
-    fetch("data/mission600/catalog.json"), fetch("data/mission600/private/mathematics-dpps.json"),
+    fetch("data/mission600/catalog.json"),
   ]);
   const profile = profileSnap.exists() ? profileSnap.data() : {};
   if (token.claims.founder !== true && !entitledCourses(profile).includes("class10")) throw new Error("Class 10 access is required.");
-  if (!catalogResponse.ok || !bankResponse.ok) throw new Error("This DPP could not be loaded. Please try again.");
-  const [catalog, bank] = await Promise.all([catalogResponse.json(), bankResponse.json()]);
+  if (!catalogResponse.ok) throw new Error("Mission 600 catalogue could not be loaded.");
+  const catalog = await catalogResponse.json();
   const localMetadata = catalog.dpps.find((item) => item.id === resourceId);
-  const localContent = bank.dpps.find((item) => item.id === resourceId);
-  if (!localMetadata || !localContent || localMetadata.contentComplete !== true || !["ready", "published"].includes(localMetadata.status)) throw new Error("This DPP is Coming Soon.");
+  if (!localMetadata || localMetadata.contentComplete !== true || !["ready", "published"].includes(localMetadata.status)) throw new Error("This DPP is Coming Soon.");
   const [metadataSnap, contentSnap] = await Promise.all([
     getDoc(doc(db, "mission600DPPs", resourceId)).catch(() => null),
     getDoc(doc(db, "mission600DPPContent", resourceId)).catch(() => null),
   ]);
   state.metadata = metadataSnap?.exists() ? { ...localMetadata, ...metadataSnap.data(), pricePaise: 0, purchaseEnabled: false } : localMetadata;
-  state.questions = contentSnap?.exists() && Array.isArray(contentSnap.data().questions) ? contentSnap.data().questions : localContent.questions;
+  if (!contentSnap?.exists() || !Array.isArray(contentSnap.data().questions)) throw new Error("Questions have not been published to Firebase yet. Please contact Scrutiny Academy support.");
+  state.questions = contentSnap.data().questions;
   state.answers = Array(state.questions.length).fill(null);
   if (state.questions.length !== 20) throw new Error("This DPP is undergoing a content check.");
   $("dppCode").textContent = resourceId; $("dppTitle").textContent = state.metadata.title;
