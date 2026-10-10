@@ -24,7 +24,9 @@
 - The last valid test weekend is 6–7 February 2027.
 - 17 weekends produce 34 Saturday/Sunday tests.
 - Weekday 8–12 February is retained as the final Mock Championship improvement week, with no invented weekend test.
-- All 57 current non-language chapters are allocated across the nine syllabus-completion teaching weeks.
+- Every syllabus-completion week has exactly two core focus subjects. Weeks alternate Mathematics + Physical Science and Biological Science + Social Studies; after Physical Science finishes, Week 9 becomes Mathematics + Social Studies so the longer Social syllabus finishes on time.
+- Each selected subject has one to three dated YouTube lecture blocks per week. A few short, related Social Studies chapters are paired inside integrated one-shot blocks because 57 chapters cannot fit into 54 standalone slots (nine weeks × two subjects × three blocks).
+- All 57 current non-language chapters are covered by lectures by 11 December 2026, ahead of the 12 December deadline. Unpublished lectures show their scheduled date and Coming Soon until an actual YouTube URL is added.
 - 171 DPP catalogue records exist: three per chapter (Easy, Medium and Hard).
 - Language practice is scheduled weekly, but exact Telugu/Hindi/English lesson names remain gated until the prescribed 2026–27 language combinations and books are confirmed.
 
@@ -37,7 +39,7 @@ All generated DPP and test records are drafts. They are deliberately not purchas
 3. both records are marked academically reviewed;
 4. metadata is marked `contentComplete: true`, `status: published`, and `purchaseEnabled: true`.
 
-Pricing is stored and calculated in integer paise. DPP discount is `min(3 × distinct chapters, 30)%`, applied only to DPP merchandise and rounded half-up to the nearest paisa. Tests are ₹9 each and excluded from DPP discounts. The backend removes already-owned items and independently recalculates every total.
+Pricing is stored and calculated in integer paise. Individual DPPs remain ₹2 and individual written tests remain ₹9. There is no DPP-only, subject-bundle or test-only discount. Students may buy the complete DPP collection, the complete written-test series, or individual resources. Buying the complete remaining DPP collection and complete remaining test series together receives 10% off, capped at ₹100 and rounded half-up to the nearest paisa. The backend verifies that the full reviewed collections are selected, removes already-owned resources and independently recalculates every total.
 
 ## Production activation checklist (approval required)
 

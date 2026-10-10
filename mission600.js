@@ -1,6 +1,6 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js?v=3";
-import { calculateDppCart, formatRupees, isPurchasableResource } from "./mission600-core.mjs";
+import { calculateMission600Cart, formatRupees, isPurchasableResource } from "./mission600-core.mjs";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, getIdTokenResult, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, getFirestore, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
@@ -38,7 +38,7 @@ function resolveCurrentWeek() {
 }
 
 function renderNotice() {
-  $("sourceNotice").innerHTML = `<strong>Curriculum verification gate:</strong> ${state.catalog.sourceStatus.textbookBasis} Draft DPPs and tests cannot be purchased.`;
+  $("sourceNotice").innerHTML = `<strong>Curriculum verification gate:</strong> ${state.catalog.sourceStatus.textbookBasis} Draft DPPs and tests cannot be purchased. <strong>Pricing:</strong> ${state.catalog.pricingPolicy.text}`;
 }
 
 function setupNavigation() {
@@ -54,8 +54,8 @@ function showView(name) {
 function renderDashboard() {
   const week = state.currentWeek;
   $("currentPhase").textContent = `${week.phaseName} · Week ${week.week} · ${dateText(week.startDate)}–${dateText(week.endDate)}`;
-  const teaching = Object.entries(week.teaching || {});
-  $("weeklyMission").innerHTML = teaching.length ? teaching.map(([id, chapters]) => `<div class="mission-item"><b>${subjectIcon[id]}</b><span><strong>${subjectName(id)}</strong><small>${chapters.map((chapter) => chapter.name).join(" · ") || "Revision and consolidation"}</small></span><i>PLANNED</i></div>`).join("") : `<div class="mission-item"><b>🏆</b><span><strong>${week.phaseName}</strong><small>Full-syllabus revision, timed practice and analysis</small></span><i>ACTIVE</i></div>`;
+  const teaching = Object.entries(week.teachingBlocks || {});
+  $("weeklyMission").innerHTML = teaching.length ? teaching.map(([id, blocks]) => `<div class="mission-item"><b>${subjectIcon[id]}</b><span><strong>${subjectName(id)}</strong><small>${blocks.map((item) => item.title).join(" · ")}</small></span><i>${blocks.length} LECTURES</i></div>`).join("") : `<div class="mission-item"><b>🏆</b><span><strong>${week.phaseName}</strong><small>Full-syllabus revision, timed practice and analysis</small></span><i>ACTIVE</i></div>`;
   const upcoming = state.catalog.tests.filter((test) => new Date(`${test.date}T23:59:59+05:30`) >= new Date()).slice(0, 3);
   const shown = upcoming.length ? upcoming : state.catalog.tests.slice(0, 3);
   $("upcomingTests").innerHTML = shown.map((test) => `<div class="compact-item"><b>${subjectIcon[test.subjectId]}</b><span><strong>${test.subject}</strong><small>${dateText(test.date)} · ${test.id}</small></span><i>${test.status.toUpperCase()}</i></div>`).join("");
@@ -66,7 +66,7 @@ function renderCalendar(view = "list") {
   const host = $("calendarContent");
   if (view === "list") {
     host.className = "calendar-list";
-    host.innerHTML = state.catalog.weeks.map((week) => `<details class="calendar-week" ${week.week === state.currentWeek.week ? "open" : ""}><summary><b class="week-number">W${String(week.week).padStart(2, "0")}</b><span><strong>${dateText(week.startDate)} – ${dateText(week.endDate)}</strong><small>${week.phaseName}</small></span><i class="phase-badge">${week.phaseCode}</i></summary><div class="week-body">${Object.entries(week.teaching || {}).map(([id, chapters]) => `<div class="subject-plan"><strong>${subjectIcon[id]} ${subjectName(id)}</strong><span>${chapters.map((chapter) => chapter.name).join(" · ") || "Revision"}</span></div>`).join("")}<div class="subject-plan"><strong>🗣️ Languages</strong><span>Telugu: ${week.languagePlan.telugu}<br>Hindi: ${week.languagePlan.hindi}<br>English: ${week.languagePlan.english}</span></div></div></details>`).join("");
+    host.innerHTML = state.catalog.weeks.map((week) => `<details class="calendar-week" ${week.week === state.currentWeek.week ? "open" : ""}><summary><b class="week-number">W${String(week.week).padStart(2, "0")}</b><span><strong>${dateText(week.startDate)} – ${dateText(week.endDate)}</strong><small>${week.phaseName}${week.focusSubjects?.length ? ` · Focus: ${week.focusSubjects.map(subjectName).join(" + ")}` : ""}</small></span><i class="phase-badge">${week.phaseCode}</i></summary><div class="week-body">${Object.entries(week.teachingBlocks || {}).map(([id, blocks]) => `<div class="subject-plan"><strong>${subjectIcon[id]} ${subjectName(id)}</strong><span>${blocks.map((item) => item.title).join(" · ")}</span></div>`).join("")}${(week.lectures || []).length ? `<div class="lecture-dates"><strong>▶ YouTube release plan</strong>${week.lectures.map((lecture) => `<span>${dateText(lecture.publicationDate)} · ${lecture.subject}: ${lecture.title}</span>`).join("")}</div>` : ""}<div class="subject-plan"><strong>🗣️ Languages</strong><span>Telugu: ${week.languagePlan.telugu}<br>Hindi: ${week.languagePlan.hindi}<br>English: ${week.languagePlan.english}</span></div></div></details>`).join("");
   } else if (view === "calendar") {
     host.className = "calendar-month";
     host.innerHTML = state.catalog.tests.map((test) => `<article class="calendar-day"><b>${dateText(test.date)}</b><small>${test.subject}</small><small>${test.phaseCode} · ${test.day}</small></article>`).join("");
@@ -79,8 +79,8 @@ function renderCalendar(view = "list") {
 function setupCalendarViews() { document.querySelectorAll("[data-calendar-view]").forEach((button) => button.onclick = () => { document.querySelectorAll("[data-calendar-view]").forEach((item) => item.classList.toggle("active", item === button)); renderCalendar(button.dataset.calendarView); }); }
 
 function renderJourney() {
-  const chapters = Object.entries(state.currentWeek.teaching || {}).flatMap(([subjectId, list]) => list.map((chapter) => ({ subjectId, chapter })));
-  $("lectureJourney").innerHTML = (chapters.length ? chapters : Object.values(state.catalog.subjects).map((subject) => ({ subjectId: subject.id, chapter: { name: `${subject.name} full-syllabus revision` } }))).map(({ subjectId, chapter }) => `<article class="journey-card"><div class="video">${subjectIcon[subjectId]} ▶</div><span class="status">COMING SOON</span><h3>${chapter.name}</h3><p>Concept lecture → examples → textbook questions → answer writing → revision.</p><div class="resource-links"><span>Chapter notes</span><span>Revision sheet</span><span>Free practice</span><span>Easy DPP</span><span>Medium DPP</span><span>Hard DPP</span></div></article>`).join("");
+  const lectures = state.currentWeek.lectures || [];
+  $("lectureJourney").innerHTML = lectures.length ? lectures.map((lecture) => `<article class="journey-card"><div class="video">${subjectIcon[lecture.subjectId]} ▶</div><span class="status">${lecture.youtubeUrl ? "LIVE" : `SCHEDULED · ${dateText(lecture.publicationDate)}`}</span><h3>${lecture.title}</h3><p>${lecture.subject} · Concept lecture → examples → textbook questions → answer writing → revision.</p>${lecture.youtubeUrl ? `<a class="watch-link" href="${lecture.youtubeUrl}" target="_blank" rel="noopener">WATCH ON YOUTUBE</a>` : `<span class="coming-link">YouTube link will appear after publication</span>`}<div class="resource-links"><span>Chapter notes</span><span>Revision sheet</span><span>Free practice</span><span>Easy DPP</span><span>Medium DPP</span><span>Hard DPP</span></div></article>`).join("") : `<div class="empty-state"><strong>${state.currentWeek.phaseName}</strong><p>Revision and mock-examination lesson releases will be announced here with their actual YouTube links.</p></div>`;
 }
 
 function setupFilters() {
@@ -94,10 +94,38 @@ function renderBundles() {
   $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => {
     const resources = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id && !state.entitlements.has(dpp.id));
     const purchasable = resources.filter(isPurchasableResource);
-    const price = calculateDppCart(resources);
-    return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${resources.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p>${formatRupees(price.subtotalPaise)} − ${price.discountPercentage}% = <strong>${formatRupees(price.totalPaise)}</strong></p><button data-bundle="${subject.id}" ${purchasable.length !== resources.length || !resources.length ? "disabled" : ""}>BUY ALL DPPs FOR THIS SUBJECT</button></article>`;
+    const price = calculateMission600Cart(resources);
+    return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${resources.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>${formatRupees(price.totalPaise)}</strong> · No DPP-only discount</p><button data-bundle="${subject.id}" ${purchasable.length !== resources.length || !resources.length ? "disabled" : ""}>BUY ALL DPPs FOR THIS SUBJECT</button></article>`;
   }).join("");
   document.querySelectorAll("[data-bundle]").forEach((button) => button.onclick = () => { state.catalog.dpps.filter((dpp) => dpp.subjectId === button.dataset.bundle && isPurchasableResource(dpp) && !state.entitlements.has(dpp.id)).forEach((dpp) => state.cart.set(dpp.id, dpp)); renderCart(); });
+}
+
+function bundleResources(kind) { return state.catalog[kind === "dpp" ? "dpps" : "tests"].filter((item) => !state.entitlements.has(item.id)); }
+function cartPricing(items = [...state.cart.values()]) {
+  return calculateMission600Cart(items, {
+    requiredDppIds: bundleResources("dpp").map((item) => item.id),
+    requiredTestIds: bundleResources("test").map((item) => item.id),
+  });
+}
+function addCollectionToCart(kind) {
+  bundleResources(kind).filter(isPurchasableResource).forEach((item) => state.cart.set(item.id, { ...item, kind }));
+  renderCart();
+}
+function collectionReady(kind) {
+  const resources = bundleResources(kind);
+  return resources.length > 0 && resources.every(isPurchasableResource);
+}
+function renderProgrammeBundles() {
+  const dpps = bundleResources("dpp"), tests = bundleResources("test");
+  const dppTotal = dpps.reduce((sum, item) => sum + item.pricePaise, 0);
+  const testTotal = tests.reduce((sum, item) => sum + item.pricePaise, 0);
+  const combined = calculateMission600Cart([...dpps.map((item) => ({ ...item, kind: "dpp" })), ...tests.map((item) => ({ ...item, kind: "test" }))], { requiredDppIds: dpps.map((item) => item.id), requiredTestIds: tests.map((item) => item.id) });
+  const dppReady = collectionReady("dpp"), testReady = collectionReady("test");
+  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">COMPLETE DPP COLLECTION</span><h3>All ${dpps.length} unowned DPPs</h3><p><strong>${formatRupees(dppTotal)}</strong> · No standalone discount</p><button data-all-dpps ${!dppReady ? "disabled" : ""}>${dppReady ? "ADD ALL DPPs TO CART" : "COMPLETE COLLECTION COMING SOON"}</button></article><article class="bundle-card featured-bundle"><span class="eyebrow">BEST COMPLETE COMBINATION</span><h3>All DPPs + Complete Test Series</h3><p>${formatRupees(dppTotal + testTotal)} − ${formatRupees(combined.discountPaise)} = <strong>${formatRupees(combined.totalPaise)}</strong><br>10% off, maximum ₹100</p><button data-combined ${!(dppReady && testReady) ? "disabled" : ""}>${dppReady && testReady ? "ADD COMPLETE COMBINATION" : "COMPLETE COMBINATION COMING SOON"}</button></article>`;
+  $("testSeriesBundle").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">COMPLETE WRITTEN TEST SERIES</span><h3>All ${tests.length} unowned tests</h3><p><strong>${formatRupees(testTotal)}</strong> · Tests remain ₹9 each</p><button data-all-tests ${!testReady ? "disabled" : ""}>${testReady ? "ADD COMPLETE TEST SERIES" : "COMPLETE SERIES COMING SOON"}</button></article>`;
+  document.querySelector("[data-all-dpps]").onclick = () => addCollectionToCart("dpp");
+  document.querySelector("[data-all-tests]").onclick = () => addCollectionToCart("test");
+  document.querySelector("[data-combined]").onclick = () => { addCollectionToCart("dpp"); addCollectionToCart("test"); };
 }
 
 function renderDpps() {
@@ -112,23 +140,25 @@ function renderTests() {
   const tests = state.catalog.tests.filter((test) => (phase === "all" || test.phaseCode === phase) && (subject === "all" || test.subjectId === subject));
   $("testStore").innerHTML = tests.map((test) => {
     const owned = state.entitlements.has(test.id), ready = isPurchasableResource({ ...test, kind: "test" });
-    return `<article class="test-card"><div class="test-date"><small>${test.day}</small><strong>${new Date(`${test.date}T12:00:00+05:30`).getDate()}</strong><small>${dateText(test.date).split(" ")[1]}</small></div><div><span class="test-code">${test.id}</span><h3>${test.name}</h3><p>${test.maximumMarks} marks · ${test.durationMinutes} minutes · ${test.difficulty}</p>${!ready ? `<span class="draft-note">Draft — question paper, answer key and rubric not yet published</span>` : ""}</div><div><strong>${formatRupees(test.pricePaise)}</strong><button data-test-action="${test.id}" ${!ready && !owned ? "disabled" : ""}>${owned ? "OPEN TEST" : ready ? "BUY TEST" : "COMING SOON"}</button><small class="test-payment-message"></small></div></article>`;
+    return `<article class="test-card"><div class="test-date"><small>${test.day}</small><strong>${new Date(`${test.date}T12:00:00+05:30`).getDate()}</strong><small>${dateText(test.date).split(" ")[1]}</small></div><div><span class="test-code">${test.id}</span><h3>${test.name}</h3><p>${test.maximumMarks} marks · ${test.durationMinutes} minutes · ${test.difficulty}</p>${!ready ? `<span class="draft-note">Draft — question paper, answer key and rubric not yet published</span>` : ""}</div><div><strong>${formatRupees(test.pricePaise)}</strong><button data-test-action="${test.id}" ${!ready && !owned ? "disabled" : ""}>${owned ? "OPEN TEST" : ready ? "ADD TEST TO CART" : "COMING SOON"}</button><small class="test-payment-message"></small></div></article>`;
   }).join("");
   document.querySelectorAll("[data-test-action]").forEach((button) => button.onclick = async () => {
     const test = state.catalog.tests.find((item) => item.id === button.dataset.testAction);
     if (state.entitlements.has(test.id)) { location.href = `mission600-submit.html?test=${encodeURIComponent(test.id)}`; return; }
-    await startCheckout([{ ...test, kind: "test" }], button, button.parentElement.querySelector(".test-payment-message"));
+    state.cart.set(test.id, { ...test, kind: "test" }); renderCart();
   });
 }
 
 function renderCart() {
   const items = [...state.cart.values()];
-  const pricing = calculateDppCart(items);
-  $("cartCount").textContent = items.length; $("cartItemCount").textContent = pricing.itemCount; $("cartChapters").textContent = pricing.distinctChapterCount;
-  $("cartSubtotal").textContent = formatRupees(pricing.subtotalPaise); $("cartDiscount").textContent = `−${formatRupees(pricing.discountPaise)} (${pricing.discountPercentage}%)`; $("cartTotal").textContent = formatRupees(pricing.totalPaise);
-  $("cartItems").innerHTML = items.length ? items.map((item) => `<div class="cart-item"><span><strong>${item.title}</strong><small>${item.id} · ${formatRupees(item.pricePaise)}</small></span><button data-remove="${item.id}" aria-label="Remove">×</button></div>`).join("") : `<div class="empty-state">Your DPP cart is empty.</div>`;
+  const pricing = cartPricing(items);
+  $("cartCount").textContent = items.length; $("cartItemCount").textContent = pricing.dppCount; $("cartTests").textContent = pricing.testCount;
+  $("cartSubtotal").textContent = formatRupees(pricing.subtotalPaise); $("cartDiscount").textContent = pricing.combinedBundleDiscountApplied ? `−${formatRupees(pricing.discountPaise)} (10%)` : "₹0.00"; $("cartTotal").textContent = formatRupees(pricing.totalPaise);
+  $("cartItems").innerHTML = items.length ? items.map((item) => `<div class="cart-item"><span><strong>${item.title || item.name}</strong><small>${item.id} · ${formatRupees(item.pricePaise)}</small></span><button data-remove="${item.id}" aria-label="Remove">×</button></div>`).join("") : `<div class="empty-state">Your Mission 600 cart is empty.</div>`;
   document.querySelectorAll("[data-remove]").forEach((button) => button.onclick = () => { state.cart.delete(button.dataset.remove); renderCart(); });
   const eligible = items.length && items.every(isPurchasableResource);
+  $("discountRow").classList.toggle("applied", pricing.combinedBundleDiscountApplied);
+  $("discountLabel").textContent = pricing.combinedBundleDiscountApplied ? "Complete-combination discount" : "Discount";
   $("checkoutButton").disabled = !eligible; $("checkoutButton").textContent = eligible ? `PAY ${formatRupees(pricing.totalPaise)} SECURELY` : "CHECKOUT UNAVAILABLE";
 }
 
@@ -180,7 +210,7 @@ async function initializeForUser(user) {
   state.submissions = submissionSnapshot ? submissionSnapshot.docs.map((item) => ({ id: item.id, ...item.data() })) : [];
   $("welcomeTitle").textContent = `${state.profile.name || user.displayName || "Student"}, this is your Mission 600.`;
   $("logoutButton").onclick = async () => { await signOut(getAuth()); location.replace("login.html"); };
-  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); renderNotice(); setupNavigation(); setupCalendarViews(); setupFilters(); setupCart(); renderDashboard(); renderCalendar(); renderJourney(); renderBundles(); renderDpps(); renderTests(); renderCart(); renderPrivateModules(); document.documentElement.classList.remove("auth-check");
+  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); renderNotice(); setupNavigation(); setupCalendarViews(); setupFilters(); setupCart(); renderDashboard(); renderCalendar(); renderJourney(); renderProgrammeBundles(); renderBundles(); renderDpps(); renderTests(); renderCart(); renderPrivateModules(); document.documentElement.classList.remove("auth-check");
 }
 
 const app = initializeApp(firebaseConfig);

@@ -1,31 +1,44 @@
 export const MISSION600_PRICING = Object.freeze({
   dppPaise: 200,
   writtenTestPaise: 900,
-  discountPerChapter: 3,
-  maximumDiscount: 30,
+  combinedBundleDiscountPercent: 10,
+  combinedBundleMaximumDiscountPaise: 10000,
 });
 
 export function distinctChapterCount(items = []) {
   return new Set(items.filter((item) => item?.kind === "dpp").map((item) => `${item.subjectId}:${item.chapterId}`)).size;
 }
 
-export function calculateDppCart(items = []) {
-  const eligible = items.filter((item) => item?.kind === "dpp" && Number.isInteger(item.pricePaise) && item.pricePaise >= 0);
+export function calculateMission600Cart(items = [], options = {}) {
+  const eligible = items.filter((item) => ["dpp", "test"].includes(item?.kind) && Number.isInteger(item.pricePaise) && item.pricePaise >= 0);
   const subtotalPaise = eligible.reduce((total, item) => total + item.pricePaise, 0);
-  const chapters = distinctChapterCount(eligible);
-  const discountPercentage = Math.min(MISSION600_PRICING.discountPerChapter * chapters, MISSION600_PRICING.maximumDiscount);
-  // Integer paise, half-up: add half the denominator before integer division.
-  const discountPaise = Math.floor((subtotalPaise * discountPercentage + 50) / 100);
+  const dppIds = new Set(eligible.filter((item) => item.kind === "dpp").map((item) => item.id));
+  const testIds = new Set(eligible.filter((item) => item.kind === "test").map((item) => item.id));
+  const requiredDppIds = [...new Set(options.requiredDppIds || [])];
+  const requiredTestIds = [...new Set(options.requiredTestIds || [])];
+  const completeDppCollection = requiredDppIds.length > 0 && requiredDppIds.every((id) => dppIds.has(id));
+  const completeTestSeries = requiredTestIds.length > 0 && requiredTestIds.every((id) => testIds.has(id));
+  const combinedBundleDiscountApplied = completeDppCollection && completeTestSeries;
+  const discountPercentage = combinedBundleDiscountApplied ? MISSION600_PRICING.combinedBundleDiscountPercent : 0;
+  const percentageDiscountPaise = Math.floor((subtotalPaise * discountPercentage + 50) / 100);
+  const discountPaise = Math.min(percentageDiscountPaise, MISSION600_PRICING.combinedBundleMaximumDiscountPaise);
   return {
     itemCount: eligible.length,
-    distinctChapterCount: chapters,
+    dppCount: dppIds.size,
+    testCount: testIds.size,
+    distinctChapterCount: distinctChapterCount(eligible),
     subtotalPaise,
     discountPercentage,
     discountPaise,
     totalPaise: subtotalPaise - discountPaise,
+    combinedBundleDiscountApplied,
+    discountLabel: combinedBundleDiscountApplied ? "Complete DPP + Test Series bundle" : "No discount",
     roundingPolicy: "All prices are stored in paise; percentage discounts round half-up to the nearest paisa.",
   };
 }
+
+// Kept as a compatibility alias for older callers. DPP-only carts now receive no discount.
+export const calculateDppCart = calculateMission600Cart;
 
 export function formatRupees(paise = 0) {
   return new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR", minimumFractionDigits: 2 }).format(paise / 100);
