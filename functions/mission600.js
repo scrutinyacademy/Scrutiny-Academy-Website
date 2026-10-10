@@ -7,6 +7,10 @@ const db = getFirestore();
 const REGION = "asia-south1";
 const CURRENCY = "INR";
 const MINIMUM_ORDER_PAISE = 100;
+const EXPECTED_DPP_COUNT = 171;
+const EXPECTED_TEST_COUNT = 34;
+const COMBINED_DISCOUNT_PERCENT = 10;
+const COMBINED_DISCOUNT_CAP_PAISE = 10000;
 const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
 const RAZORPAY_WEBHOOK_SECRET = defineSecret("RAZORPAY_WEBHOOK_SECRET");
@@ -29,15 +33,15 @@ async function razorpayRequest(path, options = {}) {
   return body;
 }
 
-function calculateOrder(resources) {
+function calculateOrder(resources, combinedBundleEligible = false) {
   const dpps = resources.filter((item) => item.kind === "dpp");
   const other = resources.filter((item) => item.kind !== "dpp");
-  const distinct = new Set(dpps.map((item) => `${item.subjectId}:${item.chapterId}`)).size;
-  const discountPercentage = Math.min(3 * distinct, 30);
   const dppSubtotalPaise = dpps.reduce((sum, item) => sum + item.pricePaise, 0);
   const nonDppSubtotalPaise = other.reduce((sum, item) => sum + item.pricePaise, 0);
-  const discountPaise = Math.floor((dppSubtotalPaise * discountPercentage + 50) / 100);
-  return { subtotalPaise: dppSubtotalPaise + nonDppSubtotalPaise, dppSubtotalPaise, nonDppSubtotalPaise, distinctChapterCount: distinct, discountPercentage, discountPaise, totalPaise: dppSubtotalPaise + nonDppSubtotalPaise - discountPaise };
+  const subtotalPaise = dppSubtotalPaise + nonDppSubtotalPaise;
+  const discountPercentage = combinedBundleEligible ? COMBINED_DISCOUNT_PERCENT : 0;
+  const discountPaise = combinedBundleEligible ? Math.min(Math.floor((subtotalPaise * discountPercentage + 50) / 100), COMBINED_DISCOUNT_CAP_PAISE) : 0;
+  return { subtotalPaise, dppSubtotalPaise, nonDppSubtotalPaise, dppCount: dpps.length, testCount: other.length, discountPercentage, discountPaise, combinedBundleDiscountApplied: combinedBundleEligible, totalPaise: subtotalPaise - discountPaise };
 }
 
 async function requireClass10(uid) {
@@ -50,17 +54,34 @@ async function requireClass10(uid) {
 }
 
 async function validatedResources(uid, resourceIds) {
-  if (!Array.isArray(resourceIds) || resourceIds.length < 1 || resourceIds.length > 200) throw new HttpsError("invalid-argument", "Choose between 1 and 200 resources.");
+  if (!Array.isArray(resourceIds) || resourceIds.length < 1 || resourceIds.length > 250) throw new HttpsError("invalid-argument", "Choose between 1 and 250 resources.");
   const unique = [...new Set(resourceIds.map(String))];
   if (unique.length !== resourceIds.length || unique.some((id) => !/^SA-(DPP|M600)-[A-Z0-9-]+$/.test(id))) throw new HttpsError("invalid-argument", "Resource selection is invalid.");
   const refs = unique.map((id) => db.doc(`${id.startsWith("SA-DPP-") ? "mission600DPPs" : "mission600Tests"}/${id}`));
   const entitlementRefs = unique.map((id) => db.doc(`mission600Entitlements/${entitlementId(uid, id)}`));
   const [resourceSnaps, entitlementSnaps] = await Promise.all([db.getAll(...refs), db.getAll(...entitlementRefs)]);
   const alreadyOwned = new Set(entitlementSnaps.filter((snap) => snap.exists && snap.data().status === "active").map((snap) => snap.data().resourceId));
-  const resources = resourceSnaps.filter((snap) => snap.exists).map((snap) => ({ id: snap.id, ...snap.data() })).filter((item) => !alreadyOwned.has(item.id));
+  const resources = resourceSnaps.filter((snap) => snap.exists).map((snap) => ({ ...snap.data(), id: snap.id, kind: snap.id.startsWith("SA-DPP-") ? "dpp" : "test" })).filter((item) => !alreadyOwned.has(item.id));
   if (resources.length !== unique.filter((id) => !alreadyOwned.has(id)).length) throw new HttpsError("failed-precondition", "One or more resources are unavailable.");
   if (resources.some((item) => item.status !== "published" || item.contentComplete !== true || item.purchaseEnabled !== true || !Number.isInteger(item.pricePaise))) throw new HttpsError("failed-precondition", "One or more resources are not ready for purchase.");
   return { resources, alreadyOwned: [...alreadyOwned] };
+}
+
+async function qualifiesForCompleteCombination(uid, resources) {
+  const [dppSnapshot, testSnapshot, entitlementSnapshot] = await Promise.all([
+    db.collection("mission600DPPs").get(),
+    db.collection("mission600Tests").get(),
+    db.collection("mission600Entitlements").where("uid", "==", uid).get(),
+  ]);
+  if (dppSnapshot.size !== EXPECTED_DPP_COUNT || testSnapshot.size !== EXPECTED_TEST_COUNT) return false;
+  const ready = (snapshot) => snapshot.docs.every((doc) => {
+    const item = doc.data();
+    return item.status === "published" && item.contentComplete === true && item.purchaseEnabled === true && Number.isInteger(item.pricePaise);
+  });
+  if (!ready(dppSnapshot) || !ready(testSnapshot)) return false;
+  const owned = new Set(entitlementSnapshot.docs.filter((doc) => doc.data().status === "active").map((doc) => doc.data().resourceId));
+  const selected = new Set(resources.map((item) => item.id));
+  return [...dppSnapshot.docs, ...testSnapshot.docs].every((doc) => owned.has(doc.id) || selected.has(doc.id));
 }
 
 async function fulfillOrder(orderId, paymentId, source) {
@@ -96,7 +117,8 @@ exports.createMission600Order = onCall({ region: REGION, secrets: [RAZORPAY_KEY_
   }
   const { resources, alreadyOwned } = await validatedResources(uid, request.data?.resourceIds);
   if (!resources.length) return { active: true, alreadyOwned };
-  const pricing = calculateOrder(resources);
+  const combinedBundleEligible = await qualifiesForCompleteCombination(uid, resources);
+  const pricing = calculateOrder(resources, combinedBundleEligible);
   if (pricing.totalPaise < MINIMUM_ORDER_PAISE) throw new HttpsError("failed-precondition", `Razorpay cannot process this order because the payable amount is below ₹${(MINIMUM_ORDER_PAISE / 100).toFixed(2)}. Add another eligible DPP or contact support; the price will not be silently increased.`);
   await orderRef.create({ uid, clientRequestId: request.data.clientRequestId, resourceIds: resources.map((item) => item.id), resources: resources.map((item) => ({ id: item.id, kind: item.kind, subjectId: item.subjectId || null, chapterId: item.chapterId || null, pricePaise: item.pricePaise })), pricing, currency: CURRENCY, status: "creating", createdAt: FieldValue.serverTimestamp(), updatedAt: FieldValue.serverTimestamp() });
   try {
