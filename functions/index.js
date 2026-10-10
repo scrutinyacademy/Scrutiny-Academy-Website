@@ -51,6 +51,7 @@ const RAZORPAY_KEY_ID = defineSecret("RAZORPAY_KEY_ID");
 const RAZORPAY_KEY_SECRET = defineSecret("RAZORPAY_KEY_SECRET");
 const RAZORPAY_WEBHOOK_SECRET = defineSecret("RAZORPAY_WEBHOOK_SECRET");
 const GMAIL_APP_PASSWORD = defineSecret("GMAIL_APP_PASSWORD");
+const FOUNDER_EMAILS = new Set(["scrutinyacademy@gmail.com", "iampramodsharma02@gmail.com"]);
 
 async function studentOfferStatus() {
   const paid = await db.collection("students").where("paymentStatus", "==", "verified").get();
@@ -881,6 +882,53 @@ exports.syncKotaChapterPayment = onCall(
     if (!captured) return { active: false };
     const purchase = await activateStudent({ uid, orderId, paymentId: captured.id, source: "reconciliation" });
     return { active: true, chapterIds, purchase };
+  },
+);
+
+exports.setNeetssComplimentaryAccess = onCall(
+  { region: REGION, enforceAppCheck: false },
+  async (request) => {
+    const email = String(request.auth?.token?.email || "").toLowerCase();
+    if (!request.auth || (request.auth.token.founder !== true && !FOUNDER_EMAILS.has(email))) {
+      throw new HttpsError("permission-denied", "Founder access is required.");
+    }
+    const uid = String(request.data?.uid || "").trim();
+    const active = request.data?.active !== false;
+    if (!/^[A-Za-z0-9_-]{20,128}$/.test(uid)) {
+      throw new HttpsError("invalid-argument", "A valid Firebase student UID is required.");
+    }
+    const studentRef = db.doc(`students/${uid}`);
+    const requestRef = db.doc(`neetssAccessRequests/${uid}`);
+    await db.runTransaction(async (transaction) => {
+      const snapshot = await transaction.get(studentRef);
+      if (!snapshot.exists) throw new HttpsError("not-found", "Student profile not found.");
+      const profile = snapshot.data();
+      const entitlement = {
+        courseId: "neetss",
+        courseName: "NEET-SS Surgery — Super Speciality Mastery",
+        status: active ? "active" : "revoked",
+        complimentary: true,
+        validityCode: "NEETSS_2026_2027",
+        validityLabel: "NEET-SS 2026–2027 cycle",
+        updatedAt: FieldValue.serverTimestamp(),
+        ...(active ? { activatedAt: FieldValue.serverTimestamp(), activatedBy: request.auth.uid } : { revokedAt: FieldValue.serverTimestamp(), revokedBy: request.auth.uid }),
+      };
+      const update = {
+        courseEntitlements: { ...(profile.courseEntitlements || {}), neetss: entitlement },
+        updatedAt: FieldValue.serverTimestamp(),
+      };
+      if (active) {
+        update.accessStatus = "active";
+        update.activeCourse = "neetss";
+        update.enrolledCourses = FieldValue.arrayUnion("neetss");
+      } else {
+        const otherActive = Object.entries(profile.courseEntitlements || {}).some(([id, value]) => id !== "neetss" && value?.status === "active");
+        if (!otherActive && profile.purchasedCourse !== "neetss") update.accessStatus = "pending";
+      }
+      transaction.update(studentRef, update);
+      transaction.set(requestRef, { uid, courseId: "neetss", status: active ? "approved" : "revoked", reviewedBy: request.auth.uid, updatedAt: FieldValue.serverTimestamp() }, { merge: true });
+    });
+    return { uid, active };
   },
 );
 

@@ -36,7 +36,7 @@ function updateCourseSelection(){
     const class6Pricing=class6Price(selectedClass6Subjects(),class6Months?.value);
     const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,studentOfferActive);
     selectionSummary.hidden=false;
-    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price}`}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
+    selectionSummary.innerHTML=`<strong>${course.name} · ${course.inviteOnly?'Complimentary access request':isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price}`}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
@@ -47,7 +47,7 @@ function updateOfferPresentation(status={active:true,remaining:100,limit:100}){
   Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
     const price=currentCoursePrice(id,studentOfferActive);
     const option=courseSelect?.querySelector(`option[value="${id}"]`);
-    if(option) option.textContent=id==='class6' ? `${course.name} — ₹69 per subject/month` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
+    if(option) option.textContent=course.inviteOnly ? `${course.name} — Complimentary access request` : id==='class6' ? `${course.name} — ₹69 per subject/month` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
     const card=document.querySelector(`[data-offer-card="${id}"]`);
     if(!card) return;
     card.classList.toggle('offer-ended',!studentOfferActive && id!=='class6');
@@ -95,6 +95,7 @@ if(!configured){
       const profile=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(user,true)).claims.founder===true;
       if(profile.accessStatus==='active'||founder) location.replace('student.html');
+      else if(profile.requestedCourse==='neetss') location.replace('neetss-surgery.html?request=1');
       else if(location.pathname.endsWith('login.html') || /\/$/.test(location.pathname) || location.pathname.endsWith('index.html')) location.replace('payment.html');
     } catch (err) {
       console.error('Scrutiny Academy profile check failed:', err);
@@ -108,7 +109,7 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(cred.user,true)).claims.founder===true;
-      if(p.accessStatus==='active'||founder) location.replace('student.html'); else location.replace('payment.html');
+      if(p.accessStatus==='active'||founder) location.replace('student.html'); else if(p.requestedCourse==='neetss') location.replace('neetss-surgery.html?request=1'); else location.replace('payment.html');
     }catch(err){ authActionInProgress=false; msg(friendly(err),'error'); console.error(err); }
   });
 
@@ -145,12 +146,12 @@ if(!configured){
         createdAt:serverTimestamp(),
         updatedAt:serverTimestamp()
       });
-      msg('Account created. Continue to secure payment to unlock your selected course.','success');
+      msg(activeCourse==='neetss'?'Account created. Your complimentary NEET-SS access request is ready for Founder review.':'Account created. Continue to secure payment to unlock your selected course.','success');
       const paymentQuery = new URLSearchParams({ course: activeCourse });
       if (selectedNeetYear) paymentQuery.set('exam', selectedNeetYear);
       if (selectedSubjects.length) paymentQuery.set('subjects', selectedSubjects.join(','));
       if (selectedMonths) paymentQuery.set('months', String(selectedMonths));
-      location.replace(`payment.html?${paymentQuery}`);
+      location.replace(activeCourse==='neetss'?'neetss-surgery.html?request=1':`payment.html?${paymentQuery}`);
     }catch(err){
       authActionInProgress=false;
       console.error('Scrutiny Academy registration failed:',err);

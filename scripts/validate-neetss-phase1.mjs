@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+
+const read=file=>fs.readFileSync(new URL(`../${file}`,import.meta.url),'utf8');
+const html=read('neetss-surgery.html');
+const js=read('neetss-surgery.js');
+const css=read('neetss-surgery.css');
+const auth=read('auth.js');
+const index=read('index.html');
+const rules=read('firestore.rules');
+const backend=read('functions/index.js');
+const student=read('student.js');
+
+for(const id of ['overview','official-pattern','workspace','curriculum','learningModules','mcq-practice','clinical-cases','flashcards','mistake-book','analytics']) assert.ok(html.includes(`id="${id}"`),`missing ${id}`);
+assert.ok(html.includes('11–12 DEC 2026'));
+assert.ok(html.includes('three locked sections of 50 questions/50 minutes'));
+assert.ok(index.includes('value="neetss"'));
+assert.ok(index.includes('data-offer-card="neetss"'));
+assert.ok(auth.includes("activeCourse==='neetss'"));
+assert.ok(student.includes('neetss-surgery.html'));
+assert.ok(rules.includes('function hasNeetssAccess()'));
+assert.ok(rules.includes('match /neetssProgress/{uid}'));
+assert.ok(rules.includes("request.resource.data.requestedCourse == 'neetss'"));
+assert.ok(backend.includes('exports.setNeetssComplimentaryAccess'));
+assert.equal((js.match(/q:'/g)||[]).length,12,'starter question count must remain explicit and reviewed');
+assert.ok((js.match(/\['[^']+','[^']+'\]/g)||[]).length>=18,'starter flashcard count');
+assert.ok(js.includes("topic:'Surgical Infections'"));
+assert.ok(js.includes("topic:'Trauma and Emergency Surgery'"));
+assert.ok(js.includes("topic:'General Surgical Principles'"));
+assert.ok(css.includes('@media(max-width:620px)'));
+console.log('PASS: NEET-SS Phase 1 structure, 18-domain roadmap, 3 modules, 12 MCQs, 18 flashcards, access rules and responsive CSS.');

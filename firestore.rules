@@ -2,7 +2,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
-    function isAdmin() { return signedIn() && (request.auth.token.founder == true || request.auth.token.email == 'scrutinyacademy@gmail.com'); }
+    function isAdmin() { return signedIn() && (request.auth.token.founder == true || request.auth.token.email in ['scrutinyacademy@gmail.com','iampramodsharma02@gmail.com']); }
     function isFounder() { return signedIn() && request.auth.token.founder == true; }
     function owns(uid) { return signedIn() && request.auth.uid == uid; }
     function hasClass10Access() {
@@ -22,6 +22,12 @@ service cloud.firestore {
     function hasActiveAccess() {
       return signedIn() && (isAdmin() || get(/databases/$(database)/documents/students/$(request.auth.uid)).data.accessStatus == 'active');
     }
+    function hasNeetssAccess() {
+      let student = get(/databases/$(database)/documents/students/$(request.auth.uid)).data;
+      return signedIn() && (isAdmin() || (student.courseEntitlements is map
+        && 'neetss' in student.courseEntitlements
+        && student.courseEntitlements.neetss.status == 'active'));
+    }
 
     match /students/{uid} {
       allow create: if signedIn()
@@ -30,7 +36,7 @@ service cloud.firestore {
         && request.resource.data.role == 'student'
         && request.resource.data.accessStatus == 'pending'
         && request.resource.data.paymentStatus == 'not_submitted'
-        && request.resource.data.requestedCourse in ['class6','class8','class10','class11','class12','neet','jee','mbbs']
+        && request.resource.data.requestedCourse in ['class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']
         && request.resource.data.activeCourse == request.resource.data.requestedCourse
         && request.resource.data.enrolledCourses is list
         && request.resource.data.enrolledCourses.size() == 0
@@ -52,6 +58,7 @@ service cloud.firestore {
           || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice in [149,745])
           || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice in [799,3995])
           || (request.resource.data.requestedCourse == 'jee' && request.resource.data.accessPrice in [499,2495])
+          || (request.resource.data.requestedCourse == 'neetss' && request.resource.data.accessPrice == 0)
           || (request.resource.data.requestedCourse == 'neet'
             && request.resource.data.accessPrice in [99,495,499]
             && request.resource.data.neetExamYear in ['2027','2028']));
@@ -122,6 +129,29 @@ service cloud.firestore {
     match /paymentRequests/{requestId} {
       allow read: if signedIn() && (resource.data.uid == request.auth.uid || isAdmin());
       allow create, update, delete: if false;
+    }
+
+    match /neetssAccessRequests/{uid} {
+      allow read: if owns(uid) || isAdmin();
+      allow create, update: if owns(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.courseId == 'neetss'
+        && request.resource.data.status == 'pending'
+        && request.resource.data.keys().hasOnly(['uid','courseId','status','requestedAt','updatedAt']);
+      allow delete: if isAdmin();
+    }
+
+    match /neetssProgress/{uid} {
+      allow read: if owns(uid) || isAdmin();
+      allow create, update: if owns(uid) && hasNeetssAccess()
+        && request.resource.data.uid == uid
+        && request.resource.data.keys().hasOnly(['uid','schemaVersion','completedModules','flashcards','bookmarks','attempts','mistakes','studyPlan','updatedAt']);
+      allow delete: if false;
+    }
+
+    match /neetssCourseContent/{document=**} {
+      allow read: if hasNeetssAccess();
+      allow write: if isFounder();
     }
 
     // Authenticated students can see the learning leaderboard. Each student can write only their own row.

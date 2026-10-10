@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
-import { COURSE_CATALOG, entitledCourses } from '../course-catalog.js';
+import { COURSE_CATALOG, currentCoursePrice, entitledCourses } from '../course-catalog.js';
 
 const root=path.resolve(import.meta.dirname,'..');
 const read=(file)=>fs.readFileSync(path.join(root,file),'utf8');
@@ -12,7 +12,7 @@ const paymentHtml=read('payment.html');
 const backend=read('functions/index.js');
 const courseIds=Object.keys(COURSE_CATALOG);
 
-assert.deepEqual(courseIds,['class6','class8','class10','class11','class12','neet','jee','mbbs']);
+assert.deepEqual(courseIds,['class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']);
 assert.ok(studentHtml.includes('id="courseSwitchMenu"'));
 assert.ok(studentHtml.includes('id="courseSwitchList"'));
 assert.ok(studentJs.includes('Object.entries(COURSE_CATALOG)'),'Switcher must render every catalog course');
@@ -25,4 +25,6 @@ assert.ok(backend.includes('FieldValue.arrayUnion(courseId)'),'Backend must pres
 
 const multi=entitledCourses({courseEntitlements:{neet:{status:'active'},class11:{status:'active'},mbbs:{status:'pending'}}});
 assert.deepEqual(multi.sort(),['class11','neet']);
-console.log('Validated eight-course discovery, locked-course payment routes, multi-entitlement preservation, and same-account post-payment switching.');
+assert.equal(COURSE_CATALOG.neetss.inviteOnly,true);
+assert.equal(currentCoursePrice('neetss'),0);
+console.log('Validated nine-course discovery, invite-only NEET-SS access, locked-course routes, multi-entitlement preservation, and same-account switching.');

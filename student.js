@@ -33,6 +33,7 @@ const COURSE_PORTALS = {
   neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", icon: "🧬", color: "#d65328", target: "neet", description: "NCERT-focused Biology, Physics and Chemistry MCQs, PYQs and tests.", actions: [["KOTA Level Biology MCQs", "Select and unlock faculty-selected chapters for ₹9 each.", "kota"], ["NCERT Learning Arcade", "Play ten interactive NCERT mastery games.", "quest"], ["Chapter Practice", "Biology, Physics and Chemistry MCQs.", "neet"], ["Create a Test", "Build a personalised NEET test.", "neet"], ["NCERT Search", "Find indexed NCERT concepts and references.", "ncert"], ["Mistake Notebook", "Revise incorrect NEET questions.", "tools"], ["Previous Years", "Open published NEET PYQs.", "pyqs"], ["My Progress", "See only your NEET performance.", "progress"]] },
   jee: { name: "IIT-JEE", label: "ENGINEERING ENTRANCE PORTAL", icon: "⚙️", color: "#ef6c00", target: "jee.html", description: "Physics, Chemistry and Mathematics preparation for JEE Main and Advanced.", actions: [["Rigid Body & Rotational Motion", "Open the complete masterclass with 200 flashcards, 200 MCQs, formulae and JEE tricks.", "jee-rigid-body-free.html?course=jee"], ["Course Roadmap", "View the IIT-JEE subject roadmap and upcoming modules.", "jee.html#roadmap"], ["My JEE Progress", "See only your IIT-JEE learning record.", "progress"]] },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", icon: "🩺", color: "#087f87", target: "mbbs", description: "Phase-wise medical subjects, clinical learning, revision and assessments.", actions: [["MBBS Subjects", "Open the phase-wise medical subject catalogue.", "mbbs"], ["Clinical Revision", "Use your MBBS revision queue.", "tools"], ["Bookmarks", "Return to saved medical questions.", "tools"], ["My Progress", "See only your MBBS learning record.", "progress"]] },
+  neetss: { name: "NEET-SS Surgery", label: "SUPER SPECIALITY MASTERY", icon: "⚕️", color: "#008b8b", target: "neetss-surgery.html", description: "Surgical Group preparation for MS/DNB General Surgery graduates with clinical decisions, original MCQs, flashcards and analytics.", actions: [["Open NEET-SS Surgery", "Continue the Super Speciality Mastery course.", "neetss-surgery.html"], ["MCQ Practice", "Attempt original Surgical Group questions with +4/−1 scoring.", "neetss-surgery.html#mcq-practice"], ["Clinical Cases", "Work through investigation, diagnosis and management decisions.", "neetss-surgery.html#clinical-cases"], ["Smart Flashcards", "Review due and difficult cards.", "neetss-surgery.html#flashcards"], ["Performance Analytics", "Review accuracy, timing and weak domains.", "neetss-surgery.html#analytics"]] },
 };
 let activeCourse = "neet";
 let availableCourses = [];
@@ -52,6 +53,7 @@ function inferCourse(item = {}) {
 }
 
 function portalUrl(anchor, subject = "") {
+  if (activeCourse === "neetss") return anchor.startsWith("neetss-surgery.html") ? anchor : "neetss-surgery.html";
   if (activeCourse === "class6") return "class6-cbse.html";
   if (activeCourse === "class8") return anchor.startsWith("class8-ssc.html") ? anchor : "class8-ssc.html";
   if (activeCourse === "class10") return anchor.startsWith("class10-board.html") ? anchor : "class10-board.html";
@@ -100,7 +102,9 @@ function renderCourseDashboard() {
     const owned = availableCourses.includes(id);
     if (owned && id === activeCourse) return `<a class="course-card active" href="${portalUrl(item.target)}" style="--card-accent:${item.color}" aria-label="Open ${esc(item.name)}"><span>${item.icon}</span><strong>${item.name}</strong><small>OPEN CURRENT COURSE →</small></a>`;
     if (owned) return `<button type="button" class="course-card" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>SWITCH &amp; OPEN COURSE →</small></button>`;
-    return `<a class="course-card locked" href="payment.html?course=${id}" style="--card-accent:${item.color}" aria-label="Unlock ${item.name} for ₹${currentCoursePrice(id, studentOfferActive)}"><span>${item.icon}</span><strong>${item.name}</strong><small>🔒 UNLOCK FOR ₹${currentCoursePrice(id, studentOfferActive)}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
+    const lockedHref=plan.inviteOnly?"neetss-surgery.html?request=1":`payment.html?course=${id}`;
+    const lockedLabel=plan.inviteOnly?"REQUEST COMPLIMENTARY ACCESS":`🔒 UNLOCK FOR ₹${currentCoursePrice(id, studentOfferActive)}`;
+    return `<a class="course-card locked" href="${lockedHref}" style="--card-accent:${item.color}" aria-label="${esc(lockedLabel)}"><span>${item.icon}</span><strong>${item.name}</strong><small>${lockedLabel}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
   }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor, subject]) => `<a class="card big-link" href="${portalUrl(anchor, subject)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
   $("class10LectureEntry").hidden = activeCourse !== "class10";
@@ -126,13 +130,13 @@ function renderCourseSwitchMenu() {
       ? '<span class="course-menu-badge current">CURRENT</span>'
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
-        : `<span class="course-menu-price">₹${currentCoursePrice(id, studentOfferActive)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
-    const openUrl = id === "class6" ? "class6-cbse.html" : id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : `preview-v2.html?course=${id}#${portal.target}`;
+        : plan.inviteOnly ? '<span class="course-menu-price"><small>COMPLIMENTARY</small></span>' : `<span class="course-menu-price">₹${currentCoursePrice(id, studentOfferActive)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
+    const openUrl = id === "class6" ? "class6-cbse.html" : id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : id === "neetss" ? "neetss-surgery.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
       ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`
       : owned
         ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}">SWITCH</button>`
-      : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id, studentOfferActive)}">BUY COURSE</a>`;
+      : `<a class="course-menu-action buy-action" href="${plan.inviteOnly?'neetss-surgery.html?request=1':`payment.html?course=${id}`}" aria-label="${plan.inviteOnly?'Request complimentary access':`Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id, studentOfferActive)}`} ">${plan.inviteOnly?'REQUEST ACCESS':'BUY COURSE'}</a>`;
     return `<article class="course-menu-item ${current ? "active" : ""}" role="menuitem"><span class="course-menu-icon" style="--item-accent:${portal.color}">${portal.icon}</span><span class="course-menu-copy"><strong>${esc(portal.name)}</strong><small>${esc(detail)}</small></span>${status}${action}</article>`;
   }).join("");
   list.querySelectorAll("[data-switch-course]").forEach((button) => button.addEventListener("click", () => {

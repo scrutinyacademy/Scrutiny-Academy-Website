@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071c33">
+  <meta name="description" content="Scrutiny Academy NEET-SS Surgery Super Speciality Mastery course for MS/DNB General Surgery graduates.">
+  <title>NEET-SS Surgery — Super Speciality Mastery | Scrutiny Academy</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="neetss-surgery.css?v=1">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="Scrutiny Academy"><span><strong>SCRUTINY ACADEMY</strong><small>NEET-SS SURGERY 2026–2027</small></span></a>
+    <nav aria-label="Course navigation"><a href="#overview">Overview</a><a href="#curriculum">Curriculum</a><a href="#official-pattern">Exam pattern</a><a href="#workspace">Workspace</a></nav>
+    <div class="header-actions"><a class="outline" href="student.html">My Courses</a><button class="outline" id="logoutBtn" type="button" hidden>Logout</button></div>
+  </header>
+
+  <main>
+    <section class="hero" id="overview">
+      <div class="hero-copy">
+        <span class="kicker">SURGICAL GROUP · PHASE 1 FUNCTIONAL LAUNCH</span>
+        <h1>NEET-SS Surgery <em>Super Speciality Mastery</em></h1>
+        <p>Learn → Understand → Diagnose → Decide → Practise → Analyse → Master</p>
+        <div class="hero-actions"><button class="primary" id="primaryAction" type="button">CHECKING ACCESS…</button><a class="secondary" href="#official-pattern">VIEW VERIFIED EXAM PATTERN</a></div>
+        <div class="trust"><span>✓ MS/DNB General Surgery focus</span><span>✓ Original practice questions</span><span>✓ Guideline dates shown</span><span>✓ No fabricated PYQ labels</span></div>
+      </div>
+      <aside class="exam-card"><span>NBEMS 2026 STATUS</span><strong>11–12 DEC 2026</strong><p>Tentative examination dates</p><dl><div><dt>Latest detailed scheme</dt><dd>2025 bulletin</dd></div><div><dt>Paper</dt><dd>Surgical Group</dd></div><div><dt>Questions</dt><dd>150</dd></div><div><dt>Marking</dt><dd>+4 / −1</dd></div></dl><small>2026 paper pattern remains provisional until the 2026 Information Bulletin is published.</small></aside>
+    </section>
+
+    <section class="official" id="official-pattern">
+      <div class="section-head"><div><span class="kicker">OFFICIAL REQUIREMENTS</span><h2>Confirmed facts, clearly separated from provisional details</h2></div><span class="verified">NBEMS SOURCES CHECKED · 10 OCT 2026</span></div>
+      <div class="official-grid">
+        <article><b>CONFIRMED FOR 2026</b><h3>Tentative schedule</h3><p>Exam: 11–12 December 2026. Prior-entry qualification cutoff: 31 January 2027.</p></article>
+        <article><b>LATEST DETAILED OFFICIAL SCHEME</b><h3>2025 Surgical Group</h3><p>150 MCQs, 150 minutes, three locked sections of 50 questions/50 minutes; +4 correct, −1 incorrect, 0 unattempted.</p></article>
+        <article><b>PRIMARY FEEDER</b><h3>MS/DNB General Surgery</h3><p>Questions cover the general/basic and all sub-specialty components of General Surgery at PG exit level.</p></article>
+        <article><b>IMPORTANT LIMIT</b><h3>Not one paper for every surgeon</h3><p>General Surgery candidates may need another group paper for a destination covered outside Surgical Group—for example Head &amp; Neck Surgery is covered through the ENT Group.</p></article>
+      </div>
+      <p class="source-note">Authority: NBEMS NEET-SS 2025 Information Bulletin (scheme and feeder tables) and NBEMS notice dated 29 April 2026 (tentative 2026 schedule). The course will be updated when the 2026 bulletin is issued.</p>
+    </section>
+
+    <section class="access-panel" id="accessPanel">
+      <div><span class="kicker" id="accessKicker">STUDENT ACCESS</span><h2 id="accessTitle">Sign in to continue</h2><p id="accessCopy">The course dashboard and personal learning record are available only to authorised students.</p></div>
+      <div class="access-actions"><a class="primary" id="loginLink" href="index.html?mode=login#authCard">LOGIN / REGISTER</a><button class="primary" id="requestAccessBtn" type="button" hidden>REQUEST COMPLIMENTARY ACCESS</button></div>
+      <div class="message" id="accessMessage" role="status" aria-live="polite"></div>
+    </section>
+
+    <section class="dashboard" id="workspace" hidden>
+      <div class="welcome"><div><span class="kicker">WELCOME BACK</span><h2 id="welcomeName">Your Surgical Group command centre</h2><p id="todayMission">Today: one concept module, six flashcards and one focused MCQ set.</p></div><div class="progress-ring" id="progressRing"><strong>0%</strong><span>starter mastery</span></div></div>
+      <div class="metric-grid"><article><span>MCQs attempted</span><strong id="metricAttempts">0</strong></article><article><span>Accuracy</span><strong id="metricAccuracy">0%</strong></article><article><span>Mistakes due</span><strong id="metricMistakes">0</strong></article><article><span>Cards difficult</span><strong id="metricCards">0</strong></article></div>
+      <div class="tool-grid">
+        <button type="button" data-jump="curriculum">📚 <strong>Subjects &amp; Chapters</strong><span>18-domain roadmap</span></button>
+        <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span>12 reviewed starter MCQs</span></button>
+        <button type="button" data-jump="clinical-cases">🩻 <strong>Clinical Cases</strong><span>3 decision simulations</span></button>
+        <button type="button" data-jump="flashcards">⚡ <strong>Smart Flashcards</strong><span>18 starter cards</span></button>
+        <button type="button" data-jump="mistake-book">📕 <strong>Mistake Book</strong><span>Automatic targeted revision</span></button>
+        <button type="button" data-jump="analytics">📈 <strong>Performance Analytics</strong><span>Accuracy and weak domains</span></button>
+      </div>
+    </section>
+
+    <section id="curriculum" class="curriculum">
+      <div class="section-head"><div><span class="kicker">COMPLETE ROADMAP</span><h2>18 surgical domains, prioritised for the Surgical Group</h2></div><label class="search">Search <input id="courseSearch" type="search" placeholder="chapter, concept or feature"></label></div>
+      <div class="chapter-grid" id="chapterGrid"></div>
+    </section>
+
+    <section class="learning" id="learningModules" hidden>
+      <div class="section-head"><div><span class="kicker">VERIFIED STARTER MODULES</span><h2>Decision-first learning</h2></div><span class="phase">PHASE 1 · 3 MODULES</span></div>
+      <div id="moduleTabs" class="module-tabs" role="tablist"></div>
+      <article id="moduleContent" class="module-content"></article>
+    </section>
+
+    <section class="practice" id="mcq-practice" hidden>
+      <div class="section-head"><div><span class="kicker">ORIGINAL PRACTICE · NOT PYQs</span><h2>NEET-SS Surgical Group MCQ engine</h2></div><div class="mode-controls"><label>Mode <select id="quizMode"><option value="practice">Untimed practice</option><option value="exam">Exam simulation (+4/−1)</option></select></label><button class="primary" id="startQuiz" type="button">START 12 QUESTIONS</button></div></div>
+      <div class="quiz" id="quizBox"><p>Choose a mode and begin. Explanations appear immediately in practice mode and after submission in exam mode.</p></div>
+    </section>
+
+    <section class="cases" id="clinical-cases" hidden><div class="section-head"><div><span class="kicker">CLINICAL CASE SIMULATOR</span><h2>Choose the next best step</h2></div></div><div class="case-grid" id="caseGrid"></div></section>
+    <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Active recall with difficult-card review</h2></div><button class="secondary" id="difficultOnly" type="button">DIFFICULT CARDS ONLY</button></div><div class="flashcard-stage" id="flashcardStage"></div></section>
+    <section class="mistakes" id="mistake-book" hidden><div class="section-head"><div><span class="kicker">AUTOMATIC REVISION</span><h2>Mistake Book</h2></div></div><div id="mistakeList" class="list-panel"></div></section>
+    <section class="analytics" id="analytics" hidden><div class="section-head"><div><span class="kicker">PERFORMANCE ANALYTICS</span><h2>Your current Phase 1 signal</h2></div></div><div id="analyticsPanel" class="analytics-panel"></div></section>
+    <section class="coming"><article><span>PHASE 2</span><h3>Surgical Image Atlas &amp; expanded cases</h3><p>Only original or properly licensed images will be added.</p></article><article><span>PHASE 3</span><h3>Official-pattern Grand Tests</h3><p>150 questions in three locked 50-minute sections after the 2026 bulletin is confirmed.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
+  </main>
+  <footer><strong>Scrutiny Academy</strong><span>Educational preparation only. Clinical decisions must follow current institutional protocols and specialist supervision.</span><a href="mailto:scrutinyacademy@gmail.com">Support</a></footer>
+  <script type="module" src="neetss-surgery.js?v=1"></script>
+</body>
+</html>
