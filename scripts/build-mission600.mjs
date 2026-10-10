@@ -23,11 +23,29 @@ const phaseForWeek = (week) => week <= 9 ? ["SYL", "Syllabus Completion"] : week
 const weekendStart = new Date("2026-10-17T00:00:00Z");
 const iso = (date) => date.toISOString().slice(0, 10);
 const addDays = (date, days) => new Date(date.getTime() + days * 86400000);
-const chapterSlice = (subject, week) => {
-  const chapters = subjects[subject].chapters;
-  const start = Math.floor((week - 1) * chapters.length / 9);
-  const end = Math.floor(week * chapters.length / 9);
-  return chapters.slice(start, end);
+const chaptersByNumber = (subjectId, numbers) => numbers.map((number) => subjects[subjectId].chapters[number - 1]);
+const block = (subjectId, numbers) => ({
+  id: `${subjectId}-${numbers.join("-")}`,
+  subjectId,
+  chapterIds: chaptersByNumber(subjectId, numbers).map((chapter) => chapter.id),
+  title: chaptersByNumber(subjectId, numbers).map((chapter) => chapter.name).join(" + "),
+  integrated: numbers.length > 1,
+});
+
+// Nine syllabus weeks, exactly two focus subjects per week and at most three
+// lecture blocks per subject. Short related Social Studies chapters are paired
+// in integrated one-shot lectures because 57 chapters cannot fit into only 54
+// standalone slots (9 weeks × 2 subjects × 3 lectures).
+const syllabusFocus = {
+  1: { mathematics: [[1], [2], [3]], physics: [[1], [2], [3]] },
+  2: { biology: [[1], [2], [3]], "social-science": [[1], [2, 3], [4]] },
+  3: { mathematics: [[4], [5], [6]], physics: [[4], [5], [6]] },
+  4: { biology: [[4], [5], [6]], "social-science": [[5], [6, 7], [8]] },
+  5: { mathematics: [[7], [8], [9]], physics: [[7], [8], [9]] },
+  6: { biology: [[7], [8]], "social-science": [[9, 10], [11], [12]] },
+  7: { mathematics: [[10], [11], [12]], physics: [[10], [11], [12]] },
+  8: { biology: [[9], [10]], "social-science": [[13], [14, 15], [16]] },
+  9: { mathematics: [[13], [14]], "social-science": [[17, 18], [19], [20, 21]] },
 };
 
 const languagePlans = [
@@ -48,14 +66,31 @@ for (let week = 1; week <= 18; week += 1) {
   const sunday = addDays(saturday, 1);
   const monday = addDays(saturday, -5);
   const [phaseCode, phaseName] = phaseForWeek(week);
-  const teaching = week <= 9 ? Object.fromEntries(subjectSpecs.map(([id]) => [id, chapterSlice(id, week)])) : {};
+  const focus = syllabusFocus[week] || {};
+  const teachingBlocks = Object.fromEntries(Object.entries(focus).map(([subjectId, groups]) => [subjectId, groups.map((numbers) => block(subjectId, numbers))]));
+  const teaching = Object.fromEntries(Object.entries(focus).map(([subjectId, groups]) => [subjectId, chaptersByNumber(subjectId, groups.flat())]));
+  const focusSubjects = Object.keys(focus);
+  const lectureDays = [[0, 2, 4], [1, 3, 4]];
+  const lectures = focusSubjects.flatMap((subjectId, subjectIndex) => teachingBlocks[subjectId].map((item, index) => ({
+    id: `SA-M600-LEC-W${String(week).padStart(2, "0")}-${subjects[subjectId].code}-${String(index + 1).padStart(2, "0")}`,
+    subjectId,
+    subject: subjects[subjectId].name,
+    title: item.integrated ? `${item.title} – Integrated One-Shot` : `${item.title} – Complete Chapter Lecture`,
+    chapterIds: item.chapterIds,
+    publicationDate: iso(addDays(monday, lectureDays[subjectIndex][index])),
+    youtubeUrl: "",
+    status: "scheduled",
+  })));
   weeks.push({
     week,
     phaseCode,
     phaseName,
     startDate: iso(monday),
     endDate: iso(sunday),
+    focusSubjects,
     teaching,
+    teachingBlocks,
+    lectures,
     workflow: ["Monday: concept lecture", "Tuesday: detailed examples", "Wednesday: textbook problems", "Thursday: board answer writing", "Friday: revision and test preparation"],
     languagePlan: week <= 9 ? {
       telugu: languagePlans[week - 1][0],
@@ -73,6 +108,7 @@ for (let week = 1; week <= 18; week += 1) {
 
 const testPhase = (date) => date < new Date("2026-12-12T00:00:00Z") ? "SYL" : date < new Date("2027-01-12T00:00:00Z") ? "HY" : "MOCK";
 const rotation = (week, day, phaseCode) => {
+  if (week <= 9) return weeks[week - 1].focusSubjects[day];
   if (phaseCode !== "MOCK") {
     const weekA = week % 2 === 1;
     return day === 0 ? (weekA ? "mathematics" : "biology") : (weekA ? "physics" : "social-science");
@@ -92,7 +128,7 @@ for (const week of weeks.slice(0, 17)) {
     const subjectId = rotation(week.week, day, phaseCode);
     const subject = subjects[subjectId];
     const covered = phaseCode === "SYL"
-      ? subjects[subjectId].chapters.slice(0, Math.floor(week.week * subjects[subjectId].chapters.length / 9))
+      ? weeks.slice(0, week.week).flatMap((item) => item.teaching?.[subjectId] || []).filter((chapter, index, all) => all.findIndex((candidate) => candidate.id === chapter.id) === index)
       : subjects[subjectId].chapters;
     const label = phaseCode === "MOCK" ? `${testNames[subjectId]} Mock Examination` : phaseCode === "HY" ? `High-Yield ${testNames[subjectId]} Challenge` : `${challengeNames[subjectId]} ${String(Math.ceil(week.week / 2)).padStart(2, "0")}`;
     tests.push({
@@ -153,6 +189,15 @@ const payload = {
     officialAcademicCalendar: "SCERT Telangana published an Academic Calendar 2026-27 entry on 24 August 2026.",
     textbookBasis: "The official SCERT e-book catalogue available during the audit is labelled 2025-26; local chapter data uses those books and must be rechecked when official 2026-27 e-books are posted.",
     productionGate: "No DPP or test becomes purchasable until contentComplete, status=published and purchaseEnabled are all true.",
+  },
+  pricingPolicy: {
+    individualDppPaise: 200,
+    individualTestPaise: 900,
+    dppOnlyDiscountPercent: 0,
+    testOnlyDiscountPercent: 0,
+    combinedCompleteBundleDiscountPercent: 10,
+    combinedCompleteBundleMaximumDiscountPaise: 10000,
+    text: "No DPP-only or test-only discount. Buy the complete remaining DPP collection and complete remaining written-test series together for 10% off, capped at ₹100.",
   },
   phases: [
     { code: "SYL", name: "Complete Syllabus Mastery", startDate: "2026-10-12", endDate: "2026-12-11" },
