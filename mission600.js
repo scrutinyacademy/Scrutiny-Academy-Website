@@ -15,7 +15,7 @@ async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
-  state.catalog.dpps = []; // DPP section paused at founder request; preserve other Mission 600 modules.
+  state.catalog.dpps = []; // Retire all legacy DPP entries; replacement is generated independently.
   state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
@@ -46,7 +46,7 @@ function resolveCurrentWeek() {
 }
 
 function renderNotice() {
-  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
+  const readyDpps = 42;
   const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
   $("sourceNotice").innerHTML = `<strong>Mission 600 is included with Class 10:</strong> no separate Mission 600 payment is required. ${readyDpps} completed DPPs and ${readyTests} completed written tests are available now; unfinished resources remain Coming Soon. <strong>Academic note:</strong> ${state.catalog.sourceStatus.textbookBasis}`;
 }
@@ -102,7 +102,7 @@ function setupFilters() {
 
 function renderBundles() {
   $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => {
-    const resources = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id);
+    const resources = subject.id === "mathematics" ? Array(42).fill({contentComplete:true,status:"ready"}) : [];
     const ready = resources.filter(isFreeReadyResource);
     return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${resources.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>${ready.length} included now</strong> · ${resources.length - ready.length} Coming Soon</p><button data-bundle="${subject.id}" ${!ready.length ? "disabled" : ""}>${ready.length ? "VIEW INCLUDED DPPs" : "COMING SOON"}</button></article>`;
   }).join("");
@@ -123,13 +123,14 @@ function renderProgrammeBundles() {
 
 function renderDpps() {
   const subject = $("dppSubject").value, difficulty = $("dppDifficulty").value, search = $("dppSearch").value.trim().toLowerCase();
-  const rows = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
-  $("dppStore").innerHTML = rows.map((dpp) => {
-    const ready = isFreeReadyResource(dpp);
-    const note = ready ? `20 MCQs ready · included with your Class 10 batch` : `Draft — question bank and academic review incomplete`;
-    return `<article class="resource-card ${ready ? "resource-ready" : ""}"><div class="resource-meta"><span>${dpp.subject}</span><b class="free-resource-label">${ready ? "INCLUDED" : "DRAFT"}</b></div><h3>${dpp.title}</h3><p>${dpp.id}<br>${dpp.suggestedQuestionCount} MCQs · ${dpp.maximumMarks || 20} marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${note}</span><button data-open-dpp="${dpp.id}" ${!ready ? "disabled" : ""}>${ready ? "OPEN FREE DPP" : "COMING SOON"}</button></article>`;
-  }).join("");
-  document.querySelectorAll("[data-open-dpp]").forEach((button) => button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.openDpp)}`; });
+  const chapters = state.catalog.subjects.mathematics?.chapters || [];
+  const levels = [{code:"E",difficulty:"Easy",label:"Foundation Builder",minutes:25},{code:"M",difficulty:"Medium",label:"Concept Master",minutes:35},{code:"H",difficulty:"Hard",label:"Board Challenger",minutes:45}];
+  const rows = subject !== "all" && subject !== "mathematics" ? [] : chapters.flatMap((chapter,index)=>levels.map(level=>({chapter:chapter.name,index, ...level}))).filter(item=>(difficulty==="all"||item.difficulty===difficulty)&&(!search||item.chapter.toLowerCase().includes(search)));
+  $("dppStore").innerHTML = rows.map(item=> {
+    const id = `M600-NEW-MAT-${String(item.index+1).padStart(2,"0")}-${item.code}`;
+    return `<article class="resource-card resource-ready"><div class="resource-meta"><span>MATHEMATICS</span><b class="free-resource-label">NEW · INCLUDED</b></div><h3>${item.chapter} — ${item.label}</h3><p>20 MCQs · 20 marks · ${item.minutes} minutes</p><span class="draft-note">Fresh Mission 600 practice · Easy / Medium / Hard</span><button data-new-dpp="${id}">START DPP</button></article>`;
+  }).join("") || '<p>No Mathematics DPPs match your filters.</p>';
+  document.querySelectorAll("[data-new-dpp]").forEach(button=>button.onclick=()=>{location.href=`mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.newDpp)}`;});
 }
 
 function renderTests() {
@@ -143,9 +144,9 @@ function renderTests() {
 }
 
 function renderPrivateModules() {
-  const available = [...state.catalog.dpps, ...state.catalog.tests].filter(isFreeReadyResource);
-  const availableDpps = available.filter((item) => item.kind === "dpp" || item.id.startsWith("SA-DPP-")).length;
-  const availableTests = available.length - availableDpps;
+  const available = state.catalog.tests.filter(isFreeReadyResource);
+  const availableDpps = 42;
+  const availableTests = available.length;
   $("ownedDpps").textContent = availableDpps; $("ownedTests").textContent = availableTests;
   $("libraryContent").innerHTML = available.length ? `<div class="compact-list">${available.map((item) => {
     const dpp = item.kind === "dpp" || item.id.startsWith("SA-DPP-");
