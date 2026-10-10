@@ -7,6 +7,15 @@
     "textbookBasis": "The official SCERT e-book catalogue available during the audit is labelled 2025-26; local chapter data uses those books and must be rechecked when official 2026-27 e-books are posted.",
     "productionGate": "No DPP or test becomes purchasable until contentComplete, status=published and purchaseEnabled are all true."
   },
+  "pricingPolicy": {
+    "individualDppPaise": 200,
+    "individualTestPaise": 900,
+    "dppOnlyDiscountPercent": 0,
+    "testOnlyDiscountPercent": 0,
+    "combinedCompleteBundleDiscountPercent": 10,
+    "combinedCompleteBundleMaximumDiscountPaise": 10000,
+    "text": "No DPP-only or test-only discount. Buy the complete remaining DPP collection and complete remaining written-test series together for 10% off, capped at ₹100."
+  },
   "phases": [
     {
       "code": "SYL",
@@ -420,6 +429,10 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-10-12",
       "endDate": "2026-10-18",
+      "focusSubjects": [
+        "mathematics",
+        "physics"
+      ],
       "teaching": {
         "mathematics": [
           {
@@ -427,6 +440,18 @@
             "number": 1,
             "name": "Real Numbers",
             "sourceFile": "data/class10/textbooks/mathematics/chapter-01.json"
+          },
+          {
+            "id": "c10-mathematics-ch2",
+            "number": 2,
+            "name": "Sets",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-02.json"
+          },
+          {
+            "id": "c10-mathematics-ch3",
+            "number": 3,
+            "name": "Polynomials",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-03.json"
           }
         ],
         "physics": [
@@ -435,31 +460,155 @@
             "number": 1,
             "name": "Reflection of Light at Curved Surfaces",
             "sourceFile": "data/class10/textbooks/physics/chapter-01.json"
-          }
-        ],
-        "biology": [
-          {
-            "id": "c10-biology-ch1",
-            "number": 1,
-            "name": "Nutrition",
-            "sourceFile": "data/class10/textbooks/biology/chapter-01.json"
-          }
-        ],
-        "social-science": [
-          {
-            "id": "c10-social-science-ch1",
-            "number": 1,
-            "name": "India: Relief Features",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-01.json"
           },
           {
-            "id": "c10-social-science-ch2",
+            "id": "c10-physics-ch2",
             "number": 2,
-            "name": "Ideas of Development",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-02.json"
+            "name": "Chemical Equations",
+            "sourceFile": "data/class10/textbooks/physics/chapter-02.json"
+          },
+          {
+            "id": "c10-physics-ch3",
+            "number": 3,
+            "name": "Acids, Bases and Salts",
+            "sourceFile": "data/class10/textbooks/physics/chapter-03.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "mathematics": [
+          {
+            "id": "mathematics-1",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch1"
+            ],
+            "title": "Real Numbers",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-2",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch2"
+            ],
+            "title": "Sets",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-3",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch3"
+            ],
+            "title": "Polynomials",
+            "integrated": false
+          }
+        ],
+        "physics": [
+          {
+            "id": "physics-1",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch1"
+            ],
+            "title": "Reflection of Light at Curved Surfaces",
+            "integrated": false
+          },
+          {
+            "id": "physics-2",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch2"
+            ],
+            "title": "Chemical Equations",
+            "integrated": false
+          },
+          {
+            "id": "physics-3",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch3"
+            ],
+            "title": "Acids, Bases and Salts",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W01-MAT-01",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Real Numbers – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch1"
+          ],
+          "publicationDate": "2026-10-12",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W01-MAT-02",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Sets – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch2"
+          ],
+          "publicationDate": "2026-10-14",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W01-MAT-03",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Polynomials – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch3"
+          ],
+          "publicationDate": "2026-10-16",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W01-PHY-01",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Reflection of Light at Curved Surfaces – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch1"
+          ],
+          "publicationDate": "2026-10-13",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W01-PHY-02",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Chemical Equations – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch2"
+          ],
+          "publicationDate": "2026-10-15",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W01-PHY-03",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Acids, Bases and Salts – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch3"
+          ],
+          "publicationDate": "2026-10-16",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -480,38 +629,44 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-10-19",
       "endDate": "2026-10-25",
+      "focusSubjects": [
+        "biology",
+        "social-science"
+      ],
       "teaching": {
-        "mathematics": [
-          {
-            "id": "c10-mathematics-ch2",
-            "number": 2,
-            "name": "Sets",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-02.json"
-          },
-          {
-            "id": "c10-mathematics-ch3",
-            "number": 3,
-            "name": "Polynomials",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-03.json"
-          }
-        ],
-        "physics": [
-          {
-            "id": "c10-physics-ch2",
-            "number": 2,
-            "name": "Chemical Equations",
-            "sourceFile": "data/class10/textbooks/physics/chapter-02.json"
-          }
-        ],
         "biology": [
+          {
+            "id": "c10-biology-ch1",
+            "number": 1,
+            "name": "Nutrition",
+            "sourceFile": "data/class10/textbooks/biology/chapter-01.json"
+          },
           {
             "id": "c10-biology-ch2",
             "number": 2,
             "name": "Respiration",
             "sourceFile": "data/class10/textbooks/biology/chapter-02.json"
+          },
+          {
+            "id": "c10-biology-ch3",
+            "number": 3,
+            "name": "Circulation",
+            "sourceFile": "data/class10/textbooks/biology/chapter-03.json"
           }
         ],
         "social-science": [
+          {
+            "id": "c10-social-science-ch1",
+            "number": 1,
+            "name": "India: Relief Features",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-01.json"
+          },
+          {
+            "id": "c10-social-science-ch2",
+            "number": 2,
+            "name": "Ideas of Development",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-02.json"
+          },
           {
             "id": "c10-social-science-ch3",
             "number": 3,
@@ -526,6 +681,142 @@
           }
         ]
       },
+      "teachingBlocks": {
+        "biology": [
+          {
+            "id": "biology-1",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch1"
+            ],
+            "title": "Nutrition",
+            "integrated": false
+          },
+          {
+            "id": "biology-2",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch2"
+            ],
+            "title": "Respiration",
+            "integrated": false
+          },
+          {
+            "id": "biology-3",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch3"
+            ],
+            "title": "Circulation",
+            "integrated": false
+          }
+        ],
+        "social-science": [
+          {
+            "id": "social-science-1",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch1"
+            ],
+            "title": "India: Relief Features",
+            "integrated": false
+          },
+          {
+            "id": "social-science-2-3",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch2",
+              "c10-social-science-ch3"
+            ],
+            "title": "Ideas of Development + Production and Employment",
+            "integrated": true
+          },
+          {
+            "id": "social-science-4",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch4"
+            ],
+            "title": "Climate of India",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W02-BIO-01",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Nutrition – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch1"
+          ],
+          "publicationDate": "2026-10-19",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W02-BIO-02",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Respiration – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch2"
+          ],
+          "publicationDate": "2026-10-21",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W02-BIO-03",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Circulation – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch3"
+          ],
+          "publicationDate": "2026-10-23",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W02-SOC-01",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "India: Relief Features – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch1"
+          ],
+          "publicationDate": "2026-10-20",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W02-SOC-02",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Ideas of Development + Production and Employment – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch2",
+            "c10-social-science-ch3"
+          ],
+          "publicationDate": "2026-10-22",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W02-SOC-03",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Climate of India – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch4"
+          ],
+          "publicationDate": "2026-10-23",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -546,6 +837,10 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-10-26",
       "endDate": "2026-11-01",
+      "focusSubjects": [
+        "mathematics",
+        "physics"
+      ],
       "teaching": {
         "mathematics": [
           {
@@ -553,51 +848,175 @@
             "number": 4,
             "name": "Pair of Linear Equations in Two Variables",
             "sourceFile": "data/class10/textbooks/mathematics/chapter-04.json"
+          },
+          {
+            "id": "c10-mathematics-ch5",
+            "number": 5,
+            "name": "Quadratic Equations",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-05.json"
+          },
+          {
+            "id": "c10-mathematics-ch6",
+            "number": 6,
+            "name": "Progressions",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-06.json"
           }
         ],
         "physics": [
-          {
-            "id": "c10-physics-ch3",
-            "number": 3,
-            "name": "Acids, Bases and Salts",
-            "sourceFile": "data/class10/textbooks/physics/chapter-03.json"
-          },
           {
             "id": "c10-physics-ch4",
             "number": 4,
             "name": "Refraction of Light at Curved Surfaces",
             "sourceFile": "data/class10/textbooks/physics/chapter-04.json"
-          }
-        ],
-        "biology": [
+          },
           {
-            "id": "c10-biology-ch3",
-            "number": 3,
-            "name": "Circulation",
-            "sourceFile": "data/class10/textbooks/biology/chapter-03.json"
-          }
-        ],
-        "social-science": [
-          {
-            "id": "c10-social-science-ch5",
+            "id": "c10-physics-ch5",
             "number": 5,
-            "name": "Indian Rivers and Water Resources",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-05.json"
+            "name": "Human Eye and Colourful World",
+            "sourceFile": "data/class10/textbooks/physics/chapter-05.json"
           },
           {
-            "id": "c10-social-science-ch6",
+            "id": "c10-physics-ch6",
             "number": 6,
-            "name": "The Population",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-06.json"
-          },
-          {
-            "id": "c10-social-science-ch7",
-            "number": 7,
-            "name": "Settlements - Migrations",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-07.json"
+            "name": "Structure of Atom",
+            "sourceFile": "data/class10/textbooks/physics/chapter-06.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "mathematics": [
+          {
+            "id": "mathematics-4",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch4"
+            ],
+            "title": "Pair of Linear Equations in Two Variables",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-5",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch5"
+            ],
+            "title": "Quadratic Equations",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-6",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch6"
+            ],
+            "title": "Progressions",
+            "integrated": false
+          }
+        ],
+        "physics": [
+          {
+            "id": "physics-4",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch4"
+            ],
+            "title": "Refraction of Light at Curved Surfaces",
+            "integrated": false
+          },
+          {
+            "id": "physics-5",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch5"
+            ],
+            "title": "Human Eye and Colourful World",
+            "integrated": false
+          },
+          {
+            "id": "physics-6",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch6"
+            ],
+            "title": "Structure of Atom",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W03-MAT-01",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Pair of Linear Equations in Two Variables – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch4"
+          ],
+          "publicationDate": "2026-10-26",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W03-MAT-02",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Quadratic Equations – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch5"
+          ],
+          "publicationDate": "2026-10-28",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W03-MAT-03",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Progressions – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch6"
+          ],
+          "publicationDate": "2026-10-30",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W03-PHY-01",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Refraction of Light at Curved Surfaces – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch4"
+          ],
+          "publicationDate": "2026-10-27",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W03-PHY-02",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Human Eye and Colourful World – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch5"
+          ],
+          "publicationDate": "2026-10-29",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W03-PHY-03",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Structure of Atom – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch6"
+          ],
+          "publicationDate": "2026-10-30",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -618,52 +1037,194 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-11-02",
       "endDate": "2026-11-08",
+      "focusSubjects": [
+        "biology",
+        "social-science"
+      ],
       "teaching": {
-        "mathematics": [
-          {
-            "id": "c10-mathematics-ch5",
-            "number": 5,
-            "name": "Quadratic Equations",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-05.json"
-          },
-          {
-            "id": "c10-mathematics-ch6",
-            "number": 6,
-            "name": "Progressions",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-06.json"
-          }
-        ],
-        "physics": [
-          {
-            "id": "c10-physics-ch5",
-            "number": 5,
-            "name": "Human Eye and Colourful World",
-            "sourceFile": "data/class10/textbooks/physics/chapter-05.json"
-          }
-        ],
         "biology": [
           {
             "id": "c10-biology-ch4",
             "number": 4,
             "name": "Excretion",
             "sourceFile": "data/class10/textbooks/biology/chapter-04.json"
+          },
+          {
+            "id": "c10-biology-ch5",
+            "number": 5,
+            "name": "Coordination",
+            "sourceFile": "data/class10/textbooks/biology/chapter-05.json"
+          },
+          {
+            "id": "c10-biology-ch6",
+            "number": 6,
+            "name": "Reproduction",
+            "sourceFile": "data/class10/textbooks/biology/chapter-06.json"
           }
         ],
         "social-science": [
+          {
+            "id": "c10-social-science-ch5",
+            "number": 5,
+            "name": "Indian Rivers and Water Resources",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-05.json"
+          },
+          {
+            "id": "c10-social-science-ch6",
+            "number": 6,
+            "name": "The Population",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-06.json"
+          },
+          {
+            "id": "c10-social-science-ch7",
+            "number": 7,
+            "name": "Settlements - Migrations",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-07.json"
+          },
           {
             "id": "c10-social-science-ch8",
             "number": 8,
             "name": "Rampur: A Village Economy",
             "sourceFile": "data/class10/textbooks/social-science/chapter-08.json"
-          },
-          {
-            "id": "c10-social-science-ch9",
-            "number": 9,
-            "name": "Globalisation",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-09.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "biology": [
+          {
+            "id": "biology-4",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch4"
+            ],
+            "title": "Excretion",
+            "integrated": false
+          },
+          {
+            "id": "biology-5",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch5"
+            ],
+            "title": "Coordination",
+            "integrated": false
+          },
+          {
+            "id": "biology-6",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch6"
+            ],
+            "title": "Reproduction",
+            "integrated": false
+          }
+        ],
+        "social-science": [
+          {
+            "id": "social-science-5",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch5"
+            ],
+            "title": "Indian Rivers and Water Resources",
+            "integrated": false
+          },
+          {
+            "id": "social-science-6-7",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch6",
+              "c10-social-science-ch7"
+            ],
+            "title": "The Population + Settlements - Migrations",
+            "integrated": true
+          },
+          {
+            "id": "social-science-8",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch8"
+            ],
+            "title": "Rampur: A Village Economy",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W04-BIO-01",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Excretion – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch4"
+          ],
+          "publicationDate": "2026-11-02",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W04-BIO-02",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Coordination – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch5"
+          ],
+          "publicationDate": "2026-11-04",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W04-BIO-03",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Reproduction – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch6"
+          ],
+          "publicationDate": "2026-11-06",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W04-SOC-01",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Indian Rivers and Water Resources – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch5"
+          ],
+          "publicationDate": "2026-11-03",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W04-SOC-02",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "The Population + Settlements - Migrations – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch6",
+            "c10-social-science-ch7"
+          ],
+          "publicationDate": "2026-11-05",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W04-SOC-03",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Rampur: A Village Economy – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch8"
+          ],
+          "publicationDate": "2026-11-06",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -684,6 +1245,10 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-11-09",
       "endDate": "2026-11-15",
+      "focusSubjects": [
+        "mathematics",
+        "physics"
+      ],
       "teaching": {
         "mathematics": [
           {
@@ -691,61 +1256,7 @@
             "number": 7,
             "name": "Coordinate Geometry",
             "sourceFile": "data/class10/textbooks/mathematics/chapter-07.json"
-          }
-        ],
-        "physics": [
-          {
-            "id": "c10-physics-ch6",
-            "number": 6,
-            "name": "Structure of Atom",
-            "sourceFile": "data/class10/textbooks/physics/chapter-06.json"
-          }
-        ],
-        "biology": [
-          {
-            "id": "c10-biology-ch5",
-            "number": 5,
-            "name": "Coordination",
-            "sourceFile": "data/class10/textbooks/biology/chapter-05.json"
-          }
-        ],
-        "social-science": [
-          {
-            "id": "c10-social-science-ch10",
-            "number": 10,
-            "name": "Food Security",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-10.json"
           },
-          {
-            "id": "c10-social-science-ch11",
-            "number": 11,
-            "name": "Sustainable Development with Equity",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-11.json"
-          }
-        ]
-      },
-      "workflow": [
-        "Monday: concept lecture",
-        "Tuesday: detailed examples",
-        "Wednesday: textbook problems",
-        "Thursday: board answer writing",
-        "Friday: revision and test preparation"
-      ],
-      "languagePlan": {
-        "telugu": "Letter and formal writing",
-        "hindi": "Letter and formal writing",
-        "english": "Letter, notice and formal writing",
-        "verification": "Map lesson names to the student's 2026-27 prescribed language/medium textbook before publication."
-      }
-    },
-    {
-      "week": 6,
-      "phaseCode": "SYL",
-      "phaseName": "Syllabus Completion",
-      "startDate": "2026-11-16",
-      "endDate": "2026-11-22",
-      "teaching": {
-        "mathematics": [
           {
             "id": "c10-mathematics-ch8",
             "number": 8,
@@ -771,37 +1282,330 @@
             "number": 8,
             "name": "Chemical Bonding",
             "sourceFile": "data/class10/textbooks/physics/chapter-08.json"
+          },
+          {
+            "id": "c10-physics-ch9",
+            "number": 9,
+            "name": "Electric Current",
+            "sourceFile": "data/class10/textbooks/physics/chapter-09.json"
+          }
+        ]
+      },
+      "teachingBlocks": {
+        "mathematics": [
+          {
+            "id": "mathematics-7",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch7"
+            ],
+            "title": "Coordinate Geometry",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-8",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch8"
+            ],
+            "title": "Similar Triangles",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-9",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch9"
+            ],
+            "title": "Tangents and Secants to a Circle",
+            "integrated": false
           }
         ],
+        "physics": [
+          {
+            "id": "physics-7",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch7"
+            ],
+            "title": "Classification of Elements - The Periodic Table",
+            "integrated": false
+          },
+          {
+            "id": "physics-8",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch8"
+            ],
+            "title": "Chemical Bonding",
+            "integrated": false
+          },
+          {
+            "id": "physics-9",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch9"
+            ],
+            "title": "Electric Current",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W05-MAT-01",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Coordinate Geometry – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch7"
+          ],
+          "publicationDate": "2026-11-09",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W05-MAT-02",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Similar Triangles – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch8"
+          ],
+          "publicationDate": "2026-11-11",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W05-MAT-03",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Tangents and Secants to a Circle – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch9"
+          ],
+          "publicationDate": "2026-11-13",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W05-PHY-01",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Classification of Elements - The Periodic Table – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch7"
+          ],
+          "publicationDate": "2026-11-10",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W05-PHY-02",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Chemical Bonding – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch8"
+          ],
+          "publicationDate": "2026-11-12",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W05-PHY-03",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Electric Current – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch9"
+          ],
+          "publicationDate": "2026-11-13",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
+      "workflow": [
+        "Monday: concept lecture",
+        "Tuesday: detailed examples",
+        "Wednesday: textbook problems",
+        "Thursday: board answer writing",
+        "Friday: revision and test preparation"
+      ],
+      "languagePlan": {
+        "telugu": "Letter and formal writing",
+        "hindi": "Letter and formal writing",
+        "english": "Letter, notice and formal writing",
+        "verification": "Map lesson names to the student's 2026-27 prescribed language/medium textbook before publication."
+      }
+    },
+    {
+      "week": 6,
+      "phaseCode": "SYL",
+      "phaseName": "Syllabus Completion",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "focusSubjects": [
+        "biology",
+        "social-science"
+      ],
+      "teaching": {
         "biology": [
           {
-            "id": "c10-biology-ch6",
-            "number": 6,
-            "name": "Reproduction",
-            "sourceFile": "data/class10/textbooks/biology/chapter-06.json"
+            "id": "c10-biology-ch7",
+            "number": 7,
+            "name": "Coordination in Life Processes",
+            "sourceFile": "data/class10/textbooks/biology/chapter-07.json"
+          },
+          {
+            "id": "c10-biology-ch8",
+            "number": 8,
+            "name": "Heredity - Evolution",
+            "sourceFile": "data/class10/textbooks/biology/chapter-08.json"
           }
         ],
         "social-science": [
+          {
+            "id": "c10-social-science-ch9",
+            "number": 9,
+            "name": "Globalisation",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-09.json"
+          },
+          {
+            "id": "c10-social-science-ch10",
+            "number": 10,
+            "name": "Food Security",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-10.json"
+          },
+          {
+            "id": "c10-social-science-ch11",
+            "number": 11,
+            "name": "Sustainable Development with Equity",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-11.json"
+          },
           {
             "id": "c10-social-science-ch12",
             "number": 12,
             "name": "World Between the World Wars",
             "sourceFile": "data/class10/textbooks/social-science/chapter-12.json"
-          },
-          {
-            "id": "c10-social-science-ch13",
-            "number": 13,
-            "name": "National Liberation Movements in the Colonies",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-13.json"
-          },
-          {
-            "id": "c10-social-science-ch14",
-            "number": 14,
-            "name": "National Movement in India - Partition and Independence: 1939-1947",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-14.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "biology": [
+          {
+            "id": "biology-7",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch7"
+            ],
+            "title": "Coordination in Life Processes",
+            "integrated": false
+          },
+          {
+            "id": "biology-8",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch8"
+            ],
+            "title": "Heredity - Evolution",
+            "integrated": false
+          }
+        ],
+        "social-science": [
+          {
+            "id": "social-science-9-10",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch9",
+              "c10-social-science-ch10"
+            ],
+            "title": "Globalisation + Food Security",
+            "integrated": true
+          },
+          {
+            "id": "social-science-11",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch11"
+            ],
+            "title": "Sustainable Development with Equity",
+            "integrated": false
+          },
+          {
+            "id": "social-science-12",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch12"
+            ],
+            "title": "World Between the World Wars",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W06-BIO-01",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Coordination in Life Processes – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch7"
+          ],
+          "publicationDate": "2026-11-16",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W06-BIO-02",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Heredity - Evolution – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch8"
+          ],
+          "publicationDate": "2026-11-18",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W06-SOC-01",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Globalisation + Food Security – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch9",
+            "c10-social-science-ch10"
+          ],
+          "publicationDate": "2026-11-17",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W06-SOC-02",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Sustainable Development with Equity – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch11"
+          ],
+          "publicationDate": "2026-11-19",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W06-SOC-03",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "World Between the World Wars – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch12"
+          ],
+          "publicationDate": "2026-11-20",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -822,6 +1626,10 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-11-23",
       "endDate": "2026-11-29",
+      "focusSubjects": [
+        "mathematics",
+        "physics"
+      ],
       "teaching": {
         "mathematics": [
           {
@@ -829,39 +1637,175 @@
             "number": 10,
             "name": "Mensuration",
             "sourceFile": "data/class10/textbooks/mathematics/chapter-10.json"
+          },
+          {
+            "id": "c10-mathematics-ch11",
+            "number": 11,
+            "name": "Trigonometry",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-11.json"
+          },
+          {
+            "id": "c10-mathematics-ch12",
+            "number": 12,
+            "name": "Applications of Trigonometry",
+            "sourceFile": "data/class10/textbooks/mathematics/chapter-12.json"
           }
         ],
         "physics": [
           {
-            "id": "c10-physics-ch9",
-            "number": 9,
-            "name": "Electric Current",
-            "sourceFile": "data/class10/textbooks/physics/chapter-09.json"
-          }
-        ],
-        "biology": [
-          {
-            "id": "c10-biology-ch7",
-            "number": 7,
-            "name": "Coordination in Life Processes",
-            "sourceFile": "data/class10/textbooks/biology/chapter-07.json"
-          }
-        ],
-        "social-science": [
-          {
-            "id": "c10-social-science-ch15",
-            "number": 15,
-            "name": "The Making of Independent India's Constitution",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-15.json"
+            "id": "c10-physics-ch10",
+            "number": 10,
+            "name": "Electromagnetism",
+            "sourceFile": "data/class10/textbooks/physics/chapter-10.json"
           },
           {
-            "id": "c10-social-science-ch16",
-            "number": 16,
-            "name": "Election Process in India",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-16.json"
+            "id": "c10-physics-ch11",
+            "number": 11,
+            "name": "Principles of Metallurgy",
+            "sourceFile": "data/class10/textbooks/physics/chapter-11.json"
+          },
+          {
+            "id": "c10-physics-ch12",
+            "number": 12,
+            "name": "Carbon and Its Compounds",
+            "sourceFile": "data/class10/textbooks/physics/chapter-12.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "mathematics": [
+          {
+            "id": "mathematics-10",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch10"
+            ],
+            "title": "Mensuration",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-11",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch11"
+            ],
+            "title": "Trigonometry",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-12",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch12"
+            ],
+            "title": "Applications of Trigonometry",
+            "integrated": false
+          }
+        ],
+        "physics": [
+          {
+            "id": "physics-10",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch10"
+            ],
+            "title": "Electromagnetism",
+            "integrated": false
+          },
+          {
+            "id": "physics-11",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch11"
+            ],
+            "title": "Principles of Metallurgy",
+            "integrated": false
+          },
+          {
+            "id": "physics-12",
+            "subjectId": "physics",
+            "chapterIds": [
+              "c10-physics-ch12"
+            ],
+            "title": "Carbon and Its Compounds",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W07-MAT-01",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Mensuration – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch10"
+          ],
+          "publicationDate": "2026-11-23",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W07-MAT-02",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Trigonometry – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch11"
+          ],
+          "publicationDate": "2026-11-25",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W07-MAT-03",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Applications of Trigonometry – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch12"
+          ],
+          "publicationDate": "2026-11-27",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W07-PHY-01",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Electromagnetism – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch10"
+          ],
+          "publicationDate": "2026-11-24",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W07-PHY-02",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Principles of Metallurgy – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch11"
+          ],
+          "publicationDate": "2026-11-26",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W07-PHY-03",
+          "subjectId": "physics",
+          "subject": "Physical Science",
+          "title": "Carbon and Its Compounds – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-physics-ch12"
+          ],
+          "publicationDate": "2026-11-27",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -882,52 +1826,167 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-11-30",
       "endDate": "2026-12-06",
+      "focusSubjects": [
+        "biology",
+        "social-science"
+      ],
       "teaching": {
-        "mathematics": [
-          {
-            "id": "c10-mathematics-ch11",
-            "number": 11,
-            "name": "Trigonometry",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-11.json"
-          },
-          {
-            "id": "c10-mathematics-ch12",
-            "number": 12,
-            "name": "Applications of Trigonometry",
-            "sourceFile": "data/class10/textbooks/mathematics/chapter-12.json"
-          }
-        ],
-        "physics": [
-          {
-            "id": "c10-physics-ch10",
-            "number": 10,
-            "name": "Electromagnetism",
-            "sourceFile": "data/class10/textbooks/physics/chapter-10.json"
-          }
-        ],
         "biology": [
           {
-            "id": "c10-biology-ch8",
-            "number": 8,
-            "name": "Heredity - Evolution",
-            "sourceFile": "data/class10/textbooks/biology/chapter-08.json"
+            "id": "c10-biology-ch9",
+            "number": 9,
+            "name": "Our Environment",
+            "sourceFile": "data/class10/textbooks/biology/chapter-09.json"
+          },
+          {
+            "id": "c10-biology-ch10",
+            "number": 10,
+            "name": "Natural Resources",
+            "sourceFile": "data/class10/textbooks/biology/chapter-10.json"
           }
         ],
         "social-science": [
           {
-            "id": "c10-social-science-ch17",
-            "number": 17,
-            "name": "Independent India: The First 30 Years (1947-77)",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-17.json"
+            "id": "c10-social-science-ch13",
+            "number": 13,
+            "name": "National Liberation Movements in the Colonies",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-13.json"
           },
           {
-            "id": "c10-social-science-ch18",
-            "number": 18,
-            "name": "Emerging Political Trends 1977 to 2000",
-            "sourceFile": "data/class10/textbooks/social-science/chapter-18.json"
+            "id": "c10-social-science-ch14",
+            "number": 14,
+            "name": "National Movement in India - Partition and Independence: 1939-1947",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-14.json"
+          },
+          {
+            "id": "c10-social-science-ch15",
+            "number": 15,
+            "name": "The Making of Independent India's Constitution",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-15.json"
+          },
+          {
+            "id": "c10-social-science-ch16",
+            "number": 16,
+            "name": "Election Process in India",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-16.json"
           }
         ]
       },
+      "teachingBlocks": {
+        "biology": [
+          {
+            "id": "biology-9",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch9"
+            ],
+            "title": "Our Environment",
+            "integrated": false
+          },
+          {
+            "id": "biology-10",
+            "subjectId": "biology",
+            "chapterIds": [
+              "c10-biology-ch10"
+            ],
+            "title": "Natural Resources",
+            "integrated": false
+          }
+        ],
+        "social-science": [
+          {
+            "id": "social-science-13",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch13"
+            ],
+            "title": "National Liberation Movements in the Colonies",
+            "integrated": false
+          },
+          {
+            "id": "social-science-14-15",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch14",
+              "c10-social-science-ch15"
+            ],
+            "title": "National Movement in India - Partition and Independence: 1939-1947 + The Making of Independent India's Constitution",
+            "integrated": true
+          },
+          {
+            "id": "social-science-16",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch16"
+            ],
+            "title": "Election Process in India",
+            "integrated": false
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W08-BIO-01",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Our Environment – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch9"
+          ],
+          "publicationDate": "2026-11-30",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W08-BIO-02",
+          "subjectId": "biology",
+          "subject": "Biological Science",
+          "title": "Natural Resources – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-biology-ch10"
+          ],
+          "publicationDate": "2026-12-02",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W08-SOC-01",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "National Liberation Movements in the Colonies – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch13"
+          ],
+          "publicationDate": "2026-12-01",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W08-SOC-02",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "National Movement in India - Partition and Independence: 1939-1947 + The Making of Independent India's Constitution – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch14",
+            "c10-social-science-ch15"
+          ],
+          "publicationDate": "2026-12-03",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W08-SOC-03",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Election Process in India – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch16"
+          ],
+          "publicationDate": "2026-12-04",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -948,6 +2007,10 @@
       "phaseName": "Syllabus Completion",
       "startDate": "2026-12-07",
       "endDate": "2026-12-13",
+      "focusSubjects": [
+        "mathematics",
+        "social-science"
+      ],
       "teaching": {
         "mathematics": [
           {
@@ -963,35 +2026,19 @@
             "sourceFile": "data/class10/textbooks/mathematics/chapter-14.json"
           }
         ],
-        "physics": [
-          {
-            "id": "c10-physics-ch11",
-            "number": 11,
-            "name": "Principles of Metallurgy",
-            "sourceFile": "data/class10/textbooks/physics/chapter-11.json"
-          },
-          {
-            "id": "c10-physics-ch12",
-            "number": 12,
-            "name": "Carbon and Its Compounds",
-            "sourceFile": "data/class10/textbooks/physics/chapter-12.json"
-          }
-        ],
-        "biology": [
-          {
-            "id": "c10-biology-ch9",
-            "number": 9,
-            "name": "Our Environment",
-            "sourceFile": "data/class10/textbooks/biology/chapter-09.json"
-          },
-          {
-            "id": "c10-biology-ch10",
-            "number": 10,
-            "name": "Natural Resources",
-            "sourceFile": "data/class10/textbooks/biology/chapter-10.json"
-          }
-        ],
         "social-science": [
+          {
+            "id": "c10-social-science-ch17",
+            "number": 17,
+            "name": "Independent India: The First 30 Years (1947-77)",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-17.json"
+          },
+          {
+            "id": "c10-social-science-ch18",
+            "number": 18,
+            "name": "Emerging Political Trends 1977 to 2000",
+            "sourceFile": "data/class10/textbooks/social-science/chapter-18.json"
+          },
           {
             "id": "c10-social-science-ch19",
             "number": 19,
@@ -1012,6 +2059,123 @@
           }
         ]
       },
+      "teachingBlocks": {
+        "mathematics": [
+          {
+            "id": "mathematics-13",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch13"
+            ],
+            "title": "Probability",
+            "integrated": false
+          },
+          {
+            "id": "mathematics-14",
+            "subjectId": "mathematics",
+            "chapterIds": [
+              "c10-mathematics-ch14"
+            ],
+            "title": "Statistics",
+            "integrated": false
+          }
+        ],
+        "social-science": [
+          {
+            "id": "social-science-17-18",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch17",
+              "c10-social-science-ch18"
+            ],
+            "title": "Independent India: The First 30 Years (1947-77) + Emerging Political Trends 1977 to 2000",
+            "integrated": true
+          },
+          {
+            "id": "social-science-19",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch19"
+            ],
+            "title": "Post-War World and India",
+            "integrated": false
+          },
+          {
+            "id": "social-science-20-21",
+            "subjectId": "social-science",
+            "chapterIds": [
+              "c10-social-science-ch20",
+              "c10-social-science-ch21"
+            ],
+            "title": "Social Movements in Our Times + The Movement for the Formation of Telangana State",
+            "integrated": true
+          }
+        ]
+      },
+      "lectures": [
+        {
+          "id": "SA-M600-LEC-W09-MAT-01",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Probability – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch13"
+          ],
+          "publicationDate": "2026-12-07",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W09-MAT-02",
+          "subjectId": "mathematics",
+          "subject": "Mathematics",
+          "title": "Statistics – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-mathematics-ch14"
+          ],
+          "publicationDate": "2026-12-09",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W09-SOC-01",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Independent India: The First 30 Years (1947-77) + Emerging Political Trends 1977 to 2000 – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch17",
+            "c10-social-science-ch18"
+          ],
+          "publicationDate": "2026-12-08",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W09-SOC-02",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Post-War World and India – Complete Chapter Lecture",
+          "chapterIds": [
+            "c10-social-science-ch19"
+          ],
+          "publicationDate": "2026-12-10",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        },
+        {
+          "id": "SA-M600-LEC-W09-SOC-03",
+          "subjectId": "social-science",
+          "subject": "Social Studies",
+          "title": "Social Movements in Our Times + The Movement for the Formation of Telangana State – Integrated One-Shot",
+          "chapterIds": [
+            "c10-social-science-ch20",
+            "c10-social-science-ch21"
+          ],
+          "publicationDate": "2026-12-11",
+          "youtubeUrl": "",
+          "status": "scheduled"
+        }
+      ],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1032,7 +2196,10 @@
       "phaseName": "High-Yield Revision",
       "startDate": "2026-12-14",
       "endDate": "2026-12-20",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1053,7 +2220,10 @@
       "phaseName": "High-Yield Revision",
       "startDate": "2026-12-21",
       "endDate": "2026-12-27",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1074,7 +2244,10 @@
       "phaseName": "High-Yield Revision",
       "startDate": "2026-12-28",
       "endDate": "2027-01-03",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1095,7 +2268,10 @@
       "phaseName": "High-Yield Revision",
       "startDate": "2027-01-04",
       "endDate": "2027-01-10",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1116,7 +2292,10 @@
       "phaseName": "Mock Examination",
       "startDate": "2027-01-11",
       "endDate": "2027-01-17",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1137,7 +2316,10 @@
       "phaseName": "Mock Examination",
       "startDate": "2027-01-18",
       "endDate": "2027-01-24",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1158,7 +2340,10 @@
       "phaseName": "Mock Examination",
       "startDate": "2027-01-25",
       "endDate": "2027-01-31",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1179,7 +2364,10 @@
       "phaseName": "Mock Examination",
       "startDate": "2027-02-01",
       "endDate": "2027-02-07",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1200,7 +2388,10 @@
       "phaseName": "Mock Examination",
       "startDate": "2027-02-08",
       "endDate": "2027-02-14",
+      "focusSubjects": [],
       "teaching": {},
+      "teachingBlocks": {},
+      "lectures": [],
       "workflow": [
         "Monday: concept lecture",
         "Tuesday: detailed examples",
@@ -1233,7 +2424,9 @@
       "durationMinutes": 90,
       "difficulty": "Progressive",
       "chapterIds": [
-        "c10-mathematics-ch1"
+        "c10-mathematics-ch1",
+        "c10-mathematics-ch2",
+        "c10-mathematics-ch3"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1256,7 +2449,9 @@
       "durationMinutes": 90,
       "difficulty": "Progressive",
       "chapterIds": [
-        "c10-physics-ch1"
+        "c10-physics-ch1",
+        "c10-physics-ch2",
+        "c10-physics-ch3"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1280,7 +2475,8 @@
       "difficulty": "Progressive",
       "chapterIds": [
         "c10-biology-ch1",
-        "c10-biology-ch2"
+        "c10-biology-ch2",
+        "c10-biology-ch3"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1332,7 +2528,9 @@
         "c10-mathematics-ch1",
         "c10-mathematics-ch2",
         "c10-mathematics-ch3",
-        "c10-mathematics-ch4"
+        "c10-mathematics-ch4",
+        "c10-mathematics-ch5",
+        "c10-mathematics-ch6"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1358,7 +2556,9 @@
         "c10-physics-ch1",
         "c10-physics-ch2",
         "c10-physics-ch3",
-        "c10-physics-ch4"
+        "c10-physics-ch4",
+        "c10-physics-ch5",
+        "c10-physics-ch6"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1384,7 +2584,9 @@
         "c10-biology-ch1",
         "c10-biology-ch2",
         "c10-biology-ch3",
-        "c10-biology-ch4"
+        "c10-biology-ch4",
+        "c10-biology-ch5",
+        "c10-biology-ch6"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1414,8 +2616,7 @@
         "c10-social-science-ch5",
         "c10-social-science-ch6",
         "c10-social-science-ch7",
-        "c10-social-science-ch8",
-        "c10-social-science-ch9"
+        "c10-social-science-ch8"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1444,7 +2645,9 @@
         "c10-mathematics-ch4",
         "c10-mathematics-ch5",
         "c10-mathematics-ch6",
-        "c10-mathematics-ch7"
+        "c10-mathematics-ch7",
+        "c10-mathematics-ch8",
+        "c10-mathematics-ch9"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1472,7 +2675,10 @@
         "c10-physics-ch3",
         "c10-physics-ch4",
         "c10-physics-ch5",
-        "c10-physics-ch6"
+        "c10-physics-ch6",
+        "c10-physics-ch7",
+        "c10-physics-ch8",
+        "c10-physics-ch9"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1500,7 +2706,9 @@
         "c10-biology-ch3",
         "c10-biology-ch4",
         "c10-biology-ch5",
-        "c10-biology-ch6"
+        "c10-biology-ch6",
+        "c10-biology-ch7",
+        "c10-biology-ch8"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1534,9 +2742,7 @@
         "c10-social-science-ch9",
         "c10-social-science-ch10",
         "c10-social-science-ch11",
-        "c10-social-science-ch12",
-        "c10-social-science-ch13",
-        "c10-social-science-ch14"
+        "c10-social-science-ch12"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1568,7 +2774,9 @@
         "c10-mathematics-ch7",
         "c10-mathematics-ch8",
         "c10-mathematics-ch9",
-        "c10-mathematics-ch10"
+        "c10-mathematics-ch10",
+        "c10-mathematics-ch11",
+        "c10-mathematics-ch12"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1599,7 +2807,10 @@
         "c10-physics-ch6",
         "c10-physics-ch7",
         "c10-physics-ch8",
-        "c10-physics-ch9"
+        "c10-physics-ch9",
+        "c10-physics-ch10",
+        "c10-physics-ch11",
+        "c10-physics-ch12"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1629,7 +2840,9 @@
         "c10-biology-ch5",
         "c10-biology-ch6",
         "c10-biology-ch7",
-        "c10-biology-ch8"
+        "c10-biology-ch8",
+        "c10-biology-ch9",
+        "c10-biology-ch10"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1667,9 +2880,7 @@
         "c10-social-science-ch13",
         "c10-social-science-ch14",
         "c10-social-science-ch15",
-        "c10-social-science-ch16",
-        "c10-social-science-ch17",
-        "c10-social-science-ch18"
+        "c10-social-science-ch16"
       ],
       "status": "draft",
       "contentComplete": false,
@@ -1713,10 +2924,10 @@
       "evaluationMethod": "Human review required for descriptive and handwritten answers."
     },
     {
-      "id": "SA-M600-27-HY-W09-PHY-018",
-      "name": "Mission 600 – High-Yield Physical Science Challenge",
-      "subjectId": "physics",
-      "subject": "Physical Science",
+      "id": "SA-M600-27-HY-W09-SOC-018",
+      "name": "Mission 600 – High-Yield Social Studies Challenge",
+      "subjectId": "social-science",
+      "subject": "Social Studies",
       "phaseCode": "HY",
       "week": 9,
       "date": "2026-12-13",
@@ -1728,18 +2939,27 @@
       "durationMinutes": 90,
       "difficulty": "Board-focused",
       "chapterIds": [
-        "c10-physics-ch1",
-        "c10-physics-ch2",
-        "c10-physics-ch3",
-        "c10-physics-ch4",
-        "c10-physics-ch5",
-        "c10-physics-ch6",
-        "c10-physics-ch7",
-        "c10-physics-ch8",
-        "c10-physics-ch9",
-        "c10-physics-ch10",
-        "c10-physics-ch11",
-        "c10-physics-ch12"
+        "c10-social-science-ch1",
+        "c10-social-science-ch2",
+        "c10-social-science-ch3",
+        "c10-social-science-ch4",
+        "c10-social-science-ch5",
+        "c10-social-science-ch6",
+        "c10-social-science-ch7",
+        "c10-social-science-ch8",
+        "c10-social-science-ch9",
+        "c10-social-science-ch10",
+        "c10-social-science-ch11",
+        "c10-social-science-ch12",
+        "c10-social-science-ch13",
+        "c10-social-science-ch14",
+        "c10-social-science-ch15",
+        "c10-social-science-ch16",
+        "c10-social-science-ch17",
+        "c10-social-science-ch18",
+        "c10-social-science-ch19",
+        "c10-social-science-ch20",
+        "c10-social-science-ch21"
       ],
       "status": "draft",
       "contentComplete": false,
