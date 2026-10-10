@@ -1,0 +1,52 @@
+name: Deploy Mission 600 Mathematics DPPs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mission600-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: functions/package-lock.json
+
+      - name: Install backend dependencies
+        working-directory: functions
+        run: npm ci
+
+      - name: Generate and validate the protected DPP banks
+        run: |
+          node scripts/build-mission600-math-dpps.mjs
+          node scripts/test-mission600-math-dpps.mjs
+
+      - name: Deploy Mission 600 rules and payment functions
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: >-
+          npx --yes firebase-tools@15.33.0 deploy
+          --project scrutiny-academy
+          --token "$FIREBASE_TOKEN"
+          --non-interactive
+          --only firestore:rules,functions:createMission600Order,functions:verifyMission600Payment,functions:mission600RazorpayWebhook
+
+      - name: Publish the approved Mathematics DPPs
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: >-
+          node functions/scripts/seed-mission600-math-dpps-rest.js
+          --confirm-production-change
+          --academically-reviewed
+          --enable-purchases
