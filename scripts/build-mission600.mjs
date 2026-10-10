@@ -160,7 +160,7 @@ const levels = [
   ["M", "Concept Master", "Medium"],
   ["H", "Board Challenger", "Hard"],
 ];
-const dpps = subjectSpecs.flatMap(([subjectId, subjectName, subjectCode]) => subjects[subjectId].chapters.flatMap((chapter) => levels.map(([level, title, difficulty]) => ({
+const baseDpps = subjectSpecs.flatMap(([subjectId, subjectName, subjectCode]) => subjects[subjectId].chapters.flatMap((chapter) => levels.map(([level, title, difficulty]) => ({
   id: mission600DppCode({ subject: subjectCode, chapterNumber: chapter.number, level }),
   kind: "dpp",
   subjectId,
@@ -173,13 +173,22 @@ const dpps = subjectSpecs.flatMap(([subjectId, subjectName, subjectCode]) => sub
   title: `${chapter.name} – ${title}`,
   difficulty,
   pricePaise: 200,
-  suggestedQuestionCount: level === "H" ? 15 : 20,
+  suggestedQuestionCount: 20,
   suggestedDurationMinutes: level === "E" ? 25 : level === "M" ? 35 : 45,
   status: "draft",
   contentComplete: false,
   purchaseEnabled: false,
   evaluationMethod: level === "E" ? "Objective items may be auto-checked; descriptive answers require rubric review." : "Rubric-based review; handwritten descriptive answers require human review.",
 }))));
+
+const mathManifestPath = path.join(outputDir, "math-dpp-manifest.json");
+const mathManifest = fs.existsSync(mathManifestPath) ? JSON.parse(fs.readFileSync(mathManifestPath, "utf8")) : { dpps: [] };
+const mathDpps = new Map(mathManifest.dpps.map((item) => [item.id, item]));
+const dpps = baseDpps.map((item) => mathDpps.has(item.id) ? {
+  ...item,
+  ...mathDpps.get(item.id),
+  suggestedQuestionCount: mathDpps.get(item.id).questionCount,
+} : item);
 
 const payload = {
   programme: "Scrutiny Academy – Mission 600",
