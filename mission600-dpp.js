@@ -75,4 +75,12 @@ async function init(user) {
   renderQuestion(); document.documentElement.classList.remove("auth-check");
 }
 
-onAuthStateChanged(auth, (user) => user ? init(user).catch((error) => { alert(error.message); location.replace("mission600.html"); }) : location.replace("login.html"));
+function showLoadError(error) {
+  console.error("Mission 600 DPP failed to load:", error);
+  document.documentElement.classList.remove("auth-check");
+  $("dppTitle").textContent = "DPP temporarily unavailable";
+  $("questionCard").innerHTML = "<h2>We couldn't load these questions.</h2><p>Please return to Mission 600 and try again. Your other course sections are unaffected.</p>";
+  $("dppMessage").textContent = error?.message || "An unexpected error occurred.";
+  document.querySelector(".dpp-actions").hidden = true;
+}
+onAuthStateChanged(auth, (user) => user ? init(user).catch(showLoadError) : location.replace("login.html"), showLoadError);
