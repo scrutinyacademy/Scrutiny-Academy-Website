@@ -40,16 +40,14 @@ jobs:
       - name: Prepare revocable Firebase credentials
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-adc.json
         run: |
-          node -e 'const fs=require("fs");fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,JSON.stringify({type:"authorized_user",client_id:"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",client_secret:"j9iVZfS8kkCEFUPaAeJV0sAi",refresh_token:process.env.FIREBASE_TOKEN}),{mode:0o600})'
+          node -e 'const fs=require("fs");const service=process.env.FIREBASE_SERVICE_ACCOUNT;const token=process.env.FIREBASE_TOKEN;if(!service&&!token)throw new Error("Add FIREBASE_SERVICE_ACCOUNT or FIREBASE_TOKEN in GitHub Actions secrets.");const credentials=service?JSON.parse(service):{type:"authorized_user",client_id:"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",client_secret:"j9iVZfS8kkCEFUPaAeJV0sAi",refresh_token:token};fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,JSON.stringify(credentials),{mode:0o600})'
           echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS" >> "$GITHUB_ENV"
       - name: Deploy NEET-SS rules and secure payment functions
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: >-
           npx --yes firebase-tools@15.33.0 deploy
           --project scrutiny-academy
-          --token "$FIREBASE_TOKEN"
           --non-interactive
           --only firestore:rules,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess
