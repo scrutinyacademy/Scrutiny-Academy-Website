@@ -1,8 +1,8 @@
 export const MISSION600_PRICING = Object.freeze({
-  dppPaise: 200,
-  writtenTestPaise: 900,
-  combinedBundleDiscountPercent: 10,
-  combinedBundleMaximumDiscountPaise: 10000,
+  dppPaise: 0,
+  writtenTestPaise: 0,
+  combinedBundleDiscountPercent: 0,
+  combinedBundleMaximumDiscountPaise: 0,
 });
 
 export function distinctChapterCount(items = []) {

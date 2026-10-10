@@ -1,21 +1,22 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js?v=3";
-import { calculateMission600Cart, formatRupees, isPurchasableResource } from "./mission600-core.mjs";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, getIdTokenResult, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, getFirestore, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
-import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-functions.js";
 
 const $ = (id) => document.getElementById(id);
-const state = { catalog: null, profile: {}, entitlements: new Set(), cart: new Map(), currentWeek: null, user: null, results: [], submissions: [] };
+const state = { catalog: null, profile: {}, entitlements: new Set(), currentWeek: null, user: null, results: [], submissions: [] };
 const subjectIcon = { mathematics: "📐", physics: "⚛️", biology: "🧬", "social-science": "🌏" };
 const subjectName = (id) => state.catalog.subjects[id]?.name || id;
 const dateText = (date) => new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" }).format(new Date(`${date}T12:00:00+05:30`));
+const isFreeReadyResource = (resource) => resource?.contentComplete === true && ["ready", "published"].includes(resource?.status);
 
 async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
+  state.catalog.dpps = state.catalog.dpps.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
+  state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
 async function mergePublishedCatalogue(db) {
@@ -29,9 +30,9 @@ async function mergePublishedCatalogue(db) {
     return localItems.map((item) => {
       if (!remote.has(item.id)) return item;
       const serverItem = remote.get(item.id);
-      const merged = { ...item, ...serverItem, id: item.id };
+      const merged = { ...item, ...serverItem, id: item.id, pricePaise: 0, purchaseEnabled: false };
       return item.status === "ready" && serverItem.status !== "published"
-        ? { ...merged, status: "ready", contentComplete: true, purchaseEnabled: false, questionCount: item.questionCount, suggestedQuestionCount: item.suggestedQuestionCount }
+        ? { ...merged, status: "ready", contentComplete: true, questionCount: item.questionCount, suggestedQuestionCount: item.suggestedQuestionCount }
         : merged;
     });
   };
@@ -45,7 +46,9 @@ function resolveCurrentWeek() {
 }
 
 function renderNotice() {
-  $("sourceNotice").innerHTML = `<strong>Curriculum verification gate:</strong> ${state.catalog.sourceStatus.textbookBasis} Mathematics DPP banks marked Ready contain 20 MCQs with explanations; checkout activates only after secure content deployment and academic review. <strong>Pricing:</strong> ${state.catalog.pricingPolicy.text}`;
+  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
+  const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
+  $("sourceNotice").innerHTML = `<strong>Mission 600 is included with Class 10:</strong> no separate Mission 600 payment is required. ${readyDpps} completed DPPs and ${readyTests} completed written tests are available now; unfinished resources remain Coming Soon. <strong>Academic note:</strong> ${state.catalog.sourceStatus.textbookBasis}`;
 }
 
 function setupNavigation() {
@@ -99,106 +102,55 @@ function setupFilters() {
 
 function renderBundles() {
   $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => {
-    const resources = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id && !state.entitlements.has(dpp.id));
-    const purchasable = resources.filter(isPurchasableResource);
-    const price = calculateMission600Cart(resources);
-    return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${resources.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>${formatRupees(price.totalPaise)}</strong> · No DPP-only discount</p><button data-bundle="${subject.id}" ${purchasable.length !== resources.length || !resources.length ? "disabled" : ""}>BUY ALL DPPs FOR THIS SUBJECT</button></article>`;
+    const resources = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id);
+    const ready = resources.filter(isFreeReadyResource);
+    return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${resources.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>${ready.length} included now</strong> · ${resources.length - ready.length} Coming Soon</p><button data-bundle="${subject.id}" ${!ready.length ? "disabled" : ""}>${ready.length ? "VIEW INCLUDED DPPs" : "COMING SOON"}</button></article>`;
   }).join("");
-  document.querySelectorAll("[data-bundle]").forEach((button) => button.onclick = () => { state.catalog.dpps.filter((dpp) => dpp.subjectId === button.dataset.bundle && isPurchasableResource(dpp) && !state.entitlements.has(dpp.id)).forEach((dpp) => state.cart.set(dpp.id, dpp)); renderCart(); });
-}
-
-function bundleResources(kind) { return state.catalog[kind === "dpp" ? "dpps" : "tests"].filter((item) => !state.entitlements.has(item.id)); }
-function cartPricing(items = [...state.cart.values()]) {
-  return calculateMission600Cart(items, {
-    requiredDppIds: bundleResources("dpp").map((item) => item.id),
-    requiredTestIds: bundleResources("test").map((item) => item.id),
+  document.querySelectorAll("[data-bundle]").forEach((button) => button.onclick = () => {
+    $("dppSubject").value = button.dataset.bundle;
+    renderDpps();
+    $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
-function addCollectionToCart(kind) {
-  bundleResources(kind).filter(isPurchasableResource).forEach((item) => state.cart.set(item.id, { ...item, kind }));
-  renderCart();
-}
-function collectionReady(kind) {
-  const resources = bundleResources(kind);
-  return resources.length > 0 && resources.every(isPurchasableResource);
-}
+
 function renderProgrammeBundles() {
-  const dpps = bundleResources("dpp"), tests = bundleResources("test");
-  const dppTotal = dpps.reduce((sum, item) => sum + item.pricePaise, 0);
-  const testTotal = tests.reduce((sum, item) => sum + item.pricePaise, 0);
-  const combined = calculateMission600Cart([...dpps.map((item) => ({ ...item, kind: "dpp" })), ...tests.map((item) => ({ ...item, kind: "test" }))], { requiredDppIds: dpps.map((item) => item.id), requiredTestIds: tests.map((item) => item.id) });
-  const dppReady = collectionReady("dpp"), testReady = collectionReady("test");
-  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">COMPLETE DPP COLLECTION</span><h3>All ${dpps.length} unowned DPPs</h3><p><strong>${formatRupees(dppTotal)}</strong> · No standalone discount</p><button data-all-dpps ${!dppReady ? "disabled" : ""}>${dppReady ? "ADD ALL DPPs TO CART" : "COMPLETE COLLECTION COMING SOON"}</button></article><article class="bundle-card featured-bundle"><span class="eyebrow">BEST COMPLETE COMBINATION</span><h3>All DPPs + Complete Test Series</h3><p>${formatRupees(dppTotal + testTotal)} − ${formatRupees(combined.discountPaise)} = <strong>${formatRupees(combined.totalPaise)}</strong><br>10% off, maximum ₹100</p><button data-combined ${!(dppReady && testReady) ? "disabled" : ""}>${dppReady && testReady ? "ADD COMPLETE COMBINATION" : "COMPLETE COMBINATION COMING SOON"}</button></article>`;
-  $("testSeriesBundle").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">COMPLETE WRITTEN TEST SERIES</span><h3>All ${tests.length} unowned tests</h3><p><strong>${formatRupees(testTotal)}</strong> · Tests remain ₹9 each</p><button data-all-tests ${!testReady ? "disabled" : ""}>${testReady ? "ADD COMPLETE TEST SERIES" : "COMPLETE SERIES COMING SOON"}</button></article>`;
-  document.querySelector("[data-all-dpps]").onclick = () => addCollectionToCart("dpp");
-  document.querySelector("[data-all-tests]").onclick = () => addCollectionToCart("test");
-  document.querySelector("[data-combined]").onclick = () => { addCollectionToCart("dpp"); addCollectionToCart("test"); };
+  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
+  const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
+  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">CLASS 10 BATCH BENEFIT</span><h3>Mission 600 DPP Collection</h3><p><strong>${readyDpps} DPPs included now</strong><br>Every completed DPP will unlock here without another payment.</p><button data-jump="library">OPEN MY RESOURCES</button></article><article class="bundle-card featured-bundle"><span class="eyebrow">NO MISSION 600 CHECKOUT</span><h3>One Class 10 access</h3><p>No ₹2 DPP payment, no ₹9 test payment and no Mission 600 cart.</p><button data-jump="dashboard">VIEW WEEKLY MISSION</button></article>`;
+  $("testSeriesBundle").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">WRITTEN TEST SERIES INCLUDED</span><h3>${readyTests} tests published now</h3><p>Completed tests will open automatically for active Class 10 batch students. Draft papers remain Coming Soon.</p><button disabled>${readyTests ? "AVAILABLE BELOW" : "TESTS COMING SOON"}</button></article>`;
+  document.querySelectorAll("[data-jump]").forEach((button) => button.onclick = () => showView(button.dataset.jump));
 }
 
 function renderDpps() {
   const subject = $("dppSubject").value, difficulty = $("dppDifficulty").value, search = $("dppSearch").value.trim().toLowerCase();
   const rows = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
   $("dppStore").innerHTML = rows.map((dpp) => {
-    const owned = state.entitlements.has(dpp.id), purchasable = isPurchasableResource(dpp), ready = dpp.contentComplete === true && dpp.status === "ready";
-    const note = ready ? `20 MCQs ready · secure activation and academic review pending` : `Draft — question bank and academic review incomplete`;
-    const action = owned ? "OPEN DPP" : purchasable ? "ADD TO CART" : ready ? "PAYMENT ACTIVATION PENDING" : "COMING SOON";
-    return `<article class="resource-card ${ready ? "resource-ready" : ""}"><div class="resource-meta"><span>${dpp.subject}</span><b>${formatRupees(dpp.pricePaise)}</b></div><h3>${dpp.title}</h3><p>${dpp.id}<br>${dpp.suggestedQuestionCount} MCQs · ${dpp.maximumMarks || 20} marks · ${dpp.suggestedDurationMinutes} minutes</p>${!purchasable && !owned ? `<span class="draft-note">${note}</span>` : ""}<button data-add="${dpp.id}" ${(!purchasable && !owned) ? "disabled" : ""}>${action}</button></article>`;
+    const ready = isFreeReadyResource(dpp);
+    const note = ready ? `20 MCQs ready · included with your Class 10 batch` : `Draft — question bank and academic review incomplete`;
+    return `<article class="resource-card ${ready ? "resource-ready" : ""}"><div class="resource-meta"><span>${dpp.subject}</span><b class="free-resource-label">${ready ? "INCLUDED" : "DRAFT"}</b></div><h3>${dpp.title}</h3><p>${dpp.id}<br>${dpp.suggestedQuestionCount} MCQs · ${dpp.maximumMarks || 20} marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${note}</span><button data-open-dpp="${dpp.id}" ${!ready ? "disabled" : ""}>${ready ? "OPEN FREE DPP" : "COMING SOON"}</button></article>`;
   }).join("");
-  document.querySelectorAll("[data-add]").forEach((button) => button.onclick = () => { const dpp = state.catalog.dpps.find((item) => item.id === button.dataset.add); if (isPurchasableResource(dpp)) { state.cart.set(dpp.id, dpp); renderCart(); } });
-  document.querySelectorAll("[data-add]").forEach((button) => { if (state.entitlements.has(button.dataset.add)) button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.add)}`; }; });
+  document.querySelectorAll("[data-open-dpp]").forEach((button) => button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.openDpp)}`; });
 }
 
 function renderTests() {
   const phase = $("testPhase").value, subject = $("testSubject").value;
   const tests = state.catalog.tests.filter((test) => (phase === "all" || test.phaseCode === phase) && (subject === "all" || test.subjectId === subject));
   $("testStore").innerHTML = tests.map((test) => {
-    const owned = state.entitlements.has(test.id), ready = isPurchasableResource({ ...test, kind: "test" });
-    return `<article class="test-card"><div class="test-date"><small>${test.day}</small><strong>${new Date(`${test.date}T12:00:00+05:30`).getDate()}</strong><small>${dateText(test.date).split(" ")[1]}</small></div><div><span class="test-code">${test.id}</span><h3>${test.name}</h3><p>${test.maximumMarks} marks · ${test.durationMinutes} minutes · ${test.difficulty}</p>${!ready ? `<span class="draft-note">Draft — question paper, answer key and rubric not yet published</span>` : ""}</div><div><strong>${formatRupees(test.pricePaise)}</strong><button data-test-action="${test.id}" ${!ready && !owned ? "disabled" : ""}>${owned ? "OPEN TEST" : ready ? "ADD TEST TO CART" : "COMING SOON"}</button><small class="test-payment-message"></small></div></article>`;
+    const ready = isFreeReadyResource(test);
+    return `<article class="test-card"><div class="test-date"><small>${test.day}</small><strong>${new Date(`${test.date}T12:00:00+05:30`).getDate()}</strong><small>${dateText(test.date).split(" ")[1]}</small></div><div><span class="test-code">${test.id}</span><h3>${test.name}</h3><p>${test.maximumMarks} marks · ${test.durationMinutes} minutes · ${test.difficulty}</p>${!ready ? `<span class="draft-note">Draft — question paper, answer key and rubric not yet published</span>` : `<span class="draft-note">Included with your Class 10 batch</span>`}</div><div><strong class="free-resource-label">${ready ? "INCLUDED" : "DRAFT"}</strong><button data-test-action="${test.id}" ${!ready ? "disabled" : ""}>${ready ? "OPEN TEST" : "COMING SOON"}</button></div></article>`;
   }).join("");
-  document.querySelectorAll("[data-test-action]").forEach((button) => button.onclick = async () => {
-    const test = state.catalog.tests.find((item) => item.id === button.dataset.testAction);
-    if (state.entitlements.has(test.id)) { location.href = `mission600-submit.html?test=${encodeURIComponent(test.id)}`; return; }
-    state.cart.set(test.id, { ...test, kind: "test" }); renderCart();
-  });
-}
-
-function renderCart() {
-  const items = [...state.cart.values()];
-  const pricing = cartPricing(items);
-  $("cartCount").textContent = items.length; $("cartItemCount").textContent = pricing.dppCount; $("cartTests").textContent = pricing.testCount;
-  $("cartSubtotal").textContent = formatRupees(pricing.subtotalPaise); $("cartDiscount").textContent = pricing.combinedBundleDiscountApplied ? `−${formatRupees(pricing.discountPaise)} (10%)` : "₹0.00"; $("cartTotal").textContent = formatRupees(pricing.totalPaise);
-  $("cartItems").innerHTML = items.length ? items.map((item) => `<div class="cart-item"><span><strong>${item.title || item.name}</strong><small>${item.id} · ${formatRupees(item.pricePaise)}</small></span><button data-remove="${item.id}" aria-label="Remove">×</button></div>`).join("") : `<div class="empty-state">Your Mission 600 cart is empty.</div>`;
-  document.querySelectorAll("[data-remove]").forEach((button) => button.onclick = () => { state.cart.delete(button.dataset.remove); renderCart(); });
-  const eligible = items.length && items.every(isPurchasableResource);
-  $("discountRow").classList.toggle("applied", pricing.combinedBundleDiscountApplied);
-  $("discountLabel").textContent = pricing.combinedBundleDiscountApplied ? "Complete-combination discount" : "Discount";
-  $("checkoutButton").disabled = !eligible; $("checkoutButton").textContent = eligible ? `PAY ${formatRupees(pricing.totalPaise)} SECURELY` : "CHECKOUT UNAVAILABLE";
-}
-
-async function startCheckout(items, button, messageElement) {
-  if (!items.length || !items.every(isPurchasableResource)) return;
-  button.disabled = true; button.textContent = "CREATING SECURE ORDER…"; if (messageElement) messageElement.textContent = "Backend validation in progress.";
-  try {
-    const functions = getFunctions(app, "asia-south1"), createOrder = httpsCallable(functions, "createMission600Order"), verifyPayment = httpsCallable(functions, "verifyMission600Payment");
-    const result = (await createOrder({ clientRequestId: crypto.randomUUID().replaceAll("-", ""), resourceIds: items.map((item) => item.id) })).data;
-    if (result.active) { location.reload(); return; }
-    const checkout = new window.Razorpay({ key: result.keyId, order_id: result.razorpayOrderId, amount: result.amount, currency: result.currency, name: "Scrutiny Academy", description: "Mission 600 resources", prefill: { name: state.profile.name || "", email: state.user.email || "", contact: state.profile.phone || "" }, theme: { color: "#0a4f7f" }, handler: async (payment) => { button.textContent = "VERIFYING PAYMENT…"; await verifyPayment({ orderId: result.orderId, ...payment }); items.forEach((item) => state.cart.delete(item.id)); location.reload(); }, modal: { ondismiss: () => { button.disabled = false; button.textContent = "TRY CHECKOUT AGAIN"; if (messageElement) messageElement.textContent = "Payment cancelled; no access was granted."; } } });
-    checkout.on("payment.failed", () => { button.disabled = false; button.textContent = "RETRY PAYMENT"; if (messageElement) messageElement.textContent = "Payment failed. Retry or contact support if money was debited."; }); checkout.open();
-  } catch (error) { console.error(error); button.disabled = false; button.textContent = "TRY CHECKOUT AGAIN"; if (messageElement) messageElement.textContent = error?.message || "Secure checkout is unavailable."; }
-}
-
-function setupCart() {
-  const open = () => { $("cartDrawer").classList.add("open"); $("scrim").classList.add("open"); $("cartDrawer").setAttribute("aria-hidden", "false"); };
-  const close = () => { $("cartDrawer").classList.remove("open"); $("scrim").classList.remove("open"); $("cartDrawer").setAttribute("aria-hidden", "true"); };
-  $("cartButton").onclick = open; $("closeCart").onclick = close; $("scrim").onclick = close;
-  $("checkoutButton").onclick = () => startCheckout([...state.cart.values()], $("checkoutButton"), $("cartMessage"));
+  document.querySelectorAll("[data-test-action]").forEach((button) => button.onclick = () => { location.href = `mission600-submit.html?test=${encodeURIComponent(button.dataset.testAction)}`; });
 }
 
 function renderPrivateModules() {
-  const ownedDpps = [...state.entitlements].filter((id) => id.startsWith("SA-DPP-")).length, ownedTests = [...state.entitlements].filter((id) => id.startsWith("SA-M600-")).length;
-  $("ownedDpps").textContent = ownedDpps; $("ownedTests").textContent = ownedTests;
-  const owned = [...state.entitlements].map((id) => state.catalog.dpps.find((item) => item.id === id) || state.catalog.tests.find((item) => item.id === id)).filter(Boolean);
-  $("libraryContent").innerHTML = owned.length ? `<div class="compact-list">${owned.map((item) => `<a class="compact-item resource-open" href="${item.kind === "dpp" ? `mission600-dpp.html?dpp=${encodeURIComponent(item.id)}` : `mission600-submit.html?test=${encodeURIComponent(item.id)}`}"><b>${item.kind === "dpp" ? "📝" : "✍️"}</b><span><strong>${item.title || item.name}</strong><small>${item.id}</small></span><i>OPEN</i></a>`).join("")}</div>` : `<strong>No Mission 600 purchases yet.</strong><p>Published resources you buy will appear here immediately after server-verified payment.</p>`;
+  const available = [...state.catalog.dpps, ...state.catalog.tests].filter(isFreeReadyResource);
+  const availableDpps = available.filter((item) => item.kind === "dpp" || item.id.startsWith("SA-DPP-")).length;
+  const availableTests = available.length - availableDpps;
+  $("ownedDpps").textContent = availableDpps; $("ownedTests").textContent = availableTests;
+  $("libraryContent").innerHTML = available.length ? `<div class="compact-list">${available.map((item) => {
+    const dpp = item.kind === "dpp" || item.id.startsWith("SA-DPP-");
+    return `<a class="compact-item resource-open" href="${dpp ? `mission600-dpp.html?dpp=${encodeURIComponent(item.id)}` : `mission600-submit.html?test=${encodeURIComponent(item.id)}`}"><b>${dpp ? "📝" : "✍️"}</b><span><strong>${item.title || item.name}</strong><small>${item.id} · Included with Class 10</small></span><i>OPEN</i></a>`;
+  }).join("")}</div>` : `<strong>No Mission 600 resource is published yet.</strong><p>Completed resources will appear here automatically without a separate payment.</p>`;
   const publishedResults = state.results.filter((item) => item.status === "published");
   $("resultsContent").innerHTML = publishedResults.length ? `<div class="compact-list">${publishedResults.map((item) => `<div class="compact-item"><b>🏆</b><span><strong>${item.resourceId}</strong><small>${item.teacherFeedback || "Evaluation published"}</small></span><i>${item.totalMarks} MARKS</i></div>`).join("")}</div>` : `<strong>No published Mission 600 results yet.</strong><p>Submitted written tests will show Pending Evaluation, Reviewed or Published here.</p>`;
   const revision = publishedResults.filter((item) => item.revisionTopics);
@@ -223,7 +175,7 @@ async function initializeForUser(user) {
   state.submissions = submissionSnapshot ? submissionSnapshot.docs.map((item) => ({ id: item.id, ...item.data() })) : [];
   $("welcomeTitle").textContent = `${state.profile.name || user.displayName || "Student"}, this is your Mission 600.`;
   $("logoutButton").onclick = async () => { await signOut(getAuth()); location.replace("login.html"); };
-  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); renderNotice(); setupNavigation(); setupCalendarViews(); setupFilters(); setupCart(); renderDashboard(); renderCalendar(); renderJourney(); renderProgrammeBundles(); renderBundles(); renderDpps(); renderTests(); renderCart(); renderPrivateModules(); document.documentElement.classList.remove("auth-check");
+  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); renderNotice(); setupNavigation(); setupCalendarViews(); setupFilters(); renderDashboard(); renderCalendar(); renderJourney(); renderProgrammeBundles(); renderBundles(); renderDpps(); renderTests(); renderPrivateModules(); document.documentElement.classList.remove("auth-check");
 }
 
 const app = initializeApp(firebaseConfig);

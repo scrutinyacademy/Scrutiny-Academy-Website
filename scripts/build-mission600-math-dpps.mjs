@@ -297,7 +297,7 @@ const dpps = mathCatalog.chapters.flatMap((chapter, chapterIndex) => levels.map(
   return {
     id, schemaVersion: 1, kind: "dpp", subjectId: "mathematics", subject: "Mathematics", subjectCode: "MAT",
     chapterId: chapter.id, chapterNumber: chapterIndex + 1, chapter: chapter.name, level: level.code,
-    title: `${chapter.name} – ${level.title}`, difficulty: level.difficulty, pricePaise: 200,
+    title: `${chapter.name} – ${level.title}`, difficulty: level.difficulty, pricePaise: 0,
     maximumMarks: 20, suggestedDurationMinutes: level.minutes, questionCount: 20,
     evaluationMethod: "Objective MCQs are auto-checked; every item includes a worked explanation.",
     academicallyReviewed: false, contentComplete: true, status: "ready", purchaseEnabled: false, questions,
@@ -308,7 +308,7 @@ const manifest = {
   schemaVersion: 1,
   sourceTextbook: mathCatalog.sourceTextbook,
   academicYear: mathCatalog.academicYear,
-  activationNote: "Question banks are complete in protected seed data. Checkout stays disabled until academic review and production Firestore seeding.",
+  activationNote: "Question banks are complete and included with active Class 10 batch access. No separate Mission 600 checkout is required.",
   counts: { chapters: mathCatalog.chapters.length, dpps: dpps.length, questions: dpps.reduce((sum, item) => sum + item.questions.length, 0) },
   dpps: dpps.map(({ questions, ...dpp }) => ({ ...dpp, secureContentPath: `mission600DPPContent/${dpp.id}`, previewQuestions: questions.slice(0, 1).map(({ answer, explanation, ...question }) => question) })),
 };

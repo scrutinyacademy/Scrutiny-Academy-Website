@@ -20,7 +20,7 @@ for (const dpp of bank.dpps) {
   if (ids.has(dpp.id)) throw new Error(`Duplicate DPP id ${dpp.id}.`);
   ids.add(dpp.id);
   if (dpp.questions.length !== 20 || dpp.questionCount !== 20 || dpp.maximumMarks !== 20) throw new Error(`${dpp.id} must contain 20 one-mark questions.`);
-  if (dpp.pricePaise !== 200) throw new Error(`${dpp.id} price changed.`);
+  if (dpp.pricePaise !== 0 || dpp.purchaseEnabled !== false) throw new Error(`${dpp.id} must be included without a separate payment.`);
   if (new Set(dpp.questions.map((question) => question.question)).size !== 20) throw new Error(`${dpp.id} contains duplicate question text.`);
   for (const question of dpp.questions) {
     if (questionIds.has(question.id)) throw new Error(`Duplicate question id ${question.id}.`);

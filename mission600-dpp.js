@@ -25,16 +25,22 @@ async function submitDpp() {
   const unanswered = state.answers.filter((answer) => answer == null).length;
   if (unanswered && !confirm(`${unanswered} question(s) are unanswered. Submit anyway?`)) return;
   $("submitDpp").disabled = true;
-  $("dppMessage").textContent = "Saving your attempt securely…";
+  $("dppMessage").textContent = "Saving your attempt…";
   const attemptId = `${state.user.uid}_${resourceId}_${Date.now()}`;
   const answers = state.answers.map((selected, index) => ({ questionId: state.questions[index].id, selected: selected ?? null }));
-  await setDoc(doc(db, "mission600Attempts", attemptId), { uid: state.user.uid, resourceId, status: "started", answers, startedAt: serverTimestamp(), updatedAt: serverTimestamp() });
-  await setDoc(doc(db, "mission600Attempts", attemptId), { status: "submitted", answers, submittedAt: serverTimestamp(), updatedAt: serverTimestamp() }, { merge: true });
+  let savedOnline = true;
+  try {
+    await setDoc(doc(db, "mission600Attempts", attemptId), { uid: state.user.uid, resourceId, status: "submitted", answers, startedAt: serverTimestamp(), submittedAt: serverTimestamp(), updatedAt: serverTimestamp() });
+  } catch (error) {
+    console.warn("Mission 600 attempt saved on this device because cloud saving is unavailable.", error);
+    savedOnline = false;
+    localStorage.setItem(`mission600Attempt:${state.user.uid}:${resourceId}`, JSON.stringify({ attemptId, uid: state.user.uid, resourceId, status: "submitted", answers, submittedAt: new Date().toISOString() }));
+  }
   state.submitted = true;
   const score = state.questions.reduce((total, question, index) => total + (state.answers[index] === question.answer ? 1 : 0), 0;
   $("dppResult").hidden = false;
   $("dppResult").innerHTML = `<span class="eyebrow">DPP COMPLETE</span><h2>${score}/20</h2><p>${score >= 16 ? "Strong work. Review the explanations to make the method automatic." : score >= 10 ? "Good start. Review every incorrect answer, then reattempt the chapter." : "Revisit the chapter lecture and foundation examples before reattempting."}</p>`;
-  $("dppMessage").textContent = "Attempt saved. Correct answers and explanations are now shown.";
+  $("dppMessage").textContent = savedOnline ? "Attempt saved. Correct answers and explanations are now shown." : "Attempt saved on this device. Correct answers and explanations are now shown.";
   renderQuestion();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -42,14 +48,24 @@ async function submitDpp() {
 async function init(user) {
   if (!/^SA-DPP-27-MAT-CH\d{2}-[EMH]$/.test(resourceId || "")) throw new Error("Invalid Mathematics DPP code.");
   state.user = user;
-  const [profileSnap, token, metadataSnap, contentSnap] = await Promise.all([
+  const [profileSnap, token, catalogResponse, bankResponse] = await Promise.all([
     getDoc(doc(db, "students", user.uid)), getIdTokenResult(user, true),
-    getDoc(doc(db, "mission600DPPs", resourceId)), getDoc(doc(db, "mission600DPPContent", resourceId)),
+    fetch("data/mission600/catalog.json"), fetch("data/mission600/private/mathematics-dpps.json"),
   ]);
   const profile = profileSnap.exists() ? profileSnap.data() : {};
   if (token.claims.founder !== true && !entitledCourses(profile).includes("class10")) throw new Error("Class 10 access is required.");
-  if (!metadataSnap.exists() || !contentSnap.exists()) throw new Error("This purchased DPP is not available yet.");
-  state.metadata = metadataSnap.data(); state.questions = contentSnap.data().questions || []; state.answers = Array(state.questions.length).fill(null);
+  if (!catalogResponse.ok || !bankResponse.ok) throw new Error("This DPP could not be loaded. Please try again.");
+  const [catalog, bank] = await Promise.all([catalogResponse.json(), bankResponse.json()]);
+  const localMetadata = catalog.dpps.find((item) => item.id === resourceId);
+  const localContent = bank.dpps.find((item) => item.id === resourceId);
+  if (!localMetadata || !localContent || localMetadata.contentComplete !== true || !["ready", "published"].includes(localMetadata.status)) throw new Error("This DPP is Coming Soon.");
+  const [metadataSnap, contentSnap] = await Promise.all([
+    getDoc(doc(db, "mission600DPPs", resourceId)).catch(() => null),
+    getDoc(doc(db, "mission600DPPContent", resourceId)).catch(() => null),
+  ]);
+  state.metadata = metadataSnap?.exists() ? { ...localMetadata, ...metadataSnap.data(), pricePaise: 0, purchaseEnabled: false } : localMetadata;
+  state.questions = contentSnap?.exists() && Array.isArray(contentSnap.data().questions) ? contentSnap.data().questions : localContent.questions;
+  state.answers = Array(state.questions.length).fill(null);
   if (state.questions.length !== 20) throw new Error("This DPP is undergoing a content check.");
   $("dppCode").textContent = resourceId; $("dppTitle").textContent = state.metadata.title;
   $("dppMeta").textContent = `${state.metadata.chapter} · ${state.metadata.difficulty} · 20 marks · ${state.metadata.suggestedDurationMinutes} minutes`;

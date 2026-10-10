@@ -101,34 +101,10 @@ async function fulfillOrder(orderId, paymentId, source) {
   });
 }
 
-exports.createMission600Order = onCall({ region: REGION, secrets: [RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET], enforceAppCheck: true }, async (request) => {
+exports.createMission600Order = onCall({ region: REGION, enforceAppCheck: true }, async (request) => {
   assertAuthenticated(request);
-  const uid = request.auth.uid;
-  await requireClass10(uid);
-  if (!validClientRequestId(request.data?.clientRequestId)) throw new HttpsError("invalid-argument", "A valid checkout request ID is required.");
-  const orderDocId = `${uid}_${request.data.clientRequestId}`;
-  const orderRef = db.doc(`mission600CartOrders/${orderDocId}`);
-  const existing = await orderRef.get();
-  if (existing.exists) {
-    const value = existing.data();
-    if (value.status === "paid") return { active: true, orderId: orderDocId };
-    if (value.status === "pending" && value.razorpayOrderId) return { keyId: RAZORPAY_KEY_ID.value(), orderId: orderDocId, razorpayOrderId: value.razorpayOrderId, amount: value.pricing.totalPaise, currency: CURRENCY };
-    throw new HttpsError("aborted", "This checkout request is already being processed. Retry shortly.");
-  }
-  const { resources, alreadyOwned } = await validatedResources(uid, request.data?.resourceIds);
-  if (!resources.length) return { active: true, alreadyOwned };
-  const combinedBundleEligible = await qualifiesForCompleteCombination(uid, resources);
-  const pricing = calculateOrder(resources, combinedBundleEligible);
-  if (pricing.totalPaise < MINIMUM_ORDER_PAISE) throw new HttpsError("failed-precondition", `Razorpay cannot process this order because the payable amount is below ₹${(MINIMUM_ORDER_PAISE / 100).toFixed(2)}. Add another eligible DPP or contact support; the price will not be silently increased.`);
-  await orderRef.create({ uid, clientRequestId: request.data.clientRequestId, resourceIds: resources.map((item) => item.id), resources: resources.map((item) => ({ id: item.id, kind: item.kind, subjectId: item.subjectId || null, chapterId: item.chapterId || null, pricePaise: item.pricePaise })), pricing, currency: CURRENCY, status: "creating", createdAt: FieldValue.serverTimestamp(), updatedAt: FieldValue.serverTimestamp() });
-  try {
-    const gatewayOrder = await razorpayRequest("/orders", { method: "POST", body: JSON.stringify({ amount: pricing.totalPaise, currency: CURRENCY, receipt: `m600_${crypto.createHash("sha256").update(orderDocId).digest("hex").slice(0, 24)}`, notes: { firebase_uid: uid, product: "mission600", internal_order_id: orderDocId } }) });
-    await orderRef.update({ razorpayOrderId: gatewayOrder.id, status: "pending", updatedAt: FieldValue.serverTimestamp() });
-    return { keyId: RAZORPAY_KEY_ID.value(), orderId: orderDocId, razorpayOrderId: gatewayOrder.id, amount: pricing.totalPaise, currency: CURRENCY, pricing, alreadyOwned };
-  } catch (error) {
-    await orderRef.update({ status: "gateway_error", updatedAt: FieldValue.serverTimestamp() });
-    throw error;
-  }
+  await requireClass10(request.auth.uid);
+  throw new HttpsError("failed-precondition", "Mission 600 checkout is disabled. Published Mission 600 resources are included with active Class 10 batch access.");
 });
 
 exports.verifyMission600Payment = onCall({ region: REGION, secrets: [RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET], enforceAppCheck: true }, async (request) => {
