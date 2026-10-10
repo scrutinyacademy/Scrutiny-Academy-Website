@@ -14,6 +14,7 @@ let studentOfferActive = true;
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
 const class6Picker=$('class6Picker'), class6Months=$('regClass6Months'), class6PricePreview=$('class6PricePreview');
+const registrationAccessNote=$('registrationAccessNote'), registrationTermsText=$('registrationTermsText');
 const selectedClass6Subjects=()=>[...document.querySelectorAll('input[name="class6Subject"]:checked')].map(input=>input.value);
 function updateClass6Price(){
   if(!class6PricePreview) return;
@@ -28,8 +29,15 @@ function updateCourseSelection(){
   const course=COURSE_CATALOG[courseId];
   const isNeet=courseId==='neet';
   const isClass6=courseId==='class6';
+  const isInviteOnly=course?.inviteOnly===true;
   if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
   if(class6Picker){ class6Picker.hidden=!isClass6; }
+  if(registrationAccessNote) registrationAccessNote.innerHTML=isInviteOnly
+    ? '<strong>Register and request complimentary access.</strong> The Founder/Admin will review your request; no payment is required.'
+    : '<strong>Register, pay and start learning.</strong> No email activation is required. Your selected course unlocks after successful payment confirmation.';
+  if(registrationTermsText) registrationTermsText.textContent=isInviteOnly
+    ? 'I agree to use this account only for my own learning and understand complimentary access requires Founder/Admin approval.'
+    : 'I agree to use this account only for my own learning and understand access is activated after payment verification.';
   if(isClass6) updateClass6Price();
   if(selectionSummary){
     if(!course){ selectionSummary.hidden=true; return; }
