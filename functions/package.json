@@ -6,8 +6,9 @@
     "node": "22"
   },
   "scripts": {
-    "check": "node --check index.js && node --check mission600.js && node --check scripts/backfill-student-emails.js && node --check scripts/set-founder-claim.js",
-    "backfill:emails": "node scripts/backfill-student-emails.js"
+    "check": "node --check index.js && node --check mission600.js && node --check scripts/backfill-student-emails.js && node --check scripts/set-founder-claim.js && node --check scripts/seed-mission600-math-dpps.js",
+    "backfill:emails": "node scripts/backfill-student-emails.js",
+    "seed:mission600:math": "node scripts/seed-mission600-math-dpps.js"
   },
   "dependencies": {
     "firebase-admin": "^13.0.0",
