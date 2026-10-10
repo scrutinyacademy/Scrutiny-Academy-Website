@@ -15,7 +15,7 @@ async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
-  state.catalog.dpps = state.catalog.dpps.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
+  state.catalog.dpps = []; // DPP section paused at founder request; preserve other Mission 600 modules.
   state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
@@ -90,7 +90,7 @@ function setupCalendarViews() { document.querySelectorAll("[data-calendar-view]"
 
 function renderJourney() {
   const lectures = state.currentWeek.lectures || [];
-  $("lectureJourney").innerHTML = lectures.length ? lectures.map((lecture) => `<article class="journey-card"><div class="video">${subjectIcon[lecture.subjectId]} ▶</div><span class="status">${lecture.youtubeUrl ? "LIVE" : `SCHEDULED · ${dateText(lecture.publicationDate)}`}</span><h3>${lecture.title}</h3><p>${lecture.subject} · Concept lecture → examples → textbook questions → answer writing → revision.</p>${lecture.youtubeUrl ? `<a class="watch-link" href="${lecture.youtubeUrl}" target="_blank" rel="noopener">WATCH ON YOUTUBE</a>` : `<span class="coming-link">YouTube link will appear after publication</span>`}<div class="resource-links"><span>Chapter notes</span><span>Revision sheet</span><span>Free practice</span><span>Easy DPP</span><span>Medium DPP</span><span>Hard DPP</span></div></article>`).join("") : `<div class="empty-state"><strong>${state.currentWeek.phaseName}</strong><p>Revision and mock-examination lesson releases will be announced here with their actual YouTube links.</p></div>`;
+  $("lectureJourney").innerHTML = lectures.length ? lectures.map((lecture) => `<article class="journey-card"><div class="video">${subjectIcon[lecture.subjectId]} ▶</div><span class="status">${lecture.youtubeUrl ? "LIVE" : `SCHEDULED · ${dateText(lecture.publicationDate)}`}</span><h3>${lecture.title}</h3><p>${lecture.subject} · Concept lecture → examples → textbook questions → answer writing → revision.</p>${lecture.youtubeUrl ? `<a class="watch-link" href="${lecture.youtubeUrl}" target="_blank" rel="noopener">WATCH ON YOUTUBE</a>` : `<span class="coming-link">YouTube link will appear after publication</span>`}<div class="resource-links"><span>Chapter notes</span><span>Revision sheet</span><span>Free practice</span></div></article>`).join("") : `<div class="empty-state"><strong>${state.currentWeek.phaseName}</strong><p>Revision and mock-examination lesson releases will be announced here with their actual YouTube links.</p></div>`;
 }
 
 function setupFilters() {
