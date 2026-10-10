@@ -25,6 +25,7 @@ const COURSE_PORTALS = {
   neet: { name: "NEET-UG", label: "MEDICAL ENTRANCE PORTAL", target: "neet", sections: ["neet", "ranker", "flashcards", "pyqs", "ncert", "ncert-booster", "tools", "progress", "support"], color: "#d65328", description: "NCERT-focused Biology, Physics and Chemistry practice, tests, PYQs and analysis." },
   jee: { name: "IIT-JEE", label: "ENGINEERING ENTRANCE PORTAL", target: "jee", sections: ["jee", "tools", "progress", "support"], color: "#ef6c00", description: "Physics, Chemistry and Mathematics preparation for JEE Main and Advanced." },
   mbbs: { name: "MBBS", label: "MEDICAL EDUCATION PORTAL", target: "mbbs", sections: ["mbbs", "tools", "progress", "support"], color: "#087f87", description: "Phase-wise medical subjects, clinical learning, revision and assessments." },
+  neetss: { name: "NEET-SS Surgery", label: "SUPER SPECIALITY MASTERY", target: "neetss", sections: ["support"], color: "#008b8b", description: "Surgical Group clinical learning, original MCQs, cases and performance analytics." },
 };
 
 function friendlyStudentName(profile = {}, user = {}) {
@@ -46,6 +47,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   if (courseId === "class8") { location.replace("class8-ssc.html"); return; }
   if (courseId === "class10") { location.replace("class10-board.html"); return; }
   if (courseId === "jee") { location.replace("jee.html"); return; }
+  if (courseId === "neetss") { location.replace("neetss-surgery.html"); return; }
   const course = COURSE_PORTALS[courseId] || COURSE_PORTALS.neet;
   window.ScrutinyStudentStorage.setItem("scrutiny_active_course", courseId);
   document.documentElement.dataset.course = courseId;
@@ -66,6 +68,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
       else if (next === "class8") location.assign("class8-ssc.html");
       else if (next === "class10") location.assign("class10-board.html");
       else if (next === "jee") location.assign("jee.html");
+      else if (next === "neetss") location.assign("neetss-surgery.html");
       else location.assign(`preview-v2.html?course=${next}#${COURSE_PORTALS[next].target}`);
     });
   }

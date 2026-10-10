@@ -97,6 +97,17 @@ export const COURSE_CATALOG = {
     validity: "Lifetime access",
     includes: ["19 MBBS subjects", "Phase-wise medical learning", "Clinical revision tools", "MCQs, bookmarks and progress tracking"],
   },
+  neetss: {
+    id: "neetss",
+    name: "NEET-SS Surgery — Super Speciality Mastery",
+    shortName: "NEET-SS Surgery",
+    price: 0,
+    regularPrice: 0,
+    inviteOnly: true,
+    icon: "⚕️",
+    validity: "Complimentary founder-approved access for the 2026–2027 cycle",
+    includes: ["Surgical Group curriculum", "Clinical decision pathways", "Original MCQs with explanations", "Smart flashcards", "Cases, mistakes and performance analytics"],
+  },
 };
 
 export function currentCoursePrice(courseId, offerActive = true) {
