@@ -18,6 +18,7 @@ const CURRENCY = "INR";
 const SENDER_EMAIL = "scrutinyacademy@gmail.com";
 const FOUNDER_EMAIL_SIGNATURE = "Parmod Sharma\nFounder, Scrutiny Academy";
 const STUDENT_OFFER_LIMIT = 100;
+const NEETSS_FOUNDING_LIMIT = 100;
 const CLASS6_SUBJECT_PRICE = 69;
 const CLASS6_SUBJECTS = {
   mathematics: "Mathematics",
@@ -33,6 +34,7 @@ const COURSES = {
   neet: { name: "NEET-UG Target Course", offerPrice: 99, regularPrice: 495, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
   jee: { name: "IIT-JEE Complete Preparation Course", offerPrice: 499, regularPrice: 2495, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
   mbbs: { name: "MBBS Complete Learning Course", offerPrice: 799, regularPrice: 3995, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
+  neetss: { name: "NEET-SS Surgery — Super Speciality Mastery", offerPrice: 999, regularPrice: 1999, fullPrice: 8999, validityCode: "NEETSS_2026_2027", validityLabel: "NEET-SS 2026–2027 preparation cycle", features: ["18-domain Surgical Group roadmap", "Clinical decision pathways and case simulations", "Original MCQs with detailed explanations", "Smart flashcards and Mistake Book", "Performance analytics and progress tracking"] },
 };
 const KOTA_CHAPTER_PRICE = 9;
 const KOTA_BIOLOGY_CHAPTERS = {
@@ -54,13 +56,26 @@ const GMAIL_APP_PASSWORD = defineSecret("GMAIL_APP_PASSWORD");
 const FOUNDER_EMAILS = new Set(["scrutinyacademy@gmail.com", "iampramodsharma02@gmail.com"]);
 
 async function studentOfferStatus() {
-  const paid = await db.collection("students").where("paymentStatus", "==", "verified").get();
+  const [paid, neetssRequests] = await Promise.all([
+    db.collection("students").where("paymentStatus", "==", "verified").get(),
+    db.collection("paymentRequests").where("courseId", "==", "neetss").get(),
+  ]);
   const paidStudents = paid.size;
+  const neetssPaidEnrollments = neetssRequests.docs.filter((item) => item.data().status === "paid").length;
   return {
     limit: STUDENT_OFFER_LIMIT,
     paidStudents,
     remaining: Math.max(0, STUDENT_OFFER_LIMIT - paidStudents),
     active: paidStudents < STUDENT_OFFER_LIMIT,
+    neetss: {
+      limit: NEETSS_FOUNDING_LIMIT,
+      paidEnrollments: neetssPaidEnrollments,
+      remaining: Math.max(0, NEETSS_FOUNDING_LIMIT - neetssPaidEnrollments),
+      active: neetssPaidEnrollments < NEETSS_FOUNDING_LIMIT,
+      foundingPrice: COURSES.neetss.offerPrice,
+      earlyBirdPrice: COURSES.neetss.regularPrice,
+      fullPrice: COURSES.neetss.fullPrice,
+    },
   };
 }
 
@@ -106,6 +121,7 @@ async function coursePrice(courseId, options = {}) {
   if (!course) return null;
   if (courseId === "class6") return { ...class6Pricing(options.class6Subjects, options.class6Months), offer: { active: true } };
   const offer = await studentOfferStatus();
+  if (courseId === "neetss") return { rupees: offer.neetss.active ? course.offerPrice : course.regularPrice, offer: offer.neetss };
   return { rupees: offer.active ? course.offerPrice : course.regularPrice, offer };
 }
 

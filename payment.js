@@ -38,6 +38,7 @@ let currentUser = null;
 let currentProfile = null;
 let latestPurchase = null;
 let studentOfferActive = true;
+let neetssFoundingOfferActive = true;
 const query = new URLSearchParams(location.search);
 const requestedReturn = query.get("return");
 const returnTarget = ["class6-mathematics.html", "class6-cbse.html", "student.html"].includes(requestedReturn) ? requestedReturn : "student.html";
@@ -67,7 +68,8 @@ function renderClass6Picker() {
 }
 
 function displayedPrice() {
-  return purchaseCourseId === "class6" ? class6SelectionPrice().total : currentCoursePrice(purchaseCourseId, studentOfferActive);
+  const offerActive = purchaseCourseId === "neetss" ? neetssFoundingOfferActive : studentOfferActive;
+  return purchaseCourseId === "class6" ? class6SelectionPrice().total : currentCoursePrice(purchaseCourseId, offerActive);
 }
 
 function dateValue(value) {
@@ -140,7 +142,12 @@ function renderStatus(profile) {
   const course = COURSE_CATALOG[courseId];
   const price = displayedPrice();
   if (course) {
-    $("paymentPrice").textContent = `₹${price}`;
+    $("paymentPrice").textContent = `₹${Number(price).toLocaleString("en-IN")}`;
+    const discount = $("paymentDiscount");
+    if (discount) {
+      discount.hidden = courseId !== "neetss";
+      if (courseId === "neetss") discount.innerHTML = `Full Course Price <s>₹${course.fullPrice.toLocaleString("en-IN")}</s> · ${neetssFoundingOfferActive ? "Founding Students Offer · first 100 successful paid enrolments" : "Early Bird Price"}`;
+    }
     $("paymentCourseName").textContent = course.name;
     $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
     $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : courseValidity(courseId, purchaseNeetYear) || "Choose your NEET exam year below.";
@@ -241,6 +248,7 @@ onAuthStateChanged(auth, async (user) => {
     try {
       const { data: offer } = await getOfferStatus();
       studentOfferActive = offer?.active !== false;
+      neetssFoundingOfferActive = offer?.neetss?.active !== false;
     } catch (offerError) {
       console.warn("Student offer status unavailable:", offerError);
     }
@@ -314,8 +322,12 @@ async function startCheckout() {
     }
     const checkoutRupees = Number(order.amount || 0) / 100;
     if (checkoutRupees > 0) {
-      studentOfferActive = order.offer?.active !== false;
+      if (purchaseCourseId === "neetss") neetssFoundingOfferActive = order.offer?.active !== false;
+      else studentOfferActive = order.offer?.active !== false;
       $("paymentPrice").textContent = `₹${checkoutRupees.toLocaleString("en-IN")}`;
+      if (purchaseCourseId === "neetss" && $("paymentDiscount")) {
+        $("paymentDiscount").innerHTML = `Full Course Price <s>₹8,999</s> · ${neetssFoundingOfferActive ? "Founding Students Offer · first 100 successful paid enrolments" : "Early Bird Price"}`;
+      }
       button.textContent = `PAY ₹${checkoutRupees.toLocaleString("en-IN")} & UNLOCK THIS COURSE`;
     }
 

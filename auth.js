@@ -10,6 +10,7 @@ const $ = id => document.getElementById(id);
 const msg = (text, kind='') => { const el=$('authMessage'); if(!el) return; el.textContent=text; el.className=`message ${kind}`; };
 let authActionInProgress = false;
 let studentOfferActive = true;
+let neetssFoundingOfferActive = true;
 
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
@@ -29,22 +30,18 @@ function updateCourseSelection(){
   const course=COURSE_CATALOG[courseId];
   const isNeet=courseId==='neet';
   const isClass6=courseId==='class6';
-  const isInviteOnly=course?.inviteOnly===true;
   if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
   if(class6Picker){ class6Picker.hidden=!isClass6; }
-  if(registrationAccessNote) registrationAccessNote.innerHTML=isInviteOnly
-    ? '<strong>Register and request complimentary access.</strong> The Founder/Admin will review your request; no payment is required.'
-    : '<strong>Register, pay and start learning.</strong> No email activation is required. Your selected course unlocks after successful payment confirmation.';
-  if(registrationTermsText) registrationTermsText.textContent=isInviteOnly
-    ? 'I agree to use this account only for my own learning and understand complimentary access requires Founder/Admin approval.'
-    : 'I agree to use this account only for my own learning and understand access is activated after payment verification.';
+  if(registrationAccessNote) registrationAccessNote.innerHTML='<strong>Register, pay and start learning.</strong> No email activation is required. Your selected course unlocks after successful payment confirmation.';
+  if(registrationTermsText) registrationTermsText.textContent='I agree to use this account only for my own learning and understand access is activated after payment verification.';
   if(isClass6) updateClass6Price();
   if(selectionSummary){
     if(!course){ selectionSummary.hidden=true; return; }
     const class6Pricing=class6Price(selectedClass6Subjects(),class6Months?.value);
-    const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,studentOfferActive);
+    const offerActive=courseId==='neetss'?neetssFoundingOfferActive:studentOfferActive;
+    const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,offerActive);
     selectionSummary.hidden=false;
-    selectionSummary.innerHTML=`<strong>${course.name} · ${course.inviteOnly?'Complimentary access request':isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price}`}</strong><span>${course.includes.join(' • ')}</span><small>${isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
+    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price.toLocaleString('en-IN')}`}</strong><span>${course.includes.join(' • ')}</span><small>${courseId==='neetss'?`Full Course Price ₹${course.fullPrice.toLocaleString('en-IN')} · ${neetssFoundingOfferActive?'Founding offer for the first 100 paid enrolments':'Early Bird Price'}`:isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
@@ -52,12 +49,21 @@ document.querySelectorAll('input[name="class6Subject"]').forEach(input=>input.ad
 class6Months?.addEventListener('change',updateCourseSelection);
 function updateOfferPresentation(status={active:true,remaining:100,limit:100}){
   studentOfferActive=status.active!==false;
+  neetssFoundingOfferActive=status.neetss?.active!==false;
   Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
-    const price=currentCoursePrice(id,studentOfferActive);
+    const offerActive=id==='neetss'?neetssFoundingOfferActive:studentOfferActive;
+    const price=currentCoursePrice(id,offerActive);
     const option=courseSelect?.querySelector(`option[value="${id}"]`);
-    if(option) option.textContent=course.inviteOnly ? `${course.name} — Complimentary access request` : id==='class6' ? `${course.name} — ₹69 per subject/month` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
+    if(option) option.textContent=id==='class6' ? `${course.name} — ₹69 per subject/month` : id==='neetss' ? `${course.name} — ${offerActive?'Founding Students Offer':'Early Bird Price'} ₹${price.toLocaleString('en-IN')}` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
     const card=document.querySelector(`[data-offer-card="${id}"]`);
     if(!card) return;
+    if(id==='neetss'){
+      card.classList.toggle('offer-ended',!offerActive);
+      card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>${offerActive?'first 100 successful paid enrolments':'early bird price'}</small>`;
+      card.querySelector('.offer-limit').textContent=offerActive?`Early Bird Price ₹1,999 after the first ${status.neetss?.limit||100} enrolments`:'Founding offer complete · Early Bird Price now active';
+      const action=card.querySelector('a[data-select-course]'); if(action) action.textContent=offerActive?'GET FOUNDING OFFER':'GET EARLY BIRD PRICE';
+      return;
+    }
     card.classList.toggle('offer-ended',!studentOfferActive && id!=='class6');
     if(!studentOfferActive && id!=='class6'){
       card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>regular price</small>`;
@@ -103,7 +109,6 @@ if(!configured){
       const profile=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(user,true)).claims.founder===true;
       if(profile.accessStatus==='active'||founder) location.replace('student.html');
-      else if(profile.requestedCourse==='neetss') location.replace('neetss-surgery.html?request=1');
       else if(location.pathname.endsWith('login.html') || /\/$/.test(location.pathname) || location.pathname.endsWith('index.html')) location.replace('payment.html');
     } catch (err) {
       console.error('Scrutiny Academy profile check failed:', err);
@@ -117,7 +122,7 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(cred.user,true)).claims.founder===true;
-      if(p.accessStatus==='active'||founder) location.replace('student.html'); else if(p.requestedCourse==='neetss') location.replace('neetss-surgery.html?request=1'); else location.replace('payment.html');
+      if(p.accessStatus==='active'||founder) location.replace('student.html'); else location.replace('payment.html');
     }catch(err){ authActionInProgress=false; msg(friendly(err),'error'); console.error(err); }
   });
 
@@ -133,7 +138,7 @@ if(!configured){
       if(!selectedCourse) throw new Error('Choose a valid course.');
       if(activeCourse==='neet' && !['2027','2028'].includes(selectedNeetYear)) throw new Error('Choose the NEET exam year you are preparing for.');
       if(activeCourse==='class6' && !selectedSubjects.length) throw new Error('Choose at least one Class 6 subject.');
-      const selectedPrice=activeCourse==='class6'?class6Price(selectedSubjects,selectedMonths).total:currentCoursePrice(activeCourse,studentOfferActive);
+      const selectedPrice=activeCourse==='class6'?class6Price(selectedSubjects,selectedMonths).total:currentCoursePrice(activeCourse,activeCourse==='neetss'?neetssFoundingOfferActive:studentOfferActive);
       const cred=await createUserWithEmailAndPassword(auth,email,$('regPassword').value);
       await setDoc(doc(db,'students',cred.user.uid),{
         uid:cred.user.uid,
@@ -154,12 +159,12 @@ if(!configured){
         createdAt:serverTimestamp(),
         updatedAt:serverTimestamp()
       });
-      msg(activeCourse==='neetss'?'Account created. Your complimentary NEET-SS access request is ready for Founder review.':'Account created. Continue to secure payment to unlock your selected course.','success');
+      msg('Account created. Continue to secure payment to unlock your selected course.','success');
       const paymentQuery = new URLSearchParams({ course: activeCourse });
       if (selectedNeetYear) paymentQuery.set('exam', selectedNeetYear);
       if (selectedSubjects.length) paymentQuery.set('subjects', selectedSubjects.join(','));
       if (selectedMonths) paymentQuery.set('months', String(selectedMonths));
-      location.replace(activeCourse==='neetss'?'neetss-surgery.html?request=1':`payment.html?${paymentQuery}`);
+      location.replace(`payment.html?${paymentQuery}`);
     }catch(err){
       authActionInProgress=false;
       console.error('Scrutiny Academy registration failed:',err);

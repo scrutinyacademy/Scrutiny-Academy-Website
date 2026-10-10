@@ -39,6 +39,8 @@ let activeCourse = "neet";
 let availableCourses = [];
 let studentProfile = {};
 let studentOfferActive = true;
+let neetssFoundingOfferActive = true;
+const displayedCoursePrice = (courseId) => currentCoursePrice(courseId, courseId === "neetss" ? neetssFoundingOfferActive : studentOfferActive);
 const requestedDashboardCourse = new URLSearchParams(location.search).get("course");
 
 function inferCourse(item = {}) {
@@ -102,8 +104,8 @@ function renderCourseDashboard() {
     const owned = availableCourses.includes(id);
     if (owned && id === activeCourse) return `<a class="course-card active" href="${portalUrl(item.target)}" style="--card-accent:${item.color}" aria-label="Open ${esc(item.name)}"><span>${item.icon}</span><strong>${item.name}</strong><small>OPEN CURRENT COURSE →</small></a>`;
     if (owned) return `<button type="button" class="course-card" data-course="${id}" style="--card-accent:${item.color}"><span>${item.icon}</span><strong>${item.name}</strong><small>SWITCH &amp; OPEN COURSE →</small></button>`;
-    const lockedHref=plan.inviteOnly?"neetss-surgery.html?request=1":`payment.html?course=${id}`;
-    const lockedLabel=plan.inviteOnly?"REQUEST COMPLIMENTARY ACCESS":`🔒 UNLOCK FOR ₹${currentCoursePrice(id, studentOfferActive)}`;
+    const lockedHref=`payment.html?course=${id}`;
+    const lockedLabel=`🔒 UNLOCK FOR ₹${displayedCoursePrice(id).toLocaleString("en-IN")}`;
     return `<a class="course-card locked" href="${lockedHref}" style="--card-accent:${item.color}" aria-label="${esc(lockedLabel)}"><span>${item.icon}</span><strong>${item.name}</strong><small>${lockedLabel}</small><em>${plan.includes.slice(0,3).join(" • ")}</em></a>`;
   }).join("");
   $("courseActions").innerHTML = course.actions.map(([title, description, anchor, subject]) => `<a class="card big-link" href="${portalUrl(anchor, subject)}"><div><span class="eyebrow">${course.label}</span><h3>${title}</h3><p>${description}</p></div><strong>OPEN →</strong></a>`).join("");
@@ -130,13 +132,13 @@ function renderCourseSwitchMenu() {
       ? '<span class="course-menu-badge current">CURRENT</span>'
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
-        : plan.inviteOnly ? '<span class="course-menu-price"><small>COMPLIMENTARY</small></span>' : `<span class="course-menu-price">₹${currentCoursePrice(id, studentOfferActive)}${id === "mbbs" ? "<small>LIFETIME</small>" : ""}</span>`;
+        : `<span class="course-menu-price">₹${displayedCoursePrice(id).toLocaleString("en-IN")}${id === "mbbs" ? "<small>LIFETIME</small>" : id === "neetss" ? `<small>${neetssFoundingOfferActive ? "FOUNDING OFFER" : "EARLY BIRD"}</small>` : ""}</span>`;
     const openUrl = id === "class6" ? "class6-cbse.html" : id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : id === "neetss" ? "neetss-surgery.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
       ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`
       : owned
         ? `<button type="button" class="course-menu-action owned-action" data-switch-course="${id}">SWITCH</button>`
-      : `<a class="course-menu-action buy-action" href="${plan.inviteOnly?'neetss-surgery.html?request=1':`payment.html?course=${id}`}" aria-label="${plan.inviteOnly?'Request complimentary access':`Buy ${esc(plan.shortName)} for ₹${currentCoursePrice(id, studentOfferActive)}`} ">${plan.inviteOnly?'REQUEST ACCESS':'BUY COURSE'}</a>`;
+      : `<a class="course-menu-action buy-action" href="payment.html?course=${id}" aria-label="Buy ${esc(plan.shortName)} for ₹${displayedCoursePrice(id).toLocaleString("en-IN")}">BUY COURSE</a>`;
     return `<article class="course-menu-item ${current ? "active" : ""}" role="menuitem"><span class="course-menu-icon" style="--item-accent:${portal.color}">${portal.icon}</span><span class="course-menu-copy"><strong>${esc(portal.name)}</strong><small>${esc(detail)}</small></span>${status}${action}</article>`;
   }).join("");
   list.querySelectorAll("[data-switch-course]").forEach((button) => button.addEventListener("click", () => {
@@ -363,6 +365,7 @@ onAuthStateChanged(auth, async (user) => {
     const status = httpsCallable(getFunctions(app, "asia-south1"), "getStudentOfferStatus");
     const { data } = await status();
     studentOfferActive = data?.active !== false;
+    neetssFoundingOfferActive = data?.neetss?.active !== false;
   } catch (offerError) {
     console.warn("Student offer status unavailable:", offerError);
   }
