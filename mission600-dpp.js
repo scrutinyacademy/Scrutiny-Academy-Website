@@ -1,3 +1,4 @@
+import { createMathematicsDpp } from "./mission600-math-new-bank.mjs?v=1";
 import { firebaseConfig } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js?v=3";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
@@ -46,33 +47,30 @@ async function submitDpp() {
 }
 
 async function init(user) {
-  if (!/^SA-DPP-27-MAT-CH\d{2}-[EMH]$/.test(resourceId || "")) throw new Error("Invalid Mathematics DPP code.");
+  const match = /^M600-NEW-MAT-(\\d{2})-([EMH])$/.exec(resourceId || "");
+  if (!match) throw new Error("Invalid new Mathematics DPP code.");
   state.user = user;
-  const [profileSnap, token, catalogResponse] = await Promise.all([
+  const [profileSnap, token, chapterResponse] = await Promise.all([
     getDoc(doc(db, "students", user.uid)), getIdTokenResult(user, true),
-    fetch("data/mission600/catalog.json"),
+    fetch("data/class10/textbooks/mathematics/catalog.json")
   ]);
   const profile = profileSnap.exists() ? profileSnap.data() : {};
   if (token.claims.founder !== true && !entitledCourses(profile).includes("class10")) throw new Error("Class 10 access is required.");
-  if (!catalogResponse.ok) throw new Error("Mission 600 catalogue could not be loaded.");
-  const catalog = await catalogResponse.json();
-  const localMetadata = catalog.dpps.find((item) => item.id === resourceId);
-  if (!localMetadata || localMetadata.contentComplete !== true || !["ready", "published"].includes(localMetadata.status)) throw new Error("This DPP is Coming Soon.");
-  const [metadataSnap, contentSnap] = await Promise.all([
-    getDoc(doc(db, "mission600DPPs", resourceId)).catch(() => null),
-    getDoc(doc(db, "mission600DPPContent", resourceId)).catch(() => null),
-  ]);
-  state.metadata = metadataSnap?.exists() ? { ...localMetadata, ...metadataSnap.data(), pricePaise: 0, purchaseEnabled: false } : localMetadata;
-  if (!contentSnap?.exists() || !Array.isArray(contentSnap.data().questions)) throw new Error("Questions have not been published to Firebase yet. Please contact Scrutiny Academy support.");
-  state.questions = contentSnap.data().questions;
-  state.answers = Array(state.questions.length).fill(null);
-  if (state.questions.length !== 20) throw new Error("This DPP is undergoing a content check.");
-  $("dppCode").textContent = resourceId; $("dppTitle").textContent = state.metadata.title;
-  $("dppMeta").textContent = `${state.metadata.chapter} · ${state.metadata.difficulty} · 20 marks · ${state.metadata.suggestedDurationMinutes} minutes`;
-  $("previousQuestion").onclick = () => { state.current -= 1; renderQuestion(); };
-  $("nextQuestion").onclick = () => { state.current += 1; renderQuestion(); };
-  $("submitDpp").onclick = () => submitDpp().catch((error) => { $("dppMessage").textContent = error.message; $("submitDpp").disabled = false; });
-  renderQuestion(); document.documentElement.classList.remove("auth-check");
+  if (!chapterResponse.ok) throw new Error("Mathematics chapter catalogue could not be loaded.");
+  const chapters = (await chapterResponse.json()).chapters;
+  const chapterIndex = Number(match[1]) - 1, levelIndex = ["E","M","H"].indexOf(match[2]);
+  if (!chapters[chapterIndex]) throw new Error("Unknown Mathematics chapter.");
+  state.metadata = createMathematicsDpp(chapterIndex, levelIndex, chapters[chapterIndex]);
+  state.questions = state.metadata.questions;
+  state.answers = Array(20).fill(null);
+  $("dppCode").textContent = "NEW MATHEMATICS DPP";
+  $("dppTitle").textContent = state.metadata.title;
+  $("dppMeta").textContent = state.metadata.chapter + " · " + state.metadata.difficulty + " · 20 questions · " + state.metadata.suggestedDurationMinutes + " minutes";
+  $("previousQuestion").onclick = () => { state.current--; renderQuestion(); };
+  $("nextQuestion").onclick = () => { state.current++; renderQuestion(); };
+  $("submitDpp").onclick = () => submitDpp().catch(error => { $("dppMessage").textContent = error.message; $("submitDpp").disabled = false; });
+  renderQuestion();
+  document.documentElement.classList.remove("auth-check");
 }
 
 function showLoadError(error) {
