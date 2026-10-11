@@ -1,0 +1,31 @@
+const {chromium}=require('playwright');
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),data=require('../functions/neetss-content.cjs');
+const server=http.createServer((req,res)=>{const p=path.resolve(root,'.'+decodeURIComponent(req.url.split('?')[0]));if(!p.startsWith(root+path.sep)){res.writeHead(403);return res.end();}fs.readFile(p,(e,b)=>{if(e){res.writeHead(404);res.end();}else{res.setHeader('Content-Type',p.endsWith('.html')?'text/html':p.endsWith('.css')?'text/css':/\.(js|mjs)$/.test(p)?'text/javascript':'application/octet-stream');res.end(b);}});});
+(async()=>{
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const browser=await chromium.launch({headless:true});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.addInitScript(()=>{window.__writes=[];window.__mockUser={uid:'test-student-uid-123456',email:'learner@example.invalid'};window.__mockProgress={mistakes:[0],flashcards:{f1:'difficult'},completedModules:['sepsis'],attempts:[]};});
+ await page.route('https://www.gstatic.com/firebasejs/**',route=>{const f=route.request().url().split('/').pop();const mocks={
+ 'firebase-app.js':'export const initializeApp=()=>({});',
+ 'firebase-auth.js':`export const getAuth=()=>({}); export const getIdTokenResult=async()=>({claims:{}}); export function onAuthStateChanged(a,cb){window.__authCallback=cb;setTimeout(()=>cb(window.__mockUser),0)} export const signOut=async()=>window.__authCallback(null);`,
+ 'firebase-firestore.js':`export const getFirestore=()=>({}); export const doc=(d,c,id)=>({c,id});export const serverTimestamp=()=>0; export const getDoc=async r=>({exists:()=>true,data:()=>r.c==='students'?{name:'Test Learner',courseEntitlements:{neetss:{status:'active'}}}:window.__mockProgress});export const setDoc=async(r,p)=>{window.__writes.push({r,p})};`,
+ 'firebase-functions.js':`export const getFunctions=()=>({});export const httpsCallable=()=>async()=>({data:${JSON.stringify(data)}});`,
+ };return route.fulfill({status:200,contentType:'text/javascript',headers:{'Access-Control-Allow-Origin':'*'},body:mocks[f]||''});});
+ await page.goto(`http://127.0.0.1:${server.address().port}/neetss-surgery.html`);await page.getByText('Phase 2 learning loaded securely.',{exact:true}).waitFor();
+ assert.equal(await page.locator('#moduleTabs button').count(),9);assert.equal(await page.locator('.atlas-card').count(),4);assert.equal(await page.locator('.revision-card').count(),9);assert.equal(await page.locator('.case-card').count(),6);
+ await page.locator('#moduleTabs button').nth(3).click();await page.locator('#bookmarkModule').click();assert.match(await page.locator('#bookmarkList').innerText(),/Adhesive Small Bowel Obstruction/);
+ await page.locator('#completeModule').click();assert.match(await page.locator('#completeModule').innerText(),/COMPLETED/);
+ await page.locator('#quizTopic').selectOption('Gastrointestinal Surgery');await page.locator('#startQuiz').click();await page.locator('[data-option="2"]').click();assert.match(await page.locator('#questionFeedback').innerText(),/Correct/);
+ await page.locator('#nextQuestion').click();await page.locator('[data-option="1"]').click();await page.locator('#submitQuiz').click();assert.match(await page.locator('#quizBox').innerText(),/3\/16 marks/);assert.match(await page.locator('#quizBox').innerText(),/2 unattempted/);
+ await page.locator('#retryMistakes').click();assert.match(await page.locator('#quizBox').innerText(),/Question 1\/2/);await page.locator('#submitQuiz').click();
+ const caseBox=page.locator('#case-case-asbo');for(const answer of [0,1,2]){await caseBox.locator(`[data-case-choice="${answer}"]`).click();await caseBox.locator('[data-case-next]').click();}assert.match(await caseBox.innerText(),/Completed: 3\/3/);
+ await page.locator('#cardMode').selectOption('due');await page.locator('#revealCard').click();await page.locator('[data-rate="known"]').click();const writes=await page.evaluate(()=>window.__writes);assert.ok(writes.some(x=>Object.values(x.p.flashcards).some(s=>s.rating==='known'&&s.dueAt>0)));assert.ok(writes.every(x=>x.r.id==='test-student-uid-123456'));
+ await page.locator('#courseSearch').fill('necrosis');assert.ok(await page.locator('.search-result').count()>0);
+ for(const viewport of [{width:390,height:844},{width:820,height:1180},{width:1440,height:900}]){await page.setViewportSize(viewport);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),`horizontal overflow ${viewport.width}`);}
+ // Timed mode must not reveal correctness before submission.
+ await page.locator('#quizTopic').selectOption('Urology');await page.locator('#quizMode').selectOption('timed');await page.locator('#startQuiz').click();await page.locator('[data-option="1"]').click();assert.equal(await page.locator('#quizBox .correct').count(),0);assert.match(await page.locator('#questionFeedback').innerText(),/after submission/);await page.locator('#submitQuiz').click();assert.match(await page.locator('#quizBox').innerText(),/4\/16 marks/);
+ await page.evaluate(()=>window.__authCallback(null));assert.ok(await page.locator('#workspace').isHidden());assert.ok(await page.locator('#image-atlas').isHidden());assert.equal(await page.locator('.search-result').count(),0);
+ assert.deepEqual(errors,[]);console.log('PASS: authorised UI, 9 modules, 4 atlas diagrams, 9 sheets, 6 cases, bookmarks, scoring/skips, mistakes, spaced review, private saves, search, timed feedback, logout, mobile/iPad/desktop overflow. Firebase network is mocked; live security checks are separate.');
+ await browser.close();server.close();
+})().catch(e=>{console.error(e);server.close();process.exit(1);});

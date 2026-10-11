@@ -561,6 +561,22 @@ async function findPaymentRequestForOrder(orderId) {
   return snap.empty ? null : snap.docs[0];
 }
 
+exports.getNeetssCourseContent = onCall(
+  { region: REGION, enforceAppCheck: false },
+  async (request) => {
+    if (!request.auth) throw new HttpsError('unauthenticated', 'Sign in to open course content.');
+    const email = String(request.auth.token.email || '').toLowerCase();
+    const founder = request.auth.token.founder === true || FOUNDER_EMAILS.has(email);
+    if (!founder) {
+      const snapshot = await db.doc(`students/${request.auth.uid}`).get();
+      if (!snapshot.exists || snapshot.data().courseEntitlements?.neetss?.status !== 'active') {
+        throw new HttpsError('permission-denied', 'Active NEET-SS enrolment is required.');
+      }
+    }
+    return require('./neetss-content.cjs');
+  },
+);
+
 exports.getStudentOfferStatus = onCall(
   { region: REGION, enforceAppCheck: false },
   async () => studentOfferStatus(),
