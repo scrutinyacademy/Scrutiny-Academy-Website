@@ -1,4 +1,5 @@
 import { publishedMathematicsDpps } from "../mission600-math-dpp-bank.mjs";
+import { readFileSync } from "node:fs";
 
 const expectedChapters = ["Real Numbers", "Sets", "Polynomials"];
 const expectedDifficulties = ["Easy", "Medium", "Hard"];
@@ -26,4 +27,13 @@ for (const dpp of publishedMathematicsDpps) {
   }
 }
 
-console.log("Mission 600 Maths DPP validation passed: 3 chapters, 9 DPPs, 180 MCQs.");
+const player = readFileSync(new URL("../mission600-dpp.js", import.meta.url), "utf8");
+const playerPage = readFileSync(new URL("../mission600-dpp.html", import.meta.url), "utf8");
+const class10Page = readFileSync(new URL("../class10-board.html", import.meta.url), "utf8");
+const missionPage = readFileSync(new URL("../mission600.html", import.meta.url), "utf8");
+if (/^import\s/m.test(player)) throw new Error("The DPP player must render without waiting for static Firebase imports.");
+if (!player.includes("const publishedMathematicsDpps = [")) throw new Error("The DPP player must contain its verified local question bank.");
+if (!playerPage.includes('defer src="mission600-dpp.js?v=7"')) throw new Error("The rebuilt DPP player cache key is missing.");
+if (/₹2|₹9/.test(class10Page + missionPage)) throw new Error("Retired Mission 600 prices are still visible.");
+
+console.log("Mission 600 Maths DPP validation passed: 3 chapters, 9 DPPs, 180 MCQs, non-blocking player and no retired prices.");
