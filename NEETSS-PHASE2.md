@@ -31,3 +31,7 @@ The GitHub repository is public: server gating protects app delivery and student
 ## Tests
 
 Run `node scripts/validate-neetss-phase2.mjs` and `node tests/neetss-phase2-browser.cjs`, plus existing Phase 1, pricing, multi-course and student-isolation validators. Browser tests use mocked Firebase for safe repeatable UI testing; they do not prove deployed Firebase Rules. Live unauthorised endpoint checks and deployment verification are separate.
+
+## Exam Mastery release
+
+The protected workspace now has a responsive 14-section slide-out navigator, a Firebase-persisted exam-date/daily-time study planner, a mistake/weakness/difficulty-ranked adaptive queue, and a Grand Test centre. The centre displays the official-format readiness criteria and offers a timed 36-question format drill. It deliberately does not label that drill as a Grand Test: a 150-question simulator remains locked until 150 distinct reviewed questions exist and the 2026 detailed pattern is officially confirmed. Existing attempts and Phase 1/2 progress migrate to schema version 3 without deleting records.
