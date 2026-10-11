@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v67-neetss-phase2-mission600-maths";
+const CACHE = "scrutiny-academy-v68-neetss-phase2-mission600-dpp";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -32,16 +32,16 @@ const APP_SHELL = [
   "./class8-enhanced.css?v=3",
   "./class8-ssc.js?v=3",
   "./class8-content.js?v=3",
-  "./class10-board.html",
+  "./class10-board.html?v=4",
   "./class10-board.css?v=3",
   "./class10-board.js?v=3",
-  "./mission600.html",
-  "./mission600.css?v=1",
-  "./mission600.js?v=8",
+  "./mission600.html?v=9",
+  "./mission600.css?v=3",
+  "./mission600.js?v=9",
   "./mission600-v2.css?v=3",
   "./mission600-core.mjs",
-  "./mission600-dpp.html",
-  "./mission600-dpp.js?v=6",
+  "./mission600-dpp.html?v=7",
+  "./mission600-dpp.js?v=7",
   "./mission600-math-dpp-bank.mjs?v=1",
   "./mission600-submit.html",
   "./mission600-submit.js?v=1",
