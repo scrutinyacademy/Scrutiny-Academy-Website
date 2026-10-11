@@ -1,6 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js?v=3";
-import { publishedMathematicsDpps } from "./mission600-math-dpp-bank.mjs?v=1";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, getIdTokenResult, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, getFirestore, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
@@ -16,7 +15,7 @@ async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
-  state.catalog.dpps = publishedMathematicsDpps;
+  state.catalog.dpps = state.catalog.dpps.map((item) => ({ ...item, status: "published", contentComplete: true, questionCount: 20, maximumMarks: 20, pricePaise: 0, purchaseEnabled: false }));
   state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
@@ -32,8 +31,8 @@ async function mergePublishedCatalogue(db) {
       if (!remote.has(item.id)) return item;
       const serverItem = remote.get(item.id);
       const merged = { ...item, ...serverItem, id: item.id, pricePaise: 0, purchaseEnabled: false };
-      return item.status === "ready" && serverItem.status !== "published"
-        ? { ...merged, status: "ready", contentComplete: true, questionCount: item.questionCount, suggestedQuestionCount: item.suggestedQuestionCount }
+      return item.contentComplete === true && serverItem.status !== "published"
+        ? { ...merged, status: item.status, contentComplete: true, questionCount: item.questionCount, suggestedQuestionCount: item.suggestedQuestionCount }
         : merged;
     });
   };
@@ -44,12 +43,6 @@ async function mergePublishedCatalogue(db) {
 function resolveCurrentWeek() {
   const today = new Date();
   state.currentWeek = state.catalog.weeks.find((week) => today >= new Date(`${week.startDate}T00:00:00+05:30`) && today <= new Date(`${week.endDate}T23:59:59+05:30`)) || state.catalog.weeks[0];
-}
-
-function renderNotice() {
-  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
-  const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
-  $("sourceNotice").innerHTML = `<strong>Mission 600 is included with Class 10:</strong> no separate Mission 600 payment is required. ${readyDpps} Mathematics DPPs and ${readyTests} completed written tests are available now; unfinished resources remain Coming Soon. <strong>Academic note:</strong> ${state.catalog.sourceStatus.textbookBasis}`;
 }
 
 function setupNavigation() {
@@ -102,15 +95,14 @@ function setupFilters() {
 }
 
 function renderBundles() {
-  const publishedChapters = new Set(state.catalog.dpps.map((dpp) => dpp.chapterId)).size;
-  $("subjectBundles").innerHTML = `<article class="bundle-card"><span class="eyebrow">${publishedChapters} CHAPTERS · ${state.catalog.dpps.length} DPPs</span><h3>${subjectIcon.mathematics} Mathematics</h3><p><strong>${state.catalog.dpps.length} included now</strong> · Easy, Medium and Hard</p><button data-bundle="mathematics">VIEW INCLUDED DPPs</button></article>`;
+  $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => { const subjectDpps = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id); return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${subjectDpps.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>Easy, Medium and Hard</strong><br>20 MCQs in every DPP</p><button data-bundle="${subject.id}">VIEW ${subject.name.toUpperCase()}</button></article>`; }).join("");
   document.querySelectorAll("[data-bundle]").forEach((button) => { button.onclick = () => { $("dppSubject").value = button.dataset.bundle; renderDpps(); $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" }); }; });
 }
 
 function renderProgrammeBundles() {
   const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
   const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
-  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">CLASS 10 BATCH BENEFIT</span><h3>Mathematics DPP Collection</h3><p><strong>${readyDpps} DPPs included now</strong><br>Real Numbers, Sets and Polynomials.</p><button data-jump="library">OPEN MY RESOURCES</button></article>`;
+  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">COMPLETE CLASS 10 PRACTICE</span><h3>All-subject DPP Collection</h3><p><strong>${readyDpps} DPPs across 57 chapters</strong><br>Mathematics, Physical Science, Biology and Social Science.</p><button data-jump="dpps">OPEN CHAPTER DPPs</button></article>`;
   $("testSeriesBundle").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">WRITTEN TEST SERIES INCLUDED</span><h3>${readyTests} tests published now</h3><p>Completed tests will open automatically for active Class 10 batch students.</p></article>`;
   document.querySelectorAll("[data-jump]").forEach((button) => { button.onclick = () => showView(button.dataset.jump); });
 }
@@ -120,7 +112,7 @@ function renderDpps() {
   const difficulty = $("dppDifficulty").value;
   const search = $("dppSearch").value.trim().toLowerCase();
   const dpps = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
-  $("dppStore").innerHTML = dpps.map((dpp) => `<article class="resource-card resource-ready"><div class="resource-meta"><span>MATHEMATICS</span><b class="free-resource-label">INCLUDED</b></div><h3>${dpp.title}</h3><p>${dpp.id}</p><p>20 MCQs · 20 marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${dpp.difficulty} chapter practice with answers and explanations</span><button data-dpp-action="${dpp.id}">START DPP</button></article>`).join("") || '<div class="empty-state"><strong>No DPP matches these filters.</strong><p>Try another chapter, difficulty or subject.</p></div>';
+  $("dppStore").innerHTML = dpps.map((dpp) => `<article class="resource-card resource-ready"><div class="resource-meta"><span>${dpp.subject.toUpperCase()}</span><b class="free-resource-label">READY</b></div><h3>${dpp.title}</h3><p>${dpp.id}</p><p>20 MCQs · 20 marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${dpp.difficulty} practice with answers and detailed analysis</span><button data-dpp-action="${dpp.id}">START DPP</button></article>`).join("") || '<div class="empty-state"><strong>No DPP matches these filters.</strong><p>Try another chapter, difficulty or subject.</p></div>';
   document.querySelectorAll("[data-dpp-action]").forEach((button) => { button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.dppAction)}`; }; });
 }
 
@@ -169,7 +161,7 @@ async function initializeForUser(user) {
   state.submissions = submissionSnapshot ? submissionSnapshot.docs.map((item) => ({ id: item.id, ...item.data() })) : [];
   $("welcomeTitle").textContent = `${state.profile.name || user.displayName || "Student"}, this is your Mission 600.`;
   $("logoutButton").onclick = async () => { await signOut(getAuth()); location.replace("login.html"); };
-  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); renderNotice(); setupNavigation(); setupCalendarViews(); setupFilters(); renderDashboard(); renderCalendar(); renderJourney(); renderProgrammeBundles(); renderBundles(); renderDpps(); renderTests(); renderPrivateModules(); document.documentElement.classList.remove("auth-check");
+  await loadCatalog(); await mergePublishedCatalogue(db); resolveCurrentWeek(); setupNavigation(); setupCalendarViews(); setupFilters(); renderDashboard(); renderCalendar(); renderJourney(); renderProgrammeBundles(); renderBundles(); renderDpps(); renderTests(); renderPrivateModules(); if (location.hash === "#dpps") showView("dpps"); document.documentElement.classList.remove("auth-check");
 }
 
 const app = initializeApp(firebaseConfig);
