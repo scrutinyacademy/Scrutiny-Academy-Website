@@ -6,6 +6,7 @@ on:
     paths:
       - "firestore.rules"
       - "functions/index.js"
+      - "functions/neetss-*.cjs"
       - ".github/workflows/deploy-neetss.yml"
   workflow_dispatch:
 
@@ -34,6 +35,7 @@ jobs:
         run: |
           node --check functions/index.js
           node scripts/validate-neetss-phase1.mjs
+          node scripts/validate-neetss-phase2.mjs
           node scripts/validate-neetss-pricing.mjs
           node scripts/validate-multi-course-switcher.mjs
           node tests/student-progress-isolation.cjs
@@ -50,4 +52,4 @@ jobs:
           npx --yes firebase-tools@15.33.0 deploy
           --project scrutiny-academy
           --non-interactive
-          --only firestore:rules,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess
+          --only firestore:rules,functions:getNeetssCourseContent,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess

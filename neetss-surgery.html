@@ -7,7 +7,7 @@
   <meta name="description" content="Scrutiny Academy NEET-SS Surgery Super Speciality Mastery course for MS/DNB General Surgery graduates.">
   <title>NEET-SS Surgery — Super Speciality Mastery | Scrutiny Academy</title>
   <link rel="icon" href="assets/favicon.svg">
-  <link rel="stylesheet" href="neetss-surgery.css?v=2">
+  <link rel="stylesheet" href="neetss-surgery.css?v=3">
 </head>
 <body>
   <header class="topbar">
@@ -19,7 +19,7 @@
   <main>
     <section class="hero" id="overview">
       <div class="hero-copy">
-        <span class="kicker">SURGICAL GROUP · PHASE 1 FUNCTIONAL LAUNCH</span>
+        <span class="kicker">SURGICAL GROUP · PHASE 2 LEARNING EXPANSION</span>
         <h1>NEET-SS Surgery <em>Super Speciality Mastery</em></h1>
         <p>Learn → Understand → Diagnose → Decide → Practise → Analyse → Master</p>
         <div class="course-offer" aria-label="NEET-SS Surgery pricing"><span><small>FOUNDING STUDENTS OFFER</small><strong>₹999</strong><em>First 100 successful paid enrolments</em></span><span><small>EARLY BIRD PRICE</small><strong>₹1,999</strong><em>After the first 100 enrolments</em></span><span><small>FULL COURSE PRICE</small><strong><s>₹8,999</s></strong><em>Limited-period discount</em></span></div>
@@ -47,41 +47,44 @@
     </section>
 
     <section class="dashboard" id="workspace" hidden>
-      <div class="welcome"><div><span class="kicker">WELCOME BACK</span><h2 id="welcomeName">Your Surgical Group command centre</h2><p id="todayMission">Today: one concept module, six flashcards and one focused MCQ set.</p></div><div class="progress-ring" id="progressRing"><strong>0%</strong><span>starter mastery</span></div></div>
+      <div class="welcome"><div><span class="kicker">WELCOME BACK</span><h2 id="welcomeName">Your Surgical Group command centre</h2><p id="todayMission">Today: one concept module, six flashcards and one focused MCQ set.</p></div><div class="progress-ring" id="progressRing"><strong>0%</strong><span>module completion</span></div></div>
       <div class="metric-grid"><article><span>MCQs attempted</span><strong id="metricAttempts">0</strong></article><article><span>Accuracy</span><strong id="metricAccuracy">0%</strong></article><article><span>Mistakes due</span><strong id="metricMistakes">0</strong></article><article><span>Cards difficult</span><strong id="metricCards">0</strong></article></div>
       <div class="tool-grid">
         <button type="button" data-jump="curriculum">📚 <strong>Subjects &amp; Chapters</strong><span>18-domain roadmap</span></button>
-        <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span>12 reviewed starter MCQs</span></button>
-        <button type="button" data-jump="clinical-cases">🩻 <strong>Clinical Cases</strong><span>3 decision simulations</span></button>
-        <button type="button" data-jump="flashcards">⚡ <strong>Smart Flashcards</strong><span>18 starter cards</span></button>
+        <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span>36 original source-checked MCQs</span></button>
+        <button type="button" data-jump="clinical-cases">🩻 <strong>Clinical Cases</strong><span>6 multi-step clinical scenarios</span></button>
+        <button type="button" data-jump="flashcards">⚡ <strong>Smart Flashcards</strong><span>42 cards · spaced review</span></button>
         <button type="button" data-jump="mistake-book">📕 <strong>Mistake Book</strong><span>Automatic targeted revision</span></button>
-        <button type="button" data-jump="analytics">📈 <strong>Performance Analytics</strong><span>Accuracy and weak domains</span></button>
+        <button type="button" data-jump="image-atlas">🖼️ <strong>Surgical Diagram Atlas</strong><span>4 original teaching schematics</span></button><button type="button" data-jump="revision-sheets">📄 <strong>Rapid Revision Sheets</strong><span>9 printable topic summaries</span></button><button type="button" data-jump="bookmarks">🔖 <strong>Bookmarks</strong><span>Your saved modules and questions</span></button><button type="button" data-jump="analytics">📈 <strong>Performance Analytics</strong><span>Accuracy and weak domains</span></button>
       </div>
     </section>
 
     <section id="curriculum" class="curriculum">
       <div class="section-head"><div><span class="kicker">COMPLETE ROADMAP</span><h2>18 surgical domains, prioritised for the Surgical Group</h2></div><label class="search">Search <input id="courseSearch" type="search" placeholder="chapter, concept or feature"></label></div>
-      <div class="chapter-grid" id="chapterGrid"></div>
+      <div id="searchResults" class="search-results" aria-live="polite"></div><div id="searchPreview"></div><div class="chapter-grid" id="chapterGrid"></div>
     </section>
 
     <section class="learning" id="learningModules" hidden>
-      <div class="section-head"><div><span class="kicker">VERIFIED STARTER MODULES</span><h2>Decision-first learning</h2></div><span class="phase">PHASE 1 · 3 MODULES</span></div>
+      <div class="section-head"><div><span class="kicker">SOURCE-CHECKED LEARNING MODULES</span><h2>Decision-first learning</h2></div><span class="phase">PHASE 2 · 9 MODULES</span></div>
       <div id="moduleTabs" class="module-tabs" role="tablist"></div>
       <article id="moduleContent" class="module-content"></article>
     </section>
 
     <section class="practice" id="mcq-practice" hidden>
-      <div class="section-head"><div><span class="kicker">ORIGINAL PRACTICE · NOT PYQs</span><h2>NEET-SS Surgical Group MCQ engine</h2></div><div class="mode-controls"><label>Mode <select id="quizMode"><option value="practice">Untimed practice</option><option value="exam">Exam simulation (+4/−1)</option></select></label><button class="primary" id="startQuiz" type="button">START 12 QUESTIONS</button></div></div>
+      <div class="section-head"><div><span class="kicker">ORIGINAL PRACTICE · NOT PYQs</span><h2>NEET-SS Surgical Group MCQ engine</h2></div><div class="mode-controls"><label>Domain <select id="quizTopic"></select></label><label>Difficulty <select id="quizDifficulty"><option value="">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select></label><label>Mode <select id="quizMode"><option value="practice">Untimed practice</option><option value="timed">Timed focused set (+4/−1)</option></select></label><button class="primary" id="startQuiz" type="button">START PRACTICE</button></div></div>
       <div class="quiz" id="quizBox"><p>Choose a mode and begin. Explanations appear immediately in practice mode and after submission in exam mode.</p></div>
     </section>
 
     <section class="cases" id="clinical-cases" hidden><div class="section-head"><div><span class="kicker">CLINICAL CASE SIMULATOR</span><h2>Choose the next best step</h2></div></div><div class="case-grid" id="caseGrid"></div></section>
-    <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Active recall with difficult-card review</h2></div><button class="secondary" id="difficultOnly" type="button">DIFFICULT CARDS ONLY</button></div><div class="flashcard-stage" id="flashcardStage"></div></section>
+    <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Active recall with difficult-card review</h2></div><button class="secondary" id="difficultOnly" type="button">DIFFICULT CARDS ONLY</button></div><div class="mode-controls"><label>Domain <select id="cardTopic"></select></label><label>Review <select id="cardMode"><option value="all">All cards</option><option value="due">Due cards</option><option value="difficult">Difficult cards</option></select></label></div><div class="flashcard-stage" id="flashcardStage"></div></section>
     <section class="mistakes" id="mistake-book" hidden><div class="section-head"><div><span class="kicker">AUTOMATIC REVISION</span><h2>Mistake Book</h2></div></div><div id="mistakeList" class="list-panel"></div></section>
-    <section class="analytics" id="analytics" hidden><div class="section-head"><div><span class="kicker">PERFORMANCE ANALYTICS</span><h2>Your current Phase 1 signal</h2></div></div><div id="analyticsPanel" class="analytics-panel"></div></section>
-    <section class="coming"><article><span>PHASE 2</span><h3>Surgical Image Atlas &amp; expanded cases</h3><p>Only original or properly licensed images will be added.</p></article><article><span>PHASE 3</span><h3>Official-pattern Grand Tests</h3><p>150 questions in three locked 50-minute sections after the 2026 bulletin is confirmed.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
+    <section class="analytics" id="analytics" hidden><div class="section-head"><div><span class="kicker">PERFORMANCE ANALYTICS</span><h2>Accuracy, timing and progress trends</h2></div></div><div id="analyticsPanel" class="analytics-panel"></div><div id="topicAnalytics"></div><div id="attemptHistory"></div></section>
+    <section class="atlas" id="image-atlas" hidden><div class="section-head"><div><span class="kicker">ORIGINAL DIAGRAM ATLAS</span><h2>See the pattern, recall the decision</h2></div></div><p>Classification and mechanism schematics; no patient scans, operative photographs or diagnostic images are claimed.</p><div id="atlasGrid" class="atlas-grid"></div></section>
+    <section class="revision" id="revision-sheets" hidden><div class="section-head"><div><span class="kicker">RAPID REVISION</span><h2>Printable focused topic sheets</h2></div></div><p>Print one sheet at a time. Browser print settings may require scaling for a single page.</p><div id="revisionGrid" class="revision-grid"></div></section>
+    <section class="bookmarks" id="bookmarks" hidden><div class="section-head"><div><span class="kicker">SAVED FOR REVISION</span><h2>Your bookmarks</h2></div></div><div id="bookmarkList" class="list-panel"></div></section>
+    <section class="coming"><article><span>PHASE 2 RELEASE</span><h3>Focused expansion, honest coverage</h3><p>9 modules across 8 domains, 36 original MCQs, 42 cards, 6 cases and 4 original schematics. Remaining topics are not complete.</p><p id="contentReview">Source-checked educational summaries; independent surgeon review pending.</p></article><article><span>PHASE 3</span><h3>Official-pattern Grand Tests</h3><p>150 questions in three locked 50-minute sections after the 2026 bulletin is confirmed.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
   </main>
   <footer><strong>Scrutiny Academy</strong><span>Educational preparation only. Clinical decisions must follow current institutional protocols and specialist supervision.</span><a href="mailto:scrutinyacademy@gmail.com">Support</a></footer>
-  <script type="module" src="neetss-surgery.js?v=2"></script>
+  <script type="module" src="neetss-surgery.js?v=3"></script>
 </body>
 </html>
