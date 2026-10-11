@@ -9,6 +9,7 @@
   <link rel="icon" href="assets/favicon.svg">
   <link rel="stylesheet" href="neetss-surgery.css?v=4">
   <link rel="stylesheet" href="neetss-exam-mastery.css?v=1">
+  <link rel="stylesheet" href="neetss-flashcards.css?v=1">
 </head>
 <body>
   <header class="topbar">
@@ -55,7 +56,7 @@
 
     <section class="dashboard" id="workspace" hidden>
       <div class="welcome"><div><span class="kicker">WELCOME BACK</span><h2 id="welcomeName">Your Surgical Group command centre</h2><p id="todayMission">Today: one concept module, six flashcards and one focused MCQ set.</p></div><div class="progress-ring" id="progressRing"><strong>0%</strong><span>module completion</span></div></div>
-      <div class="metric-grid"><article><span>MCQs attempted</span><strong id="metricAttempts">0</strong></article><article><span>Accuracy</span><strong id="metricAccuracy">0%</strong></article><article><span>Mistakes due</span><strong id="metricMistakes">0</strong></article><article><span>Cards difficult</span><strong id="metricCards">0</strong></article></div>
+      <div class="metric-grid"><article><span>MCQs attempted</span><strong id="metricAttempts">0</strong></article><article><span>Accuracy</span><strong id="metricAccuracy">0%</strong></article><article><span>Mistakes due</span><strong id="metricMistakes">0</strong></article><article><span>Cards for revision</span><strong id="metricCards">0</strong></article></div>
       <div class="tool-grid">
         <button type="button" data-jump="curriculum">📚 <strong>Subjects &amp; Chapters</strong><span>18-domain roadmap</span></button>
         <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span>36 original source-checked MCQs</span></button>
@@ -86,7 +87,7 @@
     </section>
 
     <section class="cases" id="clinical-cases" hidden><div class="section-head"><div><span class="kicker">CLINICAL CASE SIMULATOR</span><h2>Choose the next best step</h2></div></div><div class="case-grid" id="caseGrid"></div></section>
-    <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Active recall with difficult-card review</h2></div><button class="secondary" id="difficultOnly" type="button">DIFFICULT CARDS ONLY</button></div><div class="mode-controls"><label>Domain <select id="cardTopic"></select></label><label>Review <select id="cardMode"><option value="all">All cards</option><option value="due">Due cards</option><option value="difficult">Difficult cards</option></select></label></div><div class="flashcard-stage" id="flashcardStage"></div></section>
+    <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Tap, flip and remember</h2><p>Recall the answer first, then tap the card to reveal it. Bookmark key facts or save cards to your personal revision deck.</p></div><button class="secondary" id="difficultOnly" type="button">SAVED FOR REVISION</button></div><div class="mode-controls"><label>Domain <select id="cardTopic"></select></label><label>Review <select id="cardMode"><option value="all">All cards</option><option value="due">Due cards</option><option value="saved">Saved for revision</option><option value="difficult">Needs review</option></select></label></div><div class="flashcard-stage" id="flashcardStage" aria-live="polite"></div></section>
     <section class="mistakes" id="mistake-book" hidden><div class="section-head"><div><span class="kicker">AUTOMATIC REVISION</span><h2>Mistake Book</h2></div></div><div id="mistakeList" class="list-panel"></div></section>
     <section class="analytics" id="analytics" hidden><div class="section-head"><div><span class="kicker">PERFORMANCE ANALYTICS</span><h2>Accuracy, timing and progress trends</h2></div></div><div id="analyticsPanel" class="analytics-panel"></div><div id="topicAnalytics"></div><div id="attemptHistory"></div></section>
     <section class="atlas" id="image-atlas" hidden><div class="section-head"><div><span class="kicker">ORIGINAL DIAGRAM ATLAS</span><h2>See the pattern, recall the decision</h2></div></div><p>Classification and mechanism schematics; no patient scans, operative photographs or diagnostic images are claimed.</p><div id="atlasGrid" class="atlas-grid"></div></section>
@@ -98,6 +99,6 @@
     <section class="coming"><article><span>LEARNING LIBRARY</span><h3>Focused expansion, honest coverage</h3><p>9 modules across 8 domains, 36 original MCQs, 42 cards, 6 cases and 4 original schematics. Remaining topics are not complete.</p><p id="contentReview">Source-checked educational summaries; independent surgeon review pending.</p></article><article><span>EXAM MASTERY</span><h3>Functional tools live</h3><p>Study planning, adaptive practice and Grand Test readiness are live. A full simulation unlocks only after 150 distinct reviewed questions are available.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
   </main>
   <footer><strong>Scrutiny Academy</strong><span>Educational preparation only. Clinical decisions must follow current institutional protocols and specialist supervision.</span><a href="mailto:scrutinyacademy@gmail.com">Support</a></footer>
-  <script type="module" src="neetss-surgery.js?v=4"></script>
+  <script type="module" src="neetss-surgery.js?v=5"></script>
 </body>
 </html>

@@ -11,7 +11,7 @@ export function scoreAnswers(answers,total) {
 }
 export function scheduleCard(previous,rating,now=Date.now()) {
   const days=rating==='difficult'?0:Math.min(30,Math.max(1,(previous?.intervalDays||0)*2||1));
-  return {rating,intervalDays:days,dueAt:now+(days?days*86400000:600000),reviews:(previous?.reviews||0)+1};
+  return {...previous,rating,intervalDays:days,dueAt:now+(days?days*86400000:600000),reviews:(previous?.reviews||0)+1};
 }
 export function analyse(attempts) {
   const quizzes=attempts.filter(a=>a.kind!=='case'),topics={};let total=0,correct=0,seconds=0,timed=0;
