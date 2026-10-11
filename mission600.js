@@ -1,5 +1,6 @@
 import { firebaseConfig } from "./firebase-config.js";
 import { entitledCourses } from "./course-catalog.js?v=3";
+import { publishedMathematicsDpps } from "./mission600-math-dpp-bank.mjs?v=1";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, getIdTokenResult, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, getFirestore, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
@@ -15,7 +16,7 @@ async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
-  state.catalog.dpps = []; // Retire all legacy DPP entries; replacement is generated independently.
+  state.catalog.dpps = publishedMathematicsDpps;
   state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
@@ -46,8 +47,9 @@ function resolveCurrentWeek() {
 }
 
 function renderNotice() {
+  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
   const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
-  $("sourceNotice").innerHTML = `<strong>Mission 600 is included with Class 10:</strong> no separate Mission 600 payment is required. ${readyTests} completed written tests are available now; unfinished resources remain Coming Soon. <strong>Academic note:</strong> ${state.catalog.sourceStatus.textbookBasis}`;
+  $("sourceNotice").innerHTML = `<strong>Mission 600 is included with Class 10:</strong> no separate Mission 600 payment is required. ${readyDpps} Mathematics DPPs and ${readyTests} completed written tests are available now; unfinished resources remain Coming Soon. <strong>Academic note:</strong> ${state.catalog.sourceStatus.textbookBasis}`;
 }
 
 function setupNavigation() {
@@ -100,17 +102,26 @@ function setupFilters() {
 }
 
 function renderBundles() {
-  $("subjectBundles").innerHTML = "";
+  const publishedChapters = new Set(state.catalog.dpps.map((dpp) => dpp.chapterId)).size;
+  $("subjectBundles").innerHTML = `<article class="bundle-card"><span class="eyebrow">${publishedChapters} CHAPTERS · ${state.catalog.dpps.length} DPPs</span><h3>${subjectIcon.mathematics} Mathematics</h3><p><strong>${state.catalog.dpps.length} included now</strong> · Easy, Medium and Hard</p><button data-bundle="mathematics">VIEW INCLUDED DPPs</button></article>`;
+  document.querySelectorAll("[data-bundle]").forEach((button) => { button.onclick = () => { $("dppSubject").value = button.dataset.bundle; renderDpps(); $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" }); }; });
 }
 
 function renderProgrammeBundles() {
+  const readyDpps = state.catalog.dpps.filter(isFreeReadyResource).length;
   const readyTests = state.catalog.tests.filter(isFreeReadyResource).length;
-  $("programmeBundles").innerHTML = "";
+  $("programmeBundles").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">CLASS 10 BATCH BENEFIT</span><h3>Mathematics DPP Collection</h3><p><strong>${readyDpps} DPPs included now</strong><br>Real Numbers, Sets and Polynomials.</p><button data-jump="library">OPEN MY RESOURCES</button></article>`;
   $("testSeriesBundle").innerHTML = `<article class="bundle-card featured-bundle"><span class="eyebrow">WRITTEN TEST SERIES INCLUDED</span><h3>${readyTests} tests published now</h3><p>Completed tests will open automatically for active Class 10 batch students.</p></article>`;
+  document.querySelectorAll("[data-jump]").forEach((button) => { button.onclick = () => showView(button.dataset.jump); });
 }
 
 function renderDpps() {
-  $("dppStore").innerHTML = '<div class="empty-state"><strong>No Mathematics DPPs available.</strong><p>This section is empty until new questions are added.</p></div>';
+  const subject = $("dppSubject").value;
+  const difficulty = $("dppDifficulty").value;
+  const search = $("dppSearch").value.trim().toLowerCase();
+  const dpps = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
+  $("dppStore").innerHTML = dpps.map((dpp) => `<article class="resource-card resource-ready"><div class="resource-meta"><span>MATHEMATICS</span><b class="free-resource-label">INCLUDED</b></div><h3>${dpp.title}</h3><p>${dpp.id}</p><p>20 MCQs · 20 marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${dpp.difficulty} chapter practice with answers and explanations</span><button data-dpp-action="${dpp.id}">START DPP</button></article>`).join("") || '<div class="empty-state"><strong>No DPP matches these filters.</strong><p>Try another chapter, difficulty or subject.</p></div>';
+  document.querySelectorAll("[data-dpp-action]").forEach((button) => { button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.dppAction)}`; }; });
 }
 
 function renderTests() {
@@ -124,9 +135,11 @@ function renderTests() {
 }
 
 function renderPrivateModules() {
-  const available = state.catalog.tests.filter(isFreeReadyResource);
-  const availableDpps = 0;
-  const availableTests = available.length;
+  const dpps = state.catalog.dpps.filter(isFreeReadyResource);
+  const tests = state.catalog.tests.filter(isFreeReadyResource);
+  const available = [...dpps, ...tests];
+  const availableDpps = dpps.length;
+  const availableTests = tests.length;
   $("ownedDpps").textContent = availableDpps; $("ownedTests").textContent = availableTests;
   $("libraryContent").innerHTML = available.length ? `<div class="compact-list">${available.map((item) => {
     const dpp = item.kind === "dpp" || item.id.startsWith("SA-DPP-");
