@@ -1,0 +1,30 @@
+name: Course Navigation QA
+on:
+  pull_request:
+    paths:
+      - 'course-section-nav.*'
+      - '*.html'
+      - 'scripts/validate-course-section-nav.mjs'
+      - 'tests/course-section-nav-browser.cjs'
+      - '.github/workflows/course-nav-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  navigation-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate installation and mappings
+        run: node scripts/validate-course-section-nav.mjs
+      - name: Install isolated browser dependency
+        run: |
+          npm install --prefix "$RUNNER_TEMP/course-nav-browser" --no-save playwright@1.58.2
+          node "$RUNNER_TEMP/course-nav-browser/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Test drawer and responsive layouts
+        env:
+          NODE_PATH: ${{ runner.temp }}/course-nav-browser/node_modules
+        run: node tests/course-section-nav-browser.cjs
