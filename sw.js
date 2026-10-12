@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v72-neetss-flip-flashcards";
+const CACHE = "scrutiny-academy-v73-neetss-content-expansion";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -153,7 +153,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
   // Never serve stale course gates, and never cache authorised course responses.
-  if (/\/(neetss-(surgery|phase2-ui|core|exam-mastery|flashcards)|course-section-nav)\./.test(url.pathname)) {
+  if (/\/(neetss-(surgery|phase2-ui|core|exam-mastery|flashcards|content-expansion)|course-section-nav)\./.test(url.pathname)) {
     event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }

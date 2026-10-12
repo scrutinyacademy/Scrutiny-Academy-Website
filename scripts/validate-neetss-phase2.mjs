@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import data from '../functions/neetss-content.cjs';
 import {migrateProgress,scoreAnswers,scheduleCard,analyse,buildAdaptiveQueue,buildStudyPlan,grandTestEligibility} from '../neetss-core.mjs';
-assert.equal(data.modules.length,9);assert.equal(data.questions.length,36);assert.equal(data.cards.length,42);assert.equal(data.cases.length,6);assert.equal(data.atlas.length,4);
+assert.equal(data.modules.length,19);assert.equal(data.questions.length,66);assert.equal(data.cards.length,102);assert.equal(data.cases.length,6);assert.equal(data.atlas.length,4);assert.equal(new Set(data.modules.map(m=>m.chapter)).size,18);assert.deepEqual(data.targets,{mcqsPerChapter:250,cardsPerChapter:150});
 for(const collection of ['modules','questions','cards','cases','atlas'])assert.equal(new Set(data[collection].map(x=>x.id)).size,data[collection].length,`duplicate ${collection} IDs`);
 assert.equal(new Set(data.questions.map(q=>q.q)).size,data.questions.length);
 for(const q of data.questions){assert.equal(q.o.length,4);assert.equal(q.wrong.length,4);assert.ok(Number.isInteger(q.a)&&q.a>=0&&q.a<4);assert.ok(q.why.length>70);assert.ok(q.wrong.every((x,i)=>i===q.a||x.length>12));assert.match(q.sourceUrl,/^https:\/\//);assert.ok(q.provenance.includes('not an official PYQ'));}
@@ -17,9 +17,9 @@ const plan=buildStudyPlan({modules:data.modules,completedModules:[],mistakes:['p
 assert.deepEqual(grandTestEligibility(36,false),{eligible:false,questionCount:36,required:150,confirmedPattern:false});assert.equal(grandTestEligibility(150,true).eligible,true);
 const read=f=>fs.readFileSync(new URL(`../${f}`,import.meta.url),'utf8');
 const html=read('neetss-surgery.html'),ui=read('neetss-phase2-ui.js'),flashcardCss=read('neetss-flashcards.css'),backend=read('functions/index.js');
-for(const id of ['image-atlas','revision-sheets','bookmarks','quizTopic','quizDifficulty','cardMode','topicAnalytics','attemptHistory','searchResults','courseSidebar','study-planner','adaptive-practice','grand-tests'])assert.ok(html.includes(`id="${id}"`));
+for(const id of ['image-atlas','revision-sheets','bookmarks','quizTopic','quizDifficulty','cardMode','topicAnalytics','attemptHistory','searchResults','courseSidebar','study-planner','adaptive-practice','grand-tests','bank-status','bankStatusGrid'])assert.ok(html.includes(`id="${id}"`));
 assert.ok(backend.includes('exports.getNeetssCourseContent'));
 assert.ok(backend.includes("snapshot.data().courseEntitlements?.neetss?.status !== 'active'"));
 assert.ok(ui.includes("'getNeetssCourseContent'"));assert.ok(!ui.includes('const questions=['));assert.ok(ui.includes('version!==epoch'));assert.ok(ui.includes('if(epoch!==version||user?.uid!==uid)return'));
-assert.ok(html.includes('<option value="saved">Saved for revision</option>'));assert.ok(ui.includes('class="flashcard-scene"'));assert.ok(ui.includes('savedForRevision'));assert.ok(ui.includes('card:${c.id}'));assert.ok(flashcardCss.includes('.flip-card.is-flipped'));
-console.log('PASS: learning counts, original-question integrity, case paths, legacy migration, +4/−1/0 scoring, tap-to-flip cards, persistent bookmarks/revision saves, spaced review, adaptive queue, planner, Grand Test quality gate, analytics, source metadata, server gate and account race guards.');
+assert.ok(html.includes('<option value="saved">Saved for revision</option>'));assert.ok(ui.includes('class="flashcard-scene"'));assert.ok(ui.includes('savedForRevision'));assert.ok(ui.includes('card:${c.id}'));assert.ok(ui.includes('WHY YOUR CHOICE WAS WRONG'));assert.ok(ui.includes('mcqsPerChapter'));assert.ok(flashcardCss.includes('.flip-card.is-flipped'));
+console.log('PASS: 18-domain breadth, 19 learning modules, 66 original MCQs, 102 flashcards, detailed wrong-answer analysis, honest bank targets, case paths, legacy migration, +4/−1/0 scoring, tap-to-flip cards, persistent bookmarks/revision saves, spaced review, adaptive queue, planner, Grand Test quality gate, analytics, source metadata, server gate and account race guards.');

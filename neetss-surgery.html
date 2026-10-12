@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="neetss-surgery.css?v=4">
   <link rel="stylesheet" href="neetss-exam-mastery.css?v=1">
   <link rel="stylesheet" href="neetss-flashcards.css?v=1">
+  <link rel="stylesheet" href="neetss-content-expansion.css?v=1">
 </head>
 <body>
   <header class="topbar">
@@ -59,11 +60,11 @@
       <div class="metric-grid"><article><span>MCQs attempted</span><strong id="metricAttempts">0</strong></article><article><span>Accuracy</span><strong id="metricAccuracy">0%</strong></article><article><span>Mistakes due</span><strong id="metricMistakes">0</strong></article><article><span>Cards for revision</span><strong id="metricCards">0</strong></article></div>
       <div class="tool-grid">
         <button type="button" data-jump="curriculum">📚 <strong>Subjects &amp; Chapters</strong><span>18-domain roadmap</span></button>
-        <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span>36 original source-checked MCQs</span></button>
+        <button type="button" data-jump="mcq-practice">🧠 <strong>MCQ Practice</strong><span id="mcqCountLabel">66 original source-linked MCQs</span></button>
         <button type="button" data-jump="clinical-cases">🩻 <strong>Clinical Cases</strong><span>6 multi-step clinical scenarios</span></button>
-        <button type="button" data-jump="flashcards">⚡ <strong>Smart Flashcards</strong><span>42 cards · spaced review</span></button>
+        <button type="button" data-jump="flashcards">⚡ <strong>Smart Flashcards</strong><span id="cardCountLabel">102 cards · spaced review</span></button>
         <button type="button" data-jump="mistake-book">📕 <strong>Mistake Book</strong><span>Automatic targeted revision</span></button>
-        <button type="button" data-jump="image-atlas">🖼️ <strong>Surgical Diagram Atlas</strong><span>4 original teaching schematics</span></button><button type="button" data-jump="revision-sheets">📄 <strong>Rapid Revision Sheets</strong><span>9 printable topic summaries</span></button><button type="button" data-jump="bookmarks">🔖 <strong>Bookmarks</strong><span>Your saved modules and questions</span></button><button type="button" data-jump="analytics">📈 <strong>Performance Analytics</strong><span>Accuracy and weak domains</span></button>
+        <button type="button" data-jump="image-atlas">🖼️ <strong>Surgical Diagram Atlas</strong><span>4 original teaching schematics</span></button><button type="button" data-jump="revision-sheets">📄 <strong>Rapid Revision Sheets</strong><span id="revisionCountLabel">19 printable topic summaries</span></button><button type="button" data-jump="bookmarks">🔖 <strong>Bookmarks</strong><span>Your saved modules, questions and cards</span></button><button type="button" data-jump="analytics">📈 <strong>Performance Analytics</strong><span>Accuracy and weak domains</span></button>
         <button type="button" data-jump="study-planner">🗓️ <strong>Study Planner</strong><span>Daily tasks based on your progress</span></button>
         <button type="button" data-jump="adaptive-practice">🎯 <strong>Adaptive Practice</strong><span>Mistakes and weak domains first</span></button>
         <button type="button" data-jump="grand-tests">🏁 <strong>Grand Tests</strong><span>Official-format readiness and drills</span></button>
@@ -76,7 +77,7 @@
     </section>
 
     <section class="learning" id="learningModules" hidden>
-      <div class="section-head"><div><span class="kicker">SOURCE-CHECKED LEARNING MODULES</span><h2>Decision-first learning</h2></div><span class="phase">PHASE 2 · 9 MODULES</span></div>
+      <div class="section-head"><div><span class="kicker">SOURCE-LINKED LEARNING MODULES</span><h2>Decision-first learning</h2></div><span class="phase" id="moduleCountLabel">PHASE 3 · 19 MODULES</span></div>
       <div id="moduleTabs" class="module-tabs" role="tablist"></div>
       <article id="moduleContent" class="module-content"></article>
     </section>
@@ -85,6 +86,8 @@
       <div class="section-head"><div><span class="kicker">ORIGINAL PRACTICE · NOT PYQs</span><h2>NEET-SS Surgical Group MCQ engine</h2></div><div class="mode-controls"><label>Domain <select id="quizTopic"></select></label><label>Difficulty <select id="quizDifficulty"><option value="">All difficulties</option><option>Easy</option><option>Medium</option><option>Hard</option></select></label><label>Mode <select id="quizMode"><option value="practice">Untimed practice</option><option value="timed">Timed focused set (+4/−1)</option></select></label><button class="primary" id="startQuiz" type="button">START PRACTICE</button></div></div>
       <div class="quiz" id="quizBox"><p>Choose a mode and begin. Explanations appear immediately in practice mode and after submission in exam mode.</p></div>
     </section>
+
+    <section class="bank-status" id="bank-status" hidden><div class="section-head"><div><span class="kicker">QUALITY-CONTROLLED EXPANSION</span><h2>Actual bank counts by surgical domain</h2><p>The target is 250 original MCQs and 150 flashcards per domain. Only source-linked, reviewed additions are counted—no repetitive filler.</p></div><span class="phase">TARGETS SHOWN SEPARATELY</span></div><div id="bankStatusGrid"></div></section>
 
     <section class="cases" id="clinical-cases" hidden><div class="section-head"><div><span class="kicker">CLINICAL CASE SIMULATOR</span><h2>Choose the next best step</h2></div></div><div class="case-grid" id="caseGrid"></div></section>
     <section class="flashcards" id="flashcards" hidden><div class="section-head"><div><span class="kicker">SMART FLASHCARDS</span><h2>Tap, flip and remember</h2><p>Recall the answer first, then tap the card to reveal it. Bookmark key facts or save cards to your personal revision deck.</p></div><button class="secondary" id="difficultOnly" type="button">SAVED FOR REVISION</button></div><div class="mode-controls"><label>Domain <select id="cardTopic"></select></label><label>Review <select id="cardMode"><option value="all">All cards</option><option value="due">Due cards</option><option value="saved">Saved for revision</option><option value="difficult">Needs review</option></select></label></div><div class="flashcard-stage" id="flashcardStage" aria-live="polite"></div></section>
@@ -96,9 +99,9 @@
     <section class="planner" id="study-planner" hidden><div class="section-head"><div><span class="kicker">PERSONALISED STUDY PLANNER</span><h2>A realistic mission for every study day</h2></div></div><form id="plannerForm" class="planner-form"><label>Target exam date<input id="examDate" type="date" required></label><label>Daily study time<select id="dailyMinutes"><option value="30">30 minutes</option><option value="60">1 hour</option><option value="90">1.5 hours</option><option value="120">2 hours</option><option value="180">3 hours</option></select></label><button class="primary" type="submit">SAVE &amp; BUILD PLAN</button></form><div id="studyPlanOutput" class="plan-grid"></div></section>
     <section class="adaptive" id="adaptive-practice" hidden><div class="section-head"><div><span class="kicker">ADAPTIVE PRACTICE</span><h2>Revise what needs attention first</h2></div><button class="primary" id="startAdaptive" type="button">START ADAPTIVE SET</button></div><div id="adaptivePanel" class="adaptive-panel"></div></section>
     <section class="grand-tests" id="grand-tests" hidden><div class="section-head"><div><span class="kicker">EXAM MASTERY</span><h2>Grand Test centre</h2></div><span class="phase" id="grandTestStatus">CHECKING BANK</span></div><div id="grandTestPanel" class="grand-test-panel"></div></section>
-    <section class="coming"><article><span>LEARNING LIBRARY</span><h3>Focused expansion, honest coverage</h3><p>9 modules across 8 domains, 36 original MCQs, 42 cards, 6 cases and 4 original schematics. Remaining topics are not complete.</p><p id="contentReview">Source-checked educational summaries; independent surgeon review pending.</p></article><article><span>EXAM MASTERY</span><h3>Functional tools live</h3><p>Study planning, adaptive practice and Grand Test readiness are live. A full simulation unlocks only after 150 distinct reviewed questions are available.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
+    <section class="coming"><article><span>LEARNING LIBRARY</span><h3>All 18 domains introduced</h3><p>19 modules across all 18 requested domains, 66 original MCQs, 102 flashcards, 6 cases and 4 original schematics. Per-domain target banks remain in controlled expansion.</p><p id="contentReview">Source-linked educational summaries; independent surgeon review pending.</p></article><article><span>EXAM MASTERY</span><h3>Functional tools live</h3><p>Every wrong answer includes the selected-option error, correct reasoning, option-by-option analysis and a revision action. A full simulation unlocks only after 150 distinct reviewed questions are available.</p></article><article><span>CONTINUOUS REVIEW</span><h3>Guideline version control</h3><p>Every clinical recommendation records its source and publication year.</p></article></section>
   </main>
   <footer><strong>Scrutiny Academy</strong><span>Educational preparation only. Clinical decisions must follow current institutional protocols and specialist supervision.</span><a href="mailto:scrutinyacademy@gmail.com">Support</a></footer>
-  <script type="module" src="neetss-surgery.js?v=5"></script>
+  <script type="module" src="neetss-surgery.js?v=6"></script>
 </body>
 </html>
