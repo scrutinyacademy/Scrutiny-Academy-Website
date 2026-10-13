@@ -76,6 +76,11 @@ function compactQuestion(item) {
       : [],
     correctIndex: Number.isInteger(item.correctIndex) ? item.correctIndex : -1,
     explanation: String(item.explanation || "").slice(0, 1600),
+    table: item.table ? {
+      caption: String(item.table.caption || "Question data").slice(0, 180),
+      headers: (item.table.headers || []).slice(0, 6).map(value => String(value).slice(0, 200)),
+      rows: (item.table.rows || []).slice(0, 12).map(row => row.slice(0, 6).map(value => String(value).slice(0, 1200))),
+    } : null,
     subject: String(item.subject || "").slice(0, 120),
     chapter: String(item.chapter || "").slice(0, 180),
     difficulty: String(item.difficulty || "").slice(0, 30),
@@ -172,11 +177,18 @@ function referenceText(reference) {
     .join(" • ");
 }
 
+function questionTable(item) {
+  if (!item.table?.headers?.length || !item.table.rows?.length) return "";
+  const table = item.table;
+  return `<div class="question-table-wrap"><table class="question-table"><caption>${esc(table.caption || "Question data")}</caption><thead><tr>${table.headers.map(value => `<th>${esc(value)}</th>`).join("")}</tr></thead><tbody>${table.rows.map(row => `<tr>${row.map(value => `<td>${esc(value)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+}
+
 function questionCard(item, actions = true) {
   const correct = item.options?.[item.correctIndex];
   return `<article class="study-question" data-id="${esc(stableId(item))}">
     <span class="eyebrow">${esc(item.subject || "Practice")}${item.chapter ? ` • ${esc(item.chapter)}` : ""}</span>
     <h3>${esc(item.question)}</h3>
+    ${questionTable(item)}
     ${correct ? `<p><strong>Correct answer:</strong> ${esc(correct)}</p>` : ""}
     ${item.explanation ? `<p>${esc(item.explanation)}</p>` : ""}
     ${referenceText(item.reference) ? `<small>NCERT reference: ${esc(referenceText(item.reference))}</small>` : ""}
@@ -267,6 +279,7 @@ function renderReview(session) {
       ) => `<article class="review-question ${item.selected === undefined ? "unanswered" : item.isCorrect ? "correct" : "incorrect"}">
         <span class="eyebrow">Question ${index + 1} • ${item.selected === undefined ? "Unanswered" : item.isCorrect ? "Correct" : "Incorrect"}</span>
         <h3>${esc(item.question)}</h3>
+        ${questionTable(item)}
         ${item.selected !== undefined ? `<p>Your answer: <strong>${esc(item.options?.[item.selected] || "—")}</strong></p>` : ""}
         <p>Correct answer: <strong>${esc(item.options?.[item.correctIndex] || "—")}</strong></p>
         ${item.explanation ? `<p>${esc(item.explanation)}</p>` : ""}

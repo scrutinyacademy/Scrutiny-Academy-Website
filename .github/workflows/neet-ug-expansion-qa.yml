@@ -1,0 +1,32 @@
+name: NEET UG practice expansion QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/neet/expansion/**'
+      - 'neet-ug-expansion.mjs'
+      - 'scripts/*neet-ug*.mjs'
+      - 'v2-core.js'
+      - 'learning-tools.js'
+      - '.github/workflows/neet-ug-expansion-qa.yml'
+  pull_request:
+    paths:
+      - 'data/neet/expansion/**'
+      - 'neet-ug-expansion.mjs'
+      - 'scripts/*neet-ug*.mjs'
+      - 'v2-core.js'
+      - 'learning-tools.js'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/validate-neet-ug-expansion.mjs
+      - run: node scripts/test-neet-ug-integration.mjs
+      - run: node scripts/validate-data.mjs
+      - run: node tests/student-progress-isolation.cjs

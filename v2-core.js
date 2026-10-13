@@ -8,6 +8,7 @@
     ncert: "data/ncert/catalog.json",
     rankerBiology: "data/neet/ranker/cell-unit-of-life.json",
   };
+  const pendingLoads = new Map();
   const cache = new Map(),
     state = {
       platform: null,
@@ -37,11 +38,26 @@
   const activeCourseId = () => document.documentElement.dataset.course || window.ScrutinyStudentStorage.getItem("scrutiny_active_course") || "neet";
   async function load(p) {
     if (cache.has(p)) return cache.get(p);
+    if (pendingLoads.has(p)) return pendingLoads.get(p);
+    const task = (async () => {
     const r = await fetch(p);
     if (!r.ok) throw Error(p);
-    const d = await r.json();
+    let d = await r.json();
+    const neetSubject = /^data\/neet\/(biology|physics|chemistry)\.json$/.exec(p)?.[1];
+    if (neetSubject) {
+      const [engine, response] = await Promise.all([
+        import("./neet-ug-expansion.mjs?v=20261014"),
+        fetch(`data/neet/expansion/${neetSubject}.json?v=20261014`),
+      ]);
+      if (!response.ok) throw Error(`Additional ${neetSubject} practice could not load. Please refresh.`);
+      d = engine.mergeExpansion(d, await response.json());
+    }
     cache.set(p, d);
     return d;
+    })();
+    pendingLoads.set(p, task);
+    try { return await task; }
+    finally { pendingLoads.delete(p); }
   }
   const esc = (v) =>
     String(v ?? "").replace(
@@ -521,7 +537,7 @@
       d = await load(sub.file);
     state.neet.data = d;
     $("neetAvailability").innerHTML =
-      `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${publishedChapters(d).length}</strong> published chapters.`;
+      `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${publishedChapters(d).length}</strong> published chapters.${d.expansion ? `<br><small>${d.expansion.added.toLocaleString("en-IN")} additional NCERT-based practice variants • answers and explanations included</small>` : ""}`;
     return { d, sub };
   }
   function renderNeetChapters() {
@@ -1063,6 +1079,10 @@
         subtopic: q.subtopic || "",
         ncertSection: q.ncertSection || "",
         visualSpec: q.visualSpec || null,
+        table: q.table || null,
+        references: q.references || [],
+        ncertBasis: q.ncertBasis || "",
+        calculation: q.calculation || "",
         visualRequired: Boolean(q.visualRequired),
         subject: q.__subject || "",
         chapter: q.__chapter || "",

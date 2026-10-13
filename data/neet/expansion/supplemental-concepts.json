@@ -1,0 +1,470 @@
+{
+  "physics": [
+    {
+      "id": "neet-physics-12-experimental",
+      "name": "Experimental Skills",
+      "classLevel": 12,
+      "labManual": true,
+      "rows": [
+        {
+          "label": "Vernier calipers",
+          "correct": "measure external diameter, internal diameter and depth with appropriate jaws or depth rod",
+          "explanation": "The appropriate part of the instrument must contact the measured surface."
+        },
+        {
+          "label": "Vernier least count",
+          "correct": "difference between one main-scale division and one vernier-scale division for a direct vernier",
+          "explanation": "The least count sets the resolution of a direct vernier."
+        },
+        {
+          "label": "Corrected instrument reading",
+          "correct": "observed reading minus signed zero error",
+          "explanation": "A positive zero error must be subtracted."
+        },
+        {
+          "label": "Screw-gauge pitch",
+          "correct": "axial distance moved by the screw in one complete rotation",
+          "explanation": "Pitch is divided by circular-scale divisions to obtain least count."
+        },
+        {
+          "label": "Screw-gauge least count",
+          "correct": "pitch divided by number of circular-scale divisions",
+          "explanation": "Use consistent length units in this ratio."
+        },
+        {
+          "label": "Screw-gauge ratchet",
+          "correct": "limits the force applied to the object",
+          "explanation": "It reduces errors due to excessive compression."
+        },
+        {
+          "label": "Backlash error",
+          "correct": "lag caused by loose engagement of screw threads after reversing rotation",
+          "explanation": "Take final readings while turning in a consistent direction."
+        },
+        {
+          "label": "Pendulum period measurement",
+          "correct": "time for many complete oscillations divided by their number",
+          "explanation": "Timing many oscillations reduces the fractional effect of reaction time."
+        },
+        {
+          "label": "Small-angle pendulum T squared versus L plot",
+          "correct": "straight line with slope 4π²/g",
+          "explanation": "T² = 4π²L/g under the small-angle approximation."
+        },
+        {
+          "label": "Damped pendulum amplitude",
+          "correct": "decreases as mechanical energy is dissipated",
+          "explanation": "Mechanical energy is lost to the surroundings through resistance."
+        },
+        {
+          "label": "Principle of moments",
+          "correct": "clockwise and anticlockwise moments balance for rotational equilibrium",
+          "explanation": "A balanced metre scale can be used to compare masses using lever arms."
+        },
+        {
+          "label": "Young modulus experiment",
+          "correct": "measure wire extension under a known load and use stress divided by strain",
+          "explanation": "Keep the load within the elastic limit."
+        },
+        {
+          "label": "Capillary rise of wetting water",
+          "correct": "surface tension can be obtained from rise height, capillary radius, density and contact angle",
+          "explanation": "For a clean vertical tube, 2T cosθ = hρgr."
+        },
+        {
+          "label": "Detergent in capillary experiment",
+          "correct": "generally reduces water surface tension",
+          "explanation": "The rise height changes when surface tension changes, with other conditions controlled."
+        },
+        {
+          "label": "Terminal velocity experiment",
+          "correct": "viscous drag balances effective weight at terminal speed",
+          "explanation": "For a small sphere in the Stokes regime, viscosity follows from radius, densities and terminal speed."
+        },
+        {
+          "label": "Resonance-tube successive resonances",
+          "correct": "length difference is half the sound wavelength",
+          "explanation": "The same end correction cancels in the difference of successive resonance lengths."
+        },
+        {
+          "label": "Method of mixtures",
+          "correct": "heat lost by hotter bodies equals heat gained by cooler bodies and calorimeter in an insulated model",
+          "explanation": "Account for the calorimeter heat capacity when necessary."
+        },
+        {
+          "label": "Metre-bridge balance",
+          "correct": "ratio of gap resistances equals ratio of corresponding balancing wire lengths",
+          "explanation": "Uniform wire and a null detector reading are required."
+        },
+        {
+          "label": "Wire resistivity",
+          "correct": "resistance times cross-sectional area divided by length",
+          "explanation": "Measure wire diameter to obtain its cross-sectional area."
+        },
+        {
+          "label": "Ohm-law V versus I graph",
+          "correct": "slope gives resistance of an ohmic conductor at fixed temperature",
+          "explanation": "Use potential difference on the vertical axis and current on the horizontal axis."
+        },
+        {
+          "label": "Galvanometer half-deflection method",
+          "correct": "a suitable shunt is adjusted to halve the original deflection",
+          "explanation": "The method can estimate galvanometer resistance while accounting for circuit resistance."
+        },
+        {
+          "label": "Removal of optical parallax",
+          "correct": "image and reference object do not shift relative to each other when the eye moves sideways",
+          "explanation": "This locates the image plane."
+        },
+        {
+          "label": "Prism minimum deviation",
+          "correct": "angle of incidence equals angle of emergence for the symmetric ray path",
+          "explanation": "The internal refraction angles are both half the prism angle."
+        },
+        {
+          "label": "Travelling-microscope glass-slab method",
+          "correct": "normal-view refractive index is real thickness divided by apparent thickness",
+          "explanation": "Refraction makes the viewed lower surface appear raised."
+        },
+        {
+          "label": "Forward diode characteristic",
+          "correct": "current increases rapidly beyond the forward knee region",
+          "explanation": "The diode has a nonlinear current-voltage curve."
+        },
+        {
+          "label": "Zener reverse breakdown",
+          "correct": "large reverse-current change occurs with relatively small voltage change in the breakdown region",
+          "explanation": "A series resistor limits current during measurement."
+        }
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": "neet-chemistry-12-pblock",
+      "name": "p-Block Elements: Trends and First-Element Behaviour",
+      "classLevel": 12,
+      "labManual": false,
+      "rows": [
+        {
+          "label": "Group 13 valence configuration",
+          "correct": "ns²np¹",
+          "explanation": "There are three valence electrons in the general group 13 configuration."
+        },
+        {
+          "label": "Group 14 valence configuration",
+          "correct": "ns²np²",
+          "explanation": "There are four valence electrons in the general group 14 configuration."
+        },
+        {
+          "label": "Group 15 valence configuration",
+          "correct": "ns²np³",
+          "explanation": "There are five valence electrons in the general group 15 configuration."
+        },
+        {
+          "label": "Group 16 valence configuration",
+          "correct": "ns²np⁴",
+          "explanation": "There are six valence electrons in the general group 16 configuration."
+        },
+        {
+          "label": "Group 17 valence configuration",
+          "correct": "ns²np⁵",
+          "explanation": "There are seven valence electrons in the general group 17 configuration."
+        },
+        {
+          "label": "Group 18 configuration except helium",
+          "correct": "ns²np⁶",
+          "explanation": "A filled valence shell is characteristic of noble gases other than helium."
+        },
+        {
+          "label": "Helium configuration",
+          "correct": "1s²",
+          "explanation": "The first shell is complete with two electrons."
+        },
+        {
+          "label": "Atomic size down a p-block group",
+          "correct": "generally increases because additional electron shells are occupied",
+          "explanation": "Compare the same kind of atomic radius when making a trend."
+        },
+        {
+          "label": "First ionisation enthalpy across a period",
+          "correct": "generally rises with effective nuclear charge, with configuration-related exceptions",
+          "explanation": "Subshell and pairing effects can produce local deviations."
+        },
+        {
+          "label": "Electronegativity down a p-block group",
+          "correct": "generally decreases as atomic size and shielding increase",
+          "explanation": "This is a general trend rather than a rule without exceptions."
+        },
+        {
+          "label": "Inert-pair effect",
+          "correct": "increasing reluctance of the outer ns² pair to participate in bonding in heavier elements",
+          "explanation": "It helps stabilise oxidation states two units below the group maximum."
+        },
+        {
+          "label": "Group 13 lower oxidation state",
+          "correct": "+1 becomes more stable toward the heavier members",
+          "explanation": "The inert-pair effect favours retention of the ns² pair."
+        },
+        {
+          "label": "Group 14 lower oxidation state",
+          "correct": "+2 is relatively more stable for heavier members than for lighter members",
+          "explanation": "Lead commonly shows a stable +2 state."
+        },
+        {
+          "label": "Group 15 lower oxidation state",
+          "correct": "+3 gains relative stability compared with +5 down the group",
+          "explanation": "This is associated with the inert-pair effect."
+        },
+        {
+          "label": "Small size of the first p-block member",
+          "correct": "contributes to its anomalous behaviour relative to heavier congeners",
+          "explanation": "High charge density affects bonding and physical properties."
+        },
+        {
+          "label": "Second-period octet restriction",
+          "correct": "second-period central atoms do not expand their valence octet",
+          "explanation": "Boron, carbon, nitrogen, oxygen and fluorine lack an available third shell in the standard valence model."
+        },
+        {
+          "label": "Carbon catenation",
+          "correct": "strong carbon-carbon bonds support extensive chains and rings",
+          "explanation": "Catenation is the ability to form bonds to atoms of the same element."
+        },
+        {
+          "label": "Carbon versus silicon multiple bonding",
+          "correct": "carbon forms strong pπ-pπ multiple bonds more readily",
+          "explanation": "The compact second-period orbitals overlap more effectively."
+        },
+        {
+          "label": "Nitrogen molecule",
+          "correct": "contains a strong N≡N triple bond",
+          "explanation": "This contributes to the low reactivity of nitrogen under ordinary conditions."
+        },
+        {
+          "label": "Nitrogen versus phosphorus valence",
+          "correct": "nitrogen does not form a neutral pentahalide analogous to PCl₅ in the octet model",
+          "explanation": "Nitrogen cannot accommodate ten electrons in its second-shell valence region."
+        },
+        {
+          "label": "Oxygen versus sulfur molecular form",
+          "correct": "oxygen commonly occurs as O₂ whereas sulfur commonly occurs as S₈",
+          "explanation": "Differences in bonding favour different elemental molecular structures."
+        },
+        {
+          "label": "Fluorine oxidation state in compounds",
+          "correct": "−1",
+          "explanation": "Fluorine is the most electronegative element and does not show positive oxidation states in its compounds."
+        },
+        {
+          "label": "Halogen elemental molecules",
+          "correct": "diatomic X₂ molecules",
+          "explanation": "Group 17 elements occur in paired elemental molecules under usual molecular conditions."
+        },
+        {
+          "label": "Chlorine versus fluorine electron gain enthalpy",
+          "correct": "chlorine has a more negative first electron gain enthalpy",
+          "explanation": "Small fluorine orbitals increase repulsion for an added electron."
+        },
+        {
+          "label": "Noble-gas low ordinary reactivity",
+          "correct": "filled valence shells and high ionisation enthalpies",
+          "explanation": "Heavier members can form compounds under suitable conditions."
+        },
+        {
+          "label": "Metallic character down p-block groups",
+          "correct": "generally increases",
+          "explanation": "Larger atoms tend to lose valence electrons more readily."
+        },
+        {
+          "label": "Acidity of main-group oxides across a period",
+          "correct": "generally increases as nonmetallic character increases",
+          "explanation": "Metallic oxides tend to be basic whereas many nonmetal oxides are acidic."
+        },
+        {
+          "label": "Boron bonding tendency",
+          "correct": "predominantly covalent compounds rather than simple B³⁺ salts",
+          "explanation": "The small atom and high ionisation requirements disfavour formation of a simple B³⁺ ion."
+        }
+      ]
+    },
+    {
+      "id": "neet-chemistry-12-practical",
+      "name": "Principles Related to Practical Chemistry",
+      "classLevel": 12,
+      "labManual": true,
+      "rows": [
+        {
+          "label": "Crystallisation",
+          "correct": "purifies a solid using different solubilities in hot and cold solvent",
+          "explanation": "The desired solid crystallises on cooling while many soluble impurities remain in solution."
+        },
+        {
+          "label": "Simple distillation",
+          "correct": "separates a volatile liquid from nonvolatile impurities or liquids with widely separated boiling points",
+          "explanation": "Vapour is condensed to collect the volatile component."
+        },
+        {
+          "label": "Fractional distillation",
+          "correct": "separates miscible liquids with relatively close boiling points",
+          "explanation": "A fractionating column provides repeated vapour-liquid equilibration."
+        },
+        {
+          "label": "Steam distillation",
+          "correct": "isolates a steam-volatile substance immiscible with water",
+          "explanation": "The mixture can distil below the boiling point of the organic component alone."
+        },
+        {
+          "label": "Sublimation",
+          "correct": "separates a sublimable solid from nonsublimable impurities",
+          "explanation": "The volatile solid passes through vapour and is deposited on cooling."
+        },
+        {
+          "label": "Chromatography",
+          "correct": "separates components by different distribution between stationary and mobile phases",
+          "explanation": "Different affinities produce different migration speeds."
+        },
+        {
+          "label": "Rf in planar chromatography",
+          "correct": "distance travelled by solute divided by distance travelled by solvent front",
+          "explanation": "Both distances are measured from the origin."
+        },
+        {
+          "label": "Lassaigne sodium fusion",
+          "correct": "converts covalently bound heteroatoms into water-soluble ionic salts",
+          "explanation": "The extract can then be tested for nitrogen, sulfur and halogens."
+        },
+        {
+          "label": "Nitrogen in Lassaigne extract",
+          "correct": "cyanide can lead to Prussian-blue formation after the appropriate iron-ion treatment",
+          "explanation": "The procedure requires the specified reagents and suitable acidification."
+        },
+        {
+          "label": "Sulfur with sodium nitroprusside",
+          "correct": "violet colour",
+          "explanation": "Sulfide in the fusion extract gives the characteristic response."
+        },
+        {
+          "label": "Nitrogen and sulfur together in sodium fusion",
+          "correct": "thiocyanate can give a blood-red colour with ferric ions",
+          "explanation": "The response arises from an iron-thiocyanate complex."
+        },
+        {
+          "label": "Halogen testing in sodium-fusion extract",
+          "correct": "acidify and boil with nitric acid before adding silver nitrate",
+          "explanation": "This removes interfering cyanide and sulfide under the prescribed procedure."
+        },
+        {
+          "label": "Silver chloride precipitate",
+          "correct": "white and soluble in dilute aqueous ammonia",
+          "explanation": "Complex formation dissolves AgCl under the usual test conditions."
+        },
+        {
+          "label": "Silver bromide precipitate",
+          "correct": "pale yellow and dissolves in concentrated aqueous ammonia",
+          "explanation": "It is less readily dissolved than AgCl."
+        },
+        {
+          "label": "Silver iodide precipitate",
+          "correct": "yellow and insoluble in aqueous ammonia in the standard test",
+          "explanation": "Its low solubility resists dissolution in this test."
+        },
+        {
+          "label": "Carbylamine test",
+          "correct": "primary amines form foul-smelling isocyanides with chloroform and alcoholic KOH",
+          "explanation": "Secondary and tertiary amines do not give the standard positive test."
+        },
+        {
+          "label": "Neutral ferric chloride with phenol",
+          "correct": "may produce a characteristic coloured complex",
+          "explanation": "This is a common test for the phenolic group."
+        },
+        {
+          "label": "2,4-DNP test",
+          "correct": "aldehydes and ketones form coloured hydrazone precipitates",
+          "explanation": "It detects the carbonyl group of these compounds."
+        },
+        {
+          "label": "Tollens test with an aldehyde",
+          "correct": "silver is deposited from the ammoniacal silver reagent",
+          "explanation": "The aldehyde is oxidised while silver ions are reduced."
+        },
+        {
+          "label": "Sodium bicarbonate with a carboxylic acid",
+          "correct": "carbon dioxide effervescence",
+          "explanation": "A carboxylic acid is strong enough to liberate CO₂ from bicarbonate."
+        },
+        {
+          "label": "Bromine test for alkene unsaturation",
+          "correct": "bromine colour disappears under the standard addition-test conditions",
+          "explanation": "Interpret the result with other possible bromine-reactive groups in mind."
+        },
+        {
+          "label": "Carbonate anion with dilute acid",
+          "correct": "releases carbon dioxide that turns limewater milky",
+          "explanation": "The gas forms calcium carbonate in limewater."
+        },
+        {
+          "label": "Sulfide anion with dilute acid",
+          "correct": "can release hydrogen sulfide",
+          "explanation": "The gas darkens suitable lead-acetate paper by forming lead sulfide."
+        },
+        {
+          "label": "Sulfate with barium chloride after acidification",
+          "correct": "white barium sulfate precipitate persists in dilute acid",
+          "explanation": "Acidification helps exclude carbonate interference."
+        },
+        {
+          "label": "Ammonium ion with warm aqueous base",
+          "correct": "ammonia is released",
+          "explanation": "The gas turns moist red litmus blue."
+        },
+        {
+          "label": "Copper(II) with excess aqueous ammonia",
+          "correct": "deep-blue complex solution",
+          "explanation": "Excess ammonia coordinates to the copper ion."
+        },
+        {
+          "label": "Ferric ion with thiocyanate",
+          "correct": "blood-red solution under suitable conditions",
+          "explanation": "A coloured iron-thiocyanate complex forms."
+        },
+        {
+          "label": "Aluminium hydroxide amphoterism",
+          "correct": "dissolves in both acid and excess strong base",
+          "explanation": "The hydroxide can form soluble species in either medium."
+        },
+        {
+          "label": "Oxalic-acid versus permanganate titration",
+          "correct": "warm acidic conditions facilitate the redox reaction",
+          "explanation": "The standard procedure uses dilute sulfuric acid and appropriate warming."
+        },
+        {
+          "label": "Permanganate titration endpoint",
+          "correct": "first faint pink colour persisting after mixing",
+          "explanation": "Permanganate serves as its own indicator. Non-endpoint permanganate is reduced."
+        },
+        {
+          "label": "Strong acid versus strong base titration",
+          "correct": "equivalence is near pH 7 at 25 °C in the dilute ideal model",
+          "explanation": "Neutralisation consumes equivalent amounts of H⁺ and OH⁻."
+        },
+        {
+          "label": "Enthalpy of neutralisation of dilute strong acid and base",
+          "correct": "approximately −57 kJ per mole of water formed",
+          "explanation": "This approximates H⁺(aq) + OH⁻(aq) forming water."
+        },
+        {
+          "label": "Lyophilic sol preparation",
+          "correct": "a material with strong affinity for the dispersion medium forms a sol readily",
+          "explanation": "Starch sols illustrate a lyophilic preparation."
+        },
+        {
+          "label": "Lyophobic sol preparation",
+          "correct": "a dispersed material with little affinity for the medium requires a suitable preparation method",
+          "explanation": "Ferric hydroxide sol can be prepared by controlled hydrolysis."
+        }
+      ]
+    }
+  ]
+}
