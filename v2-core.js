@@ -540,6 +540,12 @@
       `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${publishedChapters(d).length}</strong> published chapters.${d.expansion ? `<br><small>${d.expansion.added.toLocaleString("en-IN")} additional NCERT-based practice variants • answers and explanations included</small>` : ""}`;
     return { d, sub };
   }
+  function neetQuestionCount(available) {
+    const selected = $("neetCount").value;
+    return selected === "all"
+      ? available
+      : Math.min(Number(selected) || 10, available);
+  }
   function renderNeetChapters() {
     const d = state.neet.data;
     if (!d) return;
@@ -584,7 +590,7 @@
                 })),
                 diff,
               ),
-              n = Math.min(+$("neetCount").value || 10, qs.length);
+              n = neetQuestionCount(qs.length);
             startQuiz(
               qs,
               `NEET ${d.subject} • ${ch.name || ch.title}`,
@@ -663,7 +669,7 @@
       qs,
       `NEET ${sub.name}`,
       $("neetMode").value,
-      Math.min(+$("neetCount").value || 10, qs.length),
+      neetQuestionCount(qs.length),
     );
   }
   async function renderCustomBuilder() {
@@ -1002,7 +1008,9 @@
     $("quizChapter").textContent =
       `${q.__subject ? `${q.__subject} • ` : ""}${q.__chapter || ""}${q.subtopic ? ` • ${q.subtopic}` : ""}${difficulty(q) ? ` • ${difficulty(q)}` : ""}${q.questionType ? ` • ${q.questionType}` : ""}`;
     $("quizQuestion").textContent = q.question;
-    $("quizFormulas").hidden = !/physics/i.test(q.__subject || q.subject || "");
+    const isPhysicsQuestion = /physics/i.test(q.__subject || q.subject || "");
+    $("quizFormulas").hidden = !isPhysicsQuestion;
+    $("quizFormulas").style.display = isPhysicsQuestion ? "" : "none";
     renderQuestionVisual(q);
     renderConfidence(q, chosen);
     $("quizPosition").textContent = `${z.index + 1} / ${z.questions.length}`;
