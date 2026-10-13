@@ -1,4 +1,4 @@
-export const EMPTY_PROGRESS = () => ({uid:'',schemaVersion:3,completedModules:[],flashcards:{},bookmarks:[],attempts:[],mistakes:[],studyPlan:{dailyMinutes:60,examDate:'2026-12-11'},updatedAt:null});
+export const EMPTY_PROGRESS = () => ({uid:'',schemaVersion:3,completedModules:[],flashcards:{},bookmarks:[],attempts:[],mistakes:[],studyPlan:{dailyMinutes:60,examDate:'2026-12-11',weeklyGoal:140,presetDays:90,dutySchedule:'regular',preferredTime:'Morning',weakDomain:''},practiceSession:null,examSession:null,readingChecklist:{},errorTags:{},reportIds:[],updatedAt:null});
 export function migrateProgress(raw, questions) {
   const defaults=EMPTY_PROGRESS(),p={...defaults,...raw,studyPlan:{...defaults.studyPlan,...raw.studyPlan},schemaVersion:3};
   p.mistakes=[...new Set((p.mistakes||[]).map(x=>typeof x==='number'?questions[x]?.id:x).filter(x=>questions.some(q=>q.id===x)))];
@@ -10,7 +10,7 @@ export function scoreAnswers(answers,total) {
   return {attempted,correct,incorrect:attempted-correct,unattempted:total-attempted,score:correct*4-(attempted-correct),accuracy:attempted?Math.round(correct/attempted*100):0};
 }
 export function scheduleCard(previous,rating,now=Date.now()) {
-  const days=rating==='difficult'?0:Math.min(30,Math.max(1,(previous?.intervalDays||0)*2||1));
+  const days=(rating==='difficult'||rating==='forgot')?0:Math.min(30,Math.max(1,(previous?.intervalDays||0)*2||1));
   return {...previous,rating,intervalDays:days,dueAt:now+(days?days*86400000:600000),reviews:(previous?.reviews||0)+1};
 }
 export function analyse(attempts) {
@@ -31,9 +31,9 @@ export function buildAdaptiveQueue(questions, mistakes, topicSignals, limit=12) 
   }).slice(0,Math.max(1,limit));
 }
 
-export function buildStudyPlan({modules,completedModules=[],mistakes=[],dueCards=0,topicSignals={},dailyMinutes=60,examDate,now=Date.now()}) {
+export function buildStudyPlan({modules,completedModules=[],mistakes=[],dueCards=0,topicSignals={},dailyMinutes=60,examDate,weakDomain,now=Date.now()}) {
   const target=new Date(`${examDate}T23:59:59`).getTime(),days=Math.max(0,Math.ceil((target-now)/86400000));
-  const next=modules.find(m=>!completedModules.includes(m.id));
+  const next=modules.find(m=>m.chapter===weakDomain&&!completedModules.includes(m.id))||modules.find(m=>!completedModules.includes(m.id));
   const weak=Object.entries(topicSignals).filter(([,v])=>v.attempted>=2).sort((a,b)=>(a[1].correct/a[1].attempted)-(b[1].correct/b[1].attempted))[0]?.[0];
   const minutes=Math.max(30,Number(dailyMinutes)||60),tasks=[];
   if(next)tasks.push({kind:'Learn',title:next.title,minutes:Math.max(15,Math.round(minutes*.4))});

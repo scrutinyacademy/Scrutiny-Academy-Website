@@ -1,5 +1,8 @@
 name: NEET-SS Phase 2 QA
 on:
+  push:
+    branches: [main]
+    paths: ['neetss-*', 'functions/neetss-*', 'tests/neetss-*']
   pull_request:
     paths:
       - 'neetss-*'
@@ -25,6 +28,8 @@ jobs:
           node --check neetss-phase2-ui.js
           node scripts/validate-neetss-phase1.mjs
           node scripts/validate-neetss-phase2.mjs
+          node tests/neetss-preparation-core.mjs
+          node scripts/validate-neetss-preparation.mjs
           node scripts/validate-neetss-pricing.mjs
           node scripts/validate-multi-course-switcher.mjs
           node tests/student-progress-isolation.cjs

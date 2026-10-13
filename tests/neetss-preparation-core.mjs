@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import data from '../functions/neetss-content.cjs';
+import {EMPTY_PROGRESS,scoreAnswers} from '../neetss-core.mjs';
+import {practiceSet,newExam,advanceExam,examClock,examCanVisit,recordExamAnswer,markedExamAnswers,resumeValid,readinessSignal,indiaDay} from '../neetss-preparation-core.mjs';
+const p=EMPTY_PROGRESS(),now=10000000,s=newExam(data.questions,'test',now);
+assert.equal(new Set(s.questionIds).size,150);assert.deepEqual(newExam(data.questions,'test',now),s);assert.notDeepEqual(newExam(data.questions,'other',now).questionIds,s.questionIds);assert.equal(new Set(s.answers.map(x=>x.topic)).size,22);
+assert.equal(examClock(s,now+2999999).section,0);assert.equal(examClock(s,now+3000000).section,1);assert.equal(examCanVisit(s,50,now),false);assert.equal(examCanVisit(s,0,now+3000000),false);assert.equal(examCanVisit(s,50,now+3000000),true);
+assert.equal(recordExamAnswer(s,50,0,'Confident',4,now),s);assert.equal(recordExamAnswer(s,0,4,'Guess',4,now),s);
+const q=data.questions.find(q=>q.id===s.questionIds[0]),answered=recordExamAnswer(s,0,q.a,'Confident',12,now+1000);assert.equal(scoreAnswers(markedExamAnswers(answered,data.questions),150).score,4);assert.equal(scoreAnswers(markedExamAnswers(answered,data.questions),150).unattempted,149);assert.equal(resumeValid(answered,data.questions),true);
+const later=advanceExam(answered,now+6500000);assert.equal(later.section,2);assert.equal(later.index,100);assert.equal(later.answers[0].choice,q.a);assert.equal(advanceExam(answered,now+9000000).finished,true);assert.equal(examClock(answered,now+9000000).remainingSeconds,0);
+p.mistakes=[q.id];p.bookmarks=[`question:${q.id}`];p.attempts=[{kind:'quiz',answers:[{id:q.id,choice:q.a,correct:true}]}];assert.equal(practiceSet(data.questions,p,{mode:'incorrect'}).length,1);assert.equal(practiceSet(data.questions,p,{mode:'bookmarked'})[0].id,q.id);assert.ok(!practiceSet(data.questions,p,{mode:'unattempted'}).some(x=>x.id===q.id));assert.equal(practiceSet(data.questions,p,{limit:20}).length,20);
+assert.equal(readinessSignal(p,data).score,null);assert.equal(indiaDay(Date.UTC(2026,9,13,22)), '2026-10-14');
+console.log('PASS: reproducible balanced papers, unique questions, 22-domain sampling, locked section boundaries, timeout/resume, unanswered scoring, practice filters, small-sample readiness and India dates.');

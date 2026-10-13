@@ -141,11 +141,31 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    match /neetssQuestionReports/{reportId} {
+      allow read: if isAdmin() || (signedIn() && resource.data.uid == request.auth.uid);
+      allow create: if signedIn() && hasNeetssAccess()
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.questionId is string
+        && request.resource.data.questionId.size() <= 160
+        && request.resource.data.reason is string
+        && request.resource.data.reason.size() >= 10
+        && request.resource.data.reason.size() <= 2000
+        && request.resource.data.status == 'open'
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.keys().hasOnly(['uid','questionId','reason','status','createdAt']);
+      allow update: if isAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','reviewedAt','reviewedBy'])
+        && request.resource.data.status == 'reviewed'
+        && request.resource.data.reviewedBy == request.auth.uid
+        && request.resource.data.reviewedAt == request.time;
+      allow delete: if false;
+    }
+
     match /neetssProgress/{uid} {
       allow read: if owns(uid) || isAdmin();
       allow create, update: if owns(uid) && hasNeetssAccess()
         && request.resource.data.uid == uid
-        && request.resource.data.keys().hasOnly(['uid','schemaVersion','completedModules','flashcards','bookmarks','attempts','mistakes','studyPlan','updatedAt']);
+        && request.resource.data.keys().hasOnly(['uid','schemaVersion','completedModules','flashcards','bookmarks','attempts','mistakes','studyPlan','practiceSession','examSession','readingChecklist','errorTags','reportIds','updatedAt']);
       allow delete: if false;
     }
 
