@@ -1,6 +1,7 @@
 const base = require('./neetss-base.cjs');
 const expansion = require('./neetss-phase2.cjs');
 const breadth = require('./neetss-phase3.cjs');
+const companion = require('./neetss-bailey.cjs');
 const legacySources = {
   sepsis: 'https://doi.org/10.1007/s00134-021-06506-y',
   shock: 'https://doi.org/10.1186/s13054-023-04327-7',
@@ -20,4 +21,4 @@ base.questions[2].ref=expansion.refs.uro.label;
 base.questions[2].sourceUrl=expansion.refs.uro.url;
 base.questions[10].why='Prophylaxis should not be extended solely because a drain remains. Treat established infection separately using source control, cultures and the clinical course.';
 // Keep all legacy indexes/IDs stable so earlier histories and Mistake Books survive.
-module.exports={version:breadth.version,modules:[...base.modules,...expansion.modules,...breadth.modules],questions:[...base.questions,...expansion.questions,...breadth.questions],cards:[...base.cards,...expansion.cards,...breadth.cards],cases:expansion.cases,atlas:expansion.atlas,targets:{mcqsPerChapter:250,cardsPerChapter:150},review:{checkedAt:'2026-10-13',status:'Source-linked educational summaries; independent surgeon review pending',limitations:'All 18 domains now have focused learning coverage. Banks remain below the 250-MCQ/150-card per-domain target and are not represented as complete. Diagrams are original schematics, not patient images.'}};
+module.exports={version:'bailey-companion-2026-10-13',books:[companion.book],modules:[...base.modules,...expansion.modules,...breadth.modules,...companion.modules],questions:[...base.questions,...expansion.questions,...breadth.questions,...companion.questions],cards:[...base.cards,...expansion.cards,...breadth.cards,...companion.cards],cases:expansion.cases,atlas:expansion.atlas,targets:{mcqsPerChapter:250,cardsPerChapter:150,totalMcqs:17000,totalCards:3000},review:{checkedAt:'2026-10-13',status:'Source-linked educational summaries; independent surgeon review pending',limitations:'Focused coverage across 18 domains. The 17,000-MCQ/3,000-card target is incomplete. Companion chapter 3 includes an attributed cropped figure from the user-supplied book; other atlas diagrams are original schematics.'}};
