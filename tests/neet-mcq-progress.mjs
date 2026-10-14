@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
-import { accuracy, sectionForMistake, statsFromHighYield, statsFromKota, statsFromPyq, statsFromSessions, totalStats } from "../neet-mcq-progress-core.mjs";
+import fs from "node:fs";
+import { accuracy, paginate, sectionForMistake, statsFromHighYield, statsFromKota, statsFromPyq, statsFromSessions, totalStats, wasEverIncorrect } from "../neet-mcq-progress-core.mjs";
 
 const sessionStats = statsFromSessions([
   {title:"Biology chapter", attempted:10, correct:7, incorrect:3, courseId:"neet"},
@@ -24,4 +25,12 @@ assert.deepEqual(totalStats(all), {attempted:34,correct:22,incorrect:12,sessions
 assert.equal(accuracy(totalStats(all)), 65);
 assert.equal(sectionForMistake({id:"ranker-cell-001"}), "Ranker");
 assert.equal(sectionForMistake({id:"NEET-BIO-001"}), "Chapter-wise");
+assert.deepEqual(paginate(Array.from({length:16}, (_, index) => index + 1), 0, 5).items, [1,2,3,4,5]);
+assert.deepEqual(paginate(Array.from({length:16}, (_, index) => index + 1), 3, 5).items, [16]);
+assert.equal(paginate(Array.from({length:16}), 9, 5).page, 3);
+assert.equal(wasEverIncorrect({correct:true,wrongCount:1}), true, "a later correct retry must not remove an earlier mistake");
+assert.equal(wasEverIncorrect({correct:true,wrongCount:0}), false);
+const ui = fs.readFileSync("neet-mcq-progress.js", "utf8");
+assert.match(ui, /Next incorrect MCQs/);
+assert.match(ui, /paginate\(shown, currentMistakePage, 5\)/);
 console.log("PASS: MCQ progress totals, retries, section split, accuracy and mistake classification.");

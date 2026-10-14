@@ -9,6 +9,7 @@ export const addStats = (left, right) => ({
   sessions: number(left.sessions) + number(right.sessions),
 });
 export const accuracy = (stats) => stats.attempted ? Math.round(stats.correct / stats.attempted * 100) : 0;
+export const wasEverIncorrect = (attempt = {}) => Number(attempt.wrongCount) > 0 || attempt.correct === false;
 export const sectionForSession = (session = {}) => /RANKER/i.test(session.title || "") ? "Ranker" : "Chapter-wise";
 
 export function statsFromSessions(sessions = []) {
@@ -55,6 +56,13 @@ export function statsFromPyq(answers = {}, questions = []) {
 
 export function totalStats(sections = {}) {
   return SECTION_ORDER.reduce((total, name) => addStats(total, sections[name] || emptyStats()), emptyStats());
+}
+
+export function paginate(items = [], page = 0, pageSize = 5) {
+  const totalPages = Math.max(1, Math.ceil(items.length / pageSize));
+  const safePage = Math.max(0, Math.min(Number(page) || 0, totalPages - 1));
+  const start = safePage * pageSize;
+  return { items: items.slice(start, start + pageSize), page: safePage, pageSize, start, totalPages, totalItems: items.length };
 }
 
 export function sectionForMistake(item = {}) {
