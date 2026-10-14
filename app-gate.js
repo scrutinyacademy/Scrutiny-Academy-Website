@@ -81,7 +81,7 @@ function applyCoursePortal(courseId, auth, user, db, allowed, profile = {}) {
   });
   document.querySelectorAll("#mainNav a[href^='#']").forEach((link) => {
     const target = link.getAttribute("href").slice(1);
-    link.hidden = target !== "home" && !visible.has(target);
+    link.hidden = link.id === "headerErrorReview" ? courseId !== "neet" : target !== "home" && !visible.has(target);
   });
   document.getElementById("programs")?.setAttribute("hidden", "");
   const eyebrow = document.querySelector("#home .eyebrow");
