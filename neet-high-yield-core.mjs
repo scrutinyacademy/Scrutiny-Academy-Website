@@ -9,7 +9,8 @@ export function readProgress(storage){try{const p=JSON.parse(storage.getItem('ne
 export function filterQuestions(qs,progress,view){return qs.filter(q=>view==='practised'?Boolean(progress.attempts[q.id]):view==='bookmarks'?Boolean(progress.bookmarks[q.id]?.saved):view==='incorrect'?progress.attempts[q.id]?.correct===false:!progress.attempts[q.id]);}
 export function recordAnswer(progress,q,selected,now=Date.now()){
  if(!Number.isInteger(selected)||selected<0||selected>=q.options.length)throw Error('Invalid answer');
- return {...progress,attempts:{...progress.attempts,[q.id]:{selected,correct:selected===q.answer,at:now}}};
+ const previous=progress.attempts[q.id]||{},correct=selected===q.answer;
+ return {...progress,attempts:{...progress.attempts,[q.id]:{selected,correct,at:now,attemptCount:(previous.attemptCount||1)+(previous.at?1:0),correctCount:(previous.correctCount??(previous.at&&previous.correct?1:0))+(correct?1:0),wrongCount:(previous.wrongCount??(previous.at&&!previous.correct?1:0))+(correct?0:1)}}};
 }
 export function toggleBookmark(progress,id,now=Date.now()){return {...progress,bookmarks:{...progress.bookmarks,[id]:{saved:!progress.bookmarks[id]?.saved,at:now}}};}
 export function summarize(questions,answers){const attempted=questions.filter(q=>Number.isInteger(answers[q.id])).length,correct=questions.filter(q=>answers[q.id]===q.answer).length;return {attempted,correct,incorrect:attempted-correct,score:correct*4-(attempted-correct),accuracy:attempted?Math.round(correct/attempted*100):0};}

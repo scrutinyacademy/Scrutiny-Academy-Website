@@ -211,10 +211,21 @@
 
   function saveResult(correct, percent) {
     try {
-      const key = "scrutiny_kota_biology_results";
-      const results = JSON.parse(localStorage.getItem(key) || "[]");
-      results.unshift({ date: new Date().toISOString(), chapter: state.chapter?.title || "Grand test", total: state.questions.length, correct, percent, seconds: state.seconds, mode: state.mode, courseId: "neet" });
-      localStorage.setItem(key, JSON.stringify(results.slice(0, 50)));
+      if (!window.ScrutinyStudentStorage?.uid) return;
+      const key = "scrutiny_kota_biology_progress_v2";
+      const saved = JSON.parse(window.ScrutinyStudentStorage.getItem(key) || '{"sessions":[],"mistakes":[]}');
+      const answered = state.answers.filter((answer) => answer !== null).length;
+      const now = new Date().toISOString();
+      saved.sessions = [{ date: now, chapter: state.chapter?.title || "Grand test", attempted: answered, total: state.questions.length, correct, incorrect: answered - correct, percent, seconds: state.seconds, mode: state.mode, courseId: "neet" }, ...(saved.sessions || [])].slice(0, 50);
+      const previous = new Map((saved.mistakes || []).map((item) => [item.id, item]));
+      state.questions.forEach((question, index) => {
+        const selected = state.answers[index];
+        if (selected === null || selected === question.answer) return;
+        const old = previous.get(question.id);
+        previous.set(question.id, { id: question.id, section: "Kota Level", question: question.question, options: question.options, selected, correctIndex: question.answer, chapter: state.chapter?.title || question.chapterTitle || "Kota Biology", subject: "Biology", explanation: question.explanation || "", wrongCount: (old?.wrongCount || 0) + 1, lastMissedAt: Date.now() });
+      });
+      saved.mistakes = [...previous.values()].sort((a,b) => b.lastMissedAt - a.lastMissedAt).slice(0, 150);
+      window.ScrutinyStudentStorage.setItem(key, JSON.stringify(saved));
     } catch {}
   }
 

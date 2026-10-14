@@ -75,6 +75,7 @@ function compactQuestion(item) {
       ? item.options.slice(0, 6).map((option) => String(option).slice(0, 500))
       : [],
     correctIndex: Number.isInteger(item.correctIndex) ? item.correctIndex : -1,
+    selected: Number.isInteger(item.selected) ? item.selected : -1,
     explanation: String(item.explanation || "").slice(0, 1600),
     table: item.table ? {
       caption: String(item.table.caption || "Question data").slice(0, 180),
@@ -84,6 +85,8 @@ function compactQuestion(item) {
     subject: String(item.subject || "").slice(0, 120),
     chapter: String(item.chapter || "").slice(0, 180),
     difficulty: String(item.difficulty || "").slice(0, 30),
+    topic: String(item.subtopic || item.conceptTested || item.topic || "").slice(0, 180),
+    mistakeReason: String(item.mistakeReason || "").slice(0, 100),
     courseId: item.courseId || activeCourseId(),
     reference: referenceText(item.reference).slice(0, 350) || null,
   };

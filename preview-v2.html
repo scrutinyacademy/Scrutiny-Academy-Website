@@ -11,7 +11,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <link rel="stylesheet" href="v2.css?v=38" />
+    <link rel="stylesheet" href="v2.css?v=39" />
     <link rel="stylesheet" href="physics-formulas.css?v=2" />
     <style>
       .auth-check body {
@@ -34,10 +34,11 @@
         ><a href="#class11">Class 11</a><a href="#class12">Class 12</a
         ><a href="#neet">NEET</a><a href="#high-yield">High Yield MCQs</a><a href="#ranker">Ranker MCQs</a><a href="#flashcards">Flashcards</a><a href="#pyqs">PYQs</a
         ><a href="#ncert">NCERT</a><a href="#ncert-booster">Booster</a><a href="#mbbs">MBBS</a
-        ><a href="#tools">Study Tools</a><a href="#progress">Progress</a
+        ><a href="#tools">Study Tools</a><a href="#neet-mcq-progress">MCQ Progress</a><a href="#progress">Progress</a
         ><a href="#support">Support</a><div id="courseHeaderTools" class="course-header-tools"></div>
       </nav>
       <div class="header-session-actions">
+        <a class="header-mcq-button" id="headerMcqButton" href="#neet" hidden>MCQs</a>
         <button type="button" class="header-logout" id="platformLogout" aria-label="Logout of Scrutiny Academy">Logout</button>
         <button type="button" class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-controls="mainNav" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
@@ -277,6 +278,13 @@
         </div>
       </section>
       <section class="section surface" id="high-yield" hidden aria-label="High Yield MCQs"></section>
+      <section class="section surface neet-mcq-progress" id="neet-mcq-progress" hidden aria-label="My MCQ Progress">
+        <div class="section-head inline">
+          <div><span class="eyebrow">MY MCQ RECORD</span><h2>MCQs Practised So Far</h2><p>Section-wise attempts, total accuracy and the questions you need to correct.</p></div>
+          <a class="btn primary" href="#neet">Practise MCQs →</a>
+        </div>
+        <div id="neetMcqProgressBody" aria-live="polite"><p>Loading your MCQ record…</p></div>
+      </section>
       <section class="section ranker-section" id="ranker">
         <div class="ranker-hero">
           <div>
@@ -693,6 +701,7 @@
     <script src="physics-formula-notes.js?v=1" defer></script>
     <script src="physics-formulas.js?v=2" defer></script>
   <script src="course-section-nav.js?v=1" defer></script>
-<script type="module" src="neet-high-yield.js?v=1"></script>
+<script type="module" src="neet-high-yield.js?v=2"></script>
+<script type="module" src="neet-mcq-progress.js?v=1"></script>
   </body>
 </html>

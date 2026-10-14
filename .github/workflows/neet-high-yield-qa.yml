@@ -2,9 +2,9 @@ name: NEET High Yield MCQs QA
 on:
   push:
     branches: [main]
-    paths: ['neet-high-yield*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*', '.github/workflows/neet-high-yield-qa.yml']
+    paths: ['neet-high-yield*', 'neet-mcq-progress*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*', 'tests/neet-mcq-progress.mjs', '.github/workflows/neet-high-yield-qa.yml']
   pull_request:
-    paths: ['neet-high-yield*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*']
+    paths: ['neet-high-yield*', 'neet-mcq-progress*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*', 'tests/neet-mcq-progress.mjs']
 permissions:
   contents: read
 jobs:
@@ -20,5 +20,6 @@ jobs:
       - run: node scripts/build-neet-mcq-inventory.mjs
       - run: node scripts/validate-neet-mcq-inventory.mjs
       - run: node tests/neet-high-yield-ui.mjs
+      - run: node tests/neet-mcq-progress.mjs
       - run: node scripts/test-neet-ug-integration.mjs
       - run: node tests/student-progress-isolation.cjs
