@@ -1,5 +1,5 @@
 import {expandChapter} from './neet-ug-expansion.mjs?v=20261014';
-export const RELEASE='2026-10-15-high-yield-v1';
+export const RELEASE='2026-10-15-high-yield-v2';
 export function questionsForChapter(pack,id){
  const ch=pack.chapters.find(c=>c.id===id);if(!ch)return [];
  return [...expandChapter(ch,pack.subject).map(q=>({...q,id:q.id.replace('NEET-UG-15K-','NEET-HY-V1-'),expansionRelease:RELEASE})),...(pack.diagrams||[]).filter(q=>q.chapterId===id).map(q=>({...q,subject:pack.subject,chapter:ch.name,classLevel:ch.classLevel}))];

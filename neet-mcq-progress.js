@@ -1,5 +1,5 @@
 import "./student-storage.js";
-import { questionsForChapter, readProgress as readHighYieldProgress, questionVisual } from "./neet-high-yield-core.mjs?v=2";
+import { questionsForChapter, readProgress as readHighYieldProgress, questionVisual } from "./neet-high-yield-core.mjs?v=3";
 import { SECTION_ORDER, accuracy, emptyStats, paginate, sectionForMistake, statsFromHighYield, statsFromKota, statsFromPyq, statsFromSessions, totalStats, wasEverIncorrect } from "./neet-mcq-progress-core.mjs?v=2";
 
 const $ = id => document.getElementById(id);
