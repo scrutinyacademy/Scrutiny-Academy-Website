@@ -7,6 +7,7 @@
     class12: "data/class12/catalog.json",
     ncert: "data/ncert/catalog.json",
     rankerBiology: "data/neet/ranker/cell-unit-of-life.json",
+    neetMcqInventory: "data/neet/mcq-inventory.json",
   };
   const pendingLoads = new Map();
   const cache = new Map(),
@@ -337,9 +338,13 @@
       }
     if (courseId === "neet") {
       try {
-        const kota = await load("data/neet/kota-biology/catalog.json");
+        const [kota, inventory] = await Promise.all([
+          load("data/neet/kota-biology/catalog.json"),
+          load(repo.neetMcqInventory),
+        ]);
         ch += (kota.chapters || []).length;
-        q += Number(kota.totalQuestions || 0);
+        q = Number(inventory.totalPublishedMcqs || 0);
+        renderNeetMcqInventory(inventory);
       } catch {}
     }
     $("metricSubjects").textContent = s;
@@ -350,6 +355,14 @@
     $("metricMcqsLabel").textContent = "published MCQs";
     $("inventoryNote").textContent =
       `Published inside the ${COURSE_PORTALS_LABELS[courseId] || "selected"} portal only.`;
+  }
+  function renderNeetMcqInventory(inventory) {
+    const host = $("neetPublishedInventory");
+    if (!host) return;
+    const sections = inventory.sections || {};
+    const subjects = inventory.bySubject || {};
+    const format = (value) => Number(value || 0).toLocaleString("en-IN");
+    host.innerHTML = `<div class="neet-count-main"><span>LIVE PUBLISHED INVENTORY</span><strong>${format(inventory.totalPublishedMcqs)}</strong><h3>MCQs published in the NEET UG student portal</h3><p>Counted directly from every active MCQ bank.</p></div><div class="neet-count-breakdown"><div><span>Chapter-wise</span><b>${format(sections.chapterWise)}</b></div><div><span>High Yield</span><b>${format(sections.highYield)}</b></div><div><span>Kota Level</span><b>${format(sections.kotaLevel)}</b></div><div><span>Ranker</span><b>${format(sections.ranker)}</b></div><div><span>NEET 2025 PYQs</span><b>${format(sections.pyq2025)}</b></div></div><div class="neet-count-subjects"><span>Biology <b>${format(subjects.biology?.total)}</b></span><span>Physics <b>${format(subjects.physics?.total)}</b></span><span>Chemistry <b>${format(subjects.chemistry?.total)}</b></span><span>Plus ${format(inventory.excludedFromMcqTotal?.ncertArcadeChallenges)} Arcade challenges</span></div>`;
   }
   async function renderClass10() {
     const cat = state.manifest.categories.find((c) => c.id === "class10");

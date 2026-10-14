@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-10-15",
+  "label": "Published inside the NEET UG student portal",
+  "totalPublishedMcqs": 59916,
+  "sections": {
+    "chapterWise": 42650,
+    "highYield": 15000,
+    "kotaLevel": 1872,
+    "ranker": 214,
+    "pyq2025": 180
+  },
+  "bySubject": {
+    "biology": {
+      "chapterWise": 18700,
+      "highYield": 7500,
+      "kotaLevel": 1872,
+      "ranker": 214,
+      "pyq2025": 90,
+      "total": 28376
+    },
+    "physics": {
+      "chapterWise": 13550,
+      "highYield": 3750,
+      "kotaLevel": 0,
+      "ranker": 0,
+      "pyq2025": 45,
+      "total": 17345
+    },
+    "chemistry": {
+      "chapterWise": 10400,
+      "highYield": 3750,
+      "kotaLevel": 0,
+      "ranker": 0,
+      "pyq2025": 45,
+      "total": 14195
+    }
+  },
+  "excludedFromMcqTotal": {
+    "ncertArcadeChallenges": 1000,
+    "reason": "Published as interactive learning games and counted separately from MCQs."
+  }
+}

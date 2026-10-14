@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v77-high-yield";
+const CACHE = "scrutiny-academy-v78-neet-mcq-count";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -158,7 +158,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
   // Prefer fresh account/payment code so old activation gates do not persist.
-  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "class6-cbse.html", "class6-cbse.js", "class6-cbse.css", "class6-mathematics.html", "class6-mathematics.js", "class6-mathematics.css", "class10-board.html", "class10-board.js", "mission600.html", "mission600.js", "mission600-dpp.html", "mission600-dpp.js", "mission600-submit.html", "mission600-submit.js", "data/mission600/catalog.json"];
+  const accountFiles = ["preview-v2.html", "student.html", "student-storage.js", "v2.js", "v2-core.js", "app-gate.js", "learning-tools.js", "student-success.js", "today-goal.js", "neet-countdown.js", "pyq-neet2025.js", "chemistry-flashcards.js", "leaderboard.js", "index.html", "login.html", "payment.html", "auth.js", "payment.js", "student.js", "student-success.js", "course-catalog.js", "help-bot.js", "data/neet/mcq-inventory.json", "class6-cbse.html", "class6-cbse.js", "class6-cbse.css", "class6-mathematics.html", "class6-mathematics.js", "class6-mathematics.css", "class10-board.html", "class10-board.js", "mission600.html", "mission600.js", "mission600-dpp.html", "mission600-dpp.js", "mission600-submit.html", "mission600-submit.js", "data/mission600/catalog.json"];
   if (url.pathname.endsWith("/") || accountFiles.some(file => url.pathname.endsWith(`/${file}`))) {
     event.respondWith(fetch(request, { cache: "no-store" }).catch(() => caches.match(request)));
     return;
