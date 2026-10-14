@@ -1,0 +1,22 @@
+name: NEET High Yield MCQs QA
+on:
+  push:
+    branches: [main]
+    paths: ['neet-high-yield*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*', '.github/workflows/neet-high-yield-qa.yml']
+  pull_request:
+    paths: ['neet-high-yield*', 'data/neet/high-yield/**', 'assets/high-yield/**', 'scripts/*neet-high-yield*', 'tests/neet-high-yield*']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --check neet-high-yield.js
+      - run: node scripts/validate-neet-high-yield.mjs
+      - run: node tests/neet-high-yield-ui.mjs
+      - run: node scripts/test-neet-ug-integration.mjs
+      - run: node tests/student-progress-isolation.cjs

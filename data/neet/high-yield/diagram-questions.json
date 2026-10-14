@@ -1,0 +1,308 @@
+{
+  "biology": [
+    {
+      "id": "NEET-HY-V1-biology-diagram-1",
+      "chapterId": "neet-biology-11-10",
+      "question": "In the cell-cycle diagram, DNA replication occurs during which labelled phase?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "DNA replication occurs during S phase, labelled B. Nuclear DNA content doubles while chromosome number remains unchanged.",
+      "visualAsset": "assets/high-yield/cell-cycle.svg",
+      "visualAlt": "Cell cycle phases A: G1, B: S, C: G2, D: M, in order",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Cell Cycle and Cell Division",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Biology",
+          "section": "Cell Cycle and Cell Division"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-biology-diagram-2",
+      "chapterId": "neet-biology-11-10",
+      "question": "A diploid somatic cell has 2C nuclear DNA at A. What is its nuclear DNA content after completion of B and before D?",
+      "options": [
+        "1C",
+        "2C",
+        "4C",
+        "8C"
+      ],
+      "answer": 2,
+      "explanation": "S phase doubles DNA content from 2C to 4C. G2 cells retain 4C DNA until mitotic segregation.",
+      "visualAsset": "assets/high-yield/cell-cycle.svg",
+      "visualAlt": "Cell cycle phases A: G1, B: S, C: G2, D: M, in order",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Cell Cycle and Cell Division",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Biology",
+          "section": "Cell Cycle and Cell Division"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-biology-diagram-3",
+      "chapterId": "neet-biology-11-10",
+      "question": "If a cell has 2n chromosomes at the beginning of A, how many chromosomes does it have at the end of C, before D begins?",
+      "options": [
+        "n",
+        "2n",
+        "4n",
+        "8n"
+      ],
+      "answer": 1,
+      "explanation": "Chromosome number is counted by centromeres. Replication creates sister chromatids but does not double the chromosome number before anaphase.",
+      "visualAsset": "assets/high-yield/cell-cycle.svg",
+      "visualAlt": "Cell cycle phases A: G1, B: S, C: G2, D: M, in order",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Cell Cycle and Cell Division",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Biology",
+          "section": "Cell Cycle and Cell Division"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-biology-diagram-4",
+      "chapterId": "neet-biology-11-10",
+      "question": "Which labelled phases together constitute interphase in the diagram?",
+      "options": [
+        "A and D",
+        "B and D",
+        "C and D",
+        "A, B and C"
+      ],
+      "answer": 3,
+      "explanation": "Interphase comprises G1, S and G2 (A, B and C); M phase is D.",
+      "visualAsset": "assets/high-yield/cell-cycle.svg",
+      "visualAlt": "Cell cycle phases A: G1, B: S, C: G2, D: M, in order",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Cell Cycle and Cell Division",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Biology",
+          "section": "Cell Cycle and Cell Division"
+        }
+      ]
+    }
+  ],
+  "physics": [
+    {
+      "id": "NEET-HY-V1-physics-diagram-1",
+      "chapterId": "neet-physics-11-2",
+      "question": "Using the velocity–time graph, find the constant acceleration from t = 0 s to t = 4 s.",
+      "options": [
+        "1 m s⁻²",
+        "2 m s⁻²",
+        "4 m s⁻²",
+        "8 m s⁻²"
+      ],
+      "answer": 1,
+      "explanation": "Acceleration is the slope: (10 − 2)/4 = 2 m s⁻².",
+      "visualAsset": "assets/high-yield/velocity-time.svg",
+      "visualAlt": "Straight velocity-time graph from (0 s, 2 m/s) to (4 s, 10 m/s)",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Motion in a Straight Line",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Physics",
+          "section": "Motion in a Straight Line"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-physics-diagram-2",
+      "chapterId": "neet-physics-11-2",
+      "question": "Find the displacement during the first 4 s from the graph.",
+      "options": [
+        "8 m",
+        "16 m",
+        "24 m",
+        "40 m"
+      ],
+      "answer": 2,
+      "explanation": "Displacement is the trapezium area under v–t: (2 + 10) × 4/2 = 24 m.",
+      "visualAsset": "assets/high-yield/velocity-time.svg",
+      "visualAlt": "Straight velocity-time graph from (0 s, 2 m/s) to (4 s, 10 m/s)",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Motion in a Straight Line",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Physics",
+          "section": "Motion in a Straight Line"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-physics-diagram-3",
+      "chapterId": "neet-physics-11-2",
+      "question": "What is the average velocity during the 4 s interval shown?",
+      "options": [
+        "2 m s⁻¹",
+        "4 m s⁻¹",
+        "6 m s⁻¹",
+        "10 m s⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "For uniform acceleration, average velocity = (u + v)/2 = (2 + 10)/2 = 6 m s⁻¹.",
+      "visualAsset": "assets/high-yield/velocity-time.svg",
+      "visualAlt": "Straight velocity-time graph from (0 s, 2 m/s) to (4 s, 10 m/s)",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Motion in a Straight Line",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Physics",
+          "section": "Motion in a Straight Line"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-physics-diagram-4",
+      "chapterId": "neet-physics-11-2",
+      "question": "A 3 kg particle follows this graph. Find its increase in kinetic energy over the shown interval.",
+      "options": [
+        "72 J",
+        "96 J",
+        "144 J",
+        "150 J"
+      ],
+      "answer": 2,
+      "explanation": "ΔK = ½m(v² − u²) = ½ × 3 × (100 − 4) = 144 J.",
+      "visualAsset": "assets/high-yield/velocity-time.svg",
+      "visualAlt": "Straight velocity-time graph from (0 s, 2 m/s) to (4 s, 10 m/s)",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Motion in a Straight Line",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Physics",
+          "section": "Motion in a Straight Line"
+        }
+      ]
+    }
+  ],
+  "chemistry": [
+    {
+      "id": "NEET-HY-V1-chemistry-diagram-1",
+      "chapterId": "neet-chemistry-12-3",
+      "question": "For the reaction profile shown, calculate the forward activation energy.",
+      "options": [
+        "20 kJ mol⁻¹",
+        "40 kJ mol⁻¹",
+        "60 kJ mol⁻¹",
+        "100 kJ mol⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "Forward activation energy is peak minus reactants: 100 − 40 = 60 kJ mol⁻¹.",
+      "visualAsset": "assets/high-yield/reaction-energy.svg",
+      "visualAlt": "Energy profile: reactants 40, transition state 100, products 20 kJ/mol",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Chemical Kinetics",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Chemistry",
+          "section": "Chemical Kinetics"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-chemistry-diagram-2",
+      "chapterId": "neet-chemistry-12-3",
+      "question": "For the profile shown, calculate the reverse activation energy.",
+      "options": [
+        "20 kJ mol⁻¹",
+        "60 kJ mol⁻¹",
+        "80 kJ mol⁻¹",
+        "120 kJ mol⁻¹"
+      ],
+      "answer": 2,
+      "explanation": "Reverse activation energy is peak minus products: 100 − 20 = 80 kJ mol⁻¹.",
+      "visualAsset": "assets/high-yield/reaction-energy.svg",
+      "visualAlt": "Energy profile: reactants 40, transition state 100, products 20 kJ/mol",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Chemical Kinetics",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Chemistry",
+          "section": "Chemical Kinetics"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-chemistry-diagram-3",
+      "chapterId": "neet-chemistry-12-3",
+      "question": "Find E(products) − E(reactants) for the shown reaction profile.",
+      "options": [
+        "−20 kJ mol⁻¹",
+        "+20 kJ mol⁻¹",
+        "−60 kJ mol⁻¹",
+        "+80 kJ mol⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "The product-minus-reactant energy difference is 20 − 40 = −20 kJ mol⁻¹. Products lie lower in energy.",
+      "visualAsset": "assets/high-yield/reaction-energy.svg",
+      "visualAlt": "Energy profile: reactants 40, transition state 100, products 20 kJ/mol",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Chemical Kinetics",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Chemistry",
+          "section": "Chemical Kinetics"
+        }
+      ]
+    },
+    {
+      "id": "NEET-HY-V1-chemistry-diagram-4",
+      "chapterId": "neet-chemistry-12-3",
+      "question": "A catalyst offers a new path with peak energy 70 kJ mol⁻¹ while reactant and product energies are unchanged. Find the new forward activation energy.",
+      "options": [
+        "20 kJ mol⁻¹",
+        "30 kJ mol⁻¹",
+        "50 kJ mol⁻¹",
+        "70 kJ mol⁻¹"
+      ],
+      "answer": 1,
+      "explanation": "The catalysed forward barrier is 70 − 40 = 30 kJ mol⁻¹. A catalyst lowers the activation barrier without changing reactant and product energies.",
+      "visualAsset": "assets/high-yield/reaction-energy.svg",
+      "visualAlt": "Energy profile: reactants 40, transition state 100, products 20 kJ/mol",
+      "questionType": "Image-based",
+      "difficulty": "Moderate",
+      "topic": "Chemical Kinetics",
+      "provenance": "Original NCERT-mapped schematic and question; not an official PYQ",
+      "references": [
+        {
+          "sourceLabel": "NCERT Chemistry",
+          "section": "Chemical Kinetics"
+        }
+      ]
+    }
+  ]
+}
