@@ -2054,3 +2054,23 @@ html[data-course] .section-head .eyebrow { color: var(--portal-accent); }
 /* Wide and tablet headers keep navigation swipeable without entering account controls. */
 #headerErrorReview{color:#a52b20;background:#fff1ee;border-radius:10px}
 @media(min-width:1281px){.topbar{overflow:hidden}.topbar nav{position:relative;flex:1 1 0;width:0;gap:2px;margin-left:auto;padding:4px 14px 4px 4px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;scrollbar-width:thin;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}.topbar nav>a,.topbar nav>.course-header-tools{flex:0 0 auto;scroll-snap-align:start}.topbar nav::-webkit-scrollbar{height:5px}.topbar nav::-webkit-scrollbar-thumb{border-radius:99px;background:#c6d2df}.topbar nav::-webkit-scrollbar-track{background:transparent}.header-session-actions{position:relative;z-index:2;flex:0 0 auto;background:rgba(255,255,255,.94)}.brand{position:relative;z-index:2;background:rgba(255,255,255,.94)}}
+
+/* Self-paced NEET chapter practice */
+.neet-mode-hint{padding:14px 18px;border-left:3px solid #1769dd;background:#edf5ff;border-radius:8px;color:#234771;line-height:1.6}
+#neet .neet-chapter-card{border:1px solid #dce5ef;box-shadow:0 3px 12px #17345905;transition:border-color .15s,box-shadow .15s}
+#neet .neet-chapter-card:hover{border-color:#89afe2;box-shadow:0 8px 24px #1734590d}
+#neet .chapter-count{color:#175bbb}
+#neet .chapter-actions .btn{min-height:46px}
+.practice-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 22px;background:#f1f6fc;color:#365271;border-block:1px solid #dce5ef;font-size:14px}
+.practice-toolbar[hidden]{display:none}
+.practice-toolbar label{display:flex;align-items:center;gap:10px;font-weight:600;white-space:nowrap}
+.practice-toolbar input{width:85px;border:1px solid #bccde2;border-radius:8px;padding:9px;background:white;color:#152d50;font:inherit}
+.quiz-dialog.free-practice{width:min(1040px,96vw);max-height:94dvh}
+.free-practice .quiz-shell>header{gap:16px}
+.free-practice .quiz-shell>header>div:first-child{display:flex;flex-wrap:wrap;align-items:center;gap:10px;min-width:0}
+.free-practice .quiz-shell>header strong{font-size:16px}
+.free-practice .quiz-shell>section{padding:24px}
+.free-practice .option{color:#203d60;text-align:left;line-height:1.6;min-height:52px}
+.free-practice .quiz-shell>footer{position:sticky;bottom:0;background:white;border-top:1px solid #dce5ef;gap:12px;flex-wrap:wrap;padding:16px 22px}
+@media(max-width:600px){.practice-toolbar{align-items:flex-start;flex-direction:column;gap:10px}.free-practice .quiz-shell>section{padding:18px}.free-practice .quiz-shell>footer .btn{padding:12px}.free-practice #quizSubmit{flex-basis:100%}}
+#quizDialog [hidden],#neet label[hidden]{display:none!important}

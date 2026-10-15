@@ -136,7 +136,7 @@
     $("quickPractice").onclick = async () => {
       const courseId = activeCourseId();
       if (courseId === "class10") return startQuiz(allMcqs(await load("data/class10/biology.json")), "Class 10 Biology", "practice", 10);
-      if (courseId === "neet") return startQuiz(allMcqs(state.neet.data), `NEET ${state.neet.data?.subject || "Biology"}`, "practice", 10);
+      if (courseId === "neet") { $("neetChapterSearch").scrollIntoView({ behavior: "smooth", block: "center" }); $("neetChapterSearch").focus(); return; }
       if (courseId === "mbbs") {
         const subject = state.manifest.categories.find((item) => item.id === "mbbs")?.subjects?.[0];
         if (subject) return startQuiz(allMcqs(await load(subject.file)), `MBBS ${subject.name}`, "practice", 10);
@@ -171,6 +171,17 @@
       await renderNeetAvailability();
       renderNeetChapters();
     };
+    $("neetMode").onchange = updateNeetMode;
+    updateNeetMode();
+    $("quizJump").onchange = (event) => {
+      if (!state.quiz?.freePractice) return;
+      state.quiz.index = Math.max(0, Math.min(state.quiz.questions.length - 1, Number(event.target.value) - 1 || 0));
+      renderQuiz();
+    };
+    $("quizDialog").addEventListener("cancel", (event) => {
+      if (state.quiz?.freePractice) { event.preventDefault(); leaveQuiz(); }
+      else closeQuiz();
+    });
     $("neetClass").onchange = renderNeetChapters;
     $("neetDifficulty").onchange = renderNeetChapters;
     $("neetChapterSearch").oninput = renderNeetChapters;
@@ -200,7 +211,7 @@
         window.dispatchEvent(new CustomEvent("scrutiny:progress-cleared", { detail: { courseId } }));
       }
     };
-    $("quizClose").onclick = closeQuiz;
+    $("quizClose").onclick = leaveQuiz;
     $("quizPrev").onclick = () => moveQuiz(-1);
     $("quizNext").onclick = () => moveQuiz(1);
     $("quizSubmit").onclick = finishQuiz;
@@ -553,7 +564,18 @@
       `<strong>${allMcqs(d).length.toLocaleString("en-IN")}</strong> ${esc(sub.name)} MCQs across <strong>${publishedChapters(d).length}</strong> published chapters.${d.expansion ? `<br><small>${d.expansion.added.toLocaleString("en-IN")} additional NCERT-based practice variants • answers and explanations included</small>` : ""}`;
     return { d, sub };
   }
+  function updateNeetMode() {
+    const practice = $("neetMode").value === "practice";
+    $("neetCount").disabled = practice;
+    $("neetCount").closest("label").hidden = practice;
+    $("neetStart").textContent = practice ? "Practise across chapters" : "Start mixed test";
+    $("neetModeHint").textContent = practice
+      ? "Choose Practise chapter below. Explore every matching MCQ at your own pace, with instant answers and explanations."
+      : "Choose a question count, then start a chapter test or a mixed test. Answers appear after submission.";
+    renderNeetChapters();
+  }
   function neetQuestionCount(available) {
+    if ($("neetMode").value === "practice") return available;
     const selected = $("neetCount").value;
     return selected === "all"
       ? available
@@ -585,7 +607,7 @@
               })),
               qs = filterDifficulty(all, diff);
             const hasSubtopics = Array.isArray(ch.subtopics) && ch.subtopics.length;
-            return `<article class="neet-chapter-card"><div class="chapter-meta"><span>Class ${esc(ch.classLevel || "—")}</span><span>•</span><span>Chapter ${i + 1}</span></div><h3>${esc(ch.name || ch.title)}</h3><div class="chapter-count">${qs.length}</div><p>${diff === "all" ? "published" : esc(diff)} MCQs available${hasSubtopics ? ` • ${ch.subtopics.length} subtopics` : ""}</p><div class="chapter-actions"><button class="btn primary neet-chapter-practice" data-i="${i}" ${qs.length ? "" : "disabled"}>Mixed chapter test</button>${hasSubtopics ? `<button class="btn ghost neet-subtopic-open" data-i="${i}">Explore subtopics</button>` : ""}</div></article>`;
+            return `<article class="neet-chapter-card"><div class="chapter-meta"><span>Class ${esc(ch.classLevel || "—")}</span><span>•</span><span>Chapter ${i + 1}</span></div><h3>${esc(ch.name || ch.title)}</h3><div class="chapter-count">${qs.length}</div><p>${diff === "all" ? "published" : esc(diff)} MCQs available${hasSubtopics ? ` • ${ch.subtopics.length} subtopics` : ""}</p><div class="chapter-actions"><button class="btn primary neet-chapter-practice" data-i="${i}" ${qs.length ? "" : "disabled"}>${$("neetMode").value === "practice" ? "Practise chapter →" : "Start chapter test"}</button>${hasSubtopics ? `<button class="btn ghost neet-subtopic-open" data-i="${i}">Explore subtopics</button>` : ""}</div></article>`;
           })
           .join("")
       : '<div class="empty-state">No chapters match.</div>';
@@ -609,6 +631,7 @@
               `NEET ${d.subject} • ${ch.name || ch.title}`,
               $("neetMode").value,
               n,
+              { freePractice: $("neetMode").value === "practice" },
             );
           }),
       );
@@ -657,13 +680,13 @@
     $("subtopicGrid").innerHTML = chapter.subtopics.map((subtopic, index) => {
       const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter));
       const status = subtopic.syllabusStatus && !subtopic.syllabusStatus.startsWith("NEET 2026 core") ? `<span class="syllabus-note">${esc(subtopic.syllabusStatus)}</span>` : "";
-      return `<article class="subtopic-card"><div class="subtopic-card-meta"><span>${esc(subtopic.ncertSections)}</span><span>${esc(subtopic.importance || "High")}</span></div><h4>${esc(subtopic.name)}</h4>${status}<strong>${questions.length} MCQs</strong><p>${filter === "all" ? "Complete targeted practice" : `${esc(filter)} filter`}</p><div class="subtopic-actions">${[10,20,40].filter(count => count <= Math.max(questions.length, 20) || count === 10).map(count => `<button type="button" class="btn ${count === 40 ? "primary" : "ghost"} small subtopic-start" data-sub="${index}" data-count="${count}" ${questions.length ? "" : "disabled"}>${count}</button>`).join("")}</div></article>`;
+      return `<article class="subtopic-card"><div class="subtopic-card-meta"><span>${esc(subtopic.ncertSections)}</span><span>${esc(subtopic.importance || "High")}</span></div><h4>${esc(subtopic.name)}</h4>${status}<strong>${questions.length} MCQs</strong><p>${filter === "all" ? "Complete targeted practice" : `${esc(filter)} filter`}</p><div class="subtopic-actions">${($("neetMode").value === "practice" ? [questions.length] : [10,20,40]).filter(count => count <= Math.max(questions.length, 20) || count === 10).map(count => `<button type="button" class="btn ${count === 40 ? "primary" : "ghost"} small subtopic-start" data-sub="${index}" data-count="${count}" ${questions.length ? "" : "disabled"}>${$("neetMode").value === "practice" ? "Practise all →" : count}</button>`).join("")}</div></article>`;
     }).join("");
     $("subtopicGrid").querySelectorAll(".subtopic-start").forEach(button => {
       button.onclick = () => {
         const subtopic = chapter.subtopics[+button.dataset.sub];
         const questions = (subtopic.mcqs || []).filter(q => questionMatchesType(q, filter)).map(q => ({ ...q, __chapter: chapter.name, __subject: state.neet.data?.subject || "NEET" }));
-        startQuiz(questions, `${chapter.name} • ${subtopic.name}`, $("neetMode").value, Math.min(+button.dataset.count, questions.length));
+        startQuiz(questions, `${chapter.name} • ${subtopic.name}`, $("neetMode").value, Math.min(+button.dataset.count, questions.length), { freePractice: $("neetMode").value === "practice" });
       };
     });
   }
@@ -683,6 +706,7 @@
       `NEET ${sub.name}`,
       $("neetMode").value,
       neetQuestionCount(qs.length),
+      { freePractice: $("neetMode").value === "practice" },
     );
   }
   async function renderCustomBuilder() {
@@ -871,7 +895,7 @@
         )
         .join("")}</div>`;
   }
-  function startQuiz(qs, title, mode = "practice", count = 25) {
+  function startQuiz(qs, title, mode = "practice", count = 25, options = {}) {
     const usable = (qs || []).filter(
       (q) => Array.isArray(q.options) && q.options.length >= 2,
     );
@@ -879,13 +903,19 @@
     state.quiz = {
       title,
       mode,
-      questions: shuffle(usable).slice(0, Math.min(count, usable.length)),
+      freePractice: mode === "practice" && Boolean(options.freePractice),
+      questions: options.freePractice && mode === "practice" ? usable : shuffle(usable).slice(0, Math.min(count, usable.length)),
       index: 0,
       answers: {},
       confidence: {},
       reasons: {},
       started: Date.now(),
     };
+    $("quizDialog").classList.toggle("free-practice", state.quiz.freePractice);
+    $("quizPracticeNav").hidden = !state.quiz.freePractice;
+    $("quizTimer").hidden = state.quiz.freePractice;
+    $("quizTimer").textContent = "00:00";
+    $("quizClose").setAttribute("aria-label", state.quiz.freePractice ? "Save practice and return to chapters" : "Close quiz");
     $("quizTitle").textContent = title;
     $("quizMode").textContent = mode === "test" ? "Test" : "Practice";
     $("quizDialog").showModal();
@@ -1031,7 +1061,13 @@
       `${((z.index + 1) / z.questions.length) * 100}%`;
     $("quizPrev").disabled = z.index === 0;
     $("quizNext").hidden = z.index === z.questions.length - 1;
-    $("quizSubmit").hidden = z.index !== z.questions.length - 1;
+    $("quizSubmit").hidden = !z.freePractice && z.index !== z.questions.length - 1;
+    $("quizSubmit").textContent = z.freePractice ? "Save & finish" : "Submit test";
+    if (z.freePractice) {
+      $("quizJump").max = z.questions.length;
+      $("quizJump").value = z.index + 1;
+      $("quizPracticeStatus").textContent = `${Object.keys(z.answers).length} answered · ${z.questions.length} available · No time limit`;
+    }
     $("quizOptions").innerHTML = q.options
       .map(
         (o, i) =>
@@ -1221,6 +1257,10 @@
     } catch (e) {
       if (e.name !== "AbortError") toast("Could not share this result.");
     }
+  }
+  function leaveQuiz() {
+    if (state.quiz?.freePractice && Object.keys(state.quiz.answers).length) return finishQuiz();
+    closeQuiz();
   }
   function closeQuiz() {
     clearInterval(state.timer);

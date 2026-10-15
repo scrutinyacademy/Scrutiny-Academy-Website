@@ -11,7 +11,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <link rel="stylesheet" href="v2.css?v=41" />
+    <link rel="stylesheet" href="v2.css?v=42" />
     <link rel="stylesheet" href="physics-formulas.css?v=2" />
     <style>
       .auth-check body {
@@ -202,9 +202,7 @@
             <span class="eyebrow">NEET UG</span>
             <h2>NEET Chapter-wise Practice</h2>
             <p>
-              Choose a subject, chapter and difficulty. Difficulty works on
-              questions that carry verified difficulty metadata; unlabelled
-              questions remain available under All.
+              Choose your chapter. Practise at your own pace, reveal explanations instantly and build confidence one question at a time.
             </p>
           </div>
           <span class="status active">Active</span>
@@ -226,7 +224,7 @@
             </select></label
           ><label class="field"
             >Mode<select id="neetMode">
-              <option value="practice">Practice</option>
+              <option value="practice">Free practice</option>
               <option value="test">Timed test</option>
             </select></label
           ><label class="field"
@@ -242,14 +240,15 @@
               <option value="all">All available</option>
             </select></label
           ><button type="button" class="btn primary" id="neetStart">
-            Start mixed session
+            Practise across chapters
           </button>
         </div>
+        <p id="neetModeHint" class="neet-mode-hint" role="status">Choose Practise chapter below to explore all MCQs with instant feedback.</p>
         <div id="neetAvailability" class="availability"></div>
         <div class="neet-chapter-head">
           <div>
             <h3>Choose a chapter</h3>
-            <p>Practice a single published chapter.</p>
+            <p>All chapter questions. No timer. Learn as you solve.</p>
           </div>
           <input
             type="search"
@@ -620,6 +619,7 @@
             </button>
           </div>
         </header>
+        <div id="quizPracticeNav" class="practice-toolbar" hidden><span id="quizPracticeStatus" role="status"></span><label>Go to question <input id="quizJump" type="number" min="1" step="1" inputmode="numeric" aria-label="Go to question number"></label></div>
         <div class="quiz-progress"><span id="quizProgress"></span></div>
         <section>
           <span id="quizChapter" class="eyebrow"></span>

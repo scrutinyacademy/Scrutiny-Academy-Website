@@ -1,0 +1,36 @@
+const fs = require('node:fs'), vm = require('node:vm'), assert = require('node:assert/strict');
+const nodes = new Map();
+function node(id) {
+  if (!nodes.has(id)) nodes.set(id, { value: '', style: {}, hidden: false, classList: { toggle() {} }, setAttribute() {}, querySelectorAll() { return []; }, showModal() { this.open = true; }, close() { this.open = false; }, closest() { return node('label-' + id); } });
+  return nodes.get(id);
+}
+const ctx = { console, URLSearchParams, location: { search: '' }, document: { getElementById: node, documentElement: { dataset: { course: 'neet' } } }, setInterval() { return 1; }, clearInterval() {}, setTimeout() {}, clearTimeout() {}, window: { addEventListener() {}, ScrutinyStudentStorage: { getItem() { return null; } } } };
+const source = fs.readFileSync('v2-core.js', 'utf8').replace('  init();', '  window.test = { state, startQuiz, renderQuiz, moveQuiz, neetQuestionCount, updateNeetMode, closeQuiz };');
+vm.runInNewContext(source, ctx);
+const api = ctx.window.test;
+const questions = Array.from({ length: 585 }, (_, i) => ({ id: 'q-' + i, question: 'Question ' + i, options: ['A', 'B'], answer: 0 }));
+node('neetMode').value = 'practice'; node('neetCount').value = '10';
+assert.equal(api.neetQuestionCount(585), 585, 'practice ignores the test question count');
+api.updateNeetMode(); assert.equal(node('neetCount').disabled, true);
+api.startQuiz(questions, 'Living World', 'practice', 10, { freePractice: true });
+assert.equal(api.state.quiz.questions.length, 585);
+assert.equal(api.state.quiz.questions[584].id, 'q-584', 'chapter order remains stable');
+assert.equal(node('quizTimer').hidden, true);
+assert.equal(node('quizSubmit').hidden, false, 'students can finish any time');
+assert.equal(node('quizSubmit').textContent, 'Save & finish');
+assert.equal(node('quizPracticeNav').hidden, false);
+api.state.quiz.index = 583; api.moveQuiz(1);
+assert.equal(node('quizPosition').textContent, '585 / 585');
+assert.equal(node('quizNext').hidden, true);
+api.moveQuiz(-1); assert.equal(node('quizPosition').textContent, '584 / 585');
+api.closeQuiz();
+node('neetMode').value = 'test';
+assert.equal(api.neetQuestionCount(585), 10);
+api.startQuiz(questions, 'Test', 'test', 10);
+assert.equal(api.state.quiz.questions.length, 10);
+assert.equal(node('quizPracticeNav').hidden, true);
+assert.equal(node('quizTimer').hidden, false);
+assert.equal(node('quizSubmit').hidden, true);
+assert.equal(node('quizSubmit').textContent, 'Submit test');
+api.state.quiz.index = 9; api.renderQuiz(); assert.equal(node('quizSubmit').hidden, false);
+console.log('PASS: all 585 chapter questions, stable order, navigation beyond 180, untimed free practice, finish any time and independent test limits.');
