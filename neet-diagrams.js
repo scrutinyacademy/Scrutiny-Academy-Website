@@ -36,7 +36,7 @@
     const token=++request;host.hidden=!allowed();if(host.hidden){host.innerHTML='';document.querySelectorAll('.dv-dialog').forEach(d=>d.close());return;}
     if(catalog){render();return;}
     host.innerHTML='<h2>Diagrams &amp; Tables</h2><p role="status">Loading visual library…</p>';
-    try{const response=await fetch('data/neet/diagrams/catalog.json?v=2');if(!response.ok)throw Error('load');const data=await response.json();if(token!==request||!allowed())return;catalog=data;render();}catch{if(token!==request)return;host.innerHTML='<h2>Diagrams &amp; Tables</h2><p>Could not load the visual library. Check your connection.</p><button type="button" class="btn primary">Retry</button>';host.querySelector('button').onclick=sync;}
+    try{const response=await fetch('data/neet/diagrams/catalog.json?v=3');if(!response.ok)throw Error('load');const data=await response.json();if(token!==request||!allowed())return;catalog=data;render();}catch{if(token!==request)return;host.innerHTML='<h2>Diagrams &amp; Tables</h2><p>Could not load the visual library. Check your connection.</p><button type="button" class="btn primary">Retry</button>';host.querySelector('button').onclick=sync;}
   }
   addEventListener('scrutiny:dashboard-context',sync);addEventListener('scrutiny:student-changed',sync);sync();
 })();
