@@ -1,0 +1,113 @@
+/* Reference-inspired NEET dashboard; every selector is limited to this course. */
+html[data-course="neet"]{--portal-accent:#0064ed!important;--navy:#092557;--blue:#0064ed;scroll-padding-top:130px}
+html[data-course="neet"] body{background:linear-gradient(130deg,#eef7ff 0,#f8fbff 45%,#f1f8ff 100%);color:#101d42}
+html[data-course="neet"] .watermark{display:none}
+html[data-course="neet"] .topbar{padding:12px 24px;gap:24px;min-height:78px;flex-wrap:wrap;overflow:visible;background:#fff;border-bottom:1px solid #e0edfc;box-shadow:0 3px 15px #2567bc0a}
+html[data-course="neet"] .brand strong{font-size:15px;letter-spacing:-.4px}
+html[data-course="neet"] .brand img{width:42px;height:42px}
+html[data-course="neet"] .topbar #mainNav{position:static;display:flex!important;transform:none!important;visibility:visible!important;opacity:1!important;flex:1 1 500px;width:auto;min-width:0;margin:0;padding:2px;gap:3px;max-height:none;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;background:transparent;box-shadow:none;border:0;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+html[data-course="neet"] #mainNav>a{flex:0 0 auto;padding:12px 10px;font-size:12px;scroll-snap-align:start;border-radius:8px;min-height:44px}
+html[data-course="neet"] #mainNav>a.nd-current{color:#0064ed;box-shadow:inset 0 -3px #0064ed;border-radius:0}
+html[data-course="neet"] #mainNav .course-header-tools{flex:0 0 auto}
+html[data-course="neet"] #mainNav .active-course-title{display:none}
+html[data-course="neet"] #menuBtn,html[data-course="neet"] .nav-backdrop{display:none!important}
+html[data-course="neet"] .header-session-actions{margin:0;gap:10px;flex-shrink:0}
+html[data-course="neet"] .header-mcq-button{background:#0064ed;box-shadow:0 5px 12px #0064ed20;border-radius:10px;min-height:44px}
+html[data-course="neet"] .header-logout{border-color:#dce8f7;border-radius:10px;min-height:44px}
+html[data-course="neet"] .hero.nd-home{border:0;max-width:1660px;margin:0 auto;padding:28px 28px 26px;display:grid;grid-template-columns:minmax(0,1.24fr) minmax(230px,.95fr) minmax(275px,.72fr);gap:22px;align-items:center;position:relative;background:radial-gradient(ellipse at 55% 30%,#d9edff90,transparent 65%)}
+html[data-course="neet"] .nd-home .hero-copy{position:relative;z-index:1;min-width:0;padding:14px 0 20px 8px}
+html[data-course="neet"] .nd-home .hero-copy .eyebrow{display:inline-block;color:#3c6390;font-size:10px;line-height:1.8;letter-spacing:.09em;margin-bottom:20px}
+html[data-course="neet"] .nd-home h1{font-size:clamp(35px,4.3vw,70px);line-height:1.04;font-weight:850;letter-spacing:-.055em;margin:0 0 18px;color:#081940}
+html[data-course="neet"] .nd-home h1 span{color:#0061ef}
+html[data-course="neet"] .nd-home .hero-copy>p{font-size:clamp(14px,1.2vw,18px);line-height:1.55;margin:0 0 22px;max-width:580px;color:#527096}
+html[data-course="neet"] .nd-home .hero-panel{display:none}
+html[data-course="neet"] .nd-home .hero-actions{gap:12px;margin-top:24px;display:flex;flex-wrap:wrap}
+html[data-course="neet"] .nd-home .hero-actions .btn{font-size:13px;min-height:48px;padding:12px 24px;border-radius:12px;flex:1;white-space:nowrap;text-align:center;justify-content:center;border:1px solid #dde9f8;box-shadow:0 5px 12px #1262cc0b}
+html[data-course="neet"] .nd-home .hero-actions .primary{background:linear-gradient(100deg,#06398c,#0068ed);color:#fff}
+html[data-course="neet"] .nd-home .hero-actions .ghost{background:#ffffffdd;color:#0b2e68}
+html[data-course="neet"] .nd-process{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+html[data-course="neet"] .nd-process a{display:flex;flex-direction:column;align-items:center;text-align:center;gap:6px;min-width:0}
+html[data-course="neet"] .nd-process strong{font-size:11px}
+html[data-course="neet"] .nd-process small{font-size:9px;line-height:1.35;color:#527096}
+html[data-course="neet"] .nd-icon{width:48px;height:48px;flex-shrink:0;display:inline-grid;place-items:center;background:var(--nd-icon-bg,#e1efff);color:var(--nd-tone,#0876ed);border-radius:50%}
+html[data-course="neet"] .nd-icon svg{width:26px;height:26px}
+html[data-course="neet"] .nd-green{--nd-icon-bg:#d9faeb;--nd-tone:#10a857;--nd-tile-bg:#f0fcf6}
+html[data-course="neet"] .nd-purple{--nd-icon-bg:#ece3ff;--nd-tone:#753ce0;--nd-tile-bg:#f7f3ff}
+html[data-course="neet"] .nd-orange{--nd-icon-bg:#fff0d9;--nd-tone:#ed8b10;--nd-tile-bg:#fffbf1}
+html[data-course="neet"] .nd-pink{--nd-icon-bg:#ffe2ed;--nd-tone:#eb3e78;--nd-tile-bg:#fff4f8}
+html[data-course="neet"] .nd-teal{--nd-icon-bg:#d7f8ef;--nd-tone:#0cb894;--nd-tile-bg:#edfcf7}
+html[data-course="neet"] .nd-blue{--nd-icon-bg:#e0efff;--nd-tone:#0876ed;--nd-tile-bg:#f0f7ff}
+html[data-course="neet"] .nd-hero-art{align-self:stretch;display:flex;align-items:center;min-width:0;margin-left:-30px;margin-right:-12px}
+html[data-course="neet"] .nd-hero-art img{width:100%;height:100%;max-height:440px;min-height:300px;object-fit:cover;object-position:center;border-radius:22px;mix-blend-mode:multiply}
+html[data-course="neet"] .nd-rail{display:grid;gap:14px;align-self:stretch;align-content:center;min-width:0}
+html[data-course="neet"] .nd-countdown-card,html[data-course="neet"] .nd-mission-card{background:#ffffffde;border:1px solid #fff;border-radius:20px;padding:20px;box-shadow:0 5px 25px #2060ab06}
+html[data-course="neet"] .nd-home h2{margin:0;font-size:17px;letter-spacing:-.04em;color:#0e2045}
+html[data-course="neet"] .nd-countdown-card h2{color:#0064ed;font-size:23px}
+html[data-course="neet"] .nd-countdown-card>p{font-size:11px;margin:2px 0 12px;color:#537094}
+html[data-course="neet"] #ndCountdown #neet2028Countdown{padding:0;border:0;background:transparent;gap:5px}
+html[data-course="neet"] #ndCountdown .countdown-title{display:none}
+html[data-course="neet"] #ndCountdown .countdown-units{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+html[data-course="neet"] #ndCountdown .countdown-unit{padding:10px 2px;border-radius:10px;background:#e3f0ff}
+html[data-course="neet"] #ndCountdown b{font-size:22px;color:#0b2759}
+html[data-course="neet"] #ndCountdown small{font-size:9px}
+html[data-course="neet"] #ndCountdown .countdown-note{font-size:8px;margin-top:3px}
+html[data-course="neet"] .nd-card-heading,html[data-course="neet"] .nd-section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+html[data-course="neet"] .nd-card-heading>a,html[data-course="neet"] .nd-section-heading>a{font-size:11px;color:#0064ed;font-weight:650;white-space:nowrap;min-height:36px;display:inline-flex;align-items:center}
+html[data-course="neet"] .nd-card-heading h2{font-size:16px}
+html[data-course="neet"] .nd-task{display:flex;align-items:center;gap:9px;border-bottom:1px solid #e6eef8;min-height:35px}
+html[data-course="neet"] .nd-task input{width:18px;height:18px;margin:0;accent-color:#0064ed;cursor:pointer;flex-shrink:0}
+html[data-course="neet"] .nd-task a{font-size:11px;display:flex;align-items:center;justify-content:space-between;flex:1;min-height:35px;gap:8px}
+html[data-course="neet"] .nd-task a span{font-size:20px;color:#8faac9}
+html[data-course="neet"] .nd-task:has(input:checked) a{color:#658578;text-decoration:line-through}
+html[data-course="neet"] #ndMissionCount{font-size:9px;display:block;color:#6984a2;margin:9px 0}
+html[data-course="neet"] .nd-primary{display:block;padding:12px 8px;min-height:44px;background:#0064f5;color:#fff;border-radius:12px;text-align:center;font-weight:750;font-size:13px;box-shadow:0 4px 10px #0064f522}
+html[data-course="neet"] .nd-overview{grid-column:1/-1;min-width:0;display:grid;gap:18px}
+html[data-course="neet"] .nd-stats{display:grid;grid-template-columns:1.2fr repeat(5,1fr);padding:8px;gap:8px;background:#ffffffcc;border:1px solid #fff;border-radius:18px;box-shadow:0 3px 20px #1a70c508}
+html[data-course="neet"] .nd-stats>a{display:flex;align-items:center;gap:12px;border:1px solid #edf2fa;border-radius:14px;padding:14px 10px;min-width:0;background:#ffffff88}
+html[data-course="neet"] .nd-stats .nd-icon{width:44px;height:44px}
+html[data-course="neet"] .nd-stats span:not(.nd-icon){font-size:10px;line-height:1.4;display:block}
+html[data-course="neet"] .nd-stats strong{display:block;font-size:24px;line-height:1.5;letter-spacing:-.04em;white-space:nowrap}
+html[data-course="neet"] .nd-stats small{font-size:10px;color:#527096;display:block}
+html[data-course="neet"] .nd-live{background:#18bf73;color:#fff;font-size:8px;padding:2px 6px;border-radius:9px;white-space:nowrap}
+html[data-course="neet"] .nd-section-heading h2{font-size:21px;letter-spacing:-.04em}
+html[data-course="neet"] .nd-quick{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:10px}
+html[data-course="neet"] .nd-tile{background:var(--nd-tile-bg);border:1px solid #ffffff;border-radius:16px;min-height:84px;padding:12px 10px;display:flex;align-items:center;gap:9px;box-shadow:0 2px 10px #164a8204}
+html[data-course="neet"] .nd-tile .nd-icon{width:40px;height:40px}
+html[data-course="neet"] .nd-tile .nd-icon svg{width:23px;height:23px}
+html[data-course="neet"] .nd-tile strong{font-size:11px;line-height:1.5}
+html[data-course="neet"] .nd-tile>span:last-child{color:var(--nd-tone);margin-left:auto}
+html[data-course="neet"] .nd-bottom{display:grid;grid-template-columns:1.8fr 1fr .8fr;gap:16px;min-width:0}
+html[data-course="neet"] .nd-card{background:#fff;border:1px solid #e9f1fc;border-radius:18px;padding:18px;box-shadow:0 3px 15px #346da005;min-width:0}
+html[data-course="neet"] .nd-subject-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+html[data-course="neet"] .nd-subject-grid article{display:flex;gap:10px;padding:14px 10px;border:1px solid #e7effa;border-radius:14px;background:linear-gradient(135deg,#fff,#f7fbff)}
+html[data-course="neet"] .nd-subject-grid .nd-icon{width:42px;height:42px}
+html[data-course="neet"] .nd-subject-grid h3{font-size:12px;margin:1px 0 6px}
+html[data-course="neet"] .nd-subject-grid p{font-size:11px;margin:0 0 8px;color:#527096}
+html[data-course="neet"] .nd-subject-grid button{font-size:11px;font-weight:750;padding:8px 12px;border:0;border-radius:20px;background:#e3faf1;color:#078953;cursor:pointer;min-height:36px}
+html[data-course="neet"] .nd-progress-body{display:flex;gap:20px;align-items:center;margin:12px 0}
+html[data-course="neet"] .nd-ring{--nd-progress:0%;position:relative;flex-shrink:0;width:98px;height:98px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:50%;background:radial-gradient(closest-side,#fff 85%,transparent 87%),conic-gradient(#13b890 var(--nd-progress),#e4edf7 0)}
+html[data-course="neet"] .nd-ring strong{font-size:27px;line-height:1.2}
+html[data-course="neet"] .nd-ring small{font-size:10px;color:#58708e}
+html[data-course="neet"] .nd-progress-body p{display:flex;align-items:center;gap:6px;font-size:11px;margin:8px 0;min-width:105px}
+html[data-course="neet"] .nd-progress-body p b{margin-left:auto}
+html[data-course="neet"] .nd-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--nd-tone)}
+html[data-course="neet"] .nd-review-link{font-size:10px;font-weight:700;color:#0064ed}
+html[data-course="neet"] #ndPracticeNote{font-size:10px;color:#657d9a;display:block}
+html[data-course="neet"] .nd-quote{background:linear-gradient(130deg,#e0f1ff,#f4fbff);border:1px solid #e6f1fc;border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:center}
+html[data-course="neet"] .nd-quote>span{font-size:38px;line-height:.5;color:#559eeb}
+html[data-course="neet"] .nd-quote blockquote{font-size:14px;line-height:1.6;font-weight:650;margin:6px 0 14px}
+html[data-course="neet"] .nd-quote small{font-size:10px;color:#355d87}
+html[data-course="neet"] .nd-quote>div{font-size:24px;color:#2b7ec0;margin-top:12px;letter-spacing:4px}
+html[data-course="neet"] .section{max-width:1604px;padding:32px 24px;margin:16px auto;border:1px solid #e4edf8;border-radius:20px;background:#ffffffc9}
+html[data-course="neet"] .section h2{font-size:clamp(24px,3vw,36px);letter-spacing:-.04em}
+html[data-course="neet"] :is(a,button,input):focus-visible{outline:3px solid #0070ef;outline-offset:4px}
+html[data-course="neet"] .nd-stats>a:hover,html[data-course="neet"] .nd-tile:hover{box-shadow:0 6px 18px #2165b31a;border-color:#bdd9fc}
+@media(max-width:1350px){html[data-course="neet"] .topbar #mainNav{order:3;flex-basis:100%}html[data-course="neet"] .header-session-actions{margin-left:auto}html[data-course="neet"] .hero.nd-home{grid-template-columns:minmax(0,1.3fr) minmax(200px,.85fr) minmax(260px,.85fr);padding:22px;gap:16px}html[data-course="neet"] .nd-stats{grid-template-columns:repeat(3,1fr)}html[data-course="neet"] .nd-quick{grid-template-columns:repeat(4,1fr)}html[data-course="neet"] .nd-bottom{grid-template-columns:1.6fr 1fr}html[data-course="neet"] .nd-quote{grid-column:1/-1;flex-direction:row;gap:20px;align-items:center;padding:16px}html[data-course="neet"] .nd-quote blockquote{margin:0}html[data-course="neet"] .nd-quote>div{margin:0}}
+@media(max-width:1050px){html[data-course="neet"] .hero.nd-home{grid-template-columns:minmax(0,1.4fr) minmax(260px,1fr)}html[data-course="neet"] .nd-hero-art{grid-column:2;grid-row:1;margin:0;align-self:stretch}html[data-course="neet"] .nd-hero-art img{max-height:360px}html[data-course="neet"] .nd-rail{grid-column:1/-1;grid-template-columns:.85fr 1.15fr;align-items:start}html[data-course="neet"] .nd-countdown-card{align-self:stretch;display:flex;flex-direction:column;justify-content:center}html[data-course="neet"] .nd-bottom{grid-template-columns:1fr 1fr}html[data-course="neet"] .nd-subjects{grid-column:1/-1}html[data-course="neet"] .nd-quote{grid-column:auto;flex-direction:column;align-items:flex-start;gap:12px}html[data-course="neet"] .nd-subject-grid article{padding:16px}}
+@media(max-width:600px){html[data-course="neet"]{scroll-padding-top:140px}html[data-course="neet"] .topbar{padding:10px 14px;gap:8px}html[data-course="neet"] .brand strong{font-size:12px}html[data-course="neet"] .brand img{width:32px;height:32px}html[data-course="neet"] .brand small{font-size:6px}html[data-course="neet"] .header-session-actions{gap:5px}html[data-course="neet"] .header-mcq-button,html[data-course="neet"] .header-logout{font-size:10px;padding:8px;min-height:38px}html[data-course="neet"] .topbar #mainNav{padding:0}html[data-course="neet"] #mainNav>a{font-size:11px;padding:9px}html[data-course="neet"] .hero.nd-home{display:grid;grid-template-columns:minmax(0,1fr);padding:18px 14px;gap:18px}html[data-course="neet"] .nd-home .hero-copy{padding:8px 2px 0}html[data-course="neet"] .nd-home h1{font-size:42px}html[data-course="neet"] .nd-home .hero-copy>.eyebrow{font-size:8px;margin-bottom:15px}html[data-course="neet"] .nd-home .hero-copy>p{font-size:14px}html[data-course="neet"] .nd-hero-art{grid-column:1;grid-row:auto;height:245px;margin:0}html[data-course="neet"] .nd-hero-art img{min-height:0;height:245px;object-position:50% 58%;border-radius:18px}html[data-course="neet"] .nd-process{gap:5px}html[data-course="neet"] .nd-process .nd-icon{width:38px;height:38px}html[data-course="neet"] .nd-process small{font-size:8px}html[data-course="neet"] .nd-process strong{font-size:10px}html[data-course="neet"] .nd-home .hero-actions{margin-top:18px;gap:8px}html[data-course="neet"] .nd-home .hero-actions .btn{padding:12px 9px;flex:1 1 45%;font-size:12px}html[data-course="neet"] .nd-rail{grid-template-columns:1fr}html[data-course="neet"] .nd-countdown-card,html[data-course="neet"] .nd-mission-card{padding:18px}html[data-course="neet"] .nd-task,html[data-course="neet"] .nd-task a{min-height:44px}html[data-course="neet"] .nd-task a{font-size:12px}html[data-course="neet"] .nd-stats{grid-template-columns:repeat(2,minmax(0,1fr));padding:6px;gap:6px}html[data-course="neet"] .nd-stats>a{padding:12px 8px;gap:8px}html[data-course="neet"] .nd-stats .nd-icon{width:32px;height:32px}html[data-course="neet"] .nd-stats .nd-icon svg{width:20px;height:20px}html[data-course="neet"] .nd-stats strong{font-size:21px}html[data-course="neet"] .nd-stats span:not(.nd-icon),html[data-course="neet"] .nd-stats small{font-size:9px}html[data-course="neet"] .nd-stats .nd-live{display:none}html[data-course="neet"] .nd-quick{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}html[data-course="neet"] .nd-tile{min-height:74px;padding:10px 8px;gap:8px}html[data-course="neet"] .nd-tile strong{font-size:11px}html[data-course="neet"] .nd-section-heading h2{font-size:19px}html[data-course="neet"] .nd-bottom{grid-template-columns:1fr}html[data-course="neet"] .nd-subject-grid{grid-template-columns:1fr}html[data-course="neet"] .nd-subject-grid article{align-items:center;padding:12px}html[data-course="neet"] .nd-subject-grid article>div{flex:1;display:grid;grid-template-columns:1fr auto;gap:0 10px}html[data-course="neet"] .nd-subject-grid h3{font-size:14px}html[data-course="neet"] .nd-subject-grid p{margin:0;grid-column:1}html[data-course="neet"] .nd-subject-grid button{grid-row:1/3;grid-column:2;align-self:center;min-height:40px}html[data-course="neet"] .nd-quote{align-items:center;text-align:center}html[data-course="neet"] .section{margin:12px 14px;padding:24px 14px}html[data-course="neet"] .nd-progress-body{justify-content:space-around}}
+/* Reset the existing mobile drawer rules for the horizontally scrolling NEET tabs. */
+html[data-course="neet"] .topbar #mainNav{flex-direction:row;align-items:center;pointer-events:auto;inset:auto;border-radius:0}
+html[data-course="neet"] .topbar #mainNav>a{width:auto}
+html[data-course="neet"] .topbar #mainNav .course-header-tools{display:flex;order:0;align-items:center;margin:0;padding:0 8px;background:transparent}
+html[data-course="neet"] .topbar #mainNav .platform-user{display:none}
+@media(prefers-reduced-motion:reduce){html[data-course="neet"]{scroll-behavior:auto}}

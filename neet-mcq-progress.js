@@ -65,6 +65,7 @@ function mistakeCard(item) {
 
 function renderDashboard(sections, mistakes) {
   const total = totalStats(sections);
+  window.dispatchEvent(new CustomEvent("scrutiny:neet-dashboard-stats", {detail:{total, sections}}));
   const shown = mistakes.filter(item => currentFilter === "All" || item.section === currentFilter).sort((a,b) => (b.lastMissedAt || 0) - (a.lastMissedAt || 0));
   const page = paginate(shown, currentMistakePage, 5);
   currentMistakePage = page.page;
