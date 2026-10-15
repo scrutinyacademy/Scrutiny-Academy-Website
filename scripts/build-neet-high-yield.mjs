@@ -27,26 +27,33 @@ function sourceRows(subject,ch){
 }
 function hash(s){let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0;}
 function rng(seed){return()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed>>>8;};}
-const counts={biology:17496,physics:8746,chemistry:8746};
-const report={release:'2026-10-15-high-yield-v2',added:35000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
+const counts={biology:27496,physics:13746,chemistry:13746};
+const report={release:'2026-10-15-high-yield-v2',added:55000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
 for(const subject of Object.keys(counts)){
  const base=JSON.parse(read(`data/neet/${subject}.json`));
  const chapters=[...base.chapters.map(ch=>({id:ch.id,name:ch.name,classLevel:ch.classLevel,rows:sourceRows(subject,ch)})),...(extra[subject]||[])];
- const target=Math.floor(counts[subject]/chapters.length),remainder=counts[subject]%chapters.length;
+ const published=JSON.parse(read(`data/neet/high-yield/${subject}.json`));
  const pack={version:1,release:report.release,subject,chapters:[]};
  const previous=JSON.parse(read(`data/neet/expansion/${subject}.json`));
- const seen=new Set([...base.chapters.flatMap(c=>c.mcqs),...previous.chapters.flatMap(c=>expandChapter(c,subject))].map(semanticSignature));
- for(const [ci,ch] of chapters.entries()){
-  const limit=target+(ci<remainder?1:0), random=rng(hash(ch.id+'high-yield-v1'));
+ const seen=new Set([...base.chapters.flatMap(c=>c.mcqs),...previous.chapters.flatMap(c=>expandChapter(c,subject)),...published.chapters.flatMap(c=>expandChapter(c,subject))].map(semanticSignature));
+ let deficit=0;
+ const additions=counts[subject]-published.chapters.reduce((n,c)=>n+c.specs.length,0);
+ if(additions<0)throw Error('Refusing to remove published questions');
+ const target=Math.floor(additions/chapters.length),remainder=additions%chapters.length;
+ const work=chapters.map((ch,ci)=>({ch,limit:(published.chapters.find(c=>c.id===ch.id)?.specs.length||0)+target+(ci<remainder?1:0)}));
+ for(let wi=0;wi<work.length;wi++){
+  const {ch,limit}=work[wi];
+  const oldChapter=published.chapters.find(c=>c.id===ch.id);
+  const random=rng(hash(ch.id+'high-yield-append-'+(oldChapter?.specs.length||0)));
   ch.rows=ch.rows.filter(r=>r.label&&r.correct&&r.explanation).map((r,i)=>({...r,key:`${ch.id}:concept:${i+1}`}));
-  ch.specs=[];
+  if(oldChapter){ch.rows=oldChapter.rows;ch.specs=[...oldChapter.specs];}else ch.specs=[];
   const existing=base.chapters.find(c=>c.id===ch.id);
   const semantic=new Set((existing?.mcqs||[]).map(semanticSignature));
   // Each spec contains a distinct selection of scientific content, not merely a new option order.
   const contentSets=new Set();
   let attempts=0;
   while(ch.specs.length<limit){
-   if(++attempts>limit*500)throw Error(`Cannot create enough distinct content in ${ch.id}`);
+   if(++attempts>Math.max(5000,(limit-ch.specs.length)*100)){deficit+=limit-ch.specs.length;break;}
    const index=ch.specs.length,kind=index%3;
    const falseRows=ch.rows.map((r,i)=>r.wrong?.length?i:-1).filter(i=>i>=0);
    let spec;
@@ -88,13 +95,24 @@ for(const subject of Object.keys(counts)){
    if(semantic.has(signature)||seen.has(signature))continue;
    contentSets.add(JSON.stringify(spec.slice(0,-1).slice(0,spec[0]==='match'?2:3)));semantic.add(signature);seen.add(signature);ch.specs.push(spec);
   }
-  pack.chapters.push(ch);
+  const pos=pack.chapters.findIndex(c=>c.id===ch.id);
+  if(pos<0)pack.chapters.push(ch);else pack.chapters[pos]=ch;
+  const publishedPos=published.chapters.findIndex(c=>c.id===ch.id);
+  if(publishedPos<0)published.chapters.push(ch);else published.chapters[publishedPos]=ch;
+  if(wi===work.length-1&&deficit){
+   const remaining=deficit;deficit=0;
+   const available=pack.chapters.filter(c=>c.specs.length>=work.find(w=>w.ch.id===c.id).limit);
+   if(!available.length)throw Error(`Insufficient distinct content for ${subject}: ${remaining} missing`);
+   for(const [i,c] of available.entries()){const increment=Math.floor(remaining/available.length)+(i<remaining%available.length?1:0);if(increment)work.push({ch:c,limit:c.specs.length+increment});}
+   if(work.length>chapters.length*4)throw Error(`Insufficient distinct content for ${subject}`);
+  }
  }
  const file=`data/neet/high-yield/${subject}.json`;
  fs.writeFileSync(path.join(root,file),JSON.stringify(pack)+'\n');
  const diagrams=JSON.parse(read('data/neet/high-yield/diagram-questions.json'))[subject];
  pack.diagrams=diagrams;fs.writeFileSync(path.join(root,file),JSON.stringify(pack)+'\n');
  const qs=[...pack.chapters.flatMap(ch=>expandChapter(ch,subject)),...diagrams];
+ if(qs.length!==counts[subject]+diagrams.length)throw Error(`Incorrect generated count for ${subject}`);
  const types={};for(const q of qs)types[q.questionType]=(types[q.questionType]||0)+1;
  report.subjects[subject]={added:qs.length,previous:base.chapters.reduce((n,c)=>n+c.mcqs.length,0)+previous.chapters.reduce((n,c)=>n+c.specs.length,0),chapters:chapters.length,types};
 }
