@@ -25,10 +25,10 @@ for(const subject of ['biology','chemistry','physics']){
   }
   count+=qs.length;
  }
- assert.equal(count,subject==='biology'?87500:43750);assert.equal(count,catalog.subjects[subject].added);total+=count;
+ assert.equal(count,subject==='biology'?97500:48750);assert.equal(count,catalog.subjects[subject].added);total+=count;
  console.log(`${subject}: ${count} unique additions across ${pack.chapters.length} chapters/units`);
 }
-assert.equal(total,175000);assert.equal(chapters,82);assert.equal(diagrams,12);assert.equal(ids.size,175000);assert.equal(signatures.size,175000);assert.ok(numerical>2400);
+assert.equal(total,195000);assert.equal(chapters,82);assert.equal(diagrams,12);assert.equal(ids.size,195000);assert.equal(signatures.size,195000);assert.ok(numerical>2400);
 const pack=read('data/neet/high-yield/physics.json'),qs=questionsForChapter(pack,pack.chapters[0].id);let p=emptyProgress();
 p=recordAnswer(p,qs[0],qs[0].answer,1);p=recordAnswer(p,qs[1],(qs[1].answer+1)%4,2);p=toggleBookmark(p,qs[0].id,3);
 assert.equal(filterQuestions(qs,p,'new').length,qs.length-2);assert.equal(filterQuestions(qs,p,'practised').length,2);assert.equal(filterQuestions(qs,p,'incorrect').length,1);assert.equal(filterQuestions(qs,p,'bookmarks')[0].id,qs[0].id);
@@ -40,5 +40,5 @@ assert.equal(readProgress({getItem:()=>'{'}).version,1);assert.match(questionVis
 // Run the actual account-scoped storage with two student identities and reloads.
 const data=new Map(),listeners=new Map(),ctx={window:null,CustomEvent:class{constructor(type,o){this.type=type;this.detail=o.detail;}},localStorage:{getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)}};ctx.window=ctx;ctx.dispatchEvent=()=>{};vm.runInNewContext(fs.readFileSync('student-storage.js','utf8'),ctx);const st=ctx.ScrutinyStudentStorage;
 st.setUser({uid:'A'});st.setItem('neet_high_yield_v1',JSON.stringify(p));assert.equal(Object.keys(readProgress(st).attempts).length,2);st.setUser({uid:'B'});assert.equal(Object.keys(readProgress(st).attempts).length,0);st.setUser({uid:'A'});assert.equal(Object.keys(readProgress(st).attempts).length,2);st.setUser(null);assert.equal(Object.keys(readProgress(st).attempts).length,0);
-const html=fs.readFileSync('preview-v2.html','utf8'),gate=fs.readFileSync('app-gate.js','utf8');assert.match(html,/id="high-yield"/);assert.match(html,/neet-high-yield.js\?v=10/);assert.match(gate,/sections: \["neet", "neet-diagrams", "high-yield", "neet-mcq-progress", "ranker"/);assert.ok(html.indexOf('id="neet"')<html.indexOf('id="high-yield"'));
+const html=fs.readFileSync('preview-v2.html','utf8'),gate=fs.readFileSync('app-gate.js','utf8');assert.match(html,/id="high-yield"/);assert.match(html,/neet-high-yield.js\?v=11/);assert.match(gate,/sections: \["neet", "neet-diagrams", "high-yield", "neet-mcq-progress", "ranker"/);assert.ok(html.indexOf('id="neet"')<html.indexOf('id="high-yield"'));
 console.log(`PASS: ${total} stable unique questions distinct from all 42,650 existing questions; ${numerical} numericals; tables; ${diagrams} diagram questions; progress, filters, scoring, bookmark removal, reload and account isolation.`);

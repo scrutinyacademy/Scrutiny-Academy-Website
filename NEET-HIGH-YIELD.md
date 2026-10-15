@@ -1,14 +1,14 @@
 # NEET UG — High Yield MCQs
 
-A separate, additive bank of 175,000 original NCERT-mapped practice variants:
-87,500 Biology (32 chapters), 43,750 Chemistry (21 chapters/units), and 43,750
+A separate, additive bank of 195,000 original NCERT-mapped practice variants:
+97,500 Biology (32 chapters), 48,750 Chemistry (21 chapters/units), and 48,750
 Physics (29 chapters/units). The existing 42,650 chapter-practice questions,
 Kota Biology and NCERT Arcade are preserved. Combined ordinary practice banks
-contain 42,650 questions; High Yield adds a separate 175,000.
+contain 42,650 questions; High Yield adds a separate 195,000.
 
 The bank uses existing NCERT concept maps to construct new matching combinations,
 independent two-statement assessments and numerical variants. Different option
-orders alone do not count as new questions. This is not a collection of 175,000
+orders alone do not count as new questions. This is not a collection of 195,000
 independently researched concepts, official PYQs or individually expert-reviewed
 questions. Twelve additional questions use three original, NCERT-mapped vector
 schematics: cell cycle, velocity–time graph, and reaction energy profile. These
@@ -65,7 +65,7 @@ Change release IDs and URLs if published question semantics change.
 ## Hourly additions
 
 The latest 15 October batch adds 20,000 variants (10,000 Biology, 5,000 Chemistry,
-5,000 Physics), bringing High Yield to 175,000 and the portal inventory to 219,916.
+5,000 Physics), bringing High Yield to 195,000 and the portal inventory to 239,916.
 The append builder preserves all existing chapter rows and specs. When a chapter
 exhausts distinct combinations, the remainder is allocated to other chapters in
 the same subject; it fails if the subject cannot support the requested addition.
