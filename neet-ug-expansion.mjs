@@ -12,6 +12,7 @@ export function semanticSignature(q){
   }
  }
  if(q.expansionKind==='statements')return 'statements:'+q.statements.map(x=>normal(x)).sort().join('|');
+ if(q.expansionKind==='association')return 'association:'+normal(q.options[q.answer])+'|'+q.options.map(normal).sort().join('|');
  return normal(q.question)+JSON.stringify(q.table||'');
 }
 function permutations(values){return values.length===1?[values]:values.flatMap((x,i)=>permutations(values.filter((_,j)=>i!==j)).map(rest=>[x,...rest]));}
@@ -75,6 +76,11 @@ export function expandChapter(ch,subject,start=1){
    const choices=['Both I and II are correct','Only I is correct','Only II is correct','Neither I nor II is correct'];
    const correct=choices[flags[0]?(flags[1]?0:1):(flags[1]?2:3)];
    return {...common,expansionKind:'statements',statements,question:`Assess the two statements independently. I. ${statements[0]} II. ${statements[1]}`,...place(correct,choices.filter(x=>x!==correct),spec[3]),questionType:'Statement I/II',explanation:rows.map((r,i)=>`${i?'II':'I'} is ${flags[i]?'correct':'incorrect'}. ${r.label}: ${r.correct}. ${r.explanation}`).join(' '),commonTrap:'Evaluate each statement separately; one correct statement does not make the other correct.'};
+  }
+  if(spec[0]==='association'){
+   const truth=spec[2],correct=`${rows[truth].label}: ${rows[truth].correct}`;
+   const wrong=rows.filter((_,i)=>i!==truth).map(r=>`${r.label}: ${r.wrong[0]}`);
+   return {...common,expansionKind:'association',question:'Which scientific association is correct?',...place(correct,wrong,spec[3]),questionType:'Single correct',explanation:`${correct}. ${rows[truth].explanation} The other choices use known misconceptions for their stated concepts.`,commonTrap:'Check both parts of each association; a familiar term paired with the wrong property remains incorrect.'};
   }
   const permutations=orders[rows.length],order=permutations[spec[2]%permutations.length];
   const right=order.map(i=>rows[i].correct),mapping=rows.map(r=>right.indexOf(r.correct));

@@ -1,18 +1,23 @@
 # NEET UG — High Yield MCQs
 
-A separate, additive bank of 75,000 original NCERT-mapped practice variants:
-37,500 Biology (32 chapters), 18,750 Chemistry (21 chapters/units), and 18,750
+A separate, additive bank of 95,000 original NCERT-mapped practice variants:
+47,500 Biology (32 chapters), 23,750 Chemistry (21 chapters/units), and 23,750
 Physics (29 chapters/units). The existing 42,650 chapter-practice questions,
 Kota Biology and NCERT Arcade are preserved. Combined ordinary practice banks
-contain 42,650 questions; High Yield adds a separate 75,000.
+contain 42,650 questions; High Yield adds a separate 95,000.
 
 The bank uses existing NCERT concept maps to construct new matching combinations,
 independent two-statement assessments and numerical variants. Different option
-orders alone do not count as new questions. This is not a collection of 75,000
+orders alone do not count as new questions. This is not a collection of 95,000
 independently researched concepts, official PYQs or individually expert-reviewed
 questions. Twelve additional questions use three original, NCERT-mapped vector
 schematics: cell cycle, velocity–time graph, and reaction energy profile. These
 are original drawings, not claimed reproductions of NCERT figures.
+
+When earlier combination types reach their distinct-content limit, the append
+builder can also create single-correct association questions. Each contains one
+supported concept-property pair and three concept-specific misconceptions. This
+adds new scientific content combinations without changing any earlier question.
 
 ## Student flow
 
@@ -60,7 +65,7 @@ Change release IDs and URLs if published question semantics change.
 ## Hourly additions
 
 The 15 October batch adds 20,000 variants (10,000 Biology, 5,000 Chemistry,
-5,000 Physics), bringing High Yield to 75,000 and the portal inventory to 119,916.
+5,000 Physics), bringing High Yield to 95,000 and the portal inventory to 139,916.
 The append builder preserves all existing chapter rows and specs. When a chapter
 exhausts distinct combinations, the remainder is allocated to other chapters in
 the same subject; it fails if the subject cannot support the requested addition.

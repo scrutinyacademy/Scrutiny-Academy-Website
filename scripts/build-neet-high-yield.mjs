@@ -27,8 +27,8 @@ function sourceRows(subject,ch){
 }
 function hash(s){let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0;}
 function rng(seed){return()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed>>>8;};}
-const counts={biology:37496,physics:18746,chemistry:18746};
-const report={release:'2026-10-15-high-yield-v2',added:75000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
+const counts={biology:47496,physics:23746,chemistry:23746};
+const report={release:'2026-10-15-high-yield-v2',added:95000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
 for(const subject of Object.keys(counts)){
  const base=JSON.parse(read(`data/neet/${subject}.json`));
  const chapters=[...base.chapters.map(ch=>({id:ch.id,name:ch.name,classLevel:ch.classLevel,rows:sourceRows(subject,ch)})),...(extra[subject]||[])];
@@ -54,7 +54,7 @@ for(const subject of Object.keys(counts)){
   let attempts=0;
   while(ch.specs.length<limit){
    if(++attempts>Math.max(5000,(limit-ch.specs.length)*100)){deficit+=limit-ch.specs.length;break;}
-   const index=ch.specs.length,kind=index%3;
+   const index=ch.specs.length,kind=(index+attempts)%4;
    const falseRows=ch.rows.map((r,i)=>r.wrong?.length?i:-1).filter(i=>i>=0);
    let spec;
    const numericals=numericalTemplates[ch.id]||[];
@@ -68,13 +68,15 @@ for(const subject of Object.keys(counts)){
     const truth=random()%4;
     spec=['statements',[a,b].sort((a,b)=>a-b),truth,index%4];
    }else{
-    const n=kind===2?4:3,selected=[];
+    const n=4,selected=[],pool=kind===3?falseRows:ch.rows.map((_,i)=>i);
+    if(pool.length<n)continue;
     for(let k=0;k<100&&selected.length<n;k++){
-     const r=random()%ch.rows.length;
+     const r=pool[random()%pool.length];
      if(!selected.some(i=>i===r||ch.rows[i].correct.toLowerCase()===ch.rows[r].correct.toLowerCase()||ch.rows[i].label.toLowerCase()===ch.rows[r].label.toLowerCase()))selected.push(r);
     }
     if(selected.length<n)continue;
-    spec=['match',selected.sort((a,b)=>a-b),index%24,index%4];
+    const ordered=selected.sort((a,b)=>a-b);
+    spec=kind===3?['association',ordered,index%4,index%4]:['match',ordered,index%24,index%4];
    }
    const key=JSON.stringify(spec.slice(0,-1).slice(0,spec[0]==='match'?2:3));
    if(contentSets.has(key)){

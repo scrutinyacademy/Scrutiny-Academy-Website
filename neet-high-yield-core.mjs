@@ -1,4 +1,4 @@
-import {expandChapter} from './neet-ug-expansion.mjs?v=20261014';
+import {expandChapter} from './neet-ug-expansion.mjs?v=20261015-95k';
 export const RELEASE='2026-10-15-high-yield-v2';
 export function questionsForChapter(pack,id){
  const ch=pack.chapters.find(c=>c.id===id);if(!ch)return [];
