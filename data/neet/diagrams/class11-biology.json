@@ -1,0 +1,2809 @@
+{
+  "source": {
+    "title": "NCERT Biology Class XI",
+    "edition": "Reprint 2025–26",
+    "uploadedFilename": "NCERT CLASS 11 BIOLOGY (2).pdf",
+    "pages": 252,
+    "sha256": "82bee15756d7b9f7c520e205daebe5560f0307fdfc0c745d8aa6ab25059253dc"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Living World"
+    },
+    {
+      "number": 2,
+      "title": "Biological Classification"
+    },
+    {
+      "number": 3,
+      "title": "Plant Kingdom"
+    },
+    {
+      "number": 4,
+      "title": "Animal Kingdom"
+    },
+    {
+      "number": 5,
+      "title": "Morphology of Flowering Plants"
+    },
+    {
+      "number": 6,
+      "title": "Anatomy of Flowering Plants"
+    },
+    {
+      "number": 7,
+      "title": "Structural Organisation in Animals"
+    },
+    {
+      "number": 8,
+      "title": "Cell: The Unit of Life"
+    },
+    {
+      "number": 9,
+      "title": "Biomolecules"
+    },
+    {
+      "number": 10,
+      "title": "Cell Cycle and Cell Division"
+    },
+    {
+      "number": 11,
+      "title": "Photosynthesis in Higher Plants"
+    },
+    {
+      "number": 12,
+      "title": "Respiration in Plants"
+    },
+    {
+      "number": 13,
+      "title": "Plant Growth and Development"
+    },
+    {
+      "number": 14,
+      "title": "Breathing and Exchange of Gases"
+    },
+    {
+      "number": 15,
+      "title": "Body Fluids and Circulation"
+    },
+    {
+      "number": 16,
+      "title": "Excretory Products and Their Elimination"
+    },
+    {
+      "number": 17,
+      "title": "Locomotion and Movement"
+    },
+    {
+      "number": 18,
+      "title": "Neural Control and Coordination"
+    },
+    {
+      "number": 19,
+      "title": "Chemical Coordination and Integration"
+    }
+  ],
+  "items": [
+    {
+      "id": "ch01-diagram-1-1",
+      "chapter": 1,
+      "type": "diagram",
+      "reference": "Figure 1.1",
+      "title": "Figure 1.1 Taxonomic c a t e g o r i e s s h o w i n g hierarchial arrangement in ascending order",
+      "page": 8,
+      "src": "assets/biology-diagrams/class11/ch01-diagram-1-1.webp",
+      "width": 376,
+      "height": 860,
+      "crop": [
+        55.0,
+        140.0,
+        205.0,
+        484.0
+      ]
+    },
+    {
+      "id": "ch01-table-1-1",
+      "chapter": 1,
+      "type": "table",
+      "reference": "Table 1.1",
+      "title": "TABLE 1.1 Organisms with their Taxonomic Categories",
+      "page": 8,
+      "src": "assets/biology-diagrams/class11/ch01-table-1-1.webp",
+      "width": 1208,
+      "height": 535,
+      "crop": [
+        55.0,
+        502.0,
+        538.0,
+        716.0
+      ]
+    },
+    {
+      "id": "ch02-table-2-1",
+      "chapter": 2,
+      "type": "table",
+      "reference": "Table 2.1",
+      "title": "Table 2.1 Characteristics of the Five Kingdoms",
+      "page": 11,
+      "src": "assets/biology-diagrams/class11/ch02-table-2-1.webp",
+      "width": 1245,
+      "height": 743,
+      "crop": [
+        40.0,
+        100.0,
+        538.0,
+        397.0
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-1",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.1",
+      "title": "Figure 2.1 Bacteria of different shapes",
+      "page": 12,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-1.webp",
+      "width": 1266,
+      "height": 394,
+      "crop": [
+        35.0,
+        550.72,
+        541.0,
+        707.95
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-2",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.2",
+      "title": "Figure 2.2 A filamentous blue-green algae – Nostoc",
+      "page": 13,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-2.webp",
+      "width": 513,
+      "height": 706,
+      "crop": [
+        320,
+        425,
+        525,
+        707
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-3",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.3",
+      "title": "Figure 2.3 A dividing bacterium",
+      "page": 14,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-3.webp",
+      "width": 624,
+      "height": 447,
+      "crop": [
+        35.0,
+        95.0,
+        284.12,
+        273.55
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-4",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.4",
+      "title": "Figure 2.4 (a) Dinoflagellates (b) Euglena (c) Slime mould (d) Paramoecium",
+      "page": 15,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-4.webp",
+      "width": 538,
+      "height": 1540,
+      "crop": [
+        320,
+        100,
+        535,
+        716
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-5",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.5",
+      "title": "Figure 2.5 Fungi: (a) Mucor (b) Aspergillus (c) Agaricus",
+      "page": 17,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-5.webp",
+      "width": 483,
+      "height": 1211,
+      "crop": [
+        327,
+        229,
+        520,
+        713
+      ]
+    },
+    {
+      "id": "ch02-diagram-2-6",
+      "chapter": 2,
+      "type": "diagram",
+      "reference": "Figure 2.6",
+      "title": "Figure 2.6 (a) Tobacco Mosaic Virus (TMV) (b) Bacteriophage",
+      "page": 20,
+      "src": "assets/biology-diagrams/class11/ch02-diagram-2-6.webp",
+      "width": 1266,
+      "height": 688,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        369.6
+      ]
+    },
+    {
+      "id": "ch03-diagram-3-1",
+      "chapter": 3,
+      "type": "diagram",
+      "reference": "Figure 3.1",
+      "title": "Figure 3.1 Algae : (a) Green algae (i) Volvox (ii) Ulothrix (b) Brown algae (i) Laminaria (ii) Fucus (iii) Dictyota (c) Red algae (i) Porphyra (ii) Polysiphonia",
+      "page": 25,
+      "src": "assets/biology-diagrams/class11/ch03-diagram-3-1.webp",
+      "width": 1266,
+      "height": 1549,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch03-table-3-1",
+      "chapter": 3,
+      "type": "table",
+      "reference": "Table 3.1",
+      "title": "TABLE 3.1 Divisions of Algae and their Main Characteristics",
+      "page": 27,
+      "src": "assets/biology-diagrams/class11/ch03-table-3-1.webp",
+      "width": 1266,
+      "height": 619,
+      "crop": [
+        35.0,
+        482.41,
+        541.0,
+        729.8
+      ]
+    },
+    {
+      "id": "ch03-diagram-3-2",
+      "chapter": 3,
+      "type": "diagram",
+      "reference": "Figure 3.2",
+      "title": "Figure 3.2 Bryophytes: A liverwort – Marchantia (a) Female thallus (b) Male thallus Mosses – (c) Funaria, gametophyte and sporophyte (d) Sphagnum gametophyte",
+      "page": 28,
+      "src": "assets/biology-diagrams/class11/ch03-diagram-3-2.webp",
+      "width": 1266,
+      "height": 1232,
+      "crop": [
+        35.0,
+        221.91,
+        541.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch03-diagram-3-3",
+      "chapter": 3,
+      "type": "diagram",
+      "reference": "Figure 3.3",
+      "title": "Figure 3.3 Pteridophytes : (a) Selaginella (b) Equisetum (c) Fern (d) Salvinia",
+      "page": 31,
+      "src": "assets/biology-diagrams/class11/ch03-diagram-3-3.webp",
+      "width": 1266,
+      "height": 1542,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        711.31
+      ]
+    },
+    {
+      "id": "ch03-diagram-3-4",
+      "chapter": 3,
+      "type": "diagram",
+      "reference": "Figure 3.4",
+      "title": "Figure 3.4 Gymnosperms: (a) Cycas (b) Pinus (c) Ginkgo",
+      "page": 33,
+      "src": "assets/biology-diagrams/class11/ch03-diagram-3-4.webp",
+      "width": 573,
+      "height": 1507,
+      "crop": [
+        312.32,
+        95.0,
+        541.0,
+        697.4
+      ]
+    },
+    {
+      "id": "ch03-diagram-3-5",
+      "chapter": 3,
+      "type": "diagram",
+      "reference": "Figure 3.5",
+      "title": "Figure 3.5 Angiosperms : (a) A dicotyledon (b) A monocotyledon",
+      "page": 34,
+      "src": "assets/biology-diagrams/class11/ch03-diagram-3-5.webp",
+      "width": 1266,
+      "height": 567,
+      "crop": [
+        35.0,
+        259.89,
+        541.0,
+        486.19
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-1-a",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.1",
+      "title": "Figure 4.1 (a) Radial symmetry",
+      "page": 38,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-1-a.webp",
+      "width": 658,
+      "height": 475,
+      "crop": [
+        35.0,
+        95.0,
+        298.0,
+        284.59
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-1-b",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.1",
+      "title": "Figure 4.1 (b) Bilateral symmetry",
+      "page": 38,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-1-b.webp",
+      "width": 658,
+      "height": 547,
+      "crop": [
+        35.0,
+        287.59,
+        298.0,
+        505.87
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-2",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.2",
+      "title": "Figure 4.2 Showing germinal layers: (a) Diploblastic (b) Triploblastic",
+      "page": 38,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-2.webp",
+      "width": 601,
+      "height": 493,
+      "crop": [
+        55.0,
+        520.0,
+        295.0,
+        717.0
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-3",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.3",
+      "title": "Figure 4.3 Diagrammatic sectional view of : (a) Coelomate (b) Pseudocoelomate (c) Acoelomate",
+      "page": 39,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-3.webp",
+      "width": 646,
+      "height": 732,
+      "crop": [
+        283.03,
+        151.42,
+        541.0,
+        443.92
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-4",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.4",
+      "title": "Figure 4.4 Broad classification of Kingdom Animalia based on common fundamental features",
+      "page": 40,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-4.webp",
+      "width": 1266,
+      "height": 701,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        375.07
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-5",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.5",
+      "title": "Figure 4.5 Examples of Porifera : (a) Sycon (b) Euspongia (c) Spongilla",
+      "page": 40,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-5.webp",
+      "width": 631,
+      "height": 841,
+      "crop": [
+        35.0,
+        378.07,
+        287.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-6",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.6",
+      "title": "Figure 4.6 Examples of Coelenterata indicating outline of their body form : (a) Aurelia (Medusa) (b) Adamsia (Polyp)",
+      "page": 41,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-6.webp",
+      "width": 1266,
+      "height": 682,
+      "crop": [
+        35.0,
+        196.1,
+        541.0,
+        468.72
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-7",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.7",
+      "title": "Figure 4.7 Diagrammatic view of Cnidoblast",
+      "page": 41,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-7.webp",
+      "width": 331,
+      "height": 457,
+      "crop": [
+        409.01,
+        471.72,
+        541.0,
+        654.24
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-8",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.8",
+      "title": "Figure 4.8 Example of Ctenophora (Pleurobrachia)",
+      "page": 42,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-8.webp",
+      "width": 459,
+      "height": 748,
+      "crop": [
+        35.0,
+        95.0,
+        218.12,
+        393.99
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-9",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.9",
+      "title": "Figure 4.9 Examples of Platyhelminthes : (a) Tape worm (b) Liver fluke",
+      "page": 42,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-9.webp",
+      "width": 1266,
+      "height": 613,
+      "crop": [
+        35.0,
+        469.83,
+        541.0,
+        714.43
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-10",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.10",
+      "title": "Figure 4.10 Example of Aschelminthes: Roundworm",
+      "page": 43,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-10.webp",
+      "width": 646,
+      "height": 684,
+      "crop": [
+        283.0,
+        95.0,
+        541.0,
+        368.07
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-11",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.11",
+      "title": "Figure 4.11 Examples of Annelida : (a) Nereis (b) Hirudinaria",
+      "page": 43,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-11.webp",
+      "width": 646,
+      "height": 859,
+      "crop": [
+        283.0,
+        371.07,
+        541.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-12",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.12",
+      "title": "Figure 4.12 Examples of Arthropoda : (a) Locust (b) Butterfly (c) Scorpion (d) Prawn",
+      "page": 44,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-12.webp",
+      "width": 658,
+      "height": 806,
+      "crop": [
+        35.0,
+        95.0,
+        298.0,
+        417.03
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-13",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.13",
+      "title": "Figure 4.13 Examples of Mollusca : (a) Pila (b) Octopus",
+      "page": 44,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-13.webp",
+      "width": 658,
+      "height": 736,
+      "crop": [
+        35.0,
+        420.03,
+        298.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-14",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.14",
+      "title": "Figure 4.14 Examples of Echinodermata : (a) Asterias (b) Ophiura",
+      "page": 45,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-14.webp",
+      "width": 489,
+      "height": 726,
+      "crop": [
+        345.88,
+        95.0,
+        541.0,
+        385.11
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-15",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.15",
+      "title": "Figure 4.15 Balanoglossus",
+      "page": 45,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-15.webp",
+      "width": 489,
+      "height": 776,
+      "crop": [
+        345.88,
+        388.11,
+        541.0,
+        698.11
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-16",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.16",
+      "title": "Figure 4.16 Chordata characteristics",
+      "page": 46,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-16.webp",
+      "width": 655,
+      "height": 336,
+      "crop": [
+        35.0,
+        95.0,
+        296.6,
+        229.15
+      ]
+    },
+    {
+      "id": "ch04-table-4-1",
+      "chapter": 4,
+      "type": "table",
+      "reference": "Table 4.1",
+      "title": "TABLE 4.1 Comparison of Chordates and Non-chordates",
+      "page": 46,
+      "src": "assets/biology-diagrams/class11/ch04-table-4-1.webp",
+      "width": 1266,
+      "height": 357,
+      "crop": [
+        35.0,
+        229.65,
+        541.0,
+        372.01
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-17",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.17",
+      "title": "Figure 4.17 Ascidia",
+      "page": 46,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-17.webp",
+      "width": 330,
+      "height": 600,
+      "crop": [
+        120,
+        410,
+        252,
+        650
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-18",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.18",
+      "title": "Figure 4.18 A jawless vertebrate - Petromyzon",
+      "page": 47,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-18.webp",
+      "width": 613,
+      "height": 238,
+      "crop": [
+        281,
+        390,
+        526,
+        485
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-19",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.19",
+      "title": "Figure 4.19 Example of Cartilaginous fishes : (a) Scoliodon (b) Pristis",
+      "page": 47,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-19.webp",
+      "width": 646,
+      "height": 573,
+      "crop": [
+        283.0,
+        484.63,
+        541.0,
+        713.43
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-20",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.20",
+      "title": "Figure 4.20 Examples of Bony fishes : (a) Hippocampus (b) Catla",
+      "page": 48,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-20.webp",
+      "width": 550,
+      "height": 743,
+      "crop": [
+        50,
+        97,
+        270,
+        394
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-21",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.21",
+      "title": "Figure 4.21 Examples of Amphibia : (a) Salamandra (b) Rana",
+      "page": 48,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-21.webp",
+      "width": 556,
+      "height": 785,
+      "crop": [
+        35.0,
+        395.07,
+        257.0,
+        708.63
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-22",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.22",
+      "title": "Figure 4.22 Reptiles: (a) Chameleon (b) Crocodilus (c) Chelone (d) Naja",
+      "page": 49,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-22.webp",
+      "width": 1266,
+      "height": 549,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        314.11
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-23",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.23",
+      "title": "Figure 4.23 Some birds : (a) Neophron (b) Struthio (c) Psittacula (d) Pavo",
+      "page": 50,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-23.webp",
+      "width": 1266,
+      "height": 545,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        312.43
+      ]
+    },
+    {
+      "id": "ch04-diagram-4-24",
+      "chapter": 4,
+      "type": "diagram",
+      "reference": "Figure 4.24",
+      "title": "Figure 4.24 Some mammals : (a) Ornithorhynchus (b) Macropus (c) Pteropus (d) Balaenoptera",
+      "page": 50,
+      "src": "assets/biology-diagrams/class11/ch04-diagram-4-24.webp",
+      "width": 1266,
+      "height": 494,
+      "crop": [
+        35.0,
+        511.36,
+        541.0,
+        708.43
+      ]
+    },
+    {
+      "id": "ch04-table-4-2",
+      "chapter": 4,
+      "type": "table",
+      "reference": "Table 4.2",
+      "title": "TABLE 4.2 Salient Features of Different Phyla in the Animal Kingdom",
+      "page": 51,
+      "src": "assets/biology-diagrams/class11/ch04-table-4-2.webp",
+      "width": 1266,
+      "height": 1158,
+      "crop": [
+        35.0,
+        267.09,
+        541.0,
+        729.8
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-1",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.1",
+      "title": "Figure 5.1 Parts of a flowering plant",
+      "page": 58,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-1.webp",
+      "width": 658,
+      "height": 826,
+      "crop": [
+        35.0,
+        95.0,
+        298.0,
+        424.99
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-2",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.2",
+      "title": "Figure 5.2 Different types of roots : (a) Tap (b) Fibrous (c) Adventitious",
+      "page": 58,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-2.webp",
+      "width": 1266,
+      "height": 684,
+      "crop": [
+        35.0,
+        427.99,
+        541.0,
+        700.99
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-3",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.3",
+      "title": "Figure 5.3 The regions of the root-tip",
+      "page": 59,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-3.webp",
+      "width": 641,
+      "height": 642,
+      "crop": [
+        284.92,
+        95.0,
+        541.0,
+        351.55
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-4",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.4",
+      "title": "Figure 5.4 Structure of a leaf : (a) Parts of a leaf (b) Reticulate venation (c) Parallel venation",
+      "page": 60,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-4.webp",
+      "width": 601,
+      "height": 1036,
+      "crop": [
+        35.0,
+        95.0,
+        275.0,
+        509.19
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-5",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.5",
+      "title": "Figure 5.5 Compound leaves : (a) pinnately compound leaf (b) palmately compound leaf",
+      "page": 60,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-5.webp",
+      "width": 565,
+      "height": 533,
+      "crop": [
+        50,
+        505,
+        276,
+        718
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-6",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.6",
+      "title": "Figure 5.6 Different types of phyllotaxy : (a) Alternate (b) Opposite (c) Whorled",
+      "page": 61,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-6.webp",
+      "width": 648,
+      "height": 695,
+      "crop": [
+        282.0,
+        95.0,
+        541.0,
+        372.48
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-7",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.7",
+      "title": "Figure 5.7 Racemose inflorescence",
+      "page": 61,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-7.webp",
+      "width": 648,
+      "height": 823,
+      "crop": [
+        282.0,
+        375.48,
+        541.0,
+        704.16
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-8",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.8",
+      "title": "Figure 5.8 Cymose inflorescence",
+      "page": 62,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-8.webp",
+      "width": 616,
+      "height": 402,
+      "crop": [
+        35.0,
+        95.0,
+        281.0,
+        255.55
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-9",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.9",
+      "title": "Figure 5.9 Position of floral parts on thalamus : (a) Hypogynous (b) and (c) Perigynous (d) Epigynous",
+      "page": 62,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-9.webp",
+      "width": 1266,
+      "height": 581,
+      "crop": [
+        35.0,
+        476.12,
+        541.0,
+        708.15
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-10",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.10",
+      "title": "Figure 5.10 Parts of a flower",
+      "page": 63,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-10.webp",
+      "width": 1266,
+      "height": 348,
+      "crop": [
+        35.0,
+        570.88,
+        541.0,
+        709.87
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-11",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.11",
+      "title": "Figure 5.11 Types of aestivation in corolla : (a) Valvate (b) Twisted (c) Imbricate (d) Vexillary",
+      "page": 64,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-11.webp",
+      "width": 1266,
+      "height": 580,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        326.59
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-12",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.12",
+      "title": "Figure 5.12 Types of placentation : (a) Marginal (b) Axile (c) Parietal (d) Free central (e) Basal",
+      "page": 65,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-12.webp",
+      "width": 417,
+      "height": 1548,
+      "crop": [
+        374.44,
+        95.0,
+        541.0,
+        713.91
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-13",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.13",
+      "title": "Figure 5.13 Parts of a fruit : (a) Mango (b) Coconut",
+      "page": 66,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-13.webp",
+      "width": 1266,
+      "height": 416,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        261.07
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-14",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.14",
+      "title": "Figure 5.14 Structure of dicotyledonous seed",
+      "page": 66,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-14.webp",
+      "width": 654,
+      "height": 412,
+      "crop": [
+        35.0,
+        468.64,
+        296.12,
+        633.07
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-15",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.15",
+      "title": "Figure 5.15 Structure of a monocotyledonous seed",
+      "page": 67,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-15.webp",
+      "width": 1266,
+      "height": 576,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        324.91
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-16",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.16",
+      "title": "Figure 5.16 Floral diagram with floral formula",
+      "page": 67,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-16.webp",
+      "width": 486,
+      "height": 653,
+      "crop": [
+        333,
+        453,
+        527,
+        714
+      ]
+    },
+    {
+      "id": "ch05-diagram-5-17",
+      "chapter": 5,
+      "type": "diagram",
+      "reference": "Figure 5.17",
+      "title": "Figure 5.17 Solanum nigrum (makoi) plant : (a) Flowering twig (b) Flower (c) L.S. of flower (d) Stamens (e) Carpel (f) Floral diagram",
+      "page": 68,
+      "src": "assets/biology-diagrams/class11/ch05-diagram-5-17.webp",
+      "width": 1266,
+      "height": 661,
+      "crop": [
+        35.0,
+        450.87,
+        541.0,
+        715.11
+      ]
+    },
+    {
+      "id": "ch06-diagram-6-1",
+      "chapter": 6,
+      "type": "diagram",
+      "reference": "Figure 6.1",
+      "title": "Figure 6.1 Diagrammatic representation: (a) stomata with bean-shaped guard cells (b) stomata with dumb-bell shaped guard cell",
+      "page": 72,
+      "src": "assets/biology-diagrams/class11/ch06-diagram-6-1.webp",
+      "width": 1266,
+      "height": 377,
+      "crop": [
+        35.0,
+        330.92,
+        541.0,
+        481.59
+      ]
+    },
+    {
+      "id": "ch06-diagram-6-2",
+      "chapter": 6,
+      "type": "diagram",
+      "reference": "Figure 6.2",
+      "title": "Figure 6.2 Various types of vascular bundles : (a) radial (b) conjoint closed (c) conjoint open",
+      "page": 73,
+      "src": "assets/biology-diagrams/class11/ch06-diagram-6-2.webp",
+      "width": 648,
+      "height": 1095,
+      "crop": [
+        282.04,
+        95.0,
+        541.0,
+        532.71
+      ]
+    },
+    {
+      "id": "ch06-diagram-6-3",
+      "chapter": 6,
+      "type": "diagram",
+      "reference": "Figure 6.3",
+      "title": "Figure 6.3 T.S. : (a) Dicot root (Primary) (b) Monocot root",
+      "page": 74,
+      "src": "assets/biology-diagrams/class11/ch06-diagram-6-3.webp",
+      "width": 651,
+      "height": 1265,
+      "crop": [
+        55,
+        82,
+        315,
+        588
+      ]
+    },
+    {
+      "id": "ch06-diagram-6-4",
+      "chapter": 6,
+      "type": "diagram",
+      "reference": "Figure 6.4",
+      "title": "Figure 6.4 T.S. of stem : (a) Dicot (b) Monocot",
+      "page": 75,
+      "src": "assets/biology-diagrams/class11/ch06-diagram-6-4.webp",
+      "width": 1173,
+      "height": 1238,
+      "crop": [
+        55,
+        222,
+        524,
+        717
+      ]
+    },
+    {
+      "id": "ch06-diagram-6-5",
+      "chapter": 6,
+      "type": "diagram",
+      "reference": "Figure 6.5",
+      "title": "Figure 6.5 T.S. of leaf : (a) Dicot (b) Monocot",
+      "page": 76,
+      "src": "assets/biology-diagrams/class11/ch06-diagram-6-5.webp",
+      "width": 658,
+      "height": 1090,
+      "crop": [
+        35.0,
+        279.04,
+        298.0,
+        714.43
+      ]
+    },
+    {
+      "id": "ch07-diagram-7-1",
+      "chapter": 7,
+      "type": "diagram",
+      "reference": "Figure 7.1",
+      "title": "Figure 7.1 External features of frog",
+      "page": 80,
+      "src": "assets/biology-diagrams/class11/ch07-diagram-7-1.webp",
+      "width": 553,
+      "height": 395,
+      "crop": [
+        60.0,
+        560.0,
+        281.0,
+        718.0
+      ]
+    },
+    {
+      "id": "ch07-diagram-7-2",
+      "chapter": 7,
+      "type": "diagram",
+      "reference": "Figure 7.2",
+      "title": "Figure 7.2 Diagrammatic representation of internal organs of frog showing complete digestive system",
+      "page": 81,
+      "src": "assets/biology-diagrams/class11/ch07-diagram-7-2.webp",
+      "width": 1266,
+      "height": 910,
+      "crop": [
+        35.0,
+        350.55,
+        541.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch07-diagram-7-3",
+      "chapter": 7,
+      "type": "diagram",
+      "reference": "Figure 7.3",
+      "title": "Figure 7.3 Male reproductive system",
+      "page": 83,
+      "src": "assets/biology-diagrams/class11/ch07-diagram-7-3.webp",
+      "width": 641,
+      "height": 596,
+      "crop": [
+        284.92,
+        183.99,
+        541.0,
+        421.65
+      ]
+    },
+    {
+      "id": "ch07-diagram-7-4",
+      "chapter": 7,
+      "type": "diagram",
+      "reference": "Figure 7.4",
+      "title": "Figure 7.4 Female reproductive system",
+      "page": 83,
+      "src": "assets/biology-diagrams/class11/ch07-diagram-7-4.webp",
+      "width": 642,
+      "height": 726,
+      "crop": [
+        284.68,
+        424.65,
+        541.0,
+        714.45
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-1",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.1",
+      "title": "Figure 8.1 Diagram showing different shapes of the cells",
+      "page": 89,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-1.webp",
+      "width": 1266,
+      "height": 938,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        469.87
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-2",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.2",
+      "title": "Figure 8.2 Diagram showing comparison of eukaryotic cell with other organisms",
+      "page": 90,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-2.webp",
+      "width": 603,
+      "height": 650,
+      "crop": [
+        54,
+        98,
+        295,
+        358
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-3",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.3",
+      "title": "Figure 8.3 Diagram showing : (a) Plant cell (b) Animal cell",
+      "page": 92,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-3.webp",
+      "width": 1266,
+      "height": 1548,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        713.95
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-4",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.4",
+      "title": "Figure 8.4 Fluid mosaic model of plasma membrane",
+      "page": 93,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-4.webp",
+      "width": 1266,
+      "height": 703,
+      "crop": [
+        35.0,
+        434.42,
+        541.0,
+        715.44
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-5",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.5",
+      "title": "Figure 8.5 Endoplasmic reticulum",
+      "page": 95,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-5.webp",
+      "width": 624,
+      "height": 918,
+      "crop": [
+        291.88,
+        95.0,
+        541.0,
+        461.96
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-6",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.6",
+      "title": "Figure 8.6 Golgi apparatus",
+      "page": 95,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-6.webp",
+      "width": 623,
+      "height": 627,
+      "crop": [
+        292.12,
+        464.96,
+        541.0,
+        715.39
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-7",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.7",
+      "title": "Figure 8.7 Structure of mitochondrion (Longitudinal section)",
+      "page": 97,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-7.webp",
+      "width": 1266,
+      "height": 533,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        307.88
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-8",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.8",
+      "title": "Figure 8.8 Sectional view of chloroplast",
+      "page": 98,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-8.webp",
+      "width": 680,
+      "height": 438,
+      "crop": [
+        52,
+        98,
+        324,
+        273
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-9",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.9",
+      "title": "Figure 8.9 Ribosome",
+      "page": 98,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-9.webp",
+      "width": 542,
+      "height": 306,
+      "crop": [
+        35.0,
+        507.03,
+        251.24,
+        628.99
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-10",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.10",
+      "title": "Figure 8.10 Section of cilia/flagella showing different parts : (a) Electron micrograph (b) Diagrammatic representation of internal structure",
+      "page": 99,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-10.webp",
+      "width": 1266,
+      "height": 604,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        336.39
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-11",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.11",
+      "title": "Figure 8.11 Structure of nucleus",
+      "page": 100,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-11.webp",
+      "width": 680,
+      "height": 470,
+      "crop": [
+        50,
+        294,
+        322,
+        482
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-12",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.12",
+      "title": "Figure 8.12 Chromosome with kinetochore",
+      "page": 101,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-12.webp",
+      "width": 526,
+      "height": 769,
+      "crop": [
+        331.0,
+        95.0,
+        541.0,
+        402.39
+      ]
+    },
+    {
+      "id": "ch08-diagram-8-13",
+      "chapter": 8,
+      "type": "diagram",
+      "reference": "Figure 8.13",
+      "title": "Figure 8.13 Types of chromosomes based on the position of centromere",
+      "page": 101,
+      "src": "assets/biology-diagrams/class11/ch08-diagram-8-13.webp",
+      "width": 1266,
+      "height": 640,
+      "crop": [
+        35.0,
+        457.89,
+        541.0,
+        713.47
+      ]
+    },
+    {
+      "id": "ch09-table-9-1",
+      "chapter": 9,
+      "type": "table",
+      "reference": "Table 9.1",
+      "title": "TABLE 9.1 A Comparison of Elements Present in Non-living and Living Matter*",
+      "page": 105,
+      "src": "assets/biology-diagrams/class11/ch09-table-9-1.webp",
+      "width": 600,
+      "height": 505,
+      "crop": [
+        280.0,
+        98.0,
+        520.0,
+        300.0
+      ]
+    },
+    {
+      "id": "ch09-table-9-2",
+      "chapter": 9,
+      "type": "table",
+      "reference": "Table 9.2",
+      "title": "TABLE 9.2 A List of Representative Inorganic Constituents of Living Tissues",
+      "page": 105,
+      "src": "assets/biology-diagrams/class11/ch09-table-9-2.webp",
+      "width": 595,
+      "height": 408,
+      "crop": [
+        282.0,
+        370.0,
+        520.0,
+        533.0
+      ]
+    },
+    {
+      "id": "ch09-diagram-9-1",
+      "chapter": 9,
+      "type": "diagram",
+      "reference": "Figure 9.1",
+      "title": "Figure 9.1 Diagrammatic representation of small molecular weight organic compounds in living tissues",
+      "page": 107,
+      "src": "assets/biology-diagrams/class11/ch09-diagram-9-1.webp",
+      "width": 1255,
+      "height": 1539,
+      "crop": [
+        35.0,
+        95.0,
+        536.68,
+        710.31
+      ]
+    },
+    {
+      "id": "ch09-table-9-3",
+      "chapter": 9,
+      "type": "table",
+      "reference": "Table 9.3",
+      "title": "TABLE 9.3 Some Secondary Metabolites",
+      "page": 108,
+      "src": "assets/biology-diagrams/class11/ch09-table-9-3.webp",
+      "width": 633,
+      "height": 435,
+      "crop": [
+        35.0,
+        284.87,
+        288.0,
+        458.74
+      ]
+    },
+    {
+      "id": "ch09-table-9-4",
+      "chapter": 9,
+      "type": "table",
+      "reference": "Table 9.4",
+      "title": "TABLE 9.4 Average Composition of Cells",
+      "page": 109,
+      "src": "assets/biology-diagrams/class11/ch09-table-9-4.webp",
+      "width": 536,
+      "height": 406,
+      "crop": [
+        307.0,
+        255.0,
+        521.0,
+        417.0
+      ]
+    },
+    {
+      "id": "ch09-table-9-5",
+      "chapter": 9,
+      "type": "table",
+      "reference": "Table 9.5",
+      "title": "TABLE 9.5 Some Proteins and their Functions",
+      "page": 109,
+      "src": "assets/biology-diagrams/class11/ch09-table-9-5.webp",
+      "width": 536,
+      "height": 535,
+      "crop": [
+        307.0,
+        502.0,
+        521.0,
+        716.0
+      ]
+    },
+    {
+      "id": "ch09-diagram-9-2",
+      "chapter": 9,
+      "type": "diagram",
+      "reference": "Figure 9.2",
+      "title": "Figure 9.2 Diagrammatic representation of a portion of glycogen",
+      "page": 110,
+      "src": "assets/biology-diagrams/class11/ch09-diagram-9-2.webp",
+      "width": 1255,
+      "height": 788,
+      "crop": [
+        35.0,
+        391.71,
+        536.68,
+        706.75
+      ]
+    },
+    {
+      "id": "ch09-diagram-9-3",
+      "chapter": 9,
+      "type": "diagram",
+      "reference": "Figure 9.3",
+      "title": "Figure 9.3 Various levels of Protein Structure",
+      "page": 112,
+      "src": "assets/biology-diagrams/class11/ch09-diagram-9-3.webp",
+      "width": 703,
+      "height": 850,
+      "crop": [
+        51,
+        96,
+        332,
+        436
+      ]
+    },
+    {
+      "id": "ch09-diagram-9-4",
+      "chapter": 9,
+      "type": "diagram",
+      "reference": "Figure 9.4",
+      "title": "Figure 9.4 Concept of activation energy",
+      "page": 115,
+      "src": "assets/biology-diagrams/class11/ch09-diagram-9-4.webp",
+      "width": 631,
+      "height": 600,
+      "crop": [
+        284.68,
+        95.0,
+        536.68,
+        334.51
+      ]
+    },
+    {
+      "id": "ch09-diagram-9-5",
+      "chapter": 9,
+      "type": "diagram",
+      "reference": "Figure 9.5",
+      "title": "Figure 9.5 Effect of change in : (a) pH (b) Temperature and (c) Concentration of substrate on enzyme activity",
+      "page": 116,
+      "src": "assets/biology-diagrams/class11/ch09-diagram-9-5.webp",
+      "width": 1255,
+      "height": 417,
+      "crop": [
+        35.0,
+        542.62,
+        536.68,
+        709.11
+      ]
+    },
+    {
+      "id": "ch10-diagram-10-1",
+      "chapter": 10,
+      "type": "diagram",
+      "reference": "Figure 10.1",
+      "title": "Figure 10.1 A diagrammatic view of cell cycle indicating formation of two cells from one cell",
+      "page": 121,
+      "src": "assets/biology-diagrams/class11/ch10-diagram-10-1.webp",
+      "width": 645,
+      "height": 689,
+      "crop": [
+        283.51,
+        95.0,
+        541.0,
+        370.24
+      ]
+    },
+    {
+      "id": "ch10-diagram-10-2-p123",
+      "chapter": 10,
+      "type": "diagram",
+      "reference": "Figure 10.2",
+      "title": "Figure 10.2 a and b : A diagrammatic view of stages in mitosis",
+      "page": 123,
+      "src": "assets/biology-diagrams/class11/ch10-diagram-10-2-p123.webp",
+      "width": 471,
+      "height": 1543,
+      "crop": [
+        337,
+        99,
+        525,
+        716
+      ]
+    },
+    {
+      "id": "ch10-diagram-10-2-p124",
+      "chapter": 10,
+      "type": "diagram",
+      "reference": "Figure 10.2",
+      "title": "Figure 10.2 c to e: A diagrammatic view of stages in mitosis",
+      "page": 124,
+      "src": "assets/biology-diagrams/class11/ch10-diagram-10-2-p124.webp",
+      "width": 453,
+      "height": 1523,
+      "crop": [
+        54,
+        99,
+        235,
+        708
+      ]
+    },
+    {
+      "id": "ch10-diagram-10-3",
+      "chapter": 10,
+      "type": "diagram",
+      "reference": "Figure 10.3",
+      "title": "Figure 10.3 Stages of Meiosis I",
+      "page": 127,
+      "src": "assets/biology-diagrams/class11/ch10-diagram-10-3.webp",
+      "width": 1266,
+      "height": 635,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        348.68
+      ]
+    },
+    {
+      "id": "ch10-diagram-10-4",
+      "chapter": 10,
+      "type": "diagram",
+      "reference": "Figure 10.4",
+      "title": "Figure 10.4 Stages of Meiosis II",
+      "page": 128,
+      "src": "assets/biology-diagrams/class11/ch10-diagram-10-4.webp",
+      "width": 1266,
+      "height": 710,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        378.67
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-1",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.1",
+      "title": "(d) Figure 11.1 Priestley’s experiment",
+      "page": 134,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-1.webp",
+      "width": 609,
+      "height": 949,
+      "crop": [
+        35.0,
+        95.0,
+        278.12,
+        474.02
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-2",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.2",
+      "title": "Figure 11.2 Diagrammatic representation of an electron micrograph of a section of chloroplast",
+      "page": 136,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-2.webp",
+      "width": 1266,
+      "height": 553,
+      "crop": [
+        35.0,
+        497.67,
+        541.0,
+        718.71
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-3",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.3",
+      "title": "Figure 11.3 a Graph showing the absorption spectrum of chlorophyll a, b and the carotenoids Figure 11.3b Graph showing action spectrum of photosynthesis Figure 11.3c Graph showing action spectrum of photosynthesis superimposed on absorption spectrum of chlorophyll a",
+      "page": 137,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-3.webp",
+      "width": 646,
+      "height": 1529,
+      "crop": [
+        283.0,
+        95.0,
+        541.0,
+        706.23
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-4",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.4",
+      "title": "Figure 11.4 The light harvesting complex",
+      "page": 138,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-4.webp",
+      "width": 637,
+      "height": 611,
+      "crop": [
+        35.0,
+        267.71,
+        289.4,
+        511.63
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-5",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.5",
+      "title": "Figure 11.5 Z scheme of light reaction",
+      "page": 139,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-5.webp",
+      "width": 648,
+      "height": 633,
+      "crop": [
+        282.0,
+        95.0,
+        541.0,
+        347.95
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-6",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.6",
+      "title": "Figure 11.6 Cyclic photophosphorylation",
+      "page": 140,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-6.webp",
+      "width": 647,
+      "height": 581,
+      "crop": [
+        35.0,
+        95.0,
+        293.24,
+        327.07
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-7",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.7",
+      "title": "Figure 11.7 ATP synthesis through chemiosmosis",
+      "page": 141,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-7.webp",
+      "width": 1266,
+      "height": 809,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        418.03
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-8",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.8",
+      "title": "Figure 11.8 The Calvin cycle proceeds in three stages : (1) carboxylation, during which CO2 combines with ribulose-1,5-bisphosphate; (2) reduction, during which carbohydrate is formed at the expense of the photochemically made ATP and NADPH; and (3) regeneration during which the CO2 acceptor ribulose- 1,5-bisphosphate is formed again so that the cycle continues",
+      "page": 144,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-8.webp",
+      "width": 1266,
+      "height": 1205,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        576.63
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-9",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.9",
+      "title": "Figure 11.9 Diagrammatic representation of the Hatch and Slack Pathway",
+      "page": 146,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-9.webp",
+      "width": 1266,
+      "height": 980,
+      "crop": [
+        35.0,
+        323.19,
+        541.0,
+        714.67
+      ]
+    },
+    {
+      "id": "ch11-table-11-1",
+      "chapter": 11,
+      "type": "table",
+      "reference": "Table 11.1",
+      "title": "TABLE 11.1 Fill in the Columns 2 and 3 in this table to highlight the differences between C3 and C4 Plants",
+      "page": 148,
+      "src": "assets/biology-diagrams/class11/ch11-table-11-1.webp",
+      "width": 1215,
+      "height": 1453,
+      "crop": [
+        54.0,
+        99.0,
+        540.0,
+        680.0
+      ]
+    },
+    {
+      "id": "ch11-diagram-11-10",
+      "chapter": 11,
+      "type": "diagram",
+      "reference": "Figure 11.10",
+      "title": "Figure 11.10 Graph of light intensity on the rate of photosynthesis",
+      "page": 149,
+      "src": "assets/biology-diagrams/class11/ch11-diagram-11-10.webp",
+      "width": 588,
+      "height": 628,
+      "crop": [
+        289,
+        465,
+        524,
+        716
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-1",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.1",
+      "title": "Figure 12.1 Steps of glycolysis",
+      "page": 156,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-1.webp",
+      "width": 603,
+      "height": 1146,
+      "crop": [
+        53,
+        147,
+        294,
+        605
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-2",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.2",
+      "title": "Figure 12.2 Major pathways of anaerobic respiration",
+      "page": 157,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-2.webp",
+      "width": 637,
+      "height": 770,
+      "crop": [
+        282.0,
+        370.47,
+        536.68,
+        678.39
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-3",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.3",
+      "title": "Figure 12.3 The Citric acid cycle",
+      "page": 159,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-3.webp",
+      "width": 625,
+      "height": 660,
+      "crop": [
+        272,
+        100,
+        522,
+        364
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-4",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.4",
+      "title": "Figure 12.4 Electron Transport System (ETS)",
+      "page": 160,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-4.webp",
+      "width": 688,
+      "height": 1168,
+      "crop": [
+        51,
+        96,
+        326,
+        563
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-5",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.5",
+      "title": "Figure 12.5 Diagramatic presentation of ATP synthesis in mitochondria",
+      "page": 161,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-5.webp",
+      "width": 637,
+      "height": 587,
+      "crop": [
+        282.0,
+        95.0,
+        536.68,
+        329.52
+      ]
+    },
+    {
+      "id": "ch12-diagram-12-6",
+      "chapter": 12,
+      "type": "diagram",
+      "reference": "Figure 12.6",
+      "title": "Figure 12.6 Interrelationship among metabolic pathways showing respiration mediated breakdown of different organic molecules to CO2 and H20",
+      "page": 163,
+      "src": "assets/biology-diagrams/class11/ch12-diagram-12-6.webp",
+      "width": 1255,
+      "height": 1005,
+      "crop": [
+        35.0,
+        95.0,
+        536.68,
+        496.44
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-1",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.1",
+      "title": "Figure 13.1 Germination and seedling development in bean",
+      "page": 167,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-1.webp",
+      "width": 1266,
+      "height": 746,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        392.83
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-2",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.2",
+      "title": "Figure 13.2 Diagrammatic representation of locations of root apical meristem, shoot aplical meristem and vascular cambium. Arrows exhibit the direction of growth of cells and organ",
+      "page": 168,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-2.webp",
+      "width": 646,
+      "height": 887,
+      "crop": [
+        35.0,
+        95.0,
+        293.0,
+        449.43
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-3",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.3",
+      "title": "Figure 13.3 Detection of zones of elongation by the parallel line technique. Zones A, B, C, D immediately behind the apex have elongated most.",
+      "page": 168,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-3.webp",
+      "width": 646,
+      "height": 655,
+      "crop": [
+        35.0,
+        452.43,
+        293.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-4",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.4",
+      "title": "Figure13.4 Diagrammatic representation of : (a) Arithmetic (b) Geometric growth and (c) Stages during embryo development showing geometric and arithematic phases",
+      "page": 169,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-4.webp",
+      "width": 1266,
+      "height": 1066,
+      "crop": [
+        35.0,
+        290.31,
+        541.0,
+        716.31
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-5",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.5",
+      "title": "Figure 13.5 Constant linear growth, a plot of length L against time t",
+      "page": 170,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-5.webp",
+      "width": 605,
+      "height": 747,
+      "crop": [
+        35.0,
+        95.0,
+        276.44,
+        393.51
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-6",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.6",
+      "title": "Figure 13.6 An idealised sigmoid growth curve typical of cells in culture, and many higher plants and plant organs",
+      "page": 170,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-6.webp",
+      "width": 605,
+      "height": 791,
+      "crop": [
+        35.0,
+        396.51,
+        276.44,
+        712.47
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-7",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.7",
+      "title": "Figure13.7 Diagrammatic comparison of absolute and relative growth rates. Both leaves A and B have increased their area by 5 cm2 in a given time to produce A1, B1 leaves.",
+      "page": 171,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-7.webp",
+      "width": 1266,
+      "height": 633,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        347.67
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-8",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.8",
+      "title": "Figure 13.8 Sequence of the developmental process in a plant cell",
+      "page": 173,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-8.webp",
+      "width": 1266,
+      "height": 526,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        304.99
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-9",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.9",
+      "title": "Figure 13.9 Heterophylly in (a) larkspur and (b) buttercup",
+      "page": 173,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-9.webp",
+      "width": 1266,
+      "height": 724,
+      "crop": [
+        35.0,
+        425.92,
+        541.0,
+        714.91
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-10",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.10",
+      "title": "Figure 13.10 Experiment used to demonstrate that tip of the coleoptile is the source of auxin. Arrows indicate direction of light",
+      "page": 174,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-10.webp",
+      "width": 658,
+      "height": 469,
+      "crop": [
+        35.0,
+        528.34,
+        298.0,
+        715.59
+      ]
+    },
+    {
+      "id": "ch13-diagram-13-11",
+      "chapter": 13,
+      "type": "diagram",
+      "reference": "Figure 13.11",
+      "title": "Figure 13.11 Apical dominance in plants : (a) A plant with apical bud intact (b) A plant with apical bud removed Note the growth of lateral buds into branches after decapitation.",
+      "page": 176,
+      "src": "assets/biology-diagrams/class11/ch13-diagram-13-11.webp",
+      "width": 658,
+      "height": 644,
+      "crop": [
+        35.0,
+        95.0,
+        298.0,
+        352.23
+      ]
+    },
+    {
+      "id": "ch14-diagram-14-1",
+      "chapter": 14,
+      "type": "diagram",
+      "reference": "Figure 14.1",
+      "title": "Figure 14.1 Diagrammatic view of human respiratory system (sectional view of the left lung is also shown)",
+      "page": 184,
+      "src": "assets/biology-diagrams/class11/ch14-diagram-14-1.webp",
+      "width": 1266,
+      "height": 759,
+      "crop": [
+        35.0,
+        408.39,
+        541.0,
+        711.51
+      ]
+    },
+    {
+      "id": "ch14-diagram-14-2",
+      "chapter": 14,
+      "type": "diagram",
+      "reference": "Figure 14.2",
+      "title": "Figure 14.2 Mechanism of breathing showing : (a) inspiration (b) expiration",
+      "page": 186,
+      "src": "assets/biology-diagrams/class11/ch14-diagram-14-2.webp",
+      "width": 658,
+      "height": 1259,
+      "crop": [
+        35.0,
+        95.0,
+        298.0,
+        598.23
+      ]
+    },
+    {
+      "id": "ch14-table-14-1",
+      "chapter": 14,
+      "type": "table",
+      "reference": "Table 14.1",
+      "title": "TABLE 14.1 Partial Pressures (in mm Hg) of Oxygen and Carbon dioxide at Different Parts Involved in Diffusion in Comparison to those in Atmosphere",
+      "page": 187,
+      "src": "assets/biology-diagrams/class11/ch14-table-14-1.webp",
+      "width": 1266,
+      "height": 327,
+      "crop": [
+        35.0,
+        599.49,
+        541.0,
+        729.8
+      ]
+    },
+    {
+      "id": "ch14-diagram-14-3",
+      "chapter": 14,
+      "type": "diagram",
+      "reference": "Figure 14.3",
+      "title": "Figure 14.3 Diagrammatic representation of exchange of gases at the alveolus and the body tissues with blood and transport of oxygen and carbon dioxide",
+      "page": 188,
+      "src": "assets/biology-diagrams/class11/ch14-diagram-14-3.webp",
+      "width": 1266,
+      "height": 859,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        438.39
+      ]
+    },
+    {
+      "id": "ch14-diagram-14-4",
+      "chapter": 14,
+      "type": "diagram",
+      "reference": "Figure 14.4",
+      "title": "Figure 14.4 A Diagram of a section of an alveolus with a pulmonary capillary.",
+      "page": 188,
+      "src": "assets/biology-diagrams/class11/ch14-diagram-14-4.webp",
+      "width": 658,
+      "height": 504,
+      "crop": [
+        35.0,
+        502.24,
+        298.0,
+        703.59
+      ]
+    },
+    {
+      "id": "ch14-diagram-14-5",
+      "chapter": 14,
+      "type": "diagram",
+      "reference": "Figure 14.5",
+      "title": "Figure 14.5 Oxygen dissociation curve",
+      "page": 189,
+      "src": "assets/biology-diagrams/class11/ch14-diagram-14-5.webp",
+      "width": 648,
+      "height": 666,
+      "crop": [
+        282.0,
+        334.0,
+        541.0,
+        599.95
+      ]
+    },
+    {
+      "id": "ch15-diagram-15-1",
+      "chapter": 15,
+      "type": "diagram",
+      "reference": "Figure 15.1",
+      "title": "Figure 15.1 Diagrammatic representation of formed elements in blood",
+      "page": 194,
+      "src": "assets/biology-diagrams/class11/ch15-diagram-15-1.webp",
+      "width": 1266,
+      "height": 343,
+      "crop": [
+        35.0,
+        574.23,
+        541.0,
+        711.07
+      ]
+    },
+    {
+      "id": "ch15-table-15-1",
+      "chapter": 15,
+      "type": "table",
+      "reference": "Table 15.1",
+      "title": "TABLE 15.1 Blood Groups and Donor Compatibility",
+      "page": 195,
+      "src": "assets/biology-diagrams/class11/ch15-table-15-1.webp",
+      "width": 873,
+      "height": 368,
+      "crop": [
+        48.0,
+        486.0,
+        397.0,
+        633.0
+      ]
+    },
+    {
+      "id": "ch15-diagram-15-2",
+      "chapter": 15,
+      "type": "diagram",
+      "reference": "Figure 15.2",
+      "title": "Figure 15.2 Section of a human heart",
+      "page": 198,
+      "src": "assets/biology-diagrams/class11/ch15-diagram-15-2.webp",
+      "width": 1266,
+      "height": 802,
+      "crop": [
+        35.0,
+        394.23,
+        541.0,
+        714.43
+      ]
+    },
+    {
+      "id": "ch15-diagram-15-3",
+      "chapter": 15,
+      "type": "diagram",
+      "reference": "Figure 15.3",
+      "title": "Figure 15.3 Diagrammatic presentation of a standard ECG",
+      "page": 201,
+      "src": "assets/biology-diagrams/class11/ch15-diagram-15-3.webp",
+      "width": 648,
+      "height": 361,
+      "crop": [
+        282.0,
+        95.0,
+        541.0,
+        238.96
+      ]
+    },
+    {
+      "id": "ch15-diagram-15-4",
+      "chapter": 15,
+      "type": "diagram",
+      "reference": "Figure 15.4",
+      "title": "Figure 15.4 Schematic plan of blood circulation in human",
+      "page": 202,
+      "src": "assets/biology-diagrams/class11/ch15-diagram-15-4.webp",
+      "width": 1266,
+      "height": 666,
+      "crop": [
+        35.0,
+        160.95,
+        541.0,
+        426.91
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-1",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.1",
+      "title": "Figure 16.1 Human Urinary system",
+      "page": 206,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-1.webp",
+      "width": 658,
+      "height": 780,
+      "crop": [
+        35.0,
+        344.75,
+        298.0,
+        656.11
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-2",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.2",
+      "title": "Figure 16.2 Longitudinal section (Diagrammatic) of Kidney",
+      "page": 207,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-2.webp",
+      "width": 648,
+      "height": 627,
+      "crop": [
+        282.0,
+        95.0,
+        541.0,
+        345.27
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-3",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.3",
+      "title": "Figure 16.3 A diagrammatic representation of a nephron showing blood vessels, duct and tubule",
+      "page": 207,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-3.webp",
+      "width": 1266,
+      "height": 849,
+      "crop": [
+        35.0,
+        375.08,
+        541.0,
+        714.39
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-4",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.4",
+      "title": "Figure 16.4 Malpighian body (renal corpuscle)",
+      "page": 208,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-4.webp",
+      "width": 600,
+      "height": 648,
+      "crop": [
+        76,
+        96,
+        316,
+        355
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-5",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.5",
+      "title": "Figure 16.5 Reabsorption and secretion of major substances at different parts of the nephron (Arrows indicate direction of movement of materials.)",
+      "page": 210,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-5.webp",
+      "width": 1266,
+      "height": 1074,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        524.31
+      ]
+    },
+    {
+      "id": "ch16-diagram-16-6",
+      "chapter": 16,
+      "type": "diagram",
+      "reference": "Figure 16.6",
+      "title": "Figure 16.6 Diagrammatic representation of a nephron and vasa recta showing counter current mechanisms",
+      "page": 211,
+      "src": "assets/biology-diagrams/class11/ch16-diagram-16-6.webp",
+      "width": 1266,
+      "height": 1101,
+      "crop": [
+        35.0,
+        276.15,
+        541.0,
+        716.31
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-1",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.1",
+      "title": "Figure 17.1 Diagrammatic cross sectional view of a muscle showing muscle bundles and muscle fibres",
+      "page": 219,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-1.webp",
+      "width": 1255,
+      "height": 753,
+      "crop": [
+        35.0,
+        232.48,
+        536.68,
+        533.43
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-2",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.2",
+      "title": "Figure 17.2 Diagrammatic representation of (a) anatomy of a muscle fibre showing a sarcomere (b) a sarcomere",
+      "page": 220,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-2.webp",
+      "width": 1255,
+      "height": 964,
+      "crop": [
+        35.0,
+        322.95,
+        536.68,
+        708.15
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-3",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.3",
+      "title": "Figure 17.3 (a) An actin (thin) filament (b) Myosin monomer (Meromyosin)",
+      "page": 221,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-3.webp",
+      "width": 1255,
+      "height": 648,
+      "crop": [
+        35.0,
+        357.99,
+        536.68,
+        616.51
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-4",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.4",
+      "title": "Figure 17.4 Stages in cross bridge formation, rotation of head and breaking of cross bridge",
+      "page": 222,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-4.webp",
+      "width": 1255,
+      "height": 743,
+      "crop": [
+        35.0,
+        279.62,
+        536.68,
+        576.48
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-5",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.5",
+      "title": "Figure 17.5 Sliding-filament theory of muscle contraction (movement of the thin filaments and the relative size of the I band and H zones)",
+      "page": 223,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-5.webp",
+      "width": 1255,
+      "height": 909,
+      "crop": [
+        35.0,
+        95.0,
+        536.68,
+        458.07
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-6",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.6",
+      "title": "Figure 17.6 Diagrammatic view of human skull",
+      "page": 224,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-6.webp",
+      "width": 1255,
+      "height": 757,
+      "crop": [
+        35.0,
+        287.52,
+        536.68,
+        589.91
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-7",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.7",
+      "title": "Figure 17.7 Vertebral column (right lateral view)",
+      "page": 225,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-7.webp",
+      "width": 637,
+      "height": 721,
+      "crop": [
+        282.0,
+        95.0,
+        536.68,
+        382.8
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-8",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.8",
+      "title": "Figure 17.8 Ribs and rib cage",
+      "page": 225,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-8.webp",
+      "width": 658,
+      "height": 648,
+      "crop": [
+        259,
+        442,
+        522,
+        701
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-9",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.9",
+      "title": "Figure 17.9 Right pectoral girdle and upper arm. (frontal view)",
+      "page": 226,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-9.webp",
+      "width": 633,
+      "height": 795,
+      "crop": [
+        35.0,
+        95.0,
+        288.0,
+        412.47
+      ]
+    },
+    {
+      "id": "ch17-diagram-17-10",
+      "chapter": 17,
+      "type": "diagram",
+      "reference": "Figure 17.10",
+      "title": "Figure 17.10 Right pelvic girdle and lower limb bones (frontal view)",
+      "page": 226,
+      "src": "assets/biology-diagrams/class11/ch17-diagram-17-10.webp",
+      "width": 601,
+      "height": 751,
+      "crop": [
+        51.0,
+        415.0,
+        291.0,
+        715.0
+      ]
+    },
+    {
+      "id": "ch18-diagram-18-1",
+      "chapter": 18,
+      "type": "diagram",
+      "reference": "Figure 18.1",
+      "title": "Figure 18.1 Structure of a neuron",
+      "page": 232,
+      "src": "assets/biology-diagrams/class11/ch18-diagram-18-1.webp",
+      "width": 601,
+      "height": 961,
+      "crop": [
+        35.0,
+        95.0,
+        275.0,
+        478.99
+      ]
+    },
+    {
+      "id": "ch18-diagram-18-2",
+      "chapter": 18,
+      "type": "diagram",
+      "reference": "Figure 18.2",
+      "title": "Figure 18.2 Diagrammatic representation of impulse conduction through an axon (at points A and B)",
+      "page": 233,
+      "src": "assets/biology-diagrams/class11/ch18-diagram-18-2.webp",
+      "width": 1266,
+      "height": 618,
+      "crop": [
+        35.0,
+        95.0,
+        541.0,
+        341.92
+      ]
+    },
+    {
+      "id": "ch18-diagram-18-3",
+      "chapter": 18,
+      "type": "diagram",
+      "reference": "Figure 18.3",
+      "title": "Figure 18.3 Diagram showing axon terminal and synapse",
+      "page": 234,
+      "src": "assets/biology-diagrams/class11/ch18-diagram-18-3.webp",
+      "width": 1266,
+      "height": 724,
+      "crop": [
+        35.0,
+        422.31,
+        541.0,
+        711.55
+      ]
+    },
+    {
+      "id": "ch18-diagram-18-4",
+      "chapter": 18,
+      "type": "diagram",
+      "reference": "Figure 18.4",
+      "title": "Figure 18.4 Diagram showing sagital section of the human brain",
+      "page": 235,
+      "src": "assets/biology-diagrams/class11/ch18-diagram-18-4.webp",
+      "width": 1266,
+      "height": 731,
+      "crop": [
+        35.0,
+        419.49,
+        541.0,
+        711.31
+      ]
+    },
+    {
+      "id": "ch19-diagram-19-1",
+      "chapter": 19,
+      "type": "diagram",
+      "reference": "Figure 19.1",
+      "title": "Figure 19.1 Location of endocrine glands",
+      "page": 240,
+      "src": "assets/biology-diagrams/class11/ch19-diagram-19-1.webp",
+      "width": 673,
+      "height": 908,
+      "crop": [
+        51,
+        105,
+        320,
+        468
+      ]
+    },
+    {
+      "id": "ch19-diagram-19-2",
+      "chapter": 19,
+      "type": "diagram",
+      "reference": "Figure 19.2",
+      "title": "Figure 19.2 Diagrammatic representation of pituitary and its relationship with hypothalamus",
+      "page": 241,
+      "src": "assets/biology-diagrams/class11/ch19-diagram-19-2.webp",
+      "width": 625,
+      "height": 787,
+      "crop": [
+        286.84,
+        95.0,
+        536.68,
+        409.35
+      ]
+    },
+    {
+      "id": "ch19-diagram-19-3",
+      "chapter": 19,
+      "type": "diagram",
+      "reference": "Figure 19.3",
+      "title": "Figure 19.3 Diagrammatic view of the position of Thyroid and Parathyroid (a) Ventral side (b) Dorsal side",
+      "page": 242,
+      "src": "assets/biology-diagrams/class11/ch19-diagram-19-3.webp",
+      "width": 525,
+      "height": 1293,
+      "crop": [
+        48,
+        199,
+        258,
+        716
+      ]
+    },
+    {
+      "id": "ch19-diagram-19-4",
+      "chapter": 19,
+      "type": "diagram",
+      "reference": "Figure 19.4",
+      "title": "Figure 19.4 Diagrammatic representation of : (a) Adrenal gland above kidney (b) Section showing two parts of adrenal gland",
+      "page": 244,
+      "src": "assets/biology-diagrams/class11/ch19-diagram-19-4.webp",
+      "width": 1255,
+      "height": 811,
+      "crop": [
+        35.0,
+        230.82,
+        536.68,
+        554.81
+      ]
+    },
+    {
+      "id": "ch19-diagram-19-5",
+      "chapter": 19,
+      "type": "diagram",
+      "reference": "Figure 19.5",
+      "title": "Figure 19.5 Diagramatic representation of the mechanism of hormone action : (a) Protein hormone (b) Steroid hormone",
+      "page": 249,
+      "src": "assets/biology-diagrams/class11/ch19-diagram-19-5.webp",
+      "width": 1255,
+      "height": 962,
+      "crop": [
+        35.0,
+        95.0,
+        536.68,
+        479.28
+      ]
+    }
+  ]
+}

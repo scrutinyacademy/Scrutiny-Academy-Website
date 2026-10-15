@@ -13,11 +13,11 @@ const context={console,Image:class{},document:{getElementById:()=>host,querySele
 vm.runInNewContext(fs.readFileSync('neet-diagrams.js','utf8'),context);
 await new Promise(r=>setImmediate(r));
 const click=s=>host.querySelector(s).onclick();const change=(s,value)=>host.querySelector(s).onchange({target:{value}});
-assert.match(host.innerHTML,/Diagrams &amp; Tables/);assert.equal(host.hidden,false);assert.match(host.querySelector('#dvContent').innerHTML,/Taxonomic hierarchy/);
-click('#dvNext');assert.match(host.querySelector('#dvContent').innerHTML,/Organisms and taxonomic/);click('#dvPrevious');assert.match(host.querySelector('#dvContent').innerHTML,/Taxonomic hierarchy/);
-change('#dvKind','table');assert.match(host.querySelector('#dvContent').innerHTML,/Organisms and taxonomic/);change('#dvChapter','plant-kingdom');assert.match(host.querySelector('#dvContent').innerHTML,/Divisions of algae/);
+assert.match(host.innerHTML,/Diagrams &amp; Tables/);assert.equal(host.hidden,false);assert.match(host.querySelector('#dvContent').innerHTML,/Figure 1.1/);
+click('#dvNext');assert.match(host.querySelector('#dvContent').innerHTML,/Organisms with their Taxonomic/);click('#dvPrevious');assert.match(host.querySelector('#dvContent').innerHTML,/Figure 1.1/);
+change('#dvKind','table');assert.match(host.querySelector('#dvContent').innerHTML,/Organisms with their Taxonomic/);change('#dvChapter','plant-kingdom');assert.match(host.querySelector('#dvContent').innerHTML,/Divisions of Algae/);
 host.querySelectorAll('[data-dv-subject]').find(n=>n.dataset.dvSubject==='physics').onclick();assert.match(host.querySelector('#dvContent').innerHTML,/No tables/);change('#dvKind','all');change('#dvJump','29');assert.match(host.querySelector('#dvContent').innerHTML,/30 of 30/);assert.match(host.querySelector('#dvContent').innerHTML,/id="dvNext" disabled/);
 context.__scrutinyStudentContext={uid:'test',activeCourse:'class12'};listeners['scrutiny:dashboard-context']();assert.equal(host.hidden,true);assert.equal(host.innerHTML,'');
 context.__scrutinyStudentContext={uid:'test',activeCourse:'neet'};listeners['scrutiny:dashboard-context']();assert.equal(host.hidden,false);
-const cat=JSON.parse(fs.readFileSync('data/neet/diagrams/catalog.json'));assert.equal(cat.chapters.length,5);assert.equal(cat.chapters.flatMap(c=>c.items).length,79);for(const c of cat.chapters)for(const i of c.items){assert.ok(fs.existsSync(i.image));assert.ok(i.width>100&&i.height>100);}
-console.log('PASS: subject/chapter/type selection, previous/next, final item, direct jump, empty tables, course switching and 79 crop assets.');
+const cat=JSON.parse(fs.readFileSync('data/neet/diagrams/catalog.json'));assert.equal(cat.chapters.length,22);assert.equal(cat.chapters.flatMap(c=>c.items).length,231);for(const c of cat.chapters)for(const i of c.items){assert.ok(fs.existsSync(i.image));assert.ok(i.width>100&&i.height>100);}
+console.log('PASS: subject/chapter/type selection, previous/next, final item, direct jump, empty tables, course switching and 231 crop assets.');

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" class="auth-check">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#115cbe"><title>Class 11 Biology · Diagrams &amp; Tables | Scrutiny Academy</title>
+<link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="neet-biology-diagrams.css?v=1">
+<style>.auth-check body{visibility:hidden}</style>
+<script type="module" src="neet-biology-diagrams-gate.js?v=1"></script>
+<script src="neet-biology-diagrams.js?v=1" defer></script>
+</head>
+<body>
+<header class="bd-header"><a class="bd-brand" href="preview-v2.html?course=neet#neet"><img src="assets/logo.svg" alt=""><span>SCRUTINY ACADEMY<small>NEET UG · VISUAL LIBRARY</small></span></a><nav aria-label="Page navigation"><a href="preview-v2.html?course=neet#neet">← NEET dashboard</a><button type="button" id="logoutButton">Logout</button></nav></header>
+<main>
+<section class="bd-intro"><span class="bd-eyebrow">NCERT CLASS 11 BIOLOGY</span><h1>Diagrams <span>&amp;</span> Tables</h1><p>See it. Understand it. Remember it. Explore original NCERT visuals, one chapter at a time.</p><div class="bd-pills"><span>19 chapters</span><span id="libraryCount">Loading visuals…</span><span>Direct PDF crops · labels preserved</span></div></section>
+<section class="bd-library" id="library" aria-label="Chapter-wise diagrams and tables">
+<aside class="bd-sidebar"><label for="chapterSearch">Find a chapter<input id="chapterSearch" type="search" placeholder="Cell, plant, circulation…"></label><nav id="chapterList" aria-label="Class 11 Biology chapters"><p>Loading chapters…</p></nav></aside>
+<div class="bd-content">
+<div class="bd-chapter-head"><div><span class="bd-eyebrow" id="chapterNumber">CHOOSE A CHAPTER</span><h2 id="chapterTitle">Your visual revision starts here</h2><p id="chapterSummary"></p></div><label class="bd-mobile-chapters">Chapter<select id="chapterSelect" aria-label="Choose chapter"></select></label></div>
+<div class="bd-tools"><div class="bd-tabs" role="group" aria-label="Filter visual type"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="diagram" aria-pressed="false">Diagrams</button><button type="button" data-filter="table" aria-pressed="false">Tables</button></div><label class="bd-search">Search visuals<input id="visualSearch" type="search" placeholder="Search captions…" aria-label="Search visuals in this chapter"></label></div>
+<div id="viewer" class="bd-viewer" hidden>
+<div class="bd-viewer-head"><span id="visualKind" class="bd-kind"></span><span id="position" role="status" aria-live="polite"></span></div>
+<figure><div class="bd-image-wrap"><button type="button" id="openZoom" aria-label="Enlarge current diagram or table"><img id="visualImage" alt="" decoding="async"></button></div><figcaption><h3 id="visualTitle"></h3><p id="sourceNote"></p><button type="button" id="zoomButton">⤢ Enlarge image</button></figcaption></figure>
+<div class="bd-navigation"><button type="button" id="previousButton">← Previous</button><label>Go to<select id="visualSelect" aria-label="Jump to a visual"></select></label><button type="button" id="nextButton">Next →</button></div>
+<div id="visualList" class="bd-thumbnails" aria-label="Visuals in this chapter"></div>
+</div>
+<div id="emptyState" class="bd-empty" role="status" hidden><h3>No visuals match this view</h3><p id="emptyMessage">Try All, another chapter, or a different search.</p><button type="button" id="resetFilters">Show all chapter visuals</button></div>
+<div id="loadError" class="bd-empty" role="alert" hidden><h3>The library could not load</h3><p>Check your connection and try again.</p><button type="button" id="retryLoad">Try again</button></div>
+</div>
+</section>
+<footer class="bd-footer">Source: NCERT Biology Class XI · Reprint 2025–26 · Original diagrams, labels, captions and tables cropped from the supplied textbook.</footer>
+</main>
+<dialog id="zoomDialog" aria-label="Enlarged NCERT visual"><header><strong id="zoomTitle"></strong><button type="button" id="closeZoom" aria-label="Close enlarged image">× Close</button></header><p>Pinch to zoom or scroll to inspect the original labels.</p><div class="bd-zoom-scroll"><img id="zoomImage" alt=""></div></dialog>
+<script src="course-section-nav.js?v=2" defer></script>
+</body></html>

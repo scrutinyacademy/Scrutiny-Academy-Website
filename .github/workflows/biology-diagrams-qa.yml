@@ -1,0 +1,21 @@
+name: Biology Diagrams and Tables QA
+on:
+  push:
+    branches: [main]
+    paths: ['neet-biology-diagrams*', 'neet-diagrams*', 'assets/biology-diagrams/**', 'data/neet/diagrams/**', 'tests/neet-biology-diagrams.cjs', '.github/workflows/biology-diagrams-qa.yml']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --check neet-biology-diagrams.js
+      - run: node --check neet-biology-diagrams-gate.js
+      - run: node tests/neet-biology-diagrams.cjs
+      - run: node tests/neet-diagrams-ui.mjs
+      - run: node tests/neet-dashboard-ui.cjs
+      - run: node scripts/test-neet-ug-integration.mjs
