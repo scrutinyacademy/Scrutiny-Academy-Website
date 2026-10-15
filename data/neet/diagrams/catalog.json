@@ -1,0 +1,765 @@
+{
+  "chapters": [
+    {
+      "id": "electric-charges-and-fields",
+      "subject": "physics",
+      "title": "Electric Charges and Fields",
+      "classLevel": 12,
+      "source": "Electric charges and fields (1).pdf",
+      "sourceSha256": "f351dda737988d12ffc56ff3046488b5f08ff3f160f88e6f639d223131be96d6",
+      "items": [
+        {
+          "id": "electric-charges-and-fields-1",
+          "title": "Like and unlike charges",
+          "type": "diagram",
+          "page": 2,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-01.webp",
+          "width": 1008,
+          "height": 579
+        },
+        {
+          "id": "electric-charges-and-fields-2",
+          "title": "Electroscopes",
+          "type": "diagram",
+          "page": 4,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-02.webp",
+          "width": 584,
+          "height": 893
+        },
+        {
+          "id": "electric-charges-and-fields-3",
+          "title": "Geometry and forces between charges",
+          "type": "diagram",
+          "page": 8,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-03.webp",
+          "width": 627,
+          "height": 854
+        },
+        {
+          "id": "electric-charges-and-fields-4",
+          "title": "Forces in a charge configuration",
+          "type": "diagram",
+          "page": 10,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-04.webp",
+          "width": 1023,
+          "height": 1021
+        },
+        {
+          "id": "electric-charges-and-fields-5",
+          "title": "Systems of charges",
+          "type": "diagram",
+          "page": 11,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-05.webp",
+          "width": 555,
+          "height": 962
+        },
+        {
+          "id": "electric-charges-and-fields-6",
+          "title": "Electric field geometry",
+          "type": "diagram",
+          "page": 12,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-06.webp",
+          "width": 793,
+          "height": 718
+        },
+        {
+          "id": "electric-charges-and-fields-7",
+          "title": "Superposition of electric fields",
+          "type": "diagram",
+          "page": 13,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-07.webp",
+          "width": 880,
+          "height": 678
+        },
+        {
+          "id": "electric-charges-and-fields-8",
+          "title": "Fields of positive and negative charges",
+          "type": "diagram",
+          "page": 14,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-08.webp",
+          "width": 426,
+          "height": 864
+        },
+        {
+          "id": "electric-charges-and-fields-9",
+          "title": "Field due to a system of charges",
+          "type": "diagram",
+          "page": 16,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-09.webp",
+          "width": 627,
+          "height": 560
+        },
+        {
+          "id": "electric-charges-and-fields-10",
+          "title": "Electric field in a charge arrangement",
+          "type": "diagram",
+          "page": 17,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-10.webp",
+          "width": 677,
+          "height": 796
+        },
+        {
+          "id": "electric-charges-and-fields-11",
+          "title": "Electric field components",
+          "type": "diagram",
+          "page": 18,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-11.webp",
+          "width": 649,
+          "height": 579
+        },
+        {
+          "id": "electric-charges-and-fields-12",
+          "title": "Field of a point charge",
+          "type": "diagram",
+          "page": 19,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-12.webp",
+          "width": 584,
+          "height": 903
+        },
+        {
+          "id": "electric-charges-and-fields-13",
+          "title": "Field strength and field line density",
+          "type": "diagram",
+          "page": 20,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-13.webp",
+          "width": 584,
+          "height": 717
+        },
+        {
+          "id": "electric-charges-and-fields-14",
+          "title": "Field lines of charge configurations",
+          "type": "diagram",
+          "page": 21,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-14.webp",
+          "width": 497,
+          "height": 1668
+        },
+        {
+          "id": "electric-charges-and-fields-15",
+          "title": "Flux and inclination",
+          "type": "diagram",
+          "page": 22,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-15.webp",
+          "width": 605,
+          "height": 678
+        },
+        {
+          "id": "electric-charges-and-fields-16",
+          "title": "Surface normal convention",
+          "type": "diagram",
+          "page": 22,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-16.webp",
+          "width": 533,
+          "height": 1158
+        },
+        {
+          "id": "electric-charges-and-fields-17",
+          "title": "Electric field of a dipole",
+          "type": "diagram",
+          "page": 24,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-17.webp",
+          "width": 764,
+          "height": 756
+        },
+        {
+          "id": "electric-charges-and-fields-18",
+          "title": "Dipole field geometry",
+          "type": "diagram",
+          "page": 25,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-18.webp",
+          "width": 893,
+          "height": 785
+        },
+        {
+          "id": "electric-charges-and-fields-19",
+          "title": "Dipole in a uniform field",
+          "type": "diagram",
+          "page": 27,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-19.webp",
+          "width": 454,
+          "height": 717
+        },
+        {
+          "id": "electric-charges-and-fields-20",
+          "title": "Forces on a dipole",
+          "type": "diagram",
+          "page": 27,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-20.webp",
+          "width": 605,
+          "height": 923
+        },
+        {
+          "id": "electric-charges-and-fields-21",
+          "title": "Linear surface and volume charge densities",
+          "type": "diagram",
+          "page": 28,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-21.webp",
+          "width": 426,
+          "height": 1365
+        },
+        {
+          "id": "electric-charges-and-fields-22",
+          "title": "Flux through a sphere",
+          "type": "diagram",
+          "page": 29,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-22.webp",
+          "width": 411,
+          "height": 825
+        },
+        {
+          "id": "electric-charges-and-fields-23",
+          "title": "Flux through a cylinder",
+          "type": "diagram",
+          "page": 30,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-23.webp",
+          "width": 620,
+          "height": 462
+        },
+        {
+          "id": "electric-charges-and-fields-24",
+          "title": "Flux through a cube",
+          "type": "diagram",
+          "page": 31,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-24.webp",
+          "width": 649,
+          "height": 737
+        },
+        {
+          "id": "electric-charges-and-fields-25",
+          "title": "Gaussian surface and enclosed charge",
+          "type": "diagram",
+          "page": 32,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-25.webp",
+          "width": 649,
+          "height": 678
+        },
+        {
+          "id": "electric-charges-and-fields-26",
+          "title": "Field due to an infinite line charge",
+          "type": "diagram",
+          "page": 33,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-26.webp",
+          "width": 540,
+          "height": 1590
+        },
+        {
+          "id": "electric-charges-and-fields-27",
+          "title": "Gaussian surface for a plane sheet",
+          "type": "diagram",
+          "page": 34,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-27.webp",
+          "width": 613,
+          "height": 687
+        },
+        {
+          "id": "electric-charges-and-fields-28",
+          "title": "Gaussian surfaces for a charged shell",
+          "type": "diagram",
+          "page": 35,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-28.webp",
+          "width": 454,
+          "height": 1090
+        },
+        {
+          "id": "electric-charges-and-fields-29",
+          "title": "Charged line geometry",
+          "type": "diagram",
+          "page": 43,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-29.webp",
+          "width": 1023,
+          "height": 462
+        },
+        {
+          "id": "electric-charges-and-fields-30",
+          "title": "Electric flux through an inclined surface",
+          "type": "diagram",
+          "page": 43,
+          "image": "assets/neet-diagrams/electric-charges-and-fields-30.webp",
+          "width": 692,
+          "height": 874
+        }
+      ]
+    },
+    {
+      "id": "living-world",
+      "subject": "biology",
+      "title": "The Living World",
+      "classLevel": 11,
+      "source": "Living world .pdf",
+      "sourceSha256": "b2ccbf63a2c123cbad8b5eb28f66bc5213e6f324376e689a64b978823b49ad4a",
+      "items": [
+        {
+          "id": "living-world-1",
+          "title": "Taxonomic hierarchy",
+          "type": "diagram",
+          "page": 8,
+          "image": "assets/neet-diagrams/living-world-01.webp",
+          "width": 368,
+          "height": 851
+        },
+        {
+          "id": "living-world-2",
+          "title": "Organisms and taxonomic categories",
+          "type": "table",
+          "page": 8,
+          "image": "assets/neet-diagrams/living-world-02.webp",
+          "width": 1205,
+          "height": 526
+        }
+      ]
+    },
+    {
+      "id": "structure-of-atom",
+      "subject": "chemistry",
+      "title": "Structure of Atom",
+      "classLevel": 11,
+      "source": "Atomic structure (1).pdf",
+      "sourceSha256": "916939de6035dbbac8ea9af322dd89d2db54eb97086f1e5e27beb9a4415407d3",
+      "items": [
+        {
+          "id": "structure-of-atom-1",
+          "title": "Cathode ray discharge tube",
+          "type": "diagram",
+          "page": 2,
+          "image": "assets/neet-diagrams/structure-of-atom-01.webp",
+          "width": 595,
+          "height": 273
+        },
+        {
+          "id": "structure-of-atom-2",
+          "title": "Discharge tube with perforated anode",
+          "type": "diagram",
+          "page": 2,
+          "image": "assets/neet-diagrams/structure-of-atom-02.webp",
+          "width": 600,
+          "height": 365
+        },
+        {
+          "id": "structure-of-atom-3",
+          "title": "Charge to mass ratio apparatus",
+          "type": "diagram",
+          "page": 3,
+          "image": "assets/neet-diagrams/structure-of-atom-03.webp",
+          "width": 1100,
+          "height": 774
+        },
+        {
+          "id": "structure-of-atom-4",
+          "title": "Millikan oil drop apparatus",
+          "type": "diagram",
+          "page": 4,
+          "image": "assets/neet-diagrams/structure-of-atom-04.webp",
+          "width": 565,
+          "height": 733
+        },
+        {
+          "id": "structure-of-atom-5",
+          "title": "Properties of fundamental particles",
+          "type": "table",
+          "page": 5,
+          "image": "assets/neet-diagrams/structure-of-atom-05.webp",
+          "width": 1198,
+          "height": 338
+        },
+        {
+          "id": "structure-of-atom-6",
+          "title": "Thomson model of atom",
+          "type": "diagram",
+          "page": 5,
+          "image": "assets/neet-diagrams/structure-of-atom-06.webp",
+          "width": 610,
+          "height": 653
+        },
+        {
+          "id": "structure-of-atom-7",
+          "title": "Rutherford scattering experiment",
+          "type": "diagram",
+          "page": 6,
+          "image": "assets/neet-diagrams/structure-of-atom-07.webp",
+          "width": 736,
+          "height": 1155
+        },
+        {
+          "id": "structure-of-atom-8",
+          "title": "Electromagnetic wave components",
+          "type": "diagram",
+          "page": 9,
+          "image": "assets/neet-diagrams/structure-of-atom-08.webp",
+          "width": 736,
+          "height": 774
+        },
+        {
+          "id": "structure-of-atom-9",
+          "title": "Electromagnetic and visible spectrum",
+          "type": "diagram",
+          "page": 10,
+          "image": "assets/neet-diagrams/structure-of-atom-09.webp",
+          "width": 1308,
+          "height": 894
+        },
+        {
+          "id": "structure-of-atom-10",
+          "title": "Black body radiation",
+          "type": "diagram",
+          "page": 12,
+          "image": "assets/neet-diagrams/structure-of-atom-10.webp",
+          "width": 625,
+          "height": 1055
+        },
+        {
+          "id": "structure-of-atom-11",
+          "title": "Photoelectric effect apparatus",
+          "type": "diagram",
+          "page": 13,
+          "image": "assets/neet-diagrams/structure-of-atom-11.webp",
+          "width": 736,
+          "height": 693
+        },
+        {
+          "id": "structure-of-atom-12",
+          "title": "Work functions of metals",
+          "type": "table",
+          "page": 14,
+          "image": "assets/neet-diagrams/structure-of-atom-12.webp",
+          "width": 998,
+          "height": 178
+        },
+        {
+          "id": "structure-of-atom-13",
+          "title": "Atomic emission and absorption",
+          "type": "diagram",
+          "page": 17,
+          "image": "assets/neet-diagrams/structure-of-atom-13.webp",
+          "width": 1115,
+          "height": 814
+        },
+        {
+          "id": "structure-of-atom-14",
+          "title": "Spectral lines of hydrogen",
+          "type": "table",
+          "page": 17,
+          "image": "assets/neet-diagrams/structure-of-atom-14.webp",
+          "width": 593,
+          "height": 363
+        },
+        {
+          "id": "structure-of-atom-15",
+          "title": "Hydrogen electron transitions",
+          "type": "diagram",
+          "page": 18,
+          "image": "assets/neet-diagrams/structure-of-atom-15.webp",
+          "width": 699,
+          "height": 995
+        },
+        {
+          "id": "structure-of-atom-16",
+          "title": "Subshell notations",
+          "type": "table",
+          "page": 27,
+          "image": "assets/neet-diagrams/structure-of-atom-16.webp",
+          "width": 508,
+          "height": 596
+        },
+        {
+          "id": "structure-of-atom-17",
+          "title": "Orbital wave functions and probability density",
+          "type": "diagram",
+          "page": 29,
+          "image": "assets/neet-diagrams/structure-of-atom-17.webp",
+          "width": 595,
+          "height": 794
+        },
+        {
+          "id": "structure-of-atom-18",
+          "title": "Probability density of s orbitals",
+          "type": "diagram",
+          "page": 30,
+          "image": "assets/neet-diagrams/structure-of-atom-18.webp",
+          "width": 684,
+          "height": 814
+        },
+        {
+          "id": "structure-of-atom-19",
+          "title": "Boundary surfaces of p orbitals",
+          "type": "diagram",
+          "page": 30,
+          "image": "assets/neet-diagrams/structure-of-atom-19.webp",
+          "width": 684,
+          "height": 1195
+        },
+        {
+          "id": "structure-of-atom-20",
+          "title": "Boundary surfaces of d orbitals",
+          "type": "diagram",
+          "page": 31,
+          "image": "assets/neet-diagrams/structure-of-atom-20.webp",
+          "width": 736,
+          "height": 1516
+        },
+        {
+          "id": "structure-of-atom-21",
+          "title": "Energy levels of hydrogen and multielectron atoms",
+          "type": "diagram",
+          "page": 32,
+          "image": "assets/neet-diagrams/structure-of-atom-21.webp",
+          "width": 744,
+          "height": 1115
+        },
+        {
+          "id": "structure-of-atom-22",
+          "title": "Orbital arrangement by n plus l rule",
+          "type": "table",
+          "page": 33,
+          "image": "assets/neet-diagrams/structure-of-atom-22.webp",
+          "width": 593,
+          "height": 958
+        },
+        {
+          "id": "structure-of-atom-23",
+          "title": "Aufbau orbital filling order",
+          "type": "diagram",
+          "page": 34,
+          "image": "assets/neet-diagrams/structure-of-atom-23.webp",
+          "width": 721,
+          "height": 1215
+        },
+        {
+          "id": "structure-of-atom-24",
+          "title": "Orbital electron configurations",
+          "type": "diagram",
+          "page": 35,
+          "image": "assets/neet-diagrams/structure-of-atom-24.webp",
+          "width": 565,
+          "height": 834
+        },
+        {
+          "id": "structure-of-atom-25",
+          "title": "Exchange interactions in d orbitals",
+          "type": "diagram",
+          "page": 37,
+          "image": "assets/neet-diagrams/structure-of-atom-25.webp",
+          "width": 595,
+          "height": 1355
+        },
+        {
+          "id": "structure-of-atom-26",
+          "title": "Electronic configurations of elements",
+          "type": "table",
+          "page": 38,
+          "image": "assets/neet-diagrams/structure-of-atom-26.webp",
+          "width": 1175,
+          "height": 1478
+        }
+      ]
+    },
+    {
+      "id": "plant-kingdom",
+      "subject": "biology",
+      "title": "Plant Kingdom",
+      "classLevel": 11,
+      "source": "Plant kingdom (1).pdf",
+      "sourceSha256": "7c8425202138482eca9b6863d8786a9f0d40bbc6c4d7d85a743ce81086fb75d0",
+      "items": [
+        {
+          "id": "plant-kingdom-1",
+          "title": "Green brown and red algae",
+          "type": "diagram",
+          "page": 3,
+          "image": "assets/neet-diagrams/plant-kingdom-01.webp",
+          "width": 1289,
+          "height": 1668
+        },
+        {
+          "id": "plant-kingdom-2",
+          "title": "Divisions of algae and their characteristics",
+          "type": "table",
+          "page": 5,
+          "image": "assets/neet-diagrams/plant-kingdom-02.webp",
+          "width": 1206,
+          "height": 578
+        },
+        {
+          "id": "plant-kingdom-3",
+          "title": "Bryophytes Marchantia Funaria and Sphagnum",
+          "type": "diagram",
+          "page": 6,
+          "image": "assets/neet-diagrams/plant-kingdom-03.webp",
+          "width": 1225,
+          "height": 1325
+        },
+        {
+          "id": "plant-kingdom-4",
+          "title": "Pteridophytes Selaginella Equisetum fern and Salvinia",
+          "type": "diagram",
+          "page": 9,
+          "image": "assets/neet-diagrams/plant-kingdom-04.webp",
+          "width": 1304,
+          "height": 1668
+        },
+        {
+          "id": "plant-kingdom-5",
+          "title": "Gymnosperms Cycas Pinus and Ginkgo",
+          "type": "diagram",
+          "page": 11,
+          "image": "assets/neet-diagrams/plant-kingdom-05.webp",
+          "width": 540,
+          "height": 1619
+        },
+        {
+          "id": "plant-kingdom-6",
+          "title": "Angiosperms",
+          "type": "diagram",
+          "page": 12,
+          "image": "assets/neet-diagrams/plant-kingdom-06.webp",
+          "width": 864,
+          "height": 835
+        }
+      ]
+    },
+    {
+      "id": "basic-concepts",
+      "subject": "chemistry",
+      "title": "Some Basic Concepts of Chemistry",
+      "classLevel": 11,
+      "source": "Some basic concept of chemistry (2).pdf",
+      "sourceSha256": "6dc4c6070859669b987ef3d0f9535acf46f3ee8cb3a6f5fe58f1bb3addadd089",
+      "items": [
+        {
+          "id": "basic-concepts-1",
+          "title": "Particles in solid liquid and gas",
+          "type": "diagram",
+          "page": 5,
+          "image": "assets/neet-diagrams/basic-concepts-01.webp",
+          "width": 729,
+          "height": 714
+        },
+        {
+          "id": "basic-concepts-2",
+          "title": "Classification of matter",
+          "type": "diagram",
+          "page": 5,
+          "image": "assets/neet-diagrams/basic-concepts-02.webp",
+          "width": 721,
+          "height": 734
+        },
+        {
+          "id": "basic-concepts-3",
+          "title": "Atoms and molecules",
+          "type": "diagram",
+          "page": 6,
+          "image": "assets/neet-diagrams/basic-concepts-03.webp",
+          "width": 736,
+          "height": 793
+        },
+        {
+          "id": "basic-concepts-4",
+          "title": "Water and carbon dioxide molecules",
+          "type": "diagram",
+          "page": 6,
+          "image": "assets/neet-diagrams/basic-concepts-04.webp",
+          "width": 714,
+          "height": 553
+        },
+        {
+          "id": "basic-concepts-5",
+          "title": "Base physical quantities and units",
+          "type": "table",
+          "page": 7,
+          "image": "assets/neet-diagrams/basic-concepts-05.webp",
+          "width": 990,
+          "height": 488
+        },
+        {
+          "id": "basic-concepts-6",
+          "title": "Definitions of SI base units",
+          "type": "table",
+          "page": 8,
+          "image": "assets/neet-diagrams/basic-concepts-06.webp",
+          "width": 1203,
+          "height": 1418
+        },
+        {
+          "id": "basic-concepts-7",
+          "title": "SI prefixes",
+          "type": "table",
+          "page": 9,
+          "image": "assets/neet-diagrams/basic-concepts-07.webp",
+          "width": 588,
+          "height": 916
+        },
+        {
+          "id": "basic-concepts-8",
+          "title": "Analytical balance",
+          "type": "diagram",
+          "page": 9,
+          "image": "assets/neet-diagrams/basic-concepts-08.webp",
+          "width": 721,
+          "height": 834
+        },
+        {
+          "id": "basic-concepts-9",
+          "title": "Units of volume",
+          "type": "diagram",
+          "page": 9,
+          "image": "assets/neet-diagrams/basic-concepts-09.webp",
+          "width": 691,
+          "height": 864
+        },
+        {
+          "id": "basic-concepts-10",
+          "title": "Volume measuring devices",
+          "type": "diagram",
+          "page": 10,
+          "image": "assets/neet-diagrams/basic-concepts-10.webp",
+          "width": 684,
+          "height": 874
+        },
+        {
+          "id": "basic-concepts-11",
+          "title": "Temperature scales",
+          "type": "diagram",
+          "page": 10,
+          "image": "assets/neet-diagrams/basic-concepts-11.webp",
+          "width": 699,
+          "height": 1015
+        },
+        {
+          "id": "basic-concepts-12",
+          "title": "Significant figures examples",
+          "type": "table",
+          "page": 13,
+          "image": "assets/neet-diagrams/basic-concepts-12.webp",
+          "width": 1352,
+          "height": 553
+        },
+        {
+          "id": "basic-concepts-13",
+          "title": "Volumes in a gaseous reaction",
+          "type": "diagram",
+          "page": 16,
+          "image": "assets/neet-diagrams/basic-concepts-13.webp",
+          "width": 1330,
+          "height": 513
+        },
+        {
+          "id": "basic-concepts-14",
+          "title": "Packing of sodium and chloride ions",
+          "type": "diagram",
+          "page": 17,
+          "image": "assets/neet-diagrams/basic-concepts-14.webp",
+          "width": 669,
+          "height": 834
+        },
+        {
+          "id": "basic-concepts-15",
+          "title": "One mole of different substances",
+          "type": "diagram",
+          "page": 18,
+          "image": "assets/neet-diagrams/basic-concepts-15.webp",
+          "width": 736,
+          "height": 723
+        }
+      ]
+    }
+  ]
+}

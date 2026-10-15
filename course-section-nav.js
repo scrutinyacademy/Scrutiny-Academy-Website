@@ -5,7 +5,7 @@
     {test:/^class8-ssc/,name:'Class 8 Telangana SSC',links:[['class8-ssc.html','Course home']]},
     {test:/^(class10-|mission600)/,name:'Class 10 SSC',links:[['class10-board.html','Board course'],['class10-lectures.html','Video lectures'],['mission600.html','Mission 600'],['mission600-dpp.html','DPP library']]},
     {test:/^sa1-booster/,name:'Class 10 SA-1 Booster',links:[['sa1-booster.html','Booster home'],['sa1-booster-maths.html','Mathematics'],['sa1-booster-physical-science.html','Physical Science'],['sa1-booster-biology.html','Biology'],['sa1-booster-social.html','Social Studies'],['sa1-booster-model-papers.html','Model papers']]},
-    {test:/^(neet-|ncert-quest|physics-formulas)/,name:'NEET-UG',links:[['preview-v2.html?course=neet#neet','NEET dashboard'],['preview-v2.html?course=neet#neet-mcq-progress','My MCQ progress'],['preview-v2.html?course=neet#high-yield','High Yield MCQs'],['neet-ranker-free.html','Ranker MCQs'],['ncert-quest.html','NCERT Quest'],['physics-formulas.html','Physics formulas'],['neet-kota-biology.html','Kota Biology']]},
+    {test:/^(neet-|ncert-quest|physics-formulas)/,name:'NEET-UG',links:[['preview-v2.html?course=neet#neet','NEET dashboard'],['preview-v2.html?course=neet#neet-mcq-progress','My MCQ progress'],['preview-v2.html?course=neet#high-yield','High Yield MCQs'],['neet-ranker-free.html','Ranker MCQs'],['ncert-quest.html','NCERT Quest'],['preview-v2.html?course=neet#neet-diagrams','Diagrams & Tables'],['physics-formulas.html','Physics formulas'],['neet-kota-biology.html','Kota Biology']]},
     {test:/^(jee)/,name:'IIT-JEE',links:[['jee.html','JEE course'],['jee-rigid-body-free.html','Rotational Motion']]},
     {test:/^preview-v2/,name:'Learning Portal',links:[['student.html','My courses']]},
   ];
