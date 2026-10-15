@@ -33,7 +33,7 @@ if (kotaActual !== kotaCatalog.totalQuestions) throw Error("Kota catalog total i
 if (rankerActual !== ranker.totalMcqs) throw Error("Ranker catalog total is inaccurate");
 if (pyq.questions.length !== 180) throw Error("NEET 2025 PYQ count is inaccurate");
 if (sum(base, (row) => row.base + row.expansion) !== 42650) throw Error("Chapter-wise NEET bank is not 42,650");
-if (sum(base, (row) => row.highYield) !== 115000) throw Error("High Yield bank is not 115,000");
+if (sum(base, (row) => row.highYield) !== 135000) throw Error("High Yield bank is not 135,000");
 
 const subjectPyqs = pyq.questions.reduce((counts, question) => {
   const subject = question.subject === "Physics" ? "physics" : question.subject === "Chemistry" ? "chemistry" : "biology";
@@ -69,7 +69,7 @@ const inventory = {
   },
 };
 
-if (totalPublishedMcqs !== 159916) throw Error(`Expected 159,916 published MCQs; found ${totalPublishedMcqs}`);
+if (totalPublishedMcqs !== 179916) throw Error(`Expected 179,916 published MCQs; found ${totalPublishedMcqs}`);
 if (Object.values(bySubject).reduce((total, row) => total + row.total, 0) !== totalPublishedMcqs)
   throw Error("Subject totals do not reconcile with the portal total");
 
