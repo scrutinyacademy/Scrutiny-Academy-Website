@@ -33,7 +33,7 @@ if (kotaActual !== kotaCatalog.totalQuestions) throw Error("Kota catalog total i
 if (rankerActual !== ranker.totalMcqs) throw Error("Ranker catalog total is inaccurate");
 if (pyq.questions.length !== 180) throw Error("NEET 2025 PYQ count is inaccurate");
 if (sum(base, (row) => row.base + row.expansion) !== 42650) throw Error("Chapter-wise NEET bank is not 42,650");
-if (sum(base, (row) => row.highYield) !== 275000) throw Error("High Yield bank is not 275,000");
+if (sum(base, (row) => row.highYield) !== 295000) throw Error("High Yield bank is not 295,000");
 
 const subjectPyqs = pyq.questions.reduce((counts, question) => {
   const subject = question.subject === "Physics" ? "physics" : question.subject === "Chemistry" ? "chemistry" : "biology";
@@ -58,7 +58,7 @@ const sections = {
 const totalPublishedMcqs = Object.values(sections).reduce((total, count) => total + count, 0);
 const inventory = {
   schemaVersion: 1,
-  auditedAt: "2026-10-15",
+  auditedAt: "2026-10-16",
   label: "Published inside the NEET UG student portal",
   totalPublishedMcqs,
   sections,
@@ -69,7 +69,7 @@ const inventory = {
   },
 };
 
-if (totalPublishedMcqs !== 319916) throw Error(`Expected 319,916 published MCQs; found ${totalPublishedMcqs}`);
+if (totalPublishedMcqs !== 339916) throw Error(`Expected 339,916 published MCQs; found ${totalPublishedMcqs}`);
 if (Object.values(bySubject).reduce((total, row) => total + row.total, 0) !== totalPublishedMcqs)
   throw Error("Subject totals do not reconcile with the portal total");
 
