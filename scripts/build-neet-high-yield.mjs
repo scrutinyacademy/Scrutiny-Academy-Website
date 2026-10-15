@@ -27,8 +27,8 @@ function sourceRows(subject,ch){
 }
 function hash(s){let h=2166136261;for(const c of s)h=Math.imul(h^c.charCodeAt(0),16777619);return h>>>0;}
 function rng(seed){return()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed>>>8;};}
-const counts={biology:27496,physics:13746,chemistry:13746};
-const report={release:'2026-10-15-high-yield-v2',added:55000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
+const counts={biology:37496,physics:18746,chemistry:18746};
+const report={release:'2026-10-15-high-yield-v2',added:75000,kind:'Original NCERT-mapped practice variants',syllabusReference:'https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/',subjects:{}};
 for(const subject of Object.keys(counts)){
  const base=JSON.parse(read(`data/neet/${subject}.json`));
  const chapters=[...base.chapters.map(ch=>({id:ch.id,name:ch.name,classLevel:ch.classLevel,rows:sourceRows(subject,ch)})),...(extra[subject]||[])];
