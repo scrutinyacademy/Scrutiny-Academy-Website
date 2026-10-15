@@ -1,41 +1,41 @@
 {
   "release": "2026-10-15-high-yield-v2",
-  "added": 195000,
+  "added": 215000,
   "kind": "Original NCERT-mapped practice variants",
   "syllabusReference": "https://neet.nta.nic.in/document/syllabus-for-neet-ug-2026-examination/",
   "subjects": {
     "biology": {
-      "added": 97500,
+      "added": 107500,
       "previous": 18700,
       "chapters": 32,
       "types": {
-        "Match-the-column": 91155,
-        "Statement I/II": 5691,
-        "Single correct": 650,
+        "Match-the-column": 100909,
+        "Statement I/II": 5812,
+        "Single correct": 775,
         "Image-based": 4
       }
     },
     "physics": {
-      "added": 48750,
+      "added": 53750,
       "previous": 13550,
       "chapters": 29,
       "types": {
-        "Numerical": 8910,
-        "Statement I/II": 9989,
-        "Match-the-column": 25877,
-        "Single correct": 3970,
+        "Numerical": 9572,
+        "Statement I/II": 10535,
+        "Match-the-column": 28639,
+        "Single correct": 5000,
         "Image-based": 4
       }
     },
     "chemistry": {
-      "added": 48750,
+      "added": 53750,
       "previous": 10400,
       "chapters": 21,
       "types": {
-        "Numerical": 1326,
-        "Statement I/II": 4576,
-        "Match-the-column": 36604,
-        "Single correct": 6240,
+        "Numerical": 1380,
+        "Statement I/II": 4867,
+        "Match-the-column": 39532,
+        "Single correct": 7967,
         "Image-based": 4
       }
     }
