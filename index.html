@@ -40,7 +40,7 @@
   <link rel="icon" href="assets/favicon.svg" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preload" href="assets/medical-hero-v2.webp" as="image" type="image/webp" />
-  <link rel="stylesheet" href="auth.css?v=3" />
+  <link rel="stylesheet" href="auth.css?v=4" />
   <link rel="stylesheet" href="physics-formulas.css?v=1">
 </head>
 <body class="medical-auth premium-home">
@@ -55,11 +55,11 @@
       <a href="#home" class="active">Home</a>
       <a href="#reviews">Review Us</a>
       <a href="#benefits">About</a>
-      <a href="#subjects">Subjects</a>
+      <a href="#subjects">Paid Courses</a>
       <a href="#neet-plan">NEET</a>
       <a href="references.html">Study Material</a>
       <a href="#pricing">Pricing</a>
-      <a href="arabic-learning.html">Free Arabic &amp; Quran</a>
+      <a href="#free-courses">Free Courses</a>
       <a class="login-pill" href="#authCard" data-auth-mode="login">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10 12 5l9 5-9 5-9-5Zm4 3.2V17c2.8 2 7.2 2 10 0v-3.8M20 11v6"/></svg>
         Student Login
@@ -139,32 +139,37 @@
       <div class="message" id="authMessage" role="status" aria-live="polite"></div>
     </section>
   </main>
-  <section class="free-ranker-section" id="free-arabic" aria-labelledby="freeArabicTitle">
-    <div class="free-ranker-copy"><span class="free-ranker-badge">100% FREE · ₹0 · NO LOGIN REQUIRED</span><span class="eyebrow">FREE ARABIC &amp; QURAN LEARNING</span><h2 id="freeArabicTitle">Learn Arabic &amp; Quran</h2><p>Learn Arabic from the beginning with Hindi, Hinglish, Urdu and English explanations.</p><p>Language &amp; Quran Learning · Absolute Beginner</p><p>28 alphabet practice lessons and a seven-level roadmap. Verified audio, Quran resources and teacher review pending.</p><a class="primary" href="arabic-learning.html">START LEARNING FREE →</a></div>
-  </section>
-  <section class="free-ranker-section" id="free-neet-ranker" aria-labelledby="freeRankerTitle">
-    <div class="free-ranker-copy">
-      <span class="free-ranker-badge">FREE · NO LOGIN REQUIRED</span>
-      <span class="eyebrow">EXPERIENCE SCRUTINY ACADEMY</span>
-      <h2 id="freeRankerTitle">Try the complete <em>Cell: The Unit of Life</em> NEET Ranker chapter FREE</h2>
-      <p>Practise all 214 answer-key verified Biology MCQs, including Concept Builder, AIPMT &amp; NEET PYQs, and NCERT &amp; Analytical questions.</p>
-      <div class="free-ranker-points"><span>✓ 214 MCQs</span><span>✓ Correct answers</span><span>✓ No payment</span><span>✓ No sign-in</span></div>
-      <div class="free-ranker-actions"><a class="free-ranker-start" href="neet-ranker-free.html">START FREE CHAPTER →</a><a class="free-ranker-login" href="#authCard" data-auth-mode="login">LOGIN &amp; UNLOCK THE ENTIRE COURSE</a></div>
-    </div>
-    <div class="free-ranker-preview" role="group" aria-label="Free chapter preview">
-      <span>NEET RANKER · BIOLOGY</span><strong>214</strong><b>MCQs ready</b><small>Cell: The Unit of Life</small>
-      <div><i>79</i> Concept Builder</div><div><i>80</i> NEET PYQs</div><div><i>55</i> NCERT &amp; Analytical</div>
-    </div>
-  </section>
-  <section class="reviews-section" id="sa1-booster-demo" aria-labelledby="sa1BoosterTitle">
-    <div class="reviews-head"><div><span class="eyebrow">FREE DEMO · LIMITED-TIME ACCESS</span><h2 id="sa1BoosterTitle">SA-1 BOOSTER Revision Sheets</h2><p>Premium Class 10 SSC Telangana revision resources. <s>₹49</s> <strong>Now FREE</strong> — start learning without payment.</p></div></div>
-    <div class="card" style="display:flex;gap:18px;align-items:center;justify-content:space-between;flex-wrap:wrap">
-      <div><h3 style="margin:0 0 6px">📐 Maths · ⚛️ Physical Science · 🧬 Biology · 🌍 Social available now</h3><p style="margin:0">Interactive sheets, flashcards and model papers with detailed answers — completely free.</p></div>
-      <a class="primary dashboard-button" href="sa1-booster.html">OPEN SA-1 BOOSTER →</a>
+  <section class="course-pricing-section free-course-section" id="free-courses" aria-labelledby="freeCoursesTitle">
+    <div class="course-pricing-head"><span class="eyebrow">EXPLORE FREE LEARNING</span><h2 id="freeCoursesTitle">FREE COURSES</h2><p>Start learning without payment or registration. Choose your free learning experience below.</p></div>
+    <div class="course-pricing-grid free-course-grid">
+      <article class="course-plan free-course-plan" id="free-arabic" aria-labelledby="freeArabicTitle">
+        <span class="plan-badge">100% FREE</span><span class="plan-icon" aria-hidden="true">📖</span>
+        <h3 id="freeArabicTitle">Learn Arabic &amp; Quran</h3><p class="regular-price">Language &amp; Quran Learning</p>
+        <div class="plan-price">₹0 <small>completely free</small></div><p class="offer-limit">Absolute beginner · no login required</p>
+        <ul><li>28 individual Arabic alphabet lessons</li><li>Hindi, Hinglish, Urdu &amp; English pronunciation guides</li><li>Letter recognition, quizzes &amp; revision</li><li>Saved learning progress</li><li>Seven-level learning roadmap</li></ul>
+        <p class="plan-validity">Practice drafts awaiting teacher review. Verified audio and Quran resources are pending.</p>
+        <a href="arabic-learning.html">START LEARNING FREE →</a>
+      </article>
+      <article class="course-plan free-course-plan" id="free-neet-ranker" aria-labelledby="freeRankerTitle">
+        <span class="plan-badge">FREE CHAPTER</span><span class="plan-icon" aria-hidden="true">🧬</span>
+        <h3 id="freeRankerTitle">NEET Ranker · Cell: The Unit of Life</h3><p class="regular-price">Free Biology chapter practice</p>
+        <div class="plan-price">₹0 <small>no payment</small></div><p class="offer-limit">No sign-in required</p>
+        <ul><li>214 answer-key verified Biology MCQs</li><li>79 Concept Builder questions</li><li>80 AIPMT &amp; NEET PYQs</li><li>55 NCERT &amp; Analytical questions</li><li>Correct answers and practice</li></ul>
+        <p class="plan-validity">This chapter is free. The complete NEET-UG course is listed separately under Paid Courses.</p>
+        <a href="neet-ranker-free.html">START FREE CHAPTER →</a>
+      </article>
+      <article class="course-plan free-course-plan" id="sa1-booster-demo" aria-labelledby="sa1BoosterTitle">
+        <span class="plan-badge">FREE DEMO</span><span class="plan-icon" aria-hidden="true">📐</span>
+        <h3 id="sa1BoosterTitle">SA-1 Booster Revision Sheets</h3><p class="regular-price">Class 10 SSC Telangana</p>
+        <div class="plan-price">₹0 <small>currently free</small></div><p class="offer-limit">Limited-time free demo access</p>
+        <ul><li>Mathematics</li><li>Physical Science</li><li>Biology &amp; Social Studies</li><li>Interactive revision sheets &amp; flashcards</li><li>Model papers with detailed answers</li></ul>
+        <p class="plan-validity">Start the available revision resources without payment.</p>
+        <a href="sa1-booster.html">OPEN FREE BOOSTER →</a>
+      </article>
     </div>
   </section>
   <section class="course-pricing-section" id="subjects" aria-labelledby="coursePlansTitle">
-    <div class="course-pricing-head"><span class="eyebrow">FOUNDING STUDENT OFFER</span><h2 id="coursePlansTitle">Our lowest launch prices—for the first 100 paid students.</h2><p id="studentOfferStatus">This website-wide student offer ends automatically when Scrutiny Academy reaches 100 paid students. Your payment unlocks only the course you select.</p></div>
+    <div class="course-pricing-head"><span class="eyebrow">FOUNDING STUDENT OFFER</span><h2 id="coursePlansTitle">PAID COURSES</h2><p>Our lowest launch prices—for the first 100 paid students.</p><p id="studentOfferStatus">This website-wide student offer ends automatically when Scrutiny Academy reaches 100 paid students. Your payment unlocks only the course you select.</p></div>
     <div class="course-pricing-grid">
       <article class="course-plan featured cbse6-plan" data-offer-card="class6"><span class="plan-badge">NEW · FLEXIBLE PLAN</span><span class="plan-icon">🎒</span><h3>Class 6 CBSE Subject Course</h3><p class="regular-price">Choose only what your child needs</p><div class="plan-price">₹69 <small>per subject / month</small></div><p class="offer-limit">Extra month = 3% more discount · up to ₹20 off</p><ul><li>Mathematics, Science &amp; Social Science separately</li><li>Simple chapter lessons and learning tricks</li><li>Flashcards and active recall</li><li>MCQs and important questions with answers</li><li>Progress and mistake review</li></ul><p class="plan-validity">Select 1–3 subjects and 1–12 months.</p><a href="#authCard" data-select-course="class6">BUILD MY CLASS 6 PLAN</a></article>
       <article class="course-plan" data-offer-card="class8"><span class="plan-badge">STUDENT OFFER</span><span class="plan-icon">🚀</span><h3>Class 8 SSC Complete Learning Course</h3><p class="regular-price">Future regular price <s>₹395</s></p><div class="plan-price">₹79 <small>one-time offer</small></div><p class="offer-limit">Lowest launch price · first 100 paid students</p><ul><li>SCERT-aligned learning</li><li>Visual notes & flashcards</li><li>Practice & chapter tests</li><li>Mistake Book & smart revision</li><li>Progress & exam planner</li></ul><p class="plan-validity">Built for Telangana Class 8 preparation.</p><a href="#authCard" data-select-course="class8">GET STUDENT OFFER</a></article><article class="course-plan" data-offer-card="class10"><span class="plan-badge">STUDENT OFFER</span><span class="plan-icon">📘</span><h3>Class 10 SSC Complete Course 2027</h3><p class="regular-price">Future regular price <s>₹495</s></p><div class="plan-price">₹99 <small>one-time offer</small></div><p class="offer-limit">Lowest launch price · first 100 paid students</p><ul><li>Lectures</li><li>Notes</li><li>Revision sheets</li><li>Flashcards</li><li>MCQs</li></ul><p class="plan-validity">Valid until your 2027 Class 10 board examinations conclude.</p><a href="#authCard" data-select-course="class10">GET STUDENT OFFER</a></article>
