@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const storage=new Map();globalThis.localStorage={getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)};
+const auth={currentUser:{uid:'alice'},authStateReady:async()=>{}};
+let cloud=null,denyRead=false,denyWrite=false,writes=[];
+globalThis.__arabicMocks={config:{firebaseConfig:{}},app:{getApps:()=>[{}],getApp:()=>({})},auth:{getAuth:()=>auth},fire:{getFirestore:()=>({}),doc:(_db,collection,uid)=>({collection,uid}),getDoc:async()=>{if(denyRead)throw Error('Permission denied');return {exists:()=>!!cloud,data:()=>({progress:cloud})};},setDoc:async(ref,data)=>{if(denyWrite)throw Error('Write denied');writes.push({ref,data});},serverTimestamp:()=>123}};
+let source=fs.readFileSync(new URL('../arabic-progress.js',import.meta.url),'utf8');
+source=source.replaceAll("import('./firebase-config.js')","Promise.resolve(globalThis.__arabicMocks.config)");
+for(const [file,key] of [['app','app'],['auth','auth'],['firestore','fire']])source=source.replaceAll(`import('https://www.gstatic.com/firebasejs/10.14.1/firebase-${file}.js')`,`Promise.resolve(globalThis.__arabicMocks.${key})`);
+const mod=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+mod.update(s=>s.completed.push('letter-01'));denyRead=true;
+await assert.rejects(mod.syncProgress(true),/Permission denied/);assert.deepEqual(mod.load().completed,['letter-01']);assert.equal(storage.get('scrutiny_arabic_v1:sync'),undefined);
+denyRead=false;denyWrite=true;await assert.rejects(mod.syncProgress(true),/Write denied/);assert.deepEqual(mod.load().completed,['letter-01']);
+denyWrite=false;await mod.syncProgress(false);assert.deepEqual(mod.load().completed,[],'guest data must not import without consent');assert.equal(writes[0].ref.uid,'alice');
+await mod.syncProgress(true);assert.deepEqual(mod.load().completed,['letter-01'],'explicit import merges guest practice');assert.equal(JSON.parse(storage.get('scrutiny_arabic_v1:guest')).completed[0],'letter-01');
+auth.currentUser={uid:'bob'};await mod.syncProgress(false);assert.deepEqual(mod.load().completed,[],'account switch must not copy Alice practice');assert.equal(writes.at(-1).ref.uid,'bob');
+auth.currentUser=null;await assert.rejects(mod.syncProgress(),/Sign in/);assert.deepEqual(mod.clean({version:1,scores:{bad:999},completed:[{},'letter-02']} ).completed,['letter-02']);
+console.log('PASS: sync failure preserves guest state, explicit import consent, UID isolation, private write paths and malformed data sanitation');

@@ -21,6 +21,7 @@ jobs:
           node scripts/validate-course-section-nav.mjs
           node scripts/validate-multi-course-switcher.mjs
           node tests/student-progress-isolation.cjs
+          node tests/arabic-progress.mjs
           node --check arabic-learning.js
           node --check arabic-lesson.js
       - name: Install browser
