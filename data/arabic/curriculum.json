@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "title": "Arabic alphabets",
+    "intro": "Recognise 28 letters and learn how their sounds differ.",
+    "status": "practice-draft",
+    "lessons": []
+  },
+  {
+    "id": 2,
+    "title": "Harakat",
+    "intro": "Read short vowels: Zabar, Zer and Pesh.",
+    "status": "practice-draft",
+    "lessons": [
+      {
+        "id": "level-2-1",
+        "title": "Fatha / Zabar",
+        "example": "بَ",
+        "body": "A small stroke above gives a short a sound: ba.",
+        "question": "Which mark is written above a letter?",
+        "options": [
+          "Fatha",
+          "Kasra"
+        ],
+        "answer": "Fatha"
+      },
+      {
+        "id": "level-2-2",
+        "title": "Kasra / Zer",
+        "example": "بِ",
+        "body": "A small stroke below gives a short i sound: bi.",
+        "question": "Which mark is written below?",
+        "options": [
+          "Damma",
+          "Kasra"
+        ],
+        "answer": "Kasra"
+      },
+      {
+        "id": "level-2-3",
+        "title": "Damma / Pesh",
+        "example": "بُ",
+        "body": "A small curl above gives a short u sound: bu. Keep vowels short.",
+        "question": "Which mark gives short u?",
+        "options": [
+          "Damma",
+          "Fatha"
+        ],
+        "answer": "Damma"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Joining Arabic letters",
+    "intro": "Read from right to left and recognise contextual forms.",
+    "status": "practice-draft",
+    "lessons": [
+      {
+        "id": "level-3-1",
+        "title": "Four forms",
+        "example": "ب ـبـ بـ ـب",
+        "body": "A joining letter can have isolated, initial, medial and final forms. Position changes shape, not identity.",
+        "question": "Does a contextual shape change the letter identity?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": "level-3-2",
+        "title": "One-way joining",
+        "example": "ا د ذ ر ز و",
+        "body": "These six letters do not connect to the next letter on their left. A preceding letter on the right may connect to them.",
+        "question": "Which letter does not join to the next on its left?",
+        "options": [
+          "ب",
+          "د"
+        ],
+        "answer": "د"
+      },
+      {
+        "id": "level-3-3",
+        "title": "Joined practice",
+        "example": "بَتَ كَتَبَ",
+        "body": "Track each consonant and its vowel from right to left. The second example is kataba. Ask a teacher to check your reading.",
+        "question": "Arabic is read in which direction?",
+        "options": [
+          "Left to right",
+          "Right to left"
+        ],
+        "answer": "Right to left"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Noorani Qaida basics",
+    "intro": "Build reading skills with marks and short combinations.",
+    "status": "practice-draft",
+    "lessons": [
+      {
+        "id": "level-4-1",
+        "title": "Sukoon",
+        "example": "بْ",
+        "body": "Sukoon indicates no vowel after a consonant. Practise in a syllable with your teacher.",
+        "question": "Sukoon means:",
+        "options": [
+          "No vowel",
+          "Double vowel"
+        ],
+        "answer": "No vowel"
+      },
+      {
+        "id": "level-4-2",
+        "title": "Shaddah / Tashdeed",
+        "example": "بّ",
+        "body": "Shaddah doubles a consonant: the first part is without a vowel and the second carries a vowel.",
+        "question": "Shaddah indicates:",
+        "options": [
+          "A doubled consonant",
+          "A silent letter"
+        ],
+        "answer": "A doubled consonant"
+      },
+      {
+        "id": "level-4-3",
+        "title": "Tanween",
+        "example": "بً بٍ بٌ",
+        "body": "Two vowel marks add a final n sound when connecting. Stopping rules differ.",
+        "question": "Tanween adds which sound in connected reading?",
+        "options": [
+          "n",
+          "m"
+        ],
+        "answer": "n"
+      },
+      {
+        "id": "level-4-4",
+        "title": "Madd",
+        "example": "بَا بِي بُو",
+        "body": "Long aa, ee and oo use suitable vowel letters. Basic natural madd is two counts; other madd rules depend on context.",
+        "question": "Basic natural madd lasts:",
+        "options": [
+          "Two counts",
+          "Always six counts"
+        ],
+        "answer": "Two counts"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tajweed foundations",
+    "intro": "A reading introduction; practical recitation needs a qualified teacher.",
+    "status": "practice-draft",
+    "lessons": [
+      {
+        "id": "level-5-1",
+        "title": "Makharij and letter weight",
+        "example": "ق ك",
+        "body": "Makharij are articulation points. Heavy letters are خ ص ض غ ط ق ظ. Do not make every letter heavy.",
+        "question": "Are qaaf and kaaf identical?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": "level-5-2",
+        "title": "Qalqalah",
+        "example": "ق ط ب ج د",
+        "body": "When sakin, these letters have a controlled release or echo. Do not add a full vowel.",
+        "question": "Should you add a full vowel in qalqalah?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No"
+      },
+      {
+        "id": "level-5-3",
+        "title": "Ghunnah",
+        "example": "نّ مّ",
+        "body": "Noon and meem with shaddah have a nasal sound held for two counts in standard beginner teaching.",
+        "question": "Ghunnah uses:",
+        "options": [
+          "Nasal resonance",
+          "Only the lips"
+        ],
+        "answer": "Nasal resonance"
+      },
+      {
+        "id": "level-5-4",
+        "title": "Noon sakinah and tanween",
+        "example": "نْ",
+        "body": "Izhar: clear before ء ه ع ح غ خ. Idgham: merging before ي ر م ل و ن, with details for nasalisation. Iqlab: conversion before ب. Ikhfa: concealment before the remaining 15 letters. Apply only with guided examples.",
+        "question": "Iqlab occurs before:",
+        "options": [
+          "ب",
+          "ق"
+        ],
+        "answer": "ب"
+      },
+      {
+        "id": "level-5-5",
+        "title": "Meem sakinah",
+        "example": "مْ",
+        "body": "Before ب: ikhfa shafawi. Before م: idgham shafawi. Before other letters: izhar shafawi. Practise with a teacher.",
+        "question": "Meem sakinah before meem uses:",
+        "options": [
+          "Idgham shafawi",
+          "Izhar shafawi"
+        ],
+        "answer": "Idgham shafawi"
+      },
+      {
+        "id": "level-5-6",
+        "title": "Madd and stopping signs",
+        "example": "م لا ج",
+        "body": "Madd length depends on its cause and recitation method. Common stop signs: م indicates a required stop; لا indicates do not stop; ج permits a stop. Meaning and breath also matter.",
+        "question": "Which sign commonly permits a stop?",
+        "options": [
+          "ج",
+          "لا"
+        ],
+        "answer": "ج"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Quran reading",
+    "intro": "Verified Uthmani text, translations and licensed recitation are awaiting resource and teacher approval.",
+    "status": "pending-verification",
+    "lessons": []
+  },
+  {
+    "id": 7,
+    "title": "Short Surah learning",
+    "intro": "Al-Fatihah, Al-Ikhlas, Al-Falaq, An-Nas, Al-Kawthar and Al-Asr will be released after verification.",
+    "status": "pending-verification",
+    "lessons": []
+  }
+]

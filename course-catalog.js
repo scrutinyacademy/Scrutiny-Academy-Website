@@ -151,3 +151,6 @@ export function entitledCourses(profile = {}) {
   }
   return [];
 }
+
+// Public learning routes are deliberately separate from checkout and entitlements.
+export const FREE_COURSE_CATALOG = { arabic: { id: 'arabic', name: 'Learn Arabic & Quran', category: 'Language & Quran Learning', level: 'Absolute Beginner', price: 0, free: true, url: 'arabic-learning.html', languages: ['Hindi','Hinglish','Urdu','English'] } };

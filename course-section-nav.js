@@ -1,6 +1,7 @@
 (() => {
   const page = location.pathname.split('/').pop() || 'index.html';
   const batches = [
+    {test:/^arabic-/,name:'Free Arabic & Quran',links:[['arabic-learning.html','Course overview'],['arabic-learning.html#alphabet','Alphabet'],['arabic-learning.html#practice','Revision'],['arabic-learning.html#quran','Quran resource status']]},
     {test:/^(class6-)/,name:'Class 6 CBSE',links:[['class6-cbse.html','Course home'],['class6-mathematics.html','Mathematics']]},
     {test:/^class8-ssc/,name:'Class 8 Telangana SSC',links:[['class8-ssc.html','Course home']]},
     {test:/^(class10-|mission600)/,name:'Class 10 SSC',links:[['class10-board.html','Board course'],['class10-lectures.html','Video lectures'],['mission600.html','Mission 600'],['mission600-dpp.html','DPP library']]},
@@ -22,7 +23,7 @@
     const found=[...document.querySelectorAll('main section[id],main [role="region"][id]')].filter(visible).filter((el,i,a)=>a.indexOf(el)===i).map(el=>[el.id,titleFor(el)]).filter(([,label])=>label&&label.length<90).slice(0,24);
     const sectionNav=drawer.querySelector('.sa-page-sections');sectionNav.innerHTML=found.length?'<span>ON THIS PAGE</span>'+found.map(([id,label],i)=>`<button type="button" data-target="${id}"><i>${String(i+1).padStart(2,'0')}</i>${label}</button>`).join(''):'<p>This page has one learning activity.</p>';
     sectionNav.querySelectorAll('[data-target]').forEach(item=>item.onclick=()=>{close();document.getElementById(item.dataset.target)?.scrollIntoView({behavior:'smooth',block:'start'});});
-    const unique=batch.links.filter(([href],i,a)=>a.findIndex(x=>x[0]===href)===i);drawer.querySelector('.sa-batch-links').innerHTML='<span>BATCH SHORTCUTS</span>'+unique.map(([href,label])=>`<a href="${href}"${href.split('#')[0]===page?' aria-current="page"':''}>${label}</a>`).join('');
+    const unique=[...batch.links,['arabic-learning.html','Free Arabic & Quran']].filter(([href],i,a)=>a.findIndex(x=>x[0]===href)===i);drawer.querySelector('.sa-batch-links').innerHTML='<span>BATCH SHORTCUTS</span>'+unique.map(([href,label])=>`<a href="${href}"${href.split('#')[0]===page?' aria-current="page"':''}>${label}</a>`).join('');
   }
   function open(){render();drawer.hidden=false;backdrop.hidden=false;drawer.setAttribute('aria-hidden','false');button.setAttribute('aria-expanded','true');document.documentElement.classList.add('sa-nav-open');drawer.querySelector('.sa-nav-close').focus();}
   function close(){drawer.hidden=true;backdrop.hidden=true;drawer.setAttribute('aria-hidden','true');button.setAttribute('aria-expanded','false');document.documentElement.classList.remove('sa-nav-open');}

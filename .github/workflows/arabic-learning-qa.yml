@@ -1,0 +1,33 @@
+name: Free Arabic Learning QA
+on:
+  pull_request:
+    paths: ['arabic-*', 'data/arabic/**', 'tests/arabic-*', '.github/workflows/arabic-learning-qa.yml']
+  push:
+    branches: [main]
+    paths: ['arabic-*', 'data/arabic/**', 'tests/arabic-*']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  guest-learning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Existing access and navigation regression tests
+        run: |
+          node scripts/validate-course-section-nav.mjs
+          node scripts/validate-multi-course-switcher.mjs
+          node tests/student-progress-isolation.cjs
+          node --check arabic-learning.js
+          node --check arabic-lesson.js
+      - name: Install browser
+        run: |
+          npm install --prefix "$RUNNER_TEMP/arabic-browser" --no-save playwright@1.58.2
+          node "$RUNNER_TEMP/arabic-browser/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Test guest lessons and responsive layout
+        env:
+          NODE_PATH: ${{ runner.temp }}/arabic-browser/node_modules
+        run: node tests/arabic-learning.cjs
