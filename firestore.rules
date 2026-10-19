@@ -276,57 +276,61 @@ service cloud.firestore {
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['readAt']);
     }
 
+    function validArabicScore(scores, key) {
+      let value = scores.get(key, 0);
+      return value is int && value >= 0 && value <= 100;
+    }
     function validArabicScores(scores) {
       return scores.keys().hasOnly(['letter-01', 'letter-02', 'letter-03', 'letter-04', 'letter-05', 'letter-06', 'letter-07', 'letter-08', 'letter-09', 'letter-10', 'letter-11', 'letter-12', 'letter-13', 'letter-14', 'letter-15', 'letter-16', 'letter-17', 'letter-18', 'letter-19', 'letter-20', 'letter-21', 'letter-22', 'letter-23', 'letter-24', 'letter-25', 'letter-26', 'letter-27', 'letter-28', 'level-2-1', 'level-2-2', 'level-2-3', 'level-3-1', 'level-3-2', 'level-3-3', 'level-4-1', 'level-4-2', 'level-4-3', 'level-4-4', 'level-5-1', 'level-5-2', 'level-5-3', 'level-5-4', 'level-5-5', 'level-5-6', 'revision', 'level-2', 'level-3', 'level-4', 'level-5'])
-        && scores.get('letter-01', 0) is int && scores.get('letter-01', 0) >= 0 && scores.get('letter-01', 0) <= 100
-        && scores.get('letter-02', 0) is int && scores.get('letter-02', 0) >= 0 && scores.get('letter-02', 0) <= 100
-        && scores.get('letter-03', 0) is int && scores.get('letter-03', 0) >= 0 && scores.get('letter-03', 0) <= 100
-        && scores.get('letter-04', 0) is int && scores.get('letter-04', 0) >= 0 && scores.get('letter-04', 0) <= 100
-        && scores.get('letter-05', 0) is int && scores.get('letter-05', 0) >= 0 && scores.get('letter-05', 0) <= 100
-        && scores.get('letter-06', 0) is int && scores.get('letter-06', 0) >= 0 && scores.get('letter-06', 0) <= 100
-        && scores.get('letter-07', 0) is int && scores.get('letter-07', 0) >= 0 && scores.get('letter-07', 0) <= 100
-        && scores.get('letter-08', 0) is int && scores.get('letter-08', 0) >= 0 && scores.get('letter-08', 0) <= 100
-        && scores.get('letter-09', 0) is int && scores.get('letter-09', 0) >= 0 && scores.get('letter-09', 0) <= 100
-        && scores.get('letter-10', 0) is int && scores.get('letter-10', 0) >= 0 && scores.get('letter-10', 0) <= 100
-        && scores.get('letter-11', 0) is int && scores.get('letter-11', 0) >= 0 && scores.get('letter-11', 0) <= 100
-        && scores.get('letter-12', 0) is int && scores.get('letter-12', 0) >= 0 && scores.get('letter-12', 0) <= 100
-        && scores.get('letter-13', 0) is int && scores.get('letter-13', 0) >= 0 && scores.get('letter-13', 0) <= 100
-        && scores.get('letter-14', 0) is int && scores.get('letter-14', 0) >= 0 && scores.get('letter-14', 0) <= 100
-        && scores.get('letter-15', 0) is int && scores.get('letter-15', 0) >= 0 && scores.get('letter-15', 0) <= 100
-        && scores.get('letter-16', 0) is int && scores.get('letter-16', 0) >= 0 && scores.get('letter-16', 0) <= 100
-        && scores.get('letter-17', 0) is int && scores.get('letter-17', 0) >= 0 && scores.get('letter-17', 0) <= 100
-        && scores.get('letter-18', 0) is int && scores.get('letter-18', 0) >= 0 && scores.get('letter-18', 0) <= 100
-        && scores.get('letter-19', 0) is int && scores.get('letter-19', 0) >= 0 && scores.get('letter-19', 0) <= 100
-        && scores.get('letter-20', 0) is int && scores.get('letter-20', 0) >= 0 && scores.get('letter-20', 0) <= 100
-        && scores.get('letter-21', 0) is int && scores.get('letter-21', 0) >= 0 && scores.get('letter-21', 0) <= 100
-        && scores.get('letter-22', 0) is int && scores.get('letter-22', 0) >= 0 && scores.get('letter-22', 0) <= 100
-        && scores.get('letter-23', 0) is int && scores.get('letter-23', 0) >= 0 && scores.get('letter-23', 0) <= 100
-        && scores.get('letter-24', 0) is int && scores.get('letter-24', 0) >= 0 && scores.get('letter-24', 0) <= 100
-        && scores.get('letter-25', 0) is int && scores.get('letter-25', 0) >= 0 && scores.get('letter-25', 0) <= 100
-        && scores.get('letter-26', 0) is int && scores.get('letter-26', 0) >= 0 && scores.get('letter-26', 0) <= 100
-        && scores.get('letter-27', 0) is int && scores.get('letter-27', 0) >= 0 && scores.get('letter-27', 0) <= 100
-        && scores.get('letter-28', 0) is int && scores.get('letter-28', 0) >= 0 && scores.get('letter-28', 0) <= 100
-        && scores.get('level-2-1', 0) is int && scores.get('level-2-1', 0) >= 0 && scores.get('level-2-1', 0) <= 100
-        && scores.get('level-2-2', 0) is int && scores.get('level-2-2', 0) >= 0 && scores.get('level-2-2', 0) <= 100
-        && scores.get('level-2-3', 0) is int && scores.get('level-2-3', 0) >= 0 && scores.get('level-2-3', 0) <= 100
-        && scores.get('level-3-1', 0) is int && scores.get('level-3-1', 0) >= 0 && scores.get('level-3-1', 0) <= 100
-        && scores.get('level-3-2', 0) is int && scores.get('level-3-2', 0) >= 0 && scores.get('level-3-2', 0) <= 100
-        && scores.get('level-3-3', 0) is int && scores.get('level-3-3', 0) >= 0 && scores.get('level-3-3', 0) <= 100
-        && scores.get('level-4-1', 0) is int && scores.get('level-4-1', 0) >= 0 && scores.get('level-4-1', 0) <= 100
-        && scores.get('level-4-2', 0) is int && scores.get('level-4-2', 0) >= 0 && scores.get('level-4-2', 0) <= 100
-        && scores.get('level-4-3', 0) is int && scores.get('level-4-3', 0) >= 0 && scores.get('level-4-3', 0) <= 100
-        && scores.get('level-4-4', 0) is int && scores.get('level-4-4', 0) >= 0 && scores.get('level-4-4', 0) <= 100
-        && scores.get('level-5-1', 0) is int && scores.get('level-5-1', 0) >= 0 && scores.get('level-5-1', 0) <= 100
-        && scores.get('level-5-2', 0) is int && scores.get('level-5-2', 0) >= 0 && scores.get('level-5-2', 0) <= 100
-        && scores.get('level-5-3', 0) is int && scores.get('level-5-3', 0) >= 0 && scores.get('level-5-3', 0) <= 100
-        && scores.get('level-5-4', 0) is int && scores.get('level-5-4', 0) >= 0 && scores.get('level-5-4', 0) <= 100
-        && scores.get('level-5-5', 0) is int && scores.get('level-5-5', 0) >= 0 && scores.get('level-5-5', 0) <= 100
-        && scores.get('level-5-6', 0) is int && scores.get('level-5-6', 0) >= 0 && scores.get('level-5-6', 0) <= 100
-        && scores.get('revision', 0) is int && scores.get('revision', 0) >= 0 && scores.get('revision', 0) <= 100
-        && scores.get('level-2', 0) is int && scores.get('level-2', 0) >= 0 && scores.get('level-2', 0) <= 100
-        && scores.get('level-3', 0) is int && scores.get('level-3', 0) >= 0 && scores.get('level-3', 0) <= 100
-        && scores.get('level-4', 0) is int && scores.get('level-4', 0) >= 0 && scores.get('level-4', 0) <= 100
-        && scores.get('level-5', 0) is int && scores.get('level-5', 0) >= 0 && scores.get('level-5', 0) <= 100
+        && validArabicScore(scores, 'letter-01')
+        && validArabicScore(scores, 'letter-02')
+        && validArabicScore(scores, 'letter-03')
+        && validArabicScore(scores, 'letter-04')
+        && validArabicScore(scores, 'letter-05')
+        && validArabicScore(scores, 'letter-06')
+        && validArabicScore(scores, 'letter-07')
+        && validArabicScore(scores, 'letter-08')
+        && validArabicScore(scores, 'letter-09')
+        && validArabicScore(scores, 'letter-10')
+        && validArabicScore(scores, 'letter-11')
+        && validArabicScore(scores, 'letter-12')
+        && validArabicScore(scores, 'letter-13')
+        && validArabicScore(scores, 'letter-14')
+        && validArabicScore(scores, 'letter-15')
+        && validArabicScore(scores, 'letter-16')
+        && validArabicScore(scores, 'letter-17')
+        && validArabicScore(scores, 'letter-18')
+        && validArabicScore(scores, 'letter-19')
+        && validArabicScore(scores, 'letter-20')
+        && validArabicScore(scores, 'letter-21')
+        && validArabicScore(scores, 'letter-22')
+        && validArabicScore(scores, 'letter-23')
+        && validArabicScore(scores, 'letter-24')
+        && validArabicScore(scores, 'letter-25')
+        && validArabicScore(scores, 'letter-26')
+        && validArabicScore(scores, 'letter-27')
+        && validArabicScore(scores, 'letter-28')
+        && validArabicScore(scores, 'level-2-1')
+        && validArabicScore(scores, 'level-2-2')
+        && validArabicScore(scores, 'level-2-3')
+        && validArabicScore(scores, 'level-3-1')
+        && validArabicScore(scores, 'level-3-2')
+        && validArabicScore(scores, 'level-3-3')
+        && validArabicScore(scores, 'level-4-1')
+        && validArabicScore(scores, 'level-4-2')
+        && validArabicScore(scores, 'level-4-3')
+        && validArabicScore(scores, 'level-4-4')
+        && validArabicScore(scores, 'level-5-1')
+        && validArabicScore(scores, 'level-5-2')
+        && validArabicScore(scores, 'level-5-3')
+        && validArabicScore(scores, 'level-5-4')
+        && validArabicScore(scores, 'level-5-5')
+        && validArabicScore(scores, 'level-5-6')
+        && validArabicScore(scores, 'revision')
+        && validArabicScore(scores, 'level-2')
+        && validArabicScore(scores, 'level-3')
+        && validArabicScore(scores, 'level-4')
+        && validArabicScore(scores, 'level-5')
         ;
     }
 
