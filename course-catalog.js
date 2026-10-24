@@ -20,7 +20,7 @@ export function arabicMonthlyPrice(profile = {}) {
   return profile.requestedCourse && profile.requestedCourse !== "arabic" ? 299 : 399;
 }
 export const COURSE_CATALOG = {
-  arabic: {id:"arabic", name:"Learn Arabic & Quran", shortName:"Arabic & Quran", price:399, regularPrice:399, icon:"۞", validity:"Subscription access: 1, 3 or 6 months; renew to continue", includes:["28 Arabic alphabet lessons", "Hindi, Hinglish, Urdu & English pronunciation guides", "Reading practice and quizzes", "Saved progress and revision", "Quran learning roadmap; verified resources pending"]},
+  arabic: {id:"arabic", name:"Learn Arabic & Quran", shortName:"Arabic & Quran", price:399, regularPrice:399, icon:"", validity:"Subscription access: 1, 3 or 6 months; renew to continue", includes:["28 Arabic alphabet lessons", "Hindi, Hinglish, Urdu & English pronunciation guides", "Reading practice and quizzes", "Saved progress and revision", "Quran learning roadmap; verified resources pending"]},
   class6: {
     id: "class6",
     name: "Class 6 CBSE Subject Course",
