@@ -12,7 +12,7 @@ const paymentHtml=read('payment.html');
 const backend=read('functions/index.js');
 const courseIds=Object.keys(COURSE_CATALOG);
 
-assert.deepEqual(courseIds,['class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']);
+assert.deepEqual(courseIds,['arabic','class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']);
 assert.ok(studentHtml.includes('id="courseSwitchMenu"'));
 assert.ok(studentHtml.includes('id="courseSwitchList"'));
 assert.ok(studentJs.includes('Object.entries(COURSE_CATALOG)'),'Switcher must render every catalog course');

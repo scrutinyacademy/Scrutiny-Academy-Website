@@ -3,8 +3,24 @@ const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),
 const root=path.resolve(__dirname,'..'),types={'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml'};
 const server=http.createServer((req,res)=>{const file=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);return res.end();}res.setHeader('Content-Type',types[path.extname(file)]||'text/plain');res.end(fs.readFileSync(file));});
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true}),page=await browser.newPage(),base=`http://127.0.0.1:${server.address().port}`;const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await page.goto(base+'/arabic-learning.html');await page.waitForSelector('.letter-link');assert.equal(await page.locator('.letter-link').count(),28);assert.match(await page.locator('#quran').innerText(),/pending verified/);
-const letters=JSON.parse(fs.readFileSync(path.join(root,'data/arabic/alphabet.json')));
+const fixture=require('../functions/arabic-content.cjs');
+let authorized=false;
+const realAccess=fs.readFileSync(path.join(root,'arabic-access.js'),'utf8');
+await page.route('**/arabic-access.js*',route=>{
+ if(authorized)return route.fulfill({contentType:'text/javascript',body:`export async function requireArabicAccess(){return true;} export async function arabicData(name){return ${JSON.stringify(fixture)}[name];}`});
+ const body=realAccess.replace(/^import .* from .*;$/gm,line=>line.includes('course-catalog')?line:'');
+ return route.fulfill({contentType:'text/javascript',body:`const firebaseConfig={};const getApps=()=>[{}],getApp=()=>({}),initializeApp=()=>({}),getAuth=()=>({currentUser:null,authStateReady:async()=>{}}),onAuthStateChanged=()=>{},getFirestore=()=>({}),doc=()=>({}),getDoc=()=>({}),getFunctions=()=>({}),httpsCallable=()=>()=>{throw Error('Unauthenticated content request');};
+`+body});
+});
+await page.goto(base+'/arabic-learning.html');await page.waitForSelector('#arabicSubscribe');
+assert.equal(await page.locator('.letter-link').count(),0);
+assert.match(await page.locator('.arabic-rate').innerText(),/399/);
+await page.locator('[name="arabicTerm"][value="6"]').check();
+assert.match(await page.locator('#arabicPaySummary').innerText(),/1,915.2/);
+assert.match(await page.locator('#arabicSubscribe').getAttribute('href'),/course=arabic&months=6/);
+authorized=true;
+await page.goto(base+'/arabic-learning.html?authorized-fixture');await page.waitForSelector('.letter-link');assert.equal(await page.locator('.letter-link').count(),28);assert.match(await page.locator('#quran').innerText(),/pending verified/);
+const letters=fixture.alphabet;
 for(const l of letters){await page.goto(base+'/arabic-lesson.html?id='+l.id);await page.waitForSelector('.main-letter');assert.equal(await page.locator('.main-letter').innerText(),l.letter);await page.selectOption('#language','ur');assert.equal(await page.locator('[data-language]:visible').count(),1);assert.match(await page.locator('#audioArea').innerText(),/pending/);}
 await page.goto(base+'/arabic-lesson.html?id=letter-02');await page.waitForSelector('#learned');await page.click('#learned');await page.reload();await page.waitForSelector('#learned');assert.match(await page.locator('#learned').innerText(),/Studied/);
 // Answer every question correctly and verify persisted score.
@@ -12,4 +28,4 @@ for(const answer of ['ب','1','Baa']){await page.locator('#lessonQuiz .answers b
 assert.match(await page.locator('#lessonQuiz').innerText(),/100%/);const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('scrutiny_arabic_v1:guest')));assert.equal(saved.scores['letter-02'],100);assert.ok(saved.completed.includes('letter-02'));
 await page.goto(base+'/arabic-learning.html');await page.waitForSelector('#daily');await page.click('#daily');assert.equal(await page.locator('#practiceQuiz .answers button').count(),4);
 for(const width of [360,390,820,1440]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'overflow at '+width);await page.goto(base+'/arabic-lesson.html?id=letter-18');await page.waitForSelector('.main-letter');assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'lesson overflow at '+width);await page.goto(base+'/arabic-learning.html');await page.waitForSelector('.letter-link');}
-await page.goto(base+'/arabic-lesson.html?id=invalid');await page.waitForFunction(()=>document.querySelector('main').textContent.includes('Lesson not found'));assert.deepEqual(errors,[]);console.log('PASS: 28 guest lessons, language selection, quizzes, saved progress, daily challenge, pending resources, invalid routes and responsive widths');await browser.close();server.close();})().catch(e=>{console.error(e);server.close();process.exit(1);});
+await page.goto(base+'/arabic-lesson.html?id=invalid');await page.waitForFunction(()=>document.querySelector('main').textContent.includes('Lesson not found'));assert.deepEqual(errors,[]);console.log('PASS: paid landing, term totals, gated resources and 28 authorized fixture lessons, language selection, quizzes, saved progress, daily challenge, pending resources, invalid routes and responsive widths');await browser.close();server.close();})().catch(e=>{console.error(e);server.close();process.exit(1);});

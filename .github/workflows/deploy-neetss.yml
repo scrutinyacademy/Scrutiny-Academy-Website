@@ -7,6 +7,7 @@ on:
       - "firestore.rules"
       - "functions/index.js"
       - "functions/neetss-*.cjs"
+      - "functions/arabic-content.cjs"
       - ".github/workflows/deploy-neetss.yml"
   workflow_dispatch:
 
@@ -47,11 +48,22 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           GOOGLE_APPLICATION_CREDENTIALS: ${{ runner.temp }}/firebase-adc.json
         run: |
-          node -e 'const fs=require("fs");const service=process.env.FIREBASE_SERVICE_ACCOUNT;const token=process.env.FIREBASE_TOKEN;if(!service&&!token)throw new Error("Add FIREBASE_SERVICE_ACCOUNT or FIREBASE_TOKEN in GitHub Actions secrets.");const credentials=service?JSON.parse(service):{type:"authorized_user",client_id:"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",client_secret:"j9iVZfS8kkCEFUPaAeJV0sAi",refresh_token:token};fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS,JSON.stringify(credentials),{mode:0o600})'
-          echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS" >> "$GITHUB_ENV"
+          node <<'NODE'
+          const fs = require('fs');
+          const service = process.env.FIREBASE_SERVICE_ACCOUNT;
+          const token = process.env.FIREBASE_TOKEN;
+          if (service) {
+            fs.writeFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS, JSON.stringify(JSON.parse(service)), {mode: 0o600});
+            fs.appendFileSync(process.env.GITHUB_ENV, `GOOGLE_APPLICATION_CREDENTIALS=${process.env.GOOGLE_APPLICATION_CREDENTIALS}\n`);
+          } else if (token) {
+            fs.appendFileSync(process.env.GITHUB_ENV, `FIREBASE_TOKEN=${token}\n`);
+          } else {
+            throw new Error('Add FIREBASE_SERVICE_ACCOUNT or FIREBASE_TOKEN in GitHub Actions secrets.');
+          }
+          NODE
       - name: Deploy NEET-SS rules and secure payment functions
         run: >-
           npx --yes firebase-tools@15.33.0 deploy
           --project scrutiny-academy
           --non-interactive
-          --only firestore:rules,functions:getNeetssCourseContent,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess
+          --only functions:getArabicCourseContent,firestore:rules,functions:getNeetssCourseContent,functions:getStudentOfferStatus,functions:createRazorpayOrder,functions:verifyRazorpayPayment,functions:syncRazorpayPayment,functions:razorpayWebhook,functions:setNeetssComplimentaryAccess

@@ -1,5 +1,5 @@
 import { firebaseConfig } from './firebase-config.js';
-import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=4';
+import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=5';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
@@ -88,6 +88,8 @@ if(!configured){
   msg('Firebase configuration is unavailable. Please contact scrutinyacademy@gmail.com.','error');
 } else {
   const app=initializeApp(firebaseConfig), auth=getAuth(app), db=getFirestore(app);
+  const initialCourse = new URLSearchParams(location.search).get('course');
+  if (COURSE_CATALOG[initialCourse] && courseSelect) { courseSelect.value=initialCourse; const initialMonths=Number(new URLSearchParams(location.search).get('months')); if([1,3,6].includes(initialMonths)) subscriptionSelect.value=String(initialMonths); updateCourseSelection(); }
   const getOfferStatus=httpsCallable(getFunctions(app,'asia-south1'),'getStudentOfferStatus');
   getOfferStatus().then(({data})=>updateOfferPresentation(data)).catch(error=>console.warn('Student offer status unavailable:',error));
 
@@ -99,7 +101,8 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',user.uid));
       const profile=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(user,true)).claims.founder===true;
-      if(profile.accessStatus==='active'||founder) location.replace('student.html');
+      if(initialCourse==='arabic') location.replace(`payment.html?course=arabic&months=${subscriptionSelect?.value || 1}`);
+      else if(profile.accessStatus==='active'||founder) location.replace('student.html');
       else if(location.pathname.endsWith('login.html') || /\/$/.test(location.pathname) || location.pathname.endsWith('index.html')) location.replace('payment.html');
     } catch (err) {
       console.error('Scrutiny Academy profile check failed:', err);
@@ -113,7 +116,8 @@ if(!configured){
       const snap=await getDoc(doc(db,'students',cred.user.uid));
       const p=snap.exists()?snap.data():{};
       const founder=(await getIdTokenResult(cred.user,true)).claims.founder===true;
-      if(p.accessStatus==='active'||founder) location.replace('student.html'); else location.replace('payment.html');
+      if(initialCourse==='arabic') location.replace(`payment.html?course=arabic&months=${subscriptionSelect?.value || 1}`);
+      else if(p.accessStatus==='active'||founder) location.replace('student.html'); else location.replace('payment.html');
     }catch(err){ authActionInProgress=false; msg(friendly(err),'error'); console.error(err); }
   });
 

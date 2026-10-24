@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
-import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=4";
+import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=5";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -70,7 +70,7 @@ function renderClass6Picker() {
 }
 
 function displayedPrice() {
-  return purchaseCourseId === "class6" ? class6SelectionPrice().total : subscriptionPrice(purchaseCourseId, subscriptionMonths).total;
+  return purchaseCourseId === "class6" ? class6SelectionPrice().total : subscriptionPrice(purchaseCourseId, subscriptionMonths, currentProfile || {}).total;
 }
 
 function dateValue(value) {
@@ -144,10 +144,10 @@ function renderStatus(profile) {
   const course = COURSE_CATALOG[courseId];
   $("subscriptionMonths").value = String(subscriptionMonths);
   if (course && courseId !== "class6") [...$("subscriptionMonths").options].forEach(option => {
-    const pricing = subscriptionPrice(courseId, Number(option.value));
+    const pricing = subscriptionPrice(courseId, Number(option.value), currentProfile || {});
     option.textContent = `${option.value} month${option.value === "1" ? "" : "s"}${pricing.discountPercent ? ` — ${pricing.discountPercent}% off` : ""} · ₹${pricing.total.toLocaleString("en-IN")} total`;
   });
-  const pricing = courseId === "class6" ? class6SelectionPrice() : subscriptionPrice(courseId, subscriptionMonths);
+  const pricing = courseId === "class6" ? class6SelectionPrice() : subscriptionPrice(courseId, subscriptionMonths, currentProfile || {});
   if ($("subscriptionBreakdown")) $("subscriptionBreakdown").textContent = `Subtotal ₹${pricing.subtotal.toLocaleString("en-IN")} · Discount ${pricing.discountPercent}% (₹${pricing.discount.toLocaleString("en-IN")}) · Total payable ₹${pricing.total.toLocaleString("en-IN")} for ${pricing.months} month(s)`;
   const price = displayedPrice();
   if (course) {
@@ -157,7 +157,8 @@ function renderStatus(profile) {
       discount.hidden = true;
     }
     $("paymentCourseName").textContent = course.name;
-    $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
+    if (courseId === "arabic") $("paymentIncludes").textContent = `${currentProfile.requestedCourse && currentProfile.requestedCourse !== "arabic" ? "Existing student benefit: ₹299/month (regular ₹399/month)." : "New Arabic registration: ₹399/month."} Includes: ${course.includes.join(" • ")}`;
+    else $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
     $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : `${subscriptionMonths} month(s) from activation · renew at expiry`;
     const yearWrap = $("paymentNeetYearWrap");
     if (yearWrap) {

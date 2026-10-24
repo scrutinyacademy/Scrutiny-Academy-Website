@@ -16,7 +16,11 @@ export function class6Price(subjects = [], months = 1) {
   return { subjects: validSubjects, months: validMonths, subtotal, discountPercent, discount, total: Math.max(0, subtotal - discount) };
 }
 
+export function arabicMonthlyPrice(profile = {}) {
+  return profile.requestedCourse && profile.requestedCourse !== "arabic" ? 299 : 399;
+}
 export const COURSE_CATALOG = {
+  arabic: {id:"arabic", name:"Learn Arabic & Quran", shortName:"Arabic & Quran", price:399, regularPrice:399, icon:"۞", validity:"Subscription access: 1, 3 or 6 months; renew to continue", includes:["28 Arabic alphabet lessons", "Hindi, Hinglish, Urdu & English pronunciation guides", "Reading practice and quizzes", "Saved progress and revision", "Quran learning roadmap; verified resources pending"]},
   class6: {
     id: "class6",
     name: "Class 6 CBSE Subject Course",
@@ -150,11 +154,11 @@ export function entitledCourses(profile = {}) {
 }
 
 // Public learning routes are deliberately separate from checkout and entitlements.
-export const FREE_COURSE_CATALOG = { arabic: { id: 'arabic', name: 'Learn Arabic & Quran', category: 'Language & Quran Learning', level: 'Absolute Beginner', price: 0, free: true, url: 'arabic-learning.html', languages: ['Hindi','Hinglish','Urdu','English'] } };
+export const FREE_COURSE_CATALOG = {};
 
-export function subscriptionPrice(courseId, months = 1) {
+export function subscriptionPrice(courseId, months = 1, profile = {}) {
   months = [1,3,6].includes(Number(months)) ? Number(months) : 1;
-  const subtotal = (currentCoursePrice(courseId) || 0) * months;
+  const subtotal = (courseId === "arabic" ? arabicMonthlyPrice(profile) : currentCoursePrice(courseId) || 0) * months;
   const discountPercent = months === 6 ? 20 : months === 3 ? 10 : 0;
   const discount = Math.round(subtotal * discountPercent) / 100;
   return {months, subtotal, discountPercent, discount, total: Math.round((subtotal-discount)*100)/100};

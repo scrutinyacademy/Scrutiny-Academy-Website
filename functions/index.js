@@ -25,7 +25,11 @@ const CLASS6_SUBJECTS = {
   science: "Science",
   "social-science": "Social Science",
 };
+function arabicMonthlyPrice(profile = {}) {
+  return profile.requestedCourse && profile.requestedCourse !== "arabic" ? 299 : 399;
+}
 const COURSES = {
+  arabic: {name:"Learn Arabic & Quran", regularPrice:399, validityCode:"ARABIC_SUBSCRIPTION", validityLabel:"Arabic subscription access", features:["28 Arabic alphabet lessons", "Hindi, Hinglish, Urdu & English guides", "Reading practice and quizzes", "Progress tracking and revision", "Quran roadmap; verified resources pending"]},
   class6: { name: "Class 6 CBSE Subject Course", features: ["Chapter-wise concept learning and tricks", "Flashcards and active recall", "MCQs with instant explanations", "Important questions with model answers", "Progress and mistake review"] },
   class8: { name: "Class 8 SSC Complete Learning Course", offerPrice: 79, regularPrice: 395, validityCode: "CLASS8_ACADEMIC_YEAR", validityLabel: "Class 8 academic year access", features: ["SCERT-aligned subject learning", "Visual revision notes and flashcards", "Chapter practice and tests", "Mistake Book and smart revision", "Progress tracking and study planning"] },
   class10: { name: "Class 10 SSC Complete Course 2027", offerPrice: 99, regularPrice: 495, validityCode: "CLASS10_BOARD_2027", validityLabel: "Until the 2027 Class 10 board examinations conclude", features: ["Chapter-wise lectures", "Comprehensive notes", "Revision sheets", "Flashcards", "Chapter-wise MCQs"] },
@@ -133,7 +137,7 @@ async function coursePrice(courseId, options = {}) {
   if (!course) return null;
   if (courseId === "class6") return { ...class6Pricing(options.class6Subjects, options.class6Months), offer: { active: false } };
   const months = subscriptionDuration(options.subscriptionMonths);
-  const subtotal = (course.fullPrice || course.regularPrice) * months;
+  const subtotal = (courseId === "arabic" ? arabicMonthlyPrice(options.profile) : course.fullPrice || course.regularPrice) * months;
   const discountPercent = months === 6 ? 20 : months === 3 ? 10 : 0;
   return { rupees: Math.round(subtotal * (100-discountPercent))/100, months, offer: {active:false} };
 }
@@ -620,7 +624,7 @@ exports.createRazorpayOrder = onCall(
     const class6Months = courseId === "class6" ? Math.min(12, Math.max(1, Number.parseInt(request.data?.class6Months || profile.class6Months, 10) || 1)) : null;
     const subscriptionMonths = subscriptionDuration(courseId === "class6" ? class6Months : request.data?.subscriptionMonths);
     const validity = {code: `SUBSCRIPTION_${subscriptionMonths}_MONTHS`, label: `${subscriptionMonths} months from activation`};
-    const pricing = await coursePrice(courseId, { class6Subjects, class6Months, subscriptionMonths });
+    const pricing = await coursePrice(courseId, { class6Subjects, class6Months, subscriptionMonths, profile });
     const priceRupees = pricing?.rupees;
     const checkoutCourseName = courseId === "class6" ? `Class 6 CBSE — ${class6Subjects.map((id) => CLASS6_SUBJECTS[id]).join(" + ")}` : course?.name;
     if (!course || !validity || !priceRupees || (courseId === "class6" && !class6Subjects.length)) {
@@ -1029,3 +1033,11 @@ const mission600 = require("./mission600");
 exports.createMission600Order = mission600.createMission600Order;
 exports.verifyMission600Payment = mission600.verifyMission600Payment;
 exports.mission600RazorpayWebhook = mission600.mission600RazorpayWebhook;
+
+exports.getArabicCourseContent = onCall({region: REGION, enforceAppCheck: false}, async request => {
+  if (!request.auth) throw new HttpsError("unauthenticated", "Sign in to open Arabic lessons.");
+  const snapshot = await db.doc(`students/${request.auth.uid}`).get();
+  const founder = request.auth.token.founder === true || FOUNDER_EMAILS.has(String(request.auth.token.email || "").toLowerCase());
+  if (!founder && (!snapshot.exists || !activeEntitlement(snapshot.data().courseEntitlements?.arabic))) throw new HttpsError("permission-denied", "An active Arabic subscription is required.");
+  return require('./arabic-content.cjs');
+});

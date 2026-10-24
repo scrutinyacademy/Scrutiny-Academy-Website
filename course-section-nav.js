@@ -1,7 +1,7 @@
 (() => {
   const page = location.pathname.split('/').pop() || 'index.html';
   const batches = [
-    {test:/^arabic-/,name:'Free Arabic & Quran',links:[['arabic-learning.html','Course overview'],['arabic-learning.html#alphabet','Alphabet'],['arabic-learning.html#practice','Revision'],['arabic-learning.html#quran','Quran resource status']]},
+    {test:/^arabic-/,name:'Arabic & Quran',links:[['arabic-learning.html','Course overview'],['arabic-learning.html#alphabet','Alphabet'],['arabic-learning.html#practice','Revision'],['arabic-learning.html#quran','Quran resource status']]},
     {test:/^(class6-)/,name:'Class 6 CBSE',links:[['class6-cbse.html','Course home'],['class6-mathematics.html','Mathematics']]},
     {test:/^class8-ssc/,name:'Class 8 Telangana SSC',links:[['class8-ssc.html','Course home']]},
     {test:/^(class10-|mission600)/,name:'Class 10 SSC',links:[['class10-board.html','Board course'],['class10-lectures.html','Video lectures'],['mission600.html','Mission 600'],['mission600-dpp.html','DPP library']]},

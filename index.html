@@ -81,7 +81,7 @@
         <div><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 19c.4-4 2.2-6 5.5-6s5.1 2 5.5 6m.5-5c3.1-.5 5 1.2 5.5 4"/></svg></b><span>Learn<br />Anywhere</span></div>
       </div>
       <div class="offer-card" id="pricing">
-        <div class="offer-price"><strong>9</strong><span>Course-specific plans</span></div>
+        <div class="offer-price"><strong>10</strong><span>Course-specific plans</span></div>
         <div class="offer-copy"><b><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2M9 2h6m-3 0v3"/></svg></b><span>Choose one course.<br />Pay only for that course.<br /><strong>Access stays separate.</strong></span></div>
       </div>
       <div class="doctor-note">Discipline Today<br /><strong>Doctor Tomorrow</strong><span class="heartbeat" aria-hidden="true"></span></div>
@@ -110,7 +110,7 @@
           <label>Full Name<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.5-5 3-7 8-7s7.5 2 8 7"/></svg><input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name" /></div></label>
           <label>Mobile<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 5c0 8 7 15 15 15l2-3-5-3-2 2c-3-1-5-3-6-6l2-2-3-5Z"/></svg><input id="regPhone" type="tel" inputmode="numeric" autocomplete="tel" required maxlength="15" placeholder="10-digit number" /></div></label>
         </div>
-        <label>Choose your course<select id="regCourse" required><option value="" disabled selected>Select course subscription</option><option value="class6">Class 6 CBSE — ₹69 per subject/month</option><option value="class8">Class 8 SSC Complete Learning Course — ₹395/month</option><option value="class10">Class 10 SSC Complete Course — ₹495/month</option><option value="class11">Class 11 Board Booster — ₹745/month</option><option value="class12">Class 12 Board Booster — ₹745/month</option><option value="neet">NEET-UG Target Course — ₹495/month</option><option value="jee">IIT-JEE Complete Preparation Course — ₹2,495/month</option><option value="mbbs">MBBS Complete Learning Course — ₹3,995/month</option><option value="neetss">NEET-SS Surgery — ₹8,999/month</option></select></label>
+        <label>Choose your course<select id="regCourse" required><option value="" disabled selected>Select course subscription</option><option value="arabic">Learn Arabic &amp; Quran — ₹399/month</option><option value="class6">Class 6 CBSE — ₹69 per subject/month</option><option value="class8">Class 8 SSC Complete Learning Course — ₹395/month</option><option value="class10">Class 10 SSC Complete Course — ₹495/month</option><option value="class11">Class 11 Board Booster — ₹745/month</option><option value="class12">Class 12 Board Booster — ₹745/month</option><option value="neet">NEET-UG Target Course — ₹495/month</option><option value="jee">IIT-JEE Complete Preparation Course — ₹2,495/month</option><option value="mbbs">MBBS Complete Learning Course — ₹3,995/month</option><option value="neetss">NEET-SS Surgery — ₹8,999/month</option></select></label>
         <label id="regSubscriptionWrap" hidden>Choose your subscription<select id="regSubscriptionMonths"><option value="1">1 month</option><option value="3">3 months — 10% off</option><option value="6">6 months — 20% off</option></select></label>
         <fieldset class="class6-picker" id="class6Picker" hidden>
           <legend>Build your Class 6 CBSE plan</legend>
@@ -143,14 +143,7 @@
   <section class="course-pricing-section free-course-section" id="free-courses" aria-labelledby="freeCoursesTitle">
     <div class="course-pricing-head"><span class="eyebrow">EXPLORE FREE LEARNING</span><h2 id="freeCoursesTitle">FREE COURSES</h2><p>Start learning without payment or registration. Choose your free learning experience below.</p></div>
     <div class="course-pricing-grid free-course-grid">
-      <article class="course-plan free-course-plan" id="free-arabic" aria-labelledby="freeArabicTitle">
-        <span class="plan-badge">100% FREE</span><span class="plan-icon" aria-hidden="true">📖</span>
-        <h3 id="freeArabicTitle">Learn Arabic &amp; Quran</h3><p class="regular-price">Language &amp; Quran Learning</p>
-        <div class="plan-price">₹0 <small>completely free</small></div><p class="offer-limit">Absolute beginner · no login required</p>
-        <ul><li>28 individual Arabic alphabet lessons</li><li>Hindi, Hinglish, Urdu &amp; English pronunciation guides</li><li>Letter recognition, quizzes &amp; revision</li><li>Saved learning progress</li><li>Seven-level learning roadmap</li></ul>
-        <p class="plan-validity">Practice drafts awaiting teacher review. Verified audio and Quran resources are pending.</p>
-        <a href="arabic-learning.html">START LEARNING FREE →</a>
-      </article>
+
       <article class="course-plan free-course-plan" id="free-neet-ranker" aria-labelledby="freeRankerTitle">
         <span class="plan-badge">FREE CHAPTER</span><span class="plan-icon" aria-hidden="true">🧬</span>
         <h3 id="freeRankerTitle">NEET Ranker · Cell: The Unit of Life</h3><p class="regular-price">Free Biology chapter practice</p>
@@ -171,7 +164,7 @@
   </section>
   <section class="course-pricing-section" id="subjects" aria-labelledby="coursePlansTitle">
     <div class="course-pricing-head"><span class="eyebrow">MONTHLY SUBSCRIPTIONS</span><h2 id="coursePlansTitle">PAID COURSES</h2><p>Regular monthly fees. Save 10% on 3 months or 20% on 6 months.</p><p id="studentOfferStatus">Pay for 1, 3 or 6 months upfront. Renew to continue; no automatic deductions.</p></div>
-    <div class="course-pricing-grid">
+    <div class="course-pricing-grid"><article class="course-plan featured arabic-paid-plan" data-offer-card="arabic"><span class="plan-badge">ARABIC &amp; QURAN</span><span class="plan-icon" aria-hidden="true">۞</span><h3>Learn Arabic &amp; Quran</h3><p class="regular-price">A meaningful beginning, one letter at a time</p><div class="plan-price">₹399 <small>per month</small></div><p class="offer-limit">Already a Scrutiny student? ₹299/month</p><ul><li>28 alphabet lessons with four language guides</li><li>Reading practice, quizzes &amp; revision</li><li>Personal learning progress</li><li>Seven-level learning roadmap</li></ul><p class="plan-validity">3 months: 10% off · 6 months: 20% off. Quran resources and teacher review are pending.</p><a href="arabic-learning.html">EXPLORE ARABIC &amp; QURAN →</a></article>
       <article class="course-plan featured cbse6-plan" data-offer-card="class6"><span class="plan-badge">MONTHLY SUBSCRIPTION</span><span class="plan-icon">🎒</span><h3>Class 6 CBSE Subject Course</h3><p class="regular-price">Regular monthly fee</p><div class="plan-price">₹69 <small>per subject / month</small></div><p class="offer-limit">3 months: 10% off · 6 months: 20% off</p><ul><li>Mathematics, Science &amp; Social Science separately</li><li>Simple chapter lessons and learning tricks</li><li>Flashcards and active recall</li><li>MCQs and important questions with answers</li><li>Progress and mistake review</li></ul><p class="plan-validity">Choose 1, 3 or 6 months. Pay upfront; renew when access expires.</p><a href="#authCard" data-select-course="class6">BUILD MY CLASS 6 PLAN</a></article>
       <article class="course-plan" data-offer-card="class8"><span class="plan-badge">MONTHLY SUBSCRIPTION</span><span class="plan-icon">🚀</span><h3>Class 8 SSC Complete Learning Course</h3><p class="regular-price">Regular monthly fee</p><div class="plan-price">₹395 <small>per month</small></div><p class="offer-limit">3 months: 10% off · 6 months: 20% off</p><ul><li>SCERT-aligned learning</li><li>Visual notes & flashcards</li><li>Practice & chapter tests</li><li>Mistake Book & smart revision</li><li>Progress & exam planner</li></ul><p class="plan-validity">Choose 1, 3 or 6 months. Pay upfront; renew when access expires.</p><a href="#authCard" data-select-course="class8">CHOOSE SUBSCRIPTION</a></article><article class="course-plan" data-offer-card="class10"><span class="plan-badge">MONTHLY SUBSCRIPTION</span><span class="plan-icon">📘</span><h3>Class 10 SSC Complete Course 2027</h3><p class="regular-price">Regular monthly fee</p><div class="plan-price">₹495 <small>per month</small></div><p class="offer-limit">3 months: 10% off · 6 months: 20% off</p><ul><li>Lectures</li><li>Notes</li><li>Revision sheets</li><li>Flashcards</li><li>MCQs</li></ul><p class="plan-validity">Choose 1, 3 or 6 months. Pay upfront; renew when access expires.</p><a href="#authCard" data-select-course="class10">CHOOSE SUBSCRIPTION</a></article>
       <article class="course-plan" data-offer-card="class11"><span class="plan-badge">MONTHLY SUBSCRIPTION</span><span class="plan-icon">🌱</span><h3>Class 11 Board Booster 2027</h3><p class="regular-price">Regular monthly fee</p><div class="plan-price">₹745 <small>per month</small></div><p class="offer-limit">3 months: 10% off · 6 months: 20% off</p><ul><li>Revision sheets</li><li>VSAQs</li><li>SAQs</li><li>LAQs</li></ul><p class="plan-validity">Choose 1, 3 or 6 months. Pay upfront; renew when access expires.</p><a href="#authCard" data-select-course="class11">CHOOSE SUBSCRIPTION</a></article>
@@ -248,7 +241,7 @@
     </div>
   </dialog>
   <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
-  <script type="module" src="auth.js?v=subscription-picker-20261024"></script>
+  <script type="module" src="auth.js?v=arabic-paid-20261024"></script>
   <script type="module" src="reviews.js"></script>
   <script>
     const menu = document.getElementById('mobileMenu');

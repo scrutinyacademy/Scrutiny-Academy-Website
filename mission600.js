@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
-import { entitledCourses } from "./course-catalog.js?v=4";
+import { entitledCourses } from "./course-catalog.js?v=5";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, getIdTokenResult, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, getFirestore, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";

@@ -1,4 +1,4 @@
-name: Free Arabic Learning QA
+name: Arabic Subscription Learning QA
 on:
   pull_request:
     paths: ['arabic-*', 'data/arabic/**', 'tests/arabic-*', '.github/workflows/arabic-learning-qa.yml']
@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
 jobs:
-  guest-learning:
+  subscription-learning:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         run: |
           npm install --prefix "$RUNNER_TEMP/arabic-browser" --no-save playwright@1.58.2
           node "$RUNNER_TEMP/arabic-browser/node_modules/playwright/cli.js" install --with-deps chromium
-      - name: Test guest lessons and responsive layout
+      - name: Test subscription landing, authorized lessons and responsive layout
         env:
           NODE_PATH: ${{ runner.temp }}/arabic-browser/node_modules
         run: node tests/arabic-learning.cjs

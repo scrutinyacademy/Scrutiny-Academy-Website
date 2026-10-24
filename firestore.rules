@@ -36,7 +36,7 @@ service cloud.firestore {
         && request.resource.data.role == 'student'
         && request.resource.data.accessStatus == 'pending'
         && request.resource.data.paymentStatus == 'not_submitted'
-        && request.resource.data.requestedCourse in ['class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']
+        && request.resource.data.requestedCourse in ['arabic','class6','class8','class10','class11','class12','neet','jee','mbbs','neetss']
         && request.resource.data.activeCourse == request.resource.data.requestedCourse
         && request.resource.data.enrolledCourses is list
         && request.resource.data.enrolledCourses.size() == 0
@@ -53,6 +53,7 @@ service cloud.firestore {
           && request.resource.data.class6Subjects.size() >= 1
           && request.resource.data.class6Subjects.size() <= 3
           && request.resource.data.class6Subjects.hasOnly(['mathematics','science','social-science']))
+          || (request.resource.data.requestedCourse == 'arabic' && request.resource.data.accessPrice == 399)
           || (request.resource.data.requestedCourse == 'class8' && request.resource.data.accessPrice in [79,395])
           || (request.resource.data.requestedCourse == 'class10' && request.resource.data.accessPrice in [99,495])
           || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice in [149,745])
