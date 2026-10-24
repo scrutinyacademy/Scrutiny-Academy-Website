@@ -8,12 +8,14 @@ let authorized=false;
 const realAccess=fs.readFileSync(path.join(root,'arabic-access.js'),'utf8');
 await page.route('**/arabic-access.js*',route=>{
  if(authorized)return route.fulfill({contentType:'text/javascript',body:`export async function requireArabicAccess(){return true;} export async function arabicData(name){return ${JSON.stringify(fixture)}[name];}`});
- const body=realAccess.replace(/^import .* from .*;$/gm,line=>line.includes('course-catalog')?line:'');
+ const body=realAccess.replace(/^import .* from .*;$/gm,line=>(line.includes('course-catalog') || line.includes('arabic-brand'))?line:'');
  return route.fulfill({contentType:'text/javascript',body:`const firebaseConfig={};const getApps=()=>[{}],getApp=()=>({}),initializeApp=()=>({}),getAuth=()=>({currentUser:null,authStateReady:async()=>{}}),onAuthStateChanged=()=>{},getFirestore=()=>({}),doc=()=>({}),getDoc=()=>({}),getFunctions=()=>({}),httpsCallable=()=>()=>{throw Error('Unauthenticated content request');};
 `+body});
 });
 await page.goto(base+'/arabic-learning.html');await page.waitForSelector('#arabicSubscribe');
 assert.equal(await page.locator('.letter-link').count(),0);
+assert.match(await page.locator('header .arabic-collaboration').innerText(),/Scrutiny Academy[\s\S]*Quddusi Intellectual Forum/);
+assert.match(await page.locator('.collaboration-hero').innerText(),/Quddusi Intellectual Forum/);
 assert.match(await page.locator('.arabic-rate').innerText(),/399/);
 await page.locator('[name="arabicTerm"][value="6"]').check();
 assert.match(await page.locator('#arabicPaySummary').innerText(),/1,915.2/);
@@ -21,7 +23,7 @@ assert.match(await page.locator('#arabicSubscribe').getAttribute('href'),/course
 authorized=true;
 await page.goto(base+'/arabic-learning.html?authorized-fixture');await page.waitForSelector('.letter-link');assert.equal(await page.locator('.letter-link').count(),28);assert.match(await page.locator('#quran').innerText(),/pending verified/);
 const letters=fixture.alphabet;
-for(const l of letters){await page.goto(base+'/arabic-lesson.html?id='+l.id);await page.waitForSelector('.main-letter');assert.equal(await page.locator('.main-letter').innerText(),l.letter);await page.selectOption('#language','ur');assert.equal(await page.locator('[data-language]:visible').count(),1);assert.match(await page.locator('#audioArea').innerText(),/pending/);}
+for(const l of letters){await page.goto(base+'/arabic-lesson.html?id='+l.id);await page.waitForSelector('.main-letter');assert.equal(await page.locator('.main-letter').innerText(),l.letter);assert.match(await page.locator('header .arabic-collaboration').innerText(),/Quddusi Intellectual Forum/);await page.selectOption('#language','ur');assert.equal(await page.locator('[data-language]:visible').count(),1);assert.match(await page.locator('#audioArea').innerText(),/pending/);}
 await page.goto(base+'/arabic-lesson.html?id=letter-02');await page.waitForSelector('#learned');await page.click('#learned');await page.reload();await page.waitForSelector('#learned');assert.match(await page.locator('#learned').innerText(),/Studied/);
 // Answer every question correctly and verify persisted score.
 for(const answer of ['ب','1','Baa']){await page.locator('#lessonQuiz .answers button').filter({hasText:new RegExp('^'+answer+'$')}).click();await page.locator('#lessonQuiz > button').click();}

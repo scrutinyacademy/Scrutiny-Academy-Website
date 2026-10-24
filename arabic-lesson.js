@@ -1,5 +1,5 @@
-import {requireArabicAccess} from './arabic-access.js?v=1';
-import {$,esc,data,shell,fail} from './arabic-shared.js?v=3';
+import {requireArabicAccess} from './arabic-access.js?v=2';
+import {$,esc,data,shell,fail} from './arabic-shared.js?v=4';
 import {restoreIdentity,load,update} from './arabic-progress.js';
 import {quiz,letterQuestions} from './arabic-quiz.js';
 shell();

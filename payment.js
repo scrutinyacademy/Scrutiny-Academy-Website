@@ -157,7 +157,7 @@ function renderStatus(profile) {
       discount.hidden = true;
     }
     $("paymentCourseName").textContent = course.name;
-    if (courseId === "arabic") $("paymentIncludes").textContent = `${currentProfile.requestedCourse && currentProfile.requestedCourse !== "arabic" ? "Existing student benefit: ₹299/month (regular ₹399/month)." : "New Arabic registration: ₹399/month."} Includes: ${course.includes.join(" • ")}`;
+    if (courseId === "arabic") $("paymentIncludes").textContent = `Scrutiny Academy × Quddusi Intellectual Forum. ${currentProfile.requestedCourse && currentProfile.requestedCourse !== "arabic" ? "Existing student benefit: ₹299/month (regular ₹399/month)." : "New Arabic registration: ₹399/month."} Includes: ${course.includes.join(" • ")}`;
     else $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
     $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : `${subscriptionMonths} month(s) from activation · renew at expiry`;
     const yearWrap = $("paymentNeetYearWrap");
