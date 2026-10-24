@@ -33,7 +33,7 @@
           <p id="paymentIncludes"></p>
           <p><strong id="paymentValidity"></strong></p>
           <label id="paymentNeetYearWrap" hidden style="display:grid;gap:7px;margin:14px 0;font-size:.82rem;font-weight:800">NEET examination year<select id="paymentNeetYear" style="padding:11px;border:1px solid #c7d4e2;border-radius:10px;background:#fff;font:inherit"><option value="">Choose NEET year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
-          <label id="subscriptionDurationWrap">Subscription duration<select id="subscriptionMonths"><option value="1">1 month</option><option value="3">3 months — 10% off</option><option value="6">6 months — 20% off</option></select></label><p>Pay upfront. Renew at expiry; no automatic deductions.</p>
+          <label id="subscriptionDurationWrap">Subscription duration<select id="subscriptionMonths"><option value="1">1 month</option><option value="3">3 months — 10% off</option><option value="6">6 months — 20% off</option></select></label><p>Pay upfront. Renew at expiry; no automatic deductions.</p><p id="subscriptionBreakdown" role="status" aria-live="polite"></p>
           <fieldset class="class6-picker" id="paymentClass6Picker" hidden>
             <legend>Class 6 plan</legend>
             <div class="subject-checks">
@@ -125,7 +125,7 @@
       <a href="refund-policy.html">Refund policy</a>
     </footer>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    <script type="module" src="payment.js?v=6"></script>
+    <script type="module" src="payment.js?v=7"></script>
     <script src="help-bot.js" defer></script>
 </body>
 </html>

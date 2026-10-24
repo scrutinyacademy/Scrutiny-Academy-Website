@@ -1,5 +1,5 @@
 import { firebaseConfig } from './firebase-config.js';
-import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=4';
+import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=4';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
@@ -15,6 +15,8 @@ let neetssFoundingOfferActive = true;
 const loginTab=$('loginTab'), registerTab=$('registerTab'), loginForm=$('loginForm'), registerForm=$('registerForm');
 const courseSelect=$('regCourse'), neetYearWrap=$('neetYearWrap'), neetYear=$('regNeetYear'), selectionSummary=$('courseSelectionSummary');
 const class6Picker=$('class6Picker'), class6Months=$('regClass6Months'), class6PricePreview=$('class6PricePreview');
+const subscriptionSelect=$('regSubscriptionMonths');
+const money=value=>`₹${Number(value).toLocaleString('en-IN',{maximumFractionDigits:2})}`;
 const registrationAccessNote=$('registrationAccessNote'), registrationTermsText=$('registrationTermsText');
 const selectedClass6Subjects=()=>[...document.querySelectorAll('input[name="class6Subject"]:checked')].map(input=>input.value);
 function updateClass6Price(){
@@ -30,6 +32,14 @@ function updateCourseSelection(){
   const course=COURSE_CATALOG[courseId];
   const isNeet=courseId==='neet';
   const isClass6=courseId==='class6';
+  const months=Number(subscriptionSelect?.value || 1);
+  if(class6Months) class6Months.value=String(months);
+  if($('regSubscriptionWrap')) $('regSubscriptionWrap').hidden=!course;
+  if(course && subscriptionSelect) [...subscriptionSelect.options].forEach(option=>{
+    const duration=Number(option.value);
+    const pricing=isClass6?class6Price(selectedClass6Subjects(),duration):subscriptionPrice(courseId,duration);
+    option.textContent=`${duration} month${duration===1?'':'s'}${pricing.discountPercent?` — ${pricing.discountPercent}% off`:''}${!isClass6 || pricing.subjects.length?` · ${money(pricing.total)} total`:''}`;
+  });
   if(neetYearWrap){ neetYearWrap.hidden=!isNeet; neetYear.required=isNeet; if(!isNeet) neetYear.value=''; }
   if(class6Picker){ class6Picker.hidden=!isClass6; }
   if(registrationAccessNote) registrationAccessNote.innerHTML='<strong>Register, pay and start learning.</strong> No email activation is required. Your selected course unlocks after successful payment confirmation.';
@@ -39,18 +49,20 @@ function updateCourseSelection(){
     if(!course){ selectionSummary.hidden=true; return; }
     const class6Pricing=class6Price(selectedClass6Subjects(),class6Months?.value);
     const offerActive=courseId==='neetss'?neetssFoundingOfferActive:studentOfferActive;
-    const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,offerActive);
+    const pricing=isClass6?class6Pricing:subscriptionPrice(courseId,months);
+    const price=pricing.total;
     selectionSummary.hidden=false;
-    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price.toLocaleString('en-IN')}`}</strong><span>${course.includes.join(' • ')}</span><small>${isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
+    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price.toLocaleString('en-IN')}`}</strong><span>${course.includes.join(' • ')}</span><small>${months} month${months===1?'':'s'} access · ${pricing.discountPercent?`Subtotal ${money(pricing.subtotal)} · Save ${money(pricing.discount)} (${pricing.discountPercent}%) · `:''}Pay ${money(price)} upfront. Renew at expiry; no automatic deductions.</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
+subscriptionSelect?.addEventListener('change',updateCourseSelection);
 document.querySelectorAll('input[name="class6Subject"]').forEach(input=>input.addEventListener('change',updateCourseSelection));
 class6Months?.addEventListener('change',updateCourseSelection);
 function updateOfferPresentation(){
   Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
     const option=courseSelect?.querySelector(`option[value="${id}"]`);
-    if(option) option.textContent=`${course.name} — ₹${currentCoursePrice(id).toLocaleString('en-IN')} ${id==='class6'?'per subject/':''}month`;
+    if(option) option.textContent=`${course.name} — ₹${currentCoursePrice(id).toLocaleString('en-IN')} ${id==='class6'?'per subject/':'/'}month`;
   });
   updateCourseSelection();
 }
@@ -133,6 +145,7 @@ if(!configured){
         neetExamYear:selectedNeetYear || null,
         class6Subjects:selectedSubjects,
         class6Months:selectedMonths,
+        subscriptionMonths:Number(subscriptionSelect?.value || 1),
         enrolledCourses:[],
         courseEntitlements:{},
         createdAt:serverTimestamp(),
@@ -142,7 +155,7 @@ if(!configured){
       const paymentQuery = new URLSearchParams({ course: activeCourse });
       if (selectedNeetYear) paymentQuery.set('exam', selectedNeetYear);
       if (selectedSubjects.length) paymentQuery.set('subjects', selectedSubjects.join(','));
-      if (selectedMonths) paymentQuery.set('months', String(selectedMonths));
+      paymentQuery.set('months', String(subscriptionSelect?.value || 1));
       location.replace(`payment.html?${paymentQuery}`);
     }catch(err){
       authActionInProgress=false;

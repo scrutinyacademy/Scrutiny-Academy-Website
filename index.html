@@ -105,12 +105,13 @@
         <button class="link-btn" id="forgotPassword" type="button">Forgot password?</button>
       </form>
       <form id="registerForm" class="form active">
-        <div><span class="eyebrow">NEW STUDENT</span><h2 id="authTitle">Create Account</h2><p>Use your own email. You will verify it before access can be approved.</p></div>
+        <div><span class="eyebrow">NEW STUDENT</span><h2 id="authTitle">Create Account</h2><p>Choose your course and subscription, then register and pay securely.</p></div>
         <div class="two-col">
           <label>Full Name<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.5-5 3-7 8-7s7.5 2 8 7"/></svg><input id="regName" type="text" autocomplete="name" required maxlength="80" placeholder="Student name" /></div></label>
           <label>Mobile<div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3 4 5c0 8 7 15 15 15l2-3-5-3-2 2c-3-1-5-3-6-6l2-2-3-5Z"/></svg><input id="regPhone" type="tel" inputmode="numeric" autocomplete="tel" required maxlength="15" placeholder="10-digit number" /></div></label>
         </div>
         <label>Choose your course<select id="regCourse" required><option value="" disabled selected>Select course subscription</option><option value="class6">Class 6 CBSE — ₹69 per subject/month</option><option value="class8">Class 8 SSC Complete Learning Course — ₹395/month</option><option value="class10">Class 10 SSC Complete Course — ₹495/month</option><option value="class11">Class 11 Board Booster — ₹745/month</option><option value="class12">Class 12 Board Booster — ₹745/month</option><option value="neet">NEET-UG Target Course — ₹495/month</option><option value="jee">IIT-JEE Complete Preparation Course — ₹2,495/month</option><option value="mbbs">MBBS Complete Learning Course — ₹3,995/month</option><option value="neetss">NEET-SS Surgery — ₹8,999/month</option></select></label>
+        <label id="regSubscriptionWrap" hidden>Choose your subscription<select id="regSubscriptionMonths"><option value="1">1 month</option><option value="3">3 months — 10% off</option><option value="6">6 months — 20% off</option></select></label>
         <fieldset class="class6-picker" id="class6Picker" hidden>
           <legend>Build your Class 6 CBSE plan</legend>
           <p>Select one or more subjects. Each subject costs ₹69 per month.</p>
@@ -119,7 +120,7 @@
             <label><input type="checkbox" name="class6Subject" value="science" /> <span>🔬 Science</span></label>
             <label><input type="checkbox" name="class6Subject" value="social-science" /> <span>🌍 Social Science</span></label>
           </div>
-          <label>Access duration<select id="regClass6Months"><option value="1">1 month</option><option value="3">3 months — 10% off</option><option value="6">6 months — 20% off</option></select></label>
+          <input type="hidden" id="regClass6Months" value="1" />
           <div class="class6-price-preview" id="class6PricePreview">Select at least one subject.</div>
         </fieldset>
         <label id="neetYearWrap" hidden>Which NEET exam are you preparing for?<select id="regNeetYear"><option value="" disabled selected>Choose NEET exam year</option><option value="2027">NEET-UG 2027</option><option value="2028">NEET-UG 2028</option></select></label>
@@ -247,7 +248,7 @@
     </div>
   </dialog>
   <footer>© 2026 SCRUTINY ACADEMY • ALL RIGHTS RESERVED · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="refund-policy.html">Refund Policy</a></footer>
-  <script type="module" src="auth.js?v=monthly-20261024"></script>
+  <script type="module" src="auth.js?v=subscription-picker-20261024"></script>
   <script type="module" src="reviews.js"></script>
   <script>
     const menu = document.getElementById('mobileMenu');

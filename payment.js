@@ -41,6 +41,7 @@ let latestPurchase = null;
 let studentOfferActive = true;
 let neetssFoundingOfferActive = true;
 const query = new URLSearchParams(location.search);
+subscriptionMonths = [1,3,6].includes(Number(query.get("months"))) ? Number(query.get("months")) : 1;
 const requestedReturn = query.get("return");
 const returnTarget = ["class6-mathematics.html", "class6-cbse.html", "student.html"].includes(requestedReturn) ? requestedReturn : "student.html";
 let purchaseCourseId = COURSE_CATALOG[query.get("course")] ? query.get("course") : null;
@@ -141,6 +142,13 @@ function renderStatus(profile) {
   $("subscriptionDurationWrap").hidden = purchaseCourseId === "class6";
   const courseId = purchaseCourseId;
   const course = COURSE_CATALOG[courseId];
+  $("subscriptionMonths").value = String(subscriptionMonths);
+  if (course && courseId !== "class6") [...$("subscriptionMonths").options].forEach(option => {
+    const pricing = subscriptionPrice(courseId, Number(option.value));
+    option.textContent = `${option.value} month${option.value === "1" ? "" : "s"}${pricing.discountPercent ? ` — ${pricing.discountPercent}% off` : ""} · ₹${pricing.total.toLocaleString("en-IN")} total`;
+  });
+  const pricing = courseId === "class6" ? class6SelectionPrice() : subscriptionPrice(courseId, subscriptionMonths);
+  if ($("subscriptionBreakdown")) $("subscriptionBreakdown").textContent = `Subtotal ₹${pricing.subtotal.toLocaleString("en-IN")} · Discount ${pricing.discountPercent}% (₹${pricing.discount.toLocaleString("en-IN")}) · Total payable ₹${pricing.total.toLocaleString("en-IN")} for ${pricing.months} month(s)`;
   const price = displayedPrice();
   if (course) {
     $("paymentPrice").textContent = `₹${Number(price).toLocaleString("en-IN")}`;
