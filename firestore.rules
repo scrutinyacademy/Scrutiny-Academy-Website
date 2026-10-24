@@ -43,7 +43,7 @@ service cloud.firestore {
         && request.resource.data.courseEntitlements is map
         && request.resource.data.courseEntitlements.size() == 0
         && ((request.resource.data.requestedCourse == 'class6'
-          && request.resource.data.accessPrice is int
+          && request.resource.data.accessPrice is number
           && request.resource.data.accessPrice >= 49
           && request.resource.data.accessPrice <= 2484
           && request.resource.data.class6Months is int
@@ -58,7 +58,7 @@ service cloud.firestore {
           || (request.resource.data.requestedCourse in ['class11','class12'] && request.resource.data.accessPrice in [149,745])
           || (request.resource.data.requestedCourse == 'mbbs' && request.resource.data.accessPrice in [799,3995])
           || (request.resource.data.requestedCourse == 'jee' && request.resource.data.accessPrice in [499,2495])
-          || (request.resource.data.requestedCourse == 'neetss' && request.resource.data.accessPrice in [999,1999])
+          || (request.resource.data.requestedCourse == 'neetss' && request.resource.data.accessPrice in [999,1999,8999])
           || (request.resource.data.requestedCourse == 'neet'
             && request.resource.data.accessPrice in [99,495,499]
             && request.resource.data.neetExamYear in ['2027','2028']));
