@@ -1,5 +1,5 @@
 import { firebaseConfig } from "./firebase-config.js";
-import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=3";
+import { subscriptionPrice, COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice, courseValidity, entitledCourses } from "./course-catalog.js?v=4";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -34,6 +34,7 @@ const message = (text, kind = "") => {
   element.className = `message ${kind}`;
 };
 
+let subscriptionMonths = 1;
 let currentUser = null;
 let currentProfile = null;
 let latestPurchase = null;
@@ -68,8 +69,7 @@ function renderClass6Picker() {
 }
 
 function displayedPrice() {
-  const offerActive = purchaseCourseId === "neetss" ? neetssFoundingOfferActive : studentOfferActive;
-  return purchaseCourseId === "class6" ? class6SelectionPrice().total : currentCoursePrice(purchaseCourseId, offerActive);
+  return purchaseCourseId === "class6" ? class6SelectionPrice().total : subscriptionPrice(purchaseCourseId, subscriptionMonths).total;
 }
 
 function dateValue(value) {
@@ -136,8 +136,9 @@ function renderStatus(profile) {
   if (purchaseCourseId === "neet") purchaseNeetYear ||= String(currentProfile.neetExamYear || "");
   if (purchaseCourseId === "class6") {
     if (!purchaseClass6Subjects.length) purchaseClass6Subjects = (currentProfile.class6Subjects || []).filter((id) => CLASS6_SUBJECTS[id]);
-    purchaseClass6Months = Math.min(12, Math.max(1, Number.parseInt(query.get("months") || currentProfile.class6Months, 10) || 1));
+    // Keep the duration selected in checkout.
   }
+  $("subscriptionDurationWrap").hidden = purchaseCourseId === "class6";
   const courseId = purchaseCourseId;
   const course = COURSE_CATALOG[courseId];
   const price = displayedPrice();
@@ -145,12 +146,11 @@ function renderStatus(profile) {
     $("paymentPrice").textContent = `₹${Number(price).toLocaleString("en-IN")}`;
     const discount = $("paymentDiscount");
     if (discount) {
-      discount.hidden = courseId !== "neetss";
-      if (courseId === "neetss") discount.innerHTML = `Full Course Price <s>₹${course.fullPrice.toLocaleString("en-IN")}</s> · ${neetssFoundingOfferActive ? "Founding Students Offer · first 100 successful paid enrolments" : "Early Bird Price"}`;
+      discount.hidden = true;
     }
     $("paymentCourseName").textContent = course.name;
     $("paymentIncludes").textContent = `Includes: ${course.includes.join(" • ")}`;
-    $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : courseValidity(courseId, purchaseNeetYear) || "Choose your NEET exam year below.";
+    $("paymentValidity").textContent = courseId === "class6" ? `${purchaseClass6Months} month${purchaseClass6Months === 1 ? "" : "s"} from activation` : `${subscriptionMonths} month(s) from activation · renew at expiry`;
     const yearWrap = $("paymentNeetYearWrap");
     if (yearWrap) {
       yearWrap.hidden = courseId !== "neet";
@@ -257,7 +257,7 @@ onAuthStateChanged(auth, async (user) => {
 
     if (!hasPurchasedCourse(profile)) {
       try {
-        const { data: synced } = await syncPayment({ courseId: purchaseCourseId, class6Subjects: purchaseClass6Subjects, class6Months: purchaseClass6Months });
+        const { data: synced } = await syncPayment({ courseId: purchaseCourseId, class6Subjects: purchaseClass6Subjects, subscriptionMonths, class6Months: purchaseClass6Months });
         if (synced.active) {
           message(
             "Your completed payment was verified. Access is now active.",
@@ -312,7 +312,7 @@ async function startCheckout() {
   message("Preparing secure Razorpay checkout…");
 
   try {
-    const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null, class6Subjects: purchaseClass6Subjects, class6Months: purchaseClass6Months });
+    const { data: order } = await createOrder({ courseId: purchaseCourseId, neetExamYear: purchaseNeetYear || null, class6Subjects: purchaseClass6Subjects, subscriptionMonths, class6Months: purchaseClass6Months });
     if (order?.active) {
       message("Your access is already active.", "success");
       if (purchaseCourseId === "class6") applyLocalClass6Entitlement();
@@ -325,9 +325,6 @@ async function startCheckout() {
       if (purchaseCourseId === "neetss") neetssFoundingOfferActive = order.offer?.active !== false;
       else studentOfferActive = order.offer?.active !== false;
       $("paymentPrice").textContent = `₹${checkoutRupees.toLocaleString("en-IN")}`;
-      if (purchaseCourseId === "neetss" && $("paymentDiscount")) {
-        $("paymentDiscount").innerHTML = `Full Course Price <s>₹8,999</s> · ${neetssFoundingOfferActive ? "Founding Students Offer · first 100 successful paid enrolments" : "Early Bird Price"}`;
-      }
       button.textContent = `PAY ₹${checkoutRupees.toLocaleString("en-IN")} & UNLOCK THIS COURSE`;
     }
 
@@ -410,3 +407,5 @@ $("paymentClass6Months")?.addEventListener("change", (event) => {
   purchaseClass6Months = Number.parseInt(event.target.value, 10) || 1;
   renderStatus(currentProfile || {});
 });
+
+$("subscriptionMonths")?.addEventListener("change", event => { subscriptionMonths = Number(event.target.value); renderStatus(currentProfile || {}); });

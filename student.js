@@ -1,6 +1,6 @@
 import "./student-storage.js";
 import { firebaseConfig } from "./firebase-config.js";
-import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=3";
+import { COURSE_CATALOG, currentCoursePrice, entitledCourses, courseValidity } from "./course-catalog.js?v=4";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
@@ -132,7 +132,7 @@ function renderCourseSwitchMenu() {
       ? '<span class="course-menu-badge current">CURRENT</span>'
       : owned
         ? '<span class="course-menu-badge owned">OWNED</span>'
-        : `<span class="course-menu-price">₹${displayedCoursePrice(id).toLocaleString("en-IN")}${id === "mbbs" ? "<small>LIFETIME</small>" : id === "neetss" ? `<small>${neetssFoundingOfferActive ? "FOUNDING OFFER" : "EARLY BIRD"}</small>` : ""}</span>`;
+        : `<span class="course-menu-price">₹${displayedCoursePrice(id).toLocaleString("en-IN")}<small>/MONTH</small></span>`;
     const openUrl = id === "class6" ? "class6-cbse.html" : id === "class8" ? "class8-ssc.html" : id === "class10" ? "class10-board.html" : id === "jee" ? "jee.html" : id === "neetss" ? "neetss-surgery.html" : `preview-v2.html?course=${id}#${portal.target}`;
     const action = current
       ? `<a class="course-menu-action owned-action" href="${openUrl}">OPEN</a>`

@@ -1,40 +1,28 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import { COURSE_CATALOG, currentCoursePrice } from '../course-catalog.js';
-
-const read = (file) => fs.readFileSync(new URL(`../${file}`, import.meta.url), 'utf8');
-const index = read('index.html');
-const auth = read('auth.js');
-const payment = read('payment.js');
-const course = read('neetss-surgery.html');
-const backend = read('functions/index.js');
-const rules = read('firestore.rules');
-const workflow = read('.github/workflows/deploy-neetss.yml');
-
-assert.equal(currentCoursePrice('neetss', true), 999);
-assert.equal(currentCoursePrice('neetss', false), 1999);
-assert.equal(COURSE_CATALOG.neetss.fullPrice, 8999);
-assert.equal(COURSE_CATALOG.neetss.inviteOnly, undefined);
-assert.ok(index.includes('first 100 successful paid enrolments'));
-assert.ok(index.includes('Early Bird Price ₹1,999'));
-assert.ok(index.includes('Full Course Price <s>₹8,999</s>'));
-assert.ok(course.includes('FOUNDING STUDENTS OFFER'));
-assert.ok(course.includes('<strong>₹999</strong>'));
-assert.ok(course.includes('<strong>₹1,999</strong>'));
-assert.ok(course.includes('<s>₹8,999</s>'));
-assert.ok(auth.includes('location.replace(`payment.html?${paymentQuery}`)'));
-assert.ok(!auth.includes('complimentary NEET-SS access request'));
-assert.ok(payment.includes('createRazorpayOrder'));
-assert.ok(payment.includes('verifyRazorpayPayment'));
-assert.ok(payment.includes('neetssFoundingOfferActive'));
-assert.ok(backend.includes('NEETSS_FOUNDING_LIMIT = 100'));
-assert.ok(backend.includes('where("courseId", "==", "neetss")'));
-assert.ok(backend.includes('offerPrice: 999'));
-assert.ok(backend.includes('regularPrice: 1999'));
-assert.ok(backend.includes('fullPrice: 8999'));
-assert.ok(rules.includes("request.resource.data.accessPrice in [999,1999]"));
-for (const name of ['getStudentOfferStatus', 'createRazorpayOrder', 'verifyRazorpayPayment', 'syncRazorpayPayment', 'razorpayWebhook']) {
-  assert.ok(workflow.includes(`functions:${name}`), `deployment workflow missing ${name}`);
+import vm from 'node:vm';
+import {COURSE_CATALOG, currentCoursePrice, subscriptionPrice, class6Price, entitledCourses} from '../course-catalog.js';
+const rates={class6:69,class8:395,class10:495,class11:745,class12:745,neet:495,jee:2495,mbbs:3995,neetss:8999};
+for(const [id,rate] of Object.entries(rates)) {
+ assert.equal(currentCoursePrice(id),rate);
+ for(const months of [1,3,6]) {
+  const expected=Math.round(rate*months*(months===6?.8:months===3?.9:1)*100)/100;
+  assert.equal(subscriptionPrice(id,months).total,expected);
+ }
 }
-
-console.log('PASS: NEET-SS ₹999 founding offer, ₹1,999 early-bird tier, ₹8,999 display price, Razorpay flow and deployment targets.');
+assert.equal(class6Price(['science'],3).total,186.3);
+assert.equal(class6Price(['science','mathematics'],6).total,662.4);
+const expired={accessStatus:'active',purchasedCourse:'neet',enrolledCourses:['neet'],courseEntitlements:{neet:{status:'active',expiresAt:'2020-01-01'}}};
+assert.deepEqual(entitledCourses(expired),[]);
+assert.deepEqual(entitledCourses({courseEntitlements:{neet:{status:'active'}}}),['neet']);
+const backend=fs.readFileSync(new URL('../functions/index.js',import.meta.url),'utf8');
+const snippet=backend.slice(backend.indexOf('function addUtcMonths('),backend.indexOf('\nfunction courseValidity'));
+const context=vm.createContext({COURSES:Object.fromEntries(Object.entries(COURSE_CATALOG).map(([id,c])=>[id,{regularPrice:c.regularPrice,fullPrice:c.fullPrice}])),CLASS6_SUBJECT_PRICE:69, validClass6Subjects:x=>x,HttpsError:Error, timestampDate:x=>new Date(x)});
+vm.runInContext(snippet,context);
+for(const [id,rate] of Object.entries(rates)) for(const months of [1,3,6]) {
+ const result=await context.coursePrice(id,{subscriptionMonths:months,class6Months:months,class6Subjects:['science']});
+ assert.equal(result.rupees,subscriptionPrice(id,months).total);
+}
+assert.equal(context.addUtcMonths(new Date('2026-01-31T12:00:00Z'),1).toISOString(),'2026-02-28T23:59:59.999Z');
+assert.throws(()=>context.subscriptionDuration(12));
+console.log('PASS: nine course rates, all term discounts, backend/frontend price parity, expiry, legacy access and month-end dates.');

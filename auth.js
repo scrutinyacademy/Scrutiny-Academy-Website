@@ -1,5 +1,5 @@
 import { firebaseConfig } from './firebase-config.js';
-import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=3';
+import { COURSE_CATALOG, CLASS6_SUBJECTS, class6Price, currentCoursePrice } from './course-catalog.js?v=4';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendPasswordResetEmail, onAuthStateChanged, getIdTokenResult } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
 import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
@@ -41,42 +41,21 @@ function updateCourseSelection(){
     const offerActive=courseId==='neetss'?neetssFoundingOfferActive:studentOfferActive;
     const price=isClass6?class6Pricing.total:currentCoursePrice(courseId,offerActive);
     selectionSummary.hidden=false;
-    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price.toLocaleString('en-IN')}`}</strong><span>${course.includes.join(' • ')}</span><small>${courseId==='neetss'?`Full Course Price ₹${course.fullPrice.toLocaleString('en-IN')} · ${neetssFoundingOfferActive?'Founding offer for the first 100 paid enrolments':'Early Bird Price'}`:isNeet ? 'Choose NEET 2027 or 2028 to set your validity.' : isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
+    selectionSummary.innerHTML=`<strong>${course.name} · ${isClass6&&!class6Pricing.subjects.length?'Select subjects':`₹${price.toLocaleString('en-IN')}`}</strong><span>${course.includes.join(' • ')}</span><small>${isClass6 ? `${class6Pricing.months} month access · ₹69 per selected subject/month` : course.validity}</small>`;
   }
 }
 courseSelect?.addEventListener('change',updateCourseSelection);
 document.querySelectorAll('input[name="class6Subject"]').forEach(input=>input.addEventListener('change',updateCourseSelection));
 class6Months?.addEventListener('change',updateCourseSelection);
-function updateOfferPresentation(status={active:true,remaining:100,limit:100}){
-  studentOfferActive=status.active!==false;
-  neetssFoundingOfferActive=status.neetss?.active!==false;
+function updateOfferPresentation(){
   Object.entries(COURSE_CATALOG).forEach(([id,course])=>{
-    const offerActive=id==='neetss'?neetssFoundingOfferActive:studentOfferActive;
-    const price=currentCoursePrice(id,offerActive);
     const option=courseSelect?.querySelector(`option[value="${id}"]`);
-    if(option) option.textContent=id==='class6' ? `${course.name} — ₹69 per subject/month` : id==='neetss' ? `${course.name} — ${offerActive?'Founding Students Offer':'Early Bird Price'} ₹${price.toLocaleString('en-IN')}` : `${course.name} — ${studentOfferActive?'Student offer':'Regular price'} ₹${price.toLocaleString('en-IN')}`;
-    const card=document.querySelector(`[data-offer-card="${id}"]`);
-    if(!card) return;
-    if(id==='neetss'){
-      card.classList.toggle('offer-ended',!offerActive);
-      card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>${offerActive?'first 100 successful paid enrolments':'early bird price'}</small>`;
-      card.querySelector('.offer-limit').textContent=offerActive?`Early Bird Price ₹1,999 after the first ${status.neetss?.limit||100} enrolments`:'Founding offer complete · Early Bird Price now active';
-      const action=card.querySelector('a[data-select-course]'); if(action) action.textContent=offerActive?'GET FOUNDING OFFER':'GET EARLY BIRD PRICE';
-      return;
-    }
-    card.classList.toggle('offer-ended',!studentOfferActive && id!=='class6');
-    if(!studentOfferActive && id!=='class6'){
-      card.querySelector('.plan-price').innerHTML=`₹${price.toLocaleString('en-IN')} <small>regular price</small>`;
-      const action=card.querySelector('a[data-select-course]');
-      if(action) action.textContent='SELECT COURSE';
-    }
+    if(option) option.textContent=`${course.name} — ₹${currentCoursePrice(id).toLocaleString('en-IN')} ${id==='class6'?'per subject/':''}month`;
   });
-  const statusText=document.getElementById('studentOfferStatus');
-  if(statusText) statusText.textContent=studentOfferActive
-    ? `${status.remaining} of the first ${status.limit} website-wide student offer places remain. The offer ends automatically when Scrutiny Academy reaches ${status.limit} paid students.`
-    : `The first ${status.limit} paid-student launch offer is complete. Regular course prices now apply.`;
   updateCourseSelection();
 }
+updateOfferPresentation();
+
 function activate(mode){
   const login = mode==='login';
   loginTab?.classList.toggle('active',login); registerTab?.classList.toggle('active',!login);

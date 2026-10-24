@@ -23,7 +23,7 @@ const read=f=>fs.readFileSync(new URL(`../${f}`,import.meta.url),'utf8');
 const html=read('neetss-surgery.html'),ui=read('neetss-phase2-ui.js'),flashcardCss=read('neetss-flashcards.css'),backend=read('functions/index.js');
 for(const id of ['image-atlas','revision-sheets','bookmarks','quizTopic','quizDifficulty','cardMode','topicAnalytics','attemptHistory','searchResults','courseSidebar','study-planner','adaptive-practice','grand-tests','bank-status','bankStatusGrid','pyq-papers'])assert.ok(html.includes(`id="${id}"`));
 assert.ok(backend.includes('exports.getNeetssCourseContent'));
-assert.ok(backend.includes("snapshot.data().courseEntitlements?.neetss?.status !== 'active'"));
+assert.ok(backend.includes("!activeEntitlement(snapshot.data().courseEntitlements?.neetss)"));
 assert.ok(ui.includes("'getNeetssCourseContent'"));assert.ok(!ui.includes('const questions=['));assert.ok(ui.includes('version!==epoch'));assert.ok(ui.includes('if(epoch!==version||user?.uid!==uid)return'));
 assert.ok(html.includes('<option value="saved">Saved for revision</option>'));assert.ok(ui.includes('class="flashcard-scene"'));assert.ok(ui.includes('savedForRevision'));assert.ok(ui.includes('card:${c.id}'));assert.ok(ui.includes('WHY YOUR CHOICE WAS WRONG'));assert.ok(ui.includes('mcqsPerChapter'));assert.ok(flashcardCss.includes('.flip-card.is-flipped'));
 console.log('PASS: 22-domain breadth, 42 learning modules, 182 original MCQs, 254 flashcards, detailed wrong-answer analysis, honest bank targets, case paths, legacy migration, +4/−1/0 scoring, tap-to-flip cards, persistent bookmarks/revision saves, spaced review, adaptive queue, planner, Grand Test quality gate, analytics, source metadata, server gate and account race guards.');

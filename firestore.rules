@@ -10,8 +10,8 @@ service cloud.firestore {
       return signedIn() && (isFounder()
         || (student.courseEntitlements is map
           && 'class10' in student.courseEntitlements
-          && student.courseEntitlements.class10.status == 'active')
-        || (student.accessStatus == 'active'
+          && student.courseEntitlements.class10.status == 'active' && (!('expiresAt' in student.courseEntitlements.class10) || student.courseEntitlements.class10.expiresAt == null || student.courseEntitlements.class10.expiresAt > request.time))
+        || ((!(student.courseEntitlements is map) || !('class10' in student.courseEntitlements)) && student.accessStatus == 'active'
           && (student.purchasedCourse == 'class10' || student.requestedCourse == 'class10' || student.activeCourse == 'class10')));
     }
     function hasMissionEntitlement(resourceId) {
@@ -26,7 +26,7 @@ service cloud.firestore {
       let student = get(/databases/$(database)/documents/students/$(request.auth.uid)).data;
       return signedIn() && (isAdmin() || (student.courseEntitlements is map
         && 'neetss' in student.courseEntitlements
-        && student.courseEntitlements.neetss.status == 'active'));
+        && student.courseEntitlements.neetss.status == 'active' && (!('expiresAt' in student.courseEntitlements.neetss) || student.courseEntitlements.neetss.expiresAt == null || student.courseEntitlements.neetss.expiresAt > request.time)));
     }
 
     match /students/{uid} {

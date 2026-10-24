@@ -33,7 +33,7 @@ const COURSES = {
   class12: { name: "Class 12 Board Booster 2027", offerPrice: 149, regularPrice: 745, validityCode: "CLASS12_BOARD_2027", validityLabel: "Until the 2027 Class 12 board examinations conclude", features: ["Revision sheets", "VSAQ question banks", "SAQ question banks", "LAQ question banks"] },
   neet: { name: "NEET-UG Target Course", offerPrice: 99, regularPrice: 495, features: ["NCERT-focused Physics, Chemistry and Biology MCQs", "Previous-year questions", "NCERT search and revision tools", "Tests, progress tracking and mistake notebook"] },
   jee: { name: "IIT-JEE Complete Preparation Course", offerPrice: 499, regularPrice: 2495, validityCode: "JEE_EXAM_COMPLETION", validityLabel: "Until the student completes the IIT-JEE examination", features: ["Physics, Chemistry and Mathematics preparation", "Rigid Body & Rotational Motion masterclass", "JEE Main and Advanced practice", "Flashcards, MCQs and PYQ-focused revision"] },
-  mbbs: { name: "MBBS Complete Learning Course", offerPrice: 799, regularPrice: 3995, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Lifetime course access"] },
+  mbbs: { name: "MBBS Complete Learning Course", offerPrice: 799, regularPrice: 3995, validityCode: "MBBS_LIFETIME", validityLabel: "Lifetime access", features: ["Phase-wise MBBS subjects", "Clinical learning and revision resources", "Question practice and assessments", "Bookmarks, progress tracking and revision tools", "Subscription course access"] },
   neetss: { name: "NEET-SS Surgery — Super Speciality Mastery", offerPrice: 999, regularPrice: 1999, fullPrice: 8999, validityCode: "NEETSS_2026_2027", validityLabel: "NEET-SS 2026–2027 preparation cycle", features: ["18-domain Surgical Group roadmap", "Clinical decision pathways and case simulations", "Original MCQs with detailed explanations", "Smart flashcards and Mistake Book", "Performance analytics and progress tracking"] },
 };
 const KOTA_CHAPTER_PRICE = 9;
@@ -102,27 +102,40 @@ function hasActiveClass6Subjects(entitlement, subjects, at = new Date()) {
 
 function addUtcMonths(date, months) {
   const result = new Date(date);
+  const day = result.getUTCDate();
+  result.setUTCDate(1);
   result.setUTCMonth(result.getUTCMonth() + months);
+  const lastDay = new Date(Date.UTC(result.getUTCFullYear(), result.getUTCMonth()+1, 0)).getUTCDate();
+  result.setUTCDate(Math.min(day, lastDay));
   result.setUTCHours(23, 59, 59, 999);
   return result;
 }
 
 function class6Pricing(subjects, months) {
   const selected = validClass6Subjects(subjects);
-  const duration = Math.min(12, Math.max(1, Number.parseInt(months, 10) || 1));
+  const duration = subscriptionDuration(months);
   const subtotal = selected.length * CLASS6_SUBJECT_PRICE * duration;
-  const discountPercent = Math.min(33, Math.max(0, duration - 1) * 3);
-  const discount = Math.min(20, Math.round(subtotal * discountPercent / 100));
+  const discountPercent = duration >= 6 ? 20 : duration >= 3 ? 10 : 0;
+  const discount = Math.round(subtotal * discountPercent) / 100;
   return { subjects: selected, months: duration, subtotal, discountPercent, discount, rupees: Math.max(0, subtotal - discount) };
 }
 
+function subscriptionDuration(value) {
+  const months = Number(value || 1);
+  if (![1,3,6].includes(months)) throw new HttpsError("invalid-argument", "Choose 1, 3 or 6 months.");
+  return months;
+}
+function activeEntitlement(value) {
+  return value?.status === "active" && (!value.expiresAt || timestampDate(value.expiresAt)?.getTime() > Date.now());
+}
 async function coursePrice(courseId, options = {}) {
   const course = COURSES[courseId];
   if (!course) return null;
-  if (courseId === "class6") return { ...class6Pricing(options.class6Subjects, options.class6Months), offer: { active: true } };
-  const offer = await studentOfferStatus();
-  if (courseId === "neetss") return { rupees: offer.neetss.active ? course.offerPrice : course.regularPrice, offer: offer.neetss };
-  return { rupees: offer.active ? course.offerPrice : course.regularPrice, offer };
+  if (courseId === "class6") return { ...class6Pricing(options.class6Subjects, options.class6Months), offer: { active: false } };
+  const months = subscriptionDuration(options.subscriptionMonths);
+  const subtotal = (course.fullPrice || course.regularPrice) * months;
+  const discountPercent = months === 6 ? 20 : months === 3 ? 10 : 0;
+  return { rupees: Math.round(subtotal * (100-discountPercent))/100, months, offer: {active:false} };
 }
 
 function courseValidity(courseId, neetExamYear, class6Months) {
@@ -153,7 +166,7 @@ function validKotaChapterIds(value) {
 }
 
 function hasActiveNeetCourse(profile = {}) {
-  if (profile.courseEntitlements?.neet?.status === "active") return true;
+  if (profile.courseEntitlements?.neet) return activeEntitlement(profile.courseEntitlements.neet);
   const legacy = profile.purchasedCourse || profile.requestedCourse || profile.activeCourse;
   return profile.accessStatus === "active" && legacy === "neet";
 }
@@ -406,7 +419,7 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
   const student = studentSnap.data();
   const courseId = requestData.courseId;
   const course = COURSES[courseId];
-  const validity = courseValidity(courseId, requestData.neetExamYear, requestData.class6Months);
+  const validity = requestData.subscriptionMonths ? {code: `SUBSCRIPTION_${requestData.subscriptionMonths}_MONTHS`, label: `${requestData.subscriptionMonths} months from activation`} : courseValidity(courseId, requestData.neetExamYear, requestData.class6Months);
   if (!course || !validity) {
     throw new HttpsError("failed-precondition", "The purchased course details are invalid.");
   }
@@ -503,8 +516,8 @@ async function activateStudent({ uid, orderId, paymentId, source }) {
           validityLabel: validity.label,
           pricePaid: requestData.amount,
           selectedSubjects: null,
-          months: null,
-          expiresAt: null,
+          months: requestData.subscriptionMonths || null,
+          expiresAt: requestData.subscriptionMonths ? Timestamp.fromDate(addUtcMonths(now, requestData.subscriptionMonths)) : null,
           activatedAt: FieldValue.serverTimestamp(),
         };
       }
@@ -569,7 +582,7 @@ exports.getNeetssCourseContent = onCall(
     const founder = request.auth.token.founder === true || FOUNDER_EMAILS.has(email);
     if (!founder) {
       const snapshot = await db.doc(`students/${request.auth.uid}`).get();
-      if (!snapshot.exists || snapshot.data().courseEntitlements?.neetss?.status !== 'active') {
+      if (!snapshot.exists || !activeEntitlement(snapshot.data().courseEntitlements?.neetss)) {
         throw new HttpsError('permission-denied', 'Active NEET-SS enrolment is required.');
       }
     }
@@ -605,8 +618,9 @@ exports.createRazorpayOrder = onCall(
     const neetExamYear = courseId === "neet" ? String(request.data?.neetExamYear || profile.neetExamYear || "") : null;
     const class6Subjects = courseId === "class6" ? validClass6Subjects(request.data?.class6Subjects?.length ? request.data.class6Subjects : profile.class6Subjects) : [];
     const class6Months = courseId === "class6" ? Math.min(12, Math.max(1, Number.parseInt(request.data?.class6Months || profile.class6Months, 10) || 1)) : null;
-    const validity = courseValidity(courseId, neetExamYear, class6Months);
-    const pricing = await coursePrice(courseId, { class6Subjects, class6Months });
+    const subscriptionMonths = subscriptionDuration(courseId === "class6" ? class6Months : request.data?.subscriptionMonths);
+    const validity = {code: `SUBSCRIPTION_${subscriptionMonths}_MONTHS`, label: `${subscriptionMonths} months from activation`};
+    const pricing = await coursePrice(courseId, { class6Subjects, class6Months, subscriptionMonths });
     const priceRupees = pricing?.rupees;
     const checkoutCourseName = courseId === "class6" ? `Class 6 CBSE — ${class6Subjects.map((id) => CLASS6_SUBJECTS[id]).join(" + ")}` : course?.name;
     if (!course || !validity || !priceRupees || (courseId === "class6" && !class6Subjects.length)) {
@@ -616,11 +630,11 @@ exports.createRazorpayOrder = onCall(
     const entitlement = profile.courseEntitlements?.[courseId];
     const entitlementActive = courseId === "class6"
       ? hasActiveClass6Subjects(entitlement, class6Subjects)
-      : entitlement?.status === "active";
-    if (entitlementActive || (courseId !== "class6" && profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
+      : activeEntitlement(entitlement);
+    if (entitlementActive || (!entitlement && courseId !== "class6" && profile.accessStatus === "active" && legacyOwnedCourse === courseId)) {
       return { active: true, courseId };
     }
-    const pricePaise = priceRupees * 100;
+    const pricePaise = Math.round(priceRupees * 100);
     const requestRef = db.doc(`paymentRequests/${paymentRequestId(uid, courseId)}`);
     const existingRequest = await requestRef.get();
 
@@ -636,6 +650,8 @@ exports.createRazorpayOrder = onCall(
         existing.neetExamYear === neetExamYear &&
         JSON.stringify(existing.class6Subjects || []) === JSON.stringify(class6Subjects) &&
         (existing.class6Months || null) === class6Months &&
+        existing.status === "pending" &&
+        existing.subscriptionMonths === subscriptionMonths &&
         existing.amountPaise === pricePaise &&
         existing.currency === CURRENCY
       ) {
@@ -671,6 +687,7 @@ exports.createRazorpayOrder = onCall(
         neetExamYear,
         class6Subjects,
         class6Months,
+        subscriptionMonths,
         class6Subtotal: pricing.subtotal || null,
         class6DiscountPercent: pricing.discountPercent || 0,
         class6Discount: pricing.discount || 0,
@@ -859,6 +876,9 @@ exports.syncRazorpayPayment = onCall(
       }
     }
     if (paymentRequest.data().status === "paid") {
+      const profile = (await db.doc(`students/${uid}`).get()).data() || {};
+      const entitlement = profile.courseEntitlements?.[courseId];
+      if (courseId === "class6" ? !hasActiveClass6Subjects(entitlement, validClass6Subjects(request.data?.class6Subjects)) : !activeEntitlement(entitlement)) return {active:false};
       const invoiceId = paymentRequest.data().invoiceId;
       if (!invoiceId) return { active: true };
       const invoice = await db.doc(`students/${uid}/invoices/${invoiceId}`).get();

@@ -1,6 +1,6 @@
 import "./student-storage.js";
 import { firebaseConfig, SCRUTINY_ADMIN_EMAILS } from "./firebase-config.js";
-import { entitledCourses } from "./course-catalog.js?v=3";
+import { entitledCourses } from "./course-catalog.js?v=4";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth,
