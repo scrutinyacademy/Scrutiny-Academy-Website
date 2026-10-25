@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v103-mission600-textbook-dpps";
+const CACHE = "scrutiny-academy-v104-mission600-textbook-dpps";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -41,7 +41,7 @@ const APP_SHELL = [
   "./mission600.html?v=11",
   "./mission600.css?v=3",
   "./mission600.js?v=11",
-  "./mission600-v2.css?v=5",
+  "./mission600-v2.css?v=6",
   "./mission600-core.mjs",
   "./mission600-dpp.html?v=8",
   "./mission600-dpp.js?v=9",
