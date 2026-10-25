@@ -1,0 +1,3404 @@
+{
+  "SA-DPP-27-MAT-CH01-E": {
+    "id": "SA-DPP-27-MAT-CH01-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "E",
+    "title": "Real Numbers – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-12",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q01",
+        "question": "Which number is irrational?",
+        "options": [
+          "0.25",
+          "−3",
+          "2/7",
+          "√2"
+        ],
+        "answer": 3,
+        "explanation": "√2 cannot be written as a ratio of integers.",
+        "difficulty": "Easy",
+        "topic": "Which number is irrational?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q02",
+        "question": "What is the HCF of 18 and 24?",
+        "options": [
+          "12",
+          "72",
+          "6",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "18 = 3 × 6 and 24 = 4 × 6; no larger integer divides both.",
+        "difficulty": "Easy",
+        "topic": "What is the HCF of 18 and 24?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q03",
+        "question": "A rational number in lowest terms terminates when its denominator has only which prime factors?",
+        "options": [
+          "5 and 7",
+          "2 and 5",
+          "3 and 7",
+          "2 and 3"
+        ],
+        "answer": 1,
+        "explanation": "A denominator dividing a power of 10 gives a terminating decimal.",
+        "difficulty": "Easy",
+        "topic": "A rational number in lowest terms terminates when its denominator has only which prime factors?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH01-M": {
+    "id": "SA-DPP-27-MAT-CH01-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "M",
+    "title": "Real Numbers – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-13",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q01",
+        "question": "What is the LCM of 12 and 18?",
+        "options": [
+          "72",
+          "216",
+          "36",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "LCM × HCF = 12 × 18; the HCF is 6.",
+        "difficulty": "Medium",
+        "topic": "What is the LCM of 12 and 18?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q02",
+        "question": "Does 7/40 have a terminating decimal?",
+        "options": [
+          "Yes, because every fraction terminates",
+          "Yes, because 40 = 2³ × 5",
+          "No, because 7 is prime",
+          "No, because 40 is not a power of 10"
+        ],
+        "answer": 1,
+        "explanation": "In lowest terms the denominator contains only 2 and 5.",
+        "difficulty": "Medium",
+        "topic": "Does 7/40 have a terminating decimal?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q03",
+        "question": "What is the remainder when 100 is divided by 7?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "100 = 7 × 14 + 2.",
+        "difficulty": "Medium",
+        "topic": "What is the remainder when 100 is divided by 7?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH01-H": {
+    "id": "SA-DPP-27-MAT-CH01-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "H",
+    "title": "Real Numbers – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q01",
+        "question": "If two positive integers have HCF 12 and LCM 180, and one is 36, what is the other?",
+        "options": [
+          "90",
+          "60",
+          "48",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "Their product is 12 × 180; divide by 36 to get 60.",
+        "difficulty": "Hard",
+        "topic": "If two positive integers have HCF 12 and LCM 180, and one is 36, what is the other?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q02",
+        "question": "If √3 = p/q in lowest terms, which contradiction completes the irrationality proof?",
+        "options": [
+          "Both p and q must be divisible by 3",
+          "p must be even",
+          "q must be 1",
+          "p must be smaller than q"
+        ],
+        "answer": 0,
+        "explanation": "Squaring gives p² = 3q², forcing both integers to have factor 3.",
+        "difficulty": "Hard",
+        "topic": "If √3 = p/q in lowest terms, which contradiction completes the irrationality proof?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q03",
+        "question": "Why is 6ⁿ never divisible by 10 for a positive integer n?",
+        "options": [
+          "It is always odd",
+          "It has no factor 2",
+          "Its last digit is always 0",
+          "Its prime factorisation has no factor 5"
+        ],
+        "answer": 3,
+        "explanation": "6ⁿ contains only factors 2 and 3; divisibility by 10 also requires 5.",
+        "difficulty": "Hard",
+        "topic": "Why is 6ⁿ never divisible by 10 for a positive integer n?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH02-E": {
+    "id": "SA-DPP-27-MAT-CH02-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "E",
+    "title": "Sets – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q01",
+        "question": "What is the intersection of {1,2,3} and {3,4}?",
+        "options": [
+          "{1,2}",
+          "{4}",
+          "{3}",
+          "{1,2,3,4}"
+        ],
+        "answer": 2,
+        "explanation": "Intersection contains elements common to both sets.",
+        "difficulty": "Easy",
+        "topic": "What is the intersection of {1,2,3} and {3,4}?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q02",
+        "question": "How many subsets does a two-element set have?",
+        "options": [
+          "8",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "A set with n elements has 2ⁿ subsets.",
+        "difficulty": "Easy",
+        "topic": "How many subsets does a two-element set have?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q03",
+        "question": "Which symbol denotes the empty set?",
+        "options": [
+          "∅",
+          "{0}",
+          "{∅}",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "The empty set has no elements; {0} has one.",
+        "difficulty": "Easy",
+        "topic": "Which symbol denotes the empty set?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH02-M": {
+    "id": "SA-DPP-27-MAT-CH02-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "M",
+    "title": "Sets – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q01",
+        "question": "If n(A)=12, n(B)=9 and n(A∩B)=4, find n(A∪B).",
+        "options": [
+          "5",
+          "17",
+          "21",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "Use 12 + 9 − 4 to avoid counting the intersection twice.",
+        "difficulty": "Medium",
+        "topic": "If n(A)=12, n(B)=9 and n(A∩B)=4, find n(A∪B).",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q02",
+        "question": "For U={1,2,3,4,5} and A={2,4}, find A′.",
+        "options": [
+          "{1,3,5}",
+          "{2,4}",
+          "{1,2,3}",
+          "{5}"
+        ],
+        "answer": 0,
+        "explanation": "The complement contains elements of U outside A.",
+        "difficulty": "Medium",
+        "topic": "For U={1,2,3,4,5} and A={2,4}, find A′.",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q03",
+        "question": "If A={1,2} and B={2,3}, what is A−B?",
+        "options": [
+          "{2}",
+          "{3}",
+          "{1,3}",
+          "{1}"
+        ],
+        "answer": 3,
+        "explanation": "Remove from A every element that also belongs to B.",
+        "difficulty": "Medium",
+        "topic": "If A={1,2} and B={2,3}, what is A−B?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH02-H": {
+    "id": "SA-DPP-27-MAT-CH02-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "H",
+    "title": "Sets – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q01",
+        "question": "In a class of 40, 25 study Hindi, 20 study Telugu and 10 study both. How many study neither?",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "The union has 25+20−10=35 students; 40−35=5.",
+        "difficulty": "Hard",
+        "topic": "In a class of 40, 25 study Hindi, 20 study Telugu and 10 study both. How many study neither?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q02",
+        "question": "For finite sets A⊆B with n(A)=n(B), what follows?",
+        "options": [
+          "A=∅ always",
+          "A∩B=∅",
+          "A and B must be infinite",
+          "A=B"
+        ],
+        "answer": 3,
+        "explanation": "A proper subset of a finite set has fewer elements.",
+        "difficulty": "Hard",
+        "topic": "For finite sets A⊆B with n(A)=n(B), what follows?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q03",
+        "question": "Which identity is valid for all sets A and B?",
+        "options": [
+          "A∪B=A∩B",
+          "A∩B′=A∪B",
+          "A−B=A∩B′",
+          "A−B=B−A"
+        ],
+        "answer": 2,
+        "explanation": "An element is in A−B exactly when it is in A and outside B.",
+        "difficulty": "Hard",
+        "topic": "Which identity is valid for all sets A and B?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH03-E": {
+    "id": "SA-DPP-27-MAT-CH03-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "E",
+    "title": "Polynomials – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q01",
+        "question": "What is the degree of 3x²−5x+7?",
+        "options": [
+          "7",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "The greatest exponent with a nonzero coefficient is 2.",
+        "difficulty": "Easy",
+        "topic": "What is the degree of 3x²−5x+7?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q02",
+        "question": "Which value is a zero of x−4?",
+        "options": [
+          "4",
+          "−4",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Substituting 4 makes x−4 equal to zero.",
+        "difficulty": "Easy",
+        "topic": "Which value is a zero of x−4?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q03",
+        "question": "For ax²+bx+c, the sum of its zeros is what?",
+        "options": [
+          "b/a",
+          "c/a",
+          "−c/a",
+          "−b/a"
+        ],
+        "answer": 3,
+        "explanation": "Comparing a(x−α)(x−β) gives α+β=−b/a.",
+        "difficulty": "Easy",
+        "topic": "For ax²+bx+c, the sum of its zeros is what?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH03-M": {
+    "id": "SA-DPP-27-MAT-CH03-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "M",
+    "title": "Polynomials – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q01",
+        "question": "Find the product of the zeros of 2x²−7x+3.",
+        "options": [
+          "3/2",
+          "7/2",
+          "−3/2",
+          "−7/2"
+        ],
+        "answer": 0,
+        "explanation": "The product is c/a = 3/2.",
+        "difficulty": "Medium",
+        "topic": "Find the product of the zeros of 2x²−7x+3.",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q02",
+        "question": "What remainder results when x²+3x+2 is divided by x−1?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "The remainder theorem gives p(1)=1+3+2=6.",
+        "difficulty": "Medium",
+        "topic": "What remainder results when x²+3x+2 is divided by x−1?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q03",
+        "question": "Which monic quadratic has zeros 2 and −3?",
+        "options": [
+          "x²+x+6",
+          "x²−5x+6",
+          "x²+x−6",
+          "x²−x−6"
+        ],
+        "answer": 2,
+        "explanation": "Expand (x−2)(x+3).",
+        "difficulty": "Medium",
+        "topic": "Which monic quadratic has zeros 2 and −3?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH03-H": {
+    "id": "SA-DPP-27-MAT-CH03-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "H",
+    "title": "Polynomials – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-18",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q01",
+        "question": "If one zero of 2x²+kx−6 is 2, find k.",
+        "options": [
+          "1",
+          "−2",
+          "2",
+          "−1"
+        ],
+        "answer": 3,
+        "explanation": "Substitute x=2: 8+2k−6=0, so k=−1.",
+        "difficulty": "Hard",
+        "topic": "If one zero of 2x²+kx−6 is 2, find k.",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q02",
+        "question": "If α and β are zeros of x²−5x+3, find α²+β².",
+        "options": [
+          "31",
+          "10",
+          "19",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Use (α+β)²−2αβ=25−6=19.",
+        "difficulty": "Hard",
+        "topic": "If α and β are zeros of x²−5x+3, find α²+β².",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q03",
+        "question": "Which polynomial must divide x³−3x²−4x+12 exactly?",
+        "options": [
+          "x−2",
+          "x−3",
+          "x−1",
+          "x+1"
+        ],
+        "answer": 1,
+        "explanation": "At x=3 the polynomial is 27−27−12+12=0.",
+        "difficulty": "Hard",
+        "topic": "Which polynomial must divide x³−3x²−4x+12 exactly?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH04-E": {
+    "id": "SA-DPP-27-MAT-CH04-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "E",
+    "title": "Pair of Linear Equations in Two Variables – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-26",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q01",
+        "question": "A pair of intersecting straight lines represents how many common solutions?",
+        "options": [
+          "One",
+          "None",
+          "Two",
+          "Infinitely many"
+        ],
+        "answer": 0,
+        "explanation": "The intersection point satisfies both equations.",
+        "difficulty": "Easy",
+        "topic": "A pair of intersecting straight lines represents how many common solutions?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q02",
+        "question": "Which ordered pair satisfies x+y=5?",
+        "options": [
+          "(1,3)",
+          "(3,3)",
+          "(0,4)",
+          "(2,3)"
+        ],
+        "answer": 3,
+        "explanation": "2+3=5.",
+        "difficulty": "Easy",
+        "topic": "Which ordered pair satisfies x+y=5?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q03",
+        "question": "Two distinct parallel lines represent what type of system?",
+        "options": [
+          "Consistent with infinitely many solutions",
+          "Identical equations",
+          "Inconsistent",
+          "Consistent with one solution"
+        ],
+        "answer": 2,
+        "explanation": "Distinct parallel lines have no intersection.",
+        "difficulty": "Easy",
+        "topic": "Two distinct parallel lines represent what type of system?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH04-M": {
+    "id": "SA-DPP-27-MAT-CH04-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "M",
+    "title": "Pair of Linear Equations in Two Variables – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-27",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q01",
+        "question": "Solve x+y=7 and x−y=1.",
+        "options": [
+          "x=3,y=4",
+          "x=5,y=2",
+          "x=6,y=1",
+          "x=4,y=3"
+        ],
+        "answer": 3,
+        "explanation": "Adding gives 2x=8; then y=3.",
+        "difficulty": "Medium",
+        "topic": "Solve x+y=7 and x−y=1.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q02",
+        "question": "What does the pair 2x+3y=6 and 4x+6y=12 represent?",
+        "options": [
+          "Perpendicular lines",
+          "Two intersection points",
+          "Coincident lines",
+          "Distinct parallel lines"
+        ],
+        "answer": 2,
+        "explanation": "The second equation is twice the first.",
+        "difficulty": "Medium",
+        "topic": "What does the pair 2x+3y=6 and 4x+6y=12 represent?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q03",
+        "question": "Two pens and one pencil cost ₹25; one pen and one pencil cost ₹15. Find the pen price.",
+        "options": [
+          "₹20",
+          "₹10",
+          "₹5",
+          "₹15"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the second equation from the first.",
+        "difficulty": "Medium",
+        "topic": "Two pens and one pencil cost ₹25; one pen and one pencil cost ₹15. Find the pen price.",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH04-H": {
+    "id": "SA-DPP-27-MAT-CH04-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "H",
+    "title": "Pair of Linear Equations in Two Variables – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q01",
+        "question": "For what k does kx+2y=5 and 3x+6y=15 have infinitely many solutions?",
+        "options": [
+          "3",
+          "5",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "All coefficient and constant ratios must be equal: k/3=2/6=5/15.",
+        "difficulty": "Hard",
+        "topic": "For what k does kx+2y=5 and 3x+6y=15 have infinitely many solutions?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q02",
+        "question": "A two-digit number has digit sum 9 and is 27 greater than its reverse. What is it?",
+        "options": [
+          "54",
+          "63",
+          "36",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "If digits are x,y, then x+y=9 and 9(x−y)=27, giving x=6,y=3.",
+        "difficulty": "Hard",
+        "topic": "A two-digit number has digit sum 9 and is 27 greater than its reverse. What is it?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q03",
+        "question": "For what k does 2x+3y=7 and 4x+6y=k have no solution?",
+        "options": [
+          "Any k other than 14",
+          "Only k=14",
+          "Only k=7",
+          "Every real k"
+        ],
+        "answer": 0,
+        "explanation": "The left side doubles, so consistency requires k=14.",
+        "difficulty": "Hard",
+        "topic": "For what k does 2x+3y=7 and 4x+6y=k have no solution?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH05-E": {
+    "id": "SA-DPP-27-MAT-CH05-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "E",
+    "title": "Quadratic Equations – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q01",
+        "question": "Which equation is quadratic?",
+        "options": [
+          "2x+1=0",
+          "x³=1",
+          "1/x=2",
+          "x²−3x+2=0"
+        ],
+        "answer": 3,
+        "explanation": "A quadratic polynomial equation has degree 2.",
+        "difficulty": "Easy",
+        "topic": "Which equation is quadratic?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q02",
+        "question": "What is the discriminant of ax²+bx+c=0?",
+        "options": [
+          "a²−4bc",
+          "2a+b",
+          "b²−4ac",
+          "b²+4ac"
+        ],
+        "answer": 2,
+        "explanation": "The discriminant is the expression under the square root in the quadratic formula.",
+        "difficulty": "Easy",
+        "topic": "What is the discriminant of ax²+bx+c=0?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q03",
+        "question": "If a quadratic has discriminant zero, its real roots are what?",
+        "options": [
+          "Always zero",
+          "Equal",
+          "Distinct",
+          "Non-real"
+        ],
+        "answer": 1,
+        "explanation": "The square-root term vanishes.",
+        "difficulty": "Easy",
+        "topic": "If a quadratic has discriminant zero, its real roots are what?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH05-M": {
+    "id": "SA-DPP-27-MAT-CH05-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "M",
+    "title": "Quadratic Equations – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q01",
+        "question": "Solve x²−5x+6=0.",
+        "options": [
+          "1 and 6",
+          "−1 and −6",
+          "2 and 3",
+          "−2 and −3"
+        ],
+        "answer": 2,
+        "explanation": "Factor as (x−2)(x−3)=0.",
+        "difficulty": "Medium",
+        "topic": "Solve x²−5x+6=0.",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q02",
+        "question": "How many real roots does x²+4x+5=0 have?",
+        "options": [
+          "Infinitely many",
+          "None",
+          "One repeated root",
+          "Two distinct roots"
+        ],
+        "answer": 1,
+        "explanation": "The discriminant is 16−20=−4.",
+        "difficulty": "Medium",
+        "topic": "How many real roots does x²+4x+5=0 have?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q03",
+        "question": "A rectangle has sides x and x+3 and area 40. Find its positive shorter side.",
+        "options": [
+          "5",
+          "8",
+          "4",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "x²+3x−40=(x+8)(x−5)=0; reject the negative length.",
+        "difficulty": "Medium",
+        "topic": "A rectangle has sides x and x+3 and area 40. Find its positive shorter side.",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH05-H": {
+    "id": "SA-DPP-27-MAT-CH05-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "H",
+    "title": "Quadratic Equations – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q01",
+        "question": "For which k does x²−6x+k=0 have equal roots?",
+        "options": [
+          "12",
+          "9",
+          "6",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Set the discriminant 36−4k equal to zero.",
+        "difficulty": "Hard",
+        "topic": "For which k does x²−6x+k=0 have equal roots?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q02",
+        "question": "Two consecutive positive integers have product 156. Find their sum.",
+        "options": [
+          "25",
+          "24",
+          "26",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "12×13=156, so their sum is 25.",
+        "difficulty": "Hard",
+        "topic": "Two consecutive positive integers have product 156. Find their sum.",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q03",
+        "question": "Which roots solve 2x²−x−3=0?",
+        "options": [
+          "−3/2 and 1",
+          "3 and −1/2",
+          "1/2 and −3",
+          "3/2 and −1"
+        ],
+        "answer": 3,
+        "explanation": "Factor as (2x−3)(x+1)=0.",
+        "difficulty": "Hard",
+        "topic": "Which roots solve 2x²−x−3=0?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH06-E": {
+    "id": "SA-DPP-27-MAT-CH06-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "E",
+    "title": "Progressions – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q01",
+        "question": "What is the common difference of 3,7,11,15,…?",
+        "options": [
+          "7",
+          "2",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Subtract each term from the next.",
+        "difficulty": "Easy",
+        "topic": "What is the common difference of 3,7,11,15,…?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q02",
+        "question": "The nth term of an AP is which expression?",
+        "options": [
+          "a/n+d",
+          "a+(n−1)d",
+          "a+nd",
+          "adⁿ"
+        ],
+        "answer": 1,
+        "explanation": "The first term receives n−1 increments of d.",
+        "difficulty": "Easy",
+        "topic": "The nth term of an AP is which expression?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q03",
+        "question": "What is the next term of 2,6,18,…, a geometric progression?",
+        "options": [
+          "54",
+          "36",
+          "24",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "The common ratio is 3.",
+        "difficulty": "Easy",
+        "topic": "What is the next term of 2,6,18,…, a geometric progression?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH06-M": {
+    "id": "SA-DPP-27-MAT-CH06-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "M",
+    "title": "Progressions – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q01",
+        "question": "Find the tenth term of the AP 5,8,11,… .",
+        "options": [
+          "27",
+          "32",
+          "35",
+          "30"
+        ],
+        "answer": 1,
+        "explanation": "a₁₀=5+9×3=32.",
+        "difficulty": "Medium",
+        "topic": "Find the tenth term of the AP 5,8,11,… .",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q02",
+        "question": "Find the sum of the first 20 positive integers.",
+        "options": [
+          "210",
+          "200",
+          "190",
+          "220"
+        ],
+        "answer": 0,
+        "explanation": "S=20×21/2=210.",
+        "difficulty": "Medium",
+        "topic": "Find the sum of the first 20 positive integers.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q03",
+        "question": "Find the fifth term of the GP 3,6,12,… .",
+        "options": [
+          "24",
+          "96",
+          "30",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "a₅=3×2⁴=48.",
+        "difficulty": "Medium",
+        "topic": "Find the fifth term of the GP 3,6,12,… .",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH06-H": {
+    "id": "SA-DPP-27-MAT-CH06-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "H",
+    "title": "Progressions – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-11-01",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q01",
+        "question": "The third and seventh AP terms are 11 and 23. Find the first term.",
+        "options": [
+          "5",
+          "3",
+          "7",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Four common differences total 12, so d=3 and a=11−6=5.",
+        "difficulty": "Hard",
+        "topic": "The third and seventh AP terms are 11 and 23. Find the first term.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q02",
+        "question": "How many terms of 3,7,11,… sum to 210?",
+        "options": [
+          "9",
+          "11",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Sₙ=n[6+4(n−1)]/2=n(2n+1); n=10 gives 210.",
+        "difficulty": "Hard",
+        "topic": "How many terms of 3,7,11,… sum to 210?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q03",
+        "question": "An AP has a₅=0. What is the sum of its first nine terms?",
+        "options": [
+          "45",
+          "Cannot be determined",
+          "0",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "In an odd-length AP the middle term equals the mean; S₉=9a₅=0.",
+        "difficulty": "Hard",
+        "topic": "An AP has a₅=0. What is the sum of its first nine terms?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH07-E": {
+    "id": "SA-DPP-27-MAT-CH07-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "E",
+    "title": "Coordinate Geometry – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q01",
+        "question": "Find the distance from (0,0) to (3,4).",
+        "options": [
+          "25",
+          "5",
+          "7",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Distance is √(3²+4²)=5.",
+        "difficulty": "Easy",
+        "topic": "Find the distance from (0,0) to (3,4).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q02",
+        "question": "Find the midpoint of (2,4) and (6,8).",
+        "options": [
+          "(4,6)",
+          "(8,12)",
+          "(2,2)",
+          "(3,4)"
+        ],
+        "answer": 0,
+        "explanation": "Average the two x coordinates and the two y coordinates.",
+        "difficulty": "Easy",
+        "topic": "Find the midpoint of (2,4) and (6,8).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q03",
+        "question": "Which point lies on the x-axis?",
+        "options": [
+          "(0,3)",
+          "(2,2)",
+          "(−1,4)",
+          "(3,0)"
+        ],
+        "answer": 3,
+        "explanation": "Every point on the x-axis has y=0.",
+        "difficulty": "Easy",
+        "topic": "Which point lies on the x-axis?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH07-M": {
+    "id": "SA-DPP-27-MAT-CH07-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "M",
+    "title": "Coordinate Geometry – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-10",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q01",
+        "question": "Find the distance between (−2,1) and (4,9).",
+        "options": [
+          "10",
+          "8",
+          "14",
+          "100"
+        ],
+        "answer": 0,
+        "explanation": "The coordinate differences are 6 and 8; √(36+64)=10.",
+        "difficulty": "Medium",
+        "topic": "Find the distance between (−2,1) and (4,9).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q02",
+        "question": "A point divides the segment from (0,0) to (6,9) internally in the ratio 1:2. Find it.",
+        "options": [
+          "(4,6)",
+          "(3,4.5)",
+          "(1,2)",
+          "(2,3)"
+        ],
+        "answer": 3,
+        "explanation": "The point is one-third of the way from the first endpoint.",
+        "difficulty": "Medium",
+        "topic": "A point divides the segment from (0,0) to (6,9) internally in the ratio 1:2. Find it.",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q03",
+        "question": "What is the area of the triangle (0,0),(4,0),(0,3)?",
+        "options": [
+          "7 square units",
+          "3 square units",
+          "6 square units",
+          "12 square units"
+        ],
+        "answer": 2,
+        "explanation": "Use half the product of perpendicular base 4 and height 3.",
+        "difficulty": "Medium",
+        "topic": "What is the area of the triangle (0,0),(4,0),(0,3)?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH07-H": {
+    "id": "SA-DPP-27-MAT-CH07-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "H",
+    "title": "Coordinate Geometry – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-11",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q01",
+        "question": "For what k are (1,2),(3,6),(k,10) collinear?",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "The first slope is 2; (10−6)/(k−3)=2 gives k=5.",
+        "difficulty": "Hard",
+        "topic": "For what k are (1,2),(3,6),(k,10) collinear?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q02",
+        "question": "A point on the y-axis is equidistant from (2,3) and (4,1). What is it?",
+        "options": [
+          "(0,2)",
+          "(0,3)",
+          "(0,0)",
+          "(0,1)"
+        ],
+        "answer": 2,
+        "explanation": "Set 4+(y−3)²=16+(y−1)² to obtain y=0.",
+        "difficulty": "Hard",
+        "topic": "A point on the y-axis is equidistant from (2,3) and (4,1). What is it?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q03",
+        "question": "The midpoint of AB is (3,−1), and A=(−2,5). Find B.",
+        "options": [
+          "(6,−2)",
+          "(8,−7)",
+          "(4,−6)",
+          "(1,4)"
+        ],
+        "answer": 1,
+        "explanation": "Use B=2M−A coordinate by coordinate.",
+        "difficulty": "Hard",
+        "topic": "The midpoint of AB is (3,−1), and A=(−2,5). Find B.",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH08-E": {
+    "id": "SA-DPP-27-MAT-CH08-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Similar Triangles",
+    "level": "E",
+    "title": "Similar Triangles – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-02",
+    "recommendedDate": "2026-11-11",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 195,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH08-E-Q01",
+        "question": "Corresponding angles in similar triangles are what?",
+        "options": [
+          "Equal",
+          "Supplementary always",
+          "Complementary always",
+          "Unequal"
+        ],
+        "answer": 0,
+        "explanation": "Similar figures have equal corresponding angles.",
+        "difficulty": "Easy",
+        "topic": "Corresponding angles in similar triangles are what?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-E-Q02",
+        "question": "If two similar triangles have side ratio 2:3, what is their area ratio?",
+        "options": [
+          "2:3",
+          "8:27",
+          "3:2",
+          "4:9"
+        ],
+        "answer": 3,
+        "explanation": "Areas scale as the square of the side ratio.",
+        "difficulty": "Easy",
+        "topic": "If two similar triangles have side ratio 2:3, what is their area ratio?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-E-Q03",
+        "question": "Which criterion establishes similarity using two equal angles?",
+        "options": [
+          "RHS only",
+          "Equal perimeters",
+          "AA",
+          "SSS congruence only"
+        ],
+        "answer": 2,
+        "explanation": "The third angle is then also equal.",
+        "difficulty": "Easy",
+        "topic": "Which criterion establishes similarity using two equal angles?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH08-M": {
+    "id": "SA-DPP-27-MAT-CH08-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Similar Triangles",
+    "level": "M",
+    "title": "Similar Triangles – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-02",
+    "recommendedDate": "2026-11-12",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 195,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH08-M-Q01",
+        "question": "A 1.5 m stick casts a 2 m shadow; a tree casts an 8 m shadow at the same time. Find its height.",
+        "options": [
+          "8 m",
+          "4 m",
+          "12 m",
+          "6 m"
+        ],
+        "answer": 3,
+        "explanation": "Similar right triangles give h/8=1.5/2.",
+        "difficulty": "Medium",
+        "topic": "A 1.5 m stick casts a 2 m shadow; a tree casts an 8 m shadow at the same time. Find its height.",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-M-Q02",
+        "question": "In triangle ABC, DE∥BC with D on AB and E on AC. If AD=3, DB=2 and AE=6, find EC.",
+        "options": [
+          "2",
+          "5",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "The basic proportionality theorem gives AD/DB=AE/EC.",
+        "difficulty": "Medium",
+        "topic": "In triangle ABC, DE∥BC with D on AB and E on AC. If AD=3, DB=2 and AE=6, find EC.",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-M-Q03",
+        "question": "A right triangle has legs 6 and 8. Find its hypotenuse.",
+        "options": [
+          "7",
+          "10",
+          "14",
+          "12"
+        ],
+        "answer": 1,
+        "explanation": "Pythagoras gives √(36+64)=10.",
+        "difficulty": "Medium",
+        "topic": "A right triangle has legs 6 and 8. Find its hypotenuse.",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH08-H": {
+    "id": "SA-DPP-27-MAT-CH08-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Similar Triangles",
+    "level": "H",
+    "title": "Similar Triangles – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-02",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 195,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH08-H-Q01",
+        "question": "Similar triangles have areas 25 and 49. If a side of the smaller is 15, find the corresponding larger side.",
+        "options": [
+          "35",
+          "10.7",
+          "21",
+          "29.4"
+        ],
+        "answer": 2,
+        "explanation": "Their side ratio is 5:7, so 15×7/5=21.",
+        "difficulty": "Hard",
+        "topic": "Similar triangles have areas 25 and 49. If a side of the smaller is 15, find the corresponding larger side.",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-H-Q02",
+        "question": "In a right triangle, the altitude to the hypotenuse divides it into lengths 4 and 9. Find the altitude.",
+        "options": [
+          "√13",
+          "6",
+          "13",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Similarity gives h²=4×9=36.",
+        "difficulty": "Hard",
+        "topic": "In a right triangle, the altitude to the hypotenuse divides it into lengths 4 and 9. Find the altitude.",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH08-H-Q03",
+        "question": "A line through D on AB and E on AC has AD/DB=AE/EC. What follows?",
+        "options": [
+          "DE∥BC",
+          "DE⊥BC",
+          "AB=AC",
+          "D is necessarily the midpoint"
+        ],
+        "answer": 0,
+        "explanation": "This is the converse of the basic proportionality theorem.",
+        "difficulty": "Hard",
+        "topic": "A line through D on AB and E on AC has AD/DB=AE/EC. What follows?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH09-E": {
+    "id": "SA-DPP-27-MAT-CH09-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Tangents and Secants to a Circle",
+    "level": "E",
+    "title": "Tangents and Secants to a Circle – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-03",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 229,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH09-E-Q01",
+        "question": "The radius at the point of tangency is at what angle to the tangent?",
+        "options": [
+          "0°",
+          "45°",
+          "180°",
+          "90°"
+        ],
+        "answer": 3,
+        "explanation": "A tangent is perpendicular to the radius at contact.",
+        "difficulty": "Easy",
+        "topic": "The radius at the point of tangency is at what angle to the tangent?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-E-Q02",
+        "question": "How many tangents can be drawn from a point outside a circle?",
+        "options": [
+          "0",
+          "Infinitely many",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The two tangents touch at distinct contact points.",
+        "difficulty": "Easy",
+        "topic": "How many tangents can be drawn from a point outside a circle?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-E-Q03",
+        "question": "Tangents drawn from the same external point have what relation?",
+        "options": [
+          "Their sum equals the radius",
+          "Equal lengths",
+          "Perpendicular lengths always",
+          "One is twice the other"
+        ],
+        "answer": 1,
+        "explanation": "The two tangent segments from an external point are equal.",
+        "difficulty": "Easy",
+        "topic": "Tangents drawn from the same external point have what relation?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH09-M": {
+    "id": "SA-DPP-27-MAT-CH09-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Tangents and Secants to a Circle",
+    "level": "M",
+    "title": "Tangents and Secants to a Circle – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-03",
+    "recommendedDate": "2026-11-14",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 229,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH09-M-Q01",
+        "question": "A circle has radius 5 cm and OP=13 cm for an external point P. Find tangent length PT.",
+        "options": [
+          "18 cm",
+          "√194 cm",
+          "12 cm",
+          "8 cm"
+        ],
+        "answer": 2,
+        "explanation": "OPT is right-angled at T; PT²=13²−5²=144.",
+        "difficulty": "Medium",
+        "topic": "A circle has radius 5 cm and OP=13 cm for an external point P. Find tangent length PT.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-M-Q02",
+        "question": "If PA and PB are tangents and PA=7 cm, find PB.",
+        "options": [
+          "49 cm",
+          "7 cm",
+          "14 cm",
+          "3.5 cm"
+        ],
+        "answer": 1,
+        "explanation": "Tangent lengths from the same external point are equal.",
+        "difficulty": "Medium",
+        "topic": "If PA and PB are tangents and PA=7 cm, find PB.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-M-Q03",
+        "question": "Two radii to tangent contact points enclose 110°. Find the angle between the tangents.",
+        "options": [
+          "70°",
+          "110°",
+          "55°",
+          "35°"
+        ],
+        "answer": 0,
+        "explanation": "In the quadrilateral, two angles are 90°, leaving 180°−110°.",
+        "difficulty": "Medium",
+        "topic": "Two radii to tangent contact points enclose 110°. Find the angle between the tangents.",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH09-H": {
+    "id": "SA-DPP-27-MAT-CH09-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Tangents and Secants to a Circle",
+    "level": "H",
+    "title": "Tangents and Secants to a Circle – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-03",
+    "recommendedDate": "2026-11-15",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 229,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH09-H-Q01",
+        "question": "From P, a tangent has length 6. A secant meets the circle at A and B with PA=3. Find PB.",
+        "options": [
+          "15",
+          "12",
+          "9",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "The tangent-secant theorem gives PT²=PA×PB, so 36=3PB.",
+        "difficulty": "Hard",
+        "topic": "From P, a tangent has length 6. A secant meets the circle at A and B with PA=3. Find PB.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-H-Q02",
+        "question": "A quadrilateral circumscribes a circle. Three consecutive sides are 4,7,8. Find the fourth side.",
+        "options": [
+          "5",
+          "11",
+          "3",
+          "19"
+        ],
+        "answer": 0,
+        "explanation": "Opposite-side sums are equal: 4+8=7+x.",
+        "difficulty": "Hard",
+        "topic": "A quadrilateral circumscribes a circle. Three consecutive sides are 4,7,8. Find the fourth side.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH09-H-Q03",
+        "question": "Two chords intersect inside a circle. One has segments 3 and 8; the other has one segment 4. Find its other segment.",
+        "options": [
+          "7",
+          "5",
+          "24",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "Intersecting-chord products are equal: 3×8=4x.",
+        "difficulty": "Hard",
+        "topic": "Two chords intersect inside a circle. One has segments 3 and 8; the other has one segment 4. Find its other segment.",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH10-E": {
+    "id": "SA-DPP-27-MAT-CH10-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "E",
+    "title": "Mensuration – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-23",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q01",
+        "question": "What is the volume of a cylinder of radius r and height h?",
+        "options": [
+          "πrh²",
+          "4πr³/3",
+          "πr²h",
+          "2πrh"
+        ],
+        "answer": 2,
+        "explanation": "Volume is base area multiplied by height.",
+        "difficulty": "Easy",
+        "topic": "What is the volume of a cylinder of radius r and height h?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q02",
+        "question": "What is the curved surface area of a cone of radius r and slant height l?",
+        "options": [
+          "πr²",
+          "πrl",
+          "πr²l",
+          "2πrl"
+        ],
+        "answer": 1,
+        "explanation": "Unrolling the curved surface gives a circular sector of area πrl.",
+        "difficulty": "Easy",
+        "topic": "What is the curved surface area of a cone of radius r and slant height l?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q03",
+        "question": "What is the volume of a sphere of radius r?",
+        "options": [
+          "4πr³/3",
+          "4πr²",
+          "πr³",
+          "2πr³/3"
+        ],
+        "answer": 0,
+        "explanation": "The sphere volume formula is 4πr³/3.",
+        "difficulty": "Easy",
+        "topic": "What is the volume of a sphere of radius r?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH10-M": {
+    "id": "SA-DPP-27-MAT-CH10-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "M",
+    "title": "Mensuration – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-24",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q01",
+        "question": "A cylinder has radius 7 cm and height 10 cm. Using π=22/7, find its volume.",
+        "options": [
+          "3080 cm³",
+          "1540 cm³",
+          "440 cm³",
+          "770 cm³"
+        ],
+        "answer": 1,
+        "explanation": "Volume=(22/7)×49×10=1540.",
+        "difficulty": "Medium",
+        "topic": "A cylinder has radius 7 cm and height 10 cm. Using π=22/7, find its volume.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q02",
+        "question": "A cone has radius 3 cm and height 4 cm. Find its slant height.",
+        "options": [
+          "5 cm",
+          "7 cm",
+          "1 cm",
+          "25 cm"
+        ],
+        "answer": 0,
+        "explanation": "Use l²=r²+h²=9+16.",
+        "difficulty": "Medium",
+        "topic": "A cone has radius 3 cm and height 4 cm. Find its slant height.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q03",
+        "question": "A sphere's radius doubles. By what factor does its volume increase?",
+        "options": [
+          "2",
+          "4",
+          "16",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Volume is proportional to the cube of radius.",
+        "difficulty": "Medium",
+        "topic": "A sphere's radius doubles. By what factor does its volume increase?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH10-H": {
+    "id": "SA-DPP-27-MAT-CH10-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "H",
+    "title": "Mensuration – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-25",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q01",
+        "question": "A solid sphere of radius 3 cm is melted into a cylinder of radius 3 cm. Find the cylinder height.",
+        "options": [
+          "4 cm",
+          "3 cm",
+          "6 cm",
+          "9 cm"
+        ],
+        "answer": 0,
+        "explanation": "Equate volumes: 36π=9πh, giving h=4.",
+        "difficulty": "Hard",
+        "topic": "A solid sphere of radius 3 cm is melted into a cylinder of radius 3 cm. Find the cylinder height.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q02",
+        "question": "A hemisphere of radius r is placed on a cylinder of radius r and height 2r. Find exposed surface area, including the bottom.",
+        "options": [
+          "8πr²",
+          "6πr²",
+          "9πr²",
+          "7πr²"
+        ],
+        "answer": 3,
+        "explanation": "Add cylinder curve 4πr², hemisphere curve 2πr² and bottom πr².",
+        "difficulty": "Hard",
+        "topic": "A hemisphere of radius r is placed on a cylinder of radius r and height 2r. Find exposed surface area, including the bottom.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q03",
+        "question": "A cone and cylinder have equal radius and height. What fraction of cylinder volume remains after removing the cone volume?",
+        "options": [
+          "1/2",
+          "3/4",
+          "2/3",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "The cone occupies one-third of the cylinder's volume.",
+        "difficulty": "Hard",
+        "topic": "A cone and cylinder have equal radius and height. What fraction of cylinder volume remains after removing the cone volume?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH11-E": {
+    "id": "SA-DPP-27-MAT-CH11-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Trigonometry",
+    "level": "E",
+    "title": "Trigonometry – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-02",
+    "recommendedDate": "2026-11-25",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 273,
+      "to": 297
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH11-E-Q01",
+        "question": "In a right triangle, sin θ is which ratio?",
+        "options": [
+          "Hypotenuse/opposite",
+          "Opposite/hypotenuse",
+          "Adjacent/hypotenuse",
+          "Opposite/adjacent"
+        ],
+        "answer": 1,
+        "explanation": "Sine compares the opposite side with the hypotenuse.",
+        "difficulty": "Easy",
+        "topic": "In a right triangle, sin θ is which ratio?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-E-Q02",
+        "question": "What is tan 45°?",
+        "options": [
+          "1",
+          "0",
+          "√3",
+          "1/√3"
+        ],
+        "answer": 0,
+        "explanation": "The opposite and adjacent sides are equal.",
+        "difficulty": "Easy",
+        "topic": "What is tan 45°?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-E-Q03",
+        "question": "Which identity holds for all acute θ?",
+        "options": [
+          "sin θ+cos θ=1",
+          "tan²θ=1",
+          "sin²θ−cos²θ=1",
+          "sin²θ+cos²θ=1"
+        ],
+        "answer": 3,
+        "explanation": "This follows by dividing the Pythagorean relation by hypotenuse squared.",
+        "difficulty": "Easy",
+        "topic": "Which identity holds for all acute θ?",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH11-M": {
+    "id": "SA-DPP-27-MAT-CH11-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Trigonometry",
+    "level": "M",
+    "title": "Trigonometry – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-02",
+    "recommendedDate": "2026-11-26",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 273,
+      "to": 297
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH11-M-Q01",
+        "question": "If sin θ=3/5 for acute θ, find cos θ.",
+        "options": [
+          "4/5",
+          "3/4",
+          "5/4",
+          "2/5"
+        ],
+        "answer": 0,
+        "explanation": "cos θ=√(1−9/25)=4/5.",
+        "difficulty": "Medium",
+        "topic": "If sin θ=3/5 for acute θ, find cos θ.",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-M-Q02",
+        "question": "Evaluate 2sin 30°+cos 60°.",
+        "options": [
+          "1",
+          "2",
+          "1/2",
+          "3/2"
+        ],
+        "answer": 3,
+        "explanation": "2×1/2+1/2=3/2.",
+        "difficulty": "Medium",
+        "topic": "Evaluate 2sin 30°+cos 60°.",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-M-Q03",
+        "question": "If tan θ=5/12, find sec θ for acute θ.",
+        "options": [
+          "13/5",
+          "5/13",
+          "13/12",
+          "12/13"
+        ],
+        "answer": 2,
+        "explanation": "The hypotenuse of the corresponding 5-12 right triangle is 13.",
+        "difficulty": "Medium",
+        "topic": "If tan θ=5/12, find sec θ for acute θ.",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH11-H": {
+    "id": "SA-DPP-27-MAT-CH11-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Trigonometry",
+    "level": "H",
+    "title": "Trigonometry – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-02",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 273,
+      "to": 297
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH11-H-Q01",
+        "question": "Simplify (1−cos²θ)/sin θ for acute θ.",
+        "options": [
+          "cos θ",
+          "tan θ",
+          "1",
+          "sin θ"
+        ],
+        "answer": 3,
+        "explanation": "The numerator equals sin²θ; divide by sin θ.",
+        "difficulty": "Hard",
+        "topic": "Simplify (1−cos²θ)/sin θ for acute θ.",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-H-Q02",
+        "question": "If sec θ+tan θ=3, find sec θ−tan θ.",
+        "options": [
+          "2",
+          "1",
+          "1/3",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Their product is sec²θ−tan²θ=1.",
+        "difficulty": "Hard",
+        "topic": "If sec θ+tan θ=3, find sec θ−tan θ.",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH11-H-Q03",
+        "question": "Evaluate sin²30°+cos²45°+tan²60°.",
+        "options": [
+          "4",
+          "15/4",
+          "13/4",
+          "7/2"
+        ],
+        "answer": 1,
+        "explanation": "The sum is 1/4+1/2+3=15/4.",
+        "difficulty": "Hard",
+        "topic": "Evaluate sin²30°+cos²45°+tan²60°.",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH12-E": {
+    "id": "SA-DPP-27-MAT-CH12-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "E",
+    "title": "Applications of Trigonometry – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q01",
+        "question": "The angle made by a line of sight above the horizontal is called what?",
+        "options": [
+          "Angle of elevation",
+          "Angle of depression",
+          "Right angle always",
+          "Bearing angle always"
+        ],
+        "answer": 0,
+        "explanation": "Elevation is measured upwards from the observer's horizontal.",
+        "difficulty": "Easy",
+        "topic": "The angle made by a line of sight above the horizontal is called what?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q02",
+        "question": "A horizontal line of sight gives what elevation angle?",
+        "options": [
+          "90°",
+          "45°",
+          "180°",
+          "0°"
+        ],
+        "answer": 3,
+        "explanation": "No upward tilt means zero elevation.",
+        "difficulty": "Easy",
+        "topic": "A horizontal line of sight gives what elevation angle?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q03",
+        "question": "For a vertical tower and level ground, which ratio relates height to horizontal distance?",
+        "options": [
+          "cos θ only",
+          "sec θ only",
+          "tan θ",
+          "sin θ only"
+        ],
+        "answer": 2,
+        "explanation": "In the right triangle, tan θ=height/distance.",
+        "difficulty": "Easy",
+        "topic": "For a vertical tower and level ground, which ratio relates height to horizontal distance?",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH12-M": {
+    "id": "SA-DPP-27-MAT-CH12-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "M",
+    "title": "Applications of Trigonometry – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q01",
+        "question": "A tower is viewed at 45° from 20 m away on level ground, with eye level at its base level. Find its height.",
+        "options": [
+          "10 m",
+          "20√3 m",
+          "40 m",
+          "20 m"
+        ],
+        "answer": 3,
+        "explanation": "h=20tan45°=20.",
+        "difficulty": "Medium",
+        "topic": "A tower is viewed at 45° from 20 m away on level ground, with eye level at its base level. Find its height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q02",
+        "question": "An observer's eye is 1.5 m high and 10 m from a building. Its top has elevation 45°. Find building height.",
+        "options": [
+          "8.5 m",
+          "15 m",
+          "11.5 m",
+          "10 m"
+        ],
+        "answer": 2,
+        "explanation": "The top is 10 m above the eye; add 1.5 m.",
+        "difficulty": "Medium",
+        "topic": "An observer's eye is 1.5 m high and 10 m from a building. Its top has elevation 45°. Find building height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q03",
+        "question": "A 10 m ladder makes 60° with the ground. What height does it reach?",
+        "options": [
+          "10 m",
+          "5√3 m",
+          "5 m",
+          "10√3 m"
+        ],
+        "answer": 1,
+        "explanation": "The ladder is the hypotenuse; height=10sin60°.",
+        "difficulty": "Medium",
+        "topic": "A 10 m ladder makes 60° with the ground. What height does it reach?",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH12-H": {
+    "id": "SA-DPP-27-MAT-CH12-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "H",
+    "title": "Applications of Trigonometry – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-29",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q01",
+        "question": "A tower has elevation 30° from a point. After moving 20 m towards it on level ground, elevation is 60°. Find height.",
+        "options": [
+          "10 m",
+          "30 m",
+          "10√3 m",
+          "20√3 m"
+        ],
+        "answer": 2,
+        "explanation": "Let near distance be x: h=√3x=(x+20)/√3, so x=10.",
+        "difficulty": "Hard",
+        "topic": "A tower has elevation 30° from a point. After moving 20 m towards it on level ground, elevation is 60°. Find height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q02",
+        "question": "From a tower top, a car's angle of depression is 30°. If tower height is 20 m, find horizontal distance.",
+        "options": [
+          "40 m",
+          "20√3 m",
+          "20/√3 m",
+          "10 m"
+        ],
+        "answer": 1,
+        "explanation": "The elevation from the car is 30°; d=20/tan30°.",
+        "difficulty": "Hard",
+        "topic": "From a tower top, a car's angle of depression is 30°. If tower height is 20 m, find horizontal distance.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q03",
+        "question": "Two equal-height vertical poles stand 30 m apart. From the base of one, the other's top has elevation 45°. Find each height.",
+        "options": [
+          "30 m",
+          "15 m",
+          "30√3 m",
+          "60 m"
+        ],
+        "answer": 0,
+        "explanation": "The relevant right triangle has horizontal leg 30 and tan45°=h/30.",
+        "difficulty": "Hard",
+        "topic": "Two equal-height vertical poles stand 30 m apart. From the base of one, the other's top has elevation 45°. Find each height.",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH13-E": {
+    "id": "SA-DPP-27-MAT-CH13-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "E",
+    "title": "Probability – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-07",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q01",
+        "question": "What is the probability of an impossible event?",
+        "options": [
+          "1",
+          "1/2",
+          "−1",
+          "0"
+        ],
+        "answer": 3,
+        "explanation": "An impossible event has no favourable outcomes.",
+        "difficulty": "Easy",
+        "topic": "What is the probability of an impossible event?",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q02",
+        "question": "For a fair coin, what is P(head)?",
+        "options": [
+          "0",
+          "2",
+          "1/2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "One of two equally likely outcomes is a head.",
+        "difficulty": "Easy",
+        "topic": "For a fair coin, what is P(head)?",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q03",
+        "question": "What is P(E)+P(not E)?",
+        "options": [
+          "1/2",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "An event and its complement cover all possible outcomes.",
+        "difficulty": "Easy",
+        "topic": "What is P(E)+P(not E)?",
+        "sourceChapter": 13
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH13-M": {
+    "id": "SA-DPP-27-MAT-CH13-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "M",
+    "title": "Probability – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-08",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q01",
+        "question": "A fair die is rolled. Find the probability of a prime number.",
+        "options": [
+          "2/3",
+          "1/6",
+          "1/2",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "The primes on the die are 2,3,5: three of six outcomes.",
+        "difficulty": "Medium",
+        "topic": "A fair die is rolled. Find the probability of a prime number.",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q02",
+        "question": "A bag has 3 red and 2 blue balls. Find P(blue).",
+        "options": [
+          "2/3",
+          "2/5",
+          "3/5",
+          "1/2"
+        ],
+        "answer": 1,
+        "explanation": "Two of five equally likely balls are blue.",
+        "difficulty": "Medium",
+        "topic": "A bag has 3 red and 2 blue balls. Find P(blue).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q03",
+        "question": "Two fair coins are tossed. Find P(exactly one head).",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "HT and TH are two of the four equally likely outcomes.",
+        "difficulty": "Medium",
+        "topic": "Two fair coins are tossed. Find P(exactly one head).",
+        "sourceChapter": 13
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH13-H": {
+    "id": "SA-DPP-27-MAT-CH13-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "H",
+    "title": "Probability – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q01",
+        "question": "Two fair dice are rolled. Find P(sum is 9).",
+        "options": [
+          "1/4",
+          "1/9",
+          "1/6",
+          "1/12"
+        ],
+        "answer": 1,
+        "explanation": "The four ordered outcomes are (3,6),(4,5),(5,4),(6,3), out of 36.",
+        "difficulty": "Hard",
+        "topic": "Two fair dice are rolled. Find P(sum is 9).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q02",
+        "question": "One card is drawn from a standard 52-card deck. Find P(red king).",
+        "options": [
+          "1/26",
+          "1/13",
+          "1/4",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "There are two red kings, so probability is 2/52.",
+        "difficulty": "Hard",
+        "topic": "One card is drawn from a standard 52-card deck. Find P(red king).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q03",
+        "question": "A number is chosen uniformly from 1 to 30. Find P(divisible by 2 or 3).",
+        "options": [
+          "1/2",
+          "5/6",
+          "1/3",
+          "2/3"
+        ],
+        "answer": 3,
+        "explanation": "There are 15 multiples of 2 and 10 of 3, with 5 counted twice: 20/30.",
+        "difficulty": "Hard",
+        "topic": "A number is chosen uniformly from 1 to 30. Find P(divisible by 2 or 3).",
+        "sourceChapter": 13
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH14-E": {
+    "id": "SA-DPP-27-MAT-CH14-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "E",
+    "title": "Statistics – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q01",
+        "question": "Find the arithmetic mean of 2,4,6.",
+        "options": [
+          "6",
+          "12",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Sum 12 divided by three observations gives 4.",
+        "difficulty": "Easy",
+        "topic": "Find the arithmetic mean of 2,4,6.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q02",
+        "question": "What is the median of 1,3,5,7,9?",
+        "options": [
+          "9",
+          "5",
+          "3",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "The median is the middle observation in sorted data.",
+        "difficulty": "Easy",
+        "topic": "What is the median of 1,3,5,7,9?",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q03",
+        "question": "What is the mode of 2,2,3,4?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "The mode is the observation with the highest frequency.",
+        "difficulty": "Easy",
+        "topic": "What is the mode of 2,2,3,4?",
+        "sourceChapter": 14
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH14-M": {
+    "id": "SA-DPP-27-MAT-CH14-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "M",
+    "title": "Statistics – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-10",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q01",
+        "question": "Values 10 and 20 have frequencies 3 and 2. Find their mean.",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "Weighted mean=(10×3+20×2)/5=14.",
+        "difficulty": "Medium",
+        "topic": "Values 10 and 20 have frequencies 3 and 2. Find their mean.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q02",
+        "question": "Find the median of 2,4,8,10.",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "With four values, average the middle two: (4+8)/2=6.",
+        "difficulty": "Medium",
+        "topic": "Find the median of 2,4,8,10.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q03",
+        "question": "What is the class mark of the interval 20–30?",
+        "options": [
+          "20",
+          "30",
+          "10",
+          "25"
+        ],
+        "answer": 3,
+        "explanation": "A class mark is the midpoint of its class boundaries.",
+        "difficulty": "Medium",
+        "topic": "What is the class mark of the interval 20–30?",
+        "sourceChapter": 14
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH14-H": {
+    "id": "SA-DPP-27-MAT-CH14-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "H",
+    "title": "Statistics – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-11",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q01",
+        "question": "Grouped data has N=40, median class 20–30, preceding cumulative frequency 15 and median-class frequency 10. Find median.",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "27.5"
+        ],
+        "answer": 0,
+        "explanation": "Median=20+[(20−15)/10]×10=25.",
+        "difficulty": "Hard",
+        "topic": "Grouped data has N=40, median class 20–30, preceding cumulative frequency 15 and median-class frequency 10. Find median.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q02",
+        "question": "The mean of five numbers is 12. Four are 8,10,12,14. Find the fifth.",
+        "options": [
+          "12",
+          "14",
+          "18",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "Required sum is 60; known sum is 44.",
+        "difficulty": "Hard",
+        "topic": "The mean of five numbers is 12. Four are 8,10,12,14. Find the fifth.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q03",
+        "question": "A modal class has l=20,h=10,f₁=15,f₀=10,f₂=5. Find mode.",
+        "options": [
+          "80/3",
+          "30",
+          "70/3",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Mode=20+[(15−10)/(30−10−5)]×10=20+10/3.",
+        "difficulty": "Hard",
+        "topic": "A modal class has l=20,h=10,f₁=15,f₀=10,f₂=5. Find mode.",
+        "sourceChapter": 14
+      }
+    ]
+  }
+}

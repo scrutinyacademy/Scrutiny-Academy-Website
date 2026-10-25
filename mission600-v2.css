@@ -114,3 +114,10 @@
   .focus-panel li,.topic-table>div { align-items: flex-start; flex-direction: column; }
   .result-actions>* { width: 100%; text-align: center; }
 }
+
+.calendar-dpp-row{padding:12px 0;border-top:1px solid var(--line)}
+.calendar-dpp-row>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.calendar-dpp-row a{display:inline-block;padding:8px 12px;border:1px solid #cbdfea;border-radius:8px;color:var(--blue);background:#f4faff;font-size:.78rem;text-decoration:none}
+.calendar-dpp-row a:hover,.calendar-dpp-row a:focus-visible{background:#e0f0ff;outline:2px solid var(--blue)}
+
+.calendar-day a{display:block;margin-top:8px;color:var(--blue);font-size:.75rem;overflow-wrap:anywhere}.dpp-source{font-size:.8rem;color:var(--muted);line-height:1.6}

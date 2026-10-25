@@ -6,35 +6,18 @@ const requestedId = params.get("dpp");
 let dpp = null;
 const state = { index: 0, answers: {}, submitted: false };
 
-const normalise = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const titleCase = (value) => String(value || "Concept review").replace(/\b\w/g, (letter) => letter.toUpperCase());
-function questionTopic(question, concepts, index) {
-  const haystack = normalise(`${question.question} ${question.explanation}`);
-  const matched = concepts.find((concept) => normalise(concept).split(" ").filter((word) => word.length > 3).some((word) => haystack.includes(word)));
-  return titleCase(matched || concepts[index % concepts.length] || "Concept review");
-}
-function selectQuestions(chapter, difficulty) {
-  const easy = chapter.mcqs.filter((item) => item.difficulty === "Easy");
-  const medium = chapter.mcqs.filter((item) => item.difficulty === "Medium");
-  const hard = chapter.mcqs.filter((item) => item.difficulty === "Hard");
-  if (difficulty === "Easy") return [...easy, ...medium].slice(0, 20);
-  if (difficulty === "Hard") return [...hard, ...medium.slice().reverse()].slice(0, 20);
-  return medium.slice(0, 20);
-}
 async function loadDpp() {
   const catalogResponse = await fetch("data/mission600/catalog.json", { cache: "no-store" });
   if (!catalogResponse.ok) throw new Error("The DPP catalogue could not be loaded.");
   const catalog = await catalogResponse.json();
   const metadata = catalog.dpps.find((item) => item.id === requestedId);
-  if (!metadata) throw new Error("This DPP was not found.");
-  const folder = metadata.subjectId;
-  const chapterFile = `data/class10/textbooks/${folder}/chapter-${String(metadata.chapterNumber).padStart(2, "0")}.json`;
-  const chapterResponse = await fetch(chapterFile, { cache: "no-store" });
-  if (!chapterResponse.ok) throw new Error("The chapter questions could not be loaded.");
-  const chapter = await chapterResponse.json();
-  const questions = selectQuestions(chapter, metadata.difficulty);
-  if (questions.length !== 20) throw new Error("This DPP is still being prepared.");
-  dpp = { ...metadata, status: "published", contentComplete: true, questionCount: 20, maximumMarks: 20, pricePaise: 0, purchaseEnabled: false, questions: questions.map((question, index) => ({ ...question, id: `${metadata.id}-Q${String(index + 1).padStart(2, "0")}`, sourceId: question.id, topic: questionTopic(question, chapter.keyConcepts, chapter.mcqs.indexOf(question)) })) };
+  if (!metadata?.contentComplete || metadata.status !== "published" || !metadata.contentFile) throw new Error("This DPP was not found.");
+  const response = await fetch(metadata.contentFile, { cache: "no-store" });
+  if (!response.ok) throw new Error("The DPP questions could not be loaded.");
+  const bank = await response.json();
+  const content = bank[metadata.id];
+  if (!content || content.contentVersion !== metadata.contentVersion || content.questions?.length !== metadata.questionCount) throw new Error("The DPP content is being updated. Please refresh and retry.");
+  dpp = { ...metadata, questions: content.questions };
 }
 
 function goBack() {
@@ -83,8 +66,9 @@ function saveAttempt(analysis) {
   const key = "mission600DppAttempts";
   let attempts = [];
   try { attempts = JSON.parse(localStorage.getItem(key) || "[]"); } catch { attempts = []; }
+  if (!Array.isArray(attempts)) attempts = [];
   attempts.push({ dppId: dpp.id, subject: dpp.subject, chapter: dpp.chapter, difficulty: dpp.difficulty, completedAt: new Date().toISOString(), ...analysis });
-  localStorage.setItem(key, JSON.stringify(attempts.slice(-100)));
+  try { localStorage.setItem(key, JSON.stringify(attempts.slice(-100))); } catch { $("dppMessage").textContent = "Your result is available below; this browser could not save the attempt."; }
 }
 
 function renderAnalysis(analysis) {
@@ -120,7 +104,8 @@ async function initialize() {
   }
   $("dppCode").textContent = `${dpp.subject.toUpperCase()} · ${dpp.id}`;
   $("dppTitle").textContent = dpp.title;
-  $("dppMeta").textContent = `${dpp.subject} · Chapter ${dpp.chapterNumber} · ${dpp.difficulty} · 20 MCQs · ${dpp.suggestedDurationMinutes} minutes`;
+  $("dppMeta").textContent = `${dpp.subject} · Chapter ${dpp.chapterNumber} · ${dpp.difficulty} · ${dpp.questions.length} MCQs · ${dpp.suggestedDurationMinutes} minutes · Suggested: ${dpp.recommendedDate} (Week ${dpp.scheduledWeek}) · Unlocked now`;
+  $("dppSource").textContent = `Textbook alignment: ${dpp.sourceBook} · Chapter ${dpp.sourceChapter} · Printed pages ${dpp.sourcePrintedPages.from}–${dpp.sourcePrintedPages.to}. Original short practice, not a full board examination paper.`;
   $("previousQuestion").onclick = () => { if (state.index > 0) { state.index -= 1; renderQuestion(); } };
   $("nextQuestion").onclick = () => { if (state.index < dpp.questions.length - 1) { state.index += 1; renderQuestion(); } };
   $("submitDpp").onclick = submitDpp;

@@ -1,0 +1,2432 @@
+{
+  "SA-DPP-27-BIO-CH01-E": {
+    "id": "SA-DPP-27-BIO-CH01-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "E",
+    "title": "Nutrition – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-19",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q01",
+        "question": "Which pigment captures light for photosynthesis?",
+        "options": [
+          "Haemoglobin",
+          "Melanin",
+          "Bile",
+          "Chlorophyll"
+        ],
+        "answer": 3,
+        "explanation": "Chlorophyll in chloroplasts absorbs light energy.",
+        "difficulty": "Easy",
+        "topic": "Which pigment captures light for photosynthesis?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q02",
+        "question": "Which enzyme begins starch digestion in the mouth?",
+        "options": [
+          "Trypsin",
+          "Lipase",
+          "Salivary amylase",
+          "Pepsin"
+        ],
+        "answer": 2,
+        "explanation": "Salivary amylase breaks starch into simpler carbohydrates.",
+        "difficulty": "Easy",
+        "topic": "Which enzyme begins starch digestion in the mouth?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q03",
+        "question": "Where are most digested nutrients absorbed in humans?",
+        "options": [
+          "Large intestine only",
+          "Small intestine",
+          "Oesophagus",
+          "Stomach only"
+        ],
+        "answer": 1,
+        "explanation": "The small intestine has extensive absorptive surfaces.",
+        "difficulty": "Easy",
+        "topic": "Where are most digested nutrients absorbed in humans?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH01-M": {
+    "id": "SA-DPP-27-BIO-CH01-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "M",
+    "title": "Nutrition – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-20",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q01",
+        "question": "Why is a leaf boiled in alcohol during the starch test?",
+        "options": [
+          "To produce oxygen",
+          "To close stomata",
+          "To remove chlorophyll",
+          "To add starch"
+        ],
+        "answer": 2,
+        "explanation": "Decolourisation makes the iodine colour change easier to see; use a water bath safely.",
+        "difficulty": "Medium",
+        "topic": "Why is a leaf boiled in alcohol during the starch test?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q02",
+        "question": "What is bile's main contribution to fat digestion?",
+        "options": [
+          "Absorbing oxygen",
+          "Emulsifying fat into smaller droplets",
+          "Directly digesting fat with a bile enzyme",
+          "Converting all fat into protein"
+        ],
+        "answer": 1,
+        "explanation": "Emulsification increases the surface area available to lipase.",
+        "difficulty": "Medium",
+        "topic": "What is bile's main contribution to fat digestion?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q03",
+        "question": "Why do intestinal villi improve absorption?",
+        "options": [
+          "They increase surface area",
+          "They eliminate blood vessels",
+          "They prevent contact with food",
+          "They secrete only hydrochloric acid"
+        ],
+        "answer": 0,
+        "explanation": "Many villi provide a large surface with transport vessels.",
+        "difficulty": "Medium",
+        "topic": "Why do intestinal villi improve absorption?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH01-H": {
+    "id": "SA-DPP-27-BIO-CH01-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "H",
+    "title": "Nutrition – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-21",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q01",
+        "question": "A destarched plant has part of a leaf covered with opaque paper and is exposed to light. Which part tests positive for starch?",
+        "options": [
+          "Neither part under any conditions",
+          "The uncovered green part",
+          "Only the covered part",
+          "Every part regardless of light"
+        ],
+        "answer": 1,
+        "explanation": "The exposed green tissue can photosynthesise and accumulate starch.",
+        "difficulty": "Hard",
+        "topic": "A destarched plant has part of a leaf covered with opaque paper and is exposed to light. Which part tests positive for starch?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q02",
+        "question": "A plant receives light and water but no carbon dioxide. Why is glucose production restricted?",
+        "options": [
+          "Carbon dioxide supplies carbon for carbohydrate synthesis",
+          "CO₂ supplies chlorophyll directly",
+          "Water cannot enter roots without CO₂",
+          "Light becomes completely absent"
+        ],
+        "answer": 0,
+        "explanation": "Light energy cannot replace the carbon source needed to build sugars.",
+        "difficulty": "Hard",
+        "topic": "A plant receives light and water but no carbon dioxide. Why is glucose production restricted?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q03",
+        "question": "Why is the stomach protected from its own acidic contents?",
+        "options": [
+          "Its acid is neutral at all times",
+          "Pepsin digests only plant tissue",
+          "The lining contains no proteins",
+          "A mucus barrier protects the lining"
+        ],
+        "answer": 3,
+        "explanation": "Mucus and related protective mechanisms limit acid and enzyme injury.",
+        "difficulty": "Hard",
+        "topic": "Why is the stomach protected from its own acidic contents?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH02-E": {
+    "id": "SA-DPP-27-BIO-CH02-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "E",
+    "title": "Respiration – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-21",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q01",
+        "question": "Which organelle produces much of the ATP during aerobic respiration?",
+        "options": [
+          "Lysosome",
+          "Golgi body",
+          "Mitochondrion",
+          "Ribosome"
+        ],
+        "answer": 2,
+        "explanation": "Mitochondria house major stages of aerobic energy release.",
+        "difficulty": "Easy",
+        "topic": "Which organelle produces much of the ATP during aerobic respiration?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q02",
+        "question": "Which structures are the main gas-exchange surfaces in human lungs?",
+        "options": [
+          "Diaphragm",
+          "Alveoli",
+          "Ribs",
+          "Bronchi cartilage"
+        ],
+        "answer": 1,
+        "explanation": "Alveoli provide thin surfaces near capillaries.",
+        "difficulty": "Easy",
+        "topic": "Which structures are the main gas-exchange surfaces in human lungs?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q03",
+        "question": "Yeast fermentation commonly produces which products?",
+        "options": [
+          "Ethanol and carbon dioxide",
+          "Oxygen and water only",
+          "Urea and glucose",
+          "Starch and nitrogen"
+        ],
+        "answer": 0,
+        "explanation": "Alcoholic fermentation releases ethanol, CO₂ and a small ATP yield.",
+        "difficulty": "Easy",
+        "topic": "Yeast fermentation commonly produces which products?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH02-M": {
+    "id": "SA-DPP-27-BIO-CH02-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "M",
+    "title": "Respiration – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-22",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q01",
+        "question": "What happens to the diaphragm during normal inhalation?",
+        "options": [
+          "It closes the trachea",
+          "It contracts and flattens",
+          "It relaxes and domes upwards",
+          "It stops all movement"
+        ],
+        "answer": 1,
+        "explanation": "The enlarged thoracic volume lowers pressure and draws air in.",
+        "difficulty": "Medium",
+        "topic": "What happens to the diaphragm during normal inhalation?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q02",
+        "question": "Why does limewater turn milky with exhaled air?",
+        "options": [
+          "Carbon dioxide forms insoluble calcium carbonate",
+          "Oxygen forms calcium metal",
+          "Nitrogen becomes chalk",
+          "Water vapour forms sodium chloride"
+        ],
+        "answer": 0,
+        "explanation": "CO₂ reacts with calcium hydroxide to produce a calcium carbonate precipitate.",
+        "difficulty": "Medium",
+        "topic": "Why does limewater turn milky with exhaled air?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q03",
+        "question": "Why is aerobic respiration usually more energy-yielding than fermentation?",
+        "options": [
+          "It uses no enzymes",
+          "It occurs without substrates",
+          "Fermentation never makes ATP",
+          "Glucose is oxidised more completely"
+        ],
+        "answer": 3,
+        "explanation": "More complete oxidation permits a much larger ATP yield.",
+        "difficulty": "Medium",
+        "topic": "Why is aerobic respiration usually more energy-yielding than fermentation?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH02-H": {
+    "id": "SA-DPP-27-BIO-CH02-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "H",
+    "title": "Respiration – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q01",
+        "question": "Why can breathing rate rise during strenuous exercise?",
+        "options": [
+          "Working muscles need faster oxygen delivery and CO₂ removal",
+          "The lungs manufacture extra glucose",
+          "Blood stops transporting gases",
+          "The diaphragm becomes a digestive organ"
+        ],
+        "answer": 0,
+        "explanation": "Metabolic demand and CO₂ production increase with exercise.",
+        "difficulty": "Hard",
+        "topic": "Why can breathing rate rise during strenuous exercise?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q02",
+        "question": "Why are alveoli both thin-walled and closely supplied with capillaries?",
+        "options": [
+          "To store solid food",
+          "To prevent oxygen reaching blood",
+          "To maximise the distance gases travel",
+          "To reduce diffusion distance and maintain gas gradients"
+        ],
+        "answer": 3,
+        "explanation": "Short diffusion paths and blood flow support efficient gas exchange.",
+        "difficulty": "Hard",
+        "topic": "Why are alveoli both thin-walled and closely supplied with capillaries?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q03",
+        "question": "What correctly distinguishes breathing from cellular respiration?",
+        "options": [
+          "Cellular respiration occurs only in the lungs",
+          "Breathing directly produces all ATP",
+          "Breathing moves air; cellular respiration releases usable energy from substrates",
+          "Both are only mechanical air movements"
+        ],
+        "answer": 2,
+        "explanation": "Ventilation supplies gases, while biochemical reactions in cells release energy.",
+        "difficulty": "Hard",
+        "topic": "What correctly distinguishes breathing from cellular respiration?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH03-E": {
+    "id": "SA-DPP-27-BIO-CH03-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "E",
+    "title": "Circulation – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q01",
+        "question": "Which blood cells mainly transport oxygen?",
+        "options": [
+          "All blood cells equally",
+          "Red blood cells",
+          "Platelets",
+          "White blood cells"
+        ],
+        "answer": 1,
+        "explanation": "Haemoglobin in red cells binds oxygen.",
+        "difficulty": "Easy",
+        "topic": "Which blood cells mainly transport oxygen?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q02",
+        "question": "Which plant tissue transports water and minerals from roots?",
+        "options": [
+          "Xylem",
+          "Phloem",
+          "Epidermis only",
+          "Cork only"
+        ],
+        "answer": 0,
+        "explanation": "Xylem conducts water and dissolved minerals.",
+        "difficulty": "Easy",
+        "topic": "Which plant tissue transports water and minerals from roots?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q03",
+        "question": "Which blood vessels carry blood away from the heart?",
+        "options": [
+          "Veins",
+          "Lymph vessels",
+          "Venules only",
+          "Arteries"
+        ],
+        "answer": 3,
+        "explanation": "Arteries are defined by direction of flow, not oxygen content.",
+        "difficulty": "Easy",
+        "topic": "Which blood vessels carry blood away from the heart?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH03-M": {
+    "id": "SA-DPP-27-BIO-CH03-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "M",
+    "title": "Circulation – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-24",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q01",
+        "question": "Why do veins in the limbs have valves?",
+        "options": [
+          "To reduce backward blood flow",
+          "To add oxygen to blood",
+          "To make blood clot continuously",
+          "To digest glucose"
+        ],
+        "answer": 0,
+        "explanation": "Valves assist return of low-pressure blood towards the heart.",
+        "difficulty": "Medium",
+        "topic": "Why do veins in the limbs have valves?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q02",
+        "question": "Which chamber pumps blood into the aorta?",
+        "options": [
+          "Right ventricle",
+          "Right atrium",
+          "Left atrium",
+          "Left ventricle"
+        ],
+        "answer": 3,
+        "explanation": "The left ventricle supplies the systemic circulation.",
+        "difficulty": "Medium",
+        "topic": "Which chamber pumps blood into the aorta?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q03",
+        "question": "What is the main effect of transpiration pull?",
+        "options": [
+          "Stopping evaporation",
+          "Closing every stomatal pore permanently",
+          "Drawing water upward through xylem",
+          "Pushing food only down phloem"
+        ],
+        "answer": 2,
+        "explanation": "Evaporation from leaves creates tension in continuous water columns.",
+        "difficulty": "Medium",
+        "topic": "What is the main effect of transpiration pull?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH03-H": {
+    "id": "SA-DPP-27-BIO-CH03-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "H",
+    "title": "Circulation – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-25",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q01",
+        "question": "Why is the pulmonary artery an exception to the common oxygenation rule for arteries?",
+        "options": [
+          "It carries blood towards the heart",
+          "It has no walls",
+          "It carries only lymph",
+          "It carries deoxygenated blood away from the heart"
+        ],
+        "answer": 3,
+        "explanation": "Its classification depends on flow direction; it goes from right ventricle to lungs.",
+        "difficulty": "Hard",
+        "topic": "Why is the pulmonary artery an exception to the common oxygenation rule for arteries?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q02",
+        "question": "What is the benefit of separating oxygenated and deoxygenated blood in humans?",
+        "options": [
+          "It makes all blood blue",
+          "It prevents nutrient transport",
+          "Efficient oxygen supply supports high metabolic demand",
+          "It eliminates the need for lungs"
+        ],
+        "answer": 2,
+        "explanation": "Double circulation limits mixing and supports efficient tissue oxygenation.",
+        "difficulty": "Hard",
+        "topic": "What is the benefit of separating oxygenated and deoxygenated blood in humans?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q03",
+        "question": "If a ring of bark including phloem is removed while xylem remains intact, what initially accumulates above the ring?",
+        "options": [
+          "Urea",
+          "Sugars",
+          "Only oxygen gas",
+          "Only soil minerals"
+        ],
+        "answer": 1,
+        "explanation": "Interrupted phloem blocks transport of photosynthates past the ring.",
+        "difficulty": "Hard",
+        "topic": "If a ring of bark including phloem is removed while xylem remains intact, what initially accumulates above the ring?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH04-E": {
+    "id": "SA-DPP-27-BIO-CH04-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "E",
+    "title": "Excretion – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q01",
+        "question": "What is the functional unit of the human kidney?",
+        "options": [
+          "Nephron",
+          "Neuron",
+          "Alveolus",
+          "Villus"
+        ],
+        "answer": 0,
+        "explanation": "Nephrons filter blood and modify filtrate to form urine.",
+        "difficulty": "Easy",
+        "topic": "What is the functional unit of the human kidney?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q02",
+        "question": "What is the main nitrogenous waste excreted in human urine?",
+        "options": [
+          "Starch",
+          "Cellulose",
+          "Chlorophyll",
+          "Urea"
+        ],
+        "answer": 3,
+        "explanation": "Protein metabolism produces nitrogenous waste largely excreted as urea.",
+        "difficulty": "Easy",
+        "topic": "What is the main nitrogenous waste excreted in human urine?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q03",
+        "question": "Which tubes carry urine from kidneys to urinary bladder?",
+        "options": [
+          "Arteries",
+          "Oviducts",
+          "Ureters",
+          "Urethra"
+        ],
+        "answer": 2,
+        "explanation": "Each ureter connects a kidney to the bladder.",
+        "difficulty": "Easy",
+        "topic": "Which tubes carry urine from kidneys to urinary bladder?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH04-M": {
+    "id": "SA-DPP-27-BIO-CH04-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "M",
+    "title": "Excretion – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-03",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q01",
+        "question": "Where does filtration into a nephron begin?",
+        "options": [
+          "Urinary bladder into urethra",
+          "Ureter into kidney",
+          "Collecting duct into artery",
+          "Glomerulus into Bowman's capsule"
+        ],
+        "answer": 3,
+        "explanation": "Blood pressure drives filtration across glomerular capillaries.",
+        "difficulty": "Medium",
+        "topic": "Where does filtration into a nephron begin?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q02",
+        "question": "Why is glucose normally absent or very low in healthy urine?",
+        "options": [
+          "All glucose is excreted unchanged",
+          "Kidneys manufacture no filtrate",
+          "Filtered glucose is reabsorbed",
+          "Glucose cannot enter kidney blood"
+        ],
+        "answer": 2,
+        "explanation": "Tubular transport normally recovers filtered glucose.",
+        "difficulty": "Medium",
+        "topic": "Why is glucose normally absent or very low in healthy urine?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q03",
+        "question": "What is a major function of dialysis in kidney failure?",
+        "options": [
+          "Digesting dietary proteins",
+          "Removing wastes and excess substances from blood",
+          "Replacing all hormonal functions permanently",
+          "Producing red cells directly"
+        ],
+        "answer": 1,
+        "explanation": "Dialysis uses a membrane and concentration gradients to clear selected substances.",
+        "difficulty": "Medium",
+        "topic": "What is a major function of dialysis in kidney failure?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH04-H": {
+    "id": "SA-DPP-27-BIO-CH04-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "H",
+    "title": "Excretion – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q01",
+        "question": "Why does final urine volume differ greatly from the volume initially filtered?",
+        "options": [
+          "The bladder converts water to urea",
+          "Filtration happens only once a month",
+          "Most filtered water is reabsorbed",
+          "All filtrate evaporates"
+        ],
+        "answer": 2,
+        "explanation": "Tubular reabsorption returns most water and useful solutes to blood.",
+        "difficulty": "Hard",
+        "topic": "Why does final urine volume differ greatly from the volume initially filtered?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q02",
+        "question": "How can plants dispose of some wastes without a specialised excretory organ?",
+        "options": [
+          "Never produce metabolic wastes",
+          "Store them in leaves or bark that are later shed",
+          "Convert every waste into oxygen",
+          "Use kidneys in roots"
+        ],
+        "answer": 1,
+        "explanation": "Plants can isolate wastes in tissues, exude substances or release gases.",
+        "difficulty": "Hard",
+        "topic": "How can plants dispose of some wastes without a specialised excretory organ?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q03",
+        "question": "Why is excretion different from egestion?",
+        "options": [
+          "Excretion removes metabolic wastes; egestion removes undigested food",
+          "Both remove only faeces",
+          "Egestion filters blood",
+          "Excretion means food absorption"
+        ],
+        "answer": 0,
+        "explanation": "The distinction concerns the origin of the material removed.",
+        "difficulty": "Hard",
+        "topic": "Why is excretion different from egestion?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH05-E": {
+    "id": "SA-DPP-27-BIO-CH05-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "E",
+    "title": "Coordination – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q01",
+        "question": "What is the basic functional cell of nervous tissue?",
+        "options": [
+          "Nephron",
+          "Platelet",
+          "Guard cell",
+          "Neuron"
+        ],
+        "answer": 3,
+        "explanation": "Neurons receive and transmit information.",
+        "difficulty": "Easy",
+        "topic": "What is the basic functional cell of nervous tissue?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q02",
+        "question": "Which hormone lowers blood glucose by promoting uptake and storage?",
+        "options": [
+          "Thyroxine",
+          "Growth hormone",
+          "Insulin",
+          "Adrenaline"
+        ],
+        "answer": 2,
+        "explanation": "Pancreatic beta cells secrete insulin.",
+        "difficulty": "Easy",
+        "topic": "Which hormone lowers blood glucose by promoting uptake and storage?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q03",
+        "question": "A plant shoot growing towards light shows what?",
+        "options": [
+          "Thigmonasty only",
+          "Positive phototropism",
+          "Negative phototropism",
+          "Geotropism only"
+        ],
+        "answer": 1,
+        "explanation": "Directional growth towards light is positive phototropism.",
+        "difficulty": "Easy",
+        "topic": "A plant shoot growing towards light shows what?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH05-M": {
+    "id": "SA-DPP-27-BIO-CH05-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "M",
+    "title": "Coordination – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-05",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q01",
+        "question": "Why can withdrawal from a hot object occur before conscious awareness?",
+        "options": [
+          "Muscles decide without neurons",
+          "Hormones must first reach every cell",
+          "A spinal reflex pathway initiates the response",
+          "The brain is never informed"
+        ],
+        "answer": 2,
+        "explanation": "Reflex circuits can rapidly coordinate withdrawal while information also reaches the brain.",
+        "difficulty": "Medium",
+        "topic": "Why can withdrawal from a hot object occur before conscious awareness?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q02",
+        "question": "Which brain region is especially associated with balance and coordinated movement?",
+        "options": [
+          "Hypothalamus only",
+          "Cerebellum",
+          "Cerebrum only",
+          "Medulla only"
+        ],
+        "answer": 1,
+        "explanation": "The cerebellum fine-tunes movement and posture.",
+        "difficulty": "Medium",
+        "topic": "Which brain region is especially associated with balance and coordinated movement?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q03",
+        "question": "How does auxin cause a shoot to bend towards light?",
+        "options": [
+          "Greater elongation on the shaded side",
+          "Equal growth on both sides always",
+          "Destruction of every illuminated cell",
+          "Growth only in roots"
+        ],
+        "answer": 0,
+        "explanation": "Unequal auxin distribution promotes more elongation on the shaded shoot side.",
+        "difficulty": "Medium",
+        "topic": "How does auxin cause a shoot to bend towards light?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH05-H": {
+    "id": "SA-DPP-27-BIO-CH05-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "H",
+    "title": "Coordination – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q01",
+        "question": "What happens if the sensory neuron of a withdrawal reflex is damaged?",
+        "options": [
+          "The motor neuron starts producing insulin",
+          "The incoming signal may fail to reach the reflex centre",
+          "The response necessarily becomes faster",
+          "The receptor becomes a hormone gland"
+        ],
+        "answer": 1,
+        "explanation": "A complete reflex needs a sensory pathway, central connection and motor output.",
+        "difficulty": "Hard",
+        "topic": "What happens if the sensory neuron of a withdrawal reflex is damaged?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q02",
+        "question": "Why can endocrine effects be slower but longer-lasting than many nerve impulses?",
+        "options": [
+          "Hormones travel through blood and act on target cells",
+          "Hormones move only along axons",
+          "Nerve impulses are stored in the stomach",
+          "Every hormone acts instantly at a synapse"
+        ],
+        "answer": 0,
+        "explanation": "Blood-borne signalling often has different timing and persistence from electrical impulses.",
+        "difficulty": "Hard",
+        "topic": "Why can endocrine effects be slower but longer-lasting than many nerve impulses?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q03",
+        "question": "Why does adrenaline prepare the body for an emergency?",
+        "options": [
+          "It stops oxygen delivery",
+          "It permanently stops glucose use",
+          "It functions only in digestion",
+          "It increases readiness for rapid action, including heart activity"
+        ],
+        "answer": 3,
+        "explanation": "Adrenaline coordinates several changes that support immediate physical responses.",
+        "difficulty": "Hard",
+        "topic": "Why does adrenaline prepare the body for an emergency?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH06-E": {
+    "id": "SA-DPP-27-BIO-CH06-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "E",
+    "title": "Reproduction – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q01",
+        "question": "Which process produces two daughter cells in Amoeba reproduction?",
+        "options": [
+          "Fragmentation only",
+          "Pollination",
+          "Binary fission",
+          "Budding only"
+        ],
+        "answer": 2,
+        "explanation": "Amoeba reproduces by division of one cell into two.",
+        "difficulty": "Easy",
+        "topic": "Which process produces two daughter cells in Amoeba reproduction?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q02",
+        "question": "Where are human sperm produced?",
+        "options": [
+          "Urinary bladder",
+          "Testes",
+          "Ovaries",
+          "Uterus"
+        ],
+        "answer": 1,
+        "explanation": "The seminiferous tubules of testes produce sperm.",
+        "difficulty": "Easy",
+        "topic": "Where are human sperm produced?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q03",
+        "question": "Transfer of pollen from anther to stigma is called what?",
+        "options": [
+          "Pollination",
+          "Fertilisation",
+          "Germination",
+          "Implantation"
+        ],
+        "answer": 0,
+        "explanation": "Pollination precedes fertilisation in flowering plants.",
+        "difficulty": "Easy",
+        "topic": "Transfer of pollen from anther to stigma is called what?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH06-M": {
+    "id": "SA-DPP-27-BIO-CH06-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "M",
+    "title": "Reproduction – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-07",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q01",
+        "question": "What forms after fusion of male and female gametes?",
+        "options": [
+          "Spore only",
+          "Zygote",
+          "Pollen grain",
+          "Placenta immediately"
+        ],
+        "answer": 1,
+        "explanation": "Fertilisation produces a diploid zygote.",
+        "difficulty": "Medium",
+        "topic": "What forms after fusion of male and female gametes?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q02",
+        "question": "What is an advantage of vegetative propagation for desirable crop varieties?",
+        "options": [
+          "It preserves useful parental characteristics",
+          "It always creates maximum genetic variation",
+          "It requires seed fertilisation every time",
+          "It prevents all plant diseases"
+        ],
+        "answer": 0,
+        "explanation": "Clonal propagation largely retains the parent plant's genotype.",
+        "difficulty": "Medium",
+        "topic": "What is an advantage of vegetative propagation for desirable crop varieties?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q03",
+        "question": "What is the placenta's main role?",
+        "options": [
+          "Direct mixing of all maternal and fetal blood",
+          "Production of sperm",
+          "Transporting air into fetal lungs",
+          "Exchange between maternal and fetal circulations"
+        ],
+        "answer": 3,
+        "explanation": "The placenta enables transfer of nutrients, gases and wastes without normal direct blood mixing.",
+        "difficulty": "Medium",
+        "topic": "What is the placenta's main role?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH06-H": {
+    "id": "SA-DPP-27-BIO-CH06-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "H",
+    "title": "Reproduction – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-08",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q01",
+        "question": "Why does sexual reproduction usually generate more variation than asexual reproduction?",
+        "options": [
+          "Meiosis and gamete fusion combine genetic material",
+          "All offspring are identical clones",
+          "It uses no DNA",
+          "Only one parent contributes genes"
+        ],
+        "answer": 0,
+        "explanation": "Recombination, chromosome assortment and fertilisation create new combinations.",
+        "difficulty": "Hard",
+        "topic": "Why does sexual reproduction usually generate more variation than asexual reproduction?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q02",
+        "question": "Why is pollination not the same as fertilisation?",
+        "options": [
+          "Both mean seed dispersal",
+          "Pollination fuses egg and sperm directly",
+          "Fertilisation is transfer of pollen to anther",
+          "Pollination transfers pollen; fertilisation fuses gametes"
+        ],
+        "answer": 3,
+        "explanation": "A pollen tube and male-gamete delivery follow successful pollination.",
+        "difficulty": "Hard",
+        "topic": "Why is pollination not the same as fertilisation?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q03",
+        "question": "Why do most barrier contraceptives prevent fertilisation?",
+        "options": [
+          "They always stop ovulation hormonally",
+          "They destroy the uterus",
+          "They hinder sperm from reaching the egg",
+          "They change every inherited gene"
+        ],
+        "answer": 2,
+        "explanation": "Physical separation of sperm and egg reduces the chance of fertilisation.",
+        "difficulty": "Hard",
+        "topic": "Why do most barrier contraceptives prevent fertilisation?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH07-E": {
+    "id": "SA-DPP-27-BIO-CH07-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "E",
+    "title": "Coordination in Life Processes – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-16",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q01",
+        "question": "Which enzyme in saliva begins carbohydrate digestion?",
+        "options": [
+          "Trypsin",
+          "Amylase",
+          "Pepsin",
+          "Lipase"
+        ],
+        "answer": 1,
+        "explanation": "Salivary amylase begins starch breakdown.",
+        "difficulty": "Easy",
+        "topic": "Which enzyme in saliva begins carbohydrate digestion?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q02",
+        "question": "Which movement propels food through the alimentary canal?",
+        "options": [
+          "Peristalsis",
+          "Diffusion only",
+          "Filtration",
+          "Transpiration"
+        ],
+        "answer": 0,
+        "explanation": "Coordinated waves of muscle contraction move food forward.",
+        "difficulty": "Easy",
+        "topic": "Which movement propels food through the alimentary canal?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q03",
+        "question": "Which organ produces bile?",
+        "options": [
+          "Pancreas",
+          "Stomach",
+          "Spleen",
+          "Liver"
+        ],
+        "answer": 3,
+        "explanation": "The liver produces bile, which is stored in the gallbladder.",
+        "difficulty": "Easy",
+        "topic": "Which organ produces bile?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH07-M": {
+    "id": "SA-DPP-27-BIO-CH07-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "M",
+    "title": "Coordination in Life Processes – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-17",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q01",
+        "question": "Why does salivation sometimes begin when food is seen or smelled?",
+        "options": [
+          "Nervous coordination prepares the digestive system",
+          "The eyes secrete saliva directly",
+          "Food has already entered the stomach",
+          "Salivation occurs without any regulation"
+        ],
+        "answer": 0,
+        "explanation": "Sensory inputs can stimulate salivary gland activity before eating.",
+        "difficulty": "Medium",
+        "topic": "Why does salivation sometimes begin when food is seen or smelled?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q02",
+        "question": "Why does the epiglottis help during swallowing?",
+        "options": [
+          "It pumps blood to the lungs",
+          "It absorbs amino acids",
+          "It produces bile",
+          "It helps keep food out of the airway"
+        ],
+        "answer": 3,
+        "explanation": "Swallowing coordinates protection of the laryngeal opening.",
+        "difficulty": "Medium",
+        "topic": "Why does the epiglottis help during swallowing?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q03",
+        "question": "Why are intestinal contents mixed repeatedly?",
+        "options": [
+          "To remove all intestinal villi",
+          "To return all food to the mouth",
+          "To improve contact with digestive secretions and absorptive surfaces",
+          "To stop every enzyme reaction"
+        ],
+        "answer": 2,
+        "explanation": "Muscle activity helps digestion and exposure to the intestinal lining.",
+        "difficulty": "Medium",
+        "topic": "Why are intestinal contents mixed repeatedly?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH07-H": {
+    "id": "SA-DPP-27-BIO-CH07-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "H",
+    "title": "Coordination in Life Processes – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-18",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q01",
+        "question": "What makes digestion an example of organ-system coordination?",
+        "options": [
+          "Only one enzyme controls every step",
+          "The stomach works independently of the rest of the body",
+          "Absorption requires no circulation",
+          "Nerves, hormones, glands and muscles act together"
+        ],
+        "answer": 3,
+        "explanation": "Effective digestion needs timed secretion, movement, absorption and transport.",
+        "difficulty": "Hard",
+        "topic": "What makes digestion an example of organ-system coordination?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q02",
+        "question": "Why can a damaged swallowing mechanism cause food to enter the airway?",
+        "options": [
+          "Bile closes the trachea",
+          "The stomach draws air through food",
+          "Airway closure and food propulsion may lose coordination",
+          "The oesophagus normally ends in the lung"
+        ],
+        "answer": 2,
+        "explanation": "Swallowing must coordinate several muscles and protective actions.",
+        "difficulty": "Hard",
+        "topic": "Why can a damaged swallowing mechanism cause food to enter the airway?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q03",
+        "question": "How do digestive hormones and nerves complement each other?",
+        "options": [
+          "Nerves replace all digestive enzymes",
+          "They coordinate secretions and movements according to food-related signals",
+          "They always cancel each other's effects",
+          "Hormones transport undigested food mechanically"
+        ],
+        "answer": 1,
+        "explanation": "Multiple signalling routes match digestive activity to the meal.",
+        "difficulty": "Hard",
+        "topic": "How do digestive hormones and nerves complement each other?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH08-E": {
+    "id": "SA-DPP-27-BIO-CH08-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch8",
+    "chapterNumber": 8,
+    "chapter": "Heredity - Evolution",
+    "level": "E",
+    "title": "Heredity - Evolution – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-02",
+    "recommendedDate": "2026-11-18",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 204
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH08-E-Q01",
+        "question": "Who used pea plants in foundational inheritance experiments?",
+        "options": [
+          "Gregor Mendel",
+          "Charles Darwin",
+          "Louis Pasteur",
+          "Robert Hooke"
+        ],
+        "answer": 0,
+        "explanation": "Mendel studied predictable inheritance patterns in peas.",
+        "difficulty": "Easy",
+        "topic": "Who used pea plants in foundational inheritance experiments?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-E-Q02",
+        "question": "Alternative forms of a gene are called what?",
+        "options": [
+          "Tissues",
+          "Organelles",
+          "Species",
+          "Alleles"
+        ],
+        "answer": 3,
+        "explanation": "Alleles are different versions of a gene at a locus.",
+        "difficulty": "Easy",
+        "topic": "Alternative forms of a gene are called what?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-E-Q03",
+        "question": "What is a fossil?",
+        "options": [
+          "Only a volcanic mineral",
+          "Only fresh plant tissue",
+          "Preserved evidence of past life",
+          "Any modern living organism"
+        ],
+        "answer": 2,
+        "explanation": "Fossils include preserved remains, impressions and traces.",
+        "difficulty": "Easy",
+        "topic": "What is a fossil?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH08-M": {
+    "id": "SA-DPP-27-BIO-CH08-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch8",
+    "chapterNumber": 8,
+    "chapter": "Heredity - Evolution",
+    "level": "M",
+    "title": "Heredity - Evolution – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-02",
+    "recommendedDate": "2026-11-19",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 204
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH08-M-Q01",
+        "question": "In a monohybrid cross Tt×Tt with complete dominance, what fraction is recessive tt?",
+        "options": [
+          "1/2",
+          "3/4",
+          "1",
+          "1/4"
+        ],
+        "answer": 3,
+        "explanation": "The genotypes occur in the ratio TT:Tt:tt = 1:2:1.",
+        "difficulty": "Medium",
+        "topic": "In a monohybrid cross Tt×Tt with complete dominance, what fraction is recessive tt?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-M-Q02",
+        "question": "Why are human males described as heterogametic in the standard XX/XY model?",
+        "options": [
+          "They have two identical X chromosomes",
+          "They produce no gametes",
+          "They produce X-bearing and Y-bearing sperm",
+          "They produce only X-bearing sperm"
+        ],
+        "answer": 2,
+        "explanation": "The usual XY chromosome pair produces two sex-chromosome classes of sperm.",
+        "difficulty": "Medium",
+        "topic": "Why are human males described as heterogametic in the standard XX/XY model?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-M-Q03",
+        "question": "Which pair illustrates homologous organs?",
+        "options": [
+          "Potato tuber and human heart",
+          "Human arm and whale flipper",
+          "Bird wing and insect wing",
+          "Fish gills and mammalian lungs as identical structures"
+        ],
+        "answer": 1,
+        "explanation": "The arm and flipper share an inherited structural plan despite different functions.",
+        "difficulty": "Medium",
+        "topic": "Which pair illustrates homologous organs?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH08-H": {
+    "id": "SA-DPP-27-BIO-CH08-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch8",
+    "chapterNumber": 8,
+    "chapter": "Heredity - Evolution",
+    "level": "H",
+    "title": "Heredity - Evolution – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-02",
+    "recommendedDate": "2026-11-20",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 204
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH08-H-Q01",
+        "question": "A tall pea plant crossed with tt gives approximately equal tall and dwarf offspring. What is the tall parent's genotype?",
+        "options": [
+          "tt",
+          "Cannot be inferred under the stated Mendelian model",
+          "Tt",
+          "TT"
+        ],
+        "answer": 2,
+        "explanation": "Tt×tt produces equal Tt and tt offspring.",
+        "difficulty": "Hard",
+        "topic": "A tall pea plant crossed with tt gives approximately equal tall and dwarf offspring. What is the tall parent's genotype?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-H-Q02",
+        "question": "Why are acquired traits such as a trained muscle generally not inherited as Mendelian traits?",
+        "options": [
+          "They are always caused by new species formation",
+          "They usually do not change the genetic information passed through gametes",
+          "They necessarily replace all gamete DNA",
+          "Every acquired trait is dominant"
+        ],
+        "answer": 1,
+        "explanation": "Changes to body tissues alone are not automatically transmitted through germ cells.",
+        "difficulty": "Hard",
+        "topic": "Why are acquired traits such as a trained muscle generally not inherited as Mendelian traits?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH08-H-Q03",
+        "question": "How does natural selection change populations over generations?",
+        "options": [
+          "Heritable variants affecting reproductive success can become more common",
+          "Individuals deliberately evolve needed genes",
+          "Every mutation is beneficial",
+          "All members change identically at once"
+        ],
+        "answer": 0,
+        "explanation": "Selection acts on variation; differential reproduction changes variant frequencies.",
+        "difficulty": "Hard",
+        "topic": "How does natural selection change populations over generations?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH09-E": {
+    "id": "SA-DPP-27-BIO-CH09-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "E",
+    "title": "Our Environment – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-11-30",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q01",
+        "question": "Which organisms are producers in most land ecosystems?",
+        "options": [
+          "Herbivores",
+          "Carnivores",
+          "Decomposers only",
+          "Green plants"
+        ],
+        "answer": 3,
+        "explanation": "Photosynthetic plants convert solar energy into organic matter.",
+        "difficulty": "Easy",
+        "topic": "Which organisms are producers in most land ecosystems?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q02",
+        "question": "What do decomposers mainly do?",
+        "options": [
+          "Prevent nutrient recycling",
+          "Consume only living predators",
+          "Break down dead organic material",
+          "Create sunlight"
+        ],
+        "answer": 2,
+        "explanation": "Their activity returns nutrients to ecosystems.",
+        "difficulty": "Easy",
+        "topic": "What do decomposers mainly do?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q03",
+        "question": "Which is a biodegradable material?",
+        "options": [
+          "Aluminium can",
+          "Vegetable peel",
+          "Glass bottle",
+          "Polythene bag"
+        ],
+        "answer": 1,
+        "explanation": "Microorganisms can decompose plant organic matter.",
+        "difficulty": "Easy",
+        "topic": "Which is a biodegradable material?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH09-M": {
+    "id": "SA-DPP-27-BIO-CH09-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "M",
+    "title": "Our Environment – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-12-01",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q01",
+        "question": "If producers contain 10000 J and 10% is transferred to each next trophic level, how much reaches secondary consumers?",
+        "options": [
+          "10 J",
+          "10000 J",
+          "100 J",
+          "1000 J"
+        ],
+        "answer": 2,
+        "explanation": "Two transfers give 10000×0.1×0.1=100 J.",
+        "difficulty": "Medium",
+        "topic": "If producers contain 10000 J and 10% is transferred to each next trophic level, how much reaches secondary consumers?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q02",
+        "question": "Why can persistent pollutants become more concentrated at higher trophic levels?",
+        "options": [
+          "Producers contain no pollutants",
+          "They accumulate and are passed through feeding relationships",
+          "They evaporate completely in all predators",
+          "Higher consumers make all pesticides"
+        ],
+        "answer": 1,
+        "explanation": "Slow breakdown and repeated feeding can cause biomagnification.",
+        "difficulty": "Medium",
+        "topic": "Why can persistent pollutants become more concentrated at higher trophic levels?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q03",
+        "question": "What is one role of the stratospheric ozone layer?",
+        "options": [
+          "Absorbing much harmful ultraviolet radiation",
+          "Creating all atmospheric oxygen",
+          "Blocking all visible sunlight",
+          "Producing rain directly"
+        ],
+        "answer": 0,
+        "explanation": "Ozone limits the amount of UV reaching Earth's surface.",
+        "difficulty": "Medium",
+        "topic": "What is one role of the stratospheric ozone layer?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH09-H": {
+    "id": "SA-DPP-27-BIO-CH09-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "H",
+    "title": "Our Environment – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-12-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q01",
+        "question": "Why is energy flow through an ecosystem not a closed cycle?",
+        "options": [
+          "Only matter can be lost as heat",
+          "Usable energy is dissipated as heat at each transfer",
+          "All heat returns directly to producers as food",
+          "Energy is created by consumers"
+        ],
+        "answer": 1,
+        "explanation": "Energy needs continuing input, unlike many nutrients that cycle.",
+        "difficulty": "Hard",
+        "topic": "Why is energy flow through an ecosystem not a closed cycle?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q02",
+        "question": "What may happen after a top predator is removed?",
+        "options": [
+          "Changes can cascade through lower trophic levels",
+          "All other populations must stay fixed",
+          "Producers always disappear immediately",
+          "Every herbivore becomes a predator"
+        ],
+        "answer": 0,
+        "explanation": "Predator-prey interactions can indirectly alter multiple populations.",
+        "difficulty": "Hard",
+        "topic": "What may happen after a top predator is removed?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q03",
+        "question": "Why does waste segregation help environmental management?",
+        "options": [
+          "All wastes require identical treatment",
+          "It makes hazardous waste harmless automatically",
+          "It removes the need to reduce waste",
+          "It allows suitable recycling, composting and safer handling"
+        ],
+        "answer": 3,
+        "explanation": "Separating streams improves the effectiveness of different treatment methods.",
+        "difficulty": "Hard",
+        "topic": "Why does waste segregation help environmental management?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH10-E": {
+    "id": "SA-DPP-27-BIO-CH10-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "E",
+    "title": "Natural Resources – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q01",
+        "question": "Which is a renewable resource under suitable management?",
+        "options": [
+          "Petroleum",
+          "Natural gas",
+          "Solar energy",
+          "Coal"
+        ],
+        "answer": 2,
+        "explanation": "Solar energy is continually supplied on human timescales.",
+        "difficulty": "Easy",
+        "topic": "Which is a renewable resource under suitable management?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q02",
+        "question": "What is rainwater harvesting?",
+        "options": [
+          "Converting rain into petroleum",
+          "Collecting and storing or recharging rainwater",
+          "Removing every local pond",
+          "Pumping only fossil groundwater"
+        ],
+        "answer": 1,
+        "explanation": "Harvesting makes rainfall available for later use or groundwater recharge.",
+        "difficulty": "Easy",
+        "topic": "What is rainwater harvesting?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q03",
+        "question": "What does biodiversity mean?",
+        "options": [
+          "Variety of life at multiple levels",
+          "Only the number of cattle",
+          "Only soil depth",
+          "Only rainfall amount"
+        ],
+        "answer": 0,
+        "explanation": "It includes variation within species, between species and among ecosystems.",
+        "difficulty": "Easy",
+        "topic": "What does biodiversity mean?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH10-M": {
+    "id": "SA-DPP-27-BIO-CH10-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "M",
+    "title": "Natural Resources – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-03",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q01",
+        "question": "Why can over-pumping groundwater cause a falling water table?",
+        "options": [
+          "Wells manufacture water",
+          "Extraction exceeds recharge",
+          "All pumping creates new rainfall",
+          "Groundwater cannot move"
+        ],
+        "answer": 1,
+        "explanation": "A sustained withdrawal-recharge imbalance depletes stored groundwater.",
+        "difficulty": "Medium",
+        "topic": "Why can over-pumping groundwater cause a falling water table?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q02",
+        "question": "Why are forests important in watershed conservation?",
+        "options": [
+          "They help protect soil and regulate runoff",
+          "They stop every drop of rain",
+          "They prevent all infiltration",
+          "They consume all stream water permanently"
+        ],
+        "answer": 0,
+        "explanation": "Vegetation and litter reduce erosion and support infiltration.",
+        "difficulty": "Medium",
+        "topic": "Why are forests important in watershed conservation?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q03",
+        "question": "Which practice best reduces household material use?",
+        "options": [
+          "Replacing working items daily",
+          "Burning all recyclable waste",
+          "Using disposable goods for every task",
+          "Repairing and reusing products"
+        ],
+        "answer": 3,
+        "explanation": "Extending product life reduces demand for new materials.",
+        "difficulty": "Medium",
+        "topic": "Which practice best reduces household material use?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH10-H": {
+    "id": "SA-DPP-27-BIO-CH10-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "H",
+    "title": "Natural Resources – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q01",
+        "question": "Why must a renewable resource still be managed carefully?",
+        "options": [
+          "Use can exceed its regeneration rate",
+          "Renewable means unlimited at every place and time",
+          "It never supports ecosystems",
+          "It cannot be depleted locally"
+        ],
+        "answer": 0,
+        "explanation": "Forests and groundwater can decline when consumption outpaces recovery.",
+        "difficulty": "Hard",
+        "topic": "Why must a renewable resource still be managed carefully?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q02",
+        "question": "A village restores tanks and contour bunds. What combined effect is most likely?",
+        "options": [
+          "Immediate formation of coal",
+          "Permanent elimination of drought everywhere",
+          "A guaranteed rise in seawater salinity",
+          "More local infiltration and less rapid runoff"
+        ],
+        "answer": 3,
+        "explanation": "Water-holding measures slow runoff and create recharge opportunities.",
+        "difficulty": "Hard",
+        "topic": "A village restores tanks and contour bunds. What combined effect is most likely?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q03",
+        "question": "Why should conservation decisions involve local communities?",
+        "options": [
+          "Only distant users experience environmental effects",
+          "Participation automatically removes every conflict",
+          "They depend on resources and hold knowledge relevant to practical management",
+          "They have no stake in outcomes"
+        ],
+        "answer": 2,
+        "explanation": "Shared planning can improve fairness, local suitability and sustained stewardship.",
+        "difficulty": "Hard",
+        "topic": "Why should conservation decisions involve local communities?",
+        "sourceChapter": 10
+      }
+    ]
+  }
+}

@@ -58,5 +58,5 @@ assert.ok(!portalHtml.includes("checkout.razorpay.com"));
 assert.ok(!portalHtml.includes("cartButton"));
 assert.ok(!portalJs.includes("createMission600Order"));
 assert.ok(portalHtml.includes("INCLUDED WITH CLASS 10"));
-assert.match(courseCatalog, /class10:[\s\S]*?price:\s*99/);
+assert.match(courseCatalog, /class10:[\s\S]*?price:\s*495/);
 console.log("Mission 600 free-access catalogue and payment-isolation tests passed.");

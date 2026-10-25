@@ -1,4 +1,4 @@
-const CACHE = "scrutiny-academy-v102-arabic-subscriptions";
+const CACHE = "scrutiny-academy-v103-mission600-textbook-dpps";
 const APP_SHELL = [
   "./index.html",
   "./student.html",
@@ -38,10 +38,10 @@ const APP_SHELL = [
   "./class10-board.html?v=4",
   "./class10-board.css?v=3",
   "./class10-board.js?v=3",
-  "./mission600.html?v=10",
+  "./mission600.html?v=11",
   "./mission600.css?v=3",
-  "./mission600.js?v=10",
-  "./mission600-v2.css?v=4",
+  "./mission600.js?v=11",
+  "./mission600-v2.css?v=5",
   "./mission600-core.mjs",
   "./mission600-dpp.html?v=8",
   "./mission600-dpp.js?v=9",
@@ -157,6 +157,10 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET" || url.origin !== self.location.origin) return;
   // Never serve stale course gates, and never cache authorised course responses.
   if (/\/(neetss-(surgery|phase2-ui|core|exam-mastery|flashcards|content-expansion|book-companion)|course-section-nav)\./.test(url.pathname)) {
+    event.respondWith(fetch(request, { cache: "no-store" }));
+    return;
+  }
+  if (url.pathname.includes("/data/mission600/dpps/")) {
     event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }

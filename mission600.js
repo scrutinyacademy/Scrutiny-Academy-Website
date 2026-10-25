@@ -15,15 +15,11 @@ async function loadCatalog() {
   const response = await fetch("data/mission600/catalog.json");
   if (!response.ok) throw new Error("Mission 600 catalogue could not be loaded.");
   state.catalog = await response.json();
-  state.catalog.dpps = state.catalog.dpps.map((item) => ({ ...item, status: "published", contentComplete: true, questionCount: 20, maximumMarks: 20, pricePaise: 0, purchaseEnabled: false }));
   state.catalog.tests = state.catalog.tests.map((item) => ({ ...item, pricePaise: 0, purchaseEnabled: false }));
 }
 
 async function mergePublishedCatalogue(db) {
-  const [dppSnapshot, testSnapshot] = await Promise.all([
-    getDocs(collection(db, "mission600DPPs")).catch(() => null),
-    getDocs(collection(db, "mission600Tests")).catch(() => null),
-  ]);
+  const testSnapshot = await getDocs(collection(db, "mission600Tests")).catch(() => null);
   const merge = (localItems, snapshot) => {
     if (!snapshot) return localItems;
     const remote = new Map(snapshot.docs.map((item) => [item.id, item.data()]));
@@ -36,7 +32,8 @@ async function mergePublishedCatalogue(db) {
         : merged;
     });
   };
-  state.catalog.dpps = merge(state.catalog.dpps, dppSnapshot);
+  // Published local DPP content and its metadata are one versioned release.
+  // Legacy Firestore drafts must not override the released questions or dates.
   state.catalog.tests = merge(state.catalog.tests, testSnapshot);
 }
 
@@ -70,16 +67,26 @@ function renderCalendar(view = "list") {
   const host = $("calendarContent");
   if (view === "list") {
     host.className = "calendar-list";
-    host.innerHTML = state.catalog.weeks.map((week) => `<details class="calendar-week" ${week.week === state.currentWeek.week ? "open" : ""}><summary><b class="week-number">W${String(week.week).padStart(2, "0")}</b><span><strong>${dateText(week.startDate)} – ${dateText(week.endDate)}</strong><small>${week.phaseName}${week.focusSubjects?.length ? ` · Focus: ${week.focusSubjects.map(subjectName).join(" + ")}` : ""}</small></span><i class="phase-badge">${week.phaseCode}</i></summary><div class="week-body">${Object.entries(week.teachingBlocks || {}).map(([id, blocks]) => `<div class="subject-plan"><strong>${subjectIcon[id]} ${subjectName(id)}</strong><span>${blocks.map((item) => item.title).join(" · ")}</span></div>`).join("")}${(week.lectures || []).length ? `<div class="lecture-dates"><strong>▶ YouTube release plan</strong>${week.lectures.map((lecture) => `<span>${dateText(lecture.publicationDate)} · ${lecture.subject}: ${lecture.title}</span>`).join("")}</div>` : ""}<div class="subject-plan"><strong>🗣️ Languages</strong><span>Telugu: ${week.languagePlan.telugu}<br>Hindi: ${week.languagePlan.hindi}<br>English: ${week.languagePlan.english}</span></div></div></details>`).join("");
+    host.innerHTML = state.catalog.weeks.map((week) => `<details class="calendar-week" ${week.week === state.currentWeek.week ? "open" : ""}><summary><b class="week-number">W${String(week.week).padStart(2, "0")}</b><span><strong>${dateText(week.startDate)} – ${dateText(week.endDate)}</strong><small>${week.phaseName}${week.focusSubjects?.length ? ` · Focus: ${week.focusSubjects.map(subjectName).join(" + ")}` : ""}</small></span><i class="phase-badge">${week.phaseCode}</i></summary><div class="week-body">${Object.entries(week.teachingBlocks || {}).map(([id, blocks]) => `<div class="subject-plan"><strong>${subjectIcon[id]} ${subjectName(id)}</strong><span>${blocks.map((item) => item.title).join(" · ")}</span></div>`).join("")}${calendarDpps(week)}${(week.lectures || []).length ? `<div class="lecture-dates"><strong>▶ YouTube release plan</strong>${week.lectures.map((lecture) => `<span>${dateText(lecture.publicationDate)} · ${lecture.subject}: ${lecture.title}</span>`).join("")}</div>` : ""}<div class="subject-plan"><strong>🗣️ Languages</strong><span>Telugu: ${week.languagePlan.telugu}<br>Hindi: ${week.languagePlan.hindi}<br>English: ${week.languagePlan.english}</span></div></div></details>`).join("");
   } else if (view === "calendar") {
     host.className = "calendar-month";
-    host.innerHTML = state.catalog.tests.map((test) => `<article class="calendar-day"><b>${dateText(test.date)}</b><small>${test.subject}</small><small>${test.phaseCode} · ${test.day}</small></article>`).join("");
+    const dates = [...new Set([...state.catalog.tests.map((item) => item.date), ...state.catalog.dpps.map((item) => item.recommendedDate)])].sort();
+    host.innerHTML = dates.map((date) => `<article class="calendar-day"><b>${dateText(date)}</b>${state.catalog.tests.filter((item) => item.date === date).map((test) => `<small>${test.subject} · ${test.phaseCode} test</small>`).join("")}${state.catalog.dpps.filter((item) => item.recommendedDate === date).map((item) => `<a href="mission600-dpp.html?dpp=${encodeURIComponent(item.id)}">${item.chapter} · ${item.difficulty}</a>`).join("")}</article>`).join("");
   } else {
     host.className = "subject-calendar";
     host.innerHTML = Object.values(state.catalog.subjects).map((subject) => `<article><h3>${subjectIcon[subject.id]} ${subject.name}</h3><ol>${subject.chapters.map((chapter) => `<li>${chapter.name}</li>`).join("")}</ol></article>`).join("");
   }
 }
 
+function calendarDpps(week) {
+  const items = state.catalog.dpps.filter((dpp) => dpp.scheduledWeek === week.week && isFreeReadyResource(dpp));
+  if (!items.length) return "";
+  const chapters = [...new Set(items.map((item) => item.chapterId))];
+  return `<div class="lecture-dates"><strong>📝 Chapter DPPs · All unlocked</strong>${chapters.map((id) => {
+    const levels = items.filter((item) => item.chapterId === id);
+    return `<div class="calendar-dpp-row"><b>${levels[0].chapter}</b><div>${levels.map((item) => `<a href="mission600-dpp.html?dpp=${encodeURIComponent(item.id)}">${item.difficulty} · ${dateText(item.recommendedDate)}</a>`).join(" ")}</div></div>`;
+  }).join("")}</div>`;
+}
 function setupCalendarViews() { document.querySelectorAll("[data-calendar-view]").forEach((button) => button.onclick = () => { document.querySelectorAll("[data-calendar-view]").forEach((item) => item.classList.toggle("active", item === button)); renderCalendar(button.dataset.calendarView); }); }
 
 function renderJourney() {
@@ -89,14 +96,15 @@ function renderJourney() {
 
 function setupFilters() {
   const options = Object.values(state.catalog.subjects).map((subject) => `<option value="${subject.id}">${subject.name}</option>`).join("");
+  $("dppWeek").insertAdjacentHTML("beforeend", state.catalog.weeks.filter((week) => week.phaseCode === "SYL").map((week) => `<option value="${week.week}">Week ${week.week} · ${dateText(week.startDate)}</option>`).join(""));
   $("dppSubject").insertAdjacentHTML("beforeend", options); $("testSubject").insertAdjacentHTML("beforeend", options);
-  [$("dppSubject"), $("dppDifficulty"), $("dppSearch")].forEach((control) => control.addEventListener("input", renderDpps));
+  [$("dppSubject"), $("dppDifficulty"), $("dppSearch"), $("dppWeek")].forEach((control) => control.addEventListener("input", renderDpps));
   [$("testPhase"), $("testSubject")].forEach((control) => control.addEventListener("input", renderTests));
 }
 
 function renderBundles() {
-  $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => { const subjectDpps = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id); return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${subjectDpps.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>Easy, Medium and Hard</strong><br>20 MCQs in every DPP</p><button data-bundle="${subject.id}">VIEW ${subject.name.toUpperCase()}</button></article>`; }).join("");
-  document.querySelectorAll("[data-bundle]").forEach((button) => { button.onclick = () => { $("dppSubject").value = button.dataset.bundle; renderDpps(); $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" }); }; });
+  $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => { const subjectDpps = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id); return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${subjectDpps.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>Easy, Medium and Hard</strong><br>3 focused MCQs in every DPP</p><button data-bundle="${subject.id}">VIEW ${subject.name.toUpperCase()}</button></article>`; }).join("");
+  document.querySelectorAll("[data-bundle]").forEach((button) => { button.onclick = () => { $("dppSubject").value = button.dataset.bundle; $("dppWeek").value = "all"; renderDpps(); $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" }); }; });
 }
 
 function renderProgrammeBundles() {
@@ -110,9 +118,10 @@ function renderProgrammeBundles() {
 function renderDpps() {
   const subject = $("dppSubject").value;
   const difficulty = $("dppDifficulty").value;
+  const week = $("dppWeek").value;
   const search = $("dppSearch").value.trim().toLowerCase();
-  const dpps = state.catalog.dpps.filter((dpp) => (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
-  $("dppStore").innerHTML = dpps.map((dpp) => `<article class="resource-card resource-ready"><div class="resource-meta"><span>${dpp.subject.toUpperCase()}</span><b class="free-resource-label">READY</b></div><h3>${dpp.title}</h3><p>${dpp.id}</p><p>20 MCQs · 20 marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">${dpp.difficulty} practice with answers and detailed analysis</span><button data-dpp-action="${dpp.id}">START DPP</button></article>`).join("") || '<div class="empty-state"><strong>No DPP matches these filters.</strong><p>Try another chapter, difficulty or subject.</p></div>';
+  const dpps = state.catalog.dpps.filter((dpp) => isFreeReadyResource(dpp) && (week === "all" || dpp.scheduledWeek === Number(week)) && (subject === "all" || dpp.subjectId === subject) && (difficulty === "all" || dpp.difficulty === difficulty) && (!search || dpp.chapter.toLowerCase().includes(search)));
+  $("dppStore").innerHTML = dpps.map((dpp) => `<article class="resource-card resource-ready"><div class="resource-meta"><span>${dpp.subject.toUpperCase()}</span><b class="free-resource-label">UNLOCKED</b></div><h3>${dpp.title}</h3><p>${dpp.id}</p><p>${dpp.questionCount} MCQs · ${dpp.maximumMarks} marks · ${dpp.suggestedDurationMinutes} minutes</p><span class="draft-note">Week ${dpp.scheduledWeek} · Suggested ${dateText(dpp.recommendedDate)}<br>${dpp.difficulty} practice · Answers and explanations</span><button data-dpp-action="${dpp.id}">START DPP</button></article>`).join("") || '<div class="empty-state"><strong>No DPP matches these filters.</strong><p>Try another chapter, difficulty or subject.</p></div>';
   document.querySelectorAll("[data-dpp-action]").forEach((button) => { button.onclick = () => { location.href = `mission600-dpp.html?dpp=${encodeURIComponent(button.dataset.dppAction)}`; }; });
 }
 

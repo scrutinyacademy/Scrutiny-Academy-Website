@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { banks } from "./mission600/questions.mjs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { mission600DppCode, mission600TestCode } from "../mission600-core.mjs";
@@ -106,6 +107,13 @@ for (let week = 1; week <= 18; week += 1) {
   });
 }
 
+// Keep existing published lecture URLs in a durable build input.
+const publications = JSON.parse(fs.readFileSync(path.join(outputDir, "lecture-publications.json"), "utf8"));
+for (const week of weeks) for (const lecture of week.lectures) {
+  const publication = publications[lecture.id];
+  if (publication?.youtubeUrl) Object.assign(lecture, publication);
+}
+
 const testPhase = (date) => date < new Date("2026-12-12T00:00:00Z") ? "SYL" : date < new Date("2027-01-12T00:00:00Z") ? "HY" : "MOCK";
 const rotation = (week, day, phaseCode) => {
   if (week <= 9) return weeks[week - 1].focusSubjects[day];
@@ -181,14 +189,51 @@ const baseDpps = subjectSpecs.flatMap(([subjectId, subjectName, subjectCode]) =>
   evaluationMethod: level === "E" ? "Objective items may be auto-checked; descriptive answers require rubric review." : "Rubric-based review; handwritten descriptive answers require human review.",
 }))));
 
-const mathManifestPath = path.join(outputDir, "math-dpp-manifest.json");
-const mathManifest = fs.existsSync(mathManifestPath) ? JSON.parse(fs.readFileSync(mathManifestPath, "utf8")) : { dpps: [] };
-const mathDpps = new Map(mathManifest.dpps.map((item) => [item.id, item]));
-const dpps = baseDpps.map((item) => mathDpps.has(item.id) ? {
-  ...item,
-  ...mathDpps.get(item.id),
-  suggestedQuestionCount: mathDpps.get(item.id).questionCount,
-} : item);
+// Build independent, difficulty-specific short DPPs. Dates guide study, never access.
+const sources = {
+  mathematics: "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+  physics: "class 10th physics.pdf",
+  biology: "X Biology EM 2025-26.pdf",
+  "social-science": "CLASS 10 SOCIAL.pdf",
+};
+const contentBySubject = Object.fromEntries(subjectSpecs.map(([id]) => [id, {}]));
+const dpps = baseDpps.map((item) => {
+  const levelIndex = ["E", "M", "H"].indexOf(item.level);
+  const authored = banks[item.subjectId]?.[item.chapterNumber - 1]?.[levelIndex];
+  if (!authored?.length) throw Error(`Missing authored questions: ${item.id}`);
+  const week = weeks.find((week) => week.lectures.some((lecture) => lecture.subjectId === item.subjectId && lecture.chapterIds.includes(item.chapterId)));
+  const lecture = week?.lectures.find((lecture) => lecture.subjectId === item.subjectId && lecture.chapterIds.includes(item.chapterId));
+  if (!lecture) throw Error(`No calendar lecture: ${item.id}`);
+  const chapterSource = JSON.parse(fs.readFileSync(path.join(root, "data/class10/textbooks", item.subjectId, `chapter-${String(item.chapterNumber).padStart(2, "0")}.json`), "utf8"));
+  const metadata = {
+    ...item, status: "published", contentComplete: true, unlocked: true,
+    questionCount: authored.length, suggestedQuestionCount: authored.length,
+    maximumMarks: authored.length, suggestedDurationMinutes: [5, 8, 12][levelIndex],
+    evaluationMethod: "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    contentVersion: "textbook-dpps-2026-10-26", contentFile: `data/mission600/dpps/${item.subjectId}.json`,
+    scheduledWeek: week.week, lectureId: lecture.id,
+    recommendedDate: iso(addDays(new Date(`${lecture.publicationDate}T00:00:00Z`), levelIndex)),
+    sourceBook: sources[item.subjectId], sourceChapter: item.chapterNumber,
+    sourcePrintedPages: chapterSource.textbookPages,
+  };
+  const questions = authored.map((question, index) => {
+    const options = [question.correct, ...question.distractors];
+    const shift = (item.chapterNumber + levelIndex + index) % 4;
+    const rotated = options.slice(shift).concat(options.slice(0, shift));
+    return {
+      id: `${item.id}-Q${String(index + 1).padStart(2, "0")}`,
+      question: question.question, options: rotated, answer: rotated.indexOf(question.correct),
+      explanation: question.explanation, difficulty: item.difficulty,
+      topic: question.question, sourceChapter: item.chapterNumber,
+    };
+  });
+  contentBySubject[item.subjectId][item.id] = { ...metadata, questions };
+  return metadata;
+});
+fs.mkdirSync(path.join(outputDir, "dpps"), { recursive: true });
+for (const [subjectId, items] of Object.entries(contentBySubject)) {
+  fs.writeFileSync(path.join(outputDir, "dpps", `${subjectId}.json`), `${JSON.stringify(items, null, 2)}\n`);
+}
 
 const payload = {
   programme: "Scrutiny Academy – Mission 600",

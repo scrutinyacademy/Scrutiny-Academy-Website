@@ -1,0 +1,2918 @@
+{
+  "SA-DPP-27-PHY-CH01-E": {
+    "id": "SA-DPP-27-PHY-CH01-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "E",
+    "title": "Reflection of Light at Curved Surfaces – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q01",
+        "question": "Which mirror can form a real image of a real object?",
+        "options": [
+          "Plane mirror",
+          "Convex mirror",
+          "All mirrors always",
+          "Concave mirror"
+        ],
+        "answer": 3,
+        "explanation": "A concave mirror converges rays and can produce a real image.",
+        "difficulty": "Easy",
+        "topic": "Which mirror can form a real image of a real object?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q02",
+        "question": "For a spherical mirror, how are focal length f and radius R related?",
+        "options": [
+          "f=R",
+          "f=R²",
+          "f=R/2",
+          "f=2R"
+        ],
+        "answer": 2,
+        "explanation": "In the paraxial approximation the focus lies midway between pole and centre.",
+        "difficulty": "Easy",
+        "topic": "For a spherical mirror, how are focal length f and radius R related?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q03",
+        "question": "A convex mirror usually gives what image of a real object?",
+        "options": [
+          "Virtual and inverted",
+          "Virtual, erect and diminished",
+          "Real and enlarged",
+          "Real and inverted"
+        ],
+        "answer": 1,
+        "explanation": "Reflected rays diverge; their backward extensions meet behind the mirror.",
+        "difficulty": "Easy",
+        "topic": "A convex mirror usually gives what image of a real object?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH01-M": {
+    "id": "SA-DPP-27-PHY-CH01-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "M",
+    "title": "Reflection of Light at Curved Surfaces – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q01",
+        "question": "A concave mirror has f=−10 cm and an object at u=−30 cm. Find v using the Cartesian convention.",
+        "options": [
+          "−30 cm",
+          "30 cm",
+          "−15 cm",
+          "15 cm"
+        ],
+        "answer": 2,
+        "explanation": "1/v=1/f−1/u=−1/10+1/30=−1/15.",
+        "difficulty": "Medium",
+        "topic": "A concave mirror has f=−10 cm and an object at u=−30 cm. Find v using the Cartesian convention.",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q02",
+        "question": "Where must an object be placed before a concave mirror to produce an enlarged erect image?",
+        "options": [
+          "At infinity",
+          "Between pole and focus",
+          "Beyond centre of curvature",
+          "At centre of curvature"
+        ],
+        "answer": 1,
+        "explanation": "Inside the focal length, reflected rays form a virtual enlarged image.",
+        "difficulty": "Medium",
+        "topic": "Where must an object be placed before a concave mirror to produce an enlarged erect image?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q03",
+        "question": "Why are convex mirrors used as vehicle rear-view mirrors?",
+        "options": [
+          "They provide a wide field of view",
+          "They always magnify vehicles",
+          "They form images on a screen",
+          "They eliminate reflection"
+        ],
+        "answer": 0,
+        "explanation": "Their diminished upright images let the driver see a wider region.",
+        "difficulty": "Medium",
+        "topic": "Why are convex mirrors used as vehicle rear-view mirrors?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH01-H": {
+    "id": "SA-DPP-27-PHY-CH01-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "H",
+    "title": "Reflection of Light at Curved Surfaces – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q01",
+        "question": "A concave mirror forms a real image twice the object height. If f=−12 cm, find u.",
+        "options": [
+          "18 cm",
+          "−18 cm",
+          "−24 cm",
+          "−36 cm"
+        ],
+        "answer": 1,
+        "explanation": "m=−2=−v/u gives v=2u; 1/u+1/(2u)=−1/12, so u=−18.",
+        "difficulty": "Hard",
+        "topic": "A concave mirror forms a real image twice the object height. If f=−12 cm, find u.",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q02",
+        "question": "What happens to the image of a distant object when a concave mirror's upper half is covered?",
+        "options": [
+          "A complete but dimmer image remains",
+          "The upper image half disappears",
+          "The lower image half disappears",
+          "No image forms"
+        ],
+        "answer": 0,
+        "explanation": "Each uncovered part can reflect rays from the whole object; less light reduces brightness.",
+        "difficulty": "Hard",
+        "topic": "What happens to the image of a distant object when a concave mirror's upper half is covered?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q03",
+        "question": "An object moves towards a concave mirror from beyond C to between C and F. How does its real image change?",
+        "options": [
+          "It moves closer and shrinks",
+          "It remains fixed at F",
+          "It becomes erect immediately",
+          "It moves farther from the mirror and enlarges"
+        ],
+        "answer": 3,
+        "explanation": "The mirror equation predicts increasing image distance and magnification until the object reaches F.",
+        "difficulty": "Hard",
+        "topic": "An object moves towards a concave mirror from beyond C to between C and F. How does its real image change?",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH02-E": {
+    "id": "SA-DPP-27-PHY-CH02-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "E",
+    "title": "Chemical Equations – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q01",
+        "question": "Why must a chemical equation be balanced?",
+        "options": [
+          "Reactants must have equal masses individually",
+          "All coefficients must be one",
+          "Atoms are conserved in a reaction",
+          "Molecules never change"
+        ],
+        "answer": 2,
+        "explanation": "The number of atoms of each element remains unchanged.",
+        "difficulty": "Easy",
+        "topic": "Why must a chemical equation be balanced?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q02",
+        "question": "Which reaction absorbs heat?",
+        "options": [
+          "Every neutralisation reaction",
+          "Endothermic reaction",
+          "Exothermic reaction",
+          "Every combustion reaction"
+        ],
+        "answer": 1,
+        "explanation": "Endothermic processes take energy from their surroundings.",
+        "difficulty": "Easy",
+        "topic": "Which reaction absorbs heat?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q03",
+        "question": "What is oxidation in terms of oxygen?",
+        "options": [
+          "Addition of oxygen",
+          "Removal of oxygen",
+          "Addition of nitrogen always",
+          "Removal of all atoms"
+        ],
+        "answer": 0,
+        "explanation": "At this level, oxidation includes oxygen gain or hydrogen loss.",
+        "difficulty": "Easy",
+        "topic": "What is oxidation in terms of oxygen?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH02-M": {
+    "id": "SA-DPP-27-PHY-CH02-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "M",
+    "title": "Chemical Equations – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q01",
+        "question": "Balance Al+O₂→Al₂O₃. Which coefficients are correct?",
+        "options": [
+          "2,1,2",
+          "4,3,2",
+          "2,3,1",
+          "1,1,1"
+        ],
+        "answer": 1,
+        "explanation": "4Al+3O₂→2Al₂O₃ conserves four Al and six O atoms.",
+        "difficulty": "Medium",
+        "topic": "Balance Al+O₂→Al₂O₃. Which coefficients are correct?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q02",
+        "question": "Zn+CuSO₄→ZnSO₄+Cu is which type of reaction?",
+        "options": [
+          "Displacement",
+          "Decomposition",
+          "Combination",
+          "Neutralisation"
+        ],
+        "answer": 0,
+        "explanation": "More reactive zinc displaces copper from its salt.",
+        "difficulty": "Medium",
+        "topic": "Zn+CuSO₄→ZnSO₄+Cu is which type of reaction?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q03",
+        "question": "Heating CaCO₃ produces CaO and CO₂. What reaction type is this?",
+        "options": [
+          "Double displacement",
+          "Combination",
+          "Precipitation",
+          "Thermal decomposition"
+        ],
+        "answer": 3,
+        "explanation": "Heat breaks one compound into simpler products.",
+        "difficulty": "Medium",
+        "topic": "Heating CaCO₃ produces CaO and CO₂. What reaction type is this?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH02-H": {
+    "id": "SA-DPP-27-PHY-CH02-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "H",
+    "title": "Chemical Equations – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q01",
+        "question": "In CuO+H₂→Cu+H₂O, which statement is correct?",
+        "options": [
+          "CuO is reduced and H₂ is oxidised",
+          "CuO is oxidised and H₂ is reduced",
+          "Neither substance changes oxidation state",
+          "Both reactants are reduced"
+        ],
+        "answer": 0,
+        "explanation": "CuO loses oxygen; hydrogen gains oxygen.",
+        "difficulty": "Hard",
+        "topic": "In CuO+H₂→Cu+H₂O, which statement is correct?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q02",
+        "question": "Why must subscripts remain unchanged when balancing equations?",
+        "options": [
+          "They are always equal to coefficients",
+          "Subscripts indicate temperature",
+          "Only gaseous subscripts may change",
+          "Changing them changes the identity of substances"
+        ],
+        "answer": 3,
+        "explanation": "Balancing adjusts particle numbers through coefficients, not chemical formulae.",
+        "difficulty": "Hard",
+        "topic": "Why must subscripts remain unchanged when balancing equations?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q03",
+        "question": "Mixing Na₂SO₄(aq) and BaCl₂(aq) gives what evidence of reaction?",
+        "options": [
+          "Copper deposition",
+          "A black carbon deposit",
+          "A white BaSO₄ precipitate",
+          "Hydrogen gas"
+        ],
+        "answer": 2,
+        "explanation": "Insoluble barium sulfate forms in this double-displacement reaction.",
+        "difficulty": "Hard",
+        "topic": "Mixing Na₂SO₄(aq) and BaCl₂(aq) gives what evidence of reaction?",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH03-E": {
+    "id": "SA-DPP-27-PHY-CH03-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "E",
+    "title": "Acids, Bases and Salts – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q01",
+        "question": "An aqueous solution with pH 2 is what?",
+        "options": [
+          "Always a salt-free solution",
+          "Acidic",
+          "Neutral",
+          "Basic"
+        ],
+        "answer": 1,
+        "explanation": "pH below 7 indicates acidity under ordinary school conditions.",
+        "difficulty": "Easy",
+        "topic": "An aqueous solution with pH 2 is what?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q02",
+        "question": "What colour does blue litmus turn in an acid?",
+        "options": [
+          "Red",
+          "Green",
+          "Yellow",
+          "It always remains blue"
+        ],
+        "answer": 0,
+        "explanation": "Acids turn blue litmus red.",
+        "difficulty": "Easy",
+        "topic": "What colour does blue litmus turn in an acid?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q03",
+        "question": "What is the chemical formula of common salt?",
+        "options": [
+          "NaOH",
+          "Na₂CO₃",
+          "CaCO₃",
+          "NaCl"
+        ],
+        "answer": 3,
+        "explanation": "Common salt is sodium chloride.",
+        "difficulty": "Easy",
+        "topic": "What is the chemical formula of common salt?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH03-M": {
+    "id": "SA-DPP-27-PHY-CH03-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "M",
+    "title": "Acids, Bases and Salts – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q01",
+        "question": "Which gas forms when dilute HCl reacts with zinc?",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Nitrogen",
+          "Chlorine"
+        ],
+        "answer": 0,
+        "explanation": "Zn+2HCl→ZnCl₂+H₂.",
+        "difficulty": "Medium",
+        "topic": "Which gas forms when dilute HCl reacts with zinc?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q02",
+        "question": "Adding acid to a carbonate releases which gas?",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Ammonia",
+          "Carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Carbonates react with acids to produce salt, water and CO₂.",
+        "difficulty": "Medium",
+        "topic": "Adding acid to a carbonate releases which gas?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q03",
+        "question": "A solution changes from pH 3 to pH 5. What happens to hydrogen-ion concentration?",
+        "options": [
+          "It becomes 100 times larger",
+          "It remains unchanged",
+          "It becomes 100 times smaller",
+          "It doubles"
+        ],
+        "answer": 2,
+        "explanation": "Each pH increase of 1 represents a tenfold decrease in H⁺ concentration.",
+        "difficulty": "Medium",
+        "topic": "A solution changes from pH 3 to pH 5. What happens to hydrogen-ion concentration?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH03-H": {
+    "id": "SA-DPP-27-PHY-CH03-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "H",
+    "title": "Acids, Bases and Salts – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-18",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q01",
+        "question": "Why does dry HCl gas not change dry blue litmus red?",
+        "options": [
+          "HCl contains no hydrogen",
+          "Dry HCl is a strong base",
+          "Litmus reacts only with metals",
+          "Water is needed to form the ions responsible for acidity"
+        ],
+        "answer": 3,
+        "explanation": "HCl displays acidic behaviour after ionisation in water.",
+        "difficulty": "Hard",
+        "topic": "Why does dry HCl gas not change dry blue litmus red?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q02",
+        "question": "Why is acid added slowly to water during dilution?",
+        "options": [
+          "Water chemically neutralises all acid",
+          "It prevents ion formation",
+          "Dilution releases heat; abundant water helps absorb it",
+          "Dilution always absorbs heat"
+        ],
+        "answer": 2,
+        "explanation": "Adding small acid portions with stirring limits dangerous local heating.",
+        "difficulty": "Hard",
+        "topic": "Why is acid added slowly to water during dilution?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q03",
+        "question": "A farmer has acidic soil. Which treatment is most appropriate?",
+        "options": [
+          "Remove all water permanently",
+          "Apply a suitable amount of lime",
+          "Add hydrochloric acid",
+          "Add more acidic fertiliser indiscriminately"
+        ],
+        "answer": 1,
+        "explanation": "Basic lime materials can neutralise excess soil acidity.",
+        "difficulty": "Hard",
+        "topic": "A farmer has acidic soil. Which treatment is most appropriate?",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH04-E": {
+    "id": "SA-DPP-27-PHY-CH04-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "E",
+    "title": "Refraction of Light at Curved Surfaces – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q01",
+        "question": "A convex lens in air is generally which kind of lens?",
+        "options": [
+          "Converging",
+          "Diverging",
+          "Always plane",
+          "Always opaque"
+        ],
+        "answer": 0,
+        "explanation": "A convex lens brings parallel paraxial rays towards a focus.",
+        "difficulty": "Easy",
+        "topic": "A convex lens in air is generally which kind of lens?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q02",
+        "question": "What is the SI unit of lens power?",
+        "options": [
+          "Metre",
+          "Newton",
+          "Joule",
+          "Dioptre"
+        ],
+        "answer": 3,
+        "explanation": "Power is the reciprocal of focal length in metres.",
+        "difficulty": "Easy",
+        "topic": "What is the SI unit of lens power?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q03",
+        "question": "A concave lens forms what image of a real object?",
+        "options": [
+          "Always enlarged",
+          "Always on a screen",
+          "Virtual, erect and diminished",
+          "Always real and inverted"
+        ],
+        "answer": 2,
+        "explanation": "Its refracted rays diverge and appear to come from a smaller upright image.",
+        "difficulty": "Easy",
+        "topic": "A concave lens forms what image of a real object?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH04-M": {
+    "id": "SA-DPP-27-PHY-CH04-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "M",
+    "title": "Refraction of Light at Curved Surfaces – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q01",
+        "question": "A convex lens has focal length 25 cm. Find its power.",
+        "options": [
+          "−4 D",
+          "+0.04 D",
+          "+25 D",
+          "+4 D"
+        ],
+        "answer": 3,
+        "explanation": "P=1/0.25=+4 dioptres.",
+        "difficulty": "Medium",
+        "topic": "A convex lens has focal length 25 cm. Find its power.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q02",
+        "question": "For a convex lens f=+10 cm and u=−20 cm, find v.",
+        "options": [
+          "+10 cm",
+          "+5 cm",
+          "+20 cm",
+          "−20 cm"
+        ],
+        "answer": 2,
+        "explanation": "Use 1/f=1/v−1/u; 1/v=1/10−1/20.",
+        "difficulty": "Medium",
+        "topic": "For a convex lens f=+10 cm and u=−20 cm, find v.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q03",
+        "question": "An object is placed within a convex lens's focal length. What image forms?",
+        "options": [
+          "No image at all",
+          "Virtual, erect and enlarged",
+          "Real, inverted and diminished",
+          "Real and same size"
+        ],
+        "answer": 1,
+        "explanation": "The emerging rays diverge and their backward extensions meet on the object side.",
+        "difficulty": "Medium",
+        "topic": "An object is placed within a convex lens's focal length. What image forms?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH04-H": {
+    "id": "SA-DPP-27-PHY-CH04-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "H",
+    "title": "Refraction of Light at Curved Surfaces – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q01",
+        "question": "Two thin lenses of powers +5 D and −2 D are in contact. Find their equivalent focal length.",
+        "options": [
+          "1/7 m",
+          "−1/3 m",
+          "1/3 m",
+          "3 m"
+        ],
+        "answer": 2,
+        "explanation": "P=5−2=3 D, so f=1/3 m.",
+        "difficulty": "Hard",
+        "topic": "Two thin lenses of powers +5 D and −2 D are in contact. Find their equivalent focal length.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q02",
+        "question": "A convex lens produces a real image three times object height. If f=15 cm, find object distance magnitude.",
+        "options": [
+          "60 cm",
+          "20 cm",
+          "30 cm",
+          "45 cm"
+        ],
+        "answer": 1,
+        "explanation": "v=−3u; 1/15=1/(−3u)−1/u gives u=−20 cm.",
+        "difficulty": "Hard",
+        "topic": "A convex lens produces a real image three times object height. If f=15 cm, find object distance magnitude.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q03",
+        "question": "Why does a lens's power depend on the surrounding medium?",
+        "options": [
+          "Refraction depends on relative refractive index",
+          "Its glass mass changes",
+          "Its thickness must become zero",
+          "Light ceases travelling in liquids"
+        ],
+        "answer": 0,
+        "explanation": "Changing the medium changes the refractive contrast and hence focal length.",
+        "difficulty": "Hard",
+        "topic": "Why does a lens's power depend on the surrounding medium?",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH05-E": {
+    "id": "SA-DPP-27-PHY-CH05-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "E",
+    "title": "Human Eye and Colourful World – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q01",
+        "question": "Which eye defect is corrected using a concave lens?",
+        "options": [
+          "Hypermetropia",
+          "Cataract directly",
+          "Colour blindness",
+          "Myopia"
+        ],
+        "answer": 3,
+        "explanation": "A concave lens diverges incoming rays so a myopic eye focuses distant objects on the retina.",
+        "difficulty": "Easy",
+        "topic": "Which eye defect is corrected using a concave lens?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q02",
+        "question": "Which part controls the amount of light entering the eye?",
+        "options": [
+          "Optic nerve",
+          "Cornea alone",
+          "Iris",
+          "Retina"
+        ],
+        "answer": 2,
+        "explanation": "The iris changes pupil size.",
+        "difficulty": "Easy",
+        "topic": "Which part controls the amount of light entering the eye?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q03",
+        "question": "Splitting white light into its component colours is called what?",
+        "options": [
+          "Diffusion",
+          "Dispersion",
+          "Reflection",
+          "Accommodation"
+        ],
+        "answer": 1,
+        "explanation": "Different wavelengths refract by different amounts.",
+        "difficulty": "Easy",
+        "topic": "Splitting white light into its component colours is called what?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH05-M": {
+    "id": "SA-DPP-27-PHY-CH05-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "M",
+    "title": "Human Eye and Colourful World – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q01",
+        "question": "A myopic eye has far point 2 m. What lens power corrects distant vision?",
+        "options": [
+          "−2 D",
+          "+2 D",
+          "−0.5 D",
+          "+0.5 D"
+        ],
+        "answer": 2,
+        "explanation": "For distant objects the correcting lens forms a virtual image at −2 m; P=−0.5 D.",
+        "difficulty": "Medium",
+        "topic": "A myopic eye has far point 2 m. What lens power corrects distant vision?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q02",
+        "question": "Why does the clear daytime sky appear blue?",
+        "options": [
+          "The oceans reflect blue light onto all air",
+          "Shorter visible wavelengths scatter more strongly",
+          "Air contains blue pigment",
+          "Only blue light reaches Earth"
+        ],
+        "answer": 1,
+        "explanation": "Air molecules scatter short wavelengths much more strongly than long ones.",
+        "difficulty": "Medium",
+        "topic": "Why does the clear daytime sky appear blue?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q03",
+        "question": "When viewing a nearby object, what happens to the normal eye lens?",
+        "options": [
+          "It becomes thicker and more powerful",
+          "It becomes thinner and less powerful",
+          "It becomes opaque",
+          "Its refractive index becomes zero"
+        ],
+        "answer": 0,
+        "explanation": "Ciliary muscles allow greater curvature, reducing focal length.",
+        "difficulty": "Medium",
+        "topic": "When viewing a nearby object, what happens to the normal eye lens?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH05-H": {
+    "id": "SA-DPP-27-PHY-CH05-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "H",
+    "title": "Human Eye and Colourful World – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q01",
+        "question": "A person can read only beyond 50 cm. What power helps read at 25 cm?",
+        "options": [
+          "−4 D",
+          "+2 D",
+          "−2 D",
+          "+4 D"
+        ],
+        "answer": 1,
+        "explanation": "The lens must make u=−0.25 m appear at v=−0.50 m: P=1/v−1/u=2 D.",
+        "difficulty": "Hard",
+        "topic": "A person can read only beyond 50 cm. What power helps read at 25 cm?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q02",
+        "question": "Why does the Sun appear reddish near the horizon?",
+        "options": [
+          "Longer atmospheric paths scatter much of the shorter-wavelength light away",
+          "The Sun's surface suddenly cools each evening",
+          "Red light scatters most strongly",
+          "The atmosphere emits only red light"
+        ],
+        "answer": 0,
+        "explanation": "More blue and violet light is removed from the direct beam along the longer path.",
+        "difficulty": "Hard",
+        "topic": "Why does the Sun appear reddish near the horizon?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q03",
+        "question": "Why do stars twinkle more noticeably than planets?",
+        "options": [
+          "Stars switch their nuclear reactions on and off",
+          "Planets emit steadier visible light than stars",
+          "Planets lie outside the atmosphere but stars do not",
+          "A star's point-like image is strongly affected by varying atmospheric refraction"
+        ],
+        "answer": 3,
+        "explanation": "A planet's small extended disc averages many refracted rays, reducing fluctuations.",
+        "difficulty": "Hard",
+        "topic": "Why do stars twinkle more noticeably than planets?",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH06-E": {
+    "id": "SA-DPP-27-PHY-CH06-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "E",
+    "title": "Structure of Atom – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q01",
+        "question": "What is the maximum number of electrons in an orbital?",
+        "options": [
+          "8",
+          "18",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The two electrons in an orbital must have opposite spins.",
+        "difficulty": "Easy",
+        "topic": "What is the maximum number of electrons in an orbital?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q02",
+        "question": "What is the charge of a neutron?",
+        "options": [
+          "+2 elementary charges",
+          "Zero",
+          "+1 elementary charge",
+          "−1 elementary charge"
+        ],
+        "answer": 1,
+        "explanation": "Neutrons are electrically neutral.",
+        "difficulty": "Easy",
+        "topic": "What is the charge of a neutron?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q03",
+        "question": "The atomic number equals the number of what?",
+        "options": [
+          "Protons",
+          "Neutrons always",
+          "Protons plus neutrons",
+          "Orbitals"
+        ],
+        "answer": 0,
+        "explanation": "Each element is defined by its proton number.",
+        "difficulty": "Easy",
+        "topic": "The atomic number equals the number of what?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH06-M": {
+    "id": "SA-DPP-27-PHY-CH06-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "M",
+    "title": "Structure of Atom – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q01",
+        "question": "What is the shell distribution of a neutral sodium atom, Z=11?",
+        "options": [
+          "2,6,3",
+          "2,8,1",
+          "2,7,2",
+          "2,8,2"
+        ],
+        "answer": 1,
+        "explanation": "Eleven electrons occupy the shells as 2,8,1 in the school model.",
+        "difficulty": "Medium",
+        "topic": "What is the shell distribution of a neutral sodium atom, Z=11?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q02",
+        "question": "How many orbitals are in a p subshell?",
+        "options": [
+          "3",
+          "1",
+          "5",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The three p orbitals correspond to three allowed magnetic quantum numbers.",
+        "difficulty": "Medium",
+        "topic": "How many orbitals are in a p subshell?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q03",
+        "question": "An atom has mass number 23 and atomic number 11. Find neutrons.",
+        "options": [
+          "11",
+          "23",
+          "34",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Neutrons = mass number − proton number = 23−11.",
+        "difficulty": "Medium",
+        "topic": "An atom has mass number 23 and atomic number 11. Find neutrons.",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH06-H": {
+    "id": "SA-DPP-27-PHY-CH06-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "H",
+    "title": "Structure of Atom – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-11-01",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q01",
+        "question": "Why does an atom emit a line spectrum rather than all possible wavelengths?",
+        "options": [
+          "Electrons move between discrete allowed energies",
+          "Electrons can have every possible bound energy",
+          "The nucleus emits only sound",
+          "All atoms have identical energy gaps"
+        ],
+        "answer": 0,
+        "explanation": "Photon energy equals the difference between two quantised levels.",
+        "difficulty": "Hard",
+        "topic": "Why does an atom emit a line spectrum rather than all possible wavelengths?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q02",
+        "question": "Which electron configuration violates the Pauli principle?",
+        "options": [
+          "Two opposite-spin electrons in one orbital",
+          "One electron in each p orbital",
+          "An empty higher-energy orbital",
+          "Two electrons with the same spin in one orbital"
+        ],
+        "answer": 3,
+        "explanation": "No two electrons in an atom can have all four quantum numbers equal.",
+        "difficulty": "Hard",
+        "topic": "Which electron configuration violates the Pauli principle?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q03",
+        "question": "For the same principal quantum number n=3, what is the maximum shell capacity?",
+        "options": [
+          "9",
+          "32",
+          "18",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "The maximum is 2n²=2×9=18, although filling follows orbital energies.",
+        "difficulty": "Hard",
+        "topic": "For the same principal quantum number n=3, what is the maximum shell capacity?",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH07-E": {
+    "id": "SA-DPP-27-PHY-CH07-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "E",
+    "title": "Classification of Elements - The Periodic Table – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-10",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q01",
+        "question": "The modern periodic table arranges elements primarily by what?",
+        "options": [
+          "Melting point",
+          "Atomic number",
+          "Atomic mass alone",
+          "Density"
+        ],
+        "answer": 1,
+        "explanation": "Atomic number gives the fundamental ordering.",
+        "difficulty": "Easy",
+        "topic": "The modern periodic table arranges elements primarily by what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q02",
+        "question": "Elements in the same group usually have similar what?",
+        "options": [
+          "Valence-electron configurations",
+          "Numbers of shells",
+          "Atomic numbers",
+          "Atomic masses"
+        ],
+        "answer": 0,
+        "explanation": "Similar outer configurations explain similar chemical properties.",
+        "difficulty": "Easy",
+        "topic": "Elements in the same group usually have similar what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q03",
+        "question": "What generally happens to atomic size down a group?",
+        "options": [
+          "It always decreases",
+          "It becomes zero",
+          "It remains identical",
+          "It increases"
+        ],
+        "answer": 3,
+        "explanation": "Additional electron shells place outer electrons farther from the nucleus.",
+        "difficulty": "Easy",
+        "topic": "What generally happens to atomic size down a group?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH07-M": {
+    "id": "SA-DPP-27-PHY-CH07-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "M",
+    "title": "Classification of Elements - The Periodic Table – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-11",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q01",
+        "question": "An element has electron distribution 2,8,7. Which group does it belong to?",
+        "options": [
+          "17",
+          "1",
+          "2",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "Seven valence electrons place this main-group element in group 17.",
+        "difficulty": "Medium",
+        "topic": "An element has electron distribution 2,8,7. Which group does it belong to?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q02",
+        "question": "Why does atomic size generally decrease across a period?",
+        "options": [
+          "An electron shell is lost at every step",
+          "Protons are removed",
+          "Atomic number decreases",
+          "Increasing effective nuclear attraction pulls electrons closer"
+        ],
+        "answer": 3,
+        "explanation": "Electrons enter the same main shell while nuclear charge increases.",
+        "difficulty": "Medium",
+        "topic": "Why does atomic size generally decrease across a period?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q03",
+        "question": "Which is generally more metallic: Na or Cl?",
+        "options": [
+          "Both equally",
+          "Neither, because both are gases",
+          "Na",
+          "Cl"
+        ],
+        "answer": 2,
+        "explanation": "Metallic character generally decreases from left to right across a period.",
+        "difficulty": "Medium",
+        "topic": "Which is generally more metallic: Na or Cl?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH07-H": {
+    "id": "SA-DPP-27-PHY-CH07-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "H",
+    "title": "Classification of Elements - The Periodic Table – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-12",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q01",
+        "question": "Two elements have configurations 2,8,1 and 2,8,8,1. What best explains their similar chemistry?",
+        "options": [
+          "Both have equal numbers of shells",
+          "Both are noble gases",
+          "Both have equal atomic radii",
+          "Both have one valence electron"
+        ],
+        "answer": 3,
+        "explanation": "Their identical valence-electron count leads to similar common reactions.",
+        "difficulty": "Hard",
+        "topic": "Two elements have configurations 2,8,1 and 2,8,8,1. What best explains their similar chemistry?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q02",
+        "question": "Why is the second ionisation energy of sodium much greater than its first?",
+        "options": [
+          "The second electron is farther from the nucleus",
+          "Sodium gains a shell after losing an electron",
+          "The second electron must be removed from a stable inner shell",
+          "The neutral atom has no nucleus"
+        ],
+        "answer": 2,
+        "explanation": "Na⁺ has the stable neon-like configuration 2,8.",
+        "difficulty": "Hard",
+        "topic": "Why is the second ionisation energy of sodium much greater than its first?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q03",
+        "question": "Which comparison is correct for Na and Na⁺?",
+        "options": [
+          "Na⁺ has fewer protons",
+          "Na⁺ is smaller because it loses its outer shell",
+          "Na⁺ is larger because it gains a shell",
+          "Both have 11 electrons"
+        ],
+        "answer": 1,
+        "explanation": "Ion formation removes the outermost electron without changing nuclear charge.",
+        "difficulty": "Hard",
+        "topic": "Which comparison is correct for Na and Na⁺?",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH08-E": {
+    "id": "SA-DPP-27-PHY-CH08-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "E",
+    "title": "Chemical Bonding – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-12",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q01",
+        "question": "A covalent bond involves what?",
+        "options": [
+          "Sharing electron pairs",
+          "Sharing protons",
+          "Transferring neutrons",
+          "Destroying nuclei"
+        ],
+        "answer": 0,
+        "explanation": "Covalent bonding results from shared electron pairs.",
+        "difficulty": "Easy",
+        "topic": "A covalent bond involves what?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q02",
+        "question": "What ions form in sodium chloride?",
+        "options": [
+          "Na⁻ and Cl⁺",
+          "Na²⁺ and Cl²⁻",
+          "Neutral Na and Cl atoms only",
+          "Na⁺ and Cl⁻"
+        ],
+        "answer": 3,
+        "explanation": "Sodium transfers one electron to chlorine.",
+        "difficulty": "Easy",
+        "topic": "What ions form in sodium chloride?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q03",
+        "question": "How many electron pairs are shared in an N₂ molecule?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The nitrogen atoms form a triple covalent bond.",
+        "difficulty": "Easy",
+        "topic": "How many electron pairs are shared in an N₂ molecule?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH08-M": {
+    "id": "SA-DPP-27-PHY-CH08-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "M",
+    "title": "Chemical Bonding – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q01",
+        "question": "Why does molten NaCl conduct electricity?",
+        "options": [
+          "Its molecules become metals",
+          "Its protons move through wires",
+          "It contains free neutrons",
+          "Its ions can move"
+        ],
+        "answer": 3,
+        "explanation": "Mobile charged ions carry current in the melt.",
+        "difficulty": "Medium",
+        "topic": "Why does molten NaCl conduct electricity?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q02",
+        "question": "Which bonding description fits MgO?",
+        "options": [
+          "O transfers two electrons to Mg",
+          "Both atoms lose two electrons",
+          "Mg transfers two electrons to O",
+          "Mg shares one proton with O"
+        ],
+        "answer": 2,
+        "explanation": "Mg²⁺ and O²⁻ are formed by two-electron transfer.",
+        "difficulty": "Medium",
+        "topic": "Which bonding description fits MgO?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q03",
+        "question": "Why does solid NaCl not conduct under ordinary conditions?",
+        "options": [
+          "It contains only molecules of gas",
+          "Its ions are fixed in a lattice",
+          "It has no charged particles",
+          "Its electrons are all free"
+        ],
+        "answer": 1,
+        "explanation": "The lattice prevents the movement of ions needed for conduction.",
+        "difficulty": "Medium",
+        "topic": "Why does solid NaCl not conduct under ordinary conditions?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH08-H": {
+    "id": "SA-DPP-27-PHY-CH08-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "H",
+    "title": "Chemical Bonding – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q01",
+        "question": "Which property best distinguishes many ionic compounds from simple molecular covalent compounds?",
+        "options": [
+          "Never dissolving in water",
+          "Conducting electricity as solids",
+          "High melting point from strong ionic attractions",
+          "Always being liquids"
+        ],
+        "answer": 2,
+        "explanation": "Strong electrostatic attractions require considerable energy to overcome.",
+        "difficulty": "Hard",
+        "topic": "Which property best distinguishes many ionic compounds from simple molecular covalent compounds?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q02",
+        "question": "Why can a water molecule be polar although its overall charge is zero?",
+        "options": [
+          "Oxygen gives both its electrons to hydrogen",
+          "Unequal sharing and bent geometry give a net dipole",
+          "It contains unequal proton and electron totals",
+          "Every neutral molecule is nonpolar"
+        ],
+        "answer": 1,
+        "explanation": "O−H bond dipoles do not cancel in the bent molecule.",
+        "difficulty": "Hard",
+        "topic": "Why can a water molecule be polar although its overall charge is zero?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q03",
+        "question": "Which Lewis description is correct for CO₂?",
+        "options": [
+          "O=C=O with two double bonds",
+          "O−C−O with two single bonds and no other electrons",
+          "One triple bond to each oxygen",
+          "An ionic chain of C⁴⁻ and O²⁺"
+        ],
+        "answer": 0,
+        "explanation": "Two shared pairs per C−O bond satisfy the usual octets.",
+        "difficulty": "Hard",
+        "topic": "Which Lewis description is correct for CO₂?",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH09-E": {
+    "id": "SA-DPP-27-PHY-CH09-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "E",
+    "title": "Electric Current – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q01",
+        "question": "What is the SI unit of electric current?",
+        "options": [
+          "Volt",
+          "Ohm",
+          "Watt",
+          "Ampere"
+        ],
+        "answer": 3,
+        "explanation": "Current is charge flowing per unit time, measured in amperes.",
+        "difficulty": "Easy",
+        "topic": "What is the SI unit of electric current?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q02",
+        "question": "Which relation expresses Ohm's law at constant temperature?",
+        "options": [
+          "R=VI",
+          "I=VR",
+          "V=IR",
+          "V=I/R"
+        ],
+        "answer": 2,
+        "explanation": "For an ohmic conductor, potential difference is proportional to current.",
+        "difficulty": "Easy",
+        "topic": "Which relation expresses Ohm's law at constant temperature?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q03",
+        "question": "In a series circuit, which quantity is the same through every resistor?",
+        "options": [
+          "Power always",
+          "Current",
+          "Voltage always",
+          "Resistance always"
+        ],
+        "answer": 1,
+        "explanation": "The same charge flow passes through each series element.",
+        "difficulty": "Easy",
+        "topic": "In a series circuit, which quantity is the same through every resistor?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH09-M": {
+    "id": "SA-DPP-27-PHY-CH09-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "M",
+    "title": "Electric Current – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q01",
+        "question": "A 6 Ω resistor has 12 V across it. Find current.",
+        "options": [
+          "0.5 A",
+          "6 A",
+          "2 A",
+          "72 A"
+        ],
+        "answer": 2,
+        "explanation": "I=V/R=12/6=2.",
+        "difficulty": "Medium",
+        "topic": "A 6 Ω resistor has 12 V across it. Find current.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q02",
+        "question": "Find the equivalent resistance of 6 Ω and 3 Ω in parallel.",
+        "options": [
+          "18 Ω",
+          "2 Ω",
+          "9 Ω",
+          "3 Ω"
+        ],
+        "answer": 1,
+        "explanation": "1/R=1/6+1/3=1/2.",
+        "difficulty": "Medium",
+        "topic": "Find the equivalent resistance of 6 Ω and 3 Ω in parallel.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q03",
+        "question": "A device draws 2 A at 220 V. Find power.",
+        "options": [
+          "440 W",
+          "110 W",
+          "222 W",
+          "48400 W"
+        ],
+        "answer": 0,
+        "explanation": "P=VI=220×2.",
+        "difficulty": "Medium",
+        "topic": "A device draws 2 A at 220 V. Find power.",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH09-H": {
+    "id": "SA-DPP-27-PHY-CH09-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "H",
+    "title": "Electric Current – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q01",
+        "question": "A wire is stretched to twice its length at constant volume and unchanged resistivity. What is its new resistance?",
+        "options": [
+          "R/4",
+          "4R",
+          "2R",
+          "R/2"
+        ],
+        "answer": 1,
+        "explanation": "Length doubles and area halves; R=ρL/A increases fourfold.",
+        "difficulty": "Hard",
+        "topic": "A wire is stretched to twice its length at constant volume and unchanged resistivity. What is its new resistance?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q02",
+        "question": "A 1000 W heater runs for 2 hours. How much electrical energy is used?",
+        "options": [
+          "2 kWh",
+          "0.5 kWh",
+          "2000 kWh",
+          "1000 kWh"
+        ],
+        "answer": 0,
+        "explanation": "Energy in kWh equals power in kW multiplied by hours.",
+        "difficulty": "Hard",
+        "topic": "A 1000 W heater runs for 2 hours. How much electrical energy is used?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q03",
+        "question": "A 60 W and a 100 W lamp, both rated 220 V, are connected separately to 220 V. Which has higher resistance?",
+        "options": [
+          "The 100 W lamp",
+          "Both have equal resistance",
+          "Neither has resistance",
+          "The 60 W lamp"
+        ],
+        "answer": 3,
+        "explanation": "R=V²/P; at the same rated voltage, lower power means higher resistance.",
+        "difficulty": "Hard",
+        "topic": "A 60 W and a 100 W lamp, both rated 220 V, are connected separately to 220 V. Which has higher resistance?",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH10-E": {
+    "id": "SA-DPP-27-PHY-CH10-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "E",
+    "title": "Electromagnetism – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-24",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q01",
+        "question": "A current-carrying wire produces what around it?",
+        "options": [
+          "Only a static electric charge",
+          "No field",
+          "A magnetic field",
+          "Only a gravitational field"
+        ],
+        "answer": 2,
+        "explanation": "Moving charge creates a magnetic field.",
+        "difficulty": "Easy",
+        "topic": "A current-carrying wire produces what around it?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q02",
+        "question": "Which device converts electrical energy into mechanical energy?",
+        "options": [
+          "Dry cell",
+          "Electric motor",
+          "Electric generator",
+          "Transformer alone"
+        ],
+        "answer": 1,
+        "explanation": "A motor uses magnetic force to produce motion.",
+        "difficulty": "Easy",
+        "topic": "Which device converts electrical energy into mechanical energy?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q03",
+        "question": "What is electromagnetic induction?",
+        "options": [
+          "Producing an emf by changing magnetic flux",
+          "Producing heat by friction",
+          "Charging by rubbing only",
+          "Splitting white light"
+        ],
+        "answer": 0,
+        "explanation": "A changing magnetic flux through a circuit induces emf.",
+        "difficulty": "Easy",
+        "topic": "What is electromagnetic induction?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH10-M": {
+    "id": "SA-DPP-27-PHY-CH10-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "M",
+    "title": "Electromagnetism – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-25",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q01",
+        "question": "Reversing current in a straight wire does what to its magnetic field direction?",
+        "options": [
+          "Makes it radial outward",
+          "Reverses it",
+          "Leaves it unchanged",
+          "Eliminates Earth's field"
+        ],
+        "answer": 1,
+        "explanation": "The right-hand thumb rule reverses when current reverses.",
+        "difficulty": "Medium",
+        "topic": "Reversing current in a straight wire does what to its magnetic field direction?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q02",
+        "question": "What happens when a magnet remains stationary relative to a stationary coil?",
+        "options": [
+          "No induced emf from that unchanged flux",
+          "A constant induced current must flow",
+          "An infinite voltage forms",
+          "The coil must rotate"
+        ],
+        "answer": 0,
+        "explanation": "Induction requires a change of flux, not merely the presence of a field.",
+        "difficulty": "Medium",
+        "topic": "What happens when a magnet remains stationary relative to a stationary coil?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q03",
+        "question": "A wire is parallel to a uniform magnetic field. What is the magnetic force on its current?",
+        "options": [
+          "Maximum",
+          "Always BI²L",
+          "Always BIL",
+          "Zero"
+        ],
+        "answer": 3,
+        "explanation": "F=BILsinθ; θ=0 gives zero.",
+        "difficulty": "Medium",
+        "topic": "A wire is parallel to a uniform magnetic field. What is the magnetic force on its current?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH10-H": {
+    "id": "SA-DPP-27-PHY-CH10-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "H",
+    "title": "Electromagnetism – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-26",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q01",
+        "question": "Why does an induced current oppose the flux change that produces it?",
+        "options": [
+          "Lenz's law expresses conservation of energy",
+          "A coil always repels every magnet",
+          "Magnetic fields cannot store energy",
+          "Electric charge is destroyed"
+        ],
+        "answer": 0,
+        "explanation": "Otherwise the induced effect could reinforce the change and generate energy without input.",
+        "difficulty": "Hard",
+        "topic": "Why does an induced current oppose the flux change that produces it?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q02",
+        "question": "For a perpendicular wire, if B and I double while L is unchanged, how does force change?",
+        "options": [
+          "It doubles",
+          "It halves",
+          "It remains unchanged",
+          "It becomes four times as large"
+        ],
+        "answer": 3,
+        "explanation": "F=BIL, so doubling both B and I multiplies F by four.",
+        "difficulty": "Hard",
+        "topic": "For a perpendicular wire, if B and I double while L is unchanged, how does force change?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q03",
+        "question": "How can induced emf be increased while moving the same magnet through the same coil?",
+        "options": [
+          "Remove every coil turn",
+          "Keep flux constant",
+          "Move the magnet faster",
+          "Hold it still inside the coil"
+        ],
+        "answer": 2,
+        "explanation": "Faster motion increases the rate of change of flux.",
+        "difficulty": "Hard",
+        "topic": "How can induced emf be increased while moving the same magnet through the same coil?",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH11-E": {
+    "id": "SA-DPP-27-PHY-CH11-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "E",
+    "title": "Principles of Metallurgy – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-26",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q01",
+        "question": "What is an ore?",
+        "options": [
+          "Only a liquid mineral",
+          "A mineral from which a metal can be economically extracted",
+          "Any rock containing no metals",
+          "A pure alloy"
+        ],
+        "answer": 1,
+        "explanation": "Economic extractability distinguishes an ore from a general mineral.",
+        "difficulty": "Easy",
+        "topic": "What is an ore?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q02",
+        "question": "What is gangue?",
+        "options": [
+          "Unwanted earthy impurities in an ore",
+          "The extracted pure metal",
+          "The electrolyte in every cell",
+          "Only carbon dioxide"
+        ],
+        "answer": 0,
+        "explanation": "Gangue includes sand and other unwanted material.",
+        "difficulty": "Easy",
+        "topic": "What is gangue?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q03",
+        "question": "Which process commonly converts a sulfide ore to oxide?",
+        "options": [
+          "Freezing in water",
+          "Electroplating",
+          "Simple filtration",
+          "Roasting in air"
+        ],
+        "answer": 3,
+        "explanation": "Roasting heats sulfide ores in excess air.",
+        "difficulty": "Easy",
+        "topic": "Which process commonly converts a sulfide ore to oxide?",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH11-M": {
+    "id": "SA-DPP-27-PHY-CH11-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "M",
+    "title": "Principles of Metallurgy – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q01",
+        "question": "Why is aluminium extracted by electrolysis rather than carbon reduction?",
+        "options": [
+          "Aluminium oxide is too stable for ordinary carbon reduction",
+          "Aluminium is less reactive than copper",
+          "Aluminium oxide contains no oxygen",
+          "Carbon cannot be heated"
+        ],
+        "answer": 0,
+        "explanation": "Highly reactive metals require electrolytic methods.",
+        "difficulty": "Medium",
+        "topic": "Why is aluminium extracted by electrolysis rather than carbon reduction?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q02",
+        "question": "Heating a carbonate ore with limited or no air is called what?",
+        "options": [
+          "Roasting",
+          "Electrorefining",
+          "Alloying",
+          "Calcination"
+        ],
+        "answer": 3,
+        "explanation": "Calcination removes volatile components such as CO₂ from carbonate ores.",
+        "difficulty": "Medium",
+        "topic": "Heating a carbonate ore with limited or no air is called what?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q03",
+        "question": "What is the purpose of a flux in smelting?",
+        "options": [
+          "To prevent every chemical reaction",
+          "To act only as a fuel",
+          "To react with gangue and form slag",
+          "To increase ore impurities"
+        ],
+        "answer": 2,
+        "explanation": "Flux converts gangue into a more easily removable slag.",
+        "difficulty": "Medium",
+        "topic": "What is the purpose of a flux in smelting?",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH11-H": {
+    "id": "SA-DPP-27-PHY-CH11-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "H",
+    "title": "Principles of Metallurgy – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q01",
+        "question": "In electrolytic refining of copper, which electrode gains pure copper?",
+        "options": [
+          "The impure-copper anode",
+          "Both gain identical masses of impurities",
+          "Neither, because copper cannot dissolve",
+          "The pure-copper cathode"
+        ],
+        "answer": 3,
+        "explanation": "Copper ions receive electrons at the cathode and deposit as metal.",
+        "difficulty": "Hard",
+        "topic": "In electrolytic refining of copper, which electrode gains pure copper?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q02",
+        "question": "Why is zinc able to displace copper from CuSO₄ solution?",
+        "options": [
+          "Sulfate changes into chloride",
+          "Zinc has a smaller mass in every sample",
+          "Zinc is more reactive and more readily loses electrons",
+          "Copper is more reactive than zinc"
+        ],
+        "answer": 2,
+        "explanation": "Zn is oxidised while Cu²⁺ is reduced to copper metal.",
+        "difficulty": "Hard",
+        "topic": "Why is zinc able to displace copper from CuSO₄ solution?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q03",
+        "question": "Why is extraction method selected using the metal reactivity series?",
+        "options": [
+          "Every ore contains the same gangue",
+          "More reactive metals form compounds harder to reduce",
+          "All metals melt at the same temperature",
+          "Reactivity gives the exact ore price"
+        ],
+        "answer": 1,
+        "explanation": "Compound stability influences whether heating, chemical reduction or electrolysis is suitable.",
+        "difficulty": "Hard",
+        "topic": "Why is extraction method selected using the metal reactivity series?",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH12-E": {
+    "id": "SA-DPP-27-PHY-CH12-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "E",
+    "title": "Carbon and Its Compounds – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 5,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q01",
+        "question": "Why does carbon commonly form four covalent bonds?",
+        "options": [
+          "It has four valence electrons",
+          "It has four shells",
+          "It always gains four protons",
+          "It has no electrons"
+        ],
+        "answer": 0,
+        "explanation": "Sharing four electrons lets carbon complete an octet.",
+        "difficulty": "Easy",
+        "topic": "Why does carbon commonly form four covalent bonds?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q02",
+        "question": "What is catenation?",
+        "options": [
+          "Bonding only to oxygen",
+          "Breaking every carbon bond",
+          "Formation of salts only",
+          "Self-linking of atoms into chains or rings"
+        ],
+        "answer": 3,
+        "explanation": "Carbon readily bonds with other carbon atoms.",
+        "difficulty": "Easy",
+        "topic": "What is catenation?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q03",
+        "question": "Which functional group identifies an alcohol?",
+        "options": [
+          "−CHO",
+          "−CO−",
+          "−OH",
+          "−COOH"
+        ],
+        "answer": 2,
+        "explanation": "Alcohols contain a hydroxyl group bonded to carbon.",
+        "difficulty": "Easy",
+        "topic": "Which functional group identifies an alcohol?",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH12-M": {
+    "id": "SA-DPP-27-PHY-CH12-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "M",
+    "title": "Carbon and Its Compounds – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 8,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q01",
+        "question": "Which compound is unsaturated?",
+        "options": [
+          "Ethane",
+          "Methane",
+          "Propane",
+          "Ethene"
+        ],
+        "answer": 3,
+        "explanation": "Ethene contains a carbon-carbon double bond.",
+        "difficulty": "Medium",
+        "topic": "Which compound is unsaturated?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q02",
+        "question": "What are the usual products of complete combustion of ethanol?",
+        "options": [
+          "NaCl and H₂O",
+          "Carbon and nitrogen",
+          "CO₂ and H₂O",
+          "CO and H₂ only"
+        ],
+        "answer": 2,
+        "explanation": "Complete combustion converts carbon to CO₂ and hydrogen to water.",
+        "difficulty": "Medium",
+        "topic": "What are the usual products of complete combustion of ethanol?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q03",
+        "question": "What is the difference between consecutive members of a homologous series?",
+        "options": [
+          "H₂O",
+          "CH₂",
+          "CH₄",
+          "CO₂"
+        ],
+        "answer": 1,
+        "explanation": "Successive homologues differ by one methylene group and 14 u.",
+        "difficulty": "Medium",
+        "topic": "What is the difference between consecutive members of a homologous series?",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH12-H": {
+    "id": "SA-DPP-27-PHY-CH12-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "H",
+    "title": "Carbon and Its Compounds – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 3,
+    "suggestedDurationMinutes": 12,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; short chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 3,
+    "maximumMarks": 3,
+    "contentVersion": "textbook-dpps-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q01",
+        "question": "Why is soap less effective in hard water?",
+        "options": [
+          "Hard water contains no ions",
+          "Soap becomes a metal",
+          "Ca²⁺ and Mg²⁺ form insoluble salts with soap",
+          "Soap converts all water to acid"
+        ],
+        "answer": 2,
+        "explanation": "These insoluble salts produce scum and consume soap.",
+        "difficulty": "Hard",
+        "topic": "Why is soap less effective in hard water?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q02",
+        "question": "Ethanol reacts with ethanoic acid in the presence of concentrated H₂SO₄ to form what?",
+        "options": [
+          "Sodium ethanoate and oxygen",
+          "An ester and water",
+          "Only methane",
+          "Only hydrogen"
+        ],
+        "answer": 1,
+        "explanation": "Esterification forms ethyl ethanoate and water.",
+        "difficulty": "Hard",
+        "topic": "Ethanol reacts with ethanoic acid in the presence of concentrated H₂SO₄ to form what?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q03",
+        "question": "Why can C₄H₁₀ have two structural isomers?",
+        "options": [
+          "Its atoms can form different carbon-chain arrangements",
+          "Its carbon atoms change atomic number",
+          "Each isomer has a different molecular formula",
+          "It must contain a double bond"
+        ],
+        "answer": 0,
+        "explanation": "Butane and 2-methylpropane have the same formula but different connectivity.",
+        "difficulty": "Hard",
+        "topic": "Why can C₄H₁₀ have two structural isomers?",
+        "sourceChapter": 12
+      }
+    ]
+  }
+}
