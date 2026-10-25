@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH09-E": {
+    "id": "SA-DPP-27-SOC-CH09-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch9",
+    "chapterNumber": 9,
+    "chapter": "Globalisation",
+    "level": "E",
+    "title": "Globalisation – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-09.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-17",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 118,
+      "to": 131
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q01",
+        "question": "Globalisation involves increasing connections between what?",
+        "options": [
+          "Only villages within one district",
+          "Only weather systems",
+          "Only local households",
+          "Economies and societies across countries"
+        ],
+        "answer": 3,
+        "explanation": "Trade, investment, technology and communication deepen cross-border integration.",
+        "difficulty": "Easy",
+        "topic": "Globalisation involves increasing connections between what?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q02",
+        "question": "What is a multinational corporation?",
+        "options": [
+          "A business forbidden from foreign activity",
+          "Only a government school",
+          "A company operating in more than one country",
+          "Any shop with two workers"
+        ],
+        "answer": 2,
+        "explanation": "MNCs organise production or business operations across national borders.",
+        "difficulty": "Easy",
+        "topic": "What is a multinational corporation?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q03",
+        "question": "A tax on imports is called what?",
+        "options": [
+          "Dividend",
+          "Tariff",
+          "Remittance",
+          "Wage"
+        ],
+        "answer": 1,
+        "explanation": "Tariffs are trade barriers that affect imported goods' prices.",
+        "difficulty": "Easy",
+        "topic": "A tax on imports is called what?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q04",
+        "question": "Globalisation: which option correctly identifies the global-economy concept?",
+        "options": [
+          "Growing cross-border economic and social integration",
+          "A firm operating in more than one country",
+          "Exchange of goods or services across countries",
+          "Investment by a source based abroad"
+        ],
+        "answer": 0,
+        "explanation": "Globalisation — global-economy concept: Growing cross-border economic and social integration.",
+        "difficulty": "Easy",
+        "topic": "Globalisation · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q05",
+        "question": "Globalisation: which option correctly identifies the defining feature?",
+        "options": [
+          "Connects domestic markets with external markets",
+          "Can establish or expand productive activity across borders",
+          "Can raise the domestic price of imported goods",
+          "Links production, trade, investment and communication"
+        ],
+        "answer": 3,
+        "explanation": "Globalisation — defining feature: Links production, trade, investment and communication.",
+        "difficulty": "Easy",
+        "topic": "Globalisation · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q06",
+        "question": "Globalisation: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Always gives identical benefits to every producer",
+          "Means every country stops trading",
+          "A product may involve inputs and work from several countries",
+          "Eliminates all national economic differences"
+        ],
+        "answer": 2,
+        "explanation": "Globalisation — typical example or effect: A product may involve inputs and work from several countries.",
+        "difficulty": "Easy",
+        "topic": "Globalisation · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q07",
+        "question": "Multinational corporation: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A tax on imports",
+          "A firm operating in more than one country",
+          "Exchange of goods or services across countries",
+          "Investment by a source based abroad"
+        ],
+        "answer": 1,
+        "explanation": "Multinational corporation — global-economy concept: A firm operating in more than one country.",
+        "difficulty": "Easy",
+        "topic": "Multinational corporation · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q08",
+        "question": "Multinational corporation: which option correctly identifies the defining feature?",
+        "options": [
+          "Coordinates activity across national borders",
+          "Can establish or expand productive activity across borders",
+          "Can raise the domestic price of imported goods",
+          "Eases some barriers to cross-border exchange"
+        ],
+        "answer": 0,
+        "explanation": "Multinational corporation — defining feature: Coordinates activity across national borders.",
+        "difficulty": "Easy",
+        "topic": "Multinational corporation · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q09",
+        "question": "Multinational corporation: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Must operate only within one village",
+          "Cannot invest outside its home country",
+          "Automatically provides identical wages worldwide",
+          "Can locate production where costs and market access suit its strategy"
+        ],
+        "answer": 3,
+        "explanation": "Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy.",
+        "difficulty": "Easy",
+        "topic": "Multinational corporation · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q10",
+        "question": "Foreign trade: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A tax on imports",
+          "Reduction of selected restrictions on trade",
+          "Exchange of goods or services across countries",
+          "Investment by a source based abroad"
+        ],
+        "answer": 2,
+        "explanation": "Foreign trade — global-economy concept: Exchange of goods or services across countries.",
+        "difficulty": "Easy",
+        "topic": "Foreign trade · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q11",
+        "question": "Foreign trade: which option correctly identifies the defining feature?",
+        "options": [
+          "Tasks may be performed outside the contracting firm's own organisation",
+          "Connects domestic markets with external markets",
+          "Can raise the domestic price of imported goods",
+          "Eases some barriers to cross-border exchange"
+        ],
+        "answer": 1,
+        "explanation": "Foreign trade — defining feature: Connects domestic markets with external markets.",
+        "difficulty": "Easy",
+        "topic": "Foreign trade · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q12",
+        "question": "Foreign trade: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Imports can expand consumers' available choices",
+          "Means goods never cross borders",
+          "Guarantees every domestic firm survives competition",
+          "Can never change consumer choice"
+        ],
+        "answer": 0,
+        "explanation": "Foreign trade — typical example or effect: Imports can expand consumers' available choices.",
+        "difficulty": "Easy",
+        "topic": "Foreign trade · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q13",
+        "question": "Foreign investment: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A tax on imports",
+          "Reduction of selected restrictions on trade",
+          "Contracting some activities to another provider",
+          "Investment by a source based abroad"
+        ],
+        "answer": 3,
+        "explanation": "Foreign investment — global-economy concept: Investment by a source based abroad.",
+        "difficulty": "Easy",
+        "topic": "Foreign investment · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q14",
+        "question": "Foreign investment: which option correctly identifies the defining feature?",
+        "options": [
+          "Tasks may be performed outside the contracting firm's own organisation",
+          "Allows rapid coordination and communication",
+          "Can establish or expand productive activity across borders",
+          "Eases some barriers to cross-border exchange"
+        ],
+        "answer": 2,
+        "explanation": "Foreign investment — defining feature: Can establish or expand productive activity across borders.",
+        "difficulty": "Easy",
+        "topic": "Foreign investment · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q15",
+        "question": "Foreign investment: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Cannot finance any production activity",
+          "An overseas firm may finance a local production facility",
+          "Automatically transfers ownership to every local worker",
+          "Always means a tax on imports"
+        ],
+        "answer": 1,
+        "explanation": "Foreign investment — typical example or effect: An overseas firm may finance a local production facility.",
+        "difficulty": "Easy",
+        "topic": "Foreign investment · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q16",
+        "question": "Tariff: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A tax on imports",
+          "Reduction of selected restrictions on trade",
+          "Contracting some activities to another provider",
+          "Digital tools supporting information exchange"
+        ],
+        "answer": 0,
+        "explanation": "Tariff — global-economy concept: A tax on imports.",
+        "difficulty": "Easy",
+        "topic": "Tariff · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q17",
+        "question": "Tariff: which option correctly identifies the defining feature?",
+        "options": [
+          "Tasks may be performed outside the contracting firm's own organisation",
+          "Allows rapid coordination and communication",
+          "Requires attention to unequal bargaining power and opportunities",
+          "Can raise the domestic price of imported goods"
+        ],
+        "answer": 3,
+        "explanation": "Tariff — defining feature: Can raise the domestic price of imported goods.",
+        "difficulty": "Easy",
+        "topic": "Tariff · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q18",
+        "question": "Tariff: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Must reduce the import price by definition",
+          "Is identical to a wage payment",
+          "A government may use it as a trade-policy instrument",
+          "Is money sent home by migrants"
+        ],
+        "answer": 2,
+        "explanation": "Tariff — typical example or effect: A government may use it as a trade-policy instrument.",
+        "difficulty": "Easy",
+        "topic": "Tariff · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q19",
+        "question": "Trade liberalisation: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A goal concerning distribution and participation",
+          "Reduction of selected restrictions on trade",
+          "Contracting some activities to another provider",
+          "Digital tools supporting information exchange"
+        ],
+        "answer": 1,
+        "explanation": "Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade.",
+        "difficulty": "Easy",
+        "topic": "Trade liberalisation · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q20",
+        "question": "Trade liberalisation: which option correctly identifies the defining feature?",
+        "options": [
+          "Eases some barriers to cross-border exchange",
+          "Allows rapid coordination and communication",
+          "Requires attention to unequal bargaining power and opportunities",
+          "Links production, trade, investment and communication"
+        ],
+        "answer": 0,
+        "explanation": "Trade liberalisation — defining feature: Eases some barriers to cross-border exchange.",
+        "difficulty": "Easy",
+        "topic": "Trade liberalisation · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q21",
+        "question": "Trade liberalisation: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Guarantees no producer faces adjustment costs",
+          "Eliminates every market competition",
+          "Means banning all imports",
+          "Can intensify competition faced by domestic producers"
+        ],
+        "answer": 3,
+        "explanation": "Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers.",
+        "difficulty": "Easy",
+        "topic": "Trade liberalisation · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q22",
+        "question": "Outsourcing: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A goal concerning distribution and participation",
+          "Growing cross-border economic and social integration",
+          "Contracting some activities to another provider",
+          "Digital tools supporting information exchange"
+        ],
+        "answer": 2,
+        "explanation": "Outsourcing — global-economy concept: Contracting some activities to another provider.",
+        "difficulty": "Easy",
+        "topic": "Outsourcing · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q23",
+        "question": "Outsourcing: which option correctly identifies the defining feature?",
+        "options": [
+          "Coordinates activity across national borders",
+          "Tasks may be performed outside the contracting firm's own organisation",
+          "Requires attention to unequal bargaining power and opportunities",
+          "Links production, trade, investment and communication"
+        ],
+        "answer": 1,
+        "explanation": "Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation.",
+        "difficulty": "Easy",
+        "topic": "Outsourcing · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q24",
+        "question": "Outsourcing: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Service work may be supplied from a distant location",
+          "Necessarily removes all need for communication",
+          "Means every contracted task is performed by the same firm's own employees",
+          "Can never involve services"
+        ],
+        "answer": 0,
+        "explanation": "Outsourcing — typical example or effect: Service work may be supplied from a distant location.",
+        "difficulty": "Easy",
+        "topic": "Outsourcing · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q25",
+        "question": "Information technology: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A goal concerning distribution and participation",
+          "Growing cross-border economic and social integration",
+          "A firm operating in more than one country",
+          "Digital tools supporting information exchange"
+        ],
+        "answer": 3,
+        "explanation": "Information technology — global-economy concept: Digital tools supporting information exchange.",
+        "difficulty": "Easy",
+        "topic": "Information technology · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q26",
+        "question": "Information technology: which option correctly identifies the defining feature?",
+        "options": [
+          "Coordinates activity across national borders",
+          "Connects domestic markets with external markets",
+          "Allows rapid coordination and communication",
+          "Links production, trade, investment and communication"
+        ],
+        "answer": 2,
+        "explanation": "Information technology — defining feature: Allows rapid coordination and communication.",
+        "difficulty": "Easy",
+        "topic": "Information technology · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q27",
+        "question": "Information technology: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Works only within one room",
+          "Helps firms manage dispersed production networks",
+          "Makes physical transport unnecessary for every product",
+          "Ends all differences in labour laws"
+        ],
+        "answer": 1,
+        "explanation": "Information technology — typical example or effect: Helps firms manage dispersed production networks.",
+        "difficulty": "Easy",
+        "topic": "Information technology · typical example or effect",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q28",
+        "question": "Fairer globalisation: which option correctly identifies the global-economy concept?",
+        "options": [
+          "A goal concerning distribution and participation",
+          "Growing cross-border economic and social integration",
+          "A firm operating in more than one country",
+          "Exchange of goods or services across countries"
+        ],
+        "answer": 0,
+        "explanation": "Fairer globalisation — global-economy concept: A goal concerning distribution and participation.",
+        "difficulty": "Easy",
+        "topic": "Fairer globalisation · global-economy concept",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q29",
+        "question": "Fairer globalisation: which option correctly identifies the defining feature?",
+        "options": [
+          "Coordinates activity across national borders",
+          "Connects domestic markets with external markets",
+          "Can establish or expand productive activity across borders",
+          "Requires attention to unequal bargaining power and opportunities"
+        ],
+        "answer": 3,
+        "explanation": "Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities.",
+        "difficulty": "Easy",
+        "topic": "Fairer globalisation · defining feature",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-E-Q30",
+        "question": "Fairer globalisation: which option correctly identifies the typical example or effect?",
+        "options": [
+          "Means disadvantaged producers need no opportunities or support",
+          "Requires ignoring all worker protections",
+          "Worker protection and support for vulnerable producers can improve outcomes",
+          "Automatically follows from trade growth alone"
+        ],
+        "answer": 2,
+        "explanation": "Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes.",
+        "difficulty": "Easy",
+        "topic": "Fairer globalisation · typical example or effect",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH09-M": {
+    "id": "SA-DPP-27-SOC-CH09-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch9",
+    "chapterNumber": 9,
+    "chapter": "Globalisation",
+    "level": "M",
+    "title": "Globalisation – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-09.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-18",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 118,
+      "to": 131
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q01",
+        "question": "Why might an MNC place production in a country with lower costs?",
+        "options": [
+          "To avoid every market",
+          "Because transport is always costless",
+          "To reduce costs and improve profitability",
+          "To ensure all goods become free"
+        ],
+        "answer": 2,
+        "explanation": "Wages, inputs, infrastructure and markets influence production decisions.",
+        "difficulty": "Medium",
+        "topic": "Why might an MNC place production in a country with lower costs?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q02",
+        "question": "What does liberalisation of trade usually involve?",
+        "options": [
+          "Making every price government-fixed",
+          "Reducing selected trade restrictions",
+          "Banning every import",
+          "Ending all domestic production"
+        ],
+        "answer": 1,
+        "explanation": "It generally eases barriers to international exchange.",
+        "difficulty": "Medium",
+        "topic": "What does liberalisation of trade usually involve?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q03",
+        "question": "How can better communication technology support global production?",
+        "options": [
+          "It helps coordinate activities in distant locations",
+          "It eliminates all need for workers",
+          "It makes shipping unnecessary for every product",
+          "It removes every legal difference"
+        ],
+        "answer": 0,
+        "explanation": "Rapid information exchange supports distributed supply chains.",
+        "difficulty": "Medium",
+        "topic": "How can better communication technology support global production?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q04",
+        "question": "Which pair correctly matches Globalisation with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "A firm operating in more than one country → Links production, trade, investment and communication",
+          "Growing cross-border economic and social integration → Coordinates activity across national borders",
+          "Exchange of goods or services across countries → Connects domestic markets with external markets",
+          "Growing cross-border economic and social integration → Links production, trade, investment and communication"
+        ],
+        "answer": 3,
+        "explanation": "Globalisation — global-economy concept: Growing cross-border economic and social integration. Globalisation — defining feature: Links production, trade, investment and communication. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Globalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q05",
+        "question": "Which pair correctly matches Globalisation with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Links production, trade, investment and communication → Always gives identical benefits to every producer",
+          "Can establish or expand productive activity across borders → Means every country stops trading",
+          "Links production, trade, investment and communication → A product may involve inputs and work from several countries",
+          "Connects domestic markets with external markets → A product may involve inputs and work from several countries"
+        ],
+        "answer": 2,
+        "explanation": "Globalisation — defining feature: Links production, trade, investment and communication. Globalisation — typical example or effect: A product may involve inputs and work from several countries. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Globalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q06",
+        "question": "Which pair correctly matches Globalisation with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Always gives identical benefits to every producer → Exchange of goods or services across countries",
+          "A product may involve inputs and work from several countries → Growing cross-border economic and social integration",
+          "Eliminates all national economic differences → Growing cross-border economic and social integration",
+          "A product may involve inputs and work from several countries → A firm operating in more than one country"
+        ],
+        "answer": 1,
+        "explanation": "Globalisation — typical example or effect: A product may involve inputs and work from several countries. Globalisation — global-economy concept: Growing cross-border economic and social integration. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Globalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q07",
+        "question": "Which pair correctly matches Multinational corporation with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "A firm operating in more than one country → Coordinates activity across national borders",
+          "Exchange of goods or services across countries → Coordinates activity across national borders",
+          "A firm operating in more than one country → Connects domestic markets with external markets",
+          "Investment by a source based abroad → Can establish or expand productive activity across borders"
+        ],
+        "answer": 0,
+        "explanation": "Multinational corporation — global-economy concept: A firm operating in more than one country. Multinational corporation — defining feature: Coordinates activity across national borders. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multinational corporation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q08",
+        "question": "Which pair correctly matches Multinational corporation with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Can establish or expand productive activity across borders → Can locate production where costs and market access suit its strategy",
+          "Coordinates activity across national borders → Cannot invest outside its home country",
+          "Can raise the domestic price of imported goods → Automatically provides identical wages worldwide",
+          "Coordinates activity across national borders → Can locate production where costs and market access suit its strategy"
+        ],
+        "answer": 3,
+        "explanation": "Multinational corporation — defining feature: Coordinates activity across national borders. Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multinational corporation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q09",
+        "question": "Which pair correctly matches Multinational corporation with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Can locate production where costs and market access suit its strategy → Exchange of goods or services across countries",
+          "Cannot invest outside its home country → Investment by a source based abroad",
+          "Can locate production where costs and market access suit its strategy → A firm operating in more than one country",
+          "Must operate only within one village → A firm operating in more than one country"
+        ],
+        "answer": 2,
+        "explanation": "Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy. Multinational corporation — global-economy concept: A firm operating in more than one country. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multinational corporation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q10",
+        "question": "Which pair correctly matches Foreign trade with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "A tax on imports → Can raise the domestic price of imported goods",
+          "Exchange of goods or services across countries → Connects domestic markets with external markets",
+          "Investment by a source based abroad → Connects domestic markets with external markets",
+          "Exchange of goods or services across countries → Can establish or expand productive activity across borders"
+        ],
+        "answer": 1,
+        "explanation": "Foreign trade — global-economy concept: Exchange of goods or services across countries. Foreign trade — defining feature: Connects domestic markets with external markets. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign trade",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q11",
+        "question": "Which pair correctly matches Foreign trade with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Connects domestic markets with external markets → Imports can expand consumers' available choices",
+          "Can raise the domestic price of imported goods → Imports can expand consumers' available choices",
+          "Connects domestic markets with external markets → Guarantees every domestic firm survives competition",
+          "Eases some barriers to cross-border exchange → Can never change consumer choice"
+        ],
+        "answer": 0,
+        "explanation": "Foreign trade — defining feature: Connects domestic markets with external markets. Foreign trade — typical example or effect: Imports can expand consumers' available choices. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign trade",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q12",
+        "question": "Which pair correctly matches Foreign trade with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Means goods never cross borders → Exchange of goods or services across countries",
+          "Imports can expand consumers' available choices → Investment by a source based abroad",
+          "Guarantees every domestic firm survives competition → A tax on imports",
+          "Imports can expand consumers' available choices → Exchange of goods or services across countries"
+        ],
+        "answer": 3,
+        "explanation": "Foreign trade — typical example or effect: Imports can expand consumers' available choices. Foreign trade — global-economy concept: Exchange of goods or services across countries. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign trade",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q13",
+        "question": "Which pair correctly matches Foreign investment with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "Investment by a source based abroad → Can raise the domestic price of imported goods",
+          "Reduction of selected restrictions on trade → Eases some barriers to cross-border exchange",
+          "Investment by a source based abroad → Can establish or expand productive activity across borders",
+          "A tax on imports → Can establish or expand productive activity across borders"
+        ],
+        "answer": 2,
+        "explanation": "Foreign investment — global-economy concept: Investment by a source based abroad. Foreign investment — defining feature: Can establish or expand productive activity across borders. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign investment",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q14",
+        "question": "Which pair correctly matches Foreign investment with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Tasks may be performed outside the contracting firm's own organisation → Cannot finance any production activity",
+          "Can establish or expand productive activity across borders → An overseas firm may finance a local production facility",
+          "Eases some barriers to cross-border exchange → An overseas firm may finance a local production facility",
+          "Can establish or expand productive activity across borders → Always means a tax on imports"
+        ],
+        "answer": 1,
+        "explanation": "Foreign investment — defining feature: Can establish or expand productive activity across borders. Foreign investment — typical example or effect: An overseas firm may finance a local production facility. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign investment",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q15",
+        "question": "Which pair correctly matches Foreign investment with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "An overseas firm may finance a local production facility → Investment by a source based abroad",
+          "Automatically transfers ownership to every local worker → Investment by a source based abroad",
+          "An overseas firm may finance a local production facility → A tax on imports",
+          "Always means a tax on imports → Reduction of selected restrictions on trade"
+        ],
+        "answer": 0,
+        "explanation": "Foreign investment — typical example or effect: An overseas firm may finance a local production facility. Foreign investment — global-economy concept: Investment by a source based abroad. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Foreign investment",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q16",
+        "question": "Which pair correctly matches Tariff with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "Reduction of selected restrictions on trade → Can raise the domestic price of imported goods",
+          "A tax on imports → Eases some barriers to cross-border exchange",
+          "Contracting some activities to another provider → Tasks may be performed outside the contracting firm's own organisation",
+          "A tax on imports → Can raise the domestic price of imported goods"
+        ],
+        "answer": 3,
+        "explanation": "Tariff — global-economy concept: A tax on imports. Tariff — defining feature: Can raise the domestic price of imported goods. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tariff",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q17",
+        "question": "Which pair correctly matches Tariff with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Can raise the domestic price of imported goods → Must reduce the import price by definition",
+          "Allows rapid coordination and communication → Is identical to a wage payment",
+          "Can raise the domestic price of imported goods → A government may use it as a trade-policy instrument",
+          "Tasks may be performed outside the contracting firm's own organisation → A government may use it as a trade-policy instrument"
+        ],
+        "answer": 2,
+        "explanation": "Tariff — defining feature: Can raise the domestic price of imported goods. Tariff — typical example or effect: A government may use it as a trade-policy instrument. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tariff",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q18",
+        "question": "Which pair correctly matches Tariff with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Must reduce the import price by definition → Contracting some activities to another provider",
+          "A government may use it as a trade-policy instrument → A tax on imports",
+          "Is money sent home by migrants → A tax on imports",
+          "A government may use it as a trade-policy instrument → Reduction of selected restrictions on trade"
+        ],
+        "answer": 1,
+        "explanation": "Tariff — typical example or effect: A government may use it as a trade-policy instrument. Tariff — global-economy concept: A tax on imports. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tariff",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q19",
+        "question": "Which pair correctly matches Trade liberalisation with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "Reduction of selected restrictions on trade → Eases some barriers to cross-border exchange",
+          "Contracting some activities to another provider → Eases some barriers to cross-border exchange",
+          "Reduction of selected restrictions on trade → Tasks may be performed outside the contracting firm's own organisation",
+          "Digital tools supporting information exchange → Allows rapid coordination and communication"
+        ],
+        "answer": 0,
+        "explanation": "Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade. Trade liberalisation — defining feature: Eases some barriers to cross-border exchange. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trade liberalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q20",
+        "question": "Which pair correctly matches Trade liberalisation with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Allows rapid coordination and communication → Can intensify competition faced by domestic producers",
+          "Eases some barriers to cross-border exchange → Eliminates every market competition",
+          "Requires attention to unequal bargaining power and opportunities → Means banning all imports",
+          "Eases some barriers to cross-border exchange → Can intensify competition faced by domestic producers"
+        ],
+        "answer": 3,
+        "explanation": "Trade liberalisation — defining feature: Eases some barriers to cross-border exchange. Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trade liberalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q21",
+        "question": "Which pair correctly matches Trade liberalisation with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Can intensify competition faced by domestic producers → Contracting some activities to another provider",
+          "Eliminates every market competition → Digital tools supporting information exchange",
+          "Can intensify competition faced by domestic producers → Reduction of selected restrictions on trade",
+          "Guarantees no producer faces adjustment costs → Reduction of selected restrictions on trade"
+        ],
+        "answer": 2,
+        "explanation": "Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers. Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trade liberalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q22",
+        "question": "Which pair correctly matches Outsourcing with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "A goal concerning distribution and participation → Requires attention to unequal bargaining power and opportunities",
+          "Contracting some activities to another provider → Tasks may be performed outside the contracting firm's own organisation",
+          "Digital tools supporting information exchange → Tasks may be performed outside the contracting firm's own organisation",
+          "Contracting some activities to another provider → Allows rapid coordination and communication"
+        ],
+        "answer": 1,
+        "explanation": "Outsourcing — global-economy concept: Contracting some activities to another provider. Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Outsourcing",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q23",
+        "question": "Which pair correctly matches Outsourcing with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Tasks may be performed outside the contracting firm's own organisation → Service work may be supplied from a distant location",
+          "Requires attention to unequal bargaining power and opportunities → Service work may be supplied from a distant location",
+          "Tasks may be performed outside the contracting firm's own organisation → Means every contracted task is performed by the same firm's own employees",
+          "Links production, trade, investment and communication → Can never involve services"
+        ],
+        "answer": 0,
+        "explanation": "Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation. Outsourcing — typical example or effect: Service work may be supplied from a distant location. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Outsourcing",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q24",
+        "question": "Which pair correctly matches Outsourcing with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Necessarily removes all need for communication → Contracting some activities to another provider",
+          "Service work may be supplied from a distant location → Digital tools supporting information exchange",
+          "Means every contracted task is performed by the same firm's own employees → A goal concerning distribution and participation",
+          "Service work may be supplied from a distant location → Contracting some activities to another provider"
+        ],
+        "answer": 3,
+        "explanation": "Outsourcing — typical example or effect: Service work may be supplied from a distant location. Outsourcing — global-economy concept: Contracting some activities to another provider. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Outsourcing",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q25",
+        "question": "Which pair correctly matches Information technology with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "Digital tools supporting information exchange → Requires attention to unequal bargaining power and opportunities",
+          "Growing cross-border economic and social integration → Links production, trade, investment and communication",
+          "Digital tools supporting information exchange → Allows rapid coordination and communication",
+          "A goal concerning distribution and participation → Allows rapid coordination and communication"
+        ],
+        "answer": 2,
+        "explanation": "Information technology — global-economy concept: Digital tools supporting information exchange. Information technology — defining feature: Allows rapid coordination and communication. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Information technology",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q26",
+        "question": "Which pair correctly matches Information technology with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Coordinates activity across national borders → Works only within one room",
+          "Allows rapid coordination and communication → Helps firms manage dispersed production networks",
+          "Links production, trade, investment and communication → Helps firms manage dispersed production networks",
+          "Allows rapid coordination and communication → Ends all differences in labour laws"
+        ],
+        "answer": 1,
+        "explanation": "Information technology — defining feature: Allows rapid coordination and communication. Information technology — typical example or effect: Helps firms manage dispersed production networks. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Information technology",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q27",
+        "question": "Which pair correctly matches Information technology with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Helps firms manage dispersed production networks → Digital tools supporting information exchange",
+          "Makes physical transport unnecessary for every product → Digital tools supporting information exchange",
+          "Helps firms manage dispersed production networks → A goal concerning distribution and participation",
+          "Ends all differences in labour laws → Growing cross-border economic and social integration"
+        ],
+        "answer": 0,
+        "explanation": "Information technology — typical example or effect: Helps firms manage dispersed production networks. Information technology — global-economy concept: Digital tools supporting information exchange. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Information technology",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q28",
+        "question": "Which pair correctly matches Fairer globalisation with its global-economy concept and defining feature, in that order?",
+        "options": [
+          "Growing cross-border economic and social integration → Requires attention to unequal bargaining power and opportunities",
+          "A goal concerning distribution and participation → Links production, trade, investment and communication",
+          "A firm operating in more than one country → Coordinates activity across national borders",
+          "A goal concerning distribution and participation → Requires attention to unequal bargaining power and opportunities"
+        ],
+        "answer": 3,
+        "explanation": "Fairer globalisation — global-economy concept: A goal concerning distribution and participation. Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fairer globalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q29",
+        "question": "Which pair correctly matches Fairer globalisation with its defining feature and typical example or effect, in that order?",
+        "options": [
+          "Requires attention to unequal bargaining power and opportunities → Means disadvantaged producers need no opportunities or support",
+          "Connects domestic markets with external markets → Requires ignoring all worker protections",
+          "Requires attention to unequal bargaining power and opportunities → Worker protection and support for vulnerable producers can improve outcomes",
+          "Coordinates activity across national borders → Worker protection and support for vulnerable producers can improve outcomes"
+        ],
+        "answer": 2,
+        "explanation": "Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities. Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fairer globalisation",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-M-Q30",
+        "question": "Which pair correctly matches Fairer globalisation with its typical example or effect and global-economy concept, in that order?",
+        "options": [
+          "Means disadvantaged producers need no opportunities or support → A firm operating in more than one country",
+          "Worker protection and support for vulnerable producers can improve outcomes → A goal concerning distribution and participation",
+          "Automatically follows from trade growth alone → A goal concerning distribution and participation",
+          "Worker protection and support for vulnerable producers can improve outcomes → Growing cross-border economic and social integration"
+        ],
+        "answer": 1,
+        "explanation": "Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes. Fairer globalisation — global-economy concept: A goal concerning distribution and participation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fairer globalisation",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH09-H": {
+    "id": "SA-DPP-27-SOC-CH09-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch9",
+    "chapterNumber": 9,
+    "chapter": "Globalisation",
+    "level": "H",
+    "title": "Globalisation – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-09.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-19",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 118,
+      "to": 131
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q01",
+        "question": "Why can globalisation benefit consumers but pressure some small producers?",
+        "options": [
+          "Competition guarantees every firm survives",
+          "More choice and competition may coexist with unequal ability to compete",
+          "Every producer has identical resources",
+          "All imports are necessarily harmful"
+        ],
+        "answer": 1,
+        "explanation": "Benefits and adjustment costs vary across groups.",
+        "difficulty": "Hard",
+        "topic": "Why can globalisation benefit consumers but pressure some small producers?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q02",
+        "question": "Why do global supply chains not guarantee good working conditions?",
+        "options": [
+          "Cost pressures and weak protections can leave workers vulnerable",
+          "International trade automatically enforces every labour right",
+          "All workers own the firms",
+          "Competition removes all job insecurity"
+        ],
+        "answer": 0,
+        "explanation": "Labour laws, enforcement and bargaining power still matter.",
+        "difficulty": "Hard",
+        "topic": "Why do global supply chains not guarantee good working conditions?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q03",
+        "question": "What would make globalisation more equitable?",
+        "options": [
+          "Removing every worker protection",
+          "Ignoring displacement and unequal bargaining",
+          "Restricting education to large-company owners",
+          "Policies protecting workers and helping disadvantaged producers participate"
+        ],
+        "answer": 3,
+        "explanation": "Fairer outcomes need institutions and opportunities, not integration alone.",
+        "difficulty": "Hard",
+        "topic": "What would make globalisation more equitable?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Globalisation — global-economy concept: A firm operating in more than one country\nII. Tariff — defining feature: Coordinates activity across national borders\nIII. Information technology — typical example or effect: Works only within one room",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Globalisation — global-economy concept: Growing cross-border economic and social integration; Tariff — defining feature: Can raise the domestic price of imported goods; Information technology — typical example or effect: Helps firms manage dispersed production networks.",
+        "difficulty": "Hard",
+        "topic": "Globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Globalisation — defining feature: Links production, trade, investment and communication\nII. Tariff — typical example or effect: Is identical to a wage payment\nIII. Information technology — global-economy concept: Investment by a source based abroad",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Globalisation — defining feature: Links production, trade, investment and communication; Tariff — typical example or effect: A government may use it as a trade-policy instrument; Information technology — global-economy concept: Digital tools supporting information exchange.",
+        "difficulty": "Hard",
+        "topic": "Globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Globalisation — typical example or effect: Eliminates all national economic differences\nII. Tariff — global-economy concept: A tax on imports\nIII. Information technology — defining feature: Can raise the domestic price of imported goods",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Globalisation — typical example or effect: A product may involve inputs and work from several countries; Tariff — global-economy concept: A tax on imports; Information technology — defining feature: Allows rapid coordination and communication.",
+        "difficulty": "Hard",
+        "topic": "Globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multinational corporation — global-economy concept: A firm operating in more than one country\nII. Trade liberalisation — defining feature: Eases some barriers to cross-border exchange\nIII. Fairer globalisation — typical example or effect: Means disadvantaged producers need no opportunities or support",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Multinational corporation — global-economy concept: A firm operating in more than one country; Trade liberalisation — defining feature: Eases some barriers to cross-border exchange; Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes.",
+        "difficulty": "Hard",
+        "topic": "Multinational corporation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multinational corporation — defining feature: Eases some barriers to cross-border exchange\nII. Trade liberalisation — typical example or effect: Eliminates every market competition\nIII. Fairer globalisation — global-economy concept: A goal concerning distribution and participation",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Multinational corporation — defining feature: Coordinates activity across national borders; Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers; Fairer globalisation — global-economy concept: A goal concerning distribution and participation.",
+        "difficulty": "Hard",
+        "topic": "Multinational corporation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy\nII. Trade liberalisation — global-economy concept: Digital tools supporting information exchange\nIII. Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy; Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade; Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities.",
+        "difficulty": "Hard",
+        "topic": "Multinational corporation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign trade — global-economy concept: Digital tools supporting information exchange\nII. Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation\nIII. Globalisation — typical example or effect: A product may involve inputs and work from several countries",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Foreign trade — global-economy concept: Exchange of goods or services across countries; Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation; Globalisation — typical example or effect: A product may involve inputs and work from several countries.",
+        "difficulty": "Hard",
+        "topic": "Foreign trade · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign trade — defining feature: Connects domestic markets with external markets\nII. Outsourcing — typical example or effect: Service work may be supplied from a distant location\nIII. Globalisation — global-economy concept: Growing cross-border economic and social integration",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Foreign trade — defining feature: Connects domestic markets with external markets; Outsourcing — typical example or effect: Service work may be supplied from a distant location; Globalisation — global-economy concept: Growing cross-border economic and social integration.",
+        "difficulty": "Hard",
+        "topic": "Foreign trade · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign trade — typical example or effect: Guarantees every domestic firm survives competition\nII. Outsourcing — global-economy concept: A firm operating in more than one country\nIII. Globalisation — defining feature: Can establish or expand productive activity across borders",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Foreign trade — typical example or effect: Imports can expand consumers' available choices; Outsourcing — global-economy concept: Contracting some activities to another provider; Globalisation — defining feature: Links production, trade, investment and communication.",
+        "difficulty": "Hard",
+        "topic": "Foreign trade · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign investment — global-economy concept: Investment by a source based abroad\nII. Information technology — defining feature: Connects domestic markets with external markets\nIII. Multinational corporation — typical example or effect: Automatically provides identical wages worldwide",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Foreign investment — global-economy concept: Investment by a source based abroad; Information technology — defining feature: Allows rapid coordination and communication; Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy.",
+        "difficulty": "Hard",
+        "topic": "Foreign investment · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign investment — defining feature: Connects domestic markets with external markets\nII. Information technology — typical example or effect: Helps firms manage dispersed production networks\nIII. Multinational corporation — global-economy concept: Reduction of selected restrictions on trade",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Foreign investment — defining feature: Can establish or expand productive activity across borders; Information technology — typical example or effect: Helps firms manage dispersed production networks; Multinational corporation — global-economy concept: A firm operating in more than one country.",
+        "difficulty": "Hard",
+        "topic": "Foreign investment · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Foreign investment — typical example or effect: An overseas firm may finance a local production facility\nII. Information technology — global-economy concept: Digital tools supporting information exchange\nIII. Multinational corporation — defining feature: Tasks may be performed outside the contracting firm's own organisation",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Foreign investment — typical example or effect: An overseas firm may finance a local production facility; Information technology — global-economy concept: Digital tools supporting information exchange; Multinational corporation — defining feature: Coordinates activity across national borders.",
+        "difficulty": "Hard",
+        "topic": "Foreign investment · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tariff — global-economy concept: Reduction of selected restrictions on trade\nII. Fairer globalisation — defining feature: Eases some barriers to cross-border exchange\nIII. Foreign trade — typical example or effect: Imports can expand consumers' available choices",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Tariff — global-economy concept: A tax on imports; Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities; Foreign trade — typical example or effect: Imports can expand consumers' available choices.",
+        "difficulty": "Hard",
+        "topic": "Tariff · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tariff — defining feature: Can raise the domestic price of imported goods\nII. Fairer globalisation — typical example or effect: Means disadvantaged producers need no opportunities or support\nIII. Foreign trade — global-economy concept: Exchange of goods or services across countries",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Tariff — defining feature: Can raise the domestic price of imported goods; Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes; Foreign trade — global-economy concept: Exchange of goods or services across countries.",
+        "difficulty": "Hard",
+        "topic": "Tariff · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tariff — typical example or effect: Is identical to a wage payment\nII. Fairer globalisation — global-economy concept: A goal concerning distribution and participation\nIII. Foreign trade — defining feature: Connects domestic markets with external markets",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Tariff — typical example or effect: A government may use it as a trade-policy instrument; Fairer globalisation — global-economy concept: A goal concerning distribution and participation; Foreign trade — defining feature: Connects domestic markets with external markets.",
+        "difficulty": "Hard",
+        "topic": "Tariff · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade\nII. Globalisation — defining feature: Links production, trade, investment and communication\nIII. Foreign investment — typical example or effect: An overseas firm may finance a local production facility",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade; Globalisation — defining feature: Links production, trade, investment and communication; Foreign investment — typical example or effect: An overseas firm may finance a local production facility.",
+        "difficulty": "Hard",
+        "topic": "Trade liberalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trade liberalisation — defining feature: Links production, trade, investment and communication\nII. Globalisation — typical example or effect: Eliminates all national economic differences\nIII. Foreign investment — global-economy concept: Exchange of goods or services across countries",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Trade liberalisation — defining feature: Eases some barriers to cross-border exchange; Globalisation — typical example or effect: A product may involve inputs and work from several countries; Foreign investment — global-economy concept: Investment by a source based abroad.",
+        "difficulty": "Hard",
+        "topic": "Trade liberalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers\nII. Globalisation — global-economy concept: Investment by a source based abroad\nIII. Foreign investment — defining feature: Can raise the domestic price of imported goods",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers; Globalisation — global-economy concept: Growing cross-border economic and social integration; Foreign investment — defining feature: Can establish or expand productive activity across borders.",
+        "difficulty": "Hard",
+        "topic": "Trade liberalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Outsourcing — global-economy concept: Exchange of goods or services across countries\nII. Multinational corporation — defining feature: Coordinates activity across national borders\nIII. Tariff — typical example or effect: Is identical to a wage payment",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Outsourcing — global-economy concept: Contracting some activities to another provider; Multinational corporation — defining feature: Coordinates activity across national borders; Tariff — typical example or effect: A government may use it as a trade-policy instrument.",
+        "difficulty": "Hard",
+        "topic": "Outsourcing · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation\nII. Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy\nIII. Tariff — global-economy concept: Contracting some activities to another provider",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation; Multinational corporation — typical example or effect: Can locate production where costs and market access suit its strategy; Tariff — global-economy concept: A tax on imports.",
+        "difficulty": "Hard",
+        "topic": "Outsourcing · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Outsourcing — typical example or effect: Necessarily removes all need for communication\nII. Multinational corporation — global-economy concept: Contracting some activities to another provider\nIII. Tariff — defining feature: Can raise the domestic price of imported goods",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Outsourcing — typical example or effect: Service work may be supplied from a distant location; Multinational corporation — global-economy concept: A firm operating in more than one country; Tariff — defining feature: Can raise the domestic price of imported goods.",
+        "difficulty": "Hard",
+        "topic": "Outsourcing · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Information technology — global-economy concept: Digital tools supporting information exchange\nII. Foreign trade — defining feature: Allows rapid coordination and communication\nIII. Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Information technology — global-economy concept: Digital tools supporting information exchange; Foreign trade — defining feature: Connects domestic markets with external markets; Trade liberalisation — typical example or effect: Can intensify competition faced by domestic producers.",
+        "difficulty": "Hard",
+        "topic": "Information technology · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Information technology — defining feature: Tasks may be performed outside the contracting firm's own organisation\nII. Foreign trade — typical example or effect: Imports can expand consumers' available choices\nIII. Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Information technology — defining feature: Allows rapid coordination and communication; Foreign trade — typical example or effect: Imports can expand consumers' available choices; Trade liberalisation — global-economy concept: Reduction of selected restrictions on trade.",
+        "difficulty": "Hard",
+        "topic": "Information technology · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Information technology — typical example or effect: Helps firms manage dispersed production networks\nII. Foreign trade — global-economy concept: Exchange of goods or services across countries\nIII. Trade liberalisation — defining feature: Eases some barriers to cross-border exchange",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Information technology — typical example or effect: Helps firms manage dispersed production networks; Foreign trade — global-economy concept: Exchange of goods or services across countries; Trade liberalisation — defining feature: Eases some barriers to cross-border exchange.",
+        "difficulty": "Hard",
+        "topic": "Information technology · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fairer globalisation — global-economy concept: Growing cross-border economic and social integration\nII. Foreign investment — defining feature: Coordinates activity across national borders\nIII. Outsourcing — typical example or effect: Necessarily removes all need for communication",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Fairer globalisation — global-economy concept: A goal concerning distribution and participation; Foreign investment — defining feature: Can establish or expand productive activity across borders; Outsourcing — typical example or effect: Service work may be supplied from a distant location.",
+        "difficulty": "Hard",
+        "topic": "Fairer globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities\nII. Foreign investment — typical example or effect: Automatically transfers ownership to every local worker\nIII. Outsourcing — global-economy concept: Investment by a source based abroad",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Fairer globalisation — defining feature: Requires attention to unequal bargaining power and opportunities; Foreign investment — typical example or effect: An overseas firm may finance a local production facility; Outsourcing — global-economy concept: Contracting some activities to another provider.",
+        "difficulty": "Hard",
+        "topic": "Fairer globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH09-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fairer globalisation — typical example or effect: Means disadvantaged producers need no opportunities or support\nII. Foreign investment — global-economy concept: Investment by a source based abroad\nIII. Outsourcing — defining feature: Can raise the domestic price of imported goods",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Fairer globalisation — typical example or effect: Worker protection and support for vulnerable producers can improve outcomes; Foreign investment — global-economy concept: Investment by a source based abroad; Outsourcing — defining feature: Tasks may be performed outside the contracting firm's own organisation.",
+        "difficulty": "Hard",
+        "topic": "Fairer globalisation · comparing chapter concepts",
+        "sourceChapter": 9
+      }
+    ]
+  }
+}

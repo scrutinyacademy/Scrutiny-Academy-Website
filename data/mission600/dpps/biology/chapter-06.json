@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH06-E": {
+    "id": "SA-DPP-27-BIO-CH06-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "E",
+    "title": "Reproduction – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q01",
+        "question": "Which process produces two daughter cells in Amoeba reproduction?",
+        "options": [
+          "Fragmentation only",
+          "Pollination",
+          "Binary fission",
+          "Budding only"
+        ],
+        "answer": 2,
+        "explanation": "Amoeba reproduces by division of one cell into two.",
+        "difficulty": "Easy",
+        "topic": "Which process produces two daughter cells in Amoeba reproduction?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q02",
+        "question": "Where are human sperm produced?",
+        "options": [
+          "Urinary bladder",
+          "Testes",
+          "Ovaries",
+          "Uterus"
+        ],
+        "answer": 1,
+        "explanation": "The seminiferous tubules of testes produce sperm.",
+        "difficulty": "Easy",
+        "topic": "Where are human sperm produced?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q03",
+        "question": "Transfer of pollen from anther to stigma is called what?",
+        "options": [
+          "Pollination",
+          "Fertilisation",
+          "Germination",
+          "Implantation"
+        ],
+        "answer": 0,
+        "explanation": "Pollination precedes fertilisation in flowering plants.",
+        "difficulty": "Easy",
+        "topic": "Transfer of pollen from anther to stigma is called what?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q04",
+        "question": "Binary fission in Amoeba: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Asexual outgrowth from the parent body",
+          "Asexual production of dispersal cells",
+          "Asexual growth from a stem tuber",
+          "Asexual division of a single parent cell"
+        ],
+        "answer": 3,
+        "explanation": "Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell.",
+        "difficulty": "Easy",
+        "topic": "Binary fission in Amoeba · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q05",
+        "question": "Binary fission in Amoeba: which option correctly identifies the main participant or site?",
+        "options": [
+          "Eyes or buds on the potato tuber",
+          "From anther to stigma",
+          "Amoeba",
+          "Sporangia of bread mould"
+        ],
+        "answer": 2,
+        "explanation": "Binary fission in Amoeba — main participant or site: Amoeba.",
+        "difficulty": "Easy",
+        "topic": "Binary fission in Amoeba · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q06",
+        "question": "Binary fission in Amoeba: which option correctly identifies the immediate result or role?",
+        "options": [
+          "A zygote is formed",
+          "Produces two daughter individuals",
+          "A bud develops into a new plant",
+          "Positions pollen where fertilisation can later be enabled"
+        ],
+        "answer": 1,
+        "explanation": "Binary fission in Amoeba — immediate result or role: Produces two daughter individuals.",
+        "difficulty": "Easy",
+        "topic": "Binary fission in Amoeba · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q07",
+        "question": "Budding in Hydra: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Asexual outgrowth from the parent body",
+          "Asexual production of dispersal cells",
+          "Asexual growth from a stem tuber",
+          "Transfer of pollen"
+        ],
+        "answer": 0,
+        "explanation": "Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body.",
+        "difficulty": "Easy",
+        "topic": "Budding in Hydra · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q08",
+        "question": "Budding in Hydra: which option correctly identifies the main participant or site?",
+        "options": [
+          "Eyes or buds on the potato tuber",
+          "From anther to stigma",
+          "Ovule inside the ovary",
+          "Hydra"
+        ],
+        "answer": 3,
+        "explanation": "Budding in Hydra — main participant or site: Hydra.",
+        "difficulty": "Easy",
+        "topic": "Budding in Hydra · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q09",
+        "question": "Budding in Hydra: which option correctly identifies the immediate result or role?",
+        "options": [
+          "A zygote is formed",
+          "Produces sperm cells",
+          "A bud grows and can detach as a new individual",
+          "Positions pollen where fertilisation can later be enabled"
+        ],
+        "answer": 2,
+        "explanation": "Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual.",
+        "difficulty": "Easy",
+        "topic": "Budding in Hydra · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q10",
+        "question": "Spore formation in Rhizopus: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Fusion involving male and female gametes",
+          "Asexual production of dispersal cells",
+          "Asexual growth from a stem tuber",
+          "Transfer of pollen"
+        ],
+        "answer": 1,
+        "explanation": "Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells.",
+        "difficulty": "Easy",
+        "topic": "Spore formation in Rhizopus · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q11",
+        "question": "Spore formation in Rhizopus: which option correctly identifies the main participant or site?",
+        "options": [
+          "Sporangia of bread mould",
+          "From anther to stigma",
+          "Ovule inside the ovary",
+          "Seminiferous tubules of the testes"
+        ],
+        "answer": 0,
+        "explanation": "Spore formation in Rhizopus — main participant or site: Sporangia of bread mould.",
+        "difficulty": "Easy",
+        "topic": "Spore formation in Rhizopus · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q12",
+        "question": "Spore formation in Rhizopus: which option correctly identifies the immediate result or role?",
+        "options": [
+          "A zygote is formed",
+          "Produces sperm cells",
+          "Produces a diploid zygote",
+          "Spores can germinate under favourable conditions"
+        ],
+        "answer": 3,
+        "explanation": "Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions.",
+        "difficulty": "Easy",
+        "topic": "Spore formation in Rhizopus · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q13",
+        "question": "Vegetative propagation by a potato: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Fusion involving male and female gametes",
+          "Formation of male gametes",
+          "Asexual growth from a stem tuber",
+          "Transfer of pollen"
+        ],
+        "answer": 2,
+        "explanation": "Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber.",
+        "difficulty": "Easy",
+        "topic": "Vegetative propagation by a potato · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q14",
+        "question": "Vegetative propagation by a potato: which option correctly identifies the main participant or site?",
+        "options": [
+          "Usually in the oviduct",
+          "Eyes or buds on the potato tuber",
+          "Ovule inside the ovary",
+          "Seminiferous tubules of the testes"
+        ],
+        "answer": 1,
+        "explanation": "Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber.",
+        "difficulty": "Easy",
+        "topic": "Vegetative propagation by a potato · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q15",
+        "question": "Vegetative propagation by a potato: which option correctly identifies the immediate result or role?",
+        "options": [
+          "A bud develops into a new plant",
+          "Produces sperm cells",
+          "Produces a diploid zygote",
+          "Establishes the developing embryo in the uterus"
+        ],
+        "answer": 0,
+        "explanation": "Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant.",
+        "difficulty": "Easy",
+        "topic": "Vegetative propagation by a potato · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q16",
+        "question": "Pollination: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Fusion involving male and female gametes",
+          "Formation of male gametes",
+          "Fusion of sperm and egg",
+          "Transfer of pollen"
+        ],
+        "answer": 3,
+        "explanation": "Pollination — process or structure identity: Transfer of pollen.",
+        "difficulty": "Easy",
+        "topic": "Pollination · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q17",
+        "question": "Pollination: which option correctly identifies the main participant or site?",
+        "options": [
+          "Usually in the oviduct",
+          "Uterine lining",
+          "From anther to stigma",
+          "Seminiferous tubules of the testes"
+        ],
+        "answer": 2,
+        "explanation": "Pollination — main participant or site: From anther to stigma.",
+        "difficulty": "Easy",
+        "topic": "Pollination · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q18",
+        "question": "Pollination: which option correctly identifies the immediate result or role?",
+        "options": [
+          "Produces two daughter individuals",
+          "Positions pollen where fertilisation can later be enabled",
+          "Produces a diploid zygote",
+          "Establishes the developing embryo in the uterus"
+        ],
+        "answer": 1,
+        "explanation": "Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled.",
+        "difficulty": "Easy",
+        "topic": "Pollination · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q19",
+        "question": "Fertilisation in flowering plants: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Fusion involving male and female gametes",
+          "Formation of male gametes",
+          "Fusion of sperm and egg",
+          "Embedding of an early embryo"
+        ],
+        "answer": 0,
+        "explanation": "Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes.",
+        "difficulty": "Easy",
+        "topic": "Fertilisation in flowering plants · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q20",
+        "question": "Fertilisation in flowering plants: which option correctly identifies the main participant or site?",
+        "options": [
+          "Usually in the oviduct",
+          "Uterine lining",
+          "Amoeba",
+          "Ovule inside the ovary"
+        ],
+        "answer": 3,
+        "explanation": "Fertilisation in flowering plants — main participant or site: Ovule inside the ovary.",
+        "difficulty": "Easy",
+        "topic": "Fertilisation in flowering plants · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q21",
+        "question": "Fertilisation in flowering plants: which option correctly identifies the immediate result or role?",
+        "options": [
+          "A bud grows and can detach as a new individual",
+          "Spores can germinate under favourable conditions",
+          "A zygote is formed",
+          "Produces two daughter individuals"
+        ],
+        "answer": 2,
+        "explanation": "Fertilisation in flowering plants — immediate result or role: A zygote is formed.",
+        "difficulty": "Easy",
+        "topic": "Fertilisation in flowering plants · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q22",
+        "question": "Human sperm production: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Asexual division of a single parent cell",
+          "Formation of male gametes",
+          "Fusion of sperm and egg",
+          "Embedding of an early embryo"
+        ],
+        "answer": 1,
+        "explanation": "Human sperm production — process or structure identity: Formation of male gametes.",
+        "difficulty": "Easy",
+        "topic": "Human sperm production · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q23",
+        "question": "Human sperm production: which option correctly identifies the main participant or site?",
+        "options": [
+          "Seminiferous tubules of the testes",
+          "Uterine lining",
+          "Amoeba",
+          "Hydra"
+        ],
+        "answer": 0,
+        "explanation": "Human sperm production — main participant or site: Seminiferous tubules of the testes.",
+        "difficulty": "Easy",
+        "topic": "Human sperm production · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q24",
+        "question": "Human sperm production: which option correctly identifies the immediate result or role?",
+        "options": [
+          "Produces two daughter individuals",
+          "A bud grows and can detach as a new individual",
+          "Spores can germinate under favourable conditions",
+          "Produces sperm cells"
+        ],
+        "answer": 3,
+        "explanation": "Human sperm production — immediate result or role: Produces sperm cells.",
+        "difficulty": "Easy",
+        "topic": "Human sperm production · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q25",
+        "question": "Human fertilisation: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Asexual division of a single parent cell",
+          "Asexual outgrowth from the parent body",
+          "Fusion of sperm and egg",
+          "Embedding of an early embryo"
+        ],
+        "answer": 2,
+        "explanation": "Human fertilisation — process or structure identity: Fusion of sperm and egg.",
+        "difficulty": "Easy",
+        "topic": "Human fertilisation · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q26",
+        "question": "Human fertilisation: which option correctly identifies the main participant or site?",
+        "options": [
+          "Sporangia of bread mould",
+          "Usually in the oviduct",
+          "Amoeba",
+          "Hydra"
+        ],
+        "answer": 1,
+        "explanation": "Human fertilisation — main participant or site: Usually in the oviduct.",
+        "difficulty": "Easy",
+        "topic": "Human fertilisation · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q27",
+        "question": "Human fertilisation: which option correctly identifies the immediate result or role?",
+        "options": [
+          "Produces a diploid zygote",
+          "Spores can germinate under favourable conditions",
+          "A bud develops into a new plant",
+          "Positions pollen where fertilisation can later be enabled"
+        ],
+        "answer": 0,
+        "explanation": "Human fertilisation — immediate result or role: Produces a diploid zygote.",
+        "difficulty": "Easy",
+        "topic": "Human fertilisation · immediate result or role",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q28",
+        "question": "Implantation: which option correctly identifies the process or structure identity?",
+        "options": [
+          "Asexual division of a single parent cell",
+          "Asexual outgrowth from the parent body",
+          "Asexual production of dispersal cells",
+          "Embedding of an early embryo"
+        ],
+        "answer": 3,
+        "explanation": "Implantation — process or structure identity: Embedding of an early embryo.",
+        "difficulty": "Easy",
+        "topic": "Implantation · process or structure identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q29",
+        "question": "Implantation: which option correctly identifies the main participant or site?",
+        "options": [
+          "Sporangia of bread mould",
+          "Eyes or buds on the potato tuber",
+          "Uterine lining",
+          "Hydra"
+        ],
+        "answer": 2,
+        "explanation": "Implantation — main participant or site: Uterine lining.",
+        "difficulty": "Easy",
+        "topic": "Implantation · main participant or site",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-E-Q30",
+        "question": "Implantation: which option correctly identifies the immediate result or role?",
+        "options": [
+          "Positions pollen where fertilisation can later be enabled",
+          "Establishes the developing embryo in the uterus",
+          "Spores can germinate under favourable conditions",
+          "A bud develops into a new plant"
+        ],
+        "answer": 1,
+        "explanation": "Implantation — immediate result or role: Establishes the developing embryo in the uterus.",
+        "difficulty": "Easy",
+        "topic": "Implantation · immediate result or role",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH06-M": {
+    "id": "SA-DPP-27-BIO-CH06-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "M",
+    "title": "Reproduction – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-07",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q01",
+        "question": "What forms after fusion of male and female gametes?",
+        "options": [
+          "Spore only",
+          "Zygote",
+          "Pollen grain",
+          "Placenta immediately"
+        ],
+        "answer": 1,
+        "explanation": "Fertilisation produces a diploid zygote.",
+        "difficulty": "Medium",
+        "topic": "What forms after fusion of male and female gametes?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q02",
+        "question": "What is an advantage of vegetative propagation for desirable crop varieties?",
+        "options": [
+          "It preserves useful parental characteristics",
+          "It always creates maximum genetic variation",
+          "It requires seed fertilisation every time",
+          "It prevents all plant diseases"
+        ],
+        "answer": 0,
+        "explanation": "Clonal propagation largely retains the parent plant's genotype.",
+        "difficulty": "Medium",
+        "topic": "What is an advantage of vegetative propagation for desirable crop varieties?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q03",
+        "question": "What is the placenta's main role?",
+        "options": [
+          "Direct mixing of all maternal and fetal blood",
+          "Production of sperm",
+          "Transporting air into fetal lungs",
+          "Exchange between maternal and fetal circulations"
+        ],
+        "answer": 3,
+        "explanation": "The placenta enables transfer of nutrients, gases and wastes without normal direct blood mixing.",
+        "difficulty": "Medium",
+        "topic": "What is the placenta's main role?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q04",
+        "question": "Which pair correctly matches Binary fission in Amoeba with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Asexual division of a single parent cell → Hydra",
+          "Asexual production of dispersal cells → Sporangia of bread mould",
+          "Asexual division of a single parent cell → Amoeba",
+          "Asexual outgrowth from the parent body → Amoeba"
+        ],
+        "answer": 2,
+        "explanation": "Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell. Binary fission in Amoeba — main participant or site: Amoeba. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Binary fission in Amoeba",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q05",
+        "question": "Which pair correctly matches Binary fission in Amoeba with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Eyes or buds on the potato tuber → Spores can germinate under favourable conditions",
+          "Amoeba → Produces two daughter individuals",
+          "Sporangia of bread mould → Produces two daughter individuals",
+          "Amoeba → A bud grows and can detach as a new individual"
+        ],
+        "answer": 1,
+        "explanation": "Binary fission in Amoeba — main participant or site: Amoeba. Binary fission in Amoeba — immediate result or role: Produces two daughter individuals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Binary fission in Amoeba",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q06",
+        "question": "Which pair correctly matches Binary fission in Amoeba with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Produces two daughter individuals → Asexual division of a single parent cell",
+          "A bud develops into a new plant → Asexual division of a single parent cell",
+          "Produces two daughter individuals → Asexual outgrowth from the parent body",
+          "Positions pollen where fertilisation can later be enabled → Asexual production of dispersal cells"
+        ],
+        "answer": 0,
+        "explanation": "Binary fission in Amoeba — immediate result or role: Produces two daughter individuals. Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Binary fission in Amoeba",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q07",
+        "question": "Which pair correctly matches Budding in Hydra with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Asexual production of dispersal cells → Hydra",
+          "Asexual outgrowth from the parent body → Sporangia of bread mould",
+          "Asexual growth from a stem tuber → Eyes or buds on the potato tuber",
+          "Asexual outgrowth from the parent body → Hydra"
+        ],
+        "answer": 3,
+        "explanation": "Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body. Budding in Hydra — main participant or site: Hydra. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Budding in Hydra",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q08",
+        "question": "Which pair correctly matches Budding in Hydra with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Hydra → Spores can germinate under favourable conditions",
+          "From anther to stigma → A bud develops into a new plant",
+          "Hydra → A bud grows and can detach as a new individual",
+          "Eyes or buds on the potato tuber → A bud grows and can detach as a new individual"
+        ],
+        "answer": 2,
+        "explanation": "Budding in Hydra — main participant or site: Hydra. Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Budding in Hydra",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q09",
+        "question": "Which pair correctly matches Budding in Hydra with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "A zygote is formed → Asexual growth from a stem tuber",
+          "A bud grows and can detach as a new individual → Asexual outgrowth from the parent body",
+          "Positions pollen where fertilisation can later be enabled → Asexual outgrowth from the parent body",
+          "A bud grows and can detach as a new individual → Asexual production of dispersal cells"
+        ],
+        "answer": 1,
+        "explanation": "Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual. Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Budding in Hydra",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q10",
+        "question": "Which pair correctly matches Spore formation in Rhizopus with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Asexual production of dispersal cells → Sporangia of bread mould",
+          "Asexual growth from a stem tuber → Sporangia of bread mould",
+          "Asexual production of dispersal cells → Eyes or buds on the potato tuber",
+          "Transfer of pollen → From anther to stigma"
+        ],
+        "answer": 0,
+        "explanation": "Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells. Spore formation in Rhizopus — main participant or site: Sporangia of bread mould. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Spore formation in Rhizopus",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q11",
+        "question": "Which pair correctly matches Spore formation in Rhizopus with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "From anther to stigma → Spores can germinate under favourable conditions",
+          "Sporangia of bread mould → A bud develops into a new plant",
+          "Ovule inside the ovary → Positions pollen where fertilisation can later be enabled",
+          "Sporangia of bread mould → Spores can germinate under favourable conditions"
+        ],
+        "answer": 3,
+        "explanation": "Spore formation in Rhizopus — main participant or site: Sporangia of bread mould. Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Spore formation in Rhizopus",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q12",
+        "question": "Which pair correctly matches Spore formation in Rhizopus with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Spores can germinate under favourable conditions → Asexual growth from a stem tuber",
+          "Produces sperm cells → Transfer of pollen",
+          "Spores can germinate under favourable conditions → Asexual production of dispersal cells",
+          "A zygote is formed → Asexual production of dispersal cells"
+        ],
+        "answer": 2,
+        "explanation": "Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions. Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Spore formation in Rhizopus",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q13",
+        "question": "Which pair correctly matches Vegetative propagation by a potato with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Fusion involving male and female gametes → Ovule inside the ovary",
+          "Asexual growth from a stem tuber → Eyes or buds on the potato tuber",
+          "Transfer of pollen → Eyes or buds on the potato tuber",
+          "Asexual growth from a stem tuber → From anther to stigma"
+        ],
+        "answer": 1,
+        "explanation": "Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber. Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vegetative propagation by a potato",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q14",
+        "question": "Which pair correctly matches Vegetative propagation by a potato with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Eyes or buds on the potato tuber → A bud develops into a new plant",
+          "Ovule inside the ovary → A bud develops into a new plant",
+          "Eyes or buds on the potato tuber → Positions pollen where fertilisation can later be enabled",
+          "Seminiferous tubules of the testes → A zygote is formed"
+        ],
+        "answer": 0,
+        "explanation": "Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber. Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vegetative propagation by a potato",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q15",
+        "question": "Which pair correctly matches Vegetative propagation by a potato with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Produces sperm cells → Asexual growth from a stem tuber",
+          "A bud develops into a new plant → Transfer of pollen",
+          "Produces a diploid zygote → Fusion involving male and female gametes",
+          "A bud develops into a new plant → Asexual growth from a stem tuber"
+        ],
+        "answer": 3,
+        "explanation": "Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant. Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vegetative propagation by a potato",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q16",
+        "question": "Which pair correctly matches Pollination with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Transfer of pollen → Ovule inside the ovary",
+          "Formation of male gametes → Seminiferous tubules of the testes",
+          "Transfer of pollen → From anther to stigma",
+          "Fusion involving male and female gametes → From anther to stigma"
+        ],
+        "answer": 2,
+        "explanation": "Pollination — process or structure identity: Transfer of pollen. Pollination — main participant or site: From anther to stigma. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pollination",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q17",
+        "question": "Which pair correctly matches Pollination with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Usually in the oviduct → Produces sperm cells",
+          "From anther to stigma → Positions pollen where fertilisation can later be enabled",
+          "Seminiferous tubules of the testes → Positions pollen where fertilisation can later be enabled",
+          "From anther to stigma → A zygote is formed"
+        ],
+        "answer": 1,
+        "explanation": "Pollination — main participant or site: From anther to stigma. Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pollination",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q18",
+        "question": "Which pair correctly matches Pollination with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Positions pollen where fertilisation can later be enabled → Transfer of pollen",
+          "Produces a diploid zygote → Transfer of pollen",
+          "Positions pollen where fertilisation can later be enabled → Fusion involving male and female gametes",
+          "Establishes the developing embryo in the uterus → Formation of male gametes"
+        ],
+        "answer": 0,
+        "explanation": "Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled. Pollination — process or structure identity: Transfer of pollen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pollination",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q19",
+        "question": "Which pair correctly matches Fertilisation in flowering plants with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Formation of male gametes → Ovule inside the ovary",
+          "Fusion involving male and female gametes → Seminiferous tubules of the testes",
+          "Fusion of sperm and egg → Usually in the oviduct",
+          "Fusion involving male and female gametes → Ovule inside the ovary"
+        ],
+        "answer": 3,
+        "explanation": "Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes. Fertilisation in flowering plants — main participant or site: Ovule inside the ovary. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fertilisation in flowering plants",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q20",
+        "question": "Which pair correctly matches Fertilisation in flowering plants with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Ovule inside the ovary → Produces sperm cells",
+          "Uterine lining → Establishes the developing embryo in the uterus",
+          "Ovule inside the ovary → A zygote is formed",
+          "Usually in the oviduct → A zygote is formed"
+        ],
+        "answer": 2,
+        "explanation": "Fertilisation in flowering plants — main participant or site: Ovule inside the ovary. Fertilisation in flowering plants — immediate result or role: A zygote is formed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fertilisation in flowering plants",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q21",
+        "question": "Which pair correctly matches Fertilisation in flowering plants with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "A bud grows and can detach as a new individual → Fusion of sperm and egg",
+          "A zygote is formed → Fusion involving male and female gametes",
+          "Produces two daughter individuals → Fusion involving male and female gametes",
+          "A zygote is formed → Formation of male gametes"
+        ],
+        "answer": 1,
+        "explanation": "Fertilisation in flowering plants — immediate result or role: A zygote is formed. Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fertilisation in flowering plants",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q22",
+        "question": "Which pair correctly matches Human sperm production with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Formation of male gametes → Seminiferous tubules of the testes",
+          "Fusion of sperm and egg → Seminiferous tubules of the testes",
+          "Formation of male gametes → Usually in the oviduct",
+          "Embedding of an early embryo → Uterine lining"
+        ],
+        "answer": 0,
+        "explanation": "Human sperm production — process or structure identity: Formation of male gametes. Human sperm production — main participant or site: Seminiferous tubules of the testes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human sperm production",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q23",
+        "question": "Which pair correctly matches Human sperm production with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Uterine lining → Produces sperm cells",
+          "Seminiferous tubules of the testes → Produces a diploid zygote",
+          "Amoeba → Establishes the developing embryo in the uterus",
+          "Seminiferous tubules of the testes → Produces sperm cells"
+        ],
+        "answer": 3,
+        "explanation": "Human sperm production — main participant or site: Seminiferous tubules of the testes. Human sperm production — immediate result or role: Produces sperm cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human sperm production",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q24",
+        "question": "Which pair correctly matches Human sperm production with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Produces sperm cells → Fusion of sperm and egg",
+          "A bud grows and can detach as a new individual → Embedding of an early embryo",
+          "Produces sperm cells → Formation of male gametes",
+          "Produces two daughter individuals → Formation of male gametes"
+        ],
+        "answer": 2,
+        "explanation": "Human sperm production — immediate result or role: Produces sperm cells. Human sperm production — process or structure identity: Formation of male gametes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human sperm production",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q25",
+        "question": "Which pair correctly matches Human fertilisation with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Asexual division of a single parent cell → Amoeba",
+          "Fusion of sperm and egg → Usually in the oviduct",
+          "Embedding of an early embryo → Usually in the oviduct",
+          "Fusion of sperm and egg → Uterine lining"
+        ],
+        "answer": 1,
+        "explanation": "Human fertilisation — process or structure identity: Fusion of sperm and egg. Human fertilisation — main participant or site: Usually in the oviduct. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human fertilisation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q26",
+        "question": "Which pair correctly matches Human fertilisation with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Usually in the oviduct → Produces a diploid zygote",
+          "Amoeba → Produces a diploid zygote",
+          "Usually in the oviduct → Produces two daughter individuals",
+          "Hydra → A bud grows and can detach as a new individual"
+        ],
+        "answer": 0,
+        "explanation": "Human fertilisation — main participant or site: Usually in the oviduct. Human fertilisation — immediate result or role: Produces a diploid zygote. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human fertilisation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q27",
+        "question": "Which pair correctly matches Human fertilisation with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Spores can germinate under favourable conditions → Fusion of sperm and egg",
+          "Produces a diploid zygote → Embedding of an early embryo",
+          "A bud develops into a new plant → Asexual division of a single parent cell",
+          "Produces a diploid zygote → Fusion of sperm and egg"
+        ],
+        "answer": 3,
+        "explanation": "Human fertilisation — immediate result or role: Produces a diploid zygote. Human fertilisation — process or structure identity: Fusion of sperm and egg. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Human fertilisation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q28",
+        "question": "Which pair correctly matches Implantation with its process or structure identity and main participant or site, in that order?",
+        "options": [
+          "Embedding of an early embryo → Amoeba",
+          "Asexual outgrowth from the parent body → Hydra",
+          "Embedding of an early embryo → Uterine lining",
+          "Asexual division of a single parent cell → Uterine lining"
+        ],
+        "answer": 2,
+        "explanation": "Implantation — process or structure identity: Embedding of an early embryo. Implantation — main participant or site: Uterine lining. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Implantation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q29",
+        "question": "Which pair correctly matches Implantation with its main participant or site and immediate result or role, in that order?",
+        "options": [
+          "Sporangia of bread mould → A bud grows and can detach as a new individual",
+          "Uterine lining → Establishes the developing embryo in the uterus",
+          "Hydra → Establishes the developing embryo in the uterus",
+          "Uterine lining → Produces two daughter individuals"
+        ],
+        "answer": 1,
+        "explanation": "Implantation — main participant or site: Uterine lining. Implantation — immediate result or role: Establishes the developing embryo in the uterus. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Implantation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-M-Q30",
+        "question": "Which pair correctly matches Implantation with its immediate result or role and process or structure identity, in that order?",
+        "options": [
+          "Establishes the developing embryo in the uterus → Embedding of an early embryo",
+          "Spores can germinate under favourable conditions → Embedding of an early embryo",
+          "Establishes the developing embryo in the uterus → Asexual division of a single parent cell",
+          "A bud develops into a new plant → Asexual outgrowth from the parent body"
+        ],
+        "answer": 0,
+        "explanation": "Implantation — immediate result or role: Establishes the developing embryo in the uterus. Implantation — process or structure identity: Embedding of an early embryo. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Implantation",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH06-H": {
+    "id": "SA-DPP-27-BIO-CH06-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch6",
+    "chapterNumber": 6,
+    "chapter": "Reproduction",
+    "level": "H",
+    "title": "Reproduction – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-03",
+    "recommendedDate": "2026-11-08",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 152
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q01",
+        "question": "Why does sexual reproduction usually generate more variation than asexual reproduction?",
+        "options": [
+          "Meiosis and gamete fusion combine genetic material",
+          "All offspring are identical clones",
+          "It uses no DNA",
+          "Only one parent contributes genes"
+        ],
+        "answer": 0,
+        "explanation": "Recombination, chromosome assortment and fertilisation create new combinations.",
+        "difficulty": "Hard",
+        "topic": "Why does sexual reproduction usually generate more variation than asexual reproduction?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q02",
+        "question": "Why is pollination not the same as fertilisation?",
+        "options": [
+          "Both mean seed dispersal",
+          "Pollination fuses egg and sperm directly",
+          "Fertilisation is transfer of pollen to anther",
+          "Pollination transfers pollen; fertilisation fuses gametes"
+        ],
+        "answer": 3,
+        "explanation": "A pollen tube and male-gamete delivery follow successful pollination.",
+        "difficulty": "Hard",
+        "topic": "Why is pollination not the same as fertilisation?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q03",
+        "question": "Why do most barrier contraceptives prevent fertilisation?",
+        "options": [
+          "They always stop ovulation hormonally",
+          "They destroy the uterus",
+          "They hinder sperm from reaching the egg",
+          "They change every inherited gene"
+        ],
+        "answer": 2,
+        "explanation": "Physical separation of sperm and egg reduces the chance of fertilisation.",
+        "difficulty": "Hard",
+        "topic": "Why do most barrier contraceptives prevent fertilisation?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell\nII. Pollination — main participant or site: Hydra\nIII. Human fertilisation — immediate result or role: Produces a diploid zygote",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell; Pollination — main participant or site: From anther to stigma; Human fertilisation — immediate result or role: Produces a diploid zygote.",
+        "difficulty": "Hard",
+        "topic": "Binary fission in Amoeba · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Binary fission in Amoeba — main participant or site: Sporangia of bread mould\nII. Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled\nIII. Human fertilisation — process or structure identity: Fusion of sperm and egg",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Binary fission in Amoeba — main participant or site: Amoeba; Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled; Human fertilisation — process or structure identity: Fusion of sperm and egg.",
+        "difficulty": "Hard",
+        "topic": "Binary fission in Amoeba · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Binary fission in Amoeba — immediate result or role: Produces two daughter individuals\nII. Pollination — process or structure identity: Transfer of pollen\nIII. Human fertilisation — main participant or site: Usually in the oviduct",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Binary fission in Amoeba — immediate result or role: Produces two daughter individuals; Pollination — process or structure identity: Transfer of pollen; Human fertilisation — main participant or site: Usually in the oviduct.",
+        "difficulty": "Hard",
+        "topic": "Binary fission in Amoeba · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Budding in Hydra — process or structure identity: Transfer of pollen\nII. Fertilisation in flowering plants — main participant or site: From anther to stigma\nIII. Implantation — immediate result or role: A zygote is formed",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body; Fertilisation in flowering plants — main participant or site: Ovule inside the ovary; Implantation — immediate result or role: Establishes the developing embryo in the uterus.",
+        "difficulty": "Hard",
+        "topic": "Budding in Hydra · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Budding in Hydra — main participant or site: Hydra\nII. Fertilisation in flowering plants — immediate result or role: Produces sperm cells\nIII. Implantation — process or structure identity: Formation of male gametes",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Budding in Hydra — main participant or site: Hydra; Fertilisation in flowering plants — immediate result or role: A zygote is formed; Implantation — process or structure identity: Embedding of an early embryo.",
+        "difficulty": "Hard",
+        "topic": "Budding in Hydra · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Budding in Hydra — immediate result or role: Produces sperm cells\nII. Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes\nIII. Implantation — main participant or site: Usually in the oviduct",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual; Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes; Implantation — main participant or site: Uterine lining.",
+        "difficulty": "Hard",
+        "topic": "Budding in Hydra · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells\nII. Human sperm production — main participant or site: Seminiferous tubules of the testes\nIII. Binary fission in Amoeba — immediate result or role: A bud grows and can detach as a new individual",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells; Human sperm production — main participant or site: Seminiferous tubules of the testes; Binary fission in Amoeba — immediate result or role: Produces two daughter individuals.",
+        "difficulty": "Hard",
+        "topic": "Spore formation in Rhizopus · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Spore formation in Rhizopus — main participant or site: Uterine lining\nII. Human sperm production — immediate result or role: Produces two daughter individuals\nIII. Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Spore formation in Rhizopus — main participant or site: Sporangia of bread mould; Human sperm production — immediate result or role: Produces sperm cells; Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell.",
+        "difficulty": "Hard",
+        "topic": "Spore formation in Rhizopus · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions\nII. Human sperm production — process or structure identity: Asexual outgrowth from the parent body\nIII. Binary fission in Amoeba — main participant or site: Amoeba",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions; Human sperm production — process or structure identity: Formation of male gametes; Binary fission in Amoeba — main participant or site: Amoeba.",
+        "difficulty": "Hard",
+        "topic": "Spore formation in Rhizopus · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vegetative propagation by a potato — process or structure identity: Asexual outgrowth from the parent body\nII. Human fertilisation — main participant or site: Usually in the oviduct\nIII. Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber; Human fertilisation — main participant or site: Usually in the oviduct; Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual.",
+        "difficulty": "Hard",
+        "topic": "Vegetative propagation by a potato · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber\nII. Human fertilisation — immediate result or role: Produces a diploid zygote\nIII. Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber; Human fertilisation — immediate result or role: Produces a diploid zygote; Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body.",
+        "difficulty": "Hard",
+        "topic": "Vegetative propagation by a potato · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vegetative propagation by a potato — immediate result or role: Positions pollen where fertilisation can later be enabled\nII. Human fertilisation — process or structure identity: Transfer of pollen\nIII. Budding in Hydra — main participant or site: Seminiferous tubules of the testes",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant; Human fertilisation — process or structure identity: Fusion of sperm and egg; Budding in Hydra — main participant or site: Hydra.",
+        "difficulty": "Hard",
+        "topic": "Vegetative propagation by a potato · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pollination — process or structure identity: Transfer of pollen\nII. Implantation — main participant or site: Ovule inside the ovary\nIII. Spore formation in Rhizopus — immediate result or role: Produces a diploid zygote",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Pollination — process or structure identity: Transfer of pollen; Implantation — main participant or site: Uterine lining; Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions.",
+        "difficulty": "Hard",
+        "topic": "Pollination · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pollination — main participant or site: Seminiferous tubules of the testes\nII. Implantation — immediate result or role: Establishes the developing embryo in the uterus\nIII. Spore formation in Rhizopus — process or structure identity: Embedding of an early embryo",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Pollination — main participant or site: From anther to stigma; Implantation — immediate result or role: Establishes the developing embryo in the uterus; Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells.",
+        "difficulty": "Hard",
+        "topic": "Pollination · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled\nII. Implantation — process or structure identity: Embedding of an early embryo\nIII. Spore formation in Rhizopus — main participant or site: Amoeba",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled; Implantation — process or structure identity: Embedding of an early embryo; Spore formation in Rhizopus — main participant or site: Sporangia of bread mould.",
+        "difficulty": "Hard",
+        "topic": "Pollination · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fertilisation in flowering plants — process or structure identity: Embedding of an early embryo\nII. Binary fission in Amoeba — main participant or site: Hydra\nIII. Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes; Binary fission in Amoeba — main participant or site: Amoeba; Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant.",
+        "difficulty": "Hard",
+        "topic": "Fertilisation in flowering plants · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fertilisation in flowering plants — main participant or site: Ovule inside the ovary\nII. Binary fission in Amoeba — immediate result or role: Spores can germinate under favourable conditions\nIII. Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Fertilisation in flowering plants — main participant or site: Ovule inside the ovary; Binary fission in Amoeba — immediate result or role: Produces two daughter individuals; Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber.",
+        "difficulty": "Hard",
+        "topic": "Fertilisation in flowering plants · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fertilisation in flowering plants — immediate result or role: A bud develops into a new plant\nII. Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell\nIII. Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Fertilisation in flowering plants — immediate result or role: A zygote is formed; Binary fission in Amoeba — process or structure identity: Asexual division of a single parent cell; Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber.",
+        "difficulty": "Hard",
+        "topic": "Fertilisation in flowering plants · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human sperm production — process or structure identity: Formation of male gametes\nII. Budding in Hydra — main participant or site: Hydra\nIII. Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Human sperm production — process or structure identity: Formation of male gametes; Budding in Hydra — main participant or site: Hydra; Pollination — immediate result or role: Positions pollen where fertilisation can later be enabled.",
+        "difficulty": "Hard",
+        "topic": "Human sperm production · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human sperm production — main participant or site: Eyes or buds on the potato tuber\nII. Budding in Hydra — immediate result or role: A zygote is formed\nIII. Pollination — process or structure identity: Formation of male gametes",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Human sperm production — main participant or site: Seminiferous tubules of the testes; Budding in Hydra — immediate result or role: A bud grows and can detach as a new individual; Pollination — process or structure identity: Transfer of pollen.",
+        "difficulty": "Hard",
+        "topic": "Human sperm production · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human sperm production — immediate result or role: Produces sperm cells\nII. Budding in Hydra — process or structure identity: Formation of male gametes\nIII. Pollination — main participant or site: Usually in the oviduct",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Human sperm production — immediate result or role: Produces sperm cells; Budding in Hydra — process or structure identity: Asexual outgrowth from the parent body; Pollination — main participant or site: From anther to stigma.",
+        "difficulty": "Hard",
+        "topic": "Human sperm production · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human fertilisation — process or structure identity: Fusion involving male and female gametes\nII. Spore formation in Rhizopus — main participant or site: Sporangia of bread mould\nIII. Fertilisation in flowering plants — immediate result or role: Spores can germinate under favourable conditions",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Human fertilisation — process or structure identity: Fusion of sperm and egg; Spore formation in Rhizopus — main participant or site: Sporangia of bread mould; Fertilisation in flowering plants — immediate result or role: A zygote is formed.",
+        "difficulty": "Hard",
+        "topic": "Human fertilisation · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human fertilisation — main participant or site: Usually in the oviduct\nII. Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions\nIII. Fertilisation in flowering plants — process or structure identity: Asexual division of a single parent cell",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Human fertilisation — main participant or site: Usually in the oviduct; Spore formation in Rhizopus — immediate result or role: Spores can germinate under favourable conditions; Fertilisation in flowering plants — process or structure identity: Fusion involving male and female gametes.",
+        "difficulty": "Hard",
+        "topic": "Human fertilisation · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Human fertilisation — immediate result or role: Spores can germinate under favourable conditions\nII. Spore formation in Rhizopus — process or structure identity: Asexual division of a single parent cell\nIII. Fertilisation in flowering plants — main participant or site: Ovule inside the ovary",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Human fertilisation — immediate result or role: Produces a diploid zygote; Spore formation in Rhizopus — process or structure identity: Asexual production of dispersal cells; Fertilisation in flowering plants — main participant or site: Ovule inside the ovary.",
+        "difficulty": "Hard",
+        "topic": "Human fertilisation · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Implantation — process or structure identity: Embedding of an early embryo\nII. Vegetative propagation by a potato — main participant or site: Hydra\nIII. Human sperm production — immediate result or role: Produces sperm cells",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Implantation — process or structure identity: Embedding of an early embryo; Vegetative propagation by a potato — main participant or site: Eyes or buds on the potato tuber; Human sperm production — immediate result or role: Produces sperm cells.",
+        "difficulty": "Hard",
+        "topic": "Implantation · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Implantation — main participant or site: Hydra\nII. Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant\nIII. Human sperm production — process or structure identity: Formation of male gametes",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Implantation — main participant or site: Uterine lining; Vegetative propagation by a potato — immediate result or role: A bud develops into a new plant; Human sperm production — process or structure identity: Formation of male gametes.",
+        "difficulty": "Hard",
+        "topic": "Implantation · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH06-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Implantation — immediate result or role: Establishes the developing embryo in the uterus\nII. Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber\nIII. Human sperm production — main participant or site: Seminiferous tubules of the testes",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Implantation — immediate result or role: Establishes the developing embryo in the uterus; Vegetative propagation by a potato — process or structure identity: Asexual growth from a stem tuber; Human sperm production — main participant or site: Seminiferous tubules of the testes.",
+        "difficulty": "Hard",
+        "topic": "Implantation · comparing chapter concepts",
+        "sourceChapter": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH05-E": {
+    "id": "SA-DPP-27-BIO-CH05-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "E",
+    "title": "Coordination – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q01",
+        "question": "What is the basic functional cell of nervous tissue?",
+        "options": [
+          "Nephron",
+          "Platelet",
+          "Guard cell",
+          "Neuron"
+        ],
+        "answer": 3,
+        "explanation": "Neurons receive and transmit information.",
+        "difficulty": "Easy",
+        "topic": "What is the basic functional cell of nervous tissue?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q02",
+        "question": "Which hormone lowers blood glucose by promoting uptake and storage?",
+        "options": [
+          "Thyroxine",
+          "Growth hormone",
+          "Insulin",
+          "Adrenaline"
+        ],
+        "answer": 2,
+        "explanation": "Pancreatic beta cells secrete insulin.",
+        "difficulty": "Easy",
+        "topic": "Which hormone lowers blood glucose by promoting uptake and storage?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q03",
+        "question": "A plant shoot growing towards light shows what?",
+        "options": [
+          "Thigmonasty only",
+          "Positive phototropism",
+          "Negative phototropism",
+          "Geotropism only"
+        ],
+        "answer": 1,
+        "explanation": "Directional growth towards light is positive phototropism.",
+        "difficulty": "Easy",
+        "topic": "A plant shoot growing towards light shows what?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q04",
+        "question": "Sensory neuron: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A nerve cell carrying incoming information",
+          "A nerve cell carrying outgoing information",
+          "A junction between signalling cells",
+          "A major forebrain region"
+        ],
+        "answer": 0,
+        "explanation": "Sensory neuron — signal or structural identity: A nerve cell carrying incoming information.",
+        "difficulty": "Easy",
+        "topic": "Sensory neuron · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q05",
+        "question": "Sensory neuron: which option correctly identifies the usual source or location?",
+        "options": [
+          "Between a neuron's ending and the next cell",
+          "Upper main part of the brain",
+          "Posterior part of the brain",
+          "Between receptors and the central nervous system"
+        ],
+        "answer": 3,
+        "explanation": "Sensory neuron — usual source or location: Between receptors and the central nervous system.",
+        "difficulty": "Easy",
+        "topic": "Sensory neuron · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q06",
+        "question": "Sensory neuron: which option correctly identifies the principal role?",
+        "options": [
+          "Coordinates balance and precise movement",
+          "Helps regulate vital involuntary functions",
+          "Conducts impulses towards a central processing region",
+          "Supports conscious perception and voluntary control"
+        ],
+        "answer": 2,
+        "explanation": "Sensory neuron — principal role: Conducts impulses towards a central processing region.",
+        "difficulty": "Easy",
+        "topic": "Sensory neuron · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q07",
+        "question": "Motor neuron: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A hindbrain region",
+          "A nerve cell carrying outgoing information",
+          "A junction between signalling cells",
+          "A major forebrain region"
+        ],
+        "answer": 1,
+        "explanation": "Motor neuron — signal or structural identity: A nerve cell carrying outgoing information.",
+        "difficulty": "Easy",
+        "topic": "Motor neuron · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q08",
+        "question": "Motor neuron: which option correctly identifies the usual source or location?",
+        "options": [
+          "Between the central nervous system and an effector",
+          "Upper main part of the brain",
+          "Posterior part of the brain",
+          "Continuous with the spinal cord"
+        ],
+        "answer": 0,
+        "explanation": "Motor neuron — usual source or location: Between the central nervous system and an effector.",
+        "difficulty": "Easy",
+        "topic": "Motor neuron · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q09",
+        "question": "Motor neuron: which option correctly identifies the principal role?",
+        "options": [
+          "Coordinates balance and precise movement",
+          "Helps regulate vital involuntary functions",
+          "Promotes glucose uptake and storage",
+          "Conducts impulses towards a muscle or gland"
+        ],
+        "answer": 3,
+        "explanation": "Motor neuron — principal role: Conducts impulses towards a muscle or gland.",
+        "difficulty": "Easy",
+        "topic": "Motor neuron · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q10",
+        "question": "Synapse: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A hindbrain region",
+          "A brainstem region",
+          "A junction between signalling cells",
+          "A major forebrain region"
+        ],
+        "answer": 2,
+        "explanation": "Synapse — signal or structural identity: A junction between signalling cells.",
+        "difficulty": "Easy",
+        "topic": "Synapse · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q11",
+        "question": "Synapse: which option correctly identifies the usual source or location?",
+        "options": [
+          "Pancreatic beta cells",
+          "Between a neuron's ending and the next cell",
+          "Posterior part of the brain",
+          "Continuous with the spinal cord"
+        ],
+        "answer": 1,
+        "explanation": "Synapse — usual source or location: Between a neuron's ending and the next cell.",
+        "difficulty": "Easy",
+        "topic": "Synapse · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q12",
+        "question": "Synapse: which option correctly identifies the principal role?",
+        "options": [
+          "Transfers a signal, often by a neurotransmitter",
+          "Helps regulate vital involuntary functions",
+          "Promotes glucose uptake and storage",
+          "Prepares multiple organs for rapid action"
+        ],
+        "answer": 0,
+        "explanation": "Synapse — principal role: Transfers a signal, often by a neurotransmitter.",
+        "difficulty": "Easy",
+        "topic": "Synapse · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q13",
+        "question": "Cerebrum: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A hindbrain region",
+          "A brainstem region",
+          "A blood-glucose-lowering hormone",
+          "A major forebrain region"
+        ],
+        "answer": 3,
+        "explanation": "Cerebrum — signal or structural identity: A major forebrain region.",
+        "difficulty": "Easy",
+        "topic": "Cerebrum · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q14",
+        "question": "Cerebrum: which option correctly identifies the usual source or location?",
+        "options": [
+          "Pancreatic beta cells",
+          "Adrenal medulla",
+          "Upper main part of the brain",
+          "Continuous with the spinal cord"
+        ],
+        "answer": 2,
+        "explanation": "Cerebrum — usual source or location: Upper main part of the brain.",
+        "difficulty": "Easy",
+        "topic": "Cerebrum · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q15",
+        "question": "Cerebrum: which option correctly identifies the principal role?",
+        "options": [
+          "Promotes shoot-cell elongation and contributes to tropic bending",
+          "Supports conscious perception and voluntary control",
+          "Promotes glucose uptake and storage",
+          "Prepares multiple organs for rapid action"
+        ],
+        "answer": 1,
+        "explanation": "Cerebrum — principal role: Supports conscious perception and voluntary control.",
+        "difficulty": "Easy",
+        "topic": "Cerebrum · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q16",
+        "question": "Cerebellum: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A hindbrain region",
+          "A brainstem region",
+          "A blood-glucose-lowering hormone",
+          "An emergency-response hormone"
+        ],
+        "answer": 0,
+        "explanation": "Cerebellum — signal or structural identity: A hindbrain region.",
+        "difficulty": "Easy",
+        "topic": "Cerebellum · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q17",
+        "question": "Cerebellum: which option correctly identifies the usual source or location?",
+        "options": [
+          "Pancreatic beta cells",
+          "Adrenal medulla",
+          "Produced especially in young growing tissues",
+          "Posterior part of the brain"
+        ],
+        "answer": 3,
+        "explanation": "Cerebellum — usual source or location: Posterior part of the brain.",
+        "difficulty": "Easy",
+        "topic": "Cerebellum · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q18",
+        "question": "Cerebellum: which option correctly identifies the principal role?",
+        "options": [
+          "Promotes shoot-cell elongation and contributes to tropic bending",
+          "Conducts impulses towards a central processing region",
+          "Coordinates balance and precise movement",
+          "Prepares multiple organs for rapid action"
+        ],
+        "answer": 2,
+        "explanation": "Cerebellum — principal role: Coordinates balance and precise movement.",
+        "difficulty": "Easy",
+        "topic": "Cerebellum · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q19",
+        "question": "Medulla oblongata: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A plant growth regulator",
+          "A brainstem region",
+          "A blood-glucose-lowering hormone",
+          "An emergency-response hormone"
+        ],
+        "answer": 1,
+        "explanation": "Medulla oblongata — signal or structural identity: A brainstem region.",
+        "difficulty": "Easy",
+        "topic": "Medulla oblongata · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q20",
+        "question": "Medulla oblongata: which option correctly identifies the usual source or location?",
+        "options": [
+          "Continuous with the spinal cord",
+          "Adrenal medulla",
+          "Produced especially in young growing tissues",
+          "Between receptors and the central nervous system"
+        ],
+        "answer": 0,
+        "explanation": "Medulla oblongata — usual source or location: Continuous with the spinal cord.",
+        "difficulty": "Easy",
+        "topic": "Medulla oblongata · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q21",
+        "question": "Medulla oblongata: which option correctly identifies the principal role?",
+        "options": [
+          "Promotes shoot-cell elongation and contributes to tropic bending",
+          "Conducts impulses towards a central processing region",
+          "Conducts impulses towards a muscle or gland",
+          "Helps regulate vital involuntary functions"
+        ],
+        "answer": 3,
+        "explanation": "Medulla oblongata — principal role: Helps regulate vital involuntary functions.",
+        "difficulty": "Easy",
+        "topic": "Medulla oblongata · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q22",
+        "question": "Insulin: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A plant growth regulator",
+          "A nerve cell carrying incoming information",
+          "A blood-glucose-lowering hormone",
+          "An emergency-response hormone"
+        ],
+        "answer": 2,
+        "explanation": "Insulin — signal or structural identity: A blood-glucose-lowering hormone.",
+        "difficulty": "Easy",
+        "topic": "Insulin · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q23",
+        "question": "Insulin: which option correctly identifies the usual source or location?",
+        "options": [
+          "Between the central nervous system and an effector",
+          "Pancreatic beta cells",
+          "Produced especially in young growing tissues",
+          "Between receptors and the central nervous system"
+        ],
+        "answer": 1,
+        "explanation": "Insulin — usual source or location: Pancreatic beta cells.",
+        "difficulty": "Easy",
+        "topic": "Insulin · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q24",
+        "question": "Insulin: which option correctly identifies the principal role?",
+        "options": [
+          "Promotes glucose uptake and storage",
+          "Conducts impulses towards a central processing region",
+          "Conducts impulses towards a muscle or gland",
+          "Transfers a signal, often by a neurotransmitter"
+        ],
+        "answer": 0,
+        "explanation": "Insulin — principal role: Promotes glucose uptake and storage.",
+        "difficulty": "Easy",
+        "topic": "Insulin · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q25",
+        "question": "Adrenaline: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A plant growth regulator",
+          "A nerve cell carrying incoming information",
+          "A nerve cell carrying outgoing information",
+          "An emergency-response hormone"
+        ],
+        "answer": 3,
+        "explanation": "Adrenaline — signal or structural identity: An emergency-response hormone.",
+        "difficulty": "Easy",
+        "topic": "Adrenaline · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q26",
+        "question": "Adrenaline: which option correctly identifies the usual source or location?",
+        "options": [
+          "Between the central nervous system and an effector",
+          "Between a neuron's ending and the next cell",
+          "Adrenal medulla",
+          "Between receptors and the central nervous system"
+        ],
+        "answer": 2,
+        "explanation": "Adrenaline — usual source or location: Adrenal medulla.",
+        "difficulty": "Easy",
+        "topic": "Adrenaline · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q27",
+        "question": "Adrenaline: which option correctly identifies the principal role?",
+        "options": [
+          "Supports conscious perception and voluntary control",
+          "Prepares multiple organs for rapid action",
+          "Conducts impulses towards a muscle or gland",
+          "Transfers a signal, often by a neurotransmitter"
+        ],
+        "answer": 1,
+        "explanation": "Adrenaline — principal role: Prepares multiple organs for rapid action.",
+        "difficulty": "Easy",
+        "topic": "Adrenaline · principal role",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q28",
+        "question": "Auxin: which option correctly identifies the signal or structural identity?",
+        "options": [
+          "A plant growth regulator",
+          "A nerve cell carrying incoming information",
+          "A nerve cell carrying outgoing information",
+          "A junction between signalling cells"
+        ],
+        "answer": 0,
+        "explanation": "Auxin — signal or structural identity: A plant growth regulator.",
+        "difficulty": "Easy",
+        "topic": "Auxin · signal or structural identity",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q29",
+        "question": "Auxin: which option correctly identifies the usual source or location?",
+        "options": [
+          "Between the central nervous system and an effector",
+          "Between a neuron's ending and the next cell",
+          "Upper main part of the brain",
+          "Produced especially in young growing tissues"
+        ],
+        "answer": 3,
+        "explanation": "Auxin — usual source or location: Produced especially in young growing tissues.",
+        "difficulty": "Easy",
+        "topic": "Auxin · usual source or location",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-E-Q30",
+        "question": "Auxin: which option correctly identifies the principal role?",
+        "options": [
+          "Supports conscious perception and voluntary control",
+          "Coordinates balance and precise movement",
+          "Promotes shoot-cell elongation and contributes to tropic bending",
+          "Transfers a signal, often by a neurotransmitter"
+        ],
+        "answer": 2,
+        "explanation": "Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending.",
+        "difficulty": "Easy",
+        "topic": "Auxin · principal role",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH05-M": {
+    "id": "SA-DPP-27-BIO-CH05-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "M",
+    "title": "Coordination – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-05",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q01",
+        "question": "Why can withdrawal from a hot object occur before conscious awareness?",
+        "options": [
+          "Muscles decide without neurons",
+          "Hormones must first reach every cell",
+          "A spinal reflex pathway initiates the response",
+          "The brain is never informed"
+        ],
+        "answer": 2,
+        "explanation": "Reflex circuits can rapidly coordinate withdrawal while information also reaches the brain.",
+        "difficulty": "Medium",
+        "topic": "Why can withdrawal from a hot object occur before conscious awareness?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q02",
+        "question": "Which brain region is especially associated with balance and coordinated movement?",
+        "options": [
+          "Hypothalamus only",
+          "Cerebellum",
+          "Cerebrum only",
+          "Medulla only"
+        ],
+        "answer": 1,
+        "explanation": "The cerebellum fine-tunes movement and posture.",
+        "difficulty": "Medium",
+        "topic": "Which brain region is especially associated with balance and coordinated movement?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q03",
+        "question": "How does auxin cause a shoot to bend towards light?",
+        "options": [
+          "Greater elongation on the shaded side",
+          "Equal growth on both sides always",
+          "Destruction of every illuminated cell",
+          "Growth only in roots"
+        ],
+        "answer": 0,
+        "explanation": "Unequal auxin distribution promotes more elongation on the shaded shoot side.",
+        "difficulty": "Medium",
+        "topic": "How does auxin cause a shoot to bend towards light?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q04",
+        "question": "Which pair correctly matches Sensory neuron with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A nerve cell carrying outgoing information → Between receptors and the central nervous system",
+          "A nerve cell carrying incoming information → Between the central nervous system and an effector",
+          "A junction between signalling cells → Between a neuron's ending and the next cell",
+          "A nerve cell carrying incoming information → Between receptors and the central nervous system"
+        ],
+        "answer": 3,
+        "explanation": "Sensory neuron — signal or structural identity: A nerve cell carrying incoming information. Sensory neuron — usual source or location: Between receptors and the central nervous system. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sensory neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q05",
+        "question": "Which pair correctly matches Sensory neuron with its usual source or location and principal role, in that order?",
+        "options": [
+          "Between receptors and the central nervous system → Conducts impulses towards a muscle or gland",
+          "Upper main part of the brain → Transfers a signal, often by a neurotransmitter",
+          "Between receptors and the central nervous system → Conducts impulses towards a central processing region",
+          "Between a neuron's ending and the next cell → Conducts impulses towards a central processing region"
+        ],
+        "answer": 2,
+        "explanation": "Sensory neuron — usual source or location: Between receptors and the central nervous system. Sensory neuron — principal role: Conducts impulses towards a central processing region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sensory neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q06",
+        "question": "Which pair correctly matches Sensory neuron with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Coordinates balance and precise movement → A junction between signalling cells",
+          "Conducts impulses towards a central processing region → A nerve cell carrying incoming information",
+          "Supports conscious perception and voluntary control → A nerve cell carrying incoming information",
+          "Conducts impulses towards a central processing region → A nerve cell carrying outgoing information"
+        ],
+        "answer": 1,
+        "explanation": "Sensory neuron — principal role: Conducts impulses towards a central processing region. Sensory neuron — signal or structural identity: A nerve cell carrying incoming information. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sensory neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q07",
+        "question": "Which pair correctly matches Motor neuron with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A nerve cell carrying outgoing information → Between the central nervous system and an effector",
+          "A junction between signalling cells → Between the central nervous system and an effector",
+          "A nerve cell carrying outgoing information → Between a neuron's ending and the next cell",
+          "A major forebrain region → Upper main part of the brain"
+        ],
+        "answer": 0,
+        "explanation": "Motor neuron — signal or structural identity: A nerve cell carrying outgoing information. Motor neuron — usual source or location: Between the central nervous system and an effector. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Motor neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q08",
+        "question": "Which pair correctly matches Motor neuron with its usual source or location and principal role, in that order?",
+        "options": [
+          "Upper main part of the brain → Conducts impulses towards a muscle or gland",
+          "Between the central nervous system and an effector → Transfers a signal, often by a neurotransmitter",
+          "Posterior part of the brain → Supports conscious perception and voluntary control",
+          "Between the central nervous system and an effector → Conducts impulses towards a muscle or gland"
+        ],
+        "answer": 3,
+        "explanation": "Motor neuron — usual source or location: Between the central nervous system and an effector. Motor neuron — principal role: Conducts impulses towards a muscle or gland. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Motor neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q09",
+        "question": "Which pair correctly matches Motor neuron with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Conducts impulses towards a muscle or gland → A junction between signalling cells",
+          "Helps regulate vital involuntary functions → A major forebrain region",
+          "Conducts impulses towards a muscle or gland → A nerve cell carrying outgoing information",
+          "Coordinates balance and precise movement → A nerve cell carrying outgoing information"
+        ],
+        "answer": 2,
+        "explanation": "Motor neuron — principal role: Conducts impulses towards a muscle or gland. Motor neuron — signal or structural identity: A nerve cell carrying outgoing information. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Motor neuron",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q10",
+        "question": "Which pair correctly matches Synapse with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A hindbrain region → Posterior part of the brain",
+          "A junction between signalling cells → Between a neuron's ending and the next cell",
+          "A major forebrain region → Between a neuron's ending and the next cell",
+          "A junction between signalling cells → Upper main part of the brain"
+        ],
+        "answer": 1,
+        "explanation": "Synapse — signal or structural identity: A junction between signalling cells. Synapse — usual source or location: Between a neuron's ending and the next cell. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Synapse",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q11",
+        "question": "Which pair correctly matches Synapse with its usual source or location and principal role, in that order?",
+        "options": [
+          "Between a neuron's ending and the next cell → Transfers a signal, often by a neurotransmitter",
+          "Posterior part of the brain → Transfers a signal, often by a neurotransmitter",
+          "Between a neuron's ending and the next cell → Supports conscious perception and voluntary control",
+          "Continuous with the spinal cord → Coordinates balance and precise movement"
+        ],
+        "answer": 0,
+        "explanation": "Synapse — usual source or location: Between a neuron's ending and the next cell. Synapse — principal role: Transfers a signal, often by a neurotransmitter. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Synapse",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q12",
+        "question": "Which pair correctly matches Synapse with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Helps regulate vital involuntary functions → A junction between signalling cells",
+          "Transfers a signal, often by a neurotransmitter → A major forebrain region",
+          "Promotes glucose uptake and storage → A hindbrain region",
+          "Transfers a signal, often by a neurotransmitter → A junction between signalling cells"
+        ],
+        "answer": 3,
+        "explanation": "Synapse — principal role: Transfers a signal, often by a neurotransmitter. Synapse — signal or structural identity: A junction between signalling cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Synapse",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q13",
+        "question": "Which pair correctly matches Cerebrum with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A major forebrain region → Posterior part of the brain",
+          "A brainstem region → Continuous with the spinal cord",
+          "A major forebrain region → Upper main part of the brain",
+          "A hindbrain region → Upper main part of the brain"
+        ],
+        "answer": 2,
+        "explanation": "Cerebrum — signal or structural identity: A major forebrain region. Cerebrum — usual source or location: Upper main part of the brain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebrum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q14",
+        "question": "Which pair correctly matches Cerebrum with its usual source or location and principal role, in that order?",
+        "options": [
+          "Pancreatic beta cells → Helps regulate vital involuntary functions",
+          "Upper main part of the brain → Supports conscious perception and voluntary control",
+          "Continuous with the spinal cord → Supports conscious perception and voluntary control",
+          "Upper main part of the brain → Coordinates balance and precise movement"
+        ],
+        "answer": 1,
+        "explanation": "Cerebrum — usual source or location: Upper main part of the brain. Cerebrum — principal role: Supports conscious perception and voluntary control. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebrum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q15",
+        "question": "Which pair correctly matches Cerebrum with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Supports conscious perception and voluntary control → A major forebrain region",
+          "Promotes glucose uptake and storage → A major forebrain region",
+          "Supports conscious perception and voluntary control → A hindbrain region",
+          "Prepares multiple organs for rapid action → A brainstem region"
+        ],
+        "answer": 0,
+        "explanation": "Cerebrum — principal role: Supports conscious perception and voluntary control. Cerebrum — signal or structural identity: A major forebrain region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebrum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q16",
+        "question": "Which pair correctly matches Cerebellum with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A brainstem region → Posterior part of the brain",
+          "A hindbrain region → Continuous with the spinal cord",
+          "A blood-glucose-lowering hormone → Pancreatic beta cells",
+          "A hindbrain region → Posterior part of the brain"
+        ],
+        "answer": 3,
+        "explanation": "Cerebellum — signal or structural identity: A hindbrain region. Cerebellum — usual source or location: Posterior part of the brain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebellum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q17",
+        "question": "Which pair correctly matches Cerebellum with its usual source or location and principal role, in that order?",
+        "options": [
+          "Posterior part of the brain → Helps regulate vital involuntary functions",
+          "Adrenal medulla → Promotes glucose uptake and storage",
+          "Posterior part of the brain → Coordinates balance and precise movement",
+          "Pancreatic beta cells → Coordinates balance and precise movement"
+        ],
+        "answer": 2,
+        "explanation": "Cerebellum — usual source or location: Posterior part of the brain. Cerebellum — principal role: Coordinates balance and precise movement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebellum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q18",
+        "question": "Which pair correctly matches Cerebellum with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Promotes shoot-cell elongation and contributes to tropic bending → A blood-glucose-lowering hormone",
+          "Coordinates balance and precise movement → A hindbrain region",
+          "Prepares multiple organs for rapid action → A hindbrain region",
+          "Coordinates balance and precise movement → A brainstem region"
+        ],
+        "answer": 1,
+        "explanation": "Cerebellum — principal role: Coordinates balance and precise movement. Cerebellum — signal or structural identity: A hindbrain region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cerebellum",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q19",
+        "question": "Which pair correctly matches Medulla oblongata with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A brainstem region → Continuous with the spinal cord",
+          "A blood-glucose-lowering hormone → Continuous with the spinal cord",
+          "A brainstem region → Pancreatic beta cells",
+          "An emergency-response hormone → Adrenal medulla"
+        ],
+        "answer": 0,
+        "explanation": "Medulla oblongata — signal or structural identity: A brainstem region. Medulla oblongata — usual source or location: Continuous with the spinal cord. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Medulla oblongata",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q20",
+        "question": "Which pair correctly matches Medulla oblongata with its usual source or location and principal role, in that order?",
+        "options": [
+          "Adrenal medulla → Helps regulate vital involuntary functions",
+          "Continuous with the spinal cord → Promotes glucose uptake and storage",
+          "Produced especially in young growing tissues → Prepares multiple organs for rapid action",
+          "Continuous with the spinal cord → Helps regulate vital involuntary functions"
+        ],
+        "answer": 3,
+        "explanation": "Medulla oblongata — usual source or location: Continuous with the spinal cord. Medulla oblongata — principal role: Helps regulate vital involuntary functions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Medulla oblongata",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q21",
+        "question": "Which pair correctly matches Medulla oblongata with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Helps regulate vital involuntary functions → A blood-glucose-lowering hormone",
+          "Conducts impulses towards a central processing region → An emergency-response hormone",
+          "Helps regulate vital involuntary functions → A brainstem region",
+          "Promotes shoot-cell elongation and contributes to tropic bending → A brainstem region"
+        ],
+        "answer": 2,
+        "explanation": "Medulla oblongata — principal role: Helps regulate vital involuntary functions. Medulla oblongata — signal or structural identity: A brainstem region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Medulla oblongata",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q22",
+        "question": "Which pair correctly matches Insulin with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A plant growth regulator → Produced especially in young growing tissues",
+          "A blood-glucose-lowering hormone → Pancreatic beta cells",
+          "An emergency-response hormone → Pancreatic beta cells",
+          "A blood-glucose-lowering hormone → Adrenal medulla"
+        ],
+        "answer": 1,
+        "explanation": "Insulin — signal or structural identity: A blood-glucose-lowering hormone. Insulin — usual source or location: Pancreatic beta cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Insulin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q23",
+        "question": "Which pair correctly matches Insulin with its usual source or location and principal role, in that order?",
+        "options": [
+          "Pancreatic beta cells → Promotes glucose uptake and storage",
+          "Produced especially in young growing tissues → Promotes glucose uptake and storage",
+          "Pancreatic beta cells → Prepares multiple organs for rapid action",
+          "Between receptors and the central nervous system → Promotes shoot-cell elongation and contributes to tropic bending"
+        ],
+        "answer": 0,
+        "explanation": "Insulin — usual source or location: Pancreatic beta cells. Insulin — principal role: Promotes glucose uptake and storage. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Insulin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q24",
+        "question": "Which pair correctly matches Insulin with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Conducts impulses towards a central processing region → A blood-glucose-lowering hormone",
+          "Promotes glucose uptake and storage → An emergency-response hormone",
+          "Conducts impulses towards a muscle or gland → A plant growth regulator",
+          "Promotes glucose uptake and storage → A blood-glucose-lowering hormone"
+        ],
+        "answer": 3,
+        "explanation": "Insulin — principal role: Promotes glucose uptake and storage. Insulin — signal or structural identity: A blood-glucose-lowering hormone. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Insulin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q25",
+        "question": "Which pair correctly matches Adrenaline with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "An emergency-response hormone → Produced especially in young growing tissues",
+          "A nerve cell carrying incoming information → Between receptors and the central nervous system",
+          "An emergency-response hormone → Adrenal medulla",
+          "A plant growth regulator → Adrenal medulla"
+        ],
+        "answer": 2,
+        "explanation": "Adrenaline — signal or structural identity: An emergency-response hormone. Adrenaline — usual source or location: Adrenal medulla. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Adrenaline",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q26",
+        "question": "Which pair correctly matches Adrenaline with its usual source or location and principal role, in that order?",
+        "options": [
+          "Between the central nervous system and an effector → Conducts impulses towards a central processing region",
+          "Adrenal medulla → Prepares multiple organs for rapid action",
+          "Between receptors and the central nervous system → Prepares multiple organs for rapid action",
+          "Adrenal medulla → Promotes shoot-cell elongation and contributes to tropic bending"
+        ],
+        "answer": 1,
+        "explanation": "Adrenaline — usual source or location: Adrenal medulla. Adrenaline — principal role: Prepares multiple organs for rapid action. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Adrenaline",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q27",
+        "question": "Which pair correctly matches Adrenaline with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Prepares multiple organs for rapid action → An emergency-response hormone",
+          "Conducts impulses towards a muscle or gland → An emergency-response hormone",
+          "Prepares multiple organs for rapid action → A plant growth regulator",
+          "Transfers a signal, often by a neurotransmitter → A nerve cell carrying incoming information"
+        ],
+        "answer": 0,
+        "explanation": "Adrenaline — principal role: Prepares multiple organs for rapid action. Adrenaline — signal or structural identity: An emergency-response hormone. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Adrenaline",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q28",
+        "question": "Which pair correctly matches Auxin with its signal or structural identity and usual source or location, in that order?",
+        "options": [
+          "A nerve cell carrying incoming information → Produced especially in young growing tissues",
+          "A plant growth regulator → Between receptors and the central nervous system",
+          "A nerve cell carrying outgoing information → Between the central nervous system and an effector",
+          "A plant growth regulator → Produced especially in young growing tissues"
+        ],
+        "answer": 3,
+        "explanation": "Auxin — signal or structural identity: A plant growth regulator. Auxin — usual source or location: Produced especially in young growing tissues. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Auxin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q29",
+        "question": "Which pair correctly matches Auxin with its usual source or location and principal role, in that order?",
+        "options": [
+          "Produced especially in young growing tissues → Conducts impulses towards a central processing region",
+          "Between a neuron's ending and the next cell → Conducts impulses towards a muscle or gland",
+          "Produced especially in young growing tissues → Promotes shoot-cell elongation and contributes to tropic bending",
+          "Between the central nervous system and an effector → Promotes shoot-cell elongation and contributes to tropic bending"
+        ],
+        "answer": 2,
+        "explanation": "Auxin — usual source or location: Produced especially in young growing tissues. Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Auxin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-M-Q30",
+        "question": "Which pair correctly matches Auxin with its principal role and signal or structural identity, in that order?",
+        "options": [
+          "Supports conscious perception and voluntary control → A nerve cell carrying outgoing information",
+          "Promotes shoot-cell elongation and contributes to tropic bending → A plant growth regulator",
+          "Transfers a signal, often by a neurotransmitter → A plant growth regulator",
+          "Promotes shoot-cell elongation and contributes to tropic bending → A nerve cell carrying incoming information"
+        ],
+        "answer": 1,
+        "explanation": "Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending. Auxin — signal or structural identity: A plant growth regulator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Auxin",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH05-H": {
+    "id": "SA-DPP-27-BIO-CH05-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch5",
+    "chapterNumber": 5,
+    "chapter": "Coordination",
+    "level": "H",
+    "title": "Coordination – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-02",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 100,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q01",
+        "question": "What happens if the sensory neuron of a withdrawal reflex is damaged?",
+        "options": [
+          "The motor neuron starts producing insulin",
+          "The incoming signal may fail to reach the reflex centre",
+          "The response necessarily becomes faster",
+          "The receptor becomes a hormone gland"
+        ],
+        "answer": 1,
+        "explanation": "A complete reflex needs a sensory pathway, central connection and motor output.",
+        "difficulty": "Hard",
+        "topic": "What happens if the sensory neuron of a withdrawal reflex is damaged?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q02",
+        "question": "Why can endocrine effects be slower but longer-lasting than many nerve impulses?",
+        "options": [
+          "Hormones travel through blood and act on target cells",
+          "Hormones move only along axons",
+          "Nerve impulses are stored in the stomach",
+          "Every hormone acts instantly at a synapse"
+        ],
+        "answer": 0,
+        "explanation": "Blood-borne signalling often has different timing and persistence from electrical impulses.",
+        "difficulty": "Hard",
+        "topic": "Why can endocrine effects be slower but longer-lasting than many nerve impulses?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q03",
+        "question": "Why does adrenaline prepare the body for an emergency?",
+        "options": [
+          "It stops oxygen delivery",
+          "It permanently stops glucose use",
+          "It functions only in digestion",
+          "It increases readiness for rapid action, including heart activity"
+        ],
+        "answer": 3,
+        "explanation": "Adrenaline coordinates several changes that support immediate physical responses.",
+        "difficulty": "Hard",
+        "topic": "Why does adrenaline prepare the body for an emergency?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sensory neuron — signal or structural identity: A nerve cell carrying outgoing information\nII. Cerebellum — usual source or location: Between the central nervous system and an effector\nIII. Adrenaline — principal role: Prepares multiple organs for rapid action",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Sensory neuron — signal or structural identity: A nerve cell carrying incoming information; Cerebellum — usual source or location: Posterior part of the brain; Adrenaline — principal role: Prepares multiple organs for rapid action.",
+        "difficulty": "Hard",
+        "topic": "Sensory neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sensory neuron — usual source or location: Between receptors and the central nervous system\nII. Cerebellum — principal role: Transfers a signal, often by a neurotransmitter\nIII. Adrenaline — signal or structural identity: An emergency-response hormone",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Sensory neuron — usual source or location: Between receptors and the central nervous system; Cerebellum — principal role: Coordinates balance and precise movement; Adrenaline — signal or structural identity: An emergency-response hormone.",
+        "difficulty": "Hard",
+        "topic": "Sensory neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sensory neuron — principal role: Supports conscious perception and voluntary control\nII. Cerebellum — signal or structural identity: A hindbrain region\nIII. Adrenaline — usual source or location: Adrenal medulla",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Sensory neuron — principal role: Conducts impulses towards a central processing region; Cerebellum — signal or structural identity: A hindbrain region; Adrenaline — usual source or location: Adrenal medulla.",
+        "difficulty": "Hard",
+        "topic": "Sensory neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Motor neuron — signal or structural identity: A nerve cell carrying outgoing information\nII. Medulla oblongata — usual source or location: Continuous with the spinal cord\nIII. Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Motor neuron — signal or structural identity: A nerve cell carrying outgoing information; Medulla oblongata — usual source or location: Continuous with the spinal cord; Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending.",
+        "difficulty": "Hard",
+        "topic": "Motor neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Motor neuron — usual source or location: Continuous with the spinal cord\nII. Medulla oblongata — principal role: Promotes glucose uptake and storage\nIII. Auxin — signal or structural identity: A blood-glucose-lowering hormone",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Motor neuron — usual source or location: Between the central nervous system and an effector; Medulla oblongata — principal role: Helps regulate vital involuntary functions; Auxin — signal or structural identity: A plant growth regulator.",
+        "difficulty": "Hard",
+        "topic": "Motor neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Motor neuron — principal role: Conducts impulses towards a muscle or gland\nII. Medulla oblongata — signal or structural identity: An emergency-response hormone\nIII. Auxin — usual source or location: Adrenal medulla",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Motor neuron — principal role: Conducts impulses towards a muscle or gland; Medulla oblongata — signal or structural identity: A brainstem region; Auxin — usual source or location: Produced especially in young growing tissues.",
+        "difficulty": "Hard",
+        "topic": "Motor neuron · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Synapse — signal or structural identity: An emergency-response hormone\nII. Insulin — usual source or location: Pancreatic beta cells\nIII. Sensory neuron — principal role: Conducts impulses towards a muscle or gland",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Synapse — signal or structural identity: A junction between signalling cells; Insulin — usual source or location: Pancreatic beta cells; Sensory neuron — principal role: Conducts impulses towards a central processing region.",
+        "difficulty": "Hard",
+        "topic": "Synapse · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Synapse — usual source or location: Between a neuron's ending and the next cell\nII. Insulin — principal role: Promotes glucose uptake and storage\nIII. Sensory neuron — signal or structural identity: A junction between signalling cells",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Synapse — usual source or location: Between a neuron's ending and the next cell; Insulin — principal role: Promotes glucose uptake and storage; Sensory neuron — signal or structural identity: A nerve cell carrying incoming information.",
+        "difficulty": "Hard",
+        "topic": "Synapse · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Synapse — principal role: Conducts impulses towards a central processing region\nII. Insulin — signal or structural identity: A nerve cell carrying outgoing information\nIII. Sensory neuron — usual source or location: Between receptors and the central nervous system",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Synapse — principal role: Transfers a signal, often by a neurotransmitter; Insulin — signal or structural identity: A blood-glucose-lowering hormone; Sensory neuron — usual source or location: Between receptors and the central nervous system.",
+        "difficulty": "Hard",
+        "topic": "Synapse · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebrum — signal or structural identity: A major forebrain region\nII. Adrenaline — usual source or location: Between a neuron's ending and the next cell\nIII. Motor neuron — principal role: Conducts impulses towards a muscle or gland",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Cerebrum — signal or structural identity: A major forebrain region; Adrenaline — usual source or location: Adrenal medulla; Motor neuron — principal role: Conducts impulses towards a muscle or gland.",
+        "difficulty": "Hard",
+        "topic": "Cerebrum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebrum — usual source or location: Between a neuron's ending and the next cell\nII. Adrenaline — principal role: Prepares multiple organs for rapid action\nIII. Motor neuron — signal or structural identity: A nerve cell carrying outgoing information",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Cerebrum — usual source or location: Upper main part of the brain; Adrenaline — principal role: Prepares multiple organs for rapid action; Motor neuron — signal or structural identity: A nerve cell carrying outgoing information.",
+        "difficulty": "Hard",
+        "topic": "Cerebrum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebrum — principal role: Supports conscious perception and voluntary control\nII. Adrenaline — signal or structural identity: An emergency-response hormone\nIII. Motor neuron — usual source or location: Between the central nervous system and an effector",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Cerebrum — principal role: Supports conscious perception and voluntary control; Adrenaline — signal or structural identity: An emergency-response hormone; Motor neuron — usual source or location: Between the central nervous system and an effector.",
+        "difficulty": "Hard",
+        "topic": "Cerebrum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebellum — signal or structural identity: A brainstem region\nII. Auxin — usual source or location: Continuous with the spinal cord\nIII. Synapse — principal role: Prepares multiple organs for rapid action",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Cerebellum — signal or structural identity: A hindbrain region; Auxin — usual source or location: Produced especially in young growing tissues; Synapse — principal role: Transfers a signal, often by a neurotransmitter.",
+        "difficulty": "Hard",
+        "topic": "Cerebellum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebellum — usual source or location: Posterior part of the brain\nII. Auxin — principal role: Promotes glucose uptake and storage\nIII. Synapse — signal or structural identity: A plant growth regulator",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Cerebellum — usual source or location: Posterior part of the brain; Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending; Synapse — signal or structural identity: A junction between signalling cells.",
+        "difficulty": "Hard",
+        "topic": "Cerebellum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cerebellum — principal role: Prepares multiple organs for rapid action\nII. Auxin — signal or structural identity: A plant growth regulator\nIII. Synapse — usual source or location: Between receptors and the central nervous system",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Cerebellum — principal role: Coordinates balance and precise movement; Auxin — signal or structural identity: A plant growth regulator; Synapse — usual source or location: Between a neuron's ending and the next cell.",
+        "difficulty": "Hard",
+        "topic": "Cerebellum · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Medulla oblongata — signal or structural identity: A brainstem region\nII. Sensory neuron — usual source or location: Between receptors and the central nervous system\nIII. Cerebrum — principal role: Conducts impulses towards a muscle or gland",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Medulla oblongata — signal or structural identity: A brainstem region; Sensory neuron — usual source or location: Between receptors and the central nervous system; Cerebrum — principal role: Supports conscious perception and voluntary control.",
+        "difficulty": "Hard",
+        "topic": "Medulla oblongata · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Medulla oblongata — usual source or location: Between receptors and the central nervous system\nII. Sensory neuron — principal role: Transfers a signal, often by a neurotransmitter\nIII. Cerebrum — signal or structural identity: A major forebrain region",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Medulla oblongata — usual source or location: Continuous with the spinal cord; Sensory neuron — principal role: Conducts impulses towards a central processing region; Cerebrum — signal or structural identity: A major forebrain region.",
+        "difficulty": "Hard",
+        "topic": "Medulla oblongata · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Medulla oblongata — principal role: Helps regulate vital involuntary functions\nII. Sensory neuron — signal or structural identity: A major forebrain region\nIII. Cerebrum — usual source or location: Upper main part of the brain",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Medulla oblongata — principal role: Helps regulate vital involuntary functions; Sensory neuron — signal or structural identity: A nerve cell carrying incoming information; Cerebrum — usual source or location: Upper main part of the brain.",
+        "difficulty": "Hard",
+        "topic": "Medulla oblongata · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Insulin — signal or structural identity: A junction between signalling cells\nII. Motor neuron — usual source or location: Between the central nervous system and an effector\nIII. Cerebellum — principal role: Coordinates balance and precise movement",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Insulin — signal or structural identity: A blood-glucose-lowering hormone; Motor neuron — usual source or location: Between the central nervous system and an effector; Cerebellum — principal role: Coordinates balance and precise movement.",
+        "difficulty": "Hard",
+        "topic": "Insulin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Insulin — usual source or location: Pancreatic beta cells\nII. Motor neuron — principal role: Conducts impulses towards a muscle or gland\nIII. Cerebellum — signal or structural identity: A hindbrain region",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Insulin — usual source or location: Pancreatic beta cells; Motor neuron — principal role: Conducts impulses towards a muscle or gland; Cerebellum — signal or structural identity: A hindbrain region.",
+        "difficulty": "Hard",
+        "topic": "Insulin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Insulin — principal role: Coordinates balance and precise movement\nII. Motor neuron — signal or structural identity: A blood-glucose-lowering hormone\nIII. Cerebellum — usual source or location: Adrenal medulla",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Insulin — principal role: Promotes glucose uptake and storage; Motor neuron — signal or structural identity: A nerve cell carrying outgoing information; Cerebellum — usual source or location: Posterior part of the brain.",
+        "difficulty": "Hard",
+        "topic": "Insulin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Adrenaline — signal or structural identity: An emergency-response hormone\nII. Synapse — usual source or location: Adrenal medulla\nIII. Medulla oblongata — principal role: Promotes shoot-cell elongation and contributes to tropic bending",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Adrenaline — signal or structural identity: An emergency-response hormone; Synapse — usual source or location: Between a neuron's ending and the next cell; Medulla oblongata — principal role: Helps regulate vital involuntary functions.",
+        "difficulty": "Hard",
+        "topic": "Adrenaline · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Adrenaline — usual source or location: Pancreatic beta cells\nII. Synapse — principal role: Transfers a signal, often by a neurotransmitter\nIII. Medulla oblongata — signal or structural identity: A nerve cell carrying incoming information",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Adrenaline — usual source or location: Adrenal medulla; Synapse — principal role: Transfers a signal, often by a neurotransmitter; Medulla oblongata — signal or structural identity: A brainstem region.",
+        "difficulty": "Hard",
+        "topic": "Adrenaline · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Adrenaline — principal role: Prepares multiple organs for rapid action\nII. Synapse — signal or structural identity: A junction between signalling cells\nIII. Medulla oblongata — usual source or location: Between the central nervous system and an effector",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Adrenaline — principal role: Prepares multiple organs for rapid action; Synapse — signal or structural identity: A junction between signalling cells; Medulla oblongata — usual source or location: Continuous with the spinal cord.",
+        "difficulty": "Hard",
+        "topic": "Adrenaline · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Auxin — signal or structural identity: A nerve cell carrying incoming information\nII. Cerebrum — usual source or location: Between the central nervous system and an effector\nIII. Insulin — principal role: Promotes glucose uptake and storage",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Auxin — signal or structural identity: A plant growth regulator; Cerebrum — usual source or location: Upper main part of the brain; Insulin — principal role: Promotes glucose uptake and storage.",
+        "difficulty": "Hard",
+        "topic": "Auxin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Auxin — usual source or location: Produced especially in young growing tissues\nII. Cerebrum — principal role: Transfers a signal, often by a neurotransmitter\nIII. Insulin — signal or structural identity: A blood-glucose-lowering hormone",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Auxin — usual source or location: Produced especially in young growing tissues; Cerebrum — principal role: Supports conscious perception and voluntary control; Insulin — signal or structural identity: A blood-glucose-lowering hormone.",
+        "difficulty": "Hard",
+        "topic": "Auxin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH05-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Auxin — principal role: Transfers a signal, often by a neurotransmitter\nII. Cerebrum — signal or structural identity: A major forebrain region\nIII. Insulin — usual source or location: Pancreatic beta cells",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Auxin — principal role: Promotes shoot-cell elongation and contributes to tropic bending; Cerebrum — signal or structural identity: A major forebrain region; Insulin — usual source or location: Pancreatic beta cells.",
+        "difficulty": "Hard",
+        "topic": "Auxin · comparing chapter concepts",
+        "sourceChapter": 5
+      }
+    ]
+  }
+}

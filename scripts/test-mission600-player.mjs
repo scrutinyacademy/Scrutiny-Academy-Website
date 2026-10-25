@@ -21,21 +21,29 @@ const player=read('mission600-dpp.js').replace(/initialize\(\)\.catch[\s\S]*$/,'
 for(const item of catalog.dpps){
   const f=fixture(item.id);vm.runInContext(player,f.ctx);
   await vm.runInContext('loadDpp()',f.ctx);
-  assert.equal(vm.runInContext('dpp.questions.length',f.ctx),3);
+  assert.equal(vm.runInContext('dpp.questions.length',f.ctx),30);
   vm.runInContext('dpp.questions.forEach((q,i)=>state.answers[i]=q.answer)',f.ctx);
   const result=vm.runInContext('analyseAttempt()',f.ctx);
-  assert.equal(result.correct,3);assert.equal(result.accuracy,100);
+  assert.equal(result.correct,30);assert.equal(result.accuracy,100);
   vm.runInContext('submitDpp()',f.ctx);
-  assert.match(f.node('dppResult').innerHTML,/3 \/ 3/);
+  assert.match(f.node('dppResult').innerHTML,/30 \/ 30/);
   assert.match(f.node('dppResult').innerHTML,/Review every answer/);
   assert.equal(JSON.parse(f.store.get('mission600DppAttempts')).length,1);
   vm.runInContext('submitDpp()',f.ctx);
   assert.equal(JSON.parse(f.store.get('mission600DppAttempts')).length,1);
 }
+const navigation=fixture(catalog.dpps[0].id);vm.runInContext(player,navigation.ctx);
+await vm.runInContext('initialize()',navigation.ctx);
+assert.match(navigation.node('dppMeta').textContent,/30 MCQs/);
+for(let step=0;step<29;step++)navigation.node('nextQuestion').onclick();
+assert.equal(navigation.node('progressText').textContent,'Question 30 of 30');
+assert.equal(navigation.node('nextQuestion').disabled,true);
+navigation.node('previousQuestion').onclick();
+assert.equal(navigation.node('progressText').textContent,'Question 29 of 30');
 const f=fixture(catalog.dpps[0].id);vm.runInContext(player,f.ctx);await vm.runInContext('loadDpp()',f.ctx);
 vm.runInContext('state.answers[0]=dpp.questions[0].answer;state.answers[1]=(dpp.questions[1].answer+1)%4',f.ctx);
 const mixed=vm.runInContext('analyseAttempt()',f.ctx);
-assert.equal(mixed.correct,1);assert.equal(mixed.wrong,1);assert.equal(mixed.unanswered,1);assert.equal(mixed.accuracy,33);
+assert.equal(mixed.correct,1);assert.equal(mixed.wrong,1);assert.equal(mixed.unanswered,28);assert.equal(mixed.accuracy,3);
 assert.equal(vm.runInContext(`escapeHtml('<script>')`,f.ctx),'&lt;script&gt;');
 const stale=fixture(catalog.dpps[0].id,true);vm.runInContext(player,stale.ctx);await assert.rejects(vm.runInContext('loadDpp()',stale.ctx),/being updated/);
 const missing=fixture('missing');vm.runInContext(player,missing.ctx);await assert.rejects(vm.runInContext('loadDpp()',missing.ctx),/not found/);

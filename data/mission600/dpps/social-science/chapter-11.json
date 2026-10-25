@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH11-E": {
+    "id": "SA-DPP-27-SOC-CH11-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch11",
+    "chapterNumber": 11,
+    "chapter": "Sustainable Development with Equity",
+    "level": "E",
+    "title": "Sustainable Development with Equity – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-11.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-02",
+    "recommendedDate": "2026-11-19",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 146,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q01",
+        "question": "Sustainable development considers whose needs as well as those of people today?",
+        "options": [
+          "Only factory owners",
+          "Future generations",
+          "Only today's wealthiest consumers",
+          "Only exporters"
+        ],
+        "answer": 1,
+        "explanation": "Sustainability protects the ability of future generations to meet their needs.",
+        "difficulty": "Easy",
+        "topic": "Sustainable development considers whose needs as well as those of people today?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q02",
+        "question": "Equity in development refers mainly to what?",
+        "options": [
+          "Fairness in access, benefits and burdens",
+          "Identical geography everywhere",
+          "Only maximum output",
+          "Only the lowest project cost"
+        ],
+        "answer": 0,
+        "explanation": "Equity asks how opportunities and costs are distributed.",
+        "difficulty": "Easy",
+        "topic": "Equity in development refers mainly to what?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q03",
+        "question": "Which is a non-renewable resource?",
+        "options": [
+          "Sunlight",
+          "Wind",
+          "Seasonally replenished surface water",
+          "Coal"
+        ],
+        "answer": 3,
+        "explanation": "Coal forms over geological timescales.",
+        "difficulty": "Easy",
+        "topic": "Which is a non-renewable resource?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q04",
+        "question": "Intergenerational equity: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Loss of a finite stock over human timescales",
+          "Contamination of air, water or land",
+          "Fairness between present and future people",
+          "Fairness among people living today"
+        ],
+        "answer": 2,
+        "explanation": "Intergenerational equity — sustainability concept: Fairness between present and future people.",
+        "difficulty": "Easy",
+        "topic": "Intergenerational equity · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q05",
+        "question": "Intergenerational equity: which option correctly identifies the core concern?",
+        "options": [
+          "Affected people can lose livelihoods and social ties",
+          "Current resource use can affect later generations",
+          "Extraction can reduce what remains available",
+          "Production can impose costs outside the market transaction"
+        ],
+        "answer": 1,
+        "explanation": "Intergenerational equity — core concern: Current resource use can affect later generations.",
+        "difficulty": "Easy",
+        "topic": "Intergenerational equity · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q06",
+        "question": "Intergenerational equity: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Consider whether future needs remain achievable",
+          "Non-renewable resources are unlimited",
+          "Only present consumption matters",
+          "Future needs can always be ignored"
+        ],
+        "answer": 0,
+        "explanation": "Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable.",
+        "difficulty": "Easy",
+        "topic": "Intergenerational equity · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q07",
+        "question": "Intragenerational equity: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Loss of a finite stock over human timescales",
+          "Contamination of air, water or land",
+          "Loss of homes or access associated with a change or project",
+          "Fairness among people living today"
+        ],
+        "answer": 3,
+        "explanation": "Intragenerational equity — sustainability concept: Fairness among people living today.",
+        "difficulty": "Easy",
+        "topic": "Intragenerational equity · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q08",
+        "question": "Intragenerational equity: which option correctly identifies the core concern?",
+        "options": [
+          "Affected people can lose livelihoods and social ties",
+          "A cash payment alone may not restore a livelihood",
+          "Benefits and burdens may be distributed unequally",
+          "Production can impose costs outside the market transaction"
+        ],
+        "answer": 2,
+        "explanation": "Intragenerational equity — core concern: Benefits and burdens may be distributed unequally.",
+        "difficulty": "Easy",
+        "topic": "Intragenerational equity · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q09",
+        "question": "Intragenerational equity: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Only the richest group's interests count",
+          "Examine who gains and who bears costs",
+          "Distribution of present benefits does not matter",
+          "Every current household receives identical gains automatically"
+        ],
+        "answer": 1,
+        "explanation": "Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs.",
+        "difficulty": "Easy",
+        "topic": "Intragenerational equity · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q10",
+        "question": "Non-renewable resource depletion: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Loss of a finite stock over human timescales",
+          "Contamination of air, water or land",
+          "Loss of homes or access associated with a change or project",
+          "Support to restore lives after displacement"
+        ],
+        "answer": 0,
+        "explanation": "Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales.",
+        "difficulty": "Easy",
+        "topic": "Non-renewable resource depletion · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q11",
+        "question": "Non-renewable resource depletion: which option correctly identifies the core concern?",
+        "options": [
+          "Affected people can lose livelihoods and social ties",
+          "A cash payment alone may not restore a livelihood",
+          "Vulnerable groups may face disproportionate harm",
+          "Extraction can reduce what remains available"
+        ],
+        "answer": 3,
+        "explanation": "Non-renewable resource depletion — core concern: Extraction can reduce what remains available.",
+        "difficulty": "Easy",
+        "topic": "Non-renewable resource depletion · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q12",
+        "question": "Non-renewable resource depletion: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Long-term resource availability is irrelevant",
+          "Stocks regenerate immediately after extraction",
+          "Use efficiency and alternatives when assessing long-term needs",
+          "Finite stocks cannot decline"
+        ],
+        "answer": 2,
+        "explanation": "Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs.",
+        "difficulty": "Easy",
+        "topic": "Non-renewable resource depletion · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q13",
+        "question": "Environmental pollution: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fair treatment in environmental risks and protection",
+          "Contamination of air, water or land",
+          "Loss of homes or access associated with a change or project",
+          "Support to restore lives after displacement"
+        ],
+        "answer": 1,
+        "explanation": "Environmental pollution — sustainability concept: Contamination of air, water or land.",
+        "difficulty": "Easy",
+        "topic": "Environmental pollution · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q14",
+        "question": "Environmental pollution: which option correctly identifies the core concern?",
+        "options": [
+          "Production can impose costs outside the market transaction",
+          "A cash payment alone may not restore a livelihood",
+          "Vulnerable groups may face disproportionate harm",
+          "Wasteful consumption increases pressure on resources"
+        ],
+        "answer": 0,
+        "explanation": "Environmental pollution — core concern: Production can impose costs outside the market transaction.",
+        "difficulty": "Easy",
+        "topic": "Environmental pollution · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q15",
+        "question": "Environmental pollution: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "All effluent is harmless",
+          "Pollution has no health or environmental cost",
+          "Market output records every ecological harm fully",
+          "Include environmental and health damage in project assessment"
+        ],
+        "answer": 3,
+        "explanation": "Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment.",
+        "difficulty": "Easy",
+        "topic": "Environmental pollution · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q16",
+        "question": "Displacement: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fair treatment in environmental risks and protection",
+          "Obtaining useful services with less resource input",
+          "Loss of homes or access associated with a change or project",
+          "Support to restore lives after displacement"
+        ],
+        "answer": 2,
+        "explanation": "Displacement — sustainability concept: Loss of homes or access associated with a change or project.",
+        "difficulty": "Easy",
+        "topic": "Displacement · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q17",
+        "question": "Displacement: which option correctly identifies the core concern?",
+        "options": [
+          "Local knowledge and interests can be overlooked",
+          "Affected people can lose livelihoods and social ties",
+          "Vulnerable groups may face disproportionate harm",
+          "Wasteful consumption increases pressure on resources"
+        ],
+        "answer": 1,
+        "explanation": "Displacement — core concern: Affected people can lose livelihoods and social ties.",
+        "difficulty": "Easy",
+        "topic": "Displacement · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q18",
+        "question": "Displacement: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Assess rights, consent requirements and rehabilitation obligations",
+          "Loss of homes and work needs no assessment",
+          "Affected residents have no relevant interests",
+          "A project never changes livelihoods"
+        ],
+        "answer": 0,
+        "explanation": "Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations.",
+        "difficulty": "Easy",
+        "topic": "Displacement · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q19",
+        "question": "Rehabilitation: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fair treatment in environmental risks and protection",
+          "Obtaining useful services with less resource input",
+          "Involvement of affected people in decisions",
+          "Support to restore lives after displacement"
+        ],
+        "answer": 3,
+        "explanation": "Rehabilitation — sustainability concept: Support to restore lives after displacement.",
+        "difficulty": "Easy",
+        "topic": "Rehabilitation · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q20",
+        "question": "Rehabilitation: which option correctly identifies the core concern?",
+        "options": [
+          "Local knowledge and interests can be overlooked",
+          "Current resource use can affect later generations",
+          "A cash payment alone may not restore a livelihood",
+          "Wasteful consumption increases pressure on resources"
+        ],
+        "answer": 2,
+        "explanation": "Rehabilitation — core concern: A cash payment alone may not restore a livelihood.",
+        "difficulty": "Easy",
+        "topic": "Rehabilitation · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q21",
+        "question": "Rehabilitation: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Cash alone always restores every lost livelihood",
+          "Consider housing, land, work and social needs",
+          "Housing and work are unrelated to rehabilitation",
+          "No support is needed after displacement"
+        ],
+        "answer": 1,
+        "explanation": "Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs.",
+        "difficulty": "Easy",
+        "topic": "Rehabilitation · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q22",
+        "question": "Environmental justice: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fair treatment in environmental risks and protection",
+          "Obtaining useful services with less resource input",
+          "Involvement of affected people in decisions",
+          "Fairness between present and future people"
+        ],
+        "answer": 0,
+        "explanation": "Environmental justice — sustainability concept: Fair treatment in environmental risks and protection.",
+        "difficulty": "Easy",
+        "topic": "Environmental justice · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q23",
+        "question": "Environmental justice: which option correctly identifies the core concern?",
+        "options": [
+          "Local knowledge and interests can be overlooked",
+          "Current resource use can affect later generations",
+          "Benefits and burdens may be distributed unequally",
+          "Vulnerable groups may face disproportionate harm"
+        ],
+        "answer": 3,
+        "explanation": "Environmental justice — core concern: Vulnerable groups may face disproportionate harm.",
+        "difficulty": "Easy",
+        "topic": "Environmental justice · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q24",
+        "question": "Environmental justice: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Every group is exposed to identical environmental harm",
+          "Participation cannot matter to fairness",
+          "Examine exposure, participation and access to remedies",
+          "Vulnerable communities never face disproportionate risks"
+        ],
+        "answer": 2,
+        "explanation": "Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies.",
+        "difficulty": "Easy",
+        "topic": "Environmental justice · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q25",
+        "question": "Resource efficiency: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fairness among people living today",
+          "Obtaining useful services with less resource input",
+          "Involvement of affected people in decisions",
+          "Fairness between present and future people"
+        ],
+        "answer": 1,
+        "explanation": "Resource efficiency — sustainability concept: Obtaining useful services with less resource input.",
+        "difficulty": "Easy",
+        "topic": "Resource efficiency · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q26",
+        "question": "Resource efficiency: which option correctly identifies the core concern?",
+        "options": [
+          "Wasteful consumption increases pressure on resources",
+          "Current resource use can affect later generations",
+          "Benefits and burdens may be distributed unequally",
+          "Extraction can reduce what remains available"
+        ],
+        "answer": 0,
+        "explanation": "Resource efficiency — core concern: Wasteful consumption increases pressure on resources.",
+        "difficulty": "Easy",
+        "topic": "Resource efficiency · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q27",
+        "question": "Resource efficiency: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "More waste per useful service means greater efficiency",
+          "Efficiency depends only on total production",
+          "Resource input is irrelevant to efficiency",
+          "Compare ways to meet needs with lower material and energy use"
+        ],
+        "answer": 3,
+        "explanation": "Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use.",
+        "difficulty": "Easy",
+        "topic": "Resource efficiency · appropriate assessment principle",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q28",
+        "question": "Public participation: which option correctly identifies the sustainability concept?",
+        "options": [
+          "Fairness among people living today",
+          "Loss of a finite stock over human timescales",
+          "Involvement of affected people in decisions",
+          "Fairness between present and future people"
+        ],
+        "answer": 2,
+        "explanation": "Public participation — sustainability concept: Involvement of affected people in decisions.",
+        "difficulty": "Easy",
+        "topic": "Public participation · sustainability concept",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q29",
+        "question": "Public participation: which option correctly identifies the core concern?",
+        "options": [
+          "Production can impose costs outside the market transaction",
+          "Local knowledge and interests can be overlooked",
+          "Benefits and burdens may be distributed unequally",
+          "Extraction can reduce what remains available"
+        ],
+        "answer": 1,
+        "explanation": "Public participation — core concern: Local knowledge and interests can be overlooked.",
+        "difficulty": "Easy",
+        "topic": "Public participation · core concern",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-E-Q30",
+        "question": "Public participation: which option correctly identifies the appropriate assessment principle?",
+        "options": [
+          "Use informed consultation alongside evidence and accountable decisions",
+          "Consultation replaces every need for evidence",
+          "Decision-makers never need to explain their choices",
+          "Affected people's knowledge should always be excluded"
+        ],
+        "answer": 0,
+        "explanation": "Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions.",
+        "difficulty": "Easy",
+        "topic": "Public participation · appropriate assessment principle",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH11-M": {
+    "id": "SA-DPP-27-SOC-CH11-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch11",
+    "chapterNumber": 11,
+    "chapter": "Sustainable Development with Equity",
+    "level": "M",
+    "title": "Sustainable Development with Equity – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-11.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-02",
+    "recommendedDate": "2026-11-20",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 146,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q01",
+        "question": "Why can industrial output growth have an environmental cost?",
+        "options": [
+          "Pollution and resource depletion may accompany production",
+          "Every factory always cleans all waste perfectly",
+          "Output never uses materials",
+          "Environmental quality cannot change"
+        ],
+        "answer": 0,
+        "explanation": "Production choices and safeguards determine environmental effects.",
+        "difficulty": "Medium",
+        "topic": "Why can industrial output growth have an environmental cost?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q02",
+        "question": "Why should displaced families receive attention in project planning?",
+        "options": [
+          "They automatically gain more than everyone",
+          "Their land and work have no value",
+          "Only distant consumers have rights",
+          "They may bear serious livelihood and social losses"
+        ],
+        "answer": 3,
+        "explanation": "Project assessment should include rights, rehabilitation and livelihood restoration.",
+        "difficulty": "Medium",
+        "topic": "Why should displaced families receive attention in project planning?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q03",
+        "question": "Why can reducing energy waste support sustainability?",
+        "options": [
+          "It stops all development",
+          "It removes every energy need permanently",
+          "It lowers resource demand for a given useful service",
+          "It always increases fossil fuel extraction"
+        ],
+        "answer": 2,
+        "explanation": "Efficiency can reduce avoidable consumption.",
+        "difficulty": "Medium",
+        "topic": "Why can reducing energy waste support sustainability?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q04",
+        "question": "Which pair correctly matches Intergenerational equity with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Loss of a finite stock over human timescales → Extraction can reduce what remains available",
+          "Fairness between present and future people → Current resource use can affect later generations",
+          "Fairness among people living today → Current resource use can affect later generations",
+          "Fairness between present and future people → Benefits and burdens may be distributed unequally"
+        ],
+        "answer": 1,
+        "explanation": "Intergenerational equity — sustainability concept: Fairness between present and future people. Intergenerational equity — core concern: Current resource use can affect later generations. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intergenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q05",
+        "question": "Which pair correctly matches Intergenerational equity with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Current resource use can affect later generations → Consider whether future needs remain achievable",
+          "Extraction can reduce what remains available → Consider whether future needs remain achievable",
+          "Current resource use can affect later generations → Only present consumption matters",
+          "Production can impose costs outside the market transaction → Future needs can always be ignored"
+        ],
+        "answer": 0,
+        "explanation": "Intergenerational equity — core concern: Current resource use can affect later generations. Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intergenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q06",
+        "question": "Which pair correctly matches Intergenerational equity with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Non-renewable resources are unlimited → Fairness between present and future people",
+          "Consider whether future needs remain achievable → Fairness among people living today",
+          "Only present consumption matters → Loss of a finite stock over human timescales",
+          "Consider whether future needs remain achievable → Fairness between present and future people"
+        ],
+        "answer": 3,
+        "explanation": "Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable. Intergenerational equity — sustainability concept: Fairness between present and future people. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intergenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q07",
+        "question": "Which pair correctly matches Intragenerational equity with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Fairness among people living today → Extraction can reduce what remains available",
+          "Contamination of air, water or land → Production can impose costs outside the market transaction",
+          "Fairness among people living today → Benefits and burdens may be distributed unequally",
+          "Loss of a finite stock over human timescales → Benefits and burdens may be distributed unequally"
+        ],
+        "answer": 2,
+        "explanation": "Intragenerational equity — sustainability concept: Fairness among people living today. Intragenerational equity — core concern: Benefits and burdens may be distributed unequally. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intragenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q08",
+        "question": "Which pair correctly matches Intragenerational equity with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Affected people can lose livelihoods and social ties → Only the richest group's interests count",
+          "Benefits and burdens may be distributed unequally → Examine who gains and who bears costs",
+          "Production can impose costs outside the market transaction → Examine who gains and who bears costs",
+          "Benefits and burdens may be distributed unequally → Every current household receives identical gains automatically"
+        ],
+        "answer": 1,
+        "explanation": "Intragenerational equity — core concern: Benefits and burdens may be distributed unequally. Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intragenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q09",
+        "question": "Which pair correctly matches Intragenerational equity with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Examine who gains and who bears costs → Fairness among people living today",
+          "Distribution of present benefits does not matter → Fairness among people living today",
+          "Examine who gains and who bears costs → Loss of a finite stock over human timescales",
+          "Every current household receives identical gains automatically → Contamination of air, water or land"
+        ],
+        "answer": 0,
+        "explanation": "Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs. Intragenerational equity — sustainability concept: Fairness among people living today. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intragenerational equity",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q10",
+        "question": "Which pair correctly matches Non-renewable resource depletion with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Contamination of air, water or land → Extraction can reduce what remains available",
+          "Loss of a finite stock over human timescales → Production can impose costs outside the market transaction",
+          "Loss of homes or access associated with a change or project → Affected people can lose livelihoods and social ties",
+          "Loss of a finite stock over human timescales → Extraction can reduce what remains available"
+        ],
+        "answer": 3,
+        "explanation": "Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales. Non-renewable resource depletion — core concern: Extraction can reduce what remains available. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-renewable resource depletion",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q11",
+        "question": "Which pair correctly matches Non-renewable resource depletion with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Extraction can reduce what remains available → Long-term resource availability is irrelevant",
+          "A cash payment alone may not restore a livelihood → Stocks regenerate immediately after extraction",
+          "Extraction can reduce what remains available → Use efficiency and alternatives when assessing long-term needs",
+          "Affected people can lose livelihoods and social ties → Use efficiency and alternatives when assessing long-term needs"
+        ],
+        "answer": 2,
+        "explanation": "Non-renewable resource depletion — core concern: Extraction can reduce what remains available. Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-renewable resource depletion",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q12",
+        "question": "Which pair correctly matches Non-renewable resource depletion with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Long-term resource availability is irrelevant → Loss of homes or access associated with a change or project",
+          "Use efficiency and alternatives when assessing long-term needs → Loss of a finite stock over human timescales",
+          "Finite stocks cannot decline → Loss of a finite stock over human timescales",
+          "Use efficiency and alternatives when assessing long-term needs → Contamination of air, water or land"
+        ],
+        "answer": 1,
+        "explanation": "Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs. Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-renewable resource depletion",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q13",
+        "question": "Which pair correctly matches Environmental pollution with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Contamination of air, water or land → Production can impose costs outside the market transaction",
+          "Loss of homes or access associated with a change or project → Production can impose costs outside the market transaction",
+          "Contamination of air, water or land → Affected people can lose livelihoods and social ties",
+          "Support to restore lives after displacement → A cash payment alone may not restore a livelihood"
+        ],
+        "answer": 0,
+        "explanation": "Environmental pollution — sustainability concept: Contamination of air, water or land. Environmental pollution — core concern: Production can impose costs outside the market transaction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental pollution",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q14",
+        "question": "Which pair correctly matches Environmental pollution with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "A cash payment alone may not restore a livelihood → Include environmental and health damage in project assessment",
+          "Production can impose costs outside the market transaction → Pollution has no health or environmental cost",
+          "Vulnerable groups may face disproportionate harm → Market output records every ecological harm fully",
+          "Production can impose costs outside the market transaction → Include environmental and health damage in project assessment"
+        ],
+        "answer": 3,
+        "explanation": "Environmental pollution — core concern: Production can impose costs outside the market transaction. Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental pollution",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q15",
+        "question": "Which pair correctly matches Environmental pollution with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Include environmental and health damage in project assessment → Loss of homes or access associated with a change or project",
+          "Pollution has no health or environmental cost → Support to restore lives after displacement",
+          "Include environmental and health damage in project assessment → Contamination of air, water or land",
+          "All effluent is harmless → Contamination of air, water or land"
+        ],
+        "answer": 2,
+        "explanation": "Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment. Environmental pollution — sustainability concept: Contamination of air, water or land. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental pollution",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q16",
+        "question": "Which pair correctly matches Displacement with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Fair treatment in environmental risks and protection → Vulnerable groups may face disproportionate harm",
+          "Loss of homes or access associated with a change or project → Affected people can lose livelihoods and social ties",
+          "Support to restore lives after displacement → Affected people can lose livelihoods and social ties",
+          "Loss of homes or access associated with a change or project → A cash payment alone may not restore a livelihood"
+        ],
+        "answer": 1,
+        "explanation": "Displacement — sustainability concept: Loss of homes or access associated with a change or project. Displacement — core concern: Affected people can lose livelihoods and social ties. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q17",
+        "question": "Which pair correctly matches Displacement with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Affected people can lose livelihoods and social ties → Assess rights, consent requirements and rehabilitation obligations",
+          "Vulnerable groups may face disproportionate harm → Assess rights, consent requirements and rehabilitation obligations",
+          "Affected people can lose livelihoods and social ties → Affected residents have no relevant interests",
+          "Wasteful consumption increases pressure on resources → A project never changes livelihoods"
+        ],
+        "answer": 0,
+        "explanation": "Displacement — core concern: Affected people can lose livelihoods and social ties. Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q18",
+        "question": "Which pair correctly matches Displacement with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Loss of homes and work needs no assessment → Loss of homes or access associated with a change or project",
+          "Assess rights, consent requirements and rehabilitation obligations → Support to restore lives after displacement",
+          "Affected residents have no relevant interests → Fair treatment in environmental risks and protection",
+          "Assess rights, consent requirements and rehabilitation obligations → Loss of homes or access associated with a change or project"
+        ],
+        "answer": 3,
+        "explanation": "Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations. Displacement — sustainability concept: Loss of homes or access associated with a change or project. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q19",
+        "question": "Which pair correctly matches Rehabilitation with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Support to restore lives after displacement → Vulnerable groups may face disproportionate harm",
+          "Obtaining useful services with less resource input → Wasteful consumption increases pressure on resources",
+          "Support to restore lives after displacement → A cash payment alone may not restore a livelihood",
+          "Fair treatment in environmental risks and protection → A cash payment alone may not restore a livelihood"
+        ],
+        "answer": 2,
+        "explanation": "Rehabilitation — sustainability concept: Support to restore lives after displacement. Rehabilitation — core concern: A cash payment alone may not restore a livelihood. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rehabilitation",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q20",
+        "question": "Which pair correctly matches Rehabilitation with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Local knowledge and interests can be overlooked → Cash alone always restores every lost livelihood",
+          "A cash payment alone may not restore a livelihood → Consider housing, land, work and social needs",
+          "Wasteful consumption increases pressure on resources → Consider housing, land, work and social needs",
+          "A cash payment alone may not restore a livelihood → No support is needed after displacement"
+        ],
+        "answer": 1,
+        "explanation": "Rehabilitation — core concern: A cash payment alone may not restore a livelihood. Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rehabilitation",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q21",
+        "question": "Which pair correctly matches Rehabilitation with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Consider housing, land, work and social needs → Support to restore lives after displacement",
+          "Housing and work are unrelated to rehabilitation → Support to restore lives after displacement",
+          "Consider housing, land, work and social needs → Fair treatment in environmental risks and protection",
+          "No support is needed after displacement → Obtaining useful services with less resource input"
+        ],
+        "answer": 0,
+        "explanation": "Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs. Rehabilitation — sustainability concept: Support to restore lives after displacement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rehabilitation",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q22",
+        "question": "Which pair correctly matches Environmental justice with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Obtaining useful services with less resource input → Vulnerable groups may face disproportionate harm",
+          "Fair treatment in environmental risks and protection → Wasteful consumption increases pressure on resources",
+          "Involvement of affected people in decisions → Local knowledge and interests can be overlooked",
+          "Fair treatment in environmental risks and protection → Vulnerable groups may face disproportionate harm"
+        ],
+        "answer": 3,
+        "explanation": "Environmental justice — sustainability concept: Fair treatment in environmental risks and protection. Environmental justice — core concern: Vulnerable groups may face disproportionate harm. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental justice",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q23",
+        "question": "Which pair correctly matches Environmental justice with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Vulnerable groups may face disproportionate harm → Every group is exposed to identical environmental harm",
+          "Current resource use can affect later generations → Participation cannot matter to fairness",
+          "Vulnerable groups may face disproportionate harm → Examine exposure, participation and access to remedies",
+          "Local knowledge and interests can be overlooked → Examine exposure, participation and access to remedies"
+        ],
+        "answer": 2,
+        "explanation": "Environmental justice — core concern: Vulnerable groups may face disproportionate harm. Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental justice",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q24",
+        "question": "Which pair correctly matches Environmental justice with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Every group is exposed to identical environmental harm → Involvement of affected people in decisions",
+          "Examine exposure, participation and access to remedies → Fair treatment in environmental risks and protection",
+          "Vulnerable communities never face disproportionate risks → Fair treatment in environmental risks and protection",
+          "Examine exposure, participation and access to remedies → Obtaining useful services with less resource input"
+        ],
+        "answer": 1,
+        "explanation": "Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies. Environmental justice — sustainability concept: Fair treatment in environmental risks and protection. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental justice",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q25",
+        "question": "Which pair correctly matches Resource efficiency with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Obtaining useful services with less resource input → Wasteful consumption increases pressure on resources",
+          "Involvement of affected people in decisions → Wasteful consumption increases pressure on resources",
+          "Obtaining useful services with less resource input → Local knowledge and interests can be overlooked",
+          "Fairness between present and future people → Current resource use can affect later generations"
+        ],
+        "answer": 0,
+        "explanation": "Resource efficiency — sustainability concept: Obtaining useful services with less resource input. Resource efficiency — core concern: Wasteful consumption increases pressure on resources. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resource efficiency",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q26",
+        "question": "Which pair correctly matches Resource efficiency with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Current resource use can affect later generations → Compare ways to meet needs with lower material and energy use",
+          "Wasteful consumption increases pressure on resources → Efficiency depends only on total production",
+          "Benefits and burdens may be distributed unequally → Resource input is irrelevant to efficiency",
+          "Wasteful consumption increases pressure on resources → Compare ways to meet needs with lower material and energy use"
+        ],
+        "answer": 3,
+        "explanation": "Resource efficiency — core concern: Wasteful consumption increases pressure on resources. Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resource efficiency",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q27",
+        "question": "Which pair correctly matches Resource efficiency with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Compare ways to meet needs with lower material and energy use → Involvement of affected people in decisions",
+          "Efficiency depends only on total production → Fairness between present and future people",
+          "Compare ways to meet needs with lower material and energy use → Obtaining useful services with less resource input",
+          "More waste per useful service means greater efficiency → Obtaining useful services with less resource input"
+        ],
+        "answer": 2,
+        "explanation": "Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use. Resource efficiency — sustainability concept: Obtaining useful services with less resource input. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resource efficiency",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q28",
+        "question": "Which pair correctly matches Public participation with its sustainability concept and core concern, in that order?",
+        "options": [
+          "Fairness among people living today → Benefits and burdens may be distributed unequally",
+          "Involvement of affected people in decisions → Local knowledge and interests can be overlooked",
+          "Fairness between present and future people → Local knowledge and interests can be overlooked",
+          "Involvement of affected people in decisions → Current resource use can affect later generations"
+        ],
+        "answer": 1,
+        "explanation": "Public participation — sustainability concept: Involvement of affected people in decisions. Public participation — core concern: Local knowledge and interests can be overlooked. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public participation",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q29",
+        "question": "Which pair correctly matches Public participation with its core concern and appropriate assessment principle, in that order?",
+        "options": [
+          "Local knowledge and interests can be overlooked → Use informed consultation alongside evidence and accountable decisions",
+          "Benefits and burdens may be distributed unequally → Use informed consultation alongside evidence and accountable decisions",
+          "Local knowledge and interests can be overlooked → Decision-makers never need to explain their choices",
+          "Extraction can reduce what remains available → Affected people's knowledge should always be excluded"
+        ],
+        "answer": 0,
+        "explanation": "Public participation — core concern: Local knowledge and interests can be overlooked. Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public participation",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-M-Q30",
+        "question": "Which pair correctly matches Public participation with its appropriate assessment principle and sustainability concept, in that order?",
+        "options": [
+          "Consultation replaces every need for evidence → Involvement of affected people in decisions",
+          "Use informed consultation alongside evidence and accountable decisions → Fairness between present and future people",
+          "Decision-makers never need to explain their choices → Fairness among people living today",
+          "Use informed consultation alongside evidence and accountable decisions → Involvement of affected people in decisions"
+        ],
+        "answer": 3,
+        "explanation": "Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions. Public participation — sustainability concept: Involvement of affected people in decisions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public participation",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH11-H": {
+    "id": "SA-DPP-27-SOC-CH11-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch11",
+    "chapterNumber": 11,
+    "chapter": "Sustainable Development with Equity",
+    "level": "H",
+    "title": "Sustainable Development with Equity – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-11.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-02",
+    "recommendedDate": "2026-11-21",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 146,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q01",
+        "question": "A project raises GDP while contaminating drinking water. What does GDP growth fail to show?",
+        "options": [
+          "All monetary production",
+          "The project's entire physical output",
+          "The number of goods sold only",
+          "Environmental damage and unequal health costs"
+        ],
+        "answer": 3,
+        "explanation": "A production total does not fully account for wellbeing or ecological harm.",
+        "difficulty": "Hard",
+        "topic": "A project raises GDP while contaminating drinking water. What does GDP growth fail to show?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q02",
+        "question": "Why is environmental justice linked to equity?",
+        "options": [
+          "Pollution affects only future generations",
+          "Environmental costs are automatically shared equally",
+          "Vulnerable groups may bear disproportionate damage",
+          "All groups always face identical risks"
+        ],
+        "answer": 2,
+        "explanation": "Location, income and political power can influence exposure and protection.",
+        "difficulty": "Hard",
+        "topic": "Why is environmental justice linked to equity?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q03",
+        "question": "Why should alternatives be compared before approving a major resource project?",
+        "options": [
+          "Consultation removes the need for evidence",
+          "Different designs can change social costs, ecological harm and benefits",
+          "The largest project is always the fairest",
+          "Alternatives never affect outcomes"
+        ],
+        "answer": 1,
+        "explanation": "Comparison helps identify options that meet needs with fewer unjustified harms.",
+        "difficulty": "Hard",
+        "topic": "Why should alternatives be compared before approving a major resource project?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intergenerational equity — sustainability concept: Fairness among people living today\nII. Displacement — core concern: Affected people can lose livelihoods and social ties\nIII. Resource efficiency — appropriate assessment principle: Resource input is irrelevant to efficiency",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Intergenerational equity — sustainability concept: Fairness between present and future people; Displacement — core concern: Affected people can lose livelihoods and social ties; Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use.",
+        "difficulty": "Hard",
+        "topic": "Intergenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intergenerational equity — core concern: Current resource use can affect later generations\nII. Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations\nIII. Resource efficiency — sustainability concept: Contamination of air, water or land",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Intergenerational equity — core concern: Current resource use can affect later generations; Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations; Resource efficiency — sustainability concept: Obtaining useful services with less resource input.",
+        "difficulty": "Hard",
+        "topic": "Intergenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intergenerational equity — appropriate assessment principle: Non-renewable resources are unlimited\nII. Displacement — sustainability concept: Contamination of air, water or land\nIII. Resource efficiency — core concern: Wasteful consumption increases pressure on resources",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable; Displacement — sustainability concept: Loss of homes or access associated with a change or project; Resource efficiency — core concern: Wasteful consumption increases pressure on resources.",
+        "difficulty": "Hard",
+        "topic": "Intergenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intragenerational equity — sustainability concept: Fairness among people living today\nII. Rehabilitation — core concern: Affected people can lose livelihoods and social ties\nIII. Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Intragenerational equity — sustainability concept: Fairness among people living today; Rehabilitation — core concern: A cash payment alone may not restore a livelihood; Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions.",
+        "difficulty": "Hard",
+        "topic": "Intragenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intragenerational equity — core concern: A cash payment alone may not restore a livelihood\nII. Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs\nIII. Public participation — sustainability concept: Involvement of affected people in decisions",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Intragenerational equity — core concern: Benefits and burdens may be distributed unequally; Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs; Public participation — sustainability concept: Involvement of affected people in decisions.",
+        "difficulty": "Hard",
+        "topic": "Intragenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs\nII. Rehabilitation — sustainability concept: Support to restore lives after displacement\nIII. Public participation — core concern: Local knowledge and interests can be overlooked",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs; Rehabilitation — sustainability concept: Support to restore lives after displacement; Public participation — core concern: Local knowledge and interests can be overlooked.",
+        "difficulty": "Hard",
+        "topic": "Intragenerational equity · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-renewable resource depletion — sustainability concept: Obtaining useful services with less resource input\nII. Environmental justice — core concern: Local knowledge and interests can be overlooked\nIII. Intergenerational equity — appropriate assessment principle: Non-renewable resources are unlimited",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales; Environmental justice — core concern: Vulnerable groups may face disproportionate harm; Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable.",
+        "difficulty": "Hard",
+        "topic": "Non-renewable resource depletion · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-renewable resource depletion — core concern: Extraction can reduce what remains available\nII. Environmental justice — appropriate assessment principle: Vulnerable communities never face disproportionate risks\nIII. Intergenerational equity — sustainability concept: Loss of a finite stock over human timescales",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Non-renewable resource depletion — core concern: Extraction can reduce what remains available; Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies; Intergenerational equity — sustainability concept: Fairness between present and future people.",
+        "difficulty": "Hard",
+        "topic": "Non-renewable resource depletion · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-renewable resource depletion — appropriate assessment principle: Long-term resource availability is irrelevant\nII. Environmental justice — sustainability concept: Fair treatment in environmental risks and protection\nIII. Intergenerational equity — core concern: Production can impose costs outside the market transaction",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs; Environmental justice — sustainability concept: Fair treatment in environmental risks and protection; Intergenerational equity — core concern: Current resource use can affect later generations.",
+        "difficulty": "Hard",
+        "topic": "Non-renewable resource depletion · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental pollution — sustainability concept: Contamination of air, water or land\nII. Resource efficiency — core concern: Wasteful consumption increases pressure on resources\nIII. Intragenerational equity — appropriate assessment principle: Only the richest group's interests count",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Environmental pollution — sustainability concept: Contamination of air, water or land; Resource efficiency — core concern: Wasteful consumption increases pressure on resources; Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs.",
+        "difficulty": "Hard",
+        "topic": "Environmental pollution · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental pollution — core concern: Extraction can reduce what remains available\nII. Resource efficiency — appropriate assessment principle: Resource input is irrelevant to efficiency\nIII. Intragenerational equity — sustainability concept: Fairness among people living today",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Environmental pollution — core concern: Production can impose costs outside the market transaction; Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use; Intragenerational equity — sustainability concept: Fairness among people living today.",
+        "difficulty": "Hard",
+        "topic": "Environmental pollution · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment\nII. Resource efficiency — sustainability concept: Loss of homes or access associated with a change or project\nIII. Intragenerational equity — core concern: Benefits and burdens may be distributed unequally",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment; Resource efficiency — sustainability concept: Obtaining useful services with less resource input; Intragenerational equity — core concern: Benefits and burdens may be distributed unequally.",
+        "difficulty": "Hard",
+        "topic": "Environmental pollution · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement — sustainability concept: Support to restore lives after displacement\nII. Public participation — core concern: Local knowledge and interests can be overlooked\nIII. Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Displacement — sustainability concept: Loss of homes or access associated with a change or project; Public participation — core concern: Local knowledge and interests can be overlooked; Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs.",
+        "difficulty": "Hard",
+        "topic": "Displacement · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement — core concern: Affected people can lose livelihoods and social ties\nII. Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions\nIII. Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Displacement — core concern: Affected people can lose livelihoods and social ties; Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions; Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales.",
+        "difficulty": "Hard",
+        "topic": "Displacement · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement — appropriate assessment principle: A project never changes livelihoods\nII. Public participation — sustainability concept: Obtaining useful services with less resource input\nIII. Non-renewable resource depletion — core concern: Current resource use can affect later generations",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations; Public participation — sustainability concept: Involvement of affected people in decisions; Non-renewable resource depletion — core concern: Extraction can reduce what remains available.",
+        "difficulty": "Hard",
+        "topic": "Displacement · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rehabilitation — sustainability concept: Support to restore lives after displacement\nII. Intergenerational equity — core concern: Benefits and burdens may be distributed unequally\nIII. Environmental pollution — appropriate assessment principle: All effluent is harmless",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Rehabilitation — sustainability concept: Support to restore lives after displacement; Intergenerational equity — core concern: Current resource use can affect later generations; Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment.",
+        "difficulty": "Hard",
+        "topic": "Rehabilitation · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rehabilitation — core concern: Current resource use can affect later generations\nII. Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable\nIII. Environmental pollution — sustainability concept: Loss of a finite stock over human timescales",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Rehabilitation — core concern: A cash payment alone may not restore a livelihood; Intergenerational equity — appropriate assessment principle: Consider whether future needs remain achievable; Environmental pollution — sustainability concept: Contamination of air, water or land.",
+        "difficulty": "Hard",
+        "topic": "Rehabilitation · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs\nII. Intergenerational equity — sustainability concept: Fairness between present and future people\nIII. Environmental pollution — core concern: Affected people can lose livelihoods and social ties",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs; Intergenerational equity — sustainability concept: Fairness between present and future people; Environmental pollution — core concern: Production can impose costs outside the market transaction.",
+        "difficulty": "Hard",
+        "topic": "Rehabilitation · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental justice — sustainability concept: Loss of a finite stock over human timescales\nII. Intragenerational equity — core concern: Affected people can lose livelihoods and social ties\nIII. Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Environmental justice — sustainability concept: Fair treatment in environmental risks and protection; Intragenerational equity — core concern: Benefits and burdens may be distributed unequally; Displacement — appropriate assessment principle: Assess rights, consent requirements and rehabilitation obligations.",
+        "difficulty": "Hard",
+        "topic": "Environmental justice · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental justice — core concern: Vulnerable groups may face disproportionate harm\nII. Intragenerational equity — appropriate assessment principle: Only the richest group's interests count\nIII. Displacement — sustainability concept: Loss of homes or access associated with a change or project",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Environmental justice — core concern: Vulnerable groups may face disproportionate harm; Intragenerational equity — appropriate assessment principle: Examine who gains and who bears costs; Displacement — sustainability concept: Loss of homes or access associated with a change or project.",
+        "difficulty": "Hard",
+        "topic": "Environmental justice · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental justice — appropriate assessment principle: Vulnerable communities never face disproportionate risks\nII. Intragenerational equity — sustainability concept: Fairness among people living today\nIII. Displacement — core concern: Affected people can lose livelihoods and social ties",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies; Intragenerational equity — sustainability concept: Fairness among people living today; Displacement — core concern: Affected people can lose livelihoods and social ties.",
+        "difficulty": "Hard",
+        "topic": "Environmental justice · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resource efficiency — sustainability concept: Obtaining useful services with less resource input\nII. Non-renewable resource depletion — core concern: Extraction can reduce what remains available\nIII. Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Resource efficiency — sustainability concept: Obtaining useful services with less resource input; Non-renewable resource depletion — core concern: Extraction can reduce what remains available; Rehabilitation — appropriate assessment principle: Consider housing, land, work and social needs.",
+        "difficulty": "Hard",
+        "topic": "Resource efficiency · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resource efficiency — core concern: Vulnerable groups may face disproportionate harm\nII. Non-renewable resource depletion — appropriate assessment principle: Long-term resource availability is irrelevant\nIII. Rehabilitation — sustainability concept: Fairness between present and future people",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Resource efficiency — core concern: Wasteful consumption increases pressure on resources; Non-renewable resource depletion — appropriate assessment principle: Use efficiency and alternatives when assessing long-term needs; Rehabilitation — sustainability concept: Support to restore lives after displacement.",
+        "difficulty": "Hard",
+        "topic": "Resource efficiency · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use\nII. Non-renewable resource depletion — sustainability concept: Fairness between present and future people\nIII. Rehabilitation — core concern: Benefits and burdens may be distributed unequally",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Resource efficiency — appropriate assessment principle: Compare ways to meet needs with lower material and energy use; Non-renewable resource depletion — sustainability concept: Loss of a finite stock over human timescales; Rehabilitation — core concern: A cash payment alone may not restore a livelihood.",
+        "difficulty": "Hard",
+        "topic": "Resource efficiency · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public participation — sustainability concept: Fairness between present and future people\nII. Environmental pollution — core concern: Production can impose costs outside the market transaction\nIII. Environmental justice — appropriate assessment principle: Vulnerable communities never face disproportionate risks",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Public participation — sustainability concept: Involvement of affected people in decisions; Environmental pollution — core concern: Production can impose costs outside the market transaction; Environmental justice — appropriate assessment principle: Examine exposure, participation and access to remedies.",
+        "difficulty": "Hard",
+        "topic": "Public participation · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public participation — core concern: Local knowledge and interests can be overlooked\nII. Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment\nIII. Environmental justice — sustainability concept: Contamination of air, water or land",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Public participation — core concern: Local knowledge and interests can be overlooked; Environmental pollution — appropriate assessment principle: Include environmental and health damage in project assessment; Environmental justice — sustainability concept: Fair treatment in environmental risks and protection.",
+        "difficulty": "Hard",
+        "topic": "Public participation · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH11-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public participation — appropriate assessment principle: Decision-makers never need to explain their choices\nII. Environmental pollution — sustainability concept: Loss of homes or access associated with a change or project\nIII. Environmental justice — core concern: Vulnerable groups may face disproportionate harm",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Public participation — appropriate assessment principle: Use informed consultation alongside evidence and accountable decisions; Environmental pollution — sustainability concept: Contamination of air, water or land; Environmental justice — core concern: Vulnerable groups may face disproportionate harm.",
+        "difficulty": "Hard",
+        "topic": "Public participation · comparing chapter concepts",
+        "sourceChapter": 11
+      }
+    ]
+  }
+}

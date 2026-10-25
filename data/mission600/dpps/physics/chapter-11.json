@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH11-E": {
+    "id": "SA-DPP-27-PHY-CH11-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "E",
+    "title": "Principles of Metallurgy – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-11.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-26",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q01",
+        "question": "What is an ore?",
+        "options": [
+          "Only a liquid mineral",
+          "A mineral from which a metal can be economically extracted",
+          "Any rock containing no metals",
+          "A pure alloy"
+        ],
+        "answer": 1,
+        "explanation": "Economic extractability distinguishes an ore from a general mineral.",
+        "difficulty": "Easy",
+        "topic": "What is an ore?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q02",
+        "question": "What is gangue?",
+        "options": [
+          "Unwanted earthy impurities in an ore",
+          "The extracted pure metal",
+          "The electrolyte in every cell",
+          "Only carbon dioxide"
+        ],
+        "answer": 0,
+        "explanation": "Gangue includes sand and other unwanted material.",
+        "difficulty": "Easy",
+        "topic": "What is gangue?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q03",
+        "question": "Which process commonly converts a sulfide ore to oxide?",
+        "options": [
+          "Freezing in water",
+          "Electroplating",
+          "Simple filtration",
+          "Roasting in air"
+        ],
+        "answer": 3,
+        "explanation": "Roasting heats sulfide ores in excess air.",
+        "difficulty": "Easy",
+        "topic": "Which process commonly converts a sulfide ore to oxide?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q04",
+        "question": "Ore: which option correctly identifies the process or material description?",
+        "options": [
+          "Heating an ore in excess air",
+          "Heating an ore with limited or no air",
+          "A mineral deposit suitable for economically viable extraction",
+          "Unwanted earthy material mixed with ore"
+        ],
+        "answer": 2,
+        "explanation": "Ore — process or material description: A mineral deposit suitable for economically viable extraction.",
+        "difficulty": "Easy",
+        "topic": "Ore · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q05",
+        "question": "Ore: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Helps produce removable slag",
+          "Metal recovery must be feasible under the conditions",
+          "Commonly converts sulfides to oxides",
+          "Commonly removes carbon dioxide from carbonates"
+        ],
+        "answer": 1,
+        "explanation": "Ore — essential condition or purpose: Metal recovery must be feasible under the conditions.",
+        "difficulty": "Easy",
+        "topic": "Ore · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q06",
+        "question": "Ore: which option correctly identifies the representative association?",
+        "options": [
+          "Bauxite is an important aluminium ore",
+          "Zinc carbonate can form zinc oxide and carbon dioxide",
+          "Limestone-derived lime can react with silica",
+          "Calcium silicate is a common textbook example"
+        ],
+        "answer": 0,
+        "explanation": "Ore — representative association: Bauxite is an important aluminium ore.",
+        "difficulty": "Easy",
+        "topic": "Ore · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q07",
+        "question": "Gangue: which option correctly identifies the process or material description?",
+        "options": [
+          "Heating an ore in excess air",
+          "Heating an ore with limited or no air",
+          "A substance added to react with gangue",
+          "Unwanted earthy material mixed with ore"
+        ],
+        "answer": 3,
+        "explanation": "Gangue — process or material description: Unwanted earthy material mixed with ore.",
+        "difficulty": "Easy",
+        "topic": "Gangue · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q08",
+        "question": "Gangue: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Helps produce removable slag",
+          "Helps separate impurities from the metal",
+          "It is removed during processing",
+          "Commonly removes carbon dioxide from carbonates"
+        ],
+        "answer": 2,
+        "explanation": "Gangue — essential condition or purpose: It is removed during processing.",
+        "difficulty": "Easy",
+        "topic": "Gangue · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q09",
+        "question": "Gangue: which option correctly identifies the representative association?",
+        "options": [
+          "Used in aluminium extraction",
+          "Sand and rocky impurities are common examples",
+          "Limestone-derived lime can react with silica",
+          "Calcium silicate is a common textbook example"
+        ],
+        "answer": 1,
+        "explanation": "Gangue — representative association: Sand and rocky impurities are common examples.",
+        "difficulty": "Easy",
+        "topic": "Gangue · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q10",
+        "question": "Roasting: which option correctly identifies the process or material description?",
+        "options": [
+          "Heating an ore in excess air",
+          "Heating an ore with limited or no air",
+          "A substance added to react with gangue",
+          "Material formed when flux reacts with gangue"
+        ],
+        "answer": 0,
+        "explanation": "Roasting — process or material description: Heating an ore in excess air.",
+        "difficulty": "Easy",
+        "topic": "Roasting · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q11",
+        "question": "Roasting: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Helps produce removable slag",
+          "Helps separate impurities from the metal",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "Commonly converts sulfides to oxides"
+        ],
+        "answer": 3,
+        "explanation": "Roasting — essential condition or purpose: Commonly converts sulfides to oxides.",
+        "difficulty": "Easy",
+        "topic": "Roasting · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q12",
+        "question": "Roasting: which option correctly identifies the representative association?",
+        "options": [
+          "Used in aluminium extraction",
+          "Impure copper is used as the anode",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide",
+          "Calcium silicate is a common textbook example"
+        ],
+        "answer": 2,
+        "explanation": "Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide.",
+        "difficulty": "Easy",
+        "topic": "Roasting · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q13",
+        "question": "Calcination: which option correctly identifies the process or material description?",
+        "options": [
+          "Decomposition of a compound using electricity",
+          "Heating an ore with limited or no air",
+          "A substance added to react with gangue",
+          "Material formed when flux reacts with gangue"
+        ],
+        "answer": 1,
+        "explanation": "Calcination — process or material description: Heating an ore with limited or no air.",
+        "difficulty": "Easy",
+        "topic": "Calcination · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q14",
+        "question": "Calcination: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Commonly removes carbon dioxide from carbonates",
+          "Helps separate impurities from the metal",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "Copper deposits on a pure-copper cathode"
+        ],
+        "answer": 0,
+        "explanation": "Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates.",
+        "difficulty": "Easy",
+        "topic": "Calcination · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q15",
+        "question": "Calcination: which option correctly identifies the representative association?",
+        "options": [
+          "Used in aluminium extraction",
+          "Impure copper is used as the anode",
+          "Brass contains copper and zinc",
+          "Zinc carbonate can form zinc oxide and carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide.",
+        "difficulty": "Easy",
+        "topic": "Calcination · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q16",
+        "question": "Flux: which option correctly identifies the process or material description?",
+        "options": [
+          "Decomposition of a compound using electricity",
+          "Purification through electrolysis",
+          "A substance added to react with gangue",
+          "Material formed when flux reacts with gangue"
+        ],
+        "answer": 2,
+        "explanation": "Flux — process or material description: A substance added to react with gangue.",
+        "difficulty": "Easy",
+        "topic": "Flux · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q17",
+        "question": "Flux: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Composition changes useful material properties",
+          "Helps produce removable slag",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "Copper deposits on a pure-copper cathode"
+        ],
+        "answer": 1,
+        "explanation": "Flux — essential condition or purpose: Helps produce removable slag.",
+        "difficulty": "Easy",
+        "topic": "Flux · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q18",
+        "question": "Flux: which option correctly identifies the representative association?",
+        "options": [
+          "Limestone-derived lime can react with silica",
+          "Impure copper is used as the anode",
+          "Brass contains copper and zinc",
+          "Bauxite is an important aluminium ore"
+        ],
+        "answer": 0,
+        "explanation": "Flux — representative association: Limestone-derived lime can react with silica.",
+        "difficulty": "Easy",
+        "topic": "Flux · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q19",
+        "question": "Slag: which option correctly identifies the process or material description?",
+        "options": [
+          "Decomposition of a compound using electricity",
+          "Purification through electrolysis",
+          "A mixture containing a metal and other element or elements",
+          "Material formed when flux reacts with gangue"
+        ],
+        "answer": 3,
+        "explanation": "Slag — process or material description: Material formed when flux reacts with gangue.",
+        "difficulty": "Easy",
+        "topic": "Slag · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q20",
+        "question": "Slag: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Composition changes useful material properties",
+          "Metal recovery must be feasible under the conditions",
+          "Helps separate impurities from the metal",
+          "Copper deposits on a pure-copper cathode"
+        ],
+        "answer": 2,
+        "explanation": "Slag — essential condition or purpose: Helps separate impurities from the metal.",
+        "difficulty": "Easy",
+        "topic": "Slag · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q21",
+        "question": "Slag: which option correctly identifies the representative association?",
+        "options": [
+          "Sand and rocky impurities are common examples",
+          "Calcium silicate is a common textbook example",
+          "Brass contains copper and zinc",
+          "Bauxite is an important aluminium ore"
+        ],
+        "answer": 1,
+        "explanation": "Slag — representative association: Calcium silicate is a common textbook example.",
+        "difficulty": "Easy",
+        "topic": "Slag · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q22",
+        "question": "Electrolytic extraction: which option correctly identifies the process or material description?",
+        "options": [
+          "Decomposition of a compound using electricity",
+          "Purification through electrolysis",
+          "A mixture containing a metal and other element or elements",
+          "A mineral deposit suitable for economically viable extraction"
+        ],
+        "answer": 0,
+        "explanation": "Electrolytic extraction — process or material description: Decomposition of a compound using electricity.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic extraction · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q23",
+        "question": "Electrolytic extraction: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Composition changes useful material properties",
+          "Metal recovery must be feasible under the conditions",
+          "It is removed during processing",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction"
+        ],
+        "answer": 3,
+        "explanation": "Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic extraction · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q24",
+        "question": "Electrolytic extraction: which option correctly identifies the representative association?",
+        "options": [
+          "Sand and rocky impurities are common examples",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide",
+          "Used in aluminium extraction",
+          "Bauxite is an important aluminium ore"
+        ],
+        "answer": 2,
+        "explanation": "Electrolytic extraction — representative association: Used in aluminium extraction.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic extraction · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q25",
+        "question": "Electrolytic refining of copper: which option correctly identifies the process or material description?",
+        "options": [
+          "Unwanted earthy material mixed with ore",
+          "Purification through electrolysis",
+          "A mixture containing a metal and other element or elements",
+          "A mineral deposit suitable for economically viable extraction"
+        ],
+        "answer": 1,
+        "explanation": "Electrolytic refining of copper — process or material description: Purification through electrolysis.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic refining of copper · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q26",
+        "question": "Electrolytic refining of copper: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Copper deposits on a pure-copper cathode",
+          "Metal recovery must be feasible under the conditions",
+          "It is removed during processing",
+          "Commonly converts sulfides to oxides"
+        ],
+        "answer": 0,
+        "explanation": "Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic refining of copper · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q27",
+        "question": "Electrolytic refining of copper: which option correctly identifies the representative association?",
+        "options": [
+          "Sand and rocky impurities are common examples",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide",
+          "Zinc carbonate can form zinc oxide and carbon dioxide",
+          "Impure copper is used as the anode"
+        ],
+        "answer": 3,
+        "explanation": "Electrolytic refining of copper — representative association: Impure copper is used as the anode.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic refining of copper · representative association",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q28",
+        "question": "Alloy: which option correctly identifies the process or material description?",
+        "options": [
+          "Unwanted earthy material mixed with ore",
+          "Heating an ore in excess air",
+          "A mixture containing a metal and other element or elements",
+          "A mineral deposit suitable for economically viable extraction"
+        ],
+        "answer": 2,
+        "explanation": "Alloy — process or material description: A mixture containing a metal and other element or elements.",
+        "difficulty": "Easy",
+        "topic": "Alloy · process or material description",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q29",
+        "question": "Alloy: which option correctly identifies the essential condition or purpose?",
+        "options": [
+          "Commonly removes carbon dioxide from carbonates",
+          "Composition changes useful material properties",
+          "It is removed during processing",
+          "Commonly converts sulfides to oxides"
+        ],
+        "answer": 1,
+        "explanation": "Alloy — essential condition or purpose: Composition changes useful material properties.",
+        "difficulty": "Easy",
+        "topic": "Alloy · essential condition or purpose",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-E-Q30",
+        "question": "Alloy: which option correctly identifies the representative association?",
+        "options": [
+          "Brass contains copper and zinc",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide",
+          "Zinc carbonate can form zinc oxide and carbon dioxide",
+          "Limestone-derived lime can react with silica"
+        ],
+        "answer": 0,
+        "explanation": "Alloy — representative association: Brass contains copper and zinc.",
+        "difficulty": "Easy",
+        "topic": "Alloy · representative association",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH11-M": {
+    "id": "SA-DPP-27-PHY-CH11-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "M",
+    "title": "Principles of Metallurgy – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-11.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q01",
+        "question": "Why is aluminium extracted by electrolysis rather than carbon reduction?",
+        "options": [
+          "Aluminium oxide is too stable for ordinary carbon reduction",
+          "Aluminium is less reactive than copper",
+          "Aluminium oxide contains no oxygen",
+          "Carbon cannot be heated"
+        ],
+        "answer": 0,
+        "explanation": "Highly reactive metals require electrolytic methods.",
+        "difficulty": "Medium",
+        "topic": "Why is aluminium extracted by electrolysis rather than carbon reduction?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q02",
+        "question": "Heating a carbonate ore with limited or no air is called what?",
+        "options": [
+          "Roasting",
+          "Electrorefining",
+          "Alloying",
+          "Calcination"
+        ],
+        "answer": 3,
+        "explanation": "Calcination removes volatile components such as CO₂ from carbonate ores.",
+        "difficulty": "Medium",
+        "topic": "Heating a carbonate ore with limited or no air is called what?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q03",
+        "question": "What is the purpose of a flux in smelting?",
+        "options": [
+          "To prevent every chemical reaction",
+          "To act only as a fuel",
+          "To react with gangue and form slag",
+          "To increase ore impurities"
+        ],
+        "answer": 2,
+        "explanation": "Flux converts gangue into a more easily removable slag.",
+        "difficulty": "Medium",
+        "topic": "What is the purpose of a flux in smelting?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q04",
+        "question": "Which pair correctly matches Ore with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Heating an ore in excess air → Commonly converts sulfides to oxides",
+          "A mineral deposit suitable for economically viable extraction → Metal recovery must be feasible under the conditions",
+          "Unwanted earthy material mixed with ore → Metal recovery must be feasible under the conditions",
+          "A mineral deposit suitable for economically viable extraction → It is removed during processing"
+        ],
+        "answer": 1,
+        "explanation": "Ore — process or material description: A mineral deposit suitable for economically viable extraction. Ore — essential condition or purpose: Metal recovery must be feasible under the conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ore",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q05",
+        "question": "Which pair correctly matches Ore with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Metal recovery must be feasible under the conditions → Bauxite is an important aluminium ore",
+          "Commonly converts sulfides to oxides → Bauxite is an important aluminium ore",
+          "Metal recovery must be feasible under the conditions → Sand and rocky impurities are common examples",
+          "Commonly removes carbon dioxide from carbonates → Zinc sulfide can form zinc oxide and sulfur dioxide"
+        ],
+        "answer": 0,
+        "explanation": "Ore — essential condition or purpose: Metal recovery must be feasible under the conditions. Ore — representative association: Bauxite is an important aluminium ore. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ore",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q06",
+        "question": "Which pair correctly matches Ore with its representative association and process or material description, in that order?",
+        "options": [
+          "Zinc carbonate can form zinc oxide and carbon dioxide → A mineral deposit suitable for economically viable extraction",
+          "Bauxite is an important aluminium ore → Unwanted earthy material mixed with ore",
+          "Limestone-derived lime can react with silica → Heating an ore in excess air",
+          "Bauxite is an important aluminium ore → A mineral deposit suitable for economically viable extraction"
+        ],
+        "answer": 3,
+        "explanation": "Ore — representative association: Bauxite is an important aluminium ore. Ore — process or material description: A mineral deposit suitable for economically viable extraction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ore",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q07",
+        "question": "Which pair correctly matches Gangue with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Unwanted earthy material mixed with ore → Commonly converts sulfides to oxides",
+          "Heating an ore with limited or no air → Commonly removes carbon dioxide from carbonates",
+          "Unwanted earthy material mixed with ore → It is removed during processing",
+          "Heating an ore in excess air → It is removed during processing"
+        ],
+        "answer": 2,
+        "explanation": "Gangue — process or material description: Unwanted earthy material mixed with ore. Gangue — essential condition or purpose: It is removed during processing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gangue",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q08",
+        "question": "Which pair correctly matches Gangue with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Helps produce removable slag → Zinc carbonate can form zinc oxide and carbon dioxide",
+          "It is removed during processing → Sand and rocky impurities are common examples",
+          "Commonly removes carbon dioxide from carbonates → Sand and rocky impurities are common examples",
+          "It is removed during processing → Zinc sulfide can form zinc oxide and sulfur dioxide"
+        ],
+        "answer": 1,
+        "explanation": "Gangue — essential condition or purpose: It is removed during processing. Gangue — representative association: Sand and rocky impurities are common examples. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gangue",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q09",
+        "question": "Which pair correctly matches Gangue with its representative association and process or material description, in that order?",
+        "options": [
+          "Sand and rocky impurities are common examples → Unwanted earthy material mixed with ore",
+          "Limestone-derived lime can react with silica → Unwanted earthy material mixed with ore",
+          "Sand and rocky impurities are common examples → Heating an ore in excess air",
+          "Calcium silicate is a common textbook example → Heating an ore with limited or no air"
+        ],
+        "answer": 0,
+        "explanation": "Gangue — representative association: Sand and rocky impurities are common examples. Gangue — process or material description: Unwanted earthy material mixed with ore. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gangue",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q10",
+        "question": "Which pair correctly matches Roasting with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Heating an ore with limited or no air → Commonly converts sulfides to oxides",
+          "Heating an ore in excess air → Commonly removes carbon dioxide from carbonates",
+          "A substance added to react with gangue → Helps produce removable slag",
+          "Heating an ore in excess air → Commonly converts sulfides to oxides"
+        ],
+        "answer": 3,
+        "explanation": "Roasting — process or material description: Heating an ore in excess air. Roasting — essential condition or purpose: Commonly converts sulfides to oxides. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Roasting",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q11",
+        "question": "Which pair correctly matches Roasting with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Commonly converts sulfides to oxides → Zinc carbonate can form zinc oxide and carbon dioxide",
+          "Helps separate impurities from the metal → Limestone-derived lime can react with silica",
+          "Commonly converts sulfides to oxides → Zinc sulfide can form zinc oxide and sulfur dioxide",
+          "Helps produce removable slag → Zinc sulfide can form zinc oxide and sulfur dioxide"
+        ],
+        "answer": 2,
+        "explanation": "Roasting — essential condition or purpose: Commonly converts sulfides to oxides. Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Roasting",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q12",
+        "question": "Which pair correctly matches Roasting with its representative association and process or material description, in that order?",
+        "options": [
+          "Used in aluminium extraction → A substance added to react with gangue",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide → Heating an ore in excess air",
+          "Calcium silicate is a common textbook example → Heating an ore in excess air",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide → Heating an ore with limited or no air"
+        ],
+        "answer": 1,
+        "explanation": "Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide. Roasting — process or material description: Heating an ore in excess air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Roasting",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q13",
+        "question": "Which pair correctly matches Calcination with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Heating an ore with limited or no air → Commonly removes carbon dioxide from carbonates",
+          "A substance added to react with gangue → Commonly removes carbon dioxide from carbonates",
+          "Heating an ore with limited or no air → Helps produce removable slag",
+          "Material formed when flux reacts with gangue → Helps separate impurities from the metal"
+        ],
+        "answer": 0,
+        "explanation": "Calcination — process or material description: Heating an ore with limited or no air. Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcination",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q14",
+        "question": "Which pair correctly matches Calcination with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Helps separate impurities from the metal → Zinc carbonate can form zinc oxide and carbon dioxide",
+          "Commonly removes carbon dioxide from carbonates → Limestone-derived lime can react with silica",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction → Calcium silicate is a common textbook example",
+          "Commonly removes carbon dioxide from carbonates → Zinc carbonate can form zinc oxide and carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates. Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcination",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q15",
+        "question": "Which pair correctly matches Calcination with its representative association and process or material description, in that order?",
+        "options": [
+          "Zinc carbonate can form zinc oxide and carbon dioxide → A substance added to react with gangue",
+          "Impure copper is used as the anode → Material formed when flux reacts with gangue",
+          "Zinc carbonate can form zinc oxide and carbon dioxide → Heating an ore with limited or no air",
+          "Used in aluminium extraction → Heating an ore with limited or no air"
+        ],
+        "answer": 2,
+        "explanation": "Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide. Calcination — process or material description: Heating an ore with limited or no air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcination",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q16",
+        "question": "Which pair correctly matches Flux with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Decomposition of a compound using electricity → Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "A substance added to react with gangue → Helps produce removable slag",
+          "Material formed when flux reacts with gangue → Helps produce removable slag",
+          "A substance added to react with gangue → Helps separate impurities from the metal"
+        ],
+        "answer": 1,
+        "explanation": "Flux — process or material description: A substance added to react with gangue. Flux — essential condition or purpose: Helps produce removable slag. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Flux",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q17",
+        "question": "Which pair correctly matches Flux with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Helps produce removable slag → Limestone-derived lime can react with silica",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction → Limestone-derived lime can react with silica",
+          "Helps produce removable slag → Calcium silicate is a common textbook example",
+          "Copper deposits on a pure-copper cathode → Used in aluminium extraction"
+        ],
+        "answer": 0,
+        "explanation": "Flux — essential condition or purpose: Helps produce removable slag. Flux — representative association: Limestone-derived lime can react with silica. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Flux",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q18",
+        "question": "Which pair correctly matches Flux with its representative association and process or material description, in that order?",
+        "options": [
+          "Impure copper is used as the anode → A substance added to react with gangue",
+          "Limestone-derived lime can react with silica → Material formed when flux reacts with gangue",
+          "Brass contains copper and zinc → Decomposition of a compound using electricity",
+          "Limestone-derived lime can react with silica → A substance added to react with gangue"
+        ],
+        "answer": 3,
+        "explanation": "Flux — representative association: Limestone-derived lime can react with silica. Flux — process or material description: A substance added to react with gangue. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Flux",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q19",
+        "question": "Which pair correctly matches Slag with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Material formed when flux reacts with gangue → Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "Purification through electrolysis → Copper deposits on a pure-copper cathode",
+          "Material formed when flux reacts with gangue → Helps separate impurities from the metal",
+          "Decomposition of a compound using electricity → Helps separate impurities from the metal"
+        ],
+        "answer": 2,
+        "explanation": "Slag — process or material description: Material formed when flux reacts with gangue. Slag — essential condition or purpose: Helps separate impurities from the metal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Slag",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q20",
+        "question": "Which pair correctly matches Slag with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Composition changes useful material properties → Impure copper is used as the anode",
+          "Helps separate impurities from the metal → Calcium silicate is a common textbook example",
+          "Copper deposits on a pure-copper cathode → Calcium silicate is a common textbook example",
+          "Helps separate impurities from the metal → Used in aluminium extraction"
+        ],
+        "answer": 1,
+        "explanation": "Slag — essential condition or purpose: Helps separate impurities from the metal. Slag — representative association: Calcium silicate is a common textbook example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Slag",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q21",
+        "question": "Which pair correctly matches Slag with its representative association and process or material description, in that order?",
+        "options": [
+          "Calcium silicate is a common textbook example → Material formed when flux reacts with gangue",
+          "Brass contains copper and zinc → Material formed when flux reacts with gangue",
+          "Calcium silicate is a common textbook example → Decomposition of a compound using electricity",
+          "Bauxite is an important aluminium ore → Purification through electrolysis"
+        ],
+        "answer": 0,
+        "explanation": "Slag — representative association: Calcium silicate is a common textbook example. Slag — process or material description: Material formed when flux reacts with gangue. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Slag",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q22",
+        "question": "Which pair correctly matches Electrolytic extraction with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Purification through electrolysis → Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+          "Decomposition of a compound using electricity → Copper deposits on a pure-copper cathode",
+          "A mixture containing a metal and other element or elements → Composition changes useful material properties",
+          "Decomposition of a compound using electricity → Suitable for highly reactive metals whose compounds resist ordinary carbon reduction"
+        ],
+        "answer": 3,
+        "explanation": "Electrolytic extraction — process or material description: Decomposition of a compound using electricity. Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic extraction",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q23",
+        "question": "Which pair correctly matches Electrolytic extraction with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction → Impure copper is used as the anode",
+          "Metal recovery must be feasible under the conditions → Brass contains copper and zinc",
+          "Suitable for highly reactive metals whose compounds resist ordinary carbon reduction → Used in aluminium extraction",
+          "Composition changes useful material properties → Used in aluminium extraction"
+        ],
+        "answer": 2,
+        "explanation": "Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction. Electrolytic extraction — representative association: Used in aluminium extraction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic extraction",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q24",
+        "question": "Which pair correctly matches Electrolytic extraction with its representative association and process or material description, in that order?",
+        "options": [
+          "Sand and rocky impurities are common examples → A mixture containing a metal and other element or elements",
+          "Used in aluminium extraction → Decomposition of a compound using electricity",
+          "Bauxite is an important aluminium ore → Decomposition of a compound using electricity",
+          "Used in aluminium extraction → Purification through electrolysis"
+        ],
+        "answer": 1,
+        "explanation": "Electrolytic extraction — representative association: Used in aluminium extraction. Electrolytic extraction — process or material description: Decomposition of a compound using electricity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic extraction",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q25",
+        "question": "Which pair correctly matches Electrolytic refining of copper with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Purification through electrolysis → Copper deposits on a pure-copper cathode",
+          "A mixture containing a metal and other element or elements → Copper deposits on a pure-copper cathode",
+          "Purification through electrolysis → Composition changes useful material properties",
+          "A mineral deposit suitable for economically viable extraction → Metal recovery must be feasible under the conditions"
+        ],
+        "answer": 0,
+        "explanation": "Electrolytic refining of copper — process or material description: Purification through electrolysis. Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic refining of copper",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q26",
+        "question": "Which pair correctly matches Electrolytic refining of copper with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Metal recovery must be feasible under the conditions → Impure copper is used as the anode",
+          "Copper deposits on a pure-copper cathode → Brass contains copper and zinc",
+          "It is removed during processing → Bauxite is an important aluminium ore",
+          "Copper deposits on a pure-copper cathode → Impure copper is used as the anode"
+        ],
+        "answer": 3,
+        "explanation": "Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode. Electrolytic refining of copper — representative association: Impure copper is used as the anode. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic refining of copper",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q27",
+        "question": "Which pair correctly matches Electrolytic refining of copper with its representative association and process or material description, in that order?",
+        "options": [
+          "Impure copper is used as the anode → A mixture containing a metal and other element or elements",
+          "Zinc sulfide can form zinc oxide and sulfur dioxide → A mineral deposit suitable for economically viable extraction",
+          "Impure copper is used as the anode → Purification through electrolysis",
+          "Sand and rocky impurities are common examples → Purification through electrolysis"
+        ],
+        "answer": 2,
+        "explanation": "Electrolytic refining of copper — representative association: Impure copper is used as the anode. Electrolytic refining of copper — process or material description: Purification through electrolysis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic refining of copper",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q28",
+        "question": "Which pair correctly matches Alloy with its process or material description and essential condition or purpose, in that order?",
+        "options": [
+          "Unwanted earthy material mixed with ore → It is removed during processing",
+          "A mixture containing a metal and other element or elements → Composition changes useful material properties",
+          "A mineral deposit suitable for economically viable extraction → Composition changes useful material properties",
+          "A mixture containing a metal and other element or elements → Metal recovery must be feasible under the conditions"
+        ],
+        "answer": 1,
+        "explanation": "Alloy — process or material description: A mixture containing a metal and other element or elements. Alloy — essential condition or purpose: Composition changes useful material properties. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alloy",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q29",
+        "question": "Which pair correctly matches Alloy with its essential condition or purpose and representative association, in that order?",
+        "options": [
+          "Composition changes useful material properties → Brass contains copper and zinc",
+          "It is removed during processing → Brass contains copper and zinc",
+          "Composition changes useful material properties → Bauxite is an important aluminium ore",
+          "Commonly converts sulfides to oxides → Sand and rocky impurities are common examples"
+        ],
+        "answer": 0,
+        "explanation": "Alloy — essential condition or purpose: Composition changes useful material properties. Alloy — representative association: Brass contains copper and zinc. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alloy",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-M-Q30",
+        "question": "Which pair correctly matches Alloy with its representative association and process or material description, in that order?",
+        "options": [
+          "Zinc sulfide can form zinc oxide and sulfur dioxide → A mixture containing a metal and other element or elements",
+          "Brass contains copper and zinc → A mineral deposit suitable for economically viable extraction",
+          "Zinc carbonate can form zinc oxide and carbon dioxide → Unwanted earthy material mixed with ore",
+          "Brass contains copper and zinc → A mixture containing a metal and other element or elements"
+        ],
+        "answer": 3,
+        "explanation": "Alloy — representative association: Brass contains copper and zinc. Alloy — process or material description: A mixture containing a metal and other element or elements. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alloy",
+        "sourceChapter": 11
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH11-H": {
+    "id": "SA-DPP-27-PHY-CH11-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch11",
+    "chapterNumber": 11,
+    "chapter": "Principles of Metallurgy",
+    "level": "H",
+    "title": "Principles of Metallurgy – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-11.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-02",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 11,
+    "sourcePrintedPages": {
+      "from": 237,
+      "to": 252
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q01",
+        "question": "In electrolytic refining of copper, which electrode gains pure copper?",
+        "options": [
+          "The impure-copper anode",
+          "Both gain identical masses of impurities",
+          "Neither, because copper cannot dissolve",
+          "The pure-copper cathode"
+        ],
+        "answer": 3,
+        "explanation": "Copper ions receive electrons at the cathode and deposit as metal.",
+        "difficulty": "Hard",
+        "topic": "In electrolytic refining of copper, which electrode gains pure copper?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q02",
+        "question": "Why is zinc able to displace copper from CuSO₄ solution?",
+        "options": [
+          "Sulfate changes into chloride",
+          "Zinc has a smaller mass in every sample",
+          "Zinc is more reactive and more readily loses electrons",
+          "Copper is more reactive than zinc"
+        ],
+        "answer": 2,
+        "explanation": "Zn is oxidised while Cu²⁺ is reduced to copper metal.",
+        "difficulty": "Hard",
+        "topic": "Why is zinc able to displace copper from CuSO₄ solution?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q03",
+        "question": "Why is extraction method selected using the metal reactivity series?",
+        "options": [
+          "Every ore contains the same gangue",
+          "More reactive metals form compounds harder to reduce",
+          "All metals melt at the same temperature",
+          "Reactivity gives the exact ore price"
+        ],
+        "answer": 1,
+        "explanation": "Compound stability influences whether heating, chemical reduction or electrolysis is suitable.",
+        "difficulty": "Hard",
+        "topic": "Why is extraction method selected using the metal reactivity series?",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ore — process or material description: Unwanted earthy material mixed with ore\nII. Flux — essential condition or purpose: Helps produce removable slag\nIII. Electrolytic refining of copper — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Ore — process or material description: A mineral deposit suitable for economically viable extraction; Flux — essential condition or purpose: Helps produce removable slag; Electrolytic refining of copper — representative association: Impure copper is used as the anode.",
+        "difficulty": "Hard",
+        "topic": "Ore · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ore — essential condition or purpose: Metal recovery must be feasible under the conditions\nII. Flux — representative association: Limestone-derived lime can react with silica\nIII. Electrolytic refining of copper — process or material description: Heating an ore with limited or no air",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Ore — essential condition or purpose: Metal recovery must be feasible under the conditions; Flux — representative association: Limestone-derived lime can react with silica; Electrolytic refining of copper — process or material description: Purification through electrolysis.",
+        "difficulty": "Hard",
+        "topic": "Ore · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ore — representative association: Zinc carbonate can form zinc oxide and carbon dioxide\nII. Flux — process or material description: Heating an ore with limited or no air\nIII. Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Ore — representative association: Bauxite is an important aluminium ore; Flux — process or material description: A substance added to react with gangue; Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode.",
+        "difficulty": "Hard",
+        "topic": "Ore · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gangue — process or material description: Unwanted earthy material mixed with ore\nII. Slag — essential condition or purpose: Helps produce removable slag\nIII. Alloy — representative association: Brass contains copper and zinc",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Gangue — process or material description: Unwanted earthy material mixed with ore; Slag — essential condition or purpose: Helps separate impurities from the metal; Alloy — representative association: Brass contains copper and zinc.",
+        "difficulty": "Hard",
+        "topic": "Gangue · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gangue — essential condition or purpose: Helps separate impurities from the metal\nII. Slag — representative association: Calcium silicate is a common textbook example\nIII. Alloy — process or material description: A mixture containing a metal and other element or elements",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Gangue — essential condition or purpose: It is removed during processing; Slag — representative association: Calcium silicate is a common textbook example; Alloy — process or material description: A mixture containing a metal and other element or elements.",
+        "difficulty": "Hard",
+        "topic": "Gangue · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gangue — representative association: Sand and rocky impurities are common examples\nII. Slag — process or material description: Material formed when flux reacts with gangue\nIII. Alloy — essential condition or purpose: Composition changes useful material properties",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Gangue — representative association: Sand and rocky impurities are common examples; Slag — process or material description: Material formed when flux reacts with gangue; Alloy — essential condition or purpose: Composition changes useful material properties.",
+        "difficulty": "Hard",
+        "topic": "Gangue · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Roasting — process or material description: Purification through electrolysis\nII. Electrolytic extraction — essential condition or purpose: Composition changes useful material properties\nIII. Ore — representative association: Sand and rocky impurities are common examples",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Roasting — process or material description: Heating an ore in excess air; Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction; Ore — representative association: Bauxite is an important aluminium ore.",
+        "difficulty": "Hard",
+        "topic": "Roasting · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Roasting — essential condition or purpose: Commonly converts sulfides to oxides\nII. Electrolytic extraction — representative association: Bauxite is an important aluminium ore\nIII. Ore — process or material description: Heating an ore in excess air",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Roasting — essential condition or purpose: Commonly converts sulfides to oxides; Electrolytic extraction — representative association: Used in aluminium extraction; Ore — process or material description: A mineral deposit suitable for economically viable extraction.",
+        "difficulty": "Hard",
+        "topic": "Roasting · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Roasting — representative association: Bauxite is an important aluminium ore\nII. Electrolytic extraction — process or material description: Decomposition of a compound using electricity\nIII. Ore — essential condition or purpose: Commonly removes carbon dioxide from carbonates",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide; Electrolytic extraction — process or material description: Decomposition of a compound using electricity; Ore — essential condition or purpose: Metal recovery must be feasible under the conditions.",
+        "difficulty": "Hard",
+        "topic": "Roasting · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcination — process or material description: Heating an ore with limited or no air\nII. Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode\nIII. Gangue — representative association: Limestone-derived lime can react with silica",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Calcination — process or material description: Heating an ore with limited or no air; Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode; Gangue — representative association: Sand and rocky impurities are common examples.",
+        "difficulty": "Hard",
+        "topic": "Calcination · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcination — essential condition or purpose: Commonly converts sulfides to oxides\nII. Electrolytic refining of copper — representative association: Zinc carbonate can form zinc oxide and carbon dioxide\nIII. Gangue — process or material description: Unwanted earthy material mixed with ore",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates; Electrolytic refining of copper — representative association: Impure copper is used as the anode; Gangue — process or material description: Unwanted earthy material mixed with ore.",
+        "difficulty": "Hard",
+        "topic": "Calcination · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide\nII. Electrolytic refining of copper — process or material description: A substance added to react with gangue\nIII. Gangue — essential condition or purpose: It is removed during processing",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide; Electrolytic refining of copper — process or material description: Purification through electrolysis; Gangue — essential condition or purpose: It is removed during processing.",
+        "difficulty": "Hard",
+        "topic": "Calcination · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Flux — process or material description: Material formed when flux reacts with gangue\nII. Alloy — essential condition or purpose: Composition changes useful material properties\nIII. Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Flux — process or material description: A substance added to react with gangue; Alloy — essential condition or purpose: Composition changes useful material properties; Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide.",
+        "difficulty": "Hard",
+        "topic": "Flux · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Flux — essential condition or purpose: Helps produce removable slag\nII. Alloy — representative association: Brass contains copper and zinc\nIII. Roasting — process or material description: Heating an ore in excess air",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Flux — essential condition or purpose: Helps produce removable slag; Alloy — representative association: Brass contains copper and zinc; Roasting — process or material description: Heating an ore in excess air.",
+        "difficulty": "Hard",
+        "topic": "Flux · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Flux — representative association: Impure copper is used as the anode\nII. Alloy — process or material description: Purification through electrolysis\nIII. Roasting — essential condition or purpose: Metal recovery must be feasible under the conditions",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Flux — representative association: Limestone-derived lime can react with silica; Alloy — process or material description: A mixture containing a metal and other element or elements; Roasting — essential condition or purpose: Commonly converts sulfides to oxides.",
+        "difficulty": "Hard",
+        "topic": "Flux · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Slag — process or material description: Material formed when flux reacts with gangue\nII. Ore — essential condition or purpose: It is removed during processing\nIII. Calcination — representative association: Sand and rocky impurities are common examples",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Slag — process or material description: Material formed when flux reacts with gangue; Ore — essential condition or purpose: Metal recovery must be feasible under the conditions; Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide.",
+        "difficulty": "Hard",
+        "topic": "Slag · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Slag — essential condition or purpose: Metal recovery must be feasible under the conditions\nII. Ore — representative association: Bauxite is an important aluminium ore\nIII. Calcination — process or material description: Heating an ore in excess air",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Slag — essential condition or purpose: Helps separate impurities from the metal; Ore — representative association: Bauxite is an important aluminium ore; Calcination — process or material description: Heating an ore with limited or no air.",
+        "difficulty": "Hard",
+        "topic": "Slag · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Slag — representative association: Calcium silicate is a common textbook example\nII. Ore — process or material description: A mineral deposit suitable for economically viable extraction\nIII. Calcination — essential condition or purpose: Helps produce removable slag",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Slag — representative association: Calcium silicate is a common textbook example; Ore — process or material description: A mineral deposit suitable for economically viable extraction; Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates.",
+        "difficulty": "Hard",
+        "topic": "Slag · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic extraction — process or material description: Heating an ore in excess air\nII. Gangue — essential condition or purpose: Helps produce removable slag\nIII. Flux — representative association: Limestone-derived lime can react with silica",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Electrolytic extraction — process or material description: Decomposition of a compound using electricity; Gangue — essential condition or purpose: It is removed during processing; Flux — representative association: Limestone-derived lime can react with silica.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic extraction · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction\nII. Gangue — representative association: Calcium silicate is a common textbook example\nIII. Flux — process or material description: A substance added to react with gangue",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction; Gangue — representative association: Sand and rocky impurities are common examples; Flux — process or material description: A substance added to react with gangue.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic extraction · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic extraction — representative association: Limestone-derived lime can react with silica\nII. Gangue — process or material description: Unwanted earthy material mixed with ore\nIII. Flux — essential condition or purpose: Helps produce removable slag",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Electrolytic extraction — representative association: Used in aluminium extraction; Gangue — process or material description: Unwanted earthy material mixed with ore; Flux — essential condition or purpose: Helps produce removable slag.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic extraction · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic refining of copper — process or material description: Purification through electrolysis\nII. Roasting — essential condition or purpose: Commonly converts sulfides to oxides\nIII. Slag — representative association: Calcium silicate is a common textbook example",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Electrolytic refining of copper — process or material description: Purification through electrolysis; Roasting — essential condition or purpose: Commonly converts sulfides to oxides; Slag — representative association: Calcium silicate is a common textbook example.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic refining of copper · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic refining of copper — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction\nII. Roasting — representative association: Brass contains copper and zinc\nIII. Slag — process or material description: A mineral deposit suitable for economically viable extraction",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Electrolytic refining of copper — essential condition or purpose: Copper deposits on a pure-copper cathode; Roasting — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide; Slag — process or material description: Material formed when flux reacts with gangue.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic refining of copper · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic refining of copper — representative association: Impure copper is used as the anode\nII. Roasting — process or material description: A mineral deposit suitable for economically viable extraction\nIII. Slag — essential condition or purpose: It is removed during processing",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electrolytic refining of copper — representative association: Impure copper is used as the anode; Roasting — process or material description: Heating an ore in excess air; Slag — essential condition or purpose: Helps separate impurities from the metal.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic refining of copper · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alloy — process or material description: A mineral deposit suitable for economically viable extraction\nII. Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates\nIII. Electrolytic extraction — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Alloy — process or material description: A mixture containing a metal and other element or elements; Calcination — essential condition or purpose: Commonly removes carbon dioxide from carbonates; Electrolytic extraction — representative association: Used in aluminium extraction.",
+        "difficulty": "Hard",
+        "topic": "Alloy · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alloy — essential condition or purpose: Composition changes useful material properties\nII. Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide\nIII. Electrolytic extraction — process or material description: Heating an ore with limited or no air",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Alloy — essential condition or purpose: Composition changes useful material properties; Calcination — representative association: Zinc carbonate can form zinc oxide and carbon dioxide; Electrolytic extraction — process or material description: Decomposition of a compound using electricity.",
+        "difficulty": "Hard",
+        "topic": "Alloy · comparing chapter concepts",
+        "sourceChapter": 11
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH11-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alloy — representative association: Zinc sulfide can form zinc oxide and sulfur dioxide\nII. Calcination — process or material description: A substance added to react with gangue\nIII. Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Alloy — representative association: Brass contains copper and zinc; Calcination — process or material description: Heating an ore with limited or no air; Electrolytic extraction — essential condition or purpose: Suitable for highly reactive metals whose compounds resist ordinary carbon reduction.",
+        "difficulty": "Hard",
+        "topic": "Alloy · comparing chapter concepts",
+        "sourceChapter": 11
+      }
+    ]
+  }
+}

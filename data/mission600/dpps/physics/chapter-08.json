@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH08-E": {
+    "id": "SA-DPP-27-PHY-CH08-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "E",
+    "title": "Chemical Bonding – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-08.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-12",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q01",
+        "question": "A covalent bond involves what?",
+        "options": [
+          "Sharing electron pairs",
+          "Sharing protons",
+          "Transferring neutrons",
+          "Destroying nuclei"
+        ],
+        "answer": 0,
+        "explanation": "Covalent bonding results from shared electron pairs.",
+        "difficulty": "Easy",
+        "topic": "A covalent bond involves what?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q02",
+        "question": "What ions form in sodium chloride?",
+        "options": [
+          "Na⁻ and Cl⁺",
+          "Na²⁺ and Cl²⁻",
+          "Neutral Na and Cl atoms only",
+          "Na⁺ and Cl⁻"
+        ],
+        "answer": 3,
+        "explanation": "Sodium transfers one electron to chlorine.",
+        "difficulty": "Easy",
+        "topic": "What ions form in sodium chloride?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q03",
+        "question": "How many electron pairs are shared in an N₂ molecule?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The nitrogen atoms form a triple covalent bond.",
+        "difficulty": "Easy",
+        "topic": "How many electron pairs are shared in an N₂ molecule?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q04",
+        "question": "Ionic bond: which option correctly identifies the bonding description?",
+        "options": [
+          "Sharing of three electron pairs",
+          "Electrostatic attraction between oppositely charged ions",
+          "Sharing of one electron pair",
+          "Sharing of two electron pairs"
+        ],
+        "answer": 1,
+        "explanation": "Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions.",
+        "difficulty": "Easy",
+        "topic": "Ionic bond · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q05",
+        "question": "Ionic bond: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Electron transfer produces cations and anions",
+          "Four electrons participate in the shared pairs",
+          "Six electrons participate in the shared pairs",
+          "Ions are fixed in place in the solid"
+        ],
+        "answer": 0,
+        "explanation": "Ionic bond — electron or structural feature: Electron transfer produces cations and anions.",
+        "difficulty": "Easy",
+        "topic": "Ionic bond · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q06",
+        "question": "Ionic bond: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "The N₂ molecule has a triple bond",
+          "Conducts when molten because ions become mobile",
+          "Mg²⁺ and O²⁻ are formed",
+          "Sodium chloride contains Na⁺ and Cl⁻"
+        ],
+        "answer": 3,
+        "explanation": "Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻.",
+        "difficulty": "Easy",
+        "topic": "Ionic bond · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q07",
+        "question": "Single covalent bond: which option correctly identifies the bonding description?",
+        "options": [
+          "Sharing of three electron pairs",
+          "An extended ionic lattice",
+          "Sharing of one electron pair",
+          "Sharing of two electron pairs"
+        ],
+        "answer": 2,
+        "explanation": "Single covalent bond — bonding description: Sharing of one electron pair.",
+        "difficulty": "Easy",
+        "topic": "Single covalent bond · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q08",
+        "question": "Single covalent bond: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Magnesium transfers two electrons to oxygen",
+          "Two electrons form the shared pair",
+          "Six electrons participate in the shared pairs",
+          "Ions are fixed in place in the solid"
+        ],
+        "answer": 1,
+        "explanation": "Single covalent bond — electron or structural feature: Two electrons form the shared pair.",
+        "difficulty": "Easy",
+        "topic": "Single covalent bond · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q09",
+        "question": "Single covalent bond: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "The H₂ molecule has one single bond",
+          "Conducts when molten because ions become mobile",
+          "Mg²⁺ and O²⁻ are formed",
+          "Has a net molecular dipole despite being neutral"
+        ],
+        "answer": 0,
+        "explanation": "Single covalent bond — characteristic example or property: The H₂ molecule has one single bond.",
+        "difficulty": "Easy",
+        "topic": "Single covalent bond · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q10",
+        "question": "Double covalent bond: which option correctly identifies the bonding description?",
+        "options": [
+          "Sharing of three electron pairs",
+          "An extended ionic lattice",
+          "An ionic-bonding example",
+          "Sharing of two electron pairs"
+        ],
+        "answer": 3,
+        "explanation": "Double covalent bond — bonding description: Sharing of two electron pairs.",
+        "difficulty": "Easy",
+        "topic": "Double covalent bond · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q11",
+        "question": "Double covalent bond: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Magnesium transfers two electrons to oxygen",
+          "O−H bond dipoles do not cancel",
+          "Four electrons participate in the shared pairs",
+          "Ions are fixed in place in the solid"
+        ],
+        "answer": 2,
+        "explanation": "Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs.",
+        "difficulty": "Easy",
+        "topic": "Double covalent bond · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q12",
+        "question": "Double covalent bond: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "Has four C−H single bonds",
+          "The O₂ molecule has a double bond",
+          "Mg²⁺ and O²⁻ are formed",
+          "Has a net molecular dipole despite being neutral"
+        ],
+        "answer": 1,
+        "explanation": "Double covalent bond — characteristic example or property: The O₂ molecule has a double bond.",
+        "difficulty": "Easy",
+        "topic": "Double covalent bond · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q13",
+        "question": "Triple covalent bond: which option correctly identifies the bonding description?",
+        "options": [
+          "Sharing of three electron pairs",
+          "An extended ionic lattice",
+          "An ionic-bonding example",
+          "A bent polar covalent molecule"
+        ],
+        "answer": 0,
+        "explanation": "Triple covalent bond — bonding description: Sharing of three electron pairs.",
+        "difficulty": "Easy",
+        "topic": "Triple covalent bond · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q14",
+        "question": "Triple covalent bond: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Magnesium transfers two electrons to oxygen",
+          "O−H bond dipoles do not cancel",
+          "Carbon shares four electron pairs with four hydrogen atoms",
+          "Six electrons participate in the shared pairs"
+        ],
+        "answer": 3,
+        "explanation": "Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs.",
+        "difficulty": "Easy",
+        "topic": "Triple covalent bond · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q15",
+        "question": "Triple covalent bond: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "Has four C−H single bonds",
+          "Its symmetric bond dipoles cancel",
+          "The N₂ molecule has a triple bond",
+          "Has a net molecular dipole despite being neutral"
+        ],
+        "answer": 2,
+        "explanation": "Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond.",
+        "difficulty": "Easy",
+        "topic": "Triple covalent bond · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q16",
+        "question": "Sodium chloride crystal: which option correctly identifies the bonding description?",
+        "options": [
+          "A tetrahedral covalent molecule",
+          "An extended ionic lattice",
+          "An ionic-bonding example",
+          "A bent polar covalent molecule"
+        ],
+        "answer": 1,
+        "explanation": "Sodium chloride crystal — bonding description: An extended ionic lattice.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride crystal · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q17",
+        "question": "Sodium chloride crystal: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Ions are fixed in place in the solid",
+          "O−H bond dipoles do not cancel",
+          "Carbon shares four electron pairs with four hydrogen atoms",
+          "Carbon forms a double bond with each oxygen"
+        ],
+        "answer": 0,
+        "explanation": "Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride crystal · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q18",
+        "question": "Sodium chloride crystal: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "Has four C−H single bonds",
+          "Its symmetric bond dipoles cancel",
+          "Sodium chloride contains Na⁺ and Cl⁻",
+          "Conducts when molten because ions become mobile"
+        ],
+        "answer": 3,
+        "explanation": "Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride crystal · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q19",
+        "question": "Magnesium oxide formation: which option correctly identifies the bonding description?",
+        "options": [
+          "A tetrahedral covalent molecule",
+          "A linear covalent molecule",
+          "An ionic-bonding example",
+          "A bent polar covalent molecule"
+        ],
+        "answer": 2,
+        "explanation": "Magnesium oxide formation — bonding description: An ionic-bonding example.",
+        "difficulty": "Easy",
+        "topic": "Magnesium oxide formation · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q20",
+        "question": "Magnesium oxide formation: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Electron transfer produces cations and anions",
+          "Magnesium transfers two electrons to oxygen",
+          "Carbon shares four electron pairs with four hydrogen atoms",
+          "Carbon forms a double bond with each oxygen"
+        ],
+        "answer": 1,
+        "explanation": "Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen.",
+        "difficulty": "Easy",
+        "topic": "Magnesium oxide formation · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q21",
+        "question": "Magnesium oxide formation: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "Mg²⁺ and O²⁻ are formed",
+          "Its symmetric bond dipoles cancel",
+          "Sodium chloride contains Na⁺ and Cl⁻",
+          "The H₂ molecule has one single bond"
+        ],
+        "answer": 0,
+        "explanation": "Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed.",
+        "difficulty": "Easy",
+        "topic": "Magnesium oxide formation · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q22",
+        "question": "Water molecule: which option correctly identifies the bonding description?",
+        "options": [
+          "A tetrahedral covalent molecule",
+          "A linear covalent molecule",
+          "Electrostatic attraction between oppositely charged ions",
+          "A bent polar covalent molecule"
+        ],
+        "answer": 3,
+        "explanation": "Water molecule — bonding description: A bent polar covalent molecule.",
+        "difficulty": "Easy",
+        "topic": "Water molecule · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q23",
+        "question": "Water molecule: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Electron transfer produces cations and anions",
+          "Two electrons form the shared pair",
+          "O−H bond dipoles do not cancel",
+          "Carbon forms a double bond with each oxygen"
+        ],
+        "answer": 2,
+        "explanation": "Water molecule — electron or structural feature: O−H bond dipoles do not cancel.",
+        "difficulty": "Easy",
+        "topic": "Water molecule · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q24",
+        "question": "Water molecule: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "The O₂ molecule has a double bond",
+          "Has a net molecular dipole despite being neutral",
+          "Sodium chloride contains Na⁺ and Cl⁻",
+          "The H₂ molecule has one single bond"
+        ],
+        "answer": 1,
+        "explanation": "Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral.",
+        "difficulty": "Easy",
+        "topic": "Water molecule · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q25",
+        "question": "Methane molecule: which option correctly identifies the bonding description?",
+        "options": [
+          "A tetrahedral covalent molecule",
+          "A linear covalent molecule",
+          "Electrostatic attraction between oppositely charged ions",
+          "Sharing of one electron pair"
+        ],
+        "answer": 0,
+        "explanation": "Methane molecule — bonding description: A tetrahedral covalent molecule.",
+        "difficulty": "Easy",
+        "topic": "Methane molecule · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q26",
+        "question": "Methane molecule: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Electron transfer produces cations and anions",
+          "Two electrons form the shared pair",
+          "Four electrons participate in the shared pairs",
+          "Carbon shares four electron pairs with four hydrogen atoms"
+        ],
+        "answer": 3,
+        "explanation": "Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms.",
+        "difficulty": "Easy",
+        "topic": "Methane molecule · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q27",
+        "question": "Methane molecule: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "The O₂ molecule has a double bond",
+          "The N₂ molecule has a triple bond",
+          "Has four C−H single bonds",
+          "The H₂ molecule has one single bond"
+        ],
+        "answer": 2,
+        "explanation": "Methane molecule — characteristic example or property: Has four C−H single bonds.",
+        "difficulty": "Easy",
+        "topic": "Methane molecule · characteristic example or property",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q28",
+        "question": "Carbon dioxide molecule: which option correctly identifies the bonding description?",
+        "options": [
+          "Sharing of two electron pairs",
+          "A linear covalent molecule",
+          "Electrostatic attraction between oppositely charged ions",
+          "Sharing of one electron pair"
+        ],
+        "answer": 1,
+        "explanation": "Carbon dioxide molecule — bonding description: A linear covalent molecule.",
+        "difficulty": "Easy",
+        "topic": "Carbon dioxide molecule · bonding description",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q29",
+        "question": "Carbon dioxide molecule: which option correctly identifies the electron or structural feature?",
+        "options": [
+          "Carbon forms a double bond with each oxygen",
+          "Two electrons form the shared pair",
+          "Four electrons participate in the shared pairs",
+          "Six electrons participate in the shared pairs"
+        ],
+        "answer": 0,
+        "explanation": "Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen.",
+        "difficulty": "Easy",
+        "topic": "Carbon dioxide molecule · electron or structural feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-E-Q30",
+        "question": "Carbon dioxide molecule: which option correctly identifies the characteristic example or property?",
+        "options": [
+          "The O₂ molecule has a double bond",
+          "The N₂ molecule has a triple bond",
+          "Conducts when molten because ions become mobile",
+          "Its symmetric bond dipoles cancel"
+        ],
+        "answer": 3,
+        "explanation": "Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel.",
+        "difficulty": "Easy",
+        "topic": "Carbon dioxide molecule · characteristic example or property",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH08-M": {
+    "id": "SA-DPP-27-PHY-CH08-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "M",
+    "title": "Chemical Bonding – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-08.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q01",
+        "question": "Why does molten NaCl conduct electricity?",
+        "options": [
+          "Its molecules become metals",
+          "Its protons move through wires",
+          "It contains free neutrons",
+          "Its ions can move"
+        ],
+        "answer": 3,
+        "explanation": "Mobile charged ions carry current in the melt.",
+        "difficulty": "Medium",
+        "topic": "Why does molten NaCl conduct electricity?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q02",
+        "question": "Which bonding description fits MgO?",
+        "options": [
+          "O transfers two electrons to Mg",
+          "Both atoms lose two electrons",
+          "Mg transfers two electrons to O",
+          "Mg shares one proton with O"
+        ],
+        "answer": 2,
+        "explanation": "Mg²⁺ and O²⁻ are formed by two-electron transfer.",
+        "difficulty": "Medium",
+        "topic": "Which bonding description fits MgO?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q03",
+        "question": "Why does solid NaCl not conduct under ordinary conditions?",
+        "options": [
+          "It contains only molecules of gas",
+          "Its ions are fixed in a lattice",
+          "It has no charged particles",
+          "Its electrons are all free"
+        ],
+        "answer": 1,
+        "explanation": "The lattice prevents the movement of ions needed for conduction.",
+        "difficulty": "Medium",
+        "topic": "Why does solid NaCl not conduct under ordinary conditions?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q04",
+        "question": "Which pair correctly matches Ionic bond with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "Electrostatic attraction between oppositely charged ions → Electron transfer produces cations and anions",
+          "Sharing of one electron pair → Electron transfer produces cations and anions",
+          "Electrostatic attraction between oppositely charged ions → Two electrons form the shared pair",
+          "Sharing of two electron pairs → Four electrons participate in the shared pairs"
+        ],
+        "answer": 0,
+        "explanation": "Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions. Ionic bond — electron or structural feature: Electron transfer produces cations and anions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ionic bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q05",
+        "question": "Which pair correctly matches Ionic bond with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Four electrons participate in the shared pairs → Sodium chloride contains Na⁺ and Cl⁻",
+          "Electron transfer produces cations and anions → The H₂ molecule has one single bond",
+          "Six electrons participate in the shared pairs → The O₂ molecule has a double bond",
+          "Electron transfer produces cations and anions → Sodium chloride contains Na⁺ and Cl⁻"
+        ],
+        "answer": 3,
+        "explanation": "Ionic bond — electron or structural feature: Electron transfer produces cations and anions. Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ionic bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q06",
+        "question": "Which pair correctly matches Ionic bond with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Sodium chloride contains Na⁺ and Cl⁻ → Sharing of one electron pair",
+          "Conducts when molten because ions become mobile → Sharing of two electron pairs",
+          "Sodium chloride contains Na⁺ and Cl⁻ → Electrostatic attraction between oppositely charged ions",
+          "The N₂ molecule has a triple bond → Electrostatic attraction between oppositely charged ions"
+        ],
+        "answer": 2,
+        "explanation": "Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻. Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ionic bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q07",
+        "question": "Which pair correctly matches Single covalent bond with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "Sharing of three electron pairs → Six electrons participate in the shared pairs",
+          "Sharing of one electron pair → Two electrons form the shared pair",
+          "Sharing of two electron pairs → Two electrons form the shared pair",
+          "Sharing of one electron pair → Four electrons participate in the shared pairs"
+        ],
+        "answer": 1,
+        "explanation": "Single covalent bond — bonding description: Sharing of one electron pair. Single covalent bond — electron or structural feature: Two electrons form the shared pair. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Single covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q08",
+        "question": "Which pair correctly matches Single covalent bond with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Two electrons form the shared pair → The H₂ molecule has one single bond",
+          "Six electrons participate in the shared pairs → The H₂ molecule has one single bond",
+          "Two electrons form the shared pair → The O₂ molecule has a double bond",
+          "Ions are fixed in place in the solid → The N₂ molecule has a triple bond"
+        ],
+        "answer": 0,
+        "explanation": "Single covalent bond — electron or structural feature: Two electrons form the shared pair. Single covalent bond — characteristic example or property: The H₂ molecule has one single bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Single covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q09",
+        "question": "Which pair correctly matches Single covalent bond with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Conducts when molten because ions become mobile → Sharing of one electron pair",
+          "The H₂ molecule has one single bond → Sharing of two electron pairs",
+          "Mg²⁺ and O²⁻ are formed → Sharing of three electron pairs",
+          "The H₂ molecule has one single bond → Sharing of one electron pair"
+        ],
+        "answer": 3,
+        "explanation": "Single covalent bond — characteristic example or property: The H₂ molecule has one single bond. Single covalent bond — bonding description: Sharing of one electron pair. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Single covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q10",
+        "question": "Which pair correctly matches Double covalent bond with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "Sharing of two electron pairs → Six electrons participate in the shared pairs",
+          "An extended ionic lattice → Ions are fixed in place in the solid",
+          "Sharing of two electron pairs → Four electrons participate in the shared pairs",
+          "Sharing of three electron pairs → Four electrons participate in the shared pairs"
+        ],
+        "answer": 2,
+        "explanation": "Double covalent bond — bonding description: Sharing of two electron pairs. Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q11",
+        "question": "Which pair correctly matches Double covalent bond with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Magnesium transfers two electrons to oxygen → Conducts when molten because ions become mobile",
+          "Four electrons participate in the shared pairs → The O₂ molecule has a double bond",
+          "Ions are fixed in place in the solid → The O₂ molecule has a double bond",
+          "Four electrons participate in the shared pairs → The N₂ molecule has a triple bond"
+        ],
+        "answer": 1,
+        "explanation": "Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs. Double covalent bond — characteristic example or property: The O₂ molecule has a double bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q12",
+        "question": "Which pair correctly matches Double covalent bond with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "The O₂ molecule has a double bond → Sharing of two electron pairs",
+          "Mg²⁺ and O²⁻ are formed → Sharing of two electron pairs",
+          "The O₂ molecule has a double bond → Sharing of three electron pairs",
+          "Has a net molecular dipole despite being neutral → An extended ionic lattice"
+        ],
+        "answer": 0,
+        "explanation": "Double covalent bond — characteristic example or property: The O₂ molecule has a double bond. Double covalent bond — bonding description: Sharing of two electron pairs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q13",
+        "question": "Which pair correctly matches Triple covalent bond with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "An extended ionic lattice → Six electrons participate in the shared pairs",
+          "Sharing of three electron pairs → Ions are fixed in place in the solid",
+          "An ionic-bonding example → Magnesium transfers two electrons to oxygen",
+          "Sharing of three electron pairs → Six electrons participate in the shared pairs"
+        ],
+        "answer": 3,
+        "explanation": "Triple covalent bond — bonding description: Sharing of three electron pairs. Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Triple covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q14",
+        "question": "Which pair correctly matches Triple covalent bond with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Six electrons participate in the shared pairs → Conducts when molten because ions become mobile",
+          "O−H bond dipoles do not cancel → Mg²⁺ and O²⁻ are formed",
+          "Six electrons participate in the shared pairs → The N₂ molecule has a triple bond",
+          "Magnesium transfers two electrons to oxygen → The N₂ molecule has a triple bond"
+        ],
+        "answer": 2,
+        "explanation": "Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs. Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Triple covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q15",
+        "question": "Which pair correctly matches Triple covalent bond with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Has four C−H single bonds → An ionic-bonding example",
+          "The N₂ molecule has a triple bond → Sharing of three electron pairs",
+          "Has a net molecular dipole despite being neutral → Sharing of three electron pairs",
+          "The N₂ molecule has a triple bond → An extended ionic lattice"
+        ],
+        "answer": 1,
+        "explanation": "Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond. Triple covalent bond — bonding description: Sharing of three electron pairs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Triple covalent bond",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q16",
+        "question": "Which pair correctly matches Sodium chloride crystal with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "An extended ionic lattice → Ions are fixed in place in the solid",
+          "An ionic-bonding example → Ions are fixed in place in the solid",
+          "An extended ionic lattice → Magnesium transfers two electrons to oxygen",
+          "A bent polar covalent molecule → O−H bond dipoles do not cancel"
+        ],
+        "answer": 0,
+        "explanation": "Sodium chloride crystal — bonding description: An extended ionic lattice. Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride crystal",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q17",
+        "question": "Which pair correctly matches Sodium chloride crystal with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "O−H bond dipoles do not cancel → Conducts when molten because ions become mobile",
+          "Ions are fixed in place in the solid → Mg²⁺ and O²⁻ are formed",
+          "Carbon shares four electron pairs with four hydrogen atoms → Has a net molecular dipole despite being neutral",
+          "Ions are fixed in place in the solid → Conducts when molten because ions become mobile"
+        ],
+        "answer": 3,
+        "explanation": "Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid. Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride crystal",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q18",
+        "question": "Which pair correctly matches Sodium chloride crystal with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Conducts when molten because ions become mobile → An ionic-bonding example",
+          "Its symmetric bond dipoles cancel → A bent polar covalent molecule",
+          "Conducts when molten because ions become mobile → An extended ionic lattice",
+          "Has four C−H single bonds → An extended ionic lattice"
+        ],
+        "answer": 2,
+        "explanation": "Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile. Sodium chloride crystal — bonding description: An extended ionic lattice. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride crystal",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q19",
+        "question": "Which pair correctly matches Magnesium oxide formation with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "A tetrahedral covalent molecule → Carbon shares four electron pairs with four hydrogen atoms",
+          "An ionic-bonding example → Magnesium transfers two electrons to oxygen",
+          "A bent polar covalent molecule → Magnesium transfers two electrons to oxygen",
+          "An ionic-bonding example → O−H bond dipoles do not cancel"
+        ],
+        "answer": 1,
+        "explanation": "Magnesium oxide formation — bonding description: An ionic-bonding example. Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnesium oxide formation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q20",
+        "question": "Which pair correctly matches Magnesium oxide formation with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Magnesium transfers two electrons to oxygen → Mg²⁺ and O²⁻ are formed",
+          "Carbon shares four electron pairs with four hydrogen atoms → Mg²⁺ and O²⁻ are formed",
+          "Magnesium transfers two electrons to oxygen → Has a net molecular dipole despite being neutral",
+          "Carbon forms a double bond with each oxygen → Has four C−H single bonds"
+        ],
+        "answer": 0,
+        "explanation": "Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen. Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnesium oxide formation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q21",
+        "question": "Which pair correctly matches Magnesium oxide formation with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Its symmetric bond dipoles cancel → An ionic-bonding example",
+          "Mg²⁺ and O²⁻ are formed → A bent polar covalent molecule",
+          "Sodium chloride contains Na⁺ and Cl⁻ → A tetrahedral covalent molecule",
+          "Mg²⁺ and O²⁻ are formed → An ionic-bonding example"
+        ],
+        "answer": 3,
+        "explanation": "Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed. Magnesium oxide formation — bonding description: An ionic-bonding example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnesium oxide formation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q22",
+        "question": "Which pair correctly matches Water molecule with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "A bent polar covalent molecule → Carbon shares four electron pairs with four hydrogen atoms",
+          "A linear covalent molecule → Carbon forms a double bond with each oxygen",
+          "A bent polar covalent molecule → O−H bond dipoles do not cancel",
+          "A tetrahedral covalent molecule → O−H bond dipoles do not cancel"
+        ],
+        "answer": 2,
+        "explanation": "Water molecule — bonding description: A bent polar covalent molecule. Water molecule — electron or structural feature: O−H bond dipoles do not cancel. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Water molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q23",
+        "question": "Which pair correctly matches Water molecule with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Electron transfer produces cations and anions → Its symmetric bond dipoles cancel",
+          "O−H bond dipoles do not cancel → Has a net molecular dipole despite being neutral",
+          "Carbon forms a double bond with each oxygen → Has a net molecular dipole despite being neutral",
+          "O−H bond dipoles do not cancel → Has four C−H single bonds"
+        ],
+        "answer": 1,
+        "explanation": "Water molecule — electron or structural feature: O−H bond dipoles do not cancel. Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Water molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q24",
+        "question": "Which pair correctly matches Water molecule with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Has a net molecular dipole despite being neutral → A bent polar covalent molecule",
+          "Sodium chloride contains Na⁺ and Cl⁻ → A bent polar covalent molecule",
+          "Has a net molecular dipole despite being neutral → A tetrahedral covalent molecule",
+          "The H₂ molecule has one single bond → A linear covalent molecule"
+        ],
+        "answer": 0,
+        "explanation": "Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral. Water molecule — bonding description: A bent polar covalent molecule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Water molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q25",
+        "question": "Which pair correctly matches Methane molecule with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "A linear covalent molecule → Carbon shares four electron pairs with four hydrogen atoms",
+          "A tetrahedral covalent molecule → Carbon forms a double bond with each oxygen",
+          "Electrostatic attraction between oppositely charged ions → Electron transfer produces cations and anions",
+          "A tetrahedral covalent molecule → Carbon shares four electron pairs with four hydrogen atoms"
+        ],
+        "answer": 3,
+        "explanation": "Methane molecule — bonding description: A tetrahedral covalent molecule. Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q26",
+        "question": "Which pair correctly matches Methane molecule with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Carbon shares four electron pairs with four hydrogen atoms → Its symmetric bond dipoles cancel",
+          "Two electrons form the shared pair → Sodium chloride contains Na⁺ and Cl⁻",
+          "Carbon shares four electron pairs with four hydrogen atoms → Has four C−H single bonds",
+          "Electron transfer produces cations and anions → Has four C−H single bonds"
+        ],
+        "answer": 2,
+        "explanation": "Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms. Methane molecule — characteristic example or property: Has four C−H single bonds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q27",
+        "question": "Which pair correctly matches Methane molecule with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "The O₂ molecule has a double bond → Electrostatic attraction between oppositely charged ions",
+          "Has four C−H single bonds → A tetrahedral covalent molecule",
+          "The H₂ molecule has one single bond → A tetrahedral covalent molecule",
+          "Has four C−H single bonds → A linear covalent molecule"
+        ],
+        "answer": 1,
+        "explanation": "Methane molecule — characteristic example or property: Has four C−H single bonds. Methane molecule — bonding description: A tetrahedral covalent molecule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q28",
+        "question": "Which pair correctly matches Carbon dioxide molecule with its bonding description and electron or structural feature, in that order?",
+        "options": [
+          "A linear covalent molecule → Carbon forms a double bond with each oxygen",
+          "Electrostatic attraction between oppositely charged ions → Carbon forms a double bond with each oxygen",
+          "A linear covalent molecule → Electron transfer produces cations and anions",
+          "Sharing of one electron pair → Two electrons form the shared pair"
+        ],
+        "answer": 0,
+        "explanation": "Carbon dioxide molecule — bonding description: A linear covalent molecule. Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Carbon dioxide molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q29",
+        "question": "Which pair correctly matches Carbon dioxide molecule with its electron or structural feature and characteristic example or property, in that order?",
+        "options": [
+          "Two electrons form the shared pair → Its symmetric bond dipoles cancel",
+          "Carbon forms a double bond with each oxygen → Sodium chloride contains Na⁺ and Cl⁻",
+          "Four electrons participate in the shared pairs → The H₂ molecule has one single bond",
+          "Carbon forms a double bond with each oxygen → Its symmetric bond dipoles cancel"
+        ],
+        "answer": 3,
+        "explanation": "Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen. Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Carbon dioxide molecule",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-M-Q30",
+        "question": "Which pair correctly matches Carbon dioxide molecule with its characteristic example or property and bonding description, in that order?",
+        "options": [
+          "Its symmetric bond dipoles cancel → Electrostatic attraction between oppositely charged ions",
+          "The N₂ molecule has a triple bond → Sharing of one electron pair",
+          "Its symmetric bond dipoles cancel → A linear covalent molecule",
+          "The O₂ molecule has a double bond → A linear covalent molecule"
+        ],
+        "answer": 2,
+        "explanation": "Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel. Carbon dioxide molecule — bonding description: A linear covalent molecule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Carbon dioxide molecule",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH08-H": {
+    "id": "SA-DPP-27-PHY-CH08-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch8",
+    "chapterNumber": 8,
+    "chapter": "Chemical Bonding",
+    "level": "H",
+    "title": "Chemical Bonding – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-08.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-02",
+    "recommendedDate": "2026-11-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 150,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q01",
+        "question": "Which property best distinguishes many ionic compounds from simple molecular covalent compounds?",
+        "options": [
+          "Never dissolving in water",
+          "Conducting electricity as solids",
+          "High melting point from strong ionic attractions",
+          "Always being liquids"
+        ],
+        "answer": 2,
+        "explanation": "Strong electrostatic attractions require considerable energy to overcome.",
+        "difficulty": "Hard",
+        "topic": "Which property best distinguishes many ionic compounds from simple molecular covalent compounds?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q02",
+        "question": "Why can a water molecule be polar although its overall charge is zero?",
+        "options": [
+          "Oxygen gives both its electrons to hydrogen",
+          "Unequal sharing and bent geometry give a net dipole",
+          "It contains unequal proton and electron totals",
+          "Every neutral molecule is nonpolar"
+        ],
+        "answer": 1,
+        "explanation": "O−H bond dipoles do not cancel in the bent molecule.",
+        "difficulty": "Hard",
+        "topic": "Why can a water molecule be polar although its overall charge is zero?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q03",
+        "question": "Which Lewis description is correct for CO₂?",
+        "options": [
+          "O=C=O with two double bonds",
+          "O−C−O with two single bonds and no other electrons",
+          "One triple bond to each oxygen",
+          "An ionic chain of C⁴⁻ and O²⁺"
+        ],
+        "answer": 0,
+        "explanation": "Two shared pairs per C−O bond satisfy the usual octets.",
+        "difficulty": "Hard",
+        "topic": "Which Lewis description is correct for CO₂?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions\nII. Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid\nIII. Methane molecule — characteristic example or property: Has four C−H single bonds",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions; Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid; Methane molecule — characteristic example or property: Has four C−H single bonds.",
+        "difficulty": "Hard",
+        "topic": "Ionic bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ionic bond — electron or structural feature: Four electrons participate in the shared pairs\nII. Sodium chloride crystal — characteristic example or property: The O₂ molecule has a double bond\nIII. Methane molecule — bonding description: Sharing of three electron pairs",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Ionic bond — electron or structural feature: Electron transfer produces cations and anions; Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile; Methane molecule — bonding description: A tetrahedral covalent molecule.",
+        "difficulty": "Hard",
+        "topic": "Ionic bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻\nII. Sodium chloride crystal — bonding description: Sharing of three electron pairs\nIII. Methane molecule — electron or structural feature: Ions are fixed in place in the solid",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻; Sodium chloride crystal — bonding description: An extended ionic lattice; Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms.",
+        "difficulty": "Hard",
+        "topic": "Ionic bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Single covalent bond — bonding description: An extended ionic lattice\nII. Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen\nIII. Carbon dioxide molecule — characteristic example or property: Mg²⁺ and O²⁻ are formed",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Single covalent bond — bonding description: Sharing of one electron pair; Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen; Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel.",
+        "difficulty": "Hard",
+        "topic": "Single covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Single covalent bond — electron or structural feature: Two electrons form the shared pair\nII. Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed\nIII. Carbon dioxide molecule — bonding description: A bent polar covalent molecule",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Single covalent bond — electron or structural feature: Two electrons form the shared pair; Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed; Carbon dioxide molecule — bonding description: A linear covalent molecule.",
+        "difficulty": "Hard",
+        "topic": "Single covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Single covalent bond — characteristic example or property: Has a net molecular dipole despite being neutral\nII. Magnesium oxide formation — bonding description: A tetrahedral covalent molecule\nIII. Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Single covalent bond — characteristic example or property: The H₂ molecule has one single bond; Magnesium oxide formation — bonding description: An ionic-bonding example; Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen.",
+        "difficulty": "Hard",
+        "topic": "Single covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double covalent bond — bonding description: Sharing of two electron pairs\nII. Water molecule — electron or structural feature: Carbon forms a double bond with each oxygen\nIII. Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Double covalent bond — bonding description: Sharing of two electron pairs; Water molecule — electron or structural feature: O−H bond dipoles do not cancel; Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻.",
+        "difficulty": "Hard",
+        "topic": "Double covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double covalent bond — electron or structural feature: Carbon forms a double bond with each oxygen\nII. Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral\nIII. Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs; Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral; Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions.",
+        "difficulty": "Hard",
+        "topic": "Double covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double covalent bond — characteristic example or property: The O₂ molecule has a double bond\nII. Water molecule — bonding description: A bent polar covalent molecule\nIII. Ionic bond — electron or structural feature: Electron transfer produces cations and anions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Double covalent bond — characteristic example or property: The O₂ molecule has a double bond; Water molecule — bonding description: A bent polar covalent molecule; Ionic bond — electron or structural feature: Electron transfer produces cations and anions.",
+        "difficulty": "Hard",
+        "topic": "Double covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Triple covalent bond — bonding description: Sharing of one electron pair\nII. Methane molecule — electron or structural feature: Four electrons participate in the shared pairs\nIII. Single covalent bond — characteristic example or property: Conducts when molten because ions become mobile",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Triple covalent bond — bonding description: Sharing of three electron pairs; Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms; Single covalent bond — characteristic example or property: The H₂ molecule has one single bond.",
+        "difficulty": "Hard",
+        "topic": "Triple covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs\nII. Methane molecule — characteristic example or property: The N₂ molecule has a triple bond\nIII. Single covalent bond — bonding description: An ionic-bonding example",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs; Methane molecule — characteristic example or property: Has four C−H single bonds; Single covalent bond — bonding description: Sharing of one electron pair.",
+        "difficulty": "Hard",
+        "topic": "Triple covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Triple covalent bond — characteristic example or property: Conducts when molten because ions become mobile\nII. Methane molecule — bonding description: A tetrahedral covalent molecule\nIII. Single covalent bond — electron or structural feature: O−H bond dipoles do not cancel",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond; Methane molecule — bonding description: A tetrahedral covalent molecule; Single covalent bond — electron or structural feature: Two electrons form the shared pair.",
+        "difficulty": "Hard",
+        "topic": "Triple covalent bond · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride crystal — bonding description: An extended ionic lattice\nII. Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen\nIII. Double covalent bond — characteristic example or property: Has four C−H single bonds",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Sodium chloride crystal — bonding description: An extended ionic lattice; Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen; Double covalent bond — characteristic example or property: The O₂ molecule has a double bond.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride crystal · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride crystal — electron or structural feature: O−H bond dipoles do not cancel\nII. Carbon dioxide molecule — characteristic example or property: Has a net molecular dipole despite being neutral\nIII. Double covalent bond — bonding description: Sharing of two electron pairs",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid; Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel; Double covalent bond — bonding description: Sharing of two electron pairs.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride crystal · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile\nII. Carbon dioxide molecule — bonding description: A tetrahedral covalent molecule\nIII. Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile; Carbon dioxide molecule — bonding description: A linear covalent molecule; Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride crystal · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnesium oxide formation — bonding description: A linear covalent molecule\nII. Ionic bond — electron or structural feature: Electron transfer produces cations and anions\nIII. Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Magnesium oxide formation — bonding description: An ionic-bonding example; Ionic bond — electron or structural feature: Electron transfer produces cations and anions; Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond.",
+        "difficulty": "Hard",
+        "topic": "Magnesium oxide formation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen\nII. Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻\nIII. Triple covalent bond — bonding description: Sharing of three electron pairs",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen; Ionic bond — characteristic example or property: Sodium chloride contains Na⁺ and Cl⁻; Triple covalent bond — bonding description: Sharing of three electron pairs.",
+        "difficulty": "Hard",
+        "topic": "Magnesium oxide formation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnesium oxide formation — characteristic example or property: The H₂ molecule has one single bond\nII. Ionic bond — bonding description: Sharing of three electron pairs\nIII. Triple covalent bond — electron or structural feature: Ions are fixed in place in the solid",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed; Ionic bond — bonding description: Electrostatic attraction between oppositely charged ions; Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs.",
+        "difficulty": "Hard",
+        "topic": "Magnesium oxide formation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Water molecule — bonding description: A bent polar covalent molecule\nII. Single covalent bond — electron or structural feature: Ions are fixed in place in the solid\nIII. Sodium chloride crystal — characteristic example or property: Mg²⁺ and O²⁻ are formed",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Water molecule — bonding description: A bent polar covalent molecule; Single covalent bond — electron or structural feature: Two electrons form the shared pair; Sodium chloride crystal — characteristic example or property: Conducts when molten because ions become mobile.",
+        "difficulty": "Hard",
+        "topic": "Water molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Water molecule — electron or structural feature: Six electrons participate in the shared pairs\nII. Single covalent bond — characteristic example or property: The H₂ molecule has one single bond\nIII. Sodium chloride crystal — bonding description: A bent polar covalent molecule",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Water molecule — electron or structural feature: O−H bond dipoles do not cancel; Single covalent bond — characteristic example or property: The H₂ molecule has one single bond; Sodium chloride crystal — bonding description: An extended ionic lattice.",
+        "difficulty": "Hard",
+        "topic": "Water molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral\nII. Single covalent bond — bonding description: Sharing of one electron pair\nIII. Sodium chloride crystal — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral; Single covalent bond — bonding description: Sharing of one electron pair; Sodium chloride crystal — electron or structural feature: Ions are fixed in place in the solid.",
+        "difficulty": "Hard",
+        "topic": "Water molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane molecule — bonding description: An ionic-bonding example\nII. Double covalent bond — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms\nIII. Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Methane molecule — bonding description: A tetrahedral covalent molecule; Double covalent bond — electron or structural feature: Four electrons participate in the shared pairs; Magnesium oxide formation — characteristic example or property: Mg²⁺ and O²⁻ are formed.",
+        "difficulty": "Hard",
+        "topic": "Methane molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms\nII. Double covalent bond — characteristic example or property: Its symmetric bond dipoles cancel\nIII. Magnesium oxide formation — bonding description: An ionic-bonding example",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Methane molecule — electron or structural feature: Carbon shares four electron pairs with four hydrogen atoms; Double covalent bond — characteristic example or property: The O₂ molecule has a double bond; Magnesium oxide formation — bonding description: An ionic-bonding example.",
+        "difficulty": "Hard",
+        "topic": "Methane molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane molecule — characteristic example or property: Its symmetric bond dipoles cancel\nII. Double covalent bond — bonding description: Sharing of two electron pairs\nIII. Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Methane molecule — characteristic example or property: Has four C−H single bonds; Double covalent bond — bonding description: Sharing of two electron pairs; Magnesium oxide formation — electron or structural feature: Magnesium transfers two electrons to oxygen.",
+        "difficulty": "Hard",
+        "topic": "Methane molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Carbon dioxide molecule — bonding description: A linear covalent molecule\nII. Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs\nIII. Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Carbon dioxide molecule — bonding description: A linear covalent molecule; Triple covalent bond — electron or structural feature: Six electrons participate in the shared pairs; Water molecule — characteristic example or property: Has a net molecular dipole despite being neutral.",
+        "difficulty": "Hard",
+        "topic": "Carbon dioxide molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Carbon dioxide molecule — electron or structural feature: Two electrons form the shared pair\nII. Triple covalent bond — characteristic example or property: The O₂ molecule has a double bond\nIII. Water molecule — bonding description: Sharing of three electron pairs",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Carbon dioxide molecule — electron or structural feature: Carbon forms a double bond with each oxygen; Triple covalent bond — characteristic example or property: The N₂ molecule has a triple bond; Water molecule — bonding description: A bent polar covalent molecule.",
+        "difficulty": "Hard",
+        "topic": "Carbon dioxide molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH08-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel\nII. Triple covalent bond — bonding description: An extended ionic lattice\nIII. Water molecule — electron or structural feature: Ions are fixed in place in the solid",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Carbon dioxide molecule — characteristic example or property: Its symmetric bond dipoles cancel; Triple covalent bond — bonding description: Sharing of three electron pairs; Water molecule — electron or structural feature: O−H bond dipoles do not cancel.",
+        "difficulty": "Hard",
+        "topic": "Carbon dioxide molecule · comparing chapter concepts",
+        "sourceChapter": 8
+      }
+    ]
+  }
+}

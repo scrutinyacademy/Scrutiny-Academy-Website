@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH09-E": {
+    "id": "SA-DPP-27-BIO-CH09-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "E",
+    "title": "Our Environment – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-09.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-11-30",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q01",
+        "question": "Which organisms are producers in most land ecosystems?",
+        "options": [
+          "Herbivores",
+          "Carnivores",
+          "Decomposers only",
+          "Green plants"
+        ],
+        "answer": 3,
+        "explanation": "Photosynthetic plants convert solar energy into organic matter.",
+        "difficulty": "Easy",
+        "topic": "Which organisms are producers in most land ecosystems?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q02",
+        "question": "What do decomposers mainly do?",
+        "options": [
+          "Prevent nutrient recycling",
+          "Consume only living predators",
+          "Break down dead organic material",
+          "Create sunlight"
+        ],
+        "answer": 2,
+        "explanation": "Their activity returns nutrients to ecosystems.",
+        "difficulty": "Easy",
+        "topic": "What do decomposers mainly do?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q03",
+        "question": "Which is a biodegradable material?",
+        "options": [
+          "Aluminium can",
+          "Vegetable peel",
+          "Glass bottle",
+          "Polythene bag"
+        ],
+        "answer": 1,
+        "explanation": "Microorganisms can decompose plant organic matter.",
+        "difficulty": "Easy",
+        "topic": "Which is a biodegradable material?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q04",
+        "question": "Producer: which option correctly identifies the ecological identity?",
+        "options": [
+          "An organism that makes organic food from inorganic materials",
+          "An organism feeding on producers",
+          "An organism feeding on primary consumers",
+          "An organism breaking down dead organic matter"
+        ],
+        "answer": 0,
+        "explanation": "Producer — ecological identity: An organism that makes organic food from inorganic materials.",
+        "difficulty": "Easy",
+        "topic": "Producer · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q05",
+        "question": "Producer: which option correctly identifies the role or position?",
+        "options": [
+          "Usually the third trophic level",
+          "Contributes to nutrient recycling",
+          "Shows one route for matter and energy transfer",
+          "Usually the first trophic level"
+        ],
+        "answer": 3,
+        "explanation": "Producer — role or position: Usually the first trophic level.",
+        "difficulty": "Easy",
+        "topic": "Producer · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q06",
+        "question": "Producer: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Grass → deer → tiger is an example",
+          "A consumer may have several food sources",
+          "Green plants support many terrestrial food chains",
+          "Many bacteria and fungi perform this role"
+        ],
+        "answer": 2,
+        "explanation": "Producer — specific example or consequence: Green plants support many terrestrial food chains.",
+        "difficulty": "Easy",
+        "topic": "Producer · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q07",
+        "question": "Primary consumer: which option correctly identifies the ecological identity?",
+        "options": [
+          "A linear sequence of feeding transfers",
+          "An organism feeding on producers",
+          "An organism feeding on primary consumers",
+          "An organism breaking down dead organic matter"
+        ],
+        "answer": 1,
+        "explanation": "Primary consumer — ecological identity: An organism feeding on producers.",
+        "difficulty": "Easy",
+        "topic": "Primary consumer · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q08",
+        "question": "Primary consumer: which option correctly identifies the role or position?",
+        "options": [
+          "Usually the second trophic level",
+          "Contributes to nutrient recycling",
+          "Shows one route for matter and energy transfer",
+          "Combines multiple linked food chains"
+        ],
+        "answer": 0,
+        "explanation": "Primary consumer — role or position: Usually the second trophic level.",
+        "difficulty": "Easy",
+        "topic": "Primary consumer · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q09",
+        "question": "Primary consumer: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Grass → deer → tiger is an example",
+          "A consumer may have several food sources",
+          "Persistent pesticides can threaten top predators",
+          "A grass-eating deer is an example"
+        ],
+        "answer": 3,
+        "explanation": "Primary consumer — specific example or consequence: A grass-eating deer is an example.",
+        "difficulty": "Easy",
+        "topic": "Primary consumer · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q10",
+        "question": "Secondary consumer: which option correctly identifies the ecological identity?",
+        "options": [
+          "A linear sequence of feeding transfers",
+          "A network of interconnected feeding relationships",
+          "An organism feeding on primary consumers",
+          "An organism breaking down dead organic matter"
+        ],
+        "answer": 2,
+        "explanation": "Secondary consumer — ecological identity: An organism feeding on primary consumers.",
+        "difficulty": "Easy",
+        "topic": "Secondary consumer · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q11",
+        "question": "Secondary consumer: which option correctly identifies the role or position?",
+        "options": [
+          "Higher consumers can accumulate more pollutant per unit mass",
+          "Usually the third trophic level",
+          "Shows one route for matter and energy transfer",
+          "Combines multiple linked food chains"
+        ],
+        "answer": 1,
+        "explanation": "Secondary consumer — role or position: Usually the third trophic level.",
+        "difficulty": "Easy",
+        "topic": "Secondary consumer · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q12",
+        "question": "Secondary consumer: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "A frog eating herbivorous insects is an example",
+          "A consumer may have several food sources",
+          "Persistent pesticides can threaten top predators",
+          "Its depletion can increase UV exposure at Earth's surface"
+        ],
+        "answer": 0,
+        "explanation": "Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example.",
+        "difficulty": "Easy",
+        "topic": "Secondary consumer · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q13",
+        "question": "Decomposer: which option correctly identifies the ecological identity?",
+        "options": [
+          "A linear sequence of feeding transfers",
+          "A network of interconnected feeding relationships",
+          "Increasing concentration of some persistent pollutants up food chains",
+          "An organism breaking down dead organic matter"
+        ],
+        "answer": 3,
+        "explanation": "Decomposer — ecological identity: An organism breaking down dead organic matter.",
+        "difficulty": "Easy",
+        "topic": "Decomposer · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q14",
+        "question": "Decomposer: which option correctly identifies the role or position?",
+        "options": [
+          "Higher consumers can accumulate more pollutant per unit mass",
+          "Absorbs much harmful ultraviolet radiation",
+          "Contributes to nutrient recycling",
+          "Combines multiple linked food chains"
+        ],
+        "answer": 2,
+        "explanation": "Decomposer — role or position: Contributes to nutrient recycling.",
+        "difficulty": "Easy",
+        "topic": "Decomposer · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q15",
+        "question": "Decomposer: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Vegetable peels can be composted under suitable conditions",
+          "Many bacteria and fungi perform this role",
+          "Persistent pesticides can threaten top predators",
+          "Its depletion can increase UV exposure at Earth's surface"
+        ],
+        "answer": 1,
+        "explanation": "Decomposer — specific example or consequence: Many bacteria and fungi perform this role.",
+        "difficulty": "Easy",
+        "topic": "Decomposer · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q16",
+        "question": "Food chain: which option correctly identifies the ecological identity?",
+        "options": [
+          "A linear sequence of feeding transfers",
+          "A network of interconnected feeding relationships",
+          "Increasing concentration of some persistent pollutants up food chains",
+          "A region of the stratosphere relatively rich in ozone"
+        ],
+        "answer": 0,
+        "explanation": "Food chain — ecological identity: A linear sequence of feeding transfers.",
+        "difficulty": "Easy",
+        "topic": "Food chain · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q17",
+        "question": "Food chain: which option correctly identifies the role or position?",
+        "options": [
+          "Higher consumers can accumulate more pollutant per unit mass",
+          "Absorbs much harmful ultraviolet radiation",
+          "Can enter natural decomposition processes",
+          "Shows one route for matter and energy transfer"
+        ],
+        "answer": 3,
+        "explanation": "Food chain — role or position: Shows one route for matter and energy transfer.",
+        "difficulty": "Easy",
+        "topic": "Food chain · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q18",
+        "question": "Food chain: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Vegetable peels can be composted under suitable conditions",
+          "Green plants support many terrestrial food chains",
+          "Grass → deer → tiger is an example",
+          "Its depletion can increase UV exposure at Earth's surface"
+        ],
+        "answer": 2,
+        "explanation": "Food chain — specific example or consequence: Grass → deer → tiger is an example.",
+        "difficulty": "Easy",
+        "topic": "Food chain · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q19",
+        "question": "Food web: which option correctly identifies the ecological identity?",
+        "options": [
+          "Material decomposable through biological action",
+          "A network of interconnected feeding relationships",
+          "Increasing concentration of some persistent pollutants up food chains",
+          "A region of the stratosphere relatively rich in ozone"
+        ],
+        "answer": 1,
+        "explanation": "Food web — ecological identity: A network of interconnected feeding relationships.",
+        "difficulty": "Easy",
+        "topic": "Food web · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q20",
+        "question": "Food web: which option correctly identifies the role or position?",
+        "options": [
+          "Combines multiple linked food chains",
+          "Absorbs much harmful ultraviolet radiation",
+          "Can enter natural decomposition processes",
+          "Usually the first trophic level"
+        ],
+        "answer": 0,
+        "explanation": "Food web — role or position: Combines multiple linked food chains.",
+        "difficulty": "Easy",
+        "topic": "Food web · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q21",
+        "question": "Food web: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Vegetable peels can be composted under suitable conditions",
+          "Green plants support many terrestrial food chains",
+          "A grass-eating deer is an example",
+          "A consumer may have several food sources"
+        ],
+        "answer": 3,
+        "explanation": "Food web — specific example or consequence: A consumer may have several food sources.",
+        "difficulty": "Easy",
+        "topic": "Food web · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q22",
+        "question": "Biomagnification: which option correctly identifies the ecological identity?",
+        "options": [
+          "Material decomposable through biological action",
+          "An organism that makes organic food from inorganic materials",
+          "Increasing concentration of some persistent pollutants up food chains",
+          "A region of the stratosphere relatively rich in ozone"
+        ],
+        "answer": 2,
+        "explanation": "Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains.",
+        "difficulty": "Easy",
+        "topic": "Biomagnification · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q23",
+        "question": "Biomagnification: which option correctly identifies the role or position?",
+        "options": [
+          "Usually the second trophic level",
+          "Higher consumers can accumulate more pollutant per unit mass",
+          "Can enter natural decomposition processes",
+          "Usually the first trophic level"
+        ],
+        "answer": 1,
+        "explanation": "Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass.",
+        "difficulty": "Easy",
+        "topic": "Biomagnification · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q24",
+        "question": "Biomagnification: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Persistent pesticides can threaten top predators",
+          "Green plants support many terrestrial food chains",
+          "A grass-eating deer is an example",
+          "A frog eating herbivorous insects is an example"
+        ],
+        "answer": 0,
+        "explanation": "Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators.",
+        "difficulty": "Easy",
+        "topic": "Biomagnification · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q25",
+        "question": "Ozone layer: which option correctly identifies the ecological identity?",
+        "options": [
+          "Material decomposable through biological action",
+          "An organism that makes organic food from inorganic materials",
+          "An organism feeding on producers",
+          "A region of the stratosphere relatively rich in ozone"
+        ],
+        "answer": 3,
+        "explanation": "Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone.",
+        "difficulty": "Easy",
+        "topic": "Ozone layer · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q26",
+        "question": "Ozone layer: which option correctly identifies the role or position?",
+        "options": [
+          "Usually the second trophic level",
+          "Usually the third trophic level",
+          "Absorbs much harmful ultraviolet radiation",
+          "Usually the first trophic level"
+        ],
+        "answer": 2,
+        "explanation": "Ozone layer — role or position: Absorbs much harmful ultraviolet radiation.",
+        "difficulty": "Easy",
+        "topic": "Ozone layer · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q27",
+        "question": "Ozone layer: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Many bacteria and fungi perform this role",
+          "Its depletion can increase UV exposure at Earth's surface",
+          "A grass-eating deer is an example",
+          "A frog eating herbivorous insects is an example"
+        ],
+        "answer": 1,
+        "explanation": "Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface.",
+        "difficulty": "Easy",
+        "topic": "Ozone layer · specific example or consequence",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q28",
+        "question": "Biodegradable waste: which option correctly identifies the ecological identity?",
+        "options": [
+          "Material decomposable through biological action",
+          "An organism that makes organic food from inorganic materials",
+          "An organism feeding on producers",
+          "An organism feeding on primary consumers"
+        ],
+        "answer": 0,
+        "explanation": "Biodegradable waste — ecological identity: Material decomposable through biological action.",
+        "difficulty": "Easy",
+        "topic": "Biodegradable waste · ecological identity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q29",
+        "question": "Biodegradable waste: which option correctly identifies the role or position?",
+        "options": [
+          "Usually the second trophic level",
+          "Usually the third trophic level",
+          "Contributes to nutrient recycling",
+          "Can enter natural decomposition processes"
+        ],
+        "answer": 3,
+        "explanation": "Biodegradable waste — role or position: Can enter natural decomposition processes.",
+        "difficulty": "Easy",
+        "topic": "Biodegradable waste · role or position",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-E-Q30",
+        "question": "Biodegradable waste: which option correctly identifies the specific example or consequence?",
+        "options": [
+          "Many bacteria and fungi perform this role",
+          "Grass → deer → tiger is an example",
+          "Vegetable peels can be composted under suitable conditions",
+          "A frog eating herbivorous insects is an example"
+        ],
+        "answer": 2,
+        "explanation": "Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions.",
+        "difficulty": "Easy",
+        "topic": "Biodegradable waste · specific example or consequence",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH09-M": {
+    "id": "SA-DPP-27-BIO-CH09-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "M",
+    "title": "Our Environment – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-09.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-12-01",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q01",
+        "question": "If producers contain 10000 J and 10% is transferred to each next trophic level, how much reaches secondary consumers?",
+        "options": [
+          "10 J",
+          "10000 J",
+          "100 J",
+          "1000 J"
+        ],
+        "answer": 2,
+        "explanation": "Two transfers give 10000×0.1×0.1=100 J.",
+        "difficulty": "Medium",
+        "topic": "If producers contain 10000 J and 10% is transferred to each next trophic level, how much reaches secondary consumers?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q02",
+        "question": "Why can persistent pollutants become more concentrated at higher trophic levels?",
+        "options": [
+          "Producers contain no pollutants",
+          "They accumulate and are passed through feeding relationships",
+          "They evaporate completely in all predators",
+          "Higher consumers make all pesticides"
+        ],
+        "answer": 1,
+        "explanation": "Slow breakdown and repeated feeding can cause biomagnification.",
+        "difficulty": "Medium",
+        "topic": "Why can persistent pollutants become more concentrated at higher trophic levels?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q03",
+        "question": "What is one role of the stratospheric ozone layer?",
+        "options": [
+          "Absorbing much harmful ultraviolet radiation",
+          "Creating all atmospheric oxygen",
+          "Blocking all visible sunlight",
+          "Producing rain directly"
+        ],
+        "answer": 0,
+        "explanation": "Ozone limits the amount of UV reaching Earth's surface.",
+        "difficulty": "Medium",
+        "topic": "What is one role of the stratospheric ozone layer?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q04",
+        "question": "Which pair correctly matches Producer with its ecological identity and role or position, in that order?",
+        "options": [
+          "An organism feeding on producers → Usually the first trophic level",
+          "An organism that makes organic food from inorganic materials → Usually the second trophic level",
+          "An organism feeding on primary consumers → Usually the third trophic level",
+          "An organism that makes organic food from inorganic materials → Usually the first trophic level"
+        ],
+        "answer": 3,
+        "explanation": "Producer — ecological identity: An organism that makes organic food from inorganic materials. Producer — role or position: Usually the first trophic level. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Producer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q05",
+        "question": "Which pair correctly matches Producer with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Usually the first trophic level → A grass-eating deer is an example",
+          "Contributes to nutrient recycling → A frog eating herbivorous insects is an example",
+          "Usually the first trophic level → Green plants support many terrestrial food chains",
+          "Usually the third trophic level → Green plants support many terrestrial food chains"
+        ],
+        "answer": 2,
+        "explanation": "Producer — role or position: Usually the first trophic level. Producer — specific example or consequence: Green plants support many terrestrial food chains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Producer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q06",
+        "question": "Which pair correctly matches Producer with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Grass → deer → tiger is an example → An organism feeding on primary consumers",
+          "Green plants support many terrestrial food chains → An organism that makes organic food from inorganic materials",
+          "Many bacteria and fungi perform this role → An organism that makes organic food from inorganic materials",
+          "Green plants support many terrestrial food chains → An organism feeding on producers"
+        ],
+        "answer": 1,
+        "explanation": "Producer — specific example or consequence: Green plants support many terrestrial food chains. Producer — ecological identity: An organism that makes organic food from inorganic materials. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Producer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q07",
+        "question": "Which pair correctly matches Primary consumer with its ecological identity and role or position, in that order?",
+        "options": [
+          "An organism feeding on producers → Usually the second trophic level",
+          "An organism feeding on primary consumers → Usually the second trophic level",
+          "An organism feeding on producers → Usually the third trophic level",
+          "An organism breaking down dead organic matter → Contributes to nutrient recycling"
+        ],
+        "answer": 0,
+        "explanation": "Primary consumer — ecological identity: An organism feeding on producers. Primary consumer — role or position: Usually the second trophic level. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q08",
+        "question": "Which pair correctly matches Primary consumer with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Contributes to nutrient recycling → A grass-eating deer is an example",
+          "Usually the second trophic level → A frog eating herbivorous insects is an example",
+          "Shows one route for matter and energy transfer → Many bacteria and fungi perform this role",
+          "Usually the second trophic level → A grass-eating deer is an example"
+        ],
+        "answer": 3,
+        "explanation": "Primary consumer — role or position: Usually the second trophic level. Primary consumer — specific example or consequence: A grass-eating deer is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q09",
+        "question": "Which pair correctly matches Primary consumer with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "A grass-eating deer is an example → An organism feeding on primary consumers",
+          "A consumer may have several food sources → An organism breaking down dead organic matter",
+          "A grass-eating deer is an example → An organism feeding on producers",
+          "Grass → deer → tiger is an example → An organism feeding on producers"
+        ],
+        "answer": 2,
+        "explanation": "Primary consumer — specific example or consequence: A grass-eating deer is an example. Primary consumer — ecological identity: An organism feeding on producers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q10",
+        "question": "Which pair correctly matches Secondary consumer with its ecological identity and role or position, in that order?",
+        "options": [
+          "A linear sequence of feeding transfers → Shows one route for matter and energy transfer",
+          "An organism feeding on primary consumers → Usually the third trophic level",
+          "An organism breaking down dead organic matter → Usually the third trophic level",
+          "An organism feeding on primary consumers → Contributes to nutrient recycling"
+        ],
+        "answer": 1,
+        "explanation": "Secondary consumer — ecological identity: An organism feeding on primary consumers. Secondary consumer — role or position: Usually the third trophic level. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q11",
+        "question": "Which pair correctly matches Secondary consumer with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Usually the third trophic level → A frog eating herbivorous insects is an example",
+          "Shows one route for matter and energy transfer → A frog eating herbivorous insects is an example",
+          "Usually the third trophic level → Many bacteria and fungi perform this role",
+          "Combines multiple linked food chains → Grass → deer → tiger is an example"
+        ],
+        "answer": 0,
+        "explanation": "Secondary consumer — role or position: Usually the third trophic level. Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q12",
+        "question": "Which pair correctly matches Secondary consumer with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "A consumer may have several food sources → An organism feeding on primary consumers",
+          "A frog eating herbivorous insects is an example → An organism breaking down dead organic matter",
+          "Persistent pesticides can threaten top predators → A linear sequence of feeding transfers",
+          "A frog eating herbivorous insects is an example → An organism feeding on primary consumers"
+        ],
+        "answer": 3,
+        "explanation": "Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example. Secondary consumer — ecological identity: An organism feeding on primary consumers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary consumer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q13",
+        "question": "Which pair correctly matches Decomposer with its ecological identity and role or position, in that order?",
+        "options": [
+          "An organism breaking down dead organic matter → Shows one route for matter and energy transfer",
+          "A network of interconnected feeding relationships → Combines multiple linked food chains",
+          "An organism breaking down dead organic matter → Contributes to nutrient recycling",
+          "A linear sequence of feeding transfers → Contributes to nutrient recycling"
+        ],
+        "answer": 2,
+        "explanation": "Decomposer — ecological identity: An organism breaking down dead organic matter. Decomposer — role or position: Contributes to nutrient recycling. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Decomposer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q14",
+        "question": "Which pair correctly matches Decomposer with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Higher consumers can accumulate more pollutant per unit mass → A consumer may have several food sources",
+          "Contributes to nutrient recycling → Many bacteria and fungi perform this role",
+          "Combines multiple linked food chains → Many bacteria and fungi perform this role",
+          "Contributes to nutrient recycling → Grass → deer → tiger is an example"
+        ],
+        "answer": 1,
+        "explanation": "Decomposer — role or position: Contributes to nutrient recycling. Decomposer — specific example or consequence: Many bacteria and fungi perform this role. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Decomposer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q15",
+        "question": "Which pair correctly matches Decomposer with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Many bacteria and fungi perform this role → An organism breaking down dead organic matter",
+          "Persistent pesticides can threaten top predators → An organism breaking down dead organic matter",
+          "Many bacteria and fungi perform this role → A linear sequence of feeding transfers",
+          "Its depletion can increase UV exposure at Earth's surface → A network of interconnected feeding relationships"
+        ],
+        "answer": 0,
+        "explanation": "Decomposer — specific example or consequence: Many bacteria and fungi perform this role. Decomposer — ecological identity: An organism breaking down dead organic matter. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Decomposer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q16",
+        "question": "Which pair correctly matches Food chain with its ecological identity and role or position, in that order?",
+        "options": [
+          "A network of interconnected feeding relationships → Shows one route for matter and energy transfer",
+          "A linear sequence of feeding transfers → Combines multiple linked food chains",
+          "Increasing concentration of some persistent pollutants up food chains → Higher consumers can accumulate more pollutant per unit mass",
+          "A linear sequence of feeding transfers → Shows one route for matter and energy transfer"
+        ],
+        "answer": 3,
+        "explanation": "Food chain — ecological identity: A linear sequence of feeding transfers. Food chain — role or position: Shows one route for matter and energy transfer. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food chain",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q17",
+        "question": "Which pair correctly matches Food chain with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Shows one route for matter and energy transfer → A consumer may have several food sources",
+          "Absorbs much harmful ultraviolet radiation → Persistent pesticides can threaten top predators",
+          "Shows one route for matter and energy transfer → Grass → deer → tiger is an example",
+          "Higher consumers can accumulate more pollutant per unit mass → Grass → deer → tiger is an example"
+        ],
+        "answer": 2,
+        "explanation": "Food chain — role or position: Shows one route for matter and energy transfer. Food chain — specific example or consequence: Grass → deer → tiger is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food chain",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q18",
+        "question": "Which pair correctly matches Food chain with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Vegetable peels can be composted under suitable conditions → Increasing concentration of some persistent pollutants up food chains",
+          "Grass → deer → tiger is an example → A linear sequence of feeding transfers",
+          "Its depletion can increase UV exposure at Earth's surface → A linear sequence of feeding transfers",
+          "Grass → deer → tiger is an example → A network of interconnected feeding relationships"
+        ],
+        "answer": 1,
+        "explanation": "Food chain — specific example or consequence: Grass → deer → tiger is an example. Food chain — ecological identity: A linear sequence of feeding transfers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food chain",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q19",
+        "question": "Which pair correctly matches Food web with its ecological identity and role or position, in that order?",
+        "options": [
+          "A network of interconnected feeding relationships → Combines multiple linked food chains",
+          "Increasing concentration of some persistent pollutants up food chains → Combines multiple linked food chains",
+          "A network of interconnected feeding relationships → Higher consumers can accumulate more pollutant per unit mass",
+          "A region of the stratosphere relatively rich in ozone → Absorbs much harmful ultraviolet radiation"
+        ],
+        "answer": 0,
+        "explanation": "Food web — ecological identity: A network of interconnected feeding relationships. Food web — role or position: Combines multiple linked food chains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food web",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q20",
+        "question": "Which pair correctly matches Food web with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Absorbs much harmful ultraviolet radiation → A consumer may have several food sources",
+          "Combines multiple linked food chains → Persistent pesticides can threaten top predators",
+          "Can enter natural decomposition processes → Its depletion can increase UV exposure at Earth's surface",
+          "Combines multiple linked food chains → A consumer may have several food sources"
+        ],
+        "answer": 3,
+        "explanation": "Food web — role or position: Combines multiple linked food chains. Food web — specific example or consequence: A consumer may have several food sources. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food web",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q21",
+        "question": "Which pair correctly matches Food web with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "A consumer may have several food sources → Increasing concentration of some persistent pollutants up food chains",
+          "Green plants support many terrestrial food chains → A region of the stratosphere relatively rich in ozone",
+          "A consumer may have several food sources → A network of interconnected feeding relationships",
+          "Vegetable peels can be composted under suitable conditions → A network of interconnected feeding relationships"
+        ],
+        "answer": 2,
+        "explanation": "Food web — specific example or consequence: A consumer may have several food sources. Food web — ecological identity: A network of interconnected feeding relationships. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food web",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q22",
+        "question": "Which pair correctly matches Biomagnification with its ecological identity and role or position, in that order?",
+        "options": [
+          "Material decomposable through biological action → Can enter natural decomposition processes",
+          "Increasing concentration of some persistent pollutants up food chains → Higher consumers can accumulate more pollutant per unit mass",
+          "A region of the stratosphere relatively rich in ozone → Higher consumers can accumulate more pollutant per unit mass",
+          "Increasing concentration of some persistent pollutants up food chains → Absorbs much harmful ultraviolet radiation"
+        ],
+        "answer": 1,
+        "explanation": "Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains. Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biomagnification",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q23",
+        "question": "Which pair correctly matches Biomagnification with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Higher consumers can accumulate more pollutant per unit mass → Persistent pesticides can threaten top predators",
+          "Can enter natural decomposition processes → Persistent pesticides can threaten top predators",
+          "Higher consumers can accumulate more pollutant per unit mass → Its depletion can increase UV exposure at Earth's surface",
+          "Usually the first trophic level → Vegetable peels can be composted under suitable conditions"
+        ],
+        "answer": 0,
+        "explanation": "Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass. Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biomagnification",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q24",
+        "question": "Which pair correctly matches Biomagnification with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Green plants support many terrestrial food chains → Increasing concentration of some persistent pollutants up food chains",
+          "Persistent pesticides can threaten top predators → A region of the stratosphere relatively rich in ozone",
+          "A grass-eating deer is an example → Material decomposable through biological action",
+          "Persistent pesticides can threaten top predators → Increasing concentration of some persistent pollutants up food chains"
+        ],
+        "answer": 3,
+        "explanation": "Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators. Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biomagnification",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q25",
+        "question": "Which pair correctly matches Ozone layer with its ecological identity and role or position, in that order?",
+        "options": [
+          "A region of the stratosphere relatively rich in ozone → Can enter natural decomposition processes",
+          "An organism that makes organic food from inorganic materials → Usually the first trophic level",
+          "A region of the stratosphere relatively rich in ozone → Absorbs much harmful ultraviolet radiation",
+          "Material decomposable through biological action → Absorbs much harmful ultraviolet radiation"
+        ],
+        "answer": 2,
+        "explanation": "Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone. Ozone layer — role or position: Absorbs much harmful ultraviolet radiation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ozone layer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q26",
+        "question": "Which pair correctly matches Ozone layer with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Usually the second trophic level → Green plants support many terrestrial food chains",
+          "Absorbs much harmful ultraviolet radiation → Its depletion can increase UV exposure at Earth's surface",
+          "Usually the first trophic level → Its depletion can increase UV exposure at Earth's surface",
+          "Absorbs much harmful ultraviolet radiation → Vegetable peels can be composted under suitable conditions"
+        ],
+        "answer": 1,
+        "explanation": "Ozone layer — role or position: Absorbs much harmful ultraviolet radiation. Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ozone layer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q27",
+        "question": "Which pair correctly matches Ozone layer with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Its depletion can increase UV exposure at Earth's surface → A region of the stratosphere relatively rich in ozone",
+          "A grass-eating deer is an example → A region of the stratosphere relatively rich in ozone",
+          "Its depletion can increase UV exposure at Earth's surface → Material decomposable through biological action",
+          "A frog eating herbivorous insects is an example → An organism that makes organic food from inorganic materials"
+        ],
+        "answer": 0,
+        "explanation": "Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface. Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ozone layer",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q28",
+        "question": "Which pair correctly matches Biodegradable waste with its ecological identity and role or position, in that order?",
+        "options": [
+          "An organism that makes organic food from inorganic materials → Can enter natural decomposition processes",
+          "Material decomposable through biological action → Usually the first trophic level",
+          "An organism feeding on producers → Usually the second trophic level",
+          "Material decomposable through biological action → Can enter natural decomposition processes"
+        ],
+        "answer": 3,
+        "explanation": "Biodegradable waste — ecological identity: Material decomposable through biological action. Biodegradable waste — role or position: Can enter natural decomposition processes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodegradable waste",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q29",
+        "question": "Which pair correctly matches Biodegradable waste with its role or position and specific example or consequence, in that order?",
+        "options": [
+          "Can enter natural decomposition processes → Green plants support many terrestrial food chains",
+          "Usually the third trophic level → A grass-eating deer is an example",
+          "Can enter natural decomposition processes → Vegetable peels can be composted under suitable conditions",
+          "Usually the second trophic level → Vegetable peels can be composted under suitable conditions"
+        ],
+        "answer": 2,
+        "explanation": "Biodegradable waste — role or position: Can enter natural decomposition processes. Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodegradable waste",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-M-Q30",
+        "question": "Which pair correctly matches Biodegradable waste with its specific example or consequence and ecological identity, in that order?",
+        "options": [
+          "Many bacteria and fungi perform this role → An organism feeding on producers",
+          "Vegetable peels can be composted under suitable conditions → Material decomposable through biological action",
+          "A frog eating herbivorous insects is an example → Material decomposable through biological action",
+          "Vegetable peels can be composted under suitable conditions → An organism that makes organic food from inorganic materials"
+        ],
+        "answer": 1,
+        "explanation": "Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions. Biodegradable waste — ecological identity: Material decomposable through biological action. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodegradable waste",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH09-H": {
+    "id": "SA-DPP-27-BIO-CH09-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch9",
+    "chapterNumber": 9,
+    "chapter": "Our Environment",
+    "level": "H",
+    "title": "Our Environment – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-09.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-01",
+    "recommendedDate": "2026-12-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 205,
+      "to": 224
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q01",
+        "question": "Why is energy flow through an ecosystem not a closed cycle?",
+        "options": [
+          "Only matter can be lost as heat",
+          "Usable energy is dissipated as heat at each transfer",
+          "All heat returns directly to producers as food",
+          "Energy is created by consumers"
+        ],
+        "answer": 1,
+        "explanation": "Energy needs continuing input, unlike many nutrients that cycle.",
+        "difficulty": "Hard",
+        "topic": "Why is energy flow through an ecosystem not a closed cycle?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q02",
+        "question": "What may happen after a top predator is removed?",
+        "options": [
+          "Changes can cascade through lower trophic levels",
+          "All other populations must stay fixed",
+          "Producers always disappear immediately",
+          "Every herbivore becomes a predator"
+        ],
+        "answer": 0,
+        "explanation": "Predator-prey interactions can indirectly alter multiple populations.",
+        "difficulty": "Hard",
+        "topic": "What may happen after a top predator is removed?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q03",
+        "question": "Why does waste segregation help environmental management?",
+        "options": [
+          "All wastes require identical treatment",
+          "It makes hazardous waste harmless automatically",
+          "It removes the need to reduce waste",
+          "It allows suitable recycling, composting and safer handling"
+        ],
+        "answer": 3,
+        "explanation": "Separating streams improves the effectiveness of different treatment methods.",
+        "difficulty": "Hard",
+        "topic": "Why does waste segregation help environmental management?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Producer — ecological identity: An organism feeding on producers\nII. Food chain — role or position: Usually the second trophic level\nIII. Ozone layer — specific example or consequence: A frog eating herbivorous insects is an example",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Producer — ecological identity: An organism that makes organic food from inorganic materials; Food chain — role or position: Shows one route for matter and energy transfer; Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface.",
+        "difficulty": "Hard",
+        "topic": "Producer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Producer — role or position: Usually the first trophic level\nII. Food chain — specific example or consequence: A frog eating herbivorous insects is an example\nIII. Ozone layer — ecological identity: An organism breaking down dead organic matter",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Producer — role or position: Usually the first trophic level; Food chain — specific example or consequence: Grass → deer → tiger is an example; Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone.",
+        "difficulty": "Hard",
+        "topic": "Producer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Producer — specific example or consequence: Many bacteria and fungi perform this role\nII. Food chain — ecological identity: A linear sequence of feeding transfers\nIII. Ozone layer — role or position: Shows one route for matter and energy transfer",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Producer — specific example or consequence: Green plants support many terrestrial food chains; Food chain — ecological identity: A linear sequence of feeding transfers; Ozone layer — role or position: Absorbs much harmful ultraviolet radiation.",
+        "difficulty": "Hard",
+        "topic": "Producer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary consumer — ecological identity: An organism feeding on producers\nII. Food web — role or position: Combines multiple linked food chains\nIII. Biodegradable waste — specific example or consequence: A consumer may have several food sources",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Primary consumer — ecological identity: An organism feeding on producers; Food web — role or position: Combines multiple linked food chains; Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions.",
+        "difficulty": "Hard",
+        "topic": "Primary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary consumer — role or position: Combines multiple linked food chains\nII. Food web — specific example or consequence: Persistent pesticides can threaten top predators\nIII. Biodegradable waste — ecological identity: Material decomposable through biological action",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Primary consumer — role or position: Usually the second trophic level; Food web — specific example or consequence: A consumer may have several food sources; Biodegradable waste — ecological identity: Material decomposable through biological action.",
+        "difficulty": "Hard",
+        "topic": "Primary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary consumer — specific example or consequence: A grass-eating deer is an example\nII. Food web — ecological identity: A region of the stratosphere relatively rich in ozone\nIII. Biodegradable waste — role or position: Can enter natural decomposition processes",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Primary consumer — specific example or consequence: A grass-eating deer is an example; Food web — ecological identity: A network of interconnected feeding relationships; Biodegradable waste — role or position: Can enter natural decomposition processes.",
+        "difficulty": "Hard",
+        "topic": "Primary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary consumer — ecological identity: A region of the stratosphere relatively rich in ozone\nII. Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass\nIII. Producer — specific example or consequence: Green plants support many terrestrial food chains",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Secondary consumer — ecological identity: An organism feeding on primary consumers; Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass; Producer — specific example or consequence: Green plants support many terrestrial food chains.",
+        "difficulty": "Hard",
+        "topic": "Secondary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary consumer — role or position: Usually the third trophic level\nII. Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators\nIII. Producer — ecological identity: An organism that makes organic food from inorganic materials",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Secondary consumer — role or position: Usually the third trophic level; Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators; Producer — ecological identity: An organism that makes organic food from inorganic materials.",
+        "difficulty": "Hard",
+        "topic": "Secondary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary consumer — specific example or consequence: Green plants support many terrestrial food chains\nII. Biomagnification — ecological identity: An organism feeding on producers\nIII. Producer — role or position: Contributes to nutrient recycling",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example; Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains; Producer — role or position: Usually the first trophic level.",
+        "difficulty": "Hard",
+        "topic": "Secondary consumer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Decomposer — ecological identity: An organism breaking down dead organic matter\nII. Ozone layer — role or position: Usually the third trophic level\nIII. Primary consumer — specific example or consequence: Grass → deer → tiger is an example",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Decomposer — ecological identity: An organism breaking down dead organic matter; Ozone layer — role or position: Absorbs much harmful ultraviolet radiation; Primary consumer — specific example or consequence: A grass-eating deer is an example.",
+        "difficulty": "Hard",
+        "topic": "Decomposer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Decomposer — role or position: Usually the third trophic level\nII. Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface\nIII. Primary consumer — ecological identity: A network of interconnected feeding relationships",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Decomposer — role or position: Contributes to nutrient recycling; Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface; Primary consumer — ecological identity: An organism feeding on producers.",
+        "difficulty": "Hard",
+        "topic": "Decomposer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Decomposer — specific example or consequence: Many bacteria and fungi perform this role\nII. Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone\nIII. Primary consumer — role or position: Higher consumers can accumulate more pollutant per unit mass",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Decomposer — specific example or consequence: Many bacteria and fungi perform this role; Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone; Primary consumer — role or position: Usually the second trophic level.",
+        "difficulty": "Hard",
+        "topic": "Decomposer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food chain — ecological identity: A network of interconnected feeding relationships\nII. Biodegradable waste — role or position: Combines multiple linked food chains\nIII. Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Food chain — ecological identity: A linear sequence of feeding transfers; Biodegradable waste — role or position: Can enter natural decomposition processes; Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example.",
+        "difficulty": "Hard",
+        "topic": "Food chain · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food chain — role or position: Shows one route for matter and energy transfer\nII. Biodegradable waste — specific example or consequence: Persistent pesticides can threaten top predators\nIII. Secondary consumer — ecological identity: An organism feeding on primary consumers",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Food chain — role or position: Shows one route for matter and energy transfer; Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions; Secondary consumer — ecological identity: An organism feeding on primary consumers.",
+        "difficulty": "Hard",
+        "topic": "Food chain · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food chain — specific example or consequence: Its depletion can increase UV exposure at Earth's surface\nII. Biodegradable waste — ecological identity: Material decomposable through biological action\nIII. Secondary consumer — role or position: Usually the third trophic level",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Food chain — specific example or consequence: Grass → deer → tiger is an example; Biodegradable waste — ecological identity: Material decomposable through biological action; Secondary consumer — role or position: Usually the third trophic level.",
+        "difficulty": "Hard",
+        "topic": "Food chain · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food web — ecological identity: A network of interconnected feeding relationships\nII. Producer — role or position: Usually the first trophic level\nIII. Decomposer — specific example or consequence: Many bacteria and fungi perform this role",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Food web — ecological identity: A network of interconnected feeding relationships; Producer — role or position: Usually the first trophic level; Decomposer — specific example or consequence: Many bacteria and fungi perform this role.",
+        "difficulty": "Hard",
+        "topic": "Food web · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food web — role or position: Usually the first trophic level\nII. Producer — specific example or consequence: A frog eating herbivorous insects is an example\nIII. Decomposer — ecological identity: An organism feeding on primary consumers",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Food web — role or position: Combines multiple linked food chains; Producer — specific example or consequence: Green plants support many terrestrial food chains; Decomposer — ecological identity: An organism breaking down dead organic matter.",
+        "difficulty": "Hard",
+        "topic": "Food web · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food web — specific example or consequence: A consumer may have several food sources\nII. Producer — ecological identity: An organism breaking down dead organic matter\nIII. Decomposer — role or position: Shows one route for matter and energy transfer",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Food web — specific example or consequence: A consumer may have several food sources; Producer — ecological identity: An organism that makes organic food from inorganic materials; Decomposer — role or position: Contributes to nutrient recycling.",
+        "difficulty": "Hard",
+        "topic": "Food web · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biomagnification — ecological identity: An organism feeding on primary consumers\nII. Primary consumer — role or position: Usually the second trophic level\nIII. Food chain — specific example or consequence: A consumer may have several food sources",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains; Primary consumer — role or position: Usually the second trophic level; Food chain — specific example or consequence: Grass → deer → tiger is an example.",
+        "difficulty": "Hard",
+        "topic": "Biomagnification · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass\nII. Primary consumer — specific example or consequence: A grass-eating deer is an example\nIII. Food chain — ecological identity: Increasing concentration of some persistent pollutants up food chains",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass; Primary consumer — specific example or consequence: A grass-eating deer is an example; Food chain — ecological identity: A linear sequence of feeding transfers.",
+        "difficulty": "Hard",
+        "topic": "Biomagnification · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biomagnification — specific example or consequence: Grass → deer → tiger is an example\nII. Primary consumer — ecological identity: Increasing concentration of some persistent pollutants up food chains\nIII. Food chain — role or position: Shows one route for matter and energy transfer",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators; Primary consumer — ecological identity: An organism feeding on producers; Food chain — role or position: Shows one route for matter and energy transfer.",
+        "difficulty": "Hard",
+        "topic": "Biomagnification · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone\nII. Secondary consumer — role or position: Absorbs much harmful ultraviolet radiation\nIII. Food web — specific example or consequence: A consumer may have several food sources",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Ozone layer — ecological identity: A region of the stratosphere relatively rich in ozone; Secondary consumer — role or position: Usually the third trophic level; Food web — specific example or consequence: A consumer may have several food sources.",
+        "difficulty": "Hard",
+        "topic": "Ozone layer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ozone layer — role or position: Higher consumers can accumulate more pollutant per unit mass\nII. Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example\nIII. Food web — ecological identity: A network of interconnected feeding relationships",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Ozone layer — role or position: Absorbs much harmful ultraviolet radiation; Secondary consumer — specific example or consequence: A frog eating herbivorous insects is an example; Food web — ecological identity: A network of interconnected feeding relationships.",
+        "difficulty": "Hard",
+        "topic": "Ozone layer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface\nII. Secondary consumer — ecological identity: An organism feeding on primary consumers\nIII. Food web — role or position: Combines multiple linked food chains",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Ozone layer — specific example or consequence: Its depletion can increase UV exposure at Earth's surface; Secondary consumer — ecological identity: An organism feeding on primary consumers; Food web — role or position: Combines multiple linked food chains.",
+        "difficulty": "Hard",
+        "topic": "Ozone layer · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodegradable waste — ecological identity: An organism that makes organic food from inorganic materials\nII. Decomposer — role or position: Usually the second trophic level\nIII. Biomagnification — specific example or consequence: A frog eating herbivorous insects is an example",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Biodegradable waste — ecological identity: Material decomposable through biological action; Decomposer — role or position: Contributes to nutrient recycling; Biomagnification — specific example or consequence: Persistent pesticides can threaten top predators.",
+        "difficulty": "Hard",
+        "topic": "Biodegradable waste · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodegradable waste — role or position: Can enter natural decomposition processes\nII. Decomposer — specific example or consequence: A frog eating herbivorous insects is an example\nIII. Biomagnification — ecological identity: An organism breaking down dead organic matter",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Biodegradable waste — role or position: Can enter natural decomposition processes; Decomposer — specific example or consequence: Many bacteria and fungi perform this role; Biomagnification — ecological identity: Increasing concentration of some persistent pollutants up food chains.",
+        "difficulty": "Hard",
+        "topic": "Biodegradable waste · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH09-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodegradable waste — specific example or consequence: A frog eating herbivorous insects is an example\nII. Decomposer — ecological identity: An organism breaking down dead organic matter\nIII. Biomagnification — role or position: Shows one route for matter and energy transfer",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Biodegradable waste — specific example or consequence: Vegetable peels can be composted under suitable conditions; Decomposer — ecological identity: An organism breaking down dead organic matter; Biomagnification — role or position: Higher consumers can accumulate more pollutant per unit mass.",
+        "difficulty": "Hard",
+        "topic": "Biodegradable waste · comparing chapter concepts",
+        "sourceChapter": 9
+      }
+    ]
+  }
+}

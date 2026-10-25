@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH02-E": {
+    "id": "SA-DPP-27-MAT-CH02-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "E",
+    "title": "Sets – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q01",
+        "question": "What is the intersection of {1,2,3} and {3,4}?",
+        "options": [
+          "{1,2}",
+          "{4}",
+          "{3}",
+          "{1,2,3,4}"
+        ],
+        "answer": 2,
+        "explanation": "Intersection contains elements common to both sets.",
+        "difficulty": "Easy",
+        "topic": "What is the intersection of {1,2,3} and {3,4}?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q02",
+        "question": "How many subsets does a two-element set have?",
+        "options": [
+          "8",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "A set with n elements has 2ⁿ subsets.",
+        "difficulty": "Easy",
+        "topic": "How many subsets does a two-element set have?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q03",
+        "question": "Which symbol denotes the empty set?",
+        "options": [
+          "∅",
+          "{0}",
+          "{∅}",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "The empty set has no elements; {0} has one.",
+        "difficulty": "Easy",
+        "topic": "Which symbol denotes the empty set?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q04",
+        "question": "For A={2, 3, 4} and B={4, 5, 6}, find n(A∪B).",
+        "options": [
+          "6",
+          "4",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "There are five different elements in the union.",
+        "difficulty": "Easy",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q05",
+        "question": "For A={2, 3, 4} and B={4, 5, 6}, find n(A∩B).",
+        "options": [
+          "0",
+          "3",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Only 4 belongs to both sets.",
+        "difficulty": "Easy",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q06",
+        "question": "A has 4 elements. How many subsets does it have?",
+        "options": [
+          "18",
+          "16",
+          "17",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "The subset count is 2^4.",
+        "difficulty": "Easy",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q07",
+        "question": "A has 4 elements. How many proper subsets does it have?",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "17"
+        ],
+        "answer": 0,
+        "explanation": "Exclude A itself from its 2^4 subsets.",
+        "difficulty": "Easy",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q08",
+        "question": "In a universe with 40 elements, A has 12 elements. Find n(A′).",
+        "options": [
+          "29",
+          "27",
+          "30",
+          "28"
+        ],
+        "answer": 3,
+        "explanation": "n(A′)=40−12=28.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q09",
+        "question": "If n(A)=16, n(B)=12, n(A∩B)=4, find n(A∪B).",
+        "options": [
+          "23",
+          "26",
+          "24",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Use n(A)+n(B)−n(A∩B)=24.",
+        "difficulty": "Easy",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q10",
+        "question": "If n(A)=20 and n(A∩B)=8, find n(A−B).",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "Remove the 8 common elements from A's 20 elements.",
+        "difficulty": "Easy",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q11",
+        "question": "Two disjoint sets have 4 and 5 elements. Find the size of their union.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Disjoint sets have no common elements, so add their sizes.",
+        "difficulty": "Easy",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q12",
+        "question": "In a group of 40, 24 like tea, 20 like coffee, and 12 like both. How many like neither?",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "The union is 24+20−12=32; subtract from 40.",
+        "difficulty": "Easy",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q13",
+        "question": "For A={3, 4, 5} and B={5, 6, 7}, find n(A∪B).",
+        "options": [
+          "4",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "There are five different elements in the union.",
+        "difficulty": "Easy",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q14",
+        "question": "For A={3, 4, 5} and B={5, 6, 7}, find n(A∩B).",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "Only 5 belongs to both sets.",
+        "difficulty": "Easy",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q15",
+        "question": "A has 5 elements. How many subsets does it have?",
+        "options": [
+          "32",
+          "33",
+          "31",
+          "34"
+        ],
+        "answer": 0,
+        "explanation": "The subset count is 2^5.",
+        "difficulty": "Easy",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q16",
+        "question": "A has 5 elements. How many proper subsets does it have?",
+        "options": [
+          "32",
+          "30",
+          "33",
+          "31"
+        ],
+        "answer": 3,
+        "explanation": "Exclude A itself from its 2^5 subsets.",
+        "difficulty": "Easy",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q17",
+        "question": "In a universe with 50 elements, A has 15 elements. Find n(A′).",
+        "options": [
+          "34",
+          "37",
+          "35",
+          "36"
+        ],
+        "answer": 2,
+        "explanation": "n(A′)=50−15=35.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q18",
+        "question": "If n(A)=20, n(B)=15, n(A∩B)=5, find n(A∪B).",
+        "options": [
+          "32",
+          "30",
+          "31",
+          "29"
+        ],
+        "answer": 1,
+        "explanation": "Use n(A)+n(B)−n(A∩B)=30.",
+        "difficulty": "Easy",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q19",
+        "question": "If n(A)=25 and n(A∩B)=10, find n(A−B).",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "17"
+        ],
+        "answer": 0,
+        "explanation": "Remove the 10 common elements from A's 25 elements.",
+        "difficulty": "Easy",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q20",
+        "question": "Two disjoint sets have 5 and 6 elements. Find the size of their union.",
+        "options": [
+          "12",
+          "10",
+          "13",
+          "11"
+        ],
+        "answer": 3,
+        "explanation": "Disjoint sets have no common elements, so add their sizes.",
+        "difficulty": "Easy",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q21",
+        "question": "In a group of 50, 30 like tea, 25 like coffee, and 15 like both. How many like neither?",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "The union is 30+25−15=40; subtract from 50.",
+        "difficulty": "Easy",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q22",
+        "question": "For A={4, 5, 6} and B={6, 7, 8}, find n(A∪B).",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "There are five different elements in the union.",
+        "difficulty": "Easy",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q23",
+        "question": "For A={4, 5, 6} and B={6, 7, 8}, find n(A∩B).",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Only 6 belongs to both sets.",
+        "difficulty": "Easy",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q24",
+        "question": "A has 6 elements. How many subsets does it have?",
+        "options": [
+          "65",
+          "63",
+          "66",
+          "64"
+        ],
+        "answer": 3,
+        "explanation": "The subset count is 2^6.",
+        "difficulty": "Easy",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q25",
+        "question": "A has 6 elements. How many proper subsets does it have?",
+        "options": [
+          "62",
+          "65",
+          "63",
+          "64"
+        ],
+        "answer": 2,
+        "explanation": "Exclude A itself from its 2^6 subsets.",
+        "difficulty": "Easy",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q26",
+        "question": "In a universe with 60 elements, A has 18 elements. Find n(A′).",
+        "options": [
+          "44",
+          "42",
+          "43",
+          "41"
+        ],
+        "answer": 1,
+        "explanation": "n(A′)=60−18=42.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q27",
+        "question": "If n(A)=24, n(B)=18, n(A∩B)=6, find n(A∪B).",
+        "options": [
+          "36",
+          "37",
+          "35",
+          "38"
+        ],
+        "answer": 0,
+        "explanation": "Use n(A)+n(B)−n(A∩B)=36.",
+        "difficulty": "Easy",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q28",
+        "question": "If n(A)=30 and n(A∩B)=12, find n(A−B).",
+        "options": [
+          "19",
+          "17",
+          "20",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "Remove the 12 common elements from A's 30 elements.",
+        "difficulty": "Easy",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q29",
+        "question": "Two disjoint sets have 6 and 7 elements. Find the size of their union.",
+        "options": [
+          "12",
+          "15",
+          "13",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "Disjoint sets have no common elements, so add their sizes.",
+        "difficulty": "Easy",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-E-Q30",
+        "question": "In a group of 60, 36 like tea, 30 like coffee, and 18 like both. How many like neither?",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "The union is 36+30−18=48; subtract from 60.",
+        "difficulty": "Easy",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH02-M": {
+    "id": "SA-DPP-27-MAT-CH02-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "M",
+    "title": "Sets – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q01",
+        "question": "If n(A)=12, n(B)=9 and n(A∩B)=4, find n(A∪B).",
+        "options": [
+          "5",
+          "17",
+          "21",
+          "25"
+        ],
+        "answer": 1,
+        "explanation": "Use 12 + 9 − 4 to avoid counting the intersection twice.",
+        "difficulty": "Medium",
+        "topic": "If n(A)=12, n(B)=9 and n(A∩B)=4, find n(A∪B).",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q02",
+        "question": "For U={1,2,3,4,5} and A={2,4}, find A′.",
+        "options": [
+          "{1,3,5}",
+          "{2,4}",
+          "{1,2,3}",
+          "{5}"
+        ],
+        "answer": 0,
+        "explanation": "The complement contains elements of U outside A.",
+        "difficulty": "Medium",
+        "topic": "For U={1,2,3,4,5} and A={2,4}, find A′.",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q03",
+        "question": "If A={1,2} and B={2,3}, what is A−B?",
+        "options": [
+          "{2}",
+          "{3}",
+          "{1,3}",
+          "{1}"
+        ],
+        "answer": 3,
+        "explanation": "Remove from A every element that also belongs to B.",
+        "difficulty": "Medium",
+        "topic": "If A={1,2} and B={2,3}, what is A−B?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={5, 6, 7} and B={7, 8, 9}, find n(A∪B).\nII. In a universe with 70 elements, A has 21 elements. Find n(A′).",
+        "options": [
+          "5 ; 48",
+          "6 ; 50",
+          "5 ; 49",
+          "6 ; 49"
+        ],
+        "answer": 2,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=70−21=49. Answer: 49.",
+        "difficulty": "Medium",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={5, 6, 7} and B={7, 8, 9}, find n(A∩B).\nII. If n(A)=28, n(B)=21, n(A∩B)=7, find n(A∪B).",
+        "options": [
+          "0 ; 41",
+          "1 ; 42",
+          "0 ; 42",
+          "1 ; 44"
+        ],
+        "answer": 1,
+        "explanation": "I. Only 7 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=42. Answer: 42.",
+        "difficulty": "Medium",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 7 elements. How many subsets does it have?\nII. If n(A)=35 and n(A∩B)=14, find n(A−B).",
+        "options": [
+          "128 ; 21",
+          "130 ; 21",
+          "128 ; 22",
+          "130 ; 23"
+        ],
+        "answer": 0,
+        "explanation": "I. The subset count is 2^7. Answer: 128. II. Remove the 14 common elements from A's 35 elements. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 7 elements. How many proper subsets does it have?\nII. Two disjoint sets have 7 and 8 elements. Find the size of their union.",
+        "options": [
+          "128 ; 15",
+          "127 ; 14",
+          "128 ; 16",
+          "127 ; 15"
+        ],
+        "answer": 3,
+        "explanation": "I. Exclude A itself from its 2^7 subsets. Answer: 127. II. Disjoint sets have no common elements, so add their sizes. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a universe with 70 elements, A has 21 elements. Find n(A′).\nII. In a group of 70, 42 like tea, 35 like coffee, and 21 like both. How many like neither?",
+        "options": [
+          "49 ; 16",
+          "48 ; 13",
+          "49 ; 14",
+          "48 ; 14"
+        ],
+        "answer": 2,
+        "explanation": "I. n(A′)=70−21=49. Answer: 49. II. The union is 42+35−21=56; subtract from 70. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=28, n(B)=21, n(A∩B)=7, find n(A∪B).\nII. For A={6, 7, 8} and B={8, 9, 10}, find n(A∪B).",
+        "options": [
+          "44 ; 7",
+          "42 ; 5",
+          "44 ; 5",
+          "42 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=42. Answer: 42. II. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=35 and n(A∩B)=14, find n(A−B).\nII. For A={6, 7, 8} and B={8, 9, 10}, find n(A∩B).",
+        "options": [
+          "21 ; 1",
+          "22 ; 1",
+          "21 ; 0",
+          "22 ; 2"
+        ],
+        "answer": 0,
+        "explanation": "I. Remove the 14 common elements from A's 35 elements. Answer: 21. II. Only 8 belongs to both sets. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two disjoint sets have 7 and 8 elements. Find the size of their union.\nII. A has 8 elements. How many subsets does it have?",
+        "options": [
+          "14 ; 256",
+          "15 ; 258",
+          "14 ; 255",
+          "15 ; 256"
+        ],
+        "answer": 3,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 15. II. The subset count is 2^8. Answer: 256.",
+        "difficulty": "Medium",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a group of 70, 42 like tea, 35 like coffee, and 21 like both. How many like neither?\nII. A has 8 elements. How many proper subsets does it have?",
+        "options": [
+          "14 ; 256",
+          "16 ; 257",
+          "14 ; 255",
+          "16 ; 255"
+        ],
+        "answer": 2,
+        "explanation": "I. The union is 42+35−21=56; subtract from 70. Answer: 14. II. Exclude A itself from its 2^8 subsets. Answer: 255.",
+        "difficulty": "Medium",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={6, 7, 8} and B={8, 9, 10}, find n(A∪B).\nII. In a universe with 80 elements, A has 24 elements. Find n(A′).",
+        "options": [
+          "6 ; 57",
+          "5 ; 56",
+          "6 ; 56",
+          "5 ; 55"
+        ],
+        "answer": 1,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=80−24=56. Answer: 56.",
+        "difficulty": "Medium",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={6, 7, 8} and B={8, 9, 10}, find n(A∩B).\nII. If n(A)=32, n(B)=24, n(A∩B)=8, find n(A∪B).",
+        "options": [
+          "1 ; 48",
+          "0 ; 48",
+          "1 ; 50",
+          "0 ; 47"
+        ],
+        "answer": 0,
+        "explanation": "I. Only 8 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=48. Answer: 48.",
+        "difficulty": "Medium",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 8 elements. How many subsets does it have?\nII. If n(A)=40 and n(A∩B)=16, find n(A−B).",
+        "options": [
+          "258 ; 24",
+          "256 ; 25",
+          "258 ; 26",
+          "256 ; 24"
+        ],
+        "answer": 3,
+        "explanation": "I. The subset count is 2^8. Answer: 256. II. Remove the 16 common elements from A's 40 elements. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 8 elements. How many proper subsets does it have?\nII. Two disjoint sets have 8 and 9 elements. Find the size of their union.",
+        "options": [
+          "255 ; 16",
+          "256 ; 18",
+          "255 ; 17",
+          "256 ; 17"
+        ],
+        "answer": 2,
+        "explanation": "I. Exclude A itself from its 2^8 subsets. Answer: 255. II. Disjoint sets have no common elements, so add their sizes. Answer: 17.",
+        "difficulty": "Medium",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a universe with 80 elements, A has 24 elements. Find n(A′).\nII. In a group of 80, 48 like tea, 40 like coffee, and 24 like both. How many like neither?",
+        "options": [
+          "55 ; 15",
+          "56 ; 16",
+          "55 ; 16",
+          "56 ; 18"
+        ],
+        "answer": 1,
+        "explanation": "I. n(A′)=80−24=56. Answer: 56. II. The union is 48+40−24=64; subtract from 80. Answer: 16.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=32, n(B)=24, n(A∩B)=8, find n(A∪B).\nII. For A={7, 8, 9} and B={9, 10, 11}, find n(A∪B).",
+        "options": [
+          "48 ; 5",
+          "50 ; 5",
+          "48 ; 6",
+          "50 ; 7"
+        ],
+        "answer": 0,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=48. Answer: 48. II. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=40 and n(A∩B)=16, find n(A−B).\nII. For A={7, 8, 9} and B={9, 10, 11}, find n(A∩B).",
+        "options": [
+          "25 ; 1",
+          "24 ; 0",
+          "25 ; 2",
+          "24 ; 1"
+        ],
+        "answer": 3,
+        "explanation": "I. Remove the 16 common elements from A's 40 elements. Answer: 24. II. Only 9 belongs to both sets. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two disjoint sets have 8 and 9 elements. Find the size of their union.\nII. A has 9 elements. How many subsets does it have?",
+        "options": [
+          "17 ; 514",
+          "16 ; 511",
+          "17 ; 512",
+          "16 ; 512"
+        ],
+        "answer": 2,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 17. II. The subset count is 2^9. Answer: 512.",
+        "difficulty": "Medium",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a group of 80, 48 like tea, 40 like coffee, and 24 like both. How many like neither?\nII. A has 9 elements. How many proper subsets does it have?",
+        "options": [
+          "18 ; 513",
+          "16 ; 511",
+          "18 ; 511",
+          "16 ; 512"
+        ],
+        "answer": 1,
+        "explanation": "I. The union is 48+40−24=64; subtract from 80. Answer: 16. II. Exclude A itself from its 2^9 subsets. Answer: 511.",
+        "difficulty": "Medium",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={7, 8, 9} and B={9, 10, 11}, find n(A∪B).\nII. In a universe with 90 elements, A has 27 elements. Find n(A′).",
+        "options": [
+          "5 ; 63",
+          "6 ; 63",
+          "5 ; 62",
+          "6 ; 64"
+        ],
+        "answer": 0,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=90−27=63. Answer: 63.",
+        "difficulty": "Medium",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For A={7, 8, 9} and B={9, 10, 11}, find n(A∩B).\nII. If n(A)=36, n(B)=27, n(A∩B)=9, find n(A∪B).",
+        "options": [
+          "0 ; 54",
+          "1 ; 56",
+          "0 ; 53",
+          "1 ; 54"
+        ],
+        "answer": 3,
+        "explanation": "I. Only 9 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=54. Answer: 54.",
+        "difficulty": "Medium",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 9 elements. How many subsets does it have?\nII. If n(A)=45 and n(A∩B)=18, find n(A−B).",
+        "options": [
+          "512 ; 28",
+          "514 ; 29",
+          "512 ; 27",
+          "514 ; 27"
+        ],
+        "answer": 2,
+        "explanation": "I. The subset count is 2^9. Answer: 512. II. Remove the 18 common elements from A's 45 elements. Answer: 27.",
+        "difficulty": "Medium",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A has 9 elements. How many proper subsets does it have?\nII. Two disjoint sets have 9 and 10 elements. Find the size of their union.",
+        "options": [
+          "512 ; 20",
+          "511 ; 19",
+          "512 ; 19",
+          "511 ; 18"
+        ],
+        "answer": 1,
+        "explanation": "I. Exclude A itself from its 2^9 subsets. Answer: 511. II. Disjoint sets have no common elements, so add their sizes. Answer: 19.",
+        "difficulty": "Medium",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a universe with 90 elements, A has 27 elements. Find n(A′).\nII. In a group of 90, 54 like tea, 45 like coffee, and 27 like both. How many like neither?",
+        "options": [
+          "63 ; 18",
+          "62 ; 18",
+          "63 ; 20",
+          "62 ; 17"
+        ],
+        "answer": 0,
+        "explanation": "I. n(A′)=90−27=63. Answer: 63. II. The union is 54+45−27=72; subtract from 90. Answer: 18.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=36, n(B)=27, n(A∩B)=9, find n(A∪B).\nII. For A={5, 6, 7} and B={7, 8, 9}, find n(A∪B).",
+        "options": [
+          "56 ; 5",
+          "54 ; 6",
+          "56 ; 7",
+          "54 ; 5"
+        ],
+        "answer": 3,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=54. Answer: 54. II. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If n(A)=45 and n(A∩B)=18, find n(A−B).\nII. For A={5, 6, 7} and B={7, 8, 9}, find n(A∩B).",
+        "options": [
+          "27 ; 0",
+          "28 ; 2",
+          "27 ; 1",
+          "28 ; 1"
+        ],
+        "answer": 2,
+        "explanation": "I. Remove the 18 common elements from A's 45 elements. Answer: 27. II. Only 7 belongs to both sets. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two disjoint sets have 9 and 10 elements. Find the size of their union.\nII. A has 7 elements. How many subsets does it have?",
+        "options": [
+          "18 ; 127",
+          "19 ; 128",
+          "18 ; 128",
+          "19 ; 130"
+        ],
+        "answer": 1,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 19. II. The subset count is 2^7. Answer: 128.",
+        "difficulty": "Medium",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In a group of 90, 54 like tea, 45 like coffee, and 27 like both. How many like neither?\nII. A has 7 elements. How many proper subsets does it have?",
+        "options": [
+          "18 ; 127",
+          "20 ; 127",
+          "18 ; 128",
+          "20 ; 129"
+        ],
+        "answer": 0,
+        "explanation": "I. The union is 54+45−27=72; subtract from 90. Answer: 18. II. Exclude A itself from its 2^7 subsets. Answer: 127.",
+        "difficulty": "Medium",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH02-H": {
+    "id": "SA-DPP-27-MAT-CH02-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Sets",
+    "level": "H",
+    "title": "Sets – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-02",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 28,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q01",
+        "question": "In a class of 40, 25 study Hindi, 20 study Telugu and 10 study both. How many study neither?",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "0"
+        ],
+        "answer": 0,
+        "explanation": "The union has 25+20−10=35 students; 40−35=5.",
+        "difficulty": "Hard",
+        "topic": "In a class of 40, 25 study Hindi, 20 study Telugu and 10 study both. How many study neither?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q02",
+        "question": "For finite sets A⊆B with n(A)=n(B), what follows?",
+        "options": [
+          "A=∅ always",
+          "A∩B=∅",
+          "A and B must be infinite",
+          "A=B"
+        ],
+        "answer": 3,
+        "explanation": "A proper subset of a finite set has fewer elements.",
+        "difficulty": "Hard",
+        "topic": "For finite sets A⊆B with n(A)=n(B), what follows?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q03",
+        "question": "Which identity is valid for all sets A and B?",
+        "options": [
+          "A∪B=A∩B",
+          "A∩B′=A∪B",
+          "A−B=A∩B′",
+          "A−B=B−A"
+        ],
+        "answer": 2,
+        "explanation": "An element is in A−B exactly when it is in A and outside B.",
+        "difficulty": "Hard",
+        "topic": "Which identity is valid for all sets A and B?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={8, 9, 10} and B={10, 11, 12}, find n(A∪B).\nII. In a universe with 100 elements, A has 30 elements. Find n(A′).\nIII. Two disjoint sets have 10 and 11 elements. Find the size of their union.",
+        "options": [
+          "5 ; 70 ; 23",
+          "5 ; 70 ; 21",
+          "6 ; 70 ; 21",
+          "5 ; 69 ; 21"
+        ],
+        "answer": 1,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=100−30=70. Answer: 70. III. Disjoint sets have no common elements, so add their sizes. Answer: 21.",
+        "difficulty": "Hard",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={8, 9, 10} and B={10, 11, 12}, find n(A∩B).\nII. If n(A)=40, n(B)=30, n(A∩B)=10, find n(A∪B).\nIII. In a group of 100, 60 like tea, 50 like coffee, and 30 like both. How many like neither?",
+        "options": [
+          "1 ; 60 ; 20",
+          "0 ; 60 ; 20",
+          "1 ; 62 ; 20",
+          "1 ; 60 ; 21"
+        ],
+        "answer": 0,
+        "explanation": "I. Only 10 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=60. Answer: 60. III. The union is 60+50−30=80; subtract from 100. Answer: 20.",
+        "difficulty": "Hard",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 10 elements. How many subsets does it have?\nII. If n(A)=50 and n(A∩B)=20, find n(A−B).\nIII. For A={9, 10, 11} and B={11, 12, 13}, find n(A∪B).",
+        "options": [
+          "1026 ; 30 ; 5",
+          "1024 ; 31 ; 5",
+          "1024 ; 30 ; 4",
+          "1024 ; 30 ; 5"
+        ],
+        "answer": 3,
+        "explanation": "I. The subset count is 2^10. Answer: 1024. II. Remove the 20 common elements from A's 50 elements. Answer: 30. III. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Hard",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 10 elements. How many proper subsets does it have?\nII. Two disjoint sets have 10 and 11 elements. Find the size of their union.\nIII. For A={9, 10, 11} and B={11, 12, 13}, find n(A∩B).",
+        "options": [
+          "1023 ; 20 ; 1",
+          "1023 ; 21 ; 3",
+          "1023 ; 21 ; 1",
+          "1024 ; 21 ; 1"
+        ],
+        "answer": 2,
+        "explanation": "I. Exclude A itself from its 2^10 subsets. Answer: 1023. II. Disjoint sets have no common elements, so add their sizes. Answer: 21. III. Only 11 belongs to both sets. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a universe with 100 elements, A has 30 elements. Find n(A′).\nII. In a group of 100, 60 like tea, 50 like coffee, and 30 like both. How many like neither?\nIII. A has 11 elements. How many subsets does it have?",
+        "options": [
+          "70 ; 20 ; 2049",
+          "70 ; 20 ; 2048",
+          "69 ; 20 ; 2048",
+          "70 ; 22 ; 2048"
+        ],
+        "answer": 1,
+        "explanation": "I. n(A′)=100−30=70. Answer: 70. II. The union is 60+50−30=80; subtract from 100. Answer: 20. III. The subset count is 2^11. Answer: 2048.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=40, n(B)=30, n(A∩B)=10, find n(A∪B).\nII. For A={9, 10, 11} and B={11, 12, 13}, find n(A∪B).\nIII. A has 11 elements. How many proper subsets does it have?",
+        "options": [
+          "60 ; 5 ; 2047",
+          "62 ; 5 ; 2047",
+          "60 ; 6 ; 2047",
+          "60 ; 5 ; 2046"
+        ],
+        "answer": 0,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=60. Answer: 60. II. There are five different elements in the union. Answer: 5. III. Exclude A itself from its 2^11 subsets. Answer: 2047.",
+        "difficulty": "Hard",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=50 and n(A∩B)=20, find n(A−B).\nII. For A={9, 10, 11} and B={11, 12, 13}, find n(A∩B).\nIII. In a universe with 110 elements, A has 33 elements. Find n(A′).",
+        "options": [
+          "31 ; 1 ; 77",
+          "30 ; 0 ; 77",
+          "30 ; 1 ; 79",
+          "30 ; 1 ; 77"
+        ],
+        "answer": 3,
+        "explanation": "I. Remove the 20 common elements from A's 50 elements. Answer: 30. II. Only 11 belongs to both sets. Answer: 1. III. n(A′)=110−33=77. Answer: 77.",
+        "difficulty": "Hard",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two disjoint sets have 10 and 11 elements. Find the size of their union.\nII. A has 11 elements. How many subsets does it have?\nIII. If n(A)=44, n(B)=33, n(A∩B)=11, find n(A∪B).",
+        "options": [
+          "21 ; 2050 ; 66",
+          "21 ; 2048 ; 67",
+          "21 ; 2048 ; 66",
+          "20 ; 2048 ; 66"
+        ],
+        "answer": 2,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 21. II. The subset count is 2^11. Answer: 2048. III. Use n(A)+n(B)−n(A∩B)=66. Answer: 66.",
+        "difficulty": "Hard",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a group of 100, 60 like tea, 50 like coffee, and 30 like both. How many like neither?\nII. A has 11 elements. How many proper subsets does it have?\nIII. If n(A)=55 and n(A∩B)=22, find n(A−B).",
+        "options": [
+          "20 ; 2047 ; 32",
+          "20 ; 2047 ; 33",
+          "22 ; 2047 ; 33",
+          "20 ; 2048 ; 33"
+        ],
+        "answer": 1,
+        "explanation": "I. The union is 60+50−30=80; subtract from 100. Answer: 20. II. Exclude A itself from its 2^11 subsets. Answer: 2047. III. Remove the 22 common elements from A's 55 elements. Answer: 33.",
+        "difficulty": "Hard",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={9, 10, 11} and B={11, 12, 13}, find n(A∪B).\nII. In a universe with 110 elements, A has 33 elements. Find n(A′).\nIII. Two disjoint sets have 11 and 12 elements. Find the size of their union.",
+        "options": [
+          "5 ; 77 ; 23",
+          "6 ; 77 ; 23",
+          "5 ; 76 ; 23",
+          "5 ; 77 ; 25"
+        ],
+        "answer": 0,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=110−33=77. Answer: 77. III. Disjoint sets have no common elements, so add their sizes. Answer: 23.",
+        "difficulty": "Hard",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={9, 10, 11} and B={11, 12, 13}, find n(A∩B).\nII. If n(A)=44, n(B)=33, n(A∩B)=11, find n(A∪B).\nIII. In a group of 110, 66 like tea, 55 like coffee, and 33 like both. How many like neither?",
+        "options": [
+          "0 ; 66 ; 22",
+          "1 ; 68 ; 22",
+          "1 ; 66 ; 23",
+          "1 ; 66 ; 22"
+        ],
+        "answer": 3,
+        "explanation": "I. Only 11 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=66. Answer: 66. III. The union is 66+55−33=88; subtract from 110. Answer: 22.",
+        "difficulty": "Hard",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 11 elements. How many subsets does it have?\nII. If n(A)=55 and n(A∩B)=22, find n(A−B).\nIII. For A={10, 11, 12} and B={12, 13, 14}, find n(A∪B).",
+        "options": [
+          "2048 ; 34 ; 5",
+          "2048 ; 33 ; 4",
+          "2048 ; 33 ; 5",
+          "2050 ; 33 ; 5"
+        ],
+        "answer": 2,
+        "explanation": "I. The subset count is 2^11. Answer: 2048. II. Remove the 22 common elements from A's 55 elements. Answer: 33. III. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Hard",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 11 elements. How many proper subsets does it have?\nII. Two disjoint sets have 11 and 12 elements. Find the size of their union.\nIII. For A={10, 11, 12} and B={12, 13, 14}, find n(A∩B).",
+        "options": [
+          "2047 ; 23 ; 3",
+          "2047 ; 23 ; 1",
+          "2048 ; 23 ; 1",
+          "2047 ; 22 ; 1"
+        ],
+        "answer": 1,
+        "explanation": "I. Exclude A itself from its 2^11 subsets. Answer: 2047. II. Disjoint sets have no common elements, so add their sizes. Answer: 23. III. Only 12 belongs to both sets. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a universe with 110 elements, A has 33 elements. Find n(A′).\nII. In a group of 110, 66 like tea, 55 like coffee, and 33 like both. How many like neither?\nIII. A has 12 elements. How many subsets does it have?",
+        "options": [
+          "77 ; 22 ; 4096",
+          "76 ; 22 ; 4096",
+          "77 ; 24 ; 4096",
+          "77 ; 22 ; 4097"
+        ],
+        "answer": 0,
+        "explanation": "I. n(A′)=110−33=77. Answer: 77. II. The union is 66+55−33=88; subtract from 110. Answer: 22. III. The subset count is 2^12. Answer: 4096.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=44, n(B)=33, n(A∩B)=11, find n(A∪B).\nII. For A={10, 11, 12} and B={12, 13, 14}, find n(A∪B).\nIII. A has 12 elements. How many proper subsets does it have?",
+        "options": [
+          "68 ; 5 ; 4095",
+          "66 ; 6 ; 4095",
+          "66 ; 5 ; 4094",
+          "66 ; 5 ; 4095"
+        ],
+        "answer": 3,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=66. Answer: 66. II. There are five different elements in the union. Answer: 5. III. Exclude A itself from its 2^12 subsets. Answer: 4095.",
+        "difficulty": "Hard",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=55 and n(A∩B)=22, find n(A−B).\nII. For A={10, 11, 12} and B={12, 13, 14}, find n(A∩B).\nIII. In a universe with 120 elements, A has 36 elements. Find n(A′).",
+        "options": [
+          "33 ; 0 ; 84",
+          "33 ; 1 ; 86",
+          "33 ; 1 ; 84",
+          "34 ; 1 ; 84"
+        ],
+        "answer": 2,
+        "explanation": "I. Remove the 22 common elements from A's 55 elements. Answer: 33. II. Only 12 belongs to both sets. Answer: 1. III. n(A′)=120−36=84. Answer: 84.",
+        "difficulty": "Hard",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two disjoint sets have 11 and 12 elements. Find the size of their union.\nII. A has 12 elements. How many subsets does it have?\nIII. If n(A)=48, n(B)=36, n(A∩B)=12, find n(A∪B).",
+        "options": [
+          "23 ; 4096 ; 73",
+          "23 ; 4096 ; 72",
+          "22 ; 4096 ; 72",
+          "23 ; 4098 ; 72"
+        ],
+        "answer": 1,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 23. II. The subset count is 2^12. Answer: 4096. III. Use n(A)+n(B)−n(A∩B)=72. Answer: 72.",
+        "difficulty": "Hard",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a group of 110, 66 like tea, 55 like coffee, and 33 like both. How many like neither?\nII. A has 12 elements. How many proper subsets does it have?\nIII. If n(A)=60 and n(A∩B)=24, find n(A−B).",
+        "options": [
+          "22 ; 4095 ; 36",
+          "24 ; 4095 ; 36",
+          "22 ; 4096 ; 36",
+          "22 ; 4095 ; 35"
+        ],
+        "answer": 0,
+        "explanation": "I. The union is 66+55−33=88; subtract from 110. Answer: 22. II. Exclude A itself from its 2^12 subsets. Answer: 4095. III. Remove the 24 common elements from A's 60 elements. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={10, 11, 12} and B={12, 13, 14}, find n(A∪B).\nII. In a universe with 120 elements, A has 36 elements. Find n(A′).\nIII. Two disjoint sets have 12 and 13 elements. Find the size of their union.",
+        "options": [
+          "6 ; 84 ; 25",
+          "5 ; 83 ; 25",
+          "5 ; 84 ; 27",
+          "5 ; 84 ; 25"
+        ],
+        "answer": 3,
+        "explanation": "I. There are five different elements in the union. Answer: 5. II. n(A′)=120−36=84. Answer: 84. III. Disjoint sets have no common elements, so add their sizes. Answer: 25.",
+        "difficulty": "Hard",
+        "topic": "Set union",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For A={10, 11, 12} and B={12, 13, 14}, find n(A∩B).\nII. If n(A)=48, n(B)=36, n(A∩B)=12, find n(A∪B).\nIII. In a group of 120, 72 like tea, 60 like coffee, and 36 like both. How many like neither?",
+        "options": [
+          "1 ; 74 ; 24",
+          "1 ; 72 ; 25",
+          "1 ; 72 ; 24",
+          "0 ; 72 ; 24"
+        ],
+        "answer": 2,
+        "explanation": "I. Only 12 belongs to both sets. Answer: 1. II. Use n(A)+n(B)−n(A∩B)=72. Answer: 72. III. The union is 72+60−36=96; subtract from 120. Answer: 24.",
+        "difficulty": "Hard",
+        "topic": "Set intersection",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 12 elements. How many subsets does it have?\nII. If n(A)=60 and n(A∩B)=24, find n(A−B).\nIII. For A={8, 9, 10} and B={10, 11, 12}, find n(A∪B).",
+        "options": [
+          "4096 ; 36 ; 4",
+          "4096 ; 36 ; 5",
+          "4098 ; 36 ; 5",
+          "4096 ; 37 ; 5"
+        ],
+        "answer": 1,
+        "explanation": "I. The subset count is 2^12. Answer: 4096. II. Remove the 24 common elements from A's 60 elements. Answer: 36. III. There are five different elements in the union. Answer: 5.",
+        "difficulty": "Hard",
+        "topic": "Subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A has 12 elements. How many proper subsets does it have?\nII. Two disjoint sets have 12 and 13 elements. Find the size of their union.\nIII. For A={8, 9, 10} and B={10, 11, 12}, find n(A∩B).",
+        "options": [
+          "4095 ; 25 ; 1",
+          "4096 ; 25 ; 1",
+          "4095 ; 24 ; 1",
+          "4095 ; 25 ; 3"
+        ],
+        "answer": 0,
+        "explanation": "I. Exclude A itself from its 2^12 subsets. Answer: 4095. II. Disjoint sets have no common elements, so add their sizes. Answer: 25. III. Only 10 belongs to both sets. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Proper subsets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a universe with 120 elements, A has 36 elements. Find n(A′).\nII. In a group of 120, 72 like tea, 60 like coffee, and 36 like both. How many like neither?\nIII. A has 10 elements. How many subsets does it have?",
+        "options": [
+          "83 ; 24 ; 1024",
+          "84 ; 26 ; 1024",
+          "84 ; 24 ; 1025",
+          "84 ; 24 ; 1024"
+        ],
+        "answer": 3,
+        "explanation": "I. n(A′)=120−36=84. Answer: 84. II. The union is 72+60−36=96; subtract from 120. Answer: 24. III. The subset count is 2^10. Answer: 1024.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=48, n(B)=36, n(A∩B)=12, find n(A∪B).\nII. For A={8, 9, 10} and B={10, 11, 12}, find n(A∪B).\nIII. A has 10 elements. How many proper subsets does it have?",
+        "options": [
+          "72 ; 6 ; 1023",
+          "72 ; 5 ; 1022",
+          "72 ; 5 ; 1023",
+          "74 ; 5 ; 1023"
+        ],
+        "answer": 2,
+        "explanation": "I. Use n(A)+n(B)−n(A∩B)=72. Answer: 72. II. There are five different elements in the union. Answer: 5. III. Exclude A itself from its 2^10 subsets. Answer: 1023.",
+        "difficulty": "Hard",
+        "topic": "Inclusion-exclusion",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If n(A)=60 and n(A∩B)=24, find n(A−B).\nII. For A={8, 9, 10} and B={10, 11, 12}, find n(A∩B).\nIII. In a universe with 100 elements, A has 30 elements. Find n(A′).",
+        "options": [
+          "36 ; 1 ; 72",
+          "36 ; 1 ; 70",
+          "37 ; 1 ; 70",
+          "36 ; 0 ; 70"
+        ],
+        "answer": 1,
+        "explanation": "I. Remove the 24 common elements from A's 60 elements. Answer: 36. II. Only 10 belongs to both sets. Answer: 1. III. n(A′)=100−30=70. Answer: 70.",
+        "difficulty": "Hard",
+        "topic": "Set difference",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two disjoint sets have 12 and 13 elements. Find the size of their union.\nII. A has 10 elements. How many subsets does it have?\nIII. If n(A)=40, n(B)=30, n(A∩B)=10, find n(A∪B).",
+        "options": [
+          "25 ; 1024 ; 60",
+          "24 ; 1024 ; 60",
+          "25 ; 1026 ; 60",
+          "25 ; 1024 ; 61"
+        ],
+        "answer": 0,
+        "explanation": "I. Disjoint sets have no common elements, so add their sizes. Answer: 25. II. The subset count is 2^10. Answer: 1024. III. Use n(A)+n(B)−n(A∩B)=60. Answer: 60.",
+        "difficulty": "Hard",
+        "topic": "Disjoint sets",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH02-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In a group of 120, 72 like tea, 60 like coffee, and 36 like both. How many like neither?\nII. A has 10 elements. How many proper subsets does it have?\nIII. If n(A)=50 and n(A∩B)=20, find n(A−B).",
+        "options": [
+          "26 ; 1023 ; 30",
+          "24 ; 1024 ; 30",
+          "24 ; 1023 ; 29",
+          "24 ; 1023 ; 30"
+        ],
+        "answer": 3,
+        "explanation": "I. The union is 72+60−36=96; subtract from 120. Answer: 24. II. Exclude A itself from its 2^10 subsets. Answer: 1023. III. Remove the 20 common elements from A's 50 elements. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Survey problems",
+        "sourceChapter": 2
+      }
+    ]
+  }
+}

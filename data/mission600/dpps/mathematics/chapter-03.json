@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH03-E": {
+    "id": "SA-DPP-27-MAT-CH03-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "E",
+    "title": "Polynomials – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q01",
+        "question": "What is the degree of 3x²−5x+7?",
+        "options": [
+          "7",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "The greatest exponent with a nonzero coefficient is 2.",
+        "difficulty": "Easy",
+        "topic": "What is the degree of 3x²−5x+7?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q02",
+        "question": "Which value is a zero of x−4?",
+        "options": [
+          "4",
+          "−4",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "Substituting 4 makes x−4 equal to zero.",
+        "difficulty": "Easy",
+        "topic": "Which value is a zero of x−4?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q03",
+        "question": "For ax²+bx+c, the sum of its zeros is what?",
+        "options": [
+          "b/a",
+          "c/a",
+          "−c/a",
+          "−b/a"
+        ],
+        "answer": 3,
+        "explanation": "Comparing a(x−α)(x−β) gives α+β=−b/a.",
+        "difficulty": "Easy",
+        "topic": "For ax²+bx+c, the sum of its zeros is what?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q04",
+        "question": "For p(x)=x²−5x+6, find the sum of the zeros.",
+        "options": [
+          "4",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "For a monic quadratic, the sum of zeros is the negative of the x coefficient.",
+        "difficulty": "Easy",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q05",
+        "question": "For p(x)=x²−9x+20, find the product of the zeros.",
+        "options": [
+          "22",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "For a monic quadratic, the product is its constant term.",
+        "difficulty": "Easy",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q06",
+        "question": "Find the remainder when x²+2x+1 is divided by x−2.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "By the remainder theorem, p(2)=4+4+1.",
+        "difficulty": "Easy",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q07",
+        "question": "If x−2 divides x²+kx−8, find k.",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "Substituting x=2 gives 4+2k−8=0, so k=2.",
+        "difficulty": "Easy",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q08",
+        "question": "Zeros α,β of x²−4x+3 satisfy α²+β² = ?",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "Use (α+β)²−2αβ=16−6.",
+        "difficulty": "Easy",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q09",
+        "question": "What is the degree of 4x^4+x−1?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The largest nonzero power determines the degree.",
+        "difficulty": "Easy",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q10",
+        "question": "Find p(2) for p(x)=x²−4x+4.",
+        "options": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "p(x)=(x−2)², which vanishes at x=2.",
+        "difficulty": "Easy",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q11",
+        "question": "The zeros of a quadratic are 2 and 4. What is their difference, larger minus smaller?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "4−2=2.",
+        "difficulty": "Easy",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q12",
+        "question": "A monic quadratic has zeros 2 and −3. What is its x coefficient?",
+        "options": [
+          "0",
+          "3",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "The sum of zeros is −1, so the x coefficient is 1.",
+        "difficulty": "Easy",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q13",
+        "question": "For p(x)=x²−7x+12, find the sum of the zeros.",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "For a monic quadratic, the sum of zeros is the negative of the x coefficient.",
+        "difficulty": "Easy",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q14",
+        "question": "For p(x)=x²−11x+30, find the product of the zeros.",
+        "options": [
+          "30",
+          "31",
+          "29",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "For a monic quadratic, the product is its constant term.",
+        "difficulty": "Easy",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q15",
+        "question": "Find the remainder when x²+3x+1 is divided by x−2.",
+        "options": [
+          "12",
+          "10",
+          "13",
+          "11"
+        ],
+        "answer": 3,
+        "explanation": "By the remainder theorem, p(2)=4+6+1.",
+        "difficulty": "Easy",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q16",
+        "question": "If x−3 divides x²+kx−18, find k.",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Substituting x=3 gives 9+3k−18=0, so k=3.",
+        "difficulty": "Easy",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q17",
+        "question": "Zeros α,β of x²−6x+8 satisfy α²+β² = ?",
+        "options": [
+          "22",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "Use (α+β)²−2αβ=36−16.",
+        "difficulty": "Easy",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q18",
+        "question": "What is the degree of 5x^5+x−1?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The largest nonzero power determines the degree.",
+        "difficulty": "Easy",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q19",
+        "question": "Find p(3) for p(x)=x²−6x+9.",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "0"
+        ],
+        "answer": 3,
+        "explanation": "p(x)=(x−3)², which vanishes at x=3.",
+        "difficulty": "Easy",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q20",
+        "question": "The zeros of a quadratic are 3 and 5. What is their difference, larger minus smaller?",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "5−3=2.",
+        "difficulty": "Easy",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q21",
+        "question": "A monic quadratic has zeros 3 and −4. What is its x coefficient?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "The sum of zeros is −1, so the x coefficient is 1.",
+        "difficulty": "Easy",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q22",
+        "question": "For p(x)=x²−9x+20, find the sum of the zeros.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "For a monic quadratic, the sum of zeros is the negative of the x coefficient.",
+        "difficulty": "Easy",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q23",
+        "question": "For p(x)=x²−13x+42, find the product of the zeros.",
+        "options": [
+          "43",
+          "41",
+          "44",
+          "42"
+        ],
+        "answer": 3,
+        "explanation": "For a monic quadratic, the product is its constant term.",
+        "difficulty": "Easy",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q24",
+        "question": "Find the remainder when x²+4x+1 is divided by x−2.",
+        "options": [
+          "12",
+          "15",
+          "13",
+          "14"
+        ],
+        "answer": 2,
+        "explanation": "By the remainder theorem, p(2)=4+8+1.",
+        "difficulty": "Easy",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q25",
+        "question": "If x−4 divides x²+kx−32, find k.",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Substituting x=4 gives 16+4k−32=0, so k=4.",
+        "difficulty": "Easy",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q26",
+        "question": "Zeros α,β of x²−8x+15 satisfy α²+β² = ?",
+        "options": [
+          "34",
+          "35",
+          "33",
+          "36"
+        ],
+        "answer": 0,
+        "explanation": "Use (α+β)²−2αβ=64−30.",
+        "difficulty": "Easy",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q27",
+        "question": "What is the degree of 6x^6+x−1?",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "The largest nonzero power determines the degree.",
+        "difficulty": "Easy",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q28",
+        "question": "Find p(4) for p(x)=x²−8x+16.",
+        "options": [
+          "-1",
+          "2",
+          "0",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "p(x)=(x−4)², which vanishes at x=4.",
+        "difficulty": "Easy",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q29",
+        "question": "The zeros of a quadratic are 4 and 6. What is their difference, larger minus smaller?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "6−4=2.",
+        "difficulty": "Easy",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-E-Q30",
+        "question": "A monic quadratic has zeros 4 and −5. What is its x coefficient?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "The sum of zeros is −1, so the x coefficient is 1.",
+        "difficulty": "Easy",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH03-M": {
+    "id": "SA-DPP-27-MAT-CH03-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "M",
+    "title": "Polynomials – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q01",
+        "question": "Find the product of the zeros of 2x²−7x+3.",
+        "options": [
+          "3/2",
+          "7/2",
+          "−3/2",
+          "−7/2"
+        ],
+        "answer": 0,
+        "explanation": "The product is c/a = 3/2.",
+        "difficulty": "Medium",
+        "topic": "Find the product of the zeros of 2x²−7x+3.",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q02",
+        "question": "What remainder results when x²+3x+2 is divided by x−1?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "The remainder theorem gives p(1)=1+3+2=6.",
+        "difficulty": "Medium",
+        "topic": "What remainder results when x²+3x+2 is divided by x−1?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q03",
+        "question": "Which monic quadratic has zeros 2 and −3?",
+        "options": [
+          "x²+x+6",
+          "x²−5x+6",
+          "x²+x−6",
+          "x²−x−6"
+        ],
+        "answer": 2,
+        "explanation": "Expand (x−2)(x+3).",
+        "difficulty": "Medium",
+        "topic": "Which monic quadratic has zeros 2 and −3?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−11x+30, find the sum of the zeros.\nII. Zeros α,β of x²−10x+24 satisfy α²+β² = ?",
+        "options": [
+          "12 ; 53",
+          "11 ; 52",
+          "12 ; 52",
+          "11 ; 51"
+        ],
+        "answer": 1,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 11. II. Use (α+β)²−2αβ=100−48. Answer: 52.",
+        "difficulty": "Medium",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−15x+56, find the product of the zeros.\nII. What is the degree of 7x^7+x−1?",
+        "options": [
+          "56 ; 7",
+          "55 ; 7",
+          "56 ; 9",
+          "55 ; 6"
+        ],
+        "answer": 0,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 56. II. The largest nonzero power determines the degree. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the remainder when x²+5x+1 is divided by x−2.\nII. Find p(5) for p(x)=x²−10x+25.",
+        "options": [
+          "17 ; 0",
+          "15 ; 1",
+          "17 ; 2",
+          "15 ; 0"
+        ],
+        "answer": 3,
+        "explanation": "I. By the remainder theorem, p(2)=4+10+1. Answer: 15. II. p(x)=(x−5)², which vanishes at x=5. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x−5 divides x²+kx−50, find k.\nII. The zeros of a quadratic are 5 and 7. What is their difference, larger minus smaller?",
+        "options": [
+          "5 ; 1",
+          "6 ; 3",
+          "5 ; 2",
+          "6 ; 2"
+        ],
+        "answer": 2,
+        "explanation": "I. Substituting x=5 gives 25+5k−50=0, so k=5. Answer: 5. II. 7−5=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−10x+24 satisfy α²+β² = ?\nII. A monic quadratic has zeros 5 and −6. What is its x coefficient?",
+        "options": [
+          "51 ; 0",
+          "52 ; 1",
+          "51 ; 1",
+          "52 ; 3"
+        ],
+        "answer": 1,
+        "explanation": "I. Use (α+β)²−2αβ=100−48. Answer: 52. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the degree of 7x^7+x−1?\nII. For p(x)=x²−13x+42, find the sum of the zeros.",
+        "options": [
+          "7 ; 13",
+          "9 ; 13",
+          "7 ; 14",
+          "9 ; 15"
+        ],
+        "answer": 0,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 7. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 13.",
+        "difficulty": "Medium",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find p(5) for p(x)=x²−10x+25.\nII. For p(x)=x²−17x+72, find the product of the zeros.",
+        "options": [
+          "1 ; 72",
+          "0 ; 71",
+          "1 ; 73",
+          "0 ; 72"
+        ],
+        "answer": 3,
+        "explanation": "I. p(x)=(x−5)², which vanishes at x=5. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 72.",
+        "difficulty": "Medium",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 5 and 7. What is their difference, larger minus smaller?\nII. Find the remainder when x²+6x+1 is divided by x−2.",
+        "options": [
+          "2 ; 19",
+          "1 ; 16",
+          "2 ; 17",
+          "1 ; 17"
+        ],
+        "answer": 2,
+        "explanation": "I. 7−5=2. Answer: 2. II. By the remainder theorem, p(2)=4+12+1. Answer: 17.",
+        "difficulty": "Medium",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 5 and −6. What is its x coefficient?\nII. If x−6 divides x²+kx−72, find k.",
+        "options": [
+          "3 ; 8",
+          "1 ; 6",
+          "3 ; 6",
+          "1 ; 7"
+        ],
+        "answer": 1,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=6 gives 36+6k−72=0, so k=6. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−13x+42, find the sum of the zeros.\nII. Zeros α,β of x²−12x+35 satisfy α²+β² = ?",
+        "options": [
+          "13 ; 74",
+          "14 ; 74",
+          "13 ; 73",
+          "14 ; 75"
+        ],
+        "answer": 0,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 13. II. Use (α+β)²−2αβ=144−70. Answer: 74.",
+        "difficulty": "Medium",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−17x+72, find the product of the zeros.\nII. What is the degree of 8x^8+x−1?",
+        "options": [
+          "71 ; 8",
+          "72 ; 10",
+          "71 ; 7",
+          "72 ; 8"
+        ],
+        "answer": 3,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 72. II. The largest nonzero power determines the degree. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the remainder when x²+6x+1 is divided by x−2.\nII. Find p(6) for p(x)=x²−12x+36.",
+        "options": [
+          "17 ; 1",
+          "19 ; 2",
+          "17 ; 0",
+          "19 ; 0"
+        ],
+        "answer": 2,
+        "explanation": "I. By the remainder theorem, p(2)=4+12+1. Answer: 17. II. p(x)=(x−6)², which vanishes at x=6. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x−6 divides x²+kx−72, find k.\nII. The zeros of a quadratic are 6 and 8. What is their difference, larger minus smaller?",
+        "options": [
+          "7 ; 3",
+          "6 ; 2",
+          "7 ; 2",
+          "6 ; 1"
+        ],
+        "answer": 1,
+        "explanation": "I. Substituting x=6 gives 36+6k−72=0, so k=6. Answer: 6. II. 8−6=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−12x+35 satisfy α²+β² = ?\nII. A monic quadratic has zeros 6 and −7. What is its x coefficient?",
+        "options": [
+          "74 ; 1",
+          "73 ; 1",
+          "74 ; 3",
+          "73 ; 0"
+        ],
+        "answer": 0,
+        "explanation": "I. Use (α+β)²−2αβ=144−70. Answer: 74. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the degree of 8x^8+x−1?\nII. For p(x)=x²−15x+56, find the sum of the zeros.",
+        "options": [
+          "10 ; 15",
+          "8 ; 16",
+          "10 ; 17",
+          "8 ; 15"
+        ],
+        "answer": 3,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 8. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find p(6) for p(x)=x²−12x+36.\nII. For p(x)=x²−19x+90, find the product of the zeros.",
+        "options": [
+          "0 ; 89",
+          "1 ; 91",
+          "0 ; 90",
+          "1 ; 90"
+        ],
+        "answer": 2,
+        "explanation": "I. p(x)=(x−6)², which vanishes at x=6. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 90.",
+        "difficulty": "Medium",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 6 and 8. What is their difference, larger minus smaller?\nII. Find the remainder when x²+7x+1 is divided by x−2.",
+        "options": [
+          "1 ; 18",
+          "2 ; 19",
+          "1 ; 19",
+          "2 ; 21"
+        ],
+        "answer": 1,
+        "explanation": "I. 8−6=2. Answer: 2. II. By the remainder theorem, p(2)=4+14+1. Answer: 19.",
+        "difficulty": "Medium",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 6 and −7. What is its x coefficient?\nII. If x−7 divides x²+kx−98, find k.",
+        "options": [
+          "1 ; 7",
+          "3 ; 7",
+          "1 ; 8",
+          "3 ; 9"
+        ],
+        "answer": 0,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=7 gives 49+7k−98=0, so k=7. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−15x+56, find the sum of the zeros.\nII. Zeros α,β of x²−14x+48 satisfy α²+β² = ?",
+        "options": [
+          "16 ; 100",
+          "15 ; 99",
+          "16 ; 101",
+          "15 ; 100"
+        ],
+        "answer": 3,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 15. II. Use (α+β)²−2αβ=196−96. Answer: 100.",
+        "difficulty": "Medium",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For p(x)=x²−19x+90, find the product of the zeros.\nII. What is the degree of 9x^9+x−1?",
+        "options": [
+          "90 ; 11",
+          "89 ; 8",
+          "90 ; 9",
+          "89 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 90. II. The largest nonzero power determines the degree. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the remainder when x²+7x+1 is divided by x−2.\nII. Find p(7) for p(x)=x²−14x+49.",
+        "options": [
+          "21 ; 2",
+          "19 ; 0",
+          "21 ; 0",
+          "19 ; 1"
+        ],
+        "answer": 1,
+        "explanation": "I. By the remainder theorem, p(2)=4+14+1. Answer: 19. II. p(x)=(x−7)², which vanishes at x=7. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x−7 divides x²+kx−98, find k.\nII. The zeros of a quadratic are 7 and 9. What is their difference, larger minus smaller?",
+        "options": [
+          "7 ; 2",
+          "8 ; 2",
+          "7 ; 1",
+          "8 ; 3"
+        ],
+        "answer": 0,
+        "explanation": "I. Substituting x=7 gives 49+7k−98=0, so k=7. Answer: 7. II. 9−7=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−14x+48 satisfy α²+β² = ?\nII. A monic quadratic has zeros 7 and −8. What is its x coefficient?",
+        "options": [
+          "99 ; 1",
+          "100 ; 3",
+          "99 ; 0",
+          "100 ; 1"
+        ],
+        "answer": 3,
+        "explanation": "I. Use (α+β)²−2αβ=196−96. Answer: 100. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the degree of 9x^9+x−1?\nII. For p(x)=x²−11x+30, find the sum of the zeros.",
+        "options": [
+          "9 ; 12",
+          "11 ; 13",
+          "9 ; 11",
+          "11 ; 11"
+        ],
+        "answer": 2,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 9. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 11.",
+        "difficulty": "Medium",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find p(7) for p(x)=x²−14x+49.\nII. For p(x)=x²−15x+56, find the product of the zeros.",
+        "options": [
+          "1 ; 57",
+          "0 ; 56",
+          "1 ; 56",
+          "0 ; 55"
+        ],
+        "answer": 1,
+        "explanation": "I. p(x)=(x−7)², which vanishes at x=7. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 56.",
+        "difficulty": "Medium",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 7 and 9. What is their difference, larger minus smaller?\nII. Find the remainder when x²+5x+1 is divided by x−2.",
+        "options": [
+          "2 ; 15",
+          "1 ; 15",
+          "2 ; 17",
+          "1 ; 14"
+        ],
+        "answer": 0,
+        "explanation": "I. 9−7=2. Answer: 2. II. By the remainder theorem, p(2)=4+10+1. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 7 and −8. What is its x coefficient?\nII. If x−5 divides x²+kx−50, find k.",
+        "options": [
+          "3 ; 5",
+          "1 ; 6",
+          "3 ; 7",
+          "1 ; 5"
+        ],
+        "answer": 3,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=5 gives 25+5k−50=0, so k=5. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH03-H": {
+    "id": "SA-DPP-27-MAT-CH03-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Polynomials",
+    "level": "H",
+    "title": "Polynomials – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-03",
+    "recommendedDate": "2026-10-18",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 76
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q01",
+        "question": "If one zero of 2x²+kx−6 is 2, find k.",
+        "options": [
+          "1",
+          "−2",
+          "2",
+          "−1"
+        ],
+        "answer": 3,
+        "explanation": "Substitute x=2: 8+2k−6=0, so k=−1.",
+        "difficulty": "Hard",
+        "topic": "If one zero of 2x²+kx−6 is 2, find k.",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q02",
+        "question": "If α and β are zeros of x²−5x+3, find α²+β².",
+        "options": [
+          "31",
+          "10",
+          "19",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Use (α+β)²−2αβ=25−6=19.",
+        "difficulty": "Hard",
+        "topic": "If α and β are zeros of x²−5x+3, find α²+β².",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q03",
+        "question": "Which polynomial must divide x³−3x²−4x+12 exactly?",
+        "options": [
+          "x−2",
+          "x−3",
+          "x−1",
+          "x+1"
+        ],
+        "answer": 1,
+        "explanation": "At x=3 the polynomial is 27−27−12+12=0.",
+        "difficulty": "Hard",
+        "topic": "Which polynomial must divide x³−3x²−4x+12 exactly?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−17x+72, find the sum of the zeros.\nII. Zeros α,β of x²−16x+63 satisfy α²+β² = ?\nIII. The zeros of a quadratic are 8 and 10. What is their difference, larger minus smaller?",
+        "options": [
+          "17 ; 130 ; 2",
+          "18 ; 130 ; 2",
+          "17 ; 129 ; 2",
+          "17 ; 130 ; 4"
+        ],
+        "answer": 0,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 17. II. Use (α+β)²−2αβ=256−126. Answer: 130. III. 10−8=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−21x+110, find the product of the zeros.\nII. What is the degree of 10x^10+x−1?\nIII. A monic quadratic has zeros 8 and −9. What is its x coefficient?",
+        "options": [
+          "109 ; 10 ; 1",
+          "110 ; 12 ; 1",
+          "110 ; 10 ; 2",
+          "110 ; 10 ; 1"
+        ],
+        "answer": 3,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 110. II. The largest nonzero power determines the degree. Answer: 10. III. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the remainder when x²+8x+1 is divided by x−2.\nII. Find p(8) for p(x)=x²−16x+64.\nIII. For p(x)=x²−19x+90, find the sum of the zeros.",
+        "options": [
+          "21 ; 1 ; 19",
+          "21 ; 0 ; 18",
+          "21 ; 0 ; 19",
+          "23 ; 0 ; 19"
+        ],
+        "answer": 2,
+        "explanation": "I. By the remainder theorem, p(2)=4+16+1. Answer: 21. II. p(x)=(x−8)², which vanishes at x=8. Answer: 0. III. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 19.",
+        "difficulty": "Hard",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x−8 divides x²+kx−128, find k.\nII. The zeros of a quadratic are 8 and 10. What is their difference, larger minus smaller?\nIII. For p(x)=x²−23x+132, find the product of the zeros.",
+        "options": [
+          "8 ; 2 ; 134",
+          "8 ; 2 ; 132",
+          "9 ; 2 ; 132",
+          "8 ; 1 ; 132"
+        ],
+        "answer": 1,
+        "explanation": "I. Substituting x=8 gives 64+8k−128=0, so k=8. Answer: 8. II. 10−8=2. Answer: 2. III. For a monic quadratic, the product is its constant term. Answer: 132.",
+        "difficulty": "Hard",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−16x+63 satisfy α²+β² = ?\nII. A monic quadratic has zeros 8 and −9. What is its x coefficient?\nIII. Find the remainder when x²+9x+1 is divided by x−2.",
+        "options": [
+          "130 ; 1 ; 23",
+          "129 ; 1 ; 23",
+          "130 ; 3 ; 23",
+          "130 ; 1 ; 24"
+        ],
+        "answer": 0,
+        "explanation": "I. Use (α+β)²−2αβ=256−126. Answer: 130. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. III. By the remainder theorem, p(2)=4+18+1. Answer: 23.",
+        "difficulty": "Hard",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the degree of 10x^10+x−1?\nII. For p(x)=x²−19x+90, find the sum of the zeros.\nIII. If x−9 divides x²+kx−162, find k.",
+        "options": [
+          "12 ; 19 ; 9",
+          "10 ; 20 ; 9",
+          "10 ; 19 ; 8",
+          "10 ; 19 ; 9"
+        ],
+        "answer": 3,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 10. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 19. III. Substituting x=9 gives 81+9k−162=0, so k=9. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find p(8) for p(x)=x²−16x+64.\nII. For p(x)=x²−23x+132, find the product of the zeros.\nIII. Zeros α,β of x²−18x+80 satisfy α²+β² = ?",
+        "options": [
+          "0 ; 131 ; 164",
+          "0 ; 132 ; 166",
+          "0 ; 132 ; 164",
+          "1 ; 132 ; 164"
+        ],
+        "answer": 2,
+        "explanation": "I. p(x)=(x−8)², which vanishes at x=8. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 132. III. Use (α+β)²−2αβ=324−160. Answer: 164.",
+        "difficulty": "Hard",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 8 and 10. What is their difference, larger minus smaller?\nII. Find the remainder when x²+9x+1 is divided by x−2.\nIII. What is the degree of 11x^11+x−1?",
+        "options": [
+          "2 ; 23 ; 12",
+          "2 ; 23 ; 11",
+          "1 ; 23 ; 11",
+          "2 ; 25 ; 11"
+        ],
+        "answer": 1,
+        "explanation": "I. 10−8=2. Answer: 2. II. By the remainder theorem, p(2)=4+18+1. Answer: 23. III. The largest nonzero power determines the degree. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 8 and −9. What is its x coefficient?\nII. If x−9 divides x²+kx−162, find k.\nIII. Find p(9) for p(x)=x²−18x+81.",
+        "options": [
+          "1 ; 9 ; 0",
+          "3 ; 9 ; 0",
+          "1 ; 10 ; 0",
+          "1 ; 9 ; -1"
+        ],
+        "answer": 0,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=9 gives 81+9k−162=0, so k=9. Answer: 9. III. p(x)=(x−9)², which vanishes at x=9. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−19x+90, find the sum of the zeros.\nII. Zeros α,β of x²−18x+80 satisfy α²+β² = ?\nIII. The zeros of a quadratic are 9 and 11. What is their difference, larger minus smaller?",
+        "options": [
+          "20 ; 164 ; 2",
+          "19 ; 163 ; 2",
+          "19 ; 164 ; 4",
+          "19 ; 164 ; 2"
+        ],
+        "answer": 3,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 19. II. Use (α+β)²−2αβ=324−160. Answer: 164. III. 11−9=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−23x+132, find the product of the zeros.\nII. What is the degree of 11x^11+x−1?\nIII. A monic quadratic has zeros 9 and −10. What is its x coefficient?",
+        "options": [
+          "132 ; 13 ; 1",
+          "132 ; 11 ; 2",
+          "132 ; 11 ; 1",
+          "131 ; 11 ; 1"
+        ],
+        "answer": 2,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 132. II. The largest nonzero power determines the degree. Answer: 11. III. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the remainder when x²+9x+1 is divided by x−2.\nII. Find p(9) for p(x)=x²−18x+81.\nIII. For p(x)=x²−21x+110, find the sum of the zeros.",
+        "options": [
+          "23 ; 0 ; 20",
+          "23 ; 0 ; 21",
+          "25 ; 0 ; 21",
+          "23 ; 1 ; 21"
+        ],
+        "answer": 1,
+        "explanation": "I. By the remainder theorem, p(2)=4+18+1. Answer: 23. II. p(x)=(x−9)², which vanishes at x=9. Answer: 0. III. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 21.",
+        "difficulty": "Hard",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x−9 divides x²+kx−162, find k.\nII. The zeros of a quadratic are 9 and 11. What is their difference, larger minus smaller?\nIII. For p(x)=x²−25x+156, find the product of the zeros.",
+        "options": [
+          "9 ; 2 ; 156",
+          "10 ; 2 ; 156",
+          "9 ; 1 ; 156",
+          "9 ; 2 ; 158"
+        ],
+        "answer": 0,
+        "explanation": "I. Substituting x=9 gives 81+9k−162=0, so k=9. Answer: 9. II. 11−9=2. Answer: 2. III. For a monic quadratic, the product is its constant term. Answer: 156.",
+        "difficulty": "Hard",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−18x+80 satisfy α²+β² = ?\nII. A monic quadratic has zeros 9 and −10. What is its x coefficient?\nIII. Find the remainder when x²+10x+1 is divided by x−2.",
+        "options": [
+          "163 ; 1 ; 25",
+          "164 ; 3 ; 25",
+          "164 ; 1 ; 26",
+          "164 ; 1 ; 25"
+        ],
+        "answer": 3,
+        "explanation": "I. Use (α+β)²−2αβ=324−160. Answer: 164. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. III. By the remainder theorem, p(2)=4+20+1. Answer: 25.",
+        "difficulty": "Hard",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the degree of 11x^11+x−1?\nII. For p(x)=x²−21x+110, find the sum of the zeros.\nIII. If x−10 divides x²+kx−200, find k.",
+        "options": [
+          "11 ; 22 ; 10",
+          "11 ; 21 ; 9",
+          "11 ; 21 ; 10",
+          "13 ; 21 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 11. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 21. III. Substituting x=10 gives 100+10k−200=0, so k=10. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find p(9) for p(x)=x²−18x+81.\nII. For p(x)=x²−25x+156, find the product of the zeros.\nIII. Zeros α,β of x²−20x+99 satisfy α²+β² = ?",
+        "options": [
+          "0 ; 156 ; 204",
+          "0 ; 156 ; 202",
+          "1 ; 156 ; 202",
+          "0 ; 155 ; 202"
+        ],
+        "answer": 1,
+        "explanation": "I. p(x)=(x−9)², which vanishes at x=9. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 156. III. Use (α+β)²−2αβ=400−198. Answer: 202.",
+        "difficulty": "Hard",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 9 and 11. What is their difference, larger minus smaller?\nII. Find the remainder when x²+10x+1 is divided by x−2.\nIII. What is the degree of 12x^12+x−1?",
+        "options": [
+          "2 ; 25 ; 12",
+          "1 ; 25 ; 12",
+          "2 ; 27 ; 12",
+          "2 ; 25 ; 13"
+        ],
+        "answer": 0,
+        "explanation": "I. 11−9=2. Answer: 2. II. By the remainder theorem, p(2)=4+20+1. Answer: 25. III. The largest nonzero power determines the degree. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 9 and −10. What is its x coefficient?\nII. If x−10 divides x²+kx−200, find k.\nIII. Find p(10) for p(x)=x²−20x+100.",
+        "options": [
+          "3 ; 10 ; 0",
+          "1 ; 11 ; 0",
+          "1 ; 10 ; -1",
+          "1 ; 10 ; 0"
+        ],
+        "answer": 3,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=10 gives 100+10k−200=0, so k=10. Answer: 10. III. p(x)=(x−10)², which vanishes at x=10. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−21x+110, find the sum of the zeros.\nII. Zeros α,β of x²−20x+99 satisfy α²+β² = ?\nIII. The zeros of a quadratic are 10 and 12. What is their difference, larger minus smaller?",
+        "options": [
+          "21 ; 201 ; 2",
+          "21 ; 202 ; 4",
+          "21 ; 202 ; 2",
+          "22 ; 202 ; 2"
+        ],
+        "answer": 2,
+        "explanation": "I. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 21. II. Use (α+β)²−2αβ=400−198. Answer: 202. III. 12−10=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Sum of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For p(x)=x²−25x+156, find the product of the zeros.\nII. What is the degree of 12x^12+x−1?\nIII. A monic quadratic has zeros 10 and −11. What is its x coefficient?",
+        "options": [
+          "156 ; 12 ; 2",
+          "156 ; 12 ; 1",
+          "155 ; 12 ; 1",
+          "156 ; 14 ; 1"
+        ],
+        "answer": 1,
+        "explanation": "I. For a monic quadratic, the product is its constant term. Answer: 156. II. The largest nonzero power determines the degree. Answer: 12. III. The sum of zeros is −1, so the x coefficient is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Product of zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the remainder when x²+10x+1 is divided by x−2.\nII. Find p(10) for p(x)=x²−20x+100.\nIII. For p(x)=x²−17x+72, find the sum of the zeros.",
+        "options": [
+          "25 ; 0 ; 17",
+          "27 ; 0 ; 17",
+          "25 ; 1 ; 17",
+          "25 ; 0 ; 16"
+        ],
+        "answer": 0,
+        "explanation": "I. By the remainder theorem, p(2)=4+20+1. Answer: 25. II. p(x)=(x−10)², which vanishes at x=10. Answer: 0. III. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 17.",
+        "difficulty": "Hard",
+        "topic": "Remainder theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x−10 divides x²+kx−200, find k.\nII. The zeros of a quadratic are 10 and 12. What is their difference, larger minus smaller?\nIII. For p(x)=x²−21x+110, find the product of the zeros.",
+        "options": [
+          "11 ; 2 ; 110",
+          "10 ; 1 ; 110",
+          "10 ; 2 ; 112",
+          "10 ; 2 ; 110"
+        ],
+        "answer": 3,
+        "explanation": "I. Substituting x=10 gives 100+10k−200=0, so k=10. Answer: 10. II. 12−10=2. Answer: 2. III. For a monic quadratic, the product is its constant term. Answer: 110.",
+        "difficulty": "Hard",
+        "topic": "Factor theorem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Zeros α,β of x²−20x+99 satisfy α²+β² = ?\nII. A monic quadratic has zeros 10 and −11. What is its x coefficient?\nIII. Find the remainder when x²+8x+1 is divided by x−2.",
+        "options": [
+          "202 ; 3 ; 21",
+          "202 ; 1 ; 22",
+          "202 ; 1 ; 21",
+          "201 ; 1 ; 21"
+        ],
+        "answer": 2,
+        "explanation": "I. Use (α+β)²−2αβ=400−198. Answer: 202. II. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. III. By the remainder theorem, p(2)=4+16+1. Answer: 21.",
+        "difficulty": "Hard",
+        "topic": "Symmetric expressions",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the degree of 12x^12+x−1?\nII. For p(x)=x²−17x+72, find the sum of the zeros.\nIII. If x−8 divides x²+kx−128, find k.",
+        "options": [
+          "12 ; 17 ; 7",
+          "12 ; 17 ; 8",
+          "14 ; 17 ; 8",
+          "12 ; 18 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. The largest nonzero power determines the degree. Answer: 12. II. For a monic quadratic, the sum of zeros is the negative of the x coefficient. Answer: 17. III. Substituting x=8 gives 64+8k−128=0, so k=8. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Degree",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find p(10) for p(x)=x²−20x+100.\nII. For p(x)=x²−21x+110, find the product of the zeros.\nIII. Zeros α,β of x²−16x+63 satisfy α²+β² = ?",
+        "options": [
+          "0 ; 110 ; 130",
+          "1 ; 110 ; 130",
+          "0 ; 109 ; 130",
+          "0 ; 110 ; 132"
+        ],
+        "answer": 0,
+        "explanation": "I. p(x)=(x−10)², which vanishes at x=10. Answer: 0. II. For a monic quadratic, the product is its constant term. Answer: 110. III. Use (α+β)²−2αβ=256−126. Answer: 130.",
+        "difficulty": "Hard",
+        "topic": "Evaluating polynomials",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The zeros of a quadratic are 10 and 12. What is their difference, larger minus smaller?\nII. Find the remainder when x²+8x+1 is divided by x−2.\nIII. What is the degree of 10x^10+x−1?",
+        "options": [
+          "1 ; 21 ; 10",
+          "2 ; 23 ; 10",
+          "2 ; 21 ; 11",
+          "2 ; 21 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. 12−10=2. Answer: 2. II. By the remainder theorem, p(2)=4+16+1. Answer: 21. III. The largest nonzero power determines the degree. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Zeros",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH03-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A monic quadratic has zeros 10 and −11. What is its x coefficient?\nII. If x−8 divides x²+kx−128, find k.\nIII. Find p(8) for p(x)=x²−16x+64.",
+        "options": [
+          "1 ; 9 ; 0",
+          "1 ; 8 ; -1",
+          "1 ; 8 ; 0",
+          "3 ; 8 ; 0"
+        ],
+        "answer": 2,
+        "explanation": "I. The sum of zeros is −1, so the x coefficient is 1. Answer: 1. II. Substituting x=8 gives 64+8k−128=0, so k=8. Answer: 8. III. p(x)=(x−8)², which vanishes at x=8. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Forming polynomials",
+        "sourceChapter": 3
+      }
+    ]
+  }
+}

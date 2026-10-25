@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH07-E": {
+    "id": "SA-DPP-27-MAT-CH07-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "E",
+    "title": "Coordinate Geometry – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q01",
+        "question": "Find the distance from (0,0) to (3,4).",
+        "options": [
+          "25",
+          "5",
+          "7",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "Distance is √(3²+4²)=5.",
+        "difficulty": "Easy",
+        "topic": "Find the distance from (0,0) to (3,4).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q02",
+        "question": "Find the midpoint of (2,4) and (6,8).",
+        "options": [
+          "(4,6)",
+          "(8,12)",
+          "(2,2)",
+          "(3,4)"
+        ],
+        "answer": 0,
+        "explanation": "Average the two x coordinates and the two y coordinates.",
+        "difficulty": "Easy",
+        "topic": "Find the midpoint of (2,4) and (6,8).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q03",
+        "question": "Which point lies on the x-axis?",
+        "options": [
+          "(0,3)",
+          "(2,2)",
+          "(−1,4)",
+          "(3,0)"
+        ],
+        "answer": 3,
+        "explanation": "Every point on the x-axis has y=0.",
+        "difficulty": "Easy",
+        "topic": "Which point lies on the x-axis?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q04",
+        "question": "Find the distance between (0,0) and (6,8).",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "Distance=√[(6)²+(8)²]=10.",
+        "difficulty": "Easy",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q05",
+        "question": "Find the x-coordinate of the midpoint of (2,2) and (6,8).",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Average the two x-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q06",
+        "question": "Find the y-coordinate of the midpoint of (2,2) and (8,10).",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Average the two y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q07",
+        "question": "Find the area of the triangle (0,0),(4,0),(0,6).",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Area=½×4×6.",
+        "difficulty": "Easy",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q08",
+        "question": "A divides the segment from (0,0) to (6,12) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "The point is one-third of the way from the origin to the second endpoint.",
+        "difficulty": "Easy",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q09",
+        "question": "The midpoint of A(2,4) and B is (6,8). Find B's x-coordinate.",
+        "options": [
+          "12",
+          "10",
+          "11",
+          "9"
+        ],
+        "answer": 1,
+        "explanation": "Bₓ=2Mₓ−Aₓ=12−2.",
+        "difficulty": "Easy",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q10",
+        "question": "Find the distance between (2,2) and (2,12).",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "The x-coordinates agree, so use the absolute difference of y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q11",
+        "question": "Points (0,0),(2,4),(6,k) are collinear. Find k.",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "The line through the first two points has equation y=2x.",
+        "difficulty": "Easy",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q12",
+        "question": "Find the area of a rectangle with vertices (0,0),(8,0),(8,4),(0,4).",
+        "options": [
+          "31",
+          "34",
+          "32",
+          "33"
+        ],
+        "answer": 2,
+        "explanation": "Multiply the horizontal side length by the vertical side length.",
+        "difficulty": "Easy",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q13",
+        "question": "Find the distance between (0,0) and (9,12).",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "Distance=√[(9)²+(12)²]=15.",
+        "difficulty": "Easy",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q14",
+        "question": "Find the x-coordinate of the midpoint of (3,2) and (9,8).",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Average the two x-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q15",
+        "question": "Find the y-coordinate of the midpoint of (2,3) and (8,15).",
+        "options": [
+          "10",
+          "8",
+          "11",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "Average the two y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q16",
+        "question": "Find the area of the triangle (0,0),(6,0),(0,9).",
+        "options": [
+          "26",
+          "29",
+          "27",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "Area=½×6×9.",
+        "difficulty": "Easy",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q17",
+        "question": "A divides the segment from (0,0) to (9,18) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "The point is one-third of the way from the origin to the second endpoint.",
+        "difficulty": "Easy",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q18",
+        "question": "The midpoint of A(3,6) and B is (9,12). Find B's x-coordinate.",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "17"
+        ],
+        "answer": 0,
+        "explanation": "Bₓ=2Mₓ−Aₓ=18−3.",
+        "difficulty": "Easy",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q19",
+        "question": "Find the distance between (3,3) and (3,18).",
+        "options": [
+          "16",
+          "14",
+          "17",
+          "15"
+        ],
+        "answer": 3,
+        "explanation": "The x-coordinates agree, so use the absolute difference of y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q20",
+        "question": "Points (0,0),(3,6),(9,k) are collinear. Find k.",
+        "options": [
+          "17",
+          "20",
+          "18",
+          "19"
+        ],
+        "answer": 2,
+        "explanation": "The line through the first two points has equation y=2x.",
+        "difficulty": "Easy",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q21",
+        "question": "Find the area of a rectangle with vertices (0,0),(12,0),(12,6),(0,6).",
+        "options": [
+          "74",
+          "72",
+          "73",
+          "71"
+        ],
+        "answer": 1,
+        "explanation": "Multiply the horizontal side length by the vertical side length.",
+        "difficulty": "Easy",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q22",
+        "question": "Find the distance between (0,0) and (12,16).",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "22"
+        ],
+        "answer": 0,
+        "explanation": "Distance=√[(12)²+(16)²]=20.",
+        "difficulty": "Easy",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q23",
+        "question": "Find the x-coordinate of the midpoint of (4,2) and (12,8).",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Average the two x-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q24",
+        "question": "Find the y-coordinate of the midpoint of (2,4) and (8,20).",
+        "options": [
+          "11",
+          "14",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Average the two y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q25",
+        "question": "Find the area of the triangle (0,0),(8,0),(0,12).",
+        "options": [
+          "50",
+          "48",
+          "49",
+          "47"
+        ],
+        "answer": 1,
+        "explanation": "Area=½×8×12.",
+        "difficulty": "Easy",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q26",
+        "question": "A divides the segment from (0,0) to (12,24) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "The point is one-third of the way from the origin to the second endpoint.",
+        "difficulty": "Easy",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q27",
+        "question": "The midpoint of A(4,8) and B is (12,16). Find B's x-coordinate.",
+        "options": [
+          "21",
+          "19",
+          "22",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "Bₓ=2Mₓ−Aₓ=24−4.",
+        "difficulty": "Easy",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q28",
+        "question": "Find the distance between (4,4) and (4,24).",
+        "options": [
+          "19",
+          "22",
+          "20",
+          "21"
+        ],
+        "answer": 2,
+        "explanation": "The x-coordinates agree, so use the absolute difference of y-coordinates.",
+        "difficulty": "Easy",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q29",
+        "question": "Points (0,0),(4,8),(12,k) are collinear. Find k.",
+        "options": [
+          "26",
+          "24",
+          "25",
+          "23"
+        ],
+        "answer": 1,
+        "explanation": "The line through the first two points has equation y=2x.",
+        "difficulty": "Easy",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-E-Q30",
+        "question": "Find the area of a rectangle with vertices (0,0),(16,0),(16,8),(0,8).",
+        "options": [
+          "128",
+          "129",
+          "127",
+          "130"
+        ],
+        "answer": 0,
+        "explanation": "Multiply the horizontal side length by the vertical side length.",
+        "difficulty": "Easy",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH07-M": {
+    "id": "SA-DPP-27-MAT-CH07-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "M",
+    "title": "Coordinate Geometry – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-10",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q01",
+        "question": "Find the distance between (−2,1) and (4,9).",
+        "options": [
+          "10",
+          "8",
+          "14",
+          "100"
+        ],
+        "answer": 0,
+        "explanation": "The coordinate differences are 6 and 8; √(36+64)=10.",
+        "difficulty": "Medium",
+        "topic": "Find the distance between (−2,1) and (4,9).",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q02",
+        "question": "A point divides the segment from (0,0) to (6,9) internally in the ratio 1:2. Find it.",
+        "options": [
+          "(4,6)",
+          "(3,4.5)",
+          "(1,2)",
+          "(2,3)"
+        ],
+        "answer": 3,
+        "explanation": "The point is one-third of the way from the first endpoint.",
+        "difficulty": "Medium",
+        "topic": "A point divides the segment from (0,0) to (6,9) internally in the ratio 1:2. Find it.",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q03",
+        "question": "What is the area of the triangle (0,0),(4,0),(0,3)?",
+        "options": [
+          "7 square units",
+          "3 square units",
+          "6 square units",
+          "12 square units"
+        ],
+        "answer": 2,
+        "explanation": "Use half the product of perpendicular base 4 and height 3.",
+        "difficulty": "Medium",
+        "topic": "What is the area of the triangle (0,0),(4,0),(0,3)?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (15,20).\nII. A divides the segment from (0,0) to (15,30) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "26 ; 6",
+          "25 ; 5",
+          "26 ; 5",
+          "25 ; 4"
+        ],
+        "answer": 1,
+        "explanation": "I. Distance=√[(15)²+(20)²]=25. Answer: 25. II. The point is one-third of the way from the origin to the second endpoint. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (5,2) and (15,8).\nII. The midpoint of A(5,10) and B is (15,20). Find B's x-coordinate.",
+        "options": [
+          "10 ; 25",
+          "9 ; 25",
+          "10 ; 27",
+          "9 ; 24"
+        ],
+        "answer": 0,
+        "explanation": "I. Average the two x-coordinates. Answer: 10. II. Bₓ=2Mₓ−Aₓ=30−5. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,5) and (8,25).\nII. Find the distance between (5,5) and (5,30).",
+        "options": [
+          "17 ; 25",
+          "15 ; 26",
+          "17 ; 27",
+          "15 ; 25"
+        ],
+        "answer": 3,
+        "explanation": "I. Average the two y-coordinates. Answer: 15. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(10,0),(0,15).\nII. Points (0,0),(5,10),(15,k) are collinear. Find k.",
+        "options": [
+          "75 ; 29",
+          "76 ; 31",
+          "75 ; 30",
+          "76 ; 30"
+        ],
+        "answer": 2,
+        "explanation": "I. Area=½×10×15. Answer: 75. II. The line through the first two points has equation y=2x. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (15,30) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(20,0),(20,10),(0,10).",
+        "options": [
+          "4 ; 199",
+          "5 ; 200",
+          "4 ; 200",
+          "5 ; 202"
+        ],
+        "answer": 1,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 5. II. Multiply the horizontal side length by the vertical side length. Answer: 200.",
+        "difficulty": "Medium",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The midpoint of A(5,10) and B is (15,20). Find B's x-coordinate.\nII. Find the distance between (0,0) and (18,24).",
+        "options": [
+          "25 ; 30",
+          "27 ; 30",
+          "25 ; 31",
+          "27 ; 32"
+        ],
+        "answer": 0,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=30−5. Answer: 25. II. Distance=√[(18)²+(24)²]=30. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (5,5) and (5,30).\nII. Find the x-coordinate of the midpoint of (6,2) and (18,8).",
+        "options": [
+          "26 ; 12",
+          "25 ; 11",
+          "26 ; 13",
+          "25 ; 12"
+        ],
+        "answer": 3,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 25. II. Average the two x-coordinates. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Points (0,0),(5,10),(15,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,6) and (8,30).",
+        "options": [
+          "30 ; 20",
+          "29 ; 17",
+          "30 ; 18",
+          "29 ; 18"
+        ],
+        "answer": 2,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 30. II. Average the two y-coordinates. Answer: 18.",
+        "difficulty": "Medium",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(20,0),(20,10),(0,10).\nII. Find the area of the triangle (0,0),(12,0),(0,18).",
+        "options": [
+          "202 ; 110",
+          "200 ; 108",
+          "202 ; 108",
+          "200 ; 109"
+        ],
+        "answer": 1,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 200. II. Area=½×12×18. Answer: 108.",
+        "difficulty": "Medium",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (18,24).\nII. A divides the segment from (0,0) to (18,36) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "30 ; 6",
+          "31 ; 6",
+          "30 ; 5",
+          "31 ; 7"
+        ],
+        "answer": 0,
+        "explanation": "I. Distance=√[(18)²+(24)²]=30. Answer: 30. II. The point is one-third of the way from the origin to the second endpoint. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (6,2) and (18,8).\nII. The midpoint of A(6,12) and B is (18,24). Find B's x-coordinate.",
+        "options": [
+          "11 ; 30",
+          "12 ; 32",
+          "11 ; 29",
+          "12 ; 30"
+        ],
+        "answer": 3,
+        "explanation": "I. Average the two x-coordinates. Answer: 12. II. Bₓ=2Mₓ−Aₓ=36−6. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,6) and (8,30).\nII. Find the distance between (6,6) and (6,36).",
+        "options": [
+          "18 ; 31",
+          "20 ; 32",
+          "18 ; 30",
+          "20 ; 30"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the two y-coordinates. Answer: 18. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(12,0),(0,18).\nII. Points (0,0),(6,12),(18,k) are collinear. Find k.",
+        "options": [
+          "109 ; 37",
+          "108 ; 36",
+          "109 ; 36",
+          "108 ; 35"
+        ],
+        "answer": 1,
+        "explanation": "I. Area=½×12×18. Answer: 108. II. The line through the first two points has equation y=2x. Answer: 36.",
+        "difficulty": "Medium",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (18,36) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(24,0),(24,12),(0,12).",
+        "options": [
+          "6 ; 288",
+          "5 ; 288",
+          "6 ; 290",
+          "5 ; 287"
+        ],
+        "answer": 0,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 6. II. Multiply the horizontal side length by the vertical side length. Answer: 288.",
+        "difficulty": "Medium",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The midpoint of A(6,12) and B is (18,24). Find B's x-coordinate.\nII. Find the distance between (0,0) and (21,28).",
+        "options": [
+          "32 ; 35",
+          "30 ; 36",
+          "32 ; 37",
+          "30 ; 35"
+        ],
+        "answer": 3,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=36−6. Answer: 30. II. Distance=√[(21)²+(28)²]=35. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (6,6) and (6,36).\nII. Find the x-coordinate of the midpoint of (7,2) and (21,8).",
+        "options": [
+          "30 ; 13",
+          "31 ; 15",
+          "30 ; 14",
+          "31 ; 14"
+        ],
+        "answer": 2,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 30. II. Average the two x-coordinates. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Points (0,0),(6,12),(18,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,7) and (8,35).",
+        "options": [
+          "35 ; 20",
+          "36 ; 21",
+          "35 ; 21",
+          "36 ; 23"
+        ],
+        "answer": 1,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 36. II. Average the two y-coordinates. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(24,0),(24,12),(0,12).\nII. Find the area of the triangle (0,0),(14,0),(0,21).",
+        "options": [
+          "288 ; 147",
+          "290 ; 147",
+          "288 ; 148",
+          "290 ; 149"
+        ],
+        "answer": 0,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 288. II. Area=½×14×21. Answer: 147.",
+        "difficulty": "Medium",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (21,28).\nII. A divides the segment from (0,0) to (21,42) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "36 ; 7",
+          "35 ; 6",
+          "36 ; 8",
+          "35 ; 7"
+        ],
+        "answer": 3,
+        "explanation": "I. Distance=√[(21)²+(28)²]=35. Answer: 35. II. The point is one-third of the way from the origin to the second endpoint. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (7,2) and (21,8).\nII. The midpoint of A(7,14) and B is (21,28). Find B's x-coordinate.",
+        "options": [
+          "14 ; 37",
+          "13 ; 34",
+          "14 ; 35",
+          "13 ; 35"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the two x-coordinates. Answer: 14. II. Bₓ=2Mₓ−Aₓ=42−7. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,7) and (8,35).\nII. Find the distance between (7,7) and (7,42).",
+        "options": [
+          "23 ; 37",
+          "21 ; 35",
+          "23 ; 35",
+          "21 ; 36"
+        ],
+        "answer": 1,
+        "explanation": "I. Average the two y-coordinates. Answer: 21. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(14,0),(0,21).\nII. Points (0,0),(7,14),(21,k) are collinear. Find k.",
+        "options": [
+          "147 ; 42",
+          "148 ; 42",
+          "147 ; 41",
+          "148 ; 43"
+        ],
+        "answer": 0,
+        "explanation": "I. Area=½×14×21. Answer: 147. II. The line through the first two points has equation y=2x. Answer: 42.",
+        "difficulty": "Medium",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (21,42) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(28,0),(28,14),(0,14).",
+        "options": [
+          "6 ; 392",
+          "7 ; 394",
+          "6 ; 391",
+          "7 ; 392"
+        ],
+        "answer": 3,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 7. II. Multiply the horizontal side length by the vertical side length. Answer: 392.",
+        "difficulty": "Medium",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The midpoint of A(7,14) and B is (21,28). Find B's x-coordinate.\nII. Find the distance between (0,0) and (15,20).",
+        "options": [
+          "35 ; 26",
+          "37 ; 27",
+          "35 ; 25",
+          "37 ; 25"
+        ],
+        "answer": 2,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=42−7. Answer: 35. II. Distance=√[(15)²+(20)²]=25. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the distance between (7,7) and (7,42).\nII. Find the x-coordinate of the midpoint of (5,2) and (15,8).",
+        "options": [
+          "36 ; 11",
+          "35 ; 10",
+          "36 ; 10",
+          "35 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 35. II. Average the two x-coordinates. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Points (0,0),(7,14),(21,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,5) and (8,25).",
+        "options": [
+          "42 ; 15",
+          "41 ; 15",
+          "42 ; 17",
+          "41 ; 14"
+        ],
+        "answer": 0,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 42. II. Average the two y-coordinates. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(28,0),(28,14),(0,14).\nII. Find the area of the triangle (0,0),(10,0),(0,15).",
+        "options": [
+          "394 ; 75",
+          "392 ; 76",
+          "394 ; 77",
+          "392 ; 75"
+        ],
+        "answer": 3,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 392. II. Area=½×10×15. Answer: 75.",
+        "difficulty": "Medium",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH07-H": {
+    "id": "SA-DPP-27-MAT-CH07-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordinate Geometry",
+    "level": "H",
+    "title": "Coordinate Geometry – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-MAT-01",
+    "recommendedDate": "2026-11-11",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 194
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q01",
+        "question": "For what k are (1,2),(3,6),(k,10) collinear?",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "The first slope is 2; (10−6)/(k−3)=2 gives k=5.",
+        "difficulty": "Hard",
+        "topic": "For what k are (1,2),(3,6),(k,10) collinear?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q02",
+        "question": "A point on the y-axis is equidistant from (2,3) and (4,1). What is it?",
+        "options": [
+          "(0,2)",
+          "(0,3)",
+          "(0,0)",
+          "(0,1)"
+        ],
+        "answer": 2,
+        "explanation": "Set 4+(y−3)²=16+(y−1)² to obtain y=0.",
+        "difficulty": "Hard",
+        "topic": "A point on the y-axis is equidistant from (2,3) and (4,1). What is it?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q03",
+        "question": "The midpoint of AB is (3,−1), and A=(−2,5). Find B.",
+        "options": [
+          "(6,−2)",
+          "(8,−7)",
+          "(4,−6)",
+          "(1,4)"
+        ],
+        "answer": 1,
+        "explanation": "Use B=2M−A coordinate by coordinate.",
+        "difficulty": "Hard",
+        "topic": "The midpoint of AB is (3,−1), and A=(−2,5). Find B.",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (24,32).\nII. A divides the segment from (0,0) to (24,48) internally in ratio 1:2. Find its x-coordinate.\nIII. Points (0,0),(8,16),(24,k) are collinear. Find k.",
+        "options": [
+          "40 ; 8 ; 48",
+          "41 ; 8 ; 48",
+          "40 ; 7 ; 48",
+          "40 ; 8 ; 50"
+        ],
+        "answer": 0,
+        "explanation": "I. Distance=√[(24)²+(32)²]=40. Answer: 40. II. The point is one-third of the way from the origin to the second endpoint. Answer: 8. III. The line through the first two points has equation y=2x. Answer: 48.",
+        "difficulty": "Hard",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (8,2) and (24,8).\nII. The midpoint of A(8,16) and B is (24,32). Find B's x-coordinate.\nIII. Find the area of a rectangle with vertices (0,0),(32,0),(32,16),(0,16).",
+        "options": [
+          "15 ; 40 ; 512",
+          "16 ; 42 ; 512",
+          "16 ; 40 ; 513",
+          "16 ; 40 ; 512"
+        ],
+        "answer": 3,
+        "explanation": "I. Average the two x-coordinates. Answer: 16. II. Bₓ=2Mₓ−Aₓ=48−8. Answer: 40. III. Multiply the horizontal side length by the vertical side length. Answer: 512.",
+        "difficulty": "Hard",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,8) and (8,40).\nII. Find the distance between (8,8) and (8,48).\nIII. Find the distance between (0,0) and (27,36).",
+        "options": [
+          "24 ; 41 ; 45",
+          "24 ; 40 ; 44",
+          "24 ; 40 ; 45",
+          "26 ; 40 ; 45"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the two y-coordinates. Answer: 24. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 40. III. Distance=√[(27)²+(36)²]=45. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(16,0),(0,24).\nII. Points (0,0),(8,16),(24,k) are collinear. Find k.\nIII. Find the x-coordinate of the midpoint of (9,2) and (27,8).",
+        "options": [
+          "192 ; 48 ; 20",
+          "192 ; 48 ; 18",
+          "193 ; 48 ; 18",
+          "192 ; 47 ; 18"
+        ],
+        "answer": 1,
+        "explanation": "I. Area=½×16×24. Answer: 192. II. The line through the first two points has equation y=2x. Answer: 48. III. Average the two x-coordinates. Answer: 18.",
+        "difficulty": "Hard",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (24,48) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(32,0),(32,16),(0,16).\nIII. Find the y-coordinate of the midpoint of (2,9) and (8,45).",
+        "options": [
+          "8 ; 512 ; 27",
+          "7 ; 512 ; 27",
+          "8 ; 514 ; 27",
+          "8 ; 512 ; 28"
+        ],
+        "answer": 0,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 8. II. Multiply the horizontal side length by the vertical side length. Answer: 512. III. Average the two y-coordinates. Answer: 27.",
+        "difficulty": "Hard",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The midpoint of A(8,16) and B is (24,32). Find B's x-coordinate.\nII. Find the distance between (0,0) and (27,36).\nIII. Find the area of the triangle (0,0),(18,0),(0,27).",
+        "options": [
+          "42 ; 45 ; 243",
+          "40 ; 46 ; 243",
+          "40 ; 45 ; 242",
+          "40 ; 45 ; 243"
+        ],
+        "answer": 3,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=48−8. Answer: 40. II. Distance=√[(27)²+(36)²]=45. Answer: 45. III. Area=½×18×27. Answer: 243.",
+        "difficulty": "Hard",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (8,8) and (8,48).\nII. Find the x-coordinate of the midpoint of (9,2) and (27,8).\nIII. A divides the segment from (0,0) to (27,54) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "40 ; 17 ; 9",
+          "40 ; 18 ; 11",
+          "40 ; 18 ; 9",
+          "41 ; 18 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 40. II. Average the two x-coordinates. Answer: 18. III. The point is one-third of the way from the origin to the second endpoint. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Points (0,0),(8,16),(24,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,9) and (8,45).\nIII. The midpoint of A(9,18) and B is (27,36). Find B's x-coordinate.",
+        "options": [
+          "48 ; 27 ; 46",
+          "48 ; 27 ; 45",
+          "47 ; 27 ; 45",
+          "48 ; 29 ; 45"
+        ],
+        "answer": 1,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 48. II. Average the two y-coordinates. Answer: 27. III. Bₓ=2Mₓ−Aₓ=54−9. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(32,0),(32,16),(0,16).\nII. Find the area of the triangle (0,0),(18,0),(0,27).\nIII. Find the distance between (9,9) and (9,54).",
+        "options": [
+          "512 ; 243 ; 45",
+          "514 ; 243 ; 45",
+          "512 ; 244 ; 45",
+          "512 ; 243 ; 44"
+        ],
+        "answer": 0,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 512. II. Area=½×18×27. Answer: 243. III. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (27,36).\nII. A divides the segment from (0,0) to (27,54) internally in ratio 1:2. Find its x-coordinate.\nIII. Points (0,0),(9,18),(27,k) are collinear. Find k.",
+        "options": [
+          "46 ; 9 ; 54",
+          "45 ; 8 ; 54",
+          "45 ; 9 ; 56",
+          "45 ; 9 ; 54"
+        ],
+        "answer": 3,
+        "explanation": "I. Distance=√[(27)²+(36)²]=45. Answer: 45. II. The point is one-third of the way from the origin to the second endpoint. Answer: 9. III. The line through the first two points has equation y=2x. Answer: 54.",
+        "difficulty": "Hard",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (9,2) and (27,8).\nII. The midpoint of A(9,18) and B is (27,36). Find B's x-coordinate.\nIII. Find the area of a rectangle with vertices (0,0),(36,0),(36,18),(0,18).",
+        "options": [
+          "18 ; 47 ; 648",
+          "18 ; 45 ; 649",
+          "18 ; 45 ; 648",
+          "17 ; 45 ; 648"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the two x-coordinates. Answer: 18. II. Bₓ=2Mₓ−Aₓ=54−9. Answer: 45. III. Multiply the horizontal side length by the vertical side length. Answer: 648.",
+        "difficulty": "Hard",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,9) and (8,45).\nII. Find the distance between (9,9) and (9,54).\nIII. Find the distance between (0,0) and (30,40).",
+        "options": [
+          "27 ; 45 ; 49",
+          "27 ; 45 ; 50",
+          "29 ; 45 ; 50",
+          "27 ; 46 ; 50"
+        ],
+        "answer": 1,
+        "explanation": "I. Average the two y-coordinates. Answer: 27. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 45. III. Distance=√[(30)²+(40)²]=50. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(18,0),(0,27).\nII. Points (0,0),(9,18),(27,k) are collinear. Find k.\nIII. Find the x-coordinate of the midpoint of (10,2) and (30,8).",
+        "options": [
+          "243 ; 54 ; 20",
+          "244 ; 54 ; 20",
+          "243 ; 53 ; 20",
+          "243 ; 54 ; 22"
+        ],
+        "answer": 0,
+        "explanation": "I. Area=½×18×27. Answer: 243. II. The line through the first two points has equation y=2x. Answer: 54. III. Average the two x-coordinates. Answer: 20.",
+        "difficulty": "Hard",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (27,54) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(36,0),(36,18),(0,18).\nIII. Find the y-coordinate of the midpoint of (2,10) and (8,50).",
+        "options": [
+          "8 ; 648 ; 30",
+          "9 ; 650 ; 30",
+          "9 ; 648 ; 31",
+          "9 ; 648 ; 30"
+        ],
+        "answer": 3,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 9. II. Multiply the horizontal side length by the vertical side length. Answer: 648. III. Average the two y-coordinates. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The midpoint of A(9,18) and B is (27,36). Find B's x-coordinate.\nII. Find the distance between (0,0) and (30,40).\nIII. Find the area of the triangle (0,0),(20,0),(0,30).",
+        "options": [
+          "45 ; 51 ; 300",
+          "45 ; 50 ; 299",
+          "45 ; 50 ; 300",
+          "47 ; 50 ; 300"
+        ],
+        "answer": 2,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=54−9. Answer: 45. II. Distance=√[(30)²+(40)²]=50. Answer: 50. III. Area=½×20×30. Answer: 300.",
+        "difficulty": "Hard",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (9,9) and (9,54).\nII. Find the x-coordinate of the midpoint of (10,2) and (30,8).\nIII. A divides the segment from (0,0) to (30,60) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "45 ; 20 ; 12",
+          "45 ; 20 ; 10",
+          "46 ; 20 ; 10",
+          "45 ; 19 ; 10"
+        ],
+        "answer": 1,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 45. II. Average the two x-coordinates. Answer: 20. III. The point is one-third of the way from the origin to the second endpoint. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Points (0,0),(9,18),(27,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,10) and (8,50).\nIII. The midpoint of A(10,20) and B is (30,40). Find B's x-coordinate.",
+        "options": [
+          "54 ; 30 ; 50",
+          "53 ; 30 ; 50",
+          "54 ; 32 ; 50",
+          "54 ; 30 ; 51"
+        ],
+        "answer": 0,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 54. II. Average the two y-coordinates. Answer: 30. III. Bₓ=2Mₓ−Aₓ=60−10. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(36,0),(36,18),(0,18).\nII. Find the area of the triangle (0,0),(20,0),(0,30).\nIII. Find the distance between (10,10) and (10,60).",
+        "options": [
+          "650 ; 300 ; 50",
+          "648 ; 301 ; 50",
+          "648 ; 300 ; 49",
+          "648 ; 300 ; 50"
+        ],
+        "answer": 3,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 648. II. Area=½×20×30. Answer: 300. III. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (0,0) and (30,40).\nII. A divides the segment from (0,0) to (30,60) internally in ratio 1:2. Find its x-coordinate.\nIII. Points (0,0),(10,20),(30,k) are collinear. Find k.",
+        "options": [
+          "50 ; 9 ; 60",
+          "50 ; 10 ; 62",
+          "50 ; 10 ; 60",
+          "51 ; 10 ; 60"
+        ],
+        "answer": 2,
+        "explanation": "I. Distance=√[(30)²+(40)²]=50. Answer: 50. II. The point is one-third of the way from the origin to the second endpoint. Answer: 10. III. The line through the first two points has equation y=2x. Answer: 60.",
+        "difficulty": "Hard",
+        "topic": "Distance formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the x-coordinate of the midpoint of (10,2) and (30,8).\nII. The midpoint of A(10,20) and B is (30,40). Find B's x-coordinate.\nIII. Find the area of a rectangle with vertices (0,0),(40,0),(40,20),(0,20).",
+        "options": [
+          "20 ; 50 ; 801",
+          "20 ; 50 ; 800",
+          "19 ; 50 ; 800",
+          "20 ; 52 ; 800"
+        ],
+        "answer": 1,
+        "explanation": "I. Average the two x-coordinates. Answer: 20. II. Bₓ=2Mₓ−Aₓ=60−10. Answer: 50. III. Multiply the horizontal side length by the vertical side length. Answer: 800.",
+        "difficulty": "Hard",
+        "topic": "Midpoint x-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the y-coordinate of the midpoint of (2,10) and (8,50).\nII. Find the distance between (10,10) and (10,60).\nIII. Find the distance between (0,0) and (24,32).",
+        "options": [
+          "30 ; 50 ; 40",
+          "32 ; 50 ; 40",
+          "30 ; 51 ; 40",
+          "30 ; 50 ; 39"
+        ],
+        "answer": 0,
+        "explanation": "I. Average the two y-coordinates. Answer: 30. II. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 50. III. Distance=√[(24)²+(32)²]=40. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Midpoint y-coordinate",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of the triangle (0,0),(20,0),(0,30).\nII. Points (0,0),(10,20),(30,k) are collinear. Find k.\nIII. Find the x-coordinate of the midpoint of (8,2) and (24,8).",
+        "options": [
+          "301 ; 60 ; 16",
+          "300 ; 59 ; 16",
+          "300 ; 60 ; 18",
+          "300 ; 60 ; 16"
+        ],
+        "answer": 3,
+        "explanation": "I. Area=½×20×30. Answer: 300. II. The line through the first two points has equation y=2x. Answer: 60. III. Average the two x-coordinates. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Triangle area",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A divides the segment from (0,0) to (30,60) internally in ratio 1:2. Find its x-coordinate.\nII. Find the area of a rectangle with vertices (0,0),(40,0),(40,20),(0,20).\nIII. Find the y-coordinate of the midpoint of (2,8) and (8,40).",
+        "options": [
+          "10 ; 802 ; 24",
+          "10 ; 800 ; 25",
+          "10 ; 800 ; 24",
+          "9 ; 800 ; 24"
+        ],
+        "answer": 2,
+        "explanation": "I. The point is one-third of the way from the origin to the second endpoint. Answer: 10. II. Multiply the horizontal side length by the vertical side length. Answer: 800. III. Average the two y-coordinates. Answer: 24.",
+        "difficulty": "Hard",
+        "topic": "Section formula",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The midpoint of A(10,20) and B is (30,40). Find B's x-coordinate.\nII. Find the distance between (0,0) and (24,32).\nIII. Find the area of the triangle (0,0),(16,0),(0,24).",
+        "options": [
+          "50 ; 40 ; 191",
+          "50 ; 40 ; 192",
+          "52 ; 40 ; 192",
+          "50 ; 41 ; 192"
+        ],
+        "answer": 1,
+        "explanation": "I. Bₓ=2Mₓ−Aₓ=60−10. Answer: 50. II. Distance=√[(24)²+(32)²]=40. Answer: 40. III. Area=½×16×24. Answer: 192.",
+        "difficulty": "Hard",
+        "topic": "Missing endpoint",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the distance between (10,10) and (10,60).\nII. Find the x-coordinate of the midpoint of (8,2) and (24,8).\nIII. A divides the segment from (0,0) to (24,48) internally in ratio 1:2. Find its x-coordinate.",
+        "options": [
+          "50 ; 16 ; 8",
+          "51 ; 16 ; 8",
+          "50 ; 15 ; 8",
+          "50 ; 16 ; 10"
+        ],
+        "answer": 0,
+        "explanation": "I. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 50. II. Average the two x-coordinates. Answer: 16. III. The point is one-third of the way from the origin to the second endpoint. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Vertical distance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Points (0,0),(10,20),(30,k) are collinear. Find k.\nII. Find the y-coordinate of the midpoint of (2,8) and (8,40).\nIII. The midpoint of A(8,16) and B is (24,32). Find B's x-coordinate.",
+        "options": [
+          "59 ; 24 ; 40",
+          "60 ; 26 ; 40",
+          "60 ; 24 ; 41",
+          "60 ; 24 ; 40"
+        ],
+        "answer": 3,
+        "explanation": "I. The line through the first two points has equation y=2x. Answer: 60. II. Average the two y-coordinates. Answer: 24. III. Bₓ=2Mₓ−Aₓ=48−8. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Collinearity",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH07-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the area of a rectangle with vertices (0,0),(40,0),(40,20),(0,20).\nII. Find the area of the triangle (0,0),(16,0),(0,24).\nIII. Find the distance between (8,8) and (8,48).",
+        "options": [
+          "800 ; 193 ; 40",
+          "800 ; 192 ; 39",
+          "800 ; 192 ; 40",
+          "802 ; 192 ; 40"
+        ],
+        "answer": 2,
+        "explanation": "I. Multiply the horizontal side length by the vertical side length. Answer: 800. II. Area=½×16×24. Answer: 192. III. The x-coordinates agree, so use the absolute difference of y-coordinates. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Coordinate area",
+        "sourceChapter": 7
+      }
+    ]
+  }
+}

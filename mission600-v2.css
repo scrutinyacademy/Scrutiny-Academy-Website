@@ -123,3 +123,5 @@
 .calendar-day a{display:block;margin-top:8px;color:var(--blue);font-size:.75rem;overflow-wrap:anywhere}.dpp-source{font-size:.8rem;color:var(--muted);line-height:1.6}
 
 .dpp-reader-shell [hidden]{display:none!important}
+
+.dpp-question-card h2{white-space:pre-line}

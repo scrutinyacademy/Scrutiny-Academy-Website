@@ -15,9 +15,10 @@ for(const [id,publication] of Object.entries(publications)){
 const ids = new Set(), prompts = new Set();
 let questionCount = 0;
 for (const subject of Object.values(catalog.subjects)) {
-  const content = read(`data/mission600/dpps/${subject.id}.json`);
+
   for (const chapter of subject.chapters) {
     const sets = catalog.dpps.filter(item => item.chapterId === chapter.id);
+    const content = read(sets[0].contentFile);
     assert.deepEqual(sets.map(item => item.difficulty), ['Easy','Medium','Hard']);
     for (const item of sets) {
       assert.equal(item.status, 'published'); assert.equal(item.contentComplete, true);
@@ -34,7 +35,7 @@ for (const subject of Object.values(catalog.subjects)) {
       assert(item.sourcePrintedPages.from <= item.sourcePrintedPages.to);
       const bank = content[item.id];
       assert.equal(bank.contentVersion,item.contentVersion);
-      assert.equal(bank.questions.length,3); assert.equal(item.questionCount,bank.questions.length);
+      assert.equal(bank.questions.length,30); assert.equal(item.questionCount,bank.questions.length);
       assert.equal(item.maximumMarks,bank.questions.length);
       for (const q of bank.questions) {
         assert(!ids.has(q.id),`Duplicate question ID: ${q.id}`); ids.add(q.id);
@@ -50,10 +51,10 @@ for (const subject of Object.values(catalog.subjects)) {
     }
   }
 }
-assert.equal(questionCount,513);
+assert.equal(questionCount,5130);
 const player=readFileSync(new URL('mission600-dpp.js',root),'utf8');
 assert(!player.includes('selectQuestions'));
 assert(player.includes('contentVersion'));
 assert(player.includes('dpp.questions.length'));
 assert(!player.includes('20 MCQs'));
-console.log('PASS: 57 chapters, 171 distinct difficulty-specific DPPs, 513 unique MCQs, valid keys/explanations, aligned dates and all sets unlocked.');
+console.log('PASS: 57 chapters, 171 distinct difficulty-specific DPPs, 5,130 unique MCQs, valid keys/explanations, aligned dates and all sets unlocked.');

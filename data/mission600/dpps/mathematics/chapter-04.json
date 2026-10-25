@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH04-E": {
+    "id": "SA-DPP-27-MAT-CH04-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "E",
+    "title": "Pair of Linear Equations in Two Variables – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-26",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q01",
+        "question": "A pair of intersecting straight lines represents how many common solutions?",
+        "options": [
+          "One",
+          "None",
+          "Two",
+          "Infinitely many"
+        ],
+        "answer": 0,
+        "explanation": "The intersection point satisfies both equations.",
+        "difficulty": "Easy",
+        "topic": "A pair of intersecting straight lines represents how many common solutions?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q02",
+        "question": "Which ordered pair satisfies x+y=5?",
+        "options": [
+          "(1,3)",
+          "(3,3)",
+          "(0,4)",
+          "(2,3)"
+        ],
+        "answer": 3,
+        "explanation": "2+3=5.",
+        "difficulty": "Easy",
+        "topic": "Which ordered pair satisfies x+y=5?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q03",
+        "question": "Two distinct parallel lines represent what type of system?",
+        "options": [
+          "Consistent with infinitely many solutions",
+          "Identical equations",
+          "Inconsistent",
+          "Consistent with one solution"
+        ],
+        "answer": 2,
+        "explanation": "Distinct parallel lines have no intersection.",
+        "difficulty": "Easy",
+        "topic": "Two distinct parallel lines represent what type of system?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q04",
+        "question": "Solve x+y=7 and x−y=3. Find x.",
+        "options": [
+          "7",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": 1,
+        "explanation": "Adding gives 2x=10.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q05",
+        "question": "Solve x+y=6 and x=2y. Find y.",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "Substitute x=2y to obtain 3y=6.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q06",
+        "question": "Two pens and a pencil cost ₹10; one pen and a pencil cost ₹6. What is the pen price in rupees?",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Subtract the second purchase equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q07",
+        "question": "For x+2y=10 and x−y=4, find y.",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Subtracting gives 3y=6.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q08",
+        "question": "For 2x+y=14 and x+y=8, find x.",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the second equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q09",
+        "question": "For x+y=8 and x−y=4, find the product xy.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Adding and subtracting give x=6, y=2, so xy=12.",
+        "difficulty": "Easy",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q10",
+        "question": "For 3x+2y=16 and x=2y, find x.",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Substitution gives 8y=16, so x=4.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q11",
+        "question": "If x+y=6 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "11",
+          "14",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "The second left-hand side is twice the first, so its right-hand side must also double.",
+        "difficulty": "Easy",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q12",
+        "question": "Two positive numbers sum to 10 and differ by 2. Find the smaller number.",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The smaller number is (sum−difference)/2=(10−2)/2.",
+        "difficulty": "Easy",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q13",
+        "question": "Solve x+y=9 and x−y=3. Find x.",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Adding gives 2x=12.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q14",
+        "question": "Solve x+y=9 and x=2y. Find y.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "Substitute x=2y to obtain 3y=9.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q15",
+        "question": "Two pens and a pencil cost ₹15; one pen and a pencil cost ₹9. What is the pen price in rupees?",
+        "options": [
+          "5",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Subtract the second purchase equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q16",
+        "question": "For x+2y=15 and x−y=6, find y.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "Subtracting gives 3y=9.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q17",
+        "question": "For 2x+y=21 and x+y=12, find x.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Subtract the second equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q18",
+        "question": "For x+y=12 and x−y=6, find the product xy.",
+        "options": [
+          "28",
+          "26",
+          "29",
+          "27"
+        ],
+        "answer": 3,
+        "explanation": "Adding and subtracting give x=9, y=3, so xy=27.",
+        "difficulty": "Easy",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q19",
+        "question": "For 3x+2y=24 and x=2y, find x.",
+        "options": [
+          "5",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Substitution gives 8y=24, so x=6.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q20",
+        "question": "If x+y=9 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "20",
+          "18",
+          "19",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "The second left-hand side is twice the first, so its right-hand side must also double.",
+        "difficulty": "Easy",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q21",
+        "question": "Two positive numbers sum to 15 and differ by 3. Find the smaller number.",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "The smaller number is (sum−difference)/2=(15−3)/2.",
+        "difficulty": "Easy",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q22",
+        "question": "Solve x+y=11 and x−y=3. Find x.",
+        "options": [
+          "8",
+          "6",
+          "9",
+          "7"
+        ],
+        "answer": 3,
+        "explanation": "Adding gives 2x=14.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q23",
+        "question": "Solve x+y=12 and x=2y. Find y.",
+        "options": [
+          "3",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "Substitute x=2y to obtain 3y=12.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q24",
+        "question": "Two pens and a pencil cost ₹20; one pen and a pencil cost ₹12. What is the pen price in rupees?",
+        "options": [
+          "10",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the second purchase equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q25",
+        "question": "For x+2y=20 and x−y=8, find y.",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Subtracting gives 3y=12.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q26",
+        "question": "For 2x+y=28 and x+y=16, find x.",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Subtract the second equation from the first.",
+        "difficulty": "Easy",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q27",
+        "question": "For x+y=16 and x−y=8, find the product xy.",
+        "options": [
+          "47",
+          "50",
+          "48",
+          "49"
+        ],
+        "answer": 2,
+        "explanation": "Adding and subtracting give x=12, y=4, so xy=48.",
+        "difficulty": "Easy",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q28",
+        "question": "For 3x+2y=32 and x=2y, find x.",
+        "options": [
+          "10",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Substitution gives 8y=32, so x=8.",
+        "difficulty": "Easy",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q29",
+        "question": "If x+y=12 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "24",
+          "25",
+          "23",
+          "26"
+        ],
+        "answer": 0,
+        "explanation": "The second left-hand side is twice the first, so its right-hand side must also double.",
+        "difficulty": "Easy",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-E-Q30",
+        "question": "Two positive numbers sum to 20 and differ by 4. Find the smaller number.",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "The smaller number is (sum−difference)/2=(20−4)/2.",
+        "difficulty": "Easy",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH04-M": {
+    "id": "SA-DPP-27-MAT-CH04-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "M",
+    "title": "Pair of Linear Equations in Two Variables – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-27",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q01",
+        "question": "Solve x+y=7 and x−y=1.",
+        "options": [
+          "x=3,y=4",
+          "x=5,y=2",
+          "x=6,y=1",
+          "x=4,y=3"
+        ],
+        "answer": 3,
+        "explanation": "Adding gives 2x=8; then y=3.",
+        "difficulty": "Medium",
+        "topic": "Solve x+y=7 and x−y=1.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q02",
+        "question": "What does the pair 2x+3y=6 and 4x+6y=12 represent?",
+        "options": [
+          "Perpendicular lines",
+          "Two intersection points",
+          "Coincident lines",
+          "Distinct parallel lines"
+        ],
+        "answer": 2,
+        "explanation": "The second equation is twice the first.",
+        "difficulty": "Medium",
+        "topic": "What does the pair 2x+3y=6 and 4x+6y=12 represent?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q03",
+        "question": "Two pens and one pencil cost ₹25; one pen and one pencil cost ₹15. Find the pen price.",
+        "options": [
+          "₹20",
+          "₹10",
+          "₹5",
+          "₹15"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the second equation from the first.",
+        "difficulty": "Medium",
+        "topic": "Two pens and one pencil cost ₹25; one pen and one pencil cost ₹15. Find the pen price.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=13 and x−y=3. Find x.\nII. For 2x+y=35 and x+y=20, find x.",
+        "options": [
+          "8 ; 15",
+          "9 ; 15",
+          "8 ; 14",
+          "9 ; 16"
+        ],
+        "answer": 0,
+        "explanation": "I. Adding gives 2x=16. Answer: 8. II. Subtract the second equation from the first. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=15 and x=2y. Find y.\nII. For x+y=20 and x−y=10, find the product xy.",
+        "options": [
+          "4 ; 75",
+          "5 ; 77",
+          "4 ; 74",
+          "5 ; 75"
+        ],
+        "answer": 3,
+        "explanation": "I. Substitute x=2y to obtain 3y=15. Answer: 5. II. Adding and subtracting give x=15, y=5, so xy=75. Answer: 75.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹25; one pen and a pencil cost ₹15. What is the pen price in rupees?\nII. For 3x+2y=40 and x=2y, find x.",
+        "options": [
+          "10 ; 11",
+          "12 ; 12",
+          "10 ; 10",
+          "12 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 10. II. Substitution gives 8y=40, so x=10. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+2y=25 and x−y=10, find y.\nII. If x+y=15 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "6 ; 31",
+          "5 ; 30",
+          "6 ; 30",
+          "5 ; 29"
+        ],
+        "answer": 1,
+        "explanation": "I. Subtracting gives 3y=15. Answer: 5. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 2x+y=35 and x+y=20, find x.\nII. Two positive numbers sum to 25 and differ by 5. Find the smaller number.",
+        "options": [
+          "15 ; 10",
+          "14 ; 10",
+          "15 ; 12",
+          "14 ; 9"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtract the second equation from the first. Answer: 15. II. The smaller number is (sum−difference)/2=(25−5)/2. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+y=20 and x−y=10, find the product xy.\nII. Solve x+y=15 and x−y=3. Find x.",
+        "options": [
+          "77 ; 9",
+          "75 ; 10",
+          "77 ; 11",
+          "75 ; 9"
+        ],
+        "answer": 3,
+        "explanation": "I. Adding and subtracting give x=15, y=5, so xy=75. Answer: 75. II. Adding gives 2x=18. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 3x+2y=40 and x=2y, find x.\nII. Solve x+y=18 and x=2y. Find y.",
+        "options": [
+          "10 ; 5",
+          "11 ; 7",
+          "10 ; 6",
+          "11 ; 6"
+        ],
+        "answer": 2,
+        "explanation": "I. Substitution gives 8y=40, so x=10. Answer: 10. II. Substitute x=2y to obtain 3y=18. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x+y=15 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹30; one pen and a pencil cost ₹18. What is the pen price in rupees?",
+        "options": [
+          "29 ; 11",
+          "30 ; 12",
+          "29 ; 12",
+          "30 ; 14"
+        ],
+        "answer": 1,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 30. II. Subtract the second purchase equation from the first. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 25 and differ by 5. Find the smaller number.\nII. For x+2y=30 and x−y=12, find y.",
+        "options": [
+          "10 ; 6",
+          "12 ; 6",
+          "10 ; 7",
+          "12 ; 8"
+        ],
+        "answer": 0,
+        "explanation": "I. The smaller number is (sum−difference)/2=(25−5)/2. Answer: 10. II. Subtracting gives 3y=18. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=15 and x−y=3. Find x.\nII. For 2x+y=42 and x+y=24, find x.",
+        "options": [
+          "10 ; 18",
+          "9 ; 17",
+          "10 ; 19",
+          "9 ; 18"
+        ],
+        "answer": 3,
+        "explanation": "I. Adding gives 2x=18. Answer: 9. II. Subtract the second equation from the first. Answer: 18.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=18 and x=2y. Find y.\nII. For x+y=24 and x−y=12, find the product xy.",
+        "options": [
+          "6 ; 110",
+          "5 ; 107",
+          "6 ; 108",
+          "5 ; 108"
+        ],
+        "answer": 2,
+        "explanation": "I. Substitute x=2y to obtain 3y=18. Answer: 6. II. Adding and subtracting give x=18, y=6, so xy=108. Answer: 108.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹30; one pen and a pencil cost ₹18. What is the pen price in rupees?\nII. For 3x+2y=48 and x=2y, find x.",
+        "options": [
+          "14 ; 14",
+          "12 ; 12",
+          "14 ; 12",
+          "12 ; 13"
+        ],
+        "answer": 1,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 12. II. Substitution gives 8y=48, so x=12. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+2y=30 and x−y=12, find y.\nII. If x+y=18 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "6 ; 36",
+          "7 ; 36",
+          "6 ; 35",
+          "7 ; 37"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtracting gives 3y=18. Answer: 6. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 36.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 2x+y=42 and x+y=24, find x.\nII. Two positive numbers sum to 30 and differ by 6. Find the smaller number.",
+        "options": [
+          "17 ; 12",
+          "18 ; 14",
+          "17 ; 11",
+          "18 ; 12"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtract the second equation from the first. Answer: 18. II. The smaller number is (sum−difference)/2=(30−6)/2. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+y=24 and x−y=12, find the product xy.\nII. Solve x+y=17 and x−y=3. Find x.",
+        "options": [
+          "108 ; 11",
+          "110 ; 12",
+          "108 ; 10",
+          "110 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding and subtracting give x=18, y=6, so xy=108. Answer: 108. II. Adding gives 2x=20. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 3x+2y=48 and x=2y, find x.\nII. Solve x+y=21 and x=2y. Find y.",
+        "options": [
+          "13 ; 8",
+          "12 ; 7",
+          "13 ; 7",
+          "12 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. Substitution gives 8y=48, so x=12. Answer: 12. II. Substitute x=2y to obtain 3y=21. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x+y=18 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹35; one pen and a pencil cost ₹21. What is the pen price in rupees?",
+        "options": [
+          "36 ; 14",
+          "35 ; 14",
+          "36 ; 16",
+          "35 ; 13"
+        ],
+        "answer": 0,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 36. II. Subtract the second purchase equation from the first. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 30 and differ by 6. Find the smaller number.\nII. For x+2y=35 and x−y=14, find y.",
+        "options": [
+          "14 ; 7",
+          "12 ; 8",
+          "14 ; 9",
+          "12 ; 7"
+        ],
+        "answer": 3,
+        "explanation": "I. The smaller number is (sum−difference)/2=(30−6)/2. Answer: 12. II. Subtracting gives 3y=21. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=17 and x−y=3. Find x.\nII. For 2x+y=49 and x+y=28, find x.",
+        "options": [
+          "10 ; 20",
+          "11 ; 22",
+          "10 ; 21",
+          "11 ; 21"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding gives 2x=20. Answer: 10. II. Subtract the second equation from the first. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Solve x+y=21 and x=2y. Find y.\nII. For x+y=28 and x−y=14, find the product xy.",
+        "options": [
+          "6 ; 146",
+          "7 ; 147",
+          "6 ; 147",
+          "7 ; 149"
+        ],
+        "answer": 1,
+        "explanation": "I. Substitute x=2y to obtain 3y=21. Answer: 7. II. Adding and subtracting give x=21, y=7, so xy=147. Answer: 147.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹35; one pen and a pencil cost ₹21. What is the pen price in rupees?\nII. For 3x+2y=56 and x=2y, find x.",
+        "options": [
+          "14 ; 14",
+          "16 ; 14",
+          "14 ; 15",
+          "16 ; 16"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 14. II. Substitution gives 8y=56, so x=14. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+2y=35 and x−y=14, find y.\nII. If x+y=21 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "8 ; 42",
+          "7 ; 41",
+          "8 ; 43",
+          "7 ; 42"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtracting gives 3y=21. Answer: 7. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 42.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 2x+y=49 and x+y=28, find x.\nII. Two positive numbers sum to 35 and differ by 7. Find the smaller number.",
+        "options": [
+          "21 ; 16",
+          "20 ; 13",
+          "21 ; 14",
+          "20 ; 14"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtract the second equation from the first. Answer: 21. II. The smaller number is (sum−difference)/2=(35−7)/2. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x+y=28 and x−y=14, find the product xy.\nII. Solve x+y=13 and x−y=3. Find x.",
+        "options": [
+          "149 ; 10",
+          "147 ; 8",
+          "149 ; 8",
+          "147 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. Adding and subtracting give x=21, y=7, so xy=147. Answer: 147. II. Adding gives 2x=16. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For 3x+2y=56 and x=2y, find x.\nII. Solve x+y=15 and x=2y. Find y.",
+        "options": [
+          "14 ; 5",
+          "15 ; 5",
+          "14 ; 4",
+          "15 ; 6"
+        ],
+        "answer": 0,
+        "explanation": "I. Substitution gives 8y=56, so x=14. Answer: 14. II. Substitute x=2y to obtain 3y=15. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. If x+y=21 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹25; one pen and a pencil cost ₹15. What is the pen price in rupees?",
+        "options": [
+          "41 ; 10",
+          "42 ; 12",
+          "41 ; 9",
+          "42 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 42. II. Subtract the second purchase equation from the first. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 35 and differ by 7. Find the smaller number.\nII. For x+2y=25 and x−y=10, find y.",
+        "options": [
+          "14 ; 6",
+          "16 ; 7",
+          "14 ; 5",
+          "16 ; 5"
+        ],
+        "answer": 2,
+        "explanation": "I. The smaller number is (sum−difference)/2=(35−7)/2. Answer: 14. II. Subtracting gives 3y=15. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH04-H": {
+    "id": "SA-DPP-27-MAT-CH04-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "level": "H",
+    "title": "Pair of Linear Equations in Two Variables – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-01",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 77,
+      "to": 104
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q01",
+        "question": "For what k does kx+2y=5 and 3x+6y=15 have infinitely many solutions?",
+        "options": [
+          "3",
+          "5",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "All coefficient and constant ratios must be equal: k/3=2/6=5/15.",
+        "difficulty": "Hard",
+        "topic": "For what k does kx+2y=5 and 3x+6y=15 have infinitely many solutions?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q02",
+        "question": "A two-digit number has digit sum 9 and is 27 greater than its reverse. What is it?",
+        "options": [
+          "54",
+          "63",
+          "36",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "If digits are x,y, then x+y=9 and 9(x−y)=27, giving x=6,y=3.",
+        "difficulty": "Hard",
+        "topic": "A two-digit number has digit sum 9 and is 27 greater than its reverse. What is it?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q03",
+        "question": "For what k does 2x+3y=7 and 4x+6y=k have no solution?",
+        "options": [
+          "Any k other than 14",
+          "Only k=14",
+          "Only k=7",
+          "Every real k"
+        ],
+        "answer": 0,
+        "explanation": "The left side doubles, so consistency requires k=14.",
+        "difficulty": "Hard",
+        "topic": "For what k does 2x+3y=7 and 4x+6y=k have no solution?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=19 and x−y=3. Find x.\nII. For 2x+y=56 and x+y=32, find x.\nIII. If x+y=24 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "12 ; 24 ; 48",
+          "11 ; 23 ; 48",
+          "11 ; 24 ; 50",
+          "11 ; 24 ; 48"
+        ],
+        "answer": 3,
+        "explanation": "I. Adding gives 2x=22. Answer: 11. II. Subtract the second equation from the first. Answer: 24. III. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 48.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=24 and x=2y. Find y.\nII. For x+y=32 and x−y=16, find the product xy.\nIII. Two positive numbers sum to 40 and differ by 8. Find the smaller number.",
+        "options": [
+          "8 ; 194 ; 16",
+          "8 ; 192 ; 17",
+          "8 ; 192 ; 16",
+          "7 ; 192 ; 16"
+        ],
+        "answer": 2,
+        "explanation": "I. Substitute x=2y to obtain 3y=24. Answer: 8. II. Adding and subtracting give x=24, y=8, so xy=192. Answer: 192. III. The smaller number is (sum−difference)/2=(40−8)/2. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹40; one pen and a pencil cost ₹24. What is the pen price in rupees?\nII. For 3x+2y=64 and x=2y, find x.\nIII. Solve x+y=21 and x−y=3. Find x.",
+        "options": [
+          "16 ; 16 ; 11",
+          "16 ; 16 ; 12",
+          "18 ; 16 ; 12",
+          "16 ; 17 ; 12"
+        ],
+        "answer": 1,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 16. II. Substitution gives 8y=64, so x=16. Answer: 16. III. Adding gives 2x=24. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+2y=40 and x−y=16, find y.\nII. If x+y=24 and 2x+2y=k describe the same line, find k.\nIII. Solve x+y=27 and x=2y. Find y.",
+        "options": [
+          "8 ; 48 ; 9",
+          "9 ; 48 ; 9",
+          "8 ; 47 ; 9",
+          "8 ; 48 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtracting gives 3y=24. Answer: 8. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 48. III. Substitute x=2y to obtain 3y=27. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 2x+y=56 and x+y=32, find x.\nII. Two positive numbers sum to 40 and differ by 8. Find the smaller number.\nIII. Two pens and a pencil cost ₹45; one pen and a pencil cost ₹27. What is the pen price in rupees?",
+        "options": [
+          "23 ; 16 ; 18",
+          "24 ; 18 ; 18",
+          "24 ; 16 ; 19",
+          "24 ; 16 ; 18"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtract the second equation from the first. Answer: 24. II. The smaller number is (sum−difference)/2=(40−8)/2. Answer: 16. III. Subtract the second purchase equation from the first. Answer: 18.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+y=32 and x−y=16, find the product xy.\nII. Solve x+y=21 and x−y=3. Find x.\nIII. For x+2y=45 and x−y=18, find y.",
+        "options": [
+          "192 ; 13 ; 9",
+          "192 ; 12 ; 8",
+          "192 ; 12 ; 9",
+          "194 ; 12 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding and subtracting give x=24, y=8, so xy=192. Answer: 192. II. Adding gives 2x=24. Answer: 12. III. Subtracting gives 3y=27. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 3x+2y=64 and x=2y, find x.\nII. Solve x+y=27 and x=2y. Find y.\nIII. For 2x+y=63 and x+y=36, find x.",
+        "options": [
+          "16 ; 9 ; 29",
+          "16 ; 9 ; 27",
+          "17 ; 9 ; 27",
+          "16 ; 8 ; 27"
+        ],
+        "answer": 1,
+        "explanation": "I. Substitution gives 8y=64, so x=16. Answer: 16. II. Substitute x=2y to obtain 3y=27. Answer: 9. III. Subtract the second equation from the first. Answer: 27.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x+y=24 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹45; one pen and a pencil cost ₹27. What is the pen price in rupees?\nIII. For x+y=36 and x−y=18, find the product xy.",
+        "options": [
+          "48 ; 18 ; 243",
+          "47 ; 18 ; 243",
+          "48 ; 20 ; 243",
+          "48 ; 18 ; 244"
+        ],
+        "answer": 0,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 48. II. Subtract the second purchase equation from the first. Answer: 18. III. Adding and subtracting give x=27, y=9, so xy=243. Answer: 243.",
+        "difficulty": "Hard",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 40 and differ by 8. Find the smaller number.\nII. For x+2y=45 and x−y=18, find y.\nIII. For 3x+2y=72 and x=2y, find x.",
+        "options": [
+          "18 ; 9 ; 18",
+          "16 ; 10 ; 18",
+          "16 ; 9 ; 17",
+          "16 ; 9 ; 18"
+        ],
+        "answer": 3,
+        "explanation": "I. The smaller number is (sum−difference)/2=(40−8)/2. Answer: 16. II. Subtracting gives 3y=27. Answer: 9. III. Substitution gives 8y=72, so x=18. Answer: 18.",
+        "difficulty": "Hard",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=21 and x−y=3. Find x.\nII. For 2x+y=63 and x+y=36, find x.\nIII. If x+y=27 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "12 ; 26 ; 54",
+          "12 ; 27 ; 56",
+          "12 ; 27 ; 54",
+          "13 ; 27 ; 54"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding gives 2x=24. Answer: 12. II. Subtract the second equation from the first. Answer: 27. III. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 54.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=27 and x=2y. Find y.\nII. For x+y=36 and x−y=18, find the product xy.\nIII. Two positive numbers sum to 45 and differ by 9. Find the smaller number.",
+        "options": [
+          "9 ; 243 ; 19",
+          "9 ; 243 ; 18",
+          "8 ; 243 ; 18",
+          "9 ; 245 ; 18"
+        ],
+        "answer": 1,
+        "explanation": "I. Substitute x=2y to obtain 3y=27. Answer: 9. II. Adding and subtracting give x=27, y=9, so xy=243. Answer: 243. III. The smaller number is (sum−difference)/2=(45−9)/2. Answer: 18.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹45; one pen and a pencil cost ₹27. What is the pen price in rupees?\nII. For 3x+2y=72 and x=2y, find x.\nIII. Solve x+y=23 and x−y=3. Find x.",
+        "options": [
+          "18 ; 18 ; 13",
+          "20 ; 18 ; 13",
+          "18 ; 19 ; 13",
+          "18 ; 18 ; 12"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 18. II. Substitution gives 8y=72, so x=18. Answer: 18. III. Adding gives 2x=26. Answer: 13.",
+        "difficulty": "Hard",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+2y=45 and x−y=18, find y.\nII. If x+y=27 and 2x+2y=k describe the same line, find k.\nIII. Solve x+y=30 and x=2y. Find y.",
+        "options": [
+          "10 ; 54 ; 10",
+          "9 ; 53 ; 10",
+          "9 ; 54 ; 12",
+          "9 ; 54 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtracting gives 3y=27. Answer: 9. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 54. III. Substitute x=2y to obtain 3y=30. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 2x+y=63 and x+y=36, find x.\nII. Two positive numbers sum to 45 and differ by 9. Find the smaller number.\nIII. Two pens and a pencil cost ₹50; one pen and a pencil cost ₹30. What is the pen price in rupees?",
+        "options": [
+          "27 ; 20 ; 20",
+          "27 ; 18 ; 21",
+          "27 ; 18 ; 20",
+          "26 ; 18 ; 20"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtract the second equation from the first. Answer: 27. II. The smaller number is (sum−difference)/2=(45−9)/2. Answer: 18. III. Subtract the second purchase equation from the first. Answer: 20.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+y=36 and x−y=18, find the product xy.\nII. Solve x+y=23 and x−y=3. Find x.\nIII. For x+2y=50 and x−y=20, find y.",
+        "options": [
+          "243 ; 13 ; 9",
+          "243 ; 13 ; 10",
+          "245 ; 13 ; 10",
+          "243 ; 14 ; 10"
+        ],
+        "answer": 1,
+        "explanation": "I. Adding and subtracting give x=27, y=9, so xy=243. Answer: 243. II. Adding gives 2x=26. Answer: 13. III. Subtracting gives 3y=30. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 3x+2y=72 and x=2y, find x.\nII. Solve x+y=30 and x=2y. Find y.\nIII. For 2x+y=70 and x+y=40, find x.",
+        "options": [
+          "18 ; 10 ; 30",
+          "19 ; 10 ; 30",
+          "18 ; 9 ; 30",
+          "18 ; 10 ; 32"
+        ],
+        "answer": 0,
+        "explanation": "I. Substitution gives 8y=72, so x=18. Answer: 18. II. Substitute x=2y to obtain 3y=30. Answer: 10. III. Subtract the second equation from the first. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x+y=27 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹50; one pen and a pencil cost ₹30. What is the pen price in rupees?\nIII. For x+y=40 and x−y=20, find the product xy.",
+        "options": [
+          "53 ; 20 ; 300",
+          "54 ; 22 ; 300",
+          "54 ; 20 ; 301",
+          "54 ; 20 ; 300"
+        ],
+        "answer": 3,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 54. II. Subtract the second purchase equation from the first. Answer: 20. III. Adding and subtracting give x=30, y=10, so xy=300. Answer: 300.",
+        "difficulty": "Hard",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 45 and differ by 9. Find the smaller number.\nII. For x+2y=50 and x−y=20, find y.\nIII. For 3x+2y=80 and x=2y, find x.",
+        "options": [
+          "18 ; 11 ; 20",
+          "18 ; 10 ; 19",
+          "18 ; 10 ; 20",
+          "20 ; 10 ; 20"
+        ],
+        "answer": 2,
+        "explanation": "I. The smaller number is (sum−difference)/2=(45−9)/2. Answer: 18. II. Subtracting gives 3y=30. Answer: 10. III. Substitution gives 8y=80, so x=20. Answer: 20.",
+        "difficulty": "Hard",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=23 and x−y=3. Find x.\nII. For 2x+y=70 and x+y=40, find x.\nIII. If x+y=30 and 2x+2y=k describe the same line, find k.",
+        "options": [
+          "13 ; 30 ; 62",
+          "13 ; 30 ; 60",
+          "14 ; 30 ; 60",
+          "13 ; 29 ; 60"
+        ],
+        "answer": 1,
+        "explanation": "I. Adding gives 2x=26. Answer: 13. II. Subtract the second equation from the first. Answer: 30. III. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 60.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Solve x+y=30 and x=2y. Find y.\nII. For x+y=40 and x−y=20, find the product xy.\nIII. Two positive numbers sum to 50 and differ by 10. Find the smaller number.",
+        "options": [
+          "10 ; 300 ; 20",
+          "9 ; 300 ; 20",
+          "10 ; 302 ; 20",
+          "10 ; 300 ; 21"
+        ],
+        "answer": 0,
+        "explanation": "I. Substitute x=2y to obtain 3y=30. Answer: 10. II. Adding and subtracting give x=30, y=10, so xy=300. Answer: 300. III. The smaller number is (sum−difference)/2=(50−10)/2. Answer: 20.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two pens and a pencil cost ₹50; one pen and a pencil cost ₹30. What is the pen price in rupees?\nII. For 3x+2y=80 and x=2y, find x.\nIII. Solve x+y=19 and x−y=3. Find x.",
+        "options": [
+          "22 ; 20 ; 11",
+          "20 ; 21 ; 11",
+          "20 ; 20 ; 10",
+          "20 ; 20 ; 11"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtract the second purchase equation from the first. Answer: 20. II. Substitution gives 8y=80, so x=20. Answer: 20. III. Adding gives 2x=22. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Price problems",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+2y=50 and x−y=20, find y.\nII. If x+y=30 and 2x+2y=k describe the same line, find k.\nIII. Solve x+y=24 and x=2y. Find y.",
+        "options": [
+          "10 ; 59 ; 8",
+          "10 ; 60 ; 10",
+          "10 ; 60 ; 8",
+          "11 ; 60 ; 8"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtracting gives 3y=30. Answer: 10. II. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 60. III. Substitute x=2y to obtain 3y=24. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 2x+y=70 and x+y=40, find x.\nII. Two positive numbers sum to 50 and differ by 10. Find the smaller number.\nIII. Two pens and a pencil cost ₹40; one pen and a pencil cost ₹24. What is the pen price in rupees?",
+        "options": [
+          "30 ; 20 ; 17",
+          "30 ; 20 ; 16",
+          "29 ; 20 ; 16",
+          "30 ; 22 ; 16"
+        ],
+        "answer": 1,
+        "explanation": "I. Subtract the second equation from the first. Answer: 30. II. The smaller number is (sum−difference)/2=(50−10)/2. Answer: 20. III. Subtract the second purchase equation from the first. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Elimination",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x+y=40 and x−y=20, find the product xy.\nII. Solve x+y=19 and x−y=3. Find x.\nIII. For x+2y=40 and x−y=16, find y.",
+        "options": [
+          "300 ; 11 ; 8",
+          "302 ; 11 ; 8",
+          "300 ; 12 ; 8",
+          "300 ; 11 ; 7"
+        ],
+        "answer": 0,
+        "explanation": "I. Adding and subtracting give x=30, y=10, so xy=300. Answer: 300. II. Adding gives 2x=22. Answer: 11. III. Subtracting gives 3y=24. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Combining solutions",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For 3x+2y=80 and x=2y, find x.\nII. Solve x+y=24 and x=2y. Find y.\nIII. For 2x+y=56 and x+y=32, find x.",
+        "options": [
+          "21 ; 8 ; 24",
+          "20 ; 7 ; 24",
+          "20 ; 8 ; 26",
+          "20 ; 8 ; 24"
+        ],
+        "answer": 3,
+        "explanation": "I. Substitution gives 8y=80, so x=20. Answer: 20. II. Substitute x=2y to obtain 3y=24. Answer: 8. III. Subtract the second equation from the first. Answer: 24.",
+        "difficulty": "Hard",
+        "topic": "Substitution",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. If x+y=30 and 2x+2y=k describe the same line, find k.\nII. Two pens and a pencil cost ₹40; one pen and a pencil cost ₹24. What is the pen price in rupees?\nIII. For x+y=32 and x−y=16, find the product xy.",
+        "options": [
+          "60 ; 18 ; 192",
+          "60 ; 16 ; 193",
+          "60 ; 16 ; 192",
+          "59 ; 16 ; 192"
+        ],
+        "answer": 2,
+        "explanation": "I. The second left-hand side is twice the first, so its right-hand side must also double. Answer: 60. II. Subtract the second purchase equation from the first. Answer: 16. III. Adding and subtracting give x=24, y=8, so xy=192. Answer: 192.",
+        "difficulty": "Hard",
+        "topic": "Coincident lines",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH04-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive numbers sum to 50 and differ by 10. Find the smaller number.\nII. For x+2y=40 and x−y=16, find y.\nIII. For 3x+2y=64 and x=2y, find x.",
+        "options": [
+          "20 ; 8 ; 15",
+          "20 ; 8 ; 16",
+          "22 ; 8 ; 16",
+          "20 ; 9 ; 16"
+        ],
+        "answer": 1,
+        "explanation": "I. The smaller number is (sum−difference)/2=(50−10)/2. Answer: 20. II. Subtracting gives 3y=24. Answer: 8. III. Substitution gives 8y=64, so x=16. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Sum-difference problems",
+        "sourceChapter": 4
+      }
+    ]
+  }
+}

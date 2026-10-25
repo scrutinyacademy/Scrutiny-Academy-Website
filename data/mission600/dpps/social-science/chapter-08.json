@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH08-E": {
+    "id": "SA-DPP-27-SOC-CH08-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch8",
+    "chapterNumber": 8,
+    "chapter": "Rampur: A Village Economy",
+    "level": "E",
+    "title": "Rampur: A Village Economy – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-08.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-03",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 103,
+      "to": 117
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q01",
+        "question": "Which is a fixed capital input in farming?",
+        "options": [
+          "A tractor",
+          "Seeds used in one crop",
+          "Daily wages",
+          "Fertiliser used up in a season"
+        ],
+        "answer": 0,
+        "explanation": "Fixed capital can be used repeatedly over production cycles.",
+        "difficulty": "Easy",
+        "topic": "Which is a fixed capital input in farming?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q02",
+        "question": "Which is working capital?",
+        "options": [
+          "A long-lasting farm building only",
+          "Land itself only",
+          "A permanent irrigation canal only",
+          "Money for seeds and wages"
+        ],
+        "answer": 3,
+        "explanation": "Working capital finances inputs consumed or paid during production.",
+        "difficulty": "Easy",
+        "topic": "Which is working capital?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q03",
+        "question": "Growing more than one crop on the same land during a year is called what?",
+        "options": [
+          "Deforestation",
+          "Mining",
+          "Multiple cropping",
+          "Monoculture by definition"
+        ],
+        "answer": 2,
+        "explanation": "Multiple cropping raises the number of crop cycles on a plot.",
+        "difficulty": "Easy",
+        "topic": "Growing more than one crop on the same land during a year is called what?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q04",
+        "question": "Land: which option correctly identifies the village-economy concept?",
+        "options": [
+          "Growing more than one crop on the same land in a year",
+          "A natural productive resource",
+          "A repeatedly usable production input",
+          "Funds or inputs used up during production"
+        ],
+        "answer": 1,
+        "explanation": "Land — village-economy concept: A natural productive resource.",
+        "difficulty": "Easy",
+        "topic": "Land · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q05",
+        "question": "Land: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Its physical area is limited",
+          "Includes seeds, fertiliser and payments such as wages",
+          "Raises the number of crop cycles on a plot",
+          "Reduces dependence on the timing of rain"
+        ],
+        "answer": 0,
+        "explanation": "Land — defining economic feature: Its physical area is limited.",
+        "difficulty": "Easy",
+        "topic": "Land · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q06",
+        "question": "Land: which option correctly identifies the representative implication?",
+        "options": [
+          "Every farm has identical soil and water",
+          "The physical area of land expands without limit",
+          "More production never needs inputs",
+          "More output may require improved methods rather than unlimited expansion"
+        ],
+        "answer": 3,
+        "explanation": "Land — representative implication: More output may require improved methods rather than unlimited expansion.",
+        "difficulty": "Easy",
+        "topic": "Land · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q07",
+        "question": "Fixed capital: which option correctly identifies the village-economy concept?",
+        "options": [
+          "Growing more than one crop on the same land in a year",
+          "Artificial supply of water to crops",
+          "A repeatedly usable production input",
+          "Funds or inputs used up during production"
+        ],
+        "answer": 2,
+        "explanation": "Fixed capital — village-economy concept: A repeatedly usable production input.",
+        "difficulty": "Easy",
+        "topic": "Fixed capital · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q08",
+        "question": "Fixed capital: which option correctly identifies the defining economic feature?",
+        "options": [
+          "May be hired and paid wages",
+          "Tools, machinery and buildings last across production cycles",
+          "Raises the number of crop cycles on a plot",
+          "Reduces dependence on the timing of rain"
+        ],
+        "answer": 1,
+        "explanation": "Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles.",
+        "difficulty": "Easy",
+        "topic": "Fixed capital · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q09",
+        "question": "Fixed capital: which option correctly identifies the representative implication?",
+        "options": [
+          "A tractor can be used for several crop seasons",
+          "Must be completely used up in one crop season",
+          "Means only daily wages",
+          "A tractor cannot be used again"
+        ],
+        "answer": 0,
+        "explanation": "Fixed capital — representative implication: A tractor can be used for several crop seasons.",
+        "difficulty": "Easy",
+        "topic": "Fixed capital · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q10",
+        "question": "Working capital: which option correctly identifies the village-economy concept?",
+        "options": [
+          "Growing more than one crop on the same land in a year",
+          "Artificial supply of water to crops",
+          "Work performed on agricultural land",
+          "Funds or inputs used up during production"
+        ],
+        "answer": 3,
+        "explanation": "Working capital — village-economy concept: Funds or inputs used up during production.",
+        "difficulty": "Easy",
+        "topic": "Working capital · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q11",
+        "question": "Working capital: which option correctly identifies the defining economic feature?",
+        "options": [
+          "May be hired and paid wages",
+          "Often faces limits on assets and market power",
+          "Includes seeds, fertiliser and payments such as wages",
+          "Reduces dependence on the timing of rain"
+        ],
+        "answer": 2,
+        "explanation": "Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages.",
+        "difficulty": "Easy",
+        "topic": "Working capital · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q12",
+        "question": "Working capital: which option correctly identifies the representative implication?",
+        "options": [
+          "Always lasts unchanged for many production cycles",
+          "Costs may arise before harvest revenue is received",
+          "Excludes all spending on seeds",
+          "Is identical to the land's physical area"
+        ],
+        "answer": 1,
+        "explanation": "Working capital — representative implication: Costs may arise before harvest revenue is received.",
+        "difficulty": "Easy",
+        "topic": "Working capital · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q13",
+        "question": "Multiple cropping: which option correctly identifies the village-economy concept?",
+        "options": [
+          "Growing more than one crop on the same land in a year",
+          "Artificial supply of water to crops",
+          "Work performed on agricultural land",
+          "A cultivator with a relatively small operational holding"
+        ],
+        "answer": 0,
+        "explanation": "Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year.",
+        "difficulty": "Easy",
+        "topic": "Multiple cropping · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q14",
+        "question": "Multiple cropping: which option correctly identifies the defining economic feature?",
+        "options": [
+          "May be hired and paid wages",
+          "Often faces limits on assets and market power",
+          "Includes services, processing and small manufacturing",
+          "Raises the number of crop cycles on a plot"
+        ],
+        "answer": 3,
+        "explanation": "Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot.",
+        "difficulty": "Easy",
+        "topic": "Multiple cropping · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q15",
+        "question": "Multiple cropping: which option correctly identifies the representative implication?",
+        "options": [
+          "Means only one crop over the entire year",
+          "Never depends on water availability",
+          "Reliable water can help make extra cropping possible",
+          "Automatically removes every production risk"
+        ],
+        "answer": 2,
+        "explanation": "Multiple cropping — representative implication: Reliable water can help make extra cropping possible.",
+        "difficulty": "Easy",
+        "topic": "Multiple cropping · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q16",
+        "question": "Irrigation: which option correctly identifies the village-economy concept?",
+        "options": [
+          "A village livelihood outside crop cultivation",
+          "Artificial supply of water to crops",
+          "Work performed on agricultural land",
+          "A cultivator with a relatively small operational holding"
+        ],
+        "answer": 1,
+        "explanation": "Irrigation — village-economy concept: Artificial supply of water to crops.",
+        "difficulty": "Easy",
+        "topic": "Irrigation · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q17",
+        "question": "Irrigation: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Reduces dependence on the timing of rain",
+          "Often faces limits on assets and market power",
+          "Includes services, processing and small manufacturing",
+          "Interest raises the amount owed over time"
+        ],
+        "answer": 0,
+        "explanation": "Irrigation — defining economic feature: Reduces dependence on the timing of rain.",
+        "difficulty": "Easy",
+        "topic": "Irrigation · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q18",
+        "question": "Irrigation: which option correctly identifies the representative implication?",
+        "options": [
+          "Guarantees unlimited groundwater",
+          "Makes all crop water unnecessary",
+          "Cannot affect the cropping season",
+          "Can support cultivation beyond the rainy season"
+        ],
+        "answer": 3,
+        "explanation": "Irrigation — representative implication: Can support cultivation beyond the rainy season.",
+        "difficulty": "Easy",
+        "topic": "Irrigation · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q19",
+        "question": "Farm labour: which option correctly identifies the village-economy concept?",
+        "options": [
+          "A village livelihood outside crop cultivation",
+          "Credit carrying a heavy repayment burden",
+          "Work performed on agricultural land",
+          "A cultivator with a relatively small operational holding"
+        ],
+        "answer": 2,
+        "explanation": "Farm labour — village-economy concept: Work performed on agricultural land.",
+        "difficulty": "Easy",
+        "topic": "Farm labour · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q20",
+        "question": "Farm labour: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Its physical area is limited",
+          "May be hired and paid wages",
+          "Includes services, processing and small manufacturing",
+          "Interest raises the amount owed over time"
+        ],
+        "answer": 1,
+        "explanation": "Farm labour — defining economic feature: May be hired and paid wages.",
+        "difficulty": "Easy",
+        "topic": "Farm labour · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q21",
+        "question": "Farm labour: which option correctly identifies the representative implication?",
+        "options": [
+          "Employment demand can change across the crop cycle",
+          "All farm labourers own every field they work on",
+          "Farm wages can never vary",
+          "Demand for farm labour is identical every day"
+        ],
+        "answer": 0,
+        "explanation": "Farm labour — representative implication: Employment demand can change across the crop cycle.",
+        "difficulty": "Easy",
+        "topic": "Farm labour · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q22",
+        "question": "Small farmer: which option correctly identifies the village-economy concept?",
+        "options": [
+          "A village livelihood outside crop cultivation",
+          "Credit carrying a heavy repayment burden",
+          "A natural productive resource",
+          "A cultivator with a relatively small operational holding"
+        ],
+        "answer": 3,
+        "explanation": "Small farmer — village-economy concept: A cultivator with a relatively small operational holding.",
+        "difficulty": "Easy",
+        "topic": "Small farmer · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q23",
+        "question": "Small farmer: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Its physical area is limited",
+          "Tools, machinery and buildings last across production cycles",
+          "Often faces limits on assets and market power",
+          "Interest raises the amount owed over time"
+        ],
+        "answer": 2,
+        "explanation": "Small farmer — defining economic feature: Often faces limits on assets and market power.",
+        "difficulty": "Easy",
+        "topic": "Small farmer · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q24",
+        "question": "Small farmer: which option correctly identifies the representative implication?",
+        "options": [
+          "Never needs finance before harvest",
+          "May need credit for seasonal inputs",
+          "Necessarily owns the largest holding in the village",
+          "Always has unlimited capital and market power"
+        ],
+        "answer": 1,
+        "explanation": "Small farmer — representative implication: May need credit for seasonal inputs.",
+        "difficulty": "Easy",
+        "topic": "Small farmer · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q25",
+        "question": "Non-farm activity: which option correctly identifies the village-economy concept?",
+        "options": [
+          "A village livelihood outside crop cultivation",
+          "Credit carrying a heavy repayment burden",
+          "A natural productive resource",
+          "A repeatedly usable production input"
+        ],
+        "answer": 0,
+        "explanation": "Non-farm activity — village-economy concept: A village livelihood outside crop cultivation.",
+        "difficulty": "Easy",
+        "topic": "Non-farm activity · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q26",
+        "question": "Non-farm activity: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Its physical area is limited",
+          "Tools, machinery and buildings last across production cycles",
+          "Includes seeds, fertiliser and payments such as wages",
+          "Includes services, processing and small manufacturing"
+        ],
+        "answer": 3,
+        "explanation": "Non-farm activity — defining economic feature: Includes services, processing and small manufacturing.",
+        "difficulty": "Easy",
+        "topic": "Non-farm activity · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q27",
+        "question": "Non-farm activity: which option correctly identifies the representative implication?",
+        "options": [
+          "Cannot include services",
+          "Eliminates all need for local skills",
+          "Can diversify local employment and income",
+          "Means only cultivating crops on another field"
+        ],
+        "answer": 2,
+        "explanation": "Non-farm activity — representative implication: Can diversify local employment and income.",
+        "difficulty": "Easy",
+        "topic": "Non-farm activity · representative implication",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q28",
+        "question": "High-interest borrowing: which option correctly identifies the village-economy concept?",
+        "options": [
+          "Funds or inputs used up during production",
+          "Credit carrying a heavy repayment burden",
+          "A natural productive resource",
+          "A repeatedly usable production input"
+        ],
+        "answer": 1,
+        "explanation": "High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden.",
+        "difficulty": "Easy",
+        "topic": "High-interest borrowing · village-economy concept",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q29",
+        "question": "High-interest borrowing: which option correctly identifies the defining economic feature?",
+        "options": [
+          "Interest raises the amount owed over time",
+          "Tools, machinery and buildings last across production cycles",
+          "Includes seeds, fertiliser and payments such as wages",
+          "Raises the number of crop cycles on a plot"
+        ],
+        "answer": 0,
+        "explanation": "High-interest borrowing — defining economic feature: Interest raises the amount owed over time.",
+        "difficulty": "Easy",
+        "topic": "High-interest borrowing · defining economic feature",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-E-Q30",
+        "question": "High-interest borrowing: which option correctly identifies the representative implication?",
+        "options": [
+          "Repayment disappears after a poor harvest",
+          "All borrowing is cost-free",
+          "Interest always increases crop yields",
+          "Poor harvests can make repeated debt difficult to escape"
+        ],
+        "answer": 3,
+        "explanation": "High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape.",
+        "difficulty": "Easy",
+        "topic": "High-interest borrowing · representative implication",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH08-M": {
+    "id": "SA-DPP-27-SOC-CH08-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch8",
+    "chapterNumber": 8,
+    "chapter": "Rampur: A Village Economy",
+    "level": "M",
+    "title": "Rampur: A Village Economy – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-08.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-03",
+    "recommendedDate": "2026-11-07",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 103,
+      "to": 117
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q01",
+        "question": "How can irrigation support multiple cropping?",
+        "options": [
+          "It guarantees unlimited free labour",
+          "It replaces all seeds",
+          "It removes soil nutrients permanently",
+          "It supplies water beyond the rainy season"
+        ],
+        "answer": 3,
+        "explanation": "Reliable water makes additional seasonal cultivation possible.",
+        "difficulty": "Medium",
+        "topic": "How can irrigation support multiple cropping?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q02",
+        "question": "Why might a small farmer borrow before sowing?",
+        "options": [
+          "Borrowing is required for every landowner by law",
+          "Seeds can never be bought with savings",
+          "To purchase inputs before harvest income arrives",
+          "Harvest income always arrives before inputs are needed"
+        ],
+        "answer": 2,
+        "explanation": "The timing of costs and receipts can create a financing gap.",
+        "difficulty": "Medium",
+        "topic": "Why might a small farmer borrow before sowing?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q03",
+        "question": "Which activity diversifies a village economy beyond farming?",
+        "options": [
+          "Stopping all services",
+          "Dairy or small-scale manufacturing",
+          "Growing the same crop on another field only",
+          "Leaving every resource unused"
+        ],
+        "answer": 1,
+        "explanation": "Non-farm and allied activities can broaden incomes and employment.",
+        "difficulty": "Medium",
+        "topic": "Which activity diversifies a village economy beyond farming?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q04",
+        "question": "Which pair correctly matches Land with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "A natural productive resource → Its physical area is limited",
+          "A repeatedly usable production input → Its physical area is limited",
+          "A natural productive resource → Tools, machinery and buildings last across production cycles",
+          "Funds or inputs used up during production → Includes seeds, fertiliser and payments such as wages"
+        ],
+        "answer": 0,
+        "explanation": "Land — village-economy concept: A natural productive resource. Land — defining economic feature: Its physical area is limited. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Land",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q05",
+        "question": "Which pair correctly matches Land with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Includes seeds, fertiliser and payments such as wages → More output may require improved methods rather than unlimited expansion",
+          "Its physical area is limited → The physical area of land expands without limit",
+          "Raises the number of crop cycles on a plot → More production never needs inputs",
+          "Its physical area is limited → More output may require improved methods rather than unlimited expansion"
+        ],
+        "answer": 3,
+        "explanation": "Land — defining economic feature: Its physical area is limited. Land — representative implication: More output may require improved methods rather than unlimited expansion. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Land",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q06",
+        "question": "Which pair correctly matches Land with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "More output may require improved methods rather than unlimited expansion → A repeatedly usable production input",
+          "The physical area of land expands without limit → Funds or inputs used up during production",
+          "More output may require improved methods rather than unlimited expansion → A natural productive resource",
+          "Every farm has identical soil and water → A natural productive resource"
+        ],
+        "answer": 2,
+        "explanation": "Land — representative implication: More output may require improved methods rather than unlimited expansion. Land — village-economy concept: A natural productive resource. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Land",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q07",
+        "question": "Which pair correctly matches Fixed capital with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Growing more than one crop on the same land in a year → Raises the number of crop cycles on a plot",
+          "A repeatedly usable production input → Tools, machinery and buildings last across production cycles",
+          "Funds or inputs used up during production → Tools, machinery and buildings last across production cycles",
+          "A repeatedly usable production input → Includes seeds, fertiliser and payments such as wages"
+        ],
+        "answer": 1,
+        "explanation": "Fixed capital — village-economy concept: A repeatedly usable production input. Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fixed capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q08",
+        "question": "Which pair correctly matches Fixed capital with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Tools, machinery and buildings last across production cycles → A tractor can be used for several crop seasons",
+          "Raises the number of crop cycles on a plot → A tractor can be used for several crop seasons",
+          "Tools, machinery and buildings last across production cycles → Means only daily wages",
+          "Reduces dependence on the timing of rain → A tractor cannot be used again"
+        ],
+        "answer": 0,
+        "explanation": "Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles. Fixed capital — representative implication: A tractor can be used for several crop seasons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fixed capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q09",
+        "question": "Which pair correctly matches Fixed capital with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Must be completely used up in one crop season → A repeatedly usable production input",
+          "A tractor can be used for several crop seasons → Funds or inputs used up during production",
+          "Means only daily wages → Growing more than one crop on the same land in a year",
+          "A tractor can be used for several crop seasons → A repeatedly usable production input"
+        ],
+        "answer": 3,
+        "explanation": "Fixed capital — representative implication: A tractor can be used for several crop seasons. Fixed capital — village-economy concept: A repeatedly usable production input. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fixed capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q10",
+        "question": "Which pair correctly matches Working capital with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Funds or inputs used up during production → Raises the number of crop cycles on a plot",
+          "Artificial supply of water to crops → Reduces dependence on the timing of rain",
+          "Funds or inputs used up during production → Includes seeds, fertiliser and payments such as wages",
+          "Growing more than one crop on the same land in a year → Includes seeds, fertiliser and payments such as wages"
+        ],
+        "answer": 2,
+        "explanation": "Working capital — village-economy concept: Funds or inputs used up during production. Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Working capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q11",
+        "question": "Which pair correctly matches Working capital with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "May be hired and paid wages → Always lasts unchanged for many production cycles",
+          "Includes seeds, fertiliser and payments such as wages → Costs may arise before harvest revenue is received",
+          "Reduces dependence on the timing of rain → Costs may arise before harvest revenue is received",
+          "Includes seeds, fertiliser and payments such as wages → Is identical to the land's physical area"
+        ],
+        "answer": 1,
+        "explanation": "Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages. Working capital — representative implication: Costs may arise before harvest revenue is received. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Working capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q12",
+        "question": "Which pair correctly matches Working capital with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Costs may arise before harvest revenue is received → Funds or inputs used up during production",
+          "Excludes all spending on seeds → Funds or inputs used up during production",
+          "Costs may arise before harvest revenue is received → Growing more than one crop on the same land in a year",
+          "Is identical to the land's physical area → Artificial supply of water to crops"
+        ],
+        "answer": 0,
+        "explanation": "Working capital — representative implication: Costs may arise before harvest revenue is received. Working capital — village-economy concept: Funds or inputs used up during production. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Working capital",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q13",
+        "question": "Which pair correctly matches Multiple cropping with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Artificial supply of water to crops → Raises the number of crop cycles on a plot",
+          "Growing more than one crop on the same land in a year → Reduces dependence on the timing of rain",
+          "Work performed on agricultural land → May be hired and paid wages",
+          "Growing more than one crop on the same land in a year → Raises the number of crop cycles on a plot"
+        ],
+        "answer": 3,
+        "explanation": "Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year. Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multiple cropping",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q14",
+        "question": "Which pair correctly matches Multiple cropping with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Raises the number of crop cycles on a plot → Means only one crop over the entire year",
+          "Often faces limits on assets and market power → Never depends on water availability",
+          "Raises the number of crop cycles on a plot → Reliable water can help make extra cropping possible",
+          "May be hired and paid wages → Reliable water can help make extra cropping possible"
+        ],
+        "answer": 2,
+        "explanation": "Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot. Multiple cropping — representative implication: Reliable water can help make extra cropping possible. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multiple cropping",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q15",
+        "question": "Which pair correctly matches Multiple cropping with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Means only one crop over the entire year → Work performed on agricultural land",
+          "Reliable water can help make extra cropping possible → Growing more than one crop on the same land in a year",
+          "Automatically removes every production risk → Growing more than one crop on the same land in a year",
+          "Reliable water can help make extra cropping possible → Artificial supply of water to crops"
+        ],
+        "answer": 1,
+        "explanation": "Multiple cropping — representative implication: Reliable water can help make extra cropping possible. Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Multiple cropping",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q16",
+        "question": "Which pair correctly matches Irrigation with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Artificial supply of water to crops → Reduces dependence on the timing of rain",
+          "Work performed on agricultural land → Reduces dependence on the timing of rain",
+          "Artificial supply of water to crops → May be hired and paid wages",
+          "A cultivator with a relatively small operational holding → Often faces limits on assets and market power"
+        ],
+        "answer": 0,
+        "explanation": "Irrigation — village-economy concept: Artificial supply of water to crops. Irrigation — defining economic feature: Reduces dependence on the timing of rain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Irrigation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q17",
+        "question": "Which pair correctly matches Irrigation with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Often faces limits on assets and market power → Can support cultivation beyond the rainy season",
+          "Reduces dependence on the timing of rain → Makes all crop water unnecessary",
+          "Includes services, processing and small manufacturing → Cannot affect the cropping season",
+          "Reduces dependence on the timing of rain → Can support cultivation beyond the rainy season"
+        ],
+        "answer": 3,
+        "explanation": "Irrigation — defining economic feature: Reduces dependence on the timing of rain. Irrigation — representative implication: Can support cultivation beyond the rainy season. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Irrigation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q18",
+        "question": "Which pair correctly matches Irrigation with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Can support cultivation beyond the rainy season → Work performed on agricultural land",
+          "Makes all crop water unnecessary → A cultivator with a relatively small operational holding",
+          "Can support cultivation beyond the rainy season → Artificial supply of water to crops",
+          "Guarantees unlimited groundwater → Artificial supply of water to crops"
+        ],
+        "answer": 2,
+        "explanation": "Irrigation — representative implication: Can support cultivation beyond the rainy season. Irrigation — village-economy concept: Artificial supply of water to crops. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Irrigation",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q19",
+        "question": "Which pair correctly matches Farm labour with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "A village livelihood outside crop cultivation → Includes services, processing and small manufacturing",
+          "Work performed on agricultural land → May be hired and paid wages",
+          "A cultivator with a relatively small operational holding → May be hired and paid wages",
+          "Work performed on agricultural land → Often faces limits on assets and market power"
+        ],
+        "answer": 1,
+        "explanation": "Farm labour — village-economy concept: Work performed on agricultural land. Farm labour — defining economic feature: May be hired and paid wages. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Farm labour",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q20",
+        "question": "Which pair correctly matches Farm labour with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "May be hired and paid wages → Employment demand can change across the crop cycle",
+          "Includes services, processing and small manufacturing → Employment demand can change across the crop cycle",
+          "May be hired and paid wages → Farm wages can never vary",
+          "Interest raises the amount owed over time → Demand for farm labour is identical every day"
+        ],
+        "answer": 0,
+        "explanation": "Farm labour — defining economic feature: May be hired and paid wages. Farm labour — representative implication: Employment demand can change across the crop cycle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Farm labour",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q21",
+        "question": "Which pair correctly matches Farm labour with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "All farm labourers own every field they work on → Work performed on agricultural land",
+          "Employment demand can change across the crop cycle → A cultivator with a relatively small operational holding",
+          "Farm wages can never vary → A village livelihood outside crop cultivation",
+          "Employment demand can change across the crop cycle → Work performed on agricultural land"
+        ],
+        "answer": 3,
+        "explanation": "Farm labour — representative implication: Employment demand can change across the crop cycle. Farm labour — village-economy concept: Work performed on agricultural land. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Farm labour",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q22",
+        "question": "Which pair correctly matches Small farmer with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "A cultivator with a relatively small operational holding → Includes services, processing and small manufacturing",
+          "Credit carrying a heavy repayment burden → Interest raises the amount owed over time",
+          "A cultivator with a relatively small operational holding → Often faces limits on assets and market power",
+          "A village livelihood outside crop cultivation → Often faces limits on assets and market power"
+        ],
+        "answer": 2,
+        "explanation": "Small farmer — village-economy concept: A cultivator with a relatively small operational holding. Small farmer — defining economic feature: Often faces limits on assets and market power. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Small farmer",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q23",
+        "question": "Which pair correctly matches Small farmer with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Its physical area is limited → Never needs finance before harvest",
+          "Often faces limits on assets and market power → May need credit for seasonal inputs",
+          "Interest raises the amount owed over time → May need credit for seasonal inputs",
+          "Often faces limits on assets and market power → Always has unlimited capital and market power"
+        ],
+        "answer": 1,
+        "explanation": "Small farmer — defining economic feature: Often faces limits on assets and market power. Small farmer — representative implication: May need credit for seasonal inputs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Small farmer",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q24",
+        "question": "Which pair correctly matches Small farmer with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "May need credit for seasonal inputs → A cultivator with a relatively small operational holding",
+          "Necessarily owns the largest holding in the village → A cultivator with a relatively small operational holding",
+          "May need credit for seasonal inputs → A village livelihood outside crop cultivation",
+          "Always has unlimited capital and market power → Credit carrying a heavy repayment burden"
+        ],
+        "answer": 0,
+        "explanation": "Small farmer — representative implication: May need credit for seasonal inputs. Small farmer — village-economy concept: A cultivator with a relatively small operational holding. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Small farmer",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q25",
+        "question": "Which pair correctly matches Non-farm activity with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Credit carrying a heavy repayment burden → Includes services, processing and small manufacturing",
+          "A village livelihood outside crop cultivation → Interest raises the amount owed over time",
+          "A natural productive resource → Its physical area is limited",
+          "A village livelihood outside crop cultivation → Includes services, processing and small manufacturing"
+        ],
+        "answer": 3,
+        "explanation": "Non-farm activity — village-economy concept: A village livelihood outside crop cultivation. Non-farm activity — defining economic feature: Includes services, processing and small manufacturing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-farm activity",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q26",
+        "question": "Which pair correctly matches Non-farm activity with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Includes services, processing and small manufacturing → Cannot include services",
+          "Tools, machinery and buildings last across production cycles → Eliminates all need for local skills",
+          "Includes services, processing and small manufacturing → Can diversify local employment and income",
+          "Its physical area is limited → Can diversify local employment and income"
+        ],
+        "answer": 2,
+        "explanation": "Non-farm activity — defining economic feature: Includes services, processing and small manufacturing. Non-farm activity — representative implication: Can diversify local employment and income. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-farm activity",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q27",
+        "question": "Which pair correctly matches Non-farm activity with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Cannot include services → A natural productive resource",
+          "Can diversify local employment and income → A village livelihood outside crop cultivation",
+          "Means only cultivating crops on another field → A village livelihood outside crop cultivation",
+          "Can diversify local employment and income → Credit carrying a heavy repayment burden"
+        ],
+        "answer": 1,
+        "explanation": "Non-farm activity — representative implication: Can diversify local employment and income. Non-farm activity — village-economy concept: A village livelihood outside crop cultivation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-farm activity",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q28",
+        "question": "Which pair correctly matches High-interest borrowing with its village-economy concept and defining economic feature, in that order?",
+        "options": [
+          "Credit carrying a heavy repayment burden → Interest raises the amount owed over time",
+          "A natural productive resource → Interest raises the amount owed over time",
+          "Credit carrying a heavy repayment burden → Its physical area is limited",
+          "A repeatedly usable production input → Tools, machinery and buildings last across production cycles"
+        ],
+        "answer": 0,
+        "explanation": "High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden. High-interest borrowing — defining economic feature: Interest raises the amount owed over time. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "High-interest borrowing",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q29",
+        "question": "Which pair correctly matches High-interest borrowing with its defining economic feature and representative implication, in that order?",
+        "options": [
+          "Tools, machinery and buildings last across production cycles → Poor harvests can make repeated debt difficult to escape",
+          "Interest raises the amount owed over time → All borrowing is cost-free",
+          "Includes seeds, fertiliser and payments such as wages → Interest always increases crop yields",
+          "Interest raises the amount owed over time → Poor harvests can make repeated debt difficult to escape"
+        ],
+        "answer": 3,
+        "explanation": "High-interest borrowing — defining economic feature: Interest raises the amount owed over time. High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "High-interest borrowing",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-M-Q30",
+        "question": "Which pair correctly matches High-interest borrowing with its representative implication and village-economy concept, in that order?",
+        "options": [
+          "Poor harvests can make repeated debt difficult to escape → A natural productive resource",
+          "All borrowing is cost-free → A repeatedly usable production input",
+          "Poor harvests can make repeated debt difficult to escape → Credit carrying a heavy repayment burden",
+          "Repayment disappears after a poor harvest → Credit carrying a heavy repayment burden"
+        ],
+        "answer": 2,
+        "explanation": "High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape. High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "High-interest borrowing",
+        "sourceChapter": 8
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH08-H": {
+    "id": "SA-DPP-27-SOC-CH08-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch8",
+    "chapterNumber": 8,
+    "chapter": "Rampur: A Village Economy",
+    "level": "H",
+    "title": "Rampur: A Village Economy – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-08.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-03",
+    "recommendedDate": "2026-11-08",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 8,
+    "sourcePrintedPages": {
+      "from": 103,
+      "to": 117
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q01",
+        "question": "Why might high-interest loans trap a farmer in repeated debt?",
+        "options": [
+          "All harvests are risk-free",
+          "Debt disappears when prices fall",
+          "Repayment obligations can exceed the crop's net earnings",
+          "Interest always raises crop yields"
+        ],
+        "answer": 2,
+        "explanation": "Low or uncertain returns may leave farmers borrowing again to repay earlier debts.",
+        "difficulty": "Hard",
+        "topic": "Why might high-interest loans trap a farmer in repeated debt?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q02",
+        "question": "Why can increased production coexist with unequal village incomes?",
+        "options": [
+          "Land ownership never affects income",
+          "Access to land, capital and markets differs",
+          "Every farmer has equal resources",
+          "Output is always shared equally"
+        ],
+        "answer": 1,
+        "explanation": "Households capture different gains according to assets and bargaining positions.",
+        "difficulty": "Hard",
+        "topic": "Why can increased production coexist with unequal village incomes?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q03",
+        "question": "Why should farming sustainability consider both yield and soil health?",
+        "options": [
+          "Short-term output gains can damage future productive capacity",
+          "Soil can never lose fertility",
+          "Only this year's harvest matters",
+          "Every input improves soil without limit"
+        ],
+        "answer": 0,
+        "explanation": "Long-term livelihoods depend on maintaining land and water resources.",
+        "difficulty": "Hard",
+        "topic": "Why should farming sustainability consider both yield and soil health?",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Land — village-economy concept: A natural productive resource\nII. Irrigation — defining economic feature: Reduces dependence on the timing of rain\nIII. Non-farm activity — representative implication: Can diversify local employment and income",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Land — village-economy concept: A natural productive resource; Irrigation — defining economic feature: Reduces dependence on the timing of rain; Non-farm activity — representative implication: Can diversify local employment and income.",
+        "difficulty": "Hard",
+        "topic": "Land · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Land — defining economic feature: Includes seeds, fertiliser and payments such as wages\nII. Irrigation — representative implication: Cannot affect the cropping season\nIII. Non-farm activity — village-economy concept: Growing more than one crop on the same land in a year",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Land — defining economic feature: Its physical area is limited; Irrigation — representative implication: Can support cultivation beyond the rainy season; Non-farm activity — village-economy concept: A village livelihood outside crop cultivation.",
+        "difficulty": "Hard",
+        "topic": "Land · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Land — representative implication: More output may require improved methods rather than unlimited expansion\nII. Irrigation — village-economy concept: Growing more than one crop on the same land in a year\nIII. Non-farm activity — defining economic feature: Reduces dependence on the timing of rain",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Land — representative implication: More output may require improved methods rather than unlimited expansion; Irrigation — village-economy concept: Artificial supply of water to crops; Non-farm activity — defining economic feature: Includes services, processing and small manufacturing.",
+        "difficulty": "Hard",
+        "topic": "Land · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fixed capital — village-economy concept: Artificial supply of water to crops\nII. Farm labour — defining economic feature: May be hired and paid wages\nIII. High-interest borrowing — representative implication: All borrowing is cost-free",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Fixed capital — village-economy concept: A repeatedly usable production input; Farm labour — defining economic feature: May be hired and paid wages; High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape.",
+        "difficulty": "Hard",
+        "topic": "Fixed capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles\nII. Farm labour — representative implication: Employment demand can change across the crop cycle\nIII. High-interest borrowing — village-economy concept: A cultivator with a relatively small operational holding",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles; Farm labour — representative implication: Employment demand can change across the crop cycle; High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden.",
+        "difficulty": "Hard",
+        "topic": "Fixed capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fixed capital — representative implication: A tractor cannot be used again\nII. Farm labour — village-economy concept: A village livelihood outside crop cultivation\nIII. High-interest borrowing — defining economic feature: Interest raises the amount owed over time",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Fixed capital — representative implication: A tractor can be used for several crop seasons; Farm labour — village-economy concept: Work performed on agricultural land; High-interest borrowing — defining economic feature: Interest raises the amount owed over time.",
+        "difficulty": "Hard",
+        "topic": "Fixed capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Working capital — village-economy concept: Funds or inputs used up during production\nII. Small farmer — defining economic feature: Interest raises the amount owed over time\nIII. Land — representative implication: More output may require improved methods rather than unlimited expansion",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Working capital — village-economy concept: Funds or inputs used up during production; Small farmer — defining economic feature: Often faces limits on assets and market power; Land — representative implication: More output may require improved methods rather than unlimited expansion.",
+        "difficulty": "Hard",
+        "topic": "Working capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Working capital — defining economic feature: Interest raises the amount owed over time\nII. Small farmer — representative implication: May need credit for seasonal inputs\nIII. Land — village-economy concept: A natural productive resource",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages; Small farmer — representative implication: May need credit for seasonal inputs; Land — village-economy concept: A natural productive resource.",
+        "difficulty": "Hard",
+        "topic": "Working capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Working capital — representative implication: Costs may arise before harvest revenue is received\nII. Small farmer — village-economy concept: A cultivator with a relatively small operational holding\nIII. Land — defining economic feature: Its physical area is limited",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Working capital — representative implication: Costs may arise before harvest revenue is received; Small farmer — village-economy concept: A cultivator with a relatively small operational holding; Land — defining economic feature: Its physical area is limited.",
+        "difficulty": "Hard",
+        "topic": "Working capital · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multiple cropping — village-economy concept: A repeatedly usable production input\nII. Non-farm activity — defining economic feature: Includes seeds, fertiliser and payments such as wages\nIII. Fixed capital — representative implication: A tractor cannot be used again",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year; Non-farm activity — defining economic feature: Includes services, processing and small manufacturing; Fixed capital — representative implication: A tractor can be used for several crop seasons.",
+        "difficulty": "Hard",
+        "topic": "Multiple cropping · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot\nII. Non-farm activity — representative implication: Eliminates all need for local skills\nIII. Fixed capital — village-economy concept: Work performed on agricultural land",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot; Non-farm activity — representative implication: Can diversify local employment and income; Fixed capital — village-economy concept: A repeatedly usable production input.",
+        "difficulty": "Hard",
+        "topic": "Multiple cropping · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Multiple cropping — representative implication: Automatically removes every production risk\nII. Non-farm activity — village-economy concept: A village livelihood outside crop cultivation\nIII. Fixed capital — defining economic feature: Often faces limits on assets and market power",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Multiple cropping — representative implication: Reliable water can help make extra cropping possible; Non-farm activity — village-economy concept: A village livelihood outside crop cultivation; Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles.",
+        "difficulty": "Hard",
+        "topic": "Multiple cropping · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Irrigation — village-economy concept: Artificial supply of water to crops\nII. High-interest borrowing — defining economic feature: Interest raises the amount owed over time\nIII. Working capital — representative implication: Is identical to the land's physical area",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Irrigation — village-economy concept: Artificial supply of water to crops; High-interest borrowing — defining economic feature: Interest raises the amount owed over time; Working capital — representative implication: Costs may arise before harvest revenue is received.",
+        "difficulty": "Hard",
+        "topic": "Irrigation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Irrigation — defining economic feature: Often faces limits on assets and market power\nII. High-interest borrowing — representative implication: All borrowing is cost-free\nIII. Working capital — village-economy concept: Funds or inputs used up during production",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Irrigation — defining economic feature: Reduces dependence on the timing of rain; High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape; Working capital — village-economy concept: Funds or inputs used up during production.",
+        "difficulty": "Hard",
+        "topic": "Irrigation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Irrigation — representative implication: Can support cultivation beyond the rainy season\nII. High-interest borrowing — village-economy concept: A village livelihood outside crop cultivation\nIII. Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Irrigation — representative implication: Can support cultivation beyond the rainy season; High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden; Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages.",
+        "difficulty": "Hard",
+        "topic": "Irrigation · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Farm labour — village-economy concept: Credit carrying a heavy repayment burden\nII. Land — defining economic feature: Its physical area is limited\nIII. Multiple cropping — representative implication: Reliable water can help make extra cropping possible",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Farm labour — village-economy concept: Work performed on agricultural land; Land — defining economic feature: Its physical area is limited; Multiple cropping — representative implication: Reliable water can help make extra cropping possible.",
+        "difficulty": "Hard",
+        "topic": "Farm labour · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Farm labour — defining economic feature: May be hired and paid wages\nII. Land — representative implication: More output may require improved methods rather than unlimited expansion\nIII. Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Farm labour — defining economic feature: May be hired and paid wages; Land — representative implication: More output may require improved methods rather than unlimited expansion; Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year.",
+        "difficulty": "Hard",
+        "topic": "Farm labour · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Farm labour — representative implication: Farm wages can never vary\nII. Land — village-economy concept: Growing more than one crop on the same land in a year\nIII. Multiple cropping — defining economic feature: Reduces dependence on the timing of rain",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Farm labour — representative implication: Employment demand can change across the crop cycle; Land — village-economy concept: A natural productive resource; Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot.",
+        "difficulty": "Hard",
+        "topic": "Farm labour · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Small farmer — village-economy concept: A cultivator with a relatively small operational holding\nII. Fixed capital — defining economic feature: Reduces dependence on the timing of rain\nIII. Irrigation — representative implication: Cannot affect the cropping season",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Small farmer — village-economy concept: A cultivator with a relatively small operational holding; Fixed capital — defining economic feature: Tools, machinery and buildings last across production cycles; Irrigation — representative implication: Can support cultivation beyond the rainy season.",
+        "difficulty": "Hard",
+        "topic": "Small farmer · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Small farmer — defining economic feature: Raises the number of crop cycles on a plot\nII. Fixed capital — representative implication: A tractor can be used for several crop seasons\nIII. Irrigation — village-economy concept: A cultivator with a relatively small operational holding",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Small farmer — defining economic feature: Often faces limits on assets and market power; Fixed capital — representative implication: A tractor can be used for several crop seasons; Irrigation — village-economy concept: Artificial supply of water to crops.",
+        "difficulty": "Hard",
+        "topic": "Small farmer · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Small farmer — representative implication: May need credit for seasonal inputs\nII. Fixed capital — village-economy concept: A repeatedly usable production input\nIII. Irrigation — defining economic feature: Includes services, processing and small manufacturing",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Small farmer — representative implication: May need credit for seasonal inputs; Fixed capital — village-economy concept: A repeatedly usable production input; Irrigation — defining economic feature: Reduces dependence on the timing of rain.",
+        "difficulty": "Hard",
+        "topic": "Small farmer · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-farm activity — village-economy concept: Work performed on agricultural land\nII. Working capital — defining economic feature: Includes services, processing and small manufacturing\nIII. Farm labour — representative implication: Employment demand can change across the crop cycle",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Non-farm activity — village-economy concept: A village livelihood outside crop cultivation; Working capital — defining economic feature: Includes seeds, fertiliser and payments such as wages; Farm labour — representative implication: Employment demand can change across the crop cycle.",
+        "difficulty": "Hard",
+        "topic": "Non-farm activity · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-farm activity — defining economic feature: Includes services, processing and small manufacturing\nII. Working capital — representative implication: Is identical to the land's physical area\nIII. Farm labour — village-economy concept: Work performed on agricultural land",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Non-farm activity — defining economic feature: Includes services, processing and small manufacturing; Working capital — representative implication: Costs may arise before harvest revenue is received; Farm labour — village-economy concept: Work performed on agricultural land.",
+        "difficulty": "Hard",
+        "topic": "Non-farm activity · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-farm activity — representative implication: Eliminates all need for local skills\nII. Working capital — village-economy concept: Funds or inputs used up during production\nIII. Farm labour — defining economic feature: May be hired and paid wages",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Non-farm activity — representative implication: Can diversify local employment and income; Working capital — village-economy concept: Funds or inputs used up during production; Farm labour — defining economic feature: May be hired and paid wages.",
+        "difficulty": "Hard",
+        "topic": "Non-farm activity · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden\nII. Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot\nIII. Small farmer — representative implication: May need credit for seasonal inputs",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: High-interest borrowing — village-economy concept: Credit carrying a heavy repayment burden; Multiple cropping — defining economic feature: Raises the number of crop cycles on a plot; Small farmer — representative implication: May need credit for seasonal inputs.",
+        "difficulty": "Hard",
+        "topic": "High-interest borrowing · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. High-interest borrowing — defining economic feature: Tools, machinery and buildings last across production cycles\nII. Multiple cropping — representative implication: Automatically removes every production risk\nIII. Small farmer — village-economy concept: Growing more than one crop on the same land in a year",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: High-interest borrowing — defining economic feature: Interest raises the amount owed over time; Multiple cropping — representative implication: Reliable water can help make extra cropping possible; Small farmer — village-economy concept: A cultivator with a relatively small operational holding.",
+        "difficulty": "Hard",
+        "topic": "High-interest borrowing · comparing chapter concepts",
+        "sourceChapter": 8
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH08-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape\nII. Multiple cropping — village-economy concept: Artificial supply of water to crops\nIII. Small farmer — defining economic feature: Reduces dependence on the timing of rain",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: High-interest borrowing — representative implication: Poor harvests can make repeated debt difficult to escape; Multiple cropping — village-economy concept: Growing more than one crop on the same land in a year; Small farmer — defining economic feature: Often faces limits on assets and market power.",
+        "difficulty": "Hard",
+        "topic": "High-interest borrowing · comparing chapter concepts",
+        "sourceChapter": 8
+      }
+    ]
+  }
+}

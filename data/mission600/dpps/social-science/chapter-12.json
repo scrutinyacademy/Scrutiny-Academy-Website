@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH12-E": {
+    "id": "SA-DPP-27-SOC-CH12-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch12",
+    "chapterNumber": 12,
+    "chapter": "World Between the World Wars",
+    "level": "E",
+    "title": "World Between the World Wars – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-12.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-03",
+    "recommendedDate": "2026-11-20",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 186
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q01",
+        "question": "In which year did the First World War begin?",
+        "options": [
+          "1914",
+          "1918",
+          "1939",
+          "1945"
+        ],
+        "answer": 0,
+        "explanation": "The First World War lasted from 1914 to 1918.",
+        "difficulty": "Easy",
+        "topic": "In which year did the First World War begin?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q02",
+        "question": "Which event occurred in Russia in 1917?",
+        "options": [
+          "The start of the Second World War",
+          "The founding of the United Nations",
+          "The end of the Cold War",
+          "Revolution ending tsarist rule and later bringing Bolsheviks to power"
+        ],
+        "answer": 3,
+        "explanation": "The 1917 revolutions transformed Russian government.",
+        "difficulty": "Easy",
+        "topic": "Which event occurred in Russia in 1917?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q03",
+        "question": "Which country was ruled by the Nazi regime under Hitler?",
+        "options": [
+          "Britain",
+          "France",
+          "Germany",
+          "Japan"
+        ],
+        "answer": 2,
+        "explanation": "Hitler led the Nazi dictatorship in Germany.",
+        "difficulty": "Easy",
+        "topic": "Which country was ruled by the Nazi regime under Hitler?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q04",
+        "question": "First World War: which option correctly identifies the historical period or location?",
+        "options": [
+          "A worldwide crisis beginning in 1929",
+          "1914–1918, centred on a conflict spreading from Europe",
+          "Russia in 1917",
+          "Post-First World War settlement in 1919"
+        ],
+        "answer": 1,
+        "explanation": "First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe.",
+        "difficulty": "Easy",
+        "topic": "First World War · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q05",
+        "question": "First World War: which option correctly identifies the central event or character?",
+        "options": [
+          "Major alliances fought a large industrial war",
+          "Imposed territorial losses and reparations on Germany",
+          "Production, trade and employment contracted sharply",
+          "Mussolini established an authoritarian nationalist regime"
+        ],
+        "answer": 0,
+        "explanation": "First World War — central event or character: Major alliances fought a large industrial war.",
+        "difficulty": "Easy",
+        "topic": "First World War · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q06",
+        "question": "First World War: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Economic insecurity deepened across many societies",
+          "Political opposition and democratic freedoms were suppressed",
+          "Persecution and expansionist war followed",
+          "Heavy losses and a changed European political order followed"
+        ],
+        "answer": 3,
+        "explanation": "First World War — major consequence or significance: Heavy losses and a changed European political order followed.",
+        "difficulty": "Easy",
+        "topic": "First World War · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q07",
+        "question": "Russian Revolution of 1917: which option correctly identifies the historical period or location?",
+        "options": [
+          "A worldwide crisis beginning in 1929",
+          "Interwar Italy",
+          "Russia in 1917",
+          "Post-First World War settlement in 1919"
+        ],
+        "answer": 2,
+        "explanation": "Russian Revolution of 1917 — historical period or location: Russia in 1917.",
+        "difficulty": "Easy",
+        "topic": "Russian Revolution of 1917 · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q08",
+        "question": "Russian Revolution of 1917: which option correctly identifies the central event or character?",
+        "options": [
+          "A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "Tsarist rule ended and the Bolsheviks later took power",
+          "Production, trade and employment contracted sharply",
+          "Mussolini established an authoritarian nationalist regime"
+        ],
+        "answer": 1,
+        "explanation": "Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power.",
+        "difficulty": "Easy",
+        "topic": "Russian Revolution of 1917 · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q09",
+        "question": "Russian Revolution of 1917: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "A new socialist political experiment developed",
+          "Political opposition and democratic freedoms were suppressed",
+          "Persecution and expansionist war followed",
+          "Mass destruction helped reshape post-war institutions and power"
+        ],
+        "answer": 0,
+        "explanation": "Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed.",
+        "difficulty": "Easy",
+        "topic": "Russian Revolution of 1917 · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q10",
+        "question": "Treaty of Versailles: which option correctly identifies the historical period or location?",
+        "options": [
+          "A worldwide crisis beginning in 1929",
+          "Interwar Italy",
+          "Germany under Hitler from 1933",
+          "Post-First World War settlement in 1919"
+        ],
+        "answer": 3,
+        "explanation": "Treaty of Versailles — historical period or location: Post-First World War settlement in 1919.",
+        "difficulty": "Easy",
+        "topic": "Treaty of Versailles · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q11",
+        "question": "Treaty of Versailles: which option correctly identifies the central event or character?",
+        "options": [
+          "A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "A global conflict involving Axis and Allied powers",
+          "Imposed territorial losses and reparations on Germany",
+          "Mussolini established an authoritarian nationalist regime"
+        ],
+        "answer": 2,
+        "explanation": "Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany.",
+        "difficulty": "Easy",
+        "topic": "Treaty of Versailles · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q12",
+        "question": "Treaty of Versailles: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Demonstrates the catastrophic consequences of genocidal racial ideology",
+          "Generated grievances used by later extremist politics",
+          "Persecution and expansionist war followed",
+          "Mass destruction helped reshape post-war institutions and power"
+        ],
+        "answer": 1,
+        "explanation": "Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics.",
+        "difficulty": "Easy",
+        "topic": "Treaty of Versailles · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q13",
+        "question": "Great Depression: which option correctly identifies the historical period or location?",
+        "options": [
+          "A worldwide crisis beginning in 1929",
+          "Interwar Italy",
+          "Germany under Hitler from 1933",
+          "1939–1945"
+        ],
+        "answer": 0,
+        "explanation": "Great Depression — historical period or location: A worldwide crisis beginning in 1929.",
+        "difficulty": "Easy",
+        "topic": "Great Depression · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q14",
+        "question": "Great Depression: which option correctly identifies the central event or character?",
+        "options": [
+          "A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "A global conflict involving Axis and Allied powers",
+          "Systematic persecution and murder especially targeting Jews",
+          "Production, trade and employment contracted sharply"
+        ],
+        "answer": 3,
+        "explanation": "Great Depression — central event or character: Production, trade and employment contracted sharply.",
+        "difficulty": "Easy",
+        "topic": "Great Depression · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q15",
+        "question": "Great Depression: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Demonstrates the catastrophic consequences of genocidal racial ideology",
+          "Its weaknesses became evident as aggression escalated",
+          "Economic insecurity deepened across many societies",
+          "Mass destruction helped reshape post-war institutions and power"
+        ],
+        "answer": 2,
+        "explanation": "Great Depression — major consequence or significance: Economic insecurity deepened across many societies.",
+        "difficulty": "Easy",
+        "topic": "Great Depression · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q16",
+        "question": "Fascism in Italy: which option correctly identifies the historical period or location?",
+        "options": [
+          "Nazi-controlled Europe during the Second World War",
+          "Interwar Italy",
+          "Germany under Hitler from 1933",
+          "1939–1945"
+        ],
+        "answer": 1,
+        "explanation": "Fascism in Italy — historical period or location: Interwar Italy.",
+        "difficulty": "Easy",
+        "topic": "Fascism in Italy · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q17",
+        "question": "Fascism in Italy: which option correctly identifies the central event or character?",
+        "options": [
+          "Mussolini established an authoritarian nationalist regime",
+          "A global conflict involving Axis and Allied powers",
+          "Systematic persecution and murder especially targeting Jews",
+          "Sought international cooperation and prevention of war"
+        ],
+        "answer": 0,
+        "explanation": "Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime.",
+        "difficulty": "Easy",
+        "topic": "Fascism in Italy · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q18",
+        "question": "Fascism in Italy: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Demonstrates the catastrophic consequences of genocidal racial ideology",
+          "Its weaknesses became evident as aggression escalated",
+          "Heavy losses and a changed European political order followed",
+          "Political opposition and democratic freedoms were suppressed"
+        ],
+        "answer": 3,
+        "explanation": "Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed.",
+        "difficulty": "Easy",
+        "topic": "Fascism in Italy · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q19",
+        "question": "Nazism in Germany: which option correctly identifies the historical period or location?",
+        "options": [
+          "Nazi-controlled Europe during the Second World War",
+          "An organisation created after the First World War",
+          "Germany under Hitler from 1933",
+          "1939–1945"
+        ],
+        "answer": 2,
+        "explanation": "Nazism in Germany — historical period or location: Germany under Hitler from 1933.",
+        "difficulty": "Easy",
+        "topic": "Nazism in Germany · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q20",
+        "question": "Nazism in Germany: which option correctly identifies the central event or character?",
+        "options": [
+          "Major alliances fought a large industrial war",
+          "A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "Systematic persecution and murder especially targeting Jews",
+          "Sought international cooperation and prevention of war"
+        ],
+        "answer": 1,
+        "explanation": "Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism.",
+        "difficulty": "Easy",
+        "topic": "Nazism in Germany · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q21",
+        "question": "Nazism in Germany: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Persecution and expansionist war followed",
+          "Its weaknesses became evident as aggression escalated",
+          "Heavy losses and a changed European political order followed",
+          "A new socialist political experiment developed"
+        ],
+        "answer": 0,
+        "explanation": "Nazism in Germany — major consequence or significance: Persecution and expansionist war followed.",
+        "difficulty": "Easy",
+        "topic": "Nazism in Germany · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q22",
+        "question": "Second World War: which option correctly identifies the historical period or location?",
+        "options": [
+          "Nazi-controlled Europe during the Second World War",
+          "An organisation created after the First World War",
+          "1914–1918, centred on a conflict spreading from Europe",
+          "1939–1945"
+        ],
+        "answer": 3,
+        "explanation": "Second World War — historical period or location: 1939–1945.",
+        "difficulty": "Easy",
+        "topic": "Second World War · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q23",
+        "question": "Second World War: which option correctly identifies the central event or character?",
+        "options": [
+          "Major alliances fought a large industrial war",
+          "Tsarist rule ended and the Bolsheviks later took power",
+          "A global conflict involving Axis and Allied powers",
+          "Sought international cooperation and prevention of war"
+        ],
+        "answer": 2,
+        "explanation": "Second World War — central event or character: A global conflict involving Axis and Allied powers.",
+        "difficulty": "Easy",
+        "topic": "Second World War · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q24",
+        "question": "Second World War: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Generated grievances used by later extremist politics",
+          "Mass destruction helped reshape post-war institutions and power",
+          "Heavy losses and a changed European political order followed",
+          "A new socialist political experiment developed"
+        ],
+        "answer": 1,
+        "explanation": "Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power.",
+        "difficulty": "Easy",
+        "topic": "Second World War · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q25",
+        "question": "Holocaust: which option correctly identifies the historical period or location?",
+        "options": [
+          "Nazi-controlled Europe during the Second World War",
+          "An organisation created after the First World War",
+          "1914–1918, centred on a conflict spreading from Europe",
+          "Russia in 1917"
+        ],
+        "answer": 0,
+        "explanation": "Holocaust — historical period or location: Nazi-controlled Europe during the Second World War.",
+        "difficulty": "Easy",
+        "topic": "Holocaust · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q26",
+        "question": "Holocaust: which option correctly identifies the central event or character?",
+        "options": [
+          "Major alliances fought a large industrial war",
+          "Tsarist rule ended and the Bolsheviks later took power",
+          "Imposed territorial losses and reparations on Germany",
+          "Systematic persecution and murder especially targeting Jews"
+        ],
+        "answer": 3,
+        "explanation": "Holocaust — central event or character: Systematic persecution and murder especially targeting Jews.",
+        "difficulty": "Easy",
+        "topic": "Holocaust · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q27",
+        "question": "Holocaust: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Generated grievances used by later extremist politics",
+          "Economic insecurity deepened across many societies",
+          "Demonstrates the catastrophic consequences of genocidal racial ideology",
+          "A new socialist political experiment developed"
+        ],
+        "answer": 2,
+        "explanation": "Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology.",
+        "difficulty": "Easy",
+        "topic": "Holocaust · major consequence or significance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q28",
+        "question": "League of Nations: which option correctly identifies the historical period or location?",
+        "options": [
+          "Post-First World War settlement in 1919",
+          "An organisation created after the First World War",
+          "1914–1918, centred on a conflict spreading from Europe",
+          "Russia in 1917"
+        ],
+        "answer": 1,
+        "explanation": "League of Nations — historical period or location: An organisation created after the First World War.",
+        "difficulty": "Easy",
+        "topic": "League of Nations · historical period or location",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q29",
+        "question": "League of Nations: which option correctly identifies the central event or character?",
+        "options": [
+          "Sought international cooperation and prevention of war",
+          "Tsarist rule ended and the Bolsheviks later took power",
+          "Imposed territorial losses and reparations on Germany",
+          "Production, trade and employment contracted sharply"
+        ],
+        "answer": 0,
+        "explanation": "League of Nations — central event or character: Sought international cooperation and prevention of war.",
+        "difficulty": "Easy",
+        "topic": "League of Nations · central event or character",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-E-Q30",
+        "question": "League of Nations: which option correctly identifies the major consequence or significance?",
+        "options": [
+          "Generated grievances used by later extremist politics",
+          "Economic insecurity deepened across many societies",
+          "Political opposition and democratic freedoms were suppressed",
+          "Its weaknesses became evident as aggression escalated"
+        ],
+        "answer": 3,
+        "explanation": "League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated.",
+        "difficulty": "Easy",
+        "topic": "League of Nations · major consequence or significance",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH12-M": {
+    "id": "SA-DPP-27-SOC-CH12-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch12",
+    "chapterNumber": 12,
+    "chapter": "World Between the World Wars",
+    "level": "M",
+    "title": "World Between the World Wars – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-12.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-03",
+    "recommendedDate": "2026-11-21",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 186
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q01",
+        "question": "Why did the 1929 economic crisis spread across countries?",
+        "options": [
+          "Every country had an isolated economy",
+          "Only farming existed globally",
+          "All banks were in one village",
+          "Trade and financial links transmitted the downturn"
+        ],
+        "answer": 3,
+        "explanation": "Interdependence helped spread falling demand and financial distress.",
+        "difficulty": "Medium",
+        "topic": "Why did the 1929 economic crisis spread across countries?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q02",
+        "question": "What was one major effect of the Treaty of Versailles on Germany?",
+        "options": [
+          "Germany becoming a victorious Allied power",
+          "The end of all nationalism",
+          "Resentment over territorial losses and reparations",
+          "Immediate abolition of every European army"
+        ],
+        "answer": 2,
+        "explanation": "The settlement generated grievances later exploited by extremist politics.",
+        "difficulty": "Medium",
+        "topic": "What was one major effect of the Treaty of Versailles on Germany?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q03",
+        "question": "What distinguishes totalitarian rule from democratic government?",
+        "options": [
+          "Government accountability through free elections",
+          "Extensive control and suppression of political opposition",
+          "Regular free competition among parties",
+          "Independent media guaranteed in all cases"
+        ],
+        "answer": 1,
+        "explanation": "Totalitarian regimes seek broad control over political and social life.",
+        "difficulty": "Medium",
+        "topic": "What distinguishes totalitarian rule from democratic government?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q04",
+        "question": "Which pair correctly matches First World War with its historical period or location and central event or character, in that order?",
+        "options": [
+          "1914–1918, centred on a conflict spreading from Europe → Major alliances fought a large industrial war",
+          "Russia in 1917 → Major alliances fought a large industrial war",
+          "1914–1918, centred on a conflict spreading from Europe → Tsarist rule ended and the Bolsheviks later took power",
+          "Post-First World War settlement in 1919 → Imposed territorial losses and reparations on Germany"
+        ],
+        "answer": 0,
+        "explanation": "First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe. First World War — central event or character: Major alliances fought a large industrial war. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "First World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q05",
+        "question": "Which pair correctly matches First World War with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Imposed territorial losses and reparations on Germany → Heavy losses and a changed European political order followed",
+          "Major alliances fought a large industrial war → A new socialist political experiment developed",
+          "Production, trade and employment contracted sharply → Generated grievances used by later extremist politics",
+          "Major alliances fought a large industrial war → Heavy losses and a changed European political order followed"
+        ],
+        "answer": 3,
+        "explanation": "First World War — central event or character: Major alliances fought a large industrial war. First World War — major consequence or significance: Heavy losses and a changed European political order followed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "First World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q06",
+        "question": "Which pair correctly matches First World War with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Heavy losses and a changed European political order followed → Russia in 1917",
+          "Political opposition and democratic freedoms were suppressed → Post-First World War settlement in 1919",
+          "Heavy losses and a changed European political order followed → 1914–1918, centred on a conflict spreading from Europe",
+          "Economic insecurity deepened across many societies → 1914–1918, centred on a conflict spreading from Europe"
+        ],
+        "answer": 2,
+        "explanation": "First World War — major consequence or significance: Heavy losses and a changed European political order followed. First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "First World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q07",
+        "question": "Which pair correctly matches Russian Revolution of 1917 with its historical period or location and central event or character, in that order?",
+        "options": [
+          "A worldwide crisis beginning in 1929 → Production, trade and employment contracted sharply",
+          "Russia in 1917 → Tsarist rule ended and the Bolsheviks later took power",
+          "Post-First World War settlement in 1919 → Tsarist rule ended and the Bolsheviks later took power",
+          "Russia in 1917 → Imposed territorial losses and reparations on Germany"
+        ],
+        "answer": 1,
+        "explanation": "Russian Revolution of 1917 — historical period or location: Russia in 1917. Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Russian Revolution of 1917",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q08",
+        "question": "Which pair correctly matches Russian Revolution of 1917 with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Tsarist rule ended and the Bolsheviks later took power → A new socialist political experiment developed",
+          "Production, trade and employment contracted sharply → A new socialist political experiment developed",
+          "Tsarist rule ended and the Bolsheviks later took power → Generated grievances used by later extremist politics",
+          "Mussolini established an authoritarian nationalist regime → Economic insecurity deepened across many societies"
+        ],
+        "answer": 0,
+        "explanation": "Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power. Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Russian Revolution of 1917",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q09",
+        "question": "Which pair correctly matches Russian Revolution of 1917 with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Political opposition and democratic freedoms were suppressed → Russia in 1917",
+          "A new socialist political experiment developed → Post-First World War settlement in 1919",
+          "Persecution and expansionist war followed → A worldwide crisis beginning in 1929",
+          "A new socialist political experiment developed → Russia in 1917"
+        ],
+        "answer": 3,
+        "explanation": "Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed. Russian Revolution of 1917 — historical period or location: Russia in 1917. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Russian Revolution of 1917",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q10",
+        "question": "Which pair correctly matches Treaty of Versailles with its historical period or location and central event or character, in that order?",
+        "options": [
+          "Post-First World War settlement in 1919 → Production, trade and employment contracted sharply",
+          "Interwar Italy → Mussolini established an authoritarian nationalist regime",
+          "Post-First World War settlement in 1919 → Imposed territorial losses and reparations on Germany",
+          "A worldwide crisis beginning in 1929 → Imposed territorial losses and reparations on Germany"
+        ],
+        "answer": 2,
+        "explanation": "Treaty of Versailles — historical period or location: Post-First World War settlement in 1919. Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Treaty of Versailles",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q11",
+        "question": "Which pair correctly matches Treaty of Versailles with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "A dictatorship promoted racial hierarchy and aggressive nationalism → Political opposition and democratic freedoms were suppressed",
+          "Imposed territorial losses and reparations on Germany → Generated grievances used by later extremist politics",
+          "Mussolini established an authoritarian nationalist regime → Generated grievances used by later extremist politics",
+          "Imposed territorial losses and reparations on Germany → Economic insecurity deepened across many societies"
+        ],
+        "answer": 1,
+        "explanation": "Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany. Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Treaty of Versailles",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q12",
+        "question": "Which pair correctly matches Treaty of Versailles with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Generated grievances used by later extremist politics → Post-First World War settlement in 1919",
+          "Persecution and expansionist war followed → Post-First World War settlement in 1919",
+          "Generated grievances used by later extremist politics → A worldwide crisis beginning in 1929",
+          "Mass destruction helped reshape post-war institutions and power → Interwar Italy"
+        ],
+        "answer": 0,
+        "explanation": "Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics. Treaty of Versailles — historical period or location: Post-First World War settlement in 1919. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Treaty of Versailles",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q13",
+        "question": "Which pair correctly matches Great Depression with its historical period or location and central event or character, in that order?",
+        "options": [
+          "Interwar Italy → Production, trade and employment contracted sharply",
+          "A worldwide crisis beginning in 1929 → Mussolini established an authoritarian nationalist regime",
+          "Germany under Hitler from 1933 → A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "A worldwide crisis beginning in 1929 → Production, trade and employment contracted sharply"
+        ],
+        "answer": 3,
+        "explanation": "Great Depression — historical period or location: A worldwide crisis beginning in 1929. Great Depression — central event or character: Production, trade and employment contracted sharply. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Great Depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q14",
+        "question": "Which pair correctly matches Great Depression with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Production, trade and employment contracted sharply → Political opposition and democratic freedoms were suppressed",
+          "A global conflict involving Axis and Allied powers → Persecution and expansionist war followed",
+          "Production, trade and employment contracted sharply → Economic insecurity deepened across many societies",
+          "A dictatorship promoted racial hierarchy and aggressive nationalism → Economic insecurity deepened across many societies"
+        ],
+        "answer": 2,
+        "explanation": "Great Depression — central event or character: Production, trade and employment contracted sharply. Great Depression — major consequence or significance: Economic insecurity deepened across many societies. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Great Depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q15",
+        "question": "Which pair correctly matches Great Depression with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Demonstrates the catastrophic consequences of genocidal racial ideology → Germany under Hitler from 1933",
+          "Economic insecurity deepened across many societies → A worldwide crisis beginning in 1929",
+          "Mass destruction helped reshape post-war institutions and power → A worldwide crisis beginning in 1929",
+          "Economic insecurity deepened across many societies → Interwar Italy"
+        ],
+        "answer": 1,
+        "explanation": "Great Depression — major consequence or significance: Economic insecurity deepened across many societies. Great Depression — historical period or location: A worldwide crisis beginning in 1929. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Great Depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q16",
+        "question": "Which pair correctly matches Fascism in Italy with its historical period or location and central event or character, in that order?",
+        "options": [
+          "Interwar Italy → Mussolini established an authoritarian nationalist regime",
+          "Germany under Hitler from 1933 → Mussolini established an authoritarian nationalist regime",
+          "Interwar Italy → A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "1939–1945 → A global conflict involving Axis and Allied powers"
+        ],
+        "answer": 0,
+        "explanation": "Fascism in Italy — historical period or location: Interwar Italy. Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fascism in Italy",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q17",
+        "question": "Which pair correctly matches Fascism in Italy with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "A global conflict involving Axis and Allied powers → Political opposition and democratic freedoms were suppressed",
+          "Mussolini established an authoritarian nationalist regime → Persecution and expansionist war followed",
+          "Systematic persecution and murder especially targeting Jews → Mass destruction helped reshape post-war institutions and power",
+          "Mussolini established an authoritarian nationalist regime → Political opposition and democratic freedoms were suppressed"
+        ],
+        "answer": 3,
+        "explanation": "Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime. Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fascism in Italy",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q18",
+        "question": "Which pair correctly matches Fascism in Italy with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Political opposition and democratic freedoms were suppressed → Germany under Hitler from 1933",
+          "Its weaknesses became evident as aggression escalated → 1939–1945",
+          "Political opposition and democratic freedoms were suppressed → Interwar Italy",
+          "Demonstrates the catastrophic consequences of genocidal racial ideology → Interwar Italy"
+        ],
+        "answer": 2,
+        "explanation": "Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed. Fascism in Italy — historical period or location: Interwar Italy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fascism in Italy",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q19",
+        "question": "Which pair correctly matches Nazism in Germany with its historical period or location and central event or character, in that order?",
+        "options": [
+          "Nazi-controlled Europe during the Second World War → Systematic persecution and murder especially targeting Jews",
+          "Germany under Hitler from 1933 → A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "1939–1945 → A dictatorship promoted racial hierarchy and aggressive nationalism",
+          "Germany under Hitler from 1933 → A global conflict involving Axis and Allied powers"
+        ],
+        "answer": 1,
+        "explanation": "Nazism in Germany — historical period or location: Germany under Hitler from 1933. Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nazism in Germany",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q20",
+        "question": "Which pair correctly matches Nazism in Germany with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "A dictatorship promoted racial hierarchy and aggressive nationalism → Persecution and expansionist war followed",
+          "Systematic persecution and murder especially targeting Jews → Persecution and expansionist war followed",
+          "A dictatorship promoted racial hierarchy and aggressive nationalism → Mass destruction helped reshape post-war institutions and power",
+          "Sought international cooperation and prevention of war → Demonstrates the catastrophic consequences of genocidal racial ideology"
+        ],
+        "answer": 0,
+        "explanation": "Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism. Nazism in Germany — major consequence or significance: Persecution and expansionist war followed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nazism in Germany",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q21",
+        "question": "Which pair correctly matches Nazism in Germany with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Its weaknesses became evident as aggression escalated → Germany under Hitler from 1933",
+          "Persecution and expansionist war followed → 1939–1945",
+          "Heavy losses and a changed European political order followed → Nazi-controlled Europe during the Second World War",
+          "Persecution and expansionist war followed → Germany under Hitler from 1933"
+        ],
+        "answer": 3,
+        "explanation": "Nazism in Germany — major consequence or significance: Persecution and expansionist war followed. Nazism in Germany — historical period or location: Germany under Hitler from 1933. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nazism in Germany",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q22",
+        "question": "Which pair correctly matches Second World War with its historical period or location and central event or character, in that order?",
+        "options": [
+          "1939–1945 → Systematic persecution and murder especially targeting Jews",
+          "An organisation created after the First World War → Sought international cooperation and prevention of war",
+          "1939–1945 → A global conflict involving Axis and Allied powers",
+          "Nazi-controlled Europe during the Second World War → A global conflict involving Axis and Allied powers"
+        ],
+        "answer": 2,
+        "explanation": "Second World War — historical period or location: 1939–1945. Second World War — central event or character: A global conflict involving Axis and Allied powers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Second World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q23",
+        "question": "Which pair correctly matches Second World War with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Major alliances fought a large industrial war → Its weaknesses became evident as aggression escalated",
+          "A global conflict involving Axis and Allied powers → Mass destruction helped reshape post-war institutions and power",
+          "Sought international cooperation and prevention of war → Mass destruction helped reshape post-war institutions and power",
+          "A global conflict involving Axis and Allied powers → Demonstrates the catastrophic consequences of genocidal racial ideology"
+        ],
+        "answer": 1,
+        "explanation": "Second World War — central event or character: A global conflict involving Axis and Allied powers. Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Second World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q24",
+        "question": "Which pair correctly matches Second World War with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Mass destruction helped reshape post-war institutions and power → 1939–1945",
+          "Heavy losses and a changed European political order followed → 1939–1945",
+          "Mass destruction helped reshape post-war institutions and power → Nazi-controlled Europe during the Second World War",
+          "A new socialist political experiment developed → An organisation created after the First World War"
+        ],
+        "answer": 0,
+        "explanation": "Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power. Second World War — historical period or location: 1939–1945. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Second World War",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q25",
+        "question": "Which pair correctly matches Holocaust with its historical period or location and central event or character, in that order?",
+        "options": [
+          "An organisation created after the First World War → Systematic persecution and murder especially targeting Jews",
+          "Nazi-controlled Europe during the Second World War → Sought international cooperation and prevention of war",
+          "1914–1918, centred on a conflict spreading from Europe → Major alliances fought a large industrial war",
+          "Nazi-controlled Europe during the Second World War → Systematic persecution and murder especially targeting Jews"
+        ],
+        "answer": 3,
+        "explanation": "Holocaust — historical period or location: Nazi-controlled Europe during the Second World War. Holocaust — central event or character: Systematic persecution and murder especially targeting Jews. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Holocaust",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q26",
+        "question": "Which pair correctly matches Holocaust with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Systematic persecution and murder especially targeting Jews → Its weaknesses became evident as aggression escalated",
+          "Tsarist rule ended and the Bolsheviks later took power → Heavy losses and a changed European political order followed",
+          "Systematic persecution and murder especially targeting Jews → Demonstrates the catastrophic consequences of genocidal racial ideology",
+          "Major alliances fought a large industrial war → Demonstrates the catastrophic consequences of genocidal racial ideology"
+        ],
+        "answer": 2,
+        "explanation": "Holocaust — central event or character: Systematic persecution and murder especially targeting Jews. Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Holocaust",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q27",
+        "question": "Which pair correctly matches Holocaust with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Generated grievances used by later extremist politics → 1914–1918, centred on a conflict spreading from Europe",
+          "Demonstrates the catastrophic consequences of genocidal racial ideology → Nazi-controlled Europe during the Second World War",
+          "A new socialist political experiment developed → Nazi-controlled Europe during the Second World War",
+          "Demonstrates the catastrophic consequences of genocidal racial ideology → An organisation created after the First World War"
+        ],
+        "answer": 1,
+        "explanation": "Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology. Holocaust — historical period or location: Nazi-controlled Europe during the Second World War. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Holocaust",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q28",
+        "question": "Which pair correctly matches League of Nations with its historical period or location and central event or character, in that order?",
+        "options": [
+          "An organisation created after the First World War → Sought international cooperation and prevention of war",
+          "1914–1918, centred on a conflict spreading from Europe → Sought international cooperation and prevention of war",
+          "An organisation created after the First World War → Major alliances fought a large industrial war",
+          "Russia in 1917 → Tsarist rule ended and the Bolsheviks later took power"
+        ],
+        "answer": 0,
+        "explanation": "League of Nations — historical period or location: An organisation created after the First World War. League of Nations — central event or character: Sought international cooperation and prevention of war. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "League of Nations",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q29",
+        "question": "Which pair correctly matches League of Nations with its central event or character and major consequence or significance, in that order?",
+        "options": [
+          "Tsarist rule ended and the Bolsheviks later took power → Its weaknesses became evident as aggression escalated",
+          "Sought international cooperation and prevention of war → Heavy losses and a changed European political order followed",
+          "Imposed territorial losses and reparations on Germany → A new socialist political experiment developed",
+          "Sought international cooperation and prevention of war → Its weaknesses became evident as aggression escalated"
+        ],
+        "answer": 3,
+        "explanation": "League of Nations — central event or character: Sought international cooperation and prevention of war. League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "League of Nations",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-M-Q30",
+        "question": "Which pair correctly matches League of Nations with its major consequence or significance and historical period or location, in that order?",
+        "options": [
+          "Its weaknesses became evident as aggression escalated → 1914–1918, centred on a conflict spreading from Europe",
+          "Economic insecurity deepened across many societies → Russia in 1917",
+          "Its weaknesses became evident as aggression escalated → An organisation created after the First World War",
+          "Generated grievances used by later extremist politics → An organisation created after the First World War"
+        ],
+        "answer": 2,
+        "explanation": "League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated. League of Nations — historical period or location: An organisation created after the First World War. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "League of Nations",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH12-H": {
+    "id": "SA-DPP-27-SOC-CH12-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch12",
+    "chapterNumber": 12,
+    "chapter": "World Between the World Wars",
+    "level": "H",
+    "title": "World Between the World Wars – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-12.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-03",
+    "recommendedDate": "2026-11-22",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 163,
+      "to": 186
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q01",
+        "question": "Why is it incomplete to blame the First World War only on the Sarajevo assassination?",
+        "options": [
+          "There were no alliances",
+          "European states had no armies",
+          "Militarism, alliances, imperial rivalry and nationalism formed deeper conditions",
+          "The assassination did not happen"
+        ],
+        "answer": 2,
+        "explanation": "The assassination triggered a crisis within a wider structure of tensions.",
+        "difficulty": "Hard",
+        "topic": "Why is it incomplete to blame the First World War only on the Sarajevo assassination?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q02",
+        "question": "How could mass propaganda strengthen a dictatorship?",
+        "options": [
+          "By eliminating state censorship everywhere",
+          "By shaping opinion and delegitimising targeted groups and opponents",
+          "By ensuring free access to all competing views",
+          "By automatically protecting minority rights"
+        ],
+        "answer": 1,
+        "explanation": "Controlled messaging can support obedience and persecution.",
+        "difficulty": "Hard",
+        "topic": "How could mass propaganda strengthen a dictatorship?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q03",
+        "question": "Why should economic distress be considered alongside political institutions when explaining fascism's rise?",
+        "options": [
+          "Crisis created grievances that authoritarian movements exploited",
+          "Poverty mechanically makes every country fascist",
+          "Institutions never matter",
+          "Fascism is defined by free political competition"
+        ],
+        "answer": 0,
+        "explanation": "Economic hardship helped extremist mobilisation, but choices and institutions shaped outcomes.",
+        "difficulty": "Hard",
+        "topic": "Why should economic distress be considered alongside political institutions when explaining fascism's rise?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe\nII. Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime\nIII. Holocaust — major consequence or significance: Generated grievances used by later extremist politics",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe; Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime; Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology.",
+        "difficulty": "Hard",
+        "topic": "First World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. First World War — central event or character: Imposed territorial losses and reparations on Germany\nII. Fascism in Italy — major consequence or significance: Generated grievances used by later extremist politics\nIII. Holocaust — historical period or location: Nazi-controlled Europe during the Second World War",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: First World War — central event or character: Major alliances fought a large industrial war; Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed; Holocaust — historical period or location: Nazi-controlled Europe during the Second World War.",
+        "difficulty": "Hard",
+        "topic": "First World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. First World War — major consequence or significance: Heavy losses and a changed European political order followed\nII. Fascism in Italy — historical period or location: A worldwide crisis beginning in 1929\nIII. Holocaust — central event or character: Systematic persecution and murder especially targeting Jews",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: First World War — major consequence or significance: Heavy losses and a changed European political order followed; Fascism in Italy — historical period or location: Interwar Italy; Holocaust — central event or character: Systematic persecution and murder especially targeting Jews.",
+        "difficulty": "Hard",
+        "topic": "First World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Russian Revolution of 1917 — historical period or location: Interwar Italy\nII. Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism\nIII. League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Russian Revolution of 1917 — historical period or location: Russia in 1917; Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism; League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated.",
+        "difficulty": "Hard",
+        "topic": "Russian Revolution of 1917 · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power\nII. Nazism in Germany — major consequence or significance: Persecution and expansionist war followed\nIII. League of Nations — historical period or location: An organisation created after the First World War",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power; Nazism in Germany — major consequence or significance: Persecution and expansionist war followed; League of Nations — historical period or location: An organisation created after the First World War.",
+        "difficulty": "Hard",
+        "topic": "Russian Revolution of 1917 · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Russian Revolution of 1917 — major consequence or significance: Mass destruction helped reshape post-war institutions and power\nII. Nazism in Germany — historical period or location: Nazi-controlled Europe during the Second World War\nIII. League of Nations — central event or character: Systematic persecution and murder especially targeting Jews",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed; Nazism in Germany — historical period or location: Germany under Hitler from 1933; League of Nations — central event or character: Sought international cooperation and prevention of war.",
+        "difficulty": "Hard",
+        "topic": "Russian Revolution of 1917 · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Treaty of Versailles — historical period or location: Post-First World War settlement in 1919\nII. Second World War — central event or character: Sought international cooperation and prevention of war\nIII. First World War — major consequence or significance: A new socialist political experiment developed",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Treaty of Versailles — historical period or location: Post-First World War settlement in 1919; Second World War — central event or character: A global conflict involving Axis and Allied powers; First World War — major consequence or significance: Heavy losses and a changed European political order followed.",
+        "difficulty": "Hard",
+        "topic": "Treaty of Versailles · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Treaty of Versailles — central event or character: Sought international cooperation and prevention of war\nII. Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power\nIII. First World War — historical period or location: Post-First World War settlement in 1919",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany; Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power; First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe.",
+        "difficulty": "Hard",
+        "topic": "Treaty of Versailles · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics\nII. Second World War — historical period or location: 1939–1945\nIII. First World War — central event or character: Production, trade and employment contracted sharply",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics; Second World War — historical period or location: 1939–1945; First World War — central event or character: Major alliances fought a large industrial war.",
+        "difficulty": "Hard",
+        "topic": "Treaty of Versailles · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Great Depression — historical period or location: Russia in 1917\nII. Holocaust — central event or character: Imposed territorial losses and reparations on Germany\nIII. Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Great Depression — historical period or location: A worldwide crisis beginning in 1929; Holocaust — central event or character: Systematic persecution and murder especially targeting Jews; Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed.",
+        "difficulty": "Hard",
+        "topic": "Great Depression · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Great Depression — central event or character: Production, trade and employment contracted sharply\nII. Holocaust — major consequence or significance: Economic insecurity deepened across many societies\nIII. Russian Revolution of 1917 — historical period or location: Russia in 1917",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Great Depression — central event or character: Production, trade and employment contracted sharply; Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology; Russian Revolution of 1917 — historical period or location: Russia in 1917.",
+        "difficulty": "Hard",
+        "topic": "Great Depression · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Great Depression — major consequence or significance: Political opposition and democratic freedoms were suppressed\nII. Holocaust — historical period or location: Nazi-controlled Europe during the Second World War\nIII. Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Great Depression — major consequence or significance: Economic insecurity deepened across many societies; Holocaust — historical period or location: Nazi-controlled Europe during the Second World War; Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power.",
+        "difficulty": "Hard",
+        "topic": "Great Depression · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fascism in Italy — historical period or location: Interwar Italy\nII. League of Nations — central event or character: Sought international cooperation and prevention of war\nIII. Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Fascism in Italy — historical period or location: Interwar Italy; League of Nations — central event or character: Sought international cooperation and prevention of war; Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics.",
+        "difficulty": "Hard",
+        "topic": "Fascism in Italy · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fascism in Italy — central event or character: A global conflict involving Axis and Allied powers\nII. League of Nations — major consequence or significance: Mass destruction helped reshape post-war institutions and power\nIII. Treaty of Versailles — historical period or location: An organisation created after the First World War",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime; League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated; Treaty of Versailles — historical period or location: Post-First World War settlement in 1919.",
+        "difficulty": "Hard",
+        "topic": "Fascism in Italy · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed\nII. League of Nations — historical period or location: Nazi-controlled Europe during the Second World War\nIII. Treaty of Versailles — central event or character: Major alliances fought a large industrial war",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed; League of Nations — historical period or location: An organisation created after the First World War; Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany.",
+        "difficulty": "Hard",
+        "topic": "Fascism in Italy · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nazism in Germany — historical period or location: An organisation created after the First World War\nII. First World War — central event or character: Major alliances fought a large industrial war\nIII. Great Depression — major consequence or significance: A new socialist political experiment developed",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Nazism in Germany — historical period or location: Germany under Hitler from 1933; First World War — central event or character: Major alliances fought a large industrial war; Great Depression — major consequence or significance: Economic insecurity deepened across many societies.",
+        "difficulty": "Hard",
+        "topic": "Nazism in Germany · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism\nII. First World War — major consequence or significance: Heavy losses and a changed European political order followed\nIII. Great Depression — historical period or location: Post-First World War settlement in 1919",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism; First World War — major consequence or significance: Heavy losses and a changed European political order followed; Great Depression — historical period or location: A worldwide crisis beginning in 1929.",
+        "difficulty": "Hard",
+        "topic": "Nazism in Germany · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nazism in Germany — major consequence or significance: A new socialist political experiment developed\nII. First World War — historical period or location: A worldwide crisis beginning in 1929\nIII. Great Depression — central event or character: Production, trade and employment contracted sharply",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Nazism in Germany — major consequence or significance: Persecution and expansionist war followed; First World War — historical period or location: 1914–1918, centred on a conflict spreading from Europe; Great Depression — central event or character: Production, trade and employment contracted sharply.",
+        "difficulty": "Hard",
+        "topic": "Nazism in Germany · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Second World War — historical period or location: 1939–1945\nII. Russian Revolution of 1917 — central event or character: Mussolini established an authoritarian nationalist regime\nIII. Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Second World War — historical period or location: 1939–1945; Russian Revolution of 1917 — central event or character: Tsarist rule ended and the Bolsheviks later took power; Fascism in Italy — major consequence or significance: Political opposition and democratic freedoms were suppressed.",
+        "difficulty": "Hard",
+        "topic": "Second World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Second World War — central event or character: Production, trade and employment contracted sharply\nII. Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed\nIII. Fascism in Italy — historical period or location: Interwar Italy",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Second World War — central event or character: A global conflict involving Axis and Allied powers; Russian Revolution of 1917 — major consequence or significance: A new socialist political experiment developed; Fascism in Italy — historical period or location: Interwar Italy.",
+        "difficulty": "Hard",
+        "topic": "Second World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power\nII. Russian Revolution of 1917 — historical period or location: Russia in 1917\nIII. Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power; Russian Revolution of 1917 — historical period or location: Russia in 1917; Fascism in Italy — central event or character: Mussolini established an authoritarian nationalist regime.",
+        "difficulty": "Hard",
+        "topic": "Second World War · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Holocaust — historical period or location: Germany under Hitler from 1933\nII. Treaty of Versailles — central event or character: Systematic persecution and murder especially targeting Jews\nIII. Nazism in Germany — major consequence or significance: Its weaknesses became evident as aggression escalated",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Holocaust — historical period or location: Nazi-controlled Europe during the Second World War; Treaty of Versailles — central event or character: Imposed territorial losses and reparations on Germany; Nazism in Germany — major consequence or significance: Persecution and expansionist war followed.",
+        "difficulty": "Hard",
+        "topic": "Holocaust · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Holocaust — central event or character: Systematic persecution and murder especially targeting Jews\nII. Treaty of Versailles — major consequence or significance: Its weaknesses became evident as aggression escalated\nIII. Nazism in Germany — historical period or location: 1914–1918, centred on a conflict spreading from Europe",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Holocaust — central event or character: Systematic persecution and murder especially targeting Jews; Treaty of Versailles — major consequence or significance: Generated grievances used by later extremist politics; Nazism in Germany — historical period or location: Germany under Hitler from 1933.",
+        "difficulty": "Hard",
+        "topic": "Holocaust · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Holocaust — major consequence or significance: Its weaknesses became evident as aggression escalated\nII. Treaty of Versailles — historical period or location: Post-First World War settlement in 1919\nIII. Nazism in Germany — central event or character: Tsarist rule ended and the Bolsheviks later took power",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Holocaust — major consequence or significance: Demonstrates the catastrophic consequences of genocidal racial ideology; Treaty of Versailles — historical period or location: Post-First World War settlement in 1919; Nazism in Germany — central event or character: A dictatorship promoted racial hierarchy and aggressive nationalism.",
+        "difficulty": "Hard",
+        "topic": "Holocaust · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. League of Nations — historical period or location: An organisation created after the First World War\nII. Great Depression — central event or character: Production, trade and employment contracted sharply\nIII. Second World War — major consequence or significance: Generated grievances used by later extremist politics",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: League of Nations — historical period or location: An organisation created after the First World War; Great Depression — central event or character: Production, trade and employment contracted sharply; Second World War — major consequence or significance: Mass destruction helped reshape post-war institutions and power.",
+        "difficulty": "Hard",
+        "topic": "League of Nations · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. League of Nations — central event or character: Tsarist rule ended and the Bolsheviks later took power\nII. Great Depression — major consequence or significance: Generated grievances used by later extremist politics\nIII. Second World War — historical period or location: 1939–1945",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: League of Nations — central event or character: Sought international cooperation and prevention of war; Great Depression — major consequence or significance: Economic insecurity deepened across many societies; Second World War — historical period or location: 1939–1945.",
+        "difficulty": "Hard",
+        "topic": "League of Nations · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH12-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated\nII. Great Depression — historical period or location: Interwar Italy\nIII. Second World War — central event or character: A global conflict involving Axis and Allied powers",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: League of Nations — major consequence or significance: Its weaknesses became evident as aggression escalated; Great Depression — historical period or location: A worldwide crisis beginning in 1929; Second World War — central event or character: A global conflict involving Axis and Allied powers.",
+        "difficulty": "Hard",
+        "topic": "League of Nations · comparing chapter concepts",
+        "sourceChapter": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH10-E": {
+    "id": "SA-DPP-27-BIO-CH10-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "E",
+    "title": "Natural Resources – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-10.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q01",
+        "question": "Which is a renewable resource under suitable management?",
+        "options": [
+          "Petroleum",
+          "Natural gas",
+          "Solar energy",
+          "Coal"
+        ],
+        "answer": 2,
+        "explanation": "Solar energy is continually supplied on human timescales.",
+        "difficulty": "Easy",
+        "topic": "Which is a renewable resource under suitable management?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q02",
+        "question": "What is rainwater harvesting?",
+        "options": [
+          "Converting rain into petroleum",
+          "Collecting and storing or recharging rainwater",
+          "Removing every local pond",
+          "Pumping only fossil groundwater"
+        ],
+        "answer": 1,
+        "explanation": "Harvesting makes rainfall available for later use or groundwater recharge.",
+        "difficulty": "Easy",
+        "topic": "What is rainwater harvesting?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q03",
+        "question": "What does biodiversity mean?",
+        "options": [
+          "Variety of life at multiple levels",
+          "Only the number of cattle",
+          "Only soil depth",
+          "Only rainfall amount"
+        ],
+        "answer": 0,
+        "explanation": "It includes variation within species, between species and among ecosystems.",
+        "difficulty": "Easy",
+        "topic": "What does biodiversity mean?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q04",
+        "question": "Solar energy: which option correctly identifies the resource or management category?",
+        "options": [
+          "A non-renewable fossil fuel",
+          "Water stored in subsurface pores and fractures",
+          "A water-conservation practice",
+          "A renewable energy flow"
+        ],
+        "answer": 3,
+        "explanation": "Solar energy — resource or management category: A renewable energy flow.",
+        "difficulty": "Easy",
+        "topic": "Solar energy · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q05",
+        "question": "Solar energy: which option correctly identifies the key characteristic?",
+        "options": [
+          "Collects rainfall for storage or recharge",
+          "Upstream activities can affect downstream water and sediment",
+          "Continually supplied on human timescales",
+          "Can be depleted when withdrawal exceeds recharge"
+        ],
+        "answer": 2,
+        "explanation": "Solar energy — key characteristic: Continually supplied on human timescales.",
+        "difficulty": "Easy",
+        "topic": "Solar energy · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q06",
+        "question": "Solar energy: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Conservation includes habitats as well as individual species",
+          "Can be captured using solar devices",
+          "Rooftop collection can support local water availability",
+          "Contour bunds and vegetation can slow runoff"
+        ],
+        "answer": 1,
+        "explanation": "Solar energy — appropriate example or implication: Can be captured using solar devices.",
+        "difficulty": "Easy",
+        "topic": "Solar energy · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q07",
+        "question": "Coal: which option correctly identifies the resource or management category?",
+        "options": [
+          "A non-renewable fossil fuel",
+          "Water stored in subsurface pores and fractures",
+          "A water-conservation practice",
+          "Planning linked land and water use in a drainage area"
+        ],
+        "answer": 0,
+        "explanation": "Coal — resource or management category: A non-renewable fossil fuel.",
+        "difficulty": "Easy",
+        "topic": "Coal · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q08",
+        "question": "Coal: which option correctly identifies the key characteristic?",
+        "options": [
+          "Collects rainfall for storage or recharge",
+          "Upstream activities can affect downstream water and sediment",
+          "Contributes to ecosystem functioning and resilience",
+          "Forms over geological timescales"
+        ],
+        "answer": 3,
+        "explanation": "Coal — key characteristic: Forms over geological timescales.",
+        "difficulty": "Easy",
+        "topic": "Coal · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q09",
+        "question": "Coal: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Conservation includes habitats as well as individual species",
+          "Refusing needless disposable packaging is an example",
+          "Burning it releases stored carbon into the atmosphere",
+          "Contour bunds and vegetation can slow runoff"
+        ],
+        "answer": 2,
+        "explanation": "Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere.",
+        "difficulty": "Easy",
+        "topic": "Coal · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q10",
+        "question": "Groundwater: which option correctly identifies the resource or management category?",
+        "options": [
+          "Variety of life across genetic, species and ecosystem levels",
+          "Water stored in subsurface pores and fractures",
+          "A water-conservation practice",
+          "Planning linked land and water use in a drainage area"
+        ],
+        "answer": 1,
+        "explanation": "Groundwater — resource or management category: Water stored in subsurface pores and fractures.",
+        "difficulty": "Easy",
+        "topic": "Groundwater · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q11",
+        "question": "Groundwater: which option correctly identifies the key characteristic?",
+        "options": [
+          "Can be depleted when withdrawal exceeds recharge",
+          "Upstream activities can affect downstream water and sediment",
+          "Contributes to ecosystem functioning and resilience",
+          "Prevents waste before it is generated"
+        ],
+        "answer": 0,
+        "explanation": "Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge.",
+        "difficulty": "Easy",
+        "topic": "Groundwater · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q12",
+        "question": "Groundwater: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Conservation includes habitats as well as individual species",
+          "Refusing needless disposable packaging is an example",
+          "Refilling a durable bottle is an example",
+          "Recharge and pumping need coordinated management"
+        ],
+        "answer": 3,
+        "explanation": "Groundwater — appropriate example or implication: Recharge and pumping need coordinated management.",
+        "difficulty": "Easy",
+        "topic": "Groundwater · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q13",
+        "question": "Rainwater harvesting: which option correctly identifies the resource or management category?",
+        "options": [
+          "Variety of life across genetic, species and ecosystem levels",
+          "Avoidance of unnecessary material consumption",
+          "A water-conservation practice",
+          "Planning linked land and water use in a drainage area"
+        ],
+        "answer": 2,
+        "explanation": "Rainwater harvesting — resource or management category: A water-conservation practice.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q14",
+        "question": "Rainwater harvesting: which option correctly identifies the key characteristic?",
+        "options": [
+          "Extends a product's useful life",
+          "Collects rainfall for storage or recharge",
+          "Contributes to ecosystem functioning and resilience",
+          "Prevents waste before it is generated"
+        ],
+        "answer": 1,
+        "explanation": "Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q15",
+        "question": "Rainwater harvesting: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Rooftop collection can support local water availability",
+          "Refusing needless disposable packaging is an example",
+          "Refilling a durable bottle is an example",
+          "Reprocessing recovered paper is an example"
+        ],
+        "answer": 0,
+        "explanation": "Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q16",
+        "question": "Watershed management: which option correctly identifies the resource or management category?",
+        "options": [
+          "Variety of life across genetic, species and ecosystem levels",
+          "Avoidance of unnecessary material consumption",
+          "Using an item again without full material reprocessing",
+          "Planning linked land and water use in a drainage area"
+        ],
+        "answer": 3,
+        "explanation": "Watershed management — resource or management category: Planning linked land and water use in a drainage area.",
+        "difficulty": "Easy",
+        "topic": "Watershed management · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q17",
+        "question": "Watershed management: which option correctly identifies the key characteristic?",
+        "options": [
+          "Extends a product's useful life",
+          "Requires collection and suitable processing",
+          "Upstream activities can affect downstream water and sediment",
+          "Prevents waste before it is generated"
+        ],
+        "answer": 2,
+        "explanation": "Watershed management — key characteristic: Upstream activities can affect downstream water and sediment.",
+        "difficulty": "Easy",
+        "topic": "Watershed management · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q18",
+        "question": "Watershed management: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Can be captured using solar devices",
+          "Contour bunds and vegetation can slow runoff",
+          "Refilling a durable bottle is an example",
+          "Reprocessing recovered paper is an example"
+        ],
+        "answer": 1,
+        "explanation": "Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff.",
+        "difficulty": "Easy",
+        "topic": "Watershed management · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q19",
+        "question": "Biodiversity: which option correctly identifies the resource or management category?",
+        "options": [
+          "Variety of life across genetic, species and ecosystem levels",
+          "Avoidance of unnecessary material consumption",
+          "Using an item again without full material reprocessing",
+          "Reprocessing discarded material into usable material"
+        ],
+        "answer": 0,
+        "explanation": "Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels.",
+        "difficulty": "Easy",
+        "topic": "Biodiversity · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q20",
+        "question": "Biodiversity: which option correctly identifies the key characteristic?",
+        "options": [
+          "Extends a product's useful life",
+          "Requires collection and suitable processing",
+          "Continually supplied on human timescales",
+          "Contributes to ecosystem functioning and resilience"
+        ],
+        "answer": 3,
+        "explanation": "Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience.",
+        "difficulty": "Easy",
+        "topic": "Biodiversity · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q21",
+        "question": "Biodiversity: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Can be captured using solar devices",
+          "Burning it releases stored carbon into the atmosphere",
+          "Conservation includes habitats as well as individual species",
+          "Reprocessing recovered paper is an example"
+        ],
+        "answer": 2,
+        "explanation": "Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species.",
+        "difficulty": "Easy",
+        "topic": "Biodiversity · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q22",
+        "question": "Reduce: which option correctly identifies the resource or management category?",
+        "options": [
+          "A renewable energy flow",
+          "Avoidance of unnecessary material consumption",
+          "Using an item again without full material reprocessing",
+          "Reprocessing discarded material into usable material"
+        ],
+        "answer": 1,
+        "explanation": "Reduce — resource or management category: Avoidance of unnecessary material consumption.",
+        "difficulty": "Easy",
+        "topic": "Reduce · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q23",
+        "question": "Reduce: which option correctly identifies the key characteristic?",
+        "options": [
+          "Prevents waste before it is generated",
+          "Requires collection and suitable processing",
+          "Continually supplied on human timescales",
+          "Forms over geological timescales"
+        ],
+        "answer": 0,
+        "explanation": "Reduce — key characteristic: Prevents waste before it is generated.",
+        "difficulty": "Easy",
+        "topic": "Reduce · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q24",
+        "question": "Reduce: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Recharge and pumping need coordinated management",
+          "Rooftop collection can support local water availability",
+          "Contour bunds and vegetation can slow runoff",
+          "Refusing needless disposable packaging is an example"
+        ],
+        "answer": 3,
+        "explanation": "Reduce — appropriate example or implication: Refusing needless disposable packaging is an example.",
+        "difficulty": "Easy",
+        "topic": "Reduce · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q25",
+        "question": "Reuse: which option correctly identifies the resource or management category?",
+        "options": [
+          "A renewable energy flow",
+          "A non-renewable fossil fuel",
+          "Using an item again without full material reprocessing",
+          "Reprocessing discarded material into usable material"
+        ],
+        "answer": 2,
+        "explanation": "Reuse — resource or management category: Using an item again without full material reprocessing.",
+        "difficulty": "Easy",
+        "topic": "Reuse · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q26",
+        "question": "Reuse: which option correctly identifies the key characteristic?",
+        "options": [
+          "Can be depleted when withdrawal exceeds recharge",
+          "Extends a product's useful life",
+          "Continually supplied on human timescales",
+          "Forms over geological timescales"
+        ],
+        "answer": 1,
+        "explanation": "Reuse — key characteristic: Extends a product's useful life.",
+        "difficulty": "Easy",
+        "topic": "Reuse · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q27",
+        "question": "Reuse: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Refilling a durable bottle is an example",
+          "Rooftop collection can support local water availability",
+          "Contour bunds and vegetation can slow runoff",
+          "Conservation includes habitats as well as individual species"
+        ],
+        "answer": 0,
+        "explanation": "Reuse — appropriate example or implication: Refilling a durable bottle is an example.",
+        "difficulty": "Easy",
+        "topic": "Reuse · appropriate example or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q28",
+        "question": "Recycle: which option correctly identifies the resource or management category?",
+        "options": [
+          "A renewable energy flow",
+          "A non-renewable fossil fuel",
+          "Water stored in subsurface pores and fractures",
+          "Reprocessing discarded material into usable material"
+        ],
+        "answer": 3,
+        "explanation": "Recycle — resource or management category: Reprocessing discarded material into usable material.",
+        "difficulty": "Easy",
+        "topic": "Recycle · resource or management category",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q29",
+        "question": "Recycle: which option correctly identifies the key characteristic?",
+        "options": [
+          "Can be depleted when withdrawal exceeds recharge",
+          "Collects rainfall for storage or recharge",
+          "Requires collection and suitable processing",
+          "Forms over geological timescales"
+        ],
+        "answer": 2,
+        "explanation": "Recycle — key characteristic: Requires collection and suitable processing.",
+        "difficulty": "Easy",
+        "topic": "Recycle · key characteristic",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-E-Q30",
+        "question": "Recycle: which option correctly identifies the appropriate example or implication?",
+        "options": [
+          "Can be captured using solar devices",
+          "Reprocessing recovered paper is an example",
+          "Contour bunds and vegetation can slow runoff",
+          "Conservation includes habitats as well as individual species"
+        ],
+        "answer": 1,
+        "explanation": "Recycle — appropriate example or implication: Reprocessing recovered paper is an example.",
+        "difficulty": "Easy",
+        "topic": "Recycle · appropriate example or implication",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH10-M": {
+    "id": "SA-DPP-27-BIO-CH10-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "M",
+    "title": "Natural Resources – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-10.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-03",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q01",
+        "question": "Why can over-pumping groundwater cause a falling water table?",
+        "options": [
+          "Wells manufacture water",
+          "Extraction exceeds recharge",
+          "All pumping creates new rainfall",
+          "Groundwater cannot move"
+        ],
+        "answer": 1,
+        "explanation": "A sustained withdrawal-recharge imbalance depletes stored groundwater.",
+        "difficulty": "Medium",
+        "topic": "Why can over-pumping groundwater cause a falling water table?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q02",
+        "question": "Why are forests important in watershed conservation?",
+        "options": [
+          "They help protect soil and regulate runoff",
+          "They stop every drop of rain",
+          "They prevent all infiltration",
+          "They consume all stream water permanently"
+        ],
+        "answer": 0,
+        "explanation": "Vegetation and litter reduce erosion and support infiltration.",
+        "difficulty": "Medium",
+        "topic": "Why are forests important in watershed conservation?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q03",
+        "question": "Which practice best reduces household material use?",
+        "options": [
+          "Replacing working items daily",
+          "Burning all recyclable waste",
+          "Using disposable goods for every task",
+          "Repairing and reusing products"
+        ],
+        "answer": 3,
+        "explanation": "Extending product life reduces demand for new materials.",
+        "difficulty": "Medium",
+        "topic": "Which practice best reduces household material use?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q04",
+        "question": "Which pair correctly matches Solar energy with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "A renewable energy flow → Forms over geological timescales",
+          "Water stored in subsurface pores and fractures → Can be depleted when withdrawal exceeds recharge",
+          "A renewable energy flow → Continually supplied on human timescales",
+          "A non-renewable fossil fuel → Continually supplied on human timescales"
+        ],
+        "answer": 2,
+        "explanation": "Solar energy — resource or management category: A renewable energy flow. Solar energy — key characteristic: Continually supplied on human timescales. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solar energy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q05",
+        "question": "Which pair correctly matches Solar energy with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Collects rainfall for storage or recharge → Recharge and pumping need coordinated management",
+          "Continually supplied on human timescales → Can be captured using solar devices",
+          "Can be depleted when withdrawal exceeds recharge → Can be captured using solar devices",
+          "Continually supplied on human timescales → Burning it releases stored carbon into the atmosphere"
+        ],
+        "answer": 1,
+        "explanation": "Solar energy — key characteristic: Continually supplied on human timescales. Solar energy — appropriate example or implication: Can be captured using solar devices. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solar energy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q06",
+        "question": "Which pair correctly matches Solar energy with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Can be captured using solar devices → A renewable energy flow",
+          "Rooftop collection can support local water availability → A renewable energy flow",
+          "Can be captured using solar devices → A non-renewable fossil fuel",
+          "Contour bunds and vegetation can slow runoff → Water stored in subsurface pores and fractures"
+        ],
+        "answer": 0,
+        "explanation": "Solar energy — appropriate example or implication: Can be captured using solar devices. Solar energy — resource or management category: A renewable energy flow. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solar energy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q07",
+        "question": "Which pair correctly matches Coal with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Water stored in subsurface pores and fractures → Forms over geological timescales",
+          "A non-renewable fossil fuel → Can be depleted when withdrawal exceeds recharge",
+          "A water-conservation practice → Collects rainfall for storage or recharge",
+          "A non-renewable fossil fuel → Forms over geological timescales"
+        ],
+        "answer": 3,
+        "explanation": "Coal — resource or management category: A non-renewable fossil fuel. Coal — key characteristic: Forms over geological timescales. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Coal",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q08",
+        "question": "Which pair correctly matches Coal with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Forms over geological timescales → Recharge and pumping need coordinated management",
+          "Upstream activities can affect downstream water and sediment → Rooftop collection can support local water availability",
+          "Forms over geological timescales → Burning it releases stored carbon into the atmosphere",
+          "Collects rainfall for storage or recharge → Burning it releases stored carbon into the atmosphere"
+        ],
+        "answer": 2,
+        "explanation": "Coal — key characteristic: Forms over geological timescales. Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Coal",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q09",
+        "question": "Which pair correctly matches Coal with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Conservation includes habitats as well as individual species → A water-conservation practice",
+          "Burning it releases stored carbon into the atmosphere → A non-renewable fossil fuel",
+          "Contour bunds and vegetation can slow runoff → A non-renewable fossil fuel",
+          "Burning it releases stored carbon into the atmosphere → Water stored in subsurface pores and fractures"
+        ],
+        "answer": 1,
+        "explanation": "Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere. Coal — resource or management category: A non-renewable fossil fuel. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Coal",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q10",
+        "question": "Which pair correctly matches Groundwater with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Water stored in subsurface pores and fractures → Can be depleted when withdrawal exceeds recharge",
+          "A water-conservation practice → Can be depleted when withdrawal exceeds recharge",
+          "Water stored in subsurface pores and fractures → Collects rainfall for storage or recharge",
+          "Planning linked land and water use in a drainage area → Upstream activities can affect downstream water and sediment"
+        ],
+        "answer": 0,
+        "explanation": "Groundwater — resource or management category: Water stored in subsurface pores and fractures. Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q11",
+        "question": "Which pair correctly matches Groundwater with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Upstream activities can affect downstream water and sediment → Recharge and pumping need coordinated management",
+          "Can be depleted when withdrawal exceeds recharge → Rooftop collection can support local water availability",
+          "Contributes to ecosystem functioning and resilience → Contour bunds and vegetation can slow runoff",
+          "Can be depleted when withdrawal exceeds recharge → Recharge and pumping need coordinated management"
+        ],
+        "answer": 3,
+        "explanation": "Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge. Groundwater — appropriate example or implication: Recharge and pumping need coordinated management. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q12",
+        "question": "Which pair correctly matches Groundwater with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Recharge and pumping need coordinated management → A water-conservation practice",
+          "Refusing needless disposable packaging is an example → Planning linked land and water use in a drainage area",
+          "Recharge and pumping need coordinated management → Water stored in subsurface pores and fractures",
+          "Conservation includes habitats as well as individual species → Water stored in subsurface pores and fractures"
+        ],
+        "answer": 2,
+        "explanation": "Groundwater — appropriate example or implication: Recharge and pumping need coordinated management. Groundwater — resource or management category: Water stored in subsurface pores and fractures. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q13",
+        "question": "Which pair correctly matches Rainwater harvesting with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Variety of life across genetic, species and ecosystem levels → Contributes to ecosystem functioning and resilience",
+          "A water-conservation practice → Collects rainfall for storage or recharge",
+          "Planning linked land and water use in a drainage area → Collects rainfall for storage or recharge",
+          "A water-conservation practice → Upstream activities can affect downstream water and sediment"
+        ],
+        "answer": 1,
+        "explanation": "Rainwater harvesting — resource or management category: A water-conservation practice. Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q14",
+        "question": "Which pair correctly matches Rainwater harvesting with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Collects rainfall for storage or recharge → Rooftop collection can support local water availability",
+          "Contributes to ecosystem functioning and resilience → Rooftop collection can support local water availability",
+          "Collects rainfall for storage or recharge → Contour bunds and vegetation can slow runoff",
+          "Prevents waste before it is generated → Conservation includes habitats as well as individual species"
+        ],
+        "answer": 0,
+        "explanation": "Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge. Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q15",
+        "question": "Which pair correctly matches Rainwater harvesting with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Refusing needless disposable packaging is an example → A water-conservation practice",
+          "Rooftop collection can support local water availability → Planning linked land and water use in a drainage area",
+          "Refilling a durable bottle is an example → Variety of life across genetic, species and ecosystem levels",
+          "Rooftop collection can support local water availability → A water-conservation practice"
+        ],
+        "answer": 3,
+        "explanation": "Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability. Rainwater harvesting — resource or management category: A water-conservation practice. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q16",
+        "question": "Which pair correctly matches Watershed management with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Planning linked land and water use in a drainage area → Contributes to ecosystem functioning and resilience",
+          "Avoidance of unnecessary material consumption → Prevents waste before it is generated",
+          "Planning linked land and water use in a drainage area → Upstream activities can affect downstream water and sediment",
+          "Variety of life across genetic, species and ecosystem levels → Upstream activities can affect downstream water and sediment"
+        ],
+        "answer": 2,
+        "explanation": "Watershed management — resource or management category: Planning linked land and water use in a drainage area. Watershed management — key characteristic: Upstream activities can affect downstream water and sediment. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed management",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q17",
+        "question": "Which pair correctly matches Watershed management with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Extends a product's useful life → Refusing needless disposable packaging is an example",
+          "Upstream activities can affect downstream water and sediment → Contour bunds and vegetation can slow runoff",
+          "Prevents waste before it is generated → Contour bunds and vegetation can slow runoff",
+          "Upstream activities can affect downstream water and sediment → Conservation includes habitats as well as individual species"
+        ],
+        "answer": 1,
+        "explanation": "Watershed management — key characteristic: Upstream activities can affect downstream water and sediment. Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed management",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q18",
+        "question": "Which pair correctly matches Watershed management with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Contour bunds and vegetation can slow runoff → Planning linked land and water use in a drainage area",
+          "Refilling a durable bottle is an example → Planning linked land and water use in a drainage area",
+          "Contour bunds and vegetation can slow runoff → Variety of life across genetic, species and ecosystem levels",
+          "Reprocessing recovered paper is an example → Avoidance of unnecessary material consumption"
+        ],
+        "answer": 0,
+        "explanation": "Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff. Watershed management — resource or management category: Planning linked land and water use in a drainage area. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed management",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q19",
+        "question": "Which pair correctly matches Biodiversity with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Avoidance of unnecessary material consumption → Contributes to ecosystem functioning and resilience",
+          "Variety of life across genetic, species and ecosystem levels → Prevents waste before it is generated",
+          "Using an item again without full material reprocessing → Extends a product's useful life",
+          "Variety of life across genetic, species and ecosystem levels → Contributes to ecosystem functioning and resilience"
+        ],
+        "answer": 3,
+        "explanation": "Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels. Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodiversity",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q20",
+        "question": "Which pair correctly matches Biodiversity with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Contributes to ecosystem functioning and resilience → Refusing needless disposable packaging is an example",
+          "Requires collection and suitable processing → Refilling a durable bottle is an example",
+          "Contributes to ecosystem functioning and resilience → Conservation includes habitats as well as individual species",
+          "Extends a product's useful life → Conservation includes habitats as well as individual species"
+        ],
+        "answer": 2,
+        "explanation": "Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience. Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodiversity",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q21",
+        "question": "Which pair correctly matches Biodiversity with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Can be captured using solar devices → Using an item again without full material reprocessing",
+          "Conservation includes habitats as well as individual species → Variety of life across genetic, species and ecosystem levels",
+          "Reprocessing recovered paper is an example → Variety of life across genetic, species and ecosystem levels",
+          "Conservation includes habitats as well as individual species → Avoidance of unnecessary material consumption"
+        ],
+        "answer": 1,
+        "explanation": "Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species. Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Biodiversity",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q22",
+        "question": "Which pair correctly matches Reduce with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Avoidance of unnecessary material consumption → Prevents waste before it is generated",
+          "Using an item again without full material reprocessing → Prevents waste before it is generated",
+          "Avoidance of unnecessary material consumption → Extends a product's useful life",
+          "Reprocessing discarded material into usable material → Requires collection and suitable processing"
+        ],
+        "answer": 0,
+        "explanation": "Reduce — resource or management category: Avoidance of unnecessary material consumption. Reduce — key characteristic: Prevents waste before it is generated. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduce",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q23",
+        "question": "Which pair correctly matches Reduce with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Requires collection and suitable processing → Refusing needless disposable packaging is an example",
+          "Prevents waste before it is generated → Can be captured using solar devices",
+          "Continually supplied on human timescales → Burning it releases stored carbon into the atmosphere",
+          "Prevents waste before it is generated → Refusing needless disposable packaging is an example"
+        ],
+        "answer": 3,
+        "explanation": "Reduce — key characteristic: Prevents waste before it is generated. Reduce — appropriate example or implication: Refusing needless disposable packaging is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduce",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q24",
+        "question": "Which pair correctly matches Reduce with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Refusing needless disposable packaging is an example → Using an item again without full material reprocessing",
+          "Rooftop collection can support local water availability → Reprocessing discarded material into usable material",
+          "Refusing needless disposable packaging is an example → Avoidance of unnecessary material consumption",
+          "Recharge and pumping need coordinated management → Avoidance of unnecessary material consumption"
+        ],
+        "answer": 2,
+        "explanation": "Reduce — appropriate example or implication: Refusing needless disposable packaging is an example. Reduce — resource or management category: Avoidance of unnecessary material consumption. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduce",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q25",
+        "question": "Which pair correctly matches Reuse with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "A renewable energy flow → Continually supplied on human timescales",
+          "Using an item again without full material reprocessing → Extends a product's useful life",
+          "Reprocessing discarded material into usable material → Extends a product's useful life",
+          "Using an item again without full material reprocessing → Requires collection and suitable processing"
+        ],
+        "answer": 1,
+        "explanation": "Reuse — resource or management category: Using an item again without full material reprocessing. Reuse — key characteristic: Extends a product's useful life. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reuse",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q26",
+        "question": "Which pair correctly matches Reuse with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Extends a product's useful life → Refilling a durable bottle is an example",
+          "Continually supplied on human timescales → Refilling a durable bottle is an example",
+          "Extends a product's useful life → Burning it releases stored carbon into the atmosphere",
+          "Forms over geological timescales → Recharge and pumping need coordinated management"
+        ],
+        "answer": 0,
+        "explanation": "Reuse — key characteristic: Extends a product's useful life. Reuse — appropriate example or implication: Refilling a durable bottle is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reuse",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q27",
+        "question": "Which pair correctly matches Reuse with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Rooftop collection can support local water availability → Using an item again without full material reprocessing",
+          "Refilling a durable bottle is an example → Reprocessing discarded material into usable material",
+          "Contour bunds and vegetation can slow runoff → A renewable energy flow",
+          "Refilling a durable bottle is an example → Using an item again without full material reprocessing"
+        ],
+        "answer": 3,
+        "explanation": "Reuse — appropriate example or implication: Refilling a durable bottle is an example. Reuse — resource or management category: Using an item again without full material reprocessing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reuse",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q28",
+        "question": "Which pair correctly matches Recycle with its resource or management category and key characteristic, in that order?",
+        "options": [
+          "Reprocessing discarded material into usable material → Continually supplied on human timescales",
+          "A non-renewable fossil fuel → Forms over geological timescales",
+          "Reprocessing discarded material into usable material → Requires collection and suitable processing",
+          "A renewable energy flow → Requires collection and suitable processing"
+        ],
+        "answer": 2,
+        "explanation": "Recycle — resource or management category: Reprocessing discarded material into usable material. Recycle — key characteristic: Requires collection and suitable processing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Recycle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q29",
+        "question": "Which pair correctly matches Recycle with its key characteristic and appropriate example or implication, in that order?",
+        "options": [
+          "Can be depleted when withdrawal exceeds recharge → Rooftop collection can support local water availability",
+          "Requires collection and suitable processing → Reprocessing recovered paper is an example",
+          "Forms over geological timescales → Reprocessing recovered paper is an example",
+          "Requires collection and suitable processing → Recharge and pumping need coordinated management"
+        ],
+        "answer": 1,
+        "explanation": "Recycle — key characteristic: Requires collection and suitable processing. Recycle — appropriate example or implication: Reprocessing recovered paper is an example. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Recycle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-M-Q30",
+        "question": "Which pair correctly matches Recycle with its appropriate example or implication and resource or management category, in that order?",
+        "options": [
+          "Reprocessing recovered paper is an example → Reprocessing discarded material into usable material",
+          "Contour bunds and vegetation can slow runoff → Reprocessing discarded material into usable material",
+          "Reprocessing recovered paper is an example → A renewable energy flow",
+          "Conservation includes habitats as well as individual species → A non-renewable fossil fuel"
+        ],
+        "answer": 0,
+        "explanation": "Recycle — appropriate example or implication: Reprocessing recovered paper is an example. Recycle — resource or management category: Reprocessing discarded material into usable material. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Recycle",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH10-H": {
+    "id": "SA-DPP-27-BIO-CH10-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch10",
+    "chapterNumber": 10,
+    "chapter": "Natural Resources",
+    "level": "H",
+    "title": "Natural Resources – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-10.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-BIO-02",
+    "recommendedDate": "2026-12-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 225,
+      "to": 248
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q01",
+        "question": "Why must a renewable resource still be managed carefully?",
+        "options": [
+          "Use can exceed its regeneration rate",
+          "Renewable means unlimited at every place and time",
+          "It never supports ecosystems",
+          "It cannot be depleted locally"
+        ],
+        "answer": 0,
+        "explanation": "Forests and groundwater can decline when consumption outpaces recovery.",
+        "difficulty": "Hard",
+        "topic": "Why must a renewable resource still be managed carefully?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q02",
+        "question": "A village restores tanks and contour bunds. What combined effect is most likely?",
+        "options": [
+          "Immediate formation of coal",
+          "Permanent elimination of drought everywhere",
+          "A guaranteed rise in seawater salinity",
+          "More local infiltration and less rapid runoff"
+        ],
+        "answer": 3,
+        "explanation": "Water-holding measures slow runoff and create recharge opportunities.",
+        "difficulty": "Hard",
+        "topic": "A village restores tanks and contour bunds. What combined effect is most likely?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q03",
+        "question": "Why should conservation decisions involve local communities?",
+        "options": [
+          "Only distant users experience environmental effects",
+          "Participation automatically removes every conflict",
+          "They depend on resources and hold knowledge relevant to practical management",
+          "They have no stake in outcomes"
+        ],
+        "answer": 2,
+        "explanation": "Shared planning can improve fairness, local suitability and sustained stewardship.",
+        "difficulty": "Hard",
+        "topic": "Why should conservation decisions involve local communities?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solar energy — resource or management category: A renewable energy flow\nII. Watershed management — key characteristic: Forms over geological timescales\nIII. Reuse — appropriate example or implication: Recharge and pumping need coordinated management",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Solar energy — resource or management category: A renewable energy flow; Watershed management — key characteristic: Upstream activities can affect downstream water and sediment; Reuse — appropriate example or implication: Refilling a durable bottle is an example.",
+        "difficulty": "Hard",
+        "topic": "Solar energy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solar energy — key characteristic: Can be depleted when withdrawal exceeds recharge\nII. Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff\nIII. Reuse — resource or management category: A water-conservation practice",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Solar energy — key characteristic: Continually supplied on human timescales; Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff; Reuse — resource or management category: Using an item again without full material reprocessing.",
+        "difficulty": "Hard",
+        "topic": "Solar energy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solar energy — appropriate example or implication: Can be captured using solar devices\nII. Watershed management — resource or management category: Planning linked land and water use in a drainage area\nIII. Reuse — key characteristic: Upstream activities can affect downstream water and sediment",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Solar energy — appropriate example or implication: Can be captured using solar devices; Watershed management — resource or management category: Planning linked land and water use in a drainage area; Reuse — key characteristic: Extends a product's useful life.",
+        "difficulty": "Hard",
+        "topic": "Solar energy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Coal — resource or management category: Planning linked land and water use in a drainage area\nII. Biodiversity — key characteristic: Upstream activities can affect downstream water and sediment\nIII. Recycle — appropriate example or implication: Reprocessing recovered paper is an example",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Coal — resource or management category: A non-renewable fossil fuel; Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience; Recycle — appropriate example or implication: Reprocessing recovered paper is an example.",
+        "difficulty": "Hard",
+        "topic": "Coal · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Coal — key characteristic: Forms over geological timescales\nII. Biodiversity — appropriate example or implication: Refusing needless disposable packaging is an example\nIII. Recycle — resource or management category: Reprocessing discarded material into usable material",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Coal — key characteristic: Forms over geological timescales; Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species; Recycle — resource or management category: Reprocessing discarded material into usable material.",
+        "difficulty": "Hard",
+        "topic": "Coal · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Coal — appropriate example or implication: Refusing needless disposable packaging is an example\nII. Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels\nIII. Recycle — key characteristic: Requires collection and suitable processing",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere; Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels; Recycle — key characteristic: Requires collection and suitable processing.",
+        "difficulty": "Hard",
+        "topic": "Coal · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater — resource or management category: Water stored in subsurface pores and fractures\nII. Reduce — key characteristic: Prevents waste before it is generated\nIII. Solar energy — appropriate example or implication: Can be captured using solar devices",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Groundwater — resource or management category: Water stored in subsurface pores and fractures; Reduce — key characteristic: Prevents waste before it is generated; Solar energy — appropriate example or implication: Can be captured using solar devices.",
+        "difficulty": "Hard",
+        "topic": "Groundwater · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater — key characteristic: Requires collection and suitable processing\nII. Reduce — appropriate example or implication: Recharge and pumping need coordinated management\nIII. Solar energy — resource or management category: Water stored in subsurface pores and fractures",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge; Reduce — appropriate example or implication: Refusing needless disposable packaging is an example; Solar energy — resource or management category: A renewable energy flow.",
+        "difficulty": "Hard",
+        "topic": "Groundwater · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater — appropriate example or implication: Recharge and pumping need coordinated management\nII. Reduce — resource or management category: A non-renewable fossil fuel\nIII. Solar energy — key characteristic: Collects rainfall for storage or recharge",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Groundwater — appropriate example or implication: Recharge and pumping need coordinated management; Reduce — resource or management category: Avoidance of unnecessary material consumption; Solar energy — key characteristic: Continually supplied on human timescales.",
+        "difficulty": "Hard",
+        "topic": "Groundwater · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — resource or management category: A non-renewable fossil fuel\nII. Reuse — key characteristic: Extends a product's useful life\nIII. Coal — appropriate example or implication: Contour bunds and vegetation can slow runoff",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Rainwater harvesting — resource or management category: A water-conservation practice; Reuse — key characteristic: Extends a product's useful life; Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge\nII. Reuse — appropriate example or implication: Refilling a durable bottle is an example\nIII. Coal — resource or management category: Variety of life across genetic, species and ecosystem levels",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge; Reuse — appropriate example or implication: Refilling a durable bottle is an example; Coal — resource or management category: A non-renewable fossil fuel.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — appropriate example or implication: Contour bunds and vegetation can slow runoff\nII. Reuse — resource or management category: Planning linked land and water use in a drainage area\nIII. Coal — key characteristic: Forms over geological timescales",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability; Reuse — resource or management category: Using an item again without full material reprocessing; Coal — key characteristic: Forms over geological timescales.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed management — resource or management category: Planning linked land and water use in a drainage area\nII. Recycle — key characteristic: Contributes to ecosystem functioning and resilience\nIII. Groundwater — appropriate example or implication: Recharge and pumping need coordinated management",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Watershed management — resource or management category: Planning linked land and water use in a drainage area; Recycle — key characteristic: Requires collection and suitable processing; Groundwater — appropriate example or implication: Recharge and pumping need coordinated management.",
+        "difficulty": "Hard",
+        "topic": "Watershed management · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed management — key characteristic: Prevents waste before it is generated\nII. Recycle — appropriate example or implication: Reprocessing recovered paper is an example\nIII. Groundwater — resource or management category: Water stored in subsurface pores and fractures",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Watershed management — key characteristic: Upstream activities can affect downstream water and sediment; Recycle — appropriate example or implication: Reprocessing recovered paper is an example; Groundwater — resource or management category: Water stored in subsurface pores and fractures.",
+        "difficulty": "Hard",
+        "topic": "Watershed management · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff\nII. Recycle — resource or management category: Reprocessing discarded material into usable material\nIII. Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff; Recycle — resource or management category: Reprocessing discarded material into usable material; Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge.",
+        "difficulty": "Hard",
+        "topic": "Watershed management · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodiversity — resource or management category: Reprocessing discarded material into usable material\nII. Solar energy — key characteristic: Forms over geological timescales\nIII. Rainwater harvesting — appropriate example or implication: Burning it releases stored carbon into the atmosphere",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels; Solar energy — key characteristic: Continually supplied on human timescales; Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability.",
+        "difficulty": "Hard",
+        "topic": "Biodiversity · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience\nII. Solar energy — appropriate example or implication: Recharge and pumping need coordinated management\nIII. Rainwater harvesting — resource or management category: Water stored in subsurface pores and fractures",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience; Solar energy — appropriate example or implication: Can be captured using solar devices; Rainwater harvesting — resource or management category: A water-conservation practice.",
+        "difficulty": "Hard",
+        "topic": "Biodiversity · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Biodiversity — appropriate example or implication: Burning it releases stored carbon into the atmosphere\nII. Solar energy — resource or management category: A renewable energy flow\nIII. Rainwater harvesting — key characteristic: Upstream activities can affect downstream water and sediment",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species; Solar energy — resource or management category: A renewable energy flow; Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge.",
+        "difficulty": "Hard",
+        "topic": "Biodiversity · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduce — resource or management category: Avoidance of unnecessary material consumption\nII. Coal — key characteristic: Forms over geological timescales\nIII. Watershed management — appropriate example or implication: Conservation includes habitats as well as individual species",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Reduce — resource or management category: Avoidance of unnecessary material consumption; Coal — key characteristic: Forms over geological timescales; Watershed management — appropriate example or implication: Contour bunds and vegetation can slow runoff.",
+        "difficulty": "Hard",
+        "topic": "Reduce · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduce — key characteristic: Collects rainfall for storage or recharge\nII. Coal — appropriate example or implication: Conservation includes habitats as well as individual species\nIII. Watershed management — resource or management category: Planning linked land and water use in a drainage area",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Reduce — key characteristic: Prevents waste before it is generated; Coal — appropriate example or implication: Burning it releases stored carbon into the atmosphere; Watershed management — resource or management category: Planning linked land and water use in a drainage area.",
+        "difficulty": "Hard",
+        "topic": "Reduce · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduce — appropriate example or implication: Refusing needless disposable packaging is an example\nII. Coal — resource or management category: Avoidance of unnecessary material consumption\nIII. Watershed management — key characteristic: Upstream activities can affect downstream water and sediment",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Reduce — appropriate example or implication: Refusing needless disposable packaging is an example; Coal — resource or management category: A non-renewable fossil fuel; Watershed management — key characteristic: Upstream activities can affect downstream water and sediment.",
+        "difficulty": "Hard",
+        "topic": "Reduce · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reuse — resource or management category: Variety of life across genetic, species and ecosystem levels\nII. Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge\nIII. Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Reuse — resource or management category: Using an item again without full material reprocessing; Groundwater — key characteristic: Can be depleted when withdrawal exceeds recharge; Biodiversity — appropriate example or implication: Conservation includes habitats as well as individual species.",
+        "difficulty": "Hard",
+        "topic": "Reuse · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reuse — key characteristic: Extends a product's useful life\nII. Groundwater — appropriate example or implication: Recharge and pumping need coordinated management\nIII. Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Reuse — key characteristic: Extends a product's useful life; Groundwater — appropriate example or implication: Recharge and pumping need coordinated management; Biodiversity — resource or management category: Variety of life across genetic, species and ecosystem levels.",
+        "difficulty": "Hard",
+        "topic": "Reuse · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reuse — appropriate example or implication: Conservation includes habitats as well as individual species\nII. Groundwater — resource or management category: A renewable energy flow\nIII. Biodiversity — key characteristic: Forms over geological timescales",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Reuse — appropriate example or implication: Refilling a durable bottle is an example; Groundwater — resource or management category: Water stored in subsurface pores and fractures; Biodiversity — key characteristic: Contributes to ecosystem functioning and resilience.",
+        "difficulty": "Hard",
+        "topic": "Reuse · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Recycle — resource or management category: Reprocessing discarded material into usable material\nII. Rainwater harvesting — key characteristic: Forms over geological timescales\nIII. Reduce — appropriate example or implication: Recharge and pumping need coordinated management",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Recycle — resource or management category: Reprocessing discarded material into usable material; Rainwater harvesting — key characteristic: Collects rainfall for storage or recharge; Reduce — appropriate example or implication: Refusing needless disposable packaging is an example.",
+        "difficulty": "Hard",
+        "topic": "Recycle · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Recycle — key characteristic: Forms over geological timescales\nII. Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability\nIII. Reduce — resource or management category: A water-conservation practice",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Recycle — key characteristic: Requires collection and suitable processing; Rainwater harvesting — appropriate example or implication: Rooftop collection can support local water availability; Reduce — resource or management category: Avoidance of unnecessary material consumption.",
+        "difficulty": "Hard",
+        "topic": "Recycle · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH10-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Recycle — appropriate example or implication: Reprocessing recovered paper is an example\nII. Rainwater harvesting — resource or management category: A water-conservation practice\nIII. Reduce — key characteristic: Upstream activities can affect downstream water and sediment",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Recycle — appropriate example or implication: Reprocessing recovered paper is an example; Rainwater harvesting — resource or management category: A water-conservation practice; Reduce — key characteristic: Prevents waste before it is generated.",
+        "difficulty": "Hard",
+        "topic": "Recycle · comparing chapter concepts",
+        "sourceChapter": 10
+      }
+    ]
+  }
+}

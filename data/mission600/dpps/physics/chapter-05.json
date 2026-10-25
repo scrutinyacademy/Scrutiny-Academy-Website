@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH05-E": {
+    "id": "SA-DPP-27-PHY-CH05-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "E",
+    "title": "Human Eye and Colourful World – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q01",
+        "question": "Which eye defect is corrected using a concave lens?",
+        "options": [
+          "Hypermetropia",
+          "Cataract directly",
+          "Colour blindness",
+          "Myopia"
+        ],
+        "answer": 3,
+        "explanation": "A concave lens diverges incoming rays so a myopic eye focuses distant objects on the retina.",
+        "difficulty": "Easy",
+        "topic": "Which eye defect is corrected using a concave lens?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q02",
+        "question": "Which part controls the amount of light entering the eye?",
+        "options": [
+          "Optic nerve",
+          "Cornea alone",
+          "Iris",
+          "Retina"
+        ],
+        "answer": 2,
+        "explanation": "The iris changes pupil size.",
+        "difficulty": "Easy",
+        "topic": "Which part controls the amount of light entering the eye?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q03",
+        "question": "Splitting white light into its component colours is called what?",
+        "options": [
+          "Diffusion",
+          "Dispersion",
+          "Reflection",
+          "Accommodation"
+        ],
+        "answer": 1,
+        "explanation": "Different wavelengths refract by different amounts.",
+        "difficulty": "Easy",
+        "topic": "Splitting white light into its component colours is called what?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q04",
+        "question": "Myopia: which option correctly identifies the primary description?",
+        "options": [
+          "Distant objects appear blurred",
+          "Adjustment of eye-lens power for different object distances",
+          "Separation of white light into component colours",
+          "Bending of light through changing atmospheric density"
+        ],
+        "answer": 0,
+        "explanation": "Myopia — primary description: Distant objects appear blurred.",
+        "difficulty": "Easy",
+        "topic": "Myopia · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q05",
+        "question": "Myopia: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Accommodation declines with age",
+          "Ciliary muscles change lens curvature",
+          "Refractive index varies with wavelength",
+          "Distant-object image forms before the retina"
+        ],
+        "answer": 3,
+        "explanation": "Myopia — mechanism or optical cause: Distant-object image forms before the retina.",
+        "difficulty": "Easy",
+        "topic": "Myopia · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q06",
+        "question": "Myopia: which option correctly identifies the correction or consequence?",
+        "options": [
+          "A prism can produce a spectrum",
+          "Contributes to the apparent twinkling of stars",
+          "Corrected using a suitable concave lens",
+          "Near vision normally requires greater lens power"
+        ],
+        "answer": 2,
+        "explanation": "Myopia — correction or consequence: Corrected using a suitable concave lens.",
+        "difficulty": "Easy",
+        "topic": "Myopia · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q07",
+        "question": "Hypermetropia: which option correctly identifies the primary description?",
+        "options": [
+          "Redirection of light by atmospheric molecules",
+          "Nearby objects appear blurred",
+          "Separation of white light into component colours",
+          "Bending of light through changing atmospheric density"
+        ],
+        "answer": 1,
+        "explanation": "Hypermetropia — primary description: Nearby objects appear blurred.",
+        "difficulty": "Easy",
+        "topic": "Hypermetropia · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q08",
+        "question": "Hypermetropia: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Near-object image tends to form behind the retina",
+          "Ciliary muscles change lens curvature",
+          "Refractive index varies with wavelength",
+          "Air layers have different refractive indices"
+        ],
+        "answer": 0,
+        "explanation": "Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina.",
+        "difficulty": "Easy",
+        "topic": "Hypermetropia · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q09",
+        "question": "Hypermetropia: which option correctly identifies the correction or consequence?",
+        "options": [
+          "A prism can produce a spectrum",
+          "Contributes to the apparent twinkling of stars",
+          "Helps explain a blue daytime sky",
+          "Corrected using a suitable convex lens"
+        ],
+        "answer": 3,
+        "explanation": "Hypermetropia — correction or consequence: Corrected using a suitable convex lens.",
+        "difficulty": "Easy",
+        "topic": "Hypermetropia · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q10",
+        "question": "Presbyopia: which option correctly identifies the primary description?",
+        "options": [
+          "Redirection of light by atmospheric molecules",
+          "The direct sunlight is relatively depleted of shorter wavelengths",
+          "Age-related difficulty focusing on near objects",
+          "Bending of light through changing atmospheric density"
+        ],
+        "answer": 2,
+        "explanation": "Presbyopia — primary description: Age-related difficulty focusing on near objects.",
+        "difficulty": "Easy",
+        "topic": "Presbyopia · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q11",
+        "question": "Presbyopia: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Shorter visible wavelengths scatter more strongly",
+          "Accommodation declines with age",
+          "Refractive index varies with wavelength",
+          "Air layers have different refractive indices"
+        ],
+        "answer": 1,
+        "explanation": "Presbyopia — mechanism or optical cause: Accommodation declines with age.",
+        "difficulty": "Easy",
+        "topic": "Presbyopia · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q12",
+        "question": "Presbyopia: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Suitable reading or multifocal lenses may be required",
+          "Contributes to the apparent twinkling of stars",
+          "Helps explain a blue daytime sky",
+          "Red and orange components become relatively prominent"
+        ],
+        "answer": 0,
+        "explanation": "Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required.",
+        "difficulty": "Easy",
+        "topic": "Presbyopia · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q13",
+        "question": "Accommodation: which option correctly identifies the primary description?",
+        "options": [
+          "Separation of white light into component colours",
+          "Bending of light through changing atmospheric density",
+          "Redirection of light by atmospheric molecules",
+          "Adjustment of eye-lens power for different object distances"
+        ],
+        "answer": 3,
+        "explanation": "Accommodation — primary description: Adjustment of eye-lens power for different object distances.",
+        "difficulty": "Easy",
+        "topic": "Accommodation · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q14",
+        "question": "Accommodation: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Shorter visible wavelengths scatter more strongly",
+          "A longer atmospheric path scatters more blue light away",
+          "Ciliary muscles change lens curvature",
+          "Air layers have different refractive indices"
+        ],
+        "answer": 2,
+        "explanation": "Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature.",
+        "difficulty": "Easy",
+        "topic": "Accommodation · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q15",
+        "question": "Accommodation: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Spectacle power alone does not remove the opacity",
+          "Near vision normally requires greater lens power",
+          "Helps explain a blue daytime sky",
+          "Red and orange components become relatively prominent"
+        ],
+        "answer": 1,
+        "explanation": "Accommodation — correction or consequence: Near vision normally requires greater lens power.",
+        "difficulty": "Easy",
+        "topic": "Accommodation · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q16",
+        "question": "Dispersion: which option correctly identifies the primary description?",
+        "options": [
+          "Separation of white light into component colours",
+          "Bending of light through changing atmospheric density",
+          "Redirection of light by atmospheric molecules",
+          "The direct sunlight is relatively depleted of shorter wavelengths"
+        ],
+        "answer": 0,
+        "explanation": "Dispersion — primary description: Separation of white light into component colours.",
+        "difficulty": "Easy",
+        "topic": "Dispersion · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q17",
+        "question": "Dispersion: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Shorter visible wavelengths scatter more strongly",
+          "A longer atmospheric path scatters more blue light away",
+          "The normally transparent lens becomes opaque",
+          "Refractive index varies with wavelength"
+        ],
+        "answer": 3,
+        "explanation": "Dispersion — mechanism or optical cause: Refractive index varies with wavelength.",
+        "difficulty": "Easy",
+        "topic": "Dispersion · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q18",
+        "question": "Dispersion: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Spectacle power alone does not remove the opacity",
+          "Corrected using a suitable concave lens",
+          "A prism can produce a spectrum",
+          "Red and orange components become relatively prominent"
+        ],
+        "answer": 2,
+        "explanation": "Dispersion — correction or consequence: A prism can produce a spectrum.",
+        "difficulty": "Easy",
+        "topic": "Dispersion · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q19",
+        "question": "Atmospheric refraction: which option correctly identifies the primary description?",
+        "options": [
+          "Clouding of the eye's lens",
+          "Bending of light through changing atmospheric density",
+          "Redirection of light by atmospheric molecules",
+          "The direct sunlight is relatively depleted of shorter wavelengths"
+        ],
+        "answer": 1,
+        "explanation": "Atmospheric refraction — primary description: Bending of light through changing atmospheric density.",
+        "difficulty": "Easy",
+        "topic": "Atmospheric refraction · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q20",
+        "question": "Atmospheric refraction: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Air layers have different refractive indices",
+          "A longer atmospheric path scatters more blue light away",
+          "The normally transparent lens becomes opaque",
+          "Distant-object image forms before the retina"
+        ],
+        "answer": 0,
+        "explanation": "Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices.",
+        "difficulty": "Easy",
+        "topic": "Atmospheric refraction · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q21",
+        "question": "Atmospheric refraction: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Spectacle power alone does not remove the opacity",
+          "Corrected using a suitable concave lens",
+          "Corrected using a suitable convex lens",
+          "Contributes to the apparent twinkling of stars"
+        ],
+        "answer": 3,
+        "explanation": "Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars.",
+        "difficulty": "Easy",
+        "topic": "Atmospheric refraction · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q22",
+        "question": "Scattering by air molecules: which option correctly identifies the primary description?",
+        "options": [
+          "Clouding of the eye's lens",
+          "Distant objects appear blurred",
+          "Redirection of light by atmospheric molecules",
+          "The direct sunlight is relatively depleted of shorter wavelengths"
+        ],
+        "answer": 2,
+        "explanation": "Scattering by air molecules — primary description: Redirection of light by atmospheric molecules.",
+        "difficulty": "Easy",
+        "topic": "Scattering by air molecules · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q23",
+        "question": "Scattering by air molecules: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Near-object image tends to form behind the retina",
+          "Shorter visible wavelengths scatter more strongly",
+          "The normally transparent lens becomes opaque",
+          "Distant-object image forms before the retina"
+        ],
+        "answer": 1,
+        "explanation": "Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly.",
+        "difficulty": "Easy",
+        "topic": "Scattering by air molecules · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q24",
+        "question": "Scattering by air molecules: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Helps explain a blue daytime sky",
+          "Corrected using a suitable concave lens",
+          "Corrected using a suitable convex lens",
+          "Suitable reading or multifocal lenses may be required"
+        ],
+        "answer": 0,
+        "explanation": "Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky.",
+        "difficulty": "Easy",
+        "topic": "Scattering by air molecules · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q25",
+        "question": "Reddish Sun near the horizon: which option correctly identifies the primary description?",
+        "options": [
+          "Clouding of the eye's lens",
+          "Distant objects appear blurred",
+          "Nearby objects appear blurred",
+          "The direct sunlight is relatively depleted of shorter wavelengths"
+        ],
+        "answer": 3,
+        "explanation": "Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths.",
+        "difficulty": "Easy",
+        "topic": "Reddish Sun near the horizon · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q26",
+        "question": "Reddish Sun near the horizon: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Near-object image tends to form behind the retina",
+          "Accommodation declines with age",
+          "A longer atmospheric path scatters more blue light away",
+          "Distant-object image forms before the retina"
+        ],
+        "answer": 2,
+        "explanation": "Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away.",
+        "difficulty": "Easy",
+        "topic": "Reddish Sun near the horizon · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q27",
+        "question": "Reddish Sun near the horizon: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Near vision normally requires greater lens power",
+          "Red and orange components become relatively prominent",
+          "Corrected using a suitable convex lens",
+          "Suitable reading or multifocal lenses may be required"
+        ],
+        "answer": 1,
+        "explanation": "Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent.",
+        "difficulty": "Easy",
+        "topic": "Reddish Sun near the horizon · correction or consequence",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q28",
+        "question": "Cataract: which option correctly identifies the primary description?",
+        "options": [
+          "Clouding of the eye's lens",
+          "Redirection of light by atmospheric molecules",
+          "The direct sunlight is relatively depleted of shorter wavelengths",
+          "Adjustment of eye-lens power for different object distances"
+        ],
+        "answer": 0,
+        "explanation": "Cataract — primary description: Clouding of the eye's lens.",
+        "difficulty": "Easy",
+        "topic": "Cataract · primary description",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q29",
+        "question": "Cataract: which option correctly identifies the mechanism or optical cause?",
+        "options": [
+          "Near-object image tends to form behind the retina",
+          "Accommodation declines with age",
+          "Ciliary muscles change lens curvature",
+          "The normally transparent lens becomes opaque"
+        ],
+        "answer": 3,
+        "explanation": "Cataract — mechanism or optical cause: The normally transparent lens becomes opaque.",
+        "difficulty": "Easy",
+        "topic": "Cataract · mechanism or optical cause",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-E-Q30",
+        "question": "Cataract: which option correctly identifies the correction or consequence?",
+        "options": [
+          "Near vision normally requires greater lens power",
+          "A prism can produce a spectrum",
+          "Spectacle power alone does not remove the opacity",
+          "Suitable reading or multifocal lenses may be required"
+        ],
+        "answer": 2,
+        "explanation": "Cataract — correction or consequence: Spectacle power alone does not remove the opacity.",
+        "difficulty": "Easy",
+        "topic": "Cataract · correction or consequence",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH05-M": {
+    "id": "SA-DPP-27-PHY-CH05-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "M",
+    "title": "Human Eye and Colourful World – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q01",
+        "question": "A myopic eye has far point 2 m. What lens power corrects distant vision?",
+        "options": [
+          "−2 D",
+          "+2 D",
+          "−0.5 D",
+          "+0.5 D"
+        ],
+        "answer": 2,
+        "explanation": "For distant objects the correcting lens forms a virtual image at −2 m; P=−0.5 D.",
+        "difficulty": "Medium",
+        "topic": "A myopic eye has far point 2 m. What lens power corrects distant vision?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q02",
+        "question": "Why does the clear daytime sky appear blue?",
+        "options": [
+          "The oceans reflect blue light onto all air",
+          "Shorter visible wavelengths scatter more strongly",
+          "Air contains blue pigment",
+          "Only blue light reaches Earth"
+        ],
+        "answer": 1,
+        "explanation": "Air molecules scatter short wavelengths much more strongly than long ones.",
+        "difficulty": "Medium",
+        "topic": "Why does the clear daytime sky appear blue?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q03",
+        "question": "When viewing a nearby object, what happens to the normal eye lens?",
+        "options": [
+          "It becomes thicker and more powerful",
+          "It becomes thinner and less powerful",
+          "It becomes opaque",
+          "Its refractive index becomes zero"
+        ],
+        "answer": 0,
+        "explanation": "Ciliary muscles allow greater curvature, reducing focal length.",
+        "difficulty": "Medium",
+        "topic": "When viewing a nearby object, what happens to the normal eye lens?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q04",
+        "question": "Which pair correctly matches Myopia with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Adjustment of eye-lens power for different object distances → Distant-object image forms before the retina",
+          "Distant objects appear blurred → Near-object image tends to form behind the retina",
+          "Separation of white light into component colours → Accommodation declines with age",
+          "Distant objects appear blurred → Distant-object image forms before the retina"
+        ],
+        "answer": 3,
+        "explanation": "Myopia — primary description: Distant objects appear blurred. Myopia — mechanism or optical cause: Distant-object image forms before the retina. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Myopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q05",
+        "question": "Which pair correctly matches Myopia with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Distant-object image forms before the retina → Corrected using a suitable convex lens",
+          "Ciliary muscles change lens curvature → Suitable reading or multifocal lenses may be required",
+          "Distant-object image forms before the retina → Corrected using a suitable concave lens",
+          "Accommodation declines with age → Corrected using a suitable concave lens"
+        ],
+        "answer": 2,
+        "explanation": "Myopia — mechanism or optical cause: Distant-object image forms before the retina. Myopia — correction or consequence: Corrected using a suitable concave lens. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Myopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q06",
+        "question": "Which pair correctly matches Myopia with its correction or consequence and primary description, in that order?",
+        "options": [
+          "A prism can produce a spectrum → Separation of white light into component colours",
+          "Corrected using a suitable concave lens → Distant objects appear blurred",
+          "Near vision normally requires greater lens power → Distant objects appear blurred",
+          "Corrected using a suitable concave lens → Adjustment of eye-lens power for different object distances"
+        ],
+        "answer": 1,
+        "explanation": "Myopia — correction or consequence: Corrected using a suitable concave lens. Myopia — primary description: Distant objects appear blurred. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Myopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q07",
+        "question": "Which pair correctly matches Hypermetropia with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Nearby objects appear blurred → Near-object image tends to form behind the retina",
+          "Separation of white light into component colours → Near-object image tends to form behind the retina",
+          "Nearby objects appear blurred → Accommodation declines with age",
+          "Bending of light through changing atmospheric density → Ciliary muscles change lens curvature"
+        ],
+        "answer": 0,
+        "explanation": "Hypermetropia — primary description: Nearby objects appear blurred. Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hypermetropia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q08",
+        "question": "Which pair correctly matches Hypermetropia with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Ciliary muscles change lens curvature → Corrected using a suitable convex lens",
+          "Near-object image tends to form behind the retina → Suitable reading or multifocal lenses may be required",
+          "Refractive index varies with wavelength → Near vision normally requires greater lens power",
+          "Near-object image tends to form behind the retina → Corrected using a suitable convex lens"
+        ],
+        "answer": 3,
+        "explanation": "Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina. Hypermetropia — correction or consequence: Corrected using a suitable convex lens. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hypermetropia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q09",
+        "question": "Which pair correctly matches Hypermetropia with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Corrected using a suitable convex lens → Separation of white light into component colours",
+          "Contributes to the apparent twinkling of stars → Bending of light through changing atmospheric density",
+          "Corrected using a suitable convex lens → Nearby objects appear blurred",
+          "A prism can produce a spectrum → Nearby objects appear blurred"
+        ],
+        "answer": 2,
+        "explanation": "Hypermetropia — correction or consequence: Corrected using a suitable convex lens. Hypermetropia — primary description: Nearby objects appear blurred. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hypermetropia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q10",
+        "question": "Which pair correctly matches Presbyopia with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Redirection of light by atmospheric molecules → Refractive index varies with wavelength",
+          "Age-related difficulty focusing on near objects → Accommodation declines with age",
+          "Bending of light through changing atmospheric density → Accommodation declines with age",
+          "Age-related difficulty focusing on near objects → Ciliary muscles change lens curvature"
+        ],
+        "answer": 1,
+        "explanation": "Presbyopia — primary description: Age-related difficulty focusing on near objects. Presbyopia — mechanism or optical cause: Accommodation declines with age. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Presbyopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q11",
+        "question": "Which pair correctly matches Presbyopia with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Accommodation declines with age → Suitable reading or multifocal lenses may be required",
+          "Refractive index varies with wavelength → Suitable reading or multifocal lenses may be required",
+          "Accommodation declines with age → Near vision normally requires greater lens power",
+          "Air layers have different refractive indices → A prism can produce a spectrum"
+        ],
+        "answer": 0,
+        "explanation": "Presbyopia — mechanism or optical cause: Accommodation declines with age. Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Presbyopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q12",
+        "question": "Which pair correctly matches Presbyopia with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Contributes to the apparent twinkling of stars → Age-related difficulty focusing on near objects",
+          "Suitable reading or multifocal lenses may be required → Bending of light through changing atmospheric density",
+          "Helps explain a blue daytime sky → Redirection of light by atmospheric molecules",
+          "Suitable reading or multifocal lenses may be required → Age-related difficulty focusing on near objects"
+        ],
+        "answer": 3,
+        "explanation": "Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required. Presbyopia — primary description: Age-related difficulty focusing on near objects. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Presbyopia",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q13",
+        "question": "Which pair correctly matches Accommodation with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Adjustment of eye-lens power for different object distances → Refractive index varies with wavelength",
+          "Bending of light through changing atmospheric density → Air layers have different refractive indices",
+          "Adjustment of eye-lens power for different object distances → Ciliary muscles change lens curvature",
+          "Separation of white light into component colours → Ciliary muscles change lens curvature"
+        ],
+        "answer": 2,
+        "explanation": "Accommodation — primary description: Adjustment of eye-lens power for different object distances. Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Accommodation",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q14",
+        "question": "Which pair correctly matches Accommodation with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Shorter visible wavelengths scatter more strongly → Contributes to the apparent twinkling of stars",
+          "Ciliary muscles change lens curvature → Near vision normally requires greater lens power",
+          "Air layers have different refractive indices → Near vision normally requires greater lens power",
+          "Ciliary muscles change lens curvature → A prism can produce a spectrum"
+        ],
+        "answer": 1,
+        "explanation": "Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature. Accommodation — correction or consequence: Near vision normally requires greater lens power. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Accommodation",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q15",
+        "question": "Which pair correctly matches Accommodation with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Near vision normally requires greater lens power → Adjustment of eye-lens power for different object distances",
+          "Helps explain a blue daytime sky → Adjustment of eye-lens power for different object distances",
+          "Near vision normally requires greater lens power → Separation of white light into component colours",
+          "Red and orange components become relatively prominent → Bending of light through changing atmospheric density"
+        ],
+        "answer": 0,
+        "explanation": "Accommodation — correction or consequence: Near vision normally requires greater lens power. Accommodation — primary description: Adjustment of eye-lens power for different object distances. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Accommodation",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q16",
+        "question": "Which pair correctly matches Dispersion with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Bending of light through changing atmospheric density → Refractive index varies with wavelength",
+          "Separation of white light into component colours → Air layers have different refractive indices",
+          "Redirection of light by atmospheric molecules → Shorter visible wavelengths scatter more strongly",
+          "Separation of white light into component colours → Refractive index varies with wavelength"
+        ],
+        "answer": 3,
+        "explanation": "Dispersion — primary description: Separation of white light into component colours. Dispersion — mechanism or optical cause: Refractive index varies with wavelength. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dispersion",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q17",
+        "question": "Which pair correctly matches Dispersion with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Refractive index varies with wavelength → Contributes to the apparent twinkling of stars",
+          "A longer atmospheric path scatters more blue light away → Helps explain a blue daytime sky",
+          "Refractive index varies with wavelength → A prism can produce a spectrum",
+          "Shorter visible wavelengths scatter more strongly → A prism can produce a spectrum"
+        ],
+        "answer": 2,
+        "explanation": "Dispersion — mechanism or optical cause: Refractive index varies with wavelength. Dispersion — correction or consequence: A prism can produce a spectrum. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dispersion",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q18",
+        "question": "Which pair correctly matches Dispersion with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Spectacle power alone does not remove the opacity → Redirection of light by atmospheric molecules",
+          "A prism can produce a spectrum → Separation of white light into component colours",
+          "Red and orange components become relatively prominent → Separation of white light into component colours",
+          "A prism can produce a spectrum → Bending of light through changing atmospheric density"
+        ],
+        "answer": 1,
+        "explanation": "Dispersion — correction or consequence: A prism can produce a spectrum. Dispersion — primary description: Separation of white light into component colours. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dispersion",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q19",
+        "question": "Which pair correctly matches Atmospheric refraction with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Bending of light through changing atmospheric density → Air layers have different refractive indices",
+          "Redirection of light by atmospheric molecules → Air layers have different refractive indices",
+          "Bending of light through changing atmospheric density → Shorter visible wavelengths scatter more strongly",
+          "The direct sunlight is relatively depleted of shorter wavelengths → A longer atmospheric path scatters more blue light away"
+        ],
+        "answer": 0,
+        "explanation": "Atmospheric refraction — primary description: Bending of light through changing atmospheric density. Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atmospheric refraction",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q20",
+        "question": "Which pair correctly matches Atmospheric refraction with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "A longer atmospheric path scatters more blue light away → Contributes to the apparent twinkling of stars",
+          "Air layers have different refractive indices → Helps explain a blue daytime sky",
+          "The normally transparent lens becomes opaque → Red and orange components become relatively prominent",
+          "Air layers have different refractive indices → Contributes to the apparent twinkling of stars"
+        ],
+        "answer": 3,
+        "explanation": "Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices. Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atmospheric refraction",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q21",
+        "question": "Which pair correctly matches Atmospheric refraction with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Contributes to the apparent twinkling of stars → Redirection of light by atmospheric molecules",
+          "Corrected using a suitable concave lens → The direct sunlight is relatively depleted of shorter wavelengths",
+          "Contributes to the apparent twinkling of stars → Bending of light through changing atmospheric density",
+          "Spectacle power alone does not remove the opacity → Bending of light through changing atmospheric density"
+        ],
+        "answer": 2,
+        "explanation": "Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars. Atmospheric refraction — primary description: Bending of light through changing atmospheric density. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atmospheric refraction",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q22",
+        "question": "Which pair correctly matches Scattering by air molecules with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Clouding of the eye's lens → The normally transparent lens becomes opaque",
+          "Redirection of light by atmospheric molecules → Shorter visible wavelengths scatter more strongly",
+          "The direct sunlight is relatively depleted of shorter wavelengths → Shorter visible wavelengths scatter more strongly",
+          "Redirection of light by atmospheric molecules → A longer atmospheric path scatters more blue light away"
+        ],
+        "answer": 1,
+        "explanation": "Scattering by air molecules — primary description: Redirection of light by atmospheric molecules. Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Scattering by air molecules",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q23",
+        "question": "Which pair correctly matches Scattering by air molecules with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Shorter visible wavelengths scatter more strongly → Helps explain a blue daytime sky",
+          "The normally transparent lens becomes opaque → Helps explain a blue daytime sky",
+          "Shorter visible wavelengths scatter more strongly → Red and orange components become relatively prominent",
+          "Distant-object image forms before the retina → Spectacle power alone does not remove the opacity"
+        ],
+        "answer": 0,
+        "explanation": "Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly. Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Scattering by air molecules",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q24",
+        "question": "Which pair correctly matches Scattering by air molecules with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Corrected using a suitable concave lens → Redirection of light by atmospheric molecules",
+          "Helps explain a blue daytime sky → The direct sunlight is relatively depleted of shorter wavelengths",
+          "Corrected using a suitable convex lens → Clouding of the eye's lens",
+          "Helps explain a blue daytime sky → Redirection of light by atmospheric molecules"
+        ],
+        "answer": 3,
+        "explanation": "Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky. Scattering by air molecules — primary description: Redirection of light by atmospheric molecules. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Scattering by air molecules",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q25",
+        "question": "Which pair correctly matches Reddish Sun near the horizon with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "The direct sunlight is relatively depleted of shorter wavelengths → The normally transparent lens becomes opaque",
+          "Distant objects appear blurred → Distant-object image forms before the retina",
+          "The direct sunlight is relatively depleted of shorter wavelengths → A longer atmospheric path scatters more blue light away",
+          "Clouding of the eye's lens → A longer atmospheric path scatters more blue light away"
+        ],
+        "answer": 2,
+        "explanation": "Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths. Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reddish Sun near the horizon",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q26",
+        "question": "Which pair correctly matches Reddish Sun near the horizon with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "Near-object image tends to form behind the retina → Corrected using a suitable concave lens",
+          "A longer atmospheric path scatters more blue light away → Red and orange components become relatively prominent",
+          "Distant-object image forms before the retina → Red and orange components become relatively prominent",
+          "A longer atmospheric path scatters more blue light away → Spectacle power alone does not remove the opacity"
+        ],
+        "answer": 1,
+        "explanation": "Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away. Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reddish Sun near the horizon",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q27",
+        "question": "Which pair correctly matches Reddish Sun near the horizon with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Red and orange components become relatively prominent → The direct sunlight is relatively depleted of shorter wavelengths",
+          "Corrected using a suitable convex lens → The direct sunlight is relatively depleted of shorter wavelengths",
+          "Red and orange components become relatively prominent → Clouding of the eye's lens",
+          "Suitable reading or multifocal lenses may be required → Distant objects appear blurred"
+        ],
+        "answer": 0,
+        "explanation": "Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent. Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reddish Sun near the horizon",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q28",
+        "question": "Which pair correctly matches Cataract with its primary description and mechanism or optical cause, in that order?",
+        "options": [
+          "Redirection of light by atmospheric molecules → The normally transparent lens becomes opaque",
+          "Clouding of the eye's lens → Distant-object image forms before the retina",
+          "The direct sunlight is relatively depleted of shorter wavelengths → Near-object image tends to form behind the retina",
+          "Clouding of the eye's lens → The normally transparent lens becomes opaque"
+        ],
+        "answer": 3,
+        "explanation": "Cataract — primary description: Clouding of the eye's lens. Cataract — mechanism or optical cause: The normally transparent lens becomes opaque. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cataract",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q29",
+        "question": "Which pair correctly matches Cataract with its mechanism or optical cause and correction or consequence, in that order?",
+        "options": [
+          "The normally transparent lens becomes opaque → Corrected using a suitable concave lens",
+          "Accommodation declines with age → Corrected using a suitable convex lens",
+          "The normally transparent lens becomes opaque → Spectacle power alone does not remove the opacity",
+          "Near-object image tends to form behind the retina → Spectacle power alone does not remove the opacity"
+        ],
+        "answer": 2,
+        "explanation": "Cataract — mechanism or optical cause: The normally transparent lens becomes opaque. Cataract — correction or consequence: Spectacle power alone does not remove the opacity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cataract",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-M-Q30",
+        "question": "Which pair correctly matches Cataract with its correction or consequence and primary description, in that order?",
+        "options": [
+          "Near vision normally requires greater lens power → The direct sunlight is relatively depleted of shorter wavelengths",
+          "Spectacle power alone does not remove the opacity → Clouding of the eye's lens",
+          "Suitable reading or multifocal lenses may be required → Clouding of the eye's lens",
+          "Spectacle power alone does not remove the opacity → Redirection of light by atmospheric molecules"
+        ],
+        "answer": 1,
+        "explanation": "Cataract — correction or consequence: Spectacle power alone does not remove the opacity. Cataract — primary description: Clouding of the eye's lens. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Cataract",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH05-H": {
+    "id": "SA-DPP-27-PHY-CH05-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Human Eye and Colourful World",
+    "level": "H",
+    "title": "Human Eye and Colourful World – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-02",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 81,
+      "to": 106
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q01",
+        "question": "A person can read only beyond 50 cm. What power helps read at 25 cm?",
+        "options": [
+          "−4 D",
+          "+2 D",
+          "−2 D",
+          "+4 D"
+        ],
+        "answer": 1,
+        "explanation": "The lens must make u=−0.25 m appear at v=−0.50 m: P=1/v−1/u=2 D.",
+        "difficulty": "Hard",
+        "topic": "A person can read only beyond 50 cm. What power helps read at 25 cm?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q02",
+        "question": "Why does the Sun appear reddish near the horizon?",
+        "options": [
+          "Longer atmospheric paths scatter much of the shorter-wavelength light away",
+          "The Sun's surface suddenly cools each evening",
+          "Red light scatters most strongly",
+          "The atmosphere emits only red light"
+        ],
+        "answer": 0,
+        "explanation": "More blue and violet light is removed from the direct beam along the longer path.",
+        "difficulty": "Hard",
+        "topic": "Why does the Sun appear reddish near the horizon?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q03",
+        "question": "Why do stars twinkle more noticeably than planets?",
+        "options": [
+          "Stars switch their nuclear reactions on and off",
+          "Planets emit steadier visible light than stars",
+          "Planets lie outside the atmosphere but stars do not",
+          "A star's point-like image is strongly affected by varying atmospheric refraction"
+        ],
+        "answer": 3,
+        "explanation": "A planet's small extended disc averages many refracted rays, reducing fluctuations.",
+        "difficulty": "Hard",
+        "topic": "Why do stars twinkle more noticeably than planets?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Myopia — primary description: Adjustment of eye-lens power for different object distances\nII. Dispersion — mechanism or optical cause: Near-object image tends to form behind the retina\nIII. Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Myopia — primary description: Distant objects appear blurred; Dispersion — mechanism or optical cause: Refractive index varies with wavelength; Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent.",
+        "difficulty": "Hard",
+        "topic": "Myopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Myopia — mechanism or optical cause: Distant-object image forms before the retina\nII. Dispersion — correction or consequence: Suitable reading or multifocal lenses may be required\nIII. Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Myopia — mechanism or optical cause: Distant-object image forms before the retina; Dispersion — correction or consequence: A prism can produce a spectrum; Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths.",
+        "difficulty": "Hard",
+        "topic": "Myopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Myopia — correction or consequence: Near vision normally requires greater lens power\nII. Dispersion — primary description: Separation of white light into component colours\nIII. Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Myopia — correction or consequence: Corrected using a suitable concave lens; Dispersion — primary description: Separation of white light into component colours; Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away.",
+        "difficulty": "Hard",
+        "topic": "Myopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hypermetropia — primary description: Nearby objects appear blurred\nII. Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices\nIII. Cataract — correction or consequence: Spectacle power alone does not remove the opacity",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Hypermetropia — primary description: Nearby objects appear blurred; Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices; Cataract — correction or consequence: Spectacle power alone does not remove the opacity.",
+        "difficulty": "Hard",
+        "topic": "Hypermetropia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hypermetropia — mechanism or optical cause: Air layers have different refractive indices\nII. Atmospheric refraction — correction or consequence: Helps explain a blue daytime sky\nIII. Cataract — primary description: Separation of white light into component colours",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina; Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars; Cataract — primary description: Clouding of the eye's lens.",
+        "difficulty": "Hard",
+        "topic": "Hypermetropia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hypermetropia — correction or consequence: Corrected using a suitable convex lens\nII. Atmospheric refraction — primary description: The direct sunlight is relatively depleted of shorter wavelengths\nIII. Cataract — mechanism or optical cause: A longer atmospheric path scatters more blue light away",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Hypermetropia — correction or consequence: Corrected using a suitable convex lens; Atmospheric refraction — primary description: Bending of light through changing atmospheric density; Cataract — mechanism or optical cause: The normally transparent lens becomes opaque.",
+        "difficulty": "Hard",
+        "topic": "Hypermetropia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Presbyopia — primary description: Separation of white light into component colours\nII. Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly\nIII. Myopia — correction or consequence: Corrected using a suitable convex lens",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Presbyopia — primary description: Age-related difficulty focusing on near objects; Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly; Myopia — correction or consequence: Corrected using a suitable concave lens.",
+        "difficulty": "Hard",
+        "topic": "Presbyopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Presbyopia — mechanism or optical cause: Accommodation declines with age\nII. Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky\nIII. Myopia — primary description: The direct sunlight is relatively depleted of shorter wavelengths",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Presbyopia — mechanism or optical cause: Accommodation declines with age; Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky; Myopia — primary description: Distant objects appear blurred.",
+        "difficulty": "Hard",
+        "topic": "Presbyopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Presbyopia — correction or consequence: Corrected using a suitable concave lens\nII. Scattering by air molecules — primary description: Nearby objects appear blurred\nIII. Myopia — mechanism or optical cause: Distant-object image forms before the retina",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required; Scattering by air molecules — primary description: Redirection of light by atmospheric molecules; Myopia — mechanism or optical cause: Distant-object image forms before the retina.",
+        "difficulty": "Hard",
+        "topic": "Presbyopia · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Accommodation — primary description: Adjustment of eye-lens power for different object distances\nII. Reddish Sun near the horizon — mechanism or optical cause: Accommodation declines with age\nIII. Hypermetropia — correction or consequence: Corrected using a suitable convex lens",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Accommodation — primary description: Adjustment of eye-lens power for different object distances; Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away; Hypermetropia — correction or consequence: Corrected using a suitable convex lens.",
+        "difficulty": "Hard",
+        "topic": "Accommodation · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Accommodation — mechanism or optical cause: Accommodation declines with age\nII. Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent\nIII. Hypermetropia — primary description: Nearby objects appear blurred",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature; Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent; Hypermetropia — primary description: Nearby objects appear blurred.",
+        "difficulty": "Hard",
+        "topic": "Accommodation · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Accommodation — correction or consequence: Near vision normally requires greater lens power\nII. Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths\nIII. Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Accommodation — correction or consequence: Near vision normally requires greater lens power; Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths; Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina.",
+        "difficulty": "Hard",
+        "topic": "Accommodation · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dispersion — primary description: Bending of light through changing atmospheric density\nII. Cataract — mechanism or optical cause: Air layers have different refractive indices\nIII. Presbyopia — correction or consequence: Red and orange components become relatively prominent",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Dispersion — primary description: Separation of white light into component colours; Cataract — mechanism or optical cause: The normally transparent lens becomes opaque; Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required.",
+        "difficulty": "Hard",
+        "topic": "Dispersion · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dispersion — mechanism or optical cause: Refractive index varies with wavelength\nII. Cataract — correction or consequence: Helps explain a blue daytime sky\nIII. Presbyopia — primary description: Adjustment of eye-lens power for different object distances",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Dispersion — mechanism or optical cause: Refractive index varies with wavelength; Cataract — correction or consequence: Spectacle power alone does not remove the opacity; Presbyopia — primary description: Age-related difficulty focusing on near objects.",
+        "difficulty": "Hard",
+        "topic": "Dispersion · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dispersion — correction or consequence: Red and orange components become relatively prominent\nII. Cataract — primary description: Clouding of the eye's lens\nIII. Presbyopia — mechanism or optical cause: Distant-object image forms before the retina",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Dispersion — correction or consequence: A prism can produce a spectrum; Cataract — primary description: Clouding of the eye's lens; Presbyopia — mechanism or optical cause: Accommodation declines with age.",
+        "difficulty": "Hard",
+        "topic": "Dispersion · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atmospheric refraction — primary description: Bending of light through changing atmospheric density\nII. Myopia — mechanism or optical cause: Distant-object image forms before the retina\nIII. Accommodation — correction or consequence: Corrected using a suitable convex lens",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Atmospheric refraction — primary description: Bending of light through changing atmospheric density; Myopia — mechanism or optical cause: Distant-object image forms before the retina; Accommodation — correction or consequence: Near vision normally requires greater lens power.",
+        "difficulty": "Hard",
+        "topic": "Atmospheric refraction · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atmospheric refraction — mechanism or optical cause: Distant-object image forms before the retina\nII. Myopia — correction or consequence: Suitable reading or multifocal lenses may be required\nIII. Accommodation — primary description: Adjustment of eye-lens power for different object distances",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices; Myopia — correction or consequence: Corrected using a suitable concave lens; Accommodation — primary description: Adjustment of eye-lens power for different object distances.",
+        "difficulty": "Hard",
+        "topic": "Atmospheric refraction · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars\nII. Myopia — primary description: Redirection of light by atmospheric molecules\nIII. Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars; Myopia — primary description: Distant objects appear blurred; Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature.",
+        "difficulty": "Hard",
+        "topic": "Atmospheric refraction · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Scattering by air molecules — primary description: Age-related difficulty focusing on near objects\nII. Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina\nIII. Dispersion — correction or consequence: A prism can produce a spectrum",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Scattering by air molecules — primary description: Redirection of light by atmospheric molecules; Hypermetropia — mechanism or optical cause: Near-object image tends to form behind the retina; Dispersion — correction or consequence: A prism can produce a spectrum.",
+        "difficulty": "Hard",
+        "topic": "Scattering by air molecules · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly\nII. Hypermetropia — correction or consequence: Corrected using a suitable convex lens\nIII. Dispersion — primary description: Separation of white light into component colours",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly; Hypermetropia — correction or consequence: Corrected using a suitable convex lens; Dispersion — primary description: Separation of white light into component colours.",
+        "difficulty": "Hard",
+        "topic": "Scattering by air molecules · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Scattering by air molecules — correction or consequence: A prism can produce a spectrum\nII. Hypermetropia — primary description: Separation of white light into component colours\nIII. Dispersion — mechanism or optical cause: A longer atmospheric path scatters more blue light away",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky; Hypermetropia — primary description: Nearby objects appear blurred; Dispersion — mechanism or optical cause: Refractive index varies with wavelength.",
+        "difficulty": "Hard",
+        "topic": "Scattering by air molecules · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths\nII. Presbyopia — mechanism or optical cause: A longer atmospheric path scatters more blue light away\nIII. Atmospheric refraction — correction or consequence: Spectacle power alone does not remove the opacity",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Reddish Sun near the horizon — primary description: The direct sunlight is relatively depleted of shorter wavelengths; Presbyopia — mechanism or optical cause: Accommodation declines with age; Atmospheric refraction — correction or consequence: Contributes to the apparent twinkling of stars.",
+        "difficulty": "Hard",
+        "topic": "Reddish Sun near the horizon · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reddish Sun near the horizon — mechanism or optical cause: Shorter visible wavelengths scatter more strongly\nII. Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required\nIII. Atmospheric refraction — primary description: Distant objects appear blurred",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Reddish Sun near the horizon — mechanism or optical cause: A longer atmospheric path scatters more blue light away; Presbyopia — correction or consequence: Suitable reading or multifocal lenses may be required; Atmospheric refraction — primary description: Bending of light through changing atmospheric density.",
+        "difficulty": "Hard",
+        "topic": "Reddish Sun near the horizon · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent\nII. Presbyopia — primary description: Age-related difficulty focusing on near objects\nIII. Atmospheric refraction — mechanism or optical cause: Near-object image tends to form behind the retina",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Reddish Sun near the horizon — correction or consequence: Red and orange components become relatively prominent; Presbyopia — primary description: Age-related difficulty focusing on near objects; Atmospheric refraction — mechanism or optical cause: Air layers have different refractive indices.",
+        "difficulty": "Hard",
+        "topic": "Reddish Sun near the horizon · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cataract — primary description: The direct sunlight is relatively depleted of shorter wavelengths\nII. Accommodation — mechanism or optical cause: Near-object image tends to form behind the retina\nIII. Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Cataract — primary description: Clouding of the eye's lens; Accommodation — mechanism or optical cause: Ciliary muscles change lens curvature; Scattering by air molecules — correction or consequence: Helps explain a blue daytime sky.",
+        "difficulty": "Hard",
+        "topic": "Cataract · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cataract — mechanism or optical cause: The normally transparent lens becomes opaque\nII. Accommodation — correction or consequence: Suitable reading or multifocal lenses may be required\nIII. Scattering by air molecules — primary description: Redirection of light by atmospheric molecules",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Cataract — mechanism or optical cause: The normally transparent lens becomes opaque; Accommodation — correction or consequence: Near vision normally requires greater lens power; Scattering by air molecules — primary description: Redirection of light by atmospheric molecules.",
+        "difficulty": "Hard",
+        "topic": "Cataract · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH05-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Cataract — correction or consequence: Suitable reading or multifocal lenses may be required\nII. Accommodation — primary description: Adjustment of eye-lens power for different object distances\nIII. Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Cataract — correction or consequence: Spectacle power alone does not remove the opacity; Accommodation — primary description: Adjustment of eye-lens power for different object distances; Scattering by air molecules — mechanism or optical cause: Shorter visible wavelengths scatter more strongly.",
+        "difficulty": "Hard",
+        "topic": "Cataract · comparing chapter concepts",
+        "sourceChapter": 5
+      }
+    ]
+  }
+}

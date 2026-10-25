@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH05-E": {
+    "id": "SA-DPP-27-SOC-CH05-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch5",
+    "chapterNumber": 5,
+    "chapter": "Indian Rivers and Water Resources",
+    "level": "E",
+    "title": "Indian Rivers and Water Resources – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-01",
+    "recommendedDate": "2026-11-03",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 59,
+      "to": 71
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q01",
+        "question": "Which river generally flows west into the Arabian Sea?",
+        "options": [
+          "Godavari",
+          "Krishna",
+          "Mahanadi",
+          "Narmada"
+        ],
+        "answer": 3,
+        "explanation": "The Narmada is a major west-flowing peninsular river.",
+        "difficulty": "Easy",
+        "topic": "Which river generally flows west into the Arabian Sea?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q02",
+        "question": "What is a drainage basin?",
+        "options": [
+          "Only a dam wall",
+          "An ocean current",
+          "Land drained by a river and its tributaries",
+          "Only the river mouth"
+        ],
+        "answer": 2,
+        "explanation": "A basin includes the area contributing runoff to a river system.",
+        "difficulty": "Easy",
+        "topic": "What is a drainage basin?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q03",
+        "question": "What is groundwater?",
+        "options": [
+          "All river sediment",
+          "Water stored below the land surface",
+          "Only water in clouds",
+          "Only sea waves"
+        ],
+        "answer": 1,
+        "explanation": "It occupies pores and fractures below ground.",
+        "difficulty": "Easy",
+        "topic": "What is groundwater?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q04",
+        "question": "Ganga river system: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "A major Himalayan river system",
+          "A major trans-Himalayan river system",
+          "A large peninsular river",
+          "A major east-flowing peninsular river"
+        ],
+        "answer": 0,
+        "explanation": "Ganga river system — river-system or water concept: A major Himalayan river system.",
+        "difficulty": "Easy",
+        "topic": "Ganga river system · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q05",
+        "question": "Ganga river system: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Flows east across the Deccan region",
+          "Drains parts of the southern plateau",
+          "Flows through a rift-valley region",
+          "Drains extensive parts of the northern plains"
+        ],
+        "answer": 3,
+        "explanation": "Ganga river system — location or defining feature: Drains extensive parts of the northern plains.",
+        "difficulty": "Easy",
+        "topic": "Ganga river system · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q06",
+        "question": "Ganga river system: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Reaches the Arabian Sea",
+          "Upstream land use can affect downstream water and sediment",
+          "Flows towards the Bay of Bengal",
+          "Reaches the Bay of Bengal"
+        ],
+        "answer": 2,
+        "explanation": "Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal.",
+        "difficulty": "Easy",
+        "topic": "Ganga river system · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q07",
+        "question": "Brahmaputra river system: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "A major west-flowing peninsular river",
+          "A major trans-Himalayan river system",
+          "A large peninsular river",
+          "A major east-flowing peninsular river"
+        ],
+        "answer": 1,
+        "explanation": "Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system.",
+        "difficulty": "Easy",
+        "topic": "Brahmaputra river system · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q08",
+        "question": "Brahmaputra river system: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Passes through the Assam valley",
+          "Drains parts of the southern plateau",
+          "Flows through a rift-valley region",
+          "Includes the land drained by a river and its tributaries"
+        ],
+        "answer": 0,
+        "explanation": "Brahmaputra river system — location or defining feature: Passes through the Assam valley.",
+        "difficulty": "Easy",
+        "topic": "Brahmaputra river system · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q09",
+        "question": "Brahmaputra river system: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Reaches the Arabian Sea",
+          "Upstream land use can affect downstream water and sediment",
+          "Runoff on opposite sides enters different drainage systems",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal"
+        ],
+        "answer": 3,
+        "explanation": "Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal.",
+        "difficulty": "Easy",
+        "topic": "Brahmaputra river system · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q10",
+        "question": "Godavari: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "An area contributing water to a river system",
+          "A boundary separating drainage areas",
+          "A large peninsular river",
+          "A major west-flowing peninsular river"
+        ],
+        "answer": 2,
+        "explanation": "Godavari — river-system or water concept: A large peninsular river.",
+        "difficulty": "Easy",
+        "topic": "Godavari · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q11",
+        "question": "Godavari: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Occurs when water infiltrates and reaches groundwater storage",
+          "Flows east across the Deccan region",
+          "Includes the land drained by a river and its tributaries",
+          "Often follows higher ground"
+        ],
+        "answer": 1,
+        "explanation": "Godavari — location or defining feature: Flows east across the Deccan region.",
+        "difficulty": "Easy",
+        "topic": "Godavari · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q12",
+        "question": "Godavari: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Forms a delta at the Bay of Bengal",
+          "Runoff on opposite sides enters different drainage systems",
+          "Can be reduced by extensive impermeable paving",
+          "Can support storage or recharge rather than rapid runoff"
+        ],
+        "answer": 0,
+        "explanation": "Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal.",
+        "difficulty": "Easy",
+        "topic": "Godavari · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q13",
+        "question": "Krishna: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "An area contributing water to a river system",
+          "A boundary separating drainage areas",
+          "Replenishment of subsurface water",
+          "A major east-flowing peninsular river"
+        ],
+        "answer": 3,
+        "explanation": "Krishna — river-system or water concept: A major east-flowing peninsular river.",
+        "difficulty": "Easy",
+        "topic": "Krishna · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q14",
+        "question": "Krishna: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Occurs when water infiltrates and reaches groundwater storage",
+          "Uses structures such as tanks and rooftop systems",
+          "Drains parts of the southern plateau",
+          "Often follows higher ground"
+        ],
+        "answer": 2,
+        "explanation": "Krishna — location or defining feature: Drains parts of the southern plateau.",
+        "difficulty": "Easy",
+        "topic": "Krishna · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q15",
+        "question": "Krishna: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Flows towards the Bay of Bengal",
+          "Reaches the Bay of Bengal",
+          "Can be reduced by extensive impermeable paving",
+          "Can support storage or recharge rather than rapid runoff"
+        ],
+        "answer": 1,
+        "explanation": "Krishna — water-management implication or outlet: Reaches the Bay of Bengal.",
+        "difficulty": "Easy",
+        "topic": "Krishna · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q16",
+        "question": "Narmada: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "A major west-flowing peninsular river",
+          "An area contributing water to a river system",
+          "A boundary separating drainage areas",
+          "Replenishment of subsurface water"
+        ],
+        "answer": 0,
+        "explanation": "Narmada — river-system or water concept: A major west-flowing peninsular river.",
+        "difficulty": "Easy",
+        "topic": "Narmada · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q17",
+        "question": "Narmada: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Often follows higher ground",
+          "Occurs when water infiltrates and reaches groundwater storage",
+          "Uses structures such as tanks and rooftop systems",
+          "Flows through a rift-valley region"
+        ],
+        "answer": 3,
+        "explanation": "Narmada — location or defining feature: Flows through a rift-valley region.",
+        "difficulty": "Easy",
+        "topic": "Narmada · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q18",
+        "question": "Narmada: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Can support storage or recharge rather than rapid runoff",
+          "Flows towards the Bay of Bengal",
+          "Reaches the Arabian Sea",
+          "Can be reduced by extensive impermeable paving"
+        ],
+        "answer": 2,
+        "explanation": "Narmada — water-management implication or outlet: Reaches the Arabian Sea.",
+        "difficulty": "Easy",
+        "topic": "Narmada · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q19",
+        "question": "Drainage basin: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "Collection or local retention of rainfall",
+          "An area contributing water to a river system",
+          "A boundary separating drainage areas",
+          "Replenishment of subsurface water"
+        ],
+        "answer": 1,
+        "explanation": "Drainage basin — river-system or water concept: An area contributing water to a river system.",
+        "difficulty": "Easy",
+        "topic": "Drainage basin · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q20",
+        "question": "Drainage basin: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Includes the land drained by a river and its tributaries",
+          "Occurs when water infiltrates and reaches groundwater storage",
+          "Uses structures such as tanks and rooftop systems",
+          "Drains extensive parts of the northern plains"
+        ],
+        "answer": 0,
+        "explanation": "Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries.",
+        "difficulty": "Easy",
+        "topic": "Drainage basin · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q21",
+        "question": "Drainage basin: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Can support storage or recharge rather than rapid runoff",
+          "Flows towards the Bay of Bengal",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Upstream land use can affect downstream water and sediment"
+        ],
+        "answer": 3,
+        "explanation": "Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment.",
+        "difficulty": "Easy",
+        "topic": "Drainage basin · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q22",
+        "question": "Watershed divide: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "Collection or local retention of rainfall",
+          "A major Himalayan river system",
+          "A boundary separating drainage areas",
+          "Replenishment of subsurface water"
+        ],
+        "answer": 2,
+        "explanation": "Watershed divide — river-system or water concept: A boundary separating drainage areas.",
+        "difficulty": "Easy",
+        "topic": "Watershed divide · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q23",
+        "question": "Watershed divide: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Passes through the Assam valley",
+          "Often follows higher ground",
+          "Uses structures such as tanks and rooftop systems",
+          "Drains extensive parts of the northern plains"
+        ],
+        "answer": 1,
+        "explanation": "Watershed divide — location or defining feature: Often follows higher ground.",
+        "difficulty": "Easy",
+        "topic": "Watershed divide · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q24",
+        "question": "Watershed divide: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Runoff on opposite sides enters different drainage systems",
+          "Flows towards the Bay of Bengal",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Forms a delta at the Bay of Bengal"
+        ],
+        "answer": 0,
+        "explanation": "Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems.",
+        "difficulty": "Easy",
+        "topic": "Watershed divide · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q25",
+        "question": "Groundwater recharge: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "Collection or local retention of rainfall",
+          "A major Himalayan river system",
+          "A major trans-Himalayan river system",
+          "Replenishment of subsurface water"
+        ],
+        "answer": 3,
+        "explanation": "Groundwater recharge — river-system or water concept: Replenishment of subsurface water.",
+        "difficulty": "Easy",
+        "topic": "Groundwater recharge · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q26",
+        "question": "Groundwater recharge: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Passes through the Assam valley",
+          "Flows east across the Deccan region",
+          "Occurs when water infiltrates and reaches groundwater storage",
+          "Drains extensive parts of the northern plains"
+        ],
+        "answer": 2,
+        "explanation": "Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage.",
+        "difficulty": "Easy",
+        "topic": "Groundwater recharge · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q27",
+        "question": "Groundwater recharge: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Reaches the Bay of Bengal",
+          "Can be reduced by extensive impermeable paving",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Forms a delta at the Bay of Bengal"
+        ],
+        "answer": 1,
+        "explanation": "Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving.",
+        "difficulty": "Easy",
+        "topic": "Groundwater recharge · water-management implication or outlet",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q28",
+        "question": "Rainwater harvesting: which option correctly identifies the river-system or water concept?",
+        "options": [
+          "Collection or local retention of rainfall",
+          "A major Himalayan river system",
+          "A major trans-Himalayan river system",
+          "A large peninsular river"
+        ],
+        "answer": 0,
+        "explanation": "Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · river-system or water concept",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q29",
+        "question": "Rainwater harvesting: which option correctly identifies the location or defining feature?",
+        "options": [
+          "Passes through the Assam valley",
+          "Flows east across the Deccan region",
+          "Drains parts of the southern plateau",
+          "Uses structures such as tanks and rooftop systems"
+        ],
+        "answer": 3,
+        "explanation": "Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · location or defining feature",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-E-Q30",
+        "question": "Rainwater harvesting: which option correctly identifies the water-management implication or outlet?",
+        "options": [
+          "Reaches the Bay of Bengal",
+          "Reaches the Arabian Sea",
+          "Can support storage or recharge rather than rapid runoff",
+          "Forms a delta at the Bay of Bengal"
+        ],
+        "answer": 2,
+        "explanation": "Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff.",
+        "difficulty": "Easy",
+        "topic": "Rainwater harvesting · water-management implication or outlet",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH05-M": {
+    "id": "SA-DPP-27-SOC-CH05-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch5",
+    "chapterNumber": 5,
+    "chapter": "Indian Rivers and Water Resources",
+    "level": "M",
+    "title": "Indian Rivers and Water Resources – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-01",
+    "recommendedDate": "2026-11-04",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 59,
+      "to": 71
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q01",
+        "question": "Why are Himalayan rivers often described as perennial?",
+        "options": [
+          "They never change discharge",
+          "They all begin in the ocean",
+          "Rainfall and snow or glacier melt support their flow",
+          "They receive no seasonal inputs"
+        ],
+        "answer": 2,
+        "explanation": "Multiple water sources sustain flow, though volume varies seasonally.",
+        "difficulty": "Medium",
+        "topic": "Why are Himalayan rivers often described as perennial?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q02",
+        "question": "How can urban paving reduce groundwater recharge?",
+        "options": [
+          "It changes freshwater into petroleum",
+          "It limits infiltration and increases surface runoff",
+          "It creates unlimited new aquifers",
+          "It makes all rain evaporate instantly"
+        ],
+        "answer": 1,
+        "explanation": "Impermeable surfaces prevent rainfall from entering soil easily.",
+        "difficulty": "Medium",
+        "topic": "How can urban paving reduce groundwater recharge?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q03",
+        "question": "What is a benefit of managing a watershed as a unit?",
+        "options": [
+          "Upstream and downstream water uses can be considered together",
+          "Administrative boundaries erase river links",
+          "Only the river mouth needs attention",
+          "Soil and vegetation have no water effects"
+        ],
+        "answer": 0,
+        "explanation": "Activities in one part of a catchment affect water and sediment elsewhere.",
+        "difficulty": "Medium",
+        "topic": "What is a benefit of managing a watershed as a unit?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q04",
+        "question": "Which pair correctly matches Ganga river system with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "A major trans-Himalayan river system → Drains extensive parts of the northern plains",
+          "A major Himalayan river system → Passes through the Assam valley",
+          "A large peninsular river → Flows east across the Deccan region",
+          "A major Himalayan river system → Drains extensive parts of the northern plains"
+        ],
+        "answer": 3,
+        "explanation": "Ganga river system — river-system or water concept: A major Himalayan river system. Ganga river system — location or defining feature: Drains extensive parts of the northern plains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ganga river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q05",
+        "question": "Which pair correctly matches Ganga river system with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Drains extensive parts of the northern plains → Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Drains parts of the southern plateau → Forms a delta at the Bay of Bengal",
+          "Drains extensive parts of the northern plains → Flows towards the Bay of Bengal",
+          "Flows east across the Deccan region → Flows towards the Bay of Bengal"
+        ],
+        "answer": 2,
+        "explanation": "Ganga river system — location or defining feature: Drains extensive parts of the northern plains. Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ganga river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q06",
+        "question": "Which pair correctly matches Ganga river system with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Reaches the Arabian Sea → A large peninsular river",
+          "Flows towards the Bay of Bengal → A major Himalayan river system",
+          "Reaches the Bay of Bengal → A major Himalayan river system",
+          "Flows towards the Bay of Bengal → A major trans-Himalayan river system"
+        ],
+        "answer": 1,
+        "explanation": "Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal. Ganga river system — river-system or water concept: A major Himalayan river system. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ganga river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q07",
+        "question": "Which pair correctly matches Brahmaputra river system with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "A major trans-Himalayan river system → Passes through the Assam valley",
+          "A large peninsular river → Passes through the Assam valley",
+          "A major trans-Himalayan river system → Flows east across the Deccan region",
+          "A major east-flowing peninsular river → Drains parts of the southern plateau"
+        ],
+        "answer": 0,
+        "explanation": "Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system. Brahmaputra river system — location or defining feature: Passes through the Assam valley. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Brahmaputra river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q08",
+        "question": "Which pair correctly matches Brahmaputra river system with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Drains parts of the southern plateau → Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Passes through the Assam valley → Forms a delta at the Bay of Bengal",
+          "Flows through a rift-valley region → Reaches the Bay of Bengal",
+          "Passes through the Assam valley → Joins the Ganga-Meghna system before reaching the Bay of Bengal"
+        ],
+        "answer": 3,
+        "explanation": "Brahmaputra river system — location or defining feature: Passes through the Assam valley. Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Brahmaputra river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q09",
+        "question": "Which pair correctly matches Brahmaputra river system with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal → A large peninsular river",
+          "Upstream land use can affect downstream water and sediment → A major east-flowing peninsular river",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal → A major trans-Himalayan river system",
+          "Reaches the Arabian Sea → A major trans-Himalayan river system"
+        ],
+        "answer": 2,
+        "explanation": "Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal. Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Brahmaputra river system",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q10",
+        "question": "Which pair correctly matches Godavari with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "An area contributing water to a river system → Includes the land drained by a river and its tributaries",
+          "A large peninsular river → Flows east across the Deccan region",
+          "A major west-flowing peninsular river → Flows east across the Deccan region",
+          "A large peninsular river → Flows through a rift-valley region"
+        ],
+        "answer": 1,
+        "explanation": "Godavari — river-system or water concept: A large peninsular river. Godavari — location or defining feature: Flows east across the Deccan region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Godavari",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q11",
+        "question": "Which pair correctly matches Godavari with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Flows east across the Deccan region → Forms a delta at the Bay of Bengal",
+          "Includes the land drained by a river and its tributaries → Forms a delta at the Bay of Bengal",
+          "Flows east across the Deccan region → Reaches the Arabian Sea",
+          "Often follows higher ground → Upstream land use can affect downstream water and sediment"
+        ],
+        "answer": 0,
+        "explanation": "Godavari — location or defining feature: Flows east across the Deccan region. Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Godavari",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q12",
+        "question": "Which pair correctly matches Godavari with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Runoff on opposite sides enters different drainage systems → A large peninsular river",
+          "Forms a delta at the Bay of Bengal → A major west-flowing peninsular river",
+          "Can be reduced by extensive impermeable paving → An area contributing water to a river system",
+          "Forms a delta at the Bay of Bengal → A large peninsular river"
+        ],
+        "answer": 3,
+        "explanation": "Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal. Godavari — river-system or water concept: A large peninsular river. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Godavari",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q13",
+        "question": "Which pair correctly matches Krishna with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "A major east-flowing peninsular river → Includes the land drained by a river and its tributaries",
+          "A boundary separating drainage areas → Often follows higher ground",
+          "A major east-flowing peninsular river → Drains parts of the southern plateau",
+          "An area contributing water to a river system → Drains parts of the southern plateau"
+        ],
+        "answer": 2,
+        "explanation": "Krishna — river-system or water concept: A major east-flowing peninsular river. Krishna — location or defining feature: Drains parts of the southern plateau. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Krishna",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q14",
+        "question": "Which pair correctly matches Krishna with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Occurs when water infiltrates and reaches groundwater storage → Runoff on opposite sides enters different drainage systems",
+          "Drains parts of the southern plateau → Reaches the Bay of Bengal",
+          "Often follows higher ground → Reaches the Bay of Bengal",
+          "Drains parts of the southern plateau → Upstream land use can affect downstream water and sediment"
+        ],
+        "answer": 1,
+        "explanation": "Krishna — location or defining feature: Drains parts of the southern plateau. Krishna — water-management implication or outlet: Reaches the Bay of Bengal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Krishna",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q15",
+        "question": "Which pair correctly matches Krishna with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Reaches the Bay of Bengal → A major east-flowing peninsular river",
+          "Can be reduced by extensive impermeable paving → A major east-flowing peninsular river",
+          "Reaches the Bay of Bengal → An area contributing water to a river system",
+          "Can support storage or recharge rather than rapid runoff → A boundary separating drainage areas"
+        ],
+        "answer": 0,
+        "explanation": "Krishna — water-management implication or outlet: Reaches the Bay of Bengal. Krishna — river-system or water concept: A major east-flowing peninsular river. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Krishna",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q16",
+        "question": "Which pair correctly matches Narmada with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "An area contributing water to a river system → Flows through a rift-valley region",
+          "A major west-flowing peninsular river → Includes the land drained by a river and its tributaries",
+          "A boundary separating drainage areas → Often follows higher ground",
+          "A major west-flowing peninsular river → Flows through a rift-valley region"
+        ],
+        "answer": 3,
+        "explanation": "Narmada — river-system or water concept: A major west-flowing peninsular river. Narmada — location or defining feature: Flows through a rift-valley region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q17",
+        "question": "Which pair correctly matches Narmada with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Flows through a rift-valley region → Upstream land use can affect downstream water and sediment",
+          "Occurs when water infiltrates and reaches groundwater storage → Runoff on opposite sides enters different drainage systems",
+          "Flows through a rift-valley region → Reaches the Arabian Sea",
+          "Often follows higher ground → Reaches the Arabian Sea"
+        ],
+        "answer": 2,
+        "explanation": "Narmada — location or defining feature: Flows through a rift-valley region. Narmada — water-management implication or outlet: Reaches the Arabian Sea. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q18",
+        "question": "Which pair correctly matches Narmada with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Can support storage or recharge rather than rapid runoff → A boundary separating drainage areas",
+          "Reaches the Arabian Sea → A major west-flowing peninsular river",
+          "Can be reduced by extensive impermeable paving → A major west-flowing peninsular river",
+          "Reaches the Arabian Sea → An area contributing water to a river system"
+        ],
+        "answer": 1,
+        "explanation": "Narmada — water-management implication or outlet: Reaches the Arabian Sea. Narmada — river-system or water concept: A major west-flowing peninsular river. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q19",
+        "question": "Which pair correctly matches Drainage basin with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "An area contributing water to a river system → Includes the land drained by a river and its tributaries",
+          "A boundary separating drainage areas → Includes the land drained by a river and its tributaries",
+          "An area contributing water to a river system → Often follows higher ground",
+          "Replenishment of subsurface water → Occurs when water infiltrates and reaches groundwater storage"
+        ],
+        "answer": 0,
+        "explanation": "Drainage basin — river-system or water concept: An area contributing water to a river system. Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drainage basin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q20",
+        "question": "Which pair correctly matches Drainage basin with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Occurs when water infiltrates and reaches groundwater storage → Upstream land use can affect downstream water and sediment",
+          "Includes the land drained by a river and its tributaries → Runoff on opposite sides enters different drainage systems",
+          "Uses structures such as tanks and rooftop systems → Can be reduced by extensive impermeable paving",
+          "Includes the land drained by a river and its tributaries → Upstream land use can affect downstream water and sediment"
+        ],
+        "answer": 3,
+        "explanation": "Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries. Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drainage basin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q21",
+        "question": "Which pair correctly matches Drainage basin with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Upstream land use can affect downstream water and sediment → A boundary separating drainage areas",
+          "Flows towards the Bay of Bengal → Replenishment of subsurface water",
+          "Upstream land use can affect downstream water and sediment → An area contributing water to a river system",
+          "Can support storage or recharge rather than rapid runoff → An area contributing water to a river system"
+        ],
+        "answer": 2,
+        "explanation": "Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment. Drainage basin — river-system or water concept: An area contributing water to a river system. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drainage basin",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q22",
+        "question": "Which pair correctly matches Watershed divide with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "Collection or local retention of rainfall → Uses structures such as tanks and rooftop systems",
+          "A boundary separating drainage areas → Often follows higher ground",
+          "Replenishment of subsurface water → Often follows higher ground",
+          "A boundary separating drainage areas → Occurs when water infiltrates and reaches groundwater storage"
+        ],
+        "answer": 1,
+        "explanation": "Watershed divide — river-system or water concept: A boundary separating drainage areas. Watershed divide — location or defining feature: Often follows higher ground. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed divide",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q23",
+        "question": "Which pair correctly matches Watershed divide with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Often follows higher ground → Runoff on opposite sides enters different drainage systems",
+          "Uses structures such as tanks and rooftop systems → Runoff on opposite sides enters different drainage systems",
+          "Often follows higher ground → Can be reduced by extensive impermeable paving",
+          "Drains extensive parts of the northern plains → Can support storage or recharge rather than rapid runoff"
+        ],
+        "answer": 0,
+        "explanation": "Watershed divide — location or defining feature: Often follows higher ground. Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed divide",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q24",
+        "question": "Which pair correctly matches Watershed divide with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Flows towards the Bay of Bengal → A boundary separating drainage areas",
+          "Runoff on opposite sides enters different drainage systems → Replenishment of subsurface water",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal → Collection or local retention of rainfall",
+          "Runoff on opposite sides enters different drainage systems → A boundary separating drainage areas"
+        ],
+        "answer": 3,
+        "explanation": "Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems. Watershed divide — river-system or water concept: A boundary separating drainage areas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Watershed divide",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q25",
+        "question": "Which pair correctly matches Groundwater recharge with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "Replenishment of subsurface water → Uses structures such as tanks and rooftop systems",
+          "A major Himalayan river system → Drains extensive parts of the northern plains",
+          "Replenishment of subsurface water → Occurs when water infiltrates and reaches groundwater storage",
+          "Collection or local retention of rainfall → Occurs when water infiltrates and reaches groundwater storage"
+        ],
+        "answer": 2,
+        "explanation": "Groundwater recharge — river-system or water concept: Replenishment of subsurface water. Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater recharge",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q26",
+        "question": "Which pair correctly matches Groundwater recharge with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Passes through the Assam valley → Flows towards the Bay of Bengal",
+          "Occurs when water infiltrates and reaches groundwater storage → Can be reduced by extensive impermeable paving",
+          "Drains extensive parts of the northern plains → Can be reduced by extensive impermeable paving",
+          "Occurs when water infiltrates and reaches groundwater storage → Can support storage or recharge rather than rapid runoff"
+        ],
+        "answer": 1,
+        "explanation": "Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage. Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater recharge",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q27",
+        "question": "Which pair correctly matches Groundwater recharge with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Can be reduced by extensive impermeable paving → Replenishment of subsurface water",
+          "Joins the Ganga-Meghna system before reaching the Bay of Bengal → Replenishment of subsurface water",
+          "Can be reduced by extensive impermeable paving → Collection or local retention of rainfall",
+          "Forms a delta at the Bay of Bengal → A major Himalayan river system"
+        ],
+        "answer": 0,
+        "explanation": "Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving. Groundwater recharge — river-system or water concept: Replenishment of subsurface water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Groundwater recharge",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q28",
+        "question": "Which pair correctly matches Rainwater harvesting with its river-system or water concept and location or defining feature, in that order?",
+        "options": [
+          "A major Himalayan river system → Uses structures such as tanks and rooftop systems",
+          "Collection or local retention of rainfall → Drains extensive parts of the northern plains",
+          "A major trans-Himalayan river system → Passes through the Assam valley",
+          "Collection or local retention of rainfall → Uses structures such as tanks and rooftop systems"
+        ],
+        "answer": 3,
+        "explanation": "Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall. Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q29",
+        "question": "Which pair correctly matches Rainwater harvesting with its location or defining feature and water-management implication or outlet, in that order?",
+        "options": [
+          "Uses structures such as tanks and rooftop systems → Flows towards the Bay of Bengal",
+          "Flows east across the Deccan region → Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+          "Uses structures such as tanks and rooftop systems → Can support storage or recharge rather than rapid runoff",
+          "Passes through the Assam valley → Can support storage or recharge rather than rapid runoff"
+        ],
+        "answer": 2,
+        "explanation": "Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems. Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-M-Q30",
+        "question": "Which pair correctly matches Rainwater harvesting with its water-management implication or outlet and river-system or water concept, in that order?",
+        "options": [
+          "Reaches the Bay of Bengal → A major trans-Himalayan river system",
+          "Can support storage or recharge rather than rapid runoff → Collection or local retention of rainfall",
+          "Forms a delta at the Bay of Bengal → Collection or local retention of rainfall",
+          "Can support storage or recharge rather than rapid runoff → A major Himalayan river system"
+        ],
+        "answer": 1,
+        "explanation": "Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff. Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rainwater harvesting",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH05-H": {
+    "id": "SA-DPP-27-SOC-CH05-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch5",
+    "chapterNumber": 5,
+    "chapter": "Indian Rivers and Water Resources",
+    "level": "H",
+    "title": "Indian Rivers and Water Resources – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-05.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-01",
+    "recommendedDate": "2026-11-05",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 59,
+      "to": 71
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q01",
+        "question": "Two districts share an aquifer. Why can unregulated pumping in one affect the other?",
+        "options": [
+          "Each well creates a separate planet",
+          "Groundwater systems can extend across administrative boundaries",
+          "Water cannot move underground",
+          "District borders block all seepage"
+        ],
+        "answer": 1,
+        "explanation": "Shared storage and hydraulic connections make extraction effects collective.",
+        "difficulty": "Hard",
+        "topic": "Two districts share an aquifer. Why can unregulated pumping in one affect the other?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q02",
+        "question": "Why can a large dam create both benefits and conflicts?",
+        "options": [
+          "Irrigation and power gains may accompany displacement and ecosystem changes",
+          "Every dam benefits every group equally",
+          "Dams have no social effects",
+          "Only fishers use river water"
+        ],
+        "answer": 0,
+        "explanation": "Water projects redistribute opportunities and costs among groups and places.",
+        "difficulty": "Hard",
+        "topic": "Why can a large dam create both benefits and conflicts?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q03",
+        "question": "Why combine water conservation with demand management?",
+        "options": [
+          "Demand can never change",
+          "Conservation creates water without limits",
+          "Efficiency removes every need for governance",
+          "New supply alone may not prevent overuse"
+        ],
+        "answer": 3,
+        "explanation": "Sustainable use also requires crop choices, regulation and responsible consumption.",
+        "difficulty": "Hard",
+        "topic": "Why combine water conservation with demand management?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ganga river system — river-system or water concept: A major trans-Himalayan river system\nII. Narmada — location or defining feature: Passes through the Assam valley\nIII. Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Ganga river system — river-system or water concept: A major Himalayan river system; Narmada — location or defining feature: Flows through a rift-valley region; Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving.",
+        "difficulty": "Hard",
+        "topic": "Ganga river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ganga river system — location or defining feature: Drains extensive parts of the northern plains\nII. Narmada — water-management implication or outlet: Forms a delta at the Bay of Bengal\nIII. Groundwater recharge — river-system or water concept: Replenishment of subsurface water",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Ganga river system — location or defining feature: Drains extensive parts of the northern plains; Narmada — water-management implication or outlet: Reaches the Arabian Sea; Groundwater recharge — river-system or water concept: Replenishment of subsurface water.",
+        "difficulty": "Hard",
+        "topic": "Ganga river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ganga river system — water-management implication or outlet: Reaches the Bay of Bengal\nII. Narmada — river-system or water concept: A major west-flowing peninsular river\nIII. Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal; Narmada — river-system or water concept: A major west-flowing peninsular river; Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage.",
+        "difficulty": "Hard",
+        "topic": "Ganga river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system\nII. Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries\nIII. Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system; Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries; Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff.",
+        "difficulty": "Hard",
+        "topic": "Brahmaputra river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Brahmaputra river system — location or defining feature: Includes the land drained by a river and its tributaries\nII. Drainage basin — water-management implication or outlet: Runoff on opposite sides enters different drainage systems\nIII. Rainwater harvesting — river-system or water concept: A boundary separating drainage areas",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Brahmaputra river system — location or defining feature: Passes through the Assam valley; Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment; Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall.",
+        "difficulty": "Hard",
+        "topic": "Brahmaputra river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal\nII. Drainage basin — river-system or water concept: Replenishment of subsurface water\nIII. Rainwater harvesting — location or defining feature: Occurs when water infiltrates and reaches groundwater storage",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal; Drainage basin — river-system or water concept: An area contributing water to a river system; Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems.",
+        "difficulty": "Hard",
+        "topic": "Brahmaputra river system · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Godavari — river-system or water concept: Collection or local retention of rainfall\nII. Watershed divide — location or defining feature: Often follows higher ground\nIII. Ganga river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Godavari — river-system or water concept: A large peninsular river; Watershed divide — location or defining feature: Often follows higher ground; Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal.",
+        "difficulty": "Hard",
+        "topic": "Godavari · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Godavari — location or defining feature: Flows east across the Deccan region\nII. Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems\nIII. Ganga river system — river-system or water concept: A large peninsular river",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Godavari — location or defining feature: Flows east across the Deccan region; Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems; Ganga river system — river-system or water concept: A major Himalayan river system.",
+        "difficulty": "Hard",
+        "topic": "Godavari · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Godavari — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal\nII. Watershed divide — river-system or water concept: A major trans-Himalayan river system\nIII. Ganga river system — location or defining feature: Drains extensive parts of the northern plains",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal; Watershed divide — river-system or water concept: A boundary separating drainage areas; Ganga river system — location or defining feature: Drains extensive parts of the northern plains.",
+        "difficulty": "Hard",
+        "topic": "Godavari · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Krishna — river-system or water concept: A major east-flowing peninsular river\nII. Groundwater recharge — location or defining feature: Flows east across the Deccan region\nIII. Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Krishna — river-system or water concept: A major east-flowing peninsular river; Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage; Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal.",
+        "difficulty": "Hard",
+        "topic": "Krishna · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Krishna — location or defining feature: Includes the land drained by a river and its tributaries\nII. Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving\nIII. Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Krishna — location or defining feature: Drains parts of the southern plateau; Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving; Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system.",
+        "difficulty": "Hard",
+        "topic": "Krishna · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Krishna — water-management implication or outlet: Reaches the Bay of Bengal\nII. Groundwater recharge — river-system or water concept: Replenishment of subsurface water\nIII. Brahmaputra river system — location or defining feature: Passes through the Assam valley",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Krishna — water-management implication or outlet: Reaches the Bay of Bengal; Groundwater recharge — river-system or water concept: Replenishment of subsurface water; Brahmaputra river system — location or defining feature: Passes through the Assam valley.",
+        "difficulty": "Hard",
+        "topic": "Krishna · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada — river-system or water concept: An area contributing water to a river system\nII. Rainwater harvesting — location or defining feature: Includes the land drained by a river and its tributaries\nIII. Godavari — water-management implication or outlet: Flows towards the Bay of Bengal",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Narmada — river-system or water concept: A major west-flowing peninsular river; Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems; Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal.",
+        "difficulty": "Hard",
+        "topic": "Narmada · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada — location or defining feature: Flows through a rift-valley region\nII. Rainwater harvesting — water-management implication or outlet: Runoff on opposite sides enters different drainage systems\nIII. Godavari — river-system or water concept: A major trans-Himalayan river system",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Narmada — location or defining feature: Flows through a rift-valley region; Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff; Godavari — river-system or water concept: A large peninsular river.",
+        "difficulty": "Hard",
+        "topic": "Narmada · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada — water-management implication or outlet: Can be reduced by extensive impermeable paving\nII. Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall\nIII. Godavari — location or defining feature: Flows through a rift-valley region",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Narmada — water-management implication or outlet: Reaches the Arabian Sea; Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall; Godavari — location or defining feature: Flows east across the Deccan region.",
+        "difficulty": "Hard",
+        "topic": "Narmada · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drainage basin — river-system or water concept: An area contributing water to a river system\nII. Ganga river system — location or defining feature: Drains extensive parts of the northern plains\nIII. Krishna — water-management implication or outlet: Upstream land use can affect downstream water and sediment",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Drainage basin — river-system or water concept: An area contributing water to a river system; Ganga river system — location or defining feature: Drains extensive parts of the northern plains; Krishna — water-management implication or outlet: Reaches the Bay of Bengal.",
+        "difficulty": "Hard",
+        "topic": "Drainage basin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drainage basin — location or defining feature: Drains extensive parts of the northern plains\nII. Ganga river system — water-management implication or outlet: Forms a delta at the Bay of Bengal\nIII. Krishna — river-system or water concept: A major east-flowing peninsular river",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries; Ganga river system — water-management implication or outlet: Flows towards the Bay of Bengal; Krishna — river-system or water concept: A major east-flowing peninsular river.",
+        "difficulty": "Hard",
+        "topic": "Drainage basin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment\nII. Ganga river system — river-system or water concept: A major east-flowing peninsular river\nIII. Krishna — location or defining feature: Drains parts of the southern plateau",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment; Ganga river system — river-system or water concept: A major Himalayan river system; Krishna — location or defining feature: Drains parts of the southern plateau.",
+        "difficulty": "Hard",
+        "topic": "Drainage basin · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed divide — river-system or water concept: A large peninsular river\nII. Brahmaputra river system — location or defining feature: Passes through the Assam valley\nIII. Narmada — water-management implication or outlet: Reaches the Arabian Sea",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Watershed divide — river-system or water concept: A boundary separating drainage areas; Brahmaputra river system — location or defining feature: Passes through the Assam valley; Narmada — water-management implication or outlet: Reaches the Arabian Sea.",
+        "difficulty": "Hard",
+        "topic": "Watershed divide · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed divide — location or defining feature: Often follows higher ground\nII. Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal\nIII. Narmada — river-system or water concept: A major west-flowing peninsular river",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Watershed divide — location or defining feature: Often follows higher ground; Brahmaputra river system — water-management implication or outlet: Joins the Ganga-Meghna system before reaching the Bay of Bengal; Narmada — river-system or water concept: A major west-flowing peninsular river.",
+        "difficulty": "Hard",
+        "topic": "Watershed divide · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Watershed divide — water-management implication or outlet: Reaches the Arabian Sea\nII. Brahmaputra river system — river-system or water concept: A boundary separating drainage areas\nIII. Narmada — location or defining feature: Occurs when water infiltrates and reaches groundwater storage",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems; Brahmaputra river system — river-system or water concept: A major trans-Himalayan river system; Narmada — location or defining feature: Flows through a rift-valley region.",
+        "difficulty": "Hard",
+        "topic": "Watershed divide · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater recharge — river-system or water concept: Replenishment of subsurface water\nII. Godavari — location or defining feature: Passes through the Assam valley\nIII. Drainage basin — water-management implication or outlet: Can support storage or recharge rather than rapid runoff",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Groundwater recharge — river-system or water concept: Replenishment of subsurface water; Godavari — location or defining feature: Flows east across the Deccan region; Drainage basin — water-management implication or outlet: Upstream land use can affect downstream water and sediment.",
+        "difficulty": "Hard",
+        "topic": "Groundwater recharge · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater recharge — location or defining feature: Often follows higher ground\nII. Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal\nIII. Drainage basin — river-system or water concept: A major Himalayan river system",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Groundwater recharge — location or defining feature: Occurs when water infiltrates and reaches groundwater storage; Godavari — water-management implication or outlet: Forms a delta at the Bay of Bengal; Drainage basin — river-system or water concept: An area contributing water to a river system.",
+        "difficulty": "Hard",
+        "topic": "Groundwater recharge · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving\nII. Godavari — river-system or water concept: A large peninsular river\nIII. Drainage basin — location or defining feature: Passes through the Assam valley",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Groundwater recharge — water-management implication or outlet: Can be reduced by extensive impermeable paving; Godavari — river-system or water concept: A large peninsular river; Drainage basin — location or defining feature: Includes the land drained by a river and its tributaries.",
+        "difficulty": "Hard",
+        "topic": "Groundwater recharge · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — river-system or water concept: A major Himalayan river system\nII. Krishna — location or defining feature: Often follows higher ground\nIII. Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Rainwater harvesting — river-system or water concept: Collection or local retention of rainfall; Krishna — location or defining feature: Drains parts of the southern plateau; Watershed divide — water-management implication or outlet: Runoff on opposite sides enters different drainage systems.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems\nII. Krishna — water-management implication or outlet: Can be reduced by extensive impermeable paving\nIII. Watershed divide — river-system or water concept: A boundary separating drainage areas",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Rainwater harvesting — location or defining feature: Uses structures such as tanks and rooftop systems; Krishna — water-management implication or outlet: Reaches the Bay of Bengal; Watershed divide — river-system or water concept: A boundary separating drainage areas.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH05-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rainwater harvesting — water-management implication or outlet: Forms a delta at the Bay of Bengal\nII. Krishna — river-system or water concept: A major east-flowing peninsular river\nIII. Watershed divide — location or defining feature: Often follows higher ground",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Rainwater harvesting — water-management implication or outlet: Can support storage or recharge rather than rapid runoff; Krishna — river-system or water concept: A major east-flowing peninsular river; Watershed divide — location or defining feature: Often follows higher ground.",
+        "difficulty": "Hard",
+        "topic": "Rainwater harvesting · comparing chapter concepts",
+        "sourceChapter": 5
+      }
+    ]
+  }
+}

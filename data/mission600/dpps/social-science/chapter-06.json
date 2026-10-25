@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH06-E": {
+    "id": "SA-DPP-27-SOC-CH06-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch6",
+    "chapterNumber": 6,
+    "chapter": "The Population",
+    "level": "E",
+    "title": "The Population – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-05",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 72,
+      "to": 87
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q01",
+        "question": "Population density measures people per unit of what?",
+        "options": [
+          "Income",
+          "Rainfall",
+          "Area",
+          "Time"
+        ],
+        "answer": 2,
+        "explanation": "It commonly reports people per square kilometre.",
+        "difficulty": "Easy",
+        "topic": "Population density measures people per unit of what?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q02",
+        "question": "What is a census?",
+        "options": [
+          "A single family's budget",
+          "A systematic enumeration of a population",
+          "A daily weather forecast",
+          "A crop-price list"
+        ],
+        "answer": 1,
+        "explanation": "A census collects population and related information at a specified reference time.",
+        "difficulty": "Easy",
+        "topic": "What is a census?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q03",
+        "question": "In the Indian census convention, sex ratio is generally expressed as what?",
+        "options": [
+          "Females per 1000 males",
+          "Males per 100 females",
+          "Births per 1000 people",
+          "Children per square kilometre"
+        ],
+        "answer": 0,
+        "explanation": "This is the convention used in the textbook's population discussion.",
+        "difficulty": "Easy",
+        "topic": "In the Indian census convention, sex ratio is generally expressed as what?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q04",
+        "question": "Population density: which option correctly identifies the population measure or process?",
+        "options": [
+          "A population-change indicator",
+          "A component of population change",
+          "A component of population change through movement",
+          "A measure of spatial concentration"
+        ],
+        "answer": 3,
+        "explanation": "Population density — population measure or process: A measure of spatial concentration.",
+        "difficulty": "Easy",
+        "topic": "Population density · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q05",
+        "question": "Population density: which option correctly identifies the definition?",
+        "options": [
+          "Births minus deaths",
+          "Immigration minus emigration for the area",
+          "Population divided by area",
+          "Deaths per thousand population in a year"
+        ],
+        "answer": 2,
+        "explanation": "Population density — definition: Population divided by area.",
+        "difficulty": "Easy",
+        "topic": "Population density · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q06",
+        "question": "Population density: which option correctly identifies the interpretation?",
+        "options": [
+          "Measures rainfall in a district",
+          "Commonly expressed as persons per square kilometre",
+          "Always equals total population",
+          "Means births per thousand people"
+        ],
+        "answer": 1,
+        "explanation": "Population density — interpretation: Commonly expressed as persons per square kilometre.",
+        "difficulty": "Easy",
+        "topic": "Population density · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q07",
+        "question": "Birth rate: which option correctly identifies the population measure or process?",
+        "options": [
+          "A population-change indicator",
+          "A component of population change",
+          "A component of population change through movement",
+          "The distribution of people across age groups"
+        ],
+        "answer": 0,
+        "explanation": "Birth rate — population measure or process: A population-change indicator.",
+        "difficulty": "Easy",
+        "topic": "Birth rate · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q08",
+        "question": "Birth rate: which option correctly identifies the definition?",
+        "options": [
+          "Births minus deaths",
+          "Immigration minus emigration for the area",
+          "Shares of children, working-age people and older people",
+          "Live births per thousand population in a year"
+        ],
+        "answer": 3,
+        "explanation": "Birth rate — definition: Live births per thousand population in a year.",
+        "difficulty": "Easy",
+        "topic": "Birth rate · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q09",
+        "question": "Birth rate: which option correctly identifies the interpretation?",
+        "options": [
+          "Counts only deaths",
+          "Is measured as persons per square kilometre",
+          "Contributes to natural increase when exceeding the death rate",
+          "Has no role in natural population change"
+        ],
+        "answer": 2,
+        "explanation": "Birth rate — interpretation: Contributes to natural increase when exceeding the death rate.",
+        "difficulty": "Easy",
+        "topic": "Birth rate · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q10",
+        "question": "Death rate: which option correctly identifies the population measure or process?",
+        "options": [
+          "A demographic composition measure",
+          "A population-change indicator",
+          "A component of population change through movement",
+          "The distribution of people across age groups"
+        ],
+        "answer": 1,
+        "explanation": "Death rate — population measure or process: A population-change indicator.",
+        "difficulty": "Easy",
+        "topic": "Death rate · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q11",
+        "question": "Death rate: which option correctly identifies the definition?",
+        "options": [
+          "Deaths per thousand population in a year",
+          "Immigration minus emigration for the area",
+          "Shares of children, working-age people and older people",
+          "Females per thousand males"
+        ],
+        "answer": 0,
+        "explanation": "Death rate — definition: Deaths per thousand population in a year.",
+        "difficulty": "Easy",
+        "topic": "Death rate · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q12",
+        "question": "Death rate: which option correctly identifies the interpretation?",
+        "options": [
+          "Counts only births",
+          "Is unrelated to mortality",
+          "A fall necessarily reduces population growth in all other unchanged conditions",
+          "A decline can contribute to population growth if other factors are unchanged"
+        ],
+        "answer": 3,
+        "explanation": "Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged.",
+        "difficulty": "Easy",
+        "topic": "Death rate · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q13",
+        "question": "Natural increase: which option correctly identifies the population measure or process?",
+        "options": [
+          "A demographic composition measure",
+          "An education-related population indicator",
+          "A component of population change",
+          "The distribution of people across age groups"
+        ],
+        "answer": 2,
+        "explanation": "Natural increase — population measure or process: A component of population change.",
+        "difficulty": "Easy",
+        "topic": "Natural increase · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q14",
+        "question": "Natural increase: which option correctly identifies the definition?",
+        "options": [
+          "Share meeting the census literacy criterion in the relevant age group",
+          "Births minus deaths",
+          "Shares of children, working-age people and older people",
+          "Females per thousand males"
+        ],
+        "answer": 1,
+        "explanation": "Natural increase — definition: Births minus deaths.",
+        "difficulty": "Easy",
+        "topic": "Natural increase · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q15",
+        "question": "Natural increase: which option correctly identifies the interpretation?",
+        "options": [
+          "Excludes the separate effect of net migration",
+          "Can never be negative",
+          "Includes migration by definition",
+          "Always equals total population"
+        ],
+        "answer": 0,
+        "explanation": "Natural increase — interpretation: Excludes the separate effect of net migration.",
+        "difficulty": "Easy",
+        "topic": "Natural increase · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q16",
+        "question": "Net migration: which option correctly identifies the population measure or process?",
+        "options": [
+          "A demographic composition measure",
+          "An education-related population indicator",
+          "Potential economic benefit of a favourable age structure",
+          "A component of population change through movement"
+        ],
+        "answer": 3,
+        "explanation": "Net migration — population measure or process: A component of population change through movement.",
+        "difficulty": "Easy",
+        "topic": "Net migration · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q17",
+        "question": "Net migration: which option correctly identifies the definition?",
+        "options": [
+          "Share meeting the census literacy criterion in the relevant age group",
+          "A relatively large working-age population",
+          "Immigration minus emigration for the area",
+          "Females per thousand males"
+        ],
+        "answer": 2,
+        "explanation": "Net migration — definition: Immigration minus emigration for the area.",
+        "difficulty": "Easy",
+        "topic": "Net migration · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q18",
+        "question": "Net migration: which option correctly identifies the interpretation?",
+        "options": [
+          "Measures only the area of a district",
+          "Can raise or lower an area's population",
+          "Never changes an area's population",
+          "Equals births minus deaths"
+        ],
+        "answer": 1,
+        "explanation": "Net migration — interpretation: Can raise or lower an area's population.",
+        "difficulty": "Easy",
+        "topic": "Net migration · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q19",
+        "question": "Age structure: which option correctly identifies the population measure or process?",
+        "options": [
+          "The distribution of people across age groups",
+          "An education-related population indicator",
+          "Potential economic benefit of a favourable age structure",
+          "A measure of spatial concentration"
+        ],
+        "answer": 0,
+        "explanation": "Age structure — population measure or process: The distribution of people across age groups.",
+        "difficulty": "Easy",
+        "topic": "Age structure · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q20",
+        "question": "Age structure: which option correctly identifies the definition?",
+        "options": [
+          "Share meeting the census literacy criterion in the relevant age group",
+          "A relatively large working-age population",
+          "Population divided by area",
+          "Shares of children, working-age people and older people"
+        ],
+        "answer": 3,
+        "explanation": "Age structure — definition: Shares of children, working-age people and older people.",
+        "difficulty": "Easy",
+        "topic": "Age structure · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q21",
+        "question": "Age structure: which option correctly identifies the interpretation?",
+        "options": [
+          "Is determined only by rainfall",
+          "Has no implications for schooling or jobs",
+          "Affects education, employment and care needs",
+          "Every age group has identical needs"
+        ],
+        "answer": 2,
+        "explanation": "Age structure — interpretation: Affects education, employment and care needs.",
+        "difficulty": "Easy",
+        "topic": "Age structure · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q22",
+        "question": "Sex ratio in the Indian census convention: which option correctly identifies the population measure or process?",
+        "options": [
+          "A population-change indicator",
+          "A demographic composition measure",
+          "Potential economic benefit of a favourable age structure",
+          "A measure of spatial concentration"
+        ],
+        "answer": 1,
+        "explanation": "Sex ratio in the Indian census convention — population measure or process: A demographic composition measure.",
+        "difficulty": "Easy",
+        "topic": "Sex ratio in the Indian census convention · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q23",
+        "question": "Sex ratio in the Indian census convention: which option correctly identifies the definition?",
+        "options": [
+          "Females per thousand males",
+          "A relatively large working-age population",
+          "Population divided by area",
+          "Live births per thousand population in a year"
+        ],
+        "answer": 0,
+        "explanation": "Sex ratio in the Indian census convention — definition: Females per thousand males.",
+        "difficulty": "Easy",
+        "topic": "Sex ratio in the Indian census convention · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q24",
+        "question": "Sex ratio in the Indian census convention: which option correctly identifies the interpretation?",
+        "options": [
+          "Needs no definition when comparing different conventions",
+          "Means males per hundred females under the stated convention",
+          "Is a count of births alone",
+          "Requires the stated convention when comparing data"
+        ],
+        "answer": 3,
+        "explanation": "Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data.",
+        "difficulty": "Easy",
+        "topic": "Sex ratio in the Indian census convention · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q25",
+        "question": "Literacy rate: which option correctly identifies the population measure or process?",
+        "options": [
+          "A population-change indicator",
+          "A component of population change",
+          "An education-related population indicator",
+          "A measure of spatial concentration"
+        ],
+        "answer": 2,
+        "explanation": "Literacy rate — population measure or process: An education-related population indicator.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q26",
+        "question": "Literacy rate: which option correctly identifies the definition?",
+        "options": [
+          "Deaths per thousand population in a year",
+          "Share meeting the census literacy criterion in the relevant age group",
+          "Population divided by area",
+          "Live births per thousand population in a year"
+        ],
+        "answer": 1,
+        "explanation": "Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q27",
+        "question": "Literacy rate: which option correctly identifies the interpretation?",
+        "options": [
+          "Does not by itself measure all learning outcomes",
+          "Directly measures every person's practical skills",
+          "Guarantees all learners have identical achievement",
+          "Means the total number of factories"
+        ],
+        "answer": 0,
+        "explanation": "Literacy rate — interpretation: Does not by itself measure all learning outcomes.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · interpretation",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q28",
+        "question": "Demographic dividend: which option correctly identifies the population measure or process?",
+        "options": [
+          "A population-change indicator",
+          "A component of population change",
+          "A component of population change through movement",
+          "Potential economic benefit of a favourable age structure"
+        ],
+        "answer": 3,
+        "explanation": "Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure.",
+        "difficulty": "Easy",
+        "topic": "Demographic dividend · population measure or process",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q29",
+        "question": "Demographic dividend: which option correctly identifies the definition?",
+        "options": [
+          "Deaths per thousand population in a year",
+          "Births minus deaths",
+          "A relatively large working-age population",
+          "Live births per thousand population in a year"
+        ],
+        "answer": 2,
+        "explanation": "Demographic dividend — definition: A relatively large working-age population.",
+        "difficulty": "Easy",
+        "topic": "Demographic dividend · definition",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-E-Q30",
+        "question": "Demographic dividend: which option correctly identifies the interpretation?",
+        "options": [
+          "Automatically guarantees jobs and prosperity",
+          "Requires health, education and productive employment to realise the potential",
+          "Requires no investment in health or education",
+          "Occurs only when there are no working-age people"
+        ],
+        "answer": 1,
+        "explanation": "Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential.",
+        "difficulty": "Easy",
+        "topic": "Demographic dividend · interpretation",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH06-M": {
+    "id": "SA-DPP-27-SOC-CH06-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch6",
+    "chapterNumber": 6,
+    "chapter": "The Population",
+    "level": "M",
+    "title": "The Population – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 72,
+      "to": 87
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q01",
+        "question": "What happens to population if births exceed deaths and net migration is zero?",
+        "options": [
+          "It becomes zero",
+          "It increases",
+          "It must decline",
+          "It stays unchanged"
+        ],
+        "answer": 1,
+        "explanation": "Natural increase equals births minus deaths.",
+        "difficulty": "Medium",
+        "topic": "What happens to population if births exceed deaths and net migration is zero?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q02",
+        "question": "A town has 50000 people in 100 km². Find density.",
+        "options": [
+          "500 people/km²",
+          "50 people/km²",
+          "5000 people/km²",
+          "5 people/km²"
+        ],
+        "answer": 0,
+        "explanation": "Divide 50000 by 100.",
+        "difficulty": "Medium",
+        "topic": "A town has 50000 people in 100 km². Find density.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q03",
+        "question": "Why can migration change a city's age structure?",
+        "options": [
+          "All migrants have identical ages to residents",
+          "Migration changes only rainfall",
+          "Migration never affects population composition",
+          "Migrants may be concentrated in working ages"
+        ],
+        "answer": 3,
+        "explanation": "Age-selective movement can alter the share of working-age residents.",
+        "difficulty": "Medium",
+        "topic": "Why can migration change a city's age structure?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q04",
+        "question": "Which pair correctly matches Population density with its population measure or process and definition, in that order?",
+        "options": [
+          "A measure of spatial concentration → Live births per thousand population in a year",
+          "A component of population change → Deaths per thousand population in a year",
+          "A measure of spatial concentration → Population divided by area",
+          "A population-change indicator → Population divided by area"
+        ],
+        "answer": 2,
+        "explanation": "Population density — population measure or process: A measure of spatial concentration. Population density — definition: Population divided by area. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Population density",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q05",
+        "question": "Which pair correctly matches Population density with its definition and interpretation, in that order?",
+        "options": [
+          "Births minus deaths → Measures rainfall in a district",
+          "Population divided by area → Commonly expressed as persons per square kilometre",
+          "Deaths per thousand population in a year → Commonly expressed as persons per square kilometre",
+          "Population divided by area → Means births per thousand people"
+        ],
+        "answer": 1,
+        "explanation": "Population density — definition: Population divided by area. Population density — interpretation: Commonly expressed as persons per square kilometre. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Population density",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q06",
+        "question": "Which pair correctly matches Population density with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Commonly expressed as persons per square kilometre → A measure of spatial concentration",
+          "Always equals total population → A measure of spatial concentration",
+          "Commonly expressed as persons per square kilometre → A population-change indicator",
+          "Means births per thousand people → A component of population change"
+        ],
+        "answer": 0,
+        "explanation": "Population density — interpretation: Commonly expressed as persons per square kilometre. Population density — population measure or process: A measure of spatial concentration. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Population density",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q07",
+        "question": "Which pair correctly matches Birth rate with its population measure or process and definition, in that order?",
+        "options": [
+          "A component of population change → Live births per thousand population in a year",
+          "A population-change indicator → Deaths per thousand population in a year",
+          "A component of population change through movement → Births minus deaths",
+          "A population-change indicator → Live births per thousand population in a year"
+        ],
+        "answer": 3,
+        "explanation": "Birth rate — population measure or process: A population-change indicator. Birth rate — definition: Live births per thousand population in a year. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Birth rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q08",
+        "question": "Which pair correctly matches Birth rate with its definition and interpretation, in that order?",
+        "options": [
+          "Live births per thousand population in a year → Counts only deaths",
+          "Immigration minus emigration for the area → Is measured as persons per square kilometre",
+          "Live births per thousand population in a year → Contributes to natural increase when exceeding the death rate",
+          "Births minus deaths → Contributes to natural increase when exceeding the death rate"
+        ],
+        "answer": 2,
+        "explanation": "Birth rate — definition: Live births per thousand population in a year. Birth rate — interpretation: Contributes to natural increase when exceeding the death rate. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Birth rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q09",
+        "question": "Which pair correctly matches Birth rate with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Counts only deaths → A component of population change through movement",
+          "Contributes to natural increase when exceeding the death rate → A population-change indicator",
+          "Has no role in natural population change → A population-change indicator",
+          "Contributes to natural increase when exceeding the death rate → A component of population change"
+        ],
+        "answer": 1,
+        "explanation": "Birth rate — interpretation: Contributes to natural increase when exceeding the death rate. Birth rate — population measure or process: A population-change indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Birth rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q10",
+        "question": "Which pair correctly matches Death rate with its population measure or process and definition, in that order?",
+        "options": [
+          "A population-change indicator → Deaths per thousand population in a year",
+          "A component of population change through movement → Deaths per thousand population in a year",
+          "A population-change indicator → Births minus deaths",
+          "The distribution of people across age groups → Immigration minus emigration for the area"
+        ],
+        "answer": 0,
+        "explanation": "Death rate — population measure or process: A population-change indicator. Death rate — definition: Deaths per thousand population in a year. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Death rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q11",
+        "question": "Which pair correctly matches Death rate with its definition and interpretation, in that order?",
+        "options": [
+          "Immigration minus emigration for the area → A decline can contribute to population growth if other factors are unchanged",
+          "Deaths per thousand population in a year → Is unrelated to mortality",
+          "Shares of children, working-age people and older people → A fall necessarily reduces population growth in all other unchanged conditions",
+          "Deaths per thousand population in a year → A decline can contribute to population growth if other factors are unchanged"
+        ],
+        "answer": 3,
+        "explanation": "Death rate — definition: Deaths per thousand population in a year. Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Death rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q12",
+        "question": "Which pair correctly matches Death rate with its interpretation and population measure or process, in that order?",
+        "options": [
+          "A decline can contribute to population growth if other factors are unchanged → A component of population change through movement",
+          "Is unrelated to mortality → The distribution of people across age groups",
+          "A decline can contribute to population growth if other factors are unchanged → A population-change indicator",
+          "Counts only births → A population-change indicator"
+        ],
+        "answer": 2,
+        "explanation": "Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged. Death rate — population measure or process: A population-change indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Death rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q13",
+        "question": "Which pair correctly matches Natural increase with its population measure or process and definition, in that order?",
+        "options": [
+          "A demographic composition measure → Shares of children, working-age people and older people",
+          "A component of population change → Births minus deaths",
+          "The distribution of people across age groups → Births minus deaths",
+          "A component of population change → Immigration minus emigration for the area"
+        ],
+        "answer": 1,
+        "explanation": "Natural increase — population measure or process: A component of population change. Natural increase — definition: Births minus deaths. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Natural increase",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q14",
+        "question": "Which pair correctly matches Natural increase with its definition and interpretation, in that order?",
+        "options": [
+          "Births minus deaths → Excludes the separate effect of net migration",
+          "Shares of children, working-age people and older people → Excludes the separate effect of net migration",
+          "Births minus deaths → Includes migration by definition",
+          "Females per thousand males → Always equals total population"
+        ],
+        "answer": 0,
+        "explanation": "Natural increase — definition: Births minus deaths. Natural increase — interpretation: Excludes the separate effect of net migration. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Natural increase",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q15",
+        "question": "Which pair correctly matches Natural increase with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Can never be negative → A component of population change",
+          "Excludes the separate effect of net migration → The distribution of people across age groups",
+          "Includes migration by definition → A demographic composition measure",
+          "Excludes the separate effect of net migration → A component of population change"
+        ],
+        "answer": 3,
+        "explanation": "Natural increase — interpretation: Excludes the separate effect of net migration. Natural increase — population measure or process: A component of population change. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Natural increase",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q16",
+        "question": "Which pair correctly matches Net migration with its population measure or process and definition, in that order?",
+        "options": [
+          "A component of population change through movement → Shares of children, working-age people and older people",
+          "An education-related population indicator → Females per thousand males",
+          "A component of population change through movement → Immigration minus emigration for the area",
+          "A demographic composition measure → Immigration minus emigration for the area"
+        ],
+        "answer": 2,
+        "explanation": "Net migration — population measure or process: A component of population change through movement. Net migration — definition: Immigration minus emigration for the area. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Net migration",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q17",
+        "question": "Which pair correctly matches Net migration with its definition and interpretation, in that order?",
+        "options": [
+          "Share meeting the census literacy criterion in the relevant age group → Measures only the area of a district",
+          "Immigration minus emigration for the area → Can raise or lower an area's population",
+          "Females per thousand males → Can raise or lower an area's population",
+          "Immigration minus emigration for the area → Equals births minus deaths"
+        ],
+        "answer": 1,
+        "explanation": "Net migration — definition: Immigration minus emigration for the area. Net migration — interpretation: Can raise or lower an area's population. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Net migration",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q18",
+        "question": "Which pair correctly matches Net migration with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Can raise or lower an area's population → A component of population change through movement",
+          "Never changes an area's population → A component of population change through movement",
+          "Can raise or lower an area's population → A demographic composition measure",
+          "Equals births minus deaths → An education-related population indicator"
+        ],
+        "answer": 0,
+        "explanation": "Net migration — interpretation: Can raise or lower an area's population. Net migration — population measure or process: A component of population change through movement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Net migration",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q19",
+        "question": "Which pair correctly matches Age structure with its population measure or process and definition, in that order?",
+        "options": [
+          "An education-related population indicator → Shares of children, working-age people and older people",
+          "The distribution of people across age groups → Females per thousand males",
+          "Potential economic benefit of a favourable age structure → Share meeting the census literacy criterion in the relevant age group",
+          "The distribution of people across age groups → Shares of children, working-age people and older people"
+        ],
+        "answer": 3,
+        "explanation": "Age structure — population measure or process: The distribution of people across age groups. Age structure — definition: Shares of children, working-age people and older people. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Age structure",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q20",
+        "question": "Which pair correctly matches Age structure with its definition and interpretation, in that order?",
+        "options": [
+          "Shares of children, working-age people and older people → Is determined only by rainfall",
+          "A relatively large working-age population → Has no implications for schooling or jobs",
+          "Shares of children, working-age people and older people → Affects education, employment and care needs",
+          "Share meeting the census literacy criterion in the relevant age group → Affects education, employment and care needs"
+        ],
+        "answer": 2,
+        "explanation": "Age structure — definition: Shares of children, working-age people and older people. Age structure — interpretation: Affects education, employment and care needs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Age structure",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q21",
+        "question": "Which pair correctly matches Age structure with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Is determined only by rainfall → Potential economic benefit of a favourable age structure",
+          "Affects education, employment and care needs → The distribution of people across age groups",
+          "Every age group has identical needs → The distribution of people across age groups",
+          "Affects education, employment and care needs → An education-related population indicator"
+        ],
+        "answer": 1,
+        "explanation": "Age structure — interpretation: Affects education, employment and care needs. Age structure — population measure or process: The distribution of people across age groups. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Age structure",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q22",
+        "question": "Which pair correctly matches Sex ratio in the Indian census convention with its population measure or process and definition, in that order?",
+        "options": [
+          "A demographic composition measure → Females per thousand males",
+          "Potential economic benefit of a favourable age structure → Females per thousand males",
+          "A demographic composition measure → Share meeting the census literacy criterion in the relevant age group",
+          "A measure of spatial concentration → A relatively large working-age population"
+        ],
+        "answer": 0,
+        "explanation": "Sex ratio in the Indian census convention — population measure or process: A demographic composition measure. Sex ratio in the Indian census convention — definition: Females per thousand males. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sex ratio in the Indian census convention",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q23",
+        "question": "Which pair correctly matches Sex ratio in the Indian census convention with its definition and interpretation, in that order?",
+        "options": [
+          "A relatively large working-age population → Requires the stated convention when comparing data",
+          "Females per thousand males → Means males per hundred females under the stated convention",
+          "Population divided by area → Is a count of births alone",
+          "Females per thousand males → Requires the stated convention when comparing data"
+        ],
+        "answer": 3,
+        "explanation": "Sex ratio in the Indian census convention — definition: Females per thousand males. Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sex ratio in the Indian census convention",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q24",
+        "question": "Which pair correctly matches Sex ratio in the Indian census convention with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Requires the stated convention when comparing data → Potential economic benefit of a favourable age structure",
+          "Means males per hundred females under the stated convention → A measure of spatial concentration",
+          "Requires the stated convention when comparing data → A demographic composition measure",
+          "Needs no definition when comparing different conventions → A demographic composition measure"
+        ],
+        "answer": 2,
+        "explanation": "Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data. Sex ratio in the Indian census convention — population measure or process: A demographic composition measure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sex ratio in the Indian census convention",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q25",
+        "question": "Which pair correctly matches Literacy rate with its population measure or process and definition, in that order?",
+        "options": [
+          "A population-change indicator → Population divided by area",
+          "An education-related population indicator → Share meeting the census literacy criterion in the relevant age group",
+          "A measure of spatial concentration → Share meeting the census literacy criterion in the relevant age group",
+          "An education-related population indicator → A relatively large working-age population"
+        ],
+        "answer": 1,
+        "explanation": "Literacy rate — population measure or process: An education-related population indicator. Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q26",
+        "question": "Which pair correctly matches Literacy rate with its definition and interpretation, in that order?",
+        "options": [
+          "Share meeting the census literacy criterion in the relevant age group → Does not by itself measure all learning outcomes",
+          "Population divided by area → Does not by itself measure all learning outcomes",
+          "Share meeting the census literacy criterion in the relevant age group → Guarantees all learners have identical achievement",
+          "Live births per thousand population in a year → Means the total number of factories"
+        ],
+        "answer": 0,
+        "explanation": "Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group. Literacy rate — interpretation: Does not by itself measure all learning outcomes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q27",
+        "question": "Which pair correctly matches Literacy rate with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Directly measures every person's practical skills → An education-related population indicator",
+          "Does not by itself measure all learning outcomes → A measure of spatial concentration",
+          "Guarantees all learners have identical achievement → A population-change indicator",
+          "Does not by itself measure all learning outcomes → An education-related population indicator"
+        ],
+        "answer": 3,
+        "explanation": "Literacy rate — interpretation: Does not by itself measure all learning outcomes. Literacy rate — population measure or process: An education-related population indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q28",
+        "question": "Which pair correctly matches Demographic dividend with its population measure or process and definition, in that order?",
+        "options": [
+          "Potential economic benefit of a favourable age structure → Population divided by area",
+          "A component of population change → Live births per thousand population in a year",
+          "Potential economic benefit of a favourable age structure → A relatively large working-age population",
+          "A population-change indicator → A relatively large working-age population"
+        ],
+        "answer": 2,
+        "explanation": "Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure. Demographic dividend — definition: A relatively large working-age population. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Demographic dividend",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q29",
+        "question": "Which pair correctly matches Demographic dividend with its definition and interpretation, in that order?",
+        "options": [
+          "Deaths per thousand population in a year → Automatically guarantees jobs and prosperity",
+          "A relatively large working-age population → Requires health, education and productive employment to realise the potential",
+          "Live births per thousand population in a year → Requires health, education and productive employment to realise the potential",
+          "A relatively large working-age population → Occurs only when there are no working-age people"
+        ],
+        "answer": 1,
+        "explanation": "Demographic dividend — definition: A relatively large working-age population. Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Demographic dividend",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-M-Q30",
+        "question": "Which pair correctly matches Demographic dividend with its interpretation and population measure or process, in that order?",
+        "options": [
+          "Requires health, education and productive employment to realise the potential → Potential economic benefit of a favourable age structure",
+          "Requires no investment in health or education → Potential economic benefit of a favourable age structure",
+          "Requires health, education and productive employment to realise the potential → A population-change indicator",
+          "Occurs only when there are no working-age people → A component of population change"
+        ],
+        "answer": 0,
+        "explanation": "Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential. Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Demographic dividend",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH06-H": {
+    "id": "SA-DPP-27-SOC-CH06-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch6",
+    "chapterNumber": 6,
+    "chapter": "The Population",
+    "level": "H",
+    "title": "The Population – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-06.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-07",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 72,
+      "to": 87
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q01",
+        "question": "Why does a large working-age population not automatically create a demographic dividend?",
+        "options": [
+          "Education, health and productive jobs are also needed",
+          "Working-age people cannot produce goods",
+          "Population size alone guarantees high incomes",
+          "Schools reduce all productivity"
+        ],
+        "answer": 0,
+        "explanation": "A favourable age structure offers potential that depends on capabilities and opportunities.",
+        "difficulty": "Hard",
+        "topic": "Why does a large working-age population not automatically create a demographic dividend?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q02",
+        "question": "Why should population growth be analysed alongside resource distribution?",
+        "options": [
+          "Each person consumes exactly the same resources",
+          "Only headcounts affect wellbeing",
+          "Distribution never affects access",
+          "Scarcity and access also depend on consumption and inequality"
+        ],
+        "answer": 3,
+        "explanation": "Population totals alone cannot explain unequal resource use or deprivation.",
+        "difficulty": "Hard",
+        "topic": "Why should population growth be analysed alongside resource distribution?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q03",
+        "question": "How can improvements in girls' education influence population and wellbeing?",
+        "options": [
+          "They remove the need for healthcare",
+          "They change biological sex ratios automatically",
+          "They can expand choices, health knowledge and opportunities",
+          "They force every family to have the same size"
+        ],
+        "answer": 2,
+        "explanation": "Education supports informed decisions without mechanically determining an individual's choices.",
+        "difficulty": "Hard",
+        "topic": "How can improvements in girls' education influence population and wellbeing?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Population density — population measure or process: A measure of spatial concentration\nII. Net migration — definition: Live births per thousand population in a year\nIII. Literacy rate — interpretation: Does not by itself measure all learning outcomes",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Population density — population measure or process: A measure of spatial concentration; Net migration — definition: Immigration minus emigration for the area; Literacy rate — interpretation: Does not by itself measure all learning outcomes.",
+        "difficulty": "Hard",
+        "topic": "Population density · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Population density — definition: Deaths per thousand population in a year\nII. Net migration — interpretation: Can raise or lower an area's population\nIII. Literacy rate — population measure or process: An education-related population indicator",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Population density — definition: Population divided by area; Net migration — interpretation: Can raise or lower an area's population; Literacy rate — population measure or process: An education-related population indicator.",
+        "difficulty": "Hard",
+        "topic": "Population density · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Population density — interpretation: Commonly expressed as persons per square kilometre\nII. Net migration — population measure or process: A component of population change through movement\nIII. Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Population density — interpretation: Commonly expressed as persons per square kilometre; Net migration — population measure or process: A component of population change through movement; Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group.",
+        "difficulty": "Hard",
+        "topic": "Population density · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Birth rate — population measure or process: The distribution of people across age groups\nII. Age structure — definition: Immigration minus emigration for the area\nIII. Demographic dividend — interpretation: Occurs only when there are no working-age people",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Birth rate — population measure or process: A population-change indicator; Age structure — definition: Shares of children, working-age people and older people; Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential.",
+        "difficulty": "Hard",
+        "topic": "Birth rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Birth rate — definition: Live births per thousand population in a year\nII. Age structure — interpretation: Is determined only by rainfall\nIII. Demographic dividend — population measure or process: An education-related population indicator",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Birth rate — definition: Live births per thousand population in a year; Age structure — interpretation: Affects education, employment and care needs; Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure.",
+        "difficulty": "Hard",
+        "topic": "Birth rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Birth rate — interpretation: Is measured as persons per square kilometre\nII. Age structure — population measure or process: The distribution of people across age groups\nIII. Demographic dividend — definition: Share meeting the census literacy criterion in the relevant age group",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Birth rate — interpretation: Contributes to natural increase when exceeding the death rate; Age structure — population measure or process: The distribution of people across age groups; Demographic dividend — definition: A relatively large working-age population.",
+        "difficulty": "Hard",
+        "topic": "Birth rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Death rate — population measure or process: A population-change indicator\nII. Sex ratio in the Indian census convention — definition: Females per thousand males\nIII. Population density — interpretation: Always equals total population",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Death rate — population measure or process: A population-change indicator; Sex ratio in the Indian census convention — definition: Females per thousand males; Population density — interpretation: Commonly expressed as persons per square kilometre.",
+        "difficulty": "Hard",
+        "topic": "Death rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Death rate — definition: A relatively large working-age population\nII. Sex ratio in the Indian census convention — interpretation: Needs no definition when comparing different conventions\nIII. Population density — population measure or process: A measure of spatial concentration",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Death rate — definition: Deaths per thousand population in a year; Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data; Population density — population measure or process: A measure of spatial concentration.",
+        "difficulty": "Hard",
+        "topic": "Death rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged\nII. Sex ratio in the Indian census convention — population measure or process: A component of population change\nIII. Population density — definition: Population divided by area",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged; Sex ratio in the Indian census convention — population measure or process: A demographic composition measure; Population density — definition: Population divided by area.",
+        "difficulty": "Hard",
+        "topic": "Death rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Natural increase — population measure or process: A component of population change through movement\nII. Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group\nIII. Birth rate — interpretation: Contributes to natural increase when exceeding the death rate",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Natural increase — population measure or process: A component of population change; Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group; Birth rate — interpretation: Contributes to natural increase when exceeding the death rate.",
+        "difficulty": "Hard",
+        "topic": "Natural increase · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Natural increase — definition: Births minus deaths\nII. Literacy rate — interpretation: Does not by itself measure all learning outcomes\nIII. Birth rate — population measure or process: A population-change indicator",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Natural increase — definition: Births minus deaths; Literacy rate — interpretation: Does not by itself measure all learning outcomes; Birth rate — population measure or process: A population-change indicator.",
+        "difficulty": "Hard",
+        "topic": "Natural increase · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Natural increase — interpretation: Can never be negative\nII. Literacy rate — population measure or process: A demographic composition measure\nIII. Birth rate — definition: Females per thousand males",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Natural increase — interpretation: Excludes the separate effect of net migration; Literacy rate — population measure or process: An education-related population indicator; Birth rate — definition: Live births per thousand population in a year.",
+        "difficulty": "Hard",
+        "topic": "Natural increase · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Net migration — population measure or process: A component of population change through movement\nII. Demographic dividend — definition: Shares of children, working-age people and older people\nIII. Death rate — interpretation: Is unrelated to mortality",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Net migration — population measure or process: A component of population change through movement; Demographic dividend — definition: A relatively large working-age population; Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged.",
+        "difficulty": "Hard",
+        "topic": "Net migration · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Net migration — definition: Females per thousand males\nII. Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential\nIII. Death rate — population measure or process: A component of population change",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Net migration — definition: Immigration minus emigration for the area; Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential; Death rate — population measure or process: A population-change indicator.",
+        "difficulty": "Hard",
+        "topic": "Net migration · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Net migration — interpretation: Can raise or lower an area's population\nII. Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure\nIII. Death rate — definition: Population divided by area",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Net migration — interpretation: Can raise or lower an area's population; Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure; Death rate — definition: Deaths per thousand population in a year.",
+        "difficulty": "Hard",
+        "topic": "Net migration · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Age structure — population measure or process: A population-change indicator\nII. Population density — definition: Live births per thousand population in a year\nIII. Natural increase — interpretation: Excludes the separate effect of net migration",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Age structure — population measure or process: The distribution of people across age groups; Population density — definition: Population divided by area; Natural increase — interpretation: Excludes the separate effect of net migration.",
+        "difficulty": "Hard",
+        "topic": "Age structure · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Age structure — definition: Shares of children, working-age people and older people\nII. Population density — interpretation: Always equals total population\nIII. Natural increase — population measure or process: A component of population change",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Age structure — definition: Shares of children, working-age people and older people; Population density — interpretation: Commonly expressed as persons per square kilometre; Natural increase — population measure or process: A component of population change.",
+        "difficulty": "Hard",
+        "topic": "Age structure · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Age structure — interpretation: Is determined only by rainfall\nII. Population density — population measure or process: A measure of spatial concentration\nIII. Natural increase — definition: Births minus deaths",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Age structure — interpretation: Affects education, employment and care needs; Population density — population measure or process: A measure of spatial concentration; Natural increase — definition: Births minus deaths.",
+        "difficulty": "Hard",
+        "topic": "Age structure · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sex ratio in the Indian census convention — population measure or process: A demographic composition measure\nII. Birth rate — definition: Live births per thousand population in a year\nIII. Net migration — interpretation: Can raise or lower an area's population",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Sex ratio in the Indian census convention — population measure or process: A demographic composition measure; Birth rate — definition: Live births per thousand population in a year; Net migration — interpretation: Can raise or lower an area's population.",
+        "difficulty": "Hard",
+        "topic": "Sex ratio in the Indian census convention · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sex ratio in the Indian census convention — definition: Births minus deaths\nII. Birth rate — interpretation: Is measured as persons per square kilometre\nIII. Net migration — population measure or process: A measure of spatial concentration",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Sex ratio in the Indian census convention — definition: Females per thousand males; Birth rate — interpretation: Contributes to natural increase when exceeding the death rate; Net migration — population measure or process: A component of population change through movement.",
+        "difficulty": "Hard",
+        "topic": "Sex ratio in the Indian census convention · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data\nII. Birth rate — population measure or process: A measure of spatial concentration\nIII. Net migration — definition: Share meeting the census literacy criterion in the relevant age group",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data; Birth rate — population measure or process: A population-change indicator; Net migration — definition: Immigration minus emigration for the area.",
+        "difficulty": "Hard",
+        "topic": "Sex ratio in the Indian census convention · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — population measure or process: A measure of spatial concentration\nII. Death rate — definition: Deaths per thousand population in a year\nIII. Age structure — interpretation: Is determined only by rainfall",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Literacy rate — population measure or process: An education-related population indicator; Death rate — definition: Deaths per thousand population in a year; Age structure — interpretation: Affects education, employment and care needs.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group\nII. Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged\nIII. Age structure — population measure or process: A component of population change through movement",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Literacy rate — definition: Share meeting the census literacy criterion in the relevant age group; Death rate — interpretation: A decline can contribute to population growth if other factors are unchanged; Age structure — population measure or process: The distribution of people across age groups.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — interpretation: Means the total number of factories\nII. Death rate — population measure or process: The distribution of people across age groups\nIII. Age structure — definition: Shares of children, working-age people and older people",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Literacy rate — interpretation: Does not by itself measure all learning outcomes; Death rate — population measure or process: A population-change indicator; Age structure — definition: Shares of children, working-age people and older people.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure\nII. Natural increase — definition: Live births per thousand population in a year\nIII. Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Demographic dividend — population measure or process: Potential economic benefit of a favourable age structure; Natural increase — definition: Births minus deaths; Sex ratio in the Indian census convention — interpretation: Requires the stated convention when comparing data.",
+        "difficulty": "Hard",
+        "topic": "Demographic dividend · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Demographic dividend — definition: Live births per thousand population in a year\nII. Natural increase — interpretation: Excludes the separate effect of net migration\nIII. Sex ratio in the Indian census convention — population measure or process: A demographic composition measure",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Demographic dividend — definition: A relatively large working-age population; Natural increase — interpretation: Excludes the separate effect of net migration; Sex ratio in the Indian census convention — population measure or process: A demographic composition measure.",
+        "difficulty": "Hard",
+        "topic": "Demographic dividend · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH06-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential\nII. Natural increase — population measure or process: A component of population change\nIII. Sex ratio in the Indian census convention — definition: Females per thousand males",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Demographic dividend — interpretation: Requires health, education and productive employment to realise the potential; Natural increase — population measure or process: A component of population change; Sex ratio in the Indian census convention — definition: Females per thousand males.",
+        "difficulty": "Hard",
+        "topic": "Demographic dividend · comparing chapter concepts",
+        "sourceChapter": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH03-E": {
+    "id": "SA-DPP-27-PHY-CH03-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "E",
+    "title": "Acids, Bases and Salts – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q01",
+        "question": "An aqueous solution with pH 2 is what?",
+        "options": [
+          "Always a salt-free solution",
+          "Acidic",
+          "Neutral",
+          "Basic"
+        ],
+        "answer": 1,
+        "explanation": "pH below 7 indicates acidity under ordinary school conditions.",
+        "difficulty": "Easy",
+        "topic": "An aqueous solution with pH 2 is what?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q02",
+        "question": "What colour does blue litmus turn in an acid?",
+        "options": [
+          "Red",
+          "Green",
+          "Yellow",
+          "It always remains blue"
+        ],
+        "answer": 0,
+        "explanation": "Acids turn blue litmus red.",
+        "difficulty": "Easy",
+        "topic": "What colour does blue litmus turn in an acid?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q03",
+        "question": "What is the chemical formula of common salt?",
+        "options": [
+          "NaOH",
+          "Na₂CO₃",
+          "CaCO₃",
+          "NaCl"
+        ],
+        "answer": 3,
+        "explanation": "Common salt is sodium chloride.",
+        "difficulty": "Easy",
+        "topic": "What is the chemical formula of common salt?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q04",
+        "question": "Sodium chloride: which option correctly identifies the chemical formula?",
+        "options": [
+          "NaHCO₃",
+          "Na₂CO₃·10H₂O",
+          "NaCl",
+          "NaOH"
+        ],
+        "answer": 2,
+        "explanation": "Sodium chloride — chemical formula: NaCl.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q05",
+        "question": "Sodium chloride: which option correctly identifies the common name or identity?",
+        "options": [
+          "Bleaching powder",
+          "Common salt",
+          "Baking soda",
+          "Washing soda"
+        ],
+        "answer": 1,
+        "explanation": "Sodium chloride — common name or identity: Common salt.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q06",
+        "question": "Sodium chloride: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Raw material for several sodium compounds",
+          "Used in cleaning and softening hard water",
+          "Used for bleaching and disinfection",
+          "Sets into a hard mass when mixed with water"
+        ],
+        "answer": 0,
+        "explanation": "Sodium chloride — main textbook use or property: Raw material for several sodium compounds.",
+        "difficulty": "Easy",
+        "topic": "Sodium chloride · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q07",
+        "question": "Sodium hydroxide: which option correctly identifies the chemical formula?",
+        "options": [
+          "NaHCO₃",
+          "Na₂CO₃·10H₂O",
+          "CaOCl₂",
+          "NaOH"
+        ],
+        "answer": 3,
+        "explanation": "Sodium hydroxide — chemical formula: NaOH.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydroxide · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q08",
+        "question": "Sodium hydroxide: which option correctly identifies the common name or identity?",
+        "options": [
+          "Bleaching powder",
+          "Plaster of Paris",
+          "Caustic soda",
+          "Washing soda"
+        ],
+        "answer": 2,
+        "explanation": "Sodium hydroxide — common name or identity: Caustic soda.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydroxide · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q09",
+        "question": "Sodium hydroxide: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Starting material for preparing Plaster of Paris",
+          "A strong base used in soap manufacture",
+          "Used for bleaching and disinfection",
+          "Sets into a hard mass when mixed with water"
+        ],
+        "answer": 1,
+        "explanation": "Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydroxide · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q10",
+        "question": "Sodium hydrogen carbonate: which option correctly identifies the chemical formula?",
+        "options": [
+          "NaHCO₃",
+          "Na₂CO₃·10H₂O",
+          "CaOCl₂",
+          "CaSO₄·½H₂O"
+        ],
+        "answer": 0,
+        "explanation": "Sodium hydrogen carbonate — chemical formula: NaHCO₃.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydrogen carbonate · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q11",
+        "question": "Sodium hydrogen carbonate: which option correctly identifies the common name or identity?",
+        "options": [
+          "Bleaching powder",
+          "Plaster of Paris",
+          "Gypsum",
+          "Baking soda"
+        ],
+        "answer": 3,
+        "explanation": "Sodium hydrogen carbonate — common name or identity: Baking soda.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydrogen carbonate · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q12",
+        "question": "Sodium hydrogen carbonate: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Starting material for preparing Plaster of Paris",
+          "Turns blue litmus red in aqueous solution",
+          "Releases carbon dioxide on heating",
+          "Sets into a hard mass when mixed with water"
+        ],
+        "answer": 2,
+        "explanation": "Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating.",
+        "difficulty": "Easy",
+        "topic": "Sodium hydrogen carbonate · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q13",
+        "question": "Sodium carbonate decahydrate: which option correctly identifies the chemical formula?",
+        "options": [
+          "CaSO₄·2H₂O",
+          "Na₂CO₃·10H₂O",
+          "CaOCl₂",
+          "CaSO₄·½H₂O"
+        ],
+        "answer": 1,
+        "explanation": "Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O.",
+        "difficulty": "Easy",
+        "topic": "Sodium carbonate decahydrate · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q14",
+        "question": "Sodium carbonate decahydrate: which option correctly identifies the common name or identity?",
+        "options": [
+          "Washing soda",
+          "Plaster of Paris",
+          "Gypsum",
+          "An acid present in gastric juice"
+        ],
+        "answer": 0,
+        "explanation": "Sodium carbonate decahydrate — common name or identity: Washing soda.",
+        "difficulty": "Easy",
+        "topic": "Sodium carbonate decahydrate · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q15",
+        "question": "Sodium carbonate decahydrate: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Starting material for preparing Plaster of Paris",
+          "Turns blue litmus red in aqueous solution",
+          "Its clear aqueous solution tests for carbon dioxide",
+          "Used in cleaning and softening hard water"
+        ],
+        "answer": 3,
+        "explanation": "Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water.",
+        "difficulty": "Easy",
+        "topic": "Sodium carbonate decahydrate · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q16",
+        "question": "Calcium oxychloride: which option correctly identifies the chemical formula?",
+        "options": [
+          "CaSO₄·2H₂O",
+          "HCl",
+          "CaOCl₂",
+          "CaSO₄·½H₂O"
+        ],
+        "answer": 2,
+        "explanation": "Calcium oxychloride — chemical formula: CaOCl₂.",
+        "difficulty": "Easy",
+        "topic": "Calcium oxychloride · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q17",
+        "question": "Calcium oxychloride: which option correctly identifies the common name or identity?",
+        "options": [
+          "Slaked lime",
+          "Bleaching powder",
+          "Gypsum",
+          "An acid present in gastric juice"
+        ],
+        "answer": 1,
+        "explanation": "Calcium oxychloride — common name or identity: Bleaching powder.",
+        "difficulty": "Easy",
+        "topic": "Calcium oxychloride · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q18",
+        "question": "Calcium oxychloride: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Used for bleaching and disinfection",
+          "Turns blue litmus red in aqueous solution",
+          "Its clear aqueous solution tests for carbon dioxide",
+          "Raw material for several sodium compounds"
+        ],
+        "answer": 0,
+        "explanation": "Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection.",
+        "difficulty": "Easy",
+        "topic": "Calcium oxychloride · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q19",
+        "question": "Calcium sulfate hemihydrate: which option correctly identifies the chemical formula?",
+        "options": [
+          "CaSO₄·2H₂O",
+          "HCl",
+          "Ca(OH)₂",
+          "CaSO₄·½H₂O"
+        ],
+        "answer": 3,
+        "explanation": "Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate hemihydrate · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q20",
+        "question": "Calcium sulfate hemihydrate: which option correctly identifies the common name or identity?",
+        "options": [
+          "Slaked lime",
+          "Common salt",
+          "Plaster of Paris",
+          "An acid present in gastric juice"
+        ],
+        "answer": 2,
+        "explanation": "Calcium sulfate hemihydrate — common name or identity: Plaster of Paris.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate hemihydrate · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q21",
+        "question": "Calcium sulfate hemihydrate: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "A strong base used in soap manufacture",
+          "Sets into a hard mass when mixed with water",
+          "Its clear aqueous solution tests for carbon dioxide",
+          "Raw material for several sodium compounds"
+        ],
+        "answer": 1,
+        "explanation": "Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate hemihydrate · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q22",
+        "question": "Calcium sulfate dihydrate: which option correctly identifies the chemical formula?",
+        "options": [
+          "CaSO₄·2H₂O",
+          "HCl",
+          "Ca(OH)₂",
+          "NaCl"
+        ],
+        "answer": 0,
+        "explanation": "Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate dihydrate · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q23",
+        "question": "Calcium sulfate dihydrate: which option correctly identifies the common name or identity?",
+        "options": [
+          "Slaked lime",
+          "Common salt",
+          "Caustic soda",
+          "Gypsum"
+        ],
+        "answer": 3,
+        "explanation": "Calcium sulfate dihydrate — common name or identity: Gypsum.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate dihydrate · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q24",
+        "question": "Calcium sulfate dihydrate: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "A strong base used in soap manufacture",
+          "Releases carbon dioxide on heating",
+          "Starting material for preparing Plaster of Paris",
+          "Raw material for several sodium compounds"
+        ],
+        "answer": 2,
+        "explanation": "Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris.",
+        "difficulty": "Easy",
+        "topic": "Calcium sulfate dihydrate · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q25",
+        "question": "Hydrochloric acid: which option correctly identifies the chemical formula?",
+        "options": [
+          "NaOH",
+          "HCl",
+          "Ca(OH)₂",
+          "NaCl"
+        ],
+        "answer": 1,
+        "explanation": "Hydrochloric acid — chemical formula: HCl.",
+        "difficulty": "Easy",
+        "topic": "Hydrochloric acid · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q26",
+        "question": "Hydrochloric acid: which option correctly identifies the common name or identity?",
+        "options": [
+          "An acid present in gastric juice",
+          "Common salt",
+          "Caustic soda",
+          "Baking soda"
+        ],
+        "answer": 0,
+        "explanation": "Hydrochloric acid — common name or identity: An acid present in gastric juice.",
+        "difficulty": "Easy",
+        "topic": "Hydrochloric acid · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q27",
+        "question": "Hydrochloric acid: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "A strong base used in soap manufacture",
+          "Releases carbon dioxide on heating",
+          "Used in cleaning and softening hard water",
+          "Turns blue litmus red in aqueous solution"
+        ],
+        "answer": 3,
+        "explanation": "Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution.",
+        "difficulty": "Easy",
+        "topic": "Hydrochloric acid · main textbook use or property",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q28",
+        "question": "Calcium hydroxide: which option correctly identifies the chemical formula?",
+        "options": [
+          "NaOH",
+          "NaHCO₃",
+          "Ca(OH)₂",
+          "NaCl"
+        ],
+        "answer": 2,
+        "explanation": "Calcium hydroxide — chemical formula: Ca(OH)₂.",
+        "difficulty": "Easy",
+        "topic": "Calcium hydroxide · chemical formula",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q29",
+        "question": "Calcium hydroxide: which option correctly identifies the common name or identity?",
+        "options": [
+          "Washing soda",
+          "Slaked lime",
+          "Caustic soda",
+          "Baking soda"
+        ],
+        "answer": 1,
+        "explanation": "Calcium hydroxide — common name or identity: Slaked lime.",
+        "difficulty": "Easy",
+        "topic": "Calcium hydroxide · common name or identity",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-E-Q30",
+        "question": "Calcium hydroxide: which option correctly identifies the main textbook use or property?",
+        "options": [
+          "Its clear aqueous solution tests for carbon dioxide",
+          "Releases carbon dioxide on heating",
+          "Used in cleaning and softening hard water",
+          "Used for bleaching and disinfection"
+        ],
+        "answer": 0,
+        "explanation": "Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide.",
+        "difficulty": "Easy",
+        "topic": "Calcium hydroxide · main textbook use or property",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH03-M": {
+    "id": "SA-DPP-27-PHY-CH03-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "M",
+    "title": "Acids, Bases and Salts – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q01",
+        "question": "Which gas forms when dilute HCl reacts with zinc?",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Nitrogen",
+          "Chlorine"
+        ],
+        "answer": 0,
+        "explanation": "Zn+2HCl→ZnCl₂+H₂.",
+        "difficulty": "Medium",
+        "topic": "Which gas forms when dilute HCl reacts with zinc?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q02",
+        "question": "Adding acid to a carbonate releases which gas?",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Ammonia",
+          "Carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Carbonates react with acids to produce salt, water and CO₂.",
+        "difficulty": "Medium",
+        "topic": "Adding acid to a carbonate releases which gas?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q03",
+        "question": "A solution changes from pH 3 to pH 5. What happens to hydrogen-ion concentration?",
+        "options": [
+          "It becomes 100 times larger",
+          "It remains unchanged",
+          "It becomes 100 times smaller",
+          "It doubles"
+        ],
+        "answer": 2,
+        "explanation": "Each pH increase of 1 represents a tenfold decrease in H⁺ concentration.",
+        "difficulty": "Medium",
+        "topic": "A solution changes from pH 3 to pH 5. What happens to hydrogen-ion concentration?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q04",
+        "question": "Which pair correctly matches Sodium chloride with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "NaHCO₃ → Baking soda",
+          "NaCl → Common salt",
+          "NaOH → Common salt",
+          "NaCl → Caustic soda"
+        ],
+        "answer": 1,
+        "explanation": "Sodium chloride — chemical formula: NaCl. Sodium chloride — common name or identity: Common salt. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q05",
+        "question": "Which pair correctly matches Sodium chloride with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Common salt → Raw material for several sodium compounds",
+          "Baking soda → Raw material for several sodium compounds",
+          "Common salt → A strong base used in soap manufacture",
+          "Washing soda → Releases carbon dioxide on heating"
+        ],
+        "answer": 0,
+        "explanation": "Sodium chloride — common name or identity: Common salt. Sodium chloride — main textbook use or property: Raw material for several sodium compounds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q06",
+        "question": "Which pair correctly matches Sodium chloride with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Used in cleaning and softening hard water → NaCl",
+          "Raw material for several sodium compounds → NaOH",
+          "Used for bleaching and disinfection → NaHCO₃",
+          "Raw material for several sodium compounds → NaCl"
+        ],
+        "answer": 3,
+        "explanation": "Sodium chloride — main textbook use or property: Raw material for several sodium compounds. Sodium chloride — chemical formula: NaCl. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium chloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q07",
+        "question": "Which pair correctly matches Sodium hydroxide with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "NaOH → Baking soda",
+          "Na₂CO₃·10H₂O → Washing soda",
+          "NaOH → Caustic soda",
+          "NaHCO₃ → Caustic soda"
+        ],
+        "answer": 2,
+        "explanation": "Sodium hydroxide — chemical formula: NaOH. Sodium hydroxide — common name or identity: Caustic soda. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydroxide",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q08",
+        "question": "Which pair correctly matches Sodium hydroxide with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Bleaching powder → Used in cleaning and softening hard water",
+          "Caustic soda → A strong base used in soap manufacture",
+          "Washing soda → A strong base used in soap manufacture",
+          "Caustic soda → Releases carbon dioxide on heating"
+        ],
+        "answer": 1,
+        "explanation": "Sodium hydroxide — common name or identity: Caustic soda. Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydroxide",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q09",
+        "question": "Which pair correctly matches Sodium hydroxide with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "A strong base used in soap manufacture → NaOH",
+          "Used for bleaching and disinfection → NaOH",
+          "A strong base used in soap manufacture → NaHCO₃",
+          "Sets into a hard mass when mixed with water → Na₂CO₃·10H₂O"
+        ],
+        "answer": 0,
+        "explanation": "Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture. Sodium hydroxide — chemical formula: NaOH. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydroxide",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q10",
+        "question": "Which pair correctly matches Sodium hydrogen carbonate with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "Na₂CO₃·10H₂O → Baking soda",
+          "NaHCO₃ → Washing soda",
+          "CaOCl₂ → Bleaching powder",
+          "NaHCO₃ → Baking soda"
+        ],
+        "answer": 3,
+        "explanation": "Sodium hydrogen carbonate — chemical formula: NaHCO₃. Sodium hydrogen carbonate — common name or identity: Baking soda. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydrogen carbonate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q11",
+        "question": "Which pair correctly matches Sodium hydrogen carbonate with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Baking soda → Used in cleaning and softening hard water",
+          "Plaster of Paris → Used for bleaching and disinfection",
+          "Baking soda → Releases carbon dioxide on heating",
+          "Bleaching powder → Releases carbon dioxide on heating"
+        ],
+        "answer": 2,
+        "explanation": "Sodium hydrogen carbonate — common name or identity: Baking soda. Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydrogen carbonate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q12",
+        "question": "Which pair correctly matches Sodium hydrogen carbonate with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Starting material for preparing Plaster of Paris → CaOCl₂",
+          "Releases carbon dioxide on heating → NaHCO₃",
+          "Sets into a hard mass when mixed with water → NaHCO₃",
+          "Releases carbon dioxide on heating → Na₂CO₃·10H₂O"
+        ],
+        "answer": 1,
+        "explanation": "Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating. Sodium hydrogen carbonate — chemical formula: NaHCO₃. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium hydrogen carbonate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q13",
+        "question": "Which pair correctly matches Sodium carbonate decahydrate with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "Na₂CO₃·10H₂O → Washing soda",
+          "CaOCl₂ → Washing soda",
+          "Na₂CO₃·10H₂O → Bleaching powder",
+          "CaSO₄·½H₂O → Plaster of Paris"
+        ],
+        "answer": 0,
+        "explanation": "Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O. Sodium carbonate decahydrate — common name or identity: Washing soda. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium carbonate decahydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q14",
+        "question": "Which pair correctly matches Sodium carbonate decahydrate with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Plaster of Paris → Used in cleaning and softening hard water",
+          "Washing soda → Used for bleaching and disinfection",
+          "Gypsum → Sets into a hard mass when mixed with water",
+          "Washing soda → Used in cleaning and softening hard water"
+        ],
+        "answer": 3,
+        "explanation": "Sodium carbonate decahydrate — common name or identity: Washing soda. Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium carbonate decahydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q15",
+        "question": "Which pair correctly matches Sodium carbonate decahydrate with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Used in cleaning and softening hard water → CaOCl₂",
+          "Turns blue litmus red in aqueous solution → CaSO₄·½H₂O",
+          "Used in cleaning and softening hard water → Na₂CO₃·10H₂O",
+          "Starting material for preparing Plaster of Paris → Na₂CO₃·10H₂O"
+        ],
+        "answer": 2,
+        "explanation": "Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water. Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sodium carbonate decahydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q16",
+        "question": "Which pair correctly matches Calcium oxychloride with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "CaSO₄·2H₂O → Gypsum",
+          "CaOCl₂ → Bleaching powder",
+          "CaSO₄·½H₂O → Bleaching powder",
+          "CaOCl₂ → Plaster of Paris"
+        ],
+        "answer": 1,
+        "explanation": "Calcium oxychloride — chemical formula: CaOCl₂. Calcium oxychloride — common name or identity: Bleaching powder. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium oxychloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q17",
+        "question": "Which pair correctly matches Calcium oxychloride with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Bleaching powder → Used for bleaching and disinfection",
+          "Gypsum → Used for bleaching and disinfection",
+          "Bleaching powder → Sets into a hard mass when mixed with water",
+          "An acid present in gastric juice → Starting material for preparing Plaster of Paris"
+        ],
+        "answer": 0,
+        "explanation": "Calcium oxychloride — common name or identity: Bleaching powder. Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium oxychloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q18",
+        "question": "Which pair correctly matches Calcium oxychloride with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Turns blue litmus red in aqueous solution → CaOCl₂",
+          "Used for bleaching and disinfection → CaSO₄·½H₂O",
+          "Its clear aqueous solution tests for carbon dioxide → CaSO₄·2H₂O",
+          "Used for bleaching and disinfection → CaOCl₂"
+        ],
+        "answer": 3,
+        "explanation": "Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection. Calcium oxychloride — chemical formula: CaOCl₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium oxychloride",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q19",
+        "question": "Which pair correctly matches Calcium sulfate hemihydrate with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "CaSO₄·½H₂O → Gypsum",
+          "HCl → An acid present in gastric juice",
+          "CaSO₄·½H₂O → Plaster of Paris",
+          "CaSO₄·2H₂O → Plaster of Paris"
+        ],
+        "answer": 2,
+        "explanation": "Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O. Calcium sulfate hemihydrate — common name or identity: Plaster of Paris. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate hemihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q20",
+        "question": "Which pair correctly matches Calcium sulfate hemihydrate with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Slaked lime → Turns blue litmus red in aqueous solution",
+          "Plaster of Paris → Sets into a hard mass when mixed with water",
+          "An acid present in gastric juice → Sets into a hard mass when mixed with water",
+          "Plaster of Paris → Starting material for preparing Plaster of Paris"
+        ],
+        "answer": 1,
+        "explanation": "Calcium sulfate hemihydrate — common name or identity: Plaster of Paris. Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate hemihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q21",
+        "question": "Which pair correctly matches Calcium sulfate hemihydrate with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Sets into a hard mass when mixed with water → CaSO₄·½H₂O",
+          "Its clear aqueous solution tests for carbon dioxide → CaSO₄·½H₂O",
+          "Sets into a hard mass when mixed with water → CaSO₄·2H₂O",
+          "Raw material for several sodium compounds → HCl"
+        ],
+        "answer": 0,
+        "explanation": "Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water. Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate hemihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q22",
+        "question": "Which pair correctly matches Calcium sulfate dihydrate with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "HCl → Gypsum",
+          "CaSO₄·2H₂O → An acid present in gastric juice",
+          "Ca(OH)₂ → Slaked lime",
+          "CaSO₄·2H₂O → Gypsum"
+        ],
+        "answer": 3,
+        "explanation": "Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O. Calcium sulfate dihydrate — common name or identity: Gypsum. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate dihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q23",
+        "question": "Which pair correctly matches Calcium sulfate dihydrate with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Gypsum → Turns blue litmus red in aqueous solution",
+          "Common salt → Its clear aqueous solution tests for carbon dioxide",
+          "Gypsum → Starting material for preparing Plaster of Paris",
+          "Slaked lime → Starting material for preparing Plaster of Paris"
+        ],
+        "answer": 2,
+        "explanation": "Calcium sulfate dihydrate — common name or identity: Gypsum. Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate dihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q24",
+        "question": "Which pair correctly matches Calcium sulfate dihydrate with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "A strong base used in soap manufacture → Ca(OH)₂",
+          "Starting material for preparing Plaster of Paris → CaSO₄·2H₂O",
+          "Raw material for several sodium compounds → CaSO₄·2H₂O",
+          "Starting material for preparing Plaster of Paris → HCl"
+        ],
+        "answer": 1,
+        "explanation": "Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris. Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium sulfate dihydrate",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q25",
+        "question": "Which pair correctly matches Hydrochloric acid with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "HCl → An acid present in gastric juice",
+          "Ca(OH)₂ → An acid present in gastric juice",
+          "HCl → Slaked lime",
+          "NaCl → Common salt"
+        ],
+        "answer": 0,
+        "explanation": "Hydrochloric acid — chemical formula: HCl. Hydrochloric acid — common name or identity: An acid present in gastric juice. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrochloric acid",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q26",
+        "question": "Which pair correctly matches Hydrochloric acid with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Common salt → Turns blue litmus red in aqueous solution",
+          "An acid present in gastric juice → Its clear aqueous solution tests for carbon dioxide",
+          "Caustic soda → Raw material for several sodium compounds",
+          "An acid present in gastric juice → Turns blue litmus red in aqueous solution"
+        ],
+        "answer": 3,
+        "explanation": "Hydrochloric acid — common name or identity: An acid present in gastric juice. Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrochloric acid",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q27",
+        "question": "Which pair correctly matches Hydrochloric acid with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Turns blue litmus red in aqueous solution → Ca(OH)₂",
+          "Releases carbon dioxide on heating → NaCl",
+          "Turns blue litmus red in aqueous solution → HCl",
+          "A strong base used in soap manufacture → HCl"
+        ],
+        "answer": 2,
+        "explanation": "Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution. Hydrochloric acid — chemical formula: HCl. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrochloric acid",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q28",
+        "question": "Which pair correctly matches Calcium hydroxide with its chemical formula and common name or identity, in that order?",
+        "options": [
+          "NaOH → Caustic soda",
+          "Ca(OH)₂ → Slaked lime",
+          "NaCl → Slaked lime",
+          "Ca(OH)₂ → Common salt"
+        ],
+        "answer": 1,
+        "explanation": "Calcium hydroxide — chemical formula: Ca(OH)₂. Calcium hydroxide — common name or identity: Slaked lime. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium hydroxide",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q29",
+        "question": "Which pair correctly matches Calcium hydroxide with its common name or identity and main textbook use or property, in that order?",
+        "options": [
+          "Slaked lime → Its clear aqueous solution tests for carbon dioxide",
+          "Caustic soda → Its clear aqueous solution tests for carbon dioxide",
+          "Slaked lime → Raw material for several sodium compounds",
+          "Baking soda → A strong base used in soap manufacture"
+        ],
+        "answer": 0,
+        "explanation": "Calcium hydroxide — common name or identity: Slaked lime. Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium hydroxide",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-M-Q30",
+        "question": "Which pair correctly matches Calcium hydroxide with its main textbook use or property and chemical formula, in that order?",
+        "options": [
+          "Releases carbon dioxide on heating → Ca(OH)₂",
+          "Its clear aqueous solution tests for carbon dioxide → NaCl",
+          "Used in cleaning and softening hard water → NaOH",
+          "Its clear aqueous solution tests for carbon dioxide → Ca(OH)₂"
+        ],
+        "answer": 3,
+        "explanation": "Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide. Calcium hydroxide — chemical formula: Ca(OH)₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Calcium hydroxide",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH03-H": {
+    "id": "SA-DPP-27-PHY-CH03-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch3",
+    "chapterNumber": 3,
+    "chapter": "Acids, Bases and Salts",
+    "level": "H",
+    "title": "Acids, Bases and Salts – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-03.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-03",
+    "recommendedDate": "2026-10-18",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 33,
+      "to": 56
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q01",
+        "question": "Why does dry HCl gas not change dry blue litmus red?",
+        "options": [
+          "HCl contains no hydrogen",
+          "Dry HCl is a strong base",
+          "Litmus reacts only with metals",
+          "Water is needed to form the ions responsible for acidity"
+        ],
+        "answer": 3,
+        "explanation": "HCl displays acidic behaviour after ionisation in water.",
+        "difficulty": "Hard",
+        "topic": "Why does dry HCl gas not change dry blue litmus red?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q02",
+        "question": "Why is acid added slowly to water during dilution?",
+        "options": [
+          "Water chemically neutralises all acid",
+          "It prevents ion formation",
+          "Dilution releases heat; abundant water helps absorb it",
+          "Dilution always absorbs heat"
+        ],
+        "answer": 2,
+        "explanation": "Adding small acid portions with stirring limits dangerous local heating.",
+        "difficulty": "Hard",
+        "topic": "Why is acid added slowly to water during dilution?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q03",
+        "question": "A farmer has acidic soil. Which treatment is most appropriate?",
+        "options": [
+          "Remove all water permanently",
+          "Apply a suitable amount of lime",
+          "Add hydrochloric acid",
+          "Add more acidic fertiliser indiscriminately"
+        ],
+        "answer": 1,
+        "explanation": "Basic lime materials can neutralise excess soil acidity.",
+        "difficulty": "Hard",
+        "topic": "A farmer has acidic soil. Which treatment is most appropriate?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride — chemical formula: NaOH\nII. Calcium oxychloride — common name or identity: Bleaching powder\nIII. Hydrochloric acid — main textbook use or property: Releases carbon dioxide on heating",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Sodium chloride — chemical formula: NaCl; Calcium oxychloride — common name or identity: Bleaching powder; Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride — common name or identity: Common salt\nII. Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection\nIII. Hydrochloric acid — chemical formula: Na₂CO₃·10H₂O",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Sodium chloride — common name or identity: Common salt; Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection; Hydrochloric acid — chemical formula: HCl.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium chloride — main textbook use or property: Used in cleaning and softening hard water\nII. Calcium oxychloride — chemical formula: Na₂CO₃·10H₂O\nIII. Hydrochloric acid — common name or identity: An acid present in gastric juice",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Sodium chloride — main textbook use or property: Raw material for several sodium compounds; Calcium oxychloride — chemical formula: CaOCl₂; Hydrochloric acid — common name or identity: An acid present in gastric juice.",
+        "difficulty": "Hard",
+        "topic": "Sodium chloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydroxide — chemical formula: NaOH\nII. Calcium sulfate hemihydrate — common name or identity: Bleaching powder\nIII. Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Sodium hydroxide — chemical formula: NaOH; Calcium sulfate hemihydrate — common name or identity: Plaster of Paris; Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydroxide — common name or identity: Plaster of Paris\nII. Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water\nIII. Calcium hydroxide — chemical formula: Ca(OH)₂",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Sodium hydroxide — common name or identity: Caustic soda; Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water; Calcium hydroxide — chemical formula: Ca(OH)₂.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture\nII. Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O\nIII. Calcium hydroxide — common name or identity: Slaked lime",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture; Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O; Calcium hydroxide — common name or identity: Slaked lime.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydrogen carbonate — chemical formula: HCl\nII. Calcium sulfate dihydrate — common name or identity: Slaked lime\nIII. Sodium chloride — main textbook use or property: A strong base used in soap manufacture",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Sodium hydrogen carbonate — chemical formula: NaHCO₃; Calcium sulfate dihydrate — common name or identity: Gypsum; Sodium chloride — main textbook use or property: Raw material for several sodium compounds.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydrogen carbonate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydrogen carbonate — common name or identity: Baking soda\nII. Calcium sulfate dihydrate — main textbook use or property: Raw material for several sodium compounds\nIII. Sodium chloride — chemical formula: NaHCO₃",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Sodium hydrogen carbonate — common name or identity: Baking soda; Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris; Sodium chloride — chemical formula: NaCl.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydrogen carbonate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium hydrogen carbonate — main textbook use or property: Raw material for several sodium compounds\nII. Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O\nIII. Sodium chloride — common name or identity: Washing soda",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating; Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O; Sodium chloride — common name or identity: Common salt.",
+        "difficulty": "Hard",
+        "topic": "Sodium hydrogen carbonate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O\nII. Hydrochloric acid — common name or identity: An acid present in gastric juice\nIII. Sodium hydroxide — main textbook use or property: Used for bleaching and disinfection",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O; Hydrochloric acid — common name or identity: An acid present in gastric juice; Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture.",
+        "difficulty": "Hard",
+        "topic": "Sodium carbonate decahydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium carbonate decahydrate — common name or identity: Baking soda\nII. Hydrochloric acid — main textbook use or property: Used in cleaning and softening hard water\nIII. Sodium hydroxide — chemical formula: NaOH",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Sodium carbonate decahydrate — common name or identity: Washing soda; Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution; Sodium hydroxide — chemical formula: NaOH.",
+        "difficulty": "Hard",
+        "topic": "Sodium carbonate decahydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water\nII. Hydrochloric acid — chemical formula: CaOCl₂\nIII. Sodium hydroxide — common name or identity: Caustic soda",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water; Hydrochloric acid — chemical formula: HCl; Sodium hydroxide — common name or identity: Caustic soda.",
+        "difficulty": "Hard",
+        "topic": "Sodium carbonate decahydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium oxychloride — chemical formula: CaSO₄·½H₂O\nII. Calcium hydroxide — common name or identity: Slaked lime\nIII. Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Calcium oxychloride — chemical formula: CaOCl₂; Calcium hydroxide — common name or identity: Slaked lime; Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating.",
+        "difficulty": "Hard",
+        "topic": "Calcium oxychloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium oxychloride — common name or identity: Bleaching powder\nII. Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide\nIII. Sodium hydrogen carbonate — chemical formula: NaHCO₃",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Calcium oxychloride — common name or identity: Bleaching powder; Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide; Sodium hydrogen carbonate — chemical formula: NaHCO₃.",
+        "difficulty": "Hard",
+        "topic": "Calcium oxychloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium oxychloride — main textbook use or property: Turns blue litmus red in aqueous solution\nII. Calcium hydroxide — chemical formula: HCl\nIII. Sodium hydrogen carbonate — common name or identity: Common salt",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection; Calcium hydroxide — chemical formula: Ca(OH)₂; Sodium hydrogen carbonate — common name or identity: Baking soda.",
+        "difficulty": "Hard",
+        "topic": "Calcium oxychloride · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O\nII. Sodium chloride — common name or identity: Caustic soda\nIII. Sodium carbonate decahydrate — main textbook use or property: A strong base used in soap manufacture",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O; Sodium chloride — common name or identity: Common salt; Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate hemihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate hemihydrate — common name or identity: Common salt\nII. Sodium chloride — main textbook use or property: Raw material for several sodium compounds\nIII. Sodium carbonate decahydrate — chemical formula: NaHCO₃",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Calcium sulfate hemihydrate — common name or identity: Plaster of Paris; Sodium chloride — main textbook use or property: Raw material for several sodium compounds; Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate hemihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water\nII. Sodium chloride — chemical formula: NaCl\nIII. Sodium carbonate decahydrate — common name or identity: Bleaching powder",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water; Sodium chloride — chemical formula: NaCl; Sodium carbonate decahydrate — common name or identity: Washing soda.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate hemihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate dihydrate — chemical formula: NaHCO₃\nII. Sodium hydroxide — common name or identity: Bleaching powder\nIII. Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O; Sodium hydroxide — common name or identity: Caustic soda; Calcium oxychloride — main textbook use or property: Used for bleaching and disinfection.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate dihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate dihydrate — common name or identity: Gypsum\nII. Sodium hydroxide — main textbook use or property: Sets into a hard mass when mixed with water\nIII. Calcium oxychloride — chemical formula: CaOCl₂",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Calcium sulfate dihydrate — common name or identity: Gypsum; Sodium hydroxide — main textbook use or property: A strong base used in soap manufacture; Calcium oxychloride — chemical formula: CaOCl₂.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate dihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium sulfate dihydrate — main textbook use or property: Used for bleaching and disinfection\nII. Sodium hydroxide — chemical formula: NaOH\nIII. Calcium oxychloride — common name or identity: Bleaching powder",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris; Sodium hydroxide — chemical formula: NaOH; Calcium oxychloride — common name or identity: Bleaching powder.",
+        "difficulty": "Hard",
+        "topic": "Calcium sulfate dihydrate · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrochloric acid — chemical formula: HCl\nII. Sodium hydrogen carbonate — common name or identity: Baking soda\nIII. Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Hydrochloric acid — chemical formula: HCl; Sodium hydrogen carbonate — common name or identity: Baking soda; Calcium sulfate hemihydrate — main textbook use or property: Sets into a hard mass when mixed with water.",
+        "difficulty": "Hard",
+        "topic": "Hydrochloric acid · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrochloric acid — common name or identity: Gypsum\nII. Sodium hydrogen carbonate — main textbook use or property: Its clear aqueous solution tests for carbon dioxide\nIII. Calcium sulfate hemihydrate — chemical formula: NaCl",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Hydrochloric acid — common name or identity: An acid present in gastric juice; Sodium hydrogen carbonate — main textbook use or property: Releases carbon dioxide on heating; Calcium sulfate hemihydrate — chemical formula: CaSO₄·½H₂O.",
+        "difficulty": "Hard",
+        "topic": "Hydrochloric acid · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution\nII. Sodium hydrogen carbonate — chemical formula: NaCl\nIII. Calcium sulfate hemihydrate — common name or identity: Caustic soda",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Hydrochloric acid — main textbook use or property: Turns blue litmus red in aqueous solution; Sodium hydrogen carbonate — chemical formula: NaHCO₃; Calcium sulfate hemihydrate — common name or identity: Plaster of Paris.",
+        "difficulty": "Hard",
+        "topic": "Hydrochloric acid · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium hydroxide — chemical formula: NaCl\nII. Sodium carbonate decahydrate — common name or identity: Washing soda\nIII. Calcium sulfate dihydrate — main textbook use or property: Releases carbon dioxide on heating",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Calcium hydroxide — chemical formula: Ca(OH)₂; Sodium carbonate decahydrate — common name or identity: Washing soda; Calcium sulfate dihydrate — main textbook use or property: Starting material for preparing Plaster of Paris.",
+        "difficulty": "Hard",
+        "topic": "Calcium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium hydroxide — common name or identity: Slaked lime\nII. Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water\nIII. Calcium sulfate dihydrate — chemical formula: Na₂CO₃·10H₂O",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Calcium hydroxide — common name or identity: Slaked lime; Sodium carbonate decahydrate — main textbook use or property: Used in cleaning and softening hard water; Calcium sulfate dihydrate — chemical formula: CaSO₄·2H₂O.",
+        "difficulty": "Hard",
+        "topic": "Calcium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH03-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Calcium hydroxide — main textbook use or property: Releases carbon dioxide on heating\nII. Sodium carbonate decahydrate — chemical formula: CaOCl₂\nIII. Calcium sulfate dihydrate — common name or identity: Gypsum",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Calcium hydroxide — main textbook use or property: Its clear aqueous solution tests for carbon dioxide; Sodium carbonate decahydrate — chemical formula: Na₂CO₃·10H₂O; Calcium sulfate dihydrate — common name or identity: Gypsum.",
+        "difficulty": "Hard",
+        "topic": "Calcium hydroxide · comparing chapter concepts",
+        "sourceChapter": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH15-E": {
+    "id": "SA-DPP-27-SOC-CH15-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch15",
+    "chapterNumber": 15,
+    "chapter": "The Making of Independent India's Constitution",
+    "level": "E",
+    "title": "The Making of Independent India's Constitution – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-15.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-SOC-02",
+    "recommendedDate": "2026-12-03",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 15,
+    "sourcePrintedPages": {
+      "from": 212,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q01",
+        "question": "Who chaired the Drafting Committee of India's Constituent Assembly?",
+        "options": [
+          "Bhagat Singh",
+          "B. R. Ambedkar",
+          "Mahatma Gandhi",
+          "Subhas Chandra Bose"
+        ],
+        "answer": 1,
+        "explanation": "Ambedkar chaired the committee responsible for preparing the draft Constitution.",
+        "difficulty": "Easy",
+        "topic": "Who chaired the Drafting Committee of India's Constituent Assembly?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q02",
+        "question": "When did India's Constitution come into force?",
+        "options": [
+          "26 January 1950",
+          "15 August 1947",
+          "26 November 1949",
+          "2 October 1950"
+        ],
+        "answer": 0,
+        "explanation": "It was adopted on 26 November 1949 and came into force on 26 January 1950.",
+        "difficulty": "Easy",
+        "topic": "When did India's Constitution come into force?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q03",
+        "question": "What does universal adult franchise mean?",
+        "options": [
+          "Voting only by property owners",
+          "Voting only by graduates",
+          "Voting only by men",
+          "Voting rights for adult citizens subject to lawful eligibility"
+        ],
+        "answer": 3,
+        "explanation": "Adult citizenship, rather than wealth or education, underlies the franchise.",
+        "difficulty": "Easy",
+        "topic": "What does universal adult franchise mean?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q04",
+        "question": "Preamble: which option correctly identifies the constitutional identity?",
+        "options": [
+          "Government based on the political authority of the people",
+          "A system without a hereditary head of state",
+          "An introductory statement of constitutional ideals",
+          "The authority of an independent political community"
+        ],
+        "answer": 2,
+        "explanation": "Preamble — constitutional identity: An introductory statement of constitutional ideals.",
+        "difficulty": "Easy",
+        "topic": "Preamble · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q05",
+        "question": "Preamble: which option correctly identifies the core meaning?",
+        "options": [
+          "Safeguard important freedoms and equality",
+          "Sets out aspirations including justice, liberty, equality and fraternity",
+          "Representative institutions depend on elections and public accountability",
+          "Public office is not inherited as a royal entitlement"
+        ],
+        "answer": 1,
+        "explanation": "Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity.",
+        "difficulty": "Easy",
+        "topic": "Preamble · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q06",
+        "question": "Preamble: which option correctly identifies the institutional implication?",
+        "options": [
+          "Guides understanding of the Constitution's purposes",
+          "It is only an annual financial budget",
+          "It replaces every enforceable constitutional provision",
+          "It gives any official unlimited power"
+        ],
+        "answer": 0,
+        "explanation": "Preamble — institutional implication: Guides understanding of the Constitution's purposes.",
+        "difficulty": "Easy",
+        "topic": "Preamble · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q07",
+        "question": "Sovereignty: which option correctly identifies the constitutional identity?",
+        "options": [
+          "Government based on the political authority of the people",
+          "A system without a hereditary head of state",
+          "Constitutionally protected rights",
+          "The authority of an independent political community"
+        ],
+        "answer": 3,
+        "explanation": "Sovereignty — constitutional identity: The authority of an independent political community.",
+        "difficulty": "Easy",
+        "topic": "Sovereignty · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q08",
+        "question": "Sovereignty: which option correctly identifies the core meaning?",
+        "options": [
+          "Safeguard important freedoms and equality",
+          "Set social and economic objectives for the state",
+          "India governs itself rather than being subordinate to a colonial ruler",
+          "Public office is not inherited as a royal entitlement"
+        ],
+        "answer": 2,
+        "explanation": "Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler.",
+        "difficulty": "Easy",
+        "topic": "Sovereignty · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q09",
+        "question": "Sovereignty: which option correctly identifies the institutional implication?",
+        "options": [
+          "It gives foreign rulers constitutional supremacy",
+          "Foreign-policy and domestic choices are made through constitutional institutions",
+          "It means continued subordination to colonial rule",
+          "It prevents all independent policy choices"
+        ],
+        "answer": 1,
+        "explanation": "Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions.",
+        "difficulty": "Easy",
+        "topic": "Sovereignty · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q10",
+        "question": "Democracy: which option correctly identifies the constitutional identity?",
+        "options": [
+          "Government based on the political authority of the people",
+          "A system without a hereditary head of state",
+          "Constitutionally protected rights",
+          "Constitutional guidance for governance"
+        ],
+        "answer": 0,
+        "explanation": "Democracy — constitutional identity: Government based on the political authority of the people.",
+        "difficulty": "Easy",
+        "topic": "Democracy · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q11",
+        "question": "Democracy: which option correctly identifies the core meaning?",
+        "options": [
+          "Safeguard important freedoms and equality",
+          "Set social and economic objectives for the state",
+          "The Constitution allocates powers to Union and state institutions",
+          "Representative institutions depend on elections and public accountability"
+        ],
+        "answer": 3,
+        "explanation": "Democracy — core meaning: Representative institutions depend on elections and public accountability.",
+        "difficulty": "Easy",
+        "topic": "Democracy · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q12",
+        "question": "Democracy: which option correctly identifies the institutional implication?",
+        "options": [
+          "Only hereditary rulers hold political authority",
+          "Citizens cannot replace elected representatives",
+          "Citizens can replace representatives through lawful elections",
+          "Elections and accountability are irrelevant"
+        ],
+        "answer": 2,
+        "explanation": "Democracy — institutional implication: Citizens can replace representatives through lawful elections.",
+        "difficulty": "Easy",
+        "topic": "Democracy · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q13",
+        "question": "Republic: which option correctly identifies the constitutional identity?",
+        "options": [
+          "A division of authority between levels of government",
+          "A system without a hereditary head of state",
+          "Constitutionally protected rights",
+          "Constitutional guidance for governance"
+        ],
+        "answer": 1,
+        "explanation": "Republic — constitutional identity: A system without a hereditary head of state.",
+        "difficulty": "Easy",
+        "topic": "Republic · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q14",
+        "question": "Republic: which option correctly identifies the core meaning?",
+        "options": [
+          "Public office is not inherited as a royal entitlement",
+          "Set social and economic objectives for the state",
+          "The Constitution allocates powers to Union and state institutions",
+          "Voting does not depend on wealth, caste or educational qualification"
+        ],
+        "answer": 0,
+        "explanation": "Republic — core meaning: Public office is not inherited as a royal entitlement.",
+        "difficulty": "Easy",
+        "topic": "Republic · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q15",
+        "question": "Republic: which option correctly identifies the institutional implication?",
+        "options": [
+          "No non-hereditary constitutional head is possible",
+          "The head of state inherits office as a monarch",
+          "Public office is automatically a royal entitlement",
+          "India has an elected constitutional head of state"
+        ],
+        "answer": 3,
+        "explanation": "Republic — institutional implication: India has an elected constitutional head of state.",
+        "difficulty": "Easy",
+        "topic": "Republic · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q16",
+        "question": "Fundamental Rights: which option correctly identifies the constitutional identity?",
+        "options": [
+          "A division of authority between levels of government",
+          "Adult citizens' voting entitlement subject to lawful eligibility",
+          "Constitutionally protected rights",
+          "Constitutional guidance for governance"
+        ],
+        "answer": 2,
+        "explanation": "Fundamental Rights — constitutional identity: Constitutionally protected rights.",
+        "difficulty": "Easy",
+        "topic": "Fundamental Rights · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q17",
+        "question": "Fundamental Rights: which option correctly identifies the core meaning?",
+        "options": [
+          "Prepared a draft constitutional text for deliberation",
+          "Safeguard important freedoms and equality",
+          "The Constitution allocates powers to Union and state institutions",
+          "Voting does not depend on wealth, caste or educational qualification"
+        ],
+        "answer": 1,
+        "explanation": "Fundamental Rights — core meaning: Safeguard important freedoms and equality.",
+        "difficulty": "Easy",
+        "topic": "Fundamental Rights · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q18",
+        "question": "Fundamental Rights: which option correctly identifies the institutional implication?",
+        "options": [
+          "Can be enforced through constitutional remedies",
+          "Rights need no constitutional remedy",
+          "Arbitrary state action is always unlimited",
+          "Equality and freedoms have no protection"
+        ],
+        "answer": 0,
+        "explanation": "Fundamental Rights — institutional implication: Can be enforced through constitutional remedies.",
+        "difficulty": "Easy",
+        "topic": "Fundamental Rights · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q19",
+        "question": "Directive Principles: which option correctly identifies the constitutional identity?",
+        "options": [
+          "A division of authority between levels of government",
+          "Adult citizens' voting entitlement subject to lawful eligibility",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "Constitutional guidance for governance"
+        ],
+        "answer": 3,
+        "explanation": "Directive Principles — constitutional identity: Constitutional guidance for governance.",
+        "difficulty": "Easy",
+        "topic": "Directive Principles · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q20",
+        "question": "Directive Principles: which option correctly identifies the core meaning?",
+        "options": [
+          "Prepared a draft constitutional text for deliberation",
+          "Sets out aspirations including justice, liberty, equality and fraternity",
+          "Set social and economic objectives for the state",
+          "Voting does not depend on wealth, caste or educational qualification"
+        ],
+        "answer": 2,
+        "explanation": "Directive Principles — core meaning: Set social and economic objectives for the state.",
+        "difficulty": "Easy",
+        "topic": "Directive Principles · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q21",
+        "question": "Directive Principles: which option correctly identifies the institutional implication?",
+        "options": [
+          "They are enforceable in exactly the same way as Fundamental Rights",
+          "Guide policy though not enforceable in the same way as Fundamental Rights",
+          "They prohibit all social-policy objectives",
+          "They abolish all government responsibility"
+        ],
+        "answer": 1,
+        "explanation": "Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights.",
+        "difficulty": "Easy",
+        "topic": "Directive Principles · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q22",
+        "question": "Federalism: which option correctly identifies the constitutional identity?",
+        "options": [
+          "A division of authority between levels of government",
+          "Adult citizens' voting entitlement subject to lawful eligibility",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "An introductory statement of constitutional ideals"
+        ],
+        "answer": 0,
+        "explanation": "Federalism — constitutional identity: A division of authority between levels of government.",
+        "difficulty": "Easy",
+        "topic": "Federalism · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q23",
+        "question": "Federalism: which option correctly identifies the core meaning?",
+        "options": [
+          "Prepared a draft constitutional text for deliberation",
+          "Sets out aspirations including justice, liberty, equality and fraternity",
+          "India governs itself rather than being subordinate to a colonial ruler",
+          "The Constitution allocates powers to Union and state institutions"
+        ],
+        "answer": 3,
+        "explanation": "Federalism — core meaning: The Constitution allocates powers to Union and state institutions.",
+        "difficulty": "Easy",
+        "topic": "Federalism · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q24",
+        "question": "Federalism: which option correctly identifies the institutional implication?",
+        "options": [
+          "All authority belongs permanently to one village",
+          "States have no constitutionally allocated responsibilities",
+          "Different levels have specified responsibilities",
+          "The division of powers has no constitutional basis"
+        ],
+        "answer": 2,
+        "explanation": "Federalism — institutional implication: Different levels have specified responsibilities.",
+        "difficulty": "Easy",
+        "topic": "Federalism · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q25",
+        "question": "Universal adult franchise: which option correctly identifies the constitutional identity?",
+        "options": [
+          "The authority of an independent political community",
+          "Adult citizens' voting entitlement subject to lawful eligibility",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "An introductory statement of constitutional ideals"
+        ],
+        "answer": 1,
+        "explanation": "Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility.",
+        "difficulty": "Easy",
+        "topic": "Universal adult franchise · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q26",
+        "question": "Universal adult franchise: which option correctly identifies the core meaning?",
+        "options": [
+          "Voting does not depend on wealth, caste or educational qualification",
+          "Sets out aspirations including justice, liberty, equality and fraternity",
+          "India governs itself rather than being subordinate to a colonial ruler",
+          "Representative institutions depend on elections and public accountability"
+        ],
+        "answer": 0,
+        "explanation": "Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification.",
+        "difficulty": "Easy",
+        "topic": "Universal adult franchise · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q27",
+        "question": "Universal adult franchise: which option correctly identifies the institutional implication?",
+        "options": [
+          "Wealth is a necessary qualification for voting",
+          "Only university graduates may vote",
+          "Adult citizenship has no relevance to the franchise",
+          "Broadens democratic participation"
+        ],
+        "answer": 3,
+        "explanation": "Universal adult franchise — institutional implication: Broadens democratic participation.",
+        "difficulty": "Easy",
+        "topic": "Universal adult franchise · institutional implication",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q28",
+        "question": "Drafting Committee: which option correctly identifies the constitutional identity?",
+        "options": [
+          "The authority of an independent political community",
+          "Government based on the political authority of the people",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "An introductory statement of constitutional ideals"
+        ],
+        "answer": 2,
+        "explanation": "Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar.",
+        "difficulty": "Easy",
+        "topic": "Drafting Committee · constitutional identity",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q29",
+        "question": "Drafting Committee: which option correctly identifies the core meaning?",
+        "options": [
+          "Public office is not inherited as a royal entitlement",
+          "Prepared a draft constitutional text for deliberation",
+          "India governs itself rather than being subordinate to a colonial ruler",
+          "Representative institutions depend on elections and public accountability"
+        ],
+        "answer": 1,
+        "explanation": "Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation.",
+        "difficulty": "Easy",
+        "topic": "Drafting Committee · core meaning",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-E-Q30",
+        "question": "Drafting Committee: which option correctly identifies the institutional implication?",
+        "options": [
+          "Its work formed a central part of constitution-making",
+          "It alone adopted the text without Assembly deliberation",
+          "It had no role in preparing the constitutional draft",
+          "It was chaired by the British monarch"
+        ],
+        "answer": 0,
+        "explanation": "Drafting Committee — institutional implication: Its work formed a central part of constitution-making.",
+        "difficulty": "Easy",
+        "topic": "Drafting Committee · institutional implication",
+        "sourceChapter": 15
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH15-M": {
+    "id": "SA-DPP-27-SOC-CH15-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch15",
+    "chapterNumber": 15,
+    "chapter": "The Making of Independent India's Constitution",
+    "level": "M",
+    "title": "The Making of Independent India's Constitution – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-15.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-SOC-02",
+    "recommendedDate": "2026-12-04",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 15,
+    "sourcePrintedPages": {
+      "from": 212,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q01",
+        "question": "Why does a constitution limit government power?",
+        "options": [
+          "To protect rights and define lawful authority",
+          "To remove all public accountability",
+          "To allow rulers unlimited discretion",
+          "To abolish every institution"
+        ],
+        "answer": 0,
+        "explanation": "Constitutional rules set powers, procedures and protections.",
+        "difficulty": "Medium",
+        "topic": "Why does a constitution limit government power?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q02",
+        "question": "What is a key feature of federalism?",
+        "options": [
+          "All powers belong permanently to one village",
+          "Courts have no role",
+          "States have no assigned powers",
+          "Constitutional division of powers between levels of government"
+        ],
+        "answer": 3,
+        "explanation": "Federal arrangements allocate authority between Union and state institutions.",
+        "difficulty": "Medium",
+        "topic": "What is a key feature of federalism?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q03",
+        "question": "Why were fundamental rights included?",
+        "options": [
+          "To prevent every citizen from voting",
+          "To make discrimination compulsory",
+          "To protect important freedoms and equality against arbitrary action",
+          "To guarantee unlimited power to rulers"
+        ],
+        "answer": 2,
+        "explanation": "Enforceable rights are central safeguards in a democracy.",
+        "difficulty": "Medium",
+        "topic": "Why were fundamental rights included?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q04",
+        "question": "Which pair correctly matches Preamble with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "Government based on the political authority of the people → Representative institutions depend on elections and public accountability",
+          "An introductory statement of constitutional ideals → Sets out aspirations including justice, liberty, equality and fraternity",
+          "The authority of an independent political community → Sets out aspirations including justice, liberty, equality and fraternity",
+          "An introductory statement of constitutional ideals → India governs itself rather than being subordinate to a colonial ruler"
+        ],
+        "answer": 1,
+        "explanation": "Preamble — constitutional identity: An introductory statement of constitutional ideals. Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Preamble",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q05",
+        "question": "Which pair correctly matches Preamble with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Sets out aspirations including justice, liberty, equality and fraternity → Guides understanding of the Constitution's purposes",
+          "Representative institutions depend on elections and public accountability → Guides understanding of the Constitution's purposes",
+          "Sets out aspirations including justice, liberty, equality and fraternity → It replaces every enforceable constitutional provision",
+          "Public office is not inherited as a royal entitlement → It gives any official unlimited power"
+        ],
+        "answer": 0,
+        "explanation": "Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity. Preamble — institutional implication: Guides understanding of the Constitution's purposes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Preamble",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q06",
+        "question": "Which pair correctly matches Preamble with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "It is only an annual financial budget → An introductory statement of constitutional ideals",
+          "Guides understanding of the Constitution's purposes → The authority of an independent political community",
+          "It replaces every enforceable constitutional provision → Government based on the political authority of the people",
+          "Guides understanding of the Constitution's purposes → An introductory statement of constitutional ideals"
+        ],
+        "answer": 3,
+        "explanation": "Preamble — institutional implication: Guides understanding of the Constitution's purposes. Preamble — constitutional identity: An introductory statement of constitutional ideals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Preamble",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q07",
+        "question": "Which pair correctly matches Sovereignty with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "The authority of an independent political community → Representative institutions depend on elections and public accountability",
+          "A system without a hereditary head of state → Public office is not inherited as a royal entitlement",
+          "The authority of an independent political community → India governs itself rather than being subordinate to a colonial ruler",
+          "Government based on the political authority of the people → India governs itself rather than being subordinate to a colonial ruler"
+        ],
+        "answer": 2,
+        "explanation": "Sovereignty — constitutional identity: The authority of an independent political community. Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sovereignty",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q08",
+        "question": "Which pair correctly matches Sovereignty with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Safeguard important freedoms and equality → It gives foreign rulers constitutional supremacy",
+          "India governs itself rather than being subordinate to a colonial ruler → Foreign-policy and domestic choices are made through constitutional institutions",
+          "Public office is not inherited as a royal entitlement → Foreign-policy and domestic choices are made through constitutional institutions",
+          "India governs itself rather than being subordinate to a colonial ruler → It prevents all independent policy choices"
+        ],
+        "answer": 1,
+        "explanation": "Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler. Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sovereignty",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q09",
+        "question": "Which pair correctly matches Sovereignty with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "Foreign-policy and domestic choices are made through constitutional institutions → The authority of an independent political community",
+          "It means continued subordination to colonial rule → The authority of an independent political community",
+          "Foreign-policy and domestic choices are made through constitutional institutions → Government based on the political authority of the people",
+          "It prevents all independent policy choices → A system without a hereditary head of state"
+        ],
+        "answer": 0,
+        "explanation": "Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions. Sovereignty — constitutional identity: The authority of an independent political community. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sovereignty",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q10",
+        "question": "Which pair correctly matches Democracy with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "A system without a hereditary head of state → Representative institutions depend on elections and public accountability",
+          "Government based on the political authority of the people → Public office is not inherited as a royal entitlement",
+          "Constitutionally protected rights → Safeguard important freedoms and equality",
+          "Government based on the political authority of the people → Representative institutions depend on elections and public accountability"
+        ],
+        "answer": 3,
+        "explanation": "Democracy — constitutional identity: Government based on the political authority of the people. Democracy — core meaning: Representative institutions depend on elections and public accountability. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Democracy",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q11",
+        "question": "Which pair correctly matches Democracy with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Representative institutions depend on elections and public accountability → Only hereditary rulers hold political authority",
+          "Set social and economic objectives for the state → Citizens cannot replace elected representatives",
+          "Representative institutions depend on elections and public accountability → Citizens can replace representatives through lawful elections",
+          "Safeguard important freedoms and equality → Citizens can replace representatives through lawful elections"
+        ],
+        "answer": 2,
+        "explanation": "Democracy — core meaning: Representative institutions depend on elections and public accountability. Democracy — institutional implication: Citizens can replace representatives through lawful elections. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Democracy",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q12",
+        "question": "Which pair correctly matches Democracy with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "Only hereditary rulers hold political authority → Constitutionally protected rights",
+          "Citizens can replace representatives through lawful elections → Government based on the political authority of the people",
+          "Elections and accountability are irrelevant → Government based on the political authority of the people",
+          "Citizens can replace representatives through lawful elections → A system without a hereditary head of state"
+        ],
+        "answer": 1,
+        "explanation": "Democracy — institutional implication: Citizens can replace representatives through lawful elections. Democracy — constitutional identity: Government based on the political authority of the people. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Democracy",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q13",
+        "question": "Which pair correctly matches Republic with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "A system without a hereditary head of state → Public office is not inherited as a royal entitlement",
+          "Constitutionally protected rights → Public office is not inherited as a royal entitlement",
+          "A system without a hereditary head of state → Safeguard important freedoms and equality",
+          "Constitutional guidance for governance → Set social and economic objectives for the state"
+        ],
+        "answer": 0,
+        "explanation": "Republic — constitutional identity: A system without a hereditary head of state. Republic — core meaning: Public office is not inherited as a royal entitlement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Republic",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q14",
+        "question": "Which pair correctly matches Republic with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Set social and economic objectives for the state → India has an elected constitutional head of state",
+          "Public office is not inherited as a royal entitlement → The head of state inherits office as a monarch",
+          "The Constitution allocates powers to Union and state institutions → Public office is automatically a royal entitlement",
+          "Public office is not inherited as a royal entitlement → India has an elected constitutional head of state"
+        ],
+        "answer": 3,
+        "explanation": "Republic — core meaning: Public office is not inherited as a royal entitlement. Republic — institutional implication: India has an elected constitutional head of state. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Republic",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q15",
+        "question": "Which pair correctly matches Republic with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "India has an elected constitutional head of state → Constitutionally protected rights",
+          "The head of state inherits office as a monarch → Constitutional guidance for governance",
+          "India has an elected constitutional head of state → A system without a hereditary head of state",
+          "No non-hereditary constitutional head is possible → A system without a hereditary head of state"
+        ],
+        "answer": 2,
+        "explanation": "Republic — institutional implication: India has an elected constitutional head of state. Republic — constitutional identity: A system without a hereditary head of state. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Republic",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q16",
+        "question": "Which pair correctly matches Fundamental Rights with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "A division of authority between levels of government → The Constitution allocates powers to Union and state institutions",
+          "Constitutionally protected rights → Safeguard important freedoms and equality",
+          "Constitutional guidance for governance → Safeguard important freedoms and equality",
+          "Constitutionally protected rights → Set social and economic objectives for the state"
+        ],
+        "answer": 1,
+        "explanation": "Fundamental Rights — constitutional identity: Constitutionally protected rights. Fundamental Rights — core meaning: Safeguard important freedoms and equality. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fundamental Rights",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q17",
+        "question": "Which pair correctly matches Fundamental Rights with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Safeguard important freedoms and equality → Can be enforced through constitutional remedies",
+          "The Constitution allocates powers to Union and state institutions → Can be enforced through constitutional remedies",
+          "Safeguard important freedoms and equality → Arbitrary state action is always unlimited",
+          "Voting does not depend on wealth, caste or educational qualification → Equality and freedoms have no protection"
+        ],
+        "answer": 0,
+        "explanation": "Fundamental Rights — core meaning: Safeguard important freedoms and equality. Fundamental Rights — institutional implication: Can be enforced through constitutional remedies. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fundamental Rights",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q18",
+        "question": "Which pair correctly matches Fundamental Rights with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "Rights need no constitutional remedy → Constitutionally protected rights",
+          "Can be enforced through constitutional remedies → Constitutional guidance for governance",
+          "Arbitrary state action is always unlimited → A division of authority between levels of government",
+          "Can be enforced through constitutional remedies → Constitutionally protected rights"
+        ],
+        "answer": 3,
+        "explanation": "Fundamental Rights — institutional implication: Can be enforced through constitutional remedies. Fundamental Rights — constitutional identity: Constitutionally protected rights. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Fundamental Rights",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q19",
+        "question": "Which pair correctly matches Directive Principles with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "Constitutional guidance for governance → The Constitution allocates powers to Union and state institutions",
+          "Adult citizens' voting entitlement subject to lawful eligibility → Voting does not depend on wealth, caste or educational qualification",
+          "Constitutional guidance for governance → Set social and economic objectives for the state",
+          "A division of authority between levels of government → Set social and economic objectives for the state"
+        ],
+        "answer": 2,
+        "explanation": "Directive Principles — constitutional identity: Constitutional guidance for governance. Directive Principles — core meaning: Set social and economic objectives for the state. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Directive Principles",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q20",
+        "question": "Which pair correctly matches Directive Principles with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Prepared a draft constitutional text for deliberation → They are enforceable in exactly the same way as Fundamental Rights",
+          "Set social and economic objectives for the state → Guide policy though not enforceable in the same way as Fundamental Rights",
+          "Voting does not depend on wealth, caste or educational qualification → Guide policy though not enforceable in the same way as Fundamental Rights",
+          "Set social and economic objectives for the state → They abolish all government responsibility"
+        ],
+        "answer": 1,
+        "explanation": "Directive Principles — core meaning: Set social and economic objectives for the state. Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Directive Principles",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q21",
+        "question": "Which pair correctly matches Directive Principles with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "Guide policy though not enforceable in the same way as Fundamental Rights → Constitutional guidance for governance",
+          "They prohibit all social-policy objectives → Constitutional guidance for governance",
+          "Guide policy though not enforceable in the same way as Fundamental Rights → A division of authority between levels of government",
+          "They abolish all government responsibility → Adult citizens' voting entitlement subject to lawful eligibility"
+        ],
+        "answer": 0,
+        "explanation": "Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights. Directive Principles — constitutional identity: Constitutional guidance for governance. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Directive Principles",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q22",
+        "question": "Which pair correctly matches Federalism with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "Adult citizens' voting entitlement subject to lawful eligibility → The Constitution allocates powers to Union and state institutions",
+          "A division of authority between levels of government → Voting does not depend on wealth, caste or educational qualification",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar → Prepared a draft constitutional text for deliberation",
+          "A division of authority between levels of government → The Constitution allocates powers to Union and state institutions"
+        ],
+        "answer": 3,
+        "explanation": "Federalism — constitutional identity: A division of authority between levels of government. Federalism — core meaning: The Constitution allocates powers to Union and state institutions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Federalism",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q23",
+        "question": "Which pair correctly matches Federalism with its core meaning and institutional implication, in that order?",
+        "options": [
+          "The Constitution allocates powers to Union and state institutions → All authority belongs permanently to one village",
+          "Sets out aspirations including justice, liberty, equality and fraternity → States have no constitutionally allocated responsibilities",
+          "The Constitution allocates powers to Union and state institutions → Different levels have specified responsibilities",
+          "Prepared a draft constitutional text for deliberation → Different levels have specified responsibilities"
+        ],
+        "answer": 2,
+        "explanation": "Federalism — core meaning: The Constitution allocates powers to Union and state institutions. Federalism — institutional implication: Different levels have specified responsibilities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Federalism",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q24",
+        "question": "Which pair correctly matches Federalism with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "All authority belongs permanently to one village → The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "Different levels have specified responsibilities → A division of authority between levels of government",
+          "The division of powers has no constitutional basis → A division of authority between levels of government",
+          "Different levels have specified responsibilities → Adult citizens' voting entitlement subject to lawful eligibility"
+        ],
+        "answer": 1,
+        "explanation": "Federalism — institutional implication: Different levels have specified responsibilities. Federalism — constitutional identity: A division of authority between levels of government. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Federalism",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q25",
+        "question": "Which pair correctly matches Universal adult franchise with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "Adult citizens' voting entitlement subject to lawful eligibility → Voting does not depend on wealth, caste or educational qualification",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar → Voting does not depend on wealth, caste or educational qualification",
+          "Adult citizens' voting entitlement subject to lawful eligibility → Prepared a draft constitutional text for deliberation",
+          "An introductory statement of constitutional ideals → Sets out aspirations including justice, liberty, equality and fraternity"
+        ],
+        "answer": 0,
+        "explanation": "Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility. Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Universal adult franchise",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q26",
+        "question": "Which pair correctly matches Universal adult franchise with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Sets out aspirations including justice, liberty, equality and fraternity → Broadens democratic participation",
+          "Voting does not depend on wealth, caste or educational qualification → Only university graduates may vote",
+          "India governs itself rather than being subordinate to a colonial ruler → Adult citizenship has no relevance to the franchise",
+          "Voting does not depend on wealth, caste or educational qualification → Broadens democratic participation"
+        ],
+        "answer": 3,
+        "explanation": "Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification. Universal adult franchise — institutional implication: Broadens democratic participation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Universal adult franchise",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q27",
+        "question": "Which pair correctly matches Universal adult franchise with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "Broadens democratic participation → The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "Only university graduates may vote → An introductory statement of constitutional ideals",
+          "Broadens democratic participation → Adult citizens' voting entitlement subject to lawful eligibility",
+          "Wealth is a necessary qualification for voting → Adult citizens' voting entitlement subject to lawful eligibility"
+        ],
+        "answer": 2,
+        "explanation": "Universal adult franchise — institutional implication: Broadens democratic participation. Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Universal adult franchise",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q28",
+        "question": "Which pair correctly matches Drafting Committee with its constitutional identity and core meaning, in that order?",
+        "options": [
+          "The authority of an independent political community → India governs itself rather than being subordinate to a colonial ruler",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar → Prepared a draft constitutional text for deliberation",
+          "An introductory statement of constitutional ideals → Prepared a draft constitutional text for deliberation",
+          "The Constituent Assembly committee chaired by B. R. Ambedkar → Sets out aspirations including justice, liberty, equality and fraternity"
+        ],
+        "answer": 1,
+        "explanation": "Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar. Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drafting Committee",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q29",
+        "question": "Which pair correctly matches Drafting Committee with its core meaning and institutional implication, in that order?",
+        "options": [
+          "Prepared a draft constitutional text for deliberation → Its work formed a central part of constitution-making",
+          "India governs itself rather than being subordinate to a colonial ruler → Its work formed a central part of constitution-making",
+          "Prepared a draft constitutional text for deliberation → It had no role in preparing the constitutional draft",
+          "Representative institutions depend on elections and public accountability → It was chaired by the British monarch"
+        ],
+        "answer": 0,
+        "explanation": "Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation. Drafting Committee — institutional implication: Its work formed a central part of constitution-making. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drafting Committee",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-M-Q30",
+        "question": "Which pair correctly matches Drafting Committee with its institutional implication and constitutional identity, in that order?",
+        "options": [
+          "It alone adopted the text without Assembly deliberation → The Constituent Assembly committee chaired by B. R. Ambedkar",
+          "Its work formed a central part of constitution-making → An introductory statement of constitutional ideals",
+          "It had no role in preparing the constitutional draft → The authority of an independent political community",
+          "Its work formed a central part of constitution-making → The Constituent Assembly committee chaired by B. R. Ambedkar"
+        ],
+        "answer": 3,
+        "explanation": "Drafting Committee — institutional implication: Its work formed a central part of constitution-making. Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Drafting Committee",
+        "sourceChapter": 15
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH15-H": {
+    "id": "SA-DPP-27-SOC-CH15-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch15",
+    "chapterNumber": 15,
+    "chapter": "The Making of Independent India's Constitution",
+    "level": "H",
+    "title": "The Making of Independent India's Constitution – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-15.json",
+    "scheduledWeek": 8,
+    "lectureId": "SA-M600-LEC-W08-SOC-02",
+    "recommendedDate": "2026-12-05",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 15,
+    "sourcePrintedPages": {
+      "from": 212,
+      "to": 228
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q01",
+        "question": "Why did the Constituent Assembly debate different proposals extensively?",
+        "options": [
+          "Debate meant no decisions could be made",
+          "All members had identical views",
+          "A constitution requires no public reasoning",
+          "The constitutional framework needed reasoned choices for a diverse society"
+        ],
+        "answer": 3,
+        "explanation": "Deliberation helped resolve competing goals and institutional designs.",
+        "difficulty": "Hard",
+        "topic": "Why did the Constituent Assembly debate different proposals extensively?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q02",
+        "question": "What does constitutional equality require beyond declaring equal status?",
+        "options": [
+          "Giving identical outcomes automatically",
+          "Removing every right",
+          "Addressing discrimination and enabling meaningful opportunity",
+          "Ignoring historical disadvantage in every policy"
+        ],
+        "answer": 2,
+        "explanation": "Formal equality may need supportive measures to counter entrenched exclusion.",
+        "difficulty": "Hard",
+        "topic": "What does constitutional equality require beyond declaring equal status?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q03",
+        "question": "Why can constitutional amendments be necessary in a democracy?",
+        "options": [
+          "They replace elections permanently",
+          "They allow lawful adaptation while preserving constitutional procedures",
+          "They prove laws never matter",
+          "They permit any official to ignore the Constitution"
+        ],
+        "answer": 1,
+        "explanation": "A constitution can balance continuity with change through specified amendment rules.",
+        "difficulty": "Hard",
+        "topic": "Why can constitutional amendments be necessary in a democracy?",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Preamble — constitutional identity: The authority of an independent political community\nII. Fundamental Rights — core meaning: Safeguard important freedoms and equality\nIII. Universal adult franchise — institutional implication: Broadens democratic participation",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Preamble — constitutional identity: An introductory statement of constitutional ideals; Fundamental Rights — core meaning: Safeguard important freedoms and equality; Universal adult franchise — institutional implication: Broadens democratic participation.",
+        "difficulty": "Hard",
+        "topic": "Preamble · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity\nII. Fundamental Rights — institutional implication: Can be enforced through constitutional remedies\nIII. Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity; Fundamental Rights — institutional implication: Can be enforced through constitutional remedies; Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility.",
+        "difficulty": "Hard",
+        "topic": "Preamble · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Preamble — institutional implication: It is only an annual financial budget\nII. Fundamental Rights — constitutional identity: A system without a hereditary head of state\nIII. Universal adult franchise — core meaning: Safeguard important freedoms and equality",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Preamble — institutional implication: Guides understanding of the Constitution's purposes; Fundamental Rights — constitutional identity: Constitutionally protected rights; Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification.",
+        "difficulty": "Hard",
+        "topic": "Preamble · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sovereignty — constitutional identity: The authority of an independent political community\nII. Directive Principles — core meaning: Safeguard important freedoms and equality\nIII. Drafting Committee — institutional implication: It had no role in preparing the constitutional draft",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Sovereignty — constitutional identity: The authority of an independent political community; Directive Principles — core meaning: Set social and economic objectives for the state; Drafting Committee — institutional implication: Its work formed a central part of constitution-making.",
+        "difficulty": "Hard",
+        "topic": "Sovereignty · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sovereignty — core meaning: Set social and economic objectives for the state\nII. Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights\nIII. Drafting Committee — constitutional identity: A division of authority between levels of government",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler; Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights; Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar.",
+        "difficulty": "Hard",
+        "topic": "Sovereignty · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions\nII. Directive Principles — constitutional identity: Constitutional guidance for governance\nIII. Drafting Committee — core meaning: Voting does not depend on wealth, caste or educational qualification",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions; Directive Principles — constitutional identity: Constitutional guidance for governance; Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation.",
+        "difficulty": "Hard",
+        "topic": "Sovereignty · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Democracy — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility\nII. Federalism — core meaning: Prepared a draft constitutional text for deliberation\nIII. Preamble — institutional implication: Guides understanding of the Constitution's purposes",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Democracy — constitutional identity: Government based on the political authority of the people; Federalism — core meaning: The Constitution allocates powers to Union and state institutions; Preamble — institutional implication: Guides understanding of the Constitution's purposes.",
+        "difficulty": "Hard",
+        "topic": "Democracy · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Democracy — core meaning: Representative institutions depend on elections and public accountability\nII. Federalism — institutional implication: The division of powers has no constitutional basis\nIII. Preamble — constitutional identity: An introductory statement of constitutional ideals",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Democracy — core meaning: Representative institutions depend on elections and public accountability; Federalism — institutional implication: Different levels have specified responsibilities; Preamble — constitutional identity: An introductory statement of constitutional ideals.",
+        "difficulty": "Hard",
+        "topic": "Democracy · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Democracy — institutional implication: Only hereditary rulers hold political authority\nII. Federalism — constitutional identity: A division of authority between levels of government\nIII. Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Democracy — institutional implication: Citizens can replace representatives through lawful elections; Federalism — constitutional identity: A division of authority between levels of government; Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity.",
+        "difficulty": "Hard",
+        "topic": "Democracy · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Republic — constitutional identity: A system without a hereditary head of state\nII. Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification\nIII. Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Republic — constitutional identity: A system without a hereditary head of state; Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification; Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions.",
+        "difficulty": "Hard",
+        "topic": "Republic · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Republic — core meaning: Representative institutions depend on elections and public accountability\nII. Universal adult franchise — institutional implication: Adult citizenship has no relevance to the franchise\nIII. Sovereignty — constitutional identity: Constitutional guidance for governance",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Republic — core meaning: Public office is not inherited as a royal entitlement; Universal adult franchise — institutional implication: Broadens democratic participation; Sovereignty — constitutional identity: The authority of an independent political community.",
+        "difficulty": "Hard",
+        "topic": "Republic · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Republic — institutional implication: India has an elected constitutional head of state\nII. Universal adult franchise — constitutional identity: Constitutionally protected rights\nIII. Sovereignty — core meaning: The Constitution allocates powers to Union and state institutions",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Republic — institutional implication: India has an elected constitutional head of state; Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility; Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler.",
+        "difficulty": "Hard",
+        "topic": "Republic · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fundamental Rights — constitutional identity: Constitutional guidance for governance\nII. Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation\nIII. Democracy — institutional implication: Only hereditary rulers hold political authority",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Fundamental Rights — constitutional identity: Constitutionally protected rights; Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation; Democracy — institutional implication: Citizens can replace representatives through lawful elections.",
+        "difficulty": "Hard",
+        "topic": "Fundamental Rights · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fundamental Rights — core meaning: Safeguard important freedoms and equality\nII. Drafting Committee — institutional implication: Its work formed a central part of constitution-making\nIII. Democracy — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Fundamental Rights — core meaning: Safeguard important freedoms and equality; Drafting Committee — institutional implication: Its work formed a central part of constitution-making; Democracy — constitutional identity: Government based on the political authority of the people.",
+        "difficulty": "Hard",
+        "topic": "Fundamental Rights · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Fundamental Rights — institutional implication: Equality and freedoms have no protection\nII. Drafting Committee — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility\nIII. Democracy — core meaning: Representative institutions depend on elections and public accountability",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Fundamental Rights — institutional implication: Can be enforced through constitutional remedies; Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar; Democracy — core meaning: Representative institutions depend on elections and public accountability.",
+        "difficulty": "Hard",
+        "topic": "Fundamental Rights · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Directive Principles — constitutional identity: Constitutional guidance for governance\nII. Preamble — core meaning: India governs itself rather than being subordinate to a colonial ruler\nIII. Republic — institutional implication: India has an elected constitutional head of state",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Directive Principles — constitutional identity: Constitutional guidance for governance; Preamble — core meaning: Sets out aspirations including justice, liberty, equality and fraternity; Republic — institutional implication: India has an elected constitutional head of state.",
+        "difficulty": "Hard",
+        "topic": "Directive Principles · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Directive Principles — core meaning: Sets out aspirations including justice, liberty, equality and fraternity\nII. Preamble — institutional implication: Guides understanding of the Constitution's purposes\nIII. Republic — constitutional identity: A system without a hereditary head of state",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Directive Principles — core meaning: Set social and economic objectives for the state; Preamble — institutional implication: Guides understanding of the Constitution's purposes; Republic — constitutional identity: A system without a hereditary head of state.",
+        "difficulty": "Hard",
+        "topic": "Directive Principles · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights\nII. Preamble — constitutional identity: An introductory statement of constitutional ideals\nIII. Republic — core meaning: Public office is not inherited as a royal entitlement",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights; Preamble — constitutional identity: An introductory statement of constitutional ideals; Republic — core meaning: Public office is not inherited as a royal entitlement.",
+        "difficulty": "Hard",
+        "topic": "Directive Principles · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Federalism — constitutional identity: Government based on the political authority of the people\nII. Sovereignty — core meaning: Safeguard important freedoms and equality\nIII. Fundamental Rights — institutional implication: Equality and freedoms have no protection",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Federalism — constitutional identity: A division of authority between levels of government; Sovereignty — core meaning: India governs itself rather than being subordinate to a colonial ruler; Fundamental Rights — institutional implication: Can be enforced through constitutional remedies.",
+        "difficulty": "Hard",
+        "topic": "Federalism · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Federalism — core meaning: The Constitution allocates powers to Union and state institutions\nII. Sovereignty — institutional implication: It gives foreign rulers constitutional supremacy\nIII. Fundamental Rights — constitutional identity: A division of authority between levels of government",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Federalism — core meaning: The Constitution allocates powers to Union and state institutions; Sovereignty — institutional implication: Foreign-policy and domestic choices are made through constitutional institutions; Fundamental Rights — constitutional identity: Constitutionally protected rights.",
+        "difficulty": "Hard",
+        "topic": "Federalism · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Federalism — institutional implication: The division of powers has no constitutional basis\nII. Sovereignty — constitutional identity: The authority of an independent political community\nIII. Fundamental Rights — core meaning: Voting does not depend on wealth, caste or educational qualification",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Federalism — institutional implication: Different levels have specified responsibilities; Sovereignty — constitutional identity: The authority of an independent political community; Fundamental Rights — core meaning: Safeguard important freedoms and equality.",
+        "difficulty": "Hard",
+        "topic": "Federalism · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility\nII. Democracy — core meaning: Representative institutions depend on elections and public accountability\nIII. Directive Principles — institutional implication: They abolish all government responsibility",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Universal adult franchise — constitutional identity: Adult citizens' voting entitlement subject to lawful eligibility; Democracy — core meaning: Representative institutions depend on elections and public accountability; Directive Principles — institutional implication: Guide policy though not enforceable in the same way as Fundamental Rights.",
+        "difficulty": "Hard",
+        "topic": "Universal adult franchise · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Universal adult franchise — core meaning: The Constitution allocates powers to Union and state institutions\nII. Democracy — institutional implication: Only hereditary rulers hold political authority\nIII. Directive Principles — constitutional identity: Constitutional guidance for governance",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Universal adult franchise — core meaning: Voting does not depend on wealth, caste or educational qualification; Democracy — institutional implication: Citizens can replace representatives through lawful elections; Directive Principles — constitutional identity: Constitutional guidance for governance.",
+        "difficulty": "Hard",
+        "topic": "Universal adult franchise · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Universal adult franchise — institutional implication: Broadens democratic participation\nII. Democracy — constitutional identity: An introductory statement of constitutional ideals\nIII. Directive Principles — core meaning: Set social and economic objectives for the state",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Universal adult franchise — institutional implication: Broadens democratic participation; Democracy — constitutional identity: Government based on the political authority of the people; Directive Principles — core meaning: Set social and economic objectives for the state.",
+        "difficulty": "Hard",
+        "topic": "Universal adult franchise · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drafting Committee — constitutional identity: An introductory statement of constitutional ideals\nII. Republic — core meaning: Public office is not inherited as a royal entitlement\nIII. Federalism — institutional implication: Different levels have specified responsibilities",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Drafting Committee — constitutional identity: The Constituent Assembly committee chaired by B. R. Ambedkar; Republic — core meaning: Public office is not inherited as a royal entitlement; Federalism — institutional implication: Different levels have specified responsibilities.",
+        "difficulty": "Hard",
+        "topic": "Drafting Committee · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation\nII. Republic — institutional implication: India has an elected constitutional head of state\nIII. Federalism — constitutional identity: A division of authority between levels of government",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Drafting Committee — core meaning: Prepared a draft constitutional text for deliberation; Republic — institutional implication: India has an elected constitutional head of state; Federalism — constitutional identity: A division of authority between levels of government.",
+        "difficulty": "Hard",
+        "topic": "Drafting Committee · comparing chapter concepts",
+        "sourceChapter": 15
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH15-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Drafting Committee — institutional implication: It had no role in preparing the constitutional draft\nII. Republic — constitutional identity: Constitutionally protected rights\nIII. Federalism — core meaning: Safeguard important freedoms and equality",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Drafting Committee — institutional implication: Its work formed a central part of constitution-making; Republic — constitutional identity: A system without a hereditary head of state; Federalism — core meaning: The Constitution allocates powers to Union and state institutions.",
+        "difficulty": "Hard",
+        "topic": "Drafting Committee · comparing chapter concepts",
+        "sourceChapter": 15
+      }
+    ]
+  }
+}

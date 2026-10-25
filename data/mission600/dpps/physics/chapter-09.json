@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH09-E": {
+    "id": "SA-DPP-27-PHY-CH09-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "E",
+    "title": "Electric Current – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-09.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q01",
+        "question": "What is the SI unit of electric current?",
+        "options": [
+          "Volt",
+          "Ohm",
+          "Watt",
+          "Ampere"
+        ],
+        "answer": 3,
+        "explanation": "Current is charge flowing per unit time, measured in amperes.",
+        "difficulty": "Easy",
+        "topic": "What is the SI unit of electric current?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q02",
+        "question": "Which relation expresses Ohm's law at constant temperature?",
+        "options": [
+          "R=VI",
+          "I=VR",
+          "V=IR",
+          "V=I/R"
+        ],
+        "answer": 2,
+        "explanation": "For an ohmic conductor, potential difference is proportional to current.",
+        "difficulty": "Easy",
+        "topic": "Which relation expresses Ohm's law at constant temperature?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q03",
+        "question": "In a series circuit, which quantity is the same through every resistor?",
+        "options": [
+          "Power always",
+          "Current",
+          "Voltage always",
+          "Resistance always"
+        ],
+        "answer": 1,
+        "explanation": "The same charge flow passes through each series element.",
+        "difficulty": "Easy",
+        "topic": "In a series circuit, which quantity is the same through every resistor?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q04",
+        "question": "Electric current: which option correctly identifies the physical meaning?",
+        "options": [
+          "Rate of flow of charge",
+          "Work done per unit charge",
+          "Opposition quantified by voltage divided by current for a circuit element",
+          "Material-dependent factor in a uniform wire's resistance"
+        ],
+        "answer": 0,
+        "explanation": "Electric current — physical meaning: Rate of flow of charge.",
+        "difficulty": "Easy",
+        "topic": "Electric current · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q05",
+        "question": "Electric current: which option correctly identifies the SI unit?",
+        "options": [
+          "Ohm",
+          "Ohm metre",
+          "Watt",
+          "Ampere"
+        ],
+        "answer": 3,
+        "explanation": "Electric current — SI unit: Ampere.",
+        "difficulty": "Easy",
+        "topic": "Electric current · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q06",
+        "question": "Electric current: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "P = VI",
+          "E = VIt",
+          "I = Q/t",
+          "ρ = RA/L"
+        ],
+        "answer": 2,
+        "explanation": "Electric current — formula with the named quantity isolated on the left: I = Q/t.",
+        "difficulty": "Easy",
+        "topic": "Electric current · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q07",
+        "question": "Potential difference: which option correctly identifies the physical meaning?",
+        "options": [
+          "Rate of electrical energy transfer",
+          "Work done per unit charge",
+          "Opposition quantified by voltage divided by current for a circuit element",
+          "Material-dependent factor in a uniform wire's resistance"
+        ],
+        "answer": 1,
+        "explanation": "Potential difference — physical meaning: Work done per unit charge.",
+        "difficulty": "Easy",
+        "topic": "Potential difference · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q08",
+        "question": "Potential difference: which option correctly identifies the SI unit?",
+        "options": [
+          "Volt",
+          "Ohm metre",
+          "Watt",
+          "Joule"
+        ],
+        "answer": 0,
+        "explanation": "Potential difference — SI unit: Volt.",
+        "difficulty": "Easy",
+        "topic": "Potential difference · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q09",
+        "question": "Potential difference: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "P = VI",
+          "E = VIt",
+          "Q = It",
+          "V = W/Q"
+        ],
+        "answer": 3,
+        "explanation": "Potential difference — formula with the named quantity isolated on the left: V = W/Q.",
+        "difficulty": "Easy",
+        "topic": "Potential difference · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q10",
+        "question": "Resistance: which option correctly identifies the physical meaning?",
+        "options": [
+          "Rate of electrical energy transfer",
+          "Electrical work transferred over time",
+          "Opposition quantified by voltage divided by current for a circuit element",
+          "Material-dependent factor in a uniform wire's resistance"
+        ],
+        "answer": 2,
+        "explanation": "Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element.",
+        "difficulty": "Easy",
+        "topic": "Resistance · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q11",
+        "question": "Resistance: which option correctly identifies the SI unit?",
+        "options": [
+          "Coulomb",
+          "Ohm",
+          "Watt",
+          "Joule"
+        ],
+        "answer": 1,
+        "explanation": "Resistance — SI unit: Ohm.",
+        "difficulty": "Easy",
+        "topic": "Resistance · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q12",
+        "question": "Resistance: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "R = V/I",
+          "E = VIt",
+          "Q = It",
+          "G = 1/R"
+        ],
+        "answer": 0,
+        "explanation": "Resistance — formula with the named quantity isolated on the left: R = V/I.",
+        "difficulty": "Easy",
+        "topic": "Resistance · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q13",
+        "question": "Resistivity: which option correctly identifies the physical meaning?",
+        "options": [
+          "Rate of electrical energy transfer",
+          "Electrical work transferred over time",
+          "Quantity transferred by an electric current over time",
+          "Material-dependent factor in a uniform wire's resistance"
+        ],
+        "answer": 3,
+        "explanation": "Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance.",
+        "difficulty": "Easy",
+        "topic": "Resistivity · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q14",
+        "question": "Resistivity: which option correctly identifies the SI unit?",
+        "options": [
+          "Coulomb",
+          "Siemens",
+          "Ohm metre",
+          "Joule"
+        ],
+        "answer": 2,
+        "explanation": "Resistivity — SI unit: Ohm metre.",
+        "difficulty": "Easy",
+        "topic": "Resistivity · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q15",
+        "question": "Resistivity: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "H = I²Rt",
+          "ρ = RA/L",
+          "Q = It",
+          "G = 1/R"
+        ],
+        "answer": 1,
+        "explanation": "Resistivity — formula with the named quantity isolated on the left: ρ = RA/L.",
+        "difficulty": "Easy",
+        "topic": "Resistivity · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q16",
+        "question": "Electric power: which option correctly identifies the physical meaning?",
+        "options": [
+          "Rate of electrical energy transfer",
+          "Electrical work transferred over time",
+          "Quantity transferred by an electric current over time",
+          "Reciprocal of electrical resistance"
+        ],
+        "answer": 0,
+        "explanation": "Electric power — physical meaning: Rate of electrical energy transfer.",
+        "difficulty": "Easy",
+        "topic": "Electric power · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q17",
+        "question": "Electric power: which option correctly identifies the SI unit?",
+        "options": [
+          "Coulomb",
+          "Siemens",
+          "Ampere",
+          "Watt"
+        ],
+        "answer": 3,
+        "explanation": "Electric power — SI unit: Watt.",
+        "difficulty": "Easy",
+        "topic": "Electric power · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q18",
+        "question": "Electric power: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "H = I²Rt",
+          "I = Q/t",
+          "P = VI",
+          "G = 1/R"
+        ],
+        "answer": 2,
+        "explanation": "Electric power — formula with the named quantity isolated on the left: P = VI.",
+        "difficulty": "Easy",
+        "topic": "Electric power · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q19",
+        "question": "Electrical energy: which option correctly identifies the physical meaning?",
+        "options": [
+          "Joule heating during current flow",
+          "Electrical work transferred over time",
+          "Quantity transferred by an electric current over time",
+          "Reciprocal of electrical resistance"
+        ],
+        "answer": 1,
+        "explanation": "Electrical energy — physical meaning: Electrical work transferred over time.",
+        "difficulty": "Easy",
+        "topic": "Electrical energy · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q20",
+        "question": "Electrical energy: which option correctly identifies the SI unit?",
+        "options": [
+          "Joule",
+          "Siemens",
+          "Ampere",
+          "Volt"
+        ],
+        "answer": 0,
+        "explanation": "Electrical energy — SI unit: Joule.",
+        "difficulty": "Easy",
+        "topic": "Electrical energy · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q21",
+        "question": "Electrical energy: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "H = I²Rt",
+          "I = Q/t",
+          "V = W/Q",
+          "E = VIt"
+        ],
+        "answer": 3,
+        "explanation": "Electrical energy — formula with the named quantity isolated on the left: E = VIt.",
+        "difficulty": "Easy",
+        "topic": "Electrical energy · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q22",
+        "question": "Charge: which option correctly identifies the physical meaning?",
+        "options": [
+          "Joule heating during current flow",
+          "Rate of flow of charge",
+          "Quantity transferred by an electric current over time",
+          "Reciprocal of electrical resistance"
+        ],
+        "answer": 2,
+        "explanation": "Charge — physical meaning: Quantity transferred by an electric current over time.",
+        "difficulty": "Easy",
+        "topic": "Charge · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q23",
+        "question": "Charge: which option correctly identifies the SI unit?",
+        "options": [
+          "Ohm",
+          "Coulomb",
+          "Ampere",
+          "Volt"
+        ],
+        "answer": 1,
+        "explanation": "Charge — SI unit: Coulomb.",
+        "difficulty": "Easy",
+        "topic": "Charge · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q24",
+        "question": "Charge: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "Q = It",
+          "I = Q/t",
+          "V = W/Q",
+          "R = V/I"
+        ],
+        "answer": 0,
+        "explanation": "Charge — formula with the named quantity isolated on the left: Q = It.",
+        "difficulty": "Easy",
+        "topic": "Charge · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q25",
+        "question": "Conductance: which option correctly identifies the physical meaning?",
+        "options": [
+          "Joule heating during current flow",
+          "Rate of flow of charge",
+          "Work done per unit charge",
+          "Reciprocal of electrical resistance"
+        ],
+        "answer": 3,
+        "explanation": "Conductance — physical meaning: Reciprocal of electrical resistance.",
+        "difficulty": "Easy",
+        "topic": "Conductance · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q26",
+        "question": "Conductance: which option correctly identifies the SI unit?",
+        "options": [
+          "Ohm",
+          "Ohm metre",
+          "Siemens",
+          "Volt"
+        ],
+        "answer": 2,
+        "explanation": "Conductance — SI unit: Siemens.",
+        "difficulty": "Easy",
+        "topic": "Conductance · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q27",
+        "question": "Conductance: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "ρ = RA/L",
+          "G = 1/R",
+          "V = W/Q",
+          "R = V/I"
+        ],
+        "answer": 1,
+        "explanation": "Conductance — formula with the named quantity isolated on the left: G = 1/R.",
+        "difficulty": "Easy",
+        "topic": "Conductance · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q28",
+        "question": "Heat produced in a resistor: which option correctly identifies the physical meaning?",
+        "options": [
+          "Joule heating during current flow",
+          "Rate of flow of charge",
+          "Work done per unit charge",
+          "Opposition quantified by voltage divided by current for a circuit element"
+        ],
+        "answer": 0,
+        "explanation": "Heat produced in a resistor — physical meaning: Joule heating during current flow.",
+        "difficulty": "Easy",
+        "topic": "Heat produced in a resistor · physical meaning",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q29",
+        "question": "Heat produced in a resistor: which option correctly identifies the SI unit?",
+        "options": [
+          "Ohm",
+          "Ohm metre",
+          "Watt",
+          "Joule"
+        ],
+        "answer": 3,
+        "explanation": "Heat produced in a resistor — SI unit: Joule.",
+        "difficulty": "Easy",
+        "topic": "Heat produced in a resistor · SI unit",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-E-Q30",
+        "question": "Heat produced in a resistor: which option correctly identifies the formula with the named quantity isolated on the left?",
+        "options": [
+          "ρ = RA/L",
+          "P = VI",
+          "H = I²Rt",
+          "R = V/I"
+        ],
+        "answer": 2,
+        "explanation": "Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt.",
+        "difficulty": "Easy",
+        "topic": "Heat produced in a resistor · formula with the named quantity isolated on the left",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH09-M": {
+    "id": "SA-DPP-27-PHY-CH09-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "M",
+    "title": "Electric Current – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-09.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q01",
+        "question": "A 6 Ω resistor has 12 V across it. Find current.",
+        "options": [
+          "0.5 A",
+          "6 A",
+          "2 A",
+          "72 A"
+        ],
+        "answer": 2,
+        "explanation": "I=V/R=12/6=2.",
+        "difficulty": "Medium",
+        "topic": "A 6 Ω resistor has 12 V across it. Find current.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q02",
+        "question": "Find the equivalent resistance of 6 Ω and 3 Ω in parallel.",
+        "options": [
+          "18 Ω",
+          "2 Ω",
+          "9 Ω",
+          "3 Ω"
+        ],
+        "answer": 1,
+        "explanation": "1/R=1/6+1/3=1/2.",
+        "difficulty": "Medium",
+        "topic": "Find the equivalent resistance of 6 Ω and 3 Ω in parallel.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q03",
+        "question": "A device draws 2 A at 220 V. Find power.",
+        "options": [
+          "440 W",
+          "110 W",
+          "222 W",
+          "48400 W"
+        ],
+        "answer": 0,
+        "explanation": "P=VI=220×2.",
+        "difficulty": "Medium",
+        "topic": "A device draws 2 A at 220 V. Find power.",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q04",
+        "question": "Which pair correctly matches Electric current with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Work done per unit charge → Ampere",
+          "Rate of flow of charge → Volt",
+          "Opposition quantified by voltage divided by current for a circuit element → Ohm",
+          "Rate of flow of charge → Ampere"
+        ],
+        "answer": 3,
+        "explanation": "Electric current — physical meaning: Rate of flow of charge. Electric current — SI unit: Ampere. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric current",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q05",
+        "question": "Which pair correctly matches Electric current with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Ampere → V = W/Q",
+          "Ohm metre → R = V/I",
+          "Ampere → I = Q/t",
+          "Ohm → I = Q/t"
+        ],
+        "answer": 2,
+        "explanation": "Electric current — SI unit: Ampere. Electric current — formula with the named quantity isolated on the left: I = Q/t. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric current",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q06",
+        "question": "Which pair correctly matches Electric current with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "P = VI → Opposition quantified by voltage divided by current for a circuit element",
+          "I = Q/t → Rate of flow of charge",
+          "ρ = RA/L → Rate of flow of charge",
+          "I = Q/t → Work done per unit charge"
+        ],
+        "answer": 1,
+        "explanation": "Electric current — formula with the named quantity isolated on the left: I = Q/t. Electric current — physical meaning: Rate of flow of charge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric current",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q07",
+        "question": "Which pair correctly matches Potential difference with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Work done per unit charge → Volt",
+          "Opposition quantified by voltage divided by current for a circuit element → Volt",
+          "Work done per unit charge → Ohm",
+          "Material-dependent factor in a uniform wire's resistance → Ohm metre"
+        ],
+        "answer": 0,
+        "explanation": "Potential difference — physical meaning: Work done per unit charge. Potential difference — SI unit: Volt. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Potential difference",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q08",
+        "question": "Which pair correctly matches Potential difference with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Ohm metre → V = W/Q",
+          "Volt → R = V/I",
+          "Watt → ρ = RA/L",
+          "Volt → V = W/Q"
+        ],
+        "answer": 3,
+        "explanation": "Potential difference — SI unit: Volt. Potential difference — formula with the named quantity isolated on the left: V = W/Q. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Potential difference",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q09",
+        "question": "Which pair correctly matches Potential difference with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "V = W/Q → Opposition quantified by voltage divided by current for a circuit element",
+          "E = VIt → Material-dependent factor in a uniform wire's resistance",
+          "V = W/Q → Work done per unit charge",
+          "P = VI → Work done per unit charge"
+        ],
+        "answer": 2,
+        "explanation": "Potential difference — formula with the named quantity isolated on the left: V = W/Q. Potential difference — physical meaning: Work done per unit charge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Potential difference",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q10",
+        "question": "Which pair correctly matches Resistance with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Rate of electrical energy transfer → Watt",
+          "Opposition quantified by voltage divided by current for a circuit element → Ohm",
+          "Material-dependent factor in a uniform wire's resistance → Ohm",
+          "Opposition quantified by voltage divided by current for a circuit element → Ohm metre"
+        ],
+        "answer": 1,
+        "explanation": "Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element. Resistance — SI unit: Ohm. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q11",
+        "question": "Which pair correctly matches Resistance with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Ohm → R = V/I",
+          "Watt → R = V/I",
+          "Ohm → ρ = RA/L",
+          "Joule → P = VI"
+        ],
+        "answer": 0,
+        "explanation": "Resistance — SI unit: Ohm. Resistance — formula with the named quantity isolated on the left: R = V/I. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q12",
+        "question": "Which pair correctly matches Resistance with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "E = VIt → Opposition quantified by voltage divided by current for a circuit element",
+          "R = V/I → Material-dependent factor in a uniform wire's resistance",
+          "Q = It → Rate of electrical energy transfer",
+          "R = V/I → Opposition quantified by voltage divided by current for a circuit element"
+        ],
+        "answer": 3,
+        "explanation": "Resistance — formula with the named quantity isolated on the left: R = V/I. Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q13",
+        "question": "Which pair correctly matches Resistivity with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Material-dependent factor in a uniform wire's resistance → Watt",
+          "Electrical work transferred over time → Joule",
+          "Material-dependent factor in a uniform wire's resistance → Ohm metre",
+          "Rate of electrical energy transfer → Ohm metre"
+        ],
+        "answer": 2,
+        "explanation": "Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance. Resistivity — SI unit: Ohm metre. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistivity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q14",
+        "question": "Which pair correctly matches Resistivity with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Coulomb → E = VIt",
+          "Ohm metre → ρ = RA/L",
+          "Joule → ρ = RA/L",
+          "Ohm metre → P = VI"
+        ],
+        "answer": 1,
+        "explanation": "Resistivity — SI unit: Ohm metre. Resistivity — formula with the named quantity isolated on the left: ρ = RA/L. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistivity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q15",
+        "question": "Which pair correctly matches Resistivity with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "ρ = RA/L → Material-dependent factor in a uniform wire's resistance",
+          "Q = It → Material-dependent factor in a uniform wire's resistance",
+          "ρ = RA/L → Rate of electrical energy transfer",
+          "G = 1/R → Electrical work transferred over time"
+        ],
+        "answer": 0,
+        "explanation": "Resistivity — formula with the named quantity isolated on the left: ρ = RA/L. Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Resistivity",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q16",
+        "question": "Which pair correctly matches Electric power with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Electrical work transferred over time → Watt",
+          "Rate of electrical energy transfer → Joule",
+          "Quantity transferred by an electric current over time → Coulomb",
+          "Rate of electrical energy transfer → Watt"
+        ],
+        "answer": 3,
+        "explanation": "Electric power — physical meaning: Rate of electrical energy transfer. Electric power — SI unit: Watt. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric power",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q17",
+        "question": "Which pair correctly matches Electric power with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Watt → E = VIt",
+          "Siemens → Q = It",
+          "Watt → P = VI",
+          "Coulomb → P = VI"
+        ],
+        "answer": 2,
+        "explanation": "Electric power — SI unit: Watt. Electric power — formula with the named quantity isolated on the left: P = VI. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric power",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q18",
+        "question": "Which pair correctly matches Electric power with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "H = I²Rt → Quantity transferred by an electric current over time",
+          "P = VI → Rate of electrical energy transfer",
+          "G = 1/R → Rate of electrical energy transfer",
+          "P = VI → Electrical work transferred over time"
+        ],
+        "answer": 1,
+        "explanation": "Electric power — formula with the named quantity isolated on the left: P = VI. Electric power — physical meaning: Rate of electrical energy transfer. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric power",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q19",
+        "question": "Which pair correctly matches Electrical energy with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Electrical work transferred over time → Joule",
+          "Quantity transferred by an electric current over time → Joule",
+          "Electrical work transferred over time → Coulomb",
+          "Reciprocal of electrical resistance → Siemens"
+        ],
+        "answer": 0,
+        "explanation": "Electrical energy — physical meaning: Electrical work transferred over time. Electrical energy — SI unit: Joule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrical energy",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q20",
+        "question": "Which pair correctly matches Electrical energy with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Siemens → E = VIt",
+          "Joule → Q = It",
+          "Ampere → G = 1/R",
+          "Joule → E = VIt"
+        ],
+        "answer": 3,
+        "explanation": "Electrical energy — SI unit: Joule. Electrical energy — formula with the named quantity isolated on the left: E = VIt. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrical energy",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q21",
+        "question": "Which pair correctly matches Electrical energy with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "E = VIt → Quantity transferred by an electric current over time",
+          "I = Q/t → Reciprocal of electrical resistance",
+          "E = VIt → Electrical work transferred over time",
+          "H = I²Rt → Electrical work transferred over time"
+        ],
+        "answer": 2,
+        "explanation": "Electrical energy — formula with the named quantity isolated on the left: E = VIt. Electrical energy — physical meaning: Electrical work transferred over time. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrical energy",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q22",
+        "question": "Which pair correctly matches Charge with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Joule heating during current flow → Ampere",
+          "Quantity transferred by an electric current over time → Coulomb",
+          "Reciprocal of electrical resistance → Coulomb",
+          "Quantity transferred by an electric current over time → Siemens"
+        ],
+        "answer": 1,
+        "explanation": "Charge — physical meaning: Quantity transferred by an electric current over time. Charge — SI unit: Coulomb. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Charge",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q23",
+        "question": "Which pair correctly matches Charge with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Coulomb → Q = It",
+          "Ampere → Q = It",
+          "Coulomb → G = 1/R",
+          "Volt → H = I²Rt"
+        ],
+        "answer": 0,
+        "explanation": "Charge — SI unit: Coulomb. Charge — formula with the named quantity isolated on the left: Q = It. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Charge",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q24",
+        "question": "Which pair correctly matches Charge with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "I = Q/t → Quantity transferred by an electric current over time",
+          "Q = It → Reciprocal of electrical resistance",
+          "V = W/Q → Joule heating during current flow",
+          "Q = It → Quantity transferred by an electric current over time"
+        ],
+        "answer": 3,
+        "explanation": "Charge — formula with the named quantity isolated on the left: Q = It. Charge — physical meaning: Quantity transferred by an electric current over time. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Charge",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q25",
+        "question": "Which pair correctly matches Conductance with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Reciprocal of electrical resistance → Ampere",
+          "Rate of flow of charge → Volt",
+          "Reciprocal of electrical resistance → Siemens",
+          "Joule heating during current flow → Siemens"
+        ],
+        "answer": 2,
+        "explanation": "Conductance — physical meaning: Reciprocal of electrical resistance. Conductance — SI unit: Siemens. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conductance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q26",
+        "question": "Which pair correctly matches Conductance with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Ohm → I = Q/t",
+          "Siemens → G = 1/R",
+          "Volt → G = 1/R",
+          "Siemens → H = I²Rt"
+        ],
+        "answer": 1,
+        "explanation": "Conductance — SI unit: Siemens. Conductance — formula with the named quantity isolated on the left: G = 1/R. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conductance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q27",
+        "question": "Which pair correctly matches Conductance with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "G = 1/R → Reciprocal of electrical resistance",
+          "V = W/Q → Reciprocal of electrical resistance",
+          "G = 1/R → Joule heating during current flow",
+          "R = V/I → Rate of flow of charge"
+        ],
+        "answer": 0,
+        "explanation": "Conductance — formula with the named quantity isolated on the left: G = 1/R. Conductance — physical meaning: Reciprocal of electrical resistance. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conductance",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q28",
+        "question": "Which pair correctly matches Heat produced in a resistor with its physical meaning and SI unit, in that order?",
+        "options": [
+          "Rate of flow of charge → Joule",
+          "Joule heating during current flow → Volt",
+          "Work done per unit charge → Ohm",
+          "Joule heating during current flow → Joule"
+        ],
+        "answer": 3,
+        "explanation": "Heat produced in a resistor — physical meaning: Joule heating during current flow. Heat produced in a resistor — SI unit: Joule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Heat produced in a resistor",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q29",
+        "question": "Which pair correctly matches Heat produced in a resistor with its SI unit and formula with the named quantity isolated on the left, in that order?",
+        "options": [
+          "Joule → I = Q/t",
+          "Ohm metre → V = W/Q",
+          "Joule → H = I²Rt",
+          "Ohm → H = I²Rt"
+        ],
+        "answer": 2,
+        "explanation": "Heat produced in a resistor — SI unit: Joule. Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Heat produced in a resistor",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-M-Q30",
+        "question": "Which pair correctly matches Heat produced in a resistor with its formula with the named quantity isolated on the left and physical meaning, in that order?",
+        "options": [
+          "ρ = RA/L → Work done per unit charge",
+          "H = I²Rt → Joule heating during current flow",
+          "R = V/I → Joule heating during current flow",
+          "H = I²Rt → Rate of flow of charge"
+        ],
+        "answer": 1,
+        "explanation": "Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt. Heat produced in a resistor — physical meaning: Joule heating during current flow. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Heat produced in a resistor",
+        "sourceChapter": 9
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH09-H": {
+    "id": "SA-DPP-27-PHY-CH09-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch9",
+    "chapterNumber": 9,
+    "chapter": "Electric Current",
+    "level": "H",
+    "title": "Electric Current – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-09.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-03",
+    "recommendedDate": "2026-11-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 9,
+    "sourcePrintedPages": {
+      "from": 176,
+      "to": 208
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q01",
+        "question": "A wire is stretched to twice its length at constant volume and unchanged resistivity. What is its new resistance?",
+        "options": [
+          "R/4",
+          "4R",
+          "2R",
+          "R/2"
+        ],
+        "answer": 1,
+        "explanation": "Length doubles and area halves; R=ρL/A increases fourfold.",
+        "difficulty": "Hard",
+        "topic": "A wire is stretched to twice its length at constant volume and unchanged resistivity. What is its new resistance?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q02",
+        "question": "A 1000 W heater runs for 2 hours. How much electrical energy is used?",
+        "options": [
+          "2 kWh",
+          "0.5 kWh",
+          "2000 kWh",
+          "1000 kWh"
+        ],
+        "answer": 0,
+        "explanation": "Energy in kWh equals power in kW multiplied by hours.",
+        "difficulty": "Hard",
+        "topic": "A 1000 W heater runs for 2 hours. How much electrical energy is used?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q03",
+        "question": "A 60 W and a 100 W lamp, both rated 220 V, are connected separately to 220 V. Which has higher resistance?",
+        "options": [
+          "The 100 W lamp",
+          "Both have equal resistance",
+          "Neither has resistance",
+          "The 60 W lamp"
+        ],
+        "answer": 3,
+        "explanation": "R=V²/P; at the same rated voltage, lower power means higher resistance.",
+        "difficulty": "Hard",
+        "topic": "A 60 W and a 100 W lamp, both rated 220 V, are connected separately to 220 V. Which has higher resistance?",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric current — physical meaning: Work done per unit charge\nII. Electric power — SI unit: Volt\nIII. Conductance — formula with the named quantity isolated on the left: R = V/I",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Electric current — physical meaning: Rate of flow of charge; Electric power — SI unit: Watt; Conductance — formula with the named quantity isolated on the left: G = 1/R.",
+        "difficulty": "Hard",
+        "topic": "Electric current · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric current — SI unit: Ampere\nII. Electric power — formula with the named quantity isolated on the left: R = V/I\nIII. Conductance — physical meaning: Material-dependent factor in a uniform wire's resistance",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electric current — SI unit: Ampere; Electric power — formula with the named quantity isolated on the left: P = VI; Conductance — physical meaning: Reciprocal of electrical resistance.",
+        "difficulty": "Hard",
+        "topic": "Electric current · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric current — formula with the named quantity isolated on the left: ρ = RA/L\nII. Electric power — physical meaning: Rate of electrical energy transfer\nIII. Conductance — SI unit: Watt",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Electric current — formula with the named quantity isolated on the left: I = Q/t; Electric power — physical meaning: Rate of electrical energy transfer; Conductance — SI unit: Siemens.",
+        "difficulty": "Hard",
+        "topic": "Electric current · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Potential difference — physical meaning: Work done per unit charge\nII. Electrical energy — SI unit: Joule\nIII. Heat produced in a resistor — formula with the named quantity isolated on the left: E = VIt",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Potential difference — physical meaning: Work done per unit charge; Electrical energy — SI unit: Joule; Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt.",
+        "difficulty": "Hard",
+        "topic": "Potential difference · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Potential difference — SI unit: Joule\nII. Electrical energy — formula with the named quantity isolated on the left: Q = It\nIII. Heat produced in a resistor — physical meaning: Joule heating during current flow",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Potential difference — SI unit: Volt; Electrical energy — formula with the named quantity isolated on the left: E = VIt; Heat produced in a resistor — physical meaning: Joule heating during current flow.",
+        "difficulty": "Hard",
+        "topic": "Potential difference · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Potential difference — formula with the named quantity isolated on the left: V = W/Q\nII. Electrical energy — physical meaning: Reciprocal of electrical resistance\nIII. Heat produced in a resistor — SI unit: Joule",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Potential difference — formula with the named quantity isolated on the left: V = W/Q; Electrical energy — physical meaning: Electrical work transferred over time; Heat produced in a resistor — SI unit: Joule.",
+        "difficulty": "Hard",
+        "topic": "Potential difference · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistance — physical meaning: Reciprocal of electrical resistance\nII. Charge — SI unit: Coulomb\nIII. Electric current — formula with the named quantity isolated on the left: I = Q/t",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element; Charge — SI unit: Coulomb; Electric current — formula with the named quantity isolated on the left: I = Q/t.",
+        "difficulty": "Hard",
+        "topic": "Resistance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistance — SI unit: Ohm\nII. Charge — formula with the named quantity isolated on the left: Q = It\nIII. Electric current — physical meaning: Rate of flow of charge",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Resistance — SI unit: Ohm; Charge — formula with the named quantity isolated on the left: Q = It; Electric current — physical meaning: Rate of flow of charge.",
+        "difficulty": "Hard",
+        "topic": "Resistance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistance — formula with the named quantity isolated on the left: I = Q/t\nII. Charge — physical meaning: Work done per unit charge\nIII. Electric current — SI unit: Watt",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Resistance — formula with the named quantity isolated on the left: R = V/I; Charge — physical meaning: Quantity transferred by an electric current over time; Electric current — SI unit: Ampere.",
+        "difficulty": "Hard",
+        "topic": "Resistance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance\nII. Conductance — SI unit: Ohm metre\nIII. Potential difference — formula with the named quantity isolated on the left: P = VI",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance; Conductance — SI unit: Siemens; Potential difference — formula with the named quantity isolated on the left: V = W/Q.",
+        "difficulty": "Hard",
+        "topic": "Resistivity · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistivity — SI unit: Watt\nII. Conductance — formula with the named quantity isolated on the left: G = 1/R\nIII. Potential difference — physical meaning: Electrical work transferred over time",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Resistivity — SI unit: Ohm metre; Conductance — formula with the named quantity isolated on the left: G = 1/R; Potential difference — physical meaning: Work done per unit charge.",
+        "difficulty": "Hard",
+        "topic": "Resistivity · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Resistivity — formula with the named quantity isolated on the left: ρ = RA/L\nII. Conductance — physical meaning: Reciprocal of electrical resistance\nIII. Potential difference — SI unit: Siemens",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Resistivity — formula with the named quantity isolated on the left: ρ = RA/L; Conductance — physical meaning: Reciprocal of electrical resistance; Potential difference — SI unit: Volt.",
+        "difficulty": "Hard",
+        "topic": "Resistivity · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric power — physical meaning: Electrical work transferred over time\nII. Heat produced in a resistor — SI unit: Siemens\nIII. Resistance — formula with the named quantity isolated on the left: R = V/I",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Electric power — physical meaning: Rate of electrical energy transfer; Heat produced in a resistor — SI unit: Joule; Resistance — formula with the named quantity isolated on the left: R = V/I.",
+        "difficulty": "Hard",
+        "topic": "Electric power · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric power — SI unit: Watt\nII. Heat produced in a resistor — formula with the named quantity isolated on the left: Q = It\nIII. Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Electric power — SI unit: Watt; Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt; Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element.",
+        "difficulty": "Hard",
+        "topic": "Electric power · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric power — formula with the named quantity isolated on the left: G = 1/R\nII. Heat produced in a resistor — physical meaning: Joule heating during current flow\nIII. Resistance — SI unit: Ohm",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Electric power — formula with the named quantity isolated on the left: P = VI; Heat produced in a resistor — physical meaning: Joule heating during current flow; Resistance — SI unit: Ohm.",
+        "difficulty": "Hard",
+        "topic": "Electric power · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrical energy — physical meaning: Electrical work transferred over time\nII. Electric current — SI unit: Ampere\nIII. Resistivity — formula with the named quantity isolated on the left: ρ = RA/L",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Electrical energy — physical meaning: Electrical work transferred over time; Electric current — SI unit: Ampere; Resistivity — formula with the named quantity isolated on the left: ρ = RA/L.",
+        "difficulty": "Hard",
+        "topic": "Electrical energy · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrical energy — SI unit: Ohm\nII. Electric current — formula with the named quantity isolated on the left: R = V/I\nIII. Resistivity — physical meaning: Opposition quantified by voltage divided by current for a circuit element",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Electrical energy — SI unit: Joule; Electric current — formula with the named quantity isolated on the left: I = Q/t; Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance.",
+        "difficulty": "Hard",
+        "topic": "Electrical energy · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrical energy — formula with the named quantity isolated on the left: E = VIt\nII. Electric current — physical meaning: Material-dependent factor in a uniform wire's resistance\nIII. Resistivity — SI unit: Coulomb",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electrical energy — formula with the named quantity isolated on the left: E = VIt; Electric current — physical meaning: Rate of flow of charge; Resistivity — SI unit: Ohm metre.",
+        "difficulty": "Hard",
+        "topic": "Electrical energy · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Charge — physical meaning: Opposition quantified by voltage divided by current for a circuit element\nII. Potential difference — SI unit: Volt\nIII. Electric power — formula with the named quantity isolated on the left: E = VIt",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Charge — physical meaning: Quantity transferred by an electric current over time; Potential difference — SI unit: Volt; Electric power — formula with the named quantity isolated on the left: P = VI.",
+        "difficulty": "Hard",
+        "topic": "Charge · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Charge — SI unit: Coulomb\nII. Potential difference — formula with the named quantity isolated on the left: V = W/Q\nIII. Electric power — physical meaning: Quantity transferred by an electric current over time",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Charge — SI unit: Coulomb; Potential difference — formula with the named quantity isolated on the left: V = W/Q; Electric power — physical meaning: Rate of electrical energy transfer.",
+        "difficulty": "Hard",
+        "topic": "Charge · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Charge — formula with the named quantity isolated on the left: P = VI\nII. Potential difference — physical meaning: Quantity transferred by an electric current over time\nIII. Electric power — SI unit: Watt",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Charge — formula with the named quantity isolated on the left: Q = It; Potential difference — physical meaning: Work done per unit charge; Electric power — SI unit: Watt.",
+        "difficulty": "Hard",
+        "topic": "Charge · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conductance — physical meaning: Reciprocal of electrical resistance\nII. Resistance — SI unit: Volt\nIII. Electrical energy — formula with the named quantity isolated on the left: E = VIt",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Conductance — physical meaning: Reciprocal of electrical resistance; Resistance — SI unit: Ohm; Electrical energy — formula with the named quantity isolated on the left: E = VIt.",
+        "difficulty": "Hard",
+        "topic": "Conductance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conductance — SI unit: Volt\nII. Resistance — formula with the named quantity isolated on the left: R = V/I\nIII. Electrical energy — physical meaning: Electrical work transferred over time",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Conductance — SI unit: Siemens; Resistance — formula with the named quantity isolated on the left: R = V/I; Electrical energy — physical meaning: Electrical work transferred over time.",
+        "difficulty": "Hard",
+        "topic": "Conductance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conductance — formula with the named quantity isolated on the left: G = 1/R\nII. Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element\nIII. Electrical energy — SI unit: Joule",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Conductance — formula with the named quantity isolated on the left: G = 1/R; Resistance — physical meaning: Opposition quantified by voltage divided by current for a circuit element; Electrical energy — SI unit: Joule.",
+        "difficulty": "Hard",
+        "topic": "Conductance · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Heat produced in a resistor — physical meaning: Rate of flow of charge\nII. Resistivity — SI unit: Joule\nIII. Charge — formula with the named quantity isolated on the left: R = V/I",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Heat produced in a resistor — physical meaning: Joule heating during current flow; Resistivity — SI unit: Ohm metre; Charge — formula with the named quantity isolated on the left: Q = It.",
+        "difficulty": "Hard",
+        "topic": "Heat produced in a resistor · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Heat produced in a resistor — SI unit: Joule\nII. Resistivity — formula with the named quantity isolated on the left: R = V/I\nIII. Charge — physical meaning: Material-dependent factor in a uniform wire's resistance",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Heat produced in a resistor — SI unit: Joule; Resistivity — formula with the named quantity isolated on the left: ρ = RA/L; Charge — physical meaning: Quantity transferred by an electric current over time.",
+        "difficulty": "Hard",
+        "topic": "Heat produced in a resistor · comparing chapter concepts",
+        "sourceChapter": 9
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH09-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Heat produced in a resistor — formula with the named quantity isolated on the left: R = V/I\nII. Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance\nIII. Charge — SI unit: Ampere",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Heat produced in a resistor — formula with the named quantity isolated on the left: H = I²Rt; Resistivity — physical meaning: Material-dependent factor in a uniform wire's resistance; Charge — SI unit: Coulomb.",
+        "difficulty": "Hard",
+        "topic": "Heat produced in a resistor · comparing chapter concepts",
+        "sourceChapter": 9
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH12-E": {
+    "id": "SA-DPP-27-PHY-CH12-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "E",
+    "title": "Carbon and Its Compounds – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q01",
+        "question": "Why does carbon commonly form four covalent bonds?",
+        "options": [
+          "It has four valence electrons",
+          "It has four shells",
+          "It always gains four protons",
+          "It has no electrons"
+        ],
+        "answer": 0,
+        "explanation": "Sharing four electrons lets carbon complete an octet.",
+        "difficulty": "Easy",
+        "topic": "Why does carbon commonly form four covalent bonds?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q02",
+        "question": "What is catenation?",
+        "options": [
+          "Bonding only to oxygen",
+          "Breaking every carbon bond",
+          "Formation of salts only",
+          "Self-linking of atoms into chains or rings"
+        ],
+        "answer": 3,
+        "explanation": "Carbon readily bonds with other carbon atoms.",
+        "difficulty": "Easy",
+        "topic": "What is catenation?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q03",
+        "question": "Which functional group identifies an alcohol?",
+        "options": [
+          "−CHO",
+          "−CO−",
+          "−OH",
+          "−COOH"
+        ],
+        "answer": 2,
+        "explanation": "Alcohols contain a hydroxyl group bonded to carbon.",
+        "difficulty": "Easy",
+        "topic": "Which functional group identifies an alcohol?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q04",
+        "question": "Methane: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "An alkyne with formula C₂H₂",
+          "An alkane with formula CH₄",
+          "An alkane with formula C₂H₆",
+          "An alkene with formula C₂H₄"
+        ],
+        "answer": 1,
+        "explanation": "Methane — chemical identity or group: An alkane with formula CH₄.",
+        "difficulty": "Easy",
+        "topic": "Methane · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q05",
+        "question": "Methane: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains four single C−H bonds",
+          "Contains a carbon-carbon double bond",
+          "Contains a carbon-carbon triple bond",
+          "Contains a hydroxyl functional group"
+        ],
+        "answer": 0,
+        "explanation": "Methane — structural or reaction feature: Contains four single C−H bonds.",
+        "difficulty": "Easy",
+        "topic": "Methane · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q06",
+        "question": "Methane: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "An unsaturated hydrocarbon with two carbon atoms",
+          "Can be oxidised to ethanoic acid",
+          "Dilute aqueous solution is associated with vinegar",
+          "A major component of natural gas"
+        ],
+        "answer": 3,
+        "explanation": "Methane — characteristic example or use: A major component of natural gas.",
+        "difficulty": "Easy",
+        "topic": "Methane · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q07",
+        "question": "Ethane: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "An alkyne with formula C₂H₂",
+          "An alcohol with formula C₂H₅OH",
+          "An alkane with formula C₂H₆",
+          "An alkene with formula C₂H₄"
+        ],
+        "answer": 2,
+        "explanation": "Ethane — chemical identity or group: An alkane with formula C₂H₆.",
+        "difficulty": "Easy",
+        "topic": "Ethane · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q08",
+        "question": "Ethane: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains the −COOH functional group",
+          "Contains a carbon-carbon single bond",
+          "Contains a carbon-carbon triple bond",
+          "Contains a hydroxyl functional group"
+        ],
+        "answer": 1,
+        "explanation": "Ethane — structural or reaction feature: Contains a carbon-carbon single bond.",
+        "difficulty": "Easy",
+        "topic": "Ethane · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q09",
+        "question": "Ethane: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "A saturated hydrocarbon",
+          "Can be oxidised to ethanoic acid",
+          "Dilute aqueous solution is associated with vinegar",
+          "Ethanol and ethanoic acid form ethyl ethanoate"
+        ],
+        "answer": 0,
+        "explanation": "Ethane — characteristic example or use: A saturated hydrocarbon.",
+        "difficulty": "Easy",
+        "topic": "Ethane · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q10",
+        "question": "Ethene: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "An alkyne with formula C₂H₂",
+          "An alcohol with formula C₂H₅OH",
+          "A carboxylic acid with formula CH₃COOH",
+          "An alkene with formula C₂H₄"
+        ],
+        "answer": 3,
+        "explanation": "Ethene — chemical identity or group: An alkene with formula C₂H₄.",
+        "difficulty": "Easy",
+        "topic": "Ethene · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q11",
+        "question": "Ethene: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains the −COOH functional group",
+          "An ester and water are formed",
+          "Contains a carbon-carbon double bond",
+          "Contains a hydroxyl functional group"
+        ],
+        "answer": 2,
+        "explanation": "Ethene — structural or reaction feature: Contains a carbon-carbon double bond.",
+        "difficulty": "Easy",
+        "topic": "Ethene · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q12",
+        "question": "Ethene: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Used to convert some unsaturated oils into more saturated fats",
+          "Can undergo addition reactions",
+          "Dilute aqueous solution is associated with vinegar",
+          "Ethanol and ethanoic acid form ethyl ethanoate"
+        ],
+        "answer": 1,
+        "explanation": "Ethene — characteristic example or use: Can undergo addition reactions.",
+        "difficulty": "Easy",
+        "topic": "Ethene · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q13",
+        "question": "Ethyne: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "An alkyne with formula C₂H₂",
+          "An alcohol with formula C₂H₅OH",
+          "A carboxylic acid with formula CH₃COOH",
+          "Reaction of an alcohol with a carboxylic acid"
+        ],
+        "answer": 0,
+        "explanation": "Ethyne — chemical identity or group: An alkyne with formula C₂H₂.",
+        "difficulty": "Easy",
+        "topic": "Ethyne · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q14",
+        "question": "Ethyne: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains the −COOH functional group",
+          "An ester and water are formed",
+          "Often uses a metal catalyst such as nickel",
+          "Contains a carbon-carbon triple bond"
+        ],
+        "answer": 3,
+        "explanation": "Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond.",
+        "difficulty": "Easy",
+        "topic": "Ethyne · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q15",
+        "question": "Ethyne: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Used to convert some unsaturated oils into more saturated fats",
+          "Cleaning efficiency falls because some soap is consumed",
+          "An unsaturated hydrocarbon with two carbon atoms",
+          "Ethanol and ethanoic acid form ethyl ethanoate"
+        ],
+        "answer": 2,
+        "explanation": "Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms.",
+        "difficulty": "Easy",
+        "topic": "Ethyne · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q16",
+        "question": "Ethanol: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "Addition of hydrogen to an unsaturated compound",
+          "An alcohol with formula C₂H₅OH",
+          "A carboxylic acid with formula CH₃COOH",
+          "Reaction of an alcohol with a carboxylic acid"
+        ],
+        "answer": 1,
+        "explanation": "Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH.",
+        "difficulty": "Easy",
+        "topic": "Ethanol · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q17",
+        "question": "Ethanol: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains a hydroxyl functional group",
+          "An ester and water are formed",
+          "Often uses a metal catalyst such as nickel",
+          "Insoluble salts form scum"
+        ],
+        "answer": 0,
+        "explanation": "Ethanol — structural or reaction feature: Contains a hydroxyl functional group.",
+        "difficulty": "Easy",
+        "topic": "Ethanol · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q18",
+        "question": "Ethanol: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Used to convert some unsaturated oils into more saturated fats",
+          "Cleaning efficiency falls because some soap is consumed",
+          "A major component of natural gas",
+          "Can be oxidised to ethanoic acid"
+        ],
+        "answer": 3,
+        "explanation": "Ethanol — characteristic example or use: Can be oxidised to ethanoic acid.",
+        "difficulty": "Easy",
+        "topic": "Ethanol · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q19",
+        "question": "Ethanoic acid: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "Addition of hydrogen to an unsaturated compound",
+          "Calcium and magnesium ions react with soap",
+          "A carboxylic acid with formula CH₃COOH",
+          "Reaction of an alcohol with a carboxylic acid"
+        ],
+        "answer": 2,
+        "explanation": "Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH.",
+        "difficulty": "Easy",
+        "topic": "Ethanoic acid · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q20",
+        "question": "Ethanoic acid: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains four single C−H bonds",
+          "Contains the −COOH functional group",
+          "Often uses a metal catalyst such as nickel",
+          "Insoluble salts form scum"
+        ],
+        "answer": 1,
+        "explanation": "Ethanoic acid — structural or reaction feature: Contains the −COOH functional group.",
+        "difficulty": "Easy",
+        "topic": "Ethanoic acid · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q21",
+        "question": "Ethanoic acid: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Dilute aqueous solution is associated with vinegar",
+          "Cleaning efficiency falls because some soap is consumed",
+          "A major component of natural gas",
+          "A saturated hydrocarbon"
+        ],
+        "answer": 0,
+        "explanation": "Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar.",
+        "difficulty": "Easy",
+        "topic": "Ethanoic acid · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q22",
+        "question": "Esterification: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "Addition of hydrogen to an unsaturated compound",
+          "Calcium and magnesium ions react with soap",
+          "An alkane with formula CH₄",
+          "Reaction of an alcohol with a carboxylic acid"
+        ],
+        "answer": 3,
+        "explanation": "Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid.",
+        "difficulty": "Easy",
+        "topic": "Esterification · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q23",
+        "question": "Esterification: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains four single C−H bonds",
+          "Contains a carbon-carbon single bond",
+          "An ester and water are formed",
+          "Insoluble salts form scum"
+        ],
+        "answer": 2,
+        "explanation": "Esterification — structural or reaction feature: An ester and water are formed.",
+        "difficulty": "Easy",
+        "topic": "Esterification · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q24",
+        "question": "Esterification: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Can undergo addition reactions",
+          "Ethanol and ethanoic acid form ethyl ethanoate",
+          "A major component of natural gas",
+          "A saturated hydrocarbon"
+        ],
+        "answer": 1,
+        "explanation": "Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate.",
+        "difficulty": "Easy",
+        "topic": "Esterification · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q25",
+        "question": "Hydrogenation: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "Addition of hydrogen to an unsaturated compound",
+          "Calcium and magnesium ions react with soap",
+          "An alkane with formula CH₄",
+          "An alkane with formula C₂H₆"
+        ],
+        "answer": 0,
+        "explanation": "Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound.",
+        "difficulty": "Easy",
+        "topic": "Hydrogenation · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q26",
+        "question": "Hydrogenation: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Contains four single C−H bonds",
+          "Contains a carbon-carbon single bond",
+          "Contains a carbon-carbon double bond",
+          "Often uses a metal catalyst such as nickel"
+        ],
+        "answer": 3,
+        "explanation": "Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel.",
+        "difficulty": "Easy",
+        "topic": "Hydrogenation · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q27",
+        "question": "Hydrogenation: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Can undergo addition reactions",
+          "An unsaturated hydrocarbon with two carbon atoms",
+          "Used to convert some unsaturated oils into more saturated fats",
+          "A saturated hydrocarbon"
+        ],
+        "answer": 2,
+        "explanation": "Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats.",
+        "difficulty": "Easy",
+        "topic": "Hydrogenation · characteristic example or use",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q28",
+        "question": "Soap action in hard water: which option correctly identifies the chemical identity or group?",
+        "options": [
+          "An alkene with formula C₂H₄",
+          "Calcium and magnesium ions react with soap",
+          "An alkane with formula CH₄",
+          "An alkane with formula C₂H₆"
+        ],
+        "answer": 1,
+        "explanation": "Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap.",
+        "difficulty": "Easy",
+        "topic": "Soap action in hard water · chemical identity or group",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q29",
+        "question": "Soap action in hard water: which option correctly identifies the structural or reaction feature?",
+        "options": [
+          "Insoluble salts form scum",
+          "Contains a carbon-carbon single bond",
+          "Contains a carbon-carbon double bond",
+          "Contains a carbon-carbon triple bond"
+        ],
+        "answer": 0,
+        "explanation": "Soap action in hard water — structural or reaction feature: Insoluble salts form scum.",
+        "difficulty": "Easy",
+        "topic": "Soap action in hard water · structural or reaction feature",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-E-Q30",
+        "question": "Soap action in hard water: which option correctly identifies the characteristic example or use?",
+        "options": [
+          "Can undergo addition reactions",
+          "An unsaturated hydrocarbon with two carbon atoms",
+          "Can be oxidised to ethanoic acid",
+          "Cleaning efficiency falls because some soap is consumed"
+        ],
+        "answer": 3,
+        "explanation": "Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed.",
+        "difficulty": "Easy",
+        "topic": "Soap action in hard water · characteristic example or use",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH12-M": {
+    "id": "SA-DPP-27-PHY-CH12-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "M",
+    "title": "Carbon and Its Compounds – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q01",
+        "question": "Which compound is unsaturated?",
+        "options": [
+          "Ethane",
+          "Methane",
+          "Propane",
+          "Ethene"
+        ],
+        "answer": 3,
+        "explanation": "Ethene contains a carbon-carbon double bond.",
+        "difficulty": "Medium",
+        "topic": "Which compound is unsaturated?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q02",
+        "question": "What are the usual products of complete combustion of ethanol?",
+        "options": [
+          "NaCl and H₂O",
+          "Carbon and nitrogen",
+          "CO₂ and H₂O",
+          "CO and H₂ only"
+        ],
+        "answer": 2,
+        "explanation": "Complete combustion converts carbon to CO₂ and hydrogen to water.",
+        "difficulty": "Medium",
+        "topic": "What are the usual products of complete combustion of ethanol?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q03",
+        "question": "What is the difference between consecutive members of a homologous series?",
+        "options": [
+          "H₂O",
+          "CH₂",
+          "CH₄",
+          "CO₂"
+        ],
+        "answer": 1,
+        "explanation": "Successive homologues differ by one methylene group and 14 u.",
+        "difficulty": "Medium",
+        "topic": "What is the difference between consecutive members of a homologous series?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q04",
+        "question": "Which pair correctly matches Methane with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "An alkane with formula CH₄ → Contains four single C−H bonds",
+          "An alkane with formula C₂H₆ → Contains four single C−H bonds",
+          "An alkane with formula CH₄ → Contains a carbon-carbon single bond",
+          "An alkene with formula C₂H₄ → Contains a carbon-carbon double bond"
+        ],
+        "answer": 0,
+        "explanation": "Methane — chemical identity or group: An alkane with formula CH₄. Methane — structural or reaction feature: Contains four single C−H bonds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q05",
+        "question": "Which pair correctly matches Methane with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains a carbon-carbon double bond → A major component of natural gas",
+          "Contains four single C−H bonds → A saturated hydrocarbon",
+          "Contains a carbon-carbon triple bond → Can undergo addition reactions",
+          "Contains four single C−H bonds → A major component of natural gas"
+        ],
+        "answer": 3,
+        "explanation": "Methane — structural or reaction feature: Contains four single C−H bonds. Methane — characteristic example or use: A major component of natural gas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q06",
+        "question": "Which pair correctly matches Methane with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "A major component of natural gas → An alkane with formula C₂H₆",
+          "Can be oxidised to ethanoic acid → An alkene with formula C₂H₄",
+          "A major component of natural gas → An alkane with formula CH₄",
+          "An unsaturated hydrocarbon with two carbon atoms → An alkane with formula CH₄"
+        ],
+        "answer": 2,
+        "explanation": "Methane — characteristic example or use: A major component of natural gas. Methane — chemical identity or group: An alkane with formula CH₄. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Methane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q07",
+        "question": "Which pair correctly matches Ethane with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "An alkyne with formula C₂H₂ → Contains a carbon-carbon triple bond",
+          "An alkane with formula C₂H₆ → Contains a carbon-carbon single bond",
+          "An alkene with formula C₂H₄ → Contains a carbon-carbon single bond",
+          "An alkane with formula C₂H₆ → Contains a carbon-carbon double bond"
+        ],
+        "answer": 1,
+        "explanation": "Ethane — chemical identity or group: An alkane with formula C₂H₆. Ethane — structural or reaction feature: Contains a carbon-carbon single bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q08",
+        "question": "Which pair correctly matches Ethane with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains a carbon-carbon single bond → A saturated hydrocarbon",
+          "Contains a carbon-carbon triple bond → A saturated hydrocarbon",
+          "Contains a carbon-carbon single bond → Can undergo addition reactions",
+          "Contains a hydroxyl functional group → An unsaturated hydrocarbon with two carbon atoms"
+        ],
+        "answer": 0,
+        "explanation": "Ethane — structural or reaction feature: Contains a carbon-carbon single bond. Ethane — characteristic example or use: A saturated hydrocarbon. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q09",
+        "question": "Which pair correctly matches Ethane with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Can be oxidised to ethanoic acid → An alkane with formula C₂H₆",
+          "A saturated hydrocarbon → An alkene with formula C₂H₄",
+          "Dilute aqueous solution is associated with vinegar → An alkyne with formula C₂H₂",
+          "A saturated hydrocarbon → An alkane with formula C₂H₆"
+        ],
+        "answer": 3,
+        "explanation": "Ethane — characteristic example or use: A saturated hydrocarbon. Ethane — chemical identity or group: An alkane with formula C₂H₆. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethane",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q10",
+        "question": "Which pair correctly matches Ethene with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "An alkene with formula C₂H₄ → Contains a carbon-carbon triple bond",
+          "An alcohol with formula C₂H₅OH → Contains a hydroxyl functional group",
+          "An alkene with formula C₂H₄ → Contains a carbon-carbon double bond",
+          "An alkyne with formula C₂H₂ → Contains a carbon-carbon double bond"
+        ],
+        "answer": 2,
+        "explanation": "Ethene — chemical identity or group: An alkene with formula C₂H₄. Ethene — structural or reaction feature: Contains a carbon-carbon double bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethene",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q11",
+        "question": "Which pair correctly matches Ethene with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains the −COOH functional group → Can be oxidised to ethanoic acid",
+          "Contains a carbon-carbon double bond → Can undergo addition reactions",
+          "Contains a hydroxyl functional group → Can undergo addition reactions",
+          "Contains a carbon-carbon double bond → An unsaturated hydrocarbon with two carbon atoms"
+        ],
+        "answer": 1,
+        "explanation": "Ethene — structural or reaction feature: Contains a carbon-carbon double bond. Ethene — characteristic example or use: Can undergo addition reactions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethene",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q12",
+        "question": "Which pair correctly matches Ethene with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Can undergo addition reactions → An alkene with formula C₂H₄",
+          "Dilute aqueous solution is associated with vinegar → An alkene with formula C₂H₄",
+          "Can undergo addition reactions → An alkyne with formula C₂H₂",
+          "Ethanol and ethanoic acid form ethyl ethanoate → An alcohol with formula C₂H₅OH"
+        ],
+        "answer": 0,
+        "explanation": "Ethene — characteristic example or use: Can undergo addition reactions. Ethene — chemical identity or group: An alkene with formula C₂H₄. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethene",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q13",
+        "question": "Which pair correctly matches Ethyne with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "An alcohol with formula C₂H₅OH → Contains a carbon-carbon triple bond",
+          "An alkyne with formula C₂H₂ → Contains a hydroxyl functional group",
+          "A carboxylic acid with formula CH₃COOH → Contains the −COOH functional group",
+          "An alkyne with formula C₂H₂ → Contains a carbon-carbon triple bond"
+        ],
+        "answer": 3,
+        "explanation": "Ethyne — chemical identity or group: An alkyne with formula C₂H₂. Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethyne",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q14",
+        "question": "Which pair correctly matches Ethyne with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains a carbon-carbon triple bond → Can be oxidised to ethanoic acid",
+          "An ester and water are formed → Dilute aqueous solution is associated with vinegar",
+          "Contains a carbon-carbon triple bond → An unsaturated hydrocarbon with two carbon atoms",
+          "Contains the −COOH functional group → An unsaturated hydrocarbon with two carbon atoms"
+        ],
+        "answer": 2,
+        "explanation": "Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond. Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethyne",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q15",
+        "question": "Which pair correctly matches Ethyne with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Used to convert some unsaturated oils into more saturated fats → A carboxylic acid with formula CH₃COOH",
+          "An unsaturated hydrocarbon with two carbon atoms → An alkyne with formula C₂H₂",
+          "Ethanol and ethanoic acid form ethyl ethanoate → An alkyne with formula C₂H₂",
+          "An unsaturated hydrocarbon with two carbon atoms → An alcohol with formula C₂H₅OH"
+        ],
+        "answer": 1,
+        "explanation": "Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms. Ethyne — chemical identity or group: An alkyne with formula C₂H₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethyne",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q16",
+        "question": "Which pair correctly matches Ethanol with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "An alcohol with formula C₂H₅OH → Contains a hydroxyl functional group",
+          "A carboxylic acid with formula CH₃COOH → Contains a hydroxyl functional group",
+          "An alcohol with formula C₂H₅OH → Contains the −COOH functional group",
+          "Reaction of an alcohol with a carboxylic acid → An ester and water are formed"
+        ],
+        "answer": 0,
+        "explanation": "Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH. Ethanol — structural or reaction feature: Contains a hydroxyl functional group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanol",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q17",
+        "question": "Which pair correctly matches Ethanol with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "An ester and water are formed → Can be oxidised to ethanoic acid",
+          "Contains a hydroxyl functional group → Dilute aqueous solution is associated with vinegar",
+          "Often uses a metal catalyst such as nickel → Ethanol and ethanoic acid form ethyl ethanoate",
+          "Contains a hydroxyl functional group → Can be oxidised to ethanoic acid"
+        ],
+        "answer": 3,
+        "explanation": "Ethanol — structural or reaction feature: Contains a hydroxyl functional group. Ethanol — characteristic example or use: Can be oxidised to ethanoic acid. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanol",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q18",
+        "question": "Which pair correctly matches Ethanol with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Can be oxidised to ethanoic acid → A carboxylic acid with formula CH₃COOH",
+          "Cleaning efficiency falls because some soap is consumed → Reaction of an alcohol with a carboxylic acid",
+          "Can be oxidised to ethanoic acid → An alcohol with formula C₂H₅OH",
+          "Used to convert some unsaturated oils into more saturated fats → An alcohol with formula C₂H₅OH"
+        ],
+        "answer": 2,
+        "explanation": "Ethanol — characteristic example or use: Can be oxidised to ethanoic acid. Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanol",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q19",
+        "question": "Which pair correctly matches Ethanoic acid with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "Addition of hydrogen to an unsaturated compound → Often uses a metal catalyst such as nickel",
+          "A carboxylic acid with formula CH₃COOH → Contains the −COOH functional group",
+          "Reaction of an alcohol with a carboxylic acid → Contains the −COOH functional group",
+          "A carboxylic acid with formula CH₃COOH → An ester and water are formed"
+        ],
+        "answer": 1,
+        "explanation": "Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH. Ethanoic acid — structural or reaction feature: Contains the −COOH functional group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanoic acid",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q20",
+        "question": "Which pair correctly matches Ethanoic acid with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains the −COOH functional group → Dilute aqueous solution is associated with vinegar",
+          "Often uses a metal catalyst such as nickel → Dilute aqueous solution is associated with vinegar",
+          "Contains the −COOH functional group → Ethanol and ethanoic acid form ethyl ethanoate",
+          "Insoluble salts form scum → Used to convert some unsaturated oils into more saturated fats"
+        ],
+        "answer": 0,
+        "explanation": "Ethanoic acid — structural or reaction feature: Contains the −COOH functional group. Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanoic acid",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q21",
+        "question": "Which pair correctly matches Ethanoic acid with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Cleaning efficiency falls because some soap is consumed → A carboxylic acid with formula CH₃COOH",
+          "Dilute aqueous solution is associated with vinegar → Reaction of an alcohol with a carboxylic acid",
+          "A major component of natural gas → Addition of hydrogen to an unsaturated compound",
+          "Dilute aqueous solution is associated with vinegar → A carboxylic acid with formula CH₃COOH"
+        ],
+        "answer": 3,
+        "explanation": "Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar. Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ethanoic acid",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q22",
+        "question": "Which pair correctly matches Esterification with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "Reaction of an alcohol with a carboxylic acid → Often uses a metal catalyst such as nickel",
+          "Calcium and magnesium ions react with soap → Insoluble salts form scum",
+          "Reaction of an alcohol with a carboxylic acid → An ester and water are formed",
+          "Addition of hydrogen to an unsaturated compound → An ester and water are formed"
+        ],
+        "answer": 2,
+        "explanation": "Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid. Esterification — structural or reaction feature: An ester and water are formed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Esterification",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q23",
+        "question": "Which pair correctly matches Esterification with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains four single C−H bonds → Cleaning efficiency falls because some soap is consumed",
+          "An ester and water are formed → Ethanol and ethanoic acid form ethyl ethanoate",
+          "Insoluble salts form scum → Ethanol and ethanoic acid form ethyl ethanoate",
+          "An ester and water are formed → Used to convert some unsaturated oils into more saturated fats"
+        ],
+        "answer": 1,
+        "explanation": "Esterification — structural or reaction feature: An ester and water are formed. Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Esterification",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q24",
+        "question": "Which pair correctly matches Esterification with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Ethanol and ethanoic acid form ethyl ethanoate → Reaction of an alcohol with a carboxylic acid",
+          "A major component of natural gas → Reaction of an alcohol with a carboxylic acid",
+          "Ethanol and ethanoic acid form ethyl ethanoate → Addition of hydrogen to an unsaturated compound",
+          "A saturated hydrocarbon → Calcium and magnesium ions react with soap"
+        ],
+        "answer": 0,
+        "explanation": "Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate. Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Esterification",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q25",
+        "question": "Which pair correctly matches Hydrogenation with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "Calcium and magnesium ions react with soap → Often uses a metal catalyst such as nickel",
+          "Addition of hydrogen to an unsaturated compound → Insoluble salts form scum",
+          "An alkane with formula CH₄ → Contains four single C−H bonds",
+          "Addition of hydrogen to an unsaturated compound → Often uses a metal catalyst such as nickel"
+        ],
+        "answer": 3,
+        "explanation": "Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound. Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrogenation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q26",
+        "question": "Which pair correctly matches Hydrogenation with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Often uses a metal catalyst such as nickel → Cleaning efficiency falls because some soap is consumed",
+          "Contains a carbon-carbon single bond → A major component of natural gas",
+          "Often uses a metal catalyst such as nickel → Used to convert some unsaturated oils into more saturated fats",
+          "Contains four single C−H bonds → Used to convert some unsaturated oils into more saturated fats"
+        ],
+        "answer": 2,
+        "explanation": "Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel. Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrogenation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q27",
+        "question": "Which pair correctly matches Hydrogenation with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Can undergo addition reactions → An alkane with formula CH₄",
+          "Used to convert some unsaturated oils into more saturated fats → Addition of hydrogen to an unsaturated compound",
+          "A saturated hydrocarbon → Addition of hydrogen to an unsaturated compound",
+          "Used to convert some unsaturated oils into more saturated fats → Calcium and magnesium ions react with soap"
+        ],
+        "answer": 1,
+        "explanation": "Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats. Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Hydrogenation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q28",
+        "question": "Which pair correctly matches Soap action in hard water with its chemical identity or group and structural or reaction feature, in that order?",
+        "options": [
+          "Calcium and magnesium ions react with soap → Insoluble salts form scum",
+          "An alkane with formula CH₄ → Insoluble salts form scum",
+          "Calcium and magnesium ions react with soap → Contains four single C−H bonds",
+          "An alkane with formula C₂H₆ → Contains a carbon-carbon single bond"
+        ],
+        "answer": 0,
+        "explanation": "Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap. Soap action in hard water — structural or reaction feature: Insoluble salts form scum. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Soap action in hard water",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q29",
+        "question": "Which pair correctly matches Soap action in hard water with its structural or reaction feature and characteristic example or use, in that order?",
+        "options": [
+          "Contains a carbon-carbon single bond → Cleaning efficiency falls because some soap is consumed",
+          "Insoluble salts form scum → A major component of natural gas",
+          "Contains a carbon-carbon double bond → A saturated hydrocarbon",
+          "Insoluble salts form scum → Cleaning efficiency falls because some soap is consumed"
+        ],
+        "answer": 3,
+        "explanation": "Soap action in hard water — structural or reaction feature: Insoluble salts form scum. Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Soap action in hard water",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-M-Q30",
+        "question": "Which pair correctly matches Soap action in hard water with its characteristic example or use and chemical identity or group, in that order?",
+        "options": [
+          "Cleaning efficiency falls because some soap is consumed → An alkane with formula CH₄",
+          "An unsaturated hydrocarbon with two carbon atoms → An alkane with formula C₂H₆",
+          "Cleaning efficiency falls because some soap is consumed → Calcium and magnesium ions react with soap",
+          "Can undergo addition reactions → Calcium and magnesium ions react with soap"
+        ],
+        "answer": 2,
+        "explanation": "Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed. Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Soap action in hard water",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH12-H": {
+    "id": "SA-DPP-27-PHY-CH12-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Carbon and Its Compounds",
+    "level": "H",
+    "title": "Carbon and Its Compounds – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-03",
+    "recommendedDate": "2026-11-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 253,
+      "to": 292
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q01",
+        "question": "Why is soap less effective in hard water?",
+        "options": [
+          "Hard water contains no ions",
+          "Soap becomes a metal",
+          "Ca²⁺ and Mg²⁺ form insoluble salts with soap",
+          "Soap converts all water to acid"
+        ],
+        "answer": 2,
+        "explanation": "These insoluble salts produce scum and consume soap.",
+        "difficulty": "Hard",
+        "topic": "Why is soap less effective in hard water?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q02",
+        "question": "Ethanol reacts with ethanoic acid in the presence of concentrated H₂SO₄ to form what?",
+        "options": [
+          "Sodium ethanoate and oxygen",
+          "An ester and water",
+          "Only methane",
+          "Only hydrogen"
+        ],
+        "answer": 1,
+        "explanation": "Esterification forms ethyl ethanoate and water.",
+        "difficulty": "Hard",
+        "topic": "Ethanol reacts with ethanoic acid in the presence of concentrated H₂SO₄ to form what?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q03",
+        "question": "Why can C₄H₁₀ have two structural isomers?",
+        "options": [
+          "Its atoms can form different carbon-chain arrangements",
+          "Its carbon atoms change atomic number",
+          "Each isomer has a different molecular formula",
+          "It must contain a double bond"
+        ],
+        "answer": 0,
+        "explanation": "Butane and 2-methylpropane have the same formula but different connectivity.",
+        "difficulty": "Hard",
+        "topic": "Why can C₄H₁₀ have two structural isomers?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane — chemical identity or group: An alkane with formula CH₄\nII. Ethanol — structural or reaction feature: Contains a hydroxyl functional group\nIII. Hydrogenation — characteristic example or use: Can undergo addition reactions",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Methane — chemical identity or group: An alkane with formula CH₄; Ethanol — structural or reaction feature: Contains a hydroxyl functional group; Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats.",
+        "difficulty": "Hard",
+        "topic": "Methane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane — structural or reaction feature: Contains a carbon-carbon double bond\nII. Ethanol — characteristic example or use: Can undergo addition reactions\nIII. Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Methane — structural or reaction feature: Contains four single C−H bonds; Ethanol — characteristic example or use: Can be oxidised to ethanoic acid; Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound.",
+        "difficulty": "Hard",
+        "topic": "Methane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Methane — characteristic example or use: A major component of natural gas\nII. Ethanol — chemical identity or group: An alkyne with formula C₂H₂\nIII. Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Methane — characteristic example or use: A major component of natural gas; Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH; Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel.",
+        "difficulty": "Hard",
+        "topic": "Methane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethane — chemical identity or group: An alcohol with formula C₂H₅OH\nII. Ethanoic acid — structural or reaction feature: Contains the −COOH functional group\nIII. Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Ethane — chemical identity or group: An alkane with formula C₂H₆; Ethanoic acid — structural or reaction feature: Contains the −COOH functional group; Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed.",
+        "difficulty": "Hard",
+        "topic": "Ethane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethane — structural or reaction feature: Contains a carbon-carbon single bond\nII. Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar\nIII. Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Ethane — structural or reaction feature: Contains a carbon-carbon single bond; Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar; Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap.",
+        "difficulty": "Hard",
+        "topic": "Ethane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethane — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate\nII. Ethanoic acid — chemical identity or group: Addition of hydrogen to an unsaturated compound\nIII. Soap action in hard water — structural or reaction feature: Often uses a metal catalyst such as nickel",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Ethane — characteristic example or use: A saturated hydrocarbon; Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH; Soap action in hard water — structural or reaction feature: Insoluble salts form scum.",
+        "difficulty": "Hard",
+        "topic": "Ethane · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethene — chemical identity or group: An alkene with formula C₂H₄\nII. Esterification — structural or reaction feature: Insoluble salts form scum\nIII. Methane — characteristic example or use: A saturated hydrocarbon",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Ethene — chemical identity or group: An alkene with formula C₂H₄; Esterification — structural or reaction feature: An ester and water are formed; Methane — characteristic example or use: A major component of natural gas.",
+        "difficulty": "Hard",
+        "topic": "Ethene · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethene — structural or reaction feature: Insoluble salts form scum\nII. Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate\nIII. Methane — chemical identity or group: An alkene with formula C₂H₄",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Ethene — structural or reaction feature: Contains a carbon-carbon double bond; Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate; Methane — chemical identity or group: An alkane with formula CH₄.",
+        "difficulty": "Hard",
+        "topic": "Ethene · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethene — characteristic example or use: Can undergo addition reactions\nII. Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid\nIII. Methane — structural or reaction feature: Contains a carbon-carbon triple bond",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Ethene — characteristic example or use: Can undergo addition reactions; Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid; Methane — structural or reaction feature: Contains four single C−H bonds.",
+        "difficulty": "Hard",
+        "topic": "Ethene · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethyne — chemical identity or group: An alkane with formula C₂H₆\nII. Hydrogenation — structural or reaction feature: Contains a carbon-carbon double bond\nIII. Ethane — characteristic example or use: A saturated hydrocarbon",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Ethyne — chemical identity or group: An alkyne with formula C₂H₂; Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel; Ethane — characteristic example or use: A saturated hydrocarbon.",
+        "difficulty": "Hard",
+        "topic": "Ethyne · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond\nII. Hydrogenation — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms\nIII. Ethane — chemical identity or group: An alkane with formula C₂H₆",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond; Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats; Ethane — chemical identity or group: An alkane with formula C₂H₆.",
+        "difficulty": "Hard",
+        "topic": "Ethyne · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethyne — characteristic example or use: Can be oxidised to ethanoic acid\nII. Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound\nIII. Ethane — structural or reaction feature: Contains a carbon-carbon single bond",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms; Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound; Ethane — structural or reaction feature: Contains a carbon-carbon single bond.",
+        "difficulty": "Hard",
+        "topic": "Ethyne · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH\nII. Soap action in hard water — structural or reaction feature: Insoluble salts form scum\nIII. Ethene — characteristic example or use: Can undergo addition reactions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH; Soap action in hard water — structural or reaction feature: Insoluble salts form scum; Ethene — characteristic example or use: Can undergo addition reactions.",
+        "difficulty": "Hard",
+        "topic": "Ethanol · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanol — structural or reaction feature: An ester and water are formed\nII. Soap action in hard water — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate\nIII. Ethene — chemical identity or group: Calcium and magnesium ions react with soap",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Ethanol — structural or reaction feature: Contains a hydroxyl functional group; Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed; Ethene — chemical identity or group: An alkene with formula C₂H₄.",
+        "difficulty": "Hard",
+        "topic": "Ethanol · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanol — characteristic example or use: Can be oxidised to ethanoic acid\nII. Soap action in hard water — chemical identity or group: Addition of hydrogen to an unsaturated compound\nIII. Ethene — structural or reaction feature: Contains four single C−H bonds",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Ethanol — characteristic example or use: Can be oxidised to ethanoic acid; Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap; Ethene — structural or reaction feature: Contains a carbon-carbon double bond.",
+        "difficulty": "Hard",
+        "topic": "Ethanol · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanoic acid — chemical identity or group: Calcium and magnesium ions react with soap\nII. Methane — structural or reaction feature: Contains four single C−H bonds\nIII. Ethyne — characteristic example or use: A saturated hydrocarbon",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH; Methane — structural or reaction feature: Contains four single C−H bonds; Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms.",
+        "difficulty": "Hard",
+        "topic": "Ethanoic acid · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanoic acid — structural or reaction feature: Contains the −COOH functional group\nII. Methane — characteristic example or use: A major component of natural gas\nIII. Ethyne — chemical identity or group: An alkene with formula C₂H₄",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Ethanoic acid — structural or reaction feature: Contains the −COOH functional group; Methane — characteristic example or use: A major component of natural gas; Ethyne — chemical identity or group: An alkyne with formula C₂H₂.",
+        "difficulty": "Hard",
+        "topic": "Ethanoic acid · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ethanoic acid — characteristic example or use: A saturated hydrocarbon\nII. Methane — chemical identity or group: An alkyne with formula C₂H₂\nIII. Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar; Methane — chemical identity or group: An alkane with formula CH₄; Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond.",
+        "difficulty": "Hard",
+        "topic": "Ethanoic acid · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid\nII. Ethane — structural or reaction feature: Contains a hydroxyl functional group\nIII. Ethanol — characteristic example or use: Can be oxidised to ethanoic acid",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid; Ethane — structural or reaction feature: Contains a carbon-carbon single bond; Ethanol — characteristic example or use: Can be oxidised to ethanoic acid.",
+        "difficulty": "Hard",
+        "topic": "Esterification · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Esterification — structural or reaction feature: Contains a carbon-carbon triple bond\nII. Ethane — characteristic example or use: A saturated hydrocarbon\nIII. Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Esterification — structural or reaction feature: An ester and water are formed; Ethane — characteristic example or use: A saturated hydrocarbon; Ethanol — chemical identity or group: An alcohol with formula C₂H₅OH.",
+        "difficulty": "Hard",
+        "topic": "Esterification · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate\nII. Ethane — chemical identity or group: An alkane with formula C₂H₆\nIII. Ethanol — structural or reaction feature: Contains a hydroxyl functional group",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate; Ethane — chemical identity or group: An alkane with formula C₂H₆; Ethanol — structural or reaction feature: Contains a hydroxyl functional group.",
+        "difficulty": "Hard",
+        "topic": "Esterification · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrogenation — chemical identity or group: A carboxylic acid with formula CH₃COOH\nII. Ethene — structural or reaction feature: Often uses a metal catalyst such as nickel\nIII. Ethanoic acid — characteristic example or use: Cleaning efficiency falls because some soap is consumed",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Hydrogenation — chemical identity or group: Addition of hydrogen to an unsaturated compound; Ethene — structural or reaction feature: Contains a carbon-carbon double bond; Ethanoic acid — characteristic example or use: Dilute aqueous solution is associated with vinegar.",
+        "difficulty": "Hard",
+        "topic": "Hydrogenation · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel\nII. Ethene — characteristic example or use: Cleaning efficiency falls because some soap is consumed\nIII. Ethanoic acid — chemical identity or group: An alkane with formula CH₄",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Hydrogenation — structural or reaction feature: Often uses a metal catalyst such as nickel; Ethene — characteristic example or use: Can undergo addition reactions; Ethanoic acid — chemical identity or group: A carboxylic acid with formula CH₃COOH.",
+        "difficulty": "Hard",
+        "topic": "Hydrogenation · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Hydrogenation — characteristic example or use: Cleaning efficiency falls because some soap is consumed\nII. Ethene — chemical identity or group: An alkene with formula C₂H₄\nIII. Ethanoic acid — structural or reaction feature: Contains a carbon-carbon single bond",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Hydrogenation — characteristic example or use: Used to convert some unsaturated oils into more saturated fats; Ethene — chemical identity or group: An alkene with formula C₂H₄; Ethanoic acid — structural or reaction feature: Contains the −COOH functional group.",
+        "difficulty": "Hard",
+        "topic": "Hydrogenation · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap\nII. Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond\nIII. Esterification — characteristic example or use: Can undergo addition reactions",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Soap action in hard water — chemical identity or group: Calcium and magnesium ions react with soap; Ethyne — structural or reaction feature: Contains a carbon-carbon triple bond; Esterification — characteristic example or use: Ethanol and ethanoic acid form ethyl ethanoate.",
+        "difficulty": "Hard",
+        "topic": "Soap action in hard water · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Soap action in hard water — structural or reaction feature: Contains a carbon-carbon single bond\nII. Ethyne — characteristic example or use: Can undergo addition reactions\nIII. Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Soap action in hard water — structural or reaction feature: Insoluble salts form scum; Ethyne — characteristic example or use: An unsaturated hydrocarbon with two carbon atoms; Esterification — chemical identity or group: Reaction of an alcohol with a carboxylic acid.",
+        "difficulty": "Hard",
+        "topic": "Soap action in hard water · comparing chapter concepts",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH12-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed\nII. Ethyne — chemical identity or group: An alcohol with formula C₂H₅OH\nIII. Esterification — structural or reaction feature: An ester and water are formed",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Soap action in hard water — characteristic example or use: Cleaning efficiency falls because some soap is consumed; Ethyne — chemical identity or group: An alkyne with formula C₂H₂; Esterification — structural or reaction feature: An ester and water are formed.",
+        "difficulty": "Hard",
+        "topic": "Soap action in hard water · comparing chapter concepts",
+        "sourceChapter": 12
+      }
+    ]
+  }
+}

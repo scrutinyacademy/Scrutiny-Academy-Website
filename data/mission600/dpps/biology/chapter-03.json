@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH03-E": {
+    "id": "SA-DPP-27-BIO-CH03-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "E",
+    "title": "Circulation – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q01",
+        "question": "Which blood cells mainly transport oxygen?",
+        "options": [
+          "All blood cells equally",
+          "Red blood cells",
+          "Platelets",
+          "White blood cells"
+        ],
+        "answer": 1,
+        "explanation": "Haemoglobin in red cells binds oxygen.",
+        "difficulty": "Easy",
+        "topic": "Which blood cells mainly transport oxygen?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q02",
+        "question": "Which plant tissue transports water and minerals from roots?",
+        "options": [
+          "Xylem",
+          "Phloem",
+          "Epidermis only",
+          "Cork only"
+        ],
+        "answer": 0,
+        "explanation": "Xylem conducts water and dissolved minerals.",
+        "difficulty": "Easy",
+        "topic": "Which plant tissue transports water and minerals from roots?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q03",
+        "question": "Which blood vessels carry blood away from the heart?",
+        "options": [
+          "Veins",
+          "Lymph vessels",
+          "Venules only",
+          "Arteries"
+        ],
+        "answer": 3,
+        "explanation": "Arteries are defined by direction of flow, not oxygen content.",
+        "difficulty": "Easy",
+        "topic": "Which blood vessels carry blood away from the heart?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q04",
+        "question": "Aorta: which option correctly identifies the structure or component type?",
+        "options": [
+          "An artery of pulmonary circulation",
+          "A vein of pulmonary circulation",
+          "A systemic artery",
+          "A major systemic vein"
+        ],
+        "answer": 2,
+        "explanation": "Aorta — structure or component type: A systemic artery.",
+        "difficulty": "Easy",
+        "topic": "Aorta · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q05",
+        "question": "Aorta: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Circulates within blood vessels",
+          "Leaves the left ventricle",
+          "Leaves the right ventricle",
+          "Enters the left atrium"
+        ],
+        "answer": 1,
+        "explanation": "Aorta — usual direction, location or content: Leaves the left ventricle.",
+        "difficulty": "Easy",
+        "topic": "Aorta · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q06",
+        "question": "Aorta: which option correctly identifies the principal function?",
+        "options": [
+          "Carries oxygenated blood into systemic circulation",
+          "Returns oxygenated blood from the lungs",
+          "Transports much of the blood's oxygen",
+          "Helps blood clot at injured vessels"
+        ],
+        "answer": 0,
+        "explanation": "Aorta — principal function: Carries oxygenated blood into systemic circulation.",
+        "difficulty": "Easy",
+        "topic": "Aorta · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q07",
+        "question": "Vena cava: which option correctly identifies the structure or component type?",
+        "options": [
+          "An artery of pulmonary circulation",
+          "A vein of pulmonary circulation",
+          "A haemoglobin-containing blood cell",
+          "A major systemic vein"
+        ],
+        "answer": 3,
+        "explanation": "Vena cava — structure or component type: A major systemic vein.",
+        "difficulty": "Easy",
+        "topic": "Vena cava · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q08",
+        "question": "Vena cava: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Circulates within blood vessels",
+          "Circulates in blood plasma",
+          "Enters the right atrium",
+          "Enters the left atrium"
+        ],
+        "answer": 2,
+        "explanation": "Vena cava — usual direction, location or content: Enters the right atrium.",
+        "difficulty": "Easy",
+        "topic": "Vena cava · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q09",
+        "question": "Vena cava: which option correctly identifies the principal function?",
+        "options": [
+          "Conducts water and mineral ions mainly upwards",
+          "Returns deoxygenated blood from the body",
+          "Transports much of the blood's oxygen",
+          "Helps blood clot at injured vessels"
+        ],
+        "answer": 1,
+        "explanation": "Vena cava — principal function: Returns deoxygenated blood from the body.",
+        "difficulty": "Easy",
+        "topic": "Vena cava · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q10",
+        "question": "Pulmonary artery: which option correctly identifies the structure or component type?",
+        "options": [
+          "An artery of pulmonary circulation",
+          "A vein of pulmonary circulation",
+          "A haemoglobin-containing blood cell",
+          "A blood-cell fragment involved in haemostasis"
+        ],
+        "answer": 0,
+        "explanation": "Pulmonary artery — structure or component type: An artery of pulmonary circulation.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary artery · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q11",
+        "question": "Pulmonary artery: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Circulates within blood vessels",
+          "Circulates in blood plasma",
+          "Connects roots with aerial parts",
+          "Leaves the right ventricle"
+        ],
+        "answer": 3,
+        "explanation": "Pulmonary artery — usual direction, location or content: Leaves the right ventricle.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary artery · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q12",
+        "question": "Pulmonary artery: which option correctly identifies the principal function?",
+        "options": [
+          "Conducts water and mineral ions mainly upwards",
+          "Translocates organic nutrients according to source-sink needs",
+          "Carries deoxygenated blood to the lungs",
+          "Helps blood clot at injured vessels"
+        ],
+        "answer": 2,
+        "explanation": "Pulmonary artery — principal function: Carries deoxygenated blood to the lungs.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary artery · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q13",
+        "question": "Pulmonary vein: which option correctly identifies the structure or component type?",
+        "options": [
+          "A plant conducting tissue for water and minerals",
+          "A vein of pulmonary circulation",
+          "A haemoglobin-containing blood cell",
+          "A blood-cell fragment involved in haemostasis"
+        ],
+        "answer": 1,
+        "explanation": "Pulmonary vein — structure or component type: A vein of pulmonary circulation.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary vein · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q14",
+        "question": "Pulmonary vein: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Enters the left atrium",
+          "Circulates in blood plasma",
+          "Connects roots with aerial parts",
+          "Links source tissues with sink tissues"
+        ],
+        "answer": 0,
+        "explanation": "Pulmonary vein — usual direction, location or content: Enters the left atrium.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary vein · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q15",
+        "question": "Pulmonary vein: which option correctly identifies the principal function?",
+        "options": [
+          "Conducts water and mineral ions mainly upwards",
+          "Translocates organic nutrients according to source-sink needs",
+          "Permits gas exchange and water-vapour loss",
+          "Returns oxygenated blood from the lungs"
+        ],
+        "answer": 3,
+        "explanation": "Pulmonary vein — principal function: Returns oxygenated blood from the lungs.",
+        "difficulty": "Easy",
+        "topic": "Pulmonary vein · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q16",
+        "question": "Red blood cell: which option correctly identifies the structure or component type?",
+        "options": [
+          "A plant conducting tissue for water and minerals",
+          "A plant conducting tissue for organic food",
+          "A haemoglobin-containing blood cell",
+          "A blood-cell fragment involved in haemostasis"
+        ],
+        "answer": 2,
+        "explanation": "Red blood cell — structure or component type: A haemoglobin-containing blood cell.",
+        "difficulty": "Easy",
+        "topic": "Red blood cell · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q17",
+        "question": "Red blood cell: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Leaves the left ventricle",
+          "Circulates within blood vessels",
+          "Links source tissues with sink tissues",
+          "Leaf epidermis"
+        ],
+        "answer": 1,
+        "explanation": "Red blood cell — usual direction, location or content: Circulates within blood vessels.",
+        "difficulty": "Easy",
+        "topic": "Red blood cell · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q18",
+        "question": "Red blood cell: which option correctly identifies the principal function?",
+        "options": [
+          "Transports much of the blood's oxygen",
+          "Translocates organic nutrients according to source-sink needs",
+          "Permits gas exchange and water-vapour loss",
+          "Carries oxygenated blood into systemic circulation"
+        ],
+        "answer": 0,
+        "explanation": "Red blood cell — principal function: Transports much of the blood's oxygen.",
+        "difficulty": "Easy",
+        "topic": "Red blood cell · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q19",
+        "question": "Platelet: which option correctly identifies the structure or component type?",
+        "options": [
+          "A plant conducting tissue for water and minerals",
+          "A plant conducting tissue for organic food",
+          "An opening regulated by guard cells",
+          "A blood-cell fragment involved in haemostasis"
+        ],
+        "answer": 3,
+        "explanation": "Platelet — structure or component type: A blood-cell fragment involved in haemostasis.",
+        "difficulty": "Easy",
+        "topic": "Platelet · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q20",
+        "question": "Platelet: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Leaves the left ventricle",
+          "Enters the right atrium",
+          "Circulates in blood plasma",
+          "Leaf epidermis"
+        ],
+        "answer": 2,
+        "explanation": "Platelet — usual direction, location or content: Circulates in blood plasma.",
+        "difficulty": "Easy",
+        "topic": "Platelet · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q21",
+        "question": "Platelet: which option correctly identifies the principal function?",
+        "options": [
+          "Returns deoxygenated blood from the body",
+          "Helps blood clot at injured vessels",
+          "Permits gas exchange and water-vapour loss",
+          "Carries oxygenated blood into systemic circulation"
+        ],
+        "answer": 1,
+        "explanation": "Platelet — principal function: Helps blood clot at injured vessels.",
+        "difficulty": "Easy",
+        "topic": "Platelet · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q22",
+        "question": "Xylem: which option correctly identifies the structure or component type?",
+        "options": [
+          "A plant conducting tissue for water and minerals",
+          "A plant conducting tissue for organic food",
+          "An opening regulated by guard cells",
+          "A systemic artery"
+        ],
+        "answer": 0,
+        "explanation": "Xylem — structure or component type: A plant conducting tissue for water and minerals.",
+        "difficulty": "Easy",
+        "topic": "Xylem · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q23",
+        "question": "Xylem: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Leaf epidermis",
+          "Leaves the left ventricle",
+          "Enters the right atrium",
+          "Connects roots with aerial parts"
+        ],
+        "answer": 3,
+        "explanation": "Xylem — usual direction, location or content: Connects roots with aerial parts.",
+        "difficulty": "Easy",
+        "topic": "Xylem · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q24",
+        "question": "Xylem: which option correctly identifies the principal function?",
+        "options": [
+          "Returns deoxygenated blood from the body",
+          "Carries deoxygenated blood to the lungs",
+          "Conducts water and mineral ions mainly upwards",
+          "Carries oxygenated blood into systemic circulation"
+        ],
+        "answer": 2,
+        "explanation": "Xylem — principal function: Conducts water and mineral ions mainly upwards.",
+        "difficulty": "Easy",
+        "topic": "Xylem · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q25",
+        "question": "Phloem: which option correctly identifies the structure or component type?",
+        "options": [
+          "A major systemic vein",
+          "A plant conducting tissue for organic food",
+          "An opening regulated by guard cells",
+          "A systemic artery"
+        ],
+        "answer": 1,
+        "explanation": "Phloem — structure or component type: A plant conducting tissue for organic food.",
+        "difficulty": "Easy",
+        "topic": "Phloem · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q26",
+        "question": "Phloem: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Links source tissues with sink tissues",
+          "Leaves the left ventricle",
+          "Enters the right atrium",
+          "Leaves the right ventricle"
+        ],
+        "answer": 0,
+        "explanation": "Phloem — usual direction, location or content: Links source tissues with sink tissues.",
+        "difficulty": "Easy",
+        "topic": "Phloem · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q27",
+        "question": "Phloem: which option correctly identifies the principal function?",
+        "options": [
+          "Returns deoxygenated blood from the body",
+          "Carries deoxygenated blood to the lungs",
+          "Returns oxygenated blood from the lungs",
+          "Translocates organic nutrients according to source-sink needs"
+        ],
+        "answer": 3,
+        "explanation": "Phloem — principal function: Translocates organic nutrients according to source-sink needs.",
+        "difficulty": "Easy",
+        "topic": "Phloem · principal function",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q28",
+        "question": "Stomatal pore: which option correctly identifies the structure or component type?",
+        "options": [
+          "A major systemic vein",
+          "An artery of pulmonary circulation",
+          "An opening regulated by guard cells",
+          "A systemic artery"
+        ],
+        "answer": 2,
+        "explanation": "Stomatal pore — structure or component type: An opening regulated by guard cells.",
+        "difficulty": "Easy",
+        "topic": "Stomatal pore · structure or component type",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q29",
+        "question": "Stomatal pore: which option correctly identifies the usual direction, location or content?",
+        "options": [
+          "Enters the left atrium",
+          "Leaf epidermis",
+          "Enters the right atrium",
+          "Leaves the right ventricle"
+        ],
+        "answer": 1,
+        "explanation": "Stomatal pore — usual direction, location or content: Leaf epidermis.",
+        "difficulty": "Easy",
+        "topic": "Stomatal pore · usual direction, location or content",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-E-Q30",
+        "question": "Stomatal pore: which option correctly identifies the principal function?",
+        "options": [
+          "Permits gas exchange and water-vapour loss",
+          "Carries deoxygenated blood to the lungs",
+          "Returns oxygenated blood from the lungs",
+          "Transports much of the blood's oxygen"
+        ],
+        "answer": 0,
+        "explanation": "Stomatal pore — principal function: Permits gas exchange and water-vapour loss.",
+        "difficulty": "Easy",
+        "topic": "Stomatal pore · principal function",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH03-M": {
+    "id": "SA-DPP-27-BIO-CH03-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "M",
+    "title": "Circulation – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-24",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q01",
+        "question": "Why do veins in the limbs have valves?",
+        "options": [
+          "To reduce backward blood flow",
+          "To add oxygen to blood",
+          "To make blood clot continuously",
+          "To digest glucose"
+        ],
+        "answer": 0,
+        "explanation": "Valves assist return of low-pressure blood towards the heart.",
+        "difficulty": "Medium",
+        "topic": "Why do veins in the limbs have valves?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q02",
+        "question": "Which chamber pumps blood into the aorta?",
+        "options": [
+          "Right ventricle",
+          "Right atrium",
+          "Left atrium",
+          "Left ventricle"
+        ],
+        "answer": 3,
+        "explanation": "The left ventricle supplies the systemic circulation.",
+        "difficulty": "Medium",
+        "topic": "Which chamber pumps blood into the aorta?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q03",
+        "question": "What is the main effect of transpiration pull?",
+        "options": [
+          "Stopping evaporation",
+          "Closing every stomatal pore permanently",
+          "Drawing water upward through xylem",
+          "Pushing food only down phloem"
+        ],
+        "answer": 2,
+        "explanation": "Evaporation from leaves creates tension in continuous water columns.",
+        "difficulty": "Medium",
+        "topic": "What is the main effect of transpiration pull?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q04",
+        "question": "Which pair correctly matches Aorta with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "An artery of pulmonary circulation → Leaves the right ventricle",
+          "A systemic artery → Leaves the left ventricle",
+          "A major systemic vein → Leaves the left ventricle",
+          "A systemic artery → Enters the right atrium"
+        ],
+        "answer": 1,
+        "explanation": "Aorta — structure or component type: A systemic artery. Aorta — usual direction, location or content: Leaves the left ventricle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aorta",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q05",
+        "question": "Which pair correctly matches Aorta with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Leaves the left ventricle → Carries oxygenated blood into systemic circulation",
+          "Leaves the right ventricle → Carries oxygenated blood into systemic circulation",
+          "Leaves the left ventricle → Returns deoxygenated blood from the body",
+          "Enters the left atrium → Carries deoxygenated blood to the lungs"
+        ],
+        "answer": 0,
+        "explanation": "Aorta — usual direction, location or content: Leaves the left ventricle. Aorta — principal function: Carries oxygenated blood into systemic circulation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aorta",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q06",
+        "question": "Which pair correctly matches Aorta with its principal function and structure or component type, in that order?",
+        "options": [
+          "Returns oxygenated blood from the lungs → A systemic artery",
+          "Carries oxygenated blood into systemic circulation → A major systemic vein",
+          "Transports much of the blood's oxygen → An artery of pulmonary circulation",
+          "Carries oxygenated blood into systemic circulation → A systemic artery"
+        ],
+        "answer": 3,
+        "explanation": "Aorta — principal function: Carries oxygenated blood into systemic circulation. Aorta — structure or component type: A systemic artery. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aorta",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q07",
+        "question": "Which pair correctly matches Vena cava with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A major systemic vein → Leaves the right ventricle",
+          "A vein of pulmonary circulation → Enters the left atrium",
+          "A major systemic vein → Enters the right atrium",
+          "An artery of pulmonary circulation → Enters the right atrium"
+        ],
+        "answer": 2,
+        "explanation": "Vena cava — structure or component type: A major systemic vein. Vena cava — usual direction, location or content: Enters the right atrium. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vena cava",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q08",
+        "question": "Which pair correctly matches Vena cava with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Circulates within blood vessels → Returns oxygenated blood from the lungs",
+          "Enters the right atrium → Returns deoxygenated blood from the body",
+          "Enters the left atrium → Returns deoxygenated blood from the body",
+          "Enters the right atrium → Carries deoxygenated blood to the lungs"
+        ],
+        "answer": 1,
+        "explanation": "Vena cava — usual direction, location or content: Enters the right atrium. Vena cava — principal function: Returns deoxygenated blood from the body. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vena cava",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q09",
+        "question": "Which pair correctly matches Vena cava with its principal function and structure or component type, in that order?",
+        "options": [
+          "Returns deoxygenated blood from the body → A major systemic vein",
+          "Transports much of the blood's oxygen → A major systemic vein",
+          "Returns deoxygenated blood from the body → An artery of pulmonary circulation",
+          "Helps blood clot at injured vessels → A vein of pulmonary circulation"
+        ],
+        "answer": 0,
+        "explanation": "Vena cava — principal function: Returns deoxygenated blood from the body. Vena cava — structure or component type: A major systemic vein. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Vena cava",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q10",
+        "question": "Which pair correctly matches Pulmonary artery with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A vein of pulmonary circulation → Leaves the right ventricle",
+          "An artery of pulmonary circulation → Enters the left atrium",
+          "A haemoglobin-containing blood cell → Circulates within blood vessels",
+          "An artery of pulmonary circulation → Leaves the right ventricle"
+        ],
+        "answer": 3,
+        "explanation": "Pulmonary artery — structure or component type: An artery of pulmonary circulation. Pulmonary artery — usual direction, location or content: Leaves the right ventricle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary artery",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q11",
+        "question": "Which pair correctly matches Pulmonary artery with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Leaves the right ventricle → Returns oxygenated blood from the lungs",
+          "Circulates in blood plasma → Transports much of the blood's oxygen",
+          "Leaves the right ventricle → Carries deoxygenated blood to the lungs",
+          "Circulates within blood vessels → Carries deoxygenated blood to the lungs"
+        ],
+        "answer": 2,
+        "explanation": "Pulmonary artery — usual direction, location or content: Leaves the right ventricle. Pulmonary artery — principal function: Carries deoxygenated blood to the lungs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary artery",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q12",
+        "question": "Which pair correctly matches Pulmonary artery with its principal function and structure or component type, in that order?",
+        "options": [
+          "Conducts water and mineral ions mainly upwards → A haemoglobin-containing blood cell",
+          "Carries deoxygenated blood to the lungs → An artery of pulmonary circulation",
+          "Helps blood clot at injured vessels → An artery of pulmonary circulation",
+          "Carries deoxygenated blood to the lungs → A vein of pulmonary circulation"
+        ],
+        "answer": 1,
+        "explanation": "Pulmonary artery — principal function: Carries deoxygenated blood to the lungs. Pulmonary artery — structure or component type: An artery of pulmonary circulation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary artery",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q13",
+        "question": "Which pair correctly matches Pulmonary vein with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A vein of pulmonary circulation → Enters the left atrium",
+          "A haemoglobin-containing blood cell → Enters the left atrium",
+          "A vein of pulmonary circulation → Circulates within blood vessels",
+          "A blood-cell fragment involved in haemostasis → Circulates in blood plasma"
+        ],
+        "answer": 0,
+        "explanation": "Pulmonary vein — structure or component type: A vein of pulmonary circulation. Pulmonary vein — usual direction, location or content: Enters the left atrium. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary vein",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q14",
+        "question": "Which pair correctly matches Pulmonary vein with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Circulates in blood plasma → Returns oxygenated blood from the lungs",
+          "Enters the left atrium → Transports much of the blood's oxygen",
+          "Connects roots with aerial parts → Helps blood clot at injured vessels",
+          "Enters the left atrium → Returns oxygenated blood from the lungs"
+        ],
+        "answer": 3,
+        "explanation": "Pulmonary vein — usual direction, location or content: Enters the left atrium. Pulmonary vein — principal function: Returns oxygenated blood from the lungs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary vein",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q15",
+        "question": "Which pair correctly matches Pulmonary vein with its principal function and structure or component type, in that order?",
+        "options": [
+          "Returns oxygenated blood from the lungs → A haemoglobin-containing blood cell",
+          "Translocates organic nutrients according to source-sink needs → A blood-cell fragment involved in haemostasis",
+          "Returns oxygenated blood from the lungs → A vein of pulmonary circulation",
+          "Conducts water and mineral ions mainly upwards → A vein of pulmonary circulation"
+        ],
+        "answer": 2,
+        "explanation": "Pulmonary vein — principal function: Returns oxygenated blood from the lungs. Pulmonary vein — structure or component type: A vein of pulmonary circulation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pulmonary vein",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q16",
+        "question": "Which pair correctly matches Red blood cell with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A plant conducting tissue for water and minerals → Links source tissues with sink tissues",
+          "A haemoglobin-containing blood cell → Circulates within blood vessels",
+          "A blood-cell fragment involved in haemostasis → Circulates within blood vessels",
+          "A haemoglobin-containing blood cell → Connects roots with aerial parts"
+        ],
+        "answer": 1,
+        "explanation": "Red blood cell — structure or component type: A haemoglobin-containing blood cell. Red blood cell — usual direction, location or content: Circulates within blood vessels. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Red blood cell",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q17",
+        "question": "Which pair correctly matches Red blood cell with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Circulates within blood vessels → Transports much of the blood's oxygen",
+          "Links source tissues with sink tissues → Transports much of the blood's oxygen",
+          "Circulates within blood vessels → Helps blood clot at injured vessels",
+          "Leaf epidermis → Conducts water and mineral ions mainly upwards"
+        ],
+        "answer": 0,
+        "explanation": "Red blood cell — usual direction, location or content: Circulates within blood vessels. Red blood cell — principal function: Transports much of the blood's oxygen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Red blood cell",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q18",
+        "question": "Which pair correctly matches Red blood cell with its principal function and structure or component type, in that order?",
+        "options": [
+          "Translocates organic nutrients according to source-sink needs → A haemoglobin-containing blood cell",
+          "Transports much of the blood's oxygen → A blood-cell fragment involved in haemostasis",
+          "Permits gas exchange and water-vapour loss → A plant conducting tissue for water and minerals",
+          "Transports much of the blood's oxygen → A haemoglobin-containing blood cell"
+        ],
+        "answer": 3,
+        "explanation": "Red blood cell — principal function: Transports much of the blood's oxygen. Red blood cell — structure or component type: A haemoglobin-containing blood cell. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Red blood cell",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q19",
+        "question": "Which pair correctly matches Platelet with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A blood-cell fragment involved in haemostasis → Links source tissues with sink tissues",
+          "A plant conducting tissue for organic food → Leaf epidermis",
+          "A blood-cell fragment involved in haemostasis → Circulates in blood plasma",
+          "A plant conducting tissue for water and minerals → Circulates in blood plasma"
+        ],
+        "answer": 2,
+        "explanation": "Platelet — structure or component type: A blood-cell fragment involved in haemostasis. Platelet — usual direction, location or content: Circulates in blood plasma. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Platelet",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q20",
+        "question": "Which pair correctly matches Platelet with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Leaves the left ventricle → Translocates organic nutrients according to source-sink needs",
+          "Circulates in blood plasma → Helps blood clot at injured vessels",
+          "Leaf epidermis → Helps blood clot at injured vessels",
+          "Circulates in blood plasma → Conducts water and mineral ions mainly upwards"
+        ],
+        "answer": 1,
+        "explanation": "Platelet — usual direction, location or content: Circulates in blood plasma. Platelet — principal function: Helps blood clot at injured vessels. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Platelet",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q21",
+        "question": "Which pair correctly matches Platelet with its principal function and structure or component type, in that order?",
+        "options": [
+          "Helps blood clot at injured vessels → A blood-cell fragment involved in haemostasis",
+          "Permits gas exchange and water-vapour loss → A blood-cell fragment involved in haemostasis",
+          "Helps blood clot at injured vessels → A plant conducting tissue for water and minerals",
+          "Carries oxygenated blood into systemic circulation → A plant conducting tissue for organic food"
+        ],
+        "answer": 0,
+        "explanation": "Platelet — principal function: Helps blood clot at injured vessels. Platelet — structure or component type: A blood-cell fragment involved in haemostasis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Platelet",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q22",
+        "question": "Which pair correctly matches Xylem with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A plant conducting tissue for organic food → Connects roots with aerial parts",
+          "A plant conducting tissue for water and minerals → Links source tissues with sink tissues",
+          "An opening regulated by guard cells → Leaf epidermis",
+          "A plant conducting tissue for water and minerals → Connects roots with aerial parts"
+        ],
+        "answer": 3,
+        "explanation": "Xylem — structure or component type: A plant conducting tissue for water and minerals. Xylem — usual direction, location or content: Connects roots with aerial parts. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Xylem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q23",
+        "question": "Which pair correctly matches Xylem with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Connects roots with aerial parts → Translocates organic nutrients according to source-sink needs",
+          "Leaves the left ventricle → Permits gas exchange and water-vapour loss",
+          "Connects roots with aerial parts → Conducts water and mineral ions mainly upwards",
+          "Leaf epidermis → Conducts water and mineral ions mainly upwards"
+        ],
+        "answer": 2,
+        "explanation": "Xylem — usual direction, location or content: Connects roots with aerial parts. Xylem — principal function: Conducts water and mineral ions mainly upwards. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Xylem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q24",
+        "question": "Which pair correctly matches Xylem with its principal function and structure or component type, in that order?",
+        "options": [
+          "Returns deoxygenated blood from the body → An opening regulated by guard cells",
+          "Conducts water and mineral ions mainly upwards → A plant conducting tissue for water and minerals",
+          "Carries oxygenated blood into systemic circulation → A plant conducting tissue for water and minerals",
+          "Conducts water and mineral ions mainly upwards → A plant conducting tissue for organic food"
+        ],
+        "answer": 1,
+        "explanation": "Xylem — principal function: Conducts water and mineral ions mainly upwards. Xylem — structure or component type: A plant conducting tissue for water and minerals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Xylem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q25",
+        "question": "Which pair correctly matches Phloem with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A plant conducting tissue for organic food → Links source tissues with sink tissues",
+          "An opening regulated by guard cells → Links source tissues with sink tissues",
+          "A plant conducting tissue for organic food → Leaf epidermis",
+          "A systemic artery → Leaves the left ventricle"
+        ],
+        "answer": 0,
+        "explanation": "Phloem — structure or component type: A plant conducting tissue for organic food. Phloem — usual direction, location or content: Links source tissues with sink tissues. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Phloem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q26",
+        "question": "Which pair correctly matches Phloem with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Leaves the left ventricle → Translocates organic nutrients according to source-sink needs",
+          "Links source tissues with sink tissues → Permits gas exchange and water-vapour loss",
+          "Enters the right atrium → Carries oxygenated blood into systemic circulation",
+          "Links source tissues with sink tissues → Translocates organic nutrients according to source-sink needs"
+        ],
+        "answer": 3,
+        "explanation": "Phloem — usual direction, location or content: Links source tissues with sink tissues. Phloem — principal function: Translocates organic nutrients according to source-sink needs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Phloem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q27",
+        "question": "Which pair correctly matches Phloem with its principal function and structure or component type, in that order?",
+        "options": [
+          "Translocates organic nutrients according to source-sink needs → An opening regulated by guard cells",
+          "Carries deoxygenated blood to the lungs → A systemic artery",
+          "Translocates organic nutrients according to source-sink needs → A plant conducting tissue for organic food",
+          "Returns deoxygenated blood from the body → A plant conducting tissue for organic food"
+        ],
+        "answer": 2,
+        "explanation": "Phloem — principal function: Translocates organic nutrients according to source-sink needs. Phloem — structure or component type: A plant conducting tissue for organic food. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Phloem",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q28",
+        "question": "Which pair correctly matches Stomatal pore with its structure or component type and usual direction, location or content, in that order?",
+        "options": [
+          "A major systemic vein → Enters the right atrium",
+          "An opening regulated by guard cells → Leaf epidermis",
+          "A systemic artery → Leaf epidermis",
+          "An opening regulated by guard cells → Leaves the left ventricle"
+        ],
+        "answer": 1,
+        "explanation": "Stomatal pore — structure or component type: An opening regulated by guard cells. Stomatal pore — usual direction, location or content: Leaf epidermis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomatal pore",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q29",
+        "question": "Which pair correctly matches Stomatal pore with its usual direction, location or content and principal function, in that order?",
+        "options": [
+          "Leaf epidermis → Permits gas exchange and water-vapour loss",
+          "Enters the right atrium → Permits gas exchange and water-vapour loss",
+          "Leaf epidermis → Carries oxygenated blood into systemic circulation",
+          "Leaves the right ventricle → Returns deoxygenated blood from the body"
+        ],
+        "answer": 0,
+        "explanation": "Stomatal pore — usual direction, location or content: Leaf epidermis. Stomatal pore — principal function: Permits gas exchange and water-vapour loss. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomatal pore",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-M-Q30",
+        "question": "Which pair correctly matches Stomatal pore with its principal function and structure or component type, in that order?",
+        "options": [
+          "Carries deoxygenated blood to the lungs → An opening regulated by guard cells",
+          "Permits gas exchange and water-vapour loss → A systemic artery",
+          "Returns oxygenated blood from the lungs → A major systemic vein",
+          "Permits gas exchange and water-vapour loss → An opening regulated by guard cells"
+        ],
+        "answer": 3,
+        "explanation": "Stomatal pore — principal function: Permits gas exchange and water-vapour loss. Stomatal pore — structure or component type: An opening regulated by guard cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomatal pore",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH03-H": {
+    "id": "SA-DPP-27-BIO-CH03-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch3",
+    "chapterNumber": 3,
+    "chapter": "Circulation",
+    "level": "H",
+    "title": "Circulation – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-03",
+    "recommendedDate": "2026-10-25",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 51,
+      "to": 77
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q01",
+        "question": "Why is the pulmonary artery an exception to the common oxygenation rule for arteries?",
+        "options": [
+          "It carries blood towards the heart",
+          "It has no walls",
+          "It carries only lymph",
+          "It carries deoxygenated blood away from the heart"
+        ],
+        "answer": 3,
+        "explanation": "Its classification depends on flow direction; it goes from right ventricle to lungs.",
+        "difficulty": "Hard",
+        "topic": "Why is the pulmonary artery an exception to the common oxygenation rule for arteries?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q02",
+        "question": "What is the benefit of separating oxygenated and deoxygenated blood in humans?",
+        "options": [
+          "It makes all blood blue",
+          "It prevents nutrient transport",
+          "Efficient oxygen supply supports high metabolic demand",
+          "It eliminates the need for lungs"
+        ],
+        "answer": 2,
+        "explanation": "Double circulation limits mixing and supports efficient tissue oxygenation.",
+        "difficulty": "Hard",
+        "topic": "What is the benefit of separating oxygenated and deoxygenated blood in humans?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q03",
+        "question": "If a ring of bark including phloem is removed while xylem remains intact, what initially accumulates above the ring?",
+        "options": [
+          "Urea",
+          "Sugars",
+          "Only oxygen gas",
+          "Only soil minerals"
+        ],
+        "answer": 1,
+        "explanation": "Interrupted phloem blocks transport of photosynthates past the ring.",
+        "difficulty": "Hard",
+        "topic": "If a ring of bark including phloem is removed while xylem remains intact, what initially accumulates above the ring?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aorta — structure or component type: A major systemic vein\nII. Red blood cell — usual direction, location or content: Circulates within blood vessels\nIII. Phloem — principal function: Carries deoxygenated blood to the lungs",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Aorta — structure or component type: A systemic artery; Red blood cell — usual direction, location or content: Circulates within blood vessels; Phloem — principal function: Translocates organic nutrients according to source-sink needs.",
+        "difficulty": "Hard",
+        "topic": "Aorta · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aorta — usual direction, location or content: Leaves the left ventricle\nII. Red blood cell — principal function: Transports much of the blood's oxygen\nIII. Phloem — structure or component type: A vein of pulmonary circulation",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Aorta — usual direction, location or content: Leaves the left ventricle; Red blood cell — principal function: Transports much of the blood's oxygen; Phloem — structure or component type: A plant conducting tissue for organic food.",
+        "difficulty": "Hard",
+        "topic": "Aorta · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aorta — principal function: Returns oxygenated blood from the lungs\nII. Red blood cell — structure or component type: A vein of pulmonary circulation\nIII. Phloem — usual direction, location or content: Links source tissues with sink tissues",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Aorta — principal function: Carries oxygenated blood into systemic circulation; Red blood cell — structure or component type: A haemoglobin-containing blood cell; Phloem — usual direction, location or content: Links source tissues with sink tissues.",
+        "difficulty": "Hard",
+        "topic": "Aorta · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vena cava — structure or component type: A major systemic vein\nII. Platelet — usual direction, location or content: Connects roots with aerial parts\nIII. Stomatal pore — principal function: Permits gas exchange and water-vapour loss",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Vena cava — structure or component type: A major systemic vein; Platelet — usual direction, location or content: Circulates in blood plasma; Stomatal pore — principal function: Permits gas exchange and water-vapour loss.",
+        "difficulty": "Hard",
+        "topic": "Vena cava · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vena cava — usual direction, location or content: Circulates in blood plasma\nII. Platelet — principal function: Helps blood clot at injured vessels\nIII. Stomatal pore — structure or component type: An opening regulated by guard cells",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Vena cava — usual direction, location or content: Enters the right atrium; Platelet — principal function: Helps blood clot at injured vessels; Stomatal pore — structure or component type: An opening regulated by guard cells.",
+        "difficulty": "Hard",
+        "topic": "Vena cava · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Vena cava — principal function: Returns deoxygenated blood from the body\nII. Platelet — structure or component type: A blood-cell fragment involved in haemostasis\nIII. Stomatal pore — usual direction, location or content: Leaf epidermis",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Vena cava — principal function: Returns deoxygenated blood from the body; Platelet — structure or component type: A blood-cell fragment involved in haemostasis; Stomatal pore — usual direction, location or content: Leaf epidermis.",
+        "difficulty": "Hard",
+        "topic": "Vena cava · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary artery — structure or component type: A plant conducting tissue for organic food\nII. Xylem — usual direction, location or content: Leaf epidermis\nIII. Aorta — principal function: Returns deoxygenated blood from the body",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Pulmonary artery — structure or component type: An artery of pulmonary circulation; Xylem — usual direction, location or content: Connects roots with aerial parts; Aorta — principal function: Carries oxygenated blood into systemic circulation.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary artery · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary artery — usual direction, location or content: Leaves the right ventricle\nII. Xylem — principal function: Carries oxygenated blood into systemic circulation\nIII. Aorta — structure or component type: An artery of pulmonary circulation",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Pulmonary artery — usual direction, location or content: Leaves the right ventricle; Xylem — principal function: Conducts water and mineral ions mainly upwards; Aorta — structure or component type: A systemic artery.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary artery · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary artery — principal function: Carries oxygenated blood into systemic circulation\nII. Xylem — structure or component type: A plant conducting tissue for water and minerals\nIII. Aorta — usual direction, location or content: Enters the left atrium",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Pulmonary artery — principal function: Carries deoxygenated blood to the lungs; Xylem — structure or component type: A plant conducting tissue for water and minerals; Aorta — usual direction, location or content: Leaves the left ventricle.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary artery · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary vein — structure or component type: A vein of pulmonary circulation\nII. Phloem — usual direction, location or content: Links source tissues with sink tissues\nIII. Vena cava — principal function: Transports much of the blood's oxygen",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Pulmonary vein — structure or component type: A vein of pulmonary circulation; Phloem — usual direction, location or content: Links source tissues with sink tissues; Vena cava — principal function: Returns deoxygenated blood from the body.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary vein · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary vein — usual direction, location or content: Leaves the right ventricle\nII. Phloem — principal function: Returns oxygenated blood from the lungs\nIII. Vena cava — structure or component type: A major systemic vein",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Pulmonary vein — usual direction, location or content: Enters the left atrium; Phloem — principal function: Translocates organic nutrients according to source-sink needs; Vena cava — structure or component type: A major systemic vein.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary vein · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pulmonary vein — principal function: Returns oxygenated blood from the lungs\nII. Phloem — structure or component type: A haemoglobin-containing blood cell\nIII. Vena cava — usual direction, location or content: Enters the right atrium",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Pulmonary vein — principal function: Returns oxygenated blood from the lungs; Phloem — structure or component type: A plant conducting tissue for organic food; Vena cava — usual direction, location or content: Enters the right atrium.",
+        "difficulty": "Hard",
+        "topic": "Pulmonary vein · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Red blood cell — structure or component type: A blood-cell fragment involved in haemostasis\nII. Stomatal pore — usual direction, location or content: Leaf epidermis\nIII. Pulmonary artery — principal function: Carries deoxygenated blood to the lungs",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Red blood cell — structure or component type: A haemoglobin-containing blood cell; Stomatal pore — usual direction, location or content: Leaf epidermis; Pulmonary artery — principal function: Carries deoxygenated blood to the lungs.",
+        "difficulty": "Hard",
+        "topic": "Red blood cell · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Red blood cell — usual direction, location or content: Circulates within blood vessels\nII. Stomatal pore — principal function: Permits gas exchange and water-vapour loss\nIII. Pulmonary artery — structure or component type: An artery of pulmonary circulation",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Red blood cell — usual direction, location or content: Circulates within blood vessels; Stomatal pore — principal function: Permits gas exchange and water-vapour loss; Pulmonary artery — structure or component type: An artery of pulmonary circulation.",
+        "difficulty": "Hard",
+        "topic": "Red blood cell · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Red blood cell — principal function: Translocates organic nutrients according to source-sink needs\nII. Stomatal pore — structure or component type: A plant conducting tissue for organic food\nIII. Pulmonary artery — usual direction, location or content: Leaves the left ventricle",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Red blood cell — principal function: Transports much of the blood's oxygen; Stomatal pore — structure or component type: An opening regulated by guard cells; Pulmonary artery — usual direction, location or content: Leaves the right ventricle.",
+        "difficulty": "Hard",
+        "topic": "Red blood cell · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Platelet — structure or component type: A blood-cell fragment involved in haemostasis\nII. Aorta — usual direction, location or content: Enters the right atrium\nIII. Pulmonary vein — principal function: Returns deoxygenated blood from the body",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Platelet — structure or component type: A blood-cell fragment involved in haemostasis; Aorta — usual direction, location or content: Leaves the left ventricle; Pulmonary vein — principal function: Returns oxygenated blood from the lungs.",
+        "difficulty": "Hard",
+        "topic": "Platelet · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Platelet — usual direction, location or content: Leaves the right ventricle\nII. Aorta — principal function: Carries oxygenated blood into systemic circulation\nIII. Pulmonary vein — structure or component type: An artery of pulmonary circulation",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Platelet — usual direction, location or content: Circulates in blood plasma; Aorta — principal function: Carries oxygenated blood into systemic circulation; Pulmonary vein — structure or component type: A vein of pulmonary circulation.",
+        "difficulty": "Hard",
+        "topic": "Platelet · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Platelet — principal function: Helps blood clot at injured vessels\nII. Aorta — structure or component type: A systemic artery\nIII. Pulmonary vein — usual direction, location or content: Circulates within blood vessels",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Platelet — principal function: Helps blood clot at injured vessels; Aorta — structure or component type: A systemic artery; Pulmonary vein — usual direction, location or content: Enters the left atrium.",
+        "difficulty": "Hard",
+        "topic": "Platelet · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Xylem — structure or component type: An artery of pulmonary circulation\nII. Vena cava — usual direction, location or content: Circulates within blood vessels\nIII. Red blood cell — principal function: Transports much of the blood's oxygen",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Xylem — structure or component type: A plant conducting tissue for water and minerals; Vena cava — usual direction, location or content: Enters the right atrium; Red blood cell — principal function: Transports much of the blood's oxygen.",
+        "difficulty": "Hard",
+        "topic": "Xylem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Xylem — usual direction, location or content: Connects roots with aerial parts\nII. Vena cava — principal function: Helps blood clot at injured vessels\nIII. Red blood cell — structure or component type: A haemoglobin-containing blood cell",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Xylem — usual direction, location or content: Connects roots with aerial parts; Vena cava — principal function: Returns deoxygenated blood from the body; Red blood cell — structure or component type: A haemoglobin-containing blood cell.",
+        "difficulty": "Hard",
+        "topic": "Xylem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Xylem — principal function: Transports much of the blood's oxygen\nII. Vena cava — structure or component type: A major systemic vein\nIII. Red blood cell — usual direction, location or content: Circulates within blood vessels",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Xylem — principal function: Conducts water and mineral ions mainly upwards; Vena cava — structure or component type: A major systemic vein; Red blood cell — usual direction, location or content: Circulates within blood vessels.",
+        "difficulty": "Hard",
+        "topic": "Xylem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Phloem — structure or component type: A plant conducting tissue for organic food\nII. Pulmonary artery — usual direction, location or content: Leaves the right ventricle\nIII. Platelet — principal function: Helps blood clot at injured vessels",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Phloem — structure or component type: A plant conducting tissue for organic food; Pulmonary artery — usual direction, location or content: Leaves the right ventricle; Platelet — principal function: Helps blood clot at injured vessels.",
+        "difficulty": "Hard",
+        "topic": "Phloem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Phloem — usual direction, location or content: Connects roots with aerial parts\nII. Pulmonary artery — principal function: Permits gas exchange and water-vapour loss\nIII. Platelet — structure or component type: A systemic artery",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Phloem — usual direction, location or content: Links source tissues with sink tissues; Pulmonary artery — principal function: Carries deoxygenated blood to the lungs; Platelet — structure or component type: A blood-cell fragment involved in haemostasis.",
+        "difficulty": "Hard",
+        "topic": "Phloem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Phloem — principal function: Translocates organic nutrients according to source-sink needs\nII. Pulmonary artery — structure or component type: A systemic artery\nIII. Platelet — usual direction, location or content: Connects roots with aerial parts",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Phloem — principal function: Translocates organic nutrients according to source-sink needs; Pulmonary artery — structure or component type: An artery of pulmonary circulation; Platelet — usual direction, location or content: Circulates in blood plasma.",
+        "difficulty": "Hard",
+        "topic": "Phloem · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomatal pore — structure or component type: A systemic artery\nII. Pulmonary vein — usual direction, location or content: Enters the left atrium\nIII. Xylem — principal function: Carries deoxygenated blood to the lungs",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Stomatal pore — structure or component type: An opening regulated by guard cells; Pulmonary vein — usual direction, location or content: Enters the left atrium; Xylem — principal function: Conducts water and mineral ions mainly upwards.",
+        "difficulty": "Hard",
+        "topic": "Stomatal pore · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomatal pore — usual direction, location or content: Leaf epidermis\nII. Pulmonary vein — principal function: Returns oxygenated blood from the lungs\nIII. Xylem — structure or component type: A vein of pulmonary circulation",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Stomatal pore — usual direction, location or content: Leaf epidermis; Pulmonary vein — principal function: Returns oxygenated blood from the lungs; Xylem — structure or component type: A plant conducting tissue for water and minerals.",
+        "difficulty": "Hard",
+        "topic": "Stomatal pore · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH03-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomatal pore — principal function: Carries deoxygenated blood to the lungs\nII. Pulmonary vein — structure or component type: A haemoglobin-containing blood cell\nIII. Xylem — usual direction, location or content: Connects roots with aerial parts",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Stomatal pore — principal function: Permits gas exchange and water-vapour loss; Pulmonary vein — structure or component type: A vein of pulmonary circulation; Xylem — usual direction, location or content: Connects roots with aerial parts.",
+        "difficulty": "Hard",
+        "topic": "Stomatal pore · comparing chapter concepts",
+        "sourceChapter": 3
+      }
+    ]
+  }
+}

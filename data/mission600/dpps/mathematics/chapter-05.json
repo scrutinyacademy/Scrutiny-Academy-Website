@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH05-E": {
+    "id": "SA-DPP-27-MAT-CH05-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "E",
+    "title": "Quadratic Equations – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q01",
+        "question": "Which equation is quadratic?",
+        "options": [
+          "2x+1=0",
+          "x³=1",
+          "1/x=2",
+          "x²−3x+2=0"
+        ],
+        "answer": 3,
+        "explanation": "A quadratic polynomial equation has degree 2.",
+        "difficulty": "Easy",
+        "topic": "Which equation is quadratic?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q02",
+        "question": "What is the discriminant of ax²+bx+c=0?",
+        "options": [
+          "a²−4bc",
+          "2a+b",
+          "b²−4ac",
+          "b²+4ac"
+        ],
+        "answer": 2,
+        "explanation": "The discriminant is the expression under the square root in the quadratic formula.",
+        "difficulty": "Easy",
+        "topic": "What is the discriminant of ax²+bx+c=0?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q03",
+        "question": "If a quadratic has discriminant zero, its real roots are what?",
+        "options": [
+          "Always zero",
+          "Equal",
+          "Distinct",
+          "Non-real"
+        ],
+        "answer": 1,
+        "explanation": "The square-root term vanishes.",
+        "difficulty": "Easy",
+        "topic": "If a quadratic has discriminant zero, its real roots are what?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q04",
+        "question": "Find the larger root of x²−5x+6=0.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The factors are (x−2)(x−3).",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q05",
+        "question": "Find the smaller root of x²−7x+10=0.",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The roots are 2 and 5.",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q06",
+        "question": "Find the discriminant of x²−4x+4=0.",
+        "options": [
+          "-1",
+          "2",
+          "0",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "D=(4)²−4×4=0.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q07",
+        "question": "For x²−4x+k=0 to have equal roots, find k.",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Set 16−4k=0.",
+        "difficulty": "Easy",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q08",
+        "question": "A rectangle has consecutive integer sides and area 6. Find its shorter side.",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "x(x+1)=6 has positive solution x=2.",
+        "difficulty": "Easy",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q09",
+        "question": "Find the positive root of x²=36.",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "The roots are ±6; the positive root is 6.",
+        "difficulty": "Easy",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q10",
+        "question": "For x²+2x−8=0, find the positive root.",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Factor as (x−2)(x+4)=0.",
+        "difficulty": "Easy",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q11",
+        "question": "Find the sum of the roots of 2x²−6x+4=0.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "The sum is −b/a=3.",
+        "difficulty": "Easy",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q12",
+        "question": "Find the discriminant of x²−4x+0=0.",
+        "options": [
+          "16",
+          "17",
+          "15",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "D=16−4×0=16.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q13",
+        "question": "Find the larger root of x²−7x+12=0.",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "The factors are (x−3)(x−4).",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q14",
+        "question": "Find the smaller root of x²−9x+18=0.",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "The roots are 3 and 6.",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q15",
+        "question": "Find the discriminant of x²−6x+9=0.",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "answer": 1,
+        "explanation": "D=(6)²−4×9=0.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q16",
+        "question": "For x²−6x+k=0 to have equal roots, find k.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Set 36−4k=0.",
+        "difficulty": "Easy",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q17",
+        "question": "A rectangle has consecutive integer sides and area 12. Find its shorter side.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "x(x+1)=12 has positive solution x=3.",
+        "difficulty": "Easy",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q18",
+        "question": "Find the positive root of x²=81.",
+        "options": [
+          "8",
+          "11",
+          "9",
+          "10"
+        ],
+        "answer": 2,
+        "explanation": "The roots are ±9; the positive root is 9.",
+        "difficulty": "Easy",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q19",
+        "question": "For x²+3x−18=0, find the positive root.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "Factor as (x−3)(x+6)=0.",
+        "difficulty": "Easy",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q20",
+        "question": "Find the sum of the roots of 3x²−9x+6=0.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The sum is −b/a=3.",
+        "difficulty": "Easy",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q21",
+        "question": "Find the discriminant of x²−6x+5=0.",
+        "options": [
+          "17",
+          "15",
+          "18",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "D=36−4×5=16.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q22",
+        "question": "Find the larger root of x²−9x+20=0.",
+        "options": [
+          "4",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "The factors are (x−4)(x−5).",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q23",
+        "question": "Find the smaller root of x²−11x+28=0.",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The roots are 4 and 7.",
+        "difficulty": "Easy",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q24",
+        "question": "Find the discriminant of x²−8x+16=0.",
+        "options": [
+          "0",
+          "1",
+          "-1",
+          "2"
+        ],
+        "answer": 0,
+        "explanation": "D=(8)²−4×16=0.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q25",
+        "question": "For x²−8x+k=0 to have equal roots, find k.",
+        "options": [
+          "17",
+          "15",
+          "18",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "Set 64−4k=0.",
+        "difficulty": "Easy",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q26",
+        "question": "A rectangle has consecutive integer sides and area 20. Find its shorter side.",
+        "options": [
+          "3",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": 2,
+        "explanation": "x(x+1)=20 has positive solution x=4.",
+        "difficulty": "Easy",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q27",
+        "question": "Find the positive root of x²=144.",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "The roots are ±12; the positive root is 12.",
+        "difficulty": "Easy",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q28",
+        "question": "For x²+4x−32=0, find the positive root.",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Factor as (x−4)(x+8)=0.",
+        "difficulty": "Easy",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q29",
+        "question": "Find the sum of the roots of 4x²−12x+8=0.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "The sum is −b/a=3.",
+        "difficulty": "Easy",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-E-Q30",
+        "question": "Find the discriminant of x²−8x+12=0.",
+        "options": [
+          "15",
+          "18",
+          "16",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "D=64−4×12=16.",
+        "difficulty": "Easy",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH05-M": {
+    "id": "SA-DPP-27-MAT-CH05-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "M",
+    "title": "Quadratic Equations – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q01",
+        "question": "Solve x²−5x+6=0.",
+        "options": [
+          "1 and 6",
+          "−1 and −6",
+          "2 and 3",
+          "−2 and −3"
+        ],
+        "answer": 2,
+        "explanation": "Factor as (x−2)(x−3)=0.",
+        "difficulty": "Medium",
+        "topic": "Solve x²−5x+6=0.",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q02",
+        "question": "How many real roots does x²+4x+5=0 have?",
+        "options": [
+          "Infinitely many",
+          "None",
+          "One repeated root",
+          "Two distinct roots"
+        ],
+        "answer": 1,
+        "explanation": "The discriminant is 16−20=−4.",
+        "difficulty": "Medium",
+        "topic": "How many real roots does x²+4x+5=0 have?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q03",
+        "question": "A rectangle has sides x and x+3 and area 40. Find its positive shorter side.",
+        "options": [
+          "5",
+          "8",
+          "4",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "x²+3x−40=(x+8)(x−5)=0; reject the negative length.",
+        "difficulty": "Medium",
+        "topic": "A rectangle has sides x and x+3 and area 40. Find its positive shorter side.",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the larger root of x²−11x+30=0.\nII. A rectangle has consecutive integer sides and area 30. Find its shorter side.",
+        "options": [
+          "7 ; 5",
+          "6 ; 4",
+          "7 ; 6",
+          "6 ; 5"
+        ],
+        "answer": 3,
+        "explanation": "I. The factors are (x−5)(x−6). Answer: 6. II. x(x+1)=30 has positive solution x=5. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−13x+40=0.\nII. Find the positive root of x²=225.",
+        "options": [
+          "5 ; 17",
+          "4 ; 14",
+          "5 ; 15",
+          "4 ; 15"
+        ],
+        "answer": 2,
+        "explanation": "I. The roots are 5 and 8. Answer: 5. II. The roots are ±15; the positive root is 15. Answer: 15.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−10x+25=0.\nII. For x²+5x−50=0, find the positive root.",
+        "options": [
+          "2 ; 7",
+          "0 ; 5",
+          "2 ; 5",
+          "0 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. D=(10)²−4×25=0. Answer: 0. II. Factor as (x−5)(x+10)=0. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²−10x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 5x²−15x+10=0.",
+        "options": [
+          "25 ; 3",
+          "26 ; 3",
+          "25 ; 2",
+          "26 ; 4"
+        ],
+        "answer": 0,
+        "explanation": "I. Set 100−4k=0. Answer: 25. II. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 30. Find its shorter side.\nII. Find the discriminant of x²−10x+21=0.",
+        "options": [
+          "4 ; 16",
+          "5 ; 18",
+          "4 ; 15",
+          "5 ; 16"
+        ],
+        "answer": 3,
+        "explanation": "I. x(x+1)=30 has positive solution x=5. Answer: 5. II. D=100−4×21=16. Answer: 16.",
+        "difficulty": "Medium",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the positive root of x²=225.\nII. Find the larger root of x²−13x+42=0.",
+        "options": [
+          "15 ; 8",
+          "17 ; 9",
+          "15 ; 7",
+          "17 ; 7"
+        ],
+        "answer": 2,
+        "explanation": "I. The roots are ±15; the positive root is 15. Answer: 15. II. The factors are (x−6)(x−7). Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²+5x−50=0, find the positive root.\nII. Find the smaller root of x²−15x+54=0.",
+        "options": [
+          "6 ; 7",
+          "5 ; 6",
+          "6 ; 6",
+          "5 ; 5"
+        ],
+        "answer": 1,
+        "explanation": "I. Factor as (x−5)(x+10)=0. Answer: 5. II. The roots are 6 and 9. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 5x²−15x+10=0.\nII. Find the discriminant of x²−12x+36=0.",
+        "options": [
+          "3 ; 0",
+          "2 ; 0",
+          "3 ; 2",
+          "2 ; -1"
+        ],
+        "answer": 0,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(12)²−4×36=0. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−10x+21=0.\nII. For x²−12x+k=0 to have equal roots, find k.",
+        "options": [
+          "18 ; 36",
+          "16 ; 37",
+          "18 ; 38",
+          "16 ; 36"
+        ],
+        "answer": 3,
+        "explanation": "I. D=100−4×21=16. Answer: 16. II. Set 144−4k=0. Answer: 36.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the larger root of x²−13x+42=0.\nII. A rectangle has consecutive integer sides and area 42. Find its shorter side.",
+        "options": [
+          "7 ; 5",
+          "8 ; 7",
+          "7 ; 6",
+          "8 ; 6"
+        ],
+        "answer": 2,
+        "explanation": "I. The factors are (x−6)(x−7). Answer: 7. II. x(x+1)=42 has positive solution x=6. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−15x+54=0.\nII. Find the positive root of x²=324.",
+        "options": [
+          "5 ; 17",
+          "6 ; 18",
+          "5 ; 18",
+          "6 ; 20"
+        ],
+        "answer": 1,
+        "explanation": "I. The roots are 6 and 9. Answer: 6. II. The roots are ±18; the positive root is 18. Answer: 18.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−12x+36=0.\nII. For x²+6x−72=0, find the positive root.",
+        "options": [
+          "0 ; 6",
+          "2 ; 6",
+          "0 ; 7",
+          "2 ; 8"
+        ],
+        "answer": 0,
+        "explanation": "I. D=(12)²−4×36=0. Answer: 0. II. Factor as (x−6)(x+12)=0. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²−12x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 6x²−18x+12=0.",
+        "options": [
+          "37 ; 3",
+          "36 ; 2",
+          "37 ; 4",
+          "36 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. Set 144−4k=0. Answer: 36. II. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 42. Find its shorter side.\nII. Find the discriminant of x²−12x+32=0.",
+        "options": [
+          "6 ; 18",
+          "5 ; 15",
+          "6 ; 16",
+          "5 ; 16"
+        ],
+        "answer": 2,
+        "explanation": "I. x(x+1)=42 has positive solution x=6. Answer: 6. II. D=144−4×32=16. Answer: 16.",
+        "difficulty": "Medium",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the positive root of x²=324.\nII. Find the larger root of x²−15x+56=0.",
+        "options": [
+          "20 ; 10",
+          "18 ; 8",
+          "20 ; 8",
+          "18 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. The roots are ±18; the positive root is 18. Answer: 18. II. The factors are (x−7)(x−8). Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²+6x−72=0, find the positive root.\nII. Find the smaller root of x²−17x+70=0.",
+        "options": [
+          "6 ; 7",
+          "7 ; 7",
+          "6 ; 6",
+          "7 ; 8"
+        ],
+        "answer": 0,
+        "explanation": "I. Factor as (x−6)(x+12)=0. Answer: 6. II. The roots are 7 and 10. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 6x²−18x+12=0.\nII. Find the discriminant of x²−14x+49=0.",
+        "options": [
+          "2 ; 0",
+          "3 ; 2",
+          "2 ; -1",
+          "3 ; 0"
+        ],
+        "answer": 3,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(14)²−4×49=0. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−12x+32=0.\nII. For x²−14x+k=0 to have equal roots, find k.",
+        "options": [
+          "16 ; 50",
+          "18 ; 51",
+          "16 ; 49",
+          "18 ; 49"
+        ],
+        "answer": 2,
+        "explanation": "I. D=144−4×32=16. Answer: 16. II. Set 196−4k=0. Answer: 49.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the larger root of x²−15x+56=0.\nII. A rectangle has consecutive integer sides and area 56. Find its shorter side.",
+        "options": [
+          "9 ; 8",
+          "8 ; 7",
+          "9 ; 7",
+          "8 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. The factors are (x−7)(x−8). Answer: 8. II. x(x+1)=56 has positive solution x=7. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−17x+70=0.\nII. Find the positive root of x²=441.",
+        "options": [
+          "7 ; 21",
+          "6 ; 21",
+          "7 ; 23",
+          "6 ; 20"
+        ],
+        "answer": 0,
+        "explanation": "I. The roots are 7 and 10. Answer: 7. II. The roots are ±21; the positive root is 21. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−14x+49=0.\nII. For x²+7x−98=0, find the positive root.",
+        "options": [
+          "2 ; 7",
+          "0 ; 8",
+          "2 ; 9",
+          "0 ; 7"
+        ],
+        "answer": 3,
+        "explanation": "I. D=(14)²−4×49=0. Answer: 0. II. Factor as (x−7)(x+14)=0. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²−14x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 7x²−21x+14=0.",
+        "options": [
+          "49 ; 2",
+          "50 ; 4",
+          "49 ; 3",
+          "50 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. Set 196−4k=0. Answer: 49. II. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 56. Find its shorter side.\nII. Find the discriminant of x²−14x+45=0.",
+        "options": [
+          "6 ; 15",
+          "7 ; 16",
+          "6 ; 16",
+          "7 ; 18"
+        ],
+        "answer": 1,
+        "explanation": "I. x(x+1)=56 has positive solution x=7. Answer: 7. II. D=196−4×45=16. Answer: 16.",
+        "difficulty": "Medium",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the positive root of x²=441.\nII. Find the larger root of x²−11x+30=0.",
+        "options": [
+          "21 ; 6",
+          "23 ; 6",
+          "21 ; 7",
+          "23 ; 8"
+        ],
+        "answer": 0,
+        "explanation": "I. The roots are ±21; the positive root is 21. Answer: 21. II. The factors are (x−5)(x−6). Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. For x²+7x−98=0, find the positive root.\nII. Find the smaller root of x²−13x+40=0.",
+        "options": [
+          "8 ; 5",
+          "7 ; 4",
+          "8 ; 6",
+          "7 ; 5"
+        ],
+        "answer": 3,
+        "explanation": "I. Factor as (x−7)(x+14)=0. Answer: 7. II. The roots are 5 and 8. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 7x²−21x+14=0.\nII. Find the discriminant of x²−10x+25=0.",
+        "options": [
+          "3 ; 2",
+          "2 ; -1",
+          "3 ; 0",
+          "2 ; 0"
+        ],
+        "answer": 2,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(10)²−4×25=0. Answer: 0.",
+        "difficulty": "Medium",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−14x+45=0.\nII. For x²−10x+k=0 to have equal roots, find k.",
+        "options": [
+          "18 ; 27",
+          "16 ; 25",
+          "18 ; 25",
+          "16 ; 26"
+        ],
+        "answer": 1,
+        "explanation": "I. D=196−4×45=16. Answer: 16. II. Set 100−4k=0. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH05-H": {
+    "id": "SA-DPP-27-MAT-CH05-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch5",
+    "chapterNumber": 5,
+    "chapter": "Quadratic Equations",
+    "level": "H",
+    "title": "Quadratic Equations – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-05.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-02",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 5,
+    "sourcePrintedPages": {
+      "from": 105,
+      "to": 128
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q01",
+        "question": "For which k does x²−6x+k=0 have equal roots?",
+        "options": [
+          "12",
+          "9",
+          "6",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Set the discriminant 36−4k equal to zero.",
+        "difficulty": "Hard",
+        "topic": "For which k does x²−6x+k=0 have equal roots?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q02",
+        "question": "Two consecutive positive integers have product 156. Find their sum.",
+        "options": [
+          "25",
+          "24",
+          "26",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "12×13=156, so their sum is 25.",
+        "difficulty": "Hard",
+        "topic": "Two consecutive positive integers have product 156. Find their sum.",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q03",
+        "question": "Which roots solve 2x²−x−3=0?",
+        "options": [
+          "−3/2 and 1",
+          "3 and −1/2",
+          "1/2 and −3",
+          "3/2 and −1"
+        ],
+        "answer": 3,
+        "explanation": "Factor as (2x−3)(x+1)=0.",
+        "difficulty": "Hard",
+        "topic": "Which roots solve 2x²−x−3=0?",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the larger root of x²−17x+72=0.\nII. A rectangle has consecutive integer sides and area 72. Find its shorter side.\nIII. Find the sum of the roots of 8x²−24x+16=0.",
+        "options": [
+          "9 ; 7 ; 3",
+          "9 ; 8 ; 5",
+          "9 ; 8 ; 3",
+          "10 ; 8 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. The factors are (x−8)(x−9). Answer: 9. II. x(x+1)=72 has positive solution x=8. Answer: 8. III. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−19x+88=0.\nII. Find the positive root of x²=576.\nIII. Find the discriminant of x²−16x+60=0.",
+        "options": [
+          "8 ; 24 ; 17",
+          "8 ; 24 ; 16",
+          "7 ; 24 ; 16",
+          "8 ; 26 ; 16"
+        ],
+        "answer": 1,
+        "explanation": "I. The roots are 8 and 11. Answer: 8. II. The roots are ±24; the positive root is 24. Answer: 24. III. D=256−4×60=16. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−16x+64=0.\nII. For x²+8x−128=0, find the positive root.\nIII. Find the larger root of x²−19x+90=0.",
+        "options": [
+          "0 ; 8 ; 10",
+          "2 ; 8 ; 10",
+          "0 ; 9 ; 10",
+          "0 ; 8 ; 9"
+        ],
+        "answer": 0,
+        "explanation": "I. D=(16)²−4×64=0. Answer: 0. II. Factor as (x−8)(x+16)=0. Answer: 8. III. The factors are (x−9)(x−10). Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²−16x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 8x²−24x+16=0.\nIII. Find the smaller root of x²−21x+108=0.",
+        "options": [
+          "65 ; 3 ; 9",
+          "64 ; 2 ; 9",
+          "64 ; 3 ; 11",
+          "64 ; 3 ; 9"
+        ],
+        "answer": 3,
+        "explanation": "I. Set 256−4k=0. Answer: 64. II. The sum is −b/a=3. Answer: 3. III. The roots are 9 and 12. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 72. Find its shorter side.\nII. Find the discriminant of x²−16x+60=0.\nIII. Find the discriminant of x²−18x+81=0.",
+        "options": [
+          "8 ; 18 ; 0",
+          "8 ; 16 ; 1",
+          "8 ; 16 ; 0",
+          "7 ; 16 ; 0"
+        ],
+        "answer": 2,
+        "explanation": "I. x(x+1)=72 has positive solution x=8. Answer: 8. II. D=256−4×60=16. Answer: 16. III. D=(18)²−4×81=0. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the positive root of x²=576.\nII. Find the larger root of x²−19x+90=0.\nIII. For x²−18x+k=0 to have equal roots, find k.",
+        "options": [
+          "24 ; 10 ; 80",
+          "24 ; 10 ; 81",
+          "26 ; 10 ; 81",
+          "24 ; 11 ; 81"
+        ],
+        "answer": 1,
+        "explanation": "I. The roots are ±24; the positive root is 24. Answer: 24. II. The factors are (x−9)(x−10). Answer: 10. III. Set 324−4k=0. Answer: 81.",
+        "difficulty": "Hard",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²+8x−128=0, find the positive root.\nII. Find the smaller root of x²−21x+108=0.\nIII. A rectangle has consecutive integer sides and area 90. Find its shorter side.",
+        "options": [
+          "8 ; 9 ; 9",
+          "9 ; 9 ; 9",
+          "8 ; 8 ; 9",
+          "8 ; 9 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. Factor as (x−8)(x+16)=0. Answer: 8. II. The roots are 9 and 12. Answer: 9. III. x(x+1)=90 has positive solution x=9. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 8x²−24x+16=0.\nII. Find the discriminant of x²−18x+81=0.\nIII. Find the positive root of x²=729.",
+        "options": [
+          "2 ; 0 ; 27",
+          "3 ; 2 ; 27",
+          "3 ; 0 ; 28",
+          "3 ; 0 ; 27"
+        ],
+        "answer": 3,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(18)²−4×81=0. Answer: 0. III. The roots are ±27; the positive root is 27. Answer: 27.",
+        "difficulty": "Hard",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−16x+60=0.\nII. For x²−18x+k=0 to have equal roots, find k.\nIII. For x²+9x−162=0, find the positive root.",
+        "options": [
+          "16 ; 82 ; 9",
+          "16 ; 81 ; 8",
+          "16 ; 81 ; 9",
+          "18 ; 81 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. D=256−4×60=16. Answer: 16. II. Set 324−4k=0. Answer: 81. III. Factor as (x−9)(x+18)=0. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the larger root of x²−19x+90=0.\nII. A rectangle has consecutive integer sides and area 90. Find its shorter side.\nIII. Find the sum of the roots of 9x²−27x+18=0.",
+        "options": [
+          "10 ; 9 ; 5",
+          "10 ; 9 ; 3",
+          "11 ; 9 ; 3",
+          "10 ; 8 ; 3"
+        ],
+        "answer": 1,
+        "explanation": "I. The factors are (x−9)(x−10). Answer: 10. II. x(x+1)=90 has positive solution x=9. Answer: 9. III. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−21x+108=0.\nII. Find the positive root of x²=729.\nIII. Find the discriminant of x²−18x+77=0.",
+        "options": [
+          "9 ; 27 ; 16",
+          "8 ; 27 ; 16",
+          "9 ; 29 ; 16",
+          "9 ; 27 ; 17"
+        ],
+        "answer": 0,
+        "explanation": "I. The roots are 9 and 12. Answer: 9. II. The roots are ±27; the positive root is 27. Answer: 27. III. D=324−4×77=16. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−18x+81=0.\nII. For x²+9x−162=0, find the positive root.\nIII. Find the larger root of x²−21x+110=0.",
+        "options": [
+          "2 ; 9 ; 11",
+          "0 ; 10 ; 11",
+          "0 ; 9 ; 10",
+          "0 ; 9 ; 11"
+        ],
+        "answer": 3,
+        "explanation": "I. D=(18)²−4×81=0. Answer: 0. II. Factor as (x−9)(x+18)=0. Answer: 9. III. The factors are (x−10)(x−11). Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²−18x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 9x²−27x+18=0.\nIII. Find the smaller root of x²−23x+130=0.",
+        "options": [
+          "81 ; 2 ; 10",
+          "81 ; 3 ; 12",
+          "81 ; 3 ; 10",
+          "82 ; 3 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. Set 324−4k=0. Answer: 81. II. The sum is −b/a=3. Answer: 3. III. The roots are 10 and 13. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 90. Find its shorter side.\nII. Find the discriminant of x²−18x+77=0.\nIII. Find the discriminant of x²−20x+100=0.",
+        "options": [
+          "9 ; 16 ; 1",
+          "9 ; 16 ; 0",
+          "8 ; 16 ; 0",
+          "9 ; 18 ; 0"
+        ],
+        "answer": 1,
+        "explanation": "I. x(x+1)=90 has positive solution x=9. Answer: 9. II. D=324−4×77=16. Answer: 16. III. D=(20)²−4×100=0. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the positive root of x²=729.\nII. Find the larger root of x²−21x+110=0.\nIII. For x²−20x+k=0 to have equal roots, find k.",
+        "options": [
+          "27 ; 11 ; 100",
+          "29 ; 11 ; 100",
+          "27 ; 12 ; 100",
+          "27 ; 11 ; 99"
+        ],
+        "answer": 0,
+        "explanation": "I. The roots are ±27; the positive root is 27. Answer: 27. II. The factors are (x−10)(x−11). Answer: 11. III. Set 400−4k=0. Answer: 100.",
+        "difficulty": "Hard",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²+9x−162=0, find the positive root.\nII. Find the smaller root of x²−23x+130=0.\nIII. A rectangle has consecutive integer sides and area 110. Find its shorter side.",
+        "options": [
+          "10 ; 10 ; 10",
+          "9 ; 9 ; 10",
+          "9 ; 10 ; 12",
+          "9 ; 10 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. Factor as (x−9)(x+18)=0. Answer: 9. II. The roots are 10 and 13. Answer: 10. III. x(x+1)=110 has positive solution x=10. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 9x²−27x+18=0.\nII. Find the discriminant of x²−20x+100=0.\nIII. Find the positive root of x²=900.",
+        "options": [
+          "3 ; 2 ; 30",
+          "3 ; 0 ; 31",
+          "3 ; 0 ; 30",
+          "2 ; 0 ; 30"
+        ],
+        "answer": 2,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(20)²−4×100=0. Answer: 0. III. The roots are ±30; the positive root is 30. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−18x+77=0.\nII. For x²−20x+k=0 to have equal roots, find k.\nIII. For x²+10x−200=0, find the positive root.",
+        "options": [
+          "16 ; 100 ; 9",
+          "16 ; 100 ; 10",
+          "18 ; 100 ; 10",
+          "16 ; 101 ; 10"
+        ],
+        "answer": 1,
+        "explanation": "I. D=324−4×77=16. Answer: 16. II. Set 400−4k=0. Answer: 100. III. Factor as (x−10)(x+20)=0. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the larger root of x²−21x+110=0.\nII. A rectangle has consecutive integer sides and area 110. Find its shorter side.\nIII. Find the sum of the roots of 10x²−30x+20=0.",
+        "options": [
+          "11 ; 10 ; 3",
+          "12 ; 10 ; 3",
+          "11 ; 9 ; 3",
+          "11 ; 10 ; 5"
+        ],
+        "answer": 0,
+        "explanation": "I. The factors are (x−10)(x−11). Answer: 11. II. x(x+1)=110 has positive solution x=10. Answer: 10. III. The sum is −b/a=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the smaller root of x²−23x+130=0.\nII. Find the positive root of x²=900.\nIII. Find the discriminant of x²−20x+96=0.",
+        "options": [
+          "9 ; 30 ; 16",
+          "10 ; 32 ; 16",
+          "10 ; 30 ; 17",
+          "10 ; 30 ; 16"
+        ],
+        "answer": 3,
+        "explanation": "I. The roots are 10 and 13. Answer: 10. II. The roots are ±30; the positive root is 30. Answer: 30. III. D=400−4×96=16. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Factoring quadratics",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−20x+100=0.\nII. For x²+10x−200=0, find the positive root.\nIII. Find the larger root of x²−17x+72=0.",
+        "options": [
+          "0 ; 11 ; 9",
+          "0 ; 10 ; 8",
+          "0 ; 10 ; 9",
+          "2 ; 10 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. D=(20)²−4×100=0. Answer: 0. II. Factor as (x−10)(x+20)=0. Answer: 10. III. The factors are (x−8)(x−9). Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²−20x+k=0 to have equal roots, find k.\nII. Find the sum of the roots of 10x²−30x+20=0.\nIII. Find the smaller root of x²−19x+88=0.",
+        "options": [
+          "100 ; 3 ; 10",
+          "100 ; 3 ; 8",
+          "101 ; 3 ; 8",
+          "100 ; 2 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. Set 400−4k=0. Answer: 100. II. The sum is −b/a=3. Answer: 3. III. The roots are 8 and 11. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Repeated roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A rectangle has consecutive integer sides and area 110. Find its shorter side.\nII. Find the discriminant of x²−20x+96=0.\nIII. Find the discriminant of x²−16x+64=0.",
+        "options": [
+          "10 ; 16 ; 0",
+          "9 ; 16 ; 0",
+          "10 ; 18 ; 0",
+          "10 ; 16 ; 1"
+        ],
+        "answer": 0,
+        "explanation": "I. x(x+1)=110 has positive solution x=10. Answer: 10. II. D=400−4×96=16. Answer: 16. III. D=(16)²−4×64=0. Answer: 0.",
+        "difficulty": "Hard",
+        "topic": "Area problems",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the positive root of x²=900.\nII. Find the larger root of x²−17x+72=0.\nIII. For x²−16x+k=0 to have equal roots, find k.",
+        "options": [
+          "32 ; 9 ; 64",
+          "30 ; 10 ; 64",
+          "30 ; 9 ; 63",
+          "30 ; 9 ; 64"
+        ],
+        "answer": 3,
+        "explanation": "I. The roots are ±30; the positive root is 30. Answer: 30. II. The factors are (x−8)(x−9). Answer: 9. III. Set 256−4k=0. Answer: 64.",
+        "difficulty": "Hard",
+        "topic": "Square-root method",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. For x²+10x−200=0, find the positive root.\nII. Find the smaller root of x²−19x+88=0.\nIII. A rectangle has consecutive integer sides and area 72. Find its shorter side.",
+        "options": [
+          "10 ; 7 ; 8",
+          "10 ; 8 ; 10",
+          "10 ; 8 ; 8",
+          "11 ; 8 ; 8"
+        ],
+        "answer": 2,
+        "explanation": "I. Factor as (x−10)(x+20)=0. Answer: 10. II. The roots are 8 and 11. Answer: 8. III. x(x+1)=72 has positive solution x=8. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Positive roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the roots of 10x²−30x+20=0.\nII. Find the discriminant of x²−16x+64=0.\nIII. Find the positive root of x²=576.",
+        "options": [
+          "3 ; 0 ; 25",
+          "3 ; 0 ; 24",
+          "2 ; 0 ; 24",
+          "3 ; 2 ; 24"
+        ],
+        "answer": 1,
+        "explanation": "I. The sum is −b/a=3. Answer: 3. II. D=(16)²−4×64=0. Answer: 0. III. The roots are ±24; the positive root is 24. Answer: 24.",
+        "difficulty": "Hard",
+        "topic": "Sum of roots",
+        "sourceChapter": 5
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH05-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the discriminant of x²−20x+96=0.\nII. For x²−16x+k=0 to have equal roots, find k.\nIII. For x²+8x−128=0, find the positive root.",
+        "options": [
+          "16 ; 64 ; 8",
+          "18 ; 64 ; 8",
+          "16 ; 65 ; 8",
+          "16 ; 64 ; 7"
+        ],
+        "answer": 0,
+        "explanation": "I. D=400−4×96=16. Answer: 16. II. Set 256−4k=0. Answer: 64. III. Factor as (x−8)(x+16)=0. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Discriminant",
+        "sourceChapter": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH20-E": {
+    "id": "SA-DPP-27-SOC-CH20-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch20",
+    "chapterNumber": 20,
+    "chapter": "Social Movements in Our Times",
+    "level": "E",
+    "title": "Social Movements in Our Times – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-20.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-SOC-03",
+    "recommendedDate": "2026-12-11",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 20,
+    "sourcePrintedPages": {
+      "from": 288,
+      "to": 303
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q01",
+        "question": "A social movement involves what?",
+        "options": [
+          "Collective action around shared social concerns",
+          "Only one person's private shopping choice",
+          "Only a natural disaster",
+          "Only a government department"
+        ],
+        "answer": 0,
+        "explanation": "People organise to seek or resist social change.",
+        "difficulty": "Easy",
+        "topic": "A social movement involves what?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q02",
+        "question": "Which movement is associated with opposition to large-dam displacement in the Narmada valley?",
+        "options": [
+          "Quit India movement",
+          "Non-Cooperation movement",
+          "Swadeshi movement of 1905",
+          "Narmada Bachao Andolan"
+        ],
+        "answer": 3,
+        "explanation": "The movement raised displacement, rehabilitation and environmental concerns.",
+        "difficulty": "Easy",
+        "topic": "Which movement is associated with opposition to large-dam displacement in the Narmada valley?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q03",
+        "question": "The US civil rights movement challenged what?",
+        "options": [
+          "Only import tariffs",
+          "Only railway timetables",
+          "Racial discrimination and segregation",
+          "Universal suffrage itself"
+        ],
+        "answer": 2,
+        "explanation": "It sought equal rights and an end to racial exclusion.",
+        "difficulty": "Easy",
+        "topic": "The US civil rights movement challenged what?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q04",
+        "question": "US civil rights movement: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "Collective action concerning ecological harm",
+          "A struggle against racial discrimination",
+          "A struggle against institutionalised racial rule in South Africa",
+          "Collective action around gender inequality"
+        ],
+        "answer": 1,
+        "explanation": "US civil rights movement — movement or collective-action concept: A struggle against racial discrimination.",
+        "difficulty": "Easy",
+        "topic": "US civil rights movement · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q05",
+        "question": "US civil rights movement: which option correctly identifies the central concern?",
+        "options": [
+          "Challenged segregation and unequal rights",
+          "Address issues such as discrimination, violence and representation",
+          "Challenge damaging resource use or pollution",
+          "Raised displacement, rehabilitation and environmental questions"
+        ],
+        "answer": 0,
+        "explanation": "US civil rights movement — central concern: Challenged segregation and unequal rights.",
+        "difficulty": "Easy",
+        "topic": "US civil rights movement · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q06",
+        "question": "US civil rights movement: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "It concerned only a tax on imported goods",
+          "It aimed to preserve racial segregation",
+          "It rejected equal citizenship as a goal",
+          "Expanded demands for equal citizenship"
+        ],
+        "answer": 3,
+        "explanation": "US civil rights movement — broader democratic significance: Expanded demands for equal citizenship.",
+        "difficulty": "Easy",
+        "topic": "US civil rights movement · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q07",
+        "question": "Anti-apartheid movement: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "Collective action concerning ecological harm",
+          "A movement concerning large-dam impacts in the Narmada valley",
+          "A struggle against institutionalised racial rule in South Africa",
+          "Collective action around gender inequality"
+        ],
+        "answer": 2,
+        "explanation": "Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa.",
+        "difficulty": "Easy",
+        "topic": "Anti-apartheid movement · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q08",
+        "question": "Anti-apartheid movement: which option correctly identifies the central concern?",
+        "options": [
+          "Can challenge nuclear weapons and armed conflict",
+          "Opposed exclusion of the non-white majority",
+          "Challenge damaging resource use or pollution",
+          "Raised displacement, rehabilitation and environmental questions"
+        ],
+        "answer": 1,
+        "explanation": "Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority.",
+        "difficulty": "Easy",
+        "topic": "Anti-apartheid movement · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q09",
+        "question": "Anti-apartheid movement: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "Linked political rights with the dismantling of racial domination",
+          "It supported permanent white-minority rule",
+          "It sought to deepen legal racial exclusion",
+          "It had no connection to political rights"
+        ],
+        "answer": 0,
+        "explanation": "Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination.",
+        "difficulty": "Easy",
+        "topic": "Anti-apartheid movement · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q10",
+        "question": "Women's movements: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "Collective action concerning ecological harm",
+          "A movement concerning large-dam impacts in the Narmada valley",
+          "Collective action opposing war and militarisation",
+          "Collective action around gender inequality"
+        ],
+        "answer": 3,
+        "explanation": "Women's movements — movement or collective-action concept: Collective action around gender inequality.",
+        "difficulty": "Easy",
+        "topic": "Women's movements · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q11",
+        "question": "Women's movements: which option correctly identifies the central concern?",
+        "options": [
+          "Can challenge nuclear weapons and armed conflict",
+          "Uses peaceful pressure rather than physical violence",
+          "Address issues such as discrimination, violence and representation",
+          "Raised displacement, rehabilitation and environmental questions"
+        ],
+        "answer": 2,
+        "explanation": "Women's movements — central concern: Address issues such as discrimination, violence and representation.",
+        "difficulty": "Easy",
+        "topic": "Women's movements · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q12",
+        "question": "Women's movements: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "They aim to exclude women from public life",
+          "Broaden democratic participation and public agendas",
+          "They regard gender-based violence as irrelevant",
+          "They cannot influence democratic agendas"
+        ],
+        "answer": 1,
+        "explanation": "Women's movements — broader democratic significance: Broaden democratic participation and public agendas.",
+        "difficulty": "Easy",
+        "topic": "Women's movements · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q13",
+        "question": "Environmental movements: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "Collective action concerning ecological harm",
+          "A movement concerning large-dam impacts in the Narmada valley",
+          "Collective action opposing war and militarisation",
+          "A method of collective political action"
+        ],
+        "answer": 0,
+        "explanation": "Environmental movements — movement or collective-action concept: Collective action concerning ecological harm.",
+        "difficulty": "Easy",
+        "topic": "Environmental movements · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q14",
+        "question": "Environmental movements: which option correctly identifies the central concern?",
+        "options": [
+          "Can challenge nuclear weapons and armed conflict",
+          "Uses peaceful pressure rather than physical violence",
+          "Communicates grievances or requested changes to an authority",
+          "Challenge damaging resource use or pollution"
+        ],
+        "answer": 3,
+        "explanation": "Environmental movements — central concern: Challenge damaging resource use or pollution.",
+        "difficulty": "Easy",
+        "topic": "Environmental movements · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q15",
+        "question": "Environmental movements: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "They have no connection to resource use or pollution",
+          "They necessarily reject all public accountability",
+          "Connect environmental protection with public accountability",
+          "They prove ecological harm cannot affect livelihoods"
+        ],
+        "answer": 2,
+        "explanation": "Environmental movements — broader democratic significance: Connect environmental protection with public accountability.",
+        "difficulty": "Easy",
+        "topic": "Environmental movements · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q16",
+        "question": "Narmada Bachao Andolan: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "A formal presentation of collective demands",
+          "A movement concerning large-dam impacts in the Narmada valley",
+          "Collective action opposing war and militarisation",
+          "A method of collective political action"
+        ],
+        "answer": 1,
+        "explanation": "Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley.",
+        "difficulty": "Easy",
+        "topic": "Narmada Bachao Andolan · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q17",
+        "question": "Narmada Bachao Andolan: which option correctly identifies the central concern?",
+        "options": [
+          "Raised displacement, rehabilitation and environmental questions",
+          "Uses peaceful pressure rather than physical violence",
+          "Communicates grievances or requested changes to an authority",
+          "Requires scrutiny, information and opportunities to challenge decisions"
+        ],
+        "answer": 0,
+        "explanation": "Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions.",
+        "difficulty": "Easy",
+        "topic": "Narmada Bachao Andolan · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q18",
+        "question": "Narmada Bachao Andolan: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "It dealt only with the US electoral system",
+          "It ignored all displacement and rehabilitation issues",
+          "It was a movement supporting Nazi racial policy",
+          "Made affected communities' rights central to development debates"
+        ],
+        "answer": 3,
+        "explanation": "Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates.",
+        "difficulty": "Easy",
+        "topic": "Narmada Bachao Andolan · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q19",
+        "question": "Peace movements: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "A formal presentation of collective demands",
+          "The demand that decision-makers explain and answer for their actions",
+          "Collective action opposing war and militarisation",
+          "A method of collective political action"
+        ],
+        "answer": 2,
+        "explanation": "Peace movements — movement or collective-action concept: Collective action opposing war and militarisation.",
+        "difficulty": "Easy",
+        "topic": "Peace movements · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q20",
+        "question": "Peace movements: which option correctly identifies the central concern?",
+        "options": [
+          "Challenged segregation and unequal rights",
+          "Can challenge nuclear weapons and armed conflict",
+          "Communicates grievances or requested changes to an authority",
+          "Requires scrutiny, information and opportunities to challenge decisions"
+        ],
+        "answer": 1,
+        "explanation": "Peace movements — central concern: Can challenge nuclear weapons and armed conflict.",
+        "difficulty": "Easy",
+        "topic": "Peace movements · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q21",
+        "question": "Peace movements: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "Bring security and survival questions into public debate",
+          "They cannot raise security questions",
+          "They are identical to an arms race",
+          "They seek nuclear war as their defining objective"
+        ],
+        "answer": 0,
+        "explanation": "Peace movements — broader democratic significance: Bring security and survival questions into public debate.",
+        "difficulty": "Easy",
+        "topic": "Peace movements · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q22",
+        "question": "Nonviolent protest: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "A formal presentation of collective demands",
+          "The demand that decision-makers explain and answer for their actions",
+          "A struggle against racial discrimination",
+          "A method of collective political action"
+        ],
+        "answer": 3,
+        "explanation": "Nonviolent protest — movement or collective-action concept: A method of collective political action.",
+        "difficulty": "Easy",
+        "topic": "Nonviolent protest · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q23",
+        "question": "Nonviolent protest: which option correctly identifies the central concern?",
+        "options": [
+          "Challenged segregation and unequal rights",
+          "Opposed exclusion of the non-white majority",
+          "Uses peaceful pressure rather than physical violence",
+          "Requires scrutiny, information and opportunities to challenge decisions"
+        ],
+        "answer": 2,
+        "explanation": "Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence.",
+        "difficulty": "Easy",
+        "topic": "Nonviolent protest · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q24",
+        "question": "Nonviolent protest: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "It means destroying every public institution",
+          "Can mobilise public attention and moral argument",
+          "It never uses peaceful public pressure",
+          "It requires targeted violence against civilians"
+        ],
+        "answer": 1,
+        "explanation": "Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument.",
+        "difficulty": "Easy",
+        "topic": "Nonviolent protest · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q25",
+        "question": "Petitioning: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "A formal presentation of collective demands",
+          "The demand that decision-makers explain and answer for their actions",
+          "A struggle against racial discrimination",
+          "A struggle against institutionalised racial rule in South Africa"
+        ],
+        "answer": 0,
+        "explanation": "Petitioning — movement or collective-action concept: A formal presentation of collective demands.",
+        "difficulty": "Easy",
+        "topic": "Petitioning · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q26",
+        "question": "Petitioning: which option correctly identifies the central concern?",
+        "options": [
+          "Challenged segregation and unequal rights",
+          "Opposed exclusion of the non-white majority",
+          "Address issues such as discrimination, violence and representation",
+          "Communicates grievances or requested changes to an authority"
+        ],
+        "answer": 3,
+        "explanation": "Petitioning — central concern: Communicates grievances or requested changes to an authority.",
+        "difficulty": "Easy",
+        "topic": "Petitioning · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q27",
+        "question": "Petitioning: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "It cannot communicate collective demands",
+          "It replaces all forms of decision-making permanently",
+          "Offers a channel for organised participation",
+          "It is the direct use of armed force"
+        ],
+        "answer": 2,
+        "explanation": "Petitioning — broader democratic significance: Offers a channel for organised participation.",
+        "difficulty": "Easy",
+        "topic": "Petitioning · broader democratic significance",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q28",
+        "question": "Public accountability: which option correctly identifies the movement or collective-action concept?",
+        "options": [
+          "Collective action around gender inequality",
+          "The demand that decision-makers explain and answer for their actions",
+          "A struggle against racial discrimination",
+          "A struggle against institutionalised racial rule in South Africa"
+        ],
+        "answer": 1,
+        "explanation": "Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions.",
+        "difficulty": "Easy",
+        "topic": "Public accountability · movement or collective-action concept",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q29",
+        "question": "Public accountability: which option correctly identifies the central concern?",
+        "options": [
+          "Requires scrutiny, information and opportunities to challenge decisions",
+          "Opposed exclusion of the non-white majority",
+          "Address issues such as discrimination, violence and representation",
+          "Challenge damaging resource use or pollution"
+        ],
+        "answer": 0,
+        "explanation": "Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions.",
+        "difficulty": "Easy",
+        "topic": "Public accountability · central concern",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-E-Q30",
+        "question": "Public accountability: which option correctly identifies the broader democratic significance?",
+        "options": [
+          "Officials never need to explain decisions",
+          "Scrutiny and information prevent accountability",
+          "It matters only on polling day",
+          "Remains important between elections as well as during them"
+        ],
+        "answer": 3,
+        "explanation": "Public accountability — broader democratic significance: Remains important between elections as well as during them.",
+        "difficulty": "Easy",
+        "topic": "Public accountability · broader democratic significance",
+        "sourceChapter": 20
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH20-M": {
+    "id": "SA-DPP-27-SOC-CH20-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch20",
+    "chapterNumber": 20,
+    "chapter": "Social Movements in Our Times",
+    "level": "M",
+    "title": "Social Movements in Our Times – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-20.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-SOC-03",
+    "recommendedDate": "2026-12-12",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 20,
+    "sourcePrintedPages": {
+      "from": 288,
+      "to": 303
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q01",
+        "question": "Why might affected communities organise against a development project?",
+        "options": [
+          "Every community opposes all improvements",
+          "Only outsiders can assess local impacts",
+          "Projects never affect residents",
+          "They may face livelihood losses or lack an effective voice"
+        ],
+        "answer": 3,
+        "explanation": "Collective action can raise concerns overlooked in planning.",
+        "difficulty": "Medium",
+        "topic": "Why might affected communities organise against a development project?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q02",
+        "question": "How can women's movements deepen democracy?",
+        "options": [
+          "By removing all public debate",
+          "By giving only one household a voice",
+          "By challenging unequal rights, violence and exclusion",
+          "By making participation less equal"
+        ],
+        "answer": 2,
+        "explanation": "They expand the issues and groups represented in public life.",
+        "difficulty": "Medium",
+        "topic": "How can women's movements deepen democracy?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q03",
+        "question": "What is one common nonviolent movement method?",
+        "options": [
+          "Destroying all public records",
+          "Peaceful demonstration and petitioning",
+          "Targeted violence against civilians",
+          "Preventing every discussion"
+        ],
+        "answer": 1,
+        "explanation": "Organised peaceful pressure can draw attention to demands.",
+        "difficulty": "Medium",
+        "topic": "What is one common nonviolent movement method?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q04",
+        "question": "Which pair correctly matches US civil rights movement with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "A struggle against racial discrimination → Challenged segregation and unequal rights",
+          "A struggle against institutionalised racial rule in South Africa → Challenged segregation and unequal rights",
+          "A struggle against racial discrimination → Opposed exclusion of the non-white majority",
+          "Collective action around gender inequality → Address issues such as discrimination, violence and representation"
+        ],
+        "answer": 0,
+        "explanation": "US civil rights movement — movement or collective-action concept: A struggle against racial discrimination. US civil rights movement — central concern: Challenged segregation and unequal rights. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "US civil rights movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q05",
+        "question": "Which pair correctly matches US civil rights movement with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Address issues such as discrimination, violence and representation → Expanded demands for equal citizenship",
+          "Challenged segregation and unequal rights → It aimed to preserve racial segregation",
+          "Challenge damaging resource use or pollution → It rejected equal citizenship as a goal",
+          "Challenged segregation and unequal rights → Expanded demands for equal citizenship"
+        ],
+        "answer": 3,
+        "explanation": "US civil rights movement — central concern: Challenged segregation and unequal rights. US civil rights movement — broader democratic significance: Expanded demands for equal citizenship. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "US civil rights movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q06",
+        "question": "Which pair correctly matches US civil rights movement with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "Expanded demands for equal citizenship → A struggle against institutionalised racial rule in South Africa",
+          "It aimed to preserve racial segregation → Collective action around gender inequality",
+          "Expanded demands for equal citizenship → A struggle against racial discrimination",
+          "It concerned only a tax on imported goods → A struggle against racial discrimination"
+        ],
+        "answer": 2,
+        "explanation": "US civil rights movement — broader democratic significance: Expanded demands for equal citizenship. US civil rights movement — movement or collective-action concept: A struggle against racial discrimination. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "US civil rights movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q07",
+        "question": "Which pair correctly matches Anti-apartheid movement with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "Collective action concerning ecological harm → Challenge damaging resource use or pollution",
+          "A struggle against institutionalised racial rule in South Africa → Opposed exclusion of the non-white majority",
+          "Collective action around gender inequality → Opposed exclusion of the non-white majority",
+          "A struggle against institutionalised racial rule in South Africa → Address issues such as discrimination, violence and representation"
+        ],
+        "answer": 1,
+        "explanation": "Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa. Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Anti-apartheid movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q08",
+        "question": "Which pair correctly matches Anti-apartheid movement with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Opposed exclusion of the non-white majority → Linked political rights with the dismantling of racial domination",
+          "Challenge damaging resource use or pollution → Linked political rights with the dismantling of racial domination",
+          "Opposed exclusion of the non-white majority → It sought to deepen legal racial exclusion",
+          "Raised displacement, rehabilitation and environmental questions → It had no connection to political rights"
+        ],
+        "answer": 0,
+        "explanation": "Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority. Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Anti-apartheid movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q09",
+        "question": "Which pair correctly matches Anti-apartheid movement with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "It supported permanent white-minority rule → A struggle against institutionalised racial rule in South Africa",
+          "Linked political rights with the dismantling of racial domination → Collective action around gender inequality",
+          "It sought to deepen legal racial exclusion → Collective action concerning ecological harm",
+          "Linked political rights with the dismantling of racial domination → A struggle against institutionalised racial rule in South Africa"
+        ],
+        "answer": 3,
+        "explanation": "Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination. Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Anti-apartheid movement",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q10",
+        "question": "Which pair correctly matches Women's movements with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "Collective action around gender inequality → Challenge damaging resource use or pollution",
+          "A movement concerning large-dam impacts in the Narmada valley → Raised displacement, rehabilitation and environmental questions",
+          "Collective action around gender inequality → Address issues such as discrimination, violence and representation",
+          "Collective action concerning ecological harm → Address issues such as discrimination, violence and representation"
+        ],
+        "answer": 2,
+        "explanation": "Women's movements — movement or collective-action concept: Collective action around gender inequality. Women's movements — central concern: Address issues such as discrimination, violence and representation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Women's movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q11",
+        "question": "Which pair correctly matches Women's movements with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Can challenge nuclear weapons and armed conflict → They aim to exclude women from public life",
+          "Address issues such as discrimination, violence and representation → Broaden democratic participation and public agendas",
+          "Raised displacement, rehabilitation and environmental questions → Broaden democratic participation and public agendas",
+          "Address issues such as discrimination, violence and representation → They cannot influence democratic agendas"
+        ],
+        "answer": 1,
+        "explanation": "Women's movements — central concern: Address issues such as discrimination, violence and representation. Women's movements — broader democratic significance: Broaden democratic participation and public agendas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Women's movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q12",
+        "question": "Which pair correctly matches Women's movements with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "Broaden democratic participation and public agendas → Collective action around gender inequality",
+          "They regard gender-based violence as irrelevant → Collective action around gender inequality",
+          "Broaden democratic participation and public agendas → Collective action concerning ecological harm",
+          "They cannot influence democratic agendas → A movement concerning large-dam impacts in the Narmada valley"
+        ],
+        "answer": 0,
+        "explanation": "Women's movements — broader democratic significance: Broaden democratic participation and public agendas. Women's movements — movement or collective-action concept: Collective action around gender inequality. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Women's movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q13",
+        "question": "Which pair correctly matches Environmental movements with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "A movement concerning large-dam impacts in the Narmada valley → Challenge damaging resource use or pollution",
+          "Collective action concerning ecological harm → Raised displacement, rehabilitation and environmental questions",
+          "Collective action opposing war and militarisation → Can challenge nuclear weapons and armed conflict",
+          "Collective action concerning ecological harm → Challenge damaging resource use or pollution"
+        ],
+        "answer": 3,
+        "explanation": "Environmental movements — movement or collective-action concept: Collective action concerning ecological harm. Environmental movements — central concern: Challenge damaging resource use or pollution. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q14",
+        "question": "Which pair correctly matches Environmental movements with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Challenge damaging resource use or pollution → They have no connection to resource use or pollution",
+          "Uses peaceful pressure rather than physical violence → They necessarily reject all public accountability",
+          "Challenge damaging resource use or pollution → Connect environmental protection with public accountability",
+          "Can challenge nuclear weapons and armed conflict → Connect environmental protection with public accountability"
+        ],
+        "answer": 2,
+        "explanation": "Environmental movements — central concern: Challenge damaging resource use or pollution. Environmental movements — broader democratic significance: Connect environmental protection with public accountability. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q15",
+        "question": "Which pair correctly matches Environmental movements with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "They have no connection to resource use or pollution → Collective action opposing war and militarisation",
+          "Connect environmental protection with public accountability → Collective action concerning ecological harm",
+          "They prove ecological harm cannot affect livelihoods → Collective action concerning ecological harm",
+          "Connect environmental protection with public accountability → A movement concerning large-dam impacts in the Narmada valley"
+        ],
+        "answer": 1,
+        "explanation": "Environmental movements — broader democratic significance: Connect environmental protection with public accountability. Environmental movements — movement or collective-action concept: Collective action concerning ecological harm. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Environmental movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q16",
+        "question": "Which pair correctly matches Narmada Bachao Andolan with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "A movement concerning large-dam impacts in the Narmada valley → Raised displacement, rehabilitation and environmental questions",
+          "Collective action opposing war and militarisation → Raised displacement, rehabilitation and environmental questions",
+          "A movement concerning large-dam impacts in the Narmada valley → Can challenge nuclear weapons and armed conflict",
+          "A method of collective political action → Uses peaceful pressure rather than physical violence"
+        ],
+        "answer": 0,
+        "explanation": "Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley. Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada Bachao Andolan",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q17",
+        "question": "Which pair correctly matches Narmada Bachao Andolan with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Uses peaceful pressure rather than physical violence → Made affected communities' rights central to development debates",
+          "Raised displacement, rehabilitation and environmental questions → It ignored all displacement and rehabilitation issues",
+          "Communicates grievances or requested changes to an authority → It was a movement supporting Nazi racial policy",
+          "Raised displacement, rehabilitation and environmental questions → Made affected communities' rights central to development debates"
+        ],
+        "answer": 3,
+        "explanation": "Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions. Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada Bachao Andolan",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q18",
+        "question": "Which pair correctly matches Narmada Bachao Andolan with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "Made affected communities' rights central to development debates → Collective action opposing war and militarisation",
+          "It ignored all displacement and rehabilitation issues → A method of collective political action",
+          "Made affected communities' rights central to development debates → A movement concerning large-dam impacts in the Narmada valley",
+          "It dealt only with the US electoral system → A movement concerning large-dam impacts in the Narmada valley"
+        ],
+        "answer": 2,
+        "explanation": "Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates. Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Narmada Bachao Andolan",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q19",
+        "question": "Which pair correctly matches Peace movements with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "A formal presentation of collective demands → Communicates grievances or requested changes to an authority",
+          "Collective action opposing war and militarisation → Can challenge nuclear weapons and armed conflict",
+          "A method of collective political action → Can challenge nuclear weapons and armed conflict",
+          "Collective action opposing war and militarisation → Uses peaceful pressure rather than physical violence"
+        ],
+        "answer": 1,
+        "explanation": "Peace movements — movement or collective-action concept: Collective action opposing war and militarisation. Peace movements — central concern: Can challenge nuclear weapons and armed conflict. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peace movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q20",
+        "question": "Which pair correctly matches Peace movements with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Can challenge nuclear weapons and armed conflict → Bring security and survival questions into public debate",
+          "Communicates grievances or requested changes to an authority → Bring security and survival questions into public debate",
+          "Can challenge nuclear weapons and armed conflict → They are identical to an arms race",
+          "Requires scrutiny, information and opportunities to challenge decisions → They seek nuclear war as their defining objective"
+        ],
+        "answer": 0,
+        "explanation": "Peace movements — central concern: Can challenge nuclear weapons and armed conflict. Peace movements — broader democratic significance: Bring security and survival questions into public debate. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peace movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q21",
+        "question": "Which pair correctly matches Peace movements with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "They cannot raise security questions → Collective action opposing war and militarisation",
+          "Bring security and survival questions into public debate → A method of collective political action",
+          "They are identical to an arms race → A formal presentation of collective demands",
+          "Bring security and survival questions into public debate → Collective action opposing war and militarisation"
+        ],
+        "answer": 3,
+        "explanation": "Peace movements — broader democratic significance: Bring security and survival questions into public debate. Peace movements — movement or collective-action concept: Collective action opposing war and militarisation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peace movements",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q22",
+        "question": "Which pair correctly matches Nonviolent protest with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "A method of collective political action → Communicates grievances or requested changes to an authority",
+          "The demand that decision-makers explain and answer for their actions → Requires scrutiny, information and opportunities to challenge decisions",
+          "A method of collective political action → Uses peaceful pressure rather than physical violence",
+          "A formal presentation of collective demands → Uses peaceful pressure rather than physical violence"
+        ],
+        "answer": 2,
+        "explanation": "Nonviolent protest — movement or collective-action concept: A method of collective political action. Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nonviolent protest",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q23",
+        "question": "Which pair correctly matches Nonviolent protest with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Challenged segregation and unequal rights → It means destroying every public institution",
+          "Uses peaceful pressure rather than physical violence → Can mobilise public attention and moral argument",
+          "Requires scrutiny, information and opportunities to challenge decisions → Can mobilise public attention and moral argument",
+          "Uses peaceful pressure rather than physical violence → It requires targeted violence against civilians"
+        ],
+        "answer": 1,
+        "explanation": "Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence. Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nonviolent protest",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q24",
+        "question": "Which pair correctly matches Nonviolent protest with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "Can mobilise public attention and moral argument → A method of collective political action",
+          "It never uses peaceful public pressure → A method of collective political action",
+          "Can mobilise public attention and moral argument → A formal presentation of collective demands",
+          "It requires targeted violence against civilians → The demand that decision-makers explain and answer for their actions"
+        ],
+        "answer": 0,
+        "explanation": "Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument. Nonviolent protest — movement or collective-action concept: A method of collective political action. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nonviolent protest",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q25",
+        "question": "Which pair correctly matches Petitioning with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "The demand that decision-makers explain and answer for their actions → Communicates grievances or requested changes to an authority",
+          "A formal presentation of collective demands → Requires scrutiny, information and opportunities to challenge decisions",
+          "A struggle against racial discrimination → Challenged segregation and unequal rights",
+          "A formal presentation of collective demands → Communicates grievances or requested changes to an authority"
+        ],
+        "answer": 3,
+        "explanation": "Petitioning — movement or collective-action concept: A formal presentation of collective demands. Petitioning — central concern: Communicates grievances or requested changes to an authority. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Petitioning",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q26",
+        "question": "Which pair correctly matches Petitioning with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Communicates grievances or requested changes to an authority → It cannot communicate collective demands",
+          "Opposed exclusion of the non-white majority → It replaces all forms of decision-making permanently",
+          "Communicates grievances or requested changes to an authority → Offers a channel for organised participation",
+          "Challenged segregation and unequal rights → Offers a channel for organised participation"
+        ],
+        "answer": 2,
+        "explanation": "Petitioning — central concern: Communicates grievances or requested changes to an authority. Petitioning — broader democratic significance: Offers a channel for organised participation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Petitioning",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q27",
+        "question": "Which pair correctly matches Petitioning with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "It cannot communicate collective demands → A struggle against racial discrimination",
+          "Offers a channel for organised participation → A formal presentation of collective demands",
+          "It is the direct use of armed force → A formal presentation of collective demands",
+          "Offers a channel for organised participation → The demand that decision-makers explain and answer for their actions"
+        ],
+        "answer": 1,
+        "explanation": "Petitioning — broader democratic significance: Offers a channel for organised participation. Petitioning — movement or collective-action concept: A formal presentation of collective demands. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Petitioning",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q28",
+        "question": "Which pair correctly matches Public accountability with its movement or collective-action concept and central concern, in that order?",
+        "options": [
+          "The demand that decision-makers explain and answer for their actions → Requires scrutiny, information and opportunities to challenge decisions",
+          "A struggle against racial discrimination → Requires scrutiny, information and opportunities to challenge decisions",
+          "The demand that decision-makers explain and answer for their actions → Challenged segregation and unequal rights",
+          "A struggle against institutionalised racial rule in South Africa → Opposed exclusion of the non-white majority"
+        ],
+        "answer": 0,
+        "explanation": "Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions. Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public accountability",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q29",
+        "question": "Which pair correctly matches Public accountability with its central concern and broader democratic significance, in that order?",
+        "options": [
+          "Opposed exclusion of the non-white majority → Remains important between elections as well as during them",
+          "Requires scrutiny, information and opportunities to challenge decisions → Scrutiny and information prevent accountability",
+          "Address issues such as discrimination, violence and representation → It matters only on polling day",
+          "Requires scrutiny, information and opportunities to challenge decisions → Remains important between elections as well as during them"
+        ],
+        "answer": 3,
+        "explanation": "Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions. Public accountability — broader democratic significance: Remains important between elections as well as during them. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public accountability",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-M-Q30",
+        "question": "Which pair correctly matches Public accountability with its broader democratic significance and movement or collective-action concept, in that order?",
+        "options": [
+          "Remains important between elections as well as during them → A struggle against racial discrimination",
+          "Scrutiny and information prevent accountability → A struggle against institutionalised racial rule in South Africa",
+          "Remains important between elections as well as during them → The demand that decision-makers explain and answer for their actions",
+          "Officials never need to explain decisions → The demand that decision-makers explain and answer for their actions"
+        ],
+        "answer": 2,
+        "explanation": "Public accountability — broader democratic significance: Remains important between elections as well as during them. Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public accountability",
+        "sourceChapter": 20
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH20-H": {
+    "id": "SA-DPP-27-SOC-CH20-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch20",
+    "chapterNumber": 20,
+    "chapter": "Social Movements in Our Times",
+    "level": "H",
+    "title": "Social Movements in Our Times – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-20.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-SOC-03",
+    "recommendedDate": "2026-12-13",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 20,
+    "sourcePrintedPages": {
+      "from": 288,
+      "to": 303
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q01",
+        "question": "Why can social movements remain important between elections?",
+        "options": [
+          "Only elected officials may discuss policy",
+          "Every election resolves every grievance permanently",
+          "They bring neglected concerns into public debate and press for accountability",
+          "Citizens have no role after voting"
+        ],
+        "answer": 2,
+        "explanation": "Democratic participation extends beyond periodic ballots.",
+        "difficulty": "Hard",
+        "topic": "Why can social movements remain important between elections?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q02",
+        "question": "How should a movement's claim to represent affected people be assessed?",
+        "options": [
+          "Count only social-media slogans",
+          "Examine participation, evidence, inclusion and whose voices are heard",
+          "Assume its name proves universal representation",
+          "Ignore internal diversity"
+        ],
+        "answer": 1,
+        "explanation": "Movements can contain different interests and should be evaluated critically.",
+        "difficulty": "Hard",
+        "topic": "How should a movement's claim to represent affected people be assessed?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q03",
+        "question": "Why can environmental and livelihood movements overlap?",
+        "options": [
+          "Ecosystem damage can also threaten work, homes and local cultures",
+          "Environment has no connection to daily life",
+          "All conservation requires removing every resident",
+          "Livelihoods depend only on cash payments"
+        ],
+        "answer": 0,
+        "explanation": "Natural-resource decisions often have linked ecological and social effects.",
+        "difficulty": "Hard",
+        "topic": "Why can environmental and livelihood movements overlap?",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. US civil rights movement — movement or collective-action concept: A struggle against racial discrimination\nII. Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions\nIII. Petitioning — broader democratic significance: It replaces all forms of decision-making permanently",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: US civil rights movement — movement or collective-action concept: A struggle against racial discrimination; Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions; Petitioning — broader democratic significance: Offers a channel for organised participation.",
+        "difficulty": "Hard",
+        "topic": "US civil rights movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. US civil rights movement — central concern: Address issues such as discrimination, violence and representation\nII. Narmada Bachao Andolan — broader democratic significance: It was a movement supporting Nazi racial policy\nIII. Petitioning — movement or collective-action concept: A formal presentation of collective demands",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: US civil rights movement — central concern: Challenged segregation and unequal rights; Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates; Petitioning — movement or collective-action concept: A formal presentation of collective demands.",
+        "difficulty": "Hard",
+        "topic": "US civil rights movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. US civil rights movement — broader democratic significance: Expanded demands for equal citizenship\nII. Narmada Bachao Andolan — movement or collective-action concept: Collective action concerning ecological harm\nIII. Petitioning — central concern: Communicates grievances or requested changes to an authority",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: US civil rights movement — broader democratic significance: Expanded demands for equal citizenship; Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley; Petitioning — central concern: Communicates grievances or requested changes to an authority.",
+        "difficulty": "Hard",
+        "topic": "US civil rights movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Anti-apartheid movement — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley\nII. Peace movements — central concern: Can challenge nuclear weapons and armed conflict\nIII. Public accountability — broader democratic significance: Remains important between elections as well as during them",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa; Peace movements — central concern: Can challenge nuclear weapons and armed conflict; Public accountability — broader democratic significance: Remains important between elections as well as during them.",
+        "difficulty": "Hard",
+        "topic": "Anti-apartheid movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority\nII. Peace movements — broader democratic significance: Bring security and survival questions into public debate\nIII. Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority; Peace movements — broader democratic significance: Bring security and survival questions into public debate; Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions.",
+        "difficulty": "Hard",
+        "topic": "Anti-apartheid movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Anti-apartheid movement — broader democratic significance: It had no connection to political rights\nII. Peace movements — movement or collective-action concept: A formal presentation of collective demands\nIII. Public accountability — central concern: Communicates grievances or requested changes to an authority",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination; Peace movements — movement or collective-action concept: Collective action opposing war and militarisation; Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions.",
+        "difficulty": "Hard",
+        "topic": "Anti-apartheid movement · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Women's movements — movement or collective-action concept: Collective action around gender inequality\nII. Nonviolent protest — central concern: Requires scrutiny, information and opportunities to challenge decisions\nIII. US civil rights movement — broader democratic significance: It concerned only a tax on imported goods",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Women's movements — movement or collective-action concept: Collective action around gender inequality; Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence; US civil rights movement — broader democratic significance: Expanded demands for equal citizenship.",
+        "difficulty": "Hard",
+        "topic": "Women's movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Women's movements — central concern: Requires scrutiny, information and opportunities to challenge decisions\nII. Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument\nIII. US civil rights movement — movement or collective-action concept: Collective action around gender inequality",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Women's movements — central concern: Address issues such as discrimination, violence and representation; Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument; US civil rights movement — movement or collective-action concept: A struggle against racial discrimination.",
+        "difficulty": "Hard",
+        "topic": "Women's movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Women's movements — broader democratic significance: Broaden democratic participation and public agendas\nII. Nonviolent protest — movement or collective-action concept: A method of collective political action\nIII. US civil rights movement — central concern: Challenge damaging resource use or pollution",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Women's movements — broader democratic significance: Broaden democratic participation and public agendas; Nonviolent protest — movement or collective-action concept: A method of collective political action; US civil rights movement — central concern: Challenged segregation and unequal rights.",
+        "difficulty": "Hard",
+        "topic": "Women's movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental movements — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa\nII. Petitioning — central concern: Address issues such as discrimination, violence and representation\nIII. Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Environmental movements — movement or collective-action concept: Collective action concerning ecological harm; Petitioning — central concern: Communicates grievances or requested changes to an authority; Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination.",
+        "difficulty": "Hard",
+        "topic": "Environmental movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental movements — central concern: Challenge damaging resource use or pollution\nII. Petitioning — broader democratic significance: It replaces all forms of decision-making permanently\nIII. Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Environmental movements — central concern: Challenge damaging resource use or pollution; Petitioning — broader democratic significance: Offers a channel for organised participation; Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa.",
+        "difficulty": "Hard",
+        "topic": "Environmental movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Environmental movements — broader democratic significance: They prove ecological harm cannot affect livelihoods\nII. Petitioning — movement or collective-action concept: A formal presentation of collective demands\nIII. Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Environmental movements — broader democratic significance: Connect environmental protection with public accountability; Petitioning — movement or collective-action concept: A formal presentation of collective demands; Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority.",
+        "difficulty": "Hard",
+        "topic": "Environmental movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley\nII. Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions\nIII. Women's movements — broader democratic significance: Broaden democratic participation and public agendas",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley; Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions; Women's movements — broader democratic significance: Broaden democratic participation and public agendas.",
+        "difficulty": "Hard",
+        "topic": "Narmada Bachao Andolan · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada Bachao Andolan — central concern: Uses peaceful pressure rather than physical violence\nII. Public accountability — broader democratic significance: Scrutiny and information prevent accountability\nIII. Women's movements — movement or collective-action concept: The demand that decision-makers explain and answer for their actions",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions; Public accountability — broader democratic significance: Remains important between elections as well as during them; Women's movements — movement or collective-action concept: Collective action around gender inequality.",
+        "difficulty": "Hard",
+        "topic": "Narmada Bachao Andolan · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates\nII. Public accountability — movement or collective-action concept: A formal presentation of collective demands\nIII. Women's movements — central concern: Challenged segregation and unequal rights",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates; Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions; Women's movements — central concern: Address issues such as discrimination, violence and representation.",
+        "difficulty": "Hard",
+        "topic": "Narmada Bachao Andolan · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peace movements — movement or collective-action concept: The demand that decision-makers explain and answer for their actions\nII. US civil rights movement — central concern: Challenged segregation and unequal rights\nIII. Environmental movements — broader democratic significance: They prove ecological harm cannot affect livelihoods",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Peace movements — movement or collective-action concept: Collective action opposing war and militarisation; US civil rights movement — central concern: Challenged segregation and unequal rights; Environmental movements — broader democratic significance: Connect environmental protection with public accountability.",
+        "difficulty": "Hard",
+        "topic": "Peace movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peace movements — central concern: Can challenge nuclear weapons and armed conflict\nII. US civil rights movement — broader democratic significance: Expanded demands for equal citizenship\nIII. Environmental movements — movement or collective-action concept: Collective action around gender inequality",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Peace movements — central concern: Can challenge nuclear weapons and armed conflict; US civil rights movement — broader democratic significance: Expanded demands for equal citizenship; Environmental movements — movement or collective-action concept: Collective action concerning ecological harm.",
+        "difficulty": "Hard",
+        "topic": "Peace movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peace movements — broader democratic significance: They are identical to an arms race\nII. US civil rights movement — movement or collective-action concept: Collective action concerning ecological harm\nIII. Environmental movements — central concern: Challenge damaging resource use or pollution",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Peace movements — broader democratic significance: Bring security and survival questions into public debate; US civil rights movement — movement or collective-action concept: A struggle against racial discrimination; Environmental movements — central concern: Challenge damaging resource use or pollution.",
+        "difficulty": "Hard",
+        "topic": "Peace movements · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nonviolent protest — movement or collective-action concept: A method of collective political action\nII. Anti-apartheid movement — central concern: Raised displacement, rehabilitation and environmental questions\nIII. Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Nonviolent protest — movement or collective-action concept: A method of collective political action; Anti-apartheid movement — central concern: Opposed exclusion of the non-white majority; Narmada Bachao Andolan — broader democratic significance: Made affected communities' rights central to development debates.",
+        "difficulty": "Hard",
+        "topic": "Nonviolent protest · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nonviolent protest — central concern: Challenge damaging resource use or pollution\nII. Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination\nIII. Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence; Anti-apartheid movement — broader democratic significance: Linked political rights with the dismantling of racial domination; Narmada Bachao Andolan — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley.",
+        "difficulty": "Hard",
+        "topic": "Nonviolent protest · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument\nII. Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa\nIII. Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument; Anti-apartheid movement — movement or collective-action concept: A struggle against institutionalised racial rule in South Africa; Narmada Bachao Andolan — central concern: Raised displacement, rehabilitation and environmental questions.",
+        "difficulty": "Hard",
+        "topic": "Nonviolent protest · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Petitioning — movement or collective-action concept: Collective action opposing war and militarisation\nII. Women's movements — central concern: Communicates grievances or requested changes to an authority\nIII. Peace movements — broader democratic significance: They are identical to an arms race",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Petitioning — movement or collective-action concept: A formal presentation of collective demands; Women's movements — central concern: Address issues such as discrimination, violence and representation; Peace movements — broader democratic significance: Bring security and survival questions into public debate.",
+        "difficulty": "Hard",
+        "topic": "Petitioning · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Petitioning — central concern: Communicates grievances or requested changes to an authority\nII. Women's movements — broader democratic significance: They cannot influence democratic agendas\nIII. Peace movements — movement or collective-action concept: A struggle against racial discrimination",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Petitioning — central concern: Communicates grievances or requested changes to an authority; Women's movements — broader democratic significance: Broaden democratic participation and public agendas; Peace movements — movement or collective-action concept: Collective action opposing war and militarisation.",
+        "difficulty": "Hard",
+        "topic": "Petitioning · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Petitioning — broader democratic significance: It replaces all forms of decision-making permanently\nII. Women's movements — movement or collective-action concept: Collective action around gender inequality\nIII. Peace movements — central concern: Opposed exclusion of the non-white majority",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Petitioning — broader democratic significance: Offers a channel for organised participation; Women's movements — movement or collective-action concept: Collective action around gender inequality; Peace movements — central concern: Can challenge nuclear weapons and armed conflict.",
+        "difficulty": "Hard",
+        "topic": "Petitioning · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions\nII. Environmental movements — central concern: Challenge damaging resource use or pollution\nIII. Nonviolent protest — broader democratic significance: It never uses peaceful public pressure",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Public accountability — movement or collective-action concept: The demand that decision-makers explain and answer for their actions; Environmental movements — central concern: Challenge damaging resource use or pollution; Nonviolent protest — broader democratic significance: Can mobilise public attention and moral argument.",
+        "difficulty": "Hard",
+        "topic": "Public accountability · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public accountability — central concern: Opposed exclusion of the non-white majority\nII. Environmental movements — broader democratic significance: They prove ecological harm cannot affect livelihoods\nIII. Nonviolent protest — movement or collective-action concept: A method of collective political action",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Public accountability — central concern: Requires scrutiny, information and opportunities to challenge decisions; Environmental movements — broader democratic significance: Connect environmental protection with public accountability; Nonviolent protest — movement or collective-action concept: A method of collective political action.",
+        "difficulty": "Hard",
+        "topic": "Public accountability · comparing chapter concepts",
+        "sourceChapter": 20
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH20-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public accountability — broader democratic significance: Remains important between elections as well as during them\nII. Environmental movements — movement or collective-action concept: A movement concerning large-dam impacts in the Narmada valley\nIII. Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Public accountability — broader democratic significance: Remains important between elections as well as during them; Environmental movements — movement or collective-action concept: Collective action concerning ecological harm; Nonviolent protest — central concern: Uses peaceful pressure rather than physical violence.",
+        "difficulty": "Hard",
+        "topic": "Public accountability · comparing chapter concepts",
+        "sourceChapter": 20
+      }
+    ]
+  }
+}

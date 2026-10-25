@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH02-E": {
+    "id": "SA-DPP-27-SOC-CH02-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch2",
+    "chapterNumber": 2,
+    "chapter": "Ideas of Development",
+    "level": "E",
+    "title": "Ideas of Development – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-22",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 15,
+      "to": 28
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q01",
+        "question": "Per capita income is calculated by dividing total income by what?",
+        "options": [
+          "Number of factories",
+          "Number of rivers",
+          "Population",
+          "Land area"
+        ],
+        "answer": 2,
+        "explanation": "It is average income per person.",
+        "difficulty": "Easy",
+        "topic": "Per capita income is calculated by dividing total income by what?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q02",
+        "question": "Which is a non-income development goal?",
+        "options": [
+          "Higher export revenue only",
+          "Safety and dignity",
+          "A higher salary only",
+          "More business profit only"
+        ],
+        "answer": 1,
+        "explanation": "People value security, freedom, equality and respect as well as money.",
+        "difficulty": "Easy",
+        "topic": "Which is a non-income development goal?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q03",
+        "question": "Which service is a public facility?",
+        "options": [
+          "A government health centre",
+          "A privately owned luxury watch",
+          "A personal jewellery collection",
+          "An individual's bank locker"
+        ],
+        "answer": 0,
+        "explanation": "Public facilities serve collective needs and may be publicly provided.",
+        "difficulty": "Easy",
+        "topic": "Which service is a public facility?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q04",
+        "question": "Per capita income: which option correctly identifies the development concept?",
+        "options": [
+          "The spread of income among people or groups",
+          "An education indicator",
+          "A child-survival indicator",
+          "An average income indicator"
+        ],
+        "answer": 3,
+        "explanation": "Per capita income — development concept: An average income indicator.",
+        "difficulty": "Easy",
+        "topic": "Per capita income · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q05",
+        "question": "Per capita income: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Deaths before age one per thousand live births",
+          "Expected years of life under the relevant mortality conditions",
+          "Total income divided by population",
+          "The proportion of people meeting the specified literacy criterion"
+        ],
+        "answer": 2,
+        "explanation": "Per capita income — what it measures or emphasises: Total income divided by population.",
+        "difficulty": "Easy",
+        "topic": "Per capita income · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q06",
+        "question": "Per capita income: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "Measures each person's exact earnings",
+          "Does not show how income is distributed",
+          "Automatically measures political freedom",
+          "Proves all household incomes are identical"
+        ],
+        "answer": 1,
+        "explanation": "Per capita income — important limitation or implication: Does not show how income is distributed.",
+        "difficulty": "Easy",
+        "topic": "Per capita income · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q07",
+        "question": "Income distribution: which option correctly identifies the development concept?",
+        "options": [
+          "The spread of income among people or groups",
+          "An education indicator",
+          "A child-survival indicator",
+          "A population-health indicator"
+        ],
+        "answer": 0,
+        "explanation": "Income distribution — development concept: The spread of income among people or groups.",
+        "difficulty": "Easy",
+        "topic": "Income distribution · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q08",
+        "question": "Income distribution: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Deaths before age one per thousand live births",
+          "Expected years of life under the relevant mortality conditions",
+          "Access to services such as schooling, water and healthcare",
+          "Who receives different shares of total income"
+        ],
+        "answer": 3,
+        "explanation": "Income distribution — what it measures or emphasises: Who receives different shares of total income.",
+        "difficulty": "Easy",
+        "topic": "Income distribution · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q09",
+        "question": "Income distribution: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "No income differences can exist within a country",
+          "Distribution is irrelevant whenever total income rises",
+          "Equal averages can coexist with unequal distributions",
+          "An equal average guarantees equal distribution"
+        ],
+        "answer": 2,
+        "explanation": "Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions.",
+        "difficulty": "Easy",
+        "topic": "Income distribution · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q10",
+        "question": "Literacy rate: which option correctly identifies the development concept?",
+        "options": [
+          "Collectively important services",
+          "An education indicator",
+          "A child-survival indicator",
+          "A population-health indicator"
+        ],
+        "answer": 1,
+        "explanation": "Literacy rate — development concept: An education indicator.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q11",
+        "question": "Literacy rate: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "The proportion of people meeting the specified literacy criterion",
+          "Expected years of life under the relevant mortality conditions",
+          "Access to services such as schooling, water and healthcare",
+          "Safety, dignity, freedom and respect"
+        ],
+        "answer": 0,
+        "explanation": "Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q12",
+        "question": "Literacy rate: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "Literacy means every student has identical learning",
+          "Income figures make education measures unnecessary",
+          "Literacy rates directly measure household income equality",
+          "Education outcomes require measures beyond income"
+        ],
+        "answer": 3,
+        "explanation": "Literacy rate — important limitation or implication: Education outcomes require measures beyond income.",
+        "difficulty": "Easy",
+        "topic": "Literacy rate · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q13",
+        "question": "Infant mortality rate: which option correctly identifies the development concept?",
+        "options": [
+          "Collectively important services",
+          "Dimensions of wellbeing beyond earnings",
+          "A child-survival indicator",
+          "A population-health indicator"
+        ],
+        "answer": 2,
+        "explanation": "Infant mortality rate — development concept: A child-survival indicator.",
+        "difficulty": "Easy",
+        "topic": "Infant mortality rate · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q14",
+        "question": "Infant mortality rate: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Meeting present needs without undermining future needs",
+          "Deaths before age one per thousand live births",
+          "Access to services such as schooling, water and healthcare",
+          "Safety, dignity, freedom and respect"
+        ],
+        "answer": 1,
+        "explanation": "Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births.",
+        "difficulty": "Easy",
+        "topic": "Infant mortality rate · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q15",
+        "question": "Infant mortality rate: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "Lower values generally indicate better child-survival conditions",
+          "It is measured per square kilometre",
+          "A higher infant mortality rate indicates better child survival",
+          "It counts deaths among all adults"
+        ],
+        "answer": 0,
+        "explanation": "Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions.",
+        "difficulty": "Easy",
+        "topic": "Infant mortality rate · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q16",
+        "question": "Life expectancy: which option correctly identifies the development concept?",
+        "options": [
+          "Collectively important services",
+          "Dimensions of wellbeing beyond earnings",
+          "An intergenerational development concern",
+          "A population-health indicator"
+        ],
+        "answer": 3,
+        "explanation": "Life expectancy — development concept: A population-health indicator.",
+        "difficulty": "Easy",
+        "topic": "Life expectancy · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q17",
+        "question": "Life expectancy: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Meeting present needs without undermining future needs",
+          "One group's gain can impose costs on another",
+          "Expected years of life under the relevant mortality conditions",
+          "Safety, dignity, freedom and respect"
+        ],
+        "answer": 2,
+        "explanation": "Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions.",
+        "difficulty": "Easy",
+        "topic": "Life expectancy · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q18",
+        "question": "Life expectancy: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "It counts only school attendance",
+          "Summarises survival rather than income distribution",
+          "It gives every individual's guaranteed age at death",
+          "It directly reports income inequality"
+        ],
+        "answer": 1,
+        "explanation": "Life expectancy — important limitation or implication: Summarises survival rather than income distribution.",
+        "difficulty": "Easy",
+        "topic": "Life expectancy · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q19",
+        "question": "Public facilities: which option correctly identifies the development concept?",
+        "options": [
+          "Collectively important services",
+          "Dimensions of wellbeing beyond earnings",
+          "An intergenerational development concern",
+          "Differences in interests among groups"
+        ],
+        "answer": 0,
+        "explanation": "Public facilities — development concept: Collectively important services.",
+        "difficulty": "Easy",
+        "topic": "Public facilities · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q20",
+        "question": "Public facilities: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Meeting present needs without undermining future needs",
+          "One group's gain can impose costs on another",
+          "Total income divided by population",
+          "Access to services such as schooling, water and healthcare"
+        ],
+        "answer": 3,
+        "explanation": "Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare.",
+        "difficulty": "Easy",
+        "topic": "Public facilities · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q21",
+        "question": "Public facilities: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "A higher private income eliminates every need for public infrastructure",
+          "Only wealthy individuals can benefit from clean public water",
+          "Private income alone may not provide adequate shared infrastructure",
+          "Public facilities are never shared services"
+        ],
+        "answer": 2,
+        "explanation": "Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure.",
+        "difficulty": "Easy",
+        "topic": "Public facilities · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q22",
+        "question": "Non-income goals: which option correctly identifies the development concept?",
+        "options": [
+          "An average income indicator",
+          "Dimensions of wellbeing beyond earnings",
+          "An intergenerational development concern",
+          "Differences in interests among groups"
+        ],
+        "answer": 1,
+        "explanation": "Non-income goals — development concept: Dimensions of wellbeing beyond earnings.",
+        "difficulty": "Easy",
+        "topic": "Non-income goals · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q23",
+        "question": "Non-income goals: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "Safety, dignity, freedom and respect",
+          "One group's gain can impose costs on another",
+          "Total income divided by population",
+          "Who receives different shares of total income"
+        ],
+        "answer": 0,
+        "explanation": "Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect.",
+        "difficulty": "Easy",
+        "topic": "Non-income goals · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q24",
+        "question": "Non-income goals: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "All people have identical non-income priorities",
+          "Safety and dignity are never development concerns",
+          "Only earnings can be valued by people",
+          "People can value outcomes not captured in monetary income"
+        ],
+        "answer": 3,
+        "explanation": "Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income.",
+        "difficulty": "Easy",
+        "topic": "Non-income goals · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q25",
+        "question": "Sustainable development: which option correctly identifies the development concept?",
+        "options": [
+          "An average income indicator",
+          "The spread of income among people or groups",
+          "An intergenerational development concern",
+          "Differences in interests among groups"
+        ],
+        "answer": 2,
+        "explanation": "Sustainable development — development concept: An intergenerational development concern.",
+        "difficulty": "Easy",
+        "topic": "Sustainable development · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q26",
+        "question": "Sustainable development: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "The proportion of people meeting the specified literacy criterion",
+          "Meeting present needs without undermining future needs",
+          "Total income divided by population",
+          "Who receives different shares of total income"
+        ],
+        "answer": 1,
+        "explanation": "Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs.",
+        "difficulty": "Easy",
+        "topic": "Sustainable development · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q27",
+        "question": "Sustainable development: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "Resource depletion can harm future opportunities",
+          "Future resource availability is irrelevant",
+          "Present growth guarantees all future needs",
+          "Non-renewable stocks cannot be depleted"
+        ],
+        "answer": 0,
+        "explanation": "Sustainable development — important limitation or implication: Resource depletion can harm future opportunities.",
+        "difficulty": "Easy",
+        "topic": "Sustainable development · important limitation or implication",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q28",
+        "question": "Conflicting development goals: which option correctly identifies the development concept?",
+        "options": [
+          "An average income indicator",
+          "The spread of income among people or groups",
+          "An education indicator",
+          "Differences in interests among groups"
+        ],
+        "answer": 3,
+        "explanation": "Conflicting development goals — development concept: Differences in interests among groups.",
+        "difficulty": "Easy",
+        "topic": "Conflicting development goals · development concept",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q29",
+        "question": "Conflicting development goals: which option correctly identifies the what it measures or emphasises?",
+        "options": [
+          "The proportion of people meeting the specified literacy criterion",
+          "Deaths before age one per thousand live births",
+          "One group's gain can impose costs on another",
+          "Who receives different shares of total income"
+        ],
+        "answer": 2,
+        "explanation": "Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another.",
+        "difficulty": "Easy",
+        "topic": "Conflicting development goals · what it measures or emphasises",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-E-Q30",
+        "question": "Conflicting development goals: which option correctly identifies the important limitation or implication?",
+        "options": [
+          "Every project gives identical gains to all groups",
+          "Project assessment should consider affected people's perspectives",
+          "Development goals never conflict",
+          "Affected communities' losses cannot matter"
+        ],
+        "answer": 1,
+        "explanation": "Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives.",
+        "difficulty": "Easy",
+        "topic": "Conflicting development goals · important limitation or implication",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH02-M": {
+    "id": "SA-DPP-27-SOC-CH02-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch2",
+    "chapterNumber": 2,
+    "chapter": "Ideas of Development",
+    "level": "M",
+    "title": "Ideas of Development – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 15,
+      "to": 28
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q01",
+        "question": "Two regions have the same average income. Can income inequality still differ?",
+        "options": [
+          "Only if their populations are zero",
+          "Yes, averages can hide distribution",
+          "No, averages prove identical distributions",
+          "No, both must have zero poverty"
+        ],
+        "answer": 1,
+        "explanation": "The same total per person can coexist with very different individual incomes.",
+        "difficulty": "Medium",
+        "topic": "Two regions have the same average income. Can income inequality still differ?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q02",
+        "question": "A state has high income but poor child health. What does this suggest?",
+        "options": [
+          "Income alone is an incomplete measure of development",
+          "Health is irrelevant to development",
+          "All residents are equally healthy",
+          "Schooling must be excellent"
+        ],
+        "answer": 0,
+        "explanation": "Development assessment also needs health, education and distribution indicators.",
+        "difficulty": "Medium",
+        "topic": "A state has high income but poor child health. What does this suggest?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q03",
+        "question": "Why might workers and factory owners disagree over a development project?",
+        "options": [
+          "Everyone always has identical interests",
+          "Only owners can have goals",
+          "Workers cannot value income",
+          "Their benefits, costs and priorities may differ"
+        ],
+        "answer": 3,
+        "explanation": "Groups occupy different positions and may experience the same project differently.",
+        "difficulty": "Medium",
+        "topic": "Why might workers and factory owners disagree over a development project?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q04",
+        "question": "Which pair correctly matches Per capita income with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "An average income indicator → Who receives different shares of total income",
+          "An education indicator → The proportion of people meeting the specified literacy criterion",
+          "An average income indicator → Total income divided by population",
+          "The spread of income among people or groups → Total income divided by population"
+        ],
+        "answer": 2,
+        "explanation": "Per capita income — development concept: An average income indicator. Per capita income — what it measures or emphasises: Total income divided by population. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Per capita income",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q05",
+        "question": "Which pair correctly matches Per capita income with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Deaths before age one per thousand live births → Measures each person's exact earnings",
+          "Total income divided by population → Does not show how income is distributed",
+          "The proportion of people meeting the specified literacy criterion → Does not show how income is distributed",
+          "Total income divided by population → Proves all household incomes are identical"
+        ],
+        "answer": 1,
+        "explanation": "Per capita income — what it measures or emphasises: Total income divided by population. Per capita income — important limitation or implication: Does not show how income is distributed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Per capita income",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q06",
+        "question": "Which pair correctly matches Per capita income with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "Does not show how income is distributed → An average income indicator",
+          "Automatically measures political freedom → An average income indicator",
+          "Does not show how income is distributed → The spread of income among people or groups",
+          "Proves all household incomes are identical → An education indicator"
+        ],
+        "answer": 0,
+        "explanation": "Per capita income — important limitation or implication: Does not show how income is distributed. Per capita income — development concept: An average income indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Per capita income",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q07",
+        "question": "Which pair correctly matches Income distribution with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "An education indicator → Who receives different shares of total income",
+          "The spread of income among people or groups → The proportion of people meeting the specified literacy criterion",
+          "A child-survival indicator → Deaths before age one per thousand live births",
+          "The spread of income among people or groups → Who receives different shares of total income"
+        ],
+        "answer": 3,
+        "explanation": "Income distribution — development concept: The spread of income among people or groups. Income distribution — what it measures or emphasises: Who receives different shares of total income. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Income distribution",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q08",
+        "question": "Which pair correctly matches Income distribution with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Who receives different shares of total income → No income differences can exist within a country",
+          "Expected years of life under the relevant mortality conditions → Distribution is irrelevant whenever total income rises",
+          "Who receives different shares of total income → Equal averages can coexist with unequal distributions",
+          "Deaths before age one per thousand live births → Equal averages can coexist with unequal distributions"
+        ],
+        "answer": 2,
+        "explanation": "Income distribution — what it measures or emphasises: Who receives different shares of total income. Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Income distribution",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q09",
+        "question": "Which pair correctly matches Income distribution with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "No income differences can exist within a country → A child-survival indicator",
+          "Equal averages can coexist with unequal distributions → The spread of income among people or groups",
+          "An equal average guarantees equal distribution → The spread of income among people or groups",
+          "Equal averages can coexist with unequal distributions → An education indicator"
+        ],
+        "answer": 1,
+        "explanation": "Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions. Income distribution — development concept: The spread of income among people or groups. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Income distribution",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q10",
+        "question": "Which pair correctly matches Literacy rate with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "An education indicator → The proportion of people meeting the specified literacy criterion",
+          "A child-survival indicator → The proportion of people meeting the specified literacy criterion",
+          "An education indicator → Deaths before age one per thousand live births",
+          "A population-health indicator → Expected years of life under the relevant mortality conditions"
+        ],
+        "answer": 0,
+        "explanation": "Literacy rate — development concept: An education indicator. Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q11",
+        "question": "Which pair correctly matches Literacy rate with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Expected years of life under the relevant mortality conditions → Education outcomes require measures beyond income",
+          "The proportion of people meeting the specified literacy criterion → Income figures make education measures unnecessary",
+          "Access to services such as schooling, water and healthcare → Literacy rates directly measure household income equality",
+          "The proportion of people meeting the specified literacy criterion → Education outcomes require measures beyond income"
+        ],
+        "answer": 3,
+        "explanation": "Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion. Literacy rate — important limitation or implication: Education outcomes require measures beyond income. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q12",
+        "question": "Which pair correctly matches Literacy rate with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "Education outcomes require measures beyond income → A child-survival indicator",
+          "Income figures make education measures unnecessary → A population-health indicator",
+          "Education outcomes require measures beyond income → An education indicator",
+          "Literacy means every student has identical learning → An education indicator"
+        ],
+        "answer": 2,
+        "explanation": "Literacy rate — important limitation or implication: Education outcomes require measures beyond income. Literacy rate — development concept: An education indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Literacy rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q13",
+        "question": "Which pair correctly matches Infant mortality rate with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "Collectively important services → Access to services such as schooling, water and healthcare",
+          "A child-survival indicator → Deaths before age one per thousand live births",
+          "A population-health indicator → Deaths before age one per thousand live births",
+          "A child-survival indicator → Expected years of life under the relevant mortality conditions"
+        ],
+        "answer": 1,
+        "explanation": "Infant mortality rate — development concept: A child-survival indicator. Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Infant mortality rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q14",
+        "question": "Which pair correctly matches Infant mortality rate with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Deaths before age one per thousand live births → Lower values generally indicate better child-survival conditions",
+          "Access to services such as schooling, water and healthcare → Lower values generally indicate better child-survival conditions",
+          "Deaths before age one per thousand live births → A higher infant mortality rate indicates better child survival",
+          "Safety, dignity, freedom and respect → It counts deaths among all adults"
+        ],
+        "answer": 0,
+        "explanation": "Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births. Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Infant mortality rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q15",
+        "question": "Which pair correctly matches Infant mortality rate with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "It is measured per square kilometre → A child-survival indicator",
+          "Lower values generally indicate better child-survival conditions → A population-health indicator",
+          "A higher infant mortality rate indicates better child survival → Collectively important services",
+          "Lower values generally indicate better child-survival conditions → A child-survival indicator"
+        ],
+        "answer": 3,
+        "explanation": "Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions. Infant mortality rate — development concept: A child-survival indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Infant mortality rate",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q16",
+        "question": "Which pair correctly matches Life expectancy with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "A population-health indicator → Access to services such as schooling, water and healthcare",
+          "Dimensions of wellbeing beyond earnings → Safety, dignity, freedom and respect",
+          "A population-health indicator → Expected years of life under the relevant mortality conditions",
+          "Collectively important services → Expected years of life under the relevant mortality conditions"
+        ],
+        "answer": 2,
+        "explanation": "Life expectancy — development concept: A population-health indicator. Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Life expectancy",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q17",
+        "question": "Which pair correctly matches Life expectancy with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Meeting present needs without undermining future needs → It counts only school attendance",
+          "Expected years of life under the relevant mortality conditions → Summarises survival rather than income distribution",
+          "Safety, dignity, freedom and respect → Summarises survival rather than income distribution",
+          "Expected years of life under the relevant mortality conditions → It directly reports income inequality"
+        ],
+        "answer": 1,
+        "explanation": "Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions. Life expectancy — important limitation or implication: Summarises survival rather than income distribution. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Life expectancy",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q18",
+        "question": "Which pair correctly matches Life expectancy with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "Summarises survival rather than income distribution → A population-health indicator",
+          "It gives every individual's guaranteed age at death → A population-health indicator",
+          "Summarises survival rather than income distribution → Collectively important services",
+          "It directly reports income inequality → Dimensions of wellbeing beyond earnings"
+        ],
+        "answer": 0,
+        "explanation": "Life expectancy — important limitation or implication: Summarises survival rather than income distribution. Life expectancy — development concept: A population-health indicator. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Life expectancy",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q19",
+        "question": "Which pair correctly matches Public facilities with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "Dimensions of wellbeing beyond earnings → Access to services such as schooling, water and healthcare",
+          "Collectively important services → Safety, dignity, freedom and respect",
+          "An intergenerational development concern → Meeting present needs without undermining future needs",
+          "Collectively important services → Access to services such as schooling, water and healthcare"
+        ],
+        "answer": 3,
+        "explanation": "Public facilities — development concept: Collectively important services. Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public facilities",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q20",
+        "question": "Which pair correctly matches Public facilities with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Access to services such as schooling, water and healthcare → A higher private income eliminates every need for public infrastructure",
+          "One group's gain can impose costs on another → Only wealthy individuals can benefit from clean public water",
+          "Access to services such as schooling, water and healthcare → Private income alone may not provide adequate shared infrastructure",
+          "Meeting present needs without undermining future needs → Private income alone may not provide adequate shared infrastructure"
+        ],
+        "answer": 2,
+        "explanation": "Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare. Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public facilities",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q21",
+        "question": "Which pair correctly matches Public facilities with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "A higher private income eliminates every need for public infrastructure → An intergenerational development concern",
+          "Private income alone may not provide adequate shared infrastructure → Collectively important services",
+          "Public facilities are never shared services → Collectively important services",
+          "Private income alone may not provide adequate shared infrastructure → Dimensions of wellbeing beyond earnings"
+        ],
+        "answer": 1,
+        "explanation": "Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure. Public facilities — development concept: Collectively important services. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public facilities",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q22",
+        "question": "Which pair correctly matches Non-income goals with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "Dimensions of wellbeing beyond earnings → Safety, dignity, freedom and respect",
+          "An intergenerational development concern → Safety, dignity, freedom and respect",
+          "Dimensions of wellbeing beyond earnings → Meeting present needs without undermining future needs",
+          "Differences in interests among groups → One group's gain can impose costs on another"
+        ],
+        "answer": 0,
+        "explanation": "Non-income goals — development concept: Dimensions of wellbeing beyond earnings. Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-income goals",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q23",
+        "question": "Which pair correctly matches Non-income goals with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "One group's gain can impose costs on another → People can value outcomes not captured in monetary income",
+          "Safety, dignity, freedom and respect → Safety and dignity are never development concerns",
+          "Total income divided by population → Only earnings can be valued by people",
+          "Safety, dignity, freedom and respect → People can value outcomes not captured in monetary income"
+        ],
+        "answer": 3,
+        "explanation": "Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect. Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-income goals",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q24",
+        "question": "Which pair correctly matches Non-income goals with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "People can value outcomes not captured in monetary income → An intergenerational development concern",
+          "Safety and dignity are never development concerns → Differences in interests among groups",
+          "People can value outcomes not captured in monetary income → Dimensions of wellbeing beyond earnings",
+          "All people have identical non-income priorities → Dimensions of wellbeing beyond earnings"
+        ],
+        "answer": 2,
+        "explanation": "Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income. Non-income goals — development concept: Dimensions of wellbeing beyond earnings. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Non-income goals",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q25",
+        "question": "Which pair correctly matches Sustainable development with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "An average income indicator → Total income divided by population",
+          "An intergenerational development concern → Meeting present needs without undermining future needs",
+          "Differences in interests among groups → Meeting present needs without undermining future needs",
+          "An intergenerational development concern → One group's gain can impose costs on another"
+        ],
+        "answer": 1,
+        "explanation": "Sustainable development — development concept: An intergenerational development concern. Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sustainable development",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q26",
+        "question": "Which pair correctly matches Sustainable development with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "Meeting present needs without undermining future needs → Resource depletion can harm future opportunities",
+          "Total income divided by population → Resource depletion can harm future opportunities",
+          "Meeting present needs without undermining future needs → Present growth guarantees all future needs",
+          "Who receives different shares of total income → Non-renewable stocks cannot be depleted"
+        ],
+        "answer": 0,
+        "explanation": "Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs. Sustainable development — important limitation or implication: Resource depletion can harm future opportunities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sustainable development",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q27",
+        "question": "Which pair correctly matches Sustainable development with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "Future resource availability is irrelevant → An intergenerational development concern",
+          "Resource depletion can harm future opportunities → Differences in interests among groups",
+          "Present growth guarantees all future needs → An average income indicator",
+          "Resource depletion can harm future opportunities → An intergenerational development concern"
+        ],
+        "answer": 3,
+        "explanation": "Sustainable development — important limitation or implication: Resource depletion can harm future opportunities. Sustainable development — development concept: An intergenerational development concern. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sustainable development",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q28",
+        "question": "Which pair correctly matches Conflicting development goals with its development concept and what it measures or emphasises, in that order?",
+        "options": [
+          "Differences in interests among groups → Total income divided by population",
+          "The spread of income among people or groups → Who receives different shares of total income",
+          "Differences in interests among groups → One group's gain can impose costs on another",
+          "An average income indicator → One group's gain can impose costs on another"
+        ],
+        "answer": 2,
+        "explanation": "Conflicting development goals — development concept: Differences in interests among groups. Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conflicting development goals",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q29",
+        "question": "Which pair correctly matches Conflicting development goals with its what it measures or emphasises and important limitation or implication, in that order?",
+        "options": [
+          "The proportion of people meeting the specified literacy criterion → Every project gives identical gains to all groups",
+          "One group's gain can impose costs on another → Project assessment should consider affected people's perspectives",
+          "Who receives different shares of total income → Project assessment should consider affected people's perspectives",
+          "One group's gain can impose costs on another → Affected communities' losses cannot matter"
+        ],
+        "answer": 1,
+        "explanation": "Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another. Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conflicting development goals",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-M-Q30",
+        "question": "Which pair correctly matches Conflicting development goals with its important limitation or implication and development concept, in that order?",
+        "options": [
+          "Project assessment should consider affected people's perspectives → Differences in interests among groups",
+          "Development goals never conflict → Differences in interests among groups",
+          "Project assessment should consider affected people's perspectives → An average income indicator",
+          "Affected communities' losses cannot matter → The spread of income among people or groups"
+        ],
+        "answer": 0,
+        "explanation": "Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives. Conflicting development goals — development concept: Differences in interests among groups. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Conflicting development goals",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH02-H": {
+    "id": "SA-DPP-27-SOC-CH02-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch2",
+    "chapterNumber": 2,
+    "chapter": "Ideas of Development",
+    "level": "H",
+    "title": "Ideas of Development – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-24",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 15,
+      "to": 28
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q01",
+        "question": "A dam raises electricity output but displaces villages. Which assessment is most appropriate?",
+        "options": [
+          "Consider benefits, displacement, rehabilitation and affected people's rights",
+          "Count only electricity generated",
+          "Ignore costs paid by poorer groups",
+          "Assume every resident gains equally"
+        ],
+        "answer": 0,
+        "explanation": "Development evaluation should consider who gains and who bears social and environmental costs.",
+        "difficulty": "Hard",
+        "topic": "A dam raises electricity output but displaces villages. Which assessment is most appropriate?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q02",
+        "question": "Why can public schooling improve development beyond an immediate income rise?",
+        "options": [
+          "It automatically removes every inequality",
+          "It reduces all skill levels",
+          "Its only effect is higher rainfall",
+          "It expands capabilities and future opportunities"
+        ],
+        "answer": 3,
+        "explanation": "Education supports participation, health understanding and future livelihoods.",
+        "difficulty": "Hard",
+        "topic": "Why can public schooling improve development beyond an immediate income rise?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q03",
+        "question": "What is a limitation of comparing countries using per capita income alone?",
+        "options": [
+          "It reports each person's exact income",
+          "It proves environmental sustainability",
+          "It omits distribution and many dimensions of wellbeing",
+          "It directly measures all freedoms"
+        ],
+        "answer": 2,
+        "explanation": "An income average cannot by itself represent health, equality, rights or ecological conditions.",
+        "difficulty": "Hard",
+        "topic": "What is a limitation of comparing countries using per capita income alone?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Per capita income — development concept: An average income indicator\nII. Life expectancy — what it measures or emphasises: Who receives different shares of total income\nIII. Sustainable development — important limitation or implication: Non-renewable stocks cannot be depleted",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Per capita income — development concept: An average income indicator; Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions; Sustainable development — important limitation or implication: Resource depletion can harm future opportunities.",
+        "difficulty": "Hard",
+        "topic": "Per capita income · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Per capita income — what it measures or emphasises: The proportion of people meeting the specified literacy criterion\nII. Life expectancy — important limitation or implication: Summarises survival rather than income distribution\nIII. Sustainable development — development concept: A child-survival indicator",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Per capita income — what it measures or emphasises: Total income divided by population; Life expectancy — important limitation or implication: Summarises survival rather than income distribution; Sustainable development — development concept: An intergenerational development concern.",
+        "difficulty": "Hard",
+        "topic": "Per capita income · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Per capita income — important limitation or implication: Does not show how income is distributed\nII. Life expectancy — development concept: A population-health indicator\nIII. Sustainable development — what it measures or emphasises: Expected years of life under the relevant mortality conditions",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Per capita income — important limitation or implication: Does not show how income is distributed; Life expectancy — development concept: A population-health indicator; Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs.",
+        "difficulty": "Hard",
+        "topic": "Per capita income · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Income distribution — development concept: A population-health indicator\nII. Public facilities — what it measures or emphasises: Expected years of life under the relevant mortality conditions\nIII. Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Income distribution — development concept: The spread of income among people or groups; Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare; Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives.",
+        "difficulty": "Hard",
+        "topic": "Income distribution · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Income distribution — what it measures or emphasises: Who receives different shares of total income\nII. Public facilities — important limitation or implication: A higher private income eliminates every need for public infrastructure\nIII. Conflicting development goals — development concept: Differences in interests among groups",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Income distribution — what it measures or emphasises: Who receives different shares of total income; Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure; Conflicting development goals — development concept: Differences in interests among groups.",
+        "difficulty": "Hard",
+        "topic": "Income distribution · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Income distribution — important limitation or implication: Distribution is irrelevant whenever total income rises\nII. Public facilities — development concept: Collectively important services\nIII. Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions; Public facilities — development concept: Collectively important services; Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another.",
+        "difficulty": "Hard",
+        "topic": "Income distribution · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — development concept: An education indicator\nII. Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect\nIII. Per capita income — important limitation or implication: Does not show how income is distributed",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Literacy rate — development concept: An education indicator; Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect; Per capita income — important limitation or implication: Does not show how income is distributed.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — what it measures or emphasises: One group's gain can impose costs on another\nII. Non-income goals — important limitation or implication: All people have identical non-income priorities\nIII. Per capita income — development concept: An education indicator",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion; Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income; Per capita income — development concept: An average income indicator.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Literacy rate — important limitation or implication: Education outcomes require measures beyond income\nII. Non-income goals — development concept: The spread of income among people or groups\nIII. Per capita income — what it measures or emphasises: Deaths before age one per thousand live births",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Literacy rate — important limitation or implication: Education outcomes require measures beyond income; Non-income goals — development concept: Dimensions of wellbeing beyond earnings; Per capita income — what it measures or emphasises: Total income divided by population.",
+        "difficulty": "Hard",
+        "topic": "Literacy rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Infant mortality rate — development concept: The spread of income among people or groups\nII. Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs\nIII. Income distribution — important limitation or implication: Distribution is irrelevant whenever total income rises",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Infant mortality rate — development concept: A child-survival indicator; Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs; Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions.",
+        "difficulty": "Hard",
+        "topic": "Infant mortality rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births\nII. Sustainable development — important limitation or implication: Resource depletion can harm future opportunities\nIII. Income distribution — development concept: Collectively important services",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births; Sustainable development — important limitation or implication: Resource depletion can harm future opportunities; Income distribution — development concept: The spread of income among people or groups.",
+        "difficulty": "Hard",
+        "topic": "Infant mortality rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Infant mortality rate — important limitation or implication: It is measured per square kilometre\nII. Sustainable development — development concept: A population-health indicator\nIII. Income distribution — what it measures or emphasises: Who receives different shares of total income",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions; Sustainable development — development concept: An intergenerational development concern; Income distribution — what it measures or emphasises: Who receives different shares of total income.",
+        "difficulty": "Hard",
+        "topic": "Infant mortality rate · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Life expectancy — development concept: A population-health indicator\nII. Conflicting development goals — what it measures or emphasises: Access to services such as schooling, water and healthcare\nIII. Literacy rate — important limitation or implication: Education outcomes require measures beyond income",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Life expectancy — development concept: A population-health indicator; Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another; Literacy rate — important limitation or implication: Education outcomes require measures beyond income.",
+        "difficulty": "Hard",
+        "topic": "Life expectancy · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Life expectancy — what it measures or emphasises: Safety, dignity, freedom and respect\nII. Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives\nIII. Literacy rate — development concept: An education indicator",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions; Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives; Literacy rate — development concept: An education indicator.",
+        "difficulty": "Hard",
+        "topic": "Life expectancy · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Life expectancy — important limitation or implication: Summarises survival rather than income distribution\nII. Conflicting development goals — development concept: Differences in interests among groups\nIII. Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Life expectancy — important limitation or implication: Summarises survival rather than income distribution; Conflicting development goals — development concept: Differences in interests among groups; Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion.",
+        "difficulty": "Hard",
+        "topic": "Life expectancy · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public facilities — development concept: Differences in interests among groups\nII. Per capita income — what it measures or emphasises: Who receives different shares of total income\nIII. Infant mortality rate — important limitation or implication: It is measured per square kilometre",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Public facilities — development concept: Collectively important services; Per capita income — what it measures or emphasises: Total income divided by population; Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions.",
+        "difficulty": "Hard",
+        "topic": "Public facilities · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare\nII. Per capita income — important limitation or implication: Automatically measures political freedom\nIII. Infant mortality rate — development concept: An education indicator",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare; Per capita income — important limitation or implication: Does not show how income is distributed; Infant mortality rate — development concept: A child-survival indicator.",
+        "difficulty": "Hard",
+        "topic": "Public facilities · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public facilities — important limitation or implication: A higher private income eliminates every need for public infrastructure\nII. Per capita income — development concept: An average income indicator\nIII. Infant mortality rate — what it measures or emphasises: Expected years of life under the relevant mortality conditions",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure; Per capita income — development concept: An average income indicator; Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births.",
+        "difficulty": "Hard",
+        "topic": "Public facilities · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-income goals — development concept: Dimensions of wellbeing beyond earnings\nII. Income distribution — what it measures or emphasises: Who receives different shares of total income\nIII. Life expectancy — important limitation or implication: It counts only school attendance",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Non-income goals — development concept: Dimensions of wellbeing beyond earnings; Income distribution — what it measures or emphasises: Who receives different shares of total income; Life expectancy — important limitation or implication: Summarises survival rather than income distribution.",
+        "difficulty": "Hard",
+        "topic": "Non-income goals · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-income goals — what it measures or emphasises: Deaths before age one per thousand live births\nII. Income distribution — important limitation or implication: Distribution is irrelevant whenever total income rises\nIII. Life expectancy — development concept: A population-health indicator",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect; Income distribution — important limitation or implication: Equal averages can coexist with unequal distributions; Life expectancy — development concept: A population-health indicator.",
+        "difficulty": "Hard",
+        "topic": "Non-income goals · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income\nII. Income distribution — development concept: Dimensions of wellbeing beyond earnings\nIII. Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income; Income distribution — development concept: The spread of income among people or groups; Life expectancy — what it measures or emphasises: Expected years of life under the relevant mortality conditions.",
+        "difficulty": "Hard",
+        "topic": "Non-income goals · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sustainable development — development concept: Collectively important services\nII. Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion\nIII. Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Sustainable development — development concept: An intergenerational development concern; Literacy rate — what it measures or emphasises: The proportion of people meeting the specified literacy criterion; Public facilities — important limitation or implication: Private income alone may not provide adequate shared infrastructure.",
+        "difficulty": "Hard",
+        "topic": "Sustainable development · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs\nII. Literacy rate — important limitation or implication: Education outcomes require measures beyond income\nIII. Public facilities — development concept: Collectively important services",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Sustainable development — what it measures or emphasises: Meeting present needs without undermining future needs; Literacy rate — important limitation or implication: Education outcomes require measures beyond income; Public facilities — development concept: Collectively important services.",
+        "difficulty": "Hard",
+        "topic": "Sustainable development · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sustainable development — important limitation or implication: Non-renewable stocks cannot be depleted\nII. Literacy rate — development concept: An average income indicator\nIII. Public facilities — what it measures or emphasises: Who receives different shares of total income",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Sustainable development — important limitation or implication: Resource depletion can harm future opportunities; Literacy rate — development concept: An education indicator; Public facilities — what it measures or emphasises: Access to services such as schooling, water and healthcare.",
+        "difficulty": "Hard",
+        "topic": "Sustainable development · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conflicting development goals — development concept: Differences in interests among groups\nII. Infant mortality rate — what it measures or emphasises: Who receives different shares of total income\nIII. Non-income goals — important limitation or implication: All people have identical non-income priorities",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Conflicting development goals — development concept: Differences in interests among groups; Infant mortality rate — what it measures or emphasises: Deaths before age one per thousand live births; Non-income goals — important limitation or implication: People can value outcomes not captured in monetary income.",
+        "difficulty": "Hard",
+        "topic": "Conflicting development goals · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conflicting development goals — what it measures or emphasises: Who receives different shares of total income\nII. Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions\nIII. Non-income goals — development concept: A child-survival indicator",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Conflicting development goals — what it measures or emphasises: One group's gain can impose costs on another; Infant mortality rate — important limitation or implication: Lower values generally indicate better child-survival conditions; Non-income goals — development concept: Dimensions of wellbeing beyond earnings.",
+        "difficulty": "Hard",
+        "topic": "Conflicting development goals · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH02-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives\nII. Infant mortality rate — development concept: A child-survival indicator\nIII. Non-income goals — what it measures or emphasises: Expected years of life under the relevant mortality conditions",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Conflicting development goals — important limitation or implication: Project assessment should consider affected people's perspectives; Infant mortality rate — development concept: A child-survival indicator; Non-income goals — what it measures or emphasises: Safety, dignity, freedom and respect.",
+        "difficulty": "Hard",
+        "topic": "Conflicting development goals · comparing chapter concepts",
+        "sourceChapter": 2
+      }
+    ]
+  }
+}

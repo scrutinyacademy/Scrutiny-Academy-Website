@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH04-E": {
+    "id": "SA-DPP-27-PHY-CH04-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "E",
+    "title": "Refraction of Light at Curved Surfaces – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-27",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q01",
+        "question": "A convex lens in air is generally which kind of lens?",
+        "options": [
+          "Converging",
+          "Diverging",
+          "Always plane",
+          "Always opaque"
+        ],
+        "answer": 0,
+        "explanation": "A convex lens brings parallel paraxial rays towards a focus.",
+        "difficulty": "Easy",
+        "topic": "A convex lens in air is generally which kind of lens?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q02",
+        "question": "What is the SI unit of lens power?",
+        "options": [
+          "Metre",
+          "Newton",
+          "Joule",
+          "Dioptre"
+        ],
+        "answer": 3,
+        "explanation": "Power is the reciprocal of focal length in metres.",
+        "difficulty": "Easy",
+        "topic": "What is the SI unit of lens power?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q03",
+        "question": "A concave lens forms what image of a real object?",
+        "options": [
+          "Always enlarged",
+          "Always on a screen",
+          "Virtual, erect and diminished",
+          "Always real and inverted"
+        ],
+        "answer": 2,
+        "explanation": "Its refracted rays diverge and appear to come from a smaller upright image.",
+        "difficulty": "Easy",
+        "topic": "A concave lens forms what image of a real object?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q04",
+        "question": "Convex lens: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Reciprocal of focal length in metres",
+          "A lens thicker at the centre than at the edges",
+          "A lens thinner at the centre than at the edges",
+          "A central point of the lens"
+        ],
+        "answer": 1,
+        "explanation": "Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges.",
+        "difficulty": "Easy",
+        "topic": "Convex lens · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q05",
+        "question": "Convex lens: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Converges parallel paraxial rays in air",
+          "A ray through it is approximately undeviated",
+          "P = 1/f",
+          "Focal length is positive in the Cartesian convention"
+        ],
+        "answer": 0,
+        "explanation": "Convex lens — standard property or relation: Converges parallel paraxial rays in air.",
+        "difficulty": "Easy",
+        "topic": "Convex lens · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q06",
+        "question": "Convex lens: which option correctly identifies the specific association?",
+        "options": [
+          "Measured in dioptres",
+          "A +2 D lens has focal length +0.5 m",
+          "A −2 D lens has focal length −0.5 m",
+          "Can produce a real inverted image of a distant object"
+        ],
+        "answer": 3,
+        "explanation": "Convex lens — specific association: Can produce a real inverted image of a distant object.",
+        "difficulty": "Easy",
+        "topic": "Convex lens · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q07",
+        "question": "Concave lens: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Reciprocal of focal length in metres",
+          "Power of a converging lens in air",
+          "A lens thinner at the centre than at the edges",
+          "A central point of the lens"
+        ],
+        "answer": 2,
+        "explanation": "Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges.",
+        "difficulty": "Easy",
+        "topic": "Concave lens · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q08",
+        "question": "Concave lens: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Focal length is negative in the Cartesian convention",
+          "Diverges parallel rays in air",
+          "P = 1/f",
+          "Focal length is positive in the Cartesian convention"
+        ],
+        "answer": 1,
+        "explanation": "Concave lens — standard property or relation: Diverges parallel rays in air.",
+        "difficulty": "Easy",
+        "topic": "Concave lens · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q09",
+        "question": "Concave lens: which option correctly identifies the specific association?",
+        "options": [
+          "Produces a virtual diminished image of a real object",
+          "A +2 D lens has focal length +0.5 m",
+          "A −2 D lens has focal length −0.5 m",
+          "Distances use a consistent Cartesian sign convention"
+        ],
+        "answer": 0,
+        "explanation": "Concave lens — specific association: Produces a virtual diminished image of a real object.",
+        "difficulty": "Easy",
+        "topic": "Concave lens · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q10",
+        "question": "Optical centre of a thin lens: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Reciprocal of focal length in metres",
+          "Power of a converging lens in air",
+          "Power of a diverging lens in air",
+          "A central point of the lens"
+        ],
+        "answer": 3,
+        "explanation": "Optical centre of a thin lens — lens or optical quantity: A central point of the lens.",
+        "difficulty": "Easy",
+        "topic": "Optical centre of a thin lens · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q11",
+        "question": "Optical centre of a thin lens: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Focal length is negative in the Cartesian convention",
+          "1/f = 1/v − 1/u",
+          "A ray through it is approximately undeviated",
+          "Focal length is positive in the Cartesian convention"
+        ],
+        "answer": 2,
+        "explanation": "Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated.",
+        "difficulty": "Easy",
+        "topic": "Optical centre of a thin lens · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q12",
+        "question": "Optical centre of a thin lens: which option correctly identifies the specific association?",
+        "options": [
+          "Negative magnification indicates an inverted image",
+          "Used to construct lens ray diagrams",
+          "A −2 D lens has focal length −0.5 m",
+          "Distances use a consistent Cartesian sign convention"
+        ],
+        "answer": 1,
+        "explanation": "Optical centre of a thin lens — specific association: Used to construct lens ray diagrams.",
+        "difficulty": "Easy",
+        "topic": "Optical centre of a thin lens · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q13",
+        "question": "Power of a lens: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Reciprocal of focal length in metres",
+          "Power of a converging lens in air",
+          "Power of a diverging lens in air",
+          "Relation between object distance, image distance and focal length"
+        ],
+        "answer": 0,
+        "explanation": "Power of a lens — lens or optical quantity: Reciprocal of focal length in metres.",
+        "difficulty": "Easy",
+        "topic": "Power of a lens · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q14",
+        "question": "Power of a lens: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Focal length is negative in the Cartesian convention",
+          "1/f = 1/v − 1/u",
+          "m = v/u",
+          "P = 1/f"
+        ],
+        "answer": 3,
+        "explanation": "Power of a lens — standard property or relation: P = 1/f.",
+        "difficulty": "Easy",
+        "topic": "Power of a lens · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q15",
+        "question": "Power of a lens: which option correctly identifies the specific association?",
+        "options": [
+          "Negative magnification indicates an inverted image",
+          "A +3 D lens and −1 D lens combine to +2 D",
+          "Measured in dioptres",
+          "Distances use a consistent Cartesian sign convention"
+        ],
+        "answer": 2,
+        "explanation": "Power of a lens — specific association: Measured in dioptres.",
+        "difficulty": "Easy",
+        "topic": "Power of a lens · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q16",
+        "question": "Positive lens power: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Ratio of image height to object height",
+          "Power of a converging lens in air",
+          "Power of a diverging lens in air",
+          "Relation between object distance, image distance and focal length"
+        ],
+        "answer": 1,
+        "explanation": "Positive lens power — lens or optical quantity: Power of a converging lens in air.",
+        "difficulty": "Easy",
+        "topic": "Positive lens power · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q17",
+        "question": "Positive lens power: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Focal length is positive in the Cartesian convention",
+          "1/f = 1/v − 1/u",
+          "m = v/u",
+          "Equivalent power equals the sum of individual powers"
+        ],
+        "answer": 0,
+        "explanation": "Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention.",
+        "difficulty": "Easy",
+        "topic": "Positive lens power · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q18",
+        "question": "Positive lens power: which option correctly identifies the specific association?",
+        "options": [
+          "Negative magnification indicates an inverted image",
+          "A +3 D lens and −1 D lens combine to +2 D",
+          "Can produce a real inverted image of a distant object",
+          "A +2 D lens has focal length +0.5 m"
+        ],
+        "answer": 3,
+        "explanation": "Positive lens power — specific association: A +2 D lens has focal length +0.5 m.",
+        "difficulty": "Easy",
+        "topic": "Positive lens power · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q19",
+        "question": "Negative lens power: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Ratio of image height to object height",
+          "A combination of thin lenses with negligible separation",
+          "Power of a diverging lens in air",
+          "Relation between object distance, image distance and focal length"
+        ],
+        "answer": 2,
+        "explanation": "Negative lens power — lens or optical quantity: Power of a diverging lens in air.",
+        "difficulty": "Easy",
+        "topic": "Negative lens power · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q20",
+        "question": "Negative lens power: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Converges parallel paraxial rays in air",
+          "Focal length is negative in the Cartesian convention",
+          "m = v/u",
+          "Equivalent power equals the sum of individual powers"
+        ],
+        "answer": 1,
+        "explanation": "Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention.",
+        "difficulty": "Easy",
+        "topic": "Negative lens power · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q21",
+        "question": "Negative lens power: which option correctly identifies the specific association?",
+        "options": [
+          "A −2 D lens has focal length −0.5 m",
+          "A +3 D lens and −1 D lens combine to +2 D",
+          "Can produce a real inverted image of a distant object",
+          "Produces a virtual diminished image of a real object"
+        ],
+        "answer": 0,
+        "explanation": "Negative lens power — specific association: A −2 D lens has focal length −0.5 m.",
+        "difficulty": "Easy",
+        "topic": "Negative lens power · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q22",
+        "question": "Thin-lens formula: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Ratio of image height to object height",
+          "A combination of thin lenses with negligible separation",
+          "A lens thicker at the centre than at the edges",
+          "Relation between object distance, image distance and focal length"
+        ],
+        "answer": 3,
+        "explanation": "Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length.",
+        "difficulty": "Easy",
+        "topic": "Thin-lens formula · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q23",
+        "question": "Thin-lens formula: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Converges parallel paraxial rays in air",
+          "Diverges parallel rays in air",
+          "1/f = 1/v − 1/u",
+          "Equivalent power equals the sum of individual powers"
+        ],
+        "answer": 2,
+        "explanation": "Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u.",
+        "difficulty": "Easy",
+        "topic": "Thin-lens formula · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q24",
+        "question": "Thin-lens formula: which option correctly identifies the specific association?",
+        "options": [
+          "Used to construct lens ray diagrams",
+          "Distances use a consistent Cartesian sign convention",
+          "Can produce a real inverted image of a distant object",
+          "Produces a virtual diminished image of a real object"
+        ],
+        "answer": 1,
+        "explanation": "Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention.",
+        "difficulty": "Easy",
+        "topic": "Thin-lens formula · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q25",
+        "question": "Linear lens magnification: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "Ratio of image height to object height",
+          "A combination of thin lenses with negligible separation",
+          "A lens thicker at the centre than at the edges",
+          "A lens thinner at the centre than at the edges"
+        ],
+        "answer": 0,
+        "explanation": "Linear lens magnification — lens or optical quantity: Ratio of image height to object height.",
+        "difficulty": "Easy",
+        "topic": "Linear lens magnification · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q26",
+        "question": "Linear lens magnification: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Converges parallel paraxial rays in air",
+          "Diverges parallel rays in air",
+          "A ray through it is approximately undeviated",
+          "m = v/u"
+        ],
+        "answer": 3,
+        "explanation": "Linear lens magnification — standard property or relation: m = v/u.",
+        "difficulty": "Easy",
+        "topic": "Linear lens magnification · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q27",
+        "question": "Linear lens magnification: which option correctly identifies the specific association?",
+        "options": [
+          "Used to construct lens ray diagrams",
+          "Measured in dioptres",
+          "Negative magnification indicates an inverted image",
+          "Produces a virtual diminished image of a real object"
+        ],
+        "answer": 2,
+        "explanation": "Linear lens magnification — specific association: Negative magnification indicates an inverted image.",
+        "difficulty": "Easy",
+        "topic": "Linear lens magnification · specific association",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q28",
+        "question": "Lenses in contact: which option correctly identifies the lens or optical quantity?",
+        "options": [
+          "A central point of the lens",
+          "A combination of thin lenses with negligible separation",
+          "A lens thicker at the centre than at the edges",
+          "A lens thinner at the centre than at the edges"
+        ],
+        "answer": 1,
+        "explanation": "Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation.",
+        "difficulty": "Easy",
+        "topic": "Lenses in contact · lens or optical quantity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q29",
+        "question": "Lenses in contact: which option correctly identifies the standard property or relation?",
+        "options": [
+          "Equivalent power equals the sum of individual powers",
+          "Diverges parallel rays in air",
+          "A ray through it is approximately undeviated",
+          "P = 1/f"
+        ],
+        "answer": 0,
+        "explanation": "Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers.",
+        "difficulty": "Easy",
+        "topic": "Lenses in contact · standard property or relation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-E-Q30",
+        "question": "Lenses in contact: which option correctly identifies the specific association?",
+        "options": [
+          "Used to construct lens ray diagrams",
+          "Measured in dioptres",
+          "A +2 D lens has focal length +0.5 m",
+          "A +3 D lens and −1 D lens combine to +2 D"
+        ],
+        "answer": 3,
+        "explanation": "Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D.",
+        "difficulty": "Easy",
+        "topic": "Lenses in contact · specific association",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH04-M": {
+    "id": "SA-DPP-27-PHY-CH04-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "M",
+    "title": "Refraction of Light at Curved Surfaces – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-28",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q01",
+        "question": "A convex lens has focal length 25 cm. Find its power.",
+        "options": [
+          "−4 D",
+          "+0.04 D",
+          "+25 D",
+          "+4 D"
+        ],
+        "answer": 3,
+        "explanation": "P=1/0.25=+4 dioptres.",
+        "difficulty": "Medium",
+        "topic": "A convex lens has focal length 25 cm. Find its power.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q02",
+        "question": "For a convex lens f=+10 cm and u=−20 cm, find v.",
+        "options": [
+          "+10 cm",
+          "+5 cm",
+          "+20 cm",
+          "−20 cm"
+        ],
+        "answer": 2,
+        "explanation": "Use 1/f=1/v−1/u; 1/v=1/10−1/20.",
+        "difficulty": "Medium",
+        "topic": "For a convex lens f=+10 cm and u=−20 cm, find v.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q03",
+        "question": "An object is placed within a convex lens's focal length. What image forms?",
+        "options": [
+          "No image at all",
+          "Virtual, erect and enlarged",
+          "Real, inverted and diminished",
+          "Real and same size"
+        ],
+        "answer": 1,
+        "explanation": "The emerging rays diverge and their backward extensions meet on the object side.",
+        "difficulty": "Medium",
+        "topic": "An object is placed within a convex lens's focal length. What image forms?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q04",
+        "question": "Which pair correctly matches Convex lens with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "A lens thicker at the centre than at the edges → Converges parallel paraxial rays in air",
+          "A lens thinner at the centre than at the edges → Converges parallel paraxial rays in air",
+          "A lens thicker at the centre than at the edges → Diverges parallel rays in air",
+          "A central point of the lens → A ray through it is approximately undeviated"
+        ],
+        "answer": 0,
+        "explanation": "Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges. Convex lens — standard property or relation: Converges parallel paraxial rays in air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q05",
+        "question": "Which pair correctly matches Convex lens with its standard property or relation and specific association, in that order?",
+        "options": [
+          "A ray through it is approximately undeviated → Can produce a real inverted image of a distant object",
+          "Converges parallel paraxial rays in air → Produces a virtual diminished image of a real object",
+          "P = 1/f → Used to construct lens ray diagrams",
+          "Converges parallel paraxial rays in air → Can produce a real inverted image of a distant object"
+        ],
+        "answer": 3,
+        "explanation": "Convex lens — standard property or relation: Converges parallel paraxial rays in air. Convex lens — specific association: Can produce a real inverted image of a distant object. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q06",
+        "question": "Which pair correctly matches Convex lens with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "Can produce a real inverted image of a distant object → A lens thinner at the centre than at the edges",
+          "A +2 D lens has focal length +0.5 m → A central point of the lens",
+          "Can produce a real inverted image of a distant object → A lens thicker at the centre than at the edges",
+          "Measured in dioptres → A lens thicker at the centre than at the edges"
+        ],
+        "answer": 2,
+        "explanation": "Convex lens — specific association: Can produce a real inverted image of a distant object. Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q07",
+        "question": "Which pair correctly matches Concave lens with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "Reciprocal of focal length in metres → P = 1/f",
+          "A lens thinner at the centre than at the edges → Diverges parallel rays in air",
+          "A central point of the lens → Diverges parallel rays in air",
+          "A lens thinner at the centre than at the edges → A ray through it is approximately undeviated"
+        ],
+        "answer": 1,
+        "explanation": "Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges. Concave lens — standard property or relation: Diverges parallel rays in air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q08",
+        "question": "Which pair correctly matches Concave lens with its standard property or relation and specific association, in that order?",
+        "options": [
+          "Diverges parallel rays in air → Produces a virtual diminished image of a real object",
+          "P = 1/f → Produces a virtual diminished image of a real object",
+          "Diverges parallel rays in air → Used to construct lens ray diagrams",
+          "Focal length is positive in the Cartesian convention → Measured in dioptres"
+        ],
+        "answer": 0,
+        "explanation": "Concave lens — standard property or relation: Diverges parallel rays in air. Concave lens — specific association: Produces a virtual diminished image of a real object. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q09",
+        "question": "Which pair correctly matches Concave lens with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "A +2 D lens has focal length +0.5 m → A lens thinner at the centre than at the edges",
+          "Produces a virtual diminished image of a real object → A central point of the lens",
+          "A −2 D lens has focal length −0.5 m → Reciprocal of focal length in metres",
+          "Produces a virtual diminished image of a real object → A lens thinner at the centre than at the edges"
+        ],
+        "answer": 3,
+        "explanation": "Concave lens — specific association: Produces a virtual diminished image of a real object. Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q10",
+        "question": "Which pair correctly matches Optical centre of a thin lens with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "A central point of the lens → P = 1/f",
+          "Power of a converging lens in air → Focal length is positive in the Cartesian convention",
+          "A central point of the lens → A ray through it is approximately undeviated",
+          "Reciprocal of focal length in metres → A ray through it is approximately undeviated"
+        ],
+        "answer": 2,
+        "explanation": "Optical centre of a thin lens — lens or optical quantity: A central point of the lens. Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Optical centre of a thin lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q11",
+        "question": "Which pair correctly matches Optical centre of a thin lens with its standard property or relation and specific association, in that order?",
+        "options": [
+          "Focal length is negative in the Cartesian convention → A +2 D lens has focal length +0.5 m",
+          "A ray through it is approximately undeviated → Used to construct lens ray diagrams",
+          "Focal length is positive in the Cartesian convention → Used to construct lens ray diagrams",
+          "A ray through it is approximately undeviated → Measured in dioptres"
+        ],
+        "answer": 1,
+        "explanation": "Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated. Optical centre of a thin lens — specific association: Used to construct lens ray diagrams. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Optical centre of a thin lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q12",
+        "question": "Which pair correctly matches Optical centre of a thin lens with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "Used to construct lens ray diagrams → A central point of the lens",
+          "A −2 D lens has focal length −0.5 m → A central point of the lens",
+          "Used to construct lens ray diagrams → Reciprocal of focal length in metres",
+          "Distances use a consistent Cartesian sign convention → Power of a converging lens in air"
+        ],
+        "answer": 0,
+        "explanation": "Optical centre of a thin lens — specific association: Used to construct lens ray diagrams. Optical centre of a thin lens — lens or optical quantity: A central point of the lens. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Optical centre of a thin lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q13",
+        "question": "Which pair correctly matches Power of a lens with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "Power of a converging lens in air → P = 1/f",
+          "Reciprocal of focal length in metres → Focal length is positive in the Cartesian convention",
+          "Power of a diverging lens in air → Focal length is negative in the Cartesian convention",
+          "Reciprocal of focal length in metres → P = 1/f"
+        ],
+        "answer": 3,
+        "explanation": "Power of a lens — lens or optical quantity: Reciprocal of focal length in metres. Power of a lens — standard property or relation: P = 1/f. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Power of a lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q14",
+        "question": "Which pair correctly matches Power of a lens with its standard property or relation and specific association, in that order?",
+        "options": [
+          "P = 1/f → A +2 D lens has focal length +0.5 m",
+          "1/f = 1/v − 1/u → A −2 D lens has focal length −0.5 m",
+          "P = 1/f → Measured in dioptres",
+          "Focal length is negative in the Cartesian convention → Measured in dioptres"
+        ],
+        "answer": 2,
+        "explanation": "Power of a lens — standard property or relation: P = 1/f. Power of a lens — specific association: Measured in dioptres. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Power of a lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q15",
+        "question": "Which pair correctly matches Power of a lens with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "Negative magnification indicates an inverted image → Power of a diverging lens in air",
+          "Measured in dioptres → Reciprocal of focal length in metres",
+          "Distances use a consistent Cartesian sign convention → Reciprocal of focal length in metres",
+          "Measured in dioptres → Power of a converging lens in air"
+        ],
+        "answer": 1,
+        "explanation": "Power of a lens — specific association: Measured in dioptres. Power of a lens — lens or optical quantity: Reciprocal of focal length in metres. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Power of a lens",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q16",
+        "question": "Which pair correctly matches Positive lens power with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "Power of a converging lens in air → Focal length is positive in the Cartesian convention",
+          "Power of a diverging lens in air → Focal length is positive in the Cartesian convention",
+          "Power of a converging lens in air → Focal length is negative in the Cartesian convention",
+          "Relation between object distance, image distance and focal length → 1/f = 1/v − 1/u"
+        ],
+        "answer": 0,
+        "explanation": "Positive lens power — lens or optical quantity: Power of a converging lens in air. Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Positive lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q17",
+        "question": "Which pair correctly matches Positive lens power with its standard property or relation and specific association, in that order?",
+        "options": [
+          "1/f = 1/v − 1/u → A +2 D lens has focal length +0.5 m",
+          "Focal length is positive in the Cartesian convention → A −2 D lens has focal length −0.5 m",
+          "m = v/u → Distances use a consistent Cartesian sign convention",
+          "Focal length is positive in the Cartesian convention → A +2 D lens has focal length +0.5 m"
+        ],
+        "answer": 3,
+        "explanation": "Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention. Positive lens power — specific association: A +2 D lens has focal length +0.5 m. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Positive lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q18",
+        "question": "Which pair correctly matches Positive lens power with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "A +2 D lens has focal length +0.5 m → Power of a diverging lens in air",
+          "A +3 D lens and −1 D lens combine to +2 D → Relation between object distance, image distance and focal length",
+          "A +2 D lens has focal length +0.5 m → Power of a converging lens in air",
+          "Negative magnification indicates an inverted image → Power of a converging lens in air"
+        ],
+        "answer": 2,
+        "explanation": "Positive lens power — specific association: A +2 D lens has focal length +0.5 m. Positive lens power — lens or optical quantity: Power of a converging lens in air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Positive lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q19",
+        "question": "Which pair correctly matches Negative lens power with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "Ratio of image height to object height → m = v/u",
+          "Power of a diverging lens in air → Focal length is negative in the Cartesian convention",
+          "Relation between object distance, image distance and focal length → Focal length is negative in the Cartesian convention",
+          "Power of a diverging lens in air → 1/f = 1/v − 1/u"
+        ],
+        "answer": 1,
+        "explanation": "Negative lens power — lens or optical quantity: Power of a diverging lens in air. Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Negative lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q20",
+        "question": "Which pair correctly matches Negative lens power with its standard property or relation and specific association, in that order?",
+        "options": [
+          "Focal length is negative in the Cartesian convention → A −2 D lens has focal length −0.5 m",
+          "m = v/u → A −2 D lens has focal length −0.5 m",
+          "Focal length is negative in the Cartesian convention → Distances use a consistent Cartesian sign convention",
+          "Equivalent power equals the sum of individual powers → Negative magnification indicates an inverted image"
+        ],
+        "answer": 0,
+        "explanation": "Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention. Negative lens power — specific association: A −2 D lens has focal length −0.5 m. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Negative lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q21",
+        "question": "Which pair correctly matches Negative lens power with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "A +3 D lens and −1 D lens combine to +2 D → Power of a diverging lens in air",
+          "A −2 D lens has focal length −0.5 m → Relation between object distance, image distance and focal length",
+          "Can produce a real inverted image of a distant object → Ratio of image height to object height",
+          "A −2 D lens has focal length −0.5 m → Power of a diverging lens in air"
+        ],
+        "answer": 3,
+        "explanation": "Negative lens power — specific association: A −2 D lens has focal length −0.5 m. Negative lens power — lens or optical quantity: Power of a diverging lens in air. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Negative lens power",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q22",
+        "question": "Which pair correctly matches Thin-lens formula with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "Relation between object distance, image distance and focal length → m = v/u",
+          "A combination of thin lenses with negligible separation → Equivalent power equals the sum of individual powers",
+          "Relation between object distance, image distance and focal length → 1/f = 1/v − 1/u",
+          "Ratio of image height to object height → 1/f = 1/v − 1/u"
+        ],
+        "answer": 2,
+        "explanation": "Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length. Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thin-lens formula",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q23",
+        "question": "Which pair correctly matches Thin-lens formula with its standard property or relation and specific association, in that order?",
+        "options": [
+          "Converges parallel paraxial rays in air → A +3 D lens and −1 D lens combine to +2 D",
+          "1/f = 1/v − 1/u → Distances use a consistent Cartesian sign convention",
+          "Equivalent power equals the sum of individual powers → Distances use a consistent Cartesian sign convention",
+          "1/f = 1/v − 1/u → Negative magnification indicates an inverted image"
+        ],
+        "answer": 1,
+        "explanation": "Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u. Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thin-lens formula",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q24",
+        "question": "Which pair correctly matches Thin-lens formula with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "Distances use a consistent Cartesian sign convention → Relation between object distance, image distance and focal length",
+          "Can produce a real inverted image of a distant object → Relation between object distance, image distance and focal length",
+          "Distances use a consistent Cartesian sign convention → Ratio of image height to object height",
+          "Produces a virtual diminished image of a real object → A combination of thin lenses with negligible separation"
+        ],
+        "answer": 0,
+        "explanation": "Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention. Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thin-lens formula",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q25",
+        "question": "Which pair correctly matches Linear lens magnification with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "A combination of thin lenses with negligible separation → m = v/u",
+          "Ratio of image height to object height → Equivalent power equals the sum of individual powers",
+          "A lens thicker at the centre than at the edges → Converges parallel paraxial rays in air",
+          "Ratio of image height to object height → m = v/u"
+        ],
+        "answer": 3,
+        "explanation": "Linear lens magnification — lens or optical quantity: Ratio of image height to object height. Linear lens magnification — standard property or relation: m = v/u. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Linear lens magnification",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q26",
+        "question": "Which pair correctly matches Linear lens magnification with its standard property or relation and specific association, in that order?",
+        "options": [
+          "m = v/u → A +3 D lens and −1 D lens combine to +2 D",
+          "Diverges parallel rays in air → Can produce a real inverted image of a distant object",
+          "m = v/u → Negative magnification indicates an inverted image",
+          "Converges parallel paraxial rays in air → Negative magnification indicates an inverted image"
+        ],
+        "answer": 2,
+        "explanation": "Linear lens magnification — standard property or relation: m = v/u. Linear lens magnification — specific association: Negative magnification indicates an inverted image. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Linear lens magnification",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q27",
+        "question": "Which pair correctly matches Linear lens magnification with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "Used to construct lens ray diagrams → A lens thicker at the centre than at the edges",
+          "Negative magnification indicates an inverted image → Ratio of image height to object height",
+          "Produces a virtual diminished image of a real object → Ratio of image height to object height",
+          "Negative magnification indicates an inverted image → A combination of thin lenses with negligible separation"
+        ],
+        "answer": 1,
+        "explanation": "Linear lens magnification — specific association: Negative magnification indicates an inverted image. Linear lens magnification — lens or optical quantity: Ratio of image height to object height. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Linear lens magnification",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q28",
+        "question": "Which pair correctly matches Lenses in contact with its lens or optical quantity and standard property or relation, in that order?",
+        "options": [
+          "A combination of thin lenses with negligible separation → Equivalent power equals the sum of individual powers",
+          "A lens thicker at the centre than at the edges → Equivalent power equals the sum of individual powers",
+          "A combination of thin lenses with negligible separation → Converges parallel paraxial rays in air",
+          "A lens thinner at the centre than at the edges → Diverges parallel rays in air"
+        ],
+        "answer": 0,
+        "explanation": "Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation. Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenses in contact",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q29",
+        "question": "Which pair correctly matches Lenses in contact with its standard property or relation and specific association, in that order?",
+        "options": [
+          "Diverges parallel rays in air → A +3 D lens and −1 D lens combine to +2 D",
+          "Equivalent power equals the sum of individual powers → Can produce a real inverted image of a distant object",
+          "A ray through it is approximately undeviated → Produces a virtual diminished image of a real object",
+          "Equivalent power equals the sum of individual powers → A +3 D lens and −1 D lens combine to +2 D"
+        ],
+        "answer": 3,
+        "explanation": "Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers. Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenses in contact",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-M-Q30",
+        "question": "Which pair correctly matches Lenses in contact with its specific association and lens or optical quantity, in that order?",
+        "options": [
+          "A +3 D lens and −1 D lens combine to +2 D → A lens thicker at the centre than at the edges",
+          "Measured in dioptres → A lens thinner at the centre than at the edges",
+          "A +3 D lens and −1 D lens combine to +2 D → A combination of thin lenses with negligible separation",
+          "Used to construct lens ray diagrams → A combination of thin lenses with negligible separation"
+        ],
+        "answer": 2,
+        "explanation": "Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D. Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenses in contact",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH04-H": {
+    "id": "SA-DPP-27-PHY-CH04-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch4",
+    "chapterNumber": 4,
+    "chapter": "Refraction of Light at Curved Surfaces",
+    "level": "H",
+    "title": "Refraction of Light at Curved Surfaces – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-04.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-01",
+    "recommendedDate": "2026-10-29",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 57,
+      "to": 80
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q01",
+        "question": "Two thin lenses of powers +5 D and −2 D are in contact. Find their equivalent focal length.",
+        "options": [
+          "1/7 m",
+          "−1/3 m",
+          "1/3 m",
+          "3 m"
+        ],
+        "answer": 2,
+        "explanation": "P=5−2=3 D, so f=1/3 m.",
+        "difficulty": "Hard",
+        "topic": "Two thin lenses of powers +5 D and −2 D are in contact. Find their equivalent focal length.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q02",
+        "question": "A convex lens produces a real image three times object height. If f=15 cm, find object distance magnitude.",
+        "options": [
+          "60 cm",
+          "20 cm",
+          "30 cm",
+          "45 cm"
+        ],
+        "answer": 1,
+        "explanation": "v=−3u; 1/15=1/(−3u)−1/u gives u=−20 cm.",
+        "difficulty": "Hard",
+        "topic": "A convex lens produces a real image three times object height. If f=15 cm, find object distance magnitude.",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q03",
+        "question": "Why does a lens's power depend on the surrounding medium?",
+        "options": [
+          "Refraction depends on relative refractive index",
+          "Its glass mass changes",
+          "Its thickness must become zero",
+          "Light ceases travelling in liquids"
+        ],
+        "answer": 0,
+        "explanation": "Changing the medium changes the refractive contrast and hence focal length.",
+        "difficulty": "Hard",
+        "topic": "Why does a lens's power depend on the surrounding medium?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges\nII. Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention\nIII. Linear lens magnification — specific association: Used to construct lens ray diagrams",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges; Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention; Linear lens magnification — specific association: Negative magnification indicates an inverted image.",
+        "difficulty": "Hard",
+        "topic": "Convex lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex lens — standard property or relation: A ray through it is approximately undeviated\nII. Positive lens power — specific association: Used to construct lens ray diagrams\nIII. Linear lens magnification — lens or optical quantity: Ratio of image height to object height",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Convex lens — standard property or relation: Converges parallel paraxial rays in air; Positive lens power — specific association: A +2 D lens has focal length +0.5 m; Linear lens magnification — lens or optical quantity: Ratio of image height to object height.",
+        "difficulty": "Hard",
+        "topic": "Convex lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex lens — specific association: Can produce a real inverted image of a distant object\nII. Positive lens power — lens or optical quantity: Reciprocal of focal length in metres\nIII. Linear lens magnification — standard property or relation: m = v/u",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Convex lens — specific association: Can produce a real inverted image of a distant object; Positive lens power — lens or optical quantity: Power of a converging lens in air; Linear lens magnification — standard property or relation: m = v/u.",
+        "difficulty": "Hard",
+        "topic": "Convex lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave lens — lens or optical quantity: Power of a converging lens in air\nII. Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention\nIII. Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges; Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention; Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D.",
+        "difficulty": "Hard",
+        "topic": "Concave lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave lens — standard property or relation: Diverges parallel rays in air\nII. Negative lens power — specific association: A −2 D lens has focal length −0.5 m\nIII. Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Concave lens — standard property or relation: Diverges parallel rays in air; Negative lens power — specific association: A −2 D lens has focal length −0.5 m; Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation.",
+        "difficulty": "Hard",
+        "topic": "Concave lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave lens — specific association: Distances use a consistent Cartesian sign convention\nII. Negative lens power — lens or optical quantity: Ratio of image height to object height\nIII. Lenses in contact — standard property or relation: m = v/u",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Concave lens — specific association: Produces a virtual diminished image of a real object; Negative lens power — lens or optical quantity: Power of a diverging lens in air; Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers.",
+        "difficulty": "Hard",
+        "topic": "Concave lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Optical centre of a thin lens — lens or optical quantity: A central point of the lens\nII. Thin-lens formula — standard property or relation: Equivalent power equals the sum of individual powers\nIII. Convex lens — specific association: Produces a virtual diminished image of a real object",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Optical centre of a thin lens — lens or optical quantity: A central point of the lens; Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u; Convex lens — specific association: Can produce a real inverted image of a distant object.",
+        "difficulty": "Hard",
+        "topic": "Optical centre of a thin lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Optical centre of a thin lens — standard property or relation: Equivalent power equals the sum of individual powers\nII. Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention\nIII. Convex lens — lens or optical quantity: A central point of the lens",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated; Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention; Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges.",
+        "difficulty": "Hard",
+        "topic": "Optical centre of a thin lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Optical centre of a thin lens — specific association: Used to construct lens ray diagrams\nII. Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length\nIII. Convex lens — standard property or relation: P = 1/f",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Optical centre of a thin lens — specific association: Used to construct lens ray diagrams; Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length; Convex lens — standard property or relation: Converges parallel paraxial rays in air.",
+        "difficulty": "Hard",
+        "topic": "Optical centre of a thin lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Power of a lens — lens or optical quantity: A lens thinner at the centre than at the edges\nII. Linear lens magnification — standard property or relation: A ray through it is approximately undeviated\nIII. Concave lens — specific association: Produces a virtual diminished image of a real object",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Power of a lens — lens or optical quantity: Reciprocal of focal length in metres; Linear lens magnification — standard property or relation: m = v/u; Concave lens — specific association: Produces a virtual diminished image of a real object.",
+        "difficulty": "Hard",
+        "topic": "Power of a lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Power of a lens — standard property or relation: P = 1/f\nII. Linear lens magnification — specific association: Measured in dioptres\nIII. Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Power of a lens — standard property or relation: P = 1/f; Linear lens magnification — specific association: Negative magnification indicates an inverted image; Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges.",
+        "difficulty": "Hard",
+        "topic": "Power of a lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Power of a lens — specific association: A +2 D lens has focal length +0.5 m\nII. Linear lens magnification — lens or optical quantity: Ratio of image height to object height\nIII. Concave lens — standard property or relation: Diverges parallel rays in air",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Power of a lens — specific association: Measured in dioptres; Linear lens magnification — lens or optical quantity: Ratio of image height to object height; Concave lens — standard property or relation: Diverges parallel rays in air.",
+        "difficulty": "Hard",
+        "topic": "Power of a lens · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Positive lens power — lens or optical quantity: Power of a converging lens in air\nII. Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers\nIII. Optical centre of a thin lens — specific association: Used to construct lens ray diagrams",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Positive lens power — lens or optical quantity: Power of a converging lens in air; Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers; Optical centre of a thin lens — specific association: Used to construct lens ray diagrams.",
+        "difficulty": "Hard",
+        "topic": "Positive lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Positive lens power — standard property or relation: 1/f = 1/v − 1/u\nII. Lenses in contact — specific association: Distances use a consistent Cartesian sign convention\nIII. Optical centre of a thin lens — lens or optical quantity: A combination of thin lenses with negligible separation",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention; Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D; Optical centre of a thin lens — lens or optical quantity: A central point of the lens.",
+        "difficulty": "Hard",
+        "topic": "Positive lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Positive lens power — specific association: A +2 D lens has focal length +0.5 m\nII. Lenses in contact — lens or optical quantity: Ratio of image height to object height\nIII. Optical centre of a thin lens — standard property or relation: Converges parallel paraxial rays in air",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Positive lens power — specific association: A +2 D lens has focal length +0.5 m; Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation; Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated.",
+        "difficulty": "Hard",
+        "topic": "Positive lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Negative lens power — lens or optical quantity: A combination of thin lenses with negligible separation\nII. Convex lens — standard property or relation: Converges parallel paraxial rays in air\nIII. Power of a lens — specific association: Produces a virtual diminished image of a real object",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Negative lens power — lens or optical quantity: Power of a diverging lens in air; Convex lens — standard property or relation: Converges parallel paraxial rays in air; Power of a lens — specific association: Measured in dioptres.",
+        "difficulty": "Hard",
+        "topic": "Negative lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention\nII. Convex lens — specific association: Can produce a real inverted image of a distant object\nIII. Power of a lens — lens or optical quantity: A central point of the lens",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention; Convex lens — specific association: Can produce a real inverted image of a distant object; Power of a lens — lens or optical quantity: Reciprocal of focal length in metres.",
+        "difficulty": "Hard",
+        "topic": "Negative lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Negative lens power — specific association: Produces a virtual diminished image of a real object\nII. Convex lens — lens or optical quantity: Reciprocal of focal length in metres\nIII. Power of a lens — standard property or relation: P = 1/f",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Negative lens power — specific association: A −2 D lens has focal length −0.5 m; Convex lens — lens or optical quantity: A lens thicker at the centre than at the edges; Power of a lens — standard property or relation: P = 1/f.",
+        "difficulty": "Hard",
+        "topic": "Negative lens power · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length\nII. Concave lens — standard property or relation: Focal length is positive in the Cartesian convention\nIII. Positive lens power — specific association: A +2 D lens has focal length +0.5 m",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length; Concave lens — standard property or relation: Diverges parallel rays in air; Positive lens power — specific association: A +2 D lens has focal length +0.5 m.",
+        "difficulty": "Hard",
+        "topic": "Thin-lens formula · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thin-lens formula — standard property or relation: P = 1/f\nII. Concave lens — specific association: Produces a virtual diminished image of a real object\nIII. Positive lens power — lens or optical quantity: Power of a converging lens in air",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u; Concave lens — specific association: Produces a virtual diminished image of a real object; Positive lens power — lens or optical quantity: Power of a converging lens in air.",
+        "difficulty": "Hard",
+        "topic": "Thin-lens formula · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention\nII. Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges\nIII. Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention; Concave lens — lens or optical quantity: A lens thinner at the centre than at the edges; Positive lens power — standard property or relation: Focal length is positive in the Cartesian convention.",
+        "difficulty": "Hard",
+        "topic": "Thin-lens formula · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Linear lens magnification — lens or optical quantity: Power of a diverging lens in air\nII. Optical centre of a thin lens — standard property or relation: m = v/u\nIII. Negative lens power — specific association: A +3 D lens and −1 D lens combine to +2 D",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Linear lens magnification — lens or optical quantity: Ratio of image height to object height; Optical centre of a thin lens — standard property or relation: A ray through it is approximately undeviated; Negative lens power — specific association: A −2 D lens has focal length −0.5 m.",
+        "difficulty": "Hard",
+        "topic": "Linear lens magnification · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Linear lens magnification — standard property or relation: m = v/u\nII. Optical centre of a thin lens — specific association: A +3 D lens and −1 D lens combine to +2 D\nIII. Negative lens power — lens or optical quantity: A lens thicker at the centre than at the edges",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Linear lens magnification — standard property or relation: m = v/u; Optical centre of a thin lens — specific association: Used to construct lens ray diagrams; Negative lens power — lens or optical quantity: Power of a diverging lens in air.",
+        "difficulty": "Hard",
+        "topic": "Linear lens magnification · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Linear lens magnification — specific association: A +3 D lens and −1 D lens combine to +2 D\nII. Optical centre of a thin lens — lens or optical quantity: A central point of the lens\nIII. Negative lens power — standard property or relation: Diverges parallel rays in air",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Linear lens magnification — specific association: Negative magnification indicates an inverted image; Optical centre of a thin lens — lens or optical quantity: A central point of the lens; Negative lens power — standard property or relation: Focal length is negative in the Cartesian convention.",
+        "difficulty": "Hard",
+        "topic": "Linear lens magnification · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation\nII. Power of a lens — standard property or relation: P = 1/f\nIII. Thin-lens formula — specific association: Used to construct lens ray diagrams",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Lenses in contact — lens or optical quantity: A combination of thin lenses with negligible separation; Power of a lens — standard property or relation: P = 1/f; Thin-lens formula — specific association: Distances use a consistent Cartesian sign convention.",
+        "difficulty": "Hard",
+        "topic": "Lenses in contact · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenses in contact — standard property or relation: Diverges parallel rays in air\nII. Power of a lens — specific association: Used to construct lens ray diagrams\nIII. Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Lenses in contact — standard property or relation: Equivalent power equals the sum of individual powers; Power of a lens — specific association: Measured in dioptres; Thin-lens formula — lens or optical quantity: Relation between object distance, image distance and focal length.",
+        "difficulty": "Hard",
+        "topic": "Lenses in contact · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH04-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D\nII. Power of a lens — lens or optical quantity: Power of a converging lens in air\nIII. Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Lenses in contact — specific association: A +3 D lens and −1 D lens combine to +2 D; Power of a lens — lens or optical quantity: Reciprocal of focal length in metres; Thin-lens formula — standard property or relation: 1/f = 1/v − 1/u.",
+        "difficulty": "Hard",
+        "topic": "Lenses in contact · comparing chapter concepts",
+        "sourceChapter": 4
+      }
+    ]
+  }
+}

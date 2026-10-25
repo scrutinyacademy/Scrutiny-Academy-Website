@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH07-E": {
+    "id": "SA-DPP-27-BIO-CH07-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "E",
+    "title": "Coordination in Life Processes – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-07.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-16",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q01",
+        "question": "Which enzyme in saliva begins carbohydrate digestion?",
+        "options": [
+          "Trypsin",
+          "Amylase",
+          "Pepsin",
+          "Lipase"
+        ],
+        "answer": 1,
+        "explanation": "Salivary amylase begins starch breakdown.",
+        "difficulty": "Easy",
+        "topic": "Which enzyme in saliva begins carbohydrate digestion?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q02",
+        "question": "Which movement propels food through the alimentary canal?",
+        "options": [
+          "Peristalsis",
+          "Diffusion only",
+          "Filtration",
+          "Transpiration"
+        ],
+        "answer": 0,
+        "explanation": "Coordinated waves of muscle contraction move food forward.",
+        "difficulty": "Easy",
+        "topic": "Which movement propels food through the alimentary canal?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q03",
+        "question": "Which organ produces bile?",
+        "options": [
+          "Pancreas",
+          "Stomach",
+          "Spleen",
+          "Liver"
+        ],
+        "answer": 3,
+        "explanation": "The liver produces bile, which is stored in the gallbladder.",
+        "difficulty": "Easy",
+        "topic": "Which organ produces bile?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q04",
+        "question": "Salivary glands: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A protective flap involved in swallowing",
+          "A muscular food-conducting tube",
+          "Glands secreting saliva",
+          "A muscular oral organ"
+        ],
+        "answer": 2,
+        "explanation": "Salivary glands — digestive-system role: Glands secreting saliva.",
+        "difficulty": "Easy",
+        "topic": "Salivary glands · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q05",
+        "question": "Salivary glands: which option correctly identifies the normal location or source?",
+        "options": [
+          "Between oesophagus and small intestine",
+          "Around the oral cavity",
+          "At the laryngeal entrance",
+          "Between pharynx and stomach"
+        ],
+        "answer": 1,
+        "explanation": "Salivary glands — normal location or source: Around the oral cavity.",
+        "difficulty": "Easy",
+        "topic": "Salivary glands · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q06",
+        "question": "Salivary glands: which option correctly identifies the specific contribution?",
+        "options": [
+          "Moisten food and provide salivary amylase",
+          "Moves swallowed food by peristalsis",
+          "Mixes food with acidic gastric secretion",
+          "Supplies bile for fat emulsification after delivery to the intestine"
+        ],
+        "answer": 0,
+        "explanation": "Salivary glands — specific contribution: Moisten food and provide salivary amylase.",
+        "difficulty": "Easy",
+        "topic": "Salivary glands · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q07",
+        "question": "Tongue: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A protective flap involved in swallowing",
+          "A muscular food-conducting tube",
+          "A muscular chamber for storage and mixing",
+          "A muscular oral organ"
+        ],
+        "answer": 3,
+        "explanation": "Tongue — digestive-system role: A muscular oral organ.",
+        "difficulty": "Easy",
+        "topic": "Tongue · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q08",
+        "question": "Tongue: which option correctly identifies the normal location or source?",
+        "options": [
+          "Between oesophagus and small intestine",
+          "Upper abdomen",
+          "Floor of the oral cavity",
+          "Between pharynx and stomach"
+        ],
+        "answer": 2,
+        "explanation": "Tongue — normal location or source: Floor of the oral cavity.",
+        "difficulty": "Easy",
+        "topic": "Tongue · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q09",
+        "question": "Tongue: which option correctly identifies the specific contribution?",
+        "options": [
+          "Stores and concentrates bile between meals",
+          "Mixes food and assists swallowing",
+          "Mixes food with acidic gastric secretion",
+          "Supplies bile for fat emulsification after delivery to the intestine"
+        ],
+        "answer": 1,
+        "explanation": "Tongue — specific contribution: Mixes food and assists swallowing.",
+        "difficulty": "Easy",
+        "topic": "Tongue · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q10",
+        "question": "Epiglottis: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A protective flap involved in swallowing",
+          "A muscular food-conducting tube",
+          "A muscular chamber for storage and mixing",
+          "A gland that produces bile"
+        ],
+        "answer": 0,
+        "explanation": "Epiglottis — digestive-system role: A protective flap involved in swallowing.",
+        "difficulty": "Easy",
+        "topic": "Epiglottis · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q11",
+        "question": "Epiglottis: which option correctly identifies the normal location or source?",
+        "options": [
+          "Between oesophagus and small intestine",
+          "Upper abdomen",
+          "Beneath the liver",
+          "At the laryngeal entrance"
+        ],
+        "answer": 3,
+        "explanation": "Epiglottis — normal location or source: At the laryngeal entrance.",
+        "difficulty": "Easy",
+        "topic": "Epiglottis · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q12",
+        "question": "Epiglottis: which option correctly identifies the specific contribution?",
+        "options": [
+          "Stores and concentrates bile between meals",
+          "Releases enzyme-containing secretion into the small intestine",
+          "Helps keep swallowed food out of the airway",
+          "Supplies bile for fat emulsification after delivery to the intestine"
+        ],
+        "answer": 2,
+        "explanation": "Epiglottis — specific contribution: Helps keep swallowed food out of the airway.",
+        "difficulty": "Easy",
+        "topic": "Epiglottis · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q13",
+        "question": "Oesophagus: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A bile-storage organ",
+          "A muscular food-conducting tube",
+          "A muscular chamber for storage and mixing",
+          "A gland that produces bile"
+        ],
+        "answer": 1,
+        "explanation": "Oesophagus — digestive-system role: A muscular food-conducting tube.",
+        "difficulty": "Easy",
+        "topic": "Oesophagus · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q14",
+        "question": "Oesophagus: which option correctly identifies the normal location or source?",
+        "options": [
+          "Between pharynx and stomach",
+          "Upper abdomen",
+          "Beneath the liver",
+          "Behind the stomach"
+        ],
+        "answer": 0,
+        "explanation": "Oesophagus — normal location or source: Between pharynx and stomach.",
+        "difficulty": "Easy",
+        "topic": "Oesophagus · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q15",
+        "question": "Oesophagus: which option correctly identifies the specific contribution?",
+        "options": [
+          "Stores and concentrates bile between meals",
+          "Releases enzyme-containing secretion into the small intestine",
+          "Increase surface area for absorption of nutrients",
+          "Moves swallowed food by peristalsis"
+        ],
+        "answer": 3,
+        "explanation": "Oesophagus — specific contribution: Moves swallowed food by peristalsis.",
+        "difficulty": "Easy",
+        "topic": "Oesophagus · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q16",
+        "question": "Stomach: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A bile-storage organ",
+          "A gland contributing digestive enzymes",
+          "A muscular chamber for storage and mixing",
+          "A gland that produces bile"
+        ],
+        "answer": 2,
+        "explanation": "Stomach — digestive-system role: A muscular chamber for storage and mixing.",
+        "difficulty": "Easy",
+        "topic": "Stomach · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q17",
+        "question": "Stomach: which option correctly identifies the normal location or source?",
+        "options": [
+          "Lining of the small intestine",
+          "Between oesophagus and small intestine",
+          "Beneath the liver",
+          "Behind the stomach"
+        ],
+        "answer": 1,
+        "explanation": "Stomach — normal location or source: Between oesophagus and small intestine.",
+        "difficulty": "Easy",
+        "topic": "Stomach · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q18",
+        "question": "Stomach: which option correctly identifies the specific contribution?",
+        "options": [
+          "Mixes food with acidic gastric secretion",
+          "Releases enzyme-containing secretion into the small intestine",
+          "Increase surface area for absorption of nutrients",
+          "Moisten food and provide salivary amylase"
+        ],
+        "answer": 0,
+        "explanation": "Stomach — specific contribution: Mixes food with acidic gastric secretion.",
+        "difficulty": "Easy",
+        "topic": "Stomach · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q19",
+        "question": "Liver: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A bile-storage organ",
+          "A gland contributing digestive enzymes",
+          "Finger-like absorptive projections",
+          "A gland that produces bile"
+        ],
+        "answer": 3,
+        "explanation": "Liver — digestive-system role: A gland that produces bile.",
+        "difficulty": "Easy",
+        "topic": "Liver · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q20",
+        "question": "Liver: which option correctly identifies the normal location or source?",
+        "options": [
+          "Around the oral cavity",
+          "Floor of the oral cavity",
+          "Upper abdomen",
+          "Lining of the small intestine"
+        ],
+        "answer": 2,
+        "explanation": "Liver — normal location or source: Upper abdomen.",
+        "difficulty": "Easy",
+        "topic": "Liver · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q21",
+        "question": "Liver: which option correctly identifies the specific contribution?",
+        "options": [
+          "Mixes food and assists swallowing",
+          "Supplies bile for fat emulsification after delivery to the intestine",
+          "Increase surface area for absorption of nutrients",
+          "Moisten food and provide salivary amylase"
+        ],
+        "answer": 1,
+        "explanation": "Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine.",
+        "difficulty": "Easy",
+        "topic": "Liver · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q22",
+        "question": "Gallbladder: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A bile-storage organ",
+          "A gland contributing digestive enzymes",
+          "Finger-like absorptive projections",
+          "Glands secreting saliva"
+        ],
+        "answer": 0,
+        "explanation": "Gallbladder — digestive-system role: A bile-storage organ.",
+        "difficulty": "Easy",
+        "topic": "Gallbladder · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q23",
+        "question": "Gallbladder: which option correctly identifies the normal location or source?",
+        "options": [
+          "Lining of the small intestine",
+          "Around the oral cavity",
+          "Floor of the oral cavity",
+          "Beneath the liver"
+        ],
+        "answer": 3,
+        "explanation": "Gallbladder — normal location or source: Beneath the liver.",
+        "difficulty": "Easy",
+        "topic": "Gallbladder · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q24",
+        "question": "Gallbladder: which option correctly identifies the specific contribution?",
+        "options": [
+          "Mixes food and assists swallowing",
+          "Helps keep swallowed food out of the airway",
+          "Stores and concentrates bile between meals",
+          "Moisten food and provide salivary amylase"
+        ],
+        "answer": 2,
+        "explanation": "Gallbladder — specific contribution: Stores and concentrates bile between meals.",
+        "difficulty": "Easy",
+        "topic": "Gallbladder · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q25",
+        "question": "Pancreas: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A muscular oral organ",
+          "A gland contributing digestive enzymes",
+          "Finger-like absorptive projections",
+          "Glands secreting saliva"
+        ],
+        "answer": 1,
+        "explanation": "Pancreas — digestive-system role: A gland contributing digestive enzymes.",
+        "difficulty": "Easy",
+        "topic": "Pancreas · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q26",
+        "question": "Pancreas: which option correctly identifies the normal location or source?",
+        "options": [
+          "Behind the stomach",
+          "Floor of the oral cavity",
+          "At the laryngeal entrance",
+          "Between pharynx and stomach"
+        ],
+        "answer": 0,
+        "explanation": "Pancreas — normal location or source: Behind the stomach.",
+        "difficulty": "Easy",
+        "topic": "Pancreas · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q27",
+        "question": "Pancreas: which option correctly identifies the specific contribution?",
+        "options": [
+          "Mixes food and assists swallowing",
+          "Helps keep swallowed food out of the airway",
+          "Moves swallowed food by peristalsis",
+          "Releases enzyme-containing secretion into the small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine.",
+        "difficulty": "Easy",
+        "topic": "Pancreas · specific contribution",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q28",
+        "question": "Intestinal villi: which option correctly identifies the digestive-system role?",
+        "options": [
+          "A muscular oral organ",
+          "A protective flap involved in swallowing",
+          "Finger-like absorptive projections",
+          "Glands secreting saliva"
+        ],
+        "answer": 2,
+        "explanation": "Intestinal villi — digestive-system role: Finger-like absorptive projections.",
+        "difficulty": "Easy",
+        "topic": "Intestinal villi · digestive-system role",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q29",
+        "question": "Intestinal villi: which option correctly identifies the normal location or source?",
+        "options": [
+          "Between pharynx and stomach",
+          "Lining of the small intestine",
+          "Floor of the oral cavity",
+          "At the laryngeal entrance"
+        ],
+        "answer": 1,
+        "explanation": "Intestinal villi — normal location or source: Lining of the small intestine.",
+        "difficulty": "Easy",
+        "topic": "Intestinal villi · normal location or source",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-E-Q30",
+        "question": "Intestinal villi: which option correctly identifies the specific contribution?",
+        "options": [
+          "Increase surface area for absorption of nutrients",
+          "Helps keep swallowed food out of the airway",
+          "Moves swallowed food by peristalsis",
+          "Mixes food with acidic gastric secretion"
+        ],
+        "answer": 0,
+        "explanation": "Intestinal villi — specific contribution: Increase surface area for absorption of nutrients.",
+        "difficulty": "Easy",
+        "topic": "Intestinal villi · specific contribution",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH07-M": {
+    "id": "SA-DPP-27-BIO-CH07-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "M",
+    "title": "Coordination in Life Processes – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-07.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-17",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q01",
+        "question": "Why does salivation sometimes begin when food is seen or smelled?",
+        "options": [
+          "Nervous coordination prepares the digestive system",
+          "The eyes secrete saliva directly",
+          "Food has already entered the stomach",
+          "Salivation occurs without any regulation"
+        ],
+        "answer": 0,
+        "explanation": "Sensory inputs can stimulate salivary gland activity before eating.",
+        "difficulty": "Medium",
+        "topic": "Why does salivation sometimes begin when food is seen or smelled?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q02",
+        "question": "Why does the epiglottis help during swallowing?",
+        "options": [
+          "It pumps blood to the lungs",
+          "It absorbs amino acids",
+          "It produces bile",
+          "It helps keep food out of the airway"
+        ],
+        "answer": 3,
+        "explanation": "Swallowing coordinates protection of the laryngeal opening.",
+        "difficulty": "Medium",
+        "topic": "Why does the epiglottis help during swallowing?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q03",
+        "question": "Why are intestinal contents mixed repeatedly?",
+        "options": [
+          "To remove all intestinal villi",
+          "To return all food to the mouth",
+          "To improve contact with digestive secretions and absorptive surfaces",
+          "To stop every enzyme reaction"
+        ],
+        "answer": 2,
+        "explanation": "Muscle activity helps digestion and exposure to the intestinal lining.",
+        "difficulty": "Medium",
+        "topic": "Why are intestinal contents mixed repeatedly?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q04",
+        "question": "Which pair correctly matches Salivary glands with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A protective flap involved in swallowing → At the laryngeal entrance",
+          "Glands secreting saliva → Around the oral cavity",
+          "A muscular oral organ → Around the oral cavity",
+          "Glands secreting saliva → Floor of the oral cavity"
+        ],
+        "answer": 1,
+        "explanation": "Salivary glands — digestive-system role: Glands secreting saliva. Salivary glands — normal location or source: Around the oral cavity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary glands",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q05",
+        "question": "Which pair correctly matches Salivary glands with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Around the oral cavity → Moisten food and provide salivary amylase",
+          "At the laryngeal entrance → Moisten food and provide salivary amylase",
+          "Around the oral cavity → Mixes food and assists swallowing",
+          "Between pharynx and stomach → Helps keep swallowed food out of the airway"
+        ],
+        "answer": 0,
+        "explanation": "Salivary glands — normal location or source: Around the oral cavity. Salivary glands — specific contribution: Moisten food and provide salivary amylase. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary glands",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q06",
+        "question": "Which pair correctly matches Salivary glands with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Moves swallowed food by peristalsis → Glands secreting saliva",
+          "Moisten food and provide salivary amylase → A muscular oral organ",
+          "Mixes food with acidic gastric secretion → A protective flap involved in swallowing",
+          "Moisten food and provide salivary amylase → Glands secreting saliva"
+        ],
+        "answer": 3,
+        "explanation": "Salivary glands — specific contribution: Moisten food and provide salivary amylase. Salivary glands — digestive-system role: Glands secreting saliva. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary glands",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q07",
+        "question": "Which pair correctly matches Tongue with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A muscular oral organ → At the laryngeal entrance",
+          "A muscular food-conducting tube → Between pharynx and stomach",
+          "A muscular oral organ → Floor of the oral cavity",
+          "A protective flap involved in swallowing → Floor of the oral cavity"
+        ],
+        "answer": 2,
+        "explanation": "Tongue — digestive-system role: A muscular oral organ. Tongue — normal location or source: Floor of the oral cavity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tongue",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q08",
+        "question": "Which pair correctly matches Tongue with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Between oesophagus and small intestine → Moves swallowed food by peristalsis",
+          "Floor of the oral cavity → Mixes food and assists swallowing",
+          "Between pharynx and stomach → Mixes food and assists swallowing",
+          "Floor of the oral cavity → Helps keep swallowed food out of the airway"
+        ],
+        "answer": 1,
+        "explanation": "Tongue — normal location or source: Floor of the oral cavity. Tongue — specific contribution: Mixes food and assists swallowing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tongue",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q09",
+        "question": "Which pair correctly matches Tongue with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Mixes food and assists swallowing → A muscular oral organ",
+          "Mixes food with acidic gastric secretion → A muscular oral organ",
+          "Mixes food and assists swallowing → A protective flap involved in swallowing",
+          "Supplies bile for fat emulsification after delivery to the intestine → A muscular food-conducting tube"
+        ],
+        "answer": 0,
+        "explanation": "Tongue — specific contribution: Mixes food and assists swallowing. Tongue — digestive-system role: A muscular oral organ. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tongue",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q10",
+        "question": "Which pair correctly matches Epiglottis with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A muscular food-conducting tube → At the laryngeal entrance",
+          "A protective flap involved in swallowing → Between pharynx and stomach",
+          "A muscular chamber for storage and mixing → Between oesophagus and small intestine",
+          "A protective flap involved in swallowing → At the laryngeal entrance"
+        ],
+        "answer": 3,
+        "explanation": "Epiglottis — digestive-system role: A protective flap involved in swallowing. Epiglottis — normal location or source: At the laryngeal entrance. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Epiglottis",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q11",
+        "question": "Which pair correctly matches Epiglottis with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "At the laryngeal entrance → Moves swallowed food by peristalsis",
+          "Upper abdomen → Mixes food with acidic gastric secretion",
+          "At the laryngeal entrance → Helps keep swallowed food out of the airway",
+          "Between oesophagus and small intestine → Helps keep swallowed food out of the airway"
+        ],
+        "answer": 2,
+        "explanation": "Epiglottis — normal location or source: At the laryngeal entrance. Epiglottis — specific contribution: Helps keep swallowed food out of the airway. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Epiglottis",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q12",
+        "question": "Which pair correctly matches Epiglottis with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Stores and concentrates bile between meals → A muscular chamber for storage and mixing",
+          "Helps keep swallowed food out of the airway → A protective flap involved in swallowing",
+          "Supplies bile for fat emulsification after delivery to the intestine → A protective flap involved in swallowing",
+          "Helps keep swallowed food out of the airway → A muscular food-conducting tube"
+        ],
+        "answer": 1,
+        "explanation": "Epiglottis — specific contribution: Helps keep swallowed food out of the airway. Epiglottis — digestive-system role: A protective flap involved in swallowing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Epiglottis",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q13",
+        "question": "Which pair correctly matches Oesophagus with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A muscular food-conducting tube → Between pharynx and stomach",
+          "A muscular chamber for storage and mixing → Between pharynx and stomach",
+          "A muscular food-conducting tube → Between oesophagus and small intestine",
+          "A gland that produces bile → Upper abdomen"
+        ],
+        "answer": 0,
+        "explanation": "Oesophagus — digestive-system role: A muscular food-conducting tube. Oesophagus — normal location or source: Between pharynx and stomach. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Oesophagus",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q14",
+        "question": "Which pair correctly matches Oesophagus with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Upper abdomen → Moves swallowed food by peristalsis",
+          "Between pharynx and stomach → Mixes food with acidic gastric secretion",
+          "Beneath the liver → Supplies bile for fat emulsification after delivery to the intestine",
+          "Between pharynx and stomach → Moves swallowed food by peristalsis"
+        ],
+        "answer": 3,
+        "explanation": "Oesophagus — normal location or source: Between pharynx and stomach. Oesophagus — specific contribution: Moves swallowed food by peristalsis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Oesophagus",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q15",
+        "question": "Which pair correctly matches Oesophagus with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Moves swallowed food by peristalsis → A muscular chamber for storage and mixing",
+          "Releases enzyme-containing secretion into the small intestine → A gland that produces bile",
+          "Moves swallowed food by peristalsis → A muscular food-conducting tube",
+          "Stores and concentrates bile between meals → A muscular food-conducting tube"
+        ],
+        "answer": 2,
+        "explanation": "Oesophagus — specific contribution: Moves swallowed food by peristalsis. Oesophagus — digestive-system role: A muscular food-conducting tube. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Oesophagus",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q16",
+        "question": "Which pair correctly matches Stomach with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A bile-storage organ → Beneath the liver",
+          "A muscular chamber for storage and mixing → Between oesophagus and small intestine",
+          "A gland that produces bile → Between oesophagus and small intestine",
+          "A muscular chamber for storage and mixing → Upper abdomen"
+        ],
+        "answer": 1,
+        "explanation": "Stomach — digestive-system role: A muscular chamber for storage and mixing. Stomach — normal location or source: Between oesophagus and small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomach",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q17",
+        "question": "Which pair correctly matches Stomach with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Between oesophagus and small intestine → Mixes food with acidic gastric secretion",
+          "Beneath the liver → Mixes food with acidic gastric secretion",
+          "Between oesophagus and small intestine → Supplies bile for fat emulsification after delivery to the intestine",
+          "Behind the stomach → Stores and concentrates bile between meals"
+        ],
+        "answer": 0,
+        "explanation": "Stomach — normal location or source: Between oesophagus and small intestine. Stomach — specific contribution: Mixes food with acidic gastric secretion. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomach",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q18",
+        "question": "Which pair correctly matches Stomach with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Releases enzyme-containing secretion into the small intestine → A muscular chamber for storage and mixing",
+          "Mixes food with acidic gastric secretion → A gland that produces bile",
+          "Increase surface area for absorption of nutrients → A bile-storage organ",
+          "Mixes food with acidic gastric secretion → A muscular chamber for storage and mixing"
+        ],
+        "answer": 3,
+        "explanation": "Stomach — specific contribution: Mixes food with acidic gastric secretion. Stomach — digestive-system role: A muscular chamber for storage and mixing. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Stomach",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q19",
+        "question": "Which pair correctly matches Liver with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A gland that produces bile → Beneath the liver",
+          "A gland contributing digestive enzymes → Lining of the small intestine",
+          "A gland that produces bile → Upper abdomen",
+          "A bile-storage organ → Upper abdomen"
+        ],
+        "answer": 2,
+        "explanation": "Liver — digestive-system role: A gland that produces bile. Liver — normal location or source: Upper abdomen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Liver",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q20",
+        "question": "Which pair correctly matches Liver with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Around the oral cavity → Releases enzyme-containing secretion into the small intestine",
+          "Upper abdomen → Supplies bile for fat emulsification after delivery to the intestine",
+          "Lining of the small intestine → Supplies bile for fat emulsification after delivery to the intestine",
+          "Upper abdomen → Stores and concentrates bile between meals"
+        ],
+        "answer": 1,
+        "explanation": "Liver — normal location or source: Upper abdomen. Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Liver",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q21",
+        "question": "Which pair correctly matches Liver with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Supplies bile for fat emulsification after delivery to the intestine → A gland that produces bile",
+          "Increase surface area for absorption of nutrients → A gland that produces bile",
+          "Supplies bile for fat emulsification after delivery to the intestine → A bile-storage organ",
+          "Moisten food and provide salivary amylase → A gland contributing digestive enzymes"
+        ],
+        "answer": 0,
+        "explanation": "Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine. Liver — digestive-system role: A gland that produces bile. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Liver",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q22",
+        "question": "Which pair correctly matches Gallbladder with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A gland contributing digestive enzymes → Beneath the liver",
+          "A bile-storage organ → Behind the stomach",
+          "Finger-like absorptive projections → Lining of the small intestine",
+          "A bile-storage organ → Beneath the liver"
+        ],
+        "answer": 3,
+        "explanation": "Gallbladder — digestive-system role: A bile-storage organ. Gallbladder — normal location or source: Beneath the liver. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gallbladder",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q23",
+        "question": "Which pair correctly matches Gallbladder with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Beneath the liver → Releases enzyme-containing secretion into the small intestine",
+          "Around the oral cavity → Increase surface area for absorption of nutrients",
+          "Beneath the liver → Stores and concentrates bile between meals",
+          "Lining of the small intestine → Stores and concentrates bile between meals"
+        ],
+        "answer": 2,
+        "explanation": "Gallbladder — normal location or source: Beneath the liver. Gallbladder — specific contribution: Stores and concentrates bile between meals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gallbladder",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q24",
+        "question": "Which pair correctly matches Gallbladder with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Mixes food and assists swallowing → Finger-like absorptive projections",
+          "Stores and concentrates bile between meals → A bile-storage organ",
+          "Moisten food and provide salivary amylase → A bile-storage organ",
+          "Stores and concentrates bile between meals → A gland contributing digestive enzymes"
+        ],
+        "answer": 1,
+        "explanation": "Gallbladder — specific contribution: Stores and concentrates bile between meals. Gallbladder — digestive-system role: A bile-storage organ. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Gallbladder",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q25",
+        "question": "Which pair correctly matches Pancreas with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A gland contributing digestive enzymes → Behind the stomach",
+          "Finger-like absorptive projections → Behind the stomach",
+          "A gland contributing digestive enzymes → Around the oral cavity",
+          "Glands secreting saliva → Floor of the oral cavity"
+        ],
+        "answer": 0,
+        "explanation": "Pancreas — digestive-system role: A gland contributing digestive enzymes. Pancreas — normal location or source: Behind the stomach. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreas",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q26",
+        "question": "Which pair correctly matches Pancreas with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Floor of the oral cavity → Releases enzyme-containing secretion into the small intestine",
+          "Behind the stomach → Increase surface area for absorption of nutrients",
+          "At the laryngeal entrance → Moisten food and provide salivary amylase",
+          "Behind the stomach → Releases enzyme-containing secretion into the small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Pancreas — normal location or source: Behind the stomach. Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreas",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q27",
+        "question": "Which pair correctly matches Pancreas with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Releases enzyme-containing secretion into the small intestine → Finger-like absorptive projections",
+          "Helps keep swallowed food out of the airway → Glands secreting saliva",
+          "Releases enzyme-containing secretion into the small intestine → A gland contributing digestive enzymes",
+          "Mixes food and assists swallowing → A gland contributing digestive enzymes"
+        ],
+        "answer": 2,
+        "explanation": "Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine. Pancreas — digestive-system role: A gland contributing digestive enzymes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreas",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q28",
+        "question": "Which pair correctly matches Intestinal villi with its digestive-system role and normal location or source, in that order?",
+        "options": [
+          "A muscular oral organ → Floor of the oral cavity",
+          "Finger-like absorptive projections → Lining of the small intestine",
+          "Glands secreting saliva → Lining of the small intestine",
+          "Finger-like absorptive projections → Around the oral cavity"
+        ],
+        "answer": 1,
+        "explanation": "Intestinal villi — digestive-system role: Finger-like absorptive projections. Intestinal villi — normal location or source: Lining of the small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intestinal villi",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q29",
+        "question": "Which pair correctly matches Intestinal villi with its normal location or source and specific contribution, in that order?",
+        "options": [
+          "Lining of the small intestine → Increase surface area for absorption of nutrients",
+          "Floor of the oral cavity → Increase surface area for absorption of nutrients",
+          "Lining of the small intestine → Moisten food and provide salivary amylase",
+          "At the laryngeal entrance → Mixes food and assists swallowing"
+        ],
+        "answer": 0,
+        "explanation": "Intestinal villi — normal location or source: Lining of the small intestine. Intestinal villi — specific contribution: Increase surface area for absorption of nutrients. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intestinal villi",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-M-Q30",
+        "question": "Which pair correctly matches Intestinal villi with its specific contribution and digestive-system role, in that order?",
+        "options": [
+          "Helps keep swallowed food out of the airway → Finger-like absorptive projections",
+          "Increase surface area for absorption of nutrients → Glands secreting saliva",
+          "Moves swallowed food by peristalsis → A muscular oral organ",
+          "Increase surface area for absorption of nutrients → Finger-like absorptive projections"
+        ],
+        "answer": 3,
+        "explanation": "Intestinal villi — specific contribution: Increase surface area for absorption of nutrients. Intestinal villi — digestive-system role: Finger-like absorptive projections. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intestinal villi",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH07-H": {
+    "id": "SA-DPP-27-BIO-CH07-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch7",
+    "chapterNumber": 7,
+    "chapter": "Coordination in Life Processes",
+    "level": "H",
+    "title": "Coordination in Life Processes – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-07.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-BIO-01",
+    "recommendedDate": "2026-11-18",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 153,
+      "to": 175
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q01",
+        "question": "What makes digestion an example of organ-system coordination?",
+        "options": [
+          "Only one enzyme controls every step",
+          "The stomach works independently of the rest of the body",
+          "Absorption requires no circulation",
+          "Nerves, hormones, glands and muscles act together"
+        ],
+        "answer": 3,
+        "explanation": "Effective digestion needs timed secretion, movement, absorption and transport.",
+        "difficulty": "Hard",
+        "topic": "What makes digestion an example of organ-system coordination?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q02",
+        "question": "Why can a damaged swallowing mechanism cause food to enter the airway?",
+        "options": [
+          "Bile closes the trachea",
+          "The stomach draws air through food",
+          "Airway closure and food propulsion may lose coordination",
+          "The oesophagus normally ends in the lung"
+        ],
+        "answer": 2,
+        "explanation": "Swallowing must coordinate several muscles and protective actions.",
+        "difficulty": "Hard",
+        "topic": "Why can a damaged swallowing mechanism cause food to enter the airway?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q03",
+        "question": "How do digestive hormones and nerves complement each other?",
+        "options": [
+          "Nerves replace all digestive enzymes",
+          "They coordinate secretions and movements according to food-related signals",
+          "They always cancel each other's effects",
+          "Hormones transport undigested food mechanically"
+        ],
+        "answer": 1,
+        "explanation": "Multiple signalling routes match digestive activity to the meal.",
+        "difficulty": "Hard",
+        "topic": "How do digestive hormones and nerves complement each other?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary glands — digestive-system role: A muscular oral organ\nII. Stomach — normal location or source: Between oesophagus and small intestine\nIII. Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Salivary glands — digestive-system role: Glands secreting saliva; Stomach — normal location or source: Between oesophagus and small intestine; Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine.",
+        "difficulty": "Hard",
+        "topic": "Salivary glands · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary glands — normal location or source: Around the oral cavity\nII. Stomach — specific contribution: Mixes food with acidic gastric secretion\nIII. Pancreas — digestive-system role: A gland contributing digestive enzymes",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Salivary glands — normal location or source: Around the oral cavity; Stomach — specific contribution: Mixes food with acidic gastric secretion; Pancreas — digestive-system role: A gland contributing digestive enzymes.",
+        "difficulty": "Hard",
+        "topic": "Salivary glands · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary glands — specific contribution: Moves swallowed food by peristalsis\nII. Stomach — digestive-system role: A muscular food-conducting tube\nIII. Pancreas — normal location or source: Between oesophagus and small intestine",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Salivary glands — specific contribution: Moisten food and provide salivary amylase; Stomach — digestive-system role: A muscular chamber for storage and mixing; Pancreas — normal location or source: Behind the stomach.",
+        "difficulty": "Hard",
+        "topic": "Salivary glands · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tongue — digestive-system role: A muscular oral organ\nII. Liver — normal location or source: Between oesophagus and small intestine\nIII. Intestinal villi — specific contribution: Supplies bile for fat emulsification after delivery to the intestine",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Tongue — digestive-system role: A muscular oral organ; Liver — normal location or source: Upper abdomen; Intestinal villi — specific contribution: Increase surface area for absorption of nutrients.",
+        "difficulty": "Hard",
+        "topic": "Tongue · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tongue — normal location or source: Upper abdomen\nII. Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine\nIII. Intestinal villi — digestive-system role: A bile-storage organ",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Tongue — normal location or source: Floor of the oral cavity; Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine; Intestinal villi — digestive-system role: Finger-like absorptive projections.",
+        "difficulty": "Hard",
+        "topic": "Tongue · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tongue — specific contribution: Mixes food and assists swallowing\nII. Liver — digestive-system role: A gland that produces bile\nIII. Intestinal villi — normal location or source: Behind the stomach",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Tongue — specific contribution: Mixes food and assists swallowing; Liver — digestive-system role: A gland that produces bile; Intestinal villi — normal location or source: Lining of the small intestine.",
+        "difficulty": "Hard",
+        "topic": "Tongue · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Epiglottis — digestive-system role: A gland contributing digestive enzymes\nII. Gallbladder — normal location or source: Lining of the small intestine\nIII. Salivary glands — specific contribution: Moisten food and provide salivary amylase",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Epiglottis — digestive-system role: A protective flap involved in swallowing; Gallbladder — normal location or source: Beneath the liver; Salivary glands — specific contribution: Moisten food and provide salivary amylase.",
+        "difficulty": "Hard",
+        "topic": "Epiglottis · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Epiglottis — normal location or source: At the laryngeal entrance\nII. Gallbladder — specific contribution: Moisten food and provide salivary amylase\nIII. Salivary glands — digestive-system role: Glands secreting saliva",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Epiglottis — normal location or source: At the laryngeal entrance; Gallbladder — specific contribution: Stores and concentrates bile between meals; Salivary glands — digestive-system role: Glands secreting saliva.",
+        "difficulty": "Hard",
+        "topic": "Epiglottis · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Epiglottis — specific contribution: Moisten food and provide salivary amylase\nII. Gallbladder — digestive-system role: A bile-storage organ\nIII. Salivary glands — normal location or source: Around the oral cavity",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Epiglottis — specific contribution: Helps keep swallowed food out of the airway; Gallbladder — digestive-system role: A bile-storage organ; Salivary glands — normal location or source: Around the oral cavity.",
+        "difficulty": "Hard",
+        "topic": "Epiglottis · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Oesophagus — digestive-system role: A muscular food-conducting tube\nII. Pancreas — normal location or source: Behind the stomach\nIII. Tongue — specific contribution: Mixes food and assists swallowing",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Oesophagus — digestive-system role: A muscular food-conducting tube; Pancreas — normal location or source: Behind the stomach; Tongue — specific contribution: Mixes food and assists swallowing.",
+        "difficulty": "Hard",
+        "topic": "Oesophagus · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Oesophagus — normal location or source: At the laryngeal entrance\nII. Pancreas — specific contribution: Moves swallowed food by peristalsis\nIII. Tongue — digestive-system role: A gland that produces bile",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Oesophagus — normal location or source: Between pharynx and stomach; Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine; Tongue — digestive-system role: A muscular oral organ.",
+        "difficulty": "Hard",
+        "topic": "Oesophagus · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Oesophagus — specific contribution: Moves swallowed food by peristalsis\nII. Pancreas — digestive-system role: A muscular chamber for storage and mixing\nIII. Tongue — normal location or source: Beneath the liver",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Oesophagus — specific contribution: Moves swallowed food by peristalsis; Pancreas — digestive-system role: A gland contributing digestive enzymes; Tongue — normal location or source: Floor of the oral cavity.",
+        "difficulty": "Hard",
+        "topic": "Oesophagus · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomach — digestive-system role: A gland that produces bile\nII. Intestinal villi — normal location or source: Lining of the small intestine\nIII. Epiglottis — specific contribution: Releases enzyme-containing secretion into the small intestine",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Stomach — digestive-system role: A muscular chamber for storage and mixing; Intestinal villi — normal location or source: Lining of the small intestine; Epiglottis — specific contribution: Helps keep swallowed food out of the airway.",
+        "difficulty": "Hard",
+        "topic": "Stomach · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomach — normal location or source: Between oesophagus and small intestine\nII. Intestinal villi — specific contribution: Increase surface area for absorption of nutrients\nIII. Epiglottis — digestive-system role: Finger-like absorptive projections",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Stomach — normal location or source: Between oesophagus and small intestine; Intestinal villi — specific contribution: Increase surface area for absorption of nutrients; Epiglottis — digestive-system role: A protective flap involved in swallowing.",
+        "difficulty": "Hard",
+        "topic": "Stomach · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Stomach — specific contribution: Releases enzyme-containing secretion into the small intestine\nII. Intestinal villi — digestive-system role: A gland contributing digestive enzymes\nIII. Epiglottis — normal location or source: At the laryngeal entrance",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Stomach — specific contribution: Mixes food with acidic gastric secretion; Intestinal villi — digestive-system role: Finger-like absorptive projections; Epiglottis — normal location or source: At the laryngeal entrance.",
+        "difficulty": "Hard",
+        "topic": "Stomach · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Liver — digestive-system role: A gland that produces bile\nII. Salivary glands — normal location or source: Floor of the oral cavity\nIII. Oesophagus — specific contribution: Moves swallowed food by peristalsis",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Liver — digestive-system role: A gland that produces bile; Salivary glands — normal location or source: Around the oral cavity; Oesophagus — specific contribution: Moves swallowed food by peristalsis.",
+        "difficulty": "Hard",
+        "topic": "Liver · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Liver — normal location or source: At the laryngeal entrance\nII. Salivary glands — specific contribution: Moisten food and provide salivary amylase\nIII. Oesophagus — digestive-system role: A muscular food-conducting tube",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Liver — normal location or source: Upper abdomen; Salivary glands — specific contribution: Moisten food and provide salivary amylase; Oesophagus — digestive-system role: A muscular food-conducting tube.",
+        "difficulty": "Hard",
+        "topic": "Liver · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine\nII. Salivary glands — digestive-system role: Glands secreting saliva\nIII. Oesophagus — normal location or source: Between pharynx and stomach",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine; Salivary glands — digestive-system role: Glands secreting saliva; Oesophagus — normal location or source: Between pharynx and stomach.",
+        "difficulty": "Hard",
+        "topic": "Liver · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gallbladder — digestive-system role: A protective flap involved in swallowing\nII. Tongue — normal location or source: Between oesophagus and small intestine\nIII. Stomach — specific contribution: Supplies bile for fat emulsification after delivery to the intestine",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Gallbladder — digestive-system role: A bile-storage organ; Tongue — normal location or source: Floor of the oral cavity; Stomach — specific contribution: Mixes food with acidic gastric secretion.",
+        "difficulty": "Hard",
+        "topic": "Gallbladder · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gallbladder — normal location or source: Beneath the liver\nII. Tongue — specific contribution: Supplies bile for fat emulsification after delivery to the intestine\nIII. Stomach — digestive-system role: A bile-storage organ",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Gallbladder — normal location or source: Beneath the liver; Tongue — specific contribution: Mixes food and assists swallowing; Stomach — digestive-system role: A muscular chamber for storage and mixing.",
+        "difficulty": "Hard",
+        "topic": "Gallbladder · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Gallbladder — specific contribution: Mixes food with acidic gastric secretion\nII. Tongue — digestive-system role: A muscular oral organ\nIII. Stomach — normal location or source: Behind the stomach",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Gallbladder — specific contribution: Stores and concentrates bile between meals; Tongue — digestive-system role: A muscular oral organ; Stomach — normal location or source: Between oesophagus and small intestine.",
+        "difficulty": "Hard",
+        "topic": "Gallbladder · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreas — digestive-system role: A gland contributing digestive enzymes\nII. Epiglottis — normal location or source: At the laryngeal entrance\nIII. Liver — specific contribution: Increase surface area for absorption of nutrients",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Pancreas — digestive-system role: A gland contributing digestive enzymes; Epiglottis — normal location or source: At the laryngeal entrance; Liver — specific contribution: Supplies bile for fat emulsification after delivery to the intestine.",
+        "difficulty": "Hard",
+        "topic": "Pancreas · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreas — normal location or source: Floor of the oral cavity\nII. Epiglottis — specific contribution: Increase surface area for absorption of nutrients\nIII. Liver — digestive-system role: A gland that produces bile",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Pancreas — normal location or source: Behind the stomach; Epiglottis — specific contribution: Helps keep swallowed food out of the airway; Liver — digestive-system role: A gland that produces bile.",
+        "difficulty": "Hard",
+        "topic": "Pancreas · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine\nII. Epiglottis — digestive-system role: Glands secreting saliva\nIII. Liver — normal location or source: Upper abdomen",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Pancreas — specific contribution: Releases enzyme-containing secretion into the small intestine; Epiglottis — digestive-system role: A protective flap involved in swallowing; Liver — normal location or source: Upper abdomen.",
+        "difficulty": "Hard",
+        "topic": "Pancreas · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intestinal villi — digestive-system role: Glands secreting saliva\nII. Oesophagus — normal location or source: Between pharynx and stomach\nIII. Gallbladder — specific contribution: Stores and concentrates bile between meals",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Intestinal villi — digestive-system role: Finger-like absorptive projections; Oesophagus — normal location or source: Between pharynx and stomach; Gallbladder — specific contribution: Stores and concentrates bile between meals.",
+        "difficulty": "Hard",
+        "topic": "Intestinal villi · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intestinal villi — normal location or source: Lining of the small intestine\nII. Oesophagus — specific contribution: Moves swallowed food by peristalsis\nIII. Gallbladder — digestive-system role: A bile-storage organ",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Intestinal villi — normal location or source: Lining of the small intestine; Oesophagus — specific contribution: Moves swallowed food by peristalsis; Gallbladder — digestive-system role: A bile-storage organ.",
+        "difficulty": "Hard",
+        "topic": "Intestinal villi · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH07-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intestinal villi — specific contribution: Helps keep swallowed food out of the airway\nII. Oesophagus — digestive-system role: A muscular chamber for storage and mixing\nIII. Gallbladder — normal location or source: Between oesophagus and small intestine",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Intestinal villi — specific contribution: Increase surface area for absorption of nutrients; Oesophagus — digestive-system role: A muscular food-conducting tube; Gallbladder — normal location or source: Beneath the liver.",
+        "difficulty": "Hard",
+        "topic": "Intestinal villi · comparing chapter concepts",
+        "sourceChapter": 7
+      }
+    ]
+  }
+}

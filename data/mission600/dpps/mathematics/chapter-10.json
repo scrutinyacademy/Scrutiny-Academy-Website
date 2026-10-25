@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH10-E": {
+    "id": "SA-DPP-27-MAT-CH10-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "E",
+    "title": "Mensuration – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-23",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q01",
+        "question": "What is the volume of a cylinder of radius r and height h?",
+        "options": [
+          "πrh²",
+          "4πr³/3",
+          "πr²h",
+          "2πrh"
+        ],
+        "answer": 2,
+        "explanation": "Volume is base area multiplied by height.",
+        "difficulty": "Easy",
+        "topic": "What is the volume of a cylinder of radius r and height h?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q02",
+        "question": "What is the curved surface area of a cone of radius r and slant height l?",
+        "options": [
+          "πr²",
+          "πrl",
+          "πr²l",
+          "2πrl"
+        ],
+        "answer": 1,
+        "explanation": "Unrolling the curved surface gives a circular sector of area πrl.",
+        "difficulty": "Easy",
+        "topic": "What is the curved surface area of a cone of radius r and slant height l?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q03",
+        "question": "What is the volume of a sphere of radius r?",
+        "options": [
+          "4πr³/3",
+          "4πr²",
+          "πr³",
+          "2πr³/3"
+        ],
+        "answer": 0,
+        "explanation": "The sphere volume formula is 4πr³/3.",
+        "difficulty": "Easy",
+        "topic": "What is the volume of a sphere of radius r?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q04",
+        "question": "A cylinder has radius 2 and height 3. Find its volume divided by π.",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "V=πr²h, so V/π=r²h.",
+        "difficulty": "Easy",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q05",
+        "question": "A cone has radius 2 and height 6. Find its volume divided by π.",
+        "options": [
+          "7",
+          "10",
+          "8",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "V=πr²h/3.",
+        "difficulty": "Easy",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q06",
+        "question": "A sphere has radius 6. Find its volume divided by π.",
+        "options": [
+          "290",
+          "288",
+          "289",
+          "287"
+        ],
+        "answer": 1,
+        "explanation": "V=4πr³/3, and r=3n.",
+        "difficulty": "Easy",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q07",
+        "question": "A cylinder has radius 2 and height 4. Find curved surface area divided by π.",
+        "options": [
+          "16",
+          "17",
+          "15",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "CSA=2πrh=4πn².",
+        "difficulty": "Easy",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q08",
+        "question": "A cone has radius 6 and height 8. Find its slant height.",
+        "options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "l=√(r²+h²), a scaled 3-4-5 right triangle.",
+        "difficulty": "Easy",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q09",
+        "question": "A hemisphere has radius 2. Find its total surface area divided by π.",
+        "options": [
+          "11",
+          "14",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Add curved area 2πr² and circular base πr².",
+        "difficulty": "Easy",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q10",
+        "question": "A sphere of radius 6 is melted into a cylinder of radius 6. Find the cylinder height.",
+        "options": [
+          "10",
+          "8",
+          "9",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "Equate 4πr³/3 to πr²h, giving h=4r/3.",
+        "difficulty": "Easy",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q11",
+        "question": "A cylinder has radius 2 and height 3. Find its total surface area divided by 2π.",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "TSA=2πr(r+h), so divide by 2π.",
+        "difficulty": "Easy",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q12",
+        "question": "A cone and cylinder share radius 2 and height 6. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "For equal base radius and height, a cone has one-third of the cylinder volume.",
+        "difficulty": "Easy",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q13",
+        "question": "A cylinder has radius 3 and height 3. Find its volume divided by π.",
+        "options": [
+          "26",
+          "29",
+          "27",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "V=πr²h, so V/π=r²h.",
+        "difficulty": "Easy",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q14",
+        "question": "A cone has radius 3 and height 6. Find its volume divided by π.",
+        "options": [
+          "20",
+          "18",
+          "19",
+          "17"
+        ],
+        "answer": 1,
+        "explanation": "V=πr²h/3.",
+        "difficulty": "Easy",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q15",
+        "question": "A sphere has radius 9. Find its volume divided by π.",
+        "options": [
+          "972",
+          "973",
+          "971",
+          "974"
+        ],
+        "answer": 0,
+        "explanation": "V=4πr³/3, and r=3n.",
+        "difficulty": "Easy",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q16",
+        "question": "A cylinder has radius 3 and height 6. Find curved surface area divided by π.",
+        "options": [
+          "37",
+          "35",
+          "38",
+          "36"
+        ],
+        "answer": 3,
+        "explanation": "CSA=2πrh=4πn².",
+        "difficulty": "Easy",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q17",
+        "question": "A cone has radius 9 and height 12. Find its slant height.",
+        "options": [
+          "14",
+          "17",
+          "15",
+          "16"
+        ],
+        "answer": 2,
+        "explanation": "l=√(r²+h²), a scaled 3-4-5 right triangle.",
+        "difficulty": "Easy",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q18",
+        "question": "A hemisphere has radius 3. Find its total surface area divided by π.",
+        "options": [
+          "29",
+          "27",
+          "28",
+          "26"
+        ],
+        "answer": 1,
+        "explanation": "Add curved area 2πr² and circular base πr².",
+        "difficulty": "Easy",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q19",
+        "question": "A sphere of radius 9 is melted into a cylinder of radius 9. Find the cylinder height.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Equate 4πr³/3 to πr²h, giving h=4r/3.",
+        "difficulty": "Easy",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q20",
+        "question": "A cylinder has radius 3 and height 4. Find its total surface area divided by 2π.",
+        "options": [
+          "22",
+          "20",
+          "23",
+          "21"
+        ],
+        "answer": 3,
+        "explanation": "TSA=2πr(r+h), so divide by 2π.",
+        "difficulty": "Easy",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q21",
+        "question": "A cone and cylinder share radius 3 and height 9. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "For equal base radius and height, a cone has one-third of the cylinder volume.",
+        "difficulty": "Easy",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q22",
+        "question": "A cylinder has radius 4 and height 3. Find its volume divided by π.",
+        "options": [
+          "50",
+          "48",
+          "49",
+          "47"
+        ],
+        "answer": 1,
+        "explanation": "V=πr²h, so V/π=r²h.",
+        "difficulty": "Easy",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q23",
+        "question": "A cone has radius 4 and height 6. Find its volume divided by π.",
+        "options": [
+          "32",
+          "33",
+          "31",
+          "34"
+        ],
+        "answer": 0,
+        "explanation": "V=πr²h/3.",
+        "difficulty": "Easy",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q24",
+        "question": "A sphere has radius 12. Find its volume divided by π.",
+        "options": [
+          "2305",
+          "2303",
+          "2306",
+          "2304"
+        ],
+        "answer": 3,
+        "explanation": "V=4πr³/3, and r=3n.",
+        "difficulty": "Easy",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q25",
+        "question": "A cylinder has radius 4 and height 8. Find curved surface area divided by π.",
+        "options": [
+          "63",
+          "66",
+          "64",
+          "65"
+        ],
+        "answer": 2,
+        "explanation": "CSA=2πrh=4πn².",
+        "difficulty": "Easy",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q26",
+        "question": "A cone has radius 12 and height 16. Find its slant height.",
+        "options": [
+          "22",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "l=√(r²+h²), a scaled 3-4-5 right triangle.",
+        "difficulty": "Easy",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q27",
+        "question": "A hemisphere has radius 4. Find its total surface area divided by π.",
+        "options": [
+          "48",
+          "49",
+          "47",
+          "50"
+        ],
+        "answer": 0,
+        "explanation": "Add curved area 2πr² and circular base πr².",
+        "difficulty": "Easy",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q28",
+        "question": "A sphere of radius 12 is melted into a cylinder of radius 12. Find the cylinder height.",
+        "options": [
+          "17",
+          "15",
+          "18",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "Equate 4πr³/3 to πr²h, giving h=4r/3.",
+        "difficulty": "Easy",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q29",
+        "question": "A cylinder has radius 4 and height 5. Find its total surface area divided by 2π.",
+        "options": [
+          "35",
+          "38",
+          "36",
+          "37"
+        ],
+        "answer": 2,
+        "explanation": "TSA=2πr(r+h), so divide by 2π.",
+        "difficulty": "Easy",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-E-Q30",
+        "question": "A cone and cylinder share radius 4 and height 12. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "For equal base radius and height, a cone has one-third of the cylinder volume.",
+        "difficulty": "Easy",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH10-M": {
+    "id": "SA-DPP-27-MAT-CH10-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "M",
+    "title": "Mensuration – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-24",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q01",
+        "question": "A cylinder has radius 7 cm and height 10 cm. Using π=22/7, find its volume.",
+        "options": [
+          "3080 cm³",
+          "1540 cm³",
+          "440 cm³",
+          "770 cm³"
+        ],
+        "answer": 1,
+        "explanation": "Volume=(22/7)×49×10=1540.",
+        "difficulty": "Medium",
+        "topic": "A cylinder has radius 7 cm and height 10 cm. Using π=22/7, find its volume.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q02",
+        "question": "A cone has radius 3 cm and height 4 cm. Find its slant height.",
+        "options": [
+          "5 cm",
+          "7 cm",
+          "1 cm",
+          "25 cm"
+        ],
+        "answer": 0,
+        "explanation": "Use l²=r²+h²=9+16.",
+        "difficulty": "Medium",
+        "topic": "A cone has radius 3 cm and height 4 cm. Find its slant height.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q03",
+        "question": "A sphere's radius doubles. By what factor does its volume increase?",
+        "options": [
+          "2",
+          "4",
+          "16",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Volume is proportional to the cube of radius.",
+        "difficulty": "Medium",
+        "topic": "A sphere's radius doubles. By what factor does its volume increase?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 5 and height 3. Find its volume divided by π.\nII. A cone has radius 15 and height 20. Find its slant height.",
+        "options": [
+          "75 ; 24",
+          "76 ; 26",
+          "75 ; 25",
+          "76 ; 25"
+        ],
+        "answer": 2,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 75. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 5 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 5. Find its total surface area divided by π.",
+        "options": [
+          "49 ; 74",
+          "50 ; 75",
+          "49 ; 75",
+          "50 ; 77"
+        ],
+        "answer": 1,
+        "explanation": "I. V=πr²h/3. Answer: 50. II. Add curved area 2πr² and circular base πr². Answer: 75.",
+        "difficulty": "Medium",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere has radius 15. Find its volume divided by π.\nII. A sphere of radius 15 is melted into a cylinder of radius 15. Find the cylinder height.",
+        "options": [
+          "4500 ; 20",
+          "4502 ; 20",
+          "4500 ; 21",
+          "4502 ; 22"
+        ],
+        "answer": 0,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 4500. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 20.",
+        "difficulty": "Medium",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 5 and height 10. Find curved surface area divided by π.\nII. A cylinder has radius 5 and height 6. Find its total surface area divided by 2π.",
+        "options": [
+          "101 ; 55",
+          "100 ; 54",
+          "101 ; 56",
+          "100 ; 55"
+        ],
+        "answer": 3,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 100. II. TSA=2πr(r+h), so divide by 2π. Answer: 55.",
+        "difficulty": "Medium",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 15 and height 20. Find its slant height.\nII. A cone and cylinder share radius 5 and height 15. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "25 ; 5",
+          "24 ; 2",
+          "25 ; 3",
+          "24 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 25. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A hemisphere has radius 5. Find its total surface area divided by π.\nII. A cylinder has radius 6 and height 3. Find its volume divided by π.",
+        "options": [
+          "77 ; 110",
+          "75 ; 108",
+          "77 ; 108",
+          "75 ; 109"
+        ],
+        "answer": 1,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 75. II. V=πr²h, so V/π=r²h. Answer: 108.",
+        "difficulty": "Medium",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere of radius 15 is melted into a cylinder of radius 15. Find the cylinder height.\nII. A cone has radius 6 and height 6. Find its volume divided by π.",
+        "options": [
+          "20 ; 72",
+          "21 ; 72",
+          "20 ; 71",
+          "21 ; 73"
+        ],
+        "answer": 0,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 20. II. V=πr²h/3. Answer: 72.",
+        "difficulty": "Medium",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 5 and height 6. Find its total surface area divided by 2π.\nII. A sphere has radius 18. Find its volume divided by π.",
+        "options": [
+          "54 ; 7776",
+          "55 ; 7778",
+          "54 ; 7775",
+          "55 ; 7776"
+        ],
+        "answer": 3,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 55. II. V=4πr³/3, and r=3n. Answer: 7776.",
+        "difficulty": "Medium",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 5 and height 15. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 6 and height 12. Find curved surface area divided by π.",
+        "options": [
+          "3 ; 145",
+          "5 ; 146",
+          "3 ; 144",
+          "5 ; 144"
+        ],
+        "answer": 2,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 144.",
+        "difficulty": "Medium",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 6 and height 3. Find its volume divided by π.\nII. A cone has radius 18 and height 24. Find its slant height.",
+        "options": [
+          "109 ; 31",
+          "108 ; 30",
+          "109 ; 30",
+          "108 ; 29"
+        ],
+        "answer": 1,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 108. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 6 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 6. Find its total surface area divided by π.",
+        "options": [
+          "72 ; 108",
+          "71 ; 108",
+          "72 ; 110",
+          "71 ; 107"
+        ],
+        "answer": 0,
+        "explanation": "I. V=πr²h/3. Answer: 72. II. Add curved area 2πr² and circular base πr². Answer: 108.",
+        "difficulty": "Medium",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere has radius 18. Find its volume divided by π.\nII. A sphere of radius 18 is melted into a cylinder of radius 18. Find the cylinder height.",
+        "options": [
+          "7778 ; 24",
+          "7776 ; 25",
+          "7778 ; 26",
+          "7776 ; 24"
+        ],
+        "answer": 3,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 7776. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 6 and height 12. Find curved surface area divided by π.\nII. A cylinder has radius 6 and height 7. Find its total surface area divided by 2π.",
+        "options": [
+          "144 ; 77",
+          "145 ; 79",
+          "144 ; 78",
+          "145 ; 78"
+        ],
+        "answer": 2,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 144. II. TSA=2πr(r+h), so divide by 2π. Answer: 78.",
+        "difficulty": "Medium",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 18 and height 24. Find its slant height.\nII. A cone and cylinder share radius 6 and height 18. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "29 ; 2",
+          "30 ; 3",
+          "29 ; 3",
+          "30 ; 5"
+        ],
+        "answer": 1,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 30. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A hemisphere has radius 6. Find its total surface area divided by π.\nII. A cylinder has radius 7 and height 3. Find its volume divided by π.",
+        "options": [
+          "108 ; 147",
+          "110 ; 147",
+          "108 ; 148",
+          "110 ; 149"
+        ],
+        "answer": 0,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 108. II. V=πr²h, so V/π=r²h. Answer: 147.",
+        "difficulty": "Medium",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere of radius 18 is melted into a cylinder of radius 18. Find the cylinder height.\nII. A cone has radius 7 and height 6. Find its volume divided by π.",
+        "options": [
+          "25 ; 98",
+          "24 ; 97",
+          "25 ; 99",
+          "24 ; 98"
+        ],
+        "answer": 3,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 24. II. V=πr²h/3. Answer: 98.",
+        "difficulty": "Medium",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 6 and height 7. Find its total surface area divided by 2π.\nII. A sphere has radius 21. Find its volume divided by π.",
+        "options": [
+          "78 ; 12350",
+          "77 ; 12347",
+          "78 ; 12348",
+          "77 ; 12348"
+        ],
+        "answer": 2,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 78. II. V=4πr³/3, and r=3n. Answer: 12348.",
+        "difficulty": "Medium",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 6 and height 18. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 7 and height 14. Find curved surface area divided by π.",
+        "options": [
+          "5 ; 198",
+          "3 ; 196",
+          "5 ; 196",
+          "3 ; 197"
+        ],
+        "answer": 1,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 196.",
+        "difficulty": "Medium",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 7 and height 3. Find its volume divided by π.\nII. A cone has radius 21 and height 28. Find its slant height.",
+        "options": [
+          "147 ; 35",
+          "148 ; 35",
+          "147 ; 34",
+          "148 ; 36"
+        ],
+        "answer": 0,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 147. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 7 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 7. Find its total surface area divided by π.",
+        "options": [
+          "97 ; 147",
+          "98 ; 149",
+          "97 ; 146",
+          "98 ; 147"
+        ],
+        "answer": 3,
+        "explanation": "I. V=πr²h/3. Answer: 98. II. Add curved area 2πr² and circular base πr². Answer: 147.",
+        "difficulty": "Medium",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere has radius 21. Find its volume divided by π.\nII. A sphere of radius 21 is melted into a cylinder of radius 21. Find the cylinder height.",
+        "options": [
+          "12348 ; 29",
+          "12350 ; 30",
+          "12348 ; 28",
+          "12350 ; 28"
+        ],
+        "answer": 2,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 12348. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 28.",
+        "difficulty": "Medium",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 7 and height 14. Find curved surface area divided by π.\nII. A cylinder has radius 7 and height 8. Find its total surface area divided by 2π.",
+        "options": [
+          "197 ; 106",
+          "196 ; 105",
+          "197 ; 105",
+          "196 ; 104"
+        ],
+        "answer": 1,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 196. II. TSA=2πr(r+h), so divide by 2π. Answer: 105.",
+        "difficulty": "Medium",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone has radius 21 and height 28. Find its slant height.\nII. A cone and cylinder share radius 7 and height 21. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "35 ; 3",
+          "34 ; 3",
+          "35 ; 5",
+          "34 ; 2"
+        ],
+        "answer": 0,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 35. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A hemisphere has radius 7. Find its total surface area divided by π.\nII. A cylinder has radius 5 and height 3. Find its volume divided by π.",
+        "options": [
+          "149 ; 75",
+          "147 ; 76",
+          "149 ; 77",
+          "147 ; 75"
+        ],
+        "answer": 3,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 147. II. V=πr²h, so V/π=r²h. Answer: 75.",
+        "difficulty": "Medium",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A sphere of radius 21 is melted into a cylinder of radius 21. Find the cylinder height.\nII. A cone has radius 5 and height 6. Find its volume divided by π.",
+        "options": [
+          "28 ; 49",
+          "29 ; 51",
+          "28 ; 50",
+          "29 ; 50"
+        ],
+        "answer": 2,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 28. II. V=πr²h/3. Answer: 50.",
+        "difficulty": "Medium",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cylinder has radius 7 and height 8. Find its total surface area divided by 2π.\nII. A sphere has radius 15. Find its volume divided by π.",
+        "options": [
+          "104 ; 4499",
+          "105 ; 4500",
+          "104 ; 4500",
+          "105 ; 4502"
+        ],
+        "answer": 1,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 105. II. V=4πr³/3, and r=3n. Answer: 4500.",
+        "difficulty": "Medium",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 7 and height 21. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 5 and height 10. Find curved surface area divided by π.",
+        "options": [
+          "3 ; 100",
+          "5 ; 100",
+          "3 ; 101",
+          "5 ; 102"
+        ],
+        "answer": 0,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 100.",
+        "difficulty": "Medium",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH10-H": {
+    "id": "SA-DPP-27-MAT-CH10-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Mensuration",
+    "level": "H",
+    "title": "Mensuration – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-01",
+    "recommendedDate": "2026-11-25",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 249,
+      "to": 272
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q01",
+        "question": "A solid sphere of radius 3 cm is melted into a cylinder of radius 3 cm. Find the cylinder height.",
+        "options": [
+          "4 cm",
+          "3 cm",
+          "6 cm",
+          "9 cm"
+        ],
+        "answer": 0,
+        "explanation": "Equate volumes: 36π=9πh, giving h=4.",
+        "difficulty": "Hard",
+        "topic": "A solid sphere of radius 3 cm is melted into a cylinder of radius 3 cm. Find the cylinder height.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q02",
+        "question": "A hemisphere of radius r is placed on a cylinder of radius r and height 2r. Find exposed surface area, including the bottom.",
+        "options": [
+          "8πr²",
+          "6πr²",
+          "9πr²",
+          "7πr²"
+        ],
+        "answer": 3,
+        "explanation": "Add cylinder curve 4πr², hemisphere curve 2πr² and bottom πr².",
+        "difficulty": "Hard",
+        "topic": "A hemisphere of radius r is placed on a cylinder of radius r and height 2r. Find exposed surface area, including the bottom.",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q03",
+        "question": "A cone and cylinder have equal radius and height. What fraction of cylinder volume remains after removing the cone volume?",
+        "options": [
+          "1/2",
+          "3/4",
+          "2/3",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "The cone occupies one-third of the cylinder's volume.",
+        "difficulty": "Hard",
+        "topic": "A cone and cylinder have equal radius and height. What fraction of cylinder volume remains after removing the cone volume?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 8 and height 3. Find its volume divided by π.\nII. A cone has radius 24 and height 32. Find its slant height.\nIII. A cylinder has radius 8 and height 9. Find its total surface area divided by 2π.",
+        "options": [
+          "192 ; 40 ; 138",
+          "192 ; 40 ; 136",
+          "193 ; 40 ; 136",
+          "192 ; 39 ; 136"
+        ],
+        "answer": 1,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 192. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 40. III. TSA=2πr(r+h), so divide by 2π. Answer: 136.",
+        "difficulty": "Hard",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 8 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 8. Find its total surface area divided by π.\nIII. A cone and cylinder share radius 8 and height 24. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "128 ; 192 ; 3",
+          "127 ; 192 ; 3",
+          "128 ; 194 ; 3",
+          "128 ; 192 ; 4"
+        ],
+        "answer": 0,
+        "explanation": "I. V=πr²h/3. Answer: 128. II. Add curved area 2πr² and circular base πr². Answer: 192. III. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere has radius 24. Find its volume divided by π.\nII. A sphere of radius 24 is melted into a cylinder of radius 24. Find the cylinder height.\nIII. A cylinder has radius 9 and height 3. Find its volume divided by π.",
+        "options": [
+          "18434 ; 32 ; 243",
+          "18432 ; 33 ; 243",
+          "18432 ; 32 ; 242",
+          "18432 ; 32 ; 243"
+        ],
+        "answer": 3,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 18432. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 32. III. V=πr²h, so V/π=r²h. Answer: 243.",
+        "difficulty": "Hard",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 8 and height 16. Find curved surface area divided by π.\nII. A cylinder has radius 8 and height 9. Find its total surface area divided by 2π.\nIII. A cone has radius 9 and height 6. Find its volume divided by π.",
+        "options": [
+          "256 ; 135 ; 162",
+          "256 ; 136 ; 164",
+          "256 ; 136 ; 162",
+          "257 ; 136 ; 162"
+        ],
+        "answer": 2,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 256. II. TSA=2πr(r+h), so divide by 2π. Answer: 136. III. V=πr²h/3. Answer: 162.",
+        "difficulty": "Hard",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 24 and height 32. Find its slant height.\nII. A cone and cylinder share radius 8 and height 24. Find the cylinder-to-cone volume ratio.\nIII. A sphere has radius 27. Find its volume divided by π.",
+        "options": [
+          "40 ; 3 ; 26245",
+          "40 ; 3 ; 26244",
+          "39 ; 3 ; 26244",
+          "40 ; 5 ; 26244"
+        ],
+        "answer": 1,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 40. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. III. V=4πr³/3, and r=3n. Answer: 26244.",
+        "difficulty": "Hard",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A hemisphere has radius 8. Find its total surface area divided by π.\nII. A cylinder has radius 9 and height 3. Find its volume divided by π.\nIII. A cylinder has radius 9 and height 18. Find curved surface area divided by π.",
+        "options": [
+          "192 ; 243 ; 324",
+          "194 ; 243 ; 324",
+          "192 ; 244 ; 324",
+          "192 ; 243 ; 323"
+        ],
+        "answer": 0,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 192. II. V=πr²h, so V/π=r²h. Answer: 243. III. CSA=2πrh=4πn². Answer: 324.",
+        "difficulty": "Hard",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere of radius 24 is melted into a cylinder of radius 24. Find the cylinder height.\nII. A cone has radius 9 and height 6. Find its volume divided by π.\nIII. A cone has radius 27 and height 36. Find its slant height.",
+        "options": [
+          "33 ; 162 ; 45",
+          "32 ; 161 ; 45",
+          "32 ; 162 ; 47",
+          "32 ; 162 ; 45"
+        ],
+        "answer": 3,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 32. II. V=πr²h/3. Answer: 162. III. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 8 and height 9. Find its total surface area divided by 2π.\nII. A sphere has radius 27. Find its volume divided by π.\nIII. A hemisphere has radius 9. Find its total surface area divided by π.",
+        "options": [
+          "136 ; 26246 ; 243",
+          "136 ; 26244 ; 244",
+          "136 ; 26244 ; 243",
+          "135 ; 26244 ; 243"
+        ],
+        "answer": 2,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 136. II. V=4πr³/3, and r=3n. Answer: 26244. III. Add curved area 2πr² and circular base πr². Answer: 243.",
+        "difficulty": "Hard",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 8 and height 24. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 9 and height 18. Find curved surface area divided by π.\nIII. A sphere of radius 27 is melted into a cylinder of radius 27. Find the cylinder height.",
+        "options": [
+          "3 ; 324 ; 35",
+          "3 ; 324 ; 36",
+          "5 ; 324 ; 36",
+          "3 ; 325 ; 36"
+        ],
+        "answer": 1,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 324. III. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 9 and height 3. Find its volume divided by π.\nII. A cone has radius 27 and height 36. Find its slant height.\nIII. A cylinder has radius 9 and height 10. Find its total surface area divided by 2π.",
+        "options": [
+          "243 ; 45 ; 171",
+          "244 ; 45 ; 171",
+          "243 ; 44 ; 171",
+          "243 ; 45 ; 173"
+        ],
+        "answer": 0,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 243. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 45. III. TSA=2πr(r+h), so divide by 2π. Answer: 171.",
+        "difficulty": "Hard",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 9 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 9. Find its total surface area divided by π.\nIII. A cone and cylinder share radius 9 and height 27. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "161 ; 243 ; 3",
+          "162 ; 245 ; 3",
+          "162 ; 243 ; 4",
+          "162 ; 243 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. V=πr²h/3. Answer: 162. II. Add curved area 2πr² and circular base πr². Answer: 243. III. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere has radius 27. Find its volume divided by π.\nII. A sphere of radius 27 is melted into a cylinder of radius 27. Find the cylinder height.\nIII. A cylinder has radius 10 and height 3. Find its volume divided by π.",
+        "options": [
+          "26244 ; 37 ; 300",
+          "26244 ; 36 ; 299",
+          "26244 ; 36 ; 300",
+          "26246 ; 36 ; 300"
+        ],
+        "answer": 2,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 26244. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 36. III. V=πr²h, so V/π=r²h. Answer: 300.",
+        "difficulty": "Hard",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 9 and height 18. Find curved surface area divided by π.\nII. A cylinder has radius 9 and height 10. Find its total surface area divided by 2π.\nIII. A cone has radius 10 and height 6. Find its volume divided by π.",
+        "options": [
+          "324 ; 171 ; 202",
+          "324 ; 171 ; 200",
+          "325 ; 171 ; 200",
+          "324 ; 170 ; 200"
+        ],
+        "answer": 1,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 324. II. TSA=2πr(r+h), so divide by 2π. Answer: 171. III. V=πr²h/3. Answer: 200.",
+        "difficulty": "Hard",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 27 and height 36. Find its slant height.\nII. A cone and cylinder share radius 9 and height 27. Find the cylinder-to-cone volume ratio.\nIII. A sphere has radius 30. Find its volume divided by π.",
+        "options": [
+          "45 ; 3 ; 36000",
+          "44 ; 3 ; 36000",
+          "45 ; 5 ; 36000",
+          "45 ; 3 ; 36001"
+        ],
+        "answer": 0,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 45. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. III. V=4πr³/3, and r=3n. Answer: 36000.",
+        "difficulty": "Hard",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A hemisphere has radius 9. Find its total surface area divided by π.\nII. A cylinder has radius 10 and height 3. Find its volume divided by π.\nIII. A cylinder has radius 10 and height 20. Find curved surface area divided by π.",
+        "options": [
+          "245 ; 300 ; 400",
+          "243 ; 301 ; 400",
+          "243 ; 300 ; 399",
+          "243 ; 300 ; 400"
+        ],
+        "answer": 3,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 243. II. V=πr²h, so V/π=r²h. Answer: 300. III. CSA=2πrh=4πn². Answer: 400.",
+        "difficulty": "Hard",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere of radius 27 is melted into a cylinder of radius 27. Find the cylinder height.\nII. A cone has radius 10 and height 6. Find its volume divided by π.\nIII. A cone has radius 30 and height 40. Find its slant height.",
+        "options": [
+          "36 ; 199 ; 50",
+          "36 ; 200 ; 52",
+          "36 ; 200 ; 50",
+          "37 ; 200 ; 50"
+        ],
+        "answer": 2,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 36. II. V=πr²h/3. Answer: 200. III. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 9 and height 10. Find its total surface area divided by 2π.\nII. A sphere has radius 30. Find its volume divided by π.\nIII. A hemisphere has radius 10. Find its total surface area divided by π.",
+        "options": [
+          "171 ; 36000 ; 301",
+          "171 ; 36000 ; 300",
+          "170 ; 36000 ; 300",
+          "171 ; 36002 ; 300"
+        ],
+        "answer": 1,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 171. II. V=4πr³/3, and r=3n. Answer: 36000. III. Add curved area 2πr² and circular base πr². Answer: 300.",
+        "difficulty": "Hard",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 9 and height 27. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 10 and height 20. Find curved surface area divided by π.\nIII. A sphere of radius 30 is melted into a cylinder of radius 30. Find the cylinder height.",
+        "options": [
+          "3 ; 400 ; 40",
+          "5 ; 400 ; 40",
+          "3 ; 401 ; 40",
+          "3 ; 400 ; 39"
+        ],
+        "answer": 0,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 400. III. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 10 and height 3. Find its volume divided by π.\nII. A cone has radius 30 and height 40. Find its slant height.\nIII. A cylinder has radius 10 and height 11. Find its total surface area divided by 2π.",
+        "options": [
+          "301 ; 50 ; 210",
+          "300 ; 49 ; 210",
+          "300 ; 50 ; 212",
+          "300 ; 50 ; 210"
+        ],
+        "answer": 3,
+        "explanation": "I. V=πr²h, so V/π=r²h. Answer: 300. II. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 50. III. TSA=2πr(r+h), so divide by 2π. Answer: 210.",
+        "difficulty": "Hard",
+        "topic": "Cylinder volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 10 and height 6. Find its volume divided by π.\nII. A hemisphere has radius 10. Find its total surface area divided by π.\nIII. A cone and cylinder share radius 10 and height 30. Find the cylinder-to-cone volume ratio.",
+        "options": [
+          "200 ; 302 ; 3",
+          "200 ; 300 ; 4",
+          "200 ; 300 ; 3",
+          "199 ; 300 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. V=πr²h/3. Answer: 200. II. Add curved area 2πr² and circular base πr². Answer: 300. III. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Cone volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere has radius 30. Find its volume divided by π.\nII. A sphere of radius 30 is melted into a cylinder of radius 30. Find the cylinder height.\nIII. A cylinder has radius 8 and height 3. Find its volume divided by π.",
+        "options": [
+          "36000 ; 40 ; 191",
+          "36000 ; 40 ; 192",
+          "36002 ; 40 ; 192",
+          "36000 ; 41 ; 192"
+        ],
+        "answer": 1,
+        "explanation": "I. V=4πr³/3, and r=3n. Answer: 36000. II. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 40. III. V=πr²h, so V/π=r²h. Answer: 192.",
+        "difficulty": "Hard",
+        "topic": "Sphere volume",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 10 and height 20. Find curved surface area divided by π.\nII. A cylinder has radius 10 and height 11. Find its total surface area divided by 2π.\nIII. A cone has radius 8 and height 6. Find its volume divided by π.",
+        "options": [
+          "400 ; 210 ; 128",
+          "401 ; 210 ; 128",
+          "400 ; 209 ; 128",
+          "400 ; 210 ; 130"
+        ],
+        "answer": 0,
+        "explanation": "I. CSA=2πrh=4πn². Answer: 400. II. TSA=2πr(r+h), so divide by 2π. Answer: 210. III. V=πr²h/3. Answer: 128.",
+        "difficulty": "Hard",
+        "topic": "Cylinder curved area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone has radius 30 and height 40. Find its slant height.\nII. A cone and cylinder share radius 10 and height 30. Find the cylinder-to-cone volume ratio.\nIII. A sphere has radius 24. Find its volume divided by π.",
+        "options": [
+          "49 ; 3 ; 18432",
+          "50 ; 5 ; 18432",
+          "50 ; 3 ; 18433",
+          "50 ; 3 ; 18432"
+        ],
+        "answer": 3,
+        "explanation": "I. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 50. II. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. III. V=4πr³/3, and r=3n. Answer: 18432.",
+        "difficulty": "Hard",
+        "topic": "Cone slant height",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A hemisphere has radius 10. Find its total surface area divided by π.\nII. A cylinder has radius 8 and height 3. Find its volume divided by π.\nIII. A cylinder has radius 8 and height 16. Find curved surface area divided by π.",
+        "options": [
+          "300 ; 193 ; 256",
+          "300 ; 192 ; 255",
+          "300 ; 192 ; 256",
+          "302 ; 192 ; 256"
+        ],
+        "answer": 2,
+        "explanation": "I. Add curved area 2πr² and circular base πr². Answer: 300. II. V=πr²h, so V/π=r²h. Answer: 192. III. CSA=2πrh=4πn². Answer: 256.",
+        "difficulty": "Hard",
+        "topic": "Hemisphere area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A sphere of radius 30 is melted into a cylinder of radius 30. Find the cylinder height.\nII. A cone has radius 8 and height 6. Find its volume divided by π.\nIII. A cone has radius 24 and height 32. Find its slant height.",
+        "options": [
+          "40 ; 128 ; 42",
+          "40 ; 128 ; 40",
+          "41 ; 128 ; 40",
+          "40 ; 127 ; 40"
+        ],
+        "answer": 1,
+        "explanation": "I. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 40. II. V=πr²h/3. Answer: 128. III. l=√(r²+h²), a scaled 3-4-5 right triangle. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Recasting solids",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cylinder has radius 10 and height 11. Find its total surface area divided by 2π.\nII. A sphere has radius 24. Find its volume divided by π.\nIII. A hemisphere has radius 8. Find its total surface area divided by π.",
+        "options": [
+          "210 ; 18432 ; 192",
+          "209 ; 18432 ; 192",
+          "210 ; 18434 ; 192",
+          "210 ; 18432 ; 193"
+        ],
+        "answer": 0,
+        "explanation": "I. TSA=2πr(r+h), so divide by 2π. Answer: 210. II. V=4πr³/3, and r=3n. Answer: 18432. III. Add curved area 2πr² and circular base πr². Answer: 192.",
+        "difficulty": "Hard",
+        "topic": "Cylinder total area",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH10-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A cone and cylinder share radius 10 and height 30. Find the cylinder-to-cone volume ratio.\nII. A cylinder has radius 8 and height 16. Find curved surface area divided by π.\nIII. A sphere of radius 24 is melted into a cylinder of radius 24. Find the cylinder height.",
+        "options": [
+          "5 ; 256 ; 32",
+          "3 ; 257 ; 32",
+          "3 ; 256 ; 31",
+          "3 ; 256 ; 32"
+        ],
+        "answer": 3,
+        "explanation": "I. For equal base radius and height, a cone has one-third of the cylinder volume. Answer: 3. II. CSA=2πrh=4πn². Answer: 256. III. Equate 4πr³/3 to πr²h, giving h=4r/3. Answer: 32.",
+        "difficulty": "Hard",
+        "topic": "Volume ratios",
+        "sourceChapter": 10
+      }
+    ]
+  }
+}

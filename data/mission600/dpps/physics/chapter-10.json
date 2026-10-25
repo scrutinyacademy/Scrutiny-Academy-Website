@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH10-E": {
+    "id": "SA-DPP-27-PHY-CH10-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "E",
+    "title": "Electromagnetism – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-24",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q01",
+        "question": "A current-carrying wire produces what around it?",
+        "options": [
+          "Only a static electric charge",
+          "No field",
+          "A magnetic field",
+          "Only a gravitational field"
+        ],
+        "answer": 2,
+        "explanation": "Moving charge creates a magnetic field.",
+        "difficulty": "Easy",
+        "topic": "A current-carrying wire produces what around it?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q02",
+        "question": "Which device converts electrical energy into mechanical energy?",
+        "options": [
+          "Dry cell",
+          "Electric motor",
+          "Electric generator",
+          "Transformer alone"
+        ],
+        "answer": 1,
+        "explanation": "A motor uses magnetic force to produce motion.",
+        "difficulty": "Easy",
+        "topic": "Which device converts electrical energy into mechanical energy?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q03",
+        "question": "What is electromagnetic induction?",
+        "options": [
+          "Producing an emf by changing magnetic flux",
+          "Producing heat by friction",
+          "Charging by rubbing only",
+          "Splitting white light"
+        ],
+        "answer": 0,
+        "explanation": "A changing magnetic flux through a circuit induces emf.",
+        "difficulty": "Easy",
+        "topic": "What is electromagnetic induction?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q04",
+        "question": "Magnetic field around a straight current-carrying wire: which option correctly identifies the main physical principle?",
+        "options": [
+          "A current in a magnetic field experiences force",
+          "Electrical energy is converted into mechanical energy",
+          "Mechanical energy is converted into electrical energy",
+          "Current produces a circular magnetic field"
+        ],
+        "answer": 3,
+        "explanation": "Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field.",
+        "difficulty": "Easy",
+        "topic": "Magnetic field around a straight current-carrying wire · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q05",
+        "question": "Magnetic field around a straight current-carrying wire: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Changing magnetic flux induces emf",
+          "A stationary coil with unchanging flux has no induced emf from that flux",
+          "Field direction reverses when current reverses",
+          "Magnetic forces create torque on a coil"
+        ],
+        "answer": 2,
+        "explanation": "Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses.",
+        "difficulty": "Easy",
+        "topic": "Magnetic field around a straight current-carrying wire · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q06",
+        "question": "Magnetic field around a straight current-carrying wire: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "An approaching magnet can be opposed by the coil's induced field",
+          "Right-hand thumb rule",
+          "A simple AC generator uses slip rings",
+          "Faraday's principle"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule.",
+        "difficulty": "Easy",
+        "topic": "Magnetic field around a straight current-carrying wire · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q07",
+        "question": "Magnetic force on a straight wire: which option correctly identifies the main physical principle?",
+        "options": [
+          "A current in a magnetic field experiences force",
+          "Mechanical energy is converted into electrical energy",
+          "A changing magnetic flux produces emf",
+          "Induced current opposes the change producing it"
+        ],
+        "answer": 0,
+        "explanation": "Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force.",
+        "difficulty": "Easy",
+        "topic": "Magnetic force on a straight wire · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q08",
+        "question": "Magnetic force on a straight wire: which option correctly identifies the key condition or feature?",
+        "options": [
+          "A stationary coil with unchanging flux has no induced emf from that flux",
+          "Its direction is consistent with energy conservation",
+          "Its field resembles that of a bar magnet",
+          "For a perpendicular wire, F = BIL"
+        ],
+        "answer": 3,
+        "explanation": "Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL.",
+        "difficulty": "Easy",
+        "topic": "Magnetic force on a straight wire · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q09",
+        "question": "Magnetic force on a straight wire: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "A soft-iron core can strengthen an electromagnet",
+          "F = BIL sin θ explains the zero value",
+          "Fleming's left-hand rule gives the motor-force direction",
+          "An approaching magnet can be opposed by the coil's induced field"
+        ],
+        "answer": 2,
+        "explanation": "Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction.",
+        "difficulty": "Easy",
+        "topic": "Magnetic force on a straight wire · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q10",
+        "question": "Electric motor: which option correctly identifies the main physical principle?",
+        "options": [
+          "A long coil carrying electric current",
+          "Electrical energy is converted into mechanical energy",
+          "A changing magnetic flux produces emf",
+          "Induced current opposes the change producing it"
+        ],
+        "answer": 1,
+        "explanation": "Electric motor — main physical principle: Electrical energy is converted into mechanical energy.",
+        "difficulty": "Easy",
+        "topic": "Electric motor · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q11",
+        "question": "Electric motor: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Magnetic forces create torque on a coil",
+          "Its direction is consistent with energy conservation",
+          "Its field resembles that of a bar magnet",
+          "The current direction has angle 0° or 180° to the field"
+        ],
+        "answer": 0,
+        "explanation": "Electric motor — key condition or feature: Magnetic forces create torque on a coil.",
+        "difficulty": "Easy",
+        "topic": "Electric motor · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q12",
+        "question": "Electric motor: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "A soft-iron core can strengthen an electromagnet",
+          "F = BIL sin θ explains the zero value",
+          "Used in devices such as an electric bell",
+          "A split-ring commutator is used in a simple DC motor"
+        ],
+        "answer": 3,
+        "explanation": "Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor.",
+        "difficulty": "Easy",
+        "topic": "Electric motor · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q13",
+        "question": "Electric generator: which option correctly identifies the main physical principle?",
+        "options": [
+          "The magnetic force is zero",
+          "A current-produced temporary magnet",
+          "Mechanical energy is converted into electrical energy",
+          "A long coil carrying electric current"
+        ],
+        "answer": 2,
+        "explanation": "Electric generator — main physical principle: Mechanical energy is converted into electrical energy.",
+        "difficulty": "Easy",
+        "topic": "Electric generator · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q14",
+        "question": "Electric generator: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Field direction reverses when current reverses",
+          "Changing magnetic flux induces emf",
+          "The current direction has angle 0° or 180° to the field",
+          "Magnetism can be controlled through the current"
+        ],
+        "answer": 1,
+        "explanation": "Electric generator — key condition or feature: Changing magnetic flux induces emf.",
+        "difficulty": "Easy",
+        "topic": "Electric generator · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q15",
+        "question": "Electric generator: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "A simple AC generator uses slip rings",
+          "Used in devices such as an electric bell",
+          "Right-hand thumb rule",
+          "Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 0,
+        "explanation": "Electric generator — specific device or rule association: A simple AC generator uses slip rings.",
+        "difficulty": "Easy",
+        "topic": "Electric generator · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q16",
+        "question": "Electromagnetic induction: which option correctly identifies the main physical principle?",
+        "options": [
+          "The magnetic force is zero",
+          "A current-produced temporary magnet",
+          "Current produces a circular magnetic field",
+          "A changing magnetic flux produces emf"
+        ],
+        "answer": 3,
+        "explanation": "Electromagnetic induction — main physical principle: A changing magnetic flux produces emf.",
+        "difficulty": "Easy",
+        "topic": "Electromagnetic induction · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q17",
+        "question": "Electromagnetic induction: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Field direction reverses when current reverses",
+          "For a perpendicular wire, F = BIL",
+          "A stationary coil with unchanging flux has no induced emf from that flux",
+          "Magnetism can be controlled through the current"
+        ],
+        "answer": 2,
+        "explanation": "Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux.",
+        "difficulty": "Easy",
+        "topic": "Electromagnetic induction · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q18",
+        "question": "Electromagnetic induction: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "A split-ring commutator is used in a simple DC motor",
+          "Faraday's principle",
+          "Right-hand thumb rule",
+          "Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 1,
+        "explanation": "Electromagnetic induction — specific device or rule association: Faraday's principle.",
+        "difficulty": "Easy",
+        "topic": "Electromagnetic induction · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q19",
+        "question": "Lenz's law: which option correctly identifies the main physical principle?",
+        "options": [
+          "Induced current opposes the change producing it",
+          "A current-produced temporary magnet",
+          "Current produces a circular magnetic field",
+          "A current in a magnetic field experiences force"
+        ],
+        "answer": 0,
+        "explanation": "Lenz's law — main physical principle: Induced current opposes the change producing it.",
+        "difficulty": "Easy",
+        "topic": "Lenz's law · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q20",
+        "question": "Lenz's law: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Field direction reverses when current reverses",
+          "For a perpendicular wire, F = BIL",
+          "Magnetic forces create torque on a coil",
+          "Its direction is consistent with energy conservation"
+        ],
+        "answer": 3,
+        "explanation": "Lenz's law — key condition or feature: Its direction is consistent with energy conservation.",
+        "difficulty": "Easy",
+        "topic": "Lenz's law · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q21",
+        "question": "Lenz's law: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "A split-ring commutator is used in a simple DC motor",
+          "A soft-iron core can strengthen an electromagnet",
+          "An approaching magnet can be opposed by the coil's induced field",
+          "Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 2,
+        "explanation": "Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field.",
+        "difficulty": "Easy",
+        "topic": "Lenz's law · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q22",
+        "question": "Solenoid: which option correctly identifies the main physical principle?",
+        "options": [
+          "A current in a magnetic field experiences force",
+          "A long coil carrying electric current",
+          "The magnetic force is zero",
+          "Current produces a circular magnetic field"
+        ],
+        "answer": 1,
+        "explanation": "Solenoid — main physical principle: A long coil carrying electric current.",
+        "difficulty": "Easy",
+        "topic": "Solenoid · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q23",
+        "question": "Solenoid: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Its field resembles that of a bar magnet",
+          "Field direction reverses when current reverses",
+          "For a perpendicular wire, F = BIL",
+          "Magnetic forces create torque on a coil"
+        ],
+        "answer": 0,
+        "explanation": "Solenoid — key condition or feature: Its field resembles that of a bar magnet.",
+        "difficulty": "Easy",
+        "topic": "Solenoid · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q24",
+        "question": "Solenoid: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "Fleming's left-hand rule gives the motor-force direction",
+          "A split-ring commutator is used in a simple DC motor",
+          "A simple AC generator uses slip rings",
+          "A soft-iron core can strengthen an electromagnet"
+        ],
+        "answer": 3,
+        "explanation": "Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet.",
+        "difficulty": "Easy",
+        "topic": "Solenoid · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q25",
+        "question": "Force on a wire parallel to a field: which option correctly identifies the main physical principle?",
+        "options": [
+          "Current produces a circular magnetic field",
+          "A current in a magnetic field experiences force",
+          "The magnetic force is zero",
+          "A current-produced temporary magnet"
+        ],
+        "answer": 2,
+        "explanation": "Force on a wire parallel to a field — main physical principle: The magnetic force is zero.",
+        "difficulty": "Easy",
+        "topic": "Force on a wire parallel to a field · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q26",
+        "question": "Force on a wire parallel to a field: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Magnetic forces create torque on a coil",
+          "The current direction has angle 0° or 180° to the field",
+          "Field direction reverses when current reverses",
+          "For a perpendicular wire, F = BIL"
+        ],
+        "answer": 1,
+        "explanation": "Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field.",
+        "difficulty": "Easy",
+        "topic": "Force on a wire parallel to a field · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q27",
+        "question": "Force on a wire parallel to a field: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "F = BIL sin θ explains the zero value",
+          "Fleming's left-hand rule gives the motor-force direction",
+          "A split-ring commutator is used in a simple DC motor",
+          "A simple AC generator uses slip rings"
+        ],
+        "answer": 0,
+        "explanation": "Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value.",
+        "difficulty": "Easy",
+        "topic": "Force on a wire parallel to a field · specific device or rule association",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q28",
+        "question": "Electromagnet: which option correctly identifies the main physical principle?",
+        "options": [
+          "A current in a magnetic field experiences force",
+          "Electrical energy is converted into mechanical energy",
+          "Mechanical energy is converted into electrical energy",
+          "A current-produced temporary magnet"
+        ],
+        "answer": 3,
+        "explanation": "Electromagnet — main physical principle: A current-produced temporary magnet.",
+        "difficulty": "Easy",
+        "topic": "Electromagnet · main physical principle",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q29",
+        "question": "Electromagnet: which option correctly identifies the key condition or feature?",
+        "options": [
+          "Changing magnetic flux induces emf",
+          "A stationary coil with unchanging flux has no induced emf from that flux",
+          "Magnetism can be controlled through the current",
+          "Magnetic forces create torque on a coil"
+        ],
+        "answer": 2,
+        "explanation": "Electromagnet — key condition or feature: Magnetism can be controlled through the current.",
+        "difficulty": "Easy",
+        "topic": "Electromagnet · key condition or feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-E-Q30",
+        "question": "Electromagnet: which option correctly identifies the specific device or rule association?",
+        "options": [
+          "An approaching magnet can be opposed by the coil's induced field",
+          "Used in devices such as an electric bell",
+          "A simple AC generator uses slip rings",
+          "Faraday's principle"
+        ],
+        "answer": 1,
+        "explanation": "Electromagnet — specific device or rule association: Used in devices such as an electric bell.",
+        "difficulty": "Easy",
+        "topic": "Electromagnet · specific device or rule association",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH10-M": {
+    "id": "SA-DPP-27-PHY-CH10-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "M",
+    "title": "Electromagnetism – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-25",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q01",
+        "question": "Reversing current in a straight wire does what to its magnetic field direction?",
+        "options": [
+          "Makes it radial outward",
+          "Reverses it",
+          "Leaves it unchanged",
+          "Eliminates Earth's field"
+        ],
+        "answer": 1,
+        "explanation": "The right-hand thumb rule reverses when current reverses.",
+        "difficulty": "Medium",
+        "topic": "Reversing current in a straight wire does what to its magnetic field direction?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q02",
+        "question": "What happens when a magnet remains stationary relative to a stationary coil?",
+        "options": [
+          "No induced emf from that unchanged flux",
+          "A constant induced current must flow",
+          "An infinite voltage forms",
+          "The coil must rotate"
+        ],
+        "answer": 0,
+        "explanation": "Induction requires a change of flux, not merely the presence of a field.",
+        "difficulty": "Medium",
+        "topic": "What happens when a magnet remains stationary relative to a stationary coil?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q03",
+        "question": "A wire is parallel to a uniform magnetic field. What is the magnetic force on its current?",
+        "options": [
+          "Maximum",
+          "Always BI²L",
+          "Always BIL",
+          "Zero"
+        ],
+        "answer": 3,
+        "explanation": "F=BILsinθ; θ=0 gives zero.",
+        "difficulty": "Medium",
+        "topic": "A wire is parallel to a uniform magnetic field. What is the magnetic force on its current?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q04",
+        "question": "Which pair correctly matches Magnetic field around a straight current-carrying wire with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "Current produces a circular magnetic field → For a perpendicular wire, F = BIL",
+          "Electrical energy is converted into mechanical energy → Magnetic forces create torque on a coil",
+          "Current produces a circular magnetic field → Field direction reverses when current reverses",
+          "A current in a magnetic field experiences force → Field direction reverses when current reverses"
+        ],
+        "answer": 2,
+        "explanation": "Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field. Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic field around a straight current-carrying wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q05",
+        "question": "Which pair correctly matches Magnetic field around a straight current-carrying wire with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Changing magnetic flux induces emf → A split-ring commutator is used in a simple DC motor",
+          "Field direction reverses when current reverses → Right-hand thumb rule",
+          "Magnetic forces create torque on a coil → Right-hand thumb rule",
+          "Field direction reverses when current reverses → Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses. Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic field around a straight current-carrying wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q06",
+        "question": "Which pair correctly matches Magnetic field around a straight current-carrying wire with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "Right-hand thumb rule → Current produces a circular magnetic field",
+          "A simple AC generator uses slip rings → Current produces a circular magnetic field",
+          "Right-hand thumb rule → A current in a magnetic field experiences force",
+          "Faraday's principle → Electrical energy is converted into mechanical energy"
+        ],
+        "answer": 0,
+        "explanation": "Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule. Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic field around a straight current-carrying wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q07",
+        "question": "Which pair correctly matches Magnetic force on a straight wire with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "Mechanical energy is converted into electrical energy → For a perpendicular wire, F = BIL",
+          "A current in a magnetic field experiences force → Changing magnetic flux induces emf",
+          "A changing magnetic flux produces emf → A stationary coil with unchanging flux has no induced emf from that flux",
+          "A current in a magnetic field experiences force → For a perpendicular wire, F = BIL"
+        ],
+        "answer": 3,
+        "explanation": "Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force. Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic force on a straight wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q08",
+        "question": "Which pair correctly matches Magnetic force on a straight wire with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "For a perpendicular wire, F = BIL → A simple AC generator uses slip rings",
+          "Its direction is consistent with energy conservation → Faraday's principle",
+          "For a perpendicular wire, F = BIL → Fleming's left-hand rule gives the motor-force direction",
+          "A stationary coil with unchanging flux has no induced emf from that flux → Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 2,
+        "explanation": "Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL. Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic force on a straight wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q09",
+        "question": "Which pair correctly matches Magnetic force on a straight wire with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "A soft-iron core can strengthen an electromagnet → A changing magnetic flux produces emf",
+          "Fleming's left-hand rule gives the motor-force direction → A current in a magnetic field experiences force",
+          "An approaching magnet can be opposed by the coil's induced field → A current in a magnetic field experiences force",
+          "Fleming's left-hand rule gives the motor-force direction → Mechanical energy is converted into electrical energy"
+        ],
+        "answer": 1,
+        "explanation": "Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction. Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Magnetic force on a straight wire",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q10",
+        "question": "Which pair correctly matches Electric motor with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "Electrical energy is converted into mechanical energy → Magnetic forces create torque on a coil",
+          "A changing magnetic flux produces emf → Magnetic forces create torque on a coil",
+          "Electrical energy is converted into mechanical energy → A stationary coil with unchanging flux has no induced emf from that flux",
+          "Induced current opposes the change producing it → Its direction is consistent with energy conservation"
+        ],
+        "answer": 0,
+        "explanation": "Electric motor — main physical principle: Electrical energy is converted into mechanical energy. Electric motor — key condition or feature: Magnetic forces create torque on a coil. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric motor",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q11",
+        "question": "Which pair correctly matches Electric motor with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Its direction is consistent with energy conservation → A split-ring commutator is used in a simple DC motor",
+          "Magnetic forces create torque on a coil → Faraday's principle",
+          "Its field resembles that of a bar magnet → An approaching magnet can be opposed by the coil's induced field",
+          "Magnetic forces create torque on a coil → A split-ring commutator is used in a simple DC motor"
+        ],
+        "answer": 3,
+        "explanation": "Electric motor — key condition or feature: Magnetic forces create torque on a coil. Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric motor",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q12",
+        "question": "Which pair correctly matches Electric motor with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "A split-ring commutator is used in a simple DC motor → A changing magnetic flux produces emf",
+          "F = BIL sin θ explains the zero value → Induced current opposes the change producing it",
+          "A split-ring commutator is used in a simple DC motor → Electrical energy is converted into mechanical energy",
+          "A soft-iron core can strengthen an electromagnet → Electrical energy is converted into mechanical energy"
+        ],
+        "answer": 2,
+        "explanation": "Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor. Electric motor — main physical principle: Electrical energy is converted into mechanical energy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric motor",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q13",
+        "question": "Which pair correctly matches Electric generator with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "The magnetic force is zero → The current direction has angle 0° or 180° to the field",
+          "Mechanical energy is converted into electrical energy → Changing magnetic flux induces emf",
+          "A long coil carrying electric current → Changing magnetic flux induces emf",
+          "Mechanical energy is converted into electrical energy → Its field resembles that of a bar magnet"
+        ],
+        "answer": 1,
+        "explanation": "Electric generator — main physical principle: Mechanical energy is converted into electrical energy. Electric generator — key condition or feature: Changing magnetic flux induces emf. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric generator",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q14",
+        "question": "Which pair correctly matches Electric generator with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Changing magnetic flux induces emf → A simple AC generator uses slip rings",
+          "The current direction has angle 0° or 180° to the field → A simple AC generator uses slip rings",
+          "Changing magnetic flux induces emf → A soft-iron core can strengthen an electromagnet",
+          "Magnetism can be controlled through the current → F = BIL sin θ explains the zero value"
+        ],
+        "answer": 0,
+        "explanation": "Electric generator — key condition or feature: Changing magnetic flux induces emf. Electric generator — specific device or rule association: A simple AC generator uses slip rings. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric generator",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q15",
+        "question": "Which pair correctly matches Electric generator with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "Used in devices such as an electric bell → Mechanical energy is converted into electrical energy",
+          "A simple AC generator uses slip rings → A long coil carrying electric current",
+          "Right-hand thumb rule → The magnetic force is zero",
+          "A simple AC generator uses slip rings → Mechanical energy is converted into electrical energy"
+        ],
+        "answer": 3,
+        "explanation": "Electric generator — specific device or rule association: A simple AC generator uses slip rings. Electric generator — main physical principle: Mechanical energy is converted into electrical energy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electric generator",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q16",
+        "question": "Which pair correctly matches Electromagnetic induction with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "A changing magnetic flux produces emf → The current direction has angle 0° or 180° to the field",
+          "A current-produced temporary magnet → Magnetism can be controlled through the current",
+          "A changing magnetic flux produces emf → A stationary coil with unchanging flux has no induced emf from that flux",
+          "The magnetic force is zero → A stationary coil with unchanging flux has no induced emf from that flux"
+        ],
+        "answer": 2,
+        "explanation": "Electromagnetic induction — main physical principle: A changing magnetic flux produces emf. Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnetic induction",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q17",
+        "question": "Which pair correctly matches Electromagnetic induction with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Field direction reverses when current reverses → Used in devices such as an electric bell",
+          "A stationary coil with unchanging flux has no induced emf from that flux → Faraday's principle",
+          "Magnetism can be controlled through the current → Faraday's principle",
+          "A stationary coil with unchanging flux has no induced emf from that flux → F = BIL sin θ explains the zero value"
+        ],
+        "answer": 1,
+        "explanation": "Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux. Electromagnetic induction — specific device or rule association: Faraday's principle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnetic induction",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q18",
+        "question": "Which pair correctly matches Electromagnetic induction with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "Faraday's principle → A changing magnetic flux produces emf",
+          "Right-hand thumb rule → A changing magnetic flux produces emf",
+          "Faraday's principle → The magnetic force is zero",
+          "Fleming's left-hand rule gives the motor-force direction → A current-produced temporary magnet"
+        ],
+        "answer": 0,
+        "explanation": "Electromagnetic induction — specific device or rule association: Faraday's principle. Electromagnetic induction — main physical principle: A changing magnetic flux produces emf. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnetic induction",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q19",
+        "question": "Which pair correctly matches Lenz's law with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "A current-produced temporary magnet → Its direction is consistent with energy conservation",
+          "Induced current opposes the change producing it → Magnetism can be controlled through the current",
+          "Current produces a circular magnetic field → Field direction reverses when current reverses",
+          "Induced current opposes the change producing it → Its direction is consistent with energy conservation"
+        ],
+        "answer": 3,
+        "explanation": "Lenz's law — main physical principle: Induced current opposes the change producing it. Lenz's law — key condition or feature: Its direction is consistent with energy conservation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenz's law",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q20",
+        "question": "Which pair correctly matches Lenz's law with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Its direction is consistent with energy conservation → Used in devices such as an electric bell",
+          "For a perpendicular wire, F = BIL → Right-hand thumb rule",
+          "Its direction is consistent with energy conservation → An approaching magnet can be opposed by the coil's induced field",
+          "Field direction reverses when current reverses → An approaching magnet can be opposed by the coil's induced field"
+        ],
+        "answer": 2,
+        "explanation": "Lenz's law — key condition or feature: Its direction is consistent with energy conservation. Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenz's law",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q21",
+        "question": "Which pair correctly matches Lenz's law with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "A split-ring commutator is used in a simple DC motor → Current produces a circular magnetic field",
+          "An approaching magnet can be opposed by the coil's induced field → Induced current opposes the change producing it",
+          "Fleming's left-hand rule gives the motor-force direction → Induced current opposes the change producing it",
+          "An approaching magnet can be opposed by the coil's induced field → A current-produced temporary magnet"
+        ],
+        "answer": 1,
+        "explanation": "Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field. Lenz's law — main physical principle: Induced current opposes the change producing it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lenz's law",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q22",
+        "question": "Which pair correctly matches Solenoid with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "A long coil carrying electric current → Its field resembles that of a bar magnet",
+          "The magnetic force is zero → Its field resembles that of a bar magnet",
+          "A long coil carrying electric current → The current direction has angle 0° or 180° to the field",
+          "Current produces a circular magnetic field → Field direction reverses when current reverses"
+        ],
+        "answer": 0,
+        "explanation": "Solenoid — main physical principle: A long coil carrying electric current. Solenoid — key condition or feature: Its field resembles that of a bar magnet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solenoid",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q23",
+        "question": "Which pair correctly matches Solenoid with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Field direction reverses when current reverses → A soft-iron core can strengthen an electromagnet",
+          "Its field resembles that of a bar magnet → F = BIL sin θ explains the zero value",
+          "For a perpendicular wire, F = BIL → Right-hand thumb rule",
+          "Its field resembles that of a bar magnet → A soft-iron core can strengthen an electromagnet"
+        ],
+        "answer": 3,
+        "explanation": "Solenoid — key condition or feature: Its field resembles that of a bar magnet. Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solenoid",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q24",
+        "question": "Which pair correctly matches Solenoid with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "A soft-iron core can strengthen an electromagnet → The magnetic force is zero",
+          "A split-ring commutator is used in a simple DC motor → Current produces a circular magnetic field",
+          "A soft-iron core can strengthen an electromagnet → A long coil carrying electric current",
+          "Fleming's left-hand rule gives the motor-force direction → A long coil carrying electric current"
+        ],
+        "answer": 2,
+        "explanation": "Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet. Solenoid — main physical principle: A long coil carrying electric current. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Solenoid",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q25",
+        "question": "Which pair correctly matches Force on a wire parallel to a field with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "Current produces a circular magnetic field → Field direction reverses when current reverses",
+          "The magnetic force is zero → The current direction has angle 0° or 180° to the field",
+          "A current-produced temporary magnet → The current direction has angle 0° or 180° to the field",
+          "The magnetic force is zero → Magnetism can be controlled through the current"
+        ],
+        "answer": 1,
+        "explanation": "Force on a wire parallel to a field — main physical principle: The magnetic force is zero. Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Force on a wire parallel to a field",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q26",
+        "question": "Which pair correctly matches Force on a wire parallel to a field with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "The current direction has angle 0° or 180° to the field → F = BIL sin θ explains the zero value",
+          "Field direction reverses when current reverses → F = BIL sin θ explains the zero value",
+          "The current direction has angle 0° or 180° to the field → Used in devices such as an electric bell",
+          "For a perpendicular wire, F = BIL → Right-hand thumb rule"
+        ],
+        "answer": 0,
+        "explanation": "Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field. Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Force on a wire parallel to a field",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q27",
+        "question": "Which pair correctly matches Force on a wire parallel to a field with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "Fleming's left-hand rule gives the motor-force direction → The magnetic force is zero",
+          "F = BIL sin θ explains the zero value → A current-produced temporary magnet",
+          "A split-ring commutator is used in a simple DC motor → Current produces a circular magnetic field",
+          "F = BIL sin θ explains the zero value → The magnetic force is zero"
+        ],
+        "answer": 3,
+        "explanation": "Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value. Force on a wire parallel to a field — main physical principle: The magnetic force is zero. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Force on a wire parallel to a field",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q28",
+        "question": "Which pair correctly matches Electromagnet with its main physical principle and key condition or feature, in that order?",
+        "options": [
+          "A current-produced temporary magnet → For a perpendicular wire, F = BIL",
+          "Electrical energy is converted into mechanical energy → Magnetic forces create torque on a coil",
+          "A current-produced temporary magnet → Magnetism can be controlled through the current",
+          "A current in a magnetic field experiences force → Magnetism can be controlled through the current"
+        ],
+        "answer": 2,
+        "explanation": "Electromagnet — main physical principle: A current-produced temporary magnet. Electromagnet — key condition or feature: Magnetism can be controlled through the current. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnet",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q29",
+        "question": "Which pair correctly matches Electromagnet with its key condition or feature and specific device or rule association, in that order?",
+        "options": [
+          "Changing magnetic flux induces emf → A split-ring commutator is used in a simple DC motor",
+          "Magnetism can be controlled through the current → Used in devices such as an electric bell",
+          "Magnetic forces create torque on a coil → Used in devices such as an electric bell",
+          "Magnetism can be controlled through the current → Fleming's left-hand rule gives the motor-force direction"
+        ],
+        "answer": 1,
+        "explanation": "Electromagnet — key condition or feature: Magnetism can be controlled through the current. Electromagnet — specific device or rule association: Used in devices such as an electric bell. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnet",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-M-Q30",
+        "question": "Which pair correctly matches Electromagnet with its specific device or rule association and main physical principle, in that order?",
+        "options": [
+          "Used in devices such as an electric bell → A current-produced temporary magnet",
+          "A simple AC generator uses slip rings → A current-produced temporary magnet",
+          "Used in devices such as an electric bell → A current in a magnetic field experiences force",
+          "Faraday's principle → Electrical energy is converted into mechanical energy"
+        ],
+        "answer": 0,
+        "explanation": "Electromagnet — specific device or rule association: Used in devices such as an electric bell. Electromagnet — main physical principle: A current-produced temporary magnet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electromagnet",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH10-H": {
+    "id": "SA-DPP-27-PHY-CH10-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch10",
+    "chapterNumber": 10,
+    "chapter": "Electromagnetism",
+    "level": "H",
+    "title": "Electromagnetism – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-10.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-PHY-01",
+    "recommendedDate": "2026-11-26",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 209,
+      "to": 236
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q01",
+        "question": "Why does an induced current oppose the flux change that produces it?",
+        "options": [
+          "Lenz's law expresses conservation of energy",
+          "A coil always repels every magnet",
+          "Magnetic fields cannot store energy",
+          "Electric charge is destroyed"
+        ],
+        "answer": 0,
+        "explanation": "Otherwise the induced effect could reinforce the change and generate energy without input.",
+        "difficulty": "Hard",
+        "topic": "Why does an induced current oppose the flux change that produces it?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q02",
+        "question": "For a perpendicular wire, if B and I double while L is unchanged, how does force change?",
+        "options": [
+          "It doubles",
+          "It halves",
+          "It remains unchanged",
+          "It becomes four times as large"
+        ],
+        "answer": 3,
+        "explanation": "F=BIL, so doubling both B and I multiplies F by four.",
+        "difficulty": "Hard",
+        "topic": "For a perpendicular wire, if B and I double while L is unchanged, how does force change?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q03",
+        "question": "How can induced emf be increased while moving the same magnet through the same coil?",
+        "options": [
+          "Remove every coil turn",
+          "Keep flux constant",
+          "Move the magnet faster",
+          "Hold it still inside the coil"
+        ],
+        "answer": 2,
+        "explanation": "Faster motion increases the rate of change of flux.",
+        "difficulty": "Hard",
+        "topic": "How can induced emf be increased while moving the same magnet through the same coil?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field\nII. Electromagnetic induction — key condition or feature: For a perpendicular wire, F = BIL\nIII. Force on a wire parallel to a field — specific device or rule association: A split-ring commutator is used in a simple DC motor",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field; Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux; Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value.",
+        "difficulty": "Hard",
+        "topic": "Magnetic field around a straight current-carrying wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic field around a straight current-carrying wire — key condition or feature: Magnetic forces create torque on a coil\nII. Electromagnetic induction — specific device or rule association: Faraday's principle\nIII. Force on a wire parallel to a field — main physical principle: Mechanical energy is converted into electrical energy",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses; Electromagnetic induction — specific device or rule association: Faraday's principle; Force on a wire parallel to a field — main physical principle: The magnetic force is zero.",
+        "difficulty": "Hard",
+        "topic": "Magnetic field around a straight current-carrying wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule\nII. Electromagnetic induction — main physical principle: A changing magnetic flux produces emf\nIII. Force on a wire parallel to a field — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule; Electromagnetic induction — main physical principle: A changing magnetic flux produces emf; Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field.",
+        "difficulty": "Hard",
+        "topic": "Magnetic field around a straight current-carrying wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic force on a straight wire — main physical principle: Induced current opposes the change producing it\nII. Lenz's law — key condition or feature: The current direction has angle 0° or 180° to the field\nIII. Electromagnet — specific device or rule association: Used in devices such as an electric bell",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force; Lenz's law — key condition or feature: Its direction is consistent with energy conservation; Electromagnet — specific device or rule association: Used in devices such as an electric bell.",
+        "difficulty": "Hard",
+        "topic": "Magnetic force on a straight wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL\nII. Lenz's law — specific device or rule association: Used in devices such as an electric bell\nIII. Electromagnet — main physical principle: A current-produced temporary magnet",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL; Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field; Electromagnet — main physical principle: A current-produced temporary magnet.",
+        "difficulty": "Hard",
+        "topic": "Magnetic force on a straight wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Magnetic force on a straight wire — specific device or rule association: F = BIL sin θ explains the zero value\nII. Lenz's law — main physical principle: Induced current opposes the change producing it\nIII. Electromagnet — key condition or feature: Magnetism can be controlled through the current",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction; Lenz's law — main physical principle: Induced current opposes the change producing it; Electromagnet — key condition or feature: Magnetism can be controlled through the current.",
+        "difficulty": "Hard",
+        "topic": "Magnetic force on a straight wire · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric motor — main physical principle: Electrical energy is converted into mechanical energy\nII. Solenoid — key condition or feature: Its field resembles that of a bar magnet\nIII. Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Electric motor — main physical principle: Electrical energy is converted into mechanical energy; Solenoid — key condition or feature: Its field resembles that of a bar magnet; Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule.",
+        "difficulty": "Hard",
+        "topic": "Electric motor · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric motor — key condition or feature: Field direction reverses when current reverses\nII. Solenoid — specific device or rule association: Fleming's left-hand rule gives the motor-force direction\nIII. Magnetic field around a straight current-carrying wire — main physical principle: Electrical energy is converted into mechanical energy",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Electric motor — key condition or feature: Magnetic forces create torque on a coil; Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet; Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field.",
+        "difficulty": "Hard",
+        "topic": "Electric motor · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor\nII. Solenoid — main physical principle: Electrical energy is converted into mechanical energy\nIII. Magnetic field around a straight current-carrying wire — key condition or feature: Changing magnetic flux induces emf",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor; Solenoid — main physical principle: A long coil carrying electric current; Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses.",
+        "difficulty": "Hard",
+        "topic": "Electric motor · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric generator — main physical principle: A long coil carrying electric current\nII. Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field\nIII. Magnetic force on a straight wire — specific device or rule association: A soft-iron core can strengthen an electromagnet",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Electric generator — main physical principle: Mechanical energy is converted into electrical energy; Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field; Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction.",
+        "difficulty": "Hard",
+        "topic": "Electric generator · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric generator — key condition or feature: Changing magnetic flux induces emf\nII. Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value\nIII. Magnetic force on a straight wire — main physical principle: The magnetic force is zero",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Electric generator — key condition or feature: Changing magnetic flux induces emf; Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value; Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force.",
+        "difficulty": "Hard",
+        "topic": "Electric generator · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electric generator — specific device or rule association: Used in devices such as an electric bell\nII. Force on a wire parallel to a field — main physical principle: A changing magnetic flux produces emf\nIII. Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Electric generator — specific device or rule association: A simple AC generator uses slip rings; Force on a wire parallel to a field — main physical principle: The magnetic force is zero; Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL.",
+        "difficulty": "Hard",
+        "topic": "Electric generator · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnetic induction — main physical principle: A changing magnetic flux produces emf\nII. Electromagnet — key condition or feature: The current direction has angle 0° or 180° to the field\nIII. Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Electromagnetic induction — main physical principle: A changing magnetic flux produces emf; Electromagnet — key condition or feature: Magnetism can be controlled through the current; Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor.",
+        "difficulty": "Hard",
+        "topic": "Electromagnetic induction · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnetic induction — key condition or feature: For a perpendicular wire, F = BIL\nII. Electromagnet — specific device or rule association: Used in devices such as an electric bell\nIII. Electric motor — main physical principle: Electrical energy is converted into mechanical energy",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux; Electromagnet — specific device or rule association: Used in devices such as an electric bell; Electric motor — main physical principle: Electrical energy is converted into mechanical energy.",
+        "difficulty": "Hard",
+        "topic": "Electromagnetic induction · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnetic induction — specific device or rule association: Faraday's principle\nII. Electromagnet — main physical principle: A current-produced temporary magnet\nIII. Electric motor — key condition or feature: Magnetic forces create torque on a coil",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Electromagnetic induction — specific device or rule association: Faraday's principle; Electromagnet — main physical principle: A current-produced temporary magnet; Electric motor — key condition or feature: Magnetic forces create torque on a coil.",
+        "difficulty": "Hard",
+        "topic": "Electromagnetic induction · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenz's law — main physical principle: A long coil carrying electric current\nII. Magnetic field around a straight current-carrying wire — key condition or feature: For a perpendicular wire, F = BIL\nIII. Electric generator — specific device or rule association: Used in devices such as an electric bell",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Lenz's law — main physical principle: Induced current opposes the change producing it; Magnetic field around a straight current-carrying wire — key condition or feature: Field direction reverses when current reverses; Electric generator — specific device or rule association: A simple AC generator uses slip rings.",
+        "difficulty": "Hard",
+        "topic": "Lenz's law · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenz's law — key condition or feature: Its direction is consistent with energy conservation\nII. Magnetic field around a straight current-carrying wire — specific device or rule association: A split-ring commutator is used in a simple DC motor\nIII. Electric generator — main physical principle: Current produces a circular magnetic field",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Lenz's law — key condition or feature: Its direction is consistent with energy conservation; Magnetic field around a straight current-carrying wire — specific device or rule association: Right-hand thumb rule; Electric generator — main physical principle: Mechanical energy is converted into electrical energy.",
+        "difficulty": "Hard",
+        "topic": "Lenz's law · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lenz's law — specific device or rule association: Used in devices such as an electric bell\nII. Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field\nIII. Electric generator — key condition or feature: For a perpendicular wire, F = BIL",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field; Magnetic field around a straight current-carrying wire — main physical principle: Current produces a circular magnetic field; Electric generator — key condition or feature: Changing magnetic flux induces emf.",
+        "difficulty": "Hard",
+        "topic": "Lenz's law · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solenoid — main physical principle: A long coil carrying electric current\nII. Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL\nIII. Electromagnetic induction — specific device or rule association: A split-ring commutator is used in a simple DC motor",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Solenoid — main physical principle: A long coil carrying electric current; Magnetic force on a straight wire — key condition or feature: For a perpendicular wire, F = BIL; Electromagnetic induction — specific device or rule association: Faraday's principle.",
+        "difficulty": "Hard",
+        "topic": "Solenoid · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solenoid — key condition or feature: Its direction is consistent with energy conservation\nII. Magnetic force on a straight wire — specific device or rule association: Used in devices such as an electric bell\nIII. Electromagnetic induction — main physical principle: A changing magnetic flux produces emf",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Solenoid — key condition or feature: Its field resembles that of a bar magnet; Magnetic force on a straight wire — specific device or rule association: Fleming's left-hand rule gives the motor-force direction; Electromagnetic induction — main physical principle: A changing magnetic flux produces emf.",
+        "difficulty": "Hard",
+        "topic": "Solenoid · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet\nII. Magnetic force on a straight wire — main physical principle: Current produces a circular magnetic field\nIII. Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet; Magnetic force on a straight wire — main physical principle: A current in a magnetic field experiences force; Electromagnetic induction — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux.",
+        "difficulty": "Hard",
+        "topic": "Solenoid · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Force on a wire parallel to a field — main physical principle: Induced current opposes the change producing it\nII. Electric motor — key condition or feature: Magnetic forces create torque on a coil\nIII. Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Force on a wire parallel to a field — main physical principle: The magnetic force is zero; Electric motor — key condition or feature: Magnetic forces create torque on a coil; Lenz's law — specific device or rule association: An approaching magnet can be opposed by the coil's induced field.",
+        "difficulty": "Hard",
+        "topic": "Force on a wire parallel to a field · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field\nII. Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor\nIII. Lenz's law — main physical principle: Induced current opposes the change producing it",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Force on a wire parallel to a field — key condition or feature: The current direction has angle 0° or 180° to the field; Electric motor — specific device or rule association: A split-ring commutator is used in a simple DC motor; Lenz's law — main physical principle: Induced current opposes the change producing it.",
+        "difficulty": "Hard",
+        "topic": "Force on a wire parallel to a field · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Force on a wire parallel to a field — specific device or rule association: Used in devices such as an electric bell\nII. Electric motor — main physical principle: Induced current opposes the change producing it\nIII. Lenz's law — key condition or feature: For a perpendicular wire, F = BIL",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Force on a wire parallel to a field — specific device or rule association: F = BIL sin θ explains the zero value; Electric motor — main physical principle: Electrical energy is converted into mechanical energy; Lenz's law — key condition or feature: Its direction is consistent with energy conservation.",
+        "difficulty": "Hard",
+        "topic": "Force on a wire parallel to a field · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnet — main physical principle: A current-produced temporary magnet\nII. Electric generator — key condition or feature: For a perpendicular wire, F = BIL\nIII. Solenoid — specific device or rule association: An approaching magnet can be opposed by the coil's induced field",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electromagnet — main physical principle: A current-produced temporary magnet; Electric generator — key condition or feature: Changing magnetic flux induces emf; Solenoid — specific device or rule association: A soft-iron core can strengthen an electromagnet.",
+        "difficulty": "Hard",
+        "topic": "Electromagnet · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnet — key condition or feature: A stationary coil with unchanging flux has no induced emf from that flux\nII. Electric generator — specific device or rule association: A simple AC generator uses slip rings\nIII. Solenoid — main physical principle: The magnetic force is zero",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Electromagnet — key condition or feature: Magnetism can be controlled through the current; Electric generator — specific device or rule association: A simple AC generator uses slip rings; Solenoid — main physical principle: A long coil carrying electric current.",
+        "difficulty": "Hard",
+        "topic": "Electromagnet · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH10-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electromagnet — specific device or rule association: Used in devices such as an electric bell\nII. Electric generator — main physical principle: Mechanical energy is converted into electrical energy\nIII. Solenoid — key condition or feature: Field direction reverses when current reverses",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Electromagnet — specific device or rule association: Used in devices such as an electric bell; Electric generator — main physical principle: Mechanical energy is converted into electrical energy; Solenoid — key condition or feature: Its field resembles that of a bar magnet.",
+        "difficulty": "Hard",
+        "topic": "Electromagnet · comparing chapter concepts",
+        "sourceChapter": 10
+      }
+    ]
+  }
+}

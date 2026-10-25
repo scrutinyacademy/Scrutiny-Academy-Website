@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH12-E": {
+    "id": "SA-DPP-27-MAT-CH12-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "E",
+    "title": "Applications of Trigonometry – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-27",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q01",
+        "question": "The angle made by a line of sight above the horizontal is called what?",
+        "options": [
+          "Angle of elevation",
+          "Angle of depression",
+          "Right angle always",
+          "Bearing angle always"
+        ],
+        "answer": 0,
+        "explanation": "Elevation is measured upwards from the observer's horizontal.",
+        "difficulty": "Easy",
+        "topic": "The angle made by a line of sight above the horizontal is called what?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q02",
+        "question": "A horizontal line of sight gives what elevation angle?",
+        "options": [
+          "90°",
+          "45°",
+          "180°",
+          "0°"
+        ],
+        "answer": 3,
+        "explanation": "No upward tilt means zero elevation.",
+        "difficulty": "Easy",
+        "topic": "A horizontal line of sight gives what elevation angle?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q03",
+        "question": "For a vertical tower and level ground, which ratio relates height to horizontal distance?",
+        "options": [
+          "cos θ only",
+          "sec θ only",
+          "tan θ",
+          "sin θ only"
+        ],
+        "answer": 2,
+        "explanation": "In the right triangle, tan θ=height/distance.",
+        "difficulty": "Easy",
+        "topic": "For a vertical tower and level ground, which ratio relates height to horizontal distance?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q04",
+        "question": "A tower top is viewed at 45° from 20 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "22",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "h=d tan45°=d.",
+        "difficulty": "Easy",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q05",
+        "question": "An observer's eye is 2 m high and 10 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Height above the eye is 5n; add the 2 m eye height.",
+        "difficulty": "Easy",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q06",
+        "question": "A 20 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Height is ladder length × sin30°.",
+        "difficulty": "Easy",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q07",
+        "question": "A 20 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "Horizontal distance equals ladder length × cos60°.",
+        "difficulty": "Easy",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q08",
+        "question": "A vertical pole is 6 m tall and casts a 6 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "47",
+          "45",
+          "46",
+          "44"
+        ],
+        "answer": 1,
+        "explanation": "tanθ=height/shadow=1.",
+        "difficulty": "Easy",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q09",
+        "question": "A tower is 8 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "The corresponding elevation is 45°, giving equal vertical and horizontal legs.",
+        "difficulty": "Easy",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q10",
+        "question": "The elevation to a tower is 45°. A point 4 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "9",
+          "7",
+          "10",
+          "8"
+        ],
+        "answer": 3,
+        "explanation": "Let height h equal the far distance; h/(h−2n)=2 gives h=4n.",
+        "difficulty": "Easy",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q11",
+        "question": "A kite string is 20 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "The string is the hypotenuse; height=L sin30°.",
+        "difficulty": "Easy",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q12",
+        "question": "A 12 m vertical pole is observed at 45° from a point on level ground. If the observer moves 6 m towards it, what is tan of the new elevation?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "The new horizontal distance is 3n, so tanθ=6n/(3n)=2.",
+        "difficulty": "Easy",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q13",
+        "question": "A tower top is viewed at 45° from 30 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "30",
+          "31",
+          "29",
+          "32"
+        ],
+        "answer": 0,
+        "explanation": "h=d tan45°=d.",
+        "difficulty": "Easy",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q14",
+        "question": "An observer's eye is 2 m high and 15 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "18",
+          "16",
+          "19",
+          "17"
+        ],
+        "answer": 3,
+        "explanation": "Height above the eye is 5n; add the 2 m eye height.",
+        "difficulty": "Easy",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q15",
+        "question": "A 30 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "14",
+          "17",
+          "15",
+          "16"
+        ],
+        "answer": 2,
+        "explanation": "Height is ladder length × sin30°.",
+        "difficulty": "Easy",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q16",
+        "question": "A 30 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "Horizontal distance equals ladder length × cos60°.",
+        "difficulty": "Easy",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q17",
+        "question": "A vertical pole is 9 m tall and casts a 9 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "45",
+          "46",
+          "44",
+          "47"
+        ],
+        "answer": 0,
+        "explanation": "tanθ=height/shadow=1.",
+        "difficulty": "Easy",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q18",
+        "question": "A tower is 12 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "The corresponding elevation is 45°, giving equal vertical and horizontal legs.",
+        "difficulty": "Easy",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q19",
+        "question": "The elevation to a tower is 45°. A point 6 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "11",
+          "14",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Let height h equal the far distance; h/(h−2n)=2 gives h=4n.",
+        "difficulty": "Easy",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q20",
+        "question": "A kite string is 30 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "The string is the hypotenuse; height=L sin30°.",
+        "difficulty": "Easy",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q21",
+        "question": "A 18 m vertical pole is observed at 45° from a point on level ground. If the observer moves 9 m towards it, what is tan of the new elevation?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": 0,
+        "explanation": "The new horizontal distance is 3n, so tanθ=6n/(3n)=2.",
+        "difficulty": "Easy",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q22",
+        "question": "A tower top is viewed at 45° from 40 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "41",
+          "39",
+          "42",
+          "40"
+        ],
+        "answer": 3,
+        "explanation": "h=d tan45°=d.",
+        "difficulty": "Easy",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q23",
+        "question": "An observer's eye is 2 m high and 20 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "21",
+          "24",
+          "22",
+          "23"
+        ],
+        "answer": 2,
+        "explanation": "Height above the eye is 5n; add the 2 m eye height.",
+        "difficulty": "Easy",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q24",
+        "question": "A 40 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "22",
+          "20",
+          "21",
+          "19"
+        ],
+        "answer": 1,
+        "explanation": "Height is ladder length × sin30°.",
+        "difficulty": "Easy",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q25",
+        "question": "A 40 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "22"
+        ],
+        "answer": 0,
+        "explanation": "Horizontal distance equals ladder length × cos60°.",
+        "difficulty": "Easy",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q26",
+        "question": "A vertical pole is 12 m tall and casts a 12 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "46",
+          "44",
+          "47",
+          "45"
+        ],
+        "answer": 3,
+        "explanation": "tanθ=height/shadow=1.",
+        "difficulty": "Easy",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q27",
+        "question": "A tower is 16 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "15",
+          "18",
+          "16",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "The corresponding elevation is 45°, giving equal vertical and horizontal legs.",
+        "difficulty": "Easy",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q28",
+        "question": "The elevation to a tower is 45°. A point 8 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "18",
+          "16",
+          "17",
+          "15"
+        ],
+        "answer": 1,
+        "explanation": "Let height h equal the far distance; h/(h−2n)=2 gives h=4n.",
+        "difficulty": "Easy",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q29",
+        "question": "A kite string is 40 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "22"
+        ],
+        "answer": 0,
+        "explanation": "The string is the hypotenuse; height=L sin30°.",
+        "difficulty": "Easy",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-E-Q30",
+        "question": "A 24 m vertical pole is observed at 45° from a point on level ground. If the observer moves 12 m towards it, what is tan of the new elevation?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The new horizontal distance is 3n, so tanθ=6n/(3n)=2.",
+        "difficulty": "Easy",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH12-M": {
+    "id": "SA-DPP-27-MAT-CH12-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "M",
+    "title": "Applications of Trigonometry – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-28",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q01",
+        "question": "A tower is viewed at 45° from 20 m away on level ground, with eye level at its base level. Find its height.",
+        "options": [
+          "10 m",
+          "20√3 m",
+          "40 m",
+          "20 m"
+        ],
+        "answer": 3,
+        "explanation": "h=20tan45°=20.",
+        "difficulty": "Medium",
+        "topic": "A tower is viewed at 45° from 20 m away on level ground, with eye level at its base level. Find its height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q02",
+        "question": "An observer's eye is 1.5 m high and 10 m from a building. Its top has elevation 45°. Find building height.",
+        "options": [
+          "8.5 m",
+          "15 m",
+          "11.5 m",
+          "10 m"
+        ],
+        "answer": 2,
+        "explanation": "The top is 10 m above the eye; add 1.5 m.",
+        "difficulty": "Medium",
+        "topic": "An observer's eye is 1.5 m high and 10 m from a building. Its top has elevation 45°. Find building height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q03",
+        "question": "A 10 m ladder makes 60° with the ground. What height does it reach?",
+        "options": [
+          "10 m",
+          "5√3 m",
+          "5 m",
+          "10√3 m"
+        ],
+        "answer": 1,
+        "explanation": "The ladder is the hypotenuse; height=10sin60°.",
+        "difficulty": "Medium",
+        "topic": "A 10 m ladder makes 60° with the ground. What height does it reach?",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 50 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 15 m tall and casts a 15 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "50 ; 45",
+          "51 ; 45",
+          "50 ; 44",
+          "51 ; 46"
+        ],
+        "answer": 0,
+        "explanation": "I. h=d tan45°=d. Answer: 50. II. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Medium",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 25 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 20 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "26 ; 20",
+          "27 ; 22",
+          "26 ; 19",
+          "27 ; 20"
+        ],
+        "answer": 3,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 27. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 20.",
+        "difficulty": "Medium",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 50 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 10 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "25 ; 21",
+          "27 ; 22",
+          "25 ; 20",
+          "27 ; 20"
+        ],
+        "answer": 2,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 25. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 20.",
+        "difficulty": "Medium",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 50 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 50 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "26 ; 26",
+          "25 ; 25",
+          "26 ; 25",
+          "25 ; 24"
+        ],
+        "answer": 1,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 25. II. The string is the hypotenuse; height=L sin30°. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A vertical pole is 15 m tall and casts a 15 m shadow. Find the Sun's elevation in degrees.\nII. A 30 m vertical pole is observed at 45° from a point on level ground. If the observer moves 15 m towards it, what is tan of the new elevation?",
+        "options": [
+          "45 ; 2",
+          "44 ; 2",
+          "45 ; 4",
+          "44 ; 1"
+        ],
+        "answer": 0,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower is 20 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 60 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "22 ; 60",
+          "20 ; 61",
+          "22 ; 62",
+          "20 ; 60"
+        ],
+        "answer": 3,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 20. II. h=d tan45°=d. Answer: 60.",
+        "difficulty": "Medium",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 10 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 30 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "20 ; 31",
+          "21 ; 33",
+          "20 ; 32",
+          "21 ; 32"
+        ],
+        "answer": 2,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 20. II. Height above the eye is 5n; add the 2 m eye height. Answer: 32.",
+        "difficulty": "Medium",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A kite string is 50 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 60 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "24 ; 29",
+          "25 ; 30",
+          "24 ; 30",
+          "25 ; 32"
+        ],
+        "answer": 1,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 25. II. Height is ladder length × sin30°. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 30 m vertical pole is observed at 45° from a point on level ground. If the observer moves 15 m towards it, what is tan of the new elevation?\nII. A 60 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "2 ; 30",
+          "4 ; 30",
+          "2 ; 31",
+          "4 ; 32"
+        ],
+        "answer": 0,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 60 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 18 m tall and casts a 18 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "61 ; 45",
+          "60 ; 44",
+          "61 ; 46",
+          "60 ; 45"
+        ],
+        "answer": 3,
+        "explanation": "I. h=d tan45°=d. Answer: 60. II. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Medium",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 30 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 24 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "32 ; 26",
+          "31 ; 23",
+          "32 ; 24",
+          "31 ; 24"
+        ],
+        "answer": 2,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 32. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 60 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 12 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "32 ; 26",
+          "30 ; 24",
+          "32 ; 24",
+          "30 ; 25"
+        ],
+        "answer": 1,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 30. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 60 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 60 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "30 ; 30",
+          "31 ; 30",
+          "30 ; 29",
+          "31 ; 31"
+        ],
+        "answer": 0,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 30. II. The string is the hypotenuse; height=L sin30°. Answer: 30.",
+        "difficulty": "Medium",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A vertical pole is 18 m tall and casts a 18 m shadow. Find the Sun's elevation in degrees.\nII. A 36 m vertical pole is observed at 45° from a point on level ground. If the observer moves 18 m towards it, what is tan of the new elevation?",
+        "options": [
+          "44 ; 2",
+          "45 ; 4",
+          "44 ; 1",
+          "45 ; 2"
+        ],
+        "answer": 3,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower is 24 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 70 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "24 ; 71",
+          "26 ; 72",
+          "24 ; 70",
+          "26 ; 70"
+        ],
+        "answer": 2,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 24. II. h=d tan45°=d. Answer: 70.",
+        "difficulty": "Medium",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 12 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 35 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "25 ; 38",
+          "24 ; 37",
+          "25 ; 37",
+          "24 ; 36"
+        ],
+        "answer": 1,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 24. II. Height above the eye is 5n; add the 2 m eye height. Answer: 37.",
+        "difficulty": "Medium",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A kite string is 60 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 70 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "30 ; 35",
+          "29 ; 35",
+          "30 ; 37",
+          "29 ; 34"
+        ],
+        "answer": 0,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 30. II. Height is ladder length × sin30°. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 36 m vertical pole is observed at 45° from a point on level ground. If the observer moves 18 m towards it, what is tan of the new elevation?\nII. A 70 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "4 ; 35",
+          "2 ; 36",
+          "4 ; 37",
+          "2 ; 35"
+        ],
+        "answer": 3,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 70 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 21 m tall and casts a 21 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "70 ; 44",
+          "71 ; 46",
+          "70 ; 45",
+          "71 ; 45"
+        ],
+        "answer": 2,
+        "explanation": "I. h=d tan45°=d. Answer: 70. II. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Medium",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 35 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 28 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "36 ; 27",
+          "37 ; 28",
+          "36 ; 28",
+          "37 ; 30"
+        ],
+        "answer": 1,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 37. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 28.",
+        "difficulty": "Medium",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 70 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 14 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "35 ; 28",
+          "37 ; 28",
+          "35 ; 29",
+          "37 ; 30"
+        ],
+        "answer": 0,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 35. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 28.",
+        "difficulty": "Medium",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 70 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 70 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "36 ; 35",
+          "35 ; 34",
+          "36 ; 36",
+          "35 ; 35"
+        ],
+        "answer": 3,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 35. II. The string is the hypotenuse; height=L sin30°. Answer: 35.",
+        "difficulty": "Medium",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A vertical pole is 21 m tall and casts a 21 m shadow. Find the Sun's elevation in degrees.\nII. A 42 m vertical pole is observed at 45° from a point on level ground. If the observer moves 21 m towards it, what is tan of the new elevation?",
+        "options": [
+          "45 ; 4",
+          "44 ; 1",
+          "45 ; 2",
+          "44 ; 2"
+        ],
+        "answer": 2,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Medium",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A tower is 28 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 50 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "30 ; 52",
+          "28 ; 50",
+          "30 ; 50",
+          "28 ; 51"
+        ],
+        "answer": 1,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 28. II. h=d tan45°=d. Answer: 50.",
+        "difficulty": "Medium",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 14 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 25 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "28 ; 27",
+          "29 ; 27",
+          "28 ; 26",
+          "29 ; 28"
+        ],
+        "answer": 0,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 28. II. Height above the eye is 5n; add the 2 m eye height. Answer: 27.",
+        "difficulty": "Medium",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A kite string is 70 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 50 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "34 ; 25",
+          "35 ; 27",
+          "34 ; 24",
+          "35 ; 25"
+        ],
+        "answer": 3,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 35. II. Height is ladder length × sin30°. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A 42 m vertical pole is observed at 45° from a point on level ground. If the observer moves 21 m towards it, what is tan of the new elevation?\nII. A 50 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "2 ; 26",
+          "4 ; 27",
+          "2 ; 25",
+          "4 ; 25"
+        ],
+        "answer": 2,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 25.",
+        "difficulty": "Medium",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH12-H": {
+    "id": "SA-DPP-27-MAT-CH12-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch12",
+    "chapterNumber": 12,
+    "chapter": "Applications of Trigonometry",
+    "level": "H",
+    "title": "Applications of Trigonometry – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-12.json",
+    "scheduledWeek": 7,
+    "lectureId": "SA-M600-LEC-W07-MAT-03",
+    "recommendedDate": "2026-11-29",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 12,
+    "sourcePrintedPages": {
+      "from": 298,
+      "to": 308
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q01",
+        "question": "A tower has elevation 30° from a point. After moving 20 m towards it on level ground, elevation is 60°. Find height.",
+        "options": [
+          "10 m",
+          "30 m",
+          "10√3 m",
+          "20√3 m"
+        ],
+        "answer": 2,
+        "explanation": "Let near distance be x: h=√3x=(x+20)/√3, so x=10.",
+        "difficulty": "Hard",
+        "topic": "A tower has elevation 30° from a point. After moving 20 m towards it on level ground, elevation is 60°. Find height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q02",
+        "question": "From a tower top, a car's angle of depression is 30°. If tower height is 20 m, find horizontal distance.",
+        "options": [
+          "40 m",
+          "20√3 m",
+          "20/√3 m",
+          "10 m"
+        ],
+        "answer": 1,
+        "explanation": "The elevation from the car is 30°; d=20/tan30°.",
+        "difficulty": "Hard",
+        "topic": "From a tower top, a car's angle of depression is 30°. If tower height is 20 m, find horizontal distance.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q03",
+        "question": "Two equal-height vertical poles stand 30 m apart. From the base of one, the other's top has elevation 45°. Find each height.",
+        "options": [
+          "30 m",
+          "15 m",
+          "30√3 m",
+          "60 m"
+        ],
+        "answer": 0,
+        "explanation": "The relevant right triangle has horizontal leg 30 and tan45°=h/30.",
+        "difficulty": "Hard",
+        "topic": "Two equal-height vertical poles stand 30 m apart. From the base of one, the other's top has elevation 45°. Find each height.",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 80 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 24 m tall and casts a 24 m shadow. Find the Sun's elevation in degrees.\nIII. A kite string is 80 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "81 ; 45 ; 40",
+          "80 ; 44 ; 40",
+          "80 ; 45 ; 42",
+          "80 ; 45 ; 40"
+        ],
+        "answer": 3,
+        "explanation": "I. h=d tan45°=d. Answer: 80. II. tanθ=height/shadow=1. Answer: 45. III. The string is the hypotenuse; height=L sin30°. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 40 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 32 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nIII. A 48 m vertical pole is observed at 45° from a point on level ground. If the observer moves 24 m towards it, what is tan of the new elevation?",
+        "options": [
+          "42 ; 34 ; 2",
+          "42 ; 32 ; 3",
+          "42 ; 32 ; 2",
+          "41 ; 32 ; 2"
+        ],
+        "answer": 2,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 42. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 32. III. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 80 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 16 m nearer sees it at an angle with tangent 2. Find tower height in m.\nIII. A tower top is viewed at 45° from 90 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "40 ; 32 ; 89",
+          "40 ; 32 ; 90",
+          "42 ; 32 ; 90",
+          "40 ; 33 ; 90"
+        ],
+        "answer": 1,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 40. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 32. III. h=d tan45°=d. Answer: 90.",
+        "difficulty": "Hard",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 80 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 80 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nIII. An observer's eye is 2 m high and 45 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "40 ; 40 ; 47",
+          "41 ; 40 ; 47",
+          "40 ; 39 ; 47",
+          "40 ; 40 ; 49"
+        ],
+        "answer": 0,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 40. II. The string is the hypotenuse; height=L sin30°. Answer: 40. III. Height above the eye is 5n; add the 2 m eye height. Answer: 47.",
+        "difficulty": "Hard",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A vertical pole is 24 m tall and casts a 24 m shadow. Find the Sun's elevation in degrees.\nII. A 48 m vertical pole is observed at 45° from a point on level ground. If the observer moves 24 m towards it, what is tan of the new elevation?\nIII. A 90 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "44 ; 2 ; 45",
+          "45 ; 4 ; 45",
+          "45 ; 2 ; 46",
+          "45 ; 2 ; 45"
+        ],
+        "answer": 3,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. III. Height is ladder length × sin30°. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower is 32 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 90 m away on level ground at base-level eye height. Find tower height in m.\nIII. A 90 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "32 ; 91 ; 45",
+          "32 ; 90 ; 44",
+          "32 ; 90 ; 45",
+          "34 ; 90 ; 45"
+        ],
+        "answer": 2,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 32. II. h=d tan45°=d. Answer: 90. III. Horizontal distance equals ladder length × cos60°. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 16 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 45 m from a building. The top elevation is 45°. Find building height in m.\nIII. A vertical pole is 27 m tall and casts a 27 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "32 ; 47 ; 47",
+          "32 ; 47 ; 45",
+          "33 ; 47 ; 45",
+          "32 ; 46 ; 45"
+        ],
+        "answer": 1,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 32. II. Height above the eye is 5n; add the 2 m eye height. Answer: 47. III. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A kite string is 80 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 90 m ladder makes 30° with level ground. Find the height reached in m.\nIII. A tower is 36 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "40 ; 45 ; 36",
+          "39 ; 45 ; 36",
+          "40 ; 47 ; 36",
+          "40 ; 45 ; 37"
+        ],
+        "answer": 0,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 40. II. Height is ladder length × sin30°. Answer: 45. III. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 48 m vertical pole is observed at 45° from a point on level ground. If the observer moves 24 m towards it, what is tan of the new elevation?\nII. A 90 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nIII. The elevation to a tower is 45°. A point 18 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "4 ; 45 ; 36",
+          "2 ; 46 ; 36",
+          "2 ; 45 ; 35",
+          "2 ; 45 ; 36"
+        ],
+        "answer": 3,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 45. III. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 90 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 27 m tall and casts a 27 m shadow. Find the Sun's elevation in degrees.\nIII. A kite string is 90 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "90 ; 44 ; 45",
+          "90 ; 45 ; 47",
+          "90 ; 45 ; 45",
+          "91 ; 45 ; 45"
+        ],
+        "answer": 2,
+        "explanation": "I. h=d tan45°=d. Answer: 90. II. tanθ=height/shadow=1. Answer: 45. III. The string is the hypotenuse; height=L sin30°. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 45 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 36 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nIII. A 54 m vertical pole is observed at 45° from a point on level ground. If the observer moves 27 m towards it, what is tan of the new elevation?",
+        "options": [
+          "47 ; 36 ; 3",
+          "47 ; 36 ; 2",
+          "46 ; 36 ; 2",
+          "47 ; 38 ; 2"
+        ],
+        "answer": 1,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 47. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 36. III. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 90 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 18 m nearer sees it at an angle with tangent 2. Find tower height in m.\nIII. A tower top is viewed at 45° from 100 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "45 ; 36 ; 100",
+          "47 ; 36 ; 100",
+          "45 ; 37 ; 100",
+          "45 ; 36 ; 99"
+        ],
+        "answer": 0,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 45. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 36. III. h=d tan45°=d. Answer: 100.",
+        "difficulty": "Hard",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 90 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 90 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nIII. An observer's eye is 2 m high and 50 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "46 ; 45 ; 52",
+          "45 ; 44 ; 52",
+          "45 ; 45 ; 54",
+          "45 ; 45 ; 52"
+        ],
+        "answer": 3,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 45. II. The string is the hypotenuse; height=L sin30°. Answer: 45. III. Height above the eye is 5n; add the 2 m eye height. Answer: 52.",
+        "difficulty": "Hard",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A vertical pole is 27 m tall and casts a 27 m shadow. Find the Sun's elevation in degrees.\nII. A 54 m vertical pole is observed at 45° from a point on level ground. If the observer moves 27 m towards it, what is tan of the new elevation?\nIII. A 100 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "45 ; 4 ; 50",
+          "45 ; 2 ; 51",
+          "45 ; 2 ; 50",
+          "44 ; 2 ; 50"
+        ],
+        "answer": 2,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. III. Height is ladder length × sin30°. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower is 36 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 100 m away on level ground at base-level eye height. Find tower height in m.\nIII. A 100 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "36 ; 100 ; 49",
+          "36 ; 100 ; 50",
+          "38 ; 100 ; 50",
+          "36 ; 101 ; 50"
+        ],
+        "answer": 1,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 36. II. h=d tan45°=d. Answer: 100. III. Horizontal distance equals ladder length × cos60°. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 18 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 50 m from a building. The top elevation is 45°. Find building height in m.\nIII. A vertical pole is 30 m tall and casts a 30 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "36 ; 52 ; 45",
+          "37 ; 52 ; 45",
+          "36 ; 51 ; 45",
+          "36 ; 52 ; 47"
+        ],
+        "answer": 0,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 36. II. Height above the eye is 5n; add the 2 m eye height. Answer: 52. III. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A kite string is 90 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 100 m ladder makes 30° with level ground. Find the height reached in m.\nIII. A tower is 40 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "44 ; 50 ; 40",
+          "45 ; 52 ; 40",
+          "45 ; 50 ; 41",
+          "45 ; 50 ; 40"
+        ],
+        "answer": 3,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 45. II. Height is ladder length × sin30°. Answer: 50. III. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 54 m vertical pole is observed at 45° from a point on level ground. If the observer moves 27 m towards it, what is tan of the new elevation?\nII. A 100 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nIII. The elevation to a tower is 45°. A point 20 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "2 ; 51 ; 40",
+          "2 ; 50 ; 39",
+          "2 ; 50 ; 40",
+          "4 ; 50 ; 40"
+        ],
+        "answer": 2,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 50. III. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower top is viewed at 45° from 100 m away on level ground at base-level eye height. Find tower height in m.\nII. A vertical pole is 30 m tall and casts a 30 m shadow. Find the Sun's elevation in degrees.\nIII. A kite string is 100 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.",
+        "options": [
+          "100 ; 45 ; 52",
+          "100 ; 45 ; 50",
+          "101 ; 45 ; 50",
+          "100 ; 44 ; 50"
+        ],
+        "answer": 1,
+        "explanation": "I. h=d tan45°=d. Answer: 100. II. tanθ=height/shadow=1. Answer: 45. III. The string is the hypotenuse; height=L sin30°. Answer: 50.",
+        "difficulty": "Hard",
+        "topic": "Tower height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An observer's eye is 2 m high and 50 m from a building. The top elevation is 45°. Find building height in m.\nII. A tower is 40 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nIII. A 60 m vertical pole is observed at 45° from a point on level ground. If the observer moves 30 m towards it, what is tan of the new elevation?",
+        "options": [
+          "52 ; 40 ; 2",
+          "51 ; 40 ; 2",
+          "52 ; 42 ; 2",
+          "52 ; 40 ; 3"
+        ],
+        "answer": 0,
+        "explanation": "I. Height above the eye is 5n; add the 2 m eye height. Answer: 52. II. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 40. III. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2.",
+        "difficulty": "Hard",
+        "topic": "Eye height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 100 m ladder makes 30° with level ground. Find the height reached in m.\nII. The elevation to a tower is 45°. A point 20 m nearer sees it at an angle with tangent 2. Find tower height in m.\nIII. A tower top is viewed at 45° from 80 m away on level ground at base-level eye height. Find tower height in m.",
+        "options": [
+          "52 ; 40 ; 80",
+          "50 ; 41 ; 80",
+          "50 ; 40 ; 79",
+          "50 ; 40 ; 80"
+        ],
+        "answer": 3,
+        "explanation": "I. Height is ladder length × sin30°. Answer: 50. II. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 40. III. h=d tan45°=d. Answer: 80.",
+        "difficulty": "Hard",
+        "topic": "Ladder height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 100 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nII. A kite string is 100 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nIII. An observer's eye is 2 m high and 40 m from a building. The top elevation is 45°. Find building height in m.",
+        "options": [
+          "50 ; 49 ; 42",
+          "50 ; 50 ; 44",
+          "50 ; 50 ; 42",
+          "51 ; 50 ; 42"
+        ],
+        "answer": 2,
+        "explanation": "I. Horizontal distance equals ladder length × cos60°. Answer: 50. II. The string is the hypotenuse; height=L sin30°. Answer: 50. III. Height above the eye is 5n; add the 2 m eye height. Answer: 42.",
+        "difficulty": "Hard",
+        "topic": "Ladder distance",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A vertical pole is 30 m tall and casts a 30 m shadow. Find the Sun's elevation in degrees.\nII. A 60 m vertical pole is observed at 45° from a point on level ground. If the observer moves 30 m towards it, what is tan of the new elevation?\nIII. A 80 m ladder makes 30° with level ground. Find the height reached in m.",
+        "options": [
+          "45 ; 2 ; 41",
+          "45 ; 2 ; 40",
+          "44 ; 2 ; 40",
+          "45 ; 4 ; 40"
+        ],
+        "answer": 1,
+        "explanation": "I. tanθ=height/shadow=1. Answer: 45. II. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. III. Height is ladder length × sin30°. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Sun elevation",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A tower is 40 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.\nII. A tower top is viewed at 45° from 80 m away on level ground at base-level eye height. Find tower height in m.\nIII. A 80 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.",
+        "options": [
+          "40 ; 80 ; 40",
+          "42 ; 80 ; 40",
+          "40 ; 81 ; 40",
+          "40 ; 80 ; 39"
+        ],
+        "answer": 0,
+        "explanation": "I. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 40. II. h=d tan45°=d. Answer: 80. III. Horizontal distance equals ladder length × cos60°. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Angle of depression",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The elevation to a tower is 45°. A point 20 m nearer sees it at an angle with tangent 2. Find tower height in m.\nII. An observer's eye is 2 m high and 40 m from a building. The top elevation is 45°. Find building height in m.\nIII. A vertical pole is 24 m tall and casts a 24 m shadow. Find the Sun's elevation in degrees.",
+        "options": [
+          "41 ; 42 ; 45",
+          "40 ; 41 ; 45",
+          "40 ; 42 ; 47",
+          "40 ; 42 ; 45"
+        ],
+        "answer": 3,
+        "explanation": "I. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 40. II. Height above the eye is 5n; add the 2 m eye height. Answer: 42. III. tanθ=height/shadow=1. Answer: 45.",
+        "difficulty": "Hard",
+        "topic": "Changing observation point",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A kite string is 100 m long, straight and inclined 30° to level ground. Ignore hand height. Find kite height in m.\nII. A 80 m ladder makes 30° with level ground. Find the height reached in m.\nIII. A tower is 32 m tall. From its top, the angle of depression to a ground point is 45°. Find horizontal distance in m.",
+        "options": [
+          "50 ; 42 ; 32",
+          "50 ; 40 ; 33",
+          "50 ; 40 ; 32",
+          "49 ; 40 ; 32"
+        ],
+        "answer": 2,
+        "explanation": "I. The string is the hypotenuse; height=L sin30°. Answer: 50. II. Height is ladder length × sin30°. Answer: 40. III. The corresponding elevation is 45°, giving equal vertical and horizontal legs. Answer: 32.",
+        "difficulty": "Hard",
+        "topic": "Kite height",
+        "sourceChapter": 12
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH12-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A 60 m vertical pole is observed at 45° from a point on level ground. If the observer moves 30 m towards it, what is tan of the new elevation?\nII. A 80 m ladder makes 60° with level ground. Find its foot's horizontal distance from the wall in m.\nIII. The elevation to a tower is 45°. A point 16 m nearer sees it at an angle with tangent 2. Find tower height in m.",
+        "options": [
+          "2 ; 40 ; 31",
+          "2 ; 40 ; 32",
+          "4 ; 40 ; 32",
+          "2 ; 41 ; 32"
+        ],
+        "answer": 1,
+        "explanation": "I. The new horizontal distance is 3n, so tanθ=6n/(3n)=2. Answer: 2. II. Horizontal distance equals ladder length × cos60°. Answer: 40. III. Let height h equal the far distance; h/(h−2n)=2 gives h=4n. Answer: 32.",
+        "difficulty": "Hard",
+        "topic": "New angle of elevation",
+        "sourceChapter": 12
+      }
+    ]
+  }
+}

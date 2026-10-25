@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH07-E": {
+    "id": "SA-DPP-27-PHY-CH07-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "E",
+    "title": "Classification of Elements - The Periodic Table – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-10",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q01",
+        "question": "The modern periodic table arranges elements primarily by what?",
+        "options": [
+          "Melting point",
+          "Atomic number",
+          "Atomic mass alone",
+          "Density"
+        ],
+        "answer": 1,
+        "explanation": "Atomic number gives the fundamental ordering.",
+        "difficulty": "Easy",
+        "topic": "The modern periodic table arranges elements primarily by what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q02",
+        "question": "Elements in the same group usually have similar what?",
+        "options": [
+          "Valence-electron configurations",
+          "Numbers of shells",
+          "Atomic numbers",
+          "Atomic masses"
+        ],
+        "answer": 0,
+        "explanation": "Similar outer configurations explain similar chemical properties.",
+        "difficulty": "Easy",
+        "topic": "Elements in the same group usually have similar what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q03",
+        "question": "What generally happens to atomic size down a group?",
+        "options": [
+          "It always decreases",
+          "It becomes zero",
+          "It remains identical",
+          "It increases"
+        ],
+        "answer": 3,
+        "explanation": "Additional electron shells place outer electrons farther from the nucleus.",
+        "difficulty": "Easy",
+        "topic": "What generally happens to atomic size down a group?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q04",
+        "question": "Group 1: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Halogen group",
+          "Noble-gas group",
+          "Alkali-metal group apart from hydrogen's special placement",
+          "Alkaline-earth-metal group"
+        ],
+        "answer": 2,
+        "explanation": "Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement.",
+        "difficulty": "Easy",
+        "topic": "Group 1 · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q05",
+        "question": "Group 1: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Main-group members have one valence electron",
+          "Main-group members have seven valence electrons",
+          "Filled valence shells, with helium's duplet exception"
+        ],
+        "answer": 1,
+        "explanation": "Group 1 — outer-electron or trend feature: Main-group members have one valence electron.",
+        "difficulty": "Easy",
+        "topic": "Group 1 · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q06",
+        "question": "Group 1: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Sodium commonly forms Na⁺",
+          "Neon has electron distribution 2,8",
+          "Sodium belongs to period 3",
+          "Sodium is larger than chlorine as a neutral atom"
+        ],
+        "answer": 0,
+        "explanation": "Group 1 — representative example or consequence: Sodium commonly forms Na⁺.",
+        "difficulty": "Easy",
+        "topic": "Group 1 · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q07",
+        "question": "Group 2: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Halogen group",
+          "Noble-gas group",
+          "A horizontal-row identifier",
+          "Alkaline-earth-metal group"
+        ],
+        "answer": 3,
+        "explanation": "Group 2 — periodic-table description: Alkaline-earth-metal group.",
+        "difficulty": "Easy",
+        "topic": "Group 2 · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q08",
+        "question": "Group 2: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Nuclear attraction increases while electrons enter the same main shell",
+          "Main-group members have two valence electrons",
+          "Filled valence shells, with helium's duplet exception"
+        ],
+        "answer": 2,
+        "explanation": "Group 2 — outer-electron or trend feature: Main-group members have two valence electrons.",
+        "difficulty": "Easy",
+        "topic": "Group 2 · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q09",
+        "question": "Group 2: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Potassium is larger than sodium",
+          "Magnesium commonly forms Mg²⁺",
+          "Sodium belongs to period 3",
+          "Sodium is larger than chlorine as a neutral atom"
+        ],
+        "answer": 1,
+        "explanation": "Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺.",
+        "difficulty": "Easy",
+        "topic": "Group 2 · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q10",
+        "question": "Group 17: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Halogen group",
+          "Noble-gas group",
+          "A horizontal-row identifier",
+          "Generally decreases from left to right"
+        ],
+        "answer": 0,
+        "explanation": "Group 17 — periodic-table description: Halogen group.",
+        "difficulty": "Easy",
+        "topic": "Group 17 · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q11",
+        "question": "Group 17: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Nuclear attraction increases while electrons enter the same main shell",
+          "Additional occupied shells increase size",
+          "Main-group members have seven valence electrons"
+        ],
+        "answer": 3,
+        "explanation": "Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons.",
+        "difficulty": "Easy",
+        "topic": "Group 17 · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q12",
+        "question": "Group 17: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Potassium is larger than sodium",
+          "Sodium is more metallic than sulfur",
+          "Chlorine commonly forms Cl⁻",
+          "Sodium is larger than chlorine as a neutral atom"
+        ],
+        "answer": 2,
+        "explanation": "Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻.",
+        "difficulty": "Easy",
+        "topic": "Group 17 · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q13",
+        "question": "Group 18: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Generally increases",
+          "Noble-gas group",
+          "A horizontal-row identifier",
+          "Generally decreases from left to right"
+        ],
+        "answer": 1,
+        "explanation": "Group 18 — periodic-table description: Noble-gas group.",
+        "difficulty": "Easy",
+        "topic": "Group 18 · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q14",
+        "question": "Group 18: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Filled valence shells, with helium's duplet exception",
+          "Nuclear attraction increases while electrons enter the same main shell",
+          "Additional occupied shells increase size",
+          "Electron loss becomes less favourable overall"
+        ],
+        "answer": 0,
+        "explanation": "Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception.",
+        "difficulty": "Easy",
+        "topic": "Group 18 · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q15",
+        "question": "Group 18: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Potassium is larger than sodium",
+          "Sodium is more metallic than sulfur",
+          "Na⁺ has a smaller radius than Na",
+          "Neon has electron distribution 2,8"
+        ],
+        "answer": 3,
+        "explanation": "Group 18 — representative example or consequence: Neon has electron distribution 2,8.",
+        "difficulty": "Easy",
+        "topic": "Group 18 · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q16",
+        "question": "Period number: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Generally increases",
+          "Formation of a positive ion",
+          "A horizontal-row identifier",
+          "Generally decreases from left to right"
+        ],
+        "answer": 2,
+        "explanation": "Period number — periodic-table description: A horizontal-row identifier.",
+        "difficulty": "Easy",
+        "topic": "Period number · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q17",
+        "question": "Period number: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "The outer third-shell electron is removed",
+          "Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Additional occupied shells increase size",
+          "Electron loss becomes less favourable overall"
+        ],
+        "answer": 1,
+        "explanation": "Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model.",
+        "difficulty": "Easy",
+        "topic": "Period number · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q18",
+        "question": "Period number: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Sodium belongs to period 3",
+          "Sodium is more metallic than sulfur",
+          "Na⁺ has a smaller radius than Na",
+          "Sodium commonly forms Na⁺"
+        ],
+        "answer": 0,
+        "explanation": "Period number — representative example or consequence: Sodium belongs to period 3.",
+        "difficulty": "Easy",
+        "topic": "Period number · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q19",
+        "question": "Atomic radius across a period: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Generally increases",
+          "Formation of a positive ion",
+          "Alkali-metal group apart from hydrogen's special placement",
+          "Generally decreases from left to right"
+        ],
+        "answer": 3,
+        "explanation": "Atomic radius across a period — periodic-table description: Generally decreases from left to right.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius across a period · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q20",
+        "question": "Atomic radius across a period: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "The outer third-shell electron is removed",
+          "Main-group members have one valence electron",
+          "Nuclear attraction increases while electrons enter the same main shell",
+          "Electron loss becomes less favourable overall"
+        ],
+        "answer": 2,
+        "explanation": "Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius across a period · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q21",
+        "question": "Atomic radius across a period: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Magnesium commonly forms Mg²⁺",
+          "Sodium is larger than chlorine as a neutral atom",
+          "Na⁺ has a smaller radius than Na",
+          "Sodium commonly forms Na⁺"
+        ],
+        "answer": 1,
+        "explanation": "Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius across a period · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q22",
+        "question": "Atomic radius down a group: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Generally increases",
+          "Formation of a positive ion",
+          "Alkali-metal group apart from hydrogen's special placement",
+          "Alkaline-earth-metal group"
+        ],
+        "answer": 0,
+        "explanation": "Atomic radius down a group — periodic-table description: Generally increases.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius down a group · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q23",
+        "question": "Atomic radius down a group: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "The outer third-shell electron is removed",
+          "Main-group members have one valence electron",
+          "Main-group members have two valence electrons",
+          "Additional occupied shells increase size"
+        ],
+        "answer": 3,
+        "explanation": "Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius down a group · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q24",
+        "question": "Atomic radius down a group: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Magnesium commonly forms Mg²⁺",
+          "Chlorine commonly forms Cl⁻",
+          "Potassium is larger than sodium",
+          "Sodium commonly forms Na⁺"
+        ],
+        "answer": 2,
+        "explanation": "Atomic radius down a group — representative example or consequence: Potassium is larger than sodium.",
+        "difficulty": "Easy",
+        "topic": "Atomic radius down a group · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q25",
+        "question": "Metallic character across a period: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Halogen group",
+          "Generally decreases from left to right",
+          "Alkali-metal group apart from hydrogen's special placement",
+          "Alkaline-earth-metal group"
+        ],
+        "answer": 1,
+        "explanation": "Metallic character across a period — periodic-table description: Generally decreases from left to right.",
+        "difficulty": "Easy",
+        "topic": "Metallic character across a period · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q26",
+        "question": "Metallic character across a period: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Electron loss becomes less favourable overall",
+          "Main-group members have one valence electron",
+          "Main-group members have two valence electrons",
+          "Main-group members have seven valence electrons"
+        ],
+        "answer": 0,
+        "explanation": "Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall.",
+        "difficulty": "Easy",
+        "topic": "Metallic character across a period · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q27",
+        "question": "Metallic character across a period: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Magnesium commonly forms Mg²⁺",
+          "Chlorine commonly forms Cl⁻",
+          "Neon has electron distribution 2,8",
+          "Sodium is more metallic than sulfur"
+        ],
+        "answer": 3,
+        "explanation": "Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur.",
+        "difficulty": "Easy",
+        "topic": "Metallic character across a period · representative example or consequence",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q28",
+        "question": "Electron loss by sodium: which option correctly identifies the periodic-table description?",
+        "options": [
+          "Halogen group",
+          "Noble-gas group",
+          "Formation of a positive ion",
+          "Alkaline-earth-metal group"
+        ],
+        "answer": 2,
+        "explanation": "Electron loss by sodium — periodic-table description: Formation of a positive ion.",
+        "difficulty": "Easy",
+        "topic": "Electron loss by sodium · periodic-table description",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q29",
+        "question": "Electron loss by sodium: which option correctly identifies the outer-electron or trend feature?",
+        "options": [
+          "Filled valence shells, with helium's duplet exception",
+          "The outer third-shell electron is removed",
+          "Main-group members have two valence electrons",
+          "Main-group members have seven valence electrons"
+        ],
+        "answer": 1,
+        "explanation": "Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed.",
+        "difficulty": "Easy",
+        "topic": "Electron loss by sodium · outer-electron or trend feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-E-Q30",
+        "question": "Electron loss by sodium: which option correctly identifies the representative example or consequence?",
+        "options": [
+          "Na⁺ has a smaller radius than Na",
+          "Chlorine commonly forms Cl⁻",
+          "Neon has electron distribution 2,8",
+          "Sodium belongs to period 3"
+        ],
+        "answer": 0,
+        "explanation": "Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na.",
+        "difficulty": "Easy",
+        "topic": "Electron loss by sodium · representative example or consequence",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH07-M": {
+    "id": "SA-DPP-27-PHY-CH07-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "M",
+    "title": "Classification of Elements - The Periodic Table – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-11",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q01",
+        "question": "An element has electron distribution 2,8,7. Which group does it belong to?",
+        "options": [
+          "17",
+          "1",
+          "2",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "Seven valence electrons place this main-group element in group 17.",
+        "difficulty": "Medium",
+        "topic": "An element has electron distribution 2,8,7. Which group does it belong to?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q02",
+        "question": "Why does atomic size generally decrease across a period?",
+        "options": [
+          "An electron shell is lost at every step",
+          "Protons are removed",
+          "Atomic number decreases",
+          "Increasing effective nuclear attraction pulls electrons closer"
+        ],
+        "answer": 3,
+        "explanation": "Electrons enter the same main shell while nuclear charge increases.",
+        "difficulty": "Medium",
+        "topic": "Why does atomic size generally decrease across a period?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q03",
+        "question": "Which is generally more metallic: Na or Cl?",
+        "options": [
+          "Both equally",
+          "Neither, because both are gases",
+          "Na",
+          "Cl"
+        ],
+        "answer": 2,
+        "explanation": "Metallic character generally decreases from left to right across a period.",
+        "difficulty": "Medium",
+        "topic": "Which is generally more metallic: Na or Cl?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q04",
+        "question": "Which pair correctly matches Group 1 with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Halogen group → Main-group members have seven valence electrons",
+          "Alkali-metal group apart from hydrogen's special placement → Main-group members have one valence electron",
+          "Alkaline-earth-metal group → Main-group members have one valence electron",
+          "Alkali-metal group apart from hydrogen's special placement → Main-group members have two valence electrons"
+        ],
+        "answer": 1,
+        "explanation": "Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement. Group 1 — outer-electron or trend feature: Main-group members have one valence electron. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 1",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q05",
+        "question": "Which pair correctly matches Group 1 with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Main-group members have one valence electron → Sodium commonly forms Na⁺",
+          "Main-group members have seven valence electrons → Sodium commonly forms Na⁺",
+          "Main-group members have one valence electron → Magnesium commonly forms Mg²⁺",
+          "Filled valence shells, with helium's duplet exception → Chlorine commonly forms Cl⁻"
+        ],
+        "answer": 0,
+        "explanation": "Group 1 — outer-electron or trend feature: Main-group members have one valence electron. Group 1 — representative example or consequence: Sodium commonly forms Na⁺. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 1",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q06",
+        "question": "Which pair correctly matches Group 1 with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Neon has electron distribution 2,8 → Alkali-metal group apart from hydrogen's special placement",
+          "Sodium commonly forms Na⁺ → Alkaline-earth-metal group",
+          "Sodium belongs to period 3 → Halogen group",
+          "Sodium commonly forms Na⁺ → Alkali-metal group apart from hydrogen's special placement"
+        ],
+        "answer": 3,
+        "explanation": "Group 1 — representative example or consequence: Sodium commonly forms Na⁺. Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 1",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q07",
+        "question": "Which pair correctly matches Group 2 with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Alkaline-earth-metal group → Main-group members have seven valence electrons",
+          "Noble-gas group → Filled valence shells, with helium's duplet exception",
+          "Alkaline-earth-metal group → Main-group members have two valence electrons",
+          "Halogen group → Main-group members have two valence electrons"
+        ],
+        "answer": 2,
+        "explanation": "Group 2 — periodic-table description: Alkaline-earth-metal group. Group 2 — outer-electron or trend feature: Main-group members have two valence electrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 2",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q08",
+        "question": "Which pair correctly matches Group 2 with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Corresponds to the occupied principal-shell count in the ground-state school model → Neon has electron distribution 2,8",
+          "Main-group members have two valence electrons → Magnesium commonly forms Mg²⁺",
+          "Filled valence shells, with helium's duplet exception → Magnesium commonly forms Mg²⁺",
+          "Main-group members have two valence electrons → Chlorine commonly forms Cl⁻"
+        ],
+        "answer": 1,
+        "explanation": "Group 2 — outer-electron or trend feature: Main-group members have two valence electrons. Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 2",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q09",
+        "question": "Which pair correctly matches Group 2 with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Magnesium commonly forms Mg²⁺ → Alkaline-earth-metal group",
+          "Sodium belongs to period 3 → Alkaline-earth-metal group",
+          "Magnesium commonly forms Mg²⁺ → Halogen group",
+          "Sodium is larger than chlorine as a neutral atom → Noble-gas group"
+        ],
+        "answer": 0,
+        "explanation": "Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺. Group 2 — periodic-table description: Alkaline-earth-metal group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 2",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q10",
+        "question": "Which pair correctly matches Group 17 with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Noble-gas group → Main-group members have seven valence electrons",
+          "Halogen group → Filled valence shells, with helium's duplet exception",
+          "A horizontal-row identifier → Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Halogen group → Main-group members have seven valence electrons"
+        ],
+        "answer": 3,
+        "explanation": "Group 17 — periodic-table description: Halogen group. Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 17",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q11",
+        "question": "Which pair correctly matches Group 17 with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Main-group members have seven valence electrons → Neon has electron distribution 2,8",
+          "Nuclear attraction increases while electrons enter the same main shell → Sodium belongs to period 3",
+          "Main-group members have seven valence electrons → Chlorine commonly forms Cl⁻",
+          "Corresponds to the occupied principal-shell count in the ground-state school model → Chlorine commonly forms Cl⁻"
+        ],
+        "answer": 2,
+        "explanation": "Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons. Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 17",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q12",
+        "question": "Which pair correctly matches Group 17 with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Potassium is larger than sodium → A horizontal-row identifier",
+          "Chlorine commonly forms Cl⁻ → Halogen group",
+          "Sodium is larger than chlorine as a neutral atom → Halogen group",
+          "Chlorine commonly forms Cl⁻ → Noble-gas group"
+        ],
+        "answer": 1,
+        "explanation": "Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻. Group 17 — periodic-table description: Halogen group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 17",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q13",
+        "question": "Which pair correctly matches Group 18 with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Noble-gas group → Filled valence shells, with helium's duplet exception",
+          "A horizontal-row identifier → Filled valence shells, with helium's duplet exception",
+          "Noble-gas group → Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Generally decreases from left to right → Nuclear attraction increases while electrons enter the same main shell"
+        ],
+        "answer": 0,
+        "explanation": "Group 18 — periodic-table description: Noble-gas group. Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 18",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q14",
+        "question": "Which pair correctly matches Group 18 with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Nuclear attraction increases while electrons enter the same main shell → Neon has electron distribution 2,8",
+          "Filled valence shells, with helium's duplet exception → Sodium belongs to period 3",
+          "Additional occupied shells increase size → Sodium is larger than chlorine as a neutral atom",
+          "Filled valence shells, with helium's duplet exception → Neon has electron distribution 2,8"
+        ],
+        "answer": 3,
+        "explanation": "Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception. Group 18 — representative example or consequence: Neon has electron distribution 2,8. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 18",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q15",
+        "question": "Which pair correctly matches Group 18 with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Neon has electron distribution 2,8 → A horizontal-row identifier",
+          "Sodium is more metallic than sulfur → Generally decreases from left to right",
+          "Neon has electron distribution 2,8 → Noble-gas group",
+          "Potassium is larger than sodium → Noble-gas group"
+        ],
+        "answer": 2,
+        "explanation": "Group 18 — representative example or consequence: Neon has electron distribution 2,8. Group 18 — periodic-table description: Noble-gas group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Group 18",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q16",
+        "question": "Which pair correctly matches Period number with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Generally increases → Additional occupied shells increase size",
+          "A horizontal-row identifier → Corresponds to the occupied principal-shell count in the ground-state school model",
+          "Generally decreases from left to right → Corresponds to the occupied principal-shell count in the ground-state school model",
+          "A horizontal-row identifier → Nuclear attraction increases while electrons enter the same main shell"
+        ],
+        "answer": 1,
+        "explanation": "Period number — periodic-table description: A horizontal-row identifier. Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Period number",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q17",
+        "question": "Which pair correctly matches Period number with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Corresponds to the occupied principal-shell count in the ground-state school model → Sodium belongs to period 3",
+          "Additional occupied shells increase size → Sodium belongs to period 3",
+          "Corresponds to the occupied principal-shell count in the ground-state school model → Sodium is larger than chlorine as a neutral atom",
+          "Electron loss becomes less favourable overall → Potassium is larger than sodium"
+        ],
+        "answer": 0,
+        "explanation": "Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model. Period number — representative example or consequence: Sodium belongs to period 3. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Period number",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q18",
+        "question": "Which pair correctly matches Period number with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Sodium is more metallic than sulfur → A horizontal-row identifier",
+          "Sodium belongs to period 3 → Generally decreases from left to right",
+          "Na⁺ has a smaller radius than Na → Generally increases",
+          "Sodium belongs to period 3 → A horizontal-row identifier"
+        ],
+        "answer": 3,
+        "explanation": "Period number — representative example or consequence: Sodium belongs to period 3. Period number — periodic-table description: A horizontal-row identifier. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Period number",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q19",
+        "question": "Which pair correctly matches Atomic radius across a period with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Generally decreases from left to right → Additional occupied shells increase size",
+          "Formation of a positive ion → Electron loss becomes less favourable overall",
+          "Generally decreases from left to right → Nuclear attraction increases while electrons enter the same main shell",
+          "Generally increases → Nuclear attraction increases while electrons enter the same main shell"
+        ],
+        "answer": 2,
+        "explanation": "Atomic radius across a period — periodic-table description: Generally decreases from left to right. Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q20",
+        "question": "Which pair correctly matches Atomic radius across a period with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "The outer third-shell electron is removed → Sodium is more metallic than sulfur",
+          "Nuclear attraction increases while electrons enter the same main shell → Sodium is larger than chlorine as a neutral atom",
+          "Electron loss becomes less favourable overall → Sodium is larger than chlorine as a neutral atom",
+          "Nuclear attraction increases while electrons enter the same main shell → Potassium is larger than sodium"
+        ],
+        "answer": 1,
+        "explanation": "Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell. Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q21",
+        "question": "Which pair correctly matches Atomic radius across a period with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Sodium is larger than chlorine as a neutral atom → Generally decreases from left to right",
+          "Na⁺ has a smaller radius than Na → Generally decreases from left to right",
+          "Sodium is larger than chlorine as a neutral atom → Generally increases",
+          "Sodium commonly forms Na⁺ → Formation of a positive ion"
+        ],
+        "answer": 0,
+        "explanation": "Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom. Atomic radius across a period — periodic-table description: Generally decreases from left to right. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q22",
+        "question": "Which pair correctly matches Atomic radius down a group with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Formation of a positive ion → Additional occupied shells increase size",
+          "Generally increases → Electron loss becomes less favourable overall",
+          "Alkali-metal group apart from hydrogen's special placement → The outer third-shell electron is removed",
+          "Generally increases → Additional occupied shells increase size"
+        ],
+        "answer": 3,
+        "explanation": "Atomic radius down a group — periodic-table description: Generally increases. Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius down a group",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q23",
+        "question": "Which pair correctly matches Atomic radius down a group with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Additional occupied shells increase size → Sodium is more metallic than sulfur",
+          "Main-group members have one valence electron → Na⁺ has a smaller radius than Na",
+          "Additional occupied shells increase size → Potassium is larger than sodium",
+          "The outer third-shell electron is removed → Potassium is larger than sodium"
+        ],
+        "answer": 2,
+        "explanation": "Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size. Atomic radius down a group — representative example or consequence: Potassium is larger than sodium. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius down a group",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q24",
+        "question": "Which pair correctly matches Atomic radius down a group with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Magnesium commonly forms Mg²⁺ → Alkali-metal group apart from hydrogen's special placement",
+          "Potassium is larger than sodium → Generally increases",
+          "Sodium commonly forms Na⁺ → Generally increases",
+          "Potassium is larger than sodium → Formation of a positive ion"
+        ],
+        "answer": 1,
+        "explanation": "Atomic radius down a group — representative example or consequence: Potassium is larger than sodium. Atomic radius down a group — periodic-table description: Generally increases. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic radius down a group",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q25",
+        "question": "Which pair correctly matches Metallic character across a period with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Generally decreases from left to right → Electron loss becomes less favourable overall",
+          "Alkali-metal group apart from hydrogen's special placement → Electron loss becomes less favourable overall",
+          "Generally decreases from left to right → The outer third-shell electron is removed",
+          "Alkaline-earth-metal group → Main-group members have one valence electron"
+        ],
+        "answer": 0,
+        "explanation": "Metallic character across a period — periodic-table description: Generally decreases from left to right. Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Metallic character across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q26",
+        "question": "Which pair correctly matches Metallic character across a period with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "Main-group members have one valence electron → Sodium is more metallic than sulfur",
+          "Electron loss becomes less favourable overall → Na⁺ has a smaller radius than Na",
+          "Main-group members have two valence electrons → Sodium commonly forms Na⁺",
+          "Electron loss becomes less favourable overall → Sodium is more metallic than sulfur"
+        ],
+        "answer": 3,
+        "explanation": "Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall. Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Metallic character across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q27",
+        "question": "Which pair correctly matches Metallic character across a period with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Sodium is more metallic than sulfur → Alkali-metal group apart from hydrogen's special placement",
+          "Chlorine commonly forms Cl⁻ → Alkaline-earth-metal group",
+          "Sodium is more metallic than sulfur → Generally decreases from left to right",
+          "Magnesium commonly forms Mg²⁺ → Generally decreases from left to right"
+        ],
+        "answer": 2,
+        "explanation": "Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur. Metallic character across a period — periodic-table description: Generally decreases from left to right. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Metallic character across a period",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q28",
+        "question": "Which pair correctly matches Electron loss by sodium with its periodic-table description and outer-electron or trend feature, in that order?",
+        "options": [
+          "Halogen group → Main-group members have two valence electrons",
+          "Formation of a positive ion → The outer third-shell electron is removed",
+          "Alkaline-earth-metal group → The outer third-shell electron is removed",
+          "Formation of a positive ion → Main-group members have one valence electron"
+        ],
+        "answer": 1,
+        "explanation": "Electron loss by sodium — periodic-table description: Formation of a positive ion. Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron loss by sodium",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q29",
+        "question": "Which pair correctly matches Electron loss by sodium with its outer-electron or trend feature and representative example or consequence, in that order?",
+        "options": [
+          "The outer third-shell electron is removed → Na⁺ has a smaller radius than Na",
+          "Main-group members have two valence electrons → Na⁺ has a smaller radius than Na",
+          "The outer third-shell electron is removed → Sodium commonly forms Na⁺",
+          "Main-group members have seven valence electrons → Magnesium commonly forms Mg²⁺"
+        ],
+        "answer": 0,
+        "explanation": "Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed. Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron loss by sodium",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-M-Q30",
+        "question": "Which pair correctly matches Electron loss by sodium with its representative example or consequence and periodic-table description, in that order?",
+        "options": [
+          "Chlorine commonly forms Cl⁻ → Formation of a positive ion",
+          "Na⁺ has a smaller radius than Na → Alkaline-earth-metal group",
+          "Neon has electron distribution 2,8 → Halogen group",
+          "Na⁺ has a smaller radius than Na → Formation of a positive ion"
+        ],
+        "answer": 3,
+        "explanation": "Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na. Electron loss by sodium — periodic-table description: Formation of a positive ion. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron loss by sodium",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH07-H": {
+    "id": "SA-DPP-27-PHY-CH07-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch7",
+    "chapterNumber": 7,
+    "chapter": "Classification of Elements - The Periodic Table",
+    "level": "H",
+    "title": "Classification of Elements - The Periodic Table – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-07.json",
+    "scheduledWeek": 5,
+    "lectureId": "SA-M600-LEC-W05-PHY-01",
+    "recommendedDate": "2026-11-12",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 123,
+      "to": 149
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q01",
+        "question": "Two elements have configurations 2,8,1 and 2,8,8,1. What best explains their similar chemistry?",
+        "options": [
+          "Both have equal numbers of shells",
+          "Both are noble gases",
+          "Both have equal atomic radii",
+          "Both have one valence electron"
+        ],
+        "answer": 3,
+        "explanation": "Their identical valence-electron count leads to similar common reactions.",
+        "difficulty": "Hard",
+        "topic": "Two elements have configurations 2,8,1 and 2,8,8,1. What best explains their similar chemistry?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q02",
+        "question": "Why is the second ionisation energy of sodium much greater than its first?",
+        "options": [
+          "The second electron is farther from the nucleus",
+          "Sodium gains a shell after losing an electron",
+          "The second electron must be removed from a stable inner shell",
+          "The neutral atom has no nucleus"
+        ],
+        "answer": 2,
+        "explanation": "Na⁺ has the stable neon-like configuration 2,8.",
+        "difficulty": "Hard",
+        "topic": "Why is the second ionisation energy of sodium much greater than its first?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q03",
+        "question": "Which comparison is correct for Na and Na⁺?",
+        "options": [
+          "Na⁺ has fewer protons",
+          "Na⁺ is smaller because it loses its outer shell",
+          "Na⁺ is larger because it gains a shell",
+          "Both have 11 electrons"
+        ],
+        "answer": 1,
+        "explanation": "Ion formation removes the outermost electron without changing nuclear charge.",
+        "difficulty": "Hard",
+        "topic": "Which comparison is correct for Na and Na⁺?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 1 — periodic-table description: Alkaline-earth-metal group\nII. Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model\nIII. Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement; Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model; Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur.",
+        "difficulty": "Hard",
+        "topic": "Group 1 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 1 — outer-electron or trend feature: Main-group members have one valence electron\nII. Period number — representative example or consequence: Sodium belongs to period 3\nIII. Metallic character across a period — periodic-table description: Generally decreases from left to right",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Group 1 — outer-electron or trend feature: Main-group members have one valence electron; Period number — representative example or consequence: Sodium belongs to period 3; Metallic character across a period — periodic-table description: Generally decreases from left to right.",
+        "difficulty": "Hard",
+        "topic": "Group 1 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 1 — representative example or consequence: Neon has electron distribution 2,8\nII. Period number — periodic-table description: Noble-gas group\nIII. Metallic character across a period — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Group 1 — representative example or consequence: Sodium commonly forms Na⁺; Period number — periodic-table description: A horizontal-row identifier; Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall.",
+        "difficulty": "Hard",
+        "topic": "Group 1 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 2 — periodic-table description: Alkaline-earth-metal group\nII. Atomic radius across a period — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model\nIII. Electron loss by sodium — representative example or consequence: Sodium is larger than chlorine as a neutral atom",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Group 2 — periodic-table description: Alkaline-earth-metal group; Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell; Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na.",
+        "difficulty": "Hard",
+        "topic": "Group 2 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 2 — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell\nII. Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom\nIII. Electron loss by sodium — periodic-table description: Generally increases",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Group 2 — outer-electron or trend feature: Main-group members have two valence electrons; Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom; Electron loss by sodium — periodic-table description: Formation of a positive ion.",
+        "difficulty": "Hard",
+        "topic": "Group 2 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺\nII. Atomic radius across a period — periodic-table description: Generally decreases from left to right\nIII. Electron loss by sodium — outer-electron or trend feature: Electron loss becomes less favourable overall",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺; Atomic radius across a period — periodic-table description: Generally decreases from left to right; Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed.",
+        "difficulty": "Hard",
+        "topic": "Group 2 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 17 — periodic-table description: Formation of a positive ion\nII. Atomic radius down a group — outer-electron or trend feature: The outer third-shell electron is removed\nIII. Group 1 — representative example or consequence: Sodium commonly forms Na⁺",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Group 17 — periodic-table description: Halogen group; Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size; Group 1 — representative example or consequence: Sodium commonly forms Na⁺.",
+        "difficulty": "Hard",
+        "topic": "Group 17 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons\nII. Atomic radius down a group — representative example or consequence: Sodium commonly forms Na⁺\nIII. Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons; Atomic radius down a group — representative example or consequence: Potassium is larger than sodium; Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement.",
+        "difficulty": "Hard",
+        "topic": "Group 17 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 17 — representative example or consequence: Sodium commonly forms Na⁺\nII. Atomic radius down a group — periodic-table description: Generally increases\nIII. Group 1 — outer-electron or trend feature: Main-group members have one valence electron",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻; Atomic radius down a group — periodic-table description: Generally increases; Group 1 — outer-electron or trend feature: Main-group members have one valence electron.",
+        "difficulty": "Hard",
+        "topic": "Group 17 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 18 — periodic-table description: Noble-gas group\nII. Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall\nIII. Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Group 18 — periodic-table description: Noble-gas group; Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall; Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺.",
+        "difficulty": "Hard",
+        "topic": "Group 18 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 18 — outer-electron or trend feature: Main-group members have seven valence electrons\nII. Metallic character across a period — representative example or consequence: Neon has electron distribution 2,8\nIII. Group 2 — periodic-table description: Generally increases",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception; Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur; Group 2 — periodic-table description: Alkaline-earth-metal group.",
+        "difficulty": "Hard",
+        "topic": "Group 18 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Group 18 — representative example or consequence: Neon has electron distribution 2,8\nII. Metallic character across a period — periodic-table description: Generally increases\nIII. Group 2 — outer-electron or trend feature: Additional occupied shells increase size",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Group 18 — representative example or consequence: Neon has electron distribution 2,8; Metallic character across a period — periodic-table description: Generally decreases from left to right; Group 2 — outer-electron or trend feature: Main-group members have two valence electrons.",
+        "difficulty": "Hard",
+        "topic": "Group 18 · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Period number — periodic-table description: Generally increases\nII. Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed\nIII. Group 17 — representative example or consequence: Sodium is more metallic than sulfur",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Period number — periodic-table description: A horizontal-row identifier; Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed; Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻.",
+        "difficulty": "Hard",
+        "topic": "Period number · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model\nII. Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na\nIII. Group 17 — periodic-table description: Alkaline-earth-metal group",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model; Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na; Group 17 — periodic-table description: Halogen group.",
+        "difficulty": "Hard",
+        "topic": "Period number · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Period number — representative example or consequence: Sodium is more metallic than sulfur\nII. Electron loss by sodium — periodic-table description: Alkaline-earth-metal group\nIII. Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Period number — representative example or consequence: Sodium belongs to period 3; Electron loss by sodium — periodic-table description: Formation of a positive ion; Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons.",
+        "difficulty": "Hard",
+        "topic": "Period number · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius across a period — periodic-table description: Generally decreases from left to right\nII. Group 1 — outer-electron or trend feature: Main-group members have two valence electrons\nIII. Group 18 — representative example or consequence: Neon has electron distribution 2,8",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Atomic radius across a period — periodic-table description: Generally decreases from left to right; Group 1 — outer-electron or trend feature: Main-group members have one valence electron; Group 18 — representative example or consequence: Neon has electron distribution 2,8.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius across a period — outer-electron or trend feature: Main-group members have one valence electron\nII. Group 1 — representative example or consequence: Sodium commonly forms Na⁺\nIII. Group 18 — periodic-table description: Noble-gas group",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell; Group 1 — representative example or consequence: Sodium commonly forms Na⁺; Group 18 — periodic-table description: Noble-gas group.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom\nII. Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement\nIII. Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom; Group 1 — periodic-table description: Alkali-metal group apart from hydrogen's special placement; Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius down a group — periodic-table description: A horizontal-row identifier\nII. Group 2 — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model\nIII. Period number — representative example or consequence: Sodium is larger than chlorine as a neutral atom",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Atomic radius down a group — periodic-table description: Generally increases; Group 2 — outer-electron or trend feature: Main-group members have two valence electrons; Period number — representative example or consequence: Sodium belongs to period 3.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius down a group · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size\nII. Group 2 — representative example or consequence: Sodium is larger than chlorine as a neutral atom\nIII. Period number — periodic-table description: Alkali-metal group apart from hydrogen's special placement",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size; Group 2 — representative example or consequence: Magnesium commonly forms Mg²⁺; Period number — periodic-table description: A horizontal-row identifier.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius down a group · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic radius down a group — representative example or consequence: Sodium belongs to period 3\nII. Group 2 — periodic-table description: Alkaline-earth-metal group\nIII. Period number — outer-electron or trend feature: Electron loss becomes less favourable overall",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Atomic radius down a group — representative example or consequence: Potassium is larger than sodium; Group 2 — periodic-table description: Alkaline-earth-metal group; Period number — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model.",
+        "difficulty": "Hard",
+        "topic": "Atomic radius down a group · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Metallic character across a period — periodic-table description: Generally decreases from left to right\nII. Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons\nIII. Atomic radius across a period — representative example or consequence: Na⁺ has a smaller radius than Na",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Metallic character across a period — periodic-table description: Generally decreases from left to right; Group 17 — outer-electron or trend feature: Main-group members have seven valence electrons; Atomic radius across a period — representative example or consequence: Sodium is larger than chlorine as a neutral atom.",
+        "difficulty": "Hard",
+        "topic": "Metallic character across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Metallic character across a period — outer-electron or trend feature: Additional occupied shells increase size\nII. Group 17 — representative example or consequence: Na⁺ has a smaller radius than Na\nIII. Atomic radius across a period — periodic-table description: Generally decreases from left to right",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Metallic character across a period — outer-electron or trend feature: Electron loss becomes less favourable overall; Group 17 — representative example or consequence: Chlorine commonly forms Cl⁻; Atomic radius across a period — periodic-table description: Generally decreases from left to right.",
+        "difficulty": "Hard",
+        "topic": "Metallic character across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur\nII. Group 17 — periodic-table description: A horizontal-row identifier\nIII. Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Metallic character across a period — representative example or consequence: Sodium is more metallic than sulfur; Group 17 — periodic-table description: Halogen group; Atomic radius across a period — outer-electron or trend feature: Nuclear attraction increases while electrons enter the same main shell.",
+        "difficulty": "Hard",
+        "topic": "Metallic character across a period · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron loss by sodium — periodic-table description: Noble-gas group\nII. Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception\nIII. Atomic radius down a group — representative example or consequence: Potassium is larger than sodium",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Electron loss by sodium — periodic-table description: Formation of a positive ion; Group 18 — outer-electron or trend feature: Filled valence shells, with helium's duplet exception; Atomic radius down a group — representative example or consequence: Potassium is larger than sodium.",
+        "difficulty": "Hard",
+        "topic": "Electron loss by sodium · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed\nII. Group 18 — representative example or consequence: Neon has electron distribution 2,8\nIII. Atomic radius down a group — periodic-table description: Generally increases",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Electron loss by sodium — outer-electron or trend feature: The outer third-shell electron is removed; Group 18 — representative example or consequence: Neon has electron distribution 2,8; Atomic radius down a group — periodic-table description: Generally increases.",
+        "difficulty": "Hard",
+        "topic": "Electron loss by sodium · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH07-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron loss by sodium — representative example or consequence: Chlorine commonly forms Cl⁻\nII. Group 18 — periodic-table description: Formation of a positive ion\nIII. Atomic radius down a group — outer-electron or trend feature: Corresponds to the occupied principal-shell count in the ground-state school model",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Electron loss by sodium — representative example or consequence: Na⁺ has a smaller radius than Na; Group 18 — periodic-table description: Noble-gas group; Atomic radius down a group — outer-electron or trend feature: Additional occupied shells increase size.",
+        "difficulty": "Hard",
+        "topic": "Electron loss by sodium · comparing chapter concepts",
+        "sourceChapter": 7
+      }
+    ]
+  }
+}

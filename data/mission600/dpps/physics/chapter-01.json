@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH01-E": {
+    "id": "SA-DPP-27-PHY-CH01-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "E",
+    "title": "Reflection of Light at Curved Surfaces – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-13",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q01",
+        "question": "Which mirror can form a real image of a real object?",
+        "options": [
+          "Plane mirror",
+          "Convex mirror",
+          "All mirrors always",
+          "Concave mirror"
+        ],
+        "answer": 3,
+        "explanation": "A concave mirror converges rays and can produce a real image.",
+        "difficulty": "Easy",
+        "topic": "Which mirror can form a real image of a real object?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q02",
+        "question": "For a spherical mirror, how are focal length f and radius R related?",
+        "options": [
+          "f=R",
+          "f=R²",
+          "f=R/2",
+          "f=2R"
+        ],
+        "answer": 2,
+        "explanation": "In the paraxial approximation the focus lies midway between pole and centre.",
+        "difficulty": "Easy",
+        "topic": "For a spherical mirror, how are focal length f and radius R related?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q03",
+        "question": "A convex mirror usually gives what image of a real object?",
+        "options": [
+          "Virtual and inverted",
+          "Virtual, erect and diminished",
+          "Real and enlarged",
+          "Real and inverted"
+        ],
+        "answer": 1,
+        "explanation": "Reflected rays diverge; their backward extensions meet behind the mirror.",
+        "difficulty": "Easy",
+        "topic": "A convex mirror usually gives what image of a real object?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q04",
+        "question": "Concave mirror: which option correctly identifies the optical description?",
+        "options": [
+          "A converging spherical mirror",
+          "A diverging spherical mirror",
+          "A flat reflecting surface",
+          "Meeting point of reflected paraxial rays incident parallel to the axis"
+        ],
+        "answer": 0,
+        "explanation": "Concave mirror — optical description: A converging spherical mirror.",
+        "difficulty": "Easy",
+        "topic": "Concave mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q05",
+        "question": "Concave mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Forms a same-size virtual image of a real object",
+          "Lies in front of the mirror",
+          "Its distance from the pole is the radius of curvature",
+          "Can form real or virtual images of a real object"
+        ],
+        "answer": 3,
+        "explanation": "Concave mirror — image or geometric property: Can form real or virtual images of a real object.",
+        "difficulty": "Easy",
+        "topic": "Concave mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q06",
+        "question": "Concave mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A ray through it is reflected back along its path",
+          "The origin for Cartesian mirror distances",
+          "A shaving mirror when the face is within the focus",
+          "A distant object's image forms close to this point"
+        ],
+        "answer": 2,
+        "explanation": "Concave mirror — usual application or association: A shaving mirror when the face is within the focus.",
+        "difficulty": "Easy",
+        "topic": "Concave mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q07",
+        "question": "Convex mirror: which option correctly identifies the optical description?",
+        "options": [
+          "Centre of the sphere of which a spherical mirror is a part",
+          "A diverging spherical mirror",
+          "A flat reflecting surface",
+          "Meeting point of reflected paraxial rays incident parallel to the axis"
+        ],
+        "answer": 1,
+        "explanation": "Convex mirror — optical description: A diverging spherical mirror.",
+        "difficulty": "Easy",
+        "topic": "Convex mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q08",
+        "question": "Convex mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Forms a diminished erect virtual image of a real object",
+          "Lies in front of the mirror",
+          "Its distance from the pole is the radius of curvature",
+          "The principal axis passes through it"
+        ],
+        "answer": 0,
+        "explanation": "Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object.",
+        "difficulty": "Easy",
+        "topic": "Convex mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q09",
+        "question": "Convex mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A ray through it is reflected back along its path",
+          "The origin for Cartesian mirror distances",
+          "Image forms at the centre of curvature",
+          "A vehicle rear-view mirror"
+        ],
+        "answer": 3,
+        "explanation": "Convex mirror — usual application or association: A vehicle rear-view mirror.",
+        "difficulty": "Easy",
+        "topic": "Convex mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q10",
+        "question": "Plane mirror: which option correctly identifies the optical description?",
+        "options": [
+          "Centre of the sphere of which a spherical mirror is a part",
+          "Geometric centre of the reflecting surface",
+          "A flat reflecting surface",
+          "Meeting point of reflected paraxial rays incident parallel to the axis"
+        ],
+        "answer": 2,
+        "explanation": "Plane mirror — optical description: A flat reflecting surface.",
+        "difficulty": "Easy",
+        "topic": "Plane mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q11",
+        "question": "Plane mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Produces a real inverted image of equal size",
+          "Forms a same-size virtual image of a real object",
+          "Its distance from the pole is the radius of curvature",
+          "The principal axis passes through it"
+        ],
+        "answer": 1,
+        "explanation": "Plane mirror — image or geometric property: Forms a same-size virtual image of a real object.",
+        "difficulty": "Easy",
+        "topic": "Plane mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q12",
+        "question": "Plane mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A dressing mirror",
+          "The origin for Cartesian mirror distances",
+          "Image forms at the centre of curvature",
+          "Image appears behind the mirror"
+        ],
+        "answer": 0,
+        "explanation": "Plane mirror — usual application or association: A dressing mirror.",
+        "difficulty": "Easy",
+        "topic": "Plane mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q13",
+        "question": "Principal focus of a concave mirror: which option correctly identifies the optical description?",
+        "options": [
+          "Centre of the sphere of which a spherical mirror is a part",
+          "Geometric centre of the reflecting surface",
+          "An object placed at twice the focal distance",
+          "Meeting point of reflected paraxial rays incident parallel to the axis"
+        ],
+        "answer": 3,
+        "explanation": "Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis.",
+        "difficulty": "Easy",
+        "topic": "Principal focus of a concave mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q14",
+        "question": "Principal focus of a concave mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Produces a real inverted image of equal size",
+          "Produces an erect enlarged virtual image",
+          "Lies in front of the mirror",
+          "The principal axis passes through it"
+        ],
+        "answer": 2,
+        "explanation": "Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror.",
+        "difficulty": "Easy",
+        "topic": "Principal focus of a concave mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q15",
+        "question": "Principal focus of a concave mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A parallel reflected beam is used in reflectors",
+          "A distant object's image forms close to this point",
+          "Image forms at the centre of curvature",
+          "Image appears behind the mirror"
+        ],
+        "answer": 1,
+        "explanation": "Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point.",
+        "difficulty": "Easy",
+        "topic": "Principal focus of a concave mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q16",
+        "question": "Centre of curvature: which option correctly identifies the optical description?",
+        "options": [
+          "Centre of the sphere of which a spherical mirror is a part",
+          "Geometric centre of the reflecting surface",
+          "An object placed at twice the focal distance",
+          "An object inside the focal length"
+        ],
+        "answer": 0,
+        "explanation": "Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part.",
+        "difficulty": "Easy",
+        "topic": "Centre of curvature · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q17",
+        "question": "Centre of curvature: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Produces an erect enlarged virtual image",
+          "Reflected rays emerge parallel in the paraxial model",
+          "Can form real or virtual images of a real object",
+          "Its distance from the pole is the radius of curvature"
+        ],
+        "answer": 3,
+        "explanation": "Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature.",
+        "difficulty": "Easy",
+        "topic": "Centre of curvature · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q18",
+        "question": "Centre of curvature: which option correctly identifies the usual application or association?",
+        "options": [
+          "A parallel reflected beam is used in reflectors",
+          "A shaving mirror when the face is within the focus",
+          "A ray through it is reflected back along its path",
+          "Image appears behind the mirror"
+        ],
+        "answer": 2,
+        "explanation": "Centre of curvature — usual application or association: A ray through it is reflected back along its path.",
+        "difficulty": "Easy",
+        "topic": "Centre of curvature · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q19",
+        "question": "Pole of a spherical mirror: which option correctly identifies the optical description?",
+        "options": [
+          "An object placed at the principal focal point",
+          "Geometric centre of the reflecting surface",
+          "An object placed at twice the focal distance",
+          "An object inside the focal length"
+        ],
+        "answer": 1,
+        "explanation": "Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface.",
+        "difficulty": "Easy",
+        "topic": "Pole of a spherical mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q20",
+        "question": "Pole of a spherical mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "The principal axis passes through it",
+          "Reflected rays emerge parallel in the paraxial model",
+          "Can form real or virtual images of a real object",
+          "Forms a diminished erect virtual image of a real object"
+        ],
+        "answer": 0,
+        "explanation": "Pole of a spherical mirror — image or geometric property: The principal axis passes through it.",
+        "difficulty": "Easy",
+        "topic": "Pole of a spherical mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q21",
+        "question": "Pole of a spherical mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A parallel reflected beam is used in reflectors",
+          "A shaving mirror when the face is within the focus",
+          "A vehicle rear-view mirror",
+          "The origin for Cartesian mirror distances"
+        ],
+        "answer": 3,
+        "explanation": "Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances.",
+        "difficulty": "Easy",
+        "topic": "Pole of a spherical mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q22",
+        "question": "Object at the centre of curvature of a concave mirror: which option correctly identifies the optical description?",
+        "options": [
+          "An object placed at the principal focal point",
+          "A converging spherical mirror",
+          "An object placed at twice the focal distance",
+          "An object inside the focal length"
+        ],
+        "answer": 2,
+        "explanation": "Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance.",
+        "difficulty": "Easy",
+        "topic": "Object at the centre of curvature of a concave mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q23",
+        "question": "Object at the centre of curvature of a concave mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Forms a diminished erect virtual image of a real object",
+          "Produces a real inverted image of equal size",
+          "Reflected rays emerge parallel in the paraxial model",
+          "Can form real or virtual images of a real object"
+        ],
+        "answer": 1,
+        "explanation": "Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size.",
+        "difficulty": "Easy",
+        "topic": "Object at the centre of curvature of a concave mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q24",
+        "question": "Object at the centre of curvature of a concave mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "Image forms at the centre of curvature",
+          "A shaving mirror when the face is within the focus",
+          "A vehicle rear-view mirror",
+          "A dressing mirror"
+        ],
+        "answer": 0,
+        "explanation": "Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature.",
+        "difficulty": "Easy",
+        "topic": "Object at the centre of curvature of a concave mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q25",
+        "question": "Object between focus and pole of a concave mirror: which option correctly identifies the optical description?",
+        "options": [
+          "An object placed at the principal focal point",
+          "A converging spherical mirror",
+          "A diverging spherical mirror",
+          "An object inside the focal length"
+        ],
+        "answer": 3,
+        "explanation": "Object between focus and pole of a concave mirror — optical description: An object inside the focal length.",
+        "difficulty": "Easy",
+        "topic": "Object between focus and pole of a concave mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q26",
+        "question": "Object between focus and pole of a concave mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Forms a diminished erect virtual image of a real object",
+          "Forms a same-size virtual image of a real object",
+          "Produces an erect enlarged virtual image",
+          "Can form real or virtual images of a real object"
+        ],
+        "answer": 2,
+        "explanation": "Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image.",
+        "difficulty": "Easy",
+        "topic": "Object between focus and pole of a concave mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q27",
+        "question": "Object between focus and pole of a concave mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A distant object's image forms close to this point",
+          "Image appears behind the mirror",
+          "A vehicle rear-view mirror",
+          "A dressing mirror"
+        ],
+        "answer": 1,
+        "explanation": "Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror.",
+        "difficulty": "Easy",
+        "topic": "Object between focus and pole of a concave mirror · usual application or association",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q28",
+        "question": "Object at the focus of a concave mirror: which option correctly identifies the optical description?",
+        "options": [
+          "An object placed at the principal focal point",
+          "A converging spherical mirror",
+          "A diverging spherical mirror",
+          "A flat reflecting surface"
+        ],
+        "answer": 0,
+        "explanation": "Object at the focus of a concave mirror — optical description: An object placed at the principal focal point.",
+        "difficulty": "Easy",
+        "topic": "Object at the focus of a concave mirror · optical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q29",
+        "question": "Object at the focus of a concave mirror: which option correctly identifies the image or geometric property?",
+        "options": [
+          "Forms a diminished erect virtual image of a real object",
+          "Forms a same-size virtual image of a real object",
+          "Lies in front of the mirror",
+          "Reflected rays emerge parallel in the paraxial model"
+        ],
+        "answer": 3,
+        "explanation": "Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model.",
+        "difficulty": "Easy",
+        "topic": "Object at the focus of a concave mirror · image or geometric property",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-E-Q30",
+        "question": "Object at the focus of a concave mirror: which option correctly identifies the usual application or association?",
+        "options": [
+          "A distant object's image forms close to this point",
+          "A ray through it is reflected back along its path",
+          "A parallel reflected beam is used in reflectors",
+          "A dressing mirror"
+        ],
+        "answer": 2,
+        "explanation": "Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors.",
+        "difficulty": "Easy",
+        "topic": "Object at the focus of a concave mirror · usual application or association",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH01-M": {
+    "id": "SA-DPP-27-PHY-CH01-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "M",
+    "title": "Reflection of Light at Curved Surfaces – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q01",
+        "question": "A concave mirror has f=−10 cm and an object at u=−30 cm. Find v using the Cartesian convention.",
+        "options": [
+          "−30 cm",
+          "30 cm",
+          "−15 cm",
+          "15 cm"
+        ],
+        "answer": 2,
+        "explanation": "1/v=1/f−1/u=−1/10+1/30=−1/15.",
+        "difficulty": "Medium",
+        "topic": "A concave mirror has f=−10 cm and an object at u=−30 cm. Find v using the Cartesian convention.",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q02",
+        "question": "Where must an object be placed before a concave mirror to produce an enlarged erect image?",
+        "options": [
+          "At infinity",
+          "Between pole and focus",
+          "Beyond centre of curvature",
+          "At centre of curvature"
+        ],
+        "answer": 1,
+        "explanation": "Inside the focal length, reflected rays form a virtual enlarged image.",
+        "difficulty": "Medium",
+        "topic": "Where must an object be placed before a concave mirror to produce an enlarged erect image?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q03",
+        "question": "Why are convex mirrors used as vehicle rear-view mirrors?",
+        "options": [
+          "They provide a wide field of view",
+          "They always magnify vehicles",
+          "They form images on a screen",
+          "They eliminate reflection"
+        ],
+        "answer": 0,
+        "explanation": "Their diminished upright images let the driver see a wider region.",
+        "difficulty": "Medium",
+        "topic": "Why are convex mirrors used as vehicle rear-view mirrors?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q04",
+        "question": "Which pair correctly matches Concave mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "A diverging spherical mirror → Can form real or virtual images of a real object",
+          "A converging spherical mirror → Forms a diminished erect virtual image of a real object",
+          "A flat reflecting surface → Forms a same-size virtual image of a real object",
+          "A converging spherical mirror → Can form real or virtual images of a real object"
+        ],
+        "answer": 3,
+        "explanation": "Concave mirror — optical description: A converging spherical mirror. Concave mirror — image or geometric property: Can form real or virtual images of a real object. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q05",
+        "question": "Which pair correctly matches Concave mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Can form real or virtual images of a real object → A vehicle rear-view mirror",
+          "Lies in front of the mirror → A dressing mirror",
+          "Can form real or virtual images of a real object → A shaving mirror when the face is within the focus",
+          "Forms a same-size virtual image of a real object → A shaving mirror when the face is within the focus"
+        ],
+        "answer": 2,
+        "explanation": "Concave mirror — image or geometric property: Can form real or virtual images of a real object. Concave mirror — usual application or association: A shaving mirror when the face is within the focus. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q06",
+        "question": "Which pair correctly matches Concave mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "A ray through it is reflected back along its path → A flat reflecting surface",
+          "A shaving mirror when the face is within the focus → A converging spherical mirror",
+          "A distant object's image forms close to this point → A converging spherical mirror",
+          "A shaving mirror when the face is within the focus → A diverging spherical mirror"
+        ],
+        "answer": 1,
+        "explanation": "Concave mirror — usual application or association: A shaving mirror when the face is within the focus. Concave mirror — optical description: A converging spherical mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q07",
+        "question": "Which pair correctly matches Convex mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "A diverging spherical mirror → Forms a diminished erect virtual image of a real object",
+          "A flat reflecting surface → Forms a diminished erect virtual image of a real object",
+          "A diverging spherical mirror → Forms a same-size virtual image of a real object",
+          "Meeting point of reflected paraxial rays incident parallel to the axis → Lies in front of the mirror"
+        ],
+        "answer": 0,
+        "explanation": "Convex mirror — optical description: A diverging spherical mirror. Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q08",
+        "question": "Which pair correctly matches Convex mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Lies in front of the mirror → A vehicle rear-view mirror",
+          "Forms a diminished erect virtual image of a real object → A dressing mirror",
+          "Its distance from the pole is the radius of curvature → A distant object's image forms close to this point",
+          "Forms a diminished erect virtual image of a real object → A vehicle rear-view mirror"
+        ],
+        "answer": 3,
+        "explanation": "Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object. Convex mirror — usual application or association: A vehicle rear-view mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q09",
+        "question": "Which pair correctly matches Convex mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "A vehicle rear-view mirror → A flat reflecting surface",
+          "The origin for Cartesian mirror distances → Meeting point of reflected paraxial rays incident parallel to the axis",
+          "A vehicle rear-view mirror → A diverging spherical mirror",
+          "A ray through it is reflected back along its path → A diverging spherical mirror"
+        ],
+        "answer": 2,
+        "explanation": "Convex mirror — usual application or association: A vehicle rear-view mirror. Convex mirror — optical description: A diverging spherical mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Convex mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q10",
+        "question": "Which pair correctly matches Plane mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "Centre of the sphere of which a spherical mirror is a part → Its distance from the pole is the radius of curvature",
+          "A flat reflecting surface → Forms a same-size virtual image of a real object",
+          "Meeting point of reflected paraxial rays incident parallel to the axis → Forms a same-size virtual image of a real object",
+          "A flat reflecting surface → Lies in front of the mirror"
+        ],
+        "answer": 1,
+        "explanation": "Plane mirror — optical description: A flat reflecting surface. Plane mirror — image or geometric property: Forms a same-size virtual image of a real object. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Plane mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q11",
+        "question": "Which pair correctly matches Plane mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Forms a same-size virtual image of a real object → A dressing mirror",
+          "Its distance from the pole is the radius of curvature → A dressing mirror",
+          "Forms a same-size virtual image of a real object → A distant object's image forms close to this point",
+          "The principal axis passes through it → A ray through it is reflected back along its path"
+        ],
+        "answer": 0,
+        "explanation": "Plane mirror — image or geometric property: Forms a same-size virtual image of a real object. Plane mirror — usual application or association: A dressing mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Plane mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q12",
+        "question": "Which pair correctly matches Plane mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "The origin for Cartesian mirror distances → A flat reflecting surface",
+          "A dressing mirror → Meeting point of reflected paraxial rays incident parallel to the axis",
+          "Image forms at the centre of curvature → Centre of the sphere of which a spherical mirror is a part",
+          "A dressing mirror → A flat reflecting surface"
+        ],
+        "answer": 3,
+        "explanation": "Plane mirror — usual application or association: A dressing mirror. Plane mirror — optical description: A flat reflecting surface. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Plane mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q13",
+        "question": "Which pair correctly matches Principal focus of a concave mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "Meeting point of reflected paraxial rays incident parallel to the axis → Its distance from the pole is the radius of curvature",
+          "Geometric centre of the reflecting surface → The principal axis passes through it",
+          "Meeting point of reflected paraxial rays incident parallel to the axis → Lies in front of the mirror",
+          "Centre of the sphere of which a spherical mirror is a part → Lies in front of the mirror"
+        ],
+        "answer": 2,
+        "explanation": "Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis. Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Principal focus of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q14",
+        "question": "Which pair correctly matches Principal focus of a concave mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Produces a real inverted image of equal size → The origin for Cartesian mirror distances",
+          "Lies in front of the mirror → A distant object's image forms close to this point",
+          "The principal axis passes through it → A distant object's image forms close to this point",
+          "Lies in front of the mirror → A ray through it is reflected back along its path"
+        ],
+        "answer": 1,
+        "explanation": "Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror. Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Principal focus of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q15",
+        "question": "Which pair correctly matches Principal focus of a concave mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "A distant object's image forms close to this point → Meeting point of reflected paraxial rays incident parallel to the axis",
+          "Image forms at the centre of curvature → Meeting point of reflected paraxial rays incident parallel to the axis",
+          "A distant object's image forms close to this point → Centre of the sphere of which a spherical mirror is a part",
+          "Image appears behind the mirror → Geometric centre of the reflecting surface"
+        ],
+        "answer": 0,
+        "explanation": "Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point. Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Principal focus of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q16",
+        "question": "Which pair correctly matches Centre of curvature with its optical description and image or geometric property, in that order?",
+        "options": [
+          "Geometric centre of the reflecting surface → Its distance from the pole is the radius of curvature",
+          "Centre of the sphere of which a spherical mirror is a part → Produces a real inverted image of equal size",
+          "An object placed at twice the focal distance → Produces an erect enlarged virtual image",
+          "Centre of the sphere of which a spherical mirror is a part → Its distance from the pole is the radius of curvature"
+        ],
+        "answer": 3,
+        "explanation": "Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part. Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Centre of curvature",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q17",
+        "question": "Which pair correctly matches Centre of curvature with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Its distance from the pole is the radius of curvature → The origin for Cartesian mirror distances",
+          "Reflected rays emerge parallel in the paraxial model → Image forms at the centre of curvature",
+          "Its distance from the pole is the radius of curvature → A ray through it is reflected back along its path",
+          "Produces an erect enlarged virtual image → A ray through it is reflected back along its path"
+        ],
+        "answer": 2,
+        "explanation": "Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature. Centre of curvature — usual application or association: A ray through it is reflected back along its path. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Centre of curvature",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q18",
+        "question": "Which pair correctly matches Centre of curvature with its usual application or association and optical description, in that order?",
+        "options": [
+          "A parallel reflected beam is used in reflectors → An object placed at twice the focal distance",
+          "A ray through it is reflected back along its path → Centre of the sphere of which a spherical mirror is a part",
+          "Image appears behind the mirror → Centre of the sphere of which a spherical mirror is a part",
+          "A ray through it is reflected back along its path → Geometric centre of the reflecting surface"
+        ],
+        "answer": 1,
+        "explanation": "Centre of curvature — usual application or association: A ray through it is reflected back along its path. Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Centre of curvature",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q19",
+        "question": "Which pair correctly matches Pole of a spherical mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "Geometric centre of the reflecting surface → The principal axis passes through it",
+          "An object placed at twice the focal distance → The principal axis passes through it",
+          "Geometric centre of the reflecting surface → Produces an erect enlarged virtual image",
+          "An object inside the focal length → Reflected rays emerge parallel in the paraxial model"
+        ],
+        "answer": 0,
+        "explanation": "Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface. Pole of a spherical mirror — image or geometric property: The principal axis passes through it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pole of a spherical mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q20",
+        "question": "Which pair correctly matches Pole of a spherical mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Reflected rays emerge parallel in the paraxial model → The origin for Cartesian mirror distances",
+          "The principal axis passes through it → Image forms at the centre of curvature",
+          "Can form real or virtual images of a real object → Image appears behind the mirror",
+          "The principal axis passes through it → The origin for Cartesian mirror distances"
+        ],
+        "answer": 3,
+        "explanation": "Pole of a spherical mirror — image or geometric property: The principal axis passes through it. Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pole of a spherical mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q21",
+        "question": "Which pair correctly matches Pole of a spherical mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "The origin for Cartesian mirror distances → An object placed at twice the focal distance",
+          "A shaving mirror when the face is within the focus → An object inside the focal length",
+          "The origin for Cartesian mirror distances → Geometric centre of the reflecting surface",
+          "A parallel reflected beam is used in reflectors → Geometric centre of the reflecting surface"
+        ],
+        "answer": 2,
+        "explanation": "Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances. Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pole of a spherical mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q22",
+        "question": "Which pair correctly matches Object at the centre of curvature of a concave mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "An object placed at the principal focal point → Reflected rays emerge parallel in the paraxial model",
+          "An object placed at twice the focal distance → Produces a real inverted image of equal size",
+          "An object inside the focal length → Produces a real inverted image of equal size",
+          "An object placed at twice the focal distance → Produces an erect enlarged virtual image"
+        ],
+        "answer": 1,
+        "explanation": "Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance. Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the centre of curvature of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q23",
+        "question": "Which pair correctly matches Object at the centre of curvature of a concave mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Produces a real inverted image of equal size → Image forms at the centre of curvature",
+          "Reflected rays emerge parallel in the paraxial model → Image forms at the centre of curvature",
+          "Produces a real inverted image of equal size → Image appears behind the mirror",
+          "Can form real or virtual images of a real object → A parallel reflected beam is used in reflectors"
+        ],
+        "answer": 0,
+        "explanation": "Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size. Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the centre of curvature of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q24",
+        "question": "Which pair correctly matches Object at the centre of curvature of a concave mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "A shaving mirror when the face is within the focus → An object placed at twice the focal distance",
+          "Image forms at the centre of curvature → An object inside the focal length",
+          "A vehicle rear-view mirror → An object placed at the principal focal point",
+          "Image forms at the centre of curvature → An object placed at twice the focal distance"
+        ],
+        "answer": 3,
+        "explanation": "Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature. Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the centre of curvature of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q25",
+        "question": "Which pair correctly matches Object between focus and pole of a concave mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "An object inside the focal length → Reflected rays emerge parallel in the paraxial model",
+          "A converging spherical mirror → Can form real or virtual images of a real object",
+          "An object inside the focal length → Produces an erect enlarged virtual image",
+          "An object placed at the principal focal point → Produces an erect enlarged virtual image"
+        ],
+        "answer": 2,
+        "explanation": "Object between focus and pole of a concave mirror — optical description: An object inside the focal length. Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object between focus and pole of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q26",
+        "question": "Which pair correctly matches Object between focus and pole of a concave mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Forms a diminished erect virtual image of a real object → A shaving mirror when the face is within the focus",
+          "Produces an erect enlarged virtual image → Image appears behind the mirror",
+          "Can form real or virtual images of a real object → Image appears behind the mirror",
+          "Produces an erect enlarged virtual image → A parallel reflected beam is used in reflectors"
+        ],
+        "answer": 1,
+        "explanation": "Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image. Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object between focus and pole of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q27",
+        "question": "Which pair correctly matches Object between focus and pole of a concave mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "Image appears behind the mirror → An object inside the focal length",
+          "A vehicle rear-view mirror → An object inside the focal length",
+          "Image appears behind the mirror → An object placed at the principal focal point",
+          "A dressing mirror → A converging spherical mirror"
+        ],
+        "answer": 0,
+        "explanation": "Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror. Object between focus and pole of a concave mirror — optical description: An object inside the focal length. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object between focus and pole of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q28",
+        "question": "Which pair correctly matches Object at the focus of a concave mirror with its optical description and image or geometric property, in that order?",
+        "options": [
+          "A converging spherical mirror → Reflected rays emerge parallel in the paraxial model",
+          "An object placed at the principal focal point → Can form real or virtual images of a real object",
+          "A diverging spherical mirror → Forms a diminished erect virtual image of a real object",
+          "An object placed at the principal focal point → Reflected rays emerge parallel in the paraxial model"
+        ],
+        "answer": 3,
+        "explanation": "Object at the focus of a concave mirror — optical description: An object placed at the principal focal point. Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the focus of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q29",
+        "question": "Which pair correctly matches Object at the focus of a concave mirror with its image or geometric property and usual application or association, in that order?",
+        "options": [
+          "Reflected rays emerge parallel in the paraxial model → A shaving mirror when the face is within the focus",
+          "Forms a same-size virtual image of a real object → A vehicle rear-view mirror",
+          "Reflected rays emerge parallel in the paraxial model → A parallel reflected beam is used in reflectors",
+          "Forms a diminished erect virtual image of a real object → A parallel reflected beam is used in reflectors"
+        ],
+        "answer": 2,
+        "explanation": "Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model. Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the focus of a concave mirror",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-M-Q30",
+        "question": "Which pair correctly matches Object at the focus of a concave mirror with its usual application or association and optical description, in that order?",
+        "options": [
+          "A distant object's image forms close to this point → A diverging spherical mirror",
+          "A parallel reflected beam is used in reflectors → An object placed at the principal focal point",
+          "A dressing mirror → An object placed at the principal focal point",
+          "A parallel reflected beam is used in reflectors → A converging spherical mirror"
+        ],
+        "answer": 1,
+        "explanation": "Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors. Object at the focus of a concave mirror — optical description: An object placed at the principal focal point. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Object at the focus of a concave mirror",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH01-H": {
+    "id": "SA-DPP-27-PHY-CH01-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Reflection of Light at Curved Surfaces",
+    "level": "H",
+    "title": "Reflection of Light at Curved Surfaces – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-01",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 19
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q01",
+        "question": "A concave mirror forms a real image twice the object height. If f=−12 cm, find u.",
+        "options": [
+          "18 cm",
+          "−18 cm",
+          "−24 cm",
+          "−36 cm"
+        ],
+        "answer": 1,
+        "explanation": "m=−2=−v/u gives v=2u; 1/u+1/(2u)=−1/12, so u=−18.",
+        "difficulty": "Hard",
+        "topic": "A concave mirror forms a real image twice the object height. If f=−12 cm, find u.",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q02",
+        "question": "What happens to the image of a distant object when a concave mirror's upper half is covered?",
+        "options": [
+          "A complete but dimmer image remains",
+          "The upper image half disappears",
+          "The lower image half disappears",
+          "No image forms"
+        ],
+        "answer": 0,
+        "explanation": "Each uncovered part can reflect rays from the whole object; less light reduces brightness.",
+        "difficulty": "Hard",
+        "topic": "What happens to the image of a distant object when a concave mirror's upper half is covered?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q03",
+        "question": "An object moves towards a concave mirror from beyond C to between C and F. How does its real image change?",
+        "options": [
+          "It moves closer and shrinks",
+          "It remains fixed at F",
+          "It becomes erect immediately",
+          "It moves farther from the mirror and enlarges"
+        ],
+        "answer": 3,
+        "explanation": "The mirror equation predicts increasing image distance and magnification until the object reaches F.",
+        "difficulty": "Hard",
+        "topic": "An object moves towards a concave mirror from beyond C to between C and F. How does its real image change?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave mirror — optical description: A diverging spherical mirror\nII. Centre of curvature — image or geometric property: Forms a diminished erect virtual image of a real object\nIII. Object between focus and pole of a concave mirror — usual application or association: A dressing mirror",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Concave mirror — optical description: A converging spherical mirror; Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature; Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror.",
+        "difficulty": "Hard",
+        "topic": "Concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave mirror — image or geometric property: Can form real or virtual images of a real object\nII. Centre of curvature — usual application or association: A dressing mirror\nIII. Object between focus and pole of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Concave mirror — image or geometric property: Can form real or virtual images of a real object; Centre of curvature — usual application or association: A ray through it is reflected back along its path; Object between focus and pole of a concave mirror — optical description: An object inside the focal length.",
+        "difficulty": "Hard",
+        "topic": "Concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Concave mirror — usual application or association: A distant object's image forms close to this point\nII. Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part\nIII. Object between focus and pole of a concave mirror — image or geometric property: Its distance from the pole is the radius of curvature",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Concave mirror — usual application or association: A shaving mirror when the face is within the focus; Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part; Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image.",
+        "difficulty": "Hard",
+        "topic": "Concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex mirror — optical description: A diverging spherical mirror\nII. Pole of a spherical mirror — image or geometric property: The principal axis passes through it\nIII. Object at the focus of a concave mirror — usual application or association: The origin for Cartesian mirror distances",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Convex mirror — optical description: A diverging spherical mirror; Pole of a spherical mirror — image or geometric property: The principal axis passes through it; Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors.",
+        "difficulty": "Hard",
+        "topic": "Convex mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex mirror — image or geometric property: The principal axis passes through it\nII. Pole of a spherical mirror — usual application or association: Image forms at the centre of curvature\nIII. Object at the focus of a concave mirror — optical description: An object placed at the principal focal point",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object; Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances; Object at the focus of a concave mirror — optical description: An object placed at the principal focal point.",
+        "difficulty": "Hard",
+        "topic": "Convex mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Convex mirror — usual application or association: A vehicle rear-view mirror\nII. Pole of a spherical mirror — optical description: An object inside the focal length\nIII. Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Convex mirror — usual application or association: A vehicle rear-view mirror; Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface; Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model.",
+        "difficulty": "Hard",
+        "topic": "Convex mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Plane mirror — optical description: An object inside the focal length\nII. Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size\nIII. Concave mirror — usual application or association: A shaving mirror when the face is within the focus",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Plane mirror — optical description: A flat reflecting surface; Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size; Concave mirror — usual application or association: A shaving mirror when the face is within the focus.",
+        "difficulty": "Hard",
+        "topic": "Plane mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Plane mirror — image or geometric property: Forms a same-size virtual image of a real object\nII. Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature\nIII. Concave mirror — optical description: A converging spherical mirror",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Plane mirror — image or geometric property: Forms a same-size virtual image of a real object; Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature; Concave mirror — optical description: A converging spherical mirror.",
+        "difficulty": "Hard",
+        "topic": "Plane mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Plane mirror — usual application or association: A shaving mirror when the face is within the focus\nII. Object at the centre of curvature of a concave mirror — optical description: A diverging spherical mirror\nIII. Concave mirror — image or geometric property: Lies in front of the mirror",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Plane mirror — usual application or association: A dressing mirror; Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance; Concave mirror — image or geometric property: Can form real or virtual images of a real object.",
+        "difficulty": "Hard",
+        "topic": "Plane mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis\nII. Object between focus and pole of a concave mirror — image or geometric property: Forms a same-size virtual image of a real object\nIII. Convex mirror — usual application or association: A ray through it is reflected back along its path",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis; Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image; Convex mirror — usual application or association: A vehicle rear-view mirror.",
+        "difficulty": "Hard",
+        "topic": "Principal focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Principal focus of a concave mirror — image or geometric property: Forms a same-size virtual image of a real object\nII. Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror\nIII. Convex mirror — optical description: Geometric centre of the reflecting surface",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror; Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror; Convex mirror — optical description: A diverging spherical mirror.",
+        "difficulty": "Hard",
+        "topic": "Principal focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point\nII. Object between focus and pole of a concave mirror — optical description: An object inside the focal length\nIII. Convex mirror — image or geometric property: Produces a real inverted image of equal size",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point; Object between focus and pole of a concave mirror — optical description: An object inside the focal length; Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object.",
+        "difficulty": "Hard",
+        "topic": "Principal focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Centre of curvature — optical description: Geometric centre of the reflecting surface\nII. Object at the focus of a concave mirror — image or geometric property: The principal axis passes through it\nIII. Plane mirror — usual application or association: A dressing mirror",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part; Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model; Plane mirror — usual application or association: A dressing mirror.",
+        "difficulty": "Hard",
+        "topic": "Centre of curvature · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature\nII. Object at the focus of a concave mirror — usual application or association: Image forms at the centre of curvature\nIII. Plane mirror — optical description: A flat reflecting surface",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature; Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors; Plane mirror — optical description: A flat reflecting surface.",
+        "difficulty": "Hard",
+        "topic": "Centre of curvature · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Centre of curvature — usual application or association: Image appears behind the mirror\nII. Object at the focus of a concave mirror — optical description: An object placed at the principal focal point\nIII. Plane mirror — image or geometric property: Forms a same-size virtual image of a real object",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Centre of curvature — usual application or association: A ray through it is reflected back along its path; Object at the focus of a concave mirror — optical description: An object placed at the principal focal point; Plane mirror — image or geometric property: Forms a same-size virtual image of a real object.",
+        "difficulty": "Hard",
+        "topic": "Centre of curvature · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface\nII. Concave mirror — image or geometric property: Can form real or virtual images of a real object\nIII. Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface; Concave mirror — image or geometric property: Can form real or virtual images of a real object; Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point.",
+        "difficulty": "Hard",
+        "topic": "Pole of a spherical mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pole of a spherical mirror — image or geometric property: Forms a same-size virtual image of a real object\nII. Concave mirror — usual application or association: A dressing mirror\nIII. Principal focus of a concave mirror — optical description: A flat reflecting surface",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Pole of a spherical mirror — image or geometric property: The principal axis passes through it; Concave mirror — usual application or association: A shaving mirror when the face is within the focus; Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis.",
+        "difficulty": "Hard",
+        "topic": "Pole of a spherical mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances\nII. Concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis\nIII. Principal focus of a concave mirror — image or geometric property: Its distance from the pole is the radius of curvature",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances; Concave mirror — optical description: A converging spherical mirror; Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror.",
+        "difficulty": "Hard",
+        "topic": "Pole of a spherical mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the centre of curvature of a concave mirror — optical description: A flat reflecting surface\nII. Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object\nIII. Centre of curvature — usual application or association: The origin for Cartesian mirror distances",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance; Convex mirror — image or geometric property: Forms a diminished erect virtual image of a real object; Centre of curvature — usual application or association: A ray through it is reflected back along its path.",
+        "difficulty": "Hard",
+        "topic": "Object at the centre of curvature of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size\nII. Convex mirror — usual application or association: A vehicle rear-view mirror\nIII. Centre of curvature — optical description: An object placed at twice the focal distance",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size; Convex mirror — usual application or association: A vehicle rear-view mirror; Centre of curvature — optical description: Centre of the sphere of which a spherical mirror is a part.",
+        "difficulty": "Hard",
+        "topic": "Object at the centre of curvature of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the centre of curvature of a concave mirror — usual application or association: A ray through it is reflected back along its path\nII. Convex mirror — optical description: An object placed at twice the focal distance\nIII. Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature; Convex mirror — optical description: A diverging spherical mirror; Centre of curvature — image or geometric property: Its distance from the pole is the radius of curvature.",
+        "difficulty": "Hard",
+        "topic": "Object at the centre of curvature of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object between focus and pole of a concave mirror — optical description: An object inside the focal length\nII. Plane mirror — image or geometric property: Produces an erect enlarged virtual image\nIII. Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Object between focus and pole of a concave mirror — optical description: An object inside the focal length; Plane mirror — image or geometric property: Forms a same-size virtual image of a real object; Pole of a spherical mirror — usual application or association: The origin for Cartesian mirror distances.",
+        "difficulty": "Hard",
+        "topic": "Object between focus and pole of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object between focus and pole of a concave mirror — image or geometric property: Produces a real inverted image of equal size\nII. Plane mirror — usual application or association: A dressing mirror\nIII. Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Object between focus and pole of a concave mirror — image or geometric property: Produces an erect enlarged virtual image; Plane mirror — usual application or association: A dressing mirror; Pole of a spherical mirror — optical description: Geometric centre of the reflecting surface.",
+        "difficulty": "Hard",
+        "topic": "Object between focus and pole of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror\nII. Plane mirror — optical description: A flat reflecting surface\nIII. Pole of a spherical mirror — image or geometric property: The principal axis passes through it",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Object between focus and pole of a concave mirror — usual application or association: Image appears behind the mirror; Plane mirror — optical description: A flat reflecting surface; Pole of a spherical mirror — image or geometric property: The principal axis passes through it.",
+        "difficulty": "Hard",
+        "topic": "Object between focus and pole of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the focus of a concave mirror — optical description: A converging spherical mirror\nII. Principal focus of a concave mirror — image or geometric property: Forms a diminished erect virtual image of a real object\nIII. Object at the centre of curvature of a concave mirror — usual application or association: A dressing mirror",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Object at the focus of a concave mirror — optical description: An object placed at the principal focal point; Principal focus of a concave mirror — image or geometric property: Lies in front of the mirror; Object at the centre of curvature of a concave mirror — usual application or association: Image forms at the centre of curvature.",
+        "difficulty": "Hard",
+        "topic": "Object at the focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model\nII. Principal focus of a concave mirror — usual application or association: A dressing mirror\nIII. Object at the centre of curvature of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Object at the focus of a concave mirror — image or geometric property: Reflected rays emerge parallel in the paraxial model; Principal focus of a concave mirror — usual application or association: A distant object's image forms close to this point; Object at the centre of curvature of a concave mirror — optical description: An object placed at twice the focal distance.",
+        "difficulty": "Hard",
+        "topic": "Object at the focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH01-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Object at the focus of a concave mirror — usual application or association: A dressing mirror\nII. Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis\nIII. Object at the centre of curvature of a concave mirror — image or geometric property: Its distance from the pole is the radius of curvature",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Object at the focus of a concave mirror — usual application or association: A parallel reflected beam is used in reflectors; Principal focus of a concave mirror — optical description: Meeting point of reflected paraxial rays incident parallel to the axis; Object at the centre of curvature of a concave mirror — image or geometric property: Produces a real inverted image of equal size.",
+        "difficulty": "Hard",
+        "topic": "Object at the focus of a concave mirror · comparing chapter concepts",
+        "sourceChapter": 1
+      }
+    ]
+  }
+}

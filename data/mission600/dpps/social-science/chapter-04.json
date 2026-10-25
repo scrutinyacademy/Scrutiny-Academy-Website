@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH04-E": {
+    "id": "SA-DPP-27-SOC-CH04-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch4",
+    "chapterNumber": 4,
+    "chapter": "Climate of India",
+    "level": "E",
+    "title": "Climate of India – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-04.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-03",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 45,
+      "to": 58
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q01",
+        "question": "Which winds bring much of India's seasonal rainfall?",
+        "options": [
+          "Southwest monsoon",
+          "Polar easterlies only",
+          "Permanent land breezes only",
+          "Trade winds with no seasonal change"
+        ],
+        "answer": 0,
+        "explanation": "The southwest monsoon is central to India's rainy season.",
+        "difficulty": "Easy",
+        "topic": "Which winds bring much of India's seasonal rainfall?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q02",
+        "question": "What is weather?",
+        "options": [
+          "Average conditions over decades only",
+          "The shape of land",
+          "The number of rivers",
+          "Short-term atmospheric conditions"
+        ],
+        "answer": 3,
+        "explanation": "Weather describes conditions at a particular time and place.",
+        "difficulty": "Easy",
+        "topic": "What is weather?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q03",
+        "question": "Why are coastal temperatures often more moderate?",
+        "options": [
+          "Coasts receive no sunlight",
+          "All coasts are at the poles",
+          "The sea heats and cools more slowly than land",
+          "Sea water has no heat capacity"
+        ],
+        "answer": 2,
+        "explanation": "The nearby sea reduces daily and seasonal extremes.",
+        "difficulty": "Easy",
+        "topic": "Why are coastal temperatures often more moderate?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q04",
+        "question": "Latitude: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "A seasonal moisture-bearing wind system",
+          "A control on the distribution of solar heating",
+          "A control related to height above sea level",
+          "A control on temperature moderation"
+        ],
+        "answer": 1,
+        "explanation": "Latitude — climatic factor or phenomenon: A control on the distribution of solar heating.",
+        "difficulty": "Easy",
+        "topic": "Latitude · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q05",
+        "question": "Latitude: which option correctly identifies the main physical explanation?",
+        "options": [
+          "The angle and seasonal pattern of sunlight vary with latitude",
+          "Water heats and cools more slowly than land",
+          "Seasonal pressure and circulation changes bring moist winds",
+          "Ascending moist air cools and condenses"
+        ],
+        "answer": 0,
+        "explanation": "Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude.",
+        "difficulty": "Easy",
+        "topic": "Latitude · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q06",
+        "question": "Latitude: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Supplies much of India's summer rainfall",
+          "Windward slopes can receive heavy rain",
+          "Some interior areas receive less rain than windward slopes",
+          "The Tropic of Cancer divides India into broadly different latitude zones"
+        ],
+        "answer": 3,
+        "explanation": "Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones.",
+        "difficulty": "Easy",
+        "topic": "Latitude · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q07",
+        "question": "Altitude: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "A seasonal moisture-bearing wind system",
+          "Rain caused by air rising over a barrier",
+          "A control related to height above sea level",
+          "A control on temperature moderation"
+        ],
+        "answer": 2,
+        "explanation": "Altitude — climatic factor or phenomenon: A control related to height above sea level.",
+        "difficulty": "Easy",
+        "topic": "Altitude · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q08",
+        "question": "Altitude: which option correctly identifies the main physical explanation?",
+        "options": [
+          "Air descending after moisture loss becomes relatively dry",
+          "Air temperature generally declines with height in the troposphere",
+          "Seasonal pressure and circulation changes bring moist winds",
+          "Ascending moist air cools and condenses"
+        ],
+        "answer": 1,
+        "explanation": "Altitude — main physical explanation: Air temperature generally declines with height in the troposphere.",
+        "difficulty": "Easy",
+        "topic": "Altitude · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q09",
+        "question": "Altitude: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Highland places tend to be cooler than nearby lowlands",
+          "Windward slopes can receive heavy rain",
+          "Some interior areas receive less rain than windward slopes",
+          "Can provide winter precipitation useful to rabi crops"
+        ],
+        "answer": 0,
+        "explanation": "Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands.",
+        "difficulty": "Easy",
+        "topic": "Altitude · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q10",
+        "question": "Distance from the sea: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "A seasonal moisture-bearing wind system",
+          "Rain caused by air rising over a barrier",
+          "Relative dryness on the leeward side",
+          "A control on temperature moderation"
+        ],
+        "answer": 3,
+        "explanation": "Distance from the sea — climatic factor or phenomenon: A control on temperature moderation.",
+        "difficulty": "Easy",
+        "topic": "Distance from the sea · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q11",
+        "question": "Distance from the sea: which option correctly identifies the main physical explanation?",
+        "options": [
+          "Air descending after moisture loss becomes relatively dry",
+          "Eastward-moving disturbances bring changing weather",
+          "Water heats and cools more slowly than land",
+          "Ascending moist air cools and condenses"
+        ],
+        "answer": 2,
+        "explanation": "Distance from the sea — main physical explanation: Water heats and cools more slowly than land.",
+        "difficulty": "Easy",
+        "topic": "Distance from the sea · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q12",
+        "question": "Distance from the sea: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Parts of the southeastern coast receive important late-year rainfall",
+          "Coastal places often have smaller temperature ranges",
+          "Some interior areas receive less rain than windward slopes",
+          "Can provide winter precipitation useful to rabi crops"
+        ],
+        "answer": 1,
+        "explanation": "Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges.",
+        "difficulty": "Easy",
+        "topic": "Distance from the sea · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q13",
+        "question": "Southwest monsoon: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "A seasonal moisture-bearing wind system",
+          "Rain caused by air rising over a barrier",
+          "Relative dryness on the leeward side",
+          "Weather systems affecting northwestern India in winter"
+        ],
+        "answer": 0,
+        "explanation": "Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system.",
+        "difficulty": "Easy",
+        "topic": "Southwest monsoon · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q14",
+        "question": "Southwest monsoon: which option correctly identifies the main physical explanation?",
+        "options": [
+          "Air descending after moisture loss becomes relatively dry",
+          "Eastward-moving disturbances bring changing weather",
+          "Wind circulation changes as the rainy season recedes",
+          "Seasonal pressure and circulation changes bring moist winds"
+        ],
+        "answer": 3,
+        "explanation": "Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds.",
+        "difficulty": "Easy",
+        "topic": "Southwest monsoon · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q15",
+        "question": "Southwest monsoon: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Parts of the southeastern coast receive important late-year rainfall",
+          "One unusual day alone does not establish a climate trend",
+          "Supplies much of India's summer rainfall",
+          "Can provide winter precipitation useful to rabi crops"
+        ],
+        "answer": 2,
+        "explanation": "Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall.",
+        "difficulty": "Easy",
+        "topic": "Southwest monsoon · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q16",
+        "question": "Orographic rainfall: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "Seasonal withdrawal of the summer monsoon",
+          "Rain caused by air rising over a barrier",
+          "Relative dryness on the leeward side",
+          "Weather systems affecting northwestern India in winter"
+        ],
+        "answer": 1,
+        "explanation": "Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier.",
+        "difficulty": "Easy",
+        "topic": "Orographic rainfall · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q17",
+        "question": "Orographic rainfall: which option correctly identifies the main physical explanation?",
+        "options": [
+          "Ascending moist air cools and condenses",
+          "Eastward-moving disturbances bring changing weather",
+          "Wind circulation changes as the rainy season recedes",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns"
+        ],
+        "answer": 0,
+        "explanation": "Orographic rainfall — main physical explanation: Ascending moist air cools and condenses.",
+        "difficulty": "Easy",
+        "topic": "Orographic rainfall · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q18",
+        "question": "Orographic rainfall: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Parts of the southeastern coast receive important late-year rainfall",
+          "One unusual day alone does not establish a climate trend",
+          "The Tropic of Cancer divides India into broadly different latitude zones",
+          "Windward slopes can receive heavy rain"
+        ],
+        "answer": 3,
+        "explanation": "Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain.",
+        "difficulty": "Easy",
+        "topic": "Orographic rainfall · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q19",
+        "question": "Rain shadow: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "Seasonal withdrawal of the summer monsoon",
+          "A distinction between short-term and long-term conditions",
+          "Relative dryness on the leeward side",
+          "Weather systems affecting northwestern India in winter"
+        ],
+        "answer": 2,
+        "explanation": "Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side.",
+        "difficulty": "Easy",
+        "topic": "Rain shadow · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q20",
+        "question": "Rain shadow: which option correctly identifies the main physical explanation?",
+        "options": [
+          "The angle and seasonal pattern of sunlight vary with latitude",
+          "Air descending after moisture loss becomes relatively dry",
+          "Wind circulation changes as the rainy season recedes",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns"
+        ],
+        "answer": 1,
+        "explanation": "Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry.",
+        "difficulty": "Easy",
+        "topic": "Rain shadow · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q21",
+        "question": "Rain shadow: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Some interior areas receive less rain than windward slopes",
+          "One unusual day alone does not establish a climate trend",
+          "The Tropic of Cancer divides India into broadly different latitude zones",
+          "Highland places tend to be cooler than nearby lowlands"
+        ],
+        "answer": 0,
+        "explanation": "Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes.",
+        "difficulty": "Easy",
+        "topic": "Rain shadow · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q22",
+        "question": "Western disturbances: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "Seasonal withdrawal of the summer monsoon",
+          "A distinction between short-term and long-term conditions",
+          "A control on the distribution of solar heating",
+          "Weather systems affecting northwestern India in winter"
+        ],
+        "answer": 3,
+        "explanation": "Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter.",
+        "difficulty": "Easy",
+        "topic": "Western disturbances · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q23",
+        "question": "Western disturbances: which option correctly identifies the main physical explanation?",
+        "options": [
+          "The angle and seasonal pattern of sunlight vary with latitude",
+          "Air temperature generally declines with height in the troposphere",
+          "Eastward-moving disturbances bring changing weather",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns"
+        ],
+        "answer": 2,
+        "explanation": "Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather.",
+        "difficulty": "Easy",
+        "topic": "Western disturbances · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q24",
+        "question": "Western disturbances: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Coastal places often have smaller temperature ranges",
+          "Can provide winter precipitation useful to rabi crops",
+          "The Tropic of Cancer divides India into broadly different latitude zones",
+          "Highland places tend to be cooler than nearby lowlands"
+        ],
+        "answer": 1,
+        "explanation": "Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops.",
+        "difficulty": "Easy",
+        "topic": "Western disturbances · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q25",
+        "question": "Retreating monsoon: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "Seasonal withdrawal of the summer monsoon",
+          "A distinction between short-term and long-term conditions",
+          "A control on the distribution of solar heating",
+          "A control related to height above sea level"
+        ],
+        "answer": 0,
+        "explanation": "Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon.",
+        "difficulty": "Easy",
+        "topic": "Retreating monsoon · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q26",
+        "question": "Retreating monsoon: which option correctly identifies the main physical explanation?",
+        "options": [
+          "The angle and seasonal pattern of sunlight vary with latitude",
+          "Air temperature generally declines with height in the troposphere",
+          "Water heats and cools more slowly than land",
+          "Wind circulation changes as the rainy season recedes"
+        ],
+        "answer": 3,
+        "explanation": "Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes.",
+        "difficulty": "Easy",
+        "topic": "Retreating monsoon · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q27",
+        "question": "Retreating monsoon: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Coastal places often have smaller temperature ranges",
+          "Supplies much of India's summer rainfall",
+          "Parts of the southeastern coast receive important late-year rainfall",
+          "Highland places tend to be cooler than nearby lowlands"
+        ],
+        "answer": 2,
+        "explanation": "Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall.",
+        "difficulty": "Easy",
+        "topic": "Retreating monsoon · typical implication for India",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q28",
+        "question": "Weather versus climate: which option correctly identifies the climatic factor or phenomenon?",
+        "options": [
+          "A control on temperature moderation",
+          "A distinction between short-term and long-term conditions",
+          "A control on the distribution of solar heating",
+          "A control related to height above sea level"
+        ],
+        "answer": 1,
+        "explanation": "Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions.",
+        "difficulty": "Easy",
+        "topic": "Weather versus climate · climatic factor or phenomenon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q29",
+        "question": "Weather versus climate: which option correctly identifies the main physical explanation?",
+        "options": [
+          "Weather concerns immediate conditions while climate concerns longer-term patterns",
+          "Air temperature generally declines with height in the troposphere",
+          "Water heats and cools more slowly than land",
+          "Seasonal pressure and circulation changes bring moist winds"
+        ],
+        "answer": 0,
+        "explanation": "Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns.",
+        "difficulty": "Easy",
+        "topic": "Weather versus climate · main physical explanation",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-E-Q30",
+        "question": "Weather versus climate: which option correctly identifies the typical implication for India?",
+        "options": [
+          "Coastal places often have smaller temperature ranges",
+          "Supplies much of India's summer rainfall",
+          "Windward slopes can receive heavy rain",
+          "One unusual day alone does not establish a climate trend"
+        ],
+        "answer": 3,
+        "explanation": "Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend.",
+        "difficulty": "Easy",
+        "topic": "Weather versus climate · typical implication for India",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH04-M": {
+    "id": "SA-DPP-27-SOC-CH04-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch4",
+    "chapterNumber": 4,
+    "chapter": "Climate of India",
+    "level": "M",
+    "title": "Climate of India – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-04.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-03",
+    "recommendedDate": "2026-10-24",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 45,
+      "to": 58
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q01",
+        "question": "Why can the leeward side of a mountain receive less rain?",
+        "options": [
+          "Mountains prevent all winds globally",
+          "Leeward land contains no soil",
+          "Rain only falls below sea level",
+          "Air has lost moisture on the windward side"
+        ],
+        "answer": 3,
+        "explanation": "Descending air is relatively dry, creating a rain-shadow effect.",
+        "difficulty": "Medium",
+        "topic": "Why can the leeward side of a mountain receive less rain?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q02",
+        "question": "Why do higher-altitude places tend to be cooler?",
+        "options": [
+          "Mountains produce cold without air",
+          "They receive no solar radiation",
+          "Temperature generally decreases with altitude in the troposphere",
+          "They are farther from all clouds"
+        ],
+        "answer": 2,
+        "explanation": "The usual environmental lapse rate helps explain cooler highlands.",
+        "difficulty": "Medium",
+        "topic": "Why do higher-altitude places tend to be cooler?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q03",
+        "question": "Why can a late monsoon harm rainfed farmers?",
+        "options": [
+          "Monsoon timing affects only coastal fishing",
+          "Sowing and crop-water availability depend on rainfall timing",
+          "Rainfed crops never need water",
+          "Every crop grows only in winter snow"
+        ],
+        "answer": 1,
+        "explanation": "Delayed rain can disrupt sowing windows and crop establishment.",
+        "difficulty": "Medium",
+        "topic": "Why can a late monsoon harm rainfed farmers?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q04",
+        "question": "Which pair correctly matches Latitude with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "A control on the distribution of solar heating → The angle and seasonal pattern of sunlight vary with latitude",
+          "A control related to height above sea level → The angle and seasonal pattern of sunlight vary with latitude",
+          "A control on the distribution of solar heating → Air temperature generally declines with height in the troposphere",
+          "A control on temperature moderation → Water heats and cools more slowly than land"
+        ],
+        "answer": 0,
+        "explanation": "Latitude — climatic factor or phenomenon: A control on the distribution of solar heating. Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Latitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q05",
+        "question": "Which pair correctly matches Latitude with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Water heats and cools more slowly than land → The Tropic of Cancer divides India into broadly different latitude zones",
+          "The angle and seasonal pattern of sunlight vary with latitude → Highland places tend to be cooler than nearby lowlands",
+          "Seasonal pressure and circulation changes bring moist winds → Coastal places often have smaller temperature ranges",
+          "The angle and seasonal pattern of sunlight vary with latitude → The Tropic of Cancer divides India into broadly different latitude zones"
+        ],
+        "answer": 3,
+        "explanation": "Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude. Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Latitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q06",
+        "question": "Which pair correctly matches Latitude with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "The Tropic of Cancer divides India into broadly different latitude zones → A control related to height above sea level",
+          "Windward slopes can receive heavy rain → A control on temperature moderation",
+          "The Tropic of Cancer divides India into broadly different latitude zones → A control on the distribution of solar heating",
+          "Supplies much of India's summer rainfall → A control on the distribution of solar heating"
+        ],
+        "answer": 2,
+        "explanation": "Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones. Latitude — climatic factor or phenomenon: A control on the distribution of solar heating. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Latitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q07",
+        "question": "Which pair correctly matches Altitude with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "A seasonal moisture-bearing wind system → Seasonal pressure and circulation changes bring moist winds",
+          "A control related to height above sea level → Air temperature generally declines with height in the troposphere",
+          "A control on temperature moderation → Air temperature generally declines with height in the troposphere",
+          "A control related to height above sea level → Water heats and cools more slowly than land"
+        ],
+        "answer": 1,
+        "explanation": "Altitude — climatic factor or phenomenon: A control related to height above sea level. Altitude — main physical explanation: Air temperature generally declines with height in the troposphere. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Altitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q08",
+        "question": "Which pair correctly matches Altitude with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Air temperature generally declines with height in the troposphere → Highland places tend to be cooler than nearby lowlands",
+          "Seasonal pressure and circulation changes bring moist winds → Highland places tend to be cooler than nearby lowlands",
+          "Air temperature generally declines with height in the troposphere → Coastal places often have smaller temperature ranges",
+          "Ascending moist air cools and condenses → Supplies much of India's summer rainfall"
+        ],
+        "answer": 0,
+        "explanation": "Altitude — main physical explanation: Air temperature generally declines with height in the troposphere. Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Altitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q09",
+        "question": "Which pair correctly matches Altitude with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Windward slopes can receive heavy rain → A control related to height above sea level",
+          "Highland places tend to be cooler than nearby lowlands → A control on temperature moderation",
+          "Some interior areas receive less rain than windward slopes → A seasonal moisture-bearing wind system",
+          "Highland places tend to be cooler than nearby lowlands → A control related to height above sea level"
+        ],
+        "answer": 3,
+        "explanation": "Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands. Altitude — climatic factor or phenomenon: A control related to height above sea level. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Altitude",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q10",
+        "question": "Which pair correctly matches Distance from the sea with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "A control on temperature moderation → Seasonal pressure and circulation changes bring moist winds",
+          "Rain caused by air rising over a barrier → Ascending moist air cools and condenses",
+          "A control on temperature moderation → Water heats and cools more slowly than land",
+          "A seasonal moisture-bearing wind system → Water heats and cools more slowly than land"
+        ],
+        "answer": 2,
+        "explanation": "Distance from the sea — climatic factor or phenomenon: A control on temperature moderation. Distance from the sea — main physical explanation: Water heats and cools more slowly than land. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Distance from the sea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q11",
+        "question": "Which pair correctly matches Distance from the sea with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Air descending after moisture loss becomes relatively dry → Windward slopes can receive heavy rain",
+          "Water heats and cools more slowly than land → Coastal places often have smaller temperature ranges",
+          "Ascending moist air cools and condenses → Coastal places often have smaller temperature ranges",
+          "Water heats and cools more slowly than land → Supplies much of India's summer rainfall"
+        ],
+        "answer": 1,
+        "explanation": "Distance from the sea — main physical explanation: Water heats and cools more slowly than land. Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Distance from the sea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q12",
+        "question": "Which pair correctly matches Distance from the sea with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Coastal places often have smaller temperature ranges → A control on temperature moderation",
+          "Some interior areas receive less rain than windward slopes → A control on temperature moderation",
+          "Coastal places often have smaller temperature ranges → A seasonal moisture-bearing wind system",
+          "Can provide winter precipitation useful to rabi crops → Rain caused by air rising over a barrier"
+        ],
+        "answer": 0,
+        "explanation": "Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges. Distance from the sea — climatic factor or phenomenon: A control on temperature moderation. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Distance from the sea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q13",
+        "question": "Which pair correctly matches Southwest monsoon with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "Rain caused by air rising over a barrier → Seasonal pressure and circulation changes bring moist winds",
+          "A seasonal moisture-bearing wind system → Ascending moist air cools and condenses",
+          "Relative dryness on the leeward side → Air descending after moisture loss becomes relatively dry",
+          "A seasonal moisture-bearing wind system → Seasonal pressure and circulation changes bring moist winds"
+        ],
+        "answer": 3,
+        "explanation": "Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system. Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Southwest monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q14",
+        "question": "Which pair correctly matches Southwest monsoon with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Seasonal pressure and circulation changes bring moist winds → Windward slopes can receive heavy rain",
+          "Eastward-moving disturbances bring changing weather → Some interior areas receive less rain than windward slopes",
+          "Seasonal pressure and circulation changes bring moist winds → Supplies much of India's summer rainfall",
+          "Air descending after moisture loss becomes relatively dry → Supplies much of India's summer rainfall"
+        ],
+        "answer": 2,
+        "explanation": "Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds. Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Southwest monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q15",
+        "question": "Which pair correctly matches Southwest monsoon with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Parts of the southeastern coast receive important late-year rainfall → Relative dryness on the leeward side",
+          "Supplies much of India's summer rainfall → A seasonal moisture-bearing wind system",
+          "Can provide winter precipitation useful to rabi crops → A seasonal moisture-bearing wind system",
+          "Supplies much of India's summer rainfall → Rain caused by air rising over a barrier"
+        ],
+        "answer": 1,
+        "explanation": "Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall. Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Southwest monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q16",
+        "question": "Which pair correctly matches Orographic rainfall with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "Rain caused by air rising over a barrier → Ascending moist air cools and condenses",
+          "Relative dryness on the leeward side → Ascending moist air cools and condenses",
+          "Rain caused by air rising over a barrier → Air descending after moisture loss becomes relatively dry",
+          "Weather systems affecting northwestern India in winter → Eastward-moving disturbances bring changing weather"
+        ],
+        "answer": 0,
+        "explanation": "Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier. Orographic rainfall — main physical explanation: Ascending moist air cools and condenses. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Orographic rainfall",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q17",
+        "question": "Which pair correctly matches Orographic rainfall with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Eastward-moving disturbances bring changing weather → Windward slopes can receive heavy rain",
+          "Ascending moist air cools and condenses → Some interior areas receive less rain than windward slopes",
+          "Wind circulation changes as the rainy season recedes → Can provide winter precipitation useful to rabi crops",
+          "Ascending moist air cools and condenses → Windward slopes can receive heavy rain"
+        ],
+        "answer": 3,
+        "explanation": "Orographic rainfall — main physical explanation: Ascending moist air cools and condenses. Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Orographic rainfall",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q18",
+        "question": "Which pair correctly matches Orographic rainfall with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Windward slopes can receive heavy rain → Relative dryness on the leeward side",
+          "One unusual day alone does not establish a climate trend → Weather systems affecting northwestern India in winter",
+          "Windward slopes can receive heavy rain → Rain caused by air rising over a barrier",
+          "Parts of the southeastern coast receive important late-year rainfall → Rain caused by air rising over a barrier"
+        ],
+        "answer": 2,
+        "explanation": "Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain. Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Orographic rainfall",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q19",
+        "question": "Which pair correctly matches Rain shadow with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "Seasonal withdrawal of the summer monsoon → Wind circulation changes as the rainy season recedes",
+          "Relative dryness on the leeward side → Air descending after moisture loss becomes relatively dry",
+          "Weather systems affecting northwestern India in winter → Air descending after moisture loss becomes relatively dry",
+          "Relative dryness on the leeward side → Eastward-moving disturbances bring changing weather"
+        ],
+        "answer": 1,
+        "explanation": "Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side. Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rain shadow",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q20",
+        "question": "Which pair correctly matches Rain shadow with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Air descending after moisture loss becomes relatively dry → Some interior areas receive less rain than windward slopes",
+          "Wind circulation changes as the rainy season recedes → Some interior areas receive less rain than windward slopes",
+          "Air descending after moisture loss becomes relatively dry → Can provide winter precipitation useful to rabi crops",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns → Parts of the southeastern coast receive important late-year rainfall"
+        ],
+        "answer": 0,
+        "explanation": "Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry. Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rain shadow",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q21",
+        "question": "Which pair correctly matches Rain shadow with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "One unusual day alone does not establish a climate trend → Relative dryness on the leeward side",
+          "Some interior areas receive less rain than windward slopes → Weather systems affecting northwestern India in winter",
+          "The Tropic of Cancer divides India into broadly different latitude zones → Seasonal withdrawal of the summer monsoon",
+          "Some interior areas receive less rain than windward slopes → Relative dryness on the leeward side"
+        ],
+        "answer": 3,
+        "explanation": "Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes. Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rain shadow",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q22",
+        "question": "Which pair correctly matches Western disturbances with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "Weather systems affecting northwestern India in winter → Wind circulation changes as the rainy season recedes",
+          "A distinction between short-term and long-term conditions → Weather concerns immediate conditions while climate concerns longer-term patterns",
+          "Weather systems affecting northwestern India in winter → Eastward-moving disturbances bring changing weather",
+          "Seasonal withdrawal of the summer monsoon → Eastward-moving disturbances bring changing weather"
+        ],
+        "answer": 2,
+        "explanation": "Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter. Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western disturbances",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q23",
+        "question": "Which pair correctly matches Western disturbances with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "The angle and seasonal pattern of sunlight vary with latitude → One unusual day alone does not establish a climate trend",
+          "Eastward-moving disturbances bring changing weather → Can provide winter precipitation useful to rabi crops",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns → Can provide winter precipitation useful to rabi crops",
+          "Eastward-moving disturbances bring changing weather → Parts of the southeastern coast receive important late-year rainfall"
+        ],
+        "answer": 1,
+        "explanation": "Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather. Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western disturbances",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q24",
+        "question": "Which pair correctly matches Western disturbances with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Can provide winter precipitation useful to rabi crops → Weather systems affecting northwestern India in winter",
+          "The Tropic of Cancer divides India into broadly different latitude zones → Weather systems affecting northwestern India in winter",
+          "Can provide winter precipitation useful to rabi crops → Seasonal withdrawal of the summer monsoon",
+          "Highland places tend to be cooler than nearby lowlands → A distinction between short-term and long-term conditions"
+        ],
+        "answer": 0,
+        "explanation": "Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops. Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western disturbances",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q25",
+        "question": "Which pair correctly matches Retreating monsoon with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "A distinction between short-term and long-term conditions → Wind circulation changes as the rainy season recedes",
+          "Seasonal withdrawal of the summer monsoon → Weather concerns immediate conditions while climate concerns longer-term patterns",
+          "A control on the distribution of solar heating → The angle and seasonal pattern of sunlight vary with latitude",
+          "Seasonal withdrawal of the summer monsoon → Wind circulation changes as the rainy season recedes"
+        ],
+        "answer": 3,
+        "explanation": "Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon. Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Retreating monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q26",
+        "question": "Which pair correctly matches Retreating monsoon with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Wind circulation changes as the rainy season recedes → One unusual day alone does not establish a climate trend",
+          "Air temperature generally declines with height in the troposphere → The Tropic of Cancer divides India into broadly different latitude zones",
+          "Wind circulation changes as the rainy season recedes → Parts of the southeastern coast receive important late-year rainfall",
+          "The angle and seasonal pattern of sunlight vary with latitude → Parts of the southeastern coast receive important late-year rainfall"
+        ],
+        "answer": 2,
+        "explanation": "Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes. Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Retreating monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q27",
+        "question": "Which pair correctly matches Retreating monsoon with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "Coastal places often have smaller temperature ranges → A control on the distribution of solar heating",
+          "Parts of the southeastern coast receive important late-year rainfall → Seasonal withdrawal of the summer monsoon",
+          "Highland places tend to be cooler than nearby lowlands → Seasonal withdrawal of the summer monsoon",
+          "Parts of the southeastern coast receive important late-year rainfall → A distinction between short-term and long-term conditions"
+        ],
+        "answer": 1,
+        "explanation": "Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall. Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Retreating monsoon",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q28",
+        "question": "Which pair correctly matches Weather versus climate with its climatic factor or phenomenon and main physical explanation, in that order?",
+        "options": [
+          "A distinction between short-term and long-term conditions → Weather concerns immediate conditions while climate concerns longer-term patterns",
+          "A control on the distribution of solar heating → Weather concerns immediate conditions while climate concerns longer-term patterns",
+          "A distinction between short-term and long-term conditions → The angle and seasonal pattern of sunlight vary with latitude",
+          "A control related to height above sea level → Air temperature generally declines with height in the troposphere"
+        ],
+        "answer": 0,
+        "explanation": "Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions. Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Weather versus climate",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q29",
+        "question": "Which pair correctly matches Weather versus climate with its main physical explanation and typical implication for India, in that order?",
+        "options": [
+          "Air temperature generally declines with height in the troposphere → One unusual day alone does not establish a climate trend",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns → The Tropic of Cancer divides India into broadly different latitude zones",
+          "Water heats and cools more slowly than land → Highland places tend to be cooler than nearby lowlands",
+          "Weather concerns immediate conditions while climate concerns longer-term patterns → One unusual day alone does not establish a climate trend"
+        ],
+        "answer": 3,
+        "explanation": "Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns. Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Weather versus climate",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-M-Q30",
+        "question": "Which pair correctly matches Weather versus climate with its typical implication for India and climatic factor or phenomenon, in that order?",
+        "options": [
+          "One unusual day alone does not establish a climate trend → A control on the distribution of solar heating",
+          "Supplies much of India's summer rainfall → A control related to height above sea level",
+          "One unusual day alone does not establish a climate trend → A distinction between short-term and long-term conditions",
+          "Coastal places often have smaller temperature ranges → A distinction between short-term and long-term conditions"
+        ],
+        "answer": 2,
+        "explanation": "Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend. Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Weather versus climate",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH04-H": {
+    "id": "SA-DPP-27-SOC-CH04-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch4",
+    "chapterNumber": 4,
+    "chapter": "Climate of India",
+    "level": "H",
+    "title": "Climate of India – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-04.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-03",
+    "recommendedDate": "2026-10-25",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 45,
+      "to": 58
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q01",
+        "question": "Why does rainfall amount alone not reveal agricultural water security?",
+        "options": [
+          "Annual totals show every dry spell",
+          "Irrigation cannot store any water",
+          "Its timing, distribution, storage and soil conditions also matter",
+          "Rainfall has no agricultural role"
+        ],
+        "answer": 2,
+        "explanation": "The same total can arrive in destructive bursts or leave long dry periods.",
+        "difficulty": "Hard",
+        "topic": "Why does rainfall amount alone not reveal agricultural water security?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q02",
+        "question": "How can Himalayan relief affect the winter climate of northern India?",
+        "options": [
+          "It removes all north Indian cold",
+          "It limits penetration of very cold continental winds",
+          "It blocks every western disturbance",
+          "It makes winter identical to summer"
+        ],
+        "answer": 1,
+        "explanation": "The mountain barrier influences movement of cold air masses.",
+        "difficulty": "Hard",
+        "topic": "How can Himalayan relief affect the winter climate of northern India?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q03",
+        "question": "Why is a single unusually hot day insufficient evidence of a long-term climate trend?",
+        "options": [
+          "Climate trends require observations over longer periods",
+          "Weather and climate are identical timescales",
+          "Temperature cannot be measured",
+          "One place's weather proves a global trend"
+        ],
+        "answer": 0,
+        "explanation": "Short-term variability must be distinguished from sustained climatic changes.",
+        "difficulty": "Hard",
+        "topic": "Why is a single unusually hot day insufficient evidence of a long-term climate trend?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Latitude — climatic factor or phenomenon: A control on the distribution of solar heating\nII. Orographic rainfall — main physical explanation: Ascending moist air cools and condenses\nIII. Retreating monsoon — typical implication for India: Coastal places often have smaller temperature ranges",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Latitude — climatic factor or phenomenon: A control on the distribution of solar heating; Orographic rainfall — main physical explanation: Ascending moist air cools and condenses; Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall.",
+        "difficulty": "Hard",
+        "topic": "Latitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Latitude — main physical explanation: Water heats and cools more slowly than land\nII. Orographic rainfall — typical implication for India: Coastal places often have smaller temperature ranges\nIII. Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude; Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain; Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon.",
+        "difficulty": "Hard",
+        "topic": "Latitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones\nII. Orographic rainfall — climatic factor or phenomenon: A seasonal moisture-bearing wind system\nIII. Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones; Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier; Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes.",
+        "difficulty": "Hard",
+        "topic": "Latitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Altitude — climatic factor or phenomenon: Rain caused by air rising over a barrier\nII. Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry\nIII. Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Altitude — climatic factor or phenomenon: A control related to height above sea level; Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry; Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend.",
+        "difficulty": "Hard",
+        "topic": "Altitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Altitude — main physical explanation: Air temperature generally declines with height in the troposphere\nII. Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes\nIII. Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Altitude — main physical explanation: Air temperature generally declines with height in the troposphere; Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes; Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions.",
+        "difficulty": "Hard",
+        "topic": "Altitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Altitude — typical implication for India: Can provide winter precipitation useful to rabi crops\nII. Rain shadow — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon\nIII. Weather versus climate — main physical explanation: Wind circulation changes as the rainy season recedes",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands; Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side; Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns.",
+        "difficulty": "Hard",
+        "topic": "Altitude · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Distance from the sea — climatic factor or phenomenon: A control on temperature moderation\nII. Western disturbances — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns\nIII. Latitude — typical implication for India: Highland places tend to be cooler than nearby lowlands",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Distance from the sea — climatic factor or phenomenon: A control on temperature moderation; Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather; Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones.",
+        "difficulty": "Hard",
+        "topic": "Distance from the sea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Distance from the sea — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns\nII. Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops\nIII. Latitude — climatic factor or phenomenon: A control on temperature moderation",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Distance from the sea — main physical explanation: Water heats and cools more slowly than land; Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops; Latitude — climatic factor or phenomenon: A control on the distribution of solar heating.",
+        "difficulty": "Hard",
+        "topic": "Distance from the sea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges\nII. Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter\nIII. Latitude — main physical explanation: Seasonal pressure and circulation changes bring moist winds",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges; Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter; Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude.",
+        "difficulty": "Hard",
+        "topic": "Distance from the sea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Southwest monsoon — climatic factor or phenomenon: A control related to height above sea level\nII. Retreating monsoon — main physical explanation: Water heats and cools more slowly than land\nIII. Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system; Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes; Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands.",
+        "difficulty": "Hard",
+        "topic": "Southwest monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds\nII. Retreating monsoon — typical implication for India: Supplies much of India's summer rainfall\nIII. Altitude — climatic factor or phenomenon: A control related to height above sea level",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds; Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall; Altitude — climatic factor or phenomenon: A control related to height above sea level.",
+        "difficulty": "Hard",
+        "topic": "Southwest monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Southwest monsoon — typical implication for India: Windward slopes can receive heavy rain\nII. Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon\nIII. Altitude — main physical explanation: Air temperature generally declines with height in the troposphere",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall; Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon; Altitude — main physical explanation: Air temperature generally declines with height in the troposphere.",
+        "difficulty": "Hard",
+        "topic": "Southwest monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier\nII. Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns\nIII. Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier; Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns; Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges.",
+        "difficulty": "Hard",
+        "topic": "Orographic rainfall · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Orographic rainfall — main physical explanation: Eastward-moving disturbances bring changing weather\nII. Weather versus climate — typical implication for India: Can provide winter precipitation useful to rabi crops\nIII. Distance from the sea — climatic factor or phenomenon: A distinction between short-term and long-term conditions",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Orographic rainfall — main physical explanation: Ascending moist air cools and condenses; Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend; Distance from the sea — climatic factor or phenomenon: A control on temperature moderation.",
+        "difficulty": "Hard",
+        "topic": "Orographic rainfall · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain\nII. Weather versus climate — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon\nIII. Distance from the sea — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain; Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions; Distance from the sea — main physical explanation: Water heats and cools more slowly than land.",
+        "difficulty": "Hard",
+        "topic": "Orographic rainfall · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rain shadow — climatic factor or phenomenon: A distinction between short-term and long-term conditions\nII. Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude\nIII. Southwest monsoon — typical implication for India: Highland places tend to be cooler than nearby lowlands",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side; Latitude — main physical explanation: The angle and seasonal pattern of sunlight vary with latitude; Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall.",
+        "difficulty": "Hard",
+        "topic": "Rain shadow · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry\nII. Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones\nIII. Southwest monsoon — climatic factor or phenomenon: A control on temperature moderation",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry; Latitude — typical implication for India: The Tropic of Cancer divides India into broadly different latitude zones; Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system.",
+        "difficulty": "Hard",
+        "topic": "Rain shadow · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rain shadow — typical implication for India: Highland places tend to be cooler than nearby lowlands\nII. Latitude — climatic factor or phenomenon: A seasonal moisture-bearing wind system\nIII. Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes; Latitude — climatic factor or phenomenon: A control on the distribution of solar heating; Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds.",
+        "difficulty": "Hard",
+        "topic": "Rain shadow · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter\nII. Altitude — main physical explanation: Ascending moist air cools and condenses\nIII. Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter; Altitude — main physical explanation: Air temperature generally declines with height in the troposphere; Orographic rainfall — typical implication for India: Windward slopes can receive heavy rain.",
+        "difficulty": "Hard",
+        "topic": "Western disturbances · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western disturbances — main physical explanation: Seasonal pressure and circulation changes bring moist winds\nII. Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands\nIII. Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather; Altitude — typical implication for India: Highland places tend to be cooler than nearby lowlands; Orographic rainfall — climatic factor or phenomenon: Rain caused by air rising over a barrier.",
+        "difficulty": "Hard",
+        "topic": "Western disturbances · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops\nII. Altitude — climatic factor or phenomenon: A control related to height above sea level\nIII. Orographic rainfall — main physical explanation: Ascending moist air cools and condenses",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops; Altitude — climatic factor or phenomenon: A control related to height above sea level; Orographic rainfall — main physical explanation: Ascending moist air cools and condenses.",
+        "difficulty": "Hard",
+        "topic": "Western disturbances · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Retreating monsoon — climatic factor or phenomenon: Relative dryness on the leeward side\nII. Distance from the sea — main physical explanation: Wind circulation changes as the rainy season recedes\nIII. Rain shadow — typical implication for India: One unusual day alone does not establish a climate trend",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Retreating monsoon — climatic factor or phenomenon: Seasonal withdrawal of the summer monsoon; Distance from the sea — main physical explanation: Water heats and cools more slowly than land; Rain shadow — typical implication for India: Some interior areas receive less rain than windward slopes.",
+        "difficulty": "Hard",
+        "topic": "Retreating monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes\nII. Distance from the sea — typical implication for India: One unusual day alone does not establish a climate trend\nIII. Rain shadow — climatic factor or phenomenon: A control on the distribution of solar heating",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Retreating monsoon — main physical explanation: Wind circulation changes as the rainy season recedes; Distance from the sea — typical implication for India: Coastal places often have smaller temperature ranges; Rain shadow — climatic factor or phenomenon: Relative dryness on the leeward side.",
+        "difficulty": "Hard",
+        "topic": "Retreating monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Retreating monsoon — typical implication for India: One unusual day alone does not establish a climate trend\nII. Distance from the sea — climatic factor or phenomenon: A control on temperature moderation\nIII. Rain shadow — main physical explanation: Air temperature generally declines with height in the troposphere",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Retreating monsoon — typical implication for India: Parts of the southeastern coast receive important late-year rainfall; Distance from the sea — climatic factor or phenomenon: A control on temperature moderation; Rain shadow — main physical explanation: Air descending after moisture loss becomes relatively dry.",
+        "difficulty": "Hard",
+        "topic": "Retreating monsoon · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions\nII. Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds\nIII. Western disturbances — typical implication for India: Coastal places often have smaller temperature ranges",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Weather versus climate — climatic factor or phenomenon: A distinction between short-term and long-term conditions; Southwest monsoon — main physical explanation: Seasonal pressure and circulation changes bring moist winds; Western disturbances — typical implication for India: Can provide winter precipitation useful to rabi crops.",
+        "difficulty": "Hard",
+        "topic": "Weather versus climate · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Weather versus climate — main physical explanation: Air temperature generally declines with height in the troposphere\nII. Southwest monsoon — typical implication for India: Coastal places often have smaller temperature ranges\nIII. Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Weather versus climate — main physical explanation: Weather concerns immediate conditions while climate concerns longer-term patterns; Southwest monsoon — typical implication for India: Supplies much of India's summer rainfall; Western disturbances — climatic factor or phenomenon: Weather systems affecting northwestern India in winter.",
+        "difficulty": "Hard",
+        "topic": "Weather versus climate · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH04-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend\nII. Southwest monsoon — climatic factor or phenomenon: Rain caused by air rising over a barrier\nIII. Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Weather versus climate — typical implication for India: One unusual day alone does not establish a climate trend; Southwest monsoon — climatic factor or phenomenon: A seasonal moisture-bearing wind system; Western disturbances — main physical explanation: Eastward-moving disturbances bring changing weather.",
+        "difficulty": "Hard",
+        "topic": "Weather versus climate · comparing chapter concepts",
+        "sourceChapter": 4
+      }
+    ]
+  }
+}

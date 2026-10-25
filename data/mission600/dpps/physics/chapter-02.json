@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH02-E": {
+    "id": "SA-DPP-27-PHY-CH02-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "E",
+    "title": "Chemical Equations – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-15",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q01",
+        "question": "Why must a chemical equation be balanced?",
+        "options": [
+          "Reactants must have equal masses individually",
+          "All coefficients must be one",
+          "Atoms are conserved in a reaction",
+          "Molecules never change"
+        ],
+        "answer": 2,
+        "explanation": "The number of atoms of each element remains unchanged.",
+        "difficulty": "Easy",
+        "topic": "Why must a chemical equation be balanced?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q02",
+        "question": "Which reaction absorbs heat?",
+        "options": [
+          "Every neutralisation reaction",
+          "Endothermic reaction",
+          "Exothermic reaction",
+          "Every combustion reaction"
+        ],
+        "answer": 1,
+        "explanation": "Endothermic processes take energy from their surroundings.",
+        "difficulty": "Easy",
+        "topic": "Which reaction absorbs heat?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q03",
+        "question": "What is oxidation in terms of oxygen?",
+        "options": [
+          "Addition of oxygen",
+          "Removal of oxygen",
+          "Addition of nitrogen always",
+          "Removal of all atoms"
+        ],
+        "answer": 0,
+        "explanation": "At this level, oxidation includes oxygen gain or hydrogen loss.",
+        "difficulty": "Easy",
+        "topic": "What is oxidation in terms of oxygen?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q04",
+        "question": "Combination reaction: which option correctly identifies the reaction classification?",
+        "options": [
+          "A compound breaks down on heating",
+          "Light causes a compound to break down",
+          "A more reactive element replaces another",
+          "Two or more reactants form one principal product"
+        ],
+        "answer": 3,
+        "explanation": "Combination reaction — reaction classification: Two or more reactants form one principal product.",
+        "difficulty": "Easy",
+        "topic": "Combination reaction · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q05",
+        "question": "Combination reaction: which option correctly identifies the defining change?",
+        "options": [
+          "An element displaces a less reactive one from a compound",
+          "Two compounds exchange their ionic partners",
+          "Several substances combine into one compound",
+          "Light energy drives decomposition"
+        ],
+        "answer": 2,
+        "explanation": "Combination reaction — defining change: Several substances combine into one compound.",
+        "difficulty": "Easy",
+        "topic": "Combination reaction · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q06",
+        "question": "Combination reaction: which option correctly identifies the representative equation?",
+        "options": [
+          "HCl + NaOH → NaCl + H₂O",
+          "CaO + H₂O → Ca(OH)₂",
+          "Zn + CuSO₄ → ZnSO₄ + Cu",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl"
+        ],
+        "answer": 1,
+        "explanation": "Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂.",
+        "difficulty": "Easy",
+        "topic": "Combination reaction · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q07",
+        "question": "Thermal decomposition: which option correctly identifies the reaction classification?",
+        "options": [
+          "A compound breaks down on heating",
+          "Light causes a compound to break down",
+          "A more reactive element replaces another",
+          "Ions are exchanged between compounds"
+        ],
+        "answer": 0,
+        "explanation": "Thermal decomposition — reaction classification: A compound breaks down on heating.",
+        "difficulty": "Easy",
+        "topic": "Thermal decomposition · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q08",
+        "question": "Thermal decomposition: which option correctly identifies the defining change?",
+        "options": [
+          "An element displaces a less reactive one from a compound",
+          "Two compounds exchange their ionic partners",
+          "Hydrogen and hydroxide ions combine to form water",
+          "Heat supplies energy for breakdown"
+        ],
+        "answer": 3,
+        "explanation": "Thermal decomposition — defining change: Heat supplies energy for breakdown.",
+        "difficulty": "Easy",
+        "topic": "Thermal decomposition · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q09",
+        "question": "Thermal decomposition: which option correctly identifies the representative equation?",
+        "options": [
+          "HCl + NaOH → NaCl + H₂O",
+          "CuO + H₂ → Cu + H₂O",
+          "CaCO₃ → CaO + CO₂",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl"
+        ],
+        "answer": 2,
+        "explanation": "Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂.",
+        "difficulty": "Easy",
+        "topic": "Thermal decomposition · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q10",
+        "question": "Photochemical decomposition: which option correctly identifies the reaction classification?",
+        "options": [
+          "Acid and base react to form salt and water",
+          "Light causes a compound to break down",
+          "A more reactive element replaces another",
+          "Ions are exchanged between compounds"
+        ],
+        "answer": 1,
+        "explanation": "Photochemical decomposition — reaction classification: Light causes a compound to break down.",
+        "difficulty": "Easy",
+        "topic": "Photochemical decomposition · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q11",
+        "question": "Photochemical decomposition: which option correctly identifies the defining change?",
+        "options": [
+          "Light energy drives decomposition",
+          "Two compounds exchange their ionic partners",
+          "Hydrogen and hydroxide ions combine to form water",
+          "Copper oxide loses oxygen while hydrogen gains it"
+        ],
+        "answer": 0,
+        "explanation": "Photochemical decomposition — defining change: Light energy drives decomposition.",
+        "difficulty": "Easy",
+        "topic": "Photochemical decomposition · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q12",
+        "question": "Photochemical decomposition: which option correctly identifies the representative equation?",
+        "options": [
+          "HCl + NaOH → NaCl + H₂O",
+          "CuO + H₂ → Cu + H₂O",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "2AgCl → 2Ag + Cl₂"
+        ],
+        "answer": 3,
+        "explanation": "Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂.",
+        "difficulty": "Easy",
+        "topic": "Photochemical decomposition · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q13",
+        "question": "Displacement reaction: which option correctly identifies the reaction classification?",
+        "options": [
+          "Acid and base react to form salt and water",
+          "A redox reaction involving oxygen transfer",
+          "A more reactive element replaces another",
+          "Ions are exchanged between compounds"
+        ],
+        "answer": 2,
+        "explanation": "Displacement reaction — reaction classification: A more reactive element replaces another.",
+        "difficulty": "Easy",
+        "topic": "Displacement reaction · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q14",
+        "question": "Displacement reaction: which option correctly identifies the defining change?",
+        "options": [
+          "Methane reacts completely with oxygen",
+          "An element displaces a less reactive one from a compound",
+          "Hydrogen and hydroxide ions combine to form water",
+          "Copper oxide loses oxygen while hydrogen gains it"
+        ],
+        "answer": 1,
+        "explanation": "Displacement reaction — defining change: An element displaces a less reactive one from a compound.",
+        "difficulty": "Easy",
+        "topic": "Displacement reaction · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q15",
+        "question": "Displacement reaction: which option correctly identifies the representative equation?",
+        "options": [
+          "Zn + CuSO₄ → ZnSO₄ + Cu",
+          "CuO + H₂ → Cu + H₂O",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "2H₂O → 2H₂ + O₂"
+        ],
+        "answer": 0,
+        "explanation": "Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu.",
+        "difficulty": "Easy",
+        "topic": "Displacement reaction · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q16",
+        "question": "Double displacement: which option correctly identifies the reaction classification?",
+        "options": [
+          "A redox reaction involving oxygen transfer",
+          "An exothermic oxidation reaction",
+          "Electrical energy breaks down water",
+          "Ions are exchanged between compounds"
+        ],
+        "answer": 3,
+        "explanation": "Double displacement — reaction classification: Ions are exchanged between compounds.",
+        "difficulty": "Easy",
+        "topic": "Double displacement · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q17",
+        "question": "Double displacement: which option correctly identifies the defining change?",
+        "options": [
+          "Methane reacts completely with oxygen",
+          "Hydrogen and oxygen form in a 2:1 volume ratio",
+          "Two compounds exchange their ionic partners",
+          "Copper oxide loses oxygen while hydrogen gains it"
+        ],
+        "answer": 2,
+        "explanation": "Double displacement — defining change: Two compounds exchange their ionic partners.",
+        "difficulty": "Easy",
+        "topic": "Double displacement · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q18",
+        "question": "Double displacement: which option correctly identifies the representative equation?",
+        "options": [
+          "CaO + H₂O → Ca(OH)₂",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "2H₂O → 2H₂ + O₂"
+        ],
+        "answer": 1,
+        "explanation": "Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl.",
+        "difficulty": "Easy",
+        "topic": "Double displacement · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q19",
+        "question": "Neutralisation: which option correctly identifies the reaction classification?",
+        "options": [
+          "Acid and base react to form salt and water",
+          "An exothermic oxidation reaction",
+          "Electrical energy breaks down water",
+          "Two or more reactants form one principal product"
+        ],
+        "answer": 0,
+        "explanation": "Neutralisation — reaction classification: Acid and base react to form salt and water.",
+        "difficulty": "Easy",
+        "topic": "Neutralisation · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q20",
+        "question": "Neutralisation: which option correctly identifies the defining change?",
+        "options": [
+          "Methane reacts completely with oxygen",
+          "Hydrogen and oxygen form in a 2:1 volume ratio",
+          "Several substances combine into one compound",
+          "Hydrogen and hydroxide ions combine to form water"
+        ],
+        "answer": 3,
+        "explanation": "Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water.",
+        "difficulty": "Easy",
+        "topic": "Neutralisation · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q21",
+        "question": "Neutralisation: which option correctly identifies the representative equation?",
+        "options": [
+          "CaO + H₂O → Ca(OH)₂",
+          "CaCO₃ → CaO + CO₂",
+          "HCl + NaOH → NaCl + H₂O",
+          "2H₂O → 2H₂ + O₂"
+        ],
+        "answer": 2,
+        "explanation": "Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O.",
+        "difficulty": "Easy",
+        "topic": "Neutralisation · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q22",
+        "question": "Reduction of copper oxide by hydrogen: which option correctly identifies the reaction classification?",
+        "options": [
+          "Two or more reactants form one principal product",
+          "A redox reaction involving oxygen transfer",
+          "An exothermic oxidation reaction",
+          "Electrical energy breaks down water"
+        ],
+        "answer": 1,
+        "explanation": "Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer.",
+        "difficulty": "Easy",
+        "topic": "Reduction of copper oxide by hydrogen · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q23",
+        "question": "Reduction of copper oxide by hydrogen: which option correctly identifies the defining change?",
+        "options": [
+          "Copper oxide loses oxygen while hydrogen gains it",
+          "Hydrogen and oxygen form in a 2:1 volume ratio",
+          "Several substances combine into one compound",
+          "Heat supplies energy for breakdown"
+        ],
+        "answer": 0,
+        "explanation": "Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it.",
+        "difficulty": "Easy",
+        "topic": "Reduction of copper oxide by hydrogen · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q24",
+        "question": "Reduction of copper oxide by hydrogen: which option correctly identifies the representative equation?",
+        "options": [
+          "CaO + H₂O → Ca(OH)₂",
+          "CaCO₃ → CaO + CO₂",
+          "2AgCl → 2Ag + Cl₂",
+          "CuO + H₂ → Cu + H₂O"
+        ],
+        "answer": 3,
+        "explanation": "Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O.",
+        "difficulty": "Easy",
+        "topic": "Reduction of copper oxide by hydrogen · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q25",
+        "question": "Combustion of methane: which option correctly identifies the reaction classification?",
+        "options": [
+          "Two or more reactants form one principal product",
+          "A compound breaks down on heating",
+          "An exothermic oxidation reaction",
+          "Electrical energy breaks down water"
+        ],
+        "answer": 2,
+        "explanation": "Combustion of methane — reaction classification: An exothermic oxidation reaction.",
+        "difficulty": "Easy",
+        "topic": "Combustion of methane · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q26",
+        "question": "Combustion of methane: which option correctly identifies the defining change?",
+        "options": [
+          "Light energy drives decomposition",
+          "Methane reacts completely with oxygen",
+          "Several substances combine into one compound",
+          "Heat supplies energy for breakdown"
+        ],
+        "answer": 1,
+        "explanation": "Combustion of methane — defining change: Methane reacts completely with oxygen.",
+        "difficulty": "Easy",
+        "topic": "Combustion of methane · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q27",
+        "question": "Combustion of methane: which option correctly identifies the representative equation?",
+        "options": [
+          "CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "CaCO₃ → CaO + CO₂",
+          "2AgCl → 2Ag + Cl₂",
+          "Zn + CuSO₄ → ZnSO₄ + Cu"
+        ],
+        "answer": 0,
+        "explanation": "Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O.",
+        "difficulty": "Easy",
+        "topic": "Combustion of methane · representative equation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q28",
+        "question": "Electrolytic decomposition of water: which option correctly identifies the reaction classification?",
+        "options": [
+          "Two or more reactants form one principal product",
+          "A compound breaks down on heating",
+          "Light causes a compound to break down",
+          "Electrical energy breaks down water"
+        ],
+        "answer": 3,
+        "explanation": "Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic decomposition of water · reaction classification",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q29",
+        "question": "Electrolytic decomposition of water: which option correctly identifies the defining change?",
+        "options": [
+          "Light energy drives decomposition",
+          "An element displaces a less reactive one from a compound",
+          "Hydrogen and oxygen form in a 2:1 volume ratio",
+          "Heat supplies energy for breakdown"
+        ],
+        "answer": 2,
+        "explanation": "Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic decomposition of water · defining change",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-E-Q30",
+        "question": "Electrolytic decomposition of water: which option correctly identifies the representative equation?",
+        "options": [
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "2H₂O → 2H₂ + O₂",
+          "2AgCl → 2Ag + Cl₂",
+          "Zn + CuSO₄ → ZnSO₄ + Cu"
+        ],
+        "answer": 1,
+        "explanation": "Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂.",
+        "difficulty": "Easy",
+        "topic": "Electrolytic decomposition of water · representative equation",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH02-M": {
+    "id": "SA-DPP-27-PHY-CH02-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "M",
+    "title": "Chemical Equations – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-16",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q01",
+        "question": "Balance Al+O₂→Al₂O₃. Which coefficients are correct?",
+        "options": [
+          "2,1,2",
+          "4,3,2",
+          "2,3,1",
+          "1,1,1"
+        ],
+        "answer": 1,
+        "explanation": "4Al+3O₂→2Al₂O₃ conserves four Al and six O atoms.",
+        "difficulty": "Medium",
+        "topic": "Balance Al+O₂→Al₂O₃. Which coefficients are correct?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q02",
+        "question": "Zn+CuSO₄→ZnSO₄+Cu is which type of reaction?",
+        "options": [
+          "Displacement",
+          "Decomposition",
+          "Combination",
+          "Neutralisation"
+        ],
+        "answer": 0,
+        "explanation": "More reactive zinc displaces copper from its salt.",
+        "difficulty": "Medium",
+        "topic": "Zn+CuSO₄→ZnSO₄+Cu is which type of reaction?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q03",
+        "question": "Heating CaCO₃ produces CaO and CO₂. What reaction type is this?",
+        "options": [
+          "Double displacement",
+          "Combination",
+          "Precipitation",
+          "Thermal decomposition"
+        ],
+        "answer": 3,
+        "explanation": "Heat breaks one compound into simpler products.",
+        "difficulty": "Medium",
+        "topic": "Heating CaCO₃ produces CaO and CO₂. What reaction type is this?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q04",
+        "question": "Which pair correctly matches Combination reaction with its reaction classification and defining change, in that order?",
+        "options": [
+          "Two or more reactants form one principal product → Heat supplies energy for breakdown",
+          "Light causes a compound to break down → Light energy drives decomposition",
+          "Two or more reactants form one principal product → Several substances combine into one compound",
+          "A compound breaks down on heating → Several substances combine into one compound"
+        ],
+        "answer": 2,
+        "explanation": "Combination reaction — reaction classification: Two or more reactants form one principal product. Combination reaction — defining change: Several substances combine into one compound. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combination reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q05",
+        "question": "Which pair correctly matches Combination reaction with its defining change and representative equation, in that order?",
+        "options": [
+          "An element displaces a less reactive one from a compound → 2AgCl → 2Ag + Cl₂",
+          "Several substances combine into one compound → CaO + H₂O → Ca(OH)₂",
+          "Light energy drives decomposition → CaO + H₂O → Ca(OH)₂",
+          "Several substances combine into one compound → CaCO₃ → CaO + CO₂"
+        ],
+        "answer": 1,
+        "explanation": "Combination reaction — defining change: Several substances combine into one compound. Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combination reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q06",
+        "question": "Which pair correctly matches Combination reaction with its representative equation and reaction classification, in that order?",
+        "options": [
+          "CaO + H₂O → Ca(OH)₂ → Two or more reactants form one principal product",
+          "Zn + CuSO₄ → ZnSO₄ + Cu → Two or more reactants form one principal product",
+          "CaO + H₂O → Ca(OH)₂ → A compound breaks down on heating",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl → Light causes a compound to break down"
+        ],
+        "answer": 0,
+        "explanation": "Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂. Combination reaction — reaction classification: Two or more reactants form one principal product. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combination reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q07",
+        "question": "Which pair correctly matches Thermal decomposition with its reaction classification and defining change, in that order?",
+        "options": [
+          "Light causes a compound to break down → Heat supplies energy for breakdown",
+          "A compound breaks down on heating → Light energy drives decomposition",
+          "A more reactive element replaces another → An element displaces a less reactive one from a compound",
+          "A compound breaks down on heating → Heat supplies energy for breakdown"
+        ],
+        "answer": 3,
+        "explanation": "Thermal decomposition — reaction classification: A compound breaks down on heating. Thermal decomposition — defining change: Heat supplies energy for breakdown. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thermal decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q08",
+        "question": "Which pair correctly matches Thermal decomposition with its defining change and representative equation, in that order?",
+        "options": [
+          "Heat supplies energy for breakdown → 2AgCl → 2Ag + Cl₂",
+          "Two compounds exchange their ionic partners → Zn + CuSO₄ → ZnSO₄ + Cu",
+          "Heat supplies energy for breakdown → CaCO₃ → CaO + CO₂",
+          "An element displaces a less reactive one from a compound → CaCO₃ → CaO + CO₂"
+        ],
+        "answer": 2,
+        "explanation": "Thermal decomposition — defining change: Heat supplies energy for breakdown. Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thermal decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q09",
+        "question": "Which pair correctly matches Thermal decomposition with its representative equation and reaction classification, in that order?",
+        "options": [
+          "HCl + NaOH → NaCl + H₂O → A more reactive element replaces another",
+          "CaCO₃ → CaO + CO₂ → A compound breaks down on heating",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl → A compound breaks down on heating",
+          "CaCO₃ → CaO + CO₂ → Light causes a compound to break down"
+        ],
+        "answer": 1,
+        "explanation": "Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂. Thermal decomposition — reaction classification: A compound breaks down on heating. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thermal decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q10",
+        "question": "Which pair correctly matches Photochemical decomposition with its reaction classification and defining change, in that order?",
+        "options": [
+          "Light causes a compound to break down → Light energy drives decomposition",
+          "A more reactive element replaces another → Light energy drives decomposition",
+          "Light causes a compound to break down → An element displaces a less reactive one from a compound",
+          "Ions are exchanged between compounds → Two compounds exchange their ionic partners"
+        ],
+        "answer": 0,
+        "explanation": "Photochemical decomposition — reaction classification: Light causes a compound to break down. Photochemical decomposition — defining change: Light energy drives decomposition. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Photochemical decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q11",
+        "question": "Which pair correctly matches Photochemical decomposition with its defining change and representative equation, in that order?",
+        "options": [
+          "Two compounds exchange their ionic partners → 2AgCl → 2Ag + Cl₂",
+          "Light energy drives decomposition → Zn + CuSO₄ → ZnSO₄ + Cu",
+          "Hydrogen and hydroxide ions combine to form water → Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "Light energy drives decomposition → 2AgCl → 2Ag + Cl₂"
+        ],
+        "answer": 3,
+        "explanation": "Photochemical decomposition — defining change: Light energy drives decomposition. Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Photochemical decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q12",
+        "question": "Which pair correctly matches Photochemical decomposition with its representative equation and reaction classification, in that order?",
+        "options": [
+          "2AgCl → 2Ag + Cl₂ → A more reactive element replaces another",
+          "CuO + H₂ → Cu + H₂O → Ions are exchanged between compounds",
+          "2AgCl → 2Ag + Cl₂ → Light causes a compound to break down",
+          "HCl + NaOH → NaCl + H₂O → Light causes a compound to break down"
+        ],
+        "answer": 2,
+        "explanation": "Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂. Photochemical decomposition — reaction classification: Light causes a compound to break down. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Photochemical decomposition",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q13",
+        "question": "Which pair correctly matches Displacement reaction with its reaction classification and defining change, in that order?",
+        "options": [
+          "Acid and base react to form salt and water → Hydrogen and hydroxide ions combine to form water",
+          "A more reactive element replaces another → An element displaces a less reactive one from a compound",
+          "Ions are exchanged between compounds → An element displaces a less reactive one from a compound",
+          "A more reactive element replaces another → Two compounds exchange their ionic partners"
+        ],
+        "answer": 1,
+        "explanation": "Displacement reaction — reaction classification: A more reactive element replaces another. Displacement reaction — defining change: An element displaces a less reactive one from a compound. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q14",
+        "question": "Which pair correctly matches Displacement reaction with its defining change and representative equation, in that order?",
+        "options": [
+          "An element displaces a less reactive one from a compound → Zn + CuSO₄ → ZnSO₄ + Cu",
+          "Hydrogen and hydroxide ions combine to form water → Zn + CuSO₄ → ZnSO₄ + Cu",
+          "An element displaces a less reactive one from a compound → Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "Copper oxide loses oxygen while hydrogen gains it → HCl + NaOH → NaCl + H₂O"
+        ],
+        "answer": 0,
+        "explanation": "Displacement reaction — defining change: An element displaces a less reactive one from a compound. Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q15",
+        "question": "Which pair correctly matches Displacement reaction with its representative equation and reaction classification, in that order?",
+        "options": [
+          "CuO + H₂ → Cu + H₂O → A more reactive element replaces another",
+          "Zn + CuSO₄ → ZnSO₄ + Cu → Ions are exchanged between compounds",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O → Acid and base react to form salt and water",
+          "Zn + CuSO₄ → ZnSO₄ + Cu → A more reactive element replaces another"
+        ],
+        "answer": 3,
+        "explanation": "Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu. Displacement reaction — reaction classification: A more reactive element replaces another. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Displacement reaction",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q16",
+        "question": "Which pair correctly matches Double displacement with its reaction classification and defining change, in that order?",
+        "options": [
+          "Ions are exchanged between compounds → Hydrogen and hydroxide ions combine to form water",
+          "An exothermic oxidation reaction → Copper oxide loses oxygen while hydrogen gains it",
+          "Ions are exchanged between compounds → Two compounds exchange their ionic partners",
+          "A redox reaction involving oxygen transfer → Two compounds exchange their ionic partners"
+        ],
+        "answer": 2,
+        "explanation": "Double displacement — reaction classification: Ions are exchanged between compounds. Double displacement — defining change: Two compounds exchange their ionic partners. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double displacement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q17",
+        "question": "Which pair correctly matches Double displacement with its defining change and representative equation, in that order?",
+        "options": [
+          "Methane reacts completely with oxygen → CuO + H₂ → Cu + H₂O",
+          "Two compounds exchange their ionic partners → Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "Copper oxide loses oxygen while hydrogen gains it → Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+          "Two compounds exchange their ionic partners → HCl + NaOH → NaCl + H₂O"
+        ],
+        "answer": 1,
+        "explanation": "Double displacement — defining change: Two compounds exchange their ionic partners. Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double displacement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q18",
+        "question": "Which pair correctly matches Double displacement with its representative equation and reaction classification, in that order?",
+        "options": [
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl → Ions are exchanged between compounds",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O → Ions are exchanged between compounds",
+          "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl → A redox reaction involving oxygen transfer",
+          "2H₂O → 2H₂ + O₂ → An exothermic oxidation reaction"
+        ],
+        "answer": 0,
+        "explanation": "Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl. Double displacement — reaction classification: Ions are exchanged between compounds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Double displacement",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q19",
+        "question": "Which pair correctly matches Neutralisation with its reaction classification and defining change, in that order?",
+        "options": [
+          "An exothermic oxidation reaction → Hydrogen and hydroxide ions combine to form water",
+          "Acid and base react to form salt and water → Copper oxide loses oxygen while hydrogen gains it",
+          "Electrical energy breaks down water → Methane reacts completely with oxygen",
+          "Acid and base react to form salt and water → Hydrogen and hydroxide ions combine to form water"
+        ],
+        "answer": 3,
+        "explanation": "Neutralisation — reaction classification: Acid and base react to form salt and water. Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutralisation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q20",
+        "question": "Which pair correctly matches Neutralisation with its defining change and representative equation, in that order?",
+        "options": [
+          "Hydrogen and hydroxide ions combine to form water → CuO + H₂ → Cu + H₂O",
+          "Hydrogen and oxygen form in a 2:1 volume ratio → CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "Hydrogen and hydroxide ions combine to form water → HCl + NaOH → NaCl + H₂O",
+          "Methane reacts completely with oxygen → HCl + NaOH → NaCl + H₂O"
+        ],
+        "answer": 2,
+        "explanation": "Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water. Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutralisation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q21",
+        "question": "Which pair correctly matches Neutralisation with its representative equation and reaction classification, in that order?",
+        "options": [
+          "CaO + H₂O → Ca(OH)₂ → Electrical energy breaks down water",
+          "HCl + NaOH → NaCl + H₂O → Acid and base react to form salt and water",
+          "2H₂O → 2H₂ + O₂ → Acid and base react to form salt and water",
+          "HCl + NaOH → NaCl + H₂O → An exothermic oxidation reaction"
+        ],
+        "answer": 1,
+        "explanation": "Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O. Neutralisation — reaction classification: Acid and base react to form salt and water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutralisation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q22",
+        "question": "Which pair correctly matches Reduction of copper oxide by hydrogen with its reaction classification and defining change, in that order?",
+        "options": [
+          "A redox reaction involving oxygen transfer → Copper oxide loses oxygen while hydrogen gains it",
+          "An exothermic oxidation reaction → Copper oxide loses oxygen while hydrogen gains it",
+          "A redox reaction involving oxygen transfer → Methane reacts completely with oxygen",
+          "Electrical energy breaks down water → Hydrogen and oxygen form in a 2:1 volume ratio"
+        ],
+        "answer": 0,
+        "explanation": "Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer. Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduction of copper oxide by hydrogen",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q23",
+        "question": "Which pair correctly matches Reduction of copper oxide by hydrogen with its defining change and representative equation, in that order?",
+        "options": [
+          "Hydrogen and oxygen form in a 2:1 volume ratio → CuO + H₂ → Cu + H₂O",
+          "Copper oxide loses oxygen while hydrogen gains it → CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "Several substances combine into one compound → 2H₂O → 2H₂ + O₂",
+          "Copper oxide loses oxygen while hydrogen gains it → CuO + H₂ → Cu + H₂O"
+        ],
+        "answer": 3,
+        "explanation": "Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it. Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduction of copper oxide by hydrogen",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q24",
+        "question": "Which pair correctly matches Reduction of copper oxide by hydrogen with its representative equation and reaction classification, in that order?",
+        "options": [
+          "CuO + H₂ → Cu + H₂O → An exothermic oxidation reaction",
+          "CaCO₃ → CaO + CO₂ → Electrical energy breaks down water",
+          "CuO + H₂ → Cu + H₂O → A redox reaction involving oxygen transfer",
+          "CaO + H₂O → Ca(OH)₂ → A redox reaction involving oxygen transfer"
+        ],
+        "answer": 2,
+        "explanation": "Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O. Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Reduction of copper oxide by hydrogen",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q25",
+        "question": "Which pair correctly matches Combustion of methane with its reaction classification and defining change, in that order?",
+        "options": [
+          "Two or more reactants form one principal product → Several substances combine into one compound",
+          "An exothermic oxidation reaction → Methane reacts completely with oxygen",
+          "Electrical energy breaks down water → Methane reacts completely with oxygen",
+          "An exothermic oxidation reaction → Hydrogen and oxygen form in a 2:1 volume ratio"
+        ],
+        "answer": 1,
+        "explanation": "Combustion of methane — reaction classification: An exothermic oxidation reaction. Combustion of methane — defining change: Methane reacts completely with oxygen. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combustion of methane",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q26",
+        "question": "Which pair correctly matches Combustion of methane with its defining change and representative equation, in that order?",
+        "options": [
+          "Methane reacts completely with oxygen → CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "Several substances combine into one compound → CH₄ + 2O₂ → CO₂ + 2H₂O",
+          "Methane reacts completely with oxygen → 2H₂O → 2H₂ + O₂",
+          "Heat supplies energy for breakdown → CaO + H₂O → Ca(OH)₂"
+        ],
+        "answer": 0,
+        "explanation": "Combustion of methane — defining change: Methane reacts completely with oxygen. Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combustion of methane",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q27",
+        "question": "Which pair correctly matches Combustion of methane with its representative equation and reaction classification, in that order?",
+        "options": [
+          "CaCO₃ → CaO + CO₂ → An exothermic oxidation reaction",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O → Electrical energy breaks down water",
+          "2AgCl → 2Ag + Cl₂ → Two or more reactants form one principal product",
+          "CH₄ + 2O₂ → CO₂ + 2H₂O → An exothermic oxidation reaction"
+        ],
+        "answer": 3,
+        "explanation": "Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O. Combustion of methane — reaction classification: An exothermic oxidation reaction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Combustion of methane",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q28",
+        "question": "Which pair correctly matches Electrolytic decomposition of water with its reaction classification and defining change, in that order?",
+        "options": [
+          "Electrical energy breaks down water → Several substances combine into one compound",
+          "A compound breaks down on heating → Heat supplies energy for breakdown",
+          "Electrical energy breaks down water → Hydrogen and oxygen form in a 2:1 volume ratio",
+          "Two or more reactants form one principal product → Hydrogen and oxygen form in a 2:1 volume ratio"
+        ],
+        "answer": 2,
+        "explanation": "Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water. Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic decomposition of water",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q29",
+        "question": "Which pair correctly matches Electrolytic decomposition of water with its defining change and representative equation, in that order?",
+        "options": [
+          "Light energy drives decomposition → CaCO₃ → CaO + CO₂",
+          "Hydrogen and oxygen form in a 2:1 volume ratio → 2H₂O → 2H₂ + O₂",
+          "Heat supplies energy for breakdown → 2H₂O → 2H₂ + O₂",
+          "Hydrogen and oxygen form in a 2:1 volume ratio → CaO + H₂O → Ca(OH)₂"
+        ],
+        "answer": 1,
+        "explanation": "Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio. Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic decomposition of water",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-M-Q30",
+        "question": "Which pair correctly matches Electrolytic decomposition of water with its representative equation and reaction classification, in that order?",
+        "options": [
+          "2H₂O → 2H₂ + O₂ → Electrical energy breaks down water",
+          "2AgCl → 2Ag + Cl₂ → Electrical energy breaks down water",
+          "2H₂O → 2H₂ + O₂ → Two or more reactants form one principal product",
+          "Zn + CuSO₄ → ZnSO₄ + Cu → A compound breaks down on heating"
+        ],
+        "answer": 0,
+        "explanation": "Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂. Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electrolytic decomposition of water",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH02-H": {
+    "id": "SA-DPP-27-PHY-CH02-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch2",
+    "chapterNumber": 2,
+    "chapter": "Chemical Equations",
+    "level": "H",
+    "title": "Chemical Equations – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-02.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-PHY-02",
+    "recommendedDate": "2026-10-17",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 20,
+      "to": 32
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q01",
+        "question": "In CuO+H₂→Cu+H₂O, which statement is correct?",
+        "options": [
+          "CuO is reduced and H₂ is oxidised",
+          "CuO is oxidised and H₂ is reduced",
+          "Neither substance changes oxidation state",
+          "Both reactants are reduced"
+        ],
+        "answer": 0,
+        "explanation": "CuO loses oxygen; hydrogen gains oxygen.",
+        "difficulty": "Hard",
+        "topic": "In CuO+H₂→Cu+H₂O, which statement is correct?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q02",
+        "question": "Why must subscripts remain unchanged when balancing equations?",
+        "options": [
+          "They are always equal to coefficients",
+          "Subscripts indicate temperature",
+          "Only gaseous subscripts may change",
+          "Changing them changes the identity of substances"
+        ],
+        "answer": 3,
+        "explanation": "Balancing adjusts particle numbers through coefficients, not chemical formulae.",
+        "difficulty": "Hard",
+        "topic": "Why must subscripts remain unchanged when balancing equations?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q03",
+        "question": "Mixing Na₂SO₄(aq) and BaCl₂(aq) gives what evidence of reaction?",
+        "options": [
+          "Copper deposition",
+          "A black carbon deposit",
+          "A white BaSO₄ precipitate",
+          "Hydrogen gas"
+        ],
+        "answer": 2,
+        "explanation": "Insoluble barium sulfate forms in this double-displacement reaction.",
+        "difficulty": "Hard",
+        "topic": "Mixing Na₂SO₄(aq) and BaCl₂(aq) gives what evidence of reaction?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combination reaction — reaction classification: Two or more reactants form one principal product\nII. Double displacement — defining change: Heat supplies energy for breakdown\nIII. Combustion of methane — representative equation: 2AgCl → 2Ag + Cl₂",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Combination reaction — reaction classification: Two or more reactants form one principal product; Double displacement — defining change: Two compounds exchange their ionic partners; Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O.",
+        "difficulty": "Hard",
+        "topic": "Combination reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combination reaction — defining change: Light energy drives decomposition\nII. Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl\nIII. Combustion of methane — reaction classification: A more reactive element replaces another",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Combination reaction — defining change: Several substances combine into one compound; Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl; Combustion of methane — reaction classification: An exothermic oxidation reaction.",
+        "difficulty": "Hard",
+        "topic": "Combination reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂\nII. Double displacement — reaction classification: Ions are exchanged between compounds\nIII. Combustion of methane — defining change: Two compounds exchange their ionic partners",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂; Double displacement — reaction classification: Ions are exchanged between compounds; Combustion of methane — defining change: Methane reacts completely with oxygen.",
+        "difficulty": "Hard",
+        "topic": "Combination reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thermal decomposition — reaction classification: Ions are exchanged between compounds\nII. Neutralisation — defining change: Two compounds exchange their ionic partners\nIII. Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Thermal decomposition — reaction classification: A compound breaks down on heating; Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water; Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂.",
+        "difficulty": "Hard",
+        "topic": "Thermal decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thermal decomposition — defining change: Heat supplies energy for breakdown\nII. Neutralisation — representative equation: CuO + H₂ → Cu + H₂O\nIII. Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Thermal decomposition — defining change: Heat supplies energy for breakdown; Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O; Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water.",
+        "difficulty": "Hard",
+        "topic": "Thermal decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thermal decomposition — representative equation: CuO + H₂ → Cu + H₂O\nII. Neutralisation — reaction classification: Acid and base react to form salt and water\nIII. Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂; Neutralisation — reaction classification: Acid and base react to form salt and water; Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio.",
+        "difficulty": "Hard",
+        "topic": "Thermal decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Photochemical decomposition — reaction classification: Light causes a compound to break down\nII. Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it\nIII. Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Photochemical decomposition — reaction classification: Light causes a compound to break down; Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it; Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂.",
+        "difficulty": "Hard",
+        "topic": "Photochemical decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Photochemical decomposition — defining change: Hydrogen and oxygen form in a 2:1 volume ratio\nII. Reduction of copper oxide by hydrogen — representative equation: CaO + H₂O → Ca(OH)₂\nIII. Combination reaction — reaction classification: Light causes a compound to break down",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Photochemical decomposition — defining change: Light energy drives decomposition; Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O; Combination reaction — reaction classification: Two or more reactants form one principal product.",
+        "difficulty": "Hard",
+        "topic": "Photochemical decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂\nII. Reduction of copper oxide by hydrogen — reaction classification: A compound breaks down on heating\nIII. Combination reaction — defining change: An element displaces a less reactive one from a compound",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂; Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer; Combination reaction — defining change: Several substances combine into one compound.",
+        "difficulty": "Hard",
+        "topic": "Photochemical decomposition · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement reaction — reaction classification: A compound breaks down on heating\nII. Combustion of methane — defining change: Methane reacts completely with oxygen\nIII. Thermal decomposition — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Displacement reaction — reaction classification: A more reactive element replaces another; Combustion of methane — defining change: Methane reacts completely with oxygen; Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂.",
+        "difficulty": "Hard",
+        "topic": "Displacement reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement reaction — defining change: An element displaces a less reactive one from a compound\nII. Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O\nIII. Thermal decomposition — reaction classification: Acid and base react to form salt and water",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Displacement reaction — defining change: An element displaces a less reactive one from a compound; Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O; Thermal decomposition — reaction classification: A compound breaks down on heating.",
+        "difficulty": "Hard",
+        "topic": "Displacement reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Displacement reaction — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl\nII. Combustion of methane — reaction classification: Ions are exchanged between compounds\nIII. Thermal decomposition — defining change: Heat supplies energy for breakdown",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu; Combustion of methane — reaction classification: An exothermic oxidation reaction; Thermal decomposition — defining change: Heat supplies energy for breakdown.",
+        "difficulty": "Hard",
+        "topic": "Displacement reaction · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double displacement — reaction classification: Ions are exchanged between compounds\nII. Electrolytic decomposition of water — defining change: Hydrogen and hydroxide ions combine to form water\nIII. Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Double displacement — reaction classification: Ions are exchanged between compounds; Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio; Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂.",
+        "difficulty": "Hard",
+        "topic": "Double displacement · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double displacement — defining change: Copper oxide loses oxygen while hydrogen gains it\nII. Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂\nIII. Photochemical decomposition — reaction classification: Light causes a compound to break down",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Double displacement — defining change: Two compounds exchange their ionic partners; Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂; Photochemical decomposition — reaction classification: Light causes a compound to break down.",
+        "difficulty": "Hard",
+        "topic": "Double displacement · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl\nII. Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water\nIII. Photochemical decomposition — defining change: Light energy drives decomposition",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl; Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water; Photochemical decomposition — defining change: Light energy drives decomposition.",
+        "difficulty": "Hard",
+        "topic": "Double displacement · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutralisation — reaction classification: A compound breaks down on heating\nII. Combination reaction — defining change: Heat supplies energy for breakdown\nIII. Displacement reaction — representative equation: CaCO₃ → CaO + CO₂",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Neutralisation — reaction classification: Acid and base react to form salt and water; Combination reaction — defining change: Several substances combine into one compound; Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu.",
+        "difficulty": "Hard",
+        "topic": "Neutralisation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water\nII. Combination reaction — representative equation: 2AgCl → 2Ag + Cl₂\nIII. Displacement reaction — reaction classification: Light causes a compound to break down",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water; Combination reaction — representative equation: CaO + H₂O → Ca(OH)₂; Displacement reaction — reaction classification: A more reactive element replaces another.",
+        "difficulty": "Hard",
+        "topic": "Neutralisation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutralisation — representative equation: CaCO₃ → CaO + CO₂\nII. Combination reaction — reaction classification: Two or more reactants form one principal product\nIII. Displacement reaction — defining change: Two compounds exchange their ionic partners",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O; Combination reaction — reaction classification: Two or more reactants form one principal product; Displacement reaction — defining change: An element displaces a less reactive one from a compound.",
+        "difficulty": "Hard",
+        "topic": "Neutralisation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer\nII. Thermal decomposition — defining change: Heat supplies energy for breakdown\nIII. Double displacement — representative equation: HCl + NaOH → NaCl + H₂O",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer; Thermal decomposition — defining change: Heat supplies energy for breakdown; Double displacement — representative equation: Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl.",
+        "difficulty": "Hard",
+        "topic": "Reduction of copper oxide by hydrogen · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduction of copper oxide by hydrogen — defining change: An element displaces a less reactive one from a compound\nII. Thermal decomposition — representative equation: HCl + NaOH → NaCl + H₂O\nIII. Double displacement — reaction classification: Ions are exchanged between compounds",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it; Thermal decomposition — representative equation: CaCO₃ → CaO + CO₂; Double displacement — reaction classification: Ions are exchanged between compounds.",
+        "difficulty": "Hard",
+        "topic": "Reduction of copper oxide by hydrogen · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O\nII. Thermal decomposition — reaction classification: A redox reaction involving oxygen transfer\nIII. Double displacement — defining change: Two compounds exchange their ionic partners",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O; Thermal decomposition — reaction classification: A compound breaks down on heating; Double displacement — defining change: Two compounds exchange their ionic partners.",
+        "difficulty": "Hard",
+        "topic": "Reduction of copper oxide by hydrogen · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combustion of methane — reaction classification: Acid and base react to form salt and water\nII. Photochemical decomposition — defining change: Light energy drives decomposition\nIII. Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Combustion of methane — reaction classification: An exothermic oxidation reaction; Photochemical decomposition — defining change: Light energy drives decomposition; Neutralisation — representative equation: HCl + NaOH → NaCl + H₂O.",
+        "difficulty": "Hard",
+        "topic": "Combustion of methane · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combustion of methane — defining change: Methane reacts completely with oxygen\nII. Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂\nIII. Neutralisation — reaction classification: Acid and base react to form salt and water",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Combustion of methane — defining change: Methane reacts completely with oxygen; Photochemical decomposition — representative equation: 2AgCl → 2Ag + Cl₂; Neutralisation — reaction classification: Acid and base react to form salt and water.",
+        "difficulty": "Hard",
+        "topic": "Combustion of methane · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Combustion of methane — representative equation: 2H₂O → 2H₂ + O₂\nII. Photochemical decomposition — reaction classification: Two or more reactants form one principal product\nIII. Neutralisation — defining change: Heat supplies energy for breakdown",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Combustion of methane — representative equation: CH₄ + 2O₂ → CO₂ + 2H₂O; Photochemical decomposition — reaction classification: Light causes a compound to break down; Neutralisation — defining change: Hydrogen and hydroxide ions combine to form water.",
+        "difficulty": "Hard",
+        "topic": "Combustion of methane · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water\nII. Displacement reaction — defining change: Heat supplies energy for breakdown\nIII. Reduction of copper oxide by hydrogen — representative equation: 2AgCl → 2Ag + Cl₂",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Electrolytic decomposition of water — reaction classification: Electrical energy breaks down water; Displacement reaction — defining change: An element displaces a less reactive one from a compound; Reduction of copper oxide by hydrogen — representative equation: CuO + H₂ → Cu + H₂O.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic decomposition of water · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic decomposition of water — defining change: Heat supplies energy for breakdown\nII. Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu\nIII. Reduction of copper oxide by hydrogen — reaction classification: A more reactive element replaces another",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Electrolytic decomposition of water — defining change: Hydrogen and oxygen form in a 2:1 volume ratio; Displacement reaction — representative equation: Zn + CuSO₄ → ZnSO₄ + Cu; Reduction of copper oxide by hydrogen — reaction classification: A redox reaction involving oxygen transfer.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic decomposition of water · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH02-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂\nII. Displacement reaction — reaction classification: A more reactive element replaces another\nIII. Reduction of copper oxide by hydrogen — defining change: Two compounds exchange their ionic partners",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Electrolytic decomposition of water — representative equation: 2H₂O → 2H₂ + O₂; Displacement reaction — reaction classification: A more reactive element replaces another; Reduction of copper oxide by hydrogen — defining change: Copper oxide loses oxygen while hydrogen gains it.",
+        "difficulty": "Hard",
+        "topic": "Electrolytic decomposition of water · comparing chapter concepts",
+        "sourceChapter": 2
+      }
+    ]
+  }
+}

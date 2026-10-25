@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH10-E": {
+    "id": "SA-DPP-27-SOC-CH10-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch10",
+    "chapterNumber": 10,
+    "chapter": "Food Security",
+    "level": "E",
+    "title": "Food Security – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-10.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-17",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 132,
+      "to": 145
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q01",
+        "question": "Food security requires reliable access to what?",
+        "options": [
+          "Only food exports",
+          "Only one cereal regardless of diet",
+          "Sufficient, safe and nutritious food",
+          "Only expensive imported foods"
+        ],
+        "answer": 2,
+        "explanation": "Food security includes availability, access and nutritional adequacy.",
+        "difficulty": "Easy",
+        "topic": "Food security requires reliable access to what?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q02",
+        "question": "What is a buffer stock?",
+        "options": [
+          "A tax on vegetables",
+          "Food grain held for public purposes such as supply stabilisation",
+          "A private jewellery reserve",
+          "Unused farm machinery only"
+        ],
+        "answer": 1,
+        "explanation": "Public grain stocks can support distribution and emergencies.",
+        "difficulty": "Easy",
+        "topic": "What is a buffer stock?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q03",
+        "question": "What does PDS stand for?",
+        "options": [
+          "Public Distribution System",
+          "Private Development Survey",
+          "Population Data Service",
+          "Primary Drainage Scheme"
+        ],
+        "answer": 0,
+        "explanation": "PDS distributes designated commodities through the public system.",
+        "difficulty": "Easy",
+        "topic": "What does PDS stand for?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q04",
+        "question": "Food availability: which option correctly identifies the food-security concept?",
+        "options": [
+          "The ability to obtain food",
+          "The relationship between food prices and household means",
+          "The quality dimension of the diet",
+          "The supply dimension of food security"
+        ],
+        "answer": 3,
+        "explanation": "Food availability — food-security concept: The supply dimension of food security.",
+        "difficulty": "Easy",
+        "topic": "Food availability · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q05",
+        "question": "Food availability: which option correctly identifies the defining feature?",
+        "options": [
+          "Needs include nutrients as well as sufficient energy",
+          "Grain is stored for designated public purposes",
+          "Food must exist through production, stocks or trade",
+          "People need enough resources to purchase required food"
+        ],
+        "answer": 2,
+        "explanation": "Food availability — defining feature: Food must exist through production, stocks or trade.",
+        "difficulty": "Easy",
+        "topic": "Food availability · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q06",
+        "question": "Food availability: which option correctly identifies the main role or implication?",
+        "options": [
+          "Guarantees every diet is nutritionally balanced",
+          "Adequate national supply does not alone guarantee household access",
+          "Makes all access measures unnecessary",
+          "Proves every household can afford food"
+        ],
+        "answer": 1,
+        "explanation": "Food availability — main role or implication: Adequate national supply does not alone guarantee household access.",
+        "difficulty": "Easy",
+        "topic": "Food availability · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q07",
+        "question": "Food accessibility: which option correctly identifies the food-security concept?",
+        "options": [
+          "The ability to obtain food",
+          "The relationship between food prices and household means",
+          "The quality dimension of the diet",
+          "A publicly held food reserve"
+        ],
+        "answer": 0,
+        "explanation": "Food accessibility — food-security concept: The ability to obtain food.",
+        "difficulty": "Easy",
+        "topic": "Food accessibility · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q08",
+        "question": "Food accessibility: which option correctly identifies the defining feature?",
+        "options": [
+          "Needs include nutrients as well as sufficient energy",
+          "Grain is stored for designated public purposes",
+          "Uses designated distribution arrangements",
+          "Includes physical and economic access"
+        ],
+        "answer": 3,
+        "explanation": "Food accessibility — defining feature: Includes physical and economic access.",
+        "difficulty": "Easy",
+        "topic": "Food accessibility · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q09",
+        "question": "Food accessibility: which option correctly identifies the main role or implication?",
+        "options": [
+          "Is guaranteed whenever food exists anywhere",
+          "Cannot be affected by income",
+          "Low income can restrict access even when markets have food",
+          "Depends only on total national output"
+        ],
+        "answer": 2,
+        "explanation": "Food accessibility — main role or implication: Low income can restrict access even when markets have food.",
+        "difficulty": "Easy",
+        "topic": "Food accessibility · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q10",
+        "question": "Food affordability: which option correctly identifies the food-security concept?",
+        "options": [
+          "A public channel for specified commodities",
+          "The relationship between food prices and household means",
+          "The quality dimension of the diet",
+          "A publicly held food reserve"
+        ],
+        "answer": 1,
+        "explanation": "Food affordability — food-security concept: The relationship between food prices and household means.",
+        "difficulty": "Easy",
+        "topic": "Food affordability · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q11",
+        "question": "Food affordability: which option correctly identifies the defining feature?",
+        "options": [
+          "People need enough resources to purchase required food",
+          "Grain is stored for designated public purposes",
+          "Uses designated distribution arrangements",
+          "Offers a price benchmark within the procurement framework"
+        ],
+        "answer": 0,
+        "explanation": "Food affordability — defining feature: People need enough resources to purchase required food.",
+        "difficulty": "Easy",
+        "topic": "Food affordability · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q12",
+        "question": "Food affordability: which option correctly identifies the main role or implication?",
+        "options": [
+          "Affordability means only food exports",
+          "Household resources do not influence purchases",
+          "Food prices never affect low-income consumers",
+          "A price rise can hurt low-income consumers"
+        ],
+        "answer": 3,
+        "explanation": "Food affordability — main role or implication: A price rise can hurt low-income consumers.",
+        "difficulty": "Easy",
+        "topic": "Food affordability · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q13",
+        "question": "Nutritional adequacy: which option correctly identifies the food-security concept?",
+        "options": [
+          "A public channel for specified commodities",
+          "An announced price-support instrument for specified crops",
+          "The quality dimension of the diet",
+          "A publicly held food reserve"
+        ],
+        "answer": 2,
+        "explanation": "Nutritional adequacy — food-security concept: The quality dimension of the diet.",
+        "difficulty": "Easy",
+        "topic": "Nutritional adequacy · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q14",
+        "question": "Nutritional adequacy: which option correctly identifies the defining feature?",
+        "options": [
+          "Food is provided through a school-based programme",
+          "Needs include nutrients as well as sufficient energy",
+          "Uses designated distribution arrangements",
+          "Offers a price benchmark within the procurement framework"
+        ],
+        "answer": 1,
+        "explanation": "Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy.",
+        "difficulty": "Easy",
+        "topic": "Nutritional adequacy · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q15",
+        "question": "Nutritional adequacy: which option correctly identifies the main role or implication?",
+        "options": [
+          "Enough calories alone do not prove a balanced diet",
+          "Diet quality is unrelated to nutrition",
+          "Enough calories guarantee every nutrient requirement",
+          "Protein and micronutrients are irrelevant"
+        ],
+        "answer": 0,
+        "explanation": "Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet.",
+        "difficulty": "Easy",
+        "topic": "Nutritional adequacy · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q16",
+        "question": "Buffer stock: which option correctly identifies the food-security concept?",
+        "options": [
+          "A public channel for specified commodities",
+          "An announced price-support instrument for specified crops",
+          "A meal-support intervention for children",
+          "A publicly held food reserve"
+        ],
+        "answer": 3,
+        "explanation": "Buffer stock — food-security concept: A publicly held food reserve.",
+        "difficulty": "Easy",
+        "topic": "Buffer stock · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q17",
+        "question": "Buffer stock: which option correctly identifies the defining feature?",
+        "options": [
+          "Food is provided through a school-based programme",
+          "Different foods contribute different nutrients",
+          "Grain is stored for designated public purposes",
+          "Offers a price benchmark within the procurement framework"
+        ],
+        "answer": 2,
+        "explanation": "Buffer stock — defining feature: Grain is stored for designated public purposes.",
+        "difficulty": "Easy",
+        "topic": "Buffer stock · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q18",
+        "question": "Buffer stock: which option correctly identifies the main role or implication?",
+        "options": [
+          "Automatically prevents all storage losses",
+          "Can support distribution and emergency supply",
+          "Can never be used during a supply emergency",
+          "Means only grain left accidentally in a field"
+        ],
+        "answer": 1,
+        "explanation": "Buffer stock — main role or implication: Can support distribution and emergency supply.",
+        "difficulty": "Easy",
+        "topic": "Buffer stock · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q19",
+        "question": "Public Distribution System: which option correctly identifies the food-security concept?",
+        "options": [
+          "A public channel for specified commodities",
+          "An announced price-support instrument for specified crops",
+          "A meal-support intervention for children",
+          "Consumption of a variety of food types"
+        ],
+        "answer": 0,
+        "explanation": "Public Distribution System — food-security concept: A public channel for specified commodities.",
+        "difficulty": "Easy",
+        "topic": "Public Distribution System · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q20",
+        "question": "Public Distribution System: which option correctly identifies the defining feature?",
+        "options": [
+          "Food is provided through a school-based programme",
+          "Different foods contribute different nutrients",
+          "Food must exist through production, stocks or trade",
+          "Uses designated distribution arrangements"
+        ],
+        "answer": 3,
+        "explanation": "Public Distribution System — defining feature: Uses designated distribution arrangements.",
+        "difficulty": "Easy",
+        "topic": "Public Distribution System · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q21",
+        "question": "Public Distribution System: which option correctly identifies the main role or implication?",
+        "options": [
+          "Has no connection to food access",
+          "Guarantees equal access for every person without effective delivery",
+          "Can improve access for eligible households",
+          "Means privately buying any luxury product"
+        ],
+        "answer": 2,
+        "explanation": "Public Distribution System — main role or implication: Can improve access for eligible households.",
+        "difficulty": "Easy",
+        "topic": "Public Distribution System · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q22",
+        "question": "Minimum support price: which option correctly identifies the food-security concept?",
+        "options": [
+          "The supply dimension of food security",
+          "An announced price-support instrument for specified crops",
+          "A meal-support intervention for children",
+          "Consumption of a variety of food types"
+        ],
+        "answer": 1,
+        "explanation": "Minimum support price — food-security concept: An announced price-support instrument for specified crops.",
+        "difficulty": "Easy",
+        "topic": "Minimum support price · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q23",
+        "question": "Minimum support price: which option correctly identifies the defining feature?",
+        "options": [
+          "Offers a price benchmark within the procurement framework",
+          "Different foods contribute different nutrients",
+          "Food must exist through production, stocks or trade",
+          "Includes physical and economic access"
+        ],
+        "answer": 0,
+        "explanation": "Minimum support price — defining feature: Offers a price benchmark within the procurement framework.",
+        "difficulty": "Easy",
+        "topic": "Minimum support price · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q24",
+        "question": "Minimum support price: which option correctly identifies the main role or implication?",
+        "options": [
+          "Measures the number of children receiving meals",
+          "Is the same as each consumer's retail food bill",
+          "Guarantees procurement of every crop from every farmer",
+          "Procurement can contribute grain to public stocks"
+        ],
+        "answer": 3,
+        "explanation": "Minimum support price — main role or implication: Procurement can contribute grain to public stocks.",
+        "difficulty": "Easy",
+        "topic": "Minimum support price · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q25",
+        "question": "School meals: which option correctly identifies the food-security concept?",
+        "options": [
+          "The supply dimension of food security",
+          "The ability to obtain food",
+          "A meal-support intervention for children",
+          "Consumption of a variety of food types"
+        ],
+        "answer": 2,
+        "explanation": "School meals — food-security concept: A meal-support intervention for children.",
+        "difficulty": "Easy",
+        "topic": "School meals · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q26",
+        "question": "School meals: which option correctly identifies the defining feature?",
+        "options": [
+          "People need enough resources to purchase required food",
+          "Food is provided through a school-based programme",
+          "Food must exist through production, stocks or trade",
+          "Includes physical and economic access"
+        ],
+        "answer": 1,
+        "explanation": "School meals — defining feature: Food is provided through a school-based programme.",
+        "difficulty": "Easy",
+        "topic": "School meals · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q27",
+        "question": "School meals: which option correctly identifies the main role or implication?",
+        "options": [
+          "Can support children's nutrition and participation in schooling",
+          "Guarantees every adult a permanent job",
+          "Replaces all household incomes",
+          "Eliminates every food-price change"
+        ],
+        "answer": 0,
+        "explanation": "School meals — main role or implication: Can support children's nutrition and participation in schooling.",
+        "difficulty": "Easy",
+        "topic": "School meals · main role or implication",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q28",
+        "question": "Dietary diversity: which option correctly identifies the food-security concept?",
+        "options": [
+          "The supply dimension of food security",
+          "The ability to obtain food",
+          "The relationship between food prices and household means",
+          "Consumption of a variety of food types"
+        ],
+        "answer": 3,
+        "explanation": "Dietary diversity — food-security concept: Consumption of a variety of food types.",
+        "difficulty": "Easy",
+        "topic": "Dietary diversity · food-security concept",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q29",
+        "question": "Dietary diversity: which option correctly identifies the defining feature?",
+        "options": [
+          "People need enough resources to purchase required food",
+          "Needs include nutrients as well as sufficient energy",
+          "Different foods contribute different nutrients",
+          "Includes physical and economic access"
+        ],
+        "answer": 2,
+        "explanation": "Dietary diversity — defining feature: Different foods contribute different nutrients.",
+        "difficulty": "Easy",
+        "topic": "Dietary diversity · defining feature",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-E-Q30",
+        "question": "Dietary diversity: which option correctly identifies the main role or implication?",
+        "options": [
+          "Means eating only one cereal for life",
+          "Helps reduce dependence on a nutritionally narrow diet",
+          "Has no relation to nutrient adequacy",
+          "Makes total food intake irrelevant"
+        ],
+        "answer": 1,
+        "explanation": "Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet.",
+        "difficulty": "Easy",
+        "topic": "Dietary diversity · main role or implication",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH10-M": {
+    "id": "SA-DPP-27-SOC-CH10-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch10",
+    "chapterNumber": 10,
+    "chapter": "Food Security",
+    "level": "M",
+    "title": "Food Security – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-10.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-18",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 132,
+      "to": 145
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q01",
+        "question": "Why can hunger persist even when national food output is adequate?",
+        "options": [
+          "Adequate output eliminates all poverty",
+          "Some households lack purchasing power or access",
+          "Every household receives equal food automatically",
+          "Production figures measure every person's diet"
+        ],
+        "answer": 1,
+        "explanation": "Availability at national level does not ensure household access.",
+        "difficulty": "Medium",
+        "topic": "Why can hunger persist even when national food output is adequate?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q02",
+        "question": "Why is dietary diversity important?",
+        "options": [
+          "Different foods supply different nutrients",
+          "Only calories matter for all health needs",
+          "Cereals contain every nutrient in ideal amounts",
+          "Vegetables provide no useful nutrients"
+        ],
+        "answer": 0,
+        "explanation": "A varied diet helps meet protein, vitamin and mineral needs.",
+        "difficulty": "Medium",
+        "topic": "Why is dietary diversity important?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q03",
+        "question": "How can school meals support food security?",
+        "options": [
+          "By replacing all family livelihoods",
+          "By guaranteeing all adults employment",
+          "By eliminating every food-price change",
+          "By improving children's access to meals"
+        ],
+        "answer": 3,
+        "explanation": "Meals provide direct nutritional support to participating children.",
+        "difficulty": "Medium",
+        "topic": "How can school meals support food security?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q04",
+        "question": "Which pair correctly matches Food availability with its food-security concept and defining feature, in that order?",
+        "options": [
+          "The supply dimension of food security → Includes physical and economic access",
+          "The relationship between food prices and household means → People need enough resources to purchase required food",
+          "The supply dimension of food security → Food must exist through production, stocks or trade",
+          "The ability to obtain food → Food must exist through production, stocks or trade"
+        ],
+        "answer": 2,
+        "explanation": "Food availability — food-security concept: The supply dimension of food security. Food availability — defining feature: Food must exist through production, stocks or trade. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food availability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q05",
+        "question": "Which pair correctly matches Food availability with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Needs include nutrients as well as sufficient energy → Guarantees every diet is nutritionally balanced",
+          "Food must exist through production, stocks or trade → Adequate national supply does not alone guarantee household access",
+          "People need enough resources to purchase required food → Adequate national supply does not alone guarantee household access",
+          "Food must exist through production, stocks or trade → Proves every household can afford food"
+        ],
+        "answer": 1,
+        "explanation": "Food availability — defining feature: Food must exist through production, stocks or trade. Food availability — main role or implication: Adequate national supply does not alone guarantee household access. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food availability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q06",
+        "question": "Which pair correctly matches Food availability with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Adequate national supply does not alone guarantee household access → The supply dimension of food security",
+          "Makes all access measures unnecessary → The supply dimension of food security",
+          "Adequate national supply does not alone guarantee household access → The ability to obtain food",
+          "Proves every household can afford food → The relationship between food prices and household means"
+        ],
+        "answer": 0,
+        "explanation": "Food availability — main role or implication: Adequate national supply does not alone guarantee household access. Food availability — food-security concept: The supply dimension of food security. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food availability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q07",
+        "question": "Which pair correctly matches Food accessibility with its food-security concept and defining feature, in that order?",
+        "options": [
+          "The relationship between food prices and household means → Includes physical and economic access",
+          "The ability to obtain food → People need enough resources to purchase required food",
+          "The quality dimension of the diet → Needs include nutrients as well as sufficient energy",
+          "The ability to obtain food → Includes physical and economic access"
+        ],
+        "answer": 3,
+        "explanation": "Food accessibility — food-security concept: The ability to obtain food. Food accessibility — defining feature: Includes physical and economic access. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food accessibility",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q08",
+        "question": "Which pair correctly matches Food accessibility with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Includes physical and economic access → Is guaranteed whenever food exists anywhere",
+          "Grain is stored for designated public purposes → Cannot be affected by income",
+          "Includes physical and economic access → Low income can restrict access even when markets have food",
+          "Needs include nutrients as well as sufficient energy → Low income can restrict access even when markets have food"
+        ],
+        "answer": 2,
+        "explanation": "Food accessibility — defining feature: Includes physical and economic access. Food accessibility — main role or implication: Low income can restrict access even when markets have food. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food accessibility",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q09",
+        "question": "Which pair correctly matches Food accessibility with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Is guaranteed whenever food exists anywhere → The quality dimension of the diet",
+          "Low income can restrict access even when markets have food → The ability to obtain food",
+          "Depends only on total national output → The ability to obtain food",
+          "Low income can restrict access even when markets have food → The relationship between food prices and household means"
+        ],
+        "answer": 1,
+        "explanation": "Food accessibility — main role or implication: Low income can restrict access even when markets have food. Food accessibility — food-security concept: The ability to obtain food. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food accessibility",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q10",
+        "question": "Which pair correctly matches Food affordability with its food-security concept and defining feature, in that order?",
+        "options": [
+          "The relationship between food prices and household means → People need enough resources to purchase required food",
+          "The quality dimension of the diet → People need enough resources to purchase required food",
+          "The relationship between food prices and household means → Needs include nutrients as well as sufficient energy",
+          "A publicly held food reserve → Grain is stored for designated public purposes"
+        ],
+        "answer": 0,
+        "explanation": "Food affordability — food-security concept: The relationship between food prices and household means. Food affordability — defining feature: People need enough resources to purchase required food. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food affordability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q11",
+        "question": "Which pair correctly matches Food affordability with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Grain is stored for designated public purposes → A price rise can hurt low-income consumers",
+          "People need enough resources to purchase required food → Household resources do not influence purchases",
+          "Uses designated distribution arrangements → Food prices never affect low-income consumers",
+          "People need enough resources to purchase required food → A price rise can hurt low-income consumers"
+        ],
+        "answer": 3,
+        "explanation": "Food affordability — defining feature: People need enough resources to purchase required food. Food affordability — main role or implication: A price rise can hurt low-income consumers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food affordability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q12",
+        "question": "Which pair correctly matches Food affordability with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "A price rise can hurt low-income consumers → The quality dimension of the diet",
+          "Household resources do not influence purchases → A publicly held food reserve",
+          "A price rise can hurt low-income consumers → The relationship between food prices and household means",
+          "Affordability means only food exports → The relationship between food prices and household means"
+        ],
+        "answer": 2,
+        "explanation": "Food affordability — main role or implication: A price rise can hurt low-income consumers. Food affordability — food-security concept: The relationship between food prices and household means. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Food affordability",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q13",
+        "question": "Which pair correctly matches Nutritional adequacy with its food-security concept and defining feature, in that order?",
+        "options": [
+          "A public channel for specified commodities → Uses designated distribution arrangements",
+          "The quality dimension of the diet → Needs include nutrients as well as sufficient energy",
+          "A publicly held food reserve → Needs include nutrients as well as sufficient energy",
+          "The quality dimension of the diet → Grain is stored for designated public purposes"
+        ],
+        "answer": 1,
+        "explanation": "Nutritional adequacy — food-security concept: The quality dimension of the diet. Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nutritional adequacy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q14",
+        "question": "Which pair correctly matches Nutritional adequacy with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Needs include nutrients as well as sufficient energy → Enough calories alone do not prove a balanced diet",
+          "Uses designated distribution arrangements → Enough calories alone do not prove a balanced diet",
+          "Needs include nutrients as well as sufficient energy → Enough calories guarantee every nutrient requirement",
+          "Offers a price benchmark within the procurement framework → Protein and micronutrients are irrelevant"
+        ],
+        "answer": 0,
+        "explanation": "Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy. Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nutritional adequacy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q15",
+        "question": "Which pair correctly matches Nutritional adequacy with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Diet quality is unrelated to nutrition → The quality dimension of the diet",
+          "Enough calories alone do not prove a balanced diet → A publicly held food reserve",
+          "Enough calories guarantee every nutrient requirement → A public channel for specified commodities",
+          "Enough calories alone do not prove a balanced diet → The quality dimension of the diet"
+        ],
+        "answer": 3,
+        "explanation": "Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet. Nutritional adequacy — food-security concept: The quality dimension of the diet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Nutritional adequacy",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q16",
+        "question": "Which pair correctly matches Buffer stock with its food-security concept and defining feature, in that order?",
+        "options": [
+          "A publicly held food reserve → Uses designated distribution arrangements",
+          "An announced price-support instrument for specified crops → Offers a price benchmark within the procurement framework",
+          "A publicly held food reserve → Grain is stored for designated public purposes",
+          "A public channel for specified commodities → Grain is stored for designated public purposes"
+        ],
+        "answer": 2,
+        "explanation": "Buffer stock — food-security concept: A publicly held food reserve. Buffer stock — defining feature: Grain is stored for designated public purposes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Buffer stock",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q17",
+        "question": "Which pair correctly matches Buffer stock with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Food is provided through a school-based programme → Automatically prevents all storage losses",
+          "Grain is stored for designated public purposes → Can support distribution and emergency supply",
+          "Offers a price benchmark within the procurement framework → Can support distribution and emergency supply",
+          "Grain is stored for designated public purposes → Means only grain left accidentally in a field"
+        ],
+        "answer": 1,
+        "explanation": "Buffer stock — defining feature: Grain is stored for designated public purposes. Buffer stock — main role or implication: Can support distribution and emergency supply. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Buffer stock",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q18",
+        "question": "Which pair correctly matches Buffer stock with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Can support distribution and emergency supply → A publicly held food reserve",
+          "Can never be used during a supply emergency → A publicly held food reserve",
+          "Can support distribution and emergency supply → A public channel for specified commodities",
+          "Means only grain left accidentally in a field → An announced price-support instrument for specified crops"
+        ],
+        "answer": 0,
+        "explanation": "Buffer stock — main role or implication: Can support distribution and emergency supply. Buffer stock — food-security concept: A publicly held food reserve. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Buffer stock",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q19",
+        "question": "Which pair correctly matches Public Distribution System with its food-security concept and defining feature, in that order?",
+        "options": [
+          "An announced price-support instrument for specified crops → Uses designated distribution arrangements",
+          "A public channel for specified commodities → Offers a price benchmark within the procurement framework",
+          "A meal-support intervention for children → Food is provided through a school-based programme",
+          "A public channel for specified commodities → Uses designated distribution arrangements"
+        ],
+        "answer": 3,
+        "explanation": "Public Distribution System — food-security concept: A public channel for specified commodities. Public Distribution System — defining feature: Uses designated distribution arrangements. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public Distribution System",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q20",
+        "question": "Which pair correctly matches Public Distribution System with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Uses designated distribution arrangements → Has no connection to food access",
+          "Different foods contribute different nutrients → Guarantees equal access for every person without effective delivery",
+          "Uses designated distribution arrangements → Can improve access for eligible households",
+          "Food is provided through a school-based programme → Can improve access for eligible households"
+        ],
+        "answer": 2,
+        "explanation": "Public Distribution System — defining feature: Uses designated distribution arrangements. Public Distribution System — main role or implication: Can improve access for eligible households. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public Distribution System",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q21",
+        "question": "Which pair correctly matches Public Distribution System with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Has no connection to food access → A meal-support intervention for children",
+          "Can improve access for eligible households → A public channel for specified commodities",
+          "Means privately buying any luxury product → A public channel for specified commodities",
+          "Can improve access for eligible households → An announced price-support instrument for specified crops"
+        ],
+        "answer": 1,
+        "explanation": "Public Distribution System — main role or implication: Can improve access for eligible households. Public Distribution System — food-security concept: A public channel for specified commodities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Public Distribution System",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q22",
+        "question": "Which pair correctly matches Minimum support price with its food-security concept and defining feature, in that order?",
+        "options": [
+          "An announced price-support instrument for specified crops → Offers a price benchmark within the procurement framework",
+          "A meal-support intervention for children → Offers a price benchmark within the procurement framework",
+          "An announced price-support instrument for specified crops → Food is provided through a school-based programme",
+          "Consumption of a variety of food types → Different foods contribute different nutrients"
+        ],
+        "answer": 0,
+        "explanation": "Minimum support price — food-security concept: An announced price-support instrument for specified crops. Minimum support price — defining feature: Offers a price benchmark within the procurement framework. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Minimum support price",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q23",
+        "question": "Which pair correctly matches Minimum support price with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Different foods contribute different nutrients → Procurement can contribute grain to public stocks",
+          "Offers a price benchmark within the procurement framework → Is the same as each consumer's retail food bill",
+          "Food must exist through production, stocks or trade → Guarantees procurement of every crop from every farmer",
+          "Offers a price benchmark within the procurement framework → Procurement can contribute grain to public stocks"
+        ],
+        "answer": 3,
+        "explanation": "Minimum support price — defining feature: Offers a price benchmark within the procurement framework. Minimum support price — main role or implication: Procurement can contribute grain to public stocks. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Minimum support price",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q24",
+        "question": "Which pair correctly matches Minimum support price with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Procurement can contribute grain to public stocks → A meal-support intervention for children",
+          "Is the same as each consumer's retail food bill → Consumption of a variety of food types",
+          "Procurement can contribute grain to public stocks → An announced price-support instrument for specified crops",
+          "Measures the number of children receiving meals → An announced price-support instrument for specified crops"
+        ],
+        "answer": 2,
+        "explanation": "Minimum support price — main role or implication: Procurement can contribute grain to public stocks. Minimum support price — food-security concept: An announced price-support instrument for specified crops. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Minimum support price",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q25",
+        "question": "Which pair correctly matches School meals with its food-security concept and defining feature, in that order?",
+        "options": [
+          "The supply dimension of food security → Food must exist through production, stocks or trade",
+          "A meal-support intervention for children → Food is provided through a school-based programme",
+          "Consumption of a variety of food types → Food is provided through a school-based programme",
+          "A meal-support intervention for children → Different foods contribute different nutrients"
+        ],
+        "answer": 1,
+        "explanation": "School meals — food-security concept: A meal-support intervention for children. School meals — defining feature: Food is provided through a school-based programme. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "School meals",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q26",
+        "question": "Which pair correctly matches School meals with its defining feature and main role or implication, in that order?",
+        "options": [
+          "Food is provided through a school-based programme → Can support children's nutrition and participation in schooling",
+          "Food must exist through production, stocks or trade → Can support children's nutrition and participation in schooling",
+          "Food is provided through a school-based programme → Replaces all household incomes",
+          "Includes physical and economic access → Eliminates every food-price change"
+        ],
+        "answer": 0,
+        "explanation": "School meals — defining feature: Food is provided through a school-based programme. School meals — main role or implication: Can support children's nutrition and participation in schooling. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "School meals",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q27",
+        "question": "Which pair correctly matches School meals with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Guarantees every adult a permanent job → A meal-support intervention for children",
+          "Can support children's nutrition and participation in schooling → Consumption of a variety of food types",
+          "Replaces all household incomes → The supply dimension of food security",
+          "Can support children's nutrition and participation in schooling → A meal-support intervention for children"
+        ],
+        "answer": 3,
+        "explanation": "School meals — main role or implication: Can support children's nutrition and participation in schooling. School meals — food-security concept: A meal-support intervention for children. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "School meals",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q28",
+        "question": "Which pair correctly matches Dietary diversity with its food-security concept and defining feature, in that order?",
+        "options": [
+          "Consumption of a variety of food types → Food must exist through production, stocks or trade",
+          "The ability to obtain food → Includes physical and economic access",
+          "Consumption of a variety of food types → Different foods contribute different nutrients",
+          "The supply dimension of food security → Different foods contribute different nutrients"
+        ],
+        "answer": 2,
+        "explanation": "Dietary diversity — food-security concept: Consumption of a variety of food types. Dietary diversity — defining feature: Different foods contribute different nutrients. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dietary diversity",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q29",
+        "question": "Which pair correctly matches Dietary diversity with its defining feature and main role or implication, in that order?",
+        "options": [
+          "People need enough resources to purchase required food → Means eating only one cereal for life",
+          "Different foods contribute different nutrients → Helps reduce dependence on a nutritionally narrow diet",
+          "Includes physical and economic access → Helps reduce dependence on a nutritionally narrow diet",
+          "Different foods contribute different nutrients → Makes total food intake irrelevant"
+        ],
+        "answer": 1,
+        "explanation": "Dietary diversity — defining feature: Different foods contribute different nutrients. Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dietary diversity",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-M-Q30",
+        "question": "Which pair correctly matches Dietary diversity with its main role or implication and food-security concept, in that order?",
+        "options": [
+          "Helps reduce dependence on a nutritionally narrow diet → Consumption of a variety of food types",
+          "Has no relation to nutrient adequacy → Consumption of a variety of food types",
+          "Helps reduce dependence on a nutritionally narrow diet → The supply dimension of food security",
+          "Makes total food intake irrelevant → The ability to obtain food"
+        ],
+        "answer": 0,
+        "explanation": "Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet. Dietary diversity — food-security concept: Consumption of a variety of food types. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dietary diversity",
+        "sourceChapter": 10
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH10-H": {
+    "id": "SA-DPP-27-SOC-CH10-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch10",
+    "chapterNumber": 10,
+    "chapter": "Food Security",
+    "level": "H",
+    "title": "Food Security – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-10.json",
+    "scheduledWeek": 6,
+    "lectureId": "SA-M600-LEC-W06-SOC-01",
+    "recommendedDate": "2026-11-19",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 10,
+    "sourcePrintedPages": {
+      "from": 132,
+      "to": 145
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q01",
+        "question": "A household gets enough calories but lacks protein and micronutrients. Is its nutrition fully secure?",
+        "options": [
+          "No, nutritional quality also matters",
+          "Yes, calories alone prove complete nutrition",
+          "Yes, any cereal-only diet is complete",
+          "No, because calories are never needed"
+        ],
+        "answer": 0,
+        "explanation": "Food security is not just the total energy consumed.",
+        "difficulty": "Hard",
+        "topic": "A household gets enough calories but lacks protein and micronutrients. Is its nutrition fully secure?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q02",
+        "question": "Why can poor storage undermine food security even after a good harvest?",
+        "options": [
+          "Stored grain always becomes more nutritious without limit",
+          "Harvest size proves there can be no loss",
+          "Storage cannot affect availability",
+          "Losses reduce usable food supplies"
+        ],
+        "answer": 3,
+        "explanation": "Pests, spoilage and inadequate facilities can reduce available grain.",
+        "difficulty": "Hard",
+        "topic": "Why can poor storage undermine food security even after a good harvest?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q03",
+        "question": "Why combine food distribution with livelihood measures?",
+        "options": [
+          "Distribution alone automatically ends every deprivation",
+          "Only exports affect household diets",
+          "Income and reliable food access address connected causes of hunger",
+          "Employment has no effect on food access"
+        ],
+        "answer": 2,
+        "explanation": "Public support and decent earnings can complement each other.",
+        "difficulty": "Hard",
+        "topic": "Why combine food distribution with livelihood measures?",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food availability — food-security concept: The supply dimension of food security\nII. Buffer stock — defining feature: Includes physical and economic access\nIII. School meals — main role or implication: Eliminates every food-price change",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Food availability — food-security concept: The supply dimension of food security; Buffer stock — defining feature: Grain is stored for designated public purposes; School meals — main role or implication: Can support children's nutrition and participation in schooling.",
+        "difficulty": "Hard",
+        "topic": "Food availability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food availability — defining feature: People need enough resources to purchase required food\nII. Buffer stock — main role or implication: Can support distribution and emergency supply\nIII. School meals — food-security concept: The quality dimension of the diet",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Food availability — defining feature: Food must exist through production, stocks or trade; Buffer stock — main role or implication: Can support distribution and emergency supply; School meals — food-security concept: A meal-support intervention for children.",
+        "difficulty": "Hard",
+        "topic": "Food availability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food availability — main role or implication: Adequate national supply does not alone guarantee household access\nII. Buffer stock — food-security concept: A publicly held food reserve\nIII. School meals — defining feature: Grain is stored for designated public purposes",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Food availability — main role or implication: Adequate national supply does not alone guarantee household access; Buffer stock — food-security concept: A publicly held food reserve; School meals — defining feature: Food is provided through a school-based programme.",
+        "difficulty": "Hard",
+        "topic": "Food availability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food accessibility — food-security concept: A publicly held food reserve\nII. Public Distribution System — defining feature: Grain is stored for designated public purposes\nIII. Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Food accessibility — food-security concept: The ability to obtain food; Public Distribution System — defining feature: Uses designated distribution arrangements; Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet.",
+        "difficulty": "Hard",
+        "topic": "Food accessibility · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food accessibility — defining feature: Includes physical and economic access\nII. Public Distribution System — main role or implication: Has no connection to food access\nIII. Dietary diversity — food-security concept: Consumption of a variety of food types",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Food accessibility — defining feature: Includes physical and economic access; Public Distribution System — main role or implication: Can improve access for eligible households; Dietary diversity — food-security concept: Consumption of a variety of food types.",
+        "difficulty": "Hard",
+        "topic": "Food accessibility · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food accessibility — main role or implication: Cannot be affected by income\nII. Public Distribution System — food-security concept: A public channel for specified commodities\nIII. Dietary diversity — defining feature: Different foods contribute different nutrients",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Food accessibility — main role or implication: Low income can restrict access even when markets have food; Public Distribution System — food-security concept: A public channel for specified commodities; Dietary diversity — defining feature: Different foods contribute different nutrients.",
+        "difficulty": "Hard",
+        "topic": "Food accessibility · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food affordability — food-security concept: The relationship between food prices and household means\nII. Minimum support price — defining feature: Offers a price benchmark within the procurement framework\nIII. Food availability — main role or implication: Adequate national supply does not alone guarantee household access",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Food affordability — food-security concept: The relationship between food prices and household means; Minimum support price — defining feature: Offers a price benchmark within the procurement framework; Food availability — main role or implication: Adequate national supply does not alone guarantee household access.",
+        "difficulty": "Hard",
+        "topic": "Food affordability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food affordability — defining feature: Different foods contribute different nutrients\nII. Minimum support price — main role or implication: Measures the number of children receiving meals\nIII. Food availability — food-security concept: The relationship between food prices and household means",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Food affordability — defining feature: People need enough resources to purchase required food; Minimum support price — main role or implication: Procurement can contribute grain to public stocks; Food availability — food-security concept: The supply dimension of food security.",
+        "difficulty": "Hard",
+        "topic": "Food affordability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Food affordability — main role or implication: A price rise can hurt low-income consumers\nII. Minimum support price — food-security concept: The ability to obtain food\nIII. Food availability — defining feature: Needs include nutrients as well as sufficient energy",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Food affordability — main role or implication: A price rise can hurt low-income consumers; Minimum support price — food-security concept: An announced price-support instrument for specified crops; Food availability — defining feature: Food must exist through production, stocks or trade.",
+        "difficulty": "Hard",
+        "topic": "Food affordability · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nutritional adequacy — food-security concept: The ability to obtain food\nII. School meals — defining feature: Food is provided through a school-based programme\nIII. Food accessibility — main role or implication: Cannot be affected by income",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Nutritional adequacy — food-security concept: The quality dimension of the diet; School meals — defining feature: Food is provided through a school-based programme; Food accessibility — main role or implication: Low income can restrict access even when markets have food.",
+        "difficulty": "Hard",
+        "topic": "Nutritional adequacy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy\nII. School meals — main role or implication: Can support children's nutrition and participation in schooling\nIII. Food accessibility — food-security concept: A public channel for specified commodities",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy; School meals — main role or implication: Can support children's nutrition and participation in schooling; Food accessibility — food-security concept: The ability to obtain food.",
+        "difficulty": "Hard",
+        "topic": "Nutritional adequacy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Nutritional adequacy — main role or implication: Diet quality is unrelated to nutrition\nII. School meals — food-security concept: A publicly held food reserve\nIII. Food accessibility — defining feature: Includes physical and economic access",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet; School meals — food-security concept: A meal-support intervention for children; Food accessibility — defining feature: Includes physical and economic access.",
+        "difficulty": "Hard",
+        "topic": "Nutritional adequacy · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Buffer stock — food-security concept: A publicly held food reserve\nII. Dietary diversity — defining feature: Uses designated distribution arrangements\nIII. Food affordability — main role or implication: A price rise can hurt low-income consumers",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Buffer stock — food-security concept: A publicly held food reserve; Dietary diversity — defining feature: Different foods contribute different nutrients; Food affordability — main role or implication: A price rise can hurt low-income consumers.",
+        "difficulty": "Hard",
+        "topic": "Buffer stock · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Buffer stock — defining feature: Offers a price benchmark within the procurement framework\nII. Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet\nIII. Food affordability — food-security concept: The relationship between food prices and household means",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Buffer stock — defining feature: Grain is stored for designated public purposes; Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet; Food affordability — food-security concept: The relationship between food prices and household means.",
+        "difficulty": "Hard",
+        "topic": "Buffer stock · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Buffer stock — main role or implication: Can support distribution and emergency supply\nII. Dietary diversity — food-security concept: Consumption of a variety of food types\nIII. Food affordability — defining feature: People need enough resources to purchase required food",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Buffer stock — main role or implication: Can support distribution and emergency supply; Dietary diversity — food-security concept: Consumption of a variety of food types; Food affordability — defining feature: People need enough resources to purchase required food.",
+        "difficulty": "Hard",
+        "topic": "Buffer stock · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public Distribution System — food-security concept: Consumption of a variety of food types\nII. Food availability — defining feature: Includes physical and economic access\nIII. Nutritional adequacy — main role or implication: Diet quality is unrelated to nutrition",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Public Distribution System — food-security concept: A public channel for specified commodities; Food availability — defining feature: Food must exist through production, stocks or trade; Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet.",
+        "difficulty": "Hard",
+        "topic": "Public Distribution System · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public Distribution System — defining feature: Uses designated distribution arrangements\nII. Food availability — main role or implication: Makes all access measures unnecessary\nIII. Nutritional adequacy — food-security concept: The relationship between food prices and household means",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Public Distribution System — defining feature: Uses designated distribution arrangements; Food availability — main role or implication: Adequate national supply does not alone guarantee household access; Nutritional adequacy — food-security concept: The quality dimension of the diet.",
+        "difficulty": "Hard",
+        "topic": "Public Distribution System · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Public Distribution System — main role or implication: Has no connection to food access\nII. Food availability — food-security concept: The supply dimension of food security\nIII. Nutritional adequacy — defining feature: Grain is stored for designated public purposes",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Public Distribution System — main role or implication: Can improve access for eligible households; Food availability — food-security concept: The supply dimension of food security; Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy.",
+        "difficulty": "Hard",
+        "topic": "Public Distribution System · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Minimum support price — food-security concept: An announced price-support instrument for specified crops\nII. Food accessibility — defining feature: Includes physical and economic access\nIII. Buffer stock — main role or implication: Automatically prevents all storage losses",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Minimum support price — food-security concept: An announced price-support instrument for specified crops; Food accessibility — defining feature: Includes physical and economic access; Buffer stock — main role or implication: Can support distribution and emergency supply.",
+        "difficulty": "Hard",
+        "topic": "Minimum support price · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Minimum support price — defining feature: Needs include nutrients as well as sufficient energy\nII. Food accessibility — main role or implication: Cannot be affected by income\nIII. Buffer stock — food-security concept: A publicly held food reserve",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Minimum support price — defining feature: Offers a price benchmark within the procurement framework; Food accessibility — main role or implication: Low income can restrict access even when markets have food; Buffer stock — food-security concept: A publicly held food reserve.",
+        "difficulty": "Hard",
+        "topic": "Minimum support price · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Minimum support price — main role or implication: Procurement can contribute grain to public stocks\nII. Food accessibility — food-security concept: An announced price-support instrument for specified crops\nIII. Buffer stock — defining feature: Grain is stored for designated public purposes",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Minimum support price — main role or implication: Procurement can contribute grain to public stocks; Food accessibility — food-security concept: The ability to obtain food; Buffer stock — defining feature: Grain is stored for designated public purposes.",
+        "difficulty": "Hard",
+        "topic": "Minimum support price · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. School meals — food-security concept: A public channel for specified commodities\nII. Food affordability — defining feature: People need enough resources to purchase required food\nIII. Public Distribution System — main role or implication: Can improve access for eligible households",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: School meals — food-security concept: A meal-support intervention for children; Food affordability — defining feature: People need enough resources to purchase required food; Public Distribution System — main role or implication: Can improve access for eligible households.",
+        "difficulty": "Hard",
+        "topic": "School meals · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. School meals — defining feature: Food is provided through a school-based programme\nII. Food affordability — main role or implication: A price rise can hurt low-income consumers\nIII. Public Distribution System — food-security concept: A public channel for specified commodities",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: School meals — defining feature: Food is provided through a school-based programme; Food affordability — main role or implication: A price rise can hurt low-income consumers; Public Distribution System — food-security concept: A public channel for specified commodities.",
+        "difficulty": "Hard",
+        "topic": "School meals · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. School meals — main role or implication: Eliminates every food-price change\nII. Food affordability — food-security concept: The supply dimension of food security\nIII. Public Distribution System — defining feature: Includes physical and economic access",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: School meals — main role or implication: Can support children's nutrition and participation in schooling; Food affordability — food-security concept: The relationship between food prices and household means; Public Distribution System — defining feature: Uses designated distribution arrangements.",
+        "difficulty": "Hard",
+        "topic": "School meals · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dietary diversity — food-security concept: Consumption of a variety of food types\nII. Nutritional adequacy — defining feature: Includes physical and economic access\nIII. Minimum support price — main role or implication: Measures the number of children receiving meals",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Dietary diversity — food-security concept: Consumption of a variety of food types; Nutritional adequacy — defining feature: Needs include nutrients as well as sufficient energy; Minimum support price — main role or implication: Procurement can contribute grain to public stocks.",
+        "difficulty": "Hard",
+        "topic": "Dietary diversity · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dietary diversity — defining feature: Includes physical and economic access\nII. Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet\nIII. Minimum support price — food-security concept: The quality dimension of the diet",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Dietary diversity — defining feature: Different foods contribute different nutrients; Nutritional adequacy — main role or implication: Enough calories alone do not prove a balanced diet; Minimum support price — food-security concept: An announced price-support instrument for specified crops.",
+        "difficulty": "Hard",
+        "topic": "Dietary diversity · comparing chapter concepts",
+        "sourceChapter": 10
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH10-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet\nII. Nutritional adequacy — food-security concept: The quality dimension of the diet\nIII. Minimum support price — defining feature: Grain is stored for designated public purposes",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Dietary diversity — main role or implication: Helps reduce dependence on a nutritionally narrow diet; Nutritional adequacy — food-security concept: The quality dimension of the diet; Minimum support price — defining feature: Offers a price benchmark within the procurement framework.",
+        "difficulty": "Hard",
+        "topic": "Dietary diversity · comparing chapter concepts",
+        "sourceChapter": 10
+      }
+    ]
+  }
+}

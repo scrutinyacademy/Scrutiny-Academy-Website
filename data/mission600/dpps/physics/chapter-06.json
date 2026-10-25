@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-PHY-CH06-E": {
+    "id": "SA-DPP-27-PHY-CH06-E",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "E",
+    "title": "Structure of Atom – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q01",
+        "question": "What is the maximum number of electrons in an orbital?",
+        "options": [
+          "8",
+          "18",
+          "2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "The two electrons in an orbital must have opposite spins.",
+        "difficulty": "Easy",
+        "topic": "What is the maximum number of electrons in an orbital?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q02",
+        "question": "What is the charge of a neutron?",
+        "options": [
+          "+2 elementary charges",
+          "Zero",
+          "+1 elementary charge",
+          "−1 elementary charge"
+        ],
+        "answer": 1,
+        "explanation": "Neutrons are electrically neutral.",
+        "difficulty": "Easy",
+        "topic": "What is the charge of a neutron?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q03",
+        "question": "The atomic number equals the number of what?",
+        "options": [
+          "Protons",
+          "Neutrons always",
+          "Protons plus neutrons",
+          "Orbitals"
+        ],
+        "answer": 0,
+        "explanation": "Each element is defined by its proton number.",
+        "difficulty": "Easy",
+        "topic": "The atomic number equals the number of what?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q04",
+        "question": "Proton: which option correctly identifies the physical identity?",
+        "options": [
+          "An electrically neutral nuclear particle",
+          "A negatively charged subatomic particle",
+          "The number of protons in a nucleus",
+          "A positively charged nuclear particle"
+        ],
+        "answer": 3,
+        "explanation": "Proton — physical identity: A positively charged nuclear particle.",
+        "difficulty": "Easy",
+        "topic": "Proton · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q05",
+        "question": "Proton: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Represented by Z",
+          "Represented by A",
+          "Charge +1 elementary unit",
+          "Charge −1 elementary unit"
+        ],
+        "answer": 2,
+        "explanation": "Proton — charge or defining property: Charge +1 elementary unit.",
+        "difficulty": "Easy",
+        "topic": "Proton · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q06",
+        "question": "Proton: which option correctly identifies the location or standard association?",
+        "options": [
+          "Have the same proton count",
+          "Its count defines atomic number",
+          "Equals electron count in a neutral atom",
+          "Neutron count equals A − Z"
+        ],
+        "answer": 1,
+        "explanation": "Proton — location or standard association: Its count defines atomic number.",
+        "difficulty": "Easy",
+        "topic": "Proton · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q07",
+        "question": "Neutron: which option correctly identifies the physical identity?",
+        "options": [
+          "An electrically neutral nuclear particle",
+          "A negatively charged subatomic particle",
+          "The number of protons in a nucleus",
+          "The total number of protons and neutrons"
+        ],
+        "answer": 0,
+        "explanation": "Neutron — physical identity: An electrically neutral nuclear particle.",
+        "difficulty": "Easy",
+        "topic": "Neutron · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q08",
+        "question": "Neutron: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Represented by Z",
+          "Represented by A",
+          "Same atomic number but different mass numbers",
+          "Zero electric charge"
+        ],
+        "answer": 3,
+        "explanation": "Neutron — charge or defining property: Zero electric charge.",
+        "difficulty": "Easy",
+        "topic": "Neutron · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q09",
+        "question": "Neutron: which option correctly identifies the location or standard association?",
+        "options": [
+          "Have the same proton count",
+          "Associated with angular momentum quantum number l = 0",
+          "Its count contributes to mass number",
+          "Neutron count equals A − Z"
+        ],
+        "answer": 2,
+        "explanation": "Neutron — location or standard association: Its count contributes to mass number.",
+        "difficulty": "Easy",
+        "topic": "Neutron · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q10",
+        "question": "Electron: which option correctly identifies the physical identity?",
+        "options": [
+          "Atoms of one element with different neutron counts",
+          "A negatively charged subatomic particle",
+          "The number of protons in a nucleus",
+          "The total number of protons and neutrons"
+        ],
+        "answer": 1,
+        "explanation": "Electron — physical identity: A negatively charged subatomic particle.",
+        "difficulty": "Easy",
+        "topic": "Electron · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q11",
+        "question": "Electron: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Charge −1 elementary unit",
+          "Represented by A",
+          "Same atomic number but different mass numbers",
+          "Holds at most two electrons"
+        ],
+        "answer": 0,
+        "explanation": "Electron — charge or defining property: Charge −1 elementary unit.",
+        "difficulty": "Easy",
+        "topic": "Electron · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q12",
+        "question": "Electron: which option correctly identifies the location or standard association?",
+        "options": [
+          "Have the same proton count",
+          "Associated with angular momentum quantum number l = 0",
+          "Associated with angular momentum quantum number l = 1",
+          "Occupies allowed states outside the nucleus"
+        ],
+        "answer": 3,
+        "explanation": "Electron — location or standard association: Occupies allowed states outside the nucleus.",
+        "difficulty": "Easy",
+        "topic": "Electron · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q13",
+        "question": "Atomic number: which option correctly identifies the physical identity?",
+        "options": [
+          "Atoms of one element with different neutron counts",
+          "A subshell with one orbital",
+          "The number of protons in a nucleus",
+          "The total number of protons and neutrons"
+        ],
+        "answer": 2,
+        "explanation": "Atomic number — physical identity: The number of protons in a nucleus.",
+        "difficulty": "Easy",
+        "topic": "Atomic number · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q14",
+        "question": "Atomic number: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Holds at most six electrons",
+          "Represented by Z",
+          "Same atomic number but different mass numbers",
+          "Holds at most two electrons"
+        ],
+        "answer": 1,
+        "explanation": "Atomic number — charge or defining property: Represented by Z.",
+        "difficulty": "Easy",
+        "topic": "Atomic number · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q15",
+        "question": "Atomic number: which option correctly identifies the location or standard association?",
+        "options": [
+          "Equals electron count in a neutral atom",
+          "Associated with angular momentum quantum number l = 0",
+          "Associated with angular momentum quantum number l = 1",
+          "Associated with angular momentum quantum number l = 2"
+        ],
+        "answer": 0,
+        "explanation": "Atomic number — location or standard association: Equals electron count in a neutral atom.",
+        "difficulty": "Easy",
+        "topic": "Atomic number · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q16",
+        "question": "Mass number: which option correctly identifies the physical identity?",
+        "options": [
+          "Atoms of one element with different neutron counts",
+          "A subshell with one orbital",
+          "A subshell with three orbitals",
+          "The total number of protons and neutrons"
+        ],
+        "answer": 3,
+        "explanation": "Mass number — physical identity: The total number of protons and neutrons.",
+        "difficulty": "Easy",
+        "topic": "Mass number · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q17",
+        "question": "Mass number: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Holds at most six electrons",
+          "Holds at most ten electrons",
+          "Represented by A",
+          "Holds at most two electrons"
+        ],
+        "answer": 2,
+        "explanation": "Mass number — charge or defining property: Represented by A.",
+        "difficulty": "Easy",
+        "topic": "Mass number · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q18",
+        "question": "Mass number: which option correctly identifies the location or standard association?",
+        "options": [
+          "Its count defines atomic number",
+          "Neutron count equals A − Z",
+          "Associated with angular momentum quantum number l = 1",
+          "Associated with angular momentum quantum number l = 2"
+        ],
+        "answer": 1,
+        "explanation": "Mass number — location or standard association: Neutron count equals A − Z.",
+        "difficulty": "Easy",
+        "topic": "Mass number · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q19",
+        "question": "Isotopes: which option correctly identifies the physical identity?",
+        "options": [
+          "Atoms of one element with different neutron counts",
+          "A subshell with one orbital",
+          "A subshell with three orbitals",
+          "A subshell with five orbitals"
+        ],
+        "answer": 0,
+        "explanation": "Isotopes — physical identity: Atoms of one element with different neutron counts.",
+        "difficulty": "Easy",
+        "topic": "Isotopes · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q20",
+        "question": "Isotopes: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Holds at most six electrons",
+          "Holds at most ten electrons",
+          "Charge +1 elementary unit",
+          "Same atomic number but different mass numbers"
+        ],
+        "answer": 3,
+        "explanation": "Isotopes — charge or defining property: Same atomic number but different mass numbers.",
+        "difficulty": "Easy",
+        "topic": "Isotopes · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q21",
+        "question": "Isotopes: which option correctly identifies the location or standard association?",
+        "options": [
+          "Its count defines atomic number",
+          "Its count contributes to mass number",
+          "Have the same proton count",
+          "Associated with angular momentum quantum number l = 2"
+        ],
+        "answer": 2,
+        "explanation": "Isotopes — location or standard association: Have the same proton count.",
+        "difficulty": "Easy",
+        "topic": "Isotopes · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q22",
+        "question": "s subshell: which option correctly identifies the physical identity?",
+        "options": [
+          "A positively charged nuclear particle",
+          "A subshell with one orbital",
+          "A subshell with three orbitals",
+          "A subshell with five orbitals"
+        ],
+        "answer": 1,
+        "explanation": "s subshell — physical identity: A subshell with one orbital.",
+        "difficulty": "Easy",
+        "topic": "s subshell · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q23",
+        "question": "s subshell: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Holds at most two electrons",
+          "Holds at most ten electrons",
+          "Charge +1 elementary unit",
+          "Zero electric charge"
+        ],
+        "answer": 0,
+        "explanation": "s subshell — charge or defining property: Holds at most two electrons.",
+        "difficulty": "Easy",
+        "topic": "s subshell · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q24",
+        "question": "s subshell: which option correctly identifies the location or standard association?",
+        "options": [
+          "Its count defines atomic number",
+          "Its count contributes to mass number",
+          "Occupies allowed states outside the nucleus",
+          "Associated with angular momentum quantum number l = 0"
+        ],
+        "answer": 3,
+        "explanation": "s subshell — location or standard association: Associated with angular momentum quantum number l = 0.",
+        "difficulty": "Easy",
+        "topic": "s subshell · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q25",
+        "question": "p subshell: which option correctly identifies the physical identity?",
+        "options": [
+          "A positively charged nuclear particle",
+          "An electrically neutral nuclear particle",
+          "A subshell with three orbitals",
+          "A subshell with five orbitals"
+        ],
+        "answer": 2,
+        "explanation": "p subshell — physical identity: A subshell with three orbitals.",
+        "difficulty": "Easy",
+        "topic": "p subshell · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q26",
+        "question": "p subshell: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Charge −1 elementary unit",
+          "Holds at most six electrons",
+          "Charge +1 elementary unit",
+          "Zero electric charge"
+        ],
+        "answer": 1,
+        "explanation": "p subshell — charge or defining property: Holds at most six electrons.",
+        "difficulty": "Easy",
+        "topic": "p subshell · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q27",
+        "question": "p subshell: which option correctly identifies the location or standard association?",
+        "options": [
+          "Associated with angular momentum quantum number l = 1",
+          "Its count contributes to mass number",
+          "Occupies allowed states outside the nucleus",
+          "Equals electron count in a neutral atom"
+        ],
+        "answer": 0,
+        "explanation": "p subshell — location or standard association: Associated with angular momentum quantum number l = 1.",
+        "difficulty": "Easy",
+        "topic": "p subshell · location or standard association",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q28",
+        "question": "d subshell: which option correctly identifies the physical identity?",
+        "options": [
+          "A positively charged nuclear particle",
+          "An electrically neutral nuclear particle",
+          "A negatively charged subatomic particle",
+          "A subshell with five orbitals"
+        ],
+        "answer": 3,
+        "explanation": "d subshell — physical identity: A subshell with five orbitals.",
+        "difficulty": "Easy",
+        "topic": "d subshell · physical identity",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q29",
+        "question": "d subshell: which option correctly identifies the charge or defining property?",
+        "options": [
+          "Charge −1 elementary unit",
+          "Represented by Z",
+          "Holds at most ten electrons",
+          "Zero electric charge"
+        ],
+        "answer": 2,
+        "explanation": "d subshell — charge or defining property: Holds at most ten electrons.",
+        "difficulty": "Easy",
+        "topic": "d subshell · charge or defining property",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-E-Q30",
+        "question": "d subshell: which option correctly identifies the location or standard association?",
+        "options": [
+          "Neutron count equals A − Z",
+          "Associated with angular momentum quantum number l = 2",
+          "Occupies allowed states outside the nucleus",
+          "Equals electron count in a neutral atom"
+        ],
+        "answer": 1,
+        "explanation": "d subshell — location or standard association: Associated with angular momentum quantum number l = 2.",
+        "difficulty": "Easy",
+        "topic": "d subshell · location or standard association",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH06-M": {
+    "id": "SA-DPP-27-PHY-CH06-M",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "M",
+    "title": "Structure of Atom – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q01",
+        "question": "What is the shell distribution of a neutral sodium atom, Z=11?",
+        "options": [
+          "2,6,3",
+          "2,8,1",
+          "2,7,2",
+          "2,8,2"
+        ],
+        "answer": 1,
+        "explanation": "Eleven electrons occupy the shells as 2,8,1 in the school model.",
+        "difficulty": "Medium",
+        "topic": "What is the shell distribution of a neutral sodium atom, Z=11?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q02",
+        "question": "How many orbitals are in a p subshell?",
+        "options": [
+          "3",
+          "1",
+          "5",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "The three p orbitals correspond to three allowed magnetic quantum numbers.",
+        "difficulty": "Medium",
+        "topic": "How many orbitals are in a p subshell?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q03",
+        "question": "An atom has mass number 23 and atomic number 11. Find neutrons.",
+        "options": [
+          "11",
+          "23",
+          "34",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "Neutrons = mass number − proton number = 23−11.",
+        "difficulty": "Medium",
+        "topic": "An atom has mass number 23 and atomic number 11. Find neutrons.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q04",
+        "question": "Which pair correctly matches Proton with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A positively charged nuclear particle → Zero electric charge",
+          "A negatively charged subatomic particle → Charge −1 elementary unit",
+          "A positively charged nuclear particle → Charge +1 elementary unit",
+          "An electrically neutral nuclear particle → Charge +1 elementary unit"
+        ],
+        "answer": 2,
+        "explanation": "Proton — physical identity: A positively charged nuclear particle. Proton — charge or defining property: Charge +1 elementary unit. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Proton",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q05",
+        "question": "Which pair correctly matches Proton with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Represented by Z → Occupies allowed states outside the nucleus",
+          "Charge +1 elementary unit → Its count defines atomic number",
+          "Charge −1 elementary unit → Its count defines atomic number",
+          "Charge +1 elementary unit → Its count contributes to mass number"
+        ],
+        "answer": 1,
+        "explanation": "Proton — charge or defining property: Charge +1 elementary unit. Proton — location or standard association: Its count defines atomic number. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Proton",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q06",
+        "question": "Which pair correctly matches Proton with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Its count defines atomic number → A positively charged nuclear particle",
+          "Equals electron count in a neutral atom → A positively charged nuclear particle",
+          "Its count defines atomic number → An electrically neutral nuclear particle",
+          "Neutron count equals A − Z → A negatively charged subatomic particle"
+        ],
+        "answer": 0,
+        "explanation": "Proton — location or standard association: Its count defines atomic number. Proton — physical identity: A positively charged nuclear particle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Proton",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q07",
+        "question": "Which pair correctly matches Neutron with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A negatively charged subatomic particle → Zero electric charge",
+          "An electrically neutral nuclear particle → Charge −1 elementary unit",
+          "The number of protons in a nucleus → Represented by Z",
+          "An electrically neutral nuclear particle → Zero electric charge"
+        ],
+        "answer": 3,
+        "explanation": "Neutron — physical identity: An electrically neutral nuclear particle. Neutron — charge or defining property: Zero electric charge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q08",
+        "question": "Which pair correctly matches Neutron with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Zero electric charge → Occupies allowed states outside the nucleus",
+          "Represented by A → Equals electron count in a neutral atom",
+          "Zero electric charge → Its count contributes to mass number",
+          "Represented by Z → Its count contributes to mass number"
+        ],
+        "answer": 2,
+        "explanation": "Neutron — charge or defining property: Zero electric charge. Neutron — location or standard association: Its count contributes to mass number. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q09",
+        "question": "Which pair correctly matches Neutron with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Have the same proton count → The number of protons in a nucleus",
+          "Its count contributes to mass number → An electrically neutral nuclear particle",
+          "Neutron count equals A − Z → An electrically neutral nuclear particle",
+          "Its count contributes to mass number → A negatively charged subatomic particle"
+        ],
+        "answer": 1,
+        "explanation": "Neutron — location or standard association: Its count contributes to mass number. Neutron — physical identity: An electrically neutral nuclear particle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Neutron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q10",
+        "question": "Which pair correctly matches Electron with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A negatively charged subatomic particle → Charge −1 elementary unit",
+          "The number of protons in a nucleus → Charge −1 elementary unit",
+          "A negatively charged subatomic particle → Represented by Z",
+          "The total number of protons and neutrons → Represented by A"
+        ],
+        "answer": 0,
+        "explanation": "Electron — physical identity: A negatively charged subatomic particle. Electron — charge or defining property: Charge −1 elementary unit. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q11",
+        "question": "Which pair correctly matches Electron with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Represented by A → Occupies allowed states outside the nucleus",
+          "Charge −1 elementary unit → Equals electron count in a neutral atom",
+          "Same atomic number but different mass numbers → Neutron count equals A − Z",
+          "Charge −1 elementary unit → Occupies allowed states outside the nucleus"
+        ],
+        "answer": 3,
+        "explanation": "Electron — charge or defining property: Charge −1 elementary unit. Electron — location or standard association: Occupies allowed states outside the nucleus. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q12",
+        "question": "Which pair correctly matches Electron with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Occupies allowed states outside the nucleus → The number of protons in a nucleus",
+          "Associated with angular momentum quantum number l = 0 → The total number of protons and neutrons",
+          "Occupies allowed states outside the nucleus → A negatively charged subatomic particle",
+          "Have the same proton count → A negatively charged subatomic particle"
+        ],
+        "answer": 2,
+        "explanation": "Electron — location or standard association: Occupies allowed states outside the nucleus. Electron — physical identity: A negatively charged subatomic particle. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Electron",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q13",
+        "question": "Which pair correctly matches Atomic number with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "Atoms of one element with different neutron counts → Same atomic number but different mass numbers",
+          "The number of protons in a nucleus → Represented by Z",
+          "The total number of protons and neutrons → Represented by Z",
+          "The number of protons in a nucleus → Represented by A"
+        ],
+        "answer": 1,
+        "explanation": "Atomic number — physical identity: The number of protons in a nucleus. Atomic number — charge or defining property: Represented by Z. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q14",
+        "question": "Which pair correctly matches Atomic number with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Represented by Z → Equals electron count in a neutral atom",
+          "Same atomic number but different mass numbers → Equals electron count in a neutral atom",
+          "Represented by Z → Neutron count equals A − Z",
+          "Holds at most two electrons → Have the same proton count"
+        ],
+        "answer": 0,
+        "explanation": "Atomic number — charge or defining property: Represented by Z. Atomic number — location or standard association: Equals electron count in a neutral atom. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q15",
+        "question": "Which pair correctly matches Atomic number with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Associated with angular momentum quantum number l = 0 → The number of protons in a nucleus",
+          "Equals electron count in a neutral atom → The total number of protons and neutrons",
+          "Associated with angular momentum quantum number l = 1 → Atoms of one element with different neutron counts",
+          "Equals electron count in a neutral atom → The number of protons in a nucleus"
+        ],
+        "answer": 3,
+        "explanation": "Atomic number — location or standard association: Equals electron count in a neutral atom. Atomic number — physical identity: The number of protons in a nucleus. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Atomic number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q16",
+        "question": "Which pair correctly matches Mass number with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "The total number of protons and neutrons → Same atomic number but different mass numbers",
+          "A subshell with one orbital → Holds at most two electrons",
+          "The total number of protons and neutrons → Represented by A",
+          "Atoms of one element with different neutron counts → Represented by A"
+        ],
+        "answer": 2,
+        "explanation": "Mass number — physical identity: The total number of protons and neutrons. Mass number — charge or defining property: Represented by A. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Mass number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q17",
+        "question": "Which pair correctly matches Mass number with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Holds at most six electrons → Associated with angular momentum quantum number l = 0",
+          "Represented by A → Neutron count equals A − Z",
+          "Holds at most two electrons → Neutron count equals A − Z",
+          "Represented by A → Have the same proton count"
+        ],
+        "answer": 1,
+        "explanation": "Mass number — charge or defining property: Represented by A. Mass number — location or standard association: Neutron count equals A − Z. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Mass number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q18",
+        "question": "Which pair correctly matches Mass number with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Neutron count equals A − Z → The total number of protons and neutrons",
+          "Associated with angular momentum quantum number l = 1 → The total number of protons and neutrons",
+          "Neutron count equals A − Z → Atoms of one element with different neutron counts",
+          "Associated with angular momentum quantum number l = 2 → A subshell with one orbital"
+        ],
+        "answer": 0,
+        "explanation": "Mass number — location or standard association: Neutron count equals A − Z. Mass number — physical identity: The total number of protons and neutrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Mass number",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q19",
+        "question": "Which pair correctly matches Isotopes with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A subshell with one orbital → Same atomic number but different mass numbers",
+          "Atoms of one element with different neutron counts → Holds at most two electrons",
+          "A subshell with three orbitals → Holds at most six electrons",
+          "Atoms of one element with different neutron counts → Same atomic number but different mass numbers"
+        ],
+        "answer": 3,
+        "explanation": "Isotopes — physical identity: Atoms of one element with different neutron counts. Isotopes — charge or defining property: Same atomic number but different mass numbers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Isotopes",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q20",
+        "question": "Which pair correctly matches Isotopes with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Same atomic number but different mass numbers → Associated with angular momentum quantum number l = 0",
+          "Holds at most ten electrons → Associated with angular momentum quantum number l = 1",
+          "Same atomic number but different mass numbers → Have the same proton count",
+          "Holds at most six electrons → Have the same proton count"
+        ],
+        "answer": 2,
+        "explanation": "Isotopes — charge or defining property: Same atomic number but different mass numbers. Isotopes — location or standard association: Have the same proton count. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Isotopes",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q21",
+        "question": "Which pair correctly matches Isotopes with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Its count defines atomic number → A subshell with three orbitals",
+          "Have the same proton count → Atoms of one element with different neutron counts",
+          "Associated with angular momentum quantum number l = 2 → Atoms of one element with different neutron counts",
+          "Have the same proton count → A subshell with one orbital"
+        ],
+        "answer": 1,
+        "explanation": "Isotopes — location or standard association: Have the same proton count. Isotopes — physical identity: Atoms of one element with different neutron counts. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Isotopes",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q22",
+        "question": "Which pair correctly matches s subshell with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A subshell with one orbital → Holds at most two electrons",
+          "A subshell with three orbitals → Holds at most two electrons",
+          "A subshell with one orbital → Holds at most six electrons",
+          "A subshell with five orbitals → Holds at most ten electrons"
+        ],
+        "answer": 0,
+        "explanation": "s subshell — physical identity: A subshell with one orbital. s subshell — charge or defining property: Holds at most two electrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "s subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q23",
+        "question": "Which pair correctly matches s subshell with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Holds at most ten electrons → Associated with angular momentum quantum number l = 0",
+          "Holds at most two electrons → Associated with angular momentum quantum number l = 1",
+          "Charge +1 elementary unit → Associated with angular momentum quantum number l = 2",
+          "Holds at most two electrons → Associated with angular momentum quantum number l = 0"
+        ],
+        "answer": 3,
+        "explanation": "s subshell — charge or defining property: Holds at most two electrons. s subshell — location or standard association: Associated with angular momentum quantum number l = 0. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "s subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q24",
+        "question": "Which pair correctly matches s subshell with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Associated with angular momentum quantum number l = 0 → A subshell with three orbitals",
+          "Its count contributes to mass number → A subshell with five orbitals",
+          "Associated with angular momentum quantum number l = 0 → A subshell with one orbital",
+          "Its count defines atomic number → A subshell with one orbital"
+        ],
+        "answer": 2,
+        "explanation": "s subshell — location or standard association: Associated with angular momentum quantum number l = 0. s subshell — physical identity: A subshell with one orbital. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "s subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q25",
+        "question": "Which pair correctly matches p subshell with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A positively charged nuclear particle → Charge +1 elementary unit",
+          "A subshell with three orbitals → Holds at most six electrons",
+          "A subshell with five orbitals → Holds at most six electrons",
+          "A subshell with three orbitals → Holds at most ten electrons"
+        ],
+        "answer": 1,
+        "explanation": "p subshell — physical identity: A subshell with three orbitals. p subshell — charge or defining property: Holds at most six electrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "p subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q26",
+        "question": "Which pair correctly matches p subshell with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Holds at most six electrons → Associated with angular momentum quantum number l = 1",
+          "Charge +1 elementary unit → Associated with angular momentum quantum number l = 1",
+          "Holds at most six electrons → Associated with angular momentum quantum number l = 2",
+          "Zero electric charge → Its count defines atomic number"
+        ],
+        "answer": 0,
+        "explanation": "p subshell — charge or defining property: Holds at most six electrons. p subshell — location or standard association: Associated with angular momentum quantum number l = 1. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "p subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q27",
+        "question": "Which pair correctly matches p subshell with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Its count contributes to mass number → A subshell with three orbitals",
+          "Associated with angular momentum quantum number l = 1 → A subshell with five orbitals",
+          "Occupies allowed states outside the nucleus → A positively charged nuclear particle",
+          "Associated with angular momentum quantum number l = 1 → A subshell with three orbitals"
+        ],
+        "answer": 3,
+        "explanation": "p subshell — location or standard association: Associated with angular momentum quantum number l = 1. p subshell — physical identity: A subshell with three orbitals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "p subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q28",
+        "question": "Which pair correctly matches d subshell with its physical identity and charge or defining property, in that order?",
+        "options": [
+          "A subshell with five orbitals → Charge +1 elementary unit",
+          "An electrically neutral nuclear particle → Zero electric charge",
+          "A subshell with five orbitals → Holds at most ten electrons",
+          "A positively charged nuclear particle → Holds at most ten electrons"
+        ],
+        "answer": 2,
+        "explanation": "d subshell — physical identity: A subshell with five orbitals. d subshell — charge or defining property: Holds at most ten electrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "d subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q29",
+        "question": "Which pair correctly matches d subshell with its charge or defining property and location or standard association, in that order?",
+        "options": [
+          "Charge −1 elementary unit → Its count contributes to mass number",
+          "Holds at most ten electrons → Associated with angular momentum quantum number l = 2",
+          "Zero electric charge → Associated with angular momentum quantum number l = 2",
+          "Holds at most ten electrons → Its count defines atomic number"
+        ],
+        "answer": 1,
+        "explanation": "d subshell — charge or defining property: Holds at most ten electrons. d subshell — location or standard association: Associated with angular momentum quantum number l = 2. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "d subshell",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-M-Q30",
+        "question": "Which pair correctly matches d subshell with its location or standard association and physical identity, in that order?",
+        "options": [
+          "Associated with angular momentum quantum number l = 2 → A subshell with five orbitals",
+          "Occupies allowed states outside the nucleus → A subshell with five orbitals",
+          "Associated with angular momentum quantum number l = 2 → A positively charged nuclear particle",
+          "Equals electron count in a neutral atom → An electrically neutral nuclear particle"
+        ],
+        "answer": 0,
+        "explanation": "d subshell — location or standard association: Associated with angular momentum quantum number l = 2. d subshell — physical identity: A subshell with five orbitals. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "d subshell",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-PHY-CH06-H": {
+    "id": "SA-DPP-27-PHY-CH06-H",
+    "kind": "dpp",
+    "subjectId": "physics",
+    "subject": "Physical Science",
+    "subjectCode": "PHY",
+    "chapterId": "c10-physics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Structure of Atom",
+    "level": "H",
+    "title": "Structure of Atom – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/physics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-PHY-03",
+    "recommendedDate": "2026-11-01",
+    "sourceBook": "class 10th physics.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 107,
+      "to": 122
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q01",
+        "question": "Why does an atom emit a line spectrum rather than all possible wavelengths?",
+        "options": [
+          "Electrons move between discrete allowed energies",
+          "Electrons can have every possible bound energy",
+          "The nucleus emits only sound",
+          "All atoms have identical energy gaps"
+        ],
+        "answer": 0,
+        "explanation": "Photon energy equals the difference between two quantised levels.",
+        "difficulty": "Hard",
+        "topic": "Why does an atom emit a line spectrum rather than all possible wavelengths?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q02",
+        "question": "Which electron configuration violates the Pauli principle?",
+        "options": [
+          "Two opposite-spin electrons in one orbital",
+          "One electron in each p orbital",
+          "An empty higher-energy orbital",
+          "Two electrons with the same spin in one orbital"
+        ],
+        "answer": 3,
+        "explanation": "No two electrons in an atom can have all four quantum numbers equal.",
+        "difficulty": "Hard",
+        "topic": "Which electron configuration violates the Pauli principle?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q03",
+        "question": "For the same principal quantum number n=3, what is the maximum shell capacity?",
+        "options": [
+          "9",
+          "32",
+          "18",
+          "8"
+        ],
+        "answer": 2,
+        "explanation": "The maximum is 2n²=2×9=18, although filling follows orbital energies.",
+        "difficulty": "Hard",
+        "topic": "For the same principal quantum number n=3, what is the maximum shell capacity?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Proton — physical identity: A positively charged nuclear particle\nII. Mass number — charge or defining property: Zero electric charge\nIII. p subshell — location or standard association: Associated with angular momentum quantum number l = 1",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Proton — physical identity: A positively charged nuclear particle; Mass number — charge or defining property: Represented by A; p subshell — location or standard association: Associated with angular momentum quantum number l = 1.",
+        "difficulty": "Hard",
+        "topic": "Proton · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Proton — charge or defining property: Charge −1 elementary unit\nII. Mass number — location or standard association: Neutron count equals A − Z\nIII. p subshell — physical identity: A subshell with three orbitals",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Proton — charge or defining property: Charge +1 elementary unit; Mass number — location or standard association: Neutron count equals A − Z; p subshell — physical identity: A subshell with three orbitals.",
+        "difficulty": "Hard",
+        "topic": "Proton · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Proton — location or standard association: Its count defines atomic number\nII. Mass number — physical identity: The total number of protons and neutrons\nIII. p subshell — charge or defining property: Holds at most six electrons",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Proton — location or standard association: Its count defines atomic number; Mass number — physical identity: The total number of protons and neutrons; p subshell — charge or defining property: Holds at most six electrons.",
+        "difficulty": "Hard",
+        "topic": "Proton · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutron — physical identity: The total number of protons and neutrons\nII. Isotopes — charge or defining property: Represented by A\nIII. d subshell — location or standard association: Have the same proton count",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Neutron — physical identity: An electrically neutral nuclear particle; Isotopes — charge or defining property: Same atomic number but different mass numbers; d subshell — location or standard association: Associated with angular momentum quantum number l = 2.",
+        "difficulty": "Hard",
+        "topic": "Neutron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutron — charge or defining property: Zero electric charge\nII. Isotopes — location or standard association: Associated with angular momentum quantum number l = 0\nIII. d subshell — physical identity: A subshell with one orbital",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Neutron — charge or defining property: Zero electric charge; Isotopes — location or standard association: Have the same proton count; d subshell — physical identity: A subshell with five orbitals.",
+        "difficulty": "Hard",
+        "topic": "Neutron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Neutron — location or standard association: Associated with angular momentum quantum number l = 0\nII. Isotopes — physical identity: Atoms of one element with different neutron counts\nIII. d subshell — charge or defining property: Holds at most six electrons",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Neutron — location or standard association: Its count contributes to mass number; Isotopes — physical identity: Atoms of one element with different neutron counts; d subshell — charge or defining property: Holds at most ten electrons.",
+        "difficulty": "Hard",
+        "topic": "Neutron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron — physical identity: A negatively charged subatomic particle\nII. s subshell — charge or defining property: Holds at most two electrons\nIII. Proton — location or standard association: Its count contributes to mass number",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Electron — physical identity: A negatively charged subatomic particle; s subshell — charge or defining property: Holds at most two electrons; Proton — location or standard association: Its count defines atomic number.",
+        "difficulty": "Hard",
+        "topic": "Electron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron — charge or defining property: Holds at most ten electrons\nII. s subshell — location or standard association: Its count defines atomic number\nIII. Proton — physical identity: A positively charged nuclear particle",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Electron — charge or defining property: Charge −1 elementary unit; s subshell — location or standard association: Associated with angular momentum quantum number l = 0; Proton — physical identity: A positively charged nuclear particle.",
+        "difficulty": "Hard",
+        "topic": "Electron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Electron — location or standard association: Occupies allowed states outside the nucleus\nII. s subshell — physical identity: An electrically neutral nuclear particle\nIII. Proton — charge or defining property: Charge +1 elementary unit",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Electron — location or standard association: Occupies allowed states outside the nucleus; s subshell — physical identity: A subshell with one orbital; Proton — charge or defining property: Charge +1 elementary unit.",
+        "difficulty": "Hard",
+        "topic": "Electron · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic number — physical identity: An electrically neutral nuclear particle\nII. p subshell — charge or defining property: Holds at most six electrons\nIII. Neutron — location or standard association: Its count contributes to mass number",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Atomic number — physical identity: The number of protons in a nucleus; p subshell — charge or defining property: Holds at most six electrons; Neutron — location or standard association: Its count contributes to mass number.",
+        "difficulty": "Hard",
+        "topic": "Atomic number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic number — charge or defining property: Represented by Z\nII. p subshell — location or standard association: Associated with angular momentum quantum number l = 1\nIII. Neutron — physical identity: An electrically neutral nuclear particle",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Atomic number — charge or defining property: Represented by Z; p subshell — location or standard association: Associated with angular momentum quantum number l = 1; Neutron — physical identity: An electrically neutral nuclear particle.",
+        "difficulty": "Hard",
+        "topic": "Atomic number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Atomic number — location or standard association: Neutron count equals A − Z\nII. p subshell — physical identity: The total number of protons and neutrons\nIII. Neutron — charge or defining property: Holds at most two electrons",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Atomic number — location or standard association: Equals electron count in a neutral atom; p subshell — physical identity: A subshell with three orbitals; Neutron — charge or defining property: Zero electric charge.",
+        "difficulty": "Hard",
+        "topic": "Atomic number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Mass number — physical identity: The total number of protons and neutrons\nII. d subshell — charge or defining property: Same atomic number but different mass numbers\nIII. Electron — location or standard association: Associated with angular momentum quantum number l = 1",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Mass number — physical identity: The total number of protons and neutrons; d subshell — charge or defining property: Holds at most ten electrons; Electron — location or standard association: Occupies allowed states outside the nucleus.",
+        "difficulty": "Hard",
+        "topic": "Mass number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Mass number — charge or defining property: Holds at most two electrons\nII. d subshell — location or standard association: Associated with angular momentum quantum number l = 2\nIII. Electron — physical identity: A subshell with five orbitals",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Mass number — charge or defining property: Represented by A; d subshell — location or standard association: Associated with angular momentum quantum number l = 2; Electron — physical identity: A negatively charged subatomic particle.",
+        "difficulty": "Hard",
+        "topic": "Mass number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Mass number — location or standard association: Neutron count equals A − Z\nII. d subshell — physical identity: A subshell with five orbitals\nIII. Electron — charge or defining property: Charge +1 elementary unit",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Mass number — location or standard association: Neutron count equals A − Z; d subshell — physical identity: A subshell with five orbitals; Electron — charge or defining property: Charge −1 elementary unit.",
+        "difficulty": "Hard",
+        "topic": "Mass number · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Isotopes — physical identity: A subshell with five orbitals\nII. Proton — charge or defining property: Zero electric charge\nIII. Atomic number — location or standard association: Equals electron count in a neutral atom",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Isotopes — physical identity: Atoms of one element with different neutron counts; Proton — charge or defining property: Charge +1 elementary unit; Atomic number — location or standard association: Equals electron count in a neutral atom.",
+        "difficulty": "Hard",
+        "topic": "Isotopes · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Isotopes — charge or defining property: Same atomic number but different mass numbers\nII. Proton — location or standard association: Occupies allowed states outside the nucleus\nIII. Atomic number — physical identity: The number of protons in a nucleus",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Isotopes — charge or defining property: Same atomic number but different mass numbers; Proton — location or standard association: Its count defines atomic number; Atomic number — physical identity: The number of protons in a nucleus.",
+        "difficulty": "Hard",
+        "topic": "Isotopes · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Isotopes — location or standard association: Its count contributes to mass number\nII. Proton — physical identity: A positively charged nuclear particle\nIII. Atomic number — charge or defining property: Represented by Z",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Isotopes — location or standard association: Have the same proton count; Proton — physical identity: A positively charged nuclear particle; Atomic number — charge or defining property: Represented by Z.",
+        "difficulty": "Hard",
+        "topic": "Isotopes · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. s subshell — physical identity: A subshell with one orbital\nII. Neutron — charge or defining property: Zero electric charge\nIII. Mass number — location or standard association: Neutron count equals A − Z",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: s subshell — physical identity: A subshell with one orbital; Neutron — charge or defining property: Zero electric charge; Mass number — location or standard association: Neutron count equals A − Z.",
+        "difficulty": "Hard",
+        "topic": "s subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. s subshell — charge or defining property: Represented by Z\nII. Neutron — location or standard association: Have the same proton count\nIII. Mass number — physical identity: A subshell with one orbital",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: s subshell — charge or defining property: Holds at most two electrons; Neutron — location or standard association: Its count contributes to mass number; Mass number — physical identity: The total number of protons and neutrons.",
+        "difficulty": "Hard",
+        "topic": "s subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. s subshell — location or standard association: Associated with angular momentum quantum number l = 0\nII. Neutron — physical identity: A subshell with one orbital\nIII. Mass number — charge or defining property: Holds at most six electrons",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: s subshell — location or standard association: Associated with angular momentum quantum number l = 0; Neutron — physical identity: An electrically neutral nuclear particle; Mass number — charge or defining property: Represented by A.",
+        "difficulty": "Hard",
+        "topic": "s subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. p subshell — physical identity: Atoms of one element with different neutron counts\nII. Electron — charge or defining property: Charge −1 elementary unit\nIII. Isotopes — location or standard association: Associated with angular momentum quantum number l = 2",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: p subshell — physical identity: A subshell with three orbitals; Electron — charge or defining property: Charge −1 elementary unit; Isotopes — location or standard association: Have the same proton count.",
+        "difficulty": "Hard",
+        "topic": "p subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. p subshell — charge or defining property: Holds at most six electrons\nII. Electron — location or standard association: Occupies allowed states outside the nucleus\nIII. Isotopes — physical identity: A positively charged nuclear particle",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: p subshell — charge or defining property: Holds at most six electrons; Electron — location or standard association: Occupies allowed states outside the nucleus; Isotopes — physical identity: Atoms of one element with different neutron counts.",
+        "difficulty": "Hard",
+        "topic": "p subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. p subshell — location or standard association: Associated with angular momentum quantum number l = 2\nII. Electron — physical identity: A positively charged nuclear particle\nIII. Isotopes — charge or defining property: Same atomic number but different mass numbers",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: p subshell — location or standard association: Associated with angular momentum quantum number l = 1; Electron — physical identity: A negatively charged subatomic particle; Isotopes — charge or defining property: Same atomic number but different mass numbers.",
+        "difficulty": "Hard",
+        "topic": "p subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. d subshell — physical identity: A subshell with five orbitals\nII. Atomic number — charge or defining property: Zero electric charge\nIII. s subshell — location or standard association: Associated with angular momentum quantum number l = 0",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: d subshell — physical identity: A subshell with five orbitals; Atomic number — charge or defining property: Represented by Z; s subshell — location or standard association: Associated with angular momentum quantum number l = 0.",
+        "difficulty": "Hard",
+        "topic": "d subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. d subshell — charge or defining property: Zero electric charge\nII. Atomic number — location or standard association: Equals electron count in a neutral atom\nIII. s subshell — physical identity: A subshell with one orbital",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: d subshell — charge or defining property: Holds at most ten electrons; Atomic number — location or standard association: Equals electron count in a neutral atom; s subshell — physical identity: A subshell with one orbital.",
+        "difficulty": "Hard",
+        "topic": "d subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-PHY-CH06-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. d subshell — location or standard association: Associated with angular momentum quantum number l = 2\nII. Atomic number — physical identity: The number of protons in a nucleus\nIII. s subshell — charge or defining property: Holds at most two electrons",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: d subshell — location or standard association: Associated with angular momentum quantum number l = 2; Atomic number — physical identity: The number of protons in a nucleus; s subshell — charge or defining property: Holds at most two electrons.",
+        "difficulty": "Hard",
+        "topic": "d subshell · comparing chapter concepts",
+        "sourceChapter": 6
+      }
+    ]
+  }
+}

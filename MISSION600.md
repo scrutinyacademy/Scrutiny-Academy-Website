@@ -2,17 +2,19 @@
 
 ## Current textbook DPP release — 26 October 2026
 
-Mission 600 has **171 published short DPPs across all 57 non-language chapters**:
+Mission 600 has **171 published 30-question DPPs across all 57 non-language chapters**:
 
-| Subject | Chapters | Easy/Medium/Hard sets | Original MCQs |
+| Subject | Chapters | Easy/Medium/Hard sets | MCQs |
 | --- | ---: | ---: | ---: |
-| Mathematics | 14 | 42 | 126 |
-| Physical Science | 12 | 36 | 108 |
-| Biological Science | 10 | 30 | 90 |
-| Social Studies | 21 | 63 | 189 |
-| Total | 57 | 171 | 513 |
+| Mathematics | 14 | 42 | 1,260 |
+| Physical Science | 12 | 36 | 1,080 |
+| Biological Science | 10 | 30 | 900 |
+| Social Studies | 21 | 63 | 1,890 |
+| Total | 57 | 171 | 5,130 |
 
-Each short DPP contains **3 questions**, four options per question, an answer key and an explanation. Easy targets recall/foundation, Medium targets application, and Hard targets reasoning or multi-step work. These are focused practice sets, not full board examination papers. They replace the old player selection that padded Easy/Hard sets using Medium cloze questions. Existing Class 10 textbook banks remain untouched for other learning features.
+Each DPP contains **30 questions and 30 marks**, four options per question, a keyed answer and an explanation. Suggested durations are **30 / 45 / 60 minutes** for Easy / Medium / Hard. The three earlier authored questions in each set are retained. The additional 27 use deterministic numerical exercises in Mathematics and structured concept profiles in the other subjects. Easy emphasises recognition, Medium combines associations or two numerical tasks, and Hard uses multi-statement analysis or three numerical tasks. Distractor configuration excludes known overlapping valid associations and supplies explicit misconceptions where broad policy statements would otherwise be ambiguous.
+
+The resulting 5,130 question prompts are distinct. This counts MCQs, not 5,130 unrelated underlying concepts: repeated practice of a concept is intentional across question formats and difficulty levels. These are chapter practice sets, not full board examination papers. Existing Class 10 textbook banks remain untouched for other learning features.
 
 The chapter lists were matched to the four books supplied for this task: `CLASS 10 SOCIAL.pdf`, `X Mathematics EM 2025-26 (02-11-2024) 2.pdf`, `class 10th physics.pdf`, and `X Biology EM 2025-26.pdf`. Metadata names the source book, chapter and printed chapter page range. Those ranges describe chapter alignment, not exact page citations for every original question. No external syllabus-year claim or independent teacher-review claim is made.
 
@@ -26,12 +28,15 @@ The calendar list and date view link directly to the DPPs. Students can also fil
 
 ## Implementation
 
-- `scripts/mission600/questions.mjs`: authored question source, grouped by subject/chapter/difficulty.
-- `scripts/build-mission600.mjs`: deterministic catalogue and four subject content-file build.
+- `scripts/mission600/questions.mjs`: retained question source and expansion entry point.
+- `scripts/mission600/math-expansion.mjs`: deterministic numerical exercises with worked explanations.
+- `scripts/mission600/fact-tables.mjs`: chapter concept profiles, misconception distractors and valid-association exclusions.
+- `scripts/mission600/expand-dpps.mjs`: recall, paired-association and multi-statement question generation.
+- `scripts/build-mission600.mjs`: deterministic catalogue and chapter content-file build.
 - `data/mission600/catalog.json`: metadata, teaching calendar and existing written-test entries.
-- `data/mission600/dpps/*.json`: published original question sets and keys.
+- `data/mission600/dpps/*/chapter-*.json`: published original question sets and keys.
 - `mission600.js`: catalogue filters and calendar links; legacy Firestore DPP metadata cannot override a versioned local release.
-- `mission600-dpp.js`: loads only the selected subject bank and checks its content version against the catalogue.
+- `mission600-dpp.js`: loads only the selected chapter bank and checks its content version against the catalogue.
 - `sw.js`: fresh Mission 600 content and cache-version update.
 
 Frontend: repository-root static HTML/CSS/JavaScript, published with GitHub Pages. Existing Firebase Auth, Firestore, Functions and Razorpay features remain in place. This change needs no Firebase rules, Functions, payment or database migration. Written-test drafts are not newly published by this release.

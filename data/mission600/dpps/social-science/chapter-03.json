@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH03-E": {
+    "id": "SA-DPP-27-SOC-CH03-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch3",
+    "chapterNumber": 3,
+    "chapter": "Production and Employment",
+    "level": "E",
+    "title": "Production and Employment – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-22",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 29,
+      "to": 44
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q01",
+        "question": "Agriculture belongs mainly to which sector?",
+        "options": [
+          "Quaternary only",
+          "Primary",
+          "Secondary",
+          "Tertiary"
+        ],
+        "answer": 1,
+        "explanation": "It directly uses natural resources.",
+        "difficulty": "Easy",
+        "topic": "Agriculture belongs mainly to which sector?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q02",
+        "question": "Manufacturing cloth from cotton belongs to which sector?",
+        "options": [
+          "Secondary",
+          "Primary",
+          "Tertiary only",
+          "Household consumption only"
+        ],
+        "answer": 0,
+        "explanation": "Manufacturing transforms raw materials into products.",
+        "difficulty": "Easy",
+        "topic": "Manufacturing cloth from cotton belongs to which sector?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q03",
+        "question": "Banking and transport are generally classified as what?",
+        "options": [
+          "Primary cultivation",
+          "Secondary manufacturing only",
+          "Unproductive by definition",
+          "Tertiary activities"
+        ],
+        "answer": 3,
+        "explanation": "Services support people and other economic activities.",
+        "difficulty": "Easy",
+        "topic": "Banking and transport are generally classified as what?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q04",
+        "question": "Primary sector: which option correctly identifies the economic classification?",
+        "options": [
+          "Provision of services",
+          "Employment with formal institutional arrangements",
+          "Natural-resource-based production",
+          "Manufacturing and construction"
+        ],
+        "answer": 2,
+        "explanation": "Primary sector — economic classification: Natural-resource-based production.",
+        "difficulty": "Easy",
+        "topic": "Primary sector · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q05",
+        "question": "Primary sector: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Workers may have low security and limited benefits",
+          "Direct use or extraction of natural resources",
+          "Supplying services rather than directly extracting or manufacturing goods",
+          "Work is expected to follow applicable regulations and protections"
+        ],
+        "answer": 1,
+        "explanation": "Primary sector — defining activity or condition: Direct use or extraction of natural resources.",
+        "difficulty": "Easy",
+        "topic": "Primary sector · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q06",
+        "question": "Primary sector: which option correctly identifies the representative example?",
+        "options": [
+          "Cultivating paddy",
+          "A registered workplace providing recognised benefits",
+          "An unprotected daily-wage job in a small informal enterprise",
+          "Five people doing farm work that three can complete"
+        ],
+        "answer": 0,
+        "explanation": "Primary sector — representative example: Cultivating paddy.",
+        "difficulty": "Easy",
+        "topic": "Primary sector · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q07",
+        "question": "Secondary sector: which option correctly identifies the economic classification?",
+        "options": [
+          "Provision of services",
+          "Employment with formal institutional arrangements",
+          "Employment often lacking formal protections",
+          "Manufacturing and construction"
+        ],
+        "answer": 3,
+        "explanation": "Secondary sector — economic classification: Manufacturing and construction.",
+        "difficulty": "Easy",
+        "topic": "Secondary sector · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q08",
+        "question": "Secondary sector: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Workers may have low security and limited benefits",
+          "Some workers can leave without lowering total output",
+          "Transformation of materials into new products or structures",
+          "Work is expected to follow applicable regulations and protections"
+        ],
+        "answer": 2,
+        "explanation": "Secondary sector — defining activity or condition: Transformation of materials into new products or structures.",
+        "difficulty": "Easy",
+        "topic": "Secondary sector · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q09",
+        "question": "Secondary sector: which option correctly identifies the representative example?",
+        "options": [
+          "A farm labourer lacking work between crop seasons",
+          "Making cloth from cotton",
+          "An unprotected daily-wage job in a small informal enterprise",
+          "Five people doing farm work that three can complete"
+        ],
+        "answer": 1,
+        "explanation": "Secondary sector — representative example: Making cloth from cotton.",
+        "difficulty": "Easy",
+        "topic": "Secondary sector · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q10",
+        "question": "Tertiary sector: which option correctly identifies the economic classification?",
+        "options": [
+          "Provision of services",
+          "Employment with formal institutional arrangements",
+          "Employment often lacking formal protections",
+          "Underemployment hidden within an activity"
+        ],
+        "answer": 0,
+        "explanation": "Tertiary sector — economic classification: Provision of services.",
+        "difficulty": "Easy",
+        "topic": "Tertiary sector · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q11",
+        "question": "Tertiary sector: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Workers may have low security and limited benefits",
+          "Some workers can leave without lowering total output",
+          "Employment is unavailable during part of the year",
+          "Supplying services rather than directly extracting or manufacturing goods"
+        ],
+        "answer": 3,
+        "explanation": "Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods.",
+        "difficulty": "Easy",
+        "topic": "Tertiary sector · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q12",
+        "question": "Tertiary sector: which option correctly identifies the representative example?",
+        "options": [
+          "A farm labourer lacking work between crop seasons",
+          "Bread bought by a household for consumption",
+          "Banking and passenger transport",
+          "Five people doing farm work that three can complete"
+        ],
+        "answer": 2,
+        "explanation": "Tertiary sector — representative example: Banking and passenger transport.",
+        "difficulty": "Easy",
+        "topic": "Tertiary sector · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q13",
+        "question": "Organised-sector employment: which option correctly identifies the economic classification?",
+        "options": [
+          "Worklessness linked to seasonal demand",
+          "Employment with formal institutional arrangements",
+          "Employment often lacking formal protections",
+          "Underemployment hidden within an activity"
+        ],
+        "answer": 1,
+        "explanation": "Organised-sector employment — economic classification: Employment with formal institutional arrangements.",
+        "difficulty": "Easy",
+        "topic": "Organised-sector employment · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q14",
+        "question": "Organised-sector employment: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Work is expected to follow applicable regulations and protections",
+          "Some workers can leave without lowering total output",
+          "Employment is unavailable during part of the year",
+          "Their value includes relevant intermediate inputs"
+        ],
+        "answer": 0,
+        "explanation": "Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections.",
+        "difficulty": "Easy",
+        "topic": "Organised-sector employment · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q15",
+        "question": "Organised-sector employment: which option correctly identifies the representative example?",
+        "options": [
+          "A farm labourer lacking work between crop seasons",
+          "Bread bought by a household for consumption",
+          "Flour bought by a bakery to make bread for sale",
+          "A registered workplace providing recognised benefits"
+        ],
+        "answer": 3,
+        "explanation": "Organised-sector employment — representative example: A registered workplace providing recognised benefits.",
+        "difficulty": "Easy",
+        "topic": "Organised-sector employment · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q16",
+        "question": "Unorganised-sector employment: which option correctly identifies the economic classification?",
+        "options": [
+          "Worklessness linked to seasonal demand",
+          "Products intended for final use in the accounting period",
+          "Employment often lacking formal protections",
+          "Underemployment hidden within an activity"
+        ],
+        "answer": 2,
+        "explanation": "Unorganised-sector employment — economic classification: Employment often lacking formal protections.",
+        "difficulty": "Easy",
+        "topic": "Unorganised-sector employment · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q17",
+        "question": "Unorganised-sector employment: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Their value is incorporated into the final product",
+          "Workers may have low security and limited benefits",
+          "Employment is unavailable during part of the year",
+          "Their value includes relevant intermediate inputs"
+        ],
+        "answer": 1,
+        "explanation": "Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits.",
+        "difficulty": "Easy",
+        "topic": "Unorganised-sector employment · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q18",
+        "question": "Unorganised-sector employment: which option correctly identifies the representative example?",
+        "options": [
+          "An unprotected daily-wage job in a small informal enterprise",
+          "Bread bought by a household for consumption",
+          "Flour bought by a bakery to make bread for sale",
+          "Cultivating paddy"
+        ],
+        "answer": 0,
+        "explanation": "Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise.",
+        "difficulty": "Easy",
+        "topic": "Unorganised-sector employment · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q19",
+        "question": "Disguised unemployment: which option correctly identifies the economic classification?",
+        "options": [
+          "Worklessness linked to seasonal demand",
+          "Products intended for final use in the accounting period",
+          "Inputs used to produce other goods",
+          "Underemployment hidden within an activity"
+        ],
+        "answer": 3,
+        "explanation": "Disguised unemployment — economic classification: Underemployment hidden within an activity.",
+        "difficulty": "Easy",
+        "topic": "Disguised unemployment · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q20",
+        "question": "Disguised unemployment: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Their value is incorporated into the final product",
+          "Direct use or extraction of natural resources",
+          "Some workers can leave without lowering total output",
+          "Their value includes relevant intermediate inputs"
+        ],
+        "answer": 2,
+        "explanation": "Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output.",
+        "difficulty": "Easy",
+        "topic": "Disguised unemployment · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q21",
+        "question": "Disguised unemployment: which option correctly identifies the representative example?",
+        "options": [
+          "Making cloth from cotton",
+          "Five people doing farm work that three can complete",
+          "Flour bought by a bakery to make bread for sale",
+          "Cultivating paddy"
+        ],
+        "answer": 1,
+        "explanation": "Disguised unemployment — representative example: Five people doing farm work that three can complete.",
+        "difficulty": "Easy",
+        "topic": "Disguised unemployment · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q22",
+        "question": "Seasonal unemployment: which option correctly identifies the economic classification?",
+        "options": [
+          "Worklessness linked to seasonal demand",
+          "Products intended for final use in the accounting period",
+          "Inputs used to produce other goods",
+          "Natural-resource-based production"
+        ],
+        "answer": 0,
+        "explanation": "Seasonal unemployment — economic classification: Worklessness linked to seasonal demand.",
+        "difficulty": "Easy",
+        "topic": "Seasonal unemployment · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q23",
+        "question": "Seasonal unemployment: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Their value is incorporated into the final product",
+          "Direct use or extraction of natural resources",
+          "Transformation of materials into new products or structures",
+          "Employment is unavailable during part of the year"
+        ],
+        "answer": 3,
+        "explanation": "Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year.",
+        "difficulty": "Easy",
+        "topic": "Seasonal unemployment · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q24",
+        "question": "Seasonal unemployment: which option correctly identifies the representative example?",
+        "options": [
+          "Making cloth from cotton",
+          "Banking and passenger transport",
+          "A farm labourer lacking work between crop seasons",
+          "Cultivating paddy"
+        ],
+        "answer": 2,
+        "explanation": "Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons.",
+        "difficulty": "Easy",
+        "topic": "Seasonal unemployment · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q25",
+        "question": "Final goods: which option correctly identifies the economic classification?",
+        "options": [
+          "Manufacturing and construction",
+          "Products intended for final use in the accounting period",
+          "Inputs used to produce other goods",
+          "Natural-resource-based production"
+        ],
+        "answer": 1,
+        "explanation": "Final goods — economic classification: Products intended for final use in the accounting period.",
+        "difficulty": "Easy",
+        "topic": "Final goods · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q26",
+        "question": "Final goods: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Their value includes relevant intermediate inputs",
+          "Direct use or extraction of natural resources",
+          "Transformation of materials into new products or structures",
+          "Supplying services rather than directly extracting or manufacturing goods"
+        ],
+        "answer": 0,
+        "explanation": "Final goods — defining activity or condition: Their value includes relevant intermediate inputs.",
+        "difficulty": "Easy",
+        "topic": "Final goods · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q27",
+        "question": "Final goods: which option correctly identifies the representative example?",
+        "options": [
+          "Making cloth from cotton",
+          "Banking and passenger transport",
+          "A registered workplace providing recognised benefits",
+          "Bread bought by a household for consumption"
+        ],
+        "answer": 3,
+        "explanation": "Final goods — representative example: Bread bought by a household for consumption.",
+        "difficulty": "Easy",
+        "topic": "Final goods · representative example",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q28",
+        "question": "Intermediate goods: which option correctly identifies the economic classification?",
+        "options": [
+          "Manufacturing and construction",
+          "Provision of services",
+          "Inputs used to produce other goods",
+          "Natural-resource-based production"
+        ],
+        "answer": 2,
+        "explanation": "Intermediate goods — economic classification: Inputs used to produce other goods.",
+        "difficulty": "Easy",
+        "topic": "Intermediate goods · economic classification",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q29",
+        "question": "Intermediate goods: which option correctly identifies the defining activity or condition?",
+        "options": [
+          "Work is expected to follow applicable regulations and protections",
+          "Their value is incorporated into the final product",
+          "Transformation of materials into new products or structures",
+          "Supplying services rather than directly extracting or manufacturing goods"
+        ],
+        "answer": 1,
+        "explanation": "Intermediate goods — defining activity or condition: Their value is incorporated into the final product.",
+        "difficulty": "Easy",
+        "topic": "Intermediate goods · defining activity or condition",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-E-Q30",
+        "question": "Intermediate goods: which option correctly identifies the representative example?",
+        "options": [
+          "Flour bought by a bakery to make bread for sale",
+          "Banking and passenger transport",
+          "A registered workplace providing recognised benefits",
+          "An unprotected daily-wage job in a small informal enterprise"
+        ],
+        "answer": 0,
+        "explanation": "Intermediate goods — representative example: Flour bought by a bakery to make bread for sale.",
+        "difficulty": "Easy",
+        "topic": "Intermediate goods · representative example",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH03-M": {
+    "id": "SA-DPP-27-SOC-CH03-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch3",
+    "chapterNumber": 3,
+    "chapter": "Production and Employment",
+    "level": "M",
+    "title": "Production and Employment – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 29,
+      "to": 44
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q01",
+        "question": "Five workers share farm work that three could do without reducing output. What is this?",
+        "options": [
+          "Disguised unemployment",
+          "Full productive employment for all five",
+          "Seasonal rainfall",
+          "Industrial growth"
+        ],
+        "answer": 0,
+        "explanation": "Some workers' removal would not reduce output, indicating underemployment.",
+        "difficulty": "Medium",
+        "topic": "Five workers share farm work that three could do without reducing output. What is this?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q02",
+        "question": "Why are only final goods counted to avoid double counting in GDP?",
+        "options": [
+          "Intermediate goods have no value",
+          "Final goods are always imported",
+          "All goods must be counted twice",
+          "Intermediate inputs are already included in final product value"
+        ],
+        "answer": 3,
+        "explanation": "Counting both inputs and their final product would duplicate value.",
+        "difficulty": "Medium",
+        "topic": "Why are only final goods counted to avoid double counting in GDP?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q03",
+        "question": "A worker has no paid leave or job security. Which employment condition does this illustrate?",
+        "options": [
+          "Zero economic activity",
+          "Ownership of all production",
+          "Informal or unorganised employment conditions",
+          "Guaranteed formal protections"
+        ],
+        "answer": 2,
+        "explanation": "Such workers commonly lack enforceable benefits and protection.",
+        "difficulty": "Medium",
+        "topic": "A worker has no paid leave or job security. Which employment condition does this illustrate?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q04",
+        "question": "Which pair correctly matches Primary sector with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Provision of services → Supplying services rather than directly extracting or manufacturing goods",
+          "Natural-resource-based production → Direct use or extraction of natural resources",
+          "Manufacturing and construction → Direct use or extraction of natural resources",
+          "Natural-resource-based production → Transformation of materials into new products or structures"
+        ],
+        "answer": 1,
+        "explanation": "Primary sector — economic classification: Natural-resource-based production. Primary sector — defining activity or condition: Direct use or extraction of natural resources. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q05",
+        "question": "Which pair correctly matches Primary sector with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Direct use or extraction of natural resources → Cultivating paddy",
+          "Supplying services rather than directly extracting or manufacturing goods → Cultivating paddy",
+          "Direct use or extraction of natural resources → Making cloth from cotton",
+          "Work is expected to follow applicable regulations and protections → Banking and passenger transport"
+        ],
+        "answer": 0,
+        "explanation": "Primary sector — defining activity or condition: Direct use or extraction of natural resources. Primary sector — representative example: Cultivating paddy. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q06",
+        "question": "Which pair correctly matches Primary sector with its representative example and economic classification, in that order?",
+        "options": [
+          "A registered workplace providing recognised benefits → Natural-resource-based production",
+          "Cultivating paddy → Manufacturing and construction",
+          "An unprotected daily-wage job in a small informal enterprise → Provision of services",
+          "Cultivating paddy → Natural-resource-based production"
+        ],
+        "answer": 3,
+        "explanation": "Primary sector — representative example: Cultivating paddy. Primary sector — economic classification: Natural-resource-based production. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Primary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q07",
+        "question": "Which pair correctly matches Secondary sector with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Manufacturing and construction → Supplying services rather than directly extracting or manufacturing goods",
+          "Employment with formal institutional arrangements → Work is expected to follow applicable regulations and protections",
+          "Manufacturing and construction → Transformation of materials into new products or structures",
+          "Provision of services → Transformation of materials into new products or structures"
+        ],
+        "answer": 2,
+        "explanation": "Secondary sector — economic classification: Manufacturing and construction. Secondary sector — defining activity or condition: Transformation of materials into new products or structures. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q08",
+        "question": "Which pair correctly matches Secondary sector with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Workers may have low security and limited benefits → A registered workplace providing recognised benefits",
+          "Transformation of materials into new products or structures → Making cloth from cotton",
+          "Work is expected to follow applicable regulations and protections → Making cloth from cotton",
+          "Transformation of materials into new products or structures → Banking and passenger transport"
+        ],
+        "answer": 1,
+        "explanation": "Secondary sector — defining activity or condition: Transformation of materials into new products or structures. Secondary sector — representative example: Making cloth from cotton. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q09",
+        "question": "Which pair correctly matches Secondary sector with its representative example and economic classification, in that order?",
+        "options": [
+          "Making cloth from cotton → Manufacturing and construction",
+          "An unprotected daily-wage job in a small informal enterprise → Manufacturing and construction",
+          "Making cloth from cotton → Provision of services",
+          "Five people doing farm work that three can complete → Employment with formal institutional arrangements"
+        ],
+        "answer": 0,
+        "explanation": "Secondary sector — representative example: Making cloth from cotton. Secondary sector — economic classification: Manufacturing and construction. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Secondary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q10",
+        "question": "Which pair correctly matches Tertiary sector with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Employment with formal institutional arrangements → Supplying services rather than directly extracting or manufacturing goods",
+          "Provision of services → Work is expected to follow applicable regulations and protections",
+          "Employment often lacking formal protections → Workers may have low security and limited benefits",
+          "Provision of services → Supplying services rather than directly extracting or manufacturing goods"
+        ],
+        "answer": 3,
+        "explanation": "Tertiary sector — economic classification: Provision of services. Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tertiary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q11",
+        "question": "Which pair correctly matches Tertiary sector with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Supplying services rather than directly extracting or manufacturing goods → A registered workplace providing recognised benefits",
+          "Some workers can leave without lowering total output → An unprotected daily-wage job in a small informal enterprise",
+          "Supplying services rather than directly extracting or manufacturing goods → Banking and passenger transport",
+          "Workers may have low security and limited benefits → Banking and passenger transport"
+        ],
+        "answer": 2,
+        "explanation": "Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods. Tertiary sector — representative example: Banking and passenger transport. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tertiary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q12",
+        "question": "Which pair correctly matches Tertiary sector with its representative example and economic classification, in that order?",
+        "options": [
+          "A farm labourer lacking work between crop seasons → Employment often lacking formal protections",
+          "Banking and passenger transport → Provision of services",
+          "Five people doing farm work that three can complete → Provision of services",
+          "Banking and passenger transport → Employment with formal institutional arrangements"
+        ],
+        "answer": 1,
+        "explanation": "Tertiary sector — representative example: Banking and passenger transport. Tertiary sector — economic classification: Provision of services. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tertiary sector",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q13",
+        "question": "Which pair correctly matches Organised-sector employment with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Employment with formal institutional arrangements → Work is expected to follow applicable regulations and protections",
+          "Employment often lacking formal protections → Work is expected to follow applicable regulations and protections",
+          "Employment with formal institutional arrangements → Workers may have low security and limited benefits",
+          "Underemployment hidden within an activity → Some workers can leave without lowering total output"
+        ],
+        "answer": 0,
+        "explanation": "Organised-sector employment — economic classification: Employment with formal institutional arrangements. Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Organised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q14",
+        "question": "Which pair correctly matches Organised-sector employment with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Some workers can leave without lowering total output → A registered workplace providing recognised benefits",
+          "Work is expected to follow applicable regulations and protections → An unprotected daily-wage job in a small informal enterprise",
+          "Employment is unavailable during part of the year → Five people doing farm work that three can complete",
+          "Work is expected to follow applicable regulations and protections → A registered workplace providing recognised benefits"
+        ],
+        "answer": 3,
+        "explanation": "Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections. Organised-sector employment — representative example: A registered workplace providing recognised benefits. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Organised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q15",
+        "question": "Which pair correctly matches Organised-sector employment with its representative example and economic classification, in that order?",
+        "options": [
+          "A registered workplace providing recognised benefits → Employment often lacking formal protections",
+          "Bread bought by a household for consumption → Underemployment hidden within an activity",
+          "A registered workplace providing recognised benefits → Employment with formal institutional arrangements",
+          "A farm labourer lacking work between crop seasons → Employment with formal institutional arrangements"
+        ],
+        "answer": 2,
+        "explanation": "Organised-sector employment — representative example: A registered workplace providing recognised benefits. Organised-sector employment — economic classification: Employment with formal institutional arrangements. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Organised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q16",
+        "question": "Which pair correctly matches Unorganised-sector employment with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Worklessness linked to seasonal demand → Employment is unavailable during part of the year",
+          "Employment often lacking formal protections → Workers may have low security and limited benefits",
+          "Underemployment hidden within an activity → Workers may have low security and limited benefits",
+          "Employment often lacking formal protections → Some workers can leave without lowering total output"
+        ],
+        "answer": 1,
+        "explanation": "Unorganised-sector employment — economic classification: Employment often lacking formal protections. Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Unorganised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q17",
+        "question": "Which pair correctly matches Unorganised-sector employment with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Workers may have low security and limited benefits → An unprotected daily-wage job in a small informal enterprise",
+          "Employment is unavailable during part of the year → An unprotected daily-wage job in a small informal enterprise",
+          "Workers may have low security and limited benefits → Five people doing farm work that three can complete",
+          "Their value includes relevant intermediate inputs → A farm labourer lacking work between crop seasons"
+        ],
+        "answer": 0,
+        "explanation": "Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits. Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Unorganised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q18",
+        "question": "Which pair correctly matches Unorganised-sector employment with its representative example and economic classification, in that order?",
+        "options": [
+          "Bread bought by a household for consumption → Employment often lacking formal protections",
+          "An unprotected daily-wage job in a small informal enterprise → Underemployment hidden within an activity",
+          "Flour bought by a bakery to make bread for sale → Worklessness linked to seasonal demand",
+          "An unprotected daily-wage job in a small informal enterprise → Employment often lacking formal protections"
+        ],
+        "answer": 3,
+        "explanation": "Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise. Unorganised-sector employment — economic classification: Employment often lacking formal protections. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Unorganised-sector employment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q19",
+        "question": "Which pair correctly matches Disguised unemployment with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Underemployment hidden within an activity → Employment is unavailable during part of the year",
+          "Products intended for final use in the accounting period → Their value includes relevant intermediate inputs",
+          "Underemployment hidden within an activity → Some workers can leave without lowering total output",
+          "Worklessness linked to seasonal demand → Some workers can leave without lowering total output"
+        ],
+        "answer": 2,
+        "explanation": "Disguised unemployment — economic classification: Underemployment hidden within an activity. Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Disguised unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q20",
+        "question": "Which pair correctly matches Disguised unemployment with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Their value is incorporated into the final product → Bread bought by a household for consumption",
+          "Some workers can leave without lowering total output → Five people doing farm work that three can complete",
+          "Their value includes relevant intermediate inputs → Five people doing farm work that three can complete",
+          "Some workers can leave without lowering total output → A farm labourer lacking work between crop seasons"
+        ],
+        "answer": 1,
+        "explanation": "Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output. Disguised unemployment — representative example: Five people doing farm work that three can complete. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Disguised unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q21",
+        "question": "Which pair correctly matches Disguised unemployment with its representative example and economic classification, in that order?",
+        "options": [
+          "Five people doing farm work that three can complete → Underemployment hidden within an activity",
+          "Flour bought by a bakery to make bread for sale → Underemployment hidden within an activity",
+          "Five people doing farm work that three can complete → Worklessness linked to seasonal demand",
+          "Cultivating paddy → Products intended for final use in the accounting period"
+        ],
+        "answer": 0,
+        "explanation": "Disguised unemployment — representative example: Five people doing farm work that three can complete. Disguised unemployment — economic classification: Underemployment hidden within an activity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Disguised unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q22",
+        "question": "Which pair correctly matches Seasonal unemployment with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Products intended for final use in the accounting period → Employment is unavailable during part of the year",
+          "Worklessness linked to seasonal demand → Their value includes relevant intermediate inputs",
+          "Inputs used to produce other goods → Their value is incorporated into the final product",
+          "Worklessness linked to seasonal demand → Employment is unavailable during part of the year"
+        ],
+        "answer": 3,
+        "explanation": "Seasonal unemployment — economic classification: Worklessness linked to seasonal demand. Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q23",
+        "question": "Which pair correctly matches Seasonal unemployment with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Employment is unavailable during part of the year → Bread bought by a household for consumption",
+          "Direct use or extraction of natural resources → Flour bought by a bakery to make bread for sale",
+          "Employment is unavailable during part of the year → A farm labourer lacking work between crop seasons",
+          "Their value is incorporated into the final product → A farm labourer lacking work between crop seasons"
+        ],
+        "answer": 2,
+        "explanation": "Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year. Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q24",
+        "question": "Which pair correctly matches Seasonal unemployment with its representative example and economic classification, in that order?",
+        "options": [
+          "Making cloth from cotton → Inputs used to produce other goods",
+          "A farm labourer lacking work between crop seasons → Worklessness linked to seasonal demand",
+          "Cultivating paddy → Worklessness linked to seasonal demand",
+          "A farm labourer lacking work between crop seasons → Products intended for final use in the accounting period"
+        ],
+        "answer": 1,
+        "explanation": "Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons. Seasonal unemployment — economic classification: Worklessness linked to seasonal demand. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal unemployment",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q25",
+        "question": "Which pair correctly matches Final goods with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Products intended for final use in the accounting period → Their value includes relevant intermediate inputs",
+          "Inputs used to produce other goods → Their value includes relevant intermediate inputs",
+          "Products intended for final use in the accounting period → Their value is incorporated into the final product",
+          "Natural-resource-based production → Direct use or extraction of natural resources"
+        ],
+        "answer": 0,
+        "explanation": "Final goods — economic classification: Products intended for final use in the accounting period. Final goods — defining activity or condition: Their value includes relevant intermediate inputs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Final goods",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q26",
+        "question": "Which pair correctly matches Final goods with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Direct use or extraction of natural resources → Bread bought by a household for consumption",
+          "Their value includes relevant intermediate inputs → Flour bought by a bakery to make bread for sale",
+          "Transformation of materials into new products or structures → Cultivating paddy",
+          "Their value includes relevant intermediate inputs → Bread bought by a household for consumption"
+        ],
+        "answer": 3,
+        "explanation": "Final goods — defining activity or condition: Their value includes relevant intermediate inputs. Final goods — representative example: Bread bought by a household for consumption. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Final goods",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q27",
+        "question": "Which pair correctly matches Final goods with its representative example and economic classification, in that order?",
+        "options": [
+          "Bread bought by a household for consumption → Inputs used to produce other goods",
+          "Banking and passenger transport → Natural-resource-based production",
+          "Bread bought by a household for consumption → Products intended for final use in the accounting period",
+          "Making cloth from cotton → Products intended for final use in the accounting period"
+        ],
+        "answer": 2,
+        "explanation": "Final goods — representative example: Bread bought by a household for consumption. Final goods — economic classification: Products intended for final use in the accounting period. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Final goods",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q28",
+        "question": "Which pair correctly matches Intermediate goods with its economic classification and defining activity or condition, in that order?",
+        "options": [
+          "Manufacturing and construction → Transformation of materials into new products or structures",
+          "Inputs used to produce other goods → Their value is incorporated into the final product",
+          "Natural-resource-based production → Their value is incorporated into the final product",
+          "Inputs used to produce other goods → Direct use or extraction of natural resources"
+        ],
+        "answer": 1,
+        "explanation": "Intermediate goods — economic classification: Inputs used to produce other goods. Intermediate goods — defining activity or condition: Their value is incorporated into the final product. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intermediate goods",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q29",
+        "question": "Which pair correctly matches Intermediate goods with its defining activity or condition and representative example, in that order?",
+        "options": [
+          "Their value is incorporated into the final product → Flour bought by a bakery to make bread for sale",
+          "Transformation of materials into new products or structures → Flour bought by a bakery to make bread for sale",
+          "Their value is incorporated into the final product → Cultivating paddy",
+          "Supplying services rather than directly extracting or manufacturing goods → Making cloth from cotton"
+        ],
+        "answer": 0,
+        "explanation": "Intermediate goods — defining activity or condition: Their value is incorporated into the final product. Intermediate goods — representative example: Flour bought by a bakery to make bread for sale. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intermediate goods",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-M-Q30",
+        "question": "Which pair correctly matches Intermediate goods with its representative example and economic classification, in that order?",
+        "options": [
+          "Banking and passenger transport → Inputs used to produce other goods",
+          "Flour bought by a bakery to make bread for sale → Natural-resource-based production",
+          "A registered workplace providing recognised benefits → Manufacturing and construction",
+          "Flour bought by a bakery to make bread for sale → Inputs used to produce other goods"
+        ],
+        "answer": 3,
+        "explanation": "Intermediate goods — representative example: Flour bought by a bakery to make bread for sale. Intermediate goods — economic classification: Inputs used to produce other goods. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Intermediate goods",
+        "sourceChapter": 3
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH03-H": {
+    "id": "SA-DPP-27-SOC-CH03-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch3",
+    "chapterNumber": 3,
+    "chapter": "Production and Employment",
+    "level": "H",
+    "title": "Production and Employment – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-03.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-02",
+    "recommendedDate": "2026-10-24",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 3,
+    "sourcePrintedPages": {
+      "from": 29,
+      "to": 44
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q01",
+        "question": "Agriculture employs a large share of workers but produces a much smaller income share. What concern does this raise?",
+        "options": [
+          "Every farmer earns more than every service worker",
+          "Agriculture produces no goods",
+          "All agricultural work is unnecessary",
+          "Low average output per worker and possible underemployment"
+        ],
+        "answer": 3,
+        "explanation": "The disparity suggests a need to improve productivity and create other decent employment.",
+        "difficulty": "Hard",
+        "topic": "Agriculture employs a large share of workers but produces a much smaller income share. What concern does this raise?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q02",
+        "question": "How can irrigation reduce seasonal underemployment?",
+        "options": [
+          "It guarantees identical profits on every farm",
+          "It ends every non-farm job",
+          "It can enable additional crop seasons",
+          "It removes all need for farm labour"
+        ],
+        "answer": 2,
+        "explanation": "More reliable water may support more cropping and related work.",
+        "difficulty": "Hard",
+        "topic": "How can irrigation reduce seasonal underemployment?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q03",
+        "question": "Why should employment policy consider job quality as well as job numbers?",
+        "options": [
+          "Working conditions never affect development",
+          "Low pay, insecurity and unsafe work can persist despite employment",
+          "All paid jobs provide equal security",
+          "Any job automatically ends poverty"
+        ],
+        "answer": 1,
+        "explanation": "Decent livelihoods depend on conditions, earnings and social protection too.",
+        "difficulty": "Hard",
+        "topic": "Why should employment policy consider job quality as well as job numbers?",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary sector — economic classification: Manufacturing and construction\nII. Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits\nIII. Final goods — representative example: Banking and passenger transport",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Primary sector — economic classification: Natural-resource-based production; Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits; Final goods — representative example: Bread bought by a household for consumption.",
+        "difficulty": "Hard",
+        "topic": "Primary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary sector — defining activity or condition: Direct use or extraction of natural resources\nII. Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise\nIII. Final goods — economic classification: Employment with formal institutional arrangements",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Primary sector — defining activity or condition: Direct use or extraction of natural resources; Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise; Final goods — economic classification: Products intended for final use in the accounting period.",
+        "difficulty": "Hard",
+        "topic": "Primary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Primary sector — representative example: A registered workplace providing recognised benefits\nII. Unorganised-sector employment — economic classification: Employment with formal institutional arrangements\nIII. Final goods — defining activity or condition: Their value includes relevant intermediate inputs",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Primary sector — representative example: Cultivating paddy; Unorganised-sector employment — economic classification: Employment often lacking formal protections; Final goods — defining activity or condition: Their value includes relevant intermediate inputs.",
+        "difficulty": "Hard",
+        "topic": "Primary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary sector — economic classification: Manufacturing and construction\nII. Disguised unemployment — defining activity or condition: Workers may have low security and limited benefits\nIII. Intermediate goods — representative example: Flour bought by a bakery to make bread for sale",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Secondary sector — economic classification: Manufacturing and construction; Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output; Intermediate goods — representative example: Flour bought by a bakery to make bread for sale.",
+        "difficulty": "Hard",
+        "topic": "Secondary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary sector — defining activity or condition: Some workers can leave without lowering total output\nII. Disguised unemployment — representative example: Five people doing farm work that three can complete\nIII. Intermediate goods — economic classification: Inputs used to produce other goods",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Secondary sector — defining activity or condition: Transformation of materials into new products or structures; Disguised unemployment — representative example: Five people doing farm work that three can complete; Intermediate goods — economic classification: Inputs used to produce other goods.",
+        "difficulty": "Hard",
+        "topic": "Secondary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Secondary sector — representative example: Making cloth from cotton\nII. Disguised unemployment — economic classification: Underemployment hidden within an activity\nIII. Intermediate goods — defining activity or condition: Their value is incorporated into the final product",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Secondary sector — representative example: Making cloth from cotton; Disguised unemployment — economic classification: Underemployment hidden within an activity; Intermediate goods — defining activity or condition: Their value is incorporated into the final product.",
+        "difficulty": "Hard",
+        "topic": "Secondary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tertiary sector — economic classification: Products intended for final use in the accounting period\nII. Seasonal unemployment — defining activity or condition: Their value is incorporated into the final product\nIII. Primary sector — representative example: Making cloth from cotton",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Tertiary sector — economic classification: Provision of services; Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year; Primary sector — representative example: Cultivating paddy.",
+        "difficulty": "Hard",
+        "topic": "Tertiary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods\nII. Seasonal unemployment — representative example: Cultivating paddy\nIII. Primary sector — economic classification: Provision of services",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods; Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons; Primary sector — economic classification: Natural-resource-based production.",
+        "difficulty": "Hard",
+        "topic": "Tertiary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tertiary sector — representative example: Cultivating paddy\nII. Seasonal unemployment — economic classification: Worklessness linked to seasonal demand\nIII. Primary sector — defining activity or condition: Work is expected to follow applicable regulations and protections",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Tertiary sector — representative example: Banking and passenger transport; Seasonal unemployment — economic classification: Worklessness linked to seasonal demand; Primary sector — defining activity or condition: Direct use or extraction of natural resources.",
+        "difficulty": "Hard",
+        "topic": "Tertiary sector · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Organised-sector employment — economic classification: Employment with formal institutional arrangements\nII. Final goods — defining activity or condition: Their value includes relevant intermediate inputs\nIII. Secondary sector — representative example: An unprotected daily-wage job in a small informal enterprise",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Organised-sector employment — economic classification: Employment with formal institutional arrangements; Final goods — defining activity or condition: Their value includes relevant intermediate inputs; Secondary sector — representative example: Making cloth from cotton.",
+        "difficulty": "Hard",
+        "topic": "Organised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Organised-sector employment — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods\nII. Final goods — representative example: A registered workplace providing recognised benefits\nIII. Secondary sector — economic classification: Manufacturing and construction",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections; Final goods — representative example: Bread bought by a household for consumption; Secondary sector — economic classification: Manufacturing and construction.",
+        "difficulty": "Hard",
+        "topic": "Organised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Organised-sector employment — representative example: A registered workplace providing recognised benefits\nII. Final goods — economic classification: Employment often lacking formal protections\nIII. Secondary sector — defining activity or condition: Transformation of materials into new products or structures",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Organised-sector employment — representative example: A registered workplace providing recognised benefits; Final goods — economic classification: Products intended for final use in the accounting period; Secondary sector — defining activity or condition: Transformation of materials into new products or structures.",
+        "difficulty": "Hard",
+        "topic": "Organised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Unorganised-sector employment — economic classification: Underemployment hidden within an activity\nII. Intermediate goods — defining activity or condition: Their value is incorporated into the final product\nIII. Tertiary sector — representative example: Banking and passenger transport",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Unorganised-sector employment — economic classification: Employment often lacking formal protections; Intermediate goods — defining activity or condition: Their value is incorporated into the final product; Tertiary sector — representative example: Banking and passenger transport.",
+        "difficulty": "Hard",
+        "topic": "Unorganised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits\nII. Intermediate goods — representative example: Flour bought by a bakery to make bread for sale\nIII. Tertiary sector — economic classification: Provision of services",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits; Intermediate goods — representative example: Flour bought by a bakery to make bread for sale; Tertiary sector — economic classification: Provision of services.",
+        "difficulty": "Hard",
+        "topic": "Unorganised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Unorganised-sector employment — representative example: Bread bought by a household for consumption\nII. Intermediate goods — economic classification: Products intended for final use in the accounting period\nIII. Tertiary sector — defining activity or condition: Direct use or extraction of natural resources",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise; Intermediate goods — economic classification: Inputs used to produce other goods; Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods.",
+        "difficulty": "Hard",
+        "topic": "Unorganised-sector employment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Disguised unemployment — economic classification: Underemployment hidden within an activity\nII. Primary sector — defining activity or condition: Transformation of materials into new products or structures\nIII. Organised-sector employment — representative example: Making cloth from cotton",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Disguised unemployment — economic classification: Underemployment hidden within an activity; Primary sector — defining activity or condition: Direct use or extraction of natural resources; Organised-sector employment — representative example: A registered workplace providing recognised benefits.",
+        "difficulty": "Hard",
+        "topic": "Disguised unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Disguised unemployment — defining activity or condition: Direct use or extraction of natural resources\nII. Primary sector — representative example: Cultivating paddy\nIII. Organised-sector employment — economic classification: Provision of services",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output; Primary sector — representative example: Cultivating paddy; Organised-sector employment — economic classification: Employment with formal institutional arrangements.",
+        "difficulty": "Hard",
+        "topic": "Disguised unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Disguised unemployment — representative example: Five people doing farm work that three can complete\nII. Primary sector — economic classification: Natural-resource-based production\nIII. Organised-sector employment — defining activity or condition: Workers may have low security and limited benefits",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Disguised unemployment — representative example: Five people doing farm work that three can complete; Primary sector — economic classification: Natural-resource-based production; Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections.",
+        "difficulty": "Hard",
+        "topic": "Disguised unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal unemployment — economic classification: Provision of services\nII. Secondary sector — defining activity or condition: Workers may have low security and limited benefits\nIII. Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Seasonal unemployment — economic classification: Worklessness linked to seasonal demand; Secondary sector — defining activity or condition: Transformation of materials into new products or structures; Unorganised-sector employment — representative example: An unprotected daily-wage job in a small informal enterprise.",
+        "difficulty": "Hard",
+        "topic": "Seasonal unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year\nII. Secondary sector — representative example: Five people doing farm work that three can complete\nIII. Unorganised-sector employment — economic classification: Employment often lacking formal protections",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year; Secondary sector — representative example: Making cloth from cotton; Unorganised-sector employment — economic classification: Employment often lacking formal protections.",
+        "difficulty": "Hard",
+        "topic": "Seasonal unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal unemployment — representative example: An unprotected daily-wage job in a small informal enterprise\nII. Secondary sector — economic classification: Manufacturing and construction\nIII. Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons; Secondary sector — economic classification: Manufacturing and construction; Unorganised-sector employment — defining activity or condition: Workers may have low security and limited benefits.",
+        "difficulty": "Hard",
+        "topic": "Seasonal unemployment · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Final goods — economic classification: Products intended for final use in the accounting period\nII. Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods\nIII. Disguised unemployment — representative example: Five people doing farm work that three can complete",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Final goods — economic classification: Products intended for final use in the accounting period; Tertiary sector — defining activity or condition: Supplying services rather than directly extracting or manufacturing goods; Disguised unemployment — representative example: Five people doing farm work that three can complete.",
+        "difficulty": "Hard",
+        "topic": "Final goods · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Final goods — defining activity or condition: Employment is unavailable during part of the year\nII. Tertiary sector — representative example: Flour bought by a bakery to make bread for sale\nIII. Disguised unemployment — economic classification: Natural-resource-based production",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Final goods — defining activity or condition: Their value includes relevant intermediate inputs; Tertiary sector — representative example: Banking and passenger transport; Disguised unemployment — economic classification: Underemployment hidden within an activity.",
+        "difficulty": "Hard",
+        "topic": "Final goods · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Final goods — representative example: Bread bought by a household for consumption\nII. Tertiary sector — economic classification: Natural-resource-based production\nIII. Disguised unemployment — defining activity or condition: Transformation of materials into new products or structures",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Final goods — representative example: Bread bought by a household for consumption; Tertiary sector — economic classification: Provision of services; Disguised unemployment — defining activity or condition: Some workers can leave without lowering total output.",
+        "difficulty": "Hard",
+        "topic": "Final goods · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intermediate goods — economic classification: Natural-resource-based production\nII. Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections\nIII. Seasonal unemployment — representative example: Banking and passenger transport",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Intermediate goods — economic classification: Inputs used to produce other goods; Organised-sector employment — defining activity or condition: Work is expected to follow applicable regulations and protections; Seasonal unemployment — representative example: A farm labourer lacking work between crop seasons.",
+        "difficulty": "Hard",
+        "topic": "Intermediate goods · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intermediate goods — defining activity or condition: Their value is incorporated into the final product\nII. Organised-sector employment — representative example: A registered workplace providing recognised benefits\nIII. Seasonal unemployment — economic classification: Employment with formal institutional arrangements",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Intermediate goods — defining activity or condition: Their value is incorporated into the final product; Organised-sector employment — representative example: A registered workplace providing recognised benefits; Seasonal unemployment — economic classification: Worklessness linked to seasonal demand.",
+        "difficulty": "Hard",
+        "topic": "Intermediate goods · comparing chapter concepts",
+        "sourceChapter": 3
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH03-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Intermediate goods — representative example: Banking and passenger transport\nII. Organised-sector employment — economic classification: Employment often lacking formal protections\nIII. Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Intermediate goods — representative example: Flour bought by a bakery to make bread for sale; Organised-sector employment — economic classification: Employment with formal institutional arrangements; Seasonal unemployment — defining activity or condition: Employment is unavailable during part of the year.",
+        "difficulty": "Hard",
+        "topic": "Intermediate goods · comparing chapter concepts",
+        "sourceChapter": 3
+      }
+    ]
+  }
+}

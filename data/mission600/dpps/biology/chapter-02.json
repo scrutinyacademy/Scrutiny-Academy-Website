@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH02-E": {
+    "id": "SA-DPP-27-BIO-CH02-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "E",
+    "title": "Respiration – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-21",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q01",
+        "question": "Which organelle produces much of the ATP during aerobic respiration?",
+        "options": [
+          "Lysosome",
+          "Golgi body",
+          "Mitochondrion",
+          "Ribosome"
+        ],
+        "answer": 2,
+        "explanation": "Mitochondria house major stages of aerobic energy release.",
+        "difficulty": "Easy",
+        "topic": "Which organelle produces much of the ATP during aerobic respiration?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q02",
+        "question": "Which structures are the main gas-exchange surfaces in human lungs?",
+        "options": [
+          "Diaphragm",
+          "Alveoli",
+          "Ribs",
+          "Bronchi cartilage"
+        ],
+        "answer": 1,
+        "explanation": "Alveoli provide thin surfaces near capillaries.",
+        "difficulty": "Easy",
+        "topic": "Which structures are the main gas-exchange surfaces in human lungs?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q03",
+        "question": "Yeast fermentation commonly produces which products?",
+        "options": [
+          "Ethanol and carbon dioxide",
+          "Oxygen and water only",
+          "Urea and glucose",
+          "Starch and nitrogen"
+        ],
+        "answer": 0,
+        "explanation": "Alcoholic fermentation releases ethanol, CO₂ and a small ATP yield.",
+        "difficulty": "Easy",
+        "topic": "Yeast fermentation commonly produces which products?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q04",
+        "question": "Glycolysis: which option correctly identifies the biological description?",
+        "options": [
+          "Oxygen-dependent energy-releasing stages",
+          "Anaerobic conversion of pyruvate in yeast",
+          "Anaerobic pathway during oxygen shortage in muscles",
+          "Initial enzymatic breakdown of glucose"
+        ],
+        "answer": 3,
+        "explanation": "Glycolysis — biological description: Initial enzymatic breakdown of glucose.",
+        "difficulty": "Easy",
+        "topic": "Glycolysis · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q05",
+        "question": "Glycolysis: which option correctly identifies the main site or organism?",
+        "options": [
+          "Thoracic cavity and respiratory passages",
+          "Alveolar-capillary surface",
+          "Cytoplasm",
+          "Yeast cells"
+        ],
+        "answer": 2,
+        "explanation": "Glycolysis — main site or organism: Cytoplasm.",
+        "difficulty": "Easy",
+        "topic": "Glycolysis · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q06",
+        "question": "Glycolysis: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Thoracic volume decreases as the diaphragm relaxes",
+          "Pyruvate and a small net ATP gain",
+          "Lactate with a small ATP yield from glycolysis",
+          "Thoracic volume increases as the diaphragm contracts"
+        ],
+        "answer": 1,
+        "explanation": "Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain.",
+        "difficulty": "Easy",
+        "topic": "Glycolysis · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q07",
+        "question": "Aerobic oxidation after glycolysis: which option correctly identifies the biological description?",
+        "options": [
+          "Oxygen-dependent energy-releasing stages",
+          "Anaerobic conversion of pyruvate in yeast",
+          "Anaerobic pathway during oxygen shortage in muscles",
+          "Movement of air into the lungs"
+        ],
+        "answer": 0,
+        "explanation": "Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages.",
+        "difficulty": "Easy",
+        "topic": "Aerobic oxidation after glycolysis · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q08",
+        "question": "Aerobic oxidation after glycolysis: which option correctly identifies the main site or organism?",
+        "options": [
+          "Muscle-cell cytoplasm",
+          "Thoracic cavity and respiratory passages",
+          "Alveolar-capillary surface",
+          "Mitochondria"
+        ],
+        "answer": 3,
+        "explanation": "Aerobic oxidation after glycolysis — main site or organism: Mitochondria.",
+        "difficulty": "Easy",
+        "topic": "Aerobic oxidation after glycolysis · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q09",
+        "question": "Aerobic oxidation after glycolysis: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Thoracic volume decreases as the diaphragm relaxes",
+          "Oxygen enters blood while carbon dioxide leaves it",
+          "Carbon dioxide, water and a large additional ATP yield",
+          "Thoracic volume increases as the diaphragm contracts"
+        ],
+        "answer": 2,
+        "explanation": "Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield.",
+        "difficulty": "Easy",
+        "topic": "Aerobic oxidation after glycolysis · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q10",
+        "question": "Alcoholic fermentation: which option correctly identifies the biological description?",
+        "options": [
+          "Movement of air out of the lungs",
+          "Anaerobic conversion of pyruvate in yeast",
+          "Anaerobic pathway during oxygen shortage in muscles",
+          "Movement of air into the lungs"
+        ],
+        "answer": 1,
+        "explanation": "Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast.",
+        "difficulty": "Easy",
+        "topic": "Alcoholic fermentation · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q11",
+        "question": "Alcoholic fermentation: which option correctly identifies the main site or organism?",
+        "options": [
+          "Yeast cells",
+          "Thoracic cavity and respiratory passages",
+          "Alveolar-capillary surface",
+          "Systemic tissue capillaries"
+        ],
+        "answer": 0,
+        "explanation": "Alcoholic fermentation — main site or organism: Yeast cells.",
+        "difficulty": "Easy",
+        "topic": "Alcoholic fermentation · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q12",
+        "question": "Alcoholic fermentation: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Thoracic volume decreases as the diaphragm relaxes",
+          "Oxygen enters blood while carbon dioxide leaves it",
+          "Oxygen leaves blood while carbon dioxide enters it",
+          "Ethanol and carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide.",
+        "difficulty": "Easy",
+        "topic": "Alcoholic fermentation · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q13",
+        "question": "Lactic acid formation: which option correctly identifies the biological description?",
+        "options": [
+          "Movement of air out of the lungs",
+          "Diffusion between air spaces and blood",
+          "Anaerobic pathway during oxygen shortage in muscles",
+          "Movement of air into the lungs"
+        ],
+        "answer": 2,
+        "explanation": "Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles.",
+        "difficulty": "Easy",
+        "topic": "Lactic acid formation · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q14",
+        "question": "Lactic acid formation: which option correctly identifies the main site or organism?",
+        "options": [
+          "Mitochondria",
+          "Muscle-cell cytoplasm",
+          "Systemic tissue capillaries",
+          "Fish gill surfaces"
+        ],
+        "answer": 1,
+        "explanation": "Lactic acid formation — main site or organism: Muscle-cell cytoplasm.",
+        "difficulty": "Easy",
+        "topic": "Lactic acid formation · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q15",
+        "question": "Lactic acid formation: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Lactate with a small ATP yield from glycolysis",
+          "Oxygen enters blood while carbon dioxide leaves it",
+          "Oxygen leaves blood while carbon dioxide enters it",
+          "Dissolved oxygen enters the blood from water"
+        ],
+        "answer": 0,
+        "explanation": "Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis.",
+        "difficulty": "Easy",
+        "topic": "Lactic acid formation · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q16",
+        "question": "Inhalation: which option correctly identifies the biological description?",
+        "options": [
+          "Movement of air out of the lungs",
+          "Diffusion between air spaces and blood",
+          "Diffusion between blood and body cells",
+          "Movement of air into the lungs"
+        ],
+        "answer": 3,
+        "explanation": "Inhalation — biological description: Movement of air into the lungs.",
+        "difficulty": "Easy",
+        "topic": "Inhalation · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q17",
+        "question": "Inhalation: which option correctly identifies the main site or organism?",
+        "options": [
+          "Fish gill surfaces",
+          "Cytoplasm",
+          "Thoracic cavity and respiratory passages",
+          "Systemic tissue capillaries"
+        ],
+        "answer": 2,
+        "explanation": "Inhalation — main site or organism: Thoracic cavity and respiratory passages.",
+        "difficulty": "Easy",
+        "topic": "Inhalation · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q18",
+        "question": "Inhalation: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Pyruvate and a small net ATP gain",
+          "Thoracic volume increases as the diaphragm contracts",
+          "Oxygen leaves blood while carbon dioxide enters it",
+          "Dissolved oxygen enters the blood from water"
+        ],
+        "answer": 1,
+        "explanation": "Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts.",
+        "difficulty": "Easy",
+        "topic": "Inhalation · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q19",
+        "question": "Exhalation at rest: which option correctly identifies the biological description?",
+        "options": [
+          "Movement of air out of the lungs",
+          "Diffusion between air spaces and blood",
+          "Diffusion between blood and body cells",
+          "Exchange of dissolved respiratory gases"
+        ],
+        "answer": 0,
+        "explanation": "Exhalation at rest — biological description: Movement of air out of the lungs.",
+        "difficulty": "Easy",
+        "topic": "Exhalation at rest · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q20",
+        "question": "Exhalation at rest: which option correctly identifies the main site or organism?",
+        "options": [
+          "Fish gill surfaces",
+          "Cytoplasm",
+          "Mitochondria",
+          "Thoracic cavity and respiratory passages"
+        ],
+        "answer": 3,
+        "explanation": "Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages.",
+        "difficulty": "Easy",
+        "topic": "Exhalation at rest · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q21",
+        "question": "Exhalation at rest: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Pyruvate and a small net ATP gain",
+          "Carbon dioxide, water and a large additional ATP yield",
+          "Thoracic volume decreases as the diaphragm relaxes",
+          "Dissolved oxygen enters the blood from water"
+        ],
+        "answer": 2,
+        "explanation": "Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes.",
+        "difficulty": "Easy",
+        "topic": "Exhalation at rest · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q22",
+        "question": "Alveolar gas exchange: which option correctly identifies the biological description?",
+        "options": [
+          "Initial enzymatic breakdown of glucose",
+          "Diffusion between air spaces and blood",
+          "Diffusion between blood and body cells",
+          "Exchange of dissolved respiratory gases"
+        ],
+        "answer": 1,
+        "explanation": "Alveolar gas exchange — biological description: Diffusion between air spaces and blood.",
+        "difficulty": "Easy",
+        "topic": "Alveolar gas exchange · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q23",
+        "question": "Alveolar gas exchange: which option correctly identifies the main site or organism?",
+        "options": [
+          "Alveolar-capillary surface",
+          "Cytoplasm",
+          "Mitochondria",
+          "Yeast cells"
+        ],
+        "answer": 0,
+        "explanation": "Alveolar gas exchange — main site or organism: Alveolar-capillary surface.",
+        "difficulty": "Easy",
+        "topic": "Alveolar gas exchange · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q24",
+        "question": "Alveolar gas exchange: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Pyruvate and a small net ATP gain",
+          "Carbon dioxide, water and a large additional ATP yield",
+          "Ethanol and carbon dioxide",
+          "Oxygen enters blood while carbon dioxide leaves it"
+        ],
+        "answer": 3,
+        "explanation": "Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it.",
+        "difficulty": "Easy",
+        "topic": "Alveolar gas exchange · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q25",
+        "question": "Tissue gas exchange: which option correctly identifies the biological description?",
+        "options": [
+          "Initial enzymatic breakdown of glucose",
+          "Oxygen-dependent energy-releasing stages",
+          "Diffusion between blood and body cells",
+          "Exchange of dissolved respiratory gases"
+        ],
+        "answer": 2,
+        "explanation": "Tissue gas exchange — biological description: Diffusion between blood and body cells.",
+        "difficulty": "Easy",
+        "topic": "Tissue gas exchange · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q26",
+        "question": "Tissue gas exchange: which option correctly identifies the main site or organism?",
+        "options": [
+          "Muscle-cell cytoplasm",
+          "Systemic tissue capillaries",
+          "Mitochondria",
+          "Yeast cells"
+        ],
+        "answer": 1,
+        "explanation": "Tissue gas exchange — main site or organism: Systemic tissue capillaries.",
+        "difficulty": "Easy",
+        "topic": "Tissue gas exchange · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q27",
+        "question": "Tissue gas exchange: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Oxygen leaves blood while carbon dioxide enters it",
+          "Carbon dioxide, water and a large additional ATP yield",
+          "Ethanol and carbon dioxide",
+          "Lactate with a small ATP yield from glycolysis"
+        ],
+        "answer": 0,
+        "explanation": "Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it.",
+        "difficulty": "Easy",
+        "topic": "Tissue gas exchange · main product or physical effect",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q28",
+        "question": "Breathing through gills: which option correctly identifies the biological description?",
+        "options": [
+          "Initial enzymatic breakdown of glucose",
+          "Oxygen-dependent energy-releasing stages",
+          "Anaerobic conversion of pyruvate in yeast",
+          "Exchange of dissolved respiratory gases"
+        ],
+        "answer": 3,
+        "explanation": "Breathing through gills — biological description: Exchange of dissolved respiratory gases.",
+        "difficulty": "Easy",
+        "topic": "Breathing through gills · biological description",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q29",
+        "question": "Breathing through gills: which option correctly identifies the main site or organism?",
+        "options": [
+          "Muscle-cell cytoplasm",
+          "Thoracic cavity and respiratory passages",
+          "Fish gill surfaces",
+          "Yeast cells"
+        ],
+        "answer": 2,
+        "explanation": "Breathing through gills — main site or organism: Fish gill surfaces.",
+        "difficulty": "Easy",
+        "topic": "Breathing through gills · main site or organism",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-E-Q30",
+        "question": "Breathing through gills: which option correctly identifies the main product or physical effect?",
+        "options": [
+          "Thoracic volume increases as the diaphragm contracts",
+          "Dissolved oxygen enters the blood from water",
+          "Ethanol and carbon dioxide",
+          "Lactate with a small ATP yield from glycolysis"
+        ],
+        "answer": 1,
+        "explanation": "Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water.",
+        "difficulty": "Easy",
+        "topic": "Breathing through gills · main product or physical effect",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH02-M": {
+    "id": "SA-DPP-27-BIO-CH02-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "M",
+    "title": "Respiration – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-22",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q01",
+        "question": "What happens to the diaphragm during normal inhalation?",
+        "options": [
+          "It closes the trachea",
+          "It contracts and flattens",
+          "It relaxes and domes upwards",
+          "It stops all movement"
+        ],
+        "answer": 1,
+        "explanation": "The enlarged thoracic volume lowers pressure and draws air in.",
+        "difficulty": "Medium",
+        "topic": "What happens to the diaphragm during normal inhalation?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q02",
+        "question": "Why does limewater turn milky with exhaled air?",
+        "options": [
+          "Carbon dioxide forms insoluble calcium carbonate",
+          "Oxygen forms calcium metal",
+          "Nitrogen becomes chalk",
+          "Water vapour forms sodium chloride"
+        ],
+        "answer": 0,
+        "explanation": "CO₂ reacts with calcium hydroxide to produce a calcium carbonate precipitate.",
+        "difficulty": "Medium",
+        "topic": "Why does limewater turn milky with exhaled air?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q03",
+        "question": "Why is aerobic respiration usually more energy-yielding than fermentation?",
+        "options": [
+          "It uses no enzymes",
+          "It occurs without substrates",
+          "Fermentation never makes ATP",
+          "Glucose is oxidised more completely"
+        ],
+        "answer": 3,
+        "explanation": "More complete oxidation permits a much larger ATP yield.",
+        "difficulty": "Medium",
+        "topic": "Why is aerobic respiration usually more energy-yielding than fermentation?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q04",
+        "question": "Which pair correctly matches Glycolysis with its biological description and main site or organism, in that order?",
+        "options": [
+          "Initial enzymatic breakdown of glucose → Mitochondria",
+          "Anaerobic conversion of pyruvate in yeast → Yeast cells",
+          "Initial enzymatic breakdown of glucose → Cytoplasm",
+          "Oxygen-dependent energy-releasing stages → Cytoplasm"
+        ],
+        "answer": 2,
+        "explanation": "Glycolysis — biological description: Initial enzymatic breakdown of glucose. Glycolysis — main site or organism: Cytoplasm. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q05",
+        "question": "Which pair correctly matches Glycolysis with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Thoracic cavity and respiratory passages → Ethanol and carbon dioxide",
+          "Cytoplasm → Pyruvate and a small net ATP gain",
+          "Yeast cells → Pyruvate and a small net ATP gain",
+          "Cytoplasm → Carbon dioxide, water and a large additional ATP yield"
+        ],
+        "answer": 1,
+        "explanation": "Glycolysis — main site or organism: Cytoplasm. Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q06",
+        "question": "Which pair correctly matches Glycolysis with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Pyruvate and a small net ATP gain → Initial enzymatic breakdown of glucose",
+          "Lactate with a small ATP yield from glycolysis → Initial enzymatic breakdown of glucose",
+          "Pyruvate and a small net ATP gain → Oxygen-dependent energy-releasing stages",
+          "Thoracic volume increases as the diaphragm contracts → Anaerobic conversion of pyruvate in yeast"
+        ],
+        "answer": 0,
+        "explanation": "Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain. Glycolysis — biological description: Initial enzymatic breakdown of glucose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q07",
+        "question": "Which pair correctly matches Aerobic oxidation after glycolysis with its biological description and main site or organism, in that order?",
+        "options": [
+          "Anaerobic conversion of pyruvate in yeast → Mitochondria",
+          "Oxygen-dependent energy-releasing stages → Yeast cells",
+          "Anaerobic pathway during oxygen shortage in muscles → Muscle-cell cytoplasm",
+          "Oxygen-dependent energy-releasing stages → Mitochondria"
+        ],
+        "answer": 3,
+        "explanation": "Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages. Aerobic oxidation after glycolysis — main site or organism: Mitochondria. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aerobic oxidation after glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q08",
+        "question": "Which pair correctly matches Aerobic oxidation after glycolysis with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Mitochondria → Ethanol and carbon dioxide",
+          "Thoracic cavity and respiratory passages → Lactate with a small ATP yield from glycolysis",
+          "Mitochondria → Carbon dioxide, water and a large additional ATP yield",
+          "Muscle-cell cytoplasm → Carbon dioxide, water and a large additional ATP yield"
+        ],
+        "answer": 2,
+        "explanation": "Aerobic oxidation after glycolysis — main site or organism: Mitochondria. Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aerobic oxidation after glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q09",
+        "question": "Which pair correctly matches Aerobic oxidation after glycolysis with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Thoracic volume decreases as the diaphragm relaxes → Anaerobic pathway during oxygen shortage in muscles",
+          "Carbon dioxide, water and a large additional ATP yield → Oxygen-dependent energy-releasing stages",
+          "Thoracic volume increases as the diaphragm contracts → Oxygen-dependent energy-releasing stages",
+          "Carbon dioxide, water and a large additional ATP yield → Anaerobic conversion of pyruvate in yeast"
+        ],
+        "answer": 1,
+        "explanation": "Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield. Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Aerobic oxidation after glycolysis",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q10",
+        "question": "Which pair correctly matches Alcoholic fermentation with its biological description and main site or organism, in that order?",
+        "options": [
+          "Anaerobic conversion of pyruvate in yeast → Yeast cells",
+          "Anaerobic pathway during oxygen shortage in muscles → Yeast cells",
+          "Anaerobic conversion of pyruvate in yeast → Muscle-cell cytoplasm",
+          "Movement of air into the lungs → Thoracic cavity and respiratory passages"
+        ],
+        "answer": 0,
+        "explanation": "Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast. Alcoholic fermentation — main site or organism: Yeast cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alcoholic fermentation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q11",
+        "question": "Which pair correctly matches Alcoholic fermentation with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Thoracic cavity and respiratory passages → Ethanol and carbon dioxide",
+          "Yeast cells → Lactate with a small ATP yield from glycolysis",
+          "Alveolar-capillary surface → Thoracic volume increases as the diaphragm contracts",
+          "Yeast cells → Ethanol and carbon dioxide"
+        ],
+        "answer": 3,
+        "explanation": "Alcoholic fermentation — main site or organism: Yeast cells. Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alcoholic fermentation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q12",
+        "question": "Which pair correctly matches Alcoholic fermentation with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Ethanol and carbon dioxide → Anaerobic pathway during oxygen shortage in muscles",
+          "Oxygen enters blood while carbon dioxide leaves it → Movement of air into the lungs",
+          "Ethanol and carbon dioxide → Anaerobic conversion of pyruvate in yeast",
+          "Thoracic volume decreases as the diaphragm relaxes → Anaerobic conversion of pyruvate in yeast"
+        ],
+        "answer": 2,
+        "explanation": "Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide. Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alcoholic fermentation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q13",
+        "question": "Which pair correctly matches Lactic acid formation with its biological description and main site or organism, in that order?",
+        "options": [
+          "Movement of air out of the lungs → Systemic tissue capillaries",
+          "Anaerobic pathway during oxygen shortage in muscles → Muscle-cell cytoplasm",
+          "Movement of air into the lungs → Muscle-cell cytoplasm",
+          "Anaerobic pathway during oxygen shortage in muscles → Alveolar-capillary surface"
+        ],
+        "answer": 1,
+        "explanation": "Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles. Lactic acid formation — main site or organism: Muscle-cell cytoplasm. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactic acid formation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q14",
+        "question": "Which pair correctly matches Lactic acid formation with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Muscle-cell cytoplasm → Lactate with a small ATP yield from glycolysis",
+          "Systemic tissue capillaries → Lactate with a small ATP yield from glycolysis",
+          "Muscle-cell cytoplasm → Thoracic volume increases as the diaphragm contracts",
+          "Fish gill surfaces → Thoracic volume decreases as the diaphragm relaxes"
+        ],
+        "answer": 0,
+        "explanation": "Lactic acid formation — main site or organism: Muscle-cell cytoplasm. Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactic acid formation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q15",
+        "question": "Which pair correctly matches Lactic acid formation with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Oxygen enters blood while carbon dioxide leaves it → Anaerobic pathway during oxygen shortage in muscles",
+          "Lactate with a small ATP yield from glycolysis → Movement of air into the lungs",
+          "Oxygen leaves blood while carbon dioxide enters it → Movement of air out of the lungs",
+          "Lactate with a small ATP yield from glycolysis → Anaerobic pathway during oxygen shortage in muscles"
+        ],
+        "answer": 3,
+        "explanation": "Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis. Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactic acid formation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q16",
+        "question": "Which pair correctly matches Inhalation with its biological description and main site or organism, in that order?",
+        "options": [
+          "Movement of air into the lungs → Alveolar-capillary surface",
+          "Diffusion between air spaces and blood → Systemic tissue capillaries",
+          "Movement of air into the lungs → Thoracic cavity and respiratory passages",
+          "Movement of air out of the lungs → Thoracic cavity and respiratory passages"
+        ],
+        "answer": 2,
+        "explanation": "Inhalation — biological description: Movement of air into the lungs. Inhalation — main site or organism: Thoracic cavity and respiratory passages. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Inhalation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q17",
+        "question": "Which pair correctly matches Inhalation with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Fish gill surfaces → Oxygen enters blood while carbon dioxide leaves it",
+          "Thoracic cavity and respiratory passages → Thoracic volume increases as the diaphragm contracts",
+          "Systemic tissue capillaries → Thoracic volume increases as the diaphragm contracts",
+          "Thoracic cavity and respiratory passages → Thoracic volume decreases as the diaphragm relaxes"
+        ],
+        "answer": 1,
+        "explanation": "Inhalation — main site or organism: Thoracic cavity and respiratory passages. Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Inhalation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q18",
+        "question": "Which pair correctly matches Inhalation with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Thoracic volume increases as the diaphragm contracts → Movement of air into the lungs",
+          "Oxygen leaves blood while carbon dioxide enters it → Movement of air into the lungs",
+          "Thoracic volume increases as the diaphragm contracts → Movement of air out of the lungs",
+          "Dissolved oxygen enters the blood from water → Diffusion between air spaces and blood"
+        ],
+        "answer": 0,
+        "explanation": "Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts. Inhalation — biological description: Movement of air into the lungs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Inhalation",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q19",
+        "question": "Which pair correctly matches Exhalation at rest with its biological description and main site or organism, in that order?",
+        "options": [
+          "Diffusion between air spaces and blood → Thoracic cavity and respiratory passages",
+          "Movement of air out of the lungs → Systemic tissue capillaries",
+          "Diffusion between blood and body cells → Fish gill surfaces",
+          "Movement of air out of the lungs → Thoracic cavity and respiratory passages"
+        ],
+        "answer": 3,
+        "explanation": "Exhalation at rest — biological description: Movement of air out of the lungs. Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Exhalation at rest",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q20",
+        "question": "Which pair correctly matches Exhalation at rest with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Thoracic cavity and respiratory passages → Oxygen enters blood while carbon dioxide leaves it",
+          "Cytoplasm → Oxygen leaves blood while carbon dioxide enters it",
+          "Thoracic cavity and respiratory passages → Thoracic volume decreases as the diaphragm relaxes",
+          "Fish gill surfaces → Thoracic volume decreases as the diaphragm relaxes"
+        ],
+        "answer": 2,
+        "explanation": "Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages. Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Exhalation at rest",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q21",
+        "question": "Which pair correctly matches Exhalation at rest with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Pyruvate and a small net ATP gain → Diffusion between blood and body cells",
+          "Thoracic volume decreases as the diaphragm relaxes → Movement of air out of the lungs",
+          "Dissolved oxygen enters the blood from water → Movement of air out of the lungs",
+          "Thoracic volume decreases as the diaphragm relaxes → Diffusion between air spaces and blood"
+        ],
+        "answer": 1,
+        "explanation": "Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes. Exhalation at rest — biological description: Movement of air out of the lungs. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Exhalation at rest",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q22",
+        "question": "Which pair correctly matches Alveolar gas exchange with its biological description and main site or organism, in that order?",
+        "options": [
+          "Diffusion between air spaces and blood → Alveolar-capillary surface",
+          "Diffusion between blood and body cells → Alveolar-capillary surface",
+          "Diffusion between air spaces and blood → Fish gill surfaces",
+          "Exchange of dissolved respiratory gases → Cytoplasm"
+        ],
+        "answer": 0,
+        "explanation": "Alveolar gas exchange — biological description: Diffusion between air spaces and blood. Alveolar gas exchange — main site or organism: Alveolar-capillary surface. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alveolar gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q23",
+        "question": "Which pair correctly matches Alveolar gas exchange with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Cytoplasm → Oxygen enters blood while carbon dioxide leaves it",
+          "Alveolar-capillary surface → Oxygen leaves blood while carbon dioxide enters it",
+          "Mitochondria → Dissolved oxygen enters the blood from water",
+          "Alveolar-capillary surface → Oxygen enters blood while carbon dioxide leaves it"
+        ],
+        "answer": 3,
+        "explanation": "Alveolar gas exchange — main site or organism: Alveolar-capillary surface. Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alveolar gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q24",
+        "question": "Which pair correctly matches Alveolar gas exchange with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Oxygen enters blood while carbon dioxide leaves it → Diffusion between blood and body cells",
+          "Carbon dioxide, water and a large additional ATP yield → Exchange of dissolved respiratory gases",
+          "Oxygen enters blood while carbon dioxide leaves it → Diffusion between air spaces and blood",
+          "Pyruvate and a small net ATP gain → Diffusion between air spaces and blood"
+        ],
+        "answer": 2,
+        "explanation": "Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it. Alveolar gas exchange — biological description: Diffusion between air spaces and blood. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Alveolar gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q25",
+        "question": "Which pair correctly matches Tissue gas exchange with its biological description and main site or organism, in that order?",
+        "options": [
+          "Initial enzymatic breakdown of glucose → Mitochondria",
+          "Diffusion between blood and body cells → Systemic tissue capillaries",
+          "Exchange of dissolved respiratory gases → Systemic tissue capillaries",
+          "Diffusion between blood and body cells → Cytoplasm"
+        ],
+        "answer": 1,
+        "explanation": "Tissue gas exchange — biological description: Diffusion between blood and body cells. Tissue gas exchange — main site or organism: Systemic tissue capillaries. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tissue gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q26",
+        "question": "Which pair correctly matches Tissue gas exchange with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Systemic tissue capillaries → Oxygen leaves blood while carbon dioxide enters it",
+          "Mitochondria → Oxygen leaves blood while carbon dioxide enters it",
+          "Systemic tissue capillaries → Dissolved oxygen enters the blood from water",
+          "Yeast cells → Pyruvate and a small net ATP gain"
+        ],
+        "answer": 0,
+        "explanation": "Tissue gas exchange — main site or organism: Systemic tissue capillaries. Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tissue gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q27",
+        "question": "Which pair correctly matches Tissue gas exchange with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Carbon dioxide, water and a large additional ATP yield → Diffusion between blood and body cells",
+          "Oxygen leaves blood while carbon dioxide enters it → Exchange of dissolved respiratory gases",
+          "Ethanol and carbon dioxide → Initial enzymatic breakdown of glucose",
+          "Oxygen leaves blood while carbon dioxide enters it → Diffusion between blood and body cells"
+        ],
+        "answer": 3,
+        "explanation": "Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it. Tissue gas exchange — biological description: Diffusion between blood and body cells. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Tissue gas exchange",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q28",
+        "question": "Which pair correctly matches Breathing through gills with its biological description and main site or organism, in that order?",
+        "options": [
+          "Exchange of dissolved respiratory gases → Mitochondria",
+          "Oxygen-dependent energy-releasing stages → Yeast cells",
+          "Exchange of dissolved respiratory gases → Fish gill surfaces",
+          "Initial enzymatic breakdown of glucose → Fish gill surfaces"
+        ],
+        "answer": 2,
+        "explanation": "Breathing through gills — biological description: Exchange of dissolved respiratory gases. Breathing through gills — main site or organism: Fish gill surfaces. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Breathing through gills",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q29",
+        "question": "Which pair correctly matches Breathing through gills with its main site or organism and main product or physical effect, in that order?",
+        "options": [
+          "Muscle-cell cytoplasm → Carbon dioxide, water and a large additional ATP yield",
+          "Fish gill surfaces → Dissolved oxygen enters the blood from water",
+          "Yeast cells → Dissolved oxygen enters the blood from water",
+          "Fish gill surfaces → Pyruvate and a small net ATP gain"
+        ],
+        "answer": 1,
+        "explanation": "Breathing through gills — main site or organism: Fish gill surfaces. Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Breathing through gills",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-M-Q30",
+        "question": "Which pair correctly matches Breathing through gills with its main product or physical effect and biological description, in that order?",
+        "options": [
+          "Dissolved oxygen enters the blood from water → Exchange of dissolved respiratory gases",
+          "Ethanol and carbon dioxide → Exchange of dissolved respiratory gases",
+          "Dissolved oxygen enters the blood from water → Initial enzymatic breakdown of glucose",
+          "Lactate with a small ATP yield from glycolysis → Oxygen-dependent energy-releasing stages"
+        ],
+        "answer": 0,
+        "explanation": "Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water. Breathing through gills — biological description: Exchange of dissolved respiratory gases. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Breathing through gills",
+        "sourceChapter": 2
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH02-H": {
+    "id": "SA-DPP-27-BIO-CH02-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch2",
+    "chapterNumber": 2,
+    "chapter": "Respiration",
+    "level": "H",
+    "title": "Respiration – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-02.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-02",
+    "recommendedDate": "2026-10-23",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 2,
+    "sourcePrintedPages": {
+      "from": 26,
+      "to": 50
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q01",
+        "question": "Why can breathing rate rise during strenuous exercise?",
+        "options": [
+          "Working muscles need faster oxygen delivery and CO₂ removal",
+          "The lungs manufacture extra glucose",
+          "Blood stops transporting gases",
+          "The diaphragm becomes a digestive organ"
+        ],
+        "answer": 0,
+        "explanation": "Metabolic demand and CO₂ production increase with exercise.",
+        "difficulty": "Hard",
+        "topic": "Why can breathing rate rise during strenuous exercise?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q02",
+        "question": "Why are alveoli both thin-walled and closely supplied with capillaries?",
+        "options": [
+          "To store solid food",
+          "To prevent oxygen reaching blood",
+          "To maximise the distance gases travel",
+          "To reduce diffusion distance and maintain gas gradients"
+        ],
+        "answer": 3,
+        "explanation": "Short diffusion paths and blood flow support efficient gas exchange.",
+        "difficulty": "Hard",
+        "topic": "Why are alveoli both thin-walled and closely supplied with capillaries?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q03",
+        "question": "What correctly distinguishes breathing from cellular respiration?",
+        "options": [
+          "Cellular respiration occurs only in the lungs",
+          "Breathing directly produces all ATP",
+          "Breathing moves air; cellular respiration releases usable energy from substrates",
+          "Both are only mechanical air movements"
+        ],
+        "answer": 2,
+        "explanation": "Ventilation supplies gases, while biochemical reactions in cells release energy.",
+        "difficulty": "Hard",
+        "topic": "What correctly distinguishes breathing from cellular respiration?",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glycolysis — biological description: Initial enzymatic breakdown of glucose\nII. Inhalation — main site or organism: Mitochondria\nIII. Tissue gas exchange — main product or physical effect: Ethanol and carbon dioxide",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Glycolysis — biological description: Initial enzymatic breakdown of glucose; Inhalation — main site or organism: Thoracic cavity and respiratory passages; Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it.",
+        "difficulty": "Hard",
+        "topic": "Glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glycolysis — main site or organism: Yeast cells\nII. Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts\nIII. Tissue gas exchange — biological description: Anaerobic pathway during oxygen shortage in muscles",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Glycolysis — main site or organism: Cytoplasm; Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts; Tissue gas exchange — biological description: Diffusion between blood and body cells.",
+        "difficulty": "Hard",
+        "topic": "Glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain\nII. Inhalation — biological description: Movement of air into the lungs\nIII. Tissue gas exchange — main site or organism: Thoracic cavity and respiratory passages",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain; Inhalation — biological description: Movement of air into the lungs; Tissue gas exchange — main site or organism: Systemic tissue capillaries.",
+        "difficulty": "Hard",
+        "topic": "Glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aerobic oxidation after glycolysis — biological description: Movement of air into the lungs\nII. Exhalation at rest — main site or organism: Alveolar-capillary surface\nIII. Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages; Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages; Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water.",
+        "difficulty": "Hard",
+        "topic": "Aerobic oxidation after glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aerobic oxidation after glycolysis — main site or organism: Mitochondria\nII. Exhalation at rest — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it\nIII. Breathing through gills — biological description: Exchange of dissolved respiratory gases",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Aerobic oxidation after glycolysis — main site or organism: Mitochondria; Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes; Breathing through gills — biological description: Exchange of dissolved respiratory gases.",
+        "difficulty": "Hard",
+        "topic": "Aerobic oxidation after glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Aerobic oxidation after glycolysis — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it\nII. Exhalation at rest — biological description: Movement of air out of the lungs\nIII. Breathing through gills — main site or organism: Fish gill surfaces",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield; Exhalation at rest — biological description: Movement of air out of the lungs; Breathing through gills — main site or organism: Fish gill surfaces.",
+        "difficulty": "Hard",
+        "topic": "Aerobic oxidation after glycolysis · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast\nII. Alveolar gas exchange — main site or organism: Alveolar-capillary surface\nIII. Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast; Alveolar gas exchange — main site or organism: Alveolar-capillary surface; Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain.",
+        "difficulty": "Hard",
+        "topic": "Alcoholic fermentation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alcoholic fermentation — main site or organism: Cytoplasm\nII. Alveolar gas exchange — main product or physical effect: Pyruvate and a small net ATP gain\nIII. Glycolysis — biological description: Anaerobic conversion of pyruvate in yeast",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Alcoholic fermentation — main site or organism: Yeast cells; Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it; Glycolysis — biological description: Initial enzymatic breakdown of glucose.",
+        "difficulty": "Hard",
+        "topic": "Alcoholic fermentation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide\nII. Alveolar gas exchange — biological description: Oxygen-dependent energy-releasing stages\nIII. Glycolysis — main site or organism: Systemic tissue capillaries",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide; Alveolar gas exchange — biological description: Diffusion between air spaces and blood; Glycolysis — main site or organism: Cytoplasm.",
+        "difficulty": "Hard",
+        "topic": "Alcoholic fermentation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactic acid formation — biological description: Oxygen-dependent energy-releasing stages\nII. Tissue gas exchange — main site or organism: Systemic tissue capillaries\nIII. Aerobic oxidation after glycolysis — main product or physical effect: Thoracic volume increases as the diaphragm contracts",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles; Tissue gas exchange — main site or organism: Systemic tissue capillaries; Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield.",
+        "difficulty": "Hard",
+        "topic": "Lactic acid formation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactic acid formation — main site or organism: Muscle-cell cytoplasm\nII. Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it\nIII. Aerobic oxidation after glycolysis — biological description: Movement of air out of the lungs",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Lactic acid formation — main site or organism: Muscle-cell cytoplasm; Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it; Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages.",
+        "difficulty": "Hard",
+        "topic": "Lactic acid formation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactic acid formation — main product or physical effect: Thoracic volume increases as the diaphragm contracts\nII. Tissue gas exchange — biological description: Movement of air into the lungs\nIII. Aerobic oxidation after glycolysis — main site or organism: Mitochondria",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis; Tissue gas exchange — biological description: Diffusion between blood and body cells; Aerobic oxidation after glycolysis — main site or organism: Mitochondria.",
+        "difficulty": "Hard",
+        "topic": "Lactic acid formation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Inhalation — biological description: Movement of air into the lungs\nII. Breathing through gills — main site or organism: Systemic tissue capillaries\nIII. Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Inhalation — biological description: Movement of air into the lungs; Breathing through gills — main site or organism: Fish gill surfaces; Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide.",
+        "difficulty": "Hard",
+        "topic": "Inhalation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Inhalation — main site or organism: Fish gill surfaces\nII. Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water\nIII. Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Inhalation — main site or organism: Thoracic cavity and respiratory passages; Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water; Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast.",
+        "difficulty": "Hard",
+        "topic": "Inhalation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts\nII. Breathing through gills — biological description: Exchange of dissolved respiratory gases\nIII. Alcoholic fermentation — main site or organism: Yeast cells",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts; Breathing through gills — biological description: Exchange of dissolved respiratory gases; Alcoholic fermentation — main site or organism: Yeast cells.",
+        "difficulty": "Hard",
+        "topic": "Inhalation · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Exhalation at rest — biological description: Exchange of dissolved respiratory gases\nII. Glycolysis — main site or organism: Systemic tissue capillaries\nIII. Lactic acid formation — main product or physical effect: Carbon dioxide, water and a large additional ATP yield",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Exhalation at rest — biological description: Movement of air out of the lungs; Glycolysis — main site or organism: Cytoplasm; Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis.",
+        "difficulty": "Hard",
+        "topic": "Exhalation at rest · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages\nII. Glycolysis — main product or physical effect: Ethanol and carbon dioxide\nIII. Lactic acid formation — biological description: Anaerobic conversion of pyruvate in yeast",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages; Glycolysis — main product or physical effect: Pyruvate and a small net ATP gain; Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles.",
+        "difficulty": "Hard",
+        "topic": "Exhalation at rest · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Exhalation at rest — main product or physical effect: Carbon dioxide, water and a large additional ATP yield\nII. Glycolysis — biological description: Initial enzymatic breakdown of glucose\nIII. Lactic acid formation — main site or organism: Yeast cells",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes; Glycolysis — biological description: Initial enzymatic breakdown of glucose; Lactic acid formation — main site or organism: Muscle-cell cytoplasm.",
+        "difficulty": "Hard",
+        "topic": "Exhalation at rest · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alveolar gas exchange — biological description: Diffusion between air spaces and blood\nII. Aerobic oxidation after glycolysis — main site or organism: Mitochondria\nIII. Inhalation — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Alveolar gas exchange — biological description: Diffusion between air spaces and blood; Aerobic oxidation after glycolysis — main site or organism: Mitochondria; Inhalation — main product or physical effect: Thoracic volume increases as the diaphragm contracts.",
+        "difficulty": "Hard",
+        "topic": "Alveolar gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alveolar gas exchange — main site or organism: Systemic tissue capillaries\nII. Aerobic oxidation after glycolysis — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes\nIII. Inhalation — biological description: Movement of air into the lungs",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Alveolar gas exchange — main site or organism: Alveolar-capillary surface; Aerobic oxidation after glycolysis — main product or physical effect: Carbon dioxide, water and a large additional ATP yield; Inhalation — biological description: Movement of air into the lungs.",
+        "difficulty": "Hard",
+        "topic": "Alveolar gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it\nII. Aerobic oxidation after glycolysis — biological description: Diffusion between air spaces and blood\nIII. Inhalation — main site or organism: Thoracic cavity and respiratory passages",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it; Aerobic oxidation after glycolysis — biological description: Oxygen-dependent energy-releasing stages; Inhalation — main site or organism: Thoracic cavity and respiratory passages.",
+        "difficulty": "Hard",
+        "topic": "Alveolar gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tissue gas exchange — biological description: Movement of air out of the lungs\nII. Alcoholic fermentation — main site or organism: Yeast cells\nIII. Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Tissue gas exchange — biological description: Diffusion between blood and body cells; Alcoholic fermentation — main site or organism: Yeast cells; Exhalation at rest — main product or physical effect: Thoracic volume decreases as the diaphragm relaxes.",
+        "difficulty": "Hard",
+        "topic": "Tissue gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tissue gas exchange — main site or organism: Systemic tissue capillaries\nII. Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide\nIII. Exhalation at rest — biological description: Movement of air out of the lungs",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Tissue gas exchange — main site or organism: Systemic tissue capillaries; Alcoholic fermentation — main product or physical effect: Ethanol and carbon dioxide; Exhalation at rest — biological description: Movement of air out of the lungs.",
+        "difficulty": "Hard",
+        "topic": "Tissue gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Tissue gas exchange — main product or physical effect: Dissolved oxygen enters the blood from water\nII. Alcoholic fermentation — biological description: Initial enzymatic breakdown of glucose\nIII. Exhalation at rest — main site or organism: Alveolar-capillary surface",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Tissue gas exchange — main product or physical effect: Oxygen leaves blood while carbon dioxide enters it; Alcoholic fermentation — biological description: Anaerobic conversion of pyruvate in yeast; Exhalation at rest — main site or organism: Thoracic cavity and respiratory passages.",
+        "difficulty": "Hard",
+        "topic": "Tissue gas exchange · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Breathing through gills — biological description: Exchange of dissolved respiratory gases\nII. Lactic acid formation — main site or organism: Yeast cells\nIII. Alveolar gas exchange — main product or physical effect: Ethanol and carbon dioxide",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Breathing through gills — biological description: Exchange of dissolved respiratory gases; Lactic acid formation — main site or organism: Muscle-cell cytoplasm; Alveolar gas exchange — main product or physical effect: Oxygen enters blood while carbon dioxide leaves it.",
+        "difficulty": "Hard",
+        "topic": "Breathing through gills · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Breathing through gills — main site or organism: Thoracic cavity and respiratory passages\nII. Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis\nIII. Alveolar gas exchange — biological description: Anaerobic pathway during oxygen shortage in muscles",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Breathing through gills — main site or organism: Fish gill surfaces; Lactic acid formation — main product or physical effect: Lactate with a small ATP yield from glycolysis; Alveolar gas exchange — biological description: Diffusion between air spaces and blood.",
+        "difficulty": "Hard",
+        "topic": "Breathing through gills · comparing chapter concepts",
+        "sourceChapter": 2
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH02-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water\nII. Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles\nIII. Alveolar gas exchange — main site or organism: Cytoplasm",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Breathing through gills — main product or physical effect: Dissolved oxygen enters the blood from water; Lactic acid formation — biological description: Anaerobic pathway during oxygen shortage in muscles; Alveolar gas exchange — main site or organism: Alveolar-capillary surface.",
+        "difficulty": "Hard",
+        "topic": "Breathing through gills · comparing chapter concepts",
+        "sourceChapter": 2
+      }
+    ]
+  }
+}

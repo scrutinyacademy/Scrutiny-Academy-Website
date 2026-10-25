@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH07-E": {
+    "id": "SA-DPP-27-SOC-CH07-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch7",
+    "chapterNumber": 7,
+    "chapter": "Settlements - Migrations",
+    "level": "E",
+    "title": "Settlements - Migrations – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-07.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-05",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 88,
+      "to": 102
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q01",
+        "question": "Movement from one place to another to live or work is called what?",
+        "options": [
+          "Weathering",
+          "Migration",
+          "Inflation",
+          "Irrigation"
+        ],
+        "answer": 1,
+        "explanation": "Migration involves a change in usual residence or temporary relocation for work.",
+        "difficulty": "Easy",
+        "topic": "Movement from one place to another to live or work is called what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q02",
+        "question": "Which is a push factor in migration?",
+        "options": [
+          "Lack of local employment",
+          "Better wages at the destination",
+          "Good destination schools",
+          "Improved destination transport"
+        ],
+        "answer": 0,
+        "explanation": "A push factor encourages departure from the place of origin.",
+        "difficulty": "Easy",
+        "topic": "Which is a push factor in migration?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q03",
+        "question": "A settlement's site refers primarily to what?",
+        "options": [
+          "Its total export earnings",
+          "Its election results",
+          "Its residents' languages only",
+          "Its immediate physical location"
+        ],
+        "answer": 3,
+        "explanation": "Site concerns the local land and physical conditions on which it is built.",
+        "difficulty": "Easy",
+        "topic": "A settlement's site refers primarily to what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q04",
+        "question": "Settlement site: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "A settlement associated largely with countryside activities",
+          "A settlement with a concentration of non-farm activities",
+          "The immediate physical location of a settlement",
+          "A settlement's relation to surrounding places"
+        ],
+        "answer": 2,
+        "explanation": "Settlement site — settlement or migration concept: The immediate physical location of a settlement.",
+        "difficulty": "Easy",
+        "topic": "Settlement site · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q05",
+        "question": "Settlement site: which option correctly identifies the defining feature?",
+        "options": [
+          "Examples include joblessness or livelihood distress",
+          "Local land, water and physical conditions",
+          "Agriculture and related livelihoods are often important",
+          "Manufacturing, administration and services are often important"
+        ],
+        "answer": 1,
+        "explanation": "Settlement site — defining feature: Local land, water and physical conditions.",
+        "difficulty": "Easy",
+        "topic": "Settlement site · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q06",
+        "question": "Settlement site: which option correctly identifies the illustrative implication?",
+        "options": [
+          "A reliable water source can favour settlement",
+          "The site is the settlement's export income",
+          "Local water and terrain cannot influence settlement",
+          "Only election results define a settlement's site"
+        ],
+        "answer": 0,
+        "explanation": "Settlement site — illustrative implication: A reliable water source can favour settlement.",
+        "difficulty": "Easy",
+        "topic": "Settlement site · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q07",
+        "question": "Settlement situation: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "A settlement associated largely with countryside activities",
+          "A settlement with a concentration of non-farm activities",
+          "A condition encouraging departure from an origin",
+          "A settlement's relation to surrounding places"
+        ],
+        "answer": 3,
+        "explanation": "Settlement situation — settlement or migration concept: A settlement's relation to surrounding places.",
+        "difficulty": "Easy",
+        "topic": "Settlement situation · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q08",
+        "question": "Settlement situation: which option correctly identifies the defining feature?",
+        "options": [
+          "Examples include joblessness or livelihood distress",
+          "Examples include better jobs or educational opportunities",
+          "Connections with routes, markets and other settlements",
+          "Manufacturing, administration and services are often important"
+        ],
+        "answer": 2,
+        "explanation": "Settlement situation — defining feature: Connections with routes, markets and other settlements.",
+        "difficulty": "Easy",
+        "topic": "Settlement situation · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q09",
+        "question": "Settlement situation: which option correctly identifies the illustrative implication?",
+        "options": [
+          "A transport junction cannot affect accessibility",
+          "A transport junction can improve accessibility",
+          "Relations with surrounding markets are irrelevant",
+          "Situation means only the soil under one building"
+        ],
+        "answer": 1,
+        "explanation": "Settlement situation — illustrative implication: A transport junction can improve accessibility.",
+        "difficulty": "Easy",
+        "topic": "Settlement situation · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q10",
+        "question": "Rural settlement: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "A settlement associated largely with countryside activities",
+          "A settlement with a concentration of non-farm activities",
+          "A condition encouraging departure from an origin",
+          "A condition attracting people to a destination"
+        ],
+        "answer": 0,
+        "explanation": "Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities.",
+        "difficulty": "Easy",
+        "topic": "Rural settlement · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q11",
+        "question": "Rural settlement: which option correctly identifies the defining feature?",
+        "options": [
+          "Examples include joblessness or livelihood distress",
+          "Examples include better jobs or educational opportunities",
+          "Often follows seasonal work opportunities",
+          "Agriculture and related livelihoods are often important"
+        ],
+        "answer": 3,
+        "explanation": "Rural settlement — defining feature: Agriculture and related livelihoods are often important.",
+        "difficulty": "Easy",
+        "topic": "Rural settlement · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q12",
+        "question": "Rural settlement: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Non-farm work is prohibited by the definition",
+          "Rural places can never have services",
+          "Services and non-farm work may still be present",
+          "Every rural resident must cultivate crops"
+        ],
+        "answer": 2,
+        "explanation": "Rural settlement — illustrative implication: Services and non-farm work may still be present.",
+        "difficulty": "Easy",
+        "topic": "Rural settlement · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q13",
+        "question": "Urban settlement: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "Movement for part of a year",
+          "A settlement with a concentration of non-farm activities",
+          "A condition encouraging departure from an origin",
+          "A condition attracting people to a destination"
+        ],
+        "answer": 1,
+        "explanation": "Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities.",
+        "difficulty": "Easy",
+        "topic": "Urban settlement · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q14",
+        "question": "Urban settlement: which option correctly identifies the defining feature?",
+        "options": [
+          "Manufacturing, administration and services are often important",
+          "Examples include better jobs or educational opportunities",
+          "Often follows seasonal work opportunities",
+          "Transfers part of destination earnings to an origin household"
+        ],
+        "answer": 0,
+        "explanation": "Urban settlement — defining feature: Manufacturing, administration and services are often important.",
+        "difficulty": "Easy",
+        "topic": "Urban settlement · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q15",
+        "question": "Urban settlement: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Public services automatically expand at the same speed as population",
+          "Urban places need no housing or sanitation planning",
+          "All urban residents work on farms",
+          "Planning must address housing and public infrastructure"
+        ],
+        "answer": 3,
+        "explanation": "Urban settlement — illustrative implication: Planning must address housing and public infrastructure.",
+        "difficulty": "Easy",
+        "topic": "Urban settlement · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q16",
+        "question": "Push factor: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "Movement for part of a year",
+          "Money sent home by a migrant",
+          "A condition encouraging departure from an origin",
+          "A condition attracting people to a destination"
+        ],
+        "answer": 2,
+        "explanation": "Push factor — settlement or migration concept: A condition encouraging departure from an origin.",
+        "difficulty": "Easy",
+        "topic": "Push factor · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q17",
+        "question": "Push factor: which option correctly identifies the defining feature?",
+        "options": [
+          "Can result from violence, disaster or some project impacts",
+          "Examples include joblessness or livelihood distress",
+          "Often follows seasonal work opportunities",
+          "Transfers part of destination earnings to an origin household"
+        ],
+        "answer": 1,
+        "explanation": "Push factor — defining feature: Examples include joblessness or livelihood distress.",
+        "difficulty": "Easy",
+        "topic": "Push factor · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q18",
+        "question": "Push factor: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Can contribute to distress migration",
+          "Always means better jobs at the destination",
+          "Can never involve livelihood distress",
+          "Refers only to money sent home"
+        ],
+        "answer": 0,
+        "explanation": "Push factor — illustrative implication: Can contribute to distress migration.",
+        "difficulty": "Easy",
+        "topic": "Push factor · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q19",
+        "question": "Pull factor: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "Movement for part of a year",
+          "Money sent home by a migrant",
+          "Movement caused by coercion or loss of the ability to remain",
+          "A condition attracting people to a destination"
+        ],
+        "answer": 3,
+        "explanation": "Pull factor — settlement or migration concept: A condition attracting people to a destination.",
+        "difficulty": "Easy",
+        "topic": "Pull factor · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q20",
+        "question": "Pull factor: which option correctly identifies the defining feature?",
+        "options": [
+          "Can result from violence, disaster or some project impacts",
+          "Local land, water and physical conditions",
+          "Examples include better jobs or educational opportunities",
+          "Transfers part of destination earnings to an origin household"
+        ],
+        "answer": 2,
+        "explanation": "Pull factor — defining feature: Examples include better jobs or educational opportunities.",
+        "difficulty": "Easy",
+        "topic": "Pull factor · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q21",
+        "question": "Pull factor: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Always means a crisis at the place of origin",
+          "Can influence the choice of destination",
+          "Can never involve education",
+          "Is identical to forced removal"
+        ],
+        "answer": 1,
+        "explanation": "Pull factor — illustrative implication: Can influence the choice of destination.",
+        "difficulty": "Easy",
+        "topic": "Pull factor · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q22",
+        "question": "Seasonal migration: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "Movement for part of a year",
+          "Money sent home by a migrant",
+          "Movement caused by coercion or loss of the ability to remain",
+          "The immediate physical location of a settlement"
+        ],
+        "answer": 0,
+        "explanation": "Seasonal migration — settlement or migration concept: Movement for part of a year.",
+        "difficulty": "Easy",
+        "topic": "Seasonal migration · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q23",
+        "question": "Seasonal migration: which option correctly identifies the defining feature?",
+        "options": [
+          "Can result from violence, disaster or some project impacts",
+          "Local land, water and physical conditions",
+          "Connections with routes, markets and other settlements",
+          "Often follows seasonal work opportunities"
+        ],
+        "answer": 3,
+        "explanation": "Seasonal migration — defining feature: Often follows seasonal work opportunities.",
+        "difficulty": "Easy",
+        "topic": "Seasonal migration · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q24",
+        "question": "Seasonal migration: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Always means permanent emigration",
+          "Never follows seasonal demand for workers",
+          "Migrants may return to their home settlement",
+          "Necessarily ends all ties with the home settlement"
+        ],
+        "answer": 2,
+        "explanation": "Seasonal migration — illustrative implication: Migrants may return to their home settlement.",
+        "difficulty": "Easy",
+        "topic": "Seasonal migration · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q25",
+        "question": "Remittance: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "A settlement's relation to surrounding places",
+          "Money sent home by a migrant",
+          "Movement caused by coercion or loss of the ability to remain",
+          "The immediate physical location of a settlement"
+        ],
+        "answer": 1,
+        "explanation": "Remittance — settlement or migration concept: Money sent home by a migrant.",
+        "difficulty": "Easy",
+        "topic": "Remittance · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q26",
+        "question": "Remittance: which option correctly identifies the defining feature?",
+        "options": [
+          "Transfers part of destination earnings to an origin household",
+          "Local land, water and physical conditions",
+          "Connections with routes, markets and other settlements",
+          "Agriculture and related livelihoods are often important"
+        ],
+        "answer": 0,
+        "explanation": "Remittance — defining feature: Transfers part of destination earnings to an origin household.",
+        "difficulty": "Easy",
+        "topic": "Remittance · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q27",
+        "question": "Remittance: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Is a tax imposed on imports",
+          "Means the migrant's total village population",
+          "Cannot support an origin household",
+          "Can support consumption, education or household investment"
+        ],
+        "answer": 3,
+        "explanation": "Remittance — illustrative implication: Can support consumption, education or household investment.",
+        "difficulty": "Easy",
+        "topic": "Remittance · illustrative implication",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q28",
+        "question": "Forced displacement: which option correctly identifies the settlement or migration concept?",
+        "options": [
+          "A settlement's relation to surrounding places",
+          "A settlement associated largely with countryside activities",
+          "Movement caused by coercion or loss of the ability to remain",
+          "The immediate physical location of a settlement"
+        ],
+        "answer": 2,
+        "explanation": "Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain.",
+        "difficulty": "Easy",
+        "topic": "Forced displacement · settlement or migration concept",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q29",
+        "question": "Forced displacement: which option correctly identifies the defining feature?",
+        "options": [
+          "Manufacturing, administration and services are often important",
+          "Can result from violence, disaster or some project impacts",
+          "Connections with routes, markets and other settlements",
+          "Agriculture and related livelihoods are often important"
+        ],
+        "answer": 1,
+        "explanation": "Forced displacement — defining feature: Can result from violence, disaster or some project impacts.",
+        "difficulty": "Easy",
+        "topic": "Forced displacement · defining feature",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-E-Q30",
+        "question": "Forced displacement: which option correctly identifies the illustrative implication?",
+        "options": [
+          "Differs from a move freely chosen solely for opportunity",
+          "Never involves loss of homes",
+          "Is identical to a holiday trip",
+          "Is always freely chosen for higher wages"
+        ],
+        "answer": 0,
+        "explanation": "Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity.",
+        "difficulty": "Easy",
+        "topic": "Forced displacement · illustrative implication",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH07-M": {
+    "id": "SA-DPP-27-SOC-CH07-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch7",
+    "chapterNumber": 7,
+    "chapter": "Settlements - Migrations",
+    "level": "M",
+    "title": "Settlements - Migrations – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-07.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-06",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 88,
+      "to": 102
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q01",
+        "question": "Why might farm labourers migrate for only part of a year?",
+        "options": [
+          "Local agricultural work is seasonal",
+          "All migrants permanently abandon families",
+          "Cities ban permanent residents",
+          "Farming has identical labour demand every day"
+        ],
+        "answer": 0,
+        "explanation": "Seasonal migration can fill gaps in local employment.",
+        "difficulty": "Medium",
+        "topic": "Why might farm labourers migrate for only part of a year?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q02",
+        "question": "Money sent home by migrants is called what?",
+        "options": [
+          "Tariffs",
+          "Subsidies",
+          "Census returns",
+          "Remittances"
+        ],
+        "answer": 3,
+        "explanation": "Remittances transfer part of migrants' earnings to their home households.",
+        "difficulty": "Medium",
+        "topic": "Money sent home by migrants is called what?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q03",
+        "question": "Why do many settlements develop near water sources?",
+        "options": [
+          "People do not need food near water",
+          "Rivers prevent all trade",
+          "Water supports household needs and livelihoods",
+          "Water makes all transport impossible"
+        ],
+        "answer": 2,
+        "explanation": "Reliable water is one important factor in settlement location.",
+        "difficulty": "Medium",
+        "topic": "Why do many settlements develop near water sources?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q04",
+        "question": "Which pair correctly matches Settlement site with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A settlement associated largely with countryside activities → Agriculture and related livelihoods are often important",
+          "The immediate physical location of a settlement → Local land, water and physical conditions",
+          "A settlement's relation to surrounding places → Local land, water and physical conditions",
+          "The immediate physical location of a settlement → Connections with routes, markets and other settlements"
+        ],
+        "answer": 1,
+        "explanation": "Settlement site — settlement or migration concept: The immediate physical location of a settlement. Settlement site — defining feature: Local land, water and physical conditions. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement site",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q05",
+        "question": "Which pair correctly matches Settlement site with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Local land, water and physical conditions → A reliable water source can favour settlement",
+          "Agriculture and related livelihoods are often important → A reliable water source can favour settlement",
+          "Local land, water and physical conditions → Local water and terrain cannot influence settlement",
+          "Manufacturing, administration and services are often important → Only election results define a settlement's site"
+        ],
+        "answer": 0,
+        "explanation": "Settlement site — defining feature: Local land, water and physical conditions. Settlement site — illustrative implication: A reliable water source can favour settlement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement site",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q06",
+        "question": "Which pair correctly matches Settlement site with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "The site is the settlement's export income → The immediate physical location of a settlement",
+          "A reliable water source can favour settlement → A settlement's relation to surrounding places",
+          "Local water and terrain cannot influence settlement → A settlement associated largely with countryside activities",
+          "A reliable water source can favour settlement → The immediate physical location of a settlement"
+        ],
+        "answer": 3,
+        "explanation": "Settlement site — illustrative implication: A reliable water source can favour settlement. Settlement site — settlement or migration concept: The immediate physical location of a settlement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement site",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q07",
+        "question": "Which pair correctly matches Settlement situation with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A settlement's relation to surrounding places → Agriculture and related livelihoods are often important",
+          "A settlement with a concentration of non-farm activities → Manufacturing, administration and services are often important",
+          "A settlement's relation to surrounding places → Connections with routes, markets and other settlements",
+          "A settlement associated largely with countryside activities → Connections with routes, markets and other settlements"
+        ],
+        "answer": 2,
+        "explanation": "Settlement situation — settlement or migration concept: A settlement's relation to surrounding places. Settlement situation — defining feature: Connections with routes, markets and other settlements. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement situation",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q08",
+        "question": "Which pair correctly matches Settlement situation with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Examples include joblessness or livelihood distress → A transport junction cannot affect accessibility",
+          "Connections with routes, markets and other settlements → A transport junction can improve accessibility",
+          "Manufacturing, administration and services are often important → A transport junction can improve accessibility",
+          "Connections with routes, markets and other settlements → Situation means only the soil under one building"
+        ],
+        "answer": 1,
+        "explanation": "Settlement situation — defining feature: Connections with routes, markets and other settlements. Settlement situation — illustrative implication: A transport junction can improve accessibility. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement situation",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q09",
+        "question": "Which pair correctly matches Settlement situation with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "A transport junction can improve accessibility → A settlement's relation to surrounding places",
+          "Relations with surrounding markets are irrelevant → A settlement's relation to surrounding places",
+          "A transport junction can improve accessibility → A settlement associated largely with countryside activities",
+          "Situation means only the soil under one building → A settlement with a concentration of non-farm activities"
+        ],
+        "answer": 0,
+        "explanation": "Settlement situation — illustrative implication: A transport junction can improve accessibility. Settlement situation — settlement or migration concept: A settlement's relation to surrounding places. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Settlement situation",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q10",
+        "question": "Which pair correctly matches Rural settlement with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A settlement with a concentration of non-farm activities → Agriculture and related livelihoods are often important",
+          "A settlement associated largely with countryside activities → Manufacturing, administration and services are often important",
+          "A condition encouraging departure from an origin → Examples include joblessness or livelihood distress",
+          "A settlement associated largely with countryside activities → Agriculture and related livelihoods are often important"
+        ],
+        "answer": 3,
+        "explanation": "Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities. Rural settlement — defining feature: Agriculture and related livelihoods are often important. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rural settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q11",
+        "question": "Which pair correctly matches Rural settlement with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Agriculture and related livelihoods are often important → Non-farm work is prohibited by the definition",
+          "Examples include better jobs or educational opportunities → Rural places can never have services",
+          "Agriculture and related livelihoods are often important → Services and non-farm work may still be present",
+          "Examples include joblessness or livelihood distress → Services and non-farm work may still be present"
+        ],
+        "answer": 2,
+        "explanation": "Rural settlement — defining feature: Agriculture and related livelihoods are often important. Rural settlement — illustrative implication: Services and non-farm work may still be present. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rural settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q12",
+        "question": "Which pair correctly matches Rural settlement with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Non-farm work is prohibited by the definition → A condition encouraging departure from an origin",
+          "Services and non-farm work may still be present → A settlement associated largely with countryside activities",
+          "Every rural resident must cultivate crops → A settlement associated largely with countryside activities",
+          "Services and non-farm work may still be present → A settlement with a concentration of non-farm activities"
+        ],
+        "answer": 1,
+        "explanation": "Rural settlement — illustrative implication: Services and non-farm work may still be present. Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Rural settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q13",
+        "question": "Which pair correctly matches Urban settlement with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A settlement with a concentration of non-farm activities → Manufacturing, administration and services are often important",
+          "A condition encouraging departure from an origin → Manufacturing, administration and services are often important",
+          "A settlement with a concentration of non-farm activities → Examples include joblessness or livelihood distress",
+          "A condition attracting people to a destination → Examples include better jobs or educational opportunities"
+        ],
+        "answer": 0,
+        "explanation": "Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities. Urban settlement — defining feature: Manufacturing, administration and services are often important. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urban settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q14",
+        "question": "Which pair correctly matches Urban settlement with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Examples include better jobs or educational opportunities → Planning must address housing and public infrastructure",
+          "Manufacturing, administration and services are often important → Urban places need no housing or sanitation planning",
+          "Often follows seasonal work opportunities → All urban residents work on farms",
+          "Manufacturing, administration and services are often important → Planning must address housing and public infrastructure"
+        ],
+        "answer": 3,
+        "explanation": "Urban settlement — defining feature: Manufacturing, administration and services are often important. Urban settlement — illustrative implication: Planning must address housing and public infrastructure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urban settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q15",
+        "question": "Which pair correctly matches Urban settlement with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Planning must address housing and public infrastructure → A condition encouraging departure from an origin",
+          "Urban places need no housing or sanitation planning → A condition attracting people to a destination",
+          "Planning must address housing and public infrastructure → A settlement with a concentration of non-farm activities",
+          "Public services automatically expand at the same speed as population → A settlement with a concentration of non-farm activities"
+        ],
+        "answer": 2,
+        "explanation": "Urban settlement — illustrative implication: Planning must address housing and public infrastructure. Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urban settlement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q16",
+        "question": "Which pair correctly matches Push factor with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "Movement for part of a year → Often follows seasonal work opportunities",
+          "A condition encouraging departure from an origin → Examples include joblessness or livelihood distress",
+          "A condition attracting people to a destination → Examples include joblessness or livelihood distress",
+          "A condition encouraging departure from an origin → Examples include better jobs or educational opportunities"
+        ],
+        "answer": 1,
+        "explanation": "Push factor — settlement or migration concept: A condition encouraging departure from an origin. Push factor — defining feature: Examples include joblessness or livelihood distress. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Push factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q17",
+        "question": "Which pair correctly matches Push factor with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Examples include joblessness or livelihood distress → Can contribute to distress migration",
+          "Often follows seasonal work opportunities → Can contribute to distress migration",
+          "Examples include joblessness or livelihood distress → Can never involve livelihood distress",
+          "Transfers part of destination earnings to an origin household → Refers only to money sent home"
+        ],
+        "answer": 0,
+        "explanation": "Push factor — defining feature: Examples include joblessness or livelihood distress. Push factor — illustrative implication: Can contribute to distress migration. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Push factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q18",
+        "question": "Which pair correctly matches Push factor with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Always means better jobs at the destination → A condition encouraging departure from an origin",
+          "Can contribute to distress migration → A condition attracting people to a destination",
+          "Can never involve livelihood distress → Movement for part of a year",
+          "Can contribute to distress migration → A condition encouraging departure from an origin"
+        ],
+        "answer": 3,
+        "explanation": "Push factor — illustrative implication: Can contribute to distress migration. Push factor — settlement or migration concept: A condition encouraging departure from an origin. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Push factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q19",
+        "question": "Which pair correctly matches Pull factor with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A condition attracting people to a destination → Often follows seasonal work opportunities",
+          "Money sent home by a migrant → Transfers part of destination earnings to an origin household",
+          "A condition attracting people to a destination → Examples include better jobs or educational opportunities",
+          "Movement for part of a year → Examples include better jobs or educational opportunities"
+        ],
+        "answer": 2,
+        "explanation": "Pull factor — settlement or migration concept: A condition attracting people to a destination. Pull factor — defining feature: Examples include better jobs or educational opportunities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pull factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q20",
+        "question": "Which pair correctly matches Pull factor with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Can result from violence, disaster or some project impacts → Always means a crisis at the place of origin",
+          "Examples include better jobs or educational opportunities → Can influence the choice of destination",
+          "Transfers part of destination earnings to an origin household → Can influence the choice of destination",
+          "Examples include better jobs or educational opportunities → Is identical to forced removal"
+        ],
+        "answer": 1,
+        "explanation": "Pull factor — defining feature: Examples include better jobs or educational opportunities. Pull factor — illustrative implication: Can influence the choice of destination. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pull factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q21",
+        "question": "Which pair correctly matches Pull factor with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Can influence the choice of destination → A condition attracting people to a destination",
+          "Can never involve education → A condition attracting people to a destination",
+          "Can influence the choice of destination → Movement for part of a year",
+          "Is identical to forced removal → Money sent home by a migrant"
+        ],
+        "answer": 0,
+        "explanation": "Pull factor — illustrative implication: Can influence the choice of destination. Pull factor — settlement or migration concept: A condition attracting people to a destination. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pull factor",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q22",
+        "question": "Which pair correctly matches Seasonal migration with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "Money sent home by a migrant → Often follows seasonal work opportunities",
+          "Movement for part of a year → Transfers part of destination earnings to an origin household",
+          "Movement caused by coercion or loss of the ability to remain → Can result from violence, disaster or some project impacts",
+          "Movement for part of a year → Often follows seasonal work opportunities"
+        ],
+        "answer": 3,
+        "explanation": "Seasonal migration — settlement or migration concept: Movement for part of a year. Seasonal migration — defining feature: Often follows seasonal work opportunities. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal migration",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q23",
+        "question": "Which pair correctly matches Seasonal migration with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Often follows seasonal work opportunities → Always means permanent emigration",
+          "Local land, water and physical conditions → Never follows seasonal demand for workers",
+          "Often follows seasonal work opportunities → Migrants may return to their home settlement",
+          "Can result from violence, disaster or some project impacts → Migrants may return to their home settlement"
+        ],
+        "answer": 2,
+        "explanation": "Seasonal migration — defining feature: Often follows seasonal work opportunities. Seasonal migration — illustrative implication: Migrants may return to their home settlement. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal migration",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q24",
+        "question": "Which pair correctly matches Seasonal migration with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Always means permanent emigration → Movement caused by coercion or loss of the ability to remain",
+          "Migrants may return to their home settlement → Movement for part of a year",
+          "Necessarily ends all ties with the home settlement → Movement for part of a year",
+          "Migrants may return to their home settlement → Money sent home by a migrant"
+        ],
+        "answer": 1,
+        "explanation": "Seasonal migration — illustrative implication: Migrants may return to their home settlement. Seasonal migration — settlement or migration concept: Movement for part of a year. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Seasonal migration",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q25",
+        "question": "Which pair correctly matches Remittance with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "Money sent home by a migrant → Transfers part of destination earnings to an origin household",
+          "Movement caused by coercion or loss of the ability to remain → Transfers part of destination earnings to an origin household",
+          "Money sent home by a migrant → Can result from violence, disaster or some project impacts",
+          "The immediate physical location of a settlement → Local land, water and physical conditions"
+        ],
+        "answer": 0,
+        "explanation": "Remittance — settlement or migration concept: Money sent home by a migrant. Remittance — defining feature: Transfers part of destination earnings to an origin household. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Remittance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q26",
+        "question": "Which pair correctly matches Remittance with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Local land, water and physical conditions → Can support consumption, education or household investment",
+          "Transfers part of destination earnings to an origin household → Means the migrant's total village population",
+          "Connections with routes, markets and other settlements → Cannot support an origin household",
+          "Transfers part of destination earnings to an origin household → Can support consumption, education or household investment"
+        ],
+        "answer": 3,
+        "explanation": "Remittance — defining feature: Transfers part of destination earnings to an origin household. Remittance — illustrative implication: Can support consumption, education or household investment. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Remittance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q27",
+        "question": "Which pair correctly matches Remittance with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Can support consumption, education or household investment → Movement caused by coercion or loss of the ability to remain",
+          "Means the migrant's total village population → The immediate physical location of a settlement",
+          "Can support consumption, education or household investment → Money sent home by a migrant",
+          "Is a tax imposed on imports → Money sent home by a migrant"
+        ],
+        "answer": 2,
+        "explanation": "Remittance — illustrative implication: Can support consumption, education or household investment. Remittance — settlement or migration concept: Money sent home by a migrant. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Remittance",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q28",
+        "question": "Which pair correctly matches Forced displacement with its settlement or migration concept and defining feature, in that order?",
+        "options": [
+          "A settlement's relation to surrounding places → Connections with routes, markets and other settlements",
+          "Movement caused by coercion or loss of the ability to remain → Can result from violence, disaster or some project impacts",
+          "The immediate physical location of a settlement → Can result from violence, disaster or some project impacts",
+          "Movement caused by coercion or loss of the ability to remain → Local land, water and physical conditions"
+        ],
+        "answer": 1,
+        "explanation": "Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain. Forced displacement — defining feature: Can result from violence, disaster or some project impacts. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Forced displacement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q29",
+        "question": "Which pair correctly matches Forced displacement with its defining feature and illustrative implication, in that order?",
+        "options": [
+          "Can result from violence, disaster or some project impacts → Differs from a move freely chosen solely for opportunity",
+          "Connections with routes, markets and other settlements → Differs from a move freely chosen solely for opportunity",
+          "Can result from violence, disaster or some project impacts → Is identical to a holiday trip",
+          "Agriculture and related livelihoods are often important → Is always freely chosen for higher wages"
+        ],
+        "answer": 0,
+        "explanation": "Forced displacement — defining feature: Can result from violence, disaster or some project impacts. Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Forced displacement",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-M-Q30",
+        "question": "Which pair correctly matches Forced displacement with its illustrative implication and settlement or migration concept, in that order?",
+        "options": [
+          "Never involves loss of homes → Movement caused by coercion or loss of the ability to remain",
+          "Differs from a move freely chosen solely for opportunity → The immediate physical location of a settlement",
+          "Is identical to a holiday trip → A settlement's relation to surrounding places",
+          "Differs from a move freely chosen solely for opportunity → Movement caused by coercion or loss of the ability to remain"
+        ],
+        "answer": 3,
+        "explanation": "Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity. Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Forced displacement",
+        "sourceChapter": 7
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH07-H": {
+    "id": "SA-DPP-27-SOC-CH07-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch7",
+    "chapterNumber": 7,
+    "chapter": "Settlements - Migrations",
+    "level": "H",
+    "title": "Settlements - Migrations – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-07.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-SOC-02",
+    "recommendedDate": "2026-11-07",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 7,
+    "sourcePrintedPages": {
+      "from": 88,
+      "to": 102
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q01",
+        "question": "Why can rapid urban growth strain public services?",
+        "options": [
+          "Every new resident immediately gets full services",
+          "Migration destroys all infrastructure instantly",
+          "Cities need no planning",
+          "Housing, water and sanitation may expand more slowly than population"
+        ],
+        "answer": 3,
+        "explanation": "Capacity and investment may not keep pace with growing demand.",
+        "difficulty": "Hard",
+        "topic": "Why can rapid urban growth strain public services?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q02",
+        "question": "Why should migrants not be treated as a single uniform group?",
+        "options": [
+          "All migration is voluntary and permanent",
+          "Children never migrate",
+          "Their skills, reasons for moving and conditions differ",
+          "Every migrant has identical work and income"
+        ],
+        "answer": 2,
+        "explanation": "Migration experiences range from opportunity-driven moves to distress displacement.",
+        "difficulty": "Hard",
+        "topic": "Why should migrants not be treated as a single uniform group?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q03",
+        "question": "A village gains remittances but loses many working-age adults. What is the best conclusion?",
+        "options": [
+          "Remittances prove every resident is wealthy",
+          "Migration can create both gains and local challenges",
+          "Migration has only benefits",
+          "Migration has only costs"
+        ],
+        "answer": 1,
+        "explanation": "Households may gain income while care, labour availability or social life changes.",
+        "difficulty": "Hard",
+        "topic": "A village gains remittances but loses many working-age adults. What is the best conclusion?",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement site — settlement or migration concept: A settlement's relation to surrounding places\nII. Push factor — defining feature: Examples include joblessness or livelihood distress\nIII. Remittance — illustrative implication: Can support consumption, education or household investment",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Settlement site — settlement or migration concept: The immediate physical location of a settlement; Push factor — defining feature: Examples include joblessness or livelihood distress; Remittance — illustrative implication: Can support consumption, education or household investment.",
+        "difficulty": "Hard",
+        "topic": "Settlement site · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement site — defining feature: Local land, water and physical conditions\nII. Push factor — illustrative implication: Can contribute to distress migration\nIII. Remittance — settlement or migration concept: Money sent home by a migrant",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Settlement site — defining feature: Local land, water and physical conditions; Push factor — illustrative implication: Can contribute to distress migration; Remittance — settlement or migration concept: Money sent home by a migrant.",
+        "difficulty": "Hard",
+        "topic": "Settlement site · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement site — illustrative implication: The site is the settlement's export income\nII. Push factor — settlement or migration concept: A settlement with a concentration of non-farm activities\nIII. Remittance — defining feature: Examples include joblessness or livelihood distress",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Settlement site — illustrative implication: A reliable water source can favour settlement; Push factor — settlement or migration concept: A condition encouraging departure from an origin; Remittance — defining feature: Transfers part of destination earnings to an origin household.",
+        "difficulty": "Hard",
+        "topic": "Settlement site · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement situation — settlement or migration concept: A settlement's relation to surrounding places\nII. Pull factor — defining feature: Examples include joblessness or livelihood distress\nIII. Forced displacement — illustrative implication: Is identical to a holiday trip",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Settlement situation — settlement or migration concept: A settlement's relation to surrounding places; Pull factor — defining feature: Examples include better jobs or educational opportunities; Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity.",
+        "difficulty": "Hard",
+        "topic": "Settlement situation · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement situation — defining feature: Examples include better jobs or educational opportunities\nII. Pull factor — illustrative implication: Can influence the choice of destination\nIII. Forced displacement — settlement or migration concept: Movement for part of a year",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Settlement situation — defining feature: Connections with routes, markets and other settlements; Pull factor — illustrative implication: Can influence the choice of destination; Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain.",
+        "difficulty": "Hard",
+        "topic": "Settlement situation · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Settlement situation — illustrative implication: A transport junction can improve accessibility\nII. Pull factor — settlement or migration concept: A condition attracting people to a destination\nIII. Forced displacement — defining feature: Transfers part of destination earnings to an origin household",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Settlement situation — illustrative implication: A transport junction can improve accessibility; Pull factor — settlement or migration concept: A condition attracting people to a destination; Forced displacement — defining feature: Can result from violence, disaster or some project impacts.",
+        "difficulty": "Hard",
+        "topic": "Settlement situation · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rural settlement — settlement or migration concept: Money sent home by a migrant\nII. Seasonal migration — defining feature: Can result from violence, disaster or some project impacts\nIII. Settlement site — illustrative implication: A reliable water source can favour settlement",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities; Seasonal migration — defining feature: Often follows seasonal work opportunities; Settlement site — illustrative implication: A reliable water source can favour settlement.",
+        "difficulty": "Hard",
+        "topic": "Rural settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rural settlement — defining feature: Agriculture and related livelihoods are often important\nII. Seasonal migration — illustrative implication: Necessarily ends all ties with the home settlement\nIII. Settlement site — settlement or migration concept: The immediate physical location of a settlement",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Rural settlement — defining feature: Agriculture and related livelihoods are often important; Seasonal migration — illustrative implication: Migrants may return to their home settlement; Settlement site — settlement or migration concept: The immediate physical location of a settlement.",
+        "difficulty": "Hard",
+        "topic": "Rural settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Rural settlement — illustrative implication: Non-farm work is prohibited by the definition\nII. Seasonal migration — settlement or migration concept: Movement for part of a year\nIII. Settlement site — defining feature: Local land, water and physical conditions",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Rural settlement — illustrative implication: Services and non-farm work may still be present; Seasonal migration — settlement or migration concept: Movement for part of a year; Settlement site — defining feature: Local land, water and physical conditions.",
+        "difficulty": "Hard",
+        "topic": "Rural settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities\nII. Remittance — defining feature: Transfers part of destination earnings to an origin household\nIII. Settlement situation — illustrative implication: A transport junction can improve accessibility",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities; Remittance — defining feature: Transfers part of destination earnings to an origin household; Settlement situation — illustrative implication: A transport junction can improve accessibility.",
+        "difficulty": "Hard",
+        "topic": "Urban settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urban settlement — defining feature: Agriculture and related livelihoods are often important\nII. Remittance — illustrative implication: Cannot support an origin household\nIII. Settlement situation — settlement or migration concept: A condition attracting people to a destination",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Urban settlement — defining feature: Manufacturing, administration and services are often important; Remittance — illustrative implication: Can support consumption, education or household investment; Settlement situation — settlement or migration concept: A settlement's relation to surrounding places.",
+        "difficulty": "Hard",
+        "topic": "Urban settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urban settlement — illustrative implication: Planning must address housing and public infrastructure\nII. Remittance — settlement or migration concept: A condition encouraging departure from an origin\nIII. Settlement situation — defining feature: Often follows seasonal work opportunities",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Urban settlement — illustrative implication: Planning must address housing and public infrastructure; Remittance — settlement or migration concept: Money sent home by a migrant; Settlement situation — defining feature: Connections with routes, markets and other settlements.",
+        "difficulty": "Hard",
+        "topic": "Urban settlement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Push factor — settlement or migration concept: A condition attracting people to a destination\nII. Forced displacement — defining feature: Can result from violence, disaster or some project impacts\nIII. Rural settlement — illustrative implication: Non-farm work is prohibited by the definition",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Push factor — settlement or migration concept: A condition encouraging departure from an origin; Forced displacement — defining feature: Can result from violence, disaster or some project impacts; Rural settlement — illustrative implication: Services and non-farm work may still be present.",
+        "difficulty": "Hard",
+        "topic": "Push factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Push factor — defining feature: Examples include joblessness or livelihood distress\nII. Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity\nIII. Rural settlement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Push factor — defining feature: Examples include joblessness or livelihood distress; Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity; Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities.",
+        "difficulty": "Hard",
+        "topic": "Push factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Push factor — illustrative implication: Refers only to money sent home\nII. Forced displacement — settlement or migration concept: Money sent home by a migrant\nIII. Rural settlement — defining feature: Agriculture and related livelihoods are often important",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Push factor — illustrative implication: Can contribute to distress migration; Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain; Rural settlement — defining feature: Agriculture and related livelihoods are often important.",
+        "difficulty": "Hard",
+        "topic": "Push factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pull factor — settlement or migration concept: A condition attracting people to a destination\nII. Settlement site — defining feature: Connections with routes, markets and other settlements\nIII. Urban settlement — illustrative implication: Planning must address housing and public infrastructure",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Pull factor — settlement or migration concept: A condition attracting people to a destination; Settlement site — defining feature: Local land, water and physical conditions; Urban settlement — illustrative implication: Planning must address housing and public infrastructure.",
+        "difficulty": "Hard",
+        "topic": "Pull factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pull factor — defining feature: Local land, water and physical conditions\nII. Settlement site — illustrative implication: A reliable water source can favour settlement\nIII. Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Pull factor — defining feature: Examples include better jobs or educational opportunities; Settlement site — illustrative implication: A reliable water source can favour settlement; Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities.",
+        "difficulty": "Hard",
+        "topic": "Pull factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pull factor — illustrative implication: Can influence the choice of destination\nII. Settlement site — settlement or migration concept: The immediate physical location of a settlement\nIII. Urban settlement — defining feature: Manufacturing, administration and services are often important",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Pull factor — illustrative implication: Can influence the choice of destination; Settlement site — settlement or migration concept: The immediate physical location of a settlement; Urban settlement — defining feature: Manufacturing, administration and services are often important.",
+        "difficulty": "Hard",
+        "topic": "Pull factor · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal migration — settlement or migration concept: A settlement associated largely with countryside activities\nII. Settlement situation — defining feature: Examples include joblessness or livelihood distress\nIII. Push factor — illustrative implication: Refers only to money sent home",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Seasonal migration — settlement or migration concept: Movement for part of a year; Settlement situation — defining feature: Connections with routes, markets and other settlements; Push factor — illustrative implication: Can contribute to distress migration.",
+        "difficulty": "Hard",
+        "topic": "Seasonal migration · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal migration — defining feature: Often follows seasonal work opportunities\nII. Settlement situation — illustrative implication: A transport junction cannot affect accessibility\nIII. Push factor — settlement or migration concept: Movement for part of a year",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Seasonal migration — defining feature: Often follows seasonal work opportunities; Settlement situation — illustrative implication: A transport junction can improve accessibility; Push factor — settlement or migration concept: A condition encouraging departure from an origin.",
+        "difficulty": "Hard",
+        "topic": "Seasonal migration · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Seasonal migration — illustrative implication: Necessarily ends all ties with the home settlement\nII. Settlement situation — settlement or migration concept: A settlement's relation to surrounding places\nIII. Push factor — defining feature: Transfers part of destination earnings to an origin household",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Seasonal migration — illustrative implication: Migrants may return to their home settlement; Settlement situation — settlement or migration concept: A settlement's relation to surrounding places; Push factor — defining feature: Examples include joblessness or livelihood distress.",
+        "difficulty": "Hard",
+        "topic": "Seasonal migration · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Remittance — settlement or migration concept: Money sent home by a migrant\nII. Rural settlement — defining feature: Agriculture and related livelihoods are often important\nIII. Pull factor — illustrative implication: Is identical to forced removal",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Remittance — settlement or migration concept: Money sent home by a migrant; Rural settlement — defining feature: Agriculture and related livelihoods are often important; Pull factor — illustrative implication: Can influence the choice of destination.",
+        "difficulty": "Hard",
+        "topic": "Remittance · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Remittance — defining feature: Often follows seasonal work opportunities\nII. Rural settlement — illustrative implication: Non-farm work is prohibited by the definition\nIII. Pull factor — settlement or migration concept: A condition attracting people to a destination",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Remittance — defining feature: Transfers part of destination earnings to an origin household; Rural settlement — illustrative implication: Services and non-farm work may still be present; Pull factor — settlement or migration concept: A condition attracting people to a destination.",
+        "difficulty": "Hard",
+        "topic": "Remittance · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Remittance — illustrative implication: Can support consumption, education or household investment\nII. Rural settlement — settlement or migration concept: The immediate physical location of a settlement\nIII. Pull factor — defining feature: Examples include better jobs or educational opportunities",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Remittance — illustrative implication: Can support consumption, education or household investment; Rural settlement — settlement or migration concept: A settlement associated largely with countryside activities; Pull factor — defining feature: Examples include better jobs or educational opportunities.",
+        "difficulty": "Hard",
+        "topic": "Remittance · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Forced displacement — settlement or migration concept: The immediate physical location of a settlement\nII. Urban settlement — defining feature: Manufacturing, administration and services are often important\nIII. Seasonal migration — illustrative implication: Migrants may return to their home settlement",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Forced displacement — settlement or migration concept: Movement caused by coercion or loss of the ability to remain; Urban settlement — defining feature: Manufacturing, administration and services are often important; Seasonal migration — illustrative implication: Migrants may return to their home settlement.",
+        "difficulty": "Hard",
+        "topic": "Forced displacement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Forced displacement — defining feature: Can result from violence, disaster or some project impacts\nII. Urban settlement — illustrative implication: Planning must address housing and public infrastructure\nIII. Seasonal migration — settlement or migration concept: Movement for part of a year",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Forced displacement — defining feature: Can result from violence, disaster or some project impacts; Urban settlement — illustrative implication: Planning must address housing and public infrastructure; Seasonal migration — settlement or migration concept: Movement for part of a year.",
+        "difficulty": "Hard",
+        "topic": "Forced displacement · comparing chapter concepts",
+        "sourceChapter": 7
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH07-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Forced displacement — illustrative implication: Is identical to a holiday trip\nII. Urban settlement — settlement or migration concept: A condition encouraging departure from an origin\nIII. Seasonal migration — defining feature: Examples include joblessness or livelihood distress",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Forced displacement — illustrative implication: Differs from a move freely chosen solely for opportunity; Urban settlement — settlement or migration concept: A settlement with a concentration of non-farm activities; Seasonal migration — defining feature: Often follows seasonal work opportunities.",
+        "difficulty": "Hard",
+        "topic": "Forced displacement · comparing chapter concepts",
+        "sourceChapter": 7
+      }
+    ]
+  }
+}

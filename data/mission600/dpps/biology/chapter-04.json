@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH04-E": {
+    "id": "SA-DPP-27-BIO-CH04-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "E",
+    "title": "Excretion – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-04.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-02",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q01",
+        "question": "What is the functional unit of the human kidney?",
+        "options": [
+          "Nephron",
+          "Neuron",
+          "Alveolus",
+          "Villus"
+        ],
+        "answer": 0,
+        "explanation": "Nephrons filter blood and modify filtrate to form urine.",
+        "difficulty": "Easy",
+        "topic": "What is the functional unit of the human kidney?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q02",
+        "question": "What is the main nitrogenous waste excreted in human urine?",
+        "options": [
+          "Starch",
+          "Cellulose",
+          "Chlorophyll",
+          "Urea"
+        ],
+        "answer": 3,
+        "explanation": "Protein metabolism produces nitrogenous waste largely excreted as urea.",
+        "difficulty": "Easy",
+        "topic": "What is the main nitrogenous waste excreted in human urine?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q03",
+        "question": "Which tubes carry urine from kidneys to urinary bladder?",
+        "options": [
+          "Arteries",
+          "Oviducts",
+          "Ureters",
+          "Urethra"
+        ],
+        "answer": 2,
+        "explanation": "Each ureter connects a kidney to the bladder.",
+        "difficulty": "Easy",
+        "topic": "Which tubes carry urine from kidneys to urinary bladder?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q04",
+        "question": "Glomerulus: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A urine-collecting tube in the kidney",
+          "A tuft of blood capillaries",
+          "A cup-shaped nephron structure",
+          "A tubular part of the nephron"
+        ],
+        "answer": 1,
+        "explanation": "Glomerulus — anatomical or physiological identity: A tuft of blood capillaries.",
+        "difficulty": "Easy",
+        "topic": "Glomerulus · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q05",
+        "question": "Glomerulus: which option correctly identifies the site or direction?",
+        "options": [
+          "Inside Bowman's capsule",
+          "Extends from Bowman's capsule",
+          "Receives fluid from multiple nephrons",
+          "From kidney to bladder"
+        ],
+        "answer": 0,
+        "explanation": "Glomerulus — site or direction: Inside Bowman's capsule.",
+        "difficulty": "Easy",
+        "topic": "Glomerulus · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q06",
+        "question": "Glomerulus: which option correctly identifies the specific role?",
+        "options": [
+          "Carries modified fluid towards the renal pelvis",
+          "Propels urine into the bladder",
+          "Temporarily stores urine",
+          "Filters fluid from blood under pressure"
+        ],
+        "answer": 3,
+        "explanation": "Glomerulus — specific role: Filters fluid from blood under pressure.",
+        "difficulty": "Easy",
+        "topic": "Glomerulus · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q07",
+        "question": "Bowman's capsule: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A urine-collecting tube in the kidney",
+          "A muscular tube carrying urine",
+          "A cup-shaped nephron structure",
+          "A tubular part of the nephron"
+        ],
+        "answer": 2,
+        "explanation": "Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure.",
+        "difficulty": "Easy",
+        "topic": "Bowman's capsule · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q08",
+        "question": "Bowman's capsule: which option correctly identifies the site or direction?",
+        "options": [
+          "Between the ureters and urethra in the urinary route",
+          "Surrounds the glomerulus",
+          "Receives fluid from multiple nephrons",
+          "From kidney to bladder"
+        ],
+        "answer": 1,
+        "explanation": "Bowman's capsule — site or direction: Surrounds the glomerulus.",
+        "difficulty": "Easy",
+        "topic": "Bowman's capsule · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q09",
+        "question": "Bowman's capsule: which option correctly identifies the specific role?",
+        "options": [
+          "Collects the initial filtrate",
+          "Propels urine into the bladder",
+          "Temporarily stores urine",
+          "Conducts urine out of the body"
+        ],
+        "answer": 0,
+        "explanation": "Bowman's capsule — specific role: Collects the initial filtrate.",
+        "difficulty": "Easy",
+        "topic": "Bowman's capsule · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q10",
+        "question": "Renal tubule: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A urine-collecting tube in the kidney",
+          "A muscular tube carrying urine",
+          "A muscular storage organ",
+          "A tubular part of the nephron"
+        ],
+        "answer": 3,
+        "explanation": "Renal tubule — anatomical or physiological identity: A tubular part of the nephron.",
+        "difficulty": "Easy",
+        "topic": "Renal tubule · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q11",
+        "question": "Renal tubule: which option correctly identifies the site or direction?",
+        "options": [
+          "Between the ureters and urethra in the urinary route",
+          "From bladder towards the exterior",
+          "Extends from Bowman's capsule",
+          "From kidney to bladder"
+        ],
+        "answer": 2,
+        "explanation": "Renal tubule — site or direction: Extends from Bowman's capsule.",
+        "difficulty": "Easy",
+        "topic": "Renal tubule · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q12",
+        "question": "Renal tubule: which option correctly identifies the specific role?",
+        "options": [
+          "Allows selected wastes and small solutes to move across it",
+          "Modifies filtrate by reabsorption and secretion",
+          "Conducts urine out of the body",
+          "Disposes of nitrogen from amino-acid breakdown"
+        ],
+        "answer": 1,
+        "explanation": "Renal tubule — specific role: Modifies filtrate by reabsorption and secretion.",
+        "difficulty": "Easy",
+        "topic": "Renal tubule · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q13",
+        "question": "Collecting duct: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A urine-collecting tube in the kidney",
+          "A muscular tube carrying urine",
+          "A muscular storage organ",
+          "The tube for urine discharge"
+        ],
+        "answer": 0,
+        "explanation": "Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney.",
+        "difficulty": "Easy",
+        "topic": "Collecting duct · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q14",
+        "question": "Collecting duct: which option correctly identifies the site or direction?",
+        "options": [
+          "Between the ureters and urethra in the urinary route",
+          "From bladder towards the exterior",
+          "Formed mainly in the liver and removed by kidneys",
+          "Receives fluid from multiple nephrons"
+        ],
+        "answer": 3,
+        "explanation": "Collecting duct — site or direction: Receives fluid from multiple nephrons.",
+        "difficulty": "Easy",
+        "topic": "Collecting duct · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q15",
+        "question": "Collecting duct: which option correctly identifies the specific role?",
+        "options": [
+          "Allows selected wastes and small solutes to move across it",
+          "Filters fluid from blood under pressure",
+          "Carries modified fluid towards the renal pelvis",
+          "Disposes of nitrogen from amino-acid breakdown"
+        ],
+        "answer": 2,
+        "explanation": "Collecting duct — specific role: Carries modified fluid towards the renal pelvis.",
+        "difficulty": "Easy",
+        "topic": "Collecting duct · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q16",
+        "question": "Ureter: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A major human nitrogenous waste",
+          "A muscular tube carrying urine",
+          "A muscular storage organ",
+          "The tube for urine discharge"
+        ],
+        "answer": 1,
+        "explanation": "Ureter — anatomical or physiological identity: A muscular tube carrying urine.",
+        "difficulty": "Easy",
+        "topic": "Ureter · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q17",
+        "question": "Ureter: which option correctly identifies the site or direction?",
+        "options": [
+          "From kidney to bladder",
+          "From bladder towards the exterior",
+          "Formed mainly in the liver and removed by kidneys",
+          "Between blood and dialysis fluid"
+        ],
+        "answer": 0,
+        "explanation": "Ureter — site or direction: From kidney to bladder.",
+        "difficulty": "Easy",
+        "topic": "Ureter · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q18",
+        "question": "Ureter: which option correctly identifies the specific role?",
+        "options": [
+          "Disposes of nitrogen from amino-acid breakdown",
+          "Allows selected wastes and small solutes to move across it",
+          "Filters fluid from blood under pressure",
+          "Propels urine into the bladder"
+        ],
+        "answer": 3,
+        "explanation": "Ureter — specific role: Propels urine into the bladder.",
+        "difficulty": "Easy",
+        "topic": "Ureter · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q19",
+        "question": "Urinary bladder: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A major human nitrogenous waste",
+          "A selectively permeable artificial barrier",
+          "A muscular storage organ",
+          "The tube for urine discharge"
+        ],
+        "answer": 2,
+        "explanation": "Urinary bladder — anatomical or physiological identity: A muscular storage organ.",
+        "difficulty": "Easy",
+        "topic": "Urinary bladder · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q20",
+        "question": "Urinary bladder: which option correctly identifies the site or direction?",
+        "options": [
+          "Inside Bowman's capsule",
+          "Between the ureters and urethra in the urinary route",
+          "Formed mainly in the liver and removed by kidneys",
+          "Between blood and dialysis fluid"
+        ],
+        "answer": 1,
+        "explanation": "Urinary bladder — site or direction: Between the ureters and urethra in the urinary route.",
+        "difficulty": "Easy",
+        "topic": "Urinary bladder · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q21",
+        "question": "Urinary bladder: which option correctly identifies the specific role?",
+        "options": [
+          "Temporarily stores urine",
+          "Allows selected wastes and small solutes to move across it",
+          "Filters fluid from blood under pressure",
+          "Collects the initial filtrate"
+        ],
+        "answer": 0,
+        "explanation": "Urinary bladder — specific role: Temporarily stores urine.",
+        "difficulty": "Easy",
+        "topic": "Urinary bladder · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q22",
+        "question": "Urethra: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A major human nitrogenous waste",
+          "A selectively permeable artificial barrier",
+          "A tuft of blood capillaries",
+          "The tube for urine discharge"
+        ],
+        "answer": 3,
+        "explanation": "Urethra — anatomical or physiological identity: The tube for urine discharge.",
+        "difficulty": "Easy",
+        "topic": "Urethra · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q23",
+        "question": "Urethra: which option correctly identifies the site or direction?",
+        "options": [
+          "Inside Bowman's capsule",
+          "Surrounds the glomerulus",
+          "From bladder towards the exterior",
+          "Between blood and dialysis fluid"
+        ],
+        "answer": 2,
+        "explanation": "Urethra — site or direction: From bladder towards the exterior.",
+        "difficulty": "Easy",
+        "topic": "Urethra · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q24",
+        "question": "Urethra: which option correctly identifies the specific role?",
+        "options": [
+          "Modifies filtrate by reabsorption and secretion",
+          "Conducts urine out of the body",
+          "Filters fluid from blood under pressure",
+          "Collects the initial filtrate"
+        ],
+        "answer": 1,
+        "explanation": "Urethra — specific role: Conducts urine out of the body.",
+        "difficulty": "Easy",
+        "topic": "Urethra · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q25",
+        "question": "Urea: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A major human nitrogenous waste",
+          "A selectively permeable artificial barrier",
+          "A tuft of blood capillaries",
+          "A cup-shaped nephron structure"
+        ],
+        "answer": 0,
+        "explanation": "Urea — anatomical or physiological identity: A major human nitrogenous waste.",
+        "difficulty": "Easy",
+        "topic": "Urea · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q26",
+        "question": "Urea: which option correctly identifies the site or direction?",
+        "options": [
+          "Inside Bowman's capsule",
+          "Surrounds the glomerulus",
+          "Extends from Bowman's capsule",
+          "Formed mainly in the liver and removed by kidneys"
+        ],
+        "answer": 3,
+        "explanation": "Urea — site or direction: Formed mainly in the liver and removed by kidneys.",
+        "difficulty": "Easy",
+        "topic": "Urea · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q27",
+        "question": "Urea: which option correctly identifies the specific role?",
+        "options": [
+          "Modifies filtrate by reabsorption and secretion",
+          "Carries modified fluid towards the renal pelvis",
+          "Disposes of nitrogen from amino-acid breakdown",
+          "Collects the initial filtrate"
+        ],
+        "answer": 2,
+        "explanation": "Urea — specific role: Disposes of nitrogen from amino-acid breakdown.",
+        "difficulty": "Easy",
+        "topic": "Urea · specific role",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q28",
+        "question": "Dialysis membrane: which option correctly identifies the anatomical or physiological identity?",
+        "options": [
+          "A tubular part of the nephron",
+          "A selectively permeable artificial barrier",
+          "A tuft of blood capillaries",
+          "A cup-shaped nephron structure"
+        ],
+        "answer": 1,
+        "explanation": "Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier.",
+        "difficulty": "Easy",
+        "topic": "Dialysis membrane · anatomical or physiological identity",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q29",
+        "question": "Dialysis membrane: which option correctly identifies the site or direction?",
+        "options": [
+          "Between blood and dialysis fluid",
+          "Surrounds the glomerulus",
+          "Extends from Bowman's capsule",
+          "Receives fluid from multiple nephrons"
+        ],
+        "answer": 0,
+        "explanation": "Dialysis membrane — site or direction: Between blood and dialysis fluid.",
+        "difficulty": "Easy",
+        "topic": "Dialysis membrane · site or direction",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-E-Q30",
+        "question": "Dialysis membrane: which option correctly identifies the specific role?",
+        "options": [
+          "Modifies filtrate by reabsorption and secretion",
+          "Carries modified fluid towards the renal pelvis",
+          "Propels urine into the bladder",
+          "Allows selected wastes and small solutes to move across it"
+        ],
+        "answer": 3,
+        "explanation": "Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it.",
+        "difficulty": "Easy",
+        "topic": "Dialysis membrane · specific role",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH04-M": {
+    "id": "SA-DPP-27-BIO-CH04-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "M",
+    "title": "Excretion – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-04.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-03",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q01",
+        "question": "Where does filtration into a nephron begin?",
+        "options": [
+          "Urinary bladder into urethra",
+          "Ureter into kidney",
+          "Collecting duct into artery",
+          "Glomerulus into Bowman's capsule"
+        ],
+        "answer": 3,
+        "explanation": "Blood pressure drives filtration across glomerular capillaries.",
+        "difficulty": "Medium",
+        "topic": "Where does filtration into a nephron begin?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q02",
+        "question": "Why is glucose normally absent or very low in healthy urine?",
+        "options": [
+          "All glucose is excreted unchanged",
+          "Kidneys manufacture no filtrate",
+          "Filtered glucose is reabsorbed",
+          "Glucose cannot enter kidney blood"
+        ],
+        "answer": 2,
+        "explanation": "Tubular transport normally recovers filtered glucose.",
+        "difficulty": "Medium",
+        "topic": "Why is glucose normally absent or very low in healthy urine?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q03",
+        "question": "What is a major function of dialysis in kidney failure?",
+        "options": [
+          "Digesting dietary proteins",
+          "Removing wastes and excess substances from blood",
+          "Replacing all hormonal functions permanently",
+          "Producing red cells directly"
+        ],
+        "answer": 1,
+        "explanation": "Dialysis uses a membrane and concentration gradients to clear selected substances.",
+        "difficulty": "Medium",
+        "topic": "What is a major function of dialysis in kidney failure?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q04",
+        "question": "Which pair correctly matches Glomerulus with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A tuft of blood capillaries → Inside Bowman's capsule",
+          "A cup-shaped nephron structure → Inside Bowman's capsule",
+          "A tuft of blood capillaries → Surrounds the glomerulus",
+          "A tubular part of the nephron → Extends from Bowman's capsule"
+        ],
+        "answer": 0,
+        "explanation": "Glomerulus — anatomical or physiological identity: A tuft of blood capillaries. Glomerulus — site or direction: Inside Bowman's capsule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glomerulus",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q05",
+        "question": "Which pair correctly matches Glomerulus with its site or direction and specific role, in that order?",
+        "options": [
+          "Extends from Bowman's capsule → Filters fluid from blood under pressure",
+          "Inside Bowman's capsule → Collects the initial filtrate",
+          "Receives fluid from multiple nephrons → Modifies filtrate by reabsorption and secretion",
+          "Inside Bowman's capsule → Filters fluid from blood under pressure"
+        ],
+        "answer": 3,
+        "explanation": "Glomerulus — site or direction: Inside Bowman's capsule. Glomerulus — specific role: Filters fluid from blood under pressure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glomerulus",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q06",
+        "question": "Which pair correctly matches Glomerulus with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Filters fluid from blood under pressure → A cup-shaped nephron structure",
+          "Propels urine into the bladder → A tubular part of the nephron",
+          "Filters fluid from blood under pressure → A tuft of blood capillaries",
+          "Carries modified fluid towards the renal pelvis → A tuft of blood capillaries"
+        ],
+        "answer": 2,
+        "explanation": "Glomerulus — specific role: Filters fluid from blood under pressure. Glomerulus — anatomical or physiological identity: A tuft of blood capillaries. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Glomerulus",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q07",
+        "question": "Which pair correctly matches Bowman's capsule with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A urine-collecting tube in the kidney → Receives fluid from multiple nephrons",
+          "A cup-shaped nephron structure → Surrounds the glomerulus",
+          "A tubular part of the nephron → Surrounds the glomerulus",
+          "A cup-shaped nephron structure → Extends from Bowman's capsule"
+        ],
+        "answer": 1,
+        "explanation": "Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure. Bowman's capsule — site or direction: Surrounds the glomerulus. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bowman's capsule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q08",
+        "question": "Which pair correctly matches Bowman's capsule with its site or direction and specific role, in that order?",
+        "options": [
+          "Surrounds the glomerulus → Collects the initial filtrate",
+          "Receives fluid from multiple nephrons → Collects the initial filtrate",
+          "Surrounds the glomerulus → Modifies filtrate by reabsorption and secretion",
+          "From kidney to bladder → Carries modified fluid towards the renal pelvis"
+        ],
+        "answer": 0,
+        "explanation": "Bowman's capsule — site or direction: Surrounds the glomerulus. Bowman's capsule — specific role: Collects the initial filtrate. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bowman's capsule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q09",
+        "question": "Which pair correctly matches Bowman's capsule with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Propels urine into the bladder → A cup-shaped nephron structure",
+          "Collects the initial filtrate → A tubular part of the nephron",
+          "Temporarily stores urine → A urine-collecting tube in the kidney",
+          "Collects the initial filtrate → A cup-shaped nephron structure"
+        ],
+        "answer": 3,
+        "explanation": "Bowman's capsule — specific role: Collects the initial filtrate. Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bowman's capsule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q10",
+        "question": "Which pair correctly matches Renal tubule with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A tubular part of the nephron → Receives fluid from multiple nephrons",
+          "A muscular tube carrying urine → From kidney to bladder",
+          "A tubular part of the nephron → Extends from Bowman's capsule",
+          "A urine-collecting tube in the kidney → Extends from Bowman's capsule"
+        ],
+        "answer": 2,
+        "explanation": "Renal tubule — anatomical or physiological identity: A tubular part of the nephron. Renal tubule — site or direction: Extends from Bowman's capsule. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Renal tubule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q11",
+        "question": "Which pair correctly matches Renal tubule with its site or direction and specific role, in that order?",
+        "options": [
+          "Between the ureters and urethra in the urinary route → Temporarily stores urine",
+          "Extends from Bowman's capsule → Modifies filtrate by reabsorption and secretion",
+          "From kidney to bladder → Modifies filtrate by reabsorption and secretion",
+          "Extends from Bowman's capsule → Propels urine into the bladder"
+        ],
+        "answer": 1,
+        "explanation": "Renal tubule — site or direction: Extends from Bowman's capsule. Renal tubule — specific role: Modifies filtrate by reabsorption and secretion. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Renal tubule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q12",
+        "question": "Which pair correctly matches Renal tubule with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Modifies filtrate by reabsorption and secretion → A tubular part of the nephron",
+          "Conducts urine out of the body → A tubular part of the nephron",
+          "Modifies filtrate by reabsorption and secretion → A urine-collecting tube in the kidney",
+          "Disposes of nitrogen from amino-acid breakdown → A muscular tube carrying urine"
+        ],
+        "answer": 0,
+        "explanation": "Renal tubule — specific role: Modifies filtrate by reabsorption and secretion. Renal tubule — anatomical or physiological identity: A tubular part of the nephron. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Renal tubule",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q13",
+        "question": "Which pair correctly matches Collecting duct with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A muscular tube carrying urine → Receives fluid from multiple nephrons",
+          "A urine-collecting tube in the kidney → From kidney to bladder",
+          "A muscular storage organ → Between the ureters and urethra in the urinary route",
+          "A urine-collecting tube in the kidney → Receives fluid from multiple nephrons"
+        ],
+        "answer": 3,
+        "explanation": "Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney. Collecting duct — site or direction: Receives fluid from multiple nephrons. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Collecting duct",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q14",
+        "question": "Which pair correctly matches Collecting duct with its site or direction and specific role, in that order?",
+        "options": [
+          "Receives fluid from multiple nephrons → Temporarily stores urine",
+          "From bladder towards the exterior → Conducts urine out of the body",
+          "Receives fluid from multiple nephrons → Carries modified fluid towards the renal pelvis",
+          "Between the ureters and urethra in the urinary route → Carries modified fluid towards the renal pelvis"
+        ],
+        "answer": 2,
+        "explanation": "Collecting duct — site or direction: Receives fluid from multiple nephrons. Collecting duct — specific role: Carries modified fluid towards the renal pelvis. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Collecting duct",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q15",
+        "question": "Which pair correctly matches Collecting duct with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Allows selected wastes and small solutes to move across it → A muscular storage organ",
+          "Carries modified fluid towards the renal pelvis → A urine-collecting tube in the kidney",
+          "Disposes of nitrogen from amino-acid breakdown → A urine-collecting tube in the kidney",
+          "Carries modified fluid towards the renal pelvis → A muscular tube carrying urine"
+        ],
+        "answer": 1,
+        "explanation": "Collecting duct — specific role: Carries modified fluid towards the renal pelvis. Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Collecting duct",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q16",
+        "question": "Which pair correctly matches Ureter with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A muscular tube carrying urine → From kidney to bladder",
+          "A muscular storage organ → From kidney to bladder",
+          "A muscular tube carrying urine → Between the ureters and urethra in the urinary route",
+          "The tube for urine discharge → From bladder towards the exterior"
+        ],
+        "answer": 0,
+        "explanation": "Ureter — anatomical or physiological identity: A muscular tube carrying urine. Ureter — site or direction: From kidney to bladder. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ureter",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q17",
+        "question": "Which pair correctly matches Ureter with its site or direction and specific role, in that order?",
+        "options": [
+          "From bladder towards the exterior → Propels urine into the bladder",
+          "From kidney to bladder → Temporarily stores urine",
+          "Formed mainly in the liver and removed by kidneys → Conducts urine out of the body",
+          "From kidney to bladder → Propels urine into the bladder"
+        ],
+        "answer": 3,
+        "explanation": "Ureter — site or direction: From kidney to bladder. Ureter — specific role: Propels urine into the bladder. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ureter",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q18",
+        "question": "Which pair correctly matches Ureter with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Propels urine into the bladder → A muscular storage organ",
+          "Allows selected wastes and small solutes to move across it → The tube for urine discharge",
+          "Propels urine into the bladder → A muscular tube carrying urine",
+          "Disposes of nitrogen from amino-acid breakdown → A muscular tube carrying urine"
+        ],
+        "answer": 2,
+        "explanation": "Ureter — specific role: Propels urine into the bladder. Ureter — anatomical or physiological identity: A muscular tube carrying urine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Ureter",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q19",
+        "question": "Which pair correctly matches Urinary bladder with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A major human nitrogenous waste → Formed mainly in the liver and removed by kidneys",
+          "A muscular storage organ → Between the ureters and urethra in the urinary route",
+          "The tube for urine discharge → Between the ureters and urethra in the urinary route",
+          "A muscular storage organ → From bladder towards the exterior"
+        ],
+        "answer": 1,
+        "explanation": "Urinary bladder — anatomical or physiological identity: A muscular storage organ. Urinary bladder — site or direction: Between the ureters and urethra in the urinary route. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urinary bladder",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q20",
+        "question": "Which pair correctly matches Urinary bladder with its site or direction and specific role, in that order?",
+        "options": [
+          "Between the ureters and urethra in the urinary route → Temporarily stores urine",
+          "Formed mainly in the liver and removed by kidneys → Temporarily stores urine",
+          "Between the ureters and urethra in the urinary route → Conducts urine out of the body",
+          "Between blood and dialysis fluid → Disposes of nitrogen from amino-acid breakdown"
+        ],
+        "answer": 0,
+        "explanation": "Urinary bladder — site or direction: Between the ureters and urethra in the urinary route. Urinary bladder — specific role: Temporarily stores urine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urinary bladder",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q21",
+        "question": "Which pair correctly matches Urinary bladder with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Allows selected wastes and small solutes to move across it → A muscular storage organ",
+          "Temporarily stores urine → The tube for urine discharge",
+          "Filters fluid from blood under pressure → A major human nitrogenous waste",
+          "Temporarily stores urine → A muscular storage organ"
+        ],
+        "answer": 3,
+        "explanation": "Urinary bladder — specific role: Temporarily stores urine. Urinary bladder — anatomical or physiological identity: A muscular storage organ. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urinary bladder",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q22",
+        "question": "Which pair correctly matches Urethra with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "The tube for urine discharge → Formed mainly in the liver and removed by kidneys",
+          "A selectively permeable artificial barrier → Between blood and dialysis fluid",
+          "The tube for urine discharge → From bladder towards the exterior",
+          "A major human nitrogenous waste → From bladder towards the exterior"
+        ],
+        "answer": 2,
+        "explanation": "Urethra — anatomical or physiological identity: The tube for urine discharge. Urethra — site or direction: From bladder towards the exterior. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urethra",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q23",
+        "question": "Which pair correctly matches Urethra with its site or direction and specific role, in that order?",
+        "options": [
+          "Inside Bowman's capsule → Allows selected wastes and small solutes to move across it",
+          "From bladder towards the exterior → Conducts urine out of the body",
+          "Between blood and dialysis fluid → Conducts urine out of the body",
+          "From bladder towards the exterior → Disposes of nitrogen from amino-acid breakdown"
+        ],
+        "answer": 1,
+        "explanation": "Urethra — site or direction: From bladder towards the exterior. Urethra — specific role: Conducts urine out of the body. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urethra",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q24",
+        "question": "Which pair correctly matches Urethra with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Conducts urine out of the body → The tube for urine discharge",
+          "Filters fluid from blood under pressure → The tube for urine discharge",
+          "Conducts urine out of the body → A major human nitrogenous waste",
+          "Collects the initial filtrate → A selectively permeable artificial barrier"
+        ],
+        "answer": 0,
+        "explanation": "Urethra — specific role: Conducts urine out of the body. Urethra — anatomical or physiological identity: The tube for urine discharge. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urethra",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q25",
+        "question": "Which pair correctly matches Urea with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A selectively permeable artificial barrier → Formed mainly in the liver and removed by kidneys",
+          "A major human nitrogenous waste → Between blood and dialysis fluid",
+          "A tuft of blood capillaries → Inside Bowman's capsule",
+          "A major human nitrogenous waste → Formed mainly in the liver and removed by kidneys"
+        ],
+        "answer": 3,
+        "explanation": "Urea — anatomical or physiological identity: A major human nitrogenous waste. Urea — site or direction: Formed mainly in the liver and removed by kidneys. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q26",
+        "question": "Which pair correctly matches Urea with its site or direction and specific role, in that order?",
+        "options": [
+          "Formed mainly in the liver and removed by kidneys → Allows selected wastes and small solutes to move across it",
+          "Surrounds the glomerulus → Filters fluid from blood under pressure",
+          "Formed mainly in the liver and removed by kidneys → Disposes of nitrogen from amino-acid breakdown",
+          "Inside Bowman's capsule → Disposes of nitrogen from amino-acid breakdown"
+        ],
+        "answer": 2,
+        "explanation": "Urea — site or direction: Formed mainly in the liver and removed by kidneys. Urea — specific role: Disposes of nitrogen from amino-acid breakdown. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q27",
+        "question": "Which pair correctly matches Urea with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Modifies filtrate by reabsorption and secretion → A tuft of blood capillaries",
+          "Disposes of nitrogen from amino-acid breakdown → A major human nitrogenous waste",
+          "Collects the initial filtrate → A major human nitrogenous waste",
+          "Disposes of nitrogen from amino-acid breakdown → A selectively permeable artificial barrier"
+        ],
+        "answer": 1,
+        "explanation": "Urea — specific role: Disposes of nitrogen from amino-acid breakdown. Urea — anatomical or physiological identity: A major human nitrogenous waste. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Urea",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q28",
+        "question": "Which pair correctly matches Dialysis membrane with its anatomical or physiological identity and site or direction, in that order?",
+        "options": [
+          "A selectively permeable artificial barrier → Between blood and dialysis fluid",
+          "A tuft of blood capillaries → Between blood and dialysis fluid",
+          "A selectively permeable artificial barrier → Inside Bowman's capsule",
+          "A cup-shaped nephron structure → Surrounds the glomerulus"
+        ],
+        "answer": 0,
+        "explanation": "Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier. Dialysis membrane — site or direction: Between blood and dialysis fluid. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dialysis membrane",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q29",
+        "question": "Which pair correctly matches Dialysis membrane with its site or direction and specific role, in that order?",
+        "options": [
+          "Surrounds the glomerulus → Allows selected wastes and small solutes to move across it",
+          "Between blood and dialysis fluid → Filters fluid from blood under pressure",
+          "Extends from Bowman's capsule → Collects the initial filtrate",
+          "Between blood and dialysis fluid → Allows selected wastes and small solutes to move across it"
+        ],
+        "answer": 3,
+        "explanation": "Dialysis membrane — site or direction: Between blood and dialysis fluid. Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dialysis membrane",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-M-Q30",
+        "question": "Which pair correctly matches Dialysis membrane with its specific role and anatomical or physiological identity, in that order?",
+        "options": [
+          "Allows selected wastes and small solutes to move across it → A tuft of blood capillaries",
+          "Carries modified fluid towards the renal pelvis → A cup-shaped nephron structure",
+          "Allows selected wastes and small solutes to move across it → A selectively permeable artificial barrier",
+          "Modifies filtrate by reabsorption and secretion → A selectively permeable artificial barrier"
+        ],
+        "answer": 2,
+        "explanation": "Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it. Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Dialysis membrane",
+        "sourceChapter": 4
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH04-H": {
+    "id": "SA-DPP-27-BIO-CH04-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch4",
+    "chapterNumber": 4,
+    "chapter": "Excretion",
+    "level": "H",
+    "title": "Excretion – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-04.json",
+    "scheduledWeek": 4,
+    "lectureId": "SA-M600-LEC-W04-BIO-01",
+    "recommendedDate": "2026-11-04",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 4,
+    "sourcePrintedPages": {
+      "from": 78,
+      "to": 99
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q01",
+        "question": "Why does final urine volume differ greatly from the volume initially filtered?",
+        "options": [
+          "The bladder converts water to urea",
+          "Filtration happens only once a month",
+          "Most filtered water is reabsorbed",
+          "All filtrate evaporates"
+        ],
+        "answer": 2,
+        "explanation": "Tubular reabsorption returns most water and useful solutes to blood.",
+        "difficulty": "Hard",
+        "topic": "Why does final urine volume differ greatly from the volume initially filtered?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q02",
+        "question": "How can plants dispose of some wastes without a specialised excretory organ?",
+        "options": [
+          "Never produce metabolic wastes",
+          "Store them in leaves or bark that are later shed",
+          "Convert every waste into oxygen",
+          "Use kidneys in roots"
+        ],
+        "answer": 1,
+        "explanation": "Plants can isolate wastes in tissues, exude substances or release gases.",
+        "difficulty": "Hard",
+        "topic": "How can plants dispose of some wastes without a specialised excretory organ?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q03",
+        "question": "Why is excretion different from egestion?",
+        "options": [
+          "Excretion removes metabolic wastes; egestion removes undigested food",
+          "Both remove only faeces",
+          "Egestion filters blood",
+          "Excretion means food absorption"
+        ],
+        "answer": 0,
+        "explanation": "The distinction concerns the origin of the material removed.",
+        "difficulty": "Hard",
+        "topic": "Why is excretion different from egestion?",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glomerulus — anatomical or physiological identity: A tuft of blood capillaries\nII. Ureter — site or direction: From kidney to bladder\nIII. Urea — specific role: Modifies filtrate by reabsorption and secretion",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Glomerulus — anatomical or physiological identity: A tuft of blood capillaries; Ureter — site or direction: From kidney to bladder; Urea — specific role: Disposes of nitrogen from amino-acid breakdown.",
+        "difficulty": "Hard",
+        "topic": "Glomerulus · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glomerulus — site or direction: Extends from Bowman's capsule\nII. Ureter — specific role: Modifies filtrate by reabsorption and secretion\nIII. Urea — anatomical or physiological identity: A major human nitrogenous waste",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Glomerulus — site or direction: Inside Bowman's capsule; Ureter — specific role: Propels urine into the bladder; Urea — anatomical or physiological identity: A major human nitrogenous waste.",
+        "difficulty": "Hard",
+        "topic": "Glomerulus · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Glomerulus — specific role: Filters fluid from blood under pressure\nII. Ureter — anatomical or physiological identity: A urine-collecting tube in the kidney\nIII. Urea — site or direction: Formed mainly in the liver and removed by kidneys",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Glomerulus — specific role: Filters fluid from blood under pressure; Ureter — anatomical or physiological identity: A muscular tube carrying urine; Urea — site or direction: Formed mainly in the liver and removed by kidneys.",
+        "difficulty": "Hard",
+        "topic": "Glomerulus · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bowman's capsule — anatomical or physiological identity: A muscular tube carrying urine\nII. Urinary bladder — site or direction: Between the ureters and urethra in the urinary route\nIII. Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure; Urinary bladder — site or direction: Between the ureters and urethra in the urinary route; Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it.",
+        "difficulty": "Hard",
+        "topic": "Bowman's capsule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bowman's capsule — site or direction: Surrounds the glomerulus\nII. Urinary bladder — specific role: Temporarily stores urine\nIII. Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Bowman's capsule — site or direction: Surrounds the glomerulus; Urinary bladder — specific role: Temporarily stores urine; Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier.",
+        "difficulty": "Hard",
+        "topic": "Bowman's capsule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bowman's capsule — specific role: Conducts urine out of the body\nII. Urinary bladder — anatomical or physiological identity: A major human nitrogenous waste\nIII. Dialysis membrane — site or direction: Formed mainly in the liver and removed by kidneys",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Bowman's capsule — specific role: Collects the initial filtrate; Urinary bladder — anatomical or physiological identity: A muscular storage organ; Dialysis membrane — site or direction: Between blood and dialysis fluid.",
+        "difficulty": "Hard",
+        "topic": "Bowman's capsule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Renal tubule — anatomical or physiological identity: A tubular part of the nephron\nII. Urethra — site or direction: Between blood and dialysis fluid\nIII. Glomerulus — specific role: Collects the initial filtrate",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Renal tubule — anatomical or physiological identity: A tubular part of the nephron; Urethra — site or direction: From bladder towards the exterior; Glomerulus — specific role: Filters fluid from blood under pressure.",
+        "difficulty": "Hard",
+        "topic": "Renal tubule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Renal tubule — site or direction: Between blood and dialysis fluid\nII. Urethra — specific role: Conducts urine out of the body\nIII. Glomerulus — anatomical or physiological identity: A tubular part of the nephron",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Renal tubule — site or direction: Extends from Bowman's capsule; Urethra — specific role: Conducts urine out of the body; Glomerulus — anatomical or physiological identity: A tuft of blood capillaries.",
+        "difficulty": "Hard",
+        "topic": "Renal tubule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Renal tubule — specific role: Modifies filtrate by reabsorption and secretion\nII. Urethra — anatomical or physiological identity: The tube for urine discharge\nIII. Glomerulus — site or direction: Receives fluid from multiple nephrons",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Renal tubule — specific role: Modifies filtrate by reabsorption and secretion; Urethra — anatomical or physiological identity: The tube for urine discharge; Glomerulus — site or direction: Inside Bowman's capsule.",
+        "difficulty": "Hard",
+        "topic": "Renal tubule · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Collecting duct — anatomical or physiological identity: A cup-shaped nephron structure\nII. Urea — site or direction: Extends from Bowman's capsule\nIII. Bowman's capsule — specific role: Collects the initial filtrate",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney; Urea — site or direction: Formed mainly in the liver and removed by kidneys; Bowman's capsule — specific role: Collects the initial filtrate.",
+        "difficulty": "Hard",
+        "topic": "Collecting duct · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Collecting duct — site or direction: Receives fluid from multiple nephrons\nII. Urea — specific role: Carries modified fluid towards the renal pelvis\nIII. Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Collecting duct — site or direction: Receives fluid from multiple nephrons; Urea — specific role: Disposes of nitrogen from amino-acid breakdown; Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure.",
+        "difficulty": "Hard",
+        "topic": "Collecting duct · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Collecting duct — specific role: Conducts urine out of the body\nII. Urea — anatomical or physiological identity: A major human nitrogenous waste\nIII. Bowman's capsule — site or direction: Surrounds the glomerulus",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Collecting duct — specific role: Carries modified fluid towards the renal pelvis; Urea — anatomical or physiological identity: A major human nitrogenous waste; Bowman's capsule — site or direction: Surrounds the glomerulus.",
+        "difficulty": "Hard",
+        "topic": "Collecting duct · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ureter — anatomical or physiological identity: A muscular tube carrying urine\nII. Dialysis membrane — site or direction: Between blood and dialysis fluid\nIII. Renal tubule — specific role: Modifies filtrate by reabsorption and secretion",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Ureter — anatomical or physiological identity: A muscular tube carrying urine; Dialysis membrane — site or direction: Between blood and dialysis fluid; Renal tubule — specific role: Modifies filtrate by reabsorption and secretion.",
+        "difficulty": "Hard",
+        "topic": "Ureter · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ureter — site or direction: From bladder towards the exterior\nII. Dialysis membrane — specific role: Conducts urine out of the body\nIII. Renal tubule — anatomical or physiological identity: A selectively permeable artificial barrier",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Ureter — site or direction: From kidney to bladder; Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it; Renal tubule — anatomical or physiological identity: A tubular part of the nephron.",
+        "difficulty": "Hard",
+        "topic": "Ureter · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Ureter — specific role: Propels urine into the bladder\nII. Dialysis membrane — anatomical or physiological identity: A major human nitrogenous waste\nIII. Renal tubule — site or direction: Inside Bowman's capsule",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Ureter — specific role: Propels urine into the bladder; Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier; Renal tubule — site or direction: Extends from Bowman's capsule.",
+        "difficulty": "Hard",
+        "topic": "Ureter · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urinary bladder — anatomical or physiological identity: A selectively permeable artificial barrier\nII. Glomerulus — site or direction: Inside Bowman's capsule\nIII. Collecting duct — specific role: Temporarily stores urine",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Urinary bladder — anatomical or physiological identity: A muscular storage organ; Glomerulus — site or direction: Inside Bowman's capsule; Collecting duct — specific role: Carries modified fluid towards the renal pelvis.",
+        "difficulty": "Hard",
+        "topic": "Urinary bladder · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urinary bladder — site or direction: Between the ureters and urethra in the urinary route\nII. Glomerulus — specific role: Filters fluid from blood under pressure\nIII. Collecting duct — anatomical or physiological identity: A tubular part of the nephron",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Urinary bladder — site or direction: Between the ureters and urethra in the urinary route; Glomerulus — specific role: Filters fluid from blood under pressure; Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney.",
+        "difficulty": "Hard",
+        "topic": "Urinary bladder · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urinary bladder — specific role: Collects the initial filtrate\nII. Glomerulus — anatomical or physiological identity: A urine-collecting tube in the kidney\nIII. Collecting duct — site or direction: Receives fluid from multiple nephrons",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Urinary bladder — specific role: Temporarily stores urine; Glomerulus — anatomical or physiological identity: A tuft of blood capillaries; Collecting duct — site or direction: Receives fluid from multiple nephrons.",
+        "difficulty": "Hard",
+        "topic": "Urinary bladder · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urethra — anatomical or physiological identity: The tube for urine discharge\nII. Bowman's capsule — site or direction: From kidney to bladder\nIII. Ureter — specific role: Propels urine into the bladder",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Urethra — anatomical or physiological identity: The tube for urine discharge; Bowman's capsule — site or direction: Surrounds the glomerulus; Ureter — specific role: Propels urine into the bladder.",
+        "difficulty": "Hard",
+        "topic": "Urethra · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urethra — site or direction: Receives fluid from multiple nephrons\nII. Bowman's capsule — specific role: Collects the initial filtrate\nIII. Ureter — anatomical or physiological identity: A muscular tube carrying urine",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Urethra — site or direction: From bladder towards the exterior; Bowman's capsule — specific role: Collects the initial filtrate; Ureter — anatomical or physiological identity: A muscular tube carrying urine.",
+        "difficulty": "Hard",
+        "topic": "Urethra · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urethra — specific role: Conducts urine out of the body\nII. Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure\nIII. Ureter — site or direction: From kidney to bladder",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Urethra — specific role: Conducts urine out of the body; Bowman's capsule — anatomical or physiological identity: A cup-shaped nephron structure; Ureter — site or direction: From kidney to bladder.",
+        "difficulty": "Hard",
+        "topic": "Urethra · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urea — anatomical or physiological identity: A muscular storage organ\nII. Renal tubule — site or direction: Formed mainly in the liver and removed by kidneys\nIII. Urinary bladder — specific role: Allows selected wastes and small solutes to move across it",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Urea — anatomical or physiological identity: A major human nitrogenous waste; Renal tubule — site or direction: Extends from Bowman's capsule; Urinary bladder — specific role: Temporarily stores urine.",
+        "difficulty": "Hard",
+        "topic": "Urea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urea — site or direction: Formed mainly in the liver and removed by kidneys\nII. Renal tubule — specific role: Propels urine into the bladder\nIII. Urinary bladder — anatomical or physiological identity: A tuft of blood capillaries",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Urea — site or direction: Formed mainly in the liver and removed by kidneys; Renal tubule — specific role: Modifies filtrate by reabsorption and secretion; Urinary bladder — anatomical or physiological identity: A muscular storage organ.",
+        "difficulty": "Hard",
+        "topic": "Urea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Urea — specific role: Allows selected wastes and small solutes to move across it\nII. Renal tubule — anatomical or physiological identity: A tubular part of the nephron\nIII. Urinary bladder — site or direction: Surrounds the glomerulus",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Urea — specific role: Disposes of nitrogen from amino-acid breakdown; Renal tubule — anatomical or physiological identity: A tubular part of the nephron; Urinary bladder — site or direction: Between the ureters and urethra in the urinary route.",
+        "difficulty": "Hard",
+        "topic": "Urea · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier\nII. Collecting duct — site or direction: Receives fluid from multiple nephrons\nIII. Urethra — specific role: Modifies filtrate by reabsorption and secretion",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Dialysis membrane — anatomical or physiological identity: A selectively permeable artificial barrier; Collecting duct — site or direction: Receives fluid from multiple nephrons; Urethra — specific role: Conducts urine out of the body.",
+        "difficulty": "Hard",
+        "topic": "Dialysis membrane · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dialysis membrane — site or direction: Surrounds the glomerulus\nII. Collecting duct — specific role: Disposes of nitrogen from amino-acid breakdown\nIII. Urethra — anatomical or physiological identity: The tube for urine discharge",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Dialysis membrane — site or direction: Between blood and dialysis fluid; Collecting duct — specific role: Carries modified fluid towards the renal pelvis; Urethra — anatomical or physiological identity: The tube for urine discharge.",
+        "difficulty": "Hard",
+        "topic": "Dialysis membrane · comparing chapter concepts",
+        "sourceChapter": 4
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH04-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it\nII. Collecting duct — anatomical or physiological identity: A muscular tube carrying urine\nIII. Urethra — site or direction: From bladder towards the exterior",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Dialysis membrane — specific role: Allows selected wastes and small solutes to move across it; Collecting duct — anatomical or physiological identity: A urine-collecting tube in the kidney; Urethra — site or direction: From bladder towards the exterior.",
+        "difficulty": "Hard",
+        "topic": "Dialysis membrane · comparing chapter concepts",
+        "sourceChapter": 4
+      }
+    ]
+  }
+}

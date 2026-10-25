@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-BIO-CH01-E": {
+    "id": "SA-DPP-27-BIO-CH01-E",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "E",
+    "title": "Nutrition – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-19",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q01",
+        "question": "Which pigment captures light for photosynthesis?",
+        "options": [
+          "Haemoglobin",
+          "Melanin",
+          "Bile",
+          "Chlorophyll"
+        ],
+        "answer": 3,
+        "explanation": "Chlorophyll in chloroplasts absorbs light energy.",
+        "difficulty": "Easy",
+        "topic": "Which pigment captures light for photosynthesis?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q02",
+        "question": "Which enzyme begins starch digestion in the mouth?",
+        "options": [
+          "Trypsin",
+          "Lipase",
+          "Salivary amylase",
+          "Pepsin"
+        ],
+        "answer": 2,
+        "explanation": "Salivary amylase breaks starch into simpler carbohydrates.",
+        "difficulty": "Easy",
+        "topic": "Which enzyme begins starch digestion in the mouth?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q03",
+        "question": "Where are most digested nutrients absorbed in humans?",
+        "options": [
+          "Large intestine only",
+          "Small intestine",
+          "Oesophagus",
+          "Stomach only"
+        ],
+        "answer": 1,
+        "explanation": "The small intestine has extensive absorptive surfaces.",
+        "difficulty": "Easy",
+        "topic": "Where are most digested nutrients absorbed in humans?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q04",
+        "question": "Salivary amylase: which option correctly identifies the main site of action?",
+        "options": [
+          "Mouth",
+          "Stomach",
+          "Small intestine",
+          "Heart ventricle"
+        ],
+        "answer": 0,
+        "explanation": "Salivary amylase — main site of action: Mouth.",
+        "difficulty": "Easy",
+        "topic": "Salivary amylase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q05",
+        "question": "Salivary amylase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Proteins and polypeptides",
+          "Fats",
+          "Maltose",
+          "Starch"
+        ],
+        "answer": 3,
+        "explanation": "Salivary amylase — principal substrate: Starch.",
+        "difficulty": "Easy",
+        "topic": "Salivary amylase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q06",
+        "question": "Salivary amylase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Produces glucose",
+          "Produces glucose and fructose",
+          "Begins conversion of starch into simpler sugars",
+          "Produces fatty acids and glycerol in the school-level account"
+        ],
+        "answer": 2,
+        "explanation": "Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars.",
+        "difficulty": "Easy",
+        "topic": "Salivary amylase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q07",
+        "question": "Pepsin: which option correctly identifies the main site of action?",
+        "options": [
+          "Mouth",
+          "Stomach",
+          "Small intestine",
+          "Heart ventricle"
+        ],
+        "answer": 1,
+        "explanation": "Pepsin — main site of action: Stomach.",
+        "difficulty": "Easy",
+        "topic": "Pepsin · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q08",
+        "question": "Pepsin: which option correctly identifies the principal substrate?",
+        "options": [
+          "Proteins",
+          "Maltose",
+          "Sucrose",
+          "Lactose"
+        ],
+        "answer": 0,
+        "explanation": "Pepsin — principal substrate: Proteins.",
+        "difficulty": "Easy",
+        "topic": "Pepsin · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q09",
+        "question": "Pepsin: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Produces glucose",
+          "Produces glucose and fructose",
+          "Produces glucose and galactose",
+          "Breaks proteins into smaller peptides"
+        ],
+        "answer": 3,
+        "explanation": "Pepsin — main digestion product or effect: Breaks proteins into smaller peptides.",
+        "difficulty": "Easy",
+        "topic": "Pepsin · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q10",
+        "question": "Pancreatic amylase: which option correctly identifies the main site of action?",
+        "options": [
+          "Mouth",
+          "Stomach",
+          "Small intestine",
+          "Heart ventricle"
+        ],
+        "answer": 2,
+        "explanation": "Pancreatic amylase — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic amylase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q11",
+        "question": "Pancreatic amylase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Lactose",
+          "Starch",
+          "Maltose",
+          "Sucrose"
+        ],
+        "answer": 1,
+        "explanation": "Pancreatic amylase — principal substrate: Starch.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic amylase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q12",
+        "question": "Pancreatic amylase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Continues digestion of starch into simpler sugars",
+          "Produces glucose and fructose",
+          "Produces glucose and galactose",
+          "Emulsify fat without enzymatically digesting it"
+        ],
+        "answer": 0,
+        "explanation": "Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic amylase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q13",
+        "question": "Trypsin: which option correctly identifies the main site of action?",
+        "options": [
+          "Mouth",
+          "Stomach",
+          "Heart ventricle",
+          "Small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Trypsin — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Trypsin · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q14",
+        "question": "Trypsin: which option correctly identifies the principal substrate?",
+        "options": [
+          "Large fat globules",
+          "Starch",
+          "Proteins and polypeptides",
+          "Lactose"
+        ],
+        "answer": 2,
+        "explanation": "Trypsin — principal substrate: Proteins and polypeptides.",
+        "difficulty": "Easy",
+        "topic": "Trypsin · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q15",
+        "question": "Trypsin: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Begins conversion of starch into simpler sugars",
+          "Produces smaller peptide fragments",
+          "Produces glucose and galactose",
+          "Emulsify fat without enzymatically digesting it"
+        ],
+        "answer": 1,
+        "explanation": "Trypsin — main digestion product or effect: Produces smaller peptide fragments.",
+        "difficulty": "Easy",
+        "topic": "Trypsin · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q16",
+        "question": "Pancreatic lipase: which option correctly identifies the main site of action?",
+        "options": [
+          "Small intestine",
+          "Stomach",
+          "Heart ventricle",
+          "Mouth"
+        ],
+        "answer": 0,
+        "explanation": "Pancreatic lipase — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic lipase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q17",
+        "question": "Pancreatic lipase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Lactose",
+          "Starch",
+          "Proteins",
+          "Fats"
+        ],
+        "answer": 3,
+        "explanation": "Pancreatic lipase — principal substrate: Fats.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic lipase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q18",
+        "question": "Pancreatic lipase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Emulsify fat without enzymatically digesting it",
+          "Begins conversion of starch into simpler sugars",
+          "Produces fatty acids and glycerol in the school-level account",
+          "Produces glucose and galactose"
+        ],
+        "answer": 2,
+        "explanation": "Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account.",
+        "difficulty": "Easy",
+        "topic": "Pancreatic lipase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q19",
+        "question": "Maltase: which option correctly identifies the main site of action?",
+        "options": [
+          "Stomach",
+          "Small intestine",
+          "Heart ventricle",
+          "Mouth"
+        ],
+        "answer": 1,
+        "explanation": "Maltase — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Maltase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q20",
+        "question": "Maltase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Maltose",
+          "Large fat globules",
+          "Starch",
+          "Proteins"
+        ],
+        "answer": 0,
+        "explanation": "Maltase — principal substrate: Maltose.",
+        "difficulty": "Easy",
+        "topic": "Maltase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q21",
+        "question": "Maltase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Emulsify fat without enzymatically digesting it",
+          "Begins conversion of starch into simpler sugars",
+          "Breaks proteins into smaller peptides",
+          "Produces glucose"
+        ],
+        "answer": 3,
+        "explanation": "Maltase — main digestion product or effect: Produces glucose.",
+        "difficulty": "Easy",
+        "topic": "Maltase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q22",
+        "question": "Sucrase: which option correctly identifies the main site of action?",
+        "options": [
+          "Stomach",
+          "Heart ventricle",
+          "Small intestine",
+          "Mouth"
+        ],
+        "answer": 2,
+        "explanation": "Sucrase — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Sucrase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q23",
+        "question": "Sucrase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Proteins and polypeptides",
+          "Sucrose",
+          "Starch",
+          "Proteins"
+        ],
+        "answer": 1,
+        "explanation": "Sucrase — principal substrate: Sucrose.",
+        "difficulty": "Easy",
+        "topic": "Sucrase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q24",
+        "question": "Sucrase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Produces glucose and fructose",
+          "Begins conversion of starch into simpler sugars",
+          "Breaks proteins into smaller peptides",
+          "Continues digestion of starch into simpler sugars"
+        ],
+        "answer": 0,
+        "explanation": "Sucrase — main digestion product or effect: Produces glucose and fructose.",
+        "difficulty": "Easy",
+        "topic": "Sucrase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q25",
+        "question": "Lactase: which option correctly identifies the main site of action?",
+        "options": [
+          "Stomach",
+          "Heart ventricle",
+          "Mouth",
+          "Small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Lactase — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Lactase · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q26",
+        "question": "Lactase: which option correctly identifies the principal substrate?",
+        "options": [
+          "Proteins and polypeptides",
+          "Fats",
+          "Lactose",
+          "Proteins"
+        ],
+        "answer": 2,
+        "explanation": "Lactase — principal substrate: Lactose.",
+        "difficulty": "Easy",
+        "topic": "Lactase · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q27",
+        "question": "Lactase: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Produces smaller peptide fragments",
+          "Produces glucose and galactose",
+          "Breaks proteins into smaller peptides",
+          "Continues digestion of starch into simpler sugars"
+        ],
+        "answer": 1,
+        "explanation": "Lactase — main digestion product or effect: Produces glucose and galactose.",
+        "difficulty": "Easy",
+        "topic": "Lactase · main digestion product or effect",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q28",
+        "question": "Bile salts: which option correctly identifies the main site of action?",
+        "options": [
+          "Small intestine",
+          "Heart ventricle",
+          "Mouth",
+          "Stomach"
+        ],
+        "answer": 0,
+        "explanation": "Bile salts — main site of action: Small intestine.",
+        "difficulty": "Easy",
+        "topic": "Bile salts · main site of action",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q29",
+        "question": "Bile salts: which option correctly identifies the principal substrate?",
+        "options": [
+          "Maltose",
+          "Sucrose",
+          "Lactose",
+          "Large fat globules"
+        ],
+        "answer": 3,
+        "explanation": "Bile salts — principal substrate: Large fat globules.",
+        "difficulty": "Easy",
+        "topic": "Bile salts · principal substrate",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-E-Q30",
+        "question": "Bile salts: which option correctly identifies the main digestion product or effect?",
+        "options": [
+          "Produces smaller peptide fragments",
+          "Produces fatty acids and glycerol in the school-level account",
+          "Emulsify fat without enzymatically digesting it",
+          "Continues digestion of starch into simpler sugars"
+        ],
+        "answer": 2,
+        "explanation": "Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it.",
+        "difficulty": "Easy",
+        "topic": "Bile salts · main digestion product or effect",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH01-M": {
+    "id": "SA-DPP-27-BIO-CH01-M",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "M",
+    "title": "Nutrition – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-20",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q01",
+        "question": "Why is a leaf boiled in alcohol during the starch test?",
+        "options": [
+          "To produce oxygen",
+          "To close stomata",
+          "To remove chlorophyll",
+          "To add starch"
+        ],
+        "answer": 2,
+        "explanation": "Decolourisation makes the iodine colour change easier to see; use a water bath safely.",
+        "difficulty": "Medium",
+        "topic": "Why is a leaf boiled in alcohol during the starch test?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q02",
+        "question": "What is bile's main contribution to fat digestion?",
+        "options": [
+          "Absorbing oxygen",
+          "Emulsifying fat into smaller droplets",
+          "Directly digesting fat with a bile enzyme",
+          "Converting all fat into protein"
+        ],
+        "answer": 1,
+        "explanation": "Emulsification increases the surface area available to lipase.",
+        "difficulty": "Medium",
+        "topic": "What is bile's main contribution to fat digestion?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q03",
+        "question": "Why do intestinal villi improve absorption?",
+        "options": [
+          "They increase surface area",
+          "They eliminate blood vessels",
+          "They prevent contact with food",
+          "They secrete only hydrochloric acid"
+        ],
+        "answer": 0,
+        "explanation": "Many villi provide a large surface with transport vessels.",
+        "difficulty": "Medium",
+        "topic": "Why do intestinal villi improve absorption?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q04",
+        "question": "Which pair correctly matches Salivary amylase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Stomach → Starch",
+          "Mouth → Proteins",
+          "Small intestine → Proteins and polypeptides",
+          "Mouth → Starch"
+        ],
+        "answer": 3,
+        "explanation": "Salivary amylase — main site of action: Mouth. Salivary amylase — principal substrate: Starch. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q05",
+        "question": "Which pair correctly matches Salivary amylase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Starch → Breaks proteins into smaller peptides",
+          "Fats → Produces smaller peptide fragments",
+          "Starch → Begins conversion of starch into simpler sugars",
+          "Proteins and polypeptides → Begins conversion of starch into simpler sugars"
+        ],
+        "answer": 2,
+        "explanation": "Salivary amylase — principal substrate: Starch. Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q06",
+        "question": "Which pair correctly matches Salivary amylase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces glucose → Small intestine",
+          "Begins conversion of starch into simpler sugars → Mouth",
+          "Produces fatty acids and glycerol in the school-level account → Mouth",
+          "Begins conversion of starch into simpler sugars → Stomach"
+        ],
+        "answer": 1,
+        "explanation": "Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars. Salivary amylase — main site of action: Mouth. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Salivary amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q07",
+        "question": "Which pair correctly matches Pepsin with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Stomach → Proteins",
+          "Small intestine → Proteins",
+          "Stomach → Fats",
+          "Heart ventricle → Maltose"
+        ],
+        "answer": 0,
+        "explanation": "Pepsin — main site of action: Stomach. Pepsin — principal substrate: Proteins. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pepsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q08",
+        "question": "Which pair correctly matches Pepsin with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Maltose → Breaks proteins into smaller peptides",
+          "Proteins → Continues digestion of starch into simpler sugars",
+          "Sucrose → Produces fatty acids and glycerol in the school-level account",
+          "Proteins → Breaks proteins into smaller peptides"
+        ],
+        "answer": 3,
+        "explanation": "Pepsin — principal substrate: Proteins. Pepsin — main digestion product or effect: Breaks proteins into smaller peptides. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pepsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q09",
+        "question": "Which pair correctly matches Pepsin with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Breaks proteins into smaller peptides → Small intestine",
+          "Produces glucose and fructose → Heart ventricle",
+          "Breaks proteins into smaller peptides → Stomach",
+          "Produces glucose → Stomach"
+        ],
+        "answer": 2,
+        "explanation": "Pepsin — main digestion product or effect: Breaks proteins into smaller peptides. Pepsin — main site of action: Stomach. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pepsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q10",
+        "question": "Which pair correctly matches Pancreatic amylase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Mouth → Maltose",
+          "Small intestine → Starch",
+          "Heart ventricle → Starch",
+          "Small intestine → Fats"
+        ],
+        "answer": 1,
+        "explanation": "Pancreatic amylase — main site of action: Small intestine. Pancreatic amylase — principal substrate: Starch. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q11",
+        "question": "Which pair correctly matches Pancreatic amylase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Starch → Continues digestion of starch into simpler sugars",
+          "Maltose → Continues digestion of starch into simpler sugars",
+          "Starch → Produces fatty acids and glycerol in the school-level account",
+          "Sucrose → Produces glucose"
+        ],
+        "answer": 0,
+        "explanation": "Pancreatic amylase — principal substrate: Starch. Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q12",
+        "question": "Which pair correctly matches Pancreatic amylase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces glucose and fructose → Small intestine",
+          "Continues digestion of starch into simpler sugars → Heart ventricle",
+          "Produces glucose and galactose → Mouth",
+          "Continues digestion of starch into simpler sugars → Small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars. Pancreatic amylase — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic amylase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q13",
+        "question": "Which pair correctly matches Trypsin with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Small intestine → Sucrose",
+          "Stomach → Lactose",
+          "Small intestine → Proteins and polypeptides",
+          "Mouth → Proteins and polypeptides"
+        ],
+        "answer": 2,
+        "explanation": "Trypsin — main site of action: Small intestine. Trypsin — principal substrate: Proteins and polypeptides. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trypsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q14",
+        "question": "Which pair correctly matches Trypsin with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Large fat globules → Produces glucose and fructose",
+          "Proteins and polypeptides → Produces smaller peptide fragments",
+          "Lactose → Produces smaller peptide fragments",
+          "Proteins and polypeptides → Produces glucose"
+        ],
+        "answer": 1,
+        "explanation": "Trypsin — principal substrate: Proteins and polypeptides. Trypsin — main digestion product or effect: Produces smaller peptide fragments. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trypsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q15",
+        "question": "Which pair correctly matches Trypsin with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces smaller peptide fragments → Small intestine",
+          "Produces glucose and galactose → Small intestine",
+          "Produces smaller peptide fragments → Mouth",
+          "Emulsify fat without enzymatically digesting it → Stomach"
+        ],
+        "answer": 0,
+        "explanation": "Trypsin — main digestion product or effect: Produces smaller peptide fragments. Trypsin — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Trypsin",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q16",
+        "question": "Which pair correctly matches Pancreatic lipase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Stomach → Fats",
+          "Small intestine → Sucrose",
+          "Heart ventricle → Lactose",
+          "Small intestine → Fats"
+        ],
+        "answer": 3,
+        "explanation": "Pancreatic lipase — main site of action: Small intestine. Pancreatic lipase — principal substrate: Fats. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic lipase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q17",
+        "question": "Which pair correctly matches Pancreatic lipase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Fats → Produces glucose",
+          "Starch → Produces glucose and fructose",
+          "Fats → Produces fatty acids and glycerol in the school-level account",
+          "Lactose → Produces fatty acids and glycerol in the school-level account"
+        ],
+        "answer": 2,
+        "explanation": "Pancreatic lipase — principal substrate: Fats. Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic lipase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q18",
+        "question": "Which pair correctly matches Pancreatic lipase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Emulsify fat without enzymatically digesting it → Heart ventricle",
+          "Produces fatty acids and glycerol in the school-level account → Small intestine",
+          "Produces glucose and galactose → Small intestine",
+          "Produces fatty acids and glycerol in the school-level account → Stomach"
+        ],
+        "answer": 1,
+        "explanation": "Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account. Pancreatic lipase — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Pancreatic lipase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q19",
+        "question": "Which pair correctly matches Maltase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Small intestine → Maltose",
+          "Heart ventricle → Maltose",
+          "Small intestine → Lactose",
+          "Mouth → Large fat globules"
+        ],
+        "answer": 0,
+        "explanation": "Maltase — main site of action: Small intestine. Maltase — principal substrate: Maltose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Maltase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q20",
+        "question": "Which pair correctly matches Maltase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Large fat globules → Produces glucose",
+          "Maltose → Produces glucose and fructose",
+          "Starch → Produces glucose and galactose",
+          "Maltose → Produces glucose"
+        ],
+        "answer": 3,
+        "explanation": "Maltase — principal substrate: Maltose. Maltase — main digestion product or effect: Produces glucose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Maltase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q21",
+        "question": "Which pair correctly matches Maltase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces glucose → Heart ventricle",
+          "Begins conversion of starch into simpler sugars → Mouth",
+          "Produces glucose → Small intestine",
+          "Emulsify fat without enzymatically digesting it → Small intestine"
+        ],
+        "answer": 2,
+        "explanation": "Maltase — main digestion product or effect: Produces glucose. Maltase — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Maltase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q22",
+        "question": "Which pair correctly matches Sucrase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Stomach → Starch",
+          "Small intestine → Sucrose",
+          "Mouth → Sucrose",
+          "Small intestine → Large fat globules"
+        ],
+        "answer": 1,
+        "explanation": "Sucrase — main site of action: Small intestine. Sucrase — principal substrate: Sucrose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sucrase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q23",
+        "question": "Which pair correctly matches Sucrase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Sucrose → Produces glucose and fructose",
+          "Starch → Produces glucose and fructose",
+          "Sucrose → Produces glucose and galactose",
+          "Proteins → Emulsify fat without enzymatically digesting it"
+        ],
+        "answer": 0,
+        "explanation": "Sucrase — principal substrate: Sucrose. Sucrase — main digestion product or effect: Produces glucose and fructose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sucrase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q24",
+        "question": "Which pair correctly matches Sucrase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Begins conversion of starch into simpler sugars → Small intestine",
+          "Produces glucose and fructose → Mouth",
+          "Breaks proteins into smaller peptides → Stomach",
+          "Produces glucose and fructose → Small intestine"
+        ],
+        "answer": 3,
+        "explanation": "Sucrase — main digestion product or effect: Produces glucose and fructose. Sucrase — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Sucrase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q25",
+        "question": "Which pair correctly matches Lactase with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Small intestine → Starch",
+          "Heart ventricle → Proteins",
+          "Small intestine → Lactose",
+          "Stomach → Lactose"
+        ],
+        "answer": 2,
+        "explanation": "Lactase — main site of action: Small intestine. Lactase — principal substrate: Lactose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q26",
+        "question": "Which pair correctly matches Lactase with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Proteins and polypeptides → Begins conversion of starch into simpler sugars",
+          "Lactose → Produces glucose and galactose",
+          "Proteins → Produces glucose and galactose",
+          "Lactose → Emulsify fat without enzymatically digesting it"
+        ],
+        "answer": 1,
+        "explanation": "Lactase — principal substrate: Lactose. Lactase — main digestion product or effect: Produces glucose and galactose. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q27",
+        "question": "Which pair correctly matches Lactase with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces glucose and galactose → Small intestine",
+          "Breaks proteins into smaller peptides → Small intestine",
+          "Produces glucose and galactose → Stomach",
+          "Continues digestion of starch into simpler sugars → Heart ventricle"
+        ],
+        "answer": 0,
+        "explanation": "Lactase — main digestion product or effect: Produces glucose and galactose. Lactase — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lactase",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q28",
+        "question": "Which pair correctly matches Bile salts with its main site of action and principal substrate, in that order?",
+        "options": [
+          "Heart ventricle → Large fat globules",
+          "Small intestine → Proteins and polypeptides",
+          "Mouth → Maltose",
+          "Small intestine → Large fat globules"
+        ],
+        "answer": 3,
+        "explanation": "Bile salts — main site of action: Small intestine. Bile salts — principal substrate: Large fat globules. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bile salts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q29",
+        "question": "Which pair correctly matches Bile salts with its principal substrate and main digestion product or effect, in that order?",
+        "options": [
+          "Large fat globules → Begins conversion of starch into simpler sugars",
+          "Sucrose → Breaks proteins into smaller peptides",
+          "Large fat globules → Emulsify fat without enzymatically digesting it",
+          "Maltose → Emulsify fat without enzymatically digesting it"
+        ],
+        "answer": 2,
+        "explanation": "Bile salts — principal substrate: Large fat globules. Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bile salts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-M-Q30",
+        "question": "Which pair correctly matches Bile salts with its main digestion product or effect and main site of action, in that order?",
+        "options": [
+          "Produces smaller peptide fragments → Mouth",
+          "Emulsify fat without enzymatically digesting it → Small intestine",
+          "Continues digestion of starch into simpler sugars → Small intestine",
+          "Emulsify fat without enzymatically digesting it → Heart ventricle"
+        ],
+        "answer": 1,
+        "explanation": "Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it. Bile salts — main site of action: Small intestine. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Bile salts",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-BIO-CH01-H": {
+    "id": "SA-DPP-27-BIO-CH01-H",
+    "kind": "dpp",
+    "subjectId": "biology",
+    "subject": "Biological Science",
+    "subjectCode": "BIO",
+    "chapterId": "c10-biology-ch1",
+    "chapterNumber": 1,
+    "chapter": "Nutrition",
+    "level": "H",
+    "title": "Nutrition – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/biology/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-BIO-01",
+    "recommendedDate": "2026-10-21",
+    "sourceBook": "X Biology EM 2025-26.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 25
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q01",
+        "question": "A destarched plant has part of a leaf covered with opaque paper and is exposed to light. Which part tests positive for starch?",
+        "options": [
+          "Neither part under any conditions",
+          "The uncovered green part",
+          "Only the covered part",
+          "Every part regardless of light"
+        ],
+        "answer": 1,
+        "explanation": "The exposed green tissue can photosynthesise and accumulate starch.",
+        "difficulty": "Hard",
+        "topic": "A destarched plant has part of a leaf covered with opaque paper and is exposed to light. Which part tests positive for starch?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q02",
+        "question": "A plant receives light and water but no carbon dioxide. Why is glucose production restricted?",
+        "options": [
+          "Carbon dioxide supplies carbon for carbohydrate synthesis",
+          "CO₂ supplies chlorophyll directly",
+          "Water cannot enter roots without CO₂",
+          "Light becomes completely absent"
+        ],
+        "answer": 0,
+        "explanation": "Light energy cannot replace the carbon source needed to build sugars.",
+        "difficulty": "Hard",
+        "topic": "A plant receives light and water but no carbon dioxide. Why is glucose production restricted?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q03",
+        "question": "Why is the stomach protected from its own acidic contents?",
+        "options": [
+          "Its acid is neutral at all times",
+          "Pepsin digests only plant tissue",
+          "The lining contains no proteins",
+          "A mucus barrier protects the lining"
+        ],
+        "answer": 3,
+        "explanation": "Mucus and related protective mechanisms limit acid and enzyme injury.",
+        "difficulty": "Hard",
+        "topic": "Why is the stomach protected from its own acidic contents?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary amylase — main site of action: Stomach\nII. Pancreatic lipase — principal substrate: Proteins\nIII. Lactase — main digestion product or effect: Continues digestion of starch into simpler sugars",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Salivary amylase — main site of action: Mouth; Pancreatic lipase — principal substrate: Fats; Lactase — main digestion product or effect: Produces glucose and galactose.",
+        "difficulty": "Hard",
+        "topic": "Salivary amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary amylase — principal substrate: Starch\nII. Pancreatic lipase — main digestion product or effect: Continues digestion of starch into simpler sugars\nIII. Lactase — main site of action: Mouth",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Salivary amylase — principal substrate: Starch; Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account; Lactase — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Salivary amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Salivary amylase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account\nII. Pancreatic lipase — main site of action: Small intestine\nIII. Lactase — principal substrate: Maltose",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars; Pancreatic lipase — main site of action: Small intestine; Lactase — principal substrate: Lactose.",
+        "difficulty": "Hard",
+        "topic": "Salivary amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pepsin — main site of action: Stomach\nII. Maltase — principal substrate: Maltose\nIII. Bile salts — main digestion product or effect: Produces glucose",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Pepsin — main site of action: Stomach; Maltase — principal substrate: Maltose; Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it.",
+        "difficulty": "Hard",
+        "topic": "Pepsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pepsin — principal substrate: Lactose\nII. Maltase — main digestion product or effect: Produces glucose and fructose\nIII. Bile salts — main site of action: Small intestine",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Pepsin — principal substrate: Proteins; Maltase — main digestion product or effect: Produces glucose; Bile salts — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Pepsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pepsin — main digestion product or effect: Breaks proteins into smaller peptides\nII. Maltase — main site of action: Mouth\nIII. Bile salts — principal substrate: Large fat globules",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Pepsin — main digestion product or effect: Breaks proteins into smaller peptides; Maltase — main site of action: Small intestine; Bile salts — principal substrate: Large fat globules.",
+        "difficulty": "Hard",
+        "topic": "Pepsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic amylase — main site of action: Mouth\nII. Sucrase — principal substrate: Sucrose\nIII. Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Pancreatic amylase — main site of action: Small intestine; Sucrase — principal substrate: Sucrose; Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic amylase — principal substrate: Starch\nII. Sucrase — main digestion product or effect: Produces glucose and fructose\nIII. Salivary amylase — main site of action: Mouth",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Pancreatic amylase — principal substrate: Starch; Sucrase — main digestion product or effect: Produces glucose and fructose; Salivary amylase — main site of action: Mouth.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic amylase — main digestion product or effect: Produces smaller peptide fragments\nII. Sucrase — main site of action: Mouth\nIII. Salivary amylase — principal substrate: Maltose",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars; Sucrase — main site of action: Small intestine; Salivary amylase — principal substrate: Starch.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic amylase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trypsin — main site of action: Small intestine\nII. Lactase — principal substrate: Fats\nIII. Pepsin — main digestion product or effect: Produces glucose and fructose",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Trypsin — main site of action: Small intestine; Lactase — principal substrate: Lactose; Pepsin — main digestion product or effect: Breaks proteins into smaller peptides.",
+        "difficulty": "Hard",
+        "topic": "Trypsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trypsin — principal substrate: Lactose\nII. Lactase — main digestion product or effect: Produces glucose and galactose\nIII. Pepsin — main site of action: Mouth",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Trypsin — principal substrate: Proteins and polypeptides; Lactase — main digestion product or effect: Produces glucose and galactose; Pepsin — main site of action: Stomach.",
+        "difficulty": "Hard",
+        "topic": "Trypsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Trypsin — main digestion product or effect: Produces smaller peptide fragments\nII. Lactase — main site of action: Small intestine\nIII. Pepsin — principal substrate: Fats",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Trypsin — main digestion product or effect: Produces smaller peptide fragments; Lactase — main site of action: Small intestine; Pepsin — principal substrate: Proteins.",
+        "difficulty": "Hard",
+        "topic": "Trypsin · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic lipase — main site of action: Mouth\nII. Bile salts — principal substrate: Proteins\nIII. Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Pancreatic lipase — main site of action: Small intestine; Bile salts — principal substrate: Large fat globules; Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic lipase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic lipase — principal substrate: Fats\nII. Bile salts — main digestion product or effect: Produces glucose and fructose\nIII. Pancreatic amylase — main site of action: Small intestine",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Pancreatic lipase — principal substrate: Fats; Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it; Pancreatic amylase — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic lipase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Pancreatic lipase — main digestion product or effect: Produces glucose and galactose\nII. Bile salts — main site of action: Small intestine\nIII. Pancreatic amylase — principal substrate: Starch",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account; Bile salts — main site of action: Small intestine; Pancreatic amylase — principal substrate: Starch.",
+        "difficulty": "Hard",
+        "topic": "Pancreatic lipase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Maltase — main site of action: Small intestine\nII. Salivary amylase — principal substrate: Starch\nIII. Trypsin — main digestion product or effect: Produces smaller peptide fragments",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Maltase — main site of action: Small intestine; Salivary amylase — principal substrate: Starch; Trypsin — main digestion product or effect: Produces smaller peptide fragments.",
+        "difficulty": "Hard",
+        "topic": "Maltase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Maltase — principal substrate: Proteins and polypeptides\nII. Salivary amylase — main digestion product or effect: Produces glucose\nIII. Trypsin — main site of action: Mouth",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Maltase — principal substrate: Maltose; Salivary amylase — main digestion product or effect: Begins conversion of starch into simpler sugars; Trypsin — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Maltase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Maltase — main digestion product or effect: Produces glucose\nII. Salivary amylase — main site of action: Stomach\nIII. Trypsin — principal substrate: Fats",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Maltase — main digestion product or effect: Produces glucose; Salivary amylase — main site of action: Mouth; Trypsin — principal substrate: Proteins and polypeptides.",
+        "difficulty": "Hard",
+        "topic": "Maltase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sucrase — main site of action: Mouth\nII. Pepsin — principal substrate: Proteins\nIII. Pancreatic lipase — main digestion product or effect: Produces glucose",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Sucrase — main site of action: Small intestine; Pepsin — principal substrate: Proteins; Pancreatic lipase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account.",
+        "difficulty": "Hard",
+        "topic": "Sucrase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sucrase — principal substrate: Sucrose\nII. Pepsin — main digestion product or effect: Breaks proteins into smaller peptides\nIII. Pancreatic lipase — main site of action: Mouth",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Sucrase — principal substrate: Sucrose; Pepsin — main digestion product or effect: Breaks proteins into smaller peptides; Pancreatic lipase — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Sucrase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Sucrase — main digestion product or effect: Produces fatty acids and glycerol in the school-level account\nII. Pepsin — main site of action: Mouth\nIII. Pancreatic lipase — principal substrate: Fats",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Sucrase — main digestion product or effect: Produces glucose and fructose; Pepsin — main site of action: Stomach; Pancreatic lipase — principal substrate: Fats.",
+        "difficulty": "Hard",
+        "topic": "Sucrase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactase — main site of action: Small intestine\nII. Pancreatic amylase — principal substrate: Proteins and polypeptides\nIII. Maltase — main digestion product or effect: Produces glucose",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Lactase — main site of action: Small intestine; Pancreatic amylase — principal substrate: Starch; Maltase — main digestion product or effect: Produces glucose.",
+        "difficulty": "Hard",
+        "topic": "Lactase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactase — principal substrate: Proteins\nII. Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars\nIII. Maltase — main site of action: Small intestine",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Lactase — principal substrate: Lactose; Pancreatic amylase — main digestion product or effect: Continues digestion of starch into simpler sugars; Maltase — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Lactase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lactase — main digestion product or effect: Produces glucose and galactose\nII. Pancreatic amylase — main site of action: Small intestine\nIII. Maltase — principal substrate: Maltose",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Lactase — main digestion product or effect: Produces glucose and galactose; Pancreatic amylase — main site of action: Small intestine; Maltase — principal substrate: Maltose.",
+        "difficulty": "Hard",
+        "topic": "Lactase · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bile salts — main site of action: Mouth\nII. Trypsin — principal substrate: Fats\nIII. Sucrase — main digestion product or effect: Continues digestion of starch into simpler sugars",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Bile salts — main site of action: Small intestine; Trypsin — principal substrate: Proteins and polypeptides; Sucrase — main digestion product or effect: Produces glucose and fructose.",
+        "difficulty": "Hard",
+        "topic": "Bile salts · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bile salts — principal substrate: Large fat globules\nII. Trypsin — main digestion product or effect: Produces glucose and galactose\nIII. Sucrase — main site of action: Mouth",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Bile salts — principal substrate: Large fat globules; Trypsin — main digestion product or effect: Produces smaller peptide fragments; Sucrase — main site of action: Small intestine.",
+        "difficulty": "Hard",
+        "topic": "Bile salts · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-BIO-CH01-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Bile salts — main digestion product or effect: Continues digestion of starch into simpler sugars\nII. Trypsin — main site of action: Small intestine\nIII. Sucrase — principal substrate: Starch",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Bile salts — main digestion product or effect: Emulsify fat without enzymatically digesting it; Trypsin — main site of action: Small intestine; Sucrase — principal substrate: Sucrose.",
+        "difficulty": "Hard",
+        "topic": "Bile salts · comparing chapter concepts",
+        "sourceChapter": 1
+      }
+    ]
+  }
+}

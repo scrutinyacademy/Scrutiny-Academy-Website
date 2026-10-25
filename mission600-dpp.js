@@ -105,7 +105,7 @@ async function initialize() {
   $("dppCode").textContent = `${dpp.subject.toUpperCase()} · ${dpp.id}`;
   $("dppTitle").textContent = dpp.title;
   $("dppMeta").textContent = `${dpp.subject} · Chapter ${dpp.chapterNumber} · ${dpp.difficulty} · ${dpp.questions.length} MCQs · ${dpp.suggestedDurationMinutes} minutes · Suggested: ${dpp.recommendedDate} (Week ${dpp.scheduledWeek}) · Unlocked now`;
-  $("dppSource").textContent = `Textbook alignment: ${dpp.sourceBook} · Chapter ${dpp.sourceChapter} · Printed pages ${dpp.sourcePrintedPages.from}–${dpp.sourcePrintedPages.to}. Original short practice, not a full board examination paper.`;
+  $("dppSource").textContent = `Textbook alignment: ${dpp.sourceBook} · Chapter ${dpp.sourceChapter} · Printed pages ${dpp.sourcePrintedPages.from}–${dpp.sourcePrintedPages.to}. 30-question chapter practice, not a full board examination paper.`;
   $("previousQuestion").onclick = () => { if (state.index > 0) { state.index -= 1; renderQuestion(); } };
   $("nextQuestion").onclick = () => { if (state.index < dpp.questions.length - 1) { state.index += 1; renderQuestion(); } };
   $("submitDpp").onclick = submitDpp;

@@ -1,4 +1,5 @@
-// Original short DPPs aligned to the four user-supplied Telangana Class X books.
+import { expandBanks } from './expand-dpps.mjs';
+// Retained authored questions, expanded below to 30 per DPP using chapter-specific sources.
 // Each row: prompt | correct answer | three distractors | explanation.
 export const banks = {};
 const add = (subject, chapters) => { banks[subject] = chapters.map(chapter => chapter.map(level => level.trim().split('\n').map(line => {
@@ -641,3 +642,5 @@ Why does formation of a new state not automatically resolve every development pr
 What is a balanced way to study a regional statehood movement?|Use historical evidence and examine grievances, diverse participation and constitutional processes|Assume all residents held identical views|Rely only on one slogan|Ignore social and economic context|Evidence-based study connects people's experiences with political and legal developments.`
 ]
 ]);
+
+expandBanks(banks);

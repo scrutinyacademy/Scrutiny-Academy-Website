@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH14-E": {
+    "id": "SA-DPP-27-MAT-CH14-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "E",
+    "title": "Statistics – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-14.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q01",
+        "question": "Find the arithmetic mean of 2,4,6.",
+        "options": [
+          "6",
+          "12",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Sum 12 divided by three observations gives 4.",
+        "difficulty": "Easy",
+        "topic": "Find the arithmetic mean of 2,4,6.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q02",
+        "question": "What is the median of 1,3,5,7,9?",
+        "options": [
+          "9",
+          "5",
+          "3",
+          "7"
+        ],
+        "answer": 1,
+        "explanation": "The median is the middle observation in sorted data.",
+        "difficulty": "Easy",
+        "topic": "What is the median of 1,3,5,7,9?",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q03",
+        "question": "What is the mode of 2,2,3,4?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "The mode is the observation with the highest frequency.",
+        "difficulty": "Easy",
+        "topic": "What is the mode of 2,2,3,4?",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q04",
+        "question": "Find the mean of 2,4,6.",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Add the three values and divide by 3.",
+        "difficulty": "Easy",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q05",
+        "question": "Find the median of 2,3,5,7,10.",
+        "options": [
+          "4",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "For five sorted observations, the third is the median.",
+        "difficulty": "Easy",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q06",
+        "question": "Find the mode of 2,2,3,4.",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ],
+        "answer": 1,
+        "explanation": "The value 2 occurs twice, more often than the others.",
+        "difficulty": "Easy",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q07",
+        "question": "Find the class mark of the interval 20–30.",
+        "options": [
+          "25",
+          "26",
+          "24",
+          "27"
+        ],
+        "answer": 0,
+        "explanation": "Average the lower and upper boundaries.",
+        "difficulty": "Easy",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q08",
+        "question": "Values 2 and 7 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "6",
+          "4",
+          "7",
+          "5"
+        ],
+        "answer": 3,
+        "explanation": "Weighted mean=[2×2+3×7]/5.",
+        "difficulty": "Easy",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q09",
+        "question": "The mean of four observations is 7. Three are 2,4,6. Find the fourth.",
+        "options": [
+          "15",
+          "18",
+          "16",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "Required total is 4×7; subtract 12.",
+        "difficulty": "Easy",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q10",
+        "question": "Find the median of 3,5,9,11.",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "For four sorted values, average the second and third.",
+        "difficulty": "Easy",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q11",
+        "question": "Each value in a dataset with mean 2 is increased by 7. Find the new mean.",
+        "options": [
+          "9",
+          "10",
+          "8",
+          "11"
+        ],
+        "answer": 0,
+        "explanation": "Adding a constant to every observation adds it to the mean.",
+        "difficulty": "Easy",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q12",
+        "question": "Each value in a dataset with mean 3 is multiplied by 3. Find the new mean.",
+        "options": [
+          "10",
+          "8",
+          "11",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "Scaling every observation scales the mean by the same factor.",
+        "difficulty": "Easy",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q13",
+        "question": "Find the mean of 3,5,7.",
+        "options": [
+          "4",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "Add the three values and divide by 3.",
+        "difficulty": "Easy",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q14",
+        "question": "Find the median of 3,4,6,8,11.",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "For five sorted observations, the third is the median.",
+        "difficulty": "Easy",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q15",
+        "question": "Find the mode of 3,3,4,5.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "The value 3 occurs twice, more often than the others.",
+        "difficulty": "Easy",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q16",
+        "question": "Find the class mark of the interval 30–40.",
+        "options": [
+          "36",
+          "34",
+          "37",
+          "35"
+        ],
+        "answer": 3,
+        "explanation": "Average the lower and upper boundaries.",
+        "difficulty": "Easy",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q17",
+        "question": "Values 3 and 8 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "5",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Weighted mean=[2×3+3×8]/5.",
+        "difficulty": "Easy",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q18",
+        "question": "The mean of four observations is 8. Three are 3,5,7. Find the fourth.",
+        "options": [
+          "19",
+          "17",
+          "18",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "Required total is 4×8; subtract 15.",
+        "difficulty": "Easy",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q19",
+        "question": "Find the median of 4,6,10,12.",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "For four sorted values, average the second and third.",
+        "difficulty": "Easy",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q20",
+        "question": "Each value in a dataset with mean 3 is increased by 7. Find the new mean.",
+        "options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Adding a constant to every observation adds it to the mean.",
+        "difficulty": "Easy",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q21",
+        "question": "Each value in a dataset with mean 4 is multiplied by 3. Find the new mean.",
+        "options": [
+          "11",
+          "14",
+          "12",
+          "13"
+        ],
+        "answer": 2,
+        "explanation": "Scaling every observation scales the mean by the same factor.",
+        "difficulty": "Easy",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q22",
+        "question": "Find the mean of 4,6,8.",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": 1,
+        "explanation": "Add the three values and divide by 3.",
+        "difficulty": "Easy",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q23",
+        "question": "Find the median of 4,5,7,9,12.",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "9"
+        ],
+        "answer": 0,
+        "explanation": "For five sorted observations, the third is the median.",
+        "difficulty": "Easy",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q24",
+        "question": "Find the mode of 4,4,5,6.",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "The value 4 occurs twice, more often than the others.",
+        "difficulty": "Easy",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q25",
+        "question": "Find the class mark of the interval 40–50.",
+        "options": [
+          "44",
+          "47",
+          "45",
+          "46"
+        ],
+        "answer": 2,
+        "explanation": "Average the lower and upper boundaries.",
+        "difficulty": "Easy",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q26",
+        "question": "Values 4 and 9 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": 1,
+        "explanation": "Weighted mean=[2×4+3×9]/5.",
+        "difficulty": "Easy",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q27",
+        "question": "The mean of four observations is 9. Three are 4,6,8. Find the fourth.",
+        "options": [
+          "18",
+          "19",
+          "17",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "Required total is 4×9; subtract 18.",
+        "difficulty": "Easy",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q28",
+        "question": "Find the median of 5,7,11,13.",
+        "options": [
+          "10",
+          "8",
+          "11",
+          "9"
+        ],
+        "answer": 3,
+        "explanation": "For four sorted values, average the second and third.",
+        "difficulty": "Easy",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q29",
+        "question": "Each value in a dataset with mean 4 is increased by 7. Find the new mean.",
+        "options": [
+          "10",
+          "13",
+          "11",
+          "12"
+        ],
+        "answer": 2,
+        "explanation": "Adding a constant to every observation adds it to the mean.",
+        "difficulty": "Easy",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-E-Q30",
+        "question": "Each value in a dataset with mean 5 is multiplied by 3. Find the new mean.",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "14"
+        ],
+        "answer": 1,
+        "explanation": "Scaling every observation scales the mean by the same factor.",
+        "difficulty": "Easy",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH14-M": {
+    "id": "SA-DPP-27-MAT-CH14-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "M",
+    "title": "Statistics – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-14.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-10",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q01",
+        "question": "Values 10 and 20 have frequencies 3 and 2. Find their mean.",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": 1,
+        "explanation": "Weighted mean=(10×3+20×2)/5=14.",
+        "difficulty": "Medium",
+        "topic": "Values 10 and 20 have frequencies 3 and 2. Find their mean.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q02",
+        "question": "Find the median of 2,4,8,10.",
+        "options": [
+          "6",
+          "4",
+          "8",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "With four values, average the middle two: (4+8)/2=6.",
+        "difficulty": "Medium",
+        "topic": "Find the median of 2,4,8,10.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q03",
+        "question": "What is the class mark of the interval 20–30?",
+        "options": [
+          "20",
+          "30",
+          "10",
+          "25"
+        ],
+        "answer": 3,
+        "explanation": "A class mark is the midpoint of its class boundaries.",
+        "difficulty": "Medium",
+        "topic": "What is the class mark of the interval 20–30?",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mean of 5,7,9.\nII. Values 5 and 10 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "7 ; 7",
+          "8 ; 9",
+          "7 ; 8",
+          "8 ; 8"
+        ],
+        "answer": 2,
+        "explanation": "I. Add the three values and divide by 3. Answer: 7. II. Weighted mean=[2×5+3×10]/5. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 5,6,8,10,13.\nII. The mean of four observations is 10. Three are 5,7,9. Find the fourth.",
+        "options": [
+          "7 ; 18",
+          "8 ; 19",
+          "7 ; 19",
+          "8 ; 21"
+        ],
+        "answer": 1,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 8. II. Required total is 4×10; subtract 21. Answer: 19.",
+        "difficulty": "Medium",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mode of 5,5,6,7.\nII. Find the median of 6,8,12,14.",
+        "options": [
+          "5 ; 10",
+          "7 ; 10",
+          "5 ; 11",
+          "7 ; 12"
+        ],
+        "answer": 0,
+        "explanation": "I. The value 5 occurs twice, more often than the others. Answer: 5. II. For four sorted values, average the second and third. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 50–60.\nII. Each value in a dataset with mean 5 is increased by 7. Find the new mean.",
+        "options": [
+          "56 ; 12",
+          "55 ; 11",
+          "56 ; 13",
+          "55 ; 12"
+        ],
+        "answer": 3,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 55. II. Adding a constant to every observation adds it to the mean. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Values 5 and 10 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 6 is multiplied by 3. Find the new mean.",
+        "options": [
+          "8 ; 20",
+          "7 ; 17",
+          "8 ; 18",
+          "7 ; 18"
+        ],
+        "answer": 2,
+        "explanation": "I. Weighted mean=[2×5+3×10]/5. Answer: 8. II. Scaling every observation scales the mean by the same factor. Answer: 18.",
+        "difficulty": "Medium",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The mean of four observations is 10. Three are 5,7,9. Find the fourth.\nII. Find the mean of 6,8,10.",
+        "options": [
+          "21 ; 10",
+          "19 ; 8",
+          "21 ; 8",
+          "19 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. Required total is 4×10; subtract 21. Answer: 19. II. Add the three values and divide by 3. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 6,8,12,14.\nII. Find the median of 6,7,9,11,14.",
+        "options": [
+          "10 ; 9",
+          "11 ; 9",
+          "10 ; 8",
+          "11 ; 10"
+        ],
+        "answer": 0,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 10. II. For five sorted observations, the third is the median. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 5 is increased by 7. Find the new mean.\nII. Find the mode of 6,6,7,8.",
+        "options": [
+          "11 ; 6",
+          "12 ; 8",
+          "11 ; 5",
+          "12 ; 6"
+        ],
+        "answer": 3,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 12. II. The value 6 occurs twice, more often than the others. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 6 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 60–70.",
+        "options": [
+          "18 ; 66",
+          "20 ; 67",
+          "18 ; 65",
+          "20 ; 65"
+        ],
+        "answer": 2,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 18. II. Average the lower and upper boundaries. Answer: 65.",
+        "difficulty": "Medium",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mean of 6,8,10.\nII. Values 6 and 11 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "9 ; 10",
+          "8 ; 9",
+          "9 ; 9",
+          "8 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. Add the three values and divide by 3. Answer: 8. II. Weighted mean=[2×6+3×11]/5. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 6,7,9,11,14.\nII. The mean of four observations is 11. Three are 6,8,10. Find the fourth.",
+        "options": [
+          "9 ; 20",
+          "8 ; 20",
+          "9 ; 22",
+          "8 ; 19"
+        ],
+        "answer": 0,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 9. II. Required total is 4×11; subtract 24. Answer: 20.",
+        "difficulty": "Medium",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mode of 6,6,7,8.\nII. Find the median of 7,9,13,15.",
+        "options": [
+          "8 ; 11",
+          "6 ; 12",
+          "8 ; 13",
+          "6 ; 11"
+        ],
+        "answer": 3,
+        "explanation": "I. The value 6 occurs twice, more often than the others. Answer: 6. II. For four sorted values, average the second and third. Answer: 11.",
+        "difficulty": "Medium",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 60–70.\nII. Each value in a dataset with mean 6 is increased by 7. Find the new mean.",
+        "options": [
+          "65 ; 12",
+          "66 ; 14",
+          "65 ; 13",
+          "66 ; 13"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 65. II. Adding a constant to every observation adds it to the mean. Answer: 13.",
+        "difficulty": "Medium",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Values 6 and 11 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 7 is multiplied by 3. Find the new mean.",
+        "options": [
+          "8 ; 20",
+          "9 ; 21",
+          "8 ; 21",
+          "9 ; 23"
+        ],
+        "answer": 1,
+        "explanation": "I. Weighted mean=[2×6+3×11]/5. Answer: 9. II. Scaling every observation scales the mean by the same factor. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The mean of four observations is 11. Three are 6,8,10. Find the fourth.\nII. Find the mean of 7,9,11.",
+        "options": [
+          "20 ; 9",
+          "22 ; 9",
+          "20 ; 10",
+          "22 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. Required total is 4×11; subtract 24. Answer: 20. II. Add the three values and divide by 3. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 7,9,13,15.\nII. Find the median of 7,8,10,12,15.",
+        "options": [
+          "12 ; 10",
+          "11 ; 9",
+          "12 ; 11",
+          "11 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 11. II. For five sorted observations, the third is the median. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 6 is increased by 7. Find the new mean.\nII. Find the mode of 7,7,8,9.",
+        "options": [
+          "13 ; 9",
+          "12 ; 6",
+          "13 ; 7",
+          "12 ; 7"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 13. II. The value 7 occurs twice, more often than the others. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 7 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 70–80.",
+        "options": [
+          "23 ; 77",
+          "21 ; 75",
+          "23 ; 75",
+          "21 ; 76"
+        ],
+        "answer": 1,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 21. II. Average the lower and upper boundaries. Answer: 75.",
+        "difficulty": "Medium",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mean of 7,9,11.\nII. Values 7 and 12 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "9 ; 10",
+          "10 ; 10",
+          "9 ; 9",
+          "10 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. Add the three values and divide by 3. Answer: 9. II. Weighted mean=[2×7+3×12]/5. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 7,8,10,12,15.\nII. The mean of four observations is 12. Three are 7,9,11. Find the fourth.",
+        "options": [
+          "9 ; 21",
+          "10 ; 23",
+          "9 ; 20",
+          "10 ; 21"
+        ],
+        "answer": 3,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 10. II. Required total is 4×12; subtract 27. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the mode of 7,7,8,9.\nII. Find the median of 8,10,14,16.",
+        "options": [
+          "7 ; 13",
+          "9 ; 14",
+          "7 ; 12",
+          "9 ; 12"
+        ],
+        "answer": 2,
+        "explanation": "I. The value 7 occurs twice, more often than the others. Answer: 7. II. For four sorted values, average the second and third. Answer: 12.",
+        "difficulty": "Medium",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 70–80.\nII. Each value in a dataset with mean 7 is increased by 7. Find the new mean.",
+        "options": [
+          "76 ; 15",
+          "75 ; 14",
+          "76 ; 14",
+          "75 ; 13"
+        ],
+        "answer": 1,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 75. II. Adding a constant to every observation adds it to the mean. Answer: 14.",
+        "difficulty": "Medium",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Values 7 and 12 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 8 is multiplied by 3. Find the new mean.",
+        "options": [
+          "10 ; 24",
+          "9 ; 24",
+          "10 ; 26",
+          "9 ; 23"
+        ],
+        "answer": 0,
+        "explanation": "I. Weighted mean=[2×7+3×12]/5. Answer: 10. II. Scaling every observation scales the mean by the same factor. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The mean of four observations is 12. Three are 7,9,11. Find the fourth.\nII. Find the mean of 5,7,9.",
+        "options": [
+          "23 ; 7",
+          "21 ; 8",
+          "23 ; 9",
+          "21 ; 7"
+        ],
+        "answer": 3,
+        "explanation": "I. Required total is 4×12; subtract 27. Answer: 21. II. Add the three values and divide by 3. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the median of 8,10,14,16.\nII. Find the median of 5,6,8,10,13.",
+        "options": [
+          "12 ; 7",
+          "13 ; 9",
+          "12 ; 8",
+          "13 ; 8"
+        ],
+        "answer": 2,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 12. II. For five sorted observations, the third is the median. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 7 is increased by 7. Find the new mean.\nII. Find the mode of 5,5,6,7.",
+        "options": [
+          "13 ; 4",
+          "14 ; 5",
+          "13 ; 5",
+          "14 ; 7"
+        ],
+        "answer": 1,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 14. II. The value 5 occurs twice, more often than the others. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 8 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 50–60.",
+        "options": [
+          "24 ; 55",
+          "26 ; 55",
+          "24 ; 56",
+          "26 ; 57"
+        ],
+        "answer": 0,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 24. II. Average the lower and upper boundaries. Answer: 55.",
+        "difficulty": "Medium",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH14-H": {
+    "id": "SA-DPP-27-MAT-CH14-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch14",
+    "chapterNumber": 14,
+    "chapter": "Statistics",
+    "level": "H",
+    "title": "Statistics – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-14.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-02",
+    "recommendedDate": "2026-12-11",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 14,
+    "sourcePrintedPages": {
+      "from": 327,
+      "to": 356
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q01",
+        "question": "Grouped data has N=40, median class 20–30, preceding cumulative frequency 15 and median-class frequency 10. Find median.",
+        "options": [
+          "25",
+          "20",
+          "30",
+          "27.5"
+        ],
+        "answer": 0,
+        "explanation": "Median=20+[(20−15)/10]×10=25.",
+        "difficulty": "Hard",
+        "topic": "Grouped data has N=40, median class 20–30, preceding cumulative frequency 15 and median-class frequency 10. Find median.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q02",
+        "question": "The mean of five numbers is 12. Four are 8,10,12,14. Find the fifth.",
+        "options": [
+          "12",
+          "14",
+          "18",
+          "16"
+        ],
+        "answer": 3,
+        "explanation": "Required sum is 60; known sum is 44.",
+        "difficulty": "Hard",
+        "topic": "The mean of five numbers is 12. Four are 8,10,12,14. Find the fifth.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q03",
+        "question": "A modal class has l=20,h=10,f₁=15,f₀=10,f₂=5. Find mode.",
+        "options": [
+          "80/3",
+          "30",
+          "70/3",
+          "25"
+        ],
+        "answer": 2,
+        "explanation": "Mode=20+[(15−10)/(30−10−5)]×10=20+10/3.",
+        "difficulty": "Hard",
+        "topic": "A modal class has l=20,h=10,f₁=15,f₀=10,f₂=5. Find mode.",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mean of 8,10,12.\nII. Values 8 and 13 have frequencies 2 and 3. Find their mean.\nIII. Each value in a dataset with mean 8 is increased by 7. Find the new mean.",
+        "options": [
+          "10 ; 11 ; 17",
+          "10 ; 11 ; 15",
+          "11 ; 11 ; 15",
+          "10 ; 10 ; 15"
+        ],
+        "answer": 1,
+        "explanation": "I. Add the three values and divide by 3. Answer: 10. II. Weighted mean=[2×8+3×13]/5. Answer: 11. III. Adding a constant to every observation adds it to the mean. Answer: 15.",
+        "difficulty": "Hard",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 8,9,11,13,16.\nII. The mean of four observations is 13. Three are 8,10,12. Find the fourth.\nIII. Each value in a dataset with mean 9 is multiplied by 3. Find the new mean.",
+        "options": [
+          "11 ; 22 ; 27",
+          "10 ; 22 ; 27",
+          "11 ; 24 ; 27",
+          "11 ; 22 ; 28"
+        ],
+        "answer": 0,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 11. II. Required total is 4×13; subtract 30. Answer: 22. III. Scaling every observation scales the mean by the same factor. Answer: 27.",
+        "difficulty": "Hard",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mode of 8,8,9,10.\nII. Find the median of 9,11,15,17.\nIII. Find the mean of 9,11,13.",
+        "options": [
+          "10 ; 13 ; 11",
+          "8 ; 14 ; 11",
+          "8 ; 13 ; 10",
+          "8 ; 13 ; 11"
+        ],
+        "answer": 3,
+        "explanation": "I. The value 8 occurs twice, more often than the others. Answer: 8. II. For four sorted values, average the second and third. Answer: 13. III. Add the three values and divide by 3. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 80–90.\nII. Each value in a dataset with mean 8 is increased by 7. Find the new mean.\nIII. Find the median of 9,10,12,14,17.",
+        "options": [
+          "85 ; 14 ; 12",
+          "85 ; 15 ; 14",
+          "85 ; 15 ; 12",
+          "86 ; 15 ; 12"
+        ],
+        "answer": 2,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 85. II. Adding a constant to every observation adds it to the mean. Answer: 15. III. For five sorted observations, the third is the median. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Values 8 and 13 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 9 is multiplied by 3. Find the new mean.\nIII. Find the mode of 9,9,10,11.",
+        "options": [
+          "11 ; 27 ; 10",
+          "11 ; 27 ; 9",
+          "10 ; 27 ; 9",
+          "11 ; 29 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. Weighted mean=[2×8+3×13]/5. Answer: 11. II. Scaling every observation scales the mean by the same factor. Answer: 27. III. The value 9 occurs twice, more often than the others. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The mean of four observations is 13. Three are 8,10,12. Find the fourth.\nII. Find the mean of 9,11,13.\nIII. Find the class mark of the interval 90–100.",
+        "options": [
+          "22 ; 11 ; 95",
+          "24 ; 11 ; 95",
+          "22 ; 12 ; 95",
+          "22 ; 11 ; 94"
+        ],
+        "answer": 0,
+        "explanation": "I. Required total is 4×13; subtract 30. Answer: 22. II. Add the three values and divide by 3. Answer: 11. III. Average the lower and upper boundaries. Answer: 95.",
+        "difficulty": "Hard",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 9,11,15,17.\nII. Find the median of 9,10,12,14,17.\nIII. Values 9 and 14 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "14 ; 12 ; 12",
+          "13 ; 11 ; 12",
+          "13 ; 12 ; 14",
+          "13 ; 12 ; 12"
+        ],
+        "answer": 3,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 13. II. For five sorted observations, the third is the median. Answer: 12. III. Weighted mean=[2×9+3×14]/5. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 8 is increased by 7. Find the new mean.\nII. Find the mode of 9,9,10,11.\nIII. The mean of four observations is 14. Three are 9,11,13. Find the fourth.",
+        "options": [
+          "15 ; 11 ; 23",
+          "15 ; 9 ; 24",
+          "15 ; 9 ; 23",
+          "14 ; 9 ; 23"
+        ],
+        "answer": 2,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 15. II. The value 9 occurs twice, more often than the others. Answer: 9. III. Required total is 4×14; subtract 33. Answer: 23.",
+        "difficulty": "Hard",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 9 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 90–100.\nIII. Find the median of 10,12,16,18.",
+        "options": [
+          "27 ; 95 ; 13",
+          "27 ; 95 ; 14",
+          "29 ; 95 ; 14",
+          "27 ; 96 ; 14"
+        ],
+        "answer": 1,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 27. II. Average the lower and upper boundaries. Answer: 95. III. For four sorted values, average the second and third. Answer: 14.",
+        "difficulty": "Hard",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mean of 9,11,13.\nII. Values 9 and 14 have frequencies 2 and 3. Find their mean.\nIII. Each value in a dataset with mean 9 is increased by 7. Find the new mean.",
+        "options": [
+          "11 ; 12 ; 16",
+          "12 ; 12 ; 16",
+          "11 ; 11 ; 16",
+          "11 ; 12 ; 18"
+        ],
+        "answer": 0,
+        "explanation": "I. Add the three values and divide by 3. Answer: 11. II. Weighted mean=[2×9+3×14]/5. Answer: 12. III. Adding a constant to every observation adds it to the mean. Answer: 16.",
+        "difficulty": "Hard",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 9,10,12,14,17.\nII. The mean of four observations is 14. Three are 9,11,13. Find the fourth.\nIII. Each value in a dataset with mean 10 is multiplied by 3. Find the new mean.",
+        "options": [
+          "11 ; 23 ; 30",
+          "12 ; 25 ; 30",
+          "12 ; 23 ; 31",
+          "12 ; 23 ; 30"
+        ],
+        "answer": 3,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 12. II. Required total is 4×14; subtract 33. Answer: 23. III. Scaling every observation scales the mean by the same factor. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mode of 9,9,10,11.\nII. Find the median of 10,12,16,18.\nIII. Find the mean of 10,12,14.",
+        "options": [
+          "9 ; 15 ; 12",
+          "9 ; 14 ; 11",
+          "9 ; 14 ; 12",
+          "11 ; 14 ; 12"
+        ],
+        "answer": 2,
+        "explanation": "I. The value 9 occurs twice, more often than the others. Answer: 9. II. For four sorted values, average the second and third. Answer: 14. III. Add the three values and divide by 3. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 90–100.\nII. Each value in a dataset with mean 9 is increased by 7. Find the new mean.\nIII. Find the median of 10,11,13,15,18.",
+        "options": [
+          "95 ; 16 ; 15",
+          "95 ; 16 ; 13",
+          "96 ; 16 ; 13",
+          "95 ; 15 ; 13"
+        ],
+        "answer": 1,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 95. II. Adding a constant to every observation adds it to the mean. Answer: 16. III. For five sorted observations, the third is the median. Answer: 13.",
+        "difficulty": "Hard",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Values 9 and 14 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 10 is multiplied by 3. Find the new mean.\nIII. Find the mode of 10,10,11,12.",
+        "options": [
+          "12 ; 30 ; 10",
+          "11 ; 30 ; 10",
+          "12 ; 32 ; 10",
+          "12 ; 30 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. Weighted mean=[2×9+3×14]/5. Answer: 12. II. Scaling every observation scales the mean by the same factor. Answer: 30. III. The value 10 occurs twice, more often than the others. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The mean of four observations is 14. Three are 9,11,13. Find the fourth.\nII. Find the mean of 10,12,14.\nIII. Find the class mark of the interval 100–110.",
+        "options": [
+          "25 ; 12 ; 105",
+          "23 ; 13 ; 105",
+          "23 ; 12 ; 104",
+          "23 ; 12 ; 105"
+        ],
+        "answer": 3,
+        "explanation": "I. Required total is 4×14; subtract 33. Answer: 23. II. Add the three values and divide by 3. Answer: 12. III. Average the lower and upper boundaries. Answer: 105.",
+        "difficulty": "Hard",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 10,12,16,18.\nII. Find the median of 10,11,13,15,18.\nIII. Values 10 and 15 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "14 ; 12 ; 13",
+          "14 ; 13 ; 15",
+          "14 ; 13 ; 13",
+          "15 ; 13 ; 13"
+        ],
+        "answer": 2,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 14. II. For five sorted observations, the third is the median. Answer: 13. III. Weighted mean=[2×10+3×15]/5. Answer: 13.",
+        "difficulty": "Hard",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 9 is increased by 7. Find the new mean.\nII. Find the mode of 10,10,11,12.\nIII. The mean of four observations is 15. Three are 10,12,14. Find the fourth.",
+        "options": [
+          "16 ; 10 ; 25",
+          "16 ; 10 ; 24",
+          "15 ; 10 ; 24",
+          "16 ; 12 ; 24"
+        ],
+        "answer": 1,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 16. II. The value 10 occurs twice, more often than the others. Answer: 10. III. Required total is 4×15; subtract 36. Answer: 24.",
+        "difficulty": "Hard",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 10 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 100–110.\nIII. Find the median of 11,13,17,19.",
+        "options": [
+          "30 ; 105 ; 15",
+          "32 ; 105 ; 15",
+          "30 ; 106 ; 15",
+          "30 ; 105 ; 14"
+        ],
+        "answer": 0,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 30. II. Average the lower and upper boundaries. Answer: 105. III. For four sorted values, average the second and third. Answer: 15.",
+        "difficulty": "Hard",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mean of 10,12,14.\nII. Values 10 and 15 have frequencies 2 and 3. Find their mean.\nIII. Each value in a dataset with mean 10 is increased by 7. Find the new mean.",
+        "options": [
+          "13 ; 13 ; 17",
+          "12 ; 12 ; 17",
+          "12 ; 13 ; 19",
+          "12 ; 13 ; 17"
+        ],
+        "answer": 3,
+        "explanation": "I. Add the three values and divide by 3. Answer: 12. II. Weighted mean=[2×10+3×15]/5. Answer: 13. III. Adding a constant to every observation adds it to the mean. Answer: 17.",
+        "difficulty": "Hard",
+        "topic": "Mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 10,11,13,15,18.\nII. The mean of four observations is 15. Three are 10,12,14. Find the fourth.\nIII. Each value in a dataset with mean 11 is multiplied by 3. Find the new mean.",
+        "options": [
+          "13 ; 26 ; 33",
+          "13 ; 24 ; 34",
+          "13 ; 24 ; 33",
+          "12 ; 24 ; 33"
+        ],
+        "answer": 2,
+        "explanation": "I. For five sorted observations, the third is the median. Answer: 13. II. Required total is 4×15; subtract 36. Answer: 24. III. Scaling every observation scales the mean by the same factor. Answer: 33.",
+        "difficulty": "Hard",
+        "topic": "Median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the mode of 10,10,11,12.\nII. Find the median of 11,13,17,19.\nIII. Find the mean of 8,10,12.",
+        "options": [
+          "10 ; 15 ; 9",
+          "10 ; 15 ; 10",
+          "12 ; 15 ; 10",
+          "10 ; 16 ; 10"
+        ],
+        "answer": 1,
+        "explanation": "I. The value 10 occurs twice, more often than the others. Answer: 10. II. For four sorted values, average the second and third. Answer: 15. III. Add the three values and divide by 3. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Mode",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the class mark of the interval 100–110.\nII. Each value in a dataset with mean 10 is increased by 7. Find the new mean.\nIII. Find the median of 8,9,11,13,16.",
+        "options": [
+          "105 ; 17 ; 11",
+          "106 ; 17 ; 11",
+          "105 ; 16 ; 11",
+          "105 ; 17 ; 13"
+        ],
+        "answer": 0,
+        "explanation": "I. Average the lower and upper boundaries. Answer: 105. II. Adding a constant to every observation adds it to the mean. Answer: 17. III. For five sorted observations, the third is the median. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Class mark",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Values 10 and 15 have frequencies 2 and 3. Find their mean.\nII. Each value in a dataset with mean 11 is multiplied by 3. Find the new mean.\nIII. Find the mode of 8,8,9,10.",
+        "options": [
+          "12 ; 33 ; 8",
+          "13 ; 35 ; 8",
+          "13 ; 33 ; 9",
+          "13 ; 33 ; 8"
+        ],
+        "answer": 3,
+        "explanation": "I. Weighted mean=[2×10+3×15]/5. Answer: 13. II. Scaling every observation scales the mean by the same factor. Answer: 33. III. The value 8 occurs twice, more often than the others. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Weighted mean",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The mean of four observations is 15. Three are 10,12,14. Find the fourth.\nII. Find the mean of 8,10,12.\nIII. Find the class mark of the interval 80–90.",
+        "options": [
+          "24 ; 11 ; 85",
+          "24 ; 10 ; 84",
+          "24 ; 10 ; 85",
+          "26 ; 10 ; 85"
+        ],
+        "answer": 2,
+        "explanation": "I. Required total is 4×15; subtract 36. Answer: 24. II. Add the three values and divide by 3. Answer: 10. III. Average the lower and upper boundaries. Answer: 85.",
+        "difficulty": "Hard",
+        "topic": "Missing observation",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the median of 11,13,17,19.\nII. Find the median of 8,9,11,13,16.\nIII. Values 8 and 13 have frequencies 2 and 3. Find their mean.",
+        "options": [
+          "15 ; 11 ; 13",
+          "15 ; 11 ; 11",
+          "16 ; 11 ; 11",
+          "15 ; 10 ; 11"
+        ],
+        "answer": 1,
+        "explanation": "I. For four sorted values, average the second and third. Answer: 15. II. For five sorted observations, the third is the median. Answer: 11. III. Weighted mean=[2×8+3×13]/5. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Even-sample median",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 10 is increased by 7. Find the new mean.\nII. Find the mode of 8,8,9,10.\nIII. The mean of four observations is 13. Three are 8,10,12. Find the fourth.",
+        "options": [
+          "17 ; 8 ; 22",
+          "16 ; 8 ; 22",
+          "17 ; 10 ; 22",
+          "17 ; 8 ; 23"
+        ],
+        "answer": 0,
+        "explanation": "I. Adding a constant to every observation adds it to the mean. Answer: 17. II. The value 8 occurs twice, more often than the others. Answer: 8. III. Required total is 4×13; subtract 30. Answer: 22.",
+        "difficulty": "Hard",
+        "topic": "Shifting data",
+        "sourceChapter": 14
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH14-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Each value in a dataset with mean 11 is multiplied by 3. Find the new mean.\nII. Find the class mark of the interval 80–90.\nIII. Find the median of 9,11,15,17.",
+        "options": [
+          "35 ; 85 ; 13",
+          "33 ; 86 ; 13",
+          "33 ; 85 ; 12",
+          "33 ; 85 ; 13"
+        ],
+        "answer": 3,
+        "explanation": "I. Scaling every observation scales the mean by the same factor. Answer: 33. II. Average the lower and upper boundaries. Answer: 85. III. For four sorted values, average the second and third. Answer: 13.",
+        "difficulty": "Hard",
+        "topic": "Scaling data",
+        "sourceChapter": 14
+      }
+    ]
+  }
+}

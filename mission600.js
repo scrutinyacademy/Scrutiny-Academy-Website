@@ -103,7 +103,7 @@ function setupFilters() {
 }
 
 function renderBundles() {
-  $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => { const subjectDpps = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id); return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${subjectDpps.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>Easy, Medium and Hard</strong><br>3 focused MCQs in every DPP</p><button data-bundle="${subject.id}">VIEW ${subject.name.toUpperCase()}</button></article>`; }).join("");
+  $("subjectBundles").innerHTML = Object.values(state.catalog.subjects).map((subject) => { const subjectDpps = state.catalog.dpps.filter((dpp) => dpp.subjectId === subject.id); return `<article class="bundle-card"><span class="eyebrow">${subject.chapters.length} CHAPTERS · ${subjectDpps.length} DPPs</span><h3>${subjectIcon[subject.id]} ${subject.name}</h3><p><strong>Easy, Medium and Hard</strong><br>30 MCQs in every DPP</p><button data-bundle="${subject.id}">VIEW ${subject.name.toUpperCase()}</button></article>`; }).join("");
   document.querySelectorAll("[data-bundle]").forEach((button) => { button.onclick = () => { $("dppSubject").value = button.dataset.bundle; $("dppWeek").value = "all"; renderDpps(); $("dppStore").scrollIntoView({ behavior: "smooth", block: "start" }); }; });
 }
 

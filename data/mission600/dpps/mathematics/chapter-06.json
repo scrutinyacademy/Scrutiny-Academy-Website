@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH06-E": {
+    "id": "SA-DPP-27-MAT-CH06-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "E",
+    "title": "Progressions – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-10-30",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q01",
+        "question": "What is the common difference of 3,7,11,15,…?",
+        "options": [
+          "7",
+          "2",
+          "4",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "Subtract each term from the next.",
+        "difficulty": "Easy",
+        "topic": "What is the common difference of 3,7,11,15,…?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q02",
+        "question": "The nth term of an AP is which expression?",
+        "options": [
+          "a/n+d",
+          "a+(n−1)d",
+          "a+nd",
+          "adⁿ"
+        ],
+        "answer": 1,
+        "explanation": "The first term receives n−1 increments of d.",
+        "difficulty": "Easy",
+        "topic": "The nth term of an AP is which expression?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q03",
+        "question": "What is the next term of 2,6,18,…, a geometric progression?",
+        "options": [
+          "54",
+          "36",
+          "24",
+          "20"
+        ],
+        "answer": 0,
+        "explanation": "The common ratio is 3.",
+        "difficulty": "Easy",
+        "topic": "What is the next term of 2,6,18,…, a geometric progression?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q04",
+        "question": "Find the 4th term of the AP with first term 2 and common difference 3.",
+        "options": [
+          "12",
+          "10",
+          "13",
+          "11"
+        ],
+        "answer": 3,
+        "explanation": "aₙ=a+(n−1)d=2+(4−1)×3.",
+        "difficulty": "Easy",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q05",
+        "question": "Find the sum of the first 9 positive integers.",
+        "options": [
+          "44",
+          "47",
+          "45",
+          "46"
+        ],
+        "answer": 2,
+        "explanation": "Use N(N+1)/2 with N=9.",
+        "difficulty": "Easy",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q06",
+        "question": "The AP has first term 2 and second term 6. Find its common difference.",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "Subtract the first term from the second.",
+        "difficulty": "Easy",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q07",
+        "question": "Find the fourth term of the GP 2,4,8,… .",
+        "options": [
+          "16",
+          "17",
+          "15",
+          "18"
+        ],
+        "answer": 0,
+        "explanation": "The common ratio is 2, so a₄=a×2³.",
+        "difficulty": "Easy",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q08",
+        "question": "Find the sum of the first 4 terms of the AP 2,4,6,… .",
+        "options": [
+          "21",
+          "19",
+          "22",
+          "20"
+        ],
+        "answer": 3,
+        "explanation": "S=4[2×2+(4−1)×2]/2.",
+        "difficulty": "Easy",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q09",
+        "question": "An AP has fifth term 6 and ninth term 18. Find its common difference.",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "Four common differences add to 12, so d=3.",
+        "difficulty": "Easy",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q10",
+        "question": "Find the common ratio of the GP 2,6,18,… .",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "Divide any term by its preceding nonzero term.",
+        "difficulty": "Easy",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q11",
+        "question": "An AP has first term 2 and common difference 2. How many terms are needed to reach 20?",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "aₖ=2+(k−1)2=20, giving k=10.",
+        "difficulty": "Easy",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q12",
+        "question": "An AP has middle term 2 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "19",
+          "17",
+          "20",
+          "18"
+        ],
+        "answer": 3,
+        "explanation": "The mean of an odd number of AP terms equals the middle term.",
+        "difficulty": "Easy",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q13",
+        "question": "Find the 5th term of the AP with first term 3 and common difference 3.",
+        "options": [
+          "14",
+          "17",
+          "15",
+          "16"
+        ],
+        "answer": 2,
+        "explanation": "aₙ=a+(n−1)d=3+(5−1)×3.",
+        "difficulty": "Easy",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q14",
+        "question": "Find the sum of the first 11 positive integers.",
+        "options": [
+          "68",
+          "66",
+          "67",
+          "65"
+        ],
+        "answer": 1,
+        "explanation": "Use N(N+1)/2 with N=11.",
+        "difficulty": "Easy",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q15",
+        "question": "The AP has first term 3 and second term 7. Find its common difference.",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": 0,
+        "explanation": "Subtract the first term from the second.",
+        "difficulty": "Easy",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q16",
+        "question": "Find the fourth term of the GP 3,6,12,… .",
+        "options": [
+          "25",
+          "23",
+          "26",
+          "24"
+        ],
+        "answer": 3,
+        "explanation": "The common ratio is 2, so a₄=a×2³.",
+        "difficulty": "Easy",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q17",
+        "question": "Find the sum of the first 5 terms of the AP 3,5,7,… .",
+        "options": [
+          "34",
+          "37",
+          "35",
+          "36"
+        ],
+        "answer": 2,
+        "explanation": "S=5[2×3+(5−1)×2]/2.",
+        "difficulty": "Easy",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q18",
+        "question": "An AP has fifth term 9 and ninth term 21. Find its common difference.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "Four common differences add to 12, so d=3.",
+        "difficulty": "Easy",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q19",
+        "question": "Find the common ratio of the GP 3,9,27,… .",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Divide any term by its preceding nonzero term.",
+        "difficulty": "Easy",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q20",
+        "question": "An AP has first term 3 and common difference 3. How many terms are needed to reach 30?",
+        "options": [
+          "11",
+          "9",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "aₖ=3+(k−1)3=30, giving k=10.",
+        "difficulty": "Easy",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q21",
+        "question": "An AP has middle term 3 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "26",
+          "29",
+          "27",
+          "28"
+        ],
+        "answer": 2,
+        "explanation": "The mean of an odd number of AP terms equals the middle term.",
+        "difficulty": "Easy",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q22",
+        "question": "Find the 6th term of the AP with first term 4 and common difference 3.",
+        "options": [
+          "21",
+          "19",
+          "20",
+          "18"
+        ],
+        "answer": 1,
+        "explanation": "aₙ=a+(n−1)d=4+(6−1)×3.",
+        "difficulty": "Easy",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q23",
+        "question": "Find the sum of the first 13 positive integers.",
+        "options": [
+          "91",
+          "92",
+          "90",
+          "93"
+        ],
+        "answer": 0,
+        "explanation": "Use N(N+1)/2 with N=13.",
+        "difficulty": "Easy",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q24",
+        "question": "The AP has first term 4 and second term 8. Find its common difference.",
+        "options": [
+          "5",
+          "3",
+          "6",
+          "4"
+        ],
+        "answer": 3,
+        "explanation": "Subtract the first term from the second.",
+        "difficulty": "Easy",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q25",
+        "question": "Find the fourth term of the GP 4,8,16,… .",
+        "options": [
+          "31",
+          "34",
+          "32",
+          "33"
+        ],
+        "answer": 2,
+        "explanation": "The common ratio is 2, so a₄=a×2³.",
+        "difficulty": "Easy",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q26",
+        "question": "Find the sum of the first 6 terms of the AP 4,6,8,… .",
+        "options": [
+          "56",
+          "54",
+          "55",
+          "53"
+        ],
+        "answer": 1,
+        "explanation": "S=6[2×4+(6−1)×2]/2.",
+        "difficulty": "Easy",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q27",
+        "question": "An AP has fifth term 12 and ninth term 24. Find its common difference.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "Four common differences add to 12, so d=3.",
+        "difficulty": "Easy",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q28",
+        "question": "Find the common ratio of the GP 4,12,36,… .",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": 3,
+        "explanation": "Divide any term by its preceding nonzero term.",
+        "difficulty": "Easy",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q29",
+        "question": "An AP has first term 4 and common difference 4. How many terms are needed to reach 40?",
+        "options": [
+          "9",
+          "12",
+          "10",
+          "11"
+        ],
+        "answer": 2,
+        "explanation": "aₖ=4+(k−1)4=40, giving k=10.",
+        "difficulty": "Easy",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-E-Q30",
+        "question": "An AP has middle term 4 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "38",
+          "36",
+          "37",
+          "35"
+        ],
+        "answer": 1,
+        "explanation": "The mean of an odd number of AP terms equals the middle term.",
+        "difficulty": "Easy",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH06-M": {
+    "id": "SA-DPP-27-MAT-CH06-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "M",
+    "title": "Progressions – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-10-31",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q01",
+        "question": "Find the tenth term of the AP 5,8,11,… .",
+        "options": [
+          "27",
+          "32",
+          "35",
+          "30"
+        ],
+        "answer": 1,
+        "explanation": "a₁₀=5+9×3=32.",
+        "difficulty": "Medium",
+        "topic": "Find the tenth term of the AP 5,8,11,… .",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q02",
+        "question": "Find the sum of the first 20 positive integers.",
+        "options": [
+          "210",
+          "200",
+          "190",
+          "220"
+        ],
+        "answer": 0,
+        "explanation": "S=20×21/2=210.",
+        "difficulty": "Medium",
+        "topic": "Find the sum of the first 20 positive integers.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q03",
+        "question": "Find the fifth term of the GP 3,6,12,… .",
+        "options": [
+          "24",
+          "96",
+          "30",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "a₅=3×2⁴=48.",
+        "difficulty": "Medium",
+        "topic": "Find the fifth term of the GP 3,6,12,… .",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the 7th term of the AP with first term 5 and common difference 3.\nII. Find the sum of the first 7 terms of the AP 5,7,9,… .",
+        "options": [
+          "23 ; 76",
+          "24 ; 78",
+          "23 ; 77",
+          "24 ; 77"
+        ],
+        "answer": 2,
+        "explanation": "I. aₙ=a+(n−1)d=5+(7−1)×3. Answer: 23. II. S=7[2×5+(7−1)×2]/2. Answer: 77.",
+        "difficulty": "Medium",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 15 positive integers.\nII. An AP has fifth term 15 and ninth term 27. Find its common difference.",
+        "options": [
+          "119 ; 2",
+          "120 ; 3",
+          "119 ; 3",
+          "120 ; 5"
+        ],
+        "answer": 1,
+        "explanation": "I. Use N(N+1)/2 with N=15. Answer: 120. II. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The AP has first term 5 and second term 9. Find its common difference.\nII. Find the common ratio of the GP 5,15,45,… .",
+        "options": [
+          "4 ; 3",
+          "6 ; 3",
+          "4 ; 4",
+          "6 ; 5"
+        ],
+        "answer": 0,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 5,10,20,… .\nII. An AP has first term 5 and common difference 5. How many terms are needed to reach 50?",
+        "options": [
+          "41 ; 10",
+          "40 ; 9",
+          "41 ; 11",
+          "40 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 40. II. aₖ=5+(k−1)5=50, giving k=10. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 7 terms of the AP 5,7,9,… .\nII. An AP has middle term 5 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "77 ; 47",
+          "76 ; 44",
+          "77 ; 45",
+          "76 ; 45"
+        ],
+        "answer": 2,
+        "explanation": "I. S=7[2×5+(7−1)×2]/2. Answer: 77. II. The mean of an odd number of AP terms equals the middle term. Answer: 45.",
+        "difficulty": "Medium",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has fifth term 15 and ninth term 27. Find its common difference.\nII. Find the 8th term of the AP with first term 6 and common difference 3.",
+        "options": [
+          "5 ; 29",
+          "3 ; 27",
+          "5 ; 27",
+          "3 ; 28"
+        ],
+        "answer": 1,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=6+(8−1)×3. Answer: 27.",
+        "difficulty": "Medium",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 5,15,45,… .\nII. Find the sum of the first 17 positive integers.",
+        "options": [
+          "3 ; 153",
+          "4 ; 153",
+          "3 ; 152",
+          "4 ; 154"
+        ],
+        "answer": 0,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=17. Answer: 153.",
+        "difficulty": "Medium",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has first term 5 and common difference 5. How many terms are needed to reach 50?\nII. The AP has first term 6 and second term 10. Find its common difference.",
+        "options": [
+          "9 ; 4",
+          "10 ; 6",
+          "9 ; 3",
+          "10 ; 4"
+        ],
+        "answer": 3,
+        "explanation": "I. aₖ=5+(k−1)5=50, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Medium",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has middle term 5 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 6,12,24,… .",
+        "options": [
+          "45 ; 49",
+          "47 ; 50",
+          "45 ; 48",
+          "47 ; 48"
+        ],
+        "answer": 2,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 45. II. The common ratio is 2, so a₄=a×2³. Answer: 48.",
+        "difficulty": "Medium",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the 8th term of the AP with first term 6 and common difference 3.\nII. Find the sum of the first 8 terms of the AP 6,8,10,… .",
+        "options": [
+          "28 ; 105",
+          "27 ; 104",
+          "28 ; 104",
+          "27 ; 103"
+        ],
+        "answer": 1,
+        "explanation": "I. aₙ=a+(n−1)d=6+(8−1)×3. Answer: 27. II. S=8[2×6+(8−1)×2]/2. Answer: 104.",
+        "difficulty": "Medium",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 17 positive integers.\nII. An AP has fifth term 18 and ninth term 30. Find its common difference.",
+        "options": [
+          "153 ; 3",
+          "152 ; 3",
+          "153 ; 5",
+          "152 ; 2"
+        ],
+        "answer": 0,
+        "explanation": "I. Use N(N+1)/2 with N=17. Answer: 153. II. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The AP has first term 6 and second term 10. Find its common difference.\nII. Find the common ratio of the GP 6,18,54,… .",
+        "options": [
+          "6 ; 3",
+          "4 ; 4",
+          "6 ; 5",
+          "4 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 6,12,24,… .\nII. An AP has first term 6 and common difference 6. How many terms are needed to reach 60?",
+        "options": [
+          "48 ; 9",
+          "49 ; 11",
+          "48 ; 10",
+          "49 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 48. II. aₖ=6+(k−1)6=60, giving k=10. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 8 terms of the AP 6,8,10,… .\nII. An AP has middle term 6 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "103 ; 53",
+          "104 ; 54",
+          "103 ; 54",
+          "104 ; 56"
+        ],
+        "answer": 1,
+        "explanation": "I. S=8[2×6+(8−1)×2]/2. Answer: 104. II. The mean of an odd number of AP terms equals the middle term. Answer: 54.",
+        "difficulty": "Medium",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has fifth term 18 and ninth term 30. Find its common difference.\nII. Find the 9th term of the AP with first term 7 and common difference 3.",
+        "options": [
+          "3 ; 31",
+          "5 ; 31",
+          "3 ; 32",
+          "5 ; 33"
+        ],
+        "answer": 0,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=7+(9−1)×3. Answer: 31.",
+        "difficulty": "Medium",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 6,18,54,… .\nII. Find the sum of the first 19 positive integers.",
+        "options": [
+          "4 ; 190",
+          "3 ; 189",
+          "4 ; 191",
+          "3 ; 190"
+        ],
+        "answer": 3,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=19. Answer: 190.",
+        "difficulty": "Medium",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has first term 6 and common difference 6. How many terms are needed to reach 60?\nII. The AP has first term 7 and second term 11. Find its common difference.",
+        "options": [
+          "10 ; 6",
+          "9 ; 3",
+          "10 ; 4",
+          "9 ; 4"
+        ],
+        "answer": 2,
+        "explanation": "I. aₖ=6+(k−1)6=60, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Medium",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has middle term 6 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 7,14,28,… .",
+        "options": [
+          "56 ; 58",
+          "54 ; 56",
+          "56 ; 56",
+          "54 ; 57"
+        ],
+        "answer": 1,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 54. II. The common ratio is 2, so a₄=a×2³. Answer: 56.",
+        "difficulty": "Medium",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the 9th term of the AP with first term 7 and common difference 3.\nII. Find the sum of the first 9 terms of the AP 7,9,11,… .",
+        "options": [
+          "31 ; 135",
+          "32 ; 135",
+          "31 ; 134",
+          "32 ; 136"
+        ],
+        "answer": 0,
+        "explanation": "I. aₙ=a+(n−1)d=7+(9−1)×3. Answer: 31. II. S=9[2×7+(9−1)×2]/2. Answer: 135.",
+        "difficulty": "Medium",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 19 positive integers.\nII. An AP has fifth term 21 and ninth term 33. Find its common difference.",
+        "options": [
+          "189 ; 3",
+          "190 ; 5",
+          "189 ; 2",
+          "190 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. Use N(N+1)/2 with N=19. Answer: 190. II. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. The AP has first term 7 and second term 11. Find its common difference.\nII. Find the common ratio of the GP 7,21,63,… .",
+        "options": [
+          "4 ; 4",
+          "6 ; 5",
+          "4 ; 3",
+          "6 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 7,14,28,… .\nII. An AP has first term 7 and common difference 7. How many terms are needed to reach 70?",
+        "options": [
+          "57 ; 11",
+          "56 ; 10",
+          "57 ; 10",
+          "56 ; 9"
+        ],
+        "answer": 1,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 56. II. aₖ=7+(k−1)7=70, giving k=10. Answer: 10.",
+        "difficulty": "Medium",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the sum of the first 9 terms of the AP 7,9,11,… .\nII. An AP has middle term 7 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "135 ; 63",
+          "134 ; 63",
+          "135 ; 65",
+          "134 ; 62"
+        ],
+        "answer": 0,
+        "explanation": "I. S=9[2×7+(9−1)×2]/2. Answer: 135. II. The mean of an odd number of AP terms equals the middle term. Answer: 63.",
+        "difficulty": "Medium",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has fifth term 21 and ninth term 33. Find its common difference.\nII. Find the 7th term of the AP with first term 5 and common difference 3.",
+        "options": [
+          "5 ; 23",
+          "3 ; 24",
+          "5 ; 25",
+          "3 ; 23"
+        ],
+        "answer": 3,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=5+(7−1)×3. Answer: 23.",
+        "difficulty": "Medium",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 7,21,63,… .\nII. Find the sum of the first 15 positive integers.",
+        "options": [
+          "3 ; 119",
+          "4 ; 121",
+          "3 ; 120",
+          "4 ; 120"
+        ],
+        "answer": 2,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=15. Answer: 120.",
+        "difficulty": "Medium",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has first term 7 and common difference 7. How many terms are needed to reach 70?\nII. The AP has first term 5 and second term 9. Find its common difference.",
+        "options": [
+          "9 ; 3",
+          "10 ; 4",
+          "9 ; 4",
+          "10 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. aₖ=7+(k−1)7=70, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Medium",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An AP has middle term 7 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 5,10,20,… .",
+        "options": [
+          "63 ; 40",
+          "65 ; 40",
+          "63 ; 41",
+          "65 ; 42"
+        ],
+        "answer": 0,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 63. II. The common ratio is 2, so a₄=a×2³. Answer: 40.",
+        "difficulty": "Medium",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH06-H": {
+    "id": "SA-DPP-27-MAT-CH06-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch6",
+    "chapterNumber": 6,
+    "chapter": "Progressions",
+    "level": "H",
+    "title": "Progressions – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-06.json",
+    "scheduledWeek": 3,
+    "lectureId": "SA-M600-LEC-W03-MAT-03",
+    "recommendedDate": "2026-11-01",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 6,
+    "sourcePrintedPages": {
+      "from": 129,
+      "to": 162
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q01",
+        "question": "The third and seventh AP terms are 11 and 23. Find the first term.",
+        "options": [
+          "5",
+          "3",
+          "7",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Four common differences total 12, so d=3 and a=11−6=5.",
+        "difficulty": "Hard",
+        "topic": "The third and seventh AP terms are 11 and 23. Find the first term.",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q02",
+        "question": "How many terms of 3,7,11,… sum to 210?",
+        "options": [
+          "9",
+          "11",
+          "12",
+          "10"
+        ],
+        "answer": 3,
+        "explanation": "Sₙ=n[6+4(n−1)]/2=n(2n+1); n=10 gives 210.",
+        "difficulty": "Hard",
+        "topic": "How many terms of 3,7,11,… sum to 210?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q03",
+        "question": "An AP has a₅=0. What is the sum of its first nine terms?",
+        "options": [
+          "45",
+          "Cannot be determined",
+          "0",
+          "9"
+        ],
+        "answer": 2,
+        "explanation": "In an odd-length AP the middle term equals the mean; S₉=9a₅=0.",
+        "difficulty": "Hard",
+        "topic": "An AP has a₅=0. What is the sum of its first nine terms?",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the 10th term of the AP with first term 8 and common difference 3.\nII. Find the sum of the first 10 terms of the AP 8,10,12,… .\nIII. An AP has first term 8 and common difference 8. How many terms are needed to reach 80?",
+        "options": [
+          "35 ; 170 ; 12",
+          "35 ; 170 ; 10",
+          "36 ; 170 ; 10",
+          "35 ; 169 ; 10"
+        ],
+        "answer": 1,
+        "explanation": "I. aₙ=a+(n−1)d=8+(10−1)×3. Answer: 35. II. S=10[2×8+(10−1)×2]/2. Answer: 170. III. aₖ=8+(k−1)8=80, giving k=10. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 21 positive integers.\nII. An AP has fifth term 24 and ninth term 36. Find its common difference.\nIII. An AP has middle term 8 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "231 ; 3 ; 72",
+          "230 ; 3 ; 72",
+          "231 ; 5 ; 72",
+          "231 ; 3 ; 73"
+        ],
+        "answer": 0,
+        "explanation": "I. Use N(N+1)/2 with N=21. Answer: 231. II. Four common differences add to 12, so d=3. Answer: 3. III. The mean of an odd number of AP terms equals the middle term. Answer: 72.",
+        "difficulty": "Hard",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The AP has first term 8 and second term 12. Find its common difference.\nII. Find the common ratio of the GP 8,24,72,… .\nIII. Find the 11th term of the AP with first term 9 and common difference 3.",
+        "options": [
+          "6 ; 3 ; 39",
+          "4 ; 4 ; 39",
+          "4 ; 3 ; 38",
+          "4 ; 3 ; 39"
+        ],
+        "answer": 3,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3. III. aₙ=a+(n−1)d=9+(11−1)×3. Answer: 39.",
+        "difficulty": "Hard",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 8,16,32,… .\nII. An AP has first term 8 and common difference 8. How many terms are needed to reach 80?\nIII. Find the sum of the first 23 positive integers.",
+        "options": [
+          "64 ; 9 ; 276",
+          "64 ; 10 ; 278",
+          "64 ; 10 ; 276",
+          "65 ; 10 ; 276"
+        ],
+        "answer": 2,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 64. II. aₖ=8+(k−1)8=80, giving k=10. Answer: 10. III. Use N(N+1)/2 with N=23. Answer: 276.",
+        "difficulty": "Hard",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 10 terms of the AP 8,10,12,… .\nII. An AP has middle term 8 among its first nine terms. Find the sum of those nine terms.\nIII. The AP has first term 9 and second term 13. Find its common difference.",
+        "options": [
+          "170 ; 72 ; 5",
+          "170 ; 72 ; 4",
+          "169 ; 72 ; 4",
+          "170 ; 74 ; 4"
+        ],
+        "answer": 1,
+        "explanation": "I. S=10[2×8+(10−1)×2]/2. Answer: 170. II. The mean of an odd number of AP terms equals the middle term. Answer: 72. III. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Hard",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has fifth term 24 and ninth term 36. Find its common difference.\nII. Find the 11th term of the AP with first term 9 and common difference 3.\nIII. Find the fourth term of the GP 9,18,36,… .",
+        "options": [
+          "3 ; 39 ; 72",
+          "5 ; 39 ; 72",
+          "3 ; 40 ; 72",
+          "3 ; 39 ; 71"
+        ],
+        "answer": 0,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=9+(11−1)×3. Answer: 39. III. The common ratio is 2, so a₄=a×2³. Answer: 72.",
+        "difficulty": "Hard",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 8,24,72,… .\nII. Find the sum of the first 23 positive integers.\nIII. Find the sum of the first 11 terms of the AP 9,11,13,… .",
+        "options": [
+          "4 ; 276 ; 209",
+          "3 ; 275 ; 209",
+          "3 ; 276 ; 211",
+          "3 ; 276 ; 209"
+        ],
+        "answer": 3,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=23. Answer: 276. III. S=11[2×9+(11−1)×2]/2. Answer: 209.",
+        "difficulty": "Hard",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has first term 8 and common difference 8. How many terms are needed to reach 80?\nII. The AP has first term 9 and second term 13. Find its common difference.\nIII. An AP has fifth term 27 and ninth term 39. Find its common difference.",
+        "options": [
+          "10 ; 6 ; 3",
+          "10 ; 4 ; 4",
+          "10 ; 4 ; 3",
+          "9 ; 4 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. aₖ=8+(k−1)8=80, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4. III. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has middle term 8 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 9,18,36,… .\nIII. Find the common ratio of the GP 9,27,81,… .",
+        "options": [
+          "72 ; 72 ; 2",
+          "72 ; 72 ; 3",
+          "74 ; 72 ; 3",
+          "72 ; 73 ; 3"
+        ],
+        "answer": 1,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 72. II. The common ratio is 2, so a₄=a×2³. Answer: 72. III. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the 11th term of the AP with first term 9 and common difference 3.\nII. Find the sum of the first 11 terms of the AP 9,11,13,… .\nIII. An AP has first term 9 and common difference 9. How many terms are needed to reach 90?",
+        "options": [
+          "39 ; 209 ; 10",
+          "40 ; 209 ; 10",
+          "39 ; 208 ; 10",
+          "39 ; 209 ; 12"
+        ],
+        "answer": 0,
+        "explanation": "I. aₙ=a+(n−1)d=9+(11−1)×3. Answer: 39. II. S=11[2×9+(11−1)×2]/2. Answer: 209. III. aₖ=9+(k−1)9=90, giving k=10. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 23 positive integers.\nII. An AP has fifth term 27 and ninth term 39. Find its common difference.\nIII. An AP has middle term 9 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "275 ; 3 ; 81",
+          "276 ; 5 ; 81",
+          "276 ; 3 ; 82",
+          "276 ; 3 ; 81"
+        ],
+        "answer": 3,
+        "explanation": "I. Use N(N+1)/2 with N=23. Answer: 276. II. Four common differences add to 12, so d=3. Answer: 3. III. The mean of an odd number of AP terms equals the middle term. Answer: 81.",
+        "difficulty": "Hard",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The AP has first term 9 and second term 13. Find its common difference.\nII. Find the common ratio of the GP 9,27,81,… .\nIII. Find the 12th term of the AP with first term 10 and common difference 3.",
+        "options": [
+          "4 ; 4 ; 43",
+          "4 ; 3 ; 42",
+          "4 ; 3 ; 43",
+          "6 ; 3 ; 43"
+        ],
+        "answer": 2,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3. III. aₙ=a+(n−1)d=10+(12−1)×3. Answer: 43.",
+        "difficulty": "Hard",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 9,18,36,… .\nII. An AP has first term 9 and common difference 9. How many terms are needed to reach 90?\nIII. Find the sum of the first 25 positive integers.",
+        "options": [
+          "72 ; 10 ; 327",
+          "72 ; 10 ; 325",
+          "73 ; 10 ; 325",
+          "72 ; 9 ; 325"
+        ],
+        "answer": 1,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 72. II. aₖ=9+(k−1)9=90, giving k=10. Answer: 10. III. Use N(N+1)/2 with N=25. Answer: 325.",
+        "difficulty": "Hard",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 11 terms of the AP 9,11,13,… .\nII. An AP has middle term 9 among its first nine terms. Find the sum of those nine terms.\nIII. The AP has first term 10 and second term 14. Find its common difference.",
+        "options": [
+          "209 ; 81 ; 4",
+          "208 ; 81 ; 4",
+          "209 ; 83 ; 4",
+          "209 ; 81 ; 5"
+        ],
+        "answer": 0,
+        "explanation": "I. S=11[2×9+(11−1)×2]/2. Answer: 209. II. The mean of an odd number of AP terms equals the middle term. Answer: 81. III. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Hard",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has fifth term 27 and ninth term 39. Find its common difference.\nII. Find the 12th term of the AP with first term 10 and common difference 3.\nIII. Find the fourth term of the GP 10,20,40,… .",
+        "options": [
+          "5 ; 43 ; 80",
+          "3 ; 44 ; 80",
+          "3 ; 43 ; 79",
+          "3 ; 43 ; 80"
+        ],
+        "answer": 3,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=10+(12−1)×3. Answer: 43. III. The common ratio is 2, so a₄=a×2³. Answer: 80.",
+        "difficulty": "Hard",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 9,27,81,… .\nII. Find the sum of the first 25 positive integers.\nIII. Find the sum of the first 12 terms of the AP 10,12,14,… .",
+        "options": [
+          "3 ; 324 ; 252",
+          "3 ; 325 ; 254",
+          "3 ; 325 ; 252",
+          "4 ; 325 ; 252"
+        ],
+        "answer": 2,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=25. Answer: 325. III. S=12[2×10+(12−1)×2]/2. Answer: 252.",
+        "difficulty": "Hard",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has first term 9 and common difference 9. How many terms are needed to reach 90?\nII. The AP has first term 10 and second term 14. Find its common difference.\nIII. An AP has fifth term 30 and ninth term 42. Find its common difference.",
+        "options": [
+          "10 ; 4 ; 4",
+          "10 ; 4 ; 3",
+          "9 ; 4 ; 3",
+          "10 ; 6 ; 3"
+        ],
+        "answer": 1,
+        "explanation": "I. aₖ=9+(k−1)9=90, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4. III. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has middle term 9 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 10,20,40,… .\nIII. Find the common ratio of the GP 10,30,90,… .",
+        "options": [
+          "81 ; 80 ; 3",
+          "83 ; 80 ; 3",
+          "81 ; 81 ; 3",
+          "81 ; 80 ; 2"
+        ],
+        "answer": 0,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 81. II. The common ratio is 2, so a₄=a×2³. Answer: 80. III. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the 12th term of the AP with first term 10 and common difference 3.\nII. Find the sum of the first 12 terms of the AP 10,12,14,… .\nIII. An AP has first term 10 and common difference 10. How many terms are needed to reach 100?",
+        "options": [
+          "44 ; 252 ; 10",
+          "43 ; 251 ; 10",
+          "43 ; 252 ; 12",
+          "43 ; 252 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. aₙ=a+(n−1)d=10+(12−1)×3. Answer: 43. II. S=12[2×10+(12−1)×2]/2. Answer: 252. III. aₖ=10+(k−1)10=100, giving k=10. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "AP nth term",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 25 positive integers.\nII. An AP has fifth term 30 and ninth term 42. Find its common difference.\nIII. An AP has middle term 10 among its first nine terms. Find the sum of those nine terms.",
+        "options": [
+          "325 ; 5 ; 90",
+          "325 ; 3 ; 91",
+          "325 ; 3 ; 90",
+          "324 ; 3 ; 90"
+        ],
+        "answer": 2,
+        "explanation": "I. Use N(N+1)/2 with N=25. Answer: 325. II. Four common differences add to 12, so d=3. Answer: 3. III. The mean of an odd number of AP terms equals the middle term. Answer: 90.",
+        "difficulty": "Hard",
+        "topic": "Sums of integers",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. The AP has first term 10 and second term 14. Find its common difference.\nII. Find the common ratio of the GP 10,30,90,… .\nIII. Find the 10th term of the AP with first term 8 and common difference 3.",
+        "options": [
+          "4 ; 3 ; 34",
+          "4 ; 3 ; 35",
+          "6 ; 3 ; 35",
+          "4 ; 4 ; 35"
+        ],
+        "answer": 1,
+        "explanation": "I. Subtract the first term from the second. Answer: 4. II. Divide any term by its preceding nonzero term. Answer: 3. III. aₙ=a+(n−1)d=8+(10−1)×3. Answer: 35.",
+        "difficulty": "Hard",
+        "topic": "Common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the fourth term of the GP 10,20,40,… .\nII. An AP has first term 10 and common difference 10. How many terms are needed to reach 100?\nIII. Find the sum of the first 21 positive integers.",
+        "options": [
+          "80 ; 10 ; 231",
+          "81 ; 10 ; 231",
+          "80 ; 9 ; 231",
+          "80 ; 10 ; 233"
+        ],
+        "answer": 0,
+        "explanation": "I. The common ratio is 2, so a₄=a×2³. Answer: 80. II. aₖ=10+(k−1)10=100, giving k=10. Answer: 10. III. Use N(N+1)/2 with N=21. Answer: 231.",
+        "difficulty": "Hard",
+        "topic": "GP terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the sum of the first 12 terms of the AP 10,12,14,… .\nII. An AP has middle term 10 among its first nine terms. Find the sum of those nine terms.\nIII. The AP has first term 8 and second term 12. Find its common difference.",
+        "options": [
+          "251 ; 90 ; 4",
+          "252 ; 92 ; 4",
+          "252 ; 90 ; 5",
+          "252 ; 90 ; 4"
+        ],
+        "answer": 3,
+        "explanation": "I. S=12[2×10+(12−1)×2]/2. Answer: 252. II. The mean of an odd number of AP terms equals the middle term. Answer: 90. III. Subtract the first term from the second. Answer: 4.",
+        "difficulty": "Hard",
+        "topic": "AP sums",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has fifth term 30 and ninth term 42. Find its common difference.\nII. Find the 10th term of the AP with first term 8 and common difference 3.\nIII. Find the fourth term of the GP 8,16,32,… .",
+        "options": [
+          "3 ; 36 ; 64",
+          "3 ; 35 ; 63",
+          "3 ; 35 ; 64",
+          "5 ; 35 ; 64"
+        ],
+        "answer": 2,
+        "explanation": "I. Four common differences add to 12, so d=3. Answer: 3. II. aₙ=a+(n−1)d=8+(10−1)×3. Answer: 35. III. The common ratio is 2, so a₄=a×2³. Answer: 64.",
+        "difficulty": "Hard",
+        "topic": "Finding common difference",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Find the common ratio of the GP 10,30,90,… .\nII. Find the sum of the first 21 positive integers.\nIII. Find the sum of the first 10 terms of the AP 8,10,12,… .",
+        "options": [
+          "3 ; 231 ; 172",
+          "3 ; 231 ; 170",
+          "4 ; 231 ; 170",
+          "3 ; 230 ; 170"
+        ],
+        "answer": 1,
+        "explanation": "I. Divide any term by its preceding nonzero term. Answer: 3. II. Use N(N+1)/2 with N=21. Answer: 231. III. S=10[2×8+(10−1)×2]/2. Answer: 170.",
+        "difficulty": "Hard",
+        "topic": "Common ratio",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has first term 10 and common difference 10. How many terms are needed to reach 100?\nII. The AP has first term 8 and second term 12. Find its common difference.\nIII. An AP has fifth term 24 and ninth term 36. Find its common difference.",
+        "options": [
+          "10 ; 4 ; 3",
+          "9 ; 4 ; 3",
+          "10 ; 6 ; 3",
+          "10 ; 4 ; 4"
+        ],
+        "answer": 0,
+        "explanation": "I. aₖ=10+(k−1)10=100, giving k=10. Answer: 10. II. Subtract the first term from the second. Answer: 4. III. Four common differences add to 12, so d=3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Number of terms",
+        "sourceChapter": 6
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH06-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An AP has middle term 10 among its first nine terms. Find the sum of those nine terms.\nII. Find the fourth term of the GP 8,16,32,… .\nIII. Find the common ratio of the GP 8,24,72,… .",
+        "options": [
+          "92 ; 64 ; 3",
+          "90 ; 65 ; 3",
+          "90 ; 64 ; 2",
+          "90 ; 64 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. The mean of an odd number of AP terms equals the middle term. Answer: 90. II. The common ratio is 2, so a₄=a×2³. Answer: 64. III. Divide any term by its preceding nonzero term. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "Middle term and sum",
+        "sourceChapter": 6
+      }
+    ]
+  }
+}

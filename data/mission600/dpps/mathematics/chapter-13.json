@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH13-E": {
+    "id": "SA-DPP-27-MAT-CH13-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "E",
+    "title": "Probability – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-13.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-07",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q01",
+        "question": "What is the probability of an impossible event?",
+        "options": [
+          "1",
+          "1/2",
+          "−1",
+          "0"
+        ],
+        "answer": 3,
+        "explanation": "An impossible event has no favourable outcomes.",
+        "difficulty": "Easy",
+        "topic": "What is the probability of an impossible event?",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q02",
+        "question": "For a fair coin, what is P(head)?",
+        "options": [
+          "0",
+          "2",
+          "1/2",
+          "1"
+        ],
+        "answer": 2,
+        "explanation": "One of two equally likely outcomes is a head.",
+        "difficulty": "Easy",
+        "topic": "For a fair coin, what is P(head)?",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q03",
+        "question": "What is P(E)+P(not E)?",
+        "options": [
+          "1/2",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "An event and its complement cover all possible outcomes.",
+        "difficulty": "Easy",
+        "topic": "What is P(E)+P(not E)?",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q04",
+        "question": "A bag contains 2 red and 6 blue balls. Find P(red).",
+        "options": [
+          "1/4",
+          "3/4",
+          "1/3",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "There are n red balls out of 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q05",
+        "question": "Choose one integer uniformly from 1 to 8. Find P(even).",
+        "options": [
+          "1/4",
+          "3/4",
+          "1/3",
+          "1/2"
+        ],
+        "answer": 3,
+        "explanation": "Exactly half the integers from 1 through an even endpoint are even.",
+        "difficulty": "Easy",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q06",
+        "question": "A box has 4 green and 6 yellow counters. Find P(not green).",
+        "options": [
+          "1/5",
+          "1/2",
+          "3/5",
+          "2/5"
+        ],
+        "answer": 2,
+        "explanation": "The complement of green consists of 3n yellow counters out of 5n.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q07",
+        "question": "One ticket is chosen from 10 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "4/5",
+          "1/5",
+          "2/5",
+          "1/4"
+        ],
+        "answer": 1,
+        "explanation": "There are n multiples of 5 among 5n tickets.",
+        "difficulty": "Easy",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q08",
+        "question": "A bag has 2 red, 2 blue and 4 green balls. Find P(red or blue).",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1/3"
+        ],
+        "answer": 0,
+        "explanation": "Red and blue together give 2n of the 4n balls.",
+        "difficulty": "Easy",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q09",
+        "question": "A number is chosen uniformly from 1 to 12. Find P(divisible by 3).",
+        "options": [
+          "1/6",
+          "1/2",
+          "2/3",
+          "1/3"
+        ],
+        "answer": 3,
+        "explanation": "There are 2n multiples of 3 among 6n integers.",
+        "difficulty": "Easy",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q10",
+        "question": "An event has probability 2/3. Find the probability of its complement.",
+        "options": [
+          "1/5",
+          "3/4",
+          "1/3",
+          "1/4"
+        ],
+        "answer": 2,
+        "explanation": "Use 1−2/3=1/3.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q11",
+        "question": "A box contains 6 black and 2 white balls. Find P(black).",
+        "options": [
+          "1/2",
+          "3/4",
+          "1/4",
+          "1/3"
+        ],
+        "answer": 1,
+        "explanation": "Black balls make up 3n of the 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q12",
+        "question": "Of 20 equally likely tickets, 6 win a prize. Find P(not winning).",
+        "options": [
+          "7/10",
+          "3/10",
+          "1/10",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "The remaining 7n tickets out of 10n do not win.",
+        "difficulty": "Easy",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q13",
+        "question": "A bag contains 3 red and 9 blue balls. Find P(red).",
+        "options": [
+          "3/4",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "answer": 3,
+        "explanation": "There are n red balls out of 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q14",
+        "question": "Choose one integer uniformly from 1 to 12. Find P(even).",
+        "options": [
+          "3/4",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "answer": 2,
+        "explanation": "Exactly half the integers from 1 through an even endpoint are even.",
+        "difficulty": "Easy",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q15",
+        "question": "A box has 6 green and 9 yellow counters. Find P(not green).",
+        "options": [
+          "1/2",
+          "3/5",
+          "2/5",
+          "1/5"
+        ],
+        "answer": 1,
+        "explanation": "The complement of green consists of 3n yellow counters out of 5n.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q16",
+        "question": "One ticket is chosen from 15 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "1/5",
+          "2/5",
+          "1/4",
+          "4/5"
+        ],
+        "answer": 0,
+        "explanation": "There are n multiples of 5 among 5n tickets.",
+        "difficulty": "Easy",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q17",
+        "question": "A bag has 3 red, 3 blue and 6 green balls. Find P(red or blue).",
+        "options": [
+          "1/4",
+          "3/4",
+          "1/3",
+          "1/2"
+        ],
+        "answer": 3,
+        "explanation": "Red and blue together give 2n of the 4n balls.",
+        "difficulty": "Easy",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q18",
+        "question": "A number is chosen uniformly from 1 to 18. Find P(divisible by 3).",
+        "options": [
+          "1/2",
+          "2/3",
+          "1/3",
+          "1/6"
+        ],
+        "answer": 2,
+        "explanation": "There are 2n multiples of 3 among 6n integers.",
+        "difficulty": "Easy",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q19",
+        "question": "An event has probability 3/4. Find the probability of its complement.",
+        "options": [
+          "4/5",
+          "1/4",
+          "1/5",
+          "1/6"
+        ],
+        "answer": 1,
+        "explanation": "Use 1−3/4=1/4.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q20",
+        "question": "A box contains 9 black and 3 white balls. Find P(black).",
+        "options": [
+          "3/4",
+          "1/4",
+          "1/3",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "Black balls make up 3n of the 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q21",
+        "question": "Of 30 equally likely tickets, 9 win a prize. Find P(not winning).",
+        "options": [
+          "3/10",
+          "1/10",
+          "1/2",
+          "7/10"
+        ],
+        "answer": 3,
+        "explanation": "The remaining 7n tickets out of 10n do not win.",
+        "difficulty": "Easy",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q22",
+        "question": "A bag contains 4 red and 12 blue balls. Find P(red).",
+        "options": [
+          "1/3",
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "answer": 2,
+        "explanation": "There are n red balls out of 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q23",
+        "question": "Choose one integer uniformly from 1 to 16. Find P(even).",
+        "options": [
+          "1/3",
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "answer": 1,
+        "explanation": "Exactly half the integers from 1 through an even endpoint are even.",
+        "difficulty": "Easy",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q24",
+        "question": "A box has 8 green and 12 yellow counters. Find P(not green).",
+        "options": [
+          "3/5",
+          "2/5",
+          "1/5",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "The complement of green consists of 3n yellow counters out of 5n.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q25",
+        "question": "One ticket is chosen from 20 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "2/5",
+          "1/4",
+          "4/5",
+          "1/5"
+        ],
+        "answer": 3,
+        "explanation": "There are n multiples of 5 among 5n tickets.",
+        "difficulty": "Easy",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q26",
+        "question": "A bag has 4 red, 4 blue and 8 green balls. Find P(red or blue).",
+        "options": [
+          "3/4",
+          "1/3",
+          "1/2",
+          "1/4"
+        ],
+        "answer": 2,
+        "explanation": "Red and blue together give 2n of the 4n balls.",
+        "difficulty": "Easy",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q27",
+        "question": "A number is chosen uniformly from 1 to 24. Find P(divisible by 3).",
+        "options": [
+          "2/3",
+          "1/3",
+          "1/6",
+          "1/2"
+        ],
+        "answer": 1,
+        "explanation": "There are 2n multiples of 3 among 6n integers.",
+        "difficulty": "Easy",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q28",
+        "question": "An event has probability 4/5. Find the probability of its complement.",
+        "options": [
+          "1/5",
+          "1/6",
+          "1/7",
+          "5/6"
+        ],
+        "answer": 0,
+        "explanation": "Use 1−4/5=1/5.",
+        "difficulty": "Easy",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q29",
+        "question": "A box contains 12 black and 4 white balls. Find P(black).",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "3/4"
+        ],
+        "answer": 3,
+        "explanation": "Black balls make up 3n of the 4n total.",
+        "difficulty": "Easy",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-E-Q30",
+        "question": "Of 40 equally likely tickets, 12 win a prize. Find P(not winning).",
+        "options": [
+          "1/10",
+          "1/2",
+          "7/10",
+          "3/10"
+        ],
+        "answer": 2,
+        "explanation": "The remaining 7n tickets out of 10n do not win.",
+        "difficulty": "Easy",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH13-M": {
+    "id": "SA-DPP-27-MAT-CH13-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "M",
+    "title": "Probability – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-13.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-08",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q01",
+        "question": "A fair die is rolled. Find the probability of a prime number.",
+        "options": [
+          "2/3",
+          "1/6",
+          "1/2",
+          "1/3"
+        ],
+        "answer": 2,
+        "explanation": "The primes on the die are 2,3,5: three of six outcomes.",
+        "difficulty": "Medium",
+        "topic": "A fair die is rolled. Find the probability of a prime number.",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q02",
+        "question": "A bag has 3 red and 2 blue balls. Find P(blue).",
+        "options": [
+          "2/3",
+          "2/5",
+          "3/5",
+          "1/2"
+        ],
+        "answer": 1,
+        "explanation": "Two of five equally likely balls are blue.",
+        "difficulty": "Medium",
+        "topic": "A bag has 3 red and 2 blue balls. Find P(blue).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q03",
+        "question": "Two fair coins are tossed. Find P(exactly one head).",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "HT and TH are two of the four equally likely outcomes.",
+        "difficulty": "Medium",
+        "topic": "Two fair coins are tossed. Find P(exactly one head).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag contains 5 red and 15 blue balls. Find P(red).\nII. A bag has 5 red, 5 blue and 10 green balls. Find P(red or blue).",
+        "options": [
+          "3/4 ; 1/2",
+          "1/4 ; 3/4",
+          "3/4 ; 1/4",
+          "1/4 ; 1/2"
+        ],
+        "answer": 3,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 20. Find P(even).\nII. A number is chosen uniformly from 1 to 30. Find P(divisible by 3).",
+        "options": [
+          "1/2 ; 2/3",
+          "3/4 ; 1/2",
+          "1/2 ; 1/3",
+          "3/4 ; 1/3"
+        ],
+        "answer": 2,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Medium",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box has 10 green and 15 yellow counters. Find P(not green).\nII. An event has probability 5/6. Find the probability of its complement.",
+        "options": [
+          "1/2 ; 6/7",
+          "3/5 ; 1/6",
+          "1/2 ; 1/6",
+          "3/5 ; 1/7"
+        ],
+        "answer": 1,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−5/6=1/6. Answer: 1/6.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. One ticket is chosen from 25 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 15 black and 5 white balls. Find P(black).",
+        "options": [
+          "1/5 ; 3/4",
+          "2/5 ; 3/4",
+          "1/5 ; 1/3",
+          "2/5 ; 1/4"
+        ],
+        "answer": 0,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Medium",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag has 5 red, 5 blue and 10 green balls. Find P(red or blue).\nII. Of 50 equally likely tickets, 15 win a prize. Find P(not winning).",
+        "options": [
+          "3/4 ; 7/10",
+          "1/2 ; 1/2",
+          "3/4 ; 1/10",
+          "1/2 ; 7/10"
+        ],
+        "answer": 3,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Medium",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 30. Find P(divisible by 3).\nII. A bag contains 6 red and 18 blue balls. Find P(red).",
+        "options": [
+          "1/3 ; 3/4",
+          "2/3 ; 1/2",
+          "1/3 ; 1/4",
+          "2/3 ; 1/4"
+        ],
+        "answer": 2,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Medium",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An event has probability 5/6. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 24. Find P(even).",
+        "options": [
+          "1/7 ; 1/4",
+          "1/6 ; 1/2",
+          "1/7 ; 1/2",
+          "1/6 ; 3/4"
+        ],
+        "answer": 1,
+        "explanation": "I. Use 1−5/6=1/6. Answer: 1/6. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box contains 15 black and 5 white balls. Find P(black).\nII. A box has 12 green and 18 yellow counters. Find P(not green).",
+        "options": [
+          "3/4 ; 3/5",
+          "1/3 ; 3/5",
+          "3/4 ; 1/2",
+          "1/3 ; 1/5"
+        ],
+        "answer": 0,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Of 50 equally likely tickets, 15 win a prize. Find P(not winning).\nII. One ticket is chosen from 30 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "1/2 ; 1/5",
+          "7/10 ; 2/5",
+          "1/2 ; 4/5",
+          "7/10 ; 1/5"
+        ],
+        "answer": 3,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Medium",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag contains 6 red and 18 blue balls. Find P(red).\nII. A bag has 6 red, 6 blue and 12 green balls. Find P(red or blue).",
+        "options": [
+          "1/4 ; 3/4",
+          "3/4 ; 1/4",
+          "1/4 ; 1/2",
+          "3/4 ; 1/2"
+        ],
+        "answer": 2,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 24. Find P(even).\nII. A number is chosen uniformly from 1 to 36. Find P(divisible by 3).",
+        "options": [
+          "3/4 ; 1/2",
+          "1/2 ; 1/3",
+          "3/4 ; 1/3",
+          "1/2 ; 2/3"
+        ],
+        "answer": 1,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Medium",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box has 12 green and 18 yellow counters. Find P(not green).\nII. An event has probability 6/7. Find the probability of its complement.",
+        "options": [
+          "3/5 ; 1/7",
+          "1/2 ; 1/7",
+          "3/5 ; 1/8",
+          "1/2 ; 7/8"
+        ],
+        "answer": 0,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−6/7=1/7. Answer: 1/7.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. One ticket is chosen from 30 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 18 black and 6 white balls. Find P(black).",
+        "options": [
+          "2/5 ; 3/4",
+          "1/5 ; 1/3",
+          "2/5 ; 1/4",
+          "1/5 ; 3/4"
+        ],
+        "answer": 3,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Medium",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag has 6 red, 6 blue and 12 green balls. Find P(red or blue).\nII. Of 60 equally likely tickets, 18 win a prize. Find P(not winning).",
+        "options": [
+          "1/2 ; 1/2",
+          "3/4 ; 1/10",
+          "1/2 ; 7/10",
+          "3/4 ; 7/10"
+        ],
+        "answer": 2,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Medium",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 36. Find P(divisible by 3).\nII. A bag contains 7 red and 21 blue balls. Find P(red).",
+        "options": [
+          "2/3 ; 1/2",
+          "1/3 ; 1/4",
+          "2/3 ; 1/4",
+          "1/3 ; 3/4"
+        ],
+        "answer": 1,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Medium",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An event has probability 6/7. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 28. Find P(even).",
+        "options": [
+          "1/7 ; 1/2",
+          "1/8 ; 1/2",
+          "1/7 ; 3/4",
+          "1/8 ; 1/4"
+        ],
+        "answer": 0,
+        "explanation": "I. Use 1−6/7=1/7. Answer: 1/7. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box contains 18 black and 6 white balls. Find P(black).\nII. A box has 14 green and 21 yellow counters. Find P(not green).",
+        "options": [
+          "1/3 ; 3/5",
+          "3/4 ; 1/2",
+          "1/3 ; 1/5",
+          "3/4 ; 3/5"
+        ],
+        "answer": 3,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Of 60 equally likely tickets, 18 win a prize. Find P(not winning).\nII. One ticket is chosen from 35 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "7/10 ; 2/5",
+          "1/2 ; 4/5",
+          "7/10 ; 1/5",
+          "1/2 ; 1/5"
+        ],
+        "answer": 2,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Medium",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag contains 7 red and 21 blue balls. Find P(red).\nII. A bag has 7 red, 7 blue and 14 green balls. Find P(red or blue).",
+        "options": [
+          "3/4 ; 1/4",
+          "1/4 ; 1/2",
+          "3/4 ; 1/2",
+          "1/4 ; 3/4"
+        ],
+        "answer": 1,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 28. Find P(even).\nII. A number is chosen uniformly from 1 to 42. Find P(divisible by 3).",
+        "options": [
+          "1/2 ; 1/3",
+          "3/4 ; 1/3",
+          "1/2 ; 2/3",
+          "3/4 ; 1/2"
+        ],
+        "answer": 0,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Medium",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box has 14 green and 21 yellow counters. Find P(not green).\nII. An event has probability 7/8. Find the probability of its complement.",
+        "options": [
+          "1/2 ; 1/8",
+          "3/5 ; 1/9",
+          "1/2 ; 8/9",
+          "3/5 ; 1/8"
+        ],
+        "answer": 3,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−7/8=1/8. Answer: 1/8.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. One ticket is chosen from 35 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 21 black and 7 white balls. Find P(black).",
+        "options": [
+          "1/5 ; 1/3",
+          "2/5 ; 1/4",
+          "1/5 ; 3/4",
+          "2/5 ; 3/4"
+        ],
+        "answer": 2,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Medium",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A bag has 7 red, 7 blue and 14 green balls. Find P(red or blue).\nII. Of 70 equally likely tickets, 21 win a prize. Find P(not winning).",
+        "options": [
+          "3/4 ; 1/10",
+          "1/2 ; 7/10",
+          "3/4 ; 7/10",
+          "1/2 ; 1/2"
+        ],
+        "answer": 1,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Medium",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 42. Find P(divisible by 3).\nII. A bag contains 5 red and 15 blue balls. Find P(red).",
+        "options": [
+          "1/3 ; 1/4",
+          "2/3 ; 1/4",
+          "1/3 ; 3/4",
+          "2/3 ; 1/2"
+        ],
+        "answer": 0,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Medium",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. An event has probability 7/8. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 20. Find P(even).",
+        "options": [
+          "1/9 ; 1/2",
+          "1/8 ; 3/4",
+          "1/9 ; 1/4",
+          "1/8 ; 1/2"
+        ],
+        "answer": 3,
+        "explanation": "I. Use 1−7/8=1/8. Answer: 1/8. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Medium",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. A box contains 21 black and 7 white balls. Find P(black).\nII. A box has 10 green and 15 yellow counters. Find P(not green).",
+        "options": [
+          "3/4 ; 1/2",
+          "1/3 ; 1/5",
+          "3/4 ; 3/5",
+          "1/3 ; 3/5"
+        ],
+        "answer": 2,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Medium",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Of 70 equally likely tickets, 21 win a prize. Find P(not winning).\nII. One ticket is chosen from 25 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "1/2 ; 4/5",
+          "7/10 ; 1/5",
+          "1/2 ; 1/5",
+          "7/10 ; 2/5"
+        ],
+        "answer": 1,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Medium",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH13-H": {
+    "id": "SA-DPP-27-MAT-CH13-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch13",
+    "chapterNumber": 13,
+    "chapter": "Probability",
+    "level": "H",
+    "title": "Probability – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-13.json",
+    "scheduledWeek": 9,
+    "lectureId": "SA-M600-LEC-W09-MAT-01",
+    "recommendedDate": "2026-12-09",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 13,
+    "sourcePrintedPages": {
+      "from": 309,
+      "to": 326
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q01",
+        "question": "Two fair dice are rolled. Find P(sum is 9).",
+        "options": [
+          "1/4",
+          "1/9",
+          "1/6",
+          "1/12"
+        ],
+        "answer": 1,
+        "explanation": "The four ordered outcomes are (3,6),(4,5),(5,4),(6,3), out of 36.",
+        "difficulty": "Hard",
+        "topic": "Two fair dice are rolled. Find P(sum is 9).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q02",
+        "question": "One card is drawn from a standard 52-card deck. Find P(red king).",
+        "options": [
+          "1/26",
+          "1/13",
+          "1/4",
+          "1/2"
+        ],
+        "answer": 0,
+        "explanation": "There are two red kings, so probability is 2/52.",
+        "difficulty": "Hard",
+        "topic": "One card is drawn from a standard 52-card deck. Find P(red king).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q03",
+        "question": "A number is chosen uniformly from 1 to 30. Find P(divisible by 2 or 3).",
+        "options": [
+          "1/2",
+          "5/6",
+          "1/3",
+          "2/3"
+        ],
+        "answer": 3,
+        "explanation": "There are 15 multiples of 2 and 10 of 3, with 5 counted twice: 20/30.",
+        "difficulty": "Hard",
+        "topic": "A number is chosen uniformly from 1 to 30. Find P(divisible by 2 or 3).",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag contains 8 red and 24 blue balls. Find P(red).\nII. A bag has 8 red, 8 blue and 16 green balls. Find P(red or blue).\nIII. A box contains 24 black and 8 white balls. Find P(black).",
+        "options": [
+          "1/4 ; 3/4 ; 3/4",
+          "1/4 ; 1/2 ; 1/2",
+          "1/4 ; 1/2 ; 3/4",
+          "3/4 ; 1/2 ; 3/4"
+        ],
+        "answer": 2,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2. III. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 32. Find P(even).\nII. A number is chosen uniformly from 1 to 48. Find P(divisible by 3).\nIII. Of 80 equally likely tickets, 24 win a prize. Find P(not winning).",
+        "options": [
+          "1/2 ; 1/3 ; 3/10",
+          "1/2 ; 1/3 ; 7/10",
+          "3/4 ; 1/3 ; 7/10",
+          "1/2 ; 2/3 ; 7/10"
+        ],
+        "answer": 1,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3. III. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Hard",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box has 16 green and 24 yellow counters. Find P(not green).\nII. An event has probability 8/9. Find the probability of its complement.\nIII. A bag contains 9 red and 27 blue balls. Find P(red).",
+        "options": [
+          "3/5 ; 1/9 ; 1/4",
+          "1/2 ; 1/9 ; 1/4",
+          "3/5 ; 1/10 ; 1/4",
+          "3/5 ; 1/9 ; 1/3"
+        ],
+        "answer": 0,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−8/9=1/9. Answer: 1/9. III. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. One ticket is chosen from 40 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 24 black and 8 white balls. Find P(black).\nIII. Choose one integer uniformly from 1 to 36. Find P(even).",
+        "options": [
+          "2/5 ; 3/4 ; 1/2",
+          "1/5 ; 1/3 ; 1/2",
+          "1/5 ; 3/4 ; 1/3",
+          "1/5 ; 3/4 ; 1/2"
+        ],
+        "answer": 3,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4. III. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag has 8 red, 8 blue and 16 green balls. Find P(red or blue).\nII. Of 80 equally likely tickets, 24 win a prize. Find P(not winning).\nIII. A box has 18 green and 27 yellow counters. Find P(not green).",
+        "options": [
+          "1/2 ; 1/2 ; 3/5",
+          "1/2 ; 7/10 ; 2/5",
+          "1/2 ; 7/10 ; 3/5",
+          "3/4 ; 7/10 ; 3/5"
+        ],
+        "answer": 2,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10. III. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Hard",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 48. Find P(divisible by 3).\nII. A bag contains 9 red and 27 blue balls. Find P(red).\nIII. One ticket is chosen from 45 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "1/3 ; 1/4 ; 1/4",
+          "1/3 ; 1/4 ; 1/5",
+          "2/3 ; 1/4 ; 1/5",
+          "1/3 ; 3/4 ; 1/5"
+        ],
+        "answer": 1,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4. III. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Hard",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An event has probability 8/9. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 36. Find P(even).\nIII. A bag has 9 red, 9 blue and 18 green balls. Find P(red or blue).",
+        "options": [
+          "1/9 ; 1/2 ; 1/2",
+          "1/10 ; 1/2 ; 1/2",
+          "1/9 ; 3/4 ; 1/2",
+          "1/9 ; 1/2 ; 1/3"
+        ],
+        "answer": 0,
+        "explanation": "I. Use 1−8/9=1/9. Answer: 1/9. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. III. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box contains 24 black and 8 white balls. Find P(black).\nII. A box has 18 green and 27 yellow counters. Find P(not green).\nIII. A number is chosen uniformly from 1 to 54. Find P(divisible by 3).",
+        "options": [
+          "1/3 ; 3/5 ; 1/3",
+          "3/4 ; 1/2 ; 1/3",
+          "3/4 ; 3/5 ; 1/6",
+          "3/4 ; 3/5 ; 1/3"
+        ],
+        "answer": 3,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. III. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Of 80 equally likely tickets, 24 win a prize. Find P(not winning).\nII. One ticket is chosen from 45 equally likely tickets numbered from 1. Find P(a multiple of 5).\nIII. An event has probability 9/10. Find the probability of its complement.",
+        "options": [
+          "7/10 ; 2/5 ; 1/10",
+          "7/10 ; 1/5 ; 1/12",
+          "7/10 ; 1/5 ; 1/10",
+          "1/2 ; 1/5 ; 1/10"
+        ],
+        "answer": 2,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5. III. Use 1−9/10=1/10. Answer: 1/10.",
+        "difficulty": "Hard",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag contains 9 red and 27 blue balls. Find P(red).\nII. A bag has 9 red, 9 blue and 18 green balls. Find P(red or blue).\nIII. A box contains 27 black and 9 white balls. Find P(black).",
+        "options": [
+          "1/4 ; 1/2 ; 1/2",
+          "1/4 ; 1/2 ; 3/4",
+          "3/4 ; 1/2 ; 3/4",
+          "1/4 ; 3/4 ; 3/4"
+        ],
+        "answer": 1,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2. III. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 36. Find P(even).\nII. A number is chosen uniformly from 1 to 54. Find P(divisible by 3).\nIII. Of 90 equally likely tickets, 27 win a prize. Find P(not winning).",
+        "options": [
+          "1/2 ; 1/3 ; 7/10",
+          "3/4 ; 1/3 ; 7/10",
+          "1/2 ; 2/3 ; 7/10",
+          "1/2 ; 1/3 ; 3/10"
+        ],
+        "answer": 0,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3. III. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Hard",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box has 18 green and 27 yellow counters. Find P(not green).\nII. An event has probability 9/10. Find the probability of its complement.\nIII. A bag contains 10 red and 30 blue balls. Find P(red).",
+        "options": [
+          "1/2 ; 1/10 ; 1/4",
+          "3/5 ; 1/11 ; 1/4",
+          "3/5 ; 1/10 ; 1/3",
+          "3/5 ; 1/10 ; 1/4"
+        ],
+        "answer": 3,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−9/10=1/10. Answer: 1/10. III. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. One ticket is chosen from 45 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 27 black and 9 white balls. Find P(black).\nIII. Choose one integer uniformly from 1 to 40. Find P(even).",
+        "options": [
+          "1/5 ; 1/3 ; 1/2",
+          "1/5 ; 3/4 ; 1/3",
+          "1/5 ; 3/4 ; 1/2",
+          "2/5 ; 3/4 ; 1/2"
+        ],
+        "answer": 2,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4. III. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag has 9 red, 9 blue and 18 green balls. Find P(red or blue).\nII. Of 90 equally likely tickets, 27 win a prize. Find P(not winning).\nIII. A box has 20 green and 30 yellow counters. Find P(not green).",
+        "options": [
+          "1/2 ; 7/10 ; 2/5",
+          "1/2 ; 7/10 ; 3/5",
+          "3/4 ; 7/10 ; 3/5",
+          "1/2 ; 1/2 ; 3/5"
+        ],
+        "answer": 1,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10. III. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Hard",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 54. Find P(divisible by 3).\nII. A bag contains 10 red and 30 blue balls. Find P(red).\nIII. One ticket is chosen from 50 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "1/3 ; 1/4 ; 1/5",
+          "2/3 ; 1/4 ; 1/5",
+          "1/3 ; 3/4 ; 1/5",
+          "1/3 ; 1/4 ; 1/4"
+        ],
+        "answer": 0,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4. III. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Hard",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An event has probability 9/10. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 40. Find P(even).\nIII. A bag has 10 red, 10 blue and 20 green balls. Find P(red or blue).",
+        "options": [
+          "1/11 ; 1/2 ; 1/2",
+          "1/10 ; 3/4 ; 1/2",
+          "1/10 ; 1/2 ; 1/3",
+          "1/10 ; 1/2 ; 1/2"
+        ],
+        "answer": 3,
+        "explanation": "I. Use 1−9/10=1/10. Answer: 1/10. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. III. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box contains 27 black and 9 white balls. Find P(black).\nII. A box has 20 green and 30 yellow counters. Find P(not green).\nIII. A number is chosen uniformly from 1 to 60. Find P(divisible by 3).",
+        "options": [
+          "3/4 ; 1/2 ; 1/3",
+          "3/4 ; 3/5 ; 1/6",
+          "3/4 ; 3/5 ; 1/3",
+          "1/3 ; 3/5 ; 1/3"
+        ],
+        "answer": 2,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. III. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Of 90 equally likely tickets, 27 win a prize. Find P(not winning).\nII. One ticket is chosen from 50 equally likely tickets numbered from 1. Find P(a multiple of 5).\nIII. An event has probability 10/11. Find the probability of its complement.",
+        "options": [
+          "7/10 ; 1/5 ; 1/13",
+          "7/10 ; 1/5 ; 1/11",
+          "1/2 ; 1/5 ; 1/11",
+          "7/10 ; 2/5 ; 1/11"
+        ],
+        "answer": 1,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5. III. Use 1−10/11=1/11. Answer: 1/11.",
+        "difficulty": "Hard",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag contains 10 red and 30 blue balls. Find P(red).\nII. A bag has 10 red, 10 blue and 20 green balls. Find P(red or blue).\nIII. A box contains 30 black and 10 white balls. Find P(black).",
+        "options": [
+          "1/4 ; 1/2 ; 3/4",
+          "3/4 ; 1/2 ; 3/4",
+          "1/4 ; 3/4 ; 3/4",
+          "1/4 ; 1/2 ; 1/2"
+        ],
+        "answer": 0,
+        "explanation": "I. There are n red balls out of 4n total. Answer: 1/4. II. Red and blue together give 2n of the 4n balls. Answer: 1/2. III. Black balls make up 3n of the 4n total. Answer: 3/4.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Choose one integer uniformly from 1 to 40. Find P(even).\nII. A number is chosen uniformly from 1 to 60. Find P(divisible by 3).\nIII. Of 100 equally likely tickets, 30 win a prize. Find P(not winning).",
+        "options": [
+          "3/4 ; 1/3 ; 7/10",
+          "1/2 ; 2/3 ; 7/10",
+          "1/2 ; 1/3 ; 3/10",
+          "1/2 ; 1/3 ; 7/10"
+        ],
+        "answer": 3,
+        "explanation": "I. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. II. There are 2n multiples of 3 among 6n integers. Answer: 1/3. III. The remaining 7n tickets out of 10n do not win. Answer: 7/10.",
+        "difficulty": "Hard",
+        "topic": "Equally likely outcomes",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box has 20 green and 30 yellow counters. Find P(not green).\nII. An event has probability 10/11. Find the probability of its complement.\nIII. A bag contains 8 red and 24 blue balls. Find P(red).",
+        "options": [
+          "3/5 ; 1/12 ; 1/4",
+          "3/5 ; 1/11 ; 1/3",
+          "3/5 ; 1/11 ; 1/4",
+          "1/2 ; 1/11 ; 1/4"
+        ],
+        "answer": 2,
+        "explanation": "I. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. II. Use 1−10/11=1/11. Answer: 1/11. III. There are n red balls out of 4n total. Answer: 1/4.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. One ticket is chosen from 50 equally likely tickets numbered from 1. Find P(a multiple of 5).\nII. A box contains 30 black and 10 white balls. Find P(black).\nIII. Choose one integer uniformly from 1 to 32. Find P(even).",
+        "options": [
+          "1/5 ; 3/4 ; 1/3",
+          "1/5 ; 3/4 ; 1/2",
+          "2/5 ; 3/4 ; 1/2",
+          "1/5 ; 1/3 ; 1/2"
+        ],
+        "answer": 1,
+        "explanation": "I. There are n multiples of 5 among 5n tickets. Answer: 1/5. II. Black balls make up 3n of the 4n total. Answer: 3/4. III. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Divisibility",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A bag has 10 red, 10 blue and 20 green balls. Find P(red or blue).\nII. Of 100 equally likely tickets, 30 win a prize. Find P(not winning).\nIII. A box has 16 green and 24 yellow counters. Find P(not green).",
+        "options": [
+          "1/2 ; 7/10 ; 3/5",
+          "3/4 ; 7/10 ; 3/5",
+          "1/2 ; 1/2 ; 3/5",
+          "1/2 ; 7/10 ; 2/5"
+        ],
+        "answer": 0,
+        "explanation": "I. Red and blue together give 2n of the 4n balls. Answer: 1/2. II. The remaining 7n tickets out of 10n do not win. Answer: 7/10. III. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5.",
+        "difficulty": "Hard",
+        "topic": "Union of disjoint events",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A number is chosen uniformly from 1 to 60. Find P(divisible by 3).\nII. A bag contains 8 red and 24 blue balls. Find P(red).\nIII. One ticket is chosen from 40 equally likely tickets numbered from 1. Find P(a multiple of 5).",
+        "options": [
+          "2/3 ; 1/4 ; 1/5",
+          "1/3 ; 3/4 ; 1/5",
+          "1/3 ; 1/4 ; 1/4",
+          "1/3 ; 1/4 ; 1/5"
+        ],
+        "answer": 3,
+        "explanation": "I. There are 2n multiples of 3 among 6n integers. Answer: 1/3. II. There are n red balls out of 4n total. Answer: 1/4. III. There are n multiples of 5 among 5n tickets. Answer: 1/5.",
+        "difficulty": "Hard",
+        "topic": "Counting multiples",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. An event has probability 10/11. Find the probability of its complement.\nII. Choose one integer uniformly from 1 to 32. Find P(even).\nIII. A bag has 8 red, 8 blue and 16 green balls. Find P(red or blue).",
+        "options": [
+          "1/11 ; 3/4 ; 1/2",
+          "1/11 ; 1/2 ; 1/3",
+          "1/11 ; 1/2 ; 1/2",
+          "1/12 ; 1/2 ; 1/2"
+        ],
+        "answer": 2,
+        "explanation": "I. Use 1−10/11=1/11. Answer: 1/11. II. Exactly half the integers from 1 through an even endpoint are even. Answer: 1/2. III. Red and blue together give 2n of the 4n balls. Answer: 1/2.",
+        "difficulty": "Hard",
+        "topic": "Complement",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. A box contains 30 black and 10 white balls. Find P(black).\nII. A box has 16 green and 24 yellow counters. Find P(not green).\nIII. A number is chosen uniformly from 1 to 48. Find P(divisible by 3).",
+        "options": [
+          "3/4 ; 3/5 ; 1/6",
+          "3/4 ; 3/5 ; 1/3",
+          "1/3 ; 3/5 ; 1/3",
+          "3/4 ; 1/2 ; 1/3"
+        ],
+        "answer": 1,
+        "explanation": "I. Black balls make up 3n of the 4n total. Answer: 3/4. II. The complement of green consists of 3n yellow counters out of 5n. Answer: 3/5. III. There are 2n multiples of 3 among 6n integers. Answer: 1/3.",
+        "difficulty": "Hard",
+        "topic": "Single-draw probability",
+        "sourceChapter": 13
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH13-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Of 100 equally likely tickets, 30 win a prize. Find P(not winning).\nII. One ticket is chosen from 40 equally likely tickets numbered from 1. Find P(a multiple of 5).\nIII. An event has probability 8/9. Find the probability of its complement.",
+        "options": [
+          "7/10 ; 1/5 ; 1/9",
+          "1/2 ; 1/5 ; 1/9",
+          "7/10 ; 2/5 ; 1/9",
+          "7/10 ; 1/5 ; 1/11"
+        ],
+        "answer": 0,
+        "explanation": "I. The remaining 7n tickets out of 10n do not win. Answer: 7/10. II. There are n multiples of 5 among 5n tickets. Answer: 1/5. III. Use 1−8/9=1/9. Answer: 1/9.",
+        "difficulty": "Hard",
+        "topic": "Losing probability",
+        "sourceChapter": 13
+      }
+    ]
+  }
+}

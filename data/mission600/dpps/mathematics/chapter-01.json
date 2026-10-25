@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-MAT-CH01-E": {
+    "id": "SA-DPP-27-MAT-CH01-E",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "E",
+    "title": "Real Numbers – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-12",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q01",
+        "question": "Which number is irrational?",
+        "options": [
+          "0.25",
+          "−3",
+          "2/7",
+          "√2"
+        ],
+        "answer": 3,
+        "explanation": "√2 cannot be written as a ratio of integers.",
+        "difficulty": "Easy",
+        "topic": "Which number is irrational?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q02",
+        "question": "What is the HCF of 18 and 24?",
+        "options": [
+          "12",
+          "72",
+          "6",
+          "3"
+        ],
+        "answer": 2,
+        "explanation": "18 = 3 × 6 and 24 = 4 × 6; no larger integer divides both.",
+        "difficulty": "Easy",
+        "topic": "What is the HCF of 18 and 24?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q03",
+        "question": "A rational number in lowest terms terminates when its denominator has only which prime factors?",
+        "options": [
+          "5 and 7",
+          "2 and 5",
+          "3 and 7",
+          "2 and 3"
+        ],
+        "answer": 1,
+        "explanation": "A denominator dividing a power of 10 gives a terminating decimal.",
+        "difficulty": "Easy",
+        "topic": "A rational number in lowest terms terminates when its denominator has only which prime factors?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q04",
+        "question": "Find the HCF of 24 and 36.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "14"
+        ],
+        "answer": 0,
+        "explanation": "Factor out 4; HCF(6,9)=3, giving 12.",
+        "difficulty": "Easy",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q05",
+        "question": "Find the LCM of 16 and 24.",
+        "options": [
+          "49",
+          "47",
+          "50",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "The common factor is 4; LCM(4,6)=12, giving 48.",
+        "difficulty": "Easy",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q06",
+        "question": "What is the remainder when 31 is divided by 7?",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "31=7×4+3.",
+        "difficulty": "Easy",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q07",
+        "question": "What is the quotient in Euclid's division of 49 by 11?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "49=11×4+5, with 0≤5<11.",
+        "difficulty": "Easy",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q08",
+        "question": "Two positive integers have HCF 2 and LCM 24. If one is 6, find the other.",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": 0,
+        "explanation": "The other integer is HCF×LCM divided by the known integer: 2×24/6=8.",
+        "difficulty": "Easy",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q09",
+        "question": "In the lowest-term fraction 1/20, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ],
+        "answer": 3,
+        "explanation": "The denominator is 2^2×5; completing a power of 10 requires 2 decimal places.",
+        "difficulty": "Easy",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q10",
+        "question": "What is the HCF of the consecutive positive integers 20 and 21?",
+        "options": [
+          "0",
+          "3",
+          "1",
+          "2"
+        ],
+        "answer": 2,
+        "explanation": "Any common divisor divides their difference, which is 1.",
+        "difficulty": "Easy",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q11",
+        "question": "What is the LCM of the coprime integers 4 and 3?",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+        ],
+        "answer": 1,
+        "explanation": "For coprime positive integers, the LCM is their product.",
+        "difficulty": "Easy",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q12",
+        "question": "What is the units digit of 6^4?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": 0,
+        "explanation": "Every positive integer power of 6 ends in 6.",
+        "difficulty": "Easy",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q13",
+        "question": "Find the HCF of 30 and 45.",
+        "options": [
+          "16",
+          "14",
+          "17",
+          "15"
+        ],
+        "answer": 3,
+        "explanation": "Factor out 5; HCF(6,9)=3, giving 15.",
+        "difficulty": "Easy",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q14",
+        "question": "Find the LCM of 20 and 30.",
+        "options": [
+          "59",
+          "62",
+          "60",
+          "61"
+        ],
+        "answer": 2,
+        "explanation": "The common factor is 5; LCM(4,6)=12, giving 60.",
+        "difficulty": "Easy",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q15",
+        "question": "What is the remainder when 38 is divided by 7?",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 1,
+        "explanation": "38=7×5+3.",
+        "difficulty": "Easy",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q16",
+        "question": "What is the quotient in Euclid's division of 60 by 11?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": 0,
+        "explanation": "60=11×5+5, with 0≤5<11.",
+        "difficulty": "Easy",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q17",
+        "question": "Two positive integers have HCF 3 and LCM 36. If one is 9, find the other.",
+        "options": [
+          "13",
+          "11",
+          "14",
+          "12"
+        ],
+        "answer": 3,
+        "explanation": "The other integer is HCF×LCM divided by the known integer: 3×36/9=12.",
+        "difficulty": "Easy",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q18",
+        "question": "In the lowest-term fraction 1/40, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "2",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": 2,
+        "explanation": "The denominator is 2^3×5; completing a power of 10 requires 3 decimal places.",
+        "difficulty": "Easy",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q19",
+        "question": "What is the HCF of the consecutive positive integers 30 and 31?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "answer": 1,
+        "explanation": "Any common divisor divides their difference, which is 1.",
+        "difficulty": "Easy",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q20",
+        "question": "What is the LCM of the coprime integers 8 and 3?",
+        "options": [
+          "24",
+          "25",
+          "23",
+          "26"
+        ],
+        "answer": 0,
+        "explanation": "For coprime positive integers, the LCM is their product.",
+        "difficulty": "Easy",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q21",
+        "question": "What is the units digit of 6^5?",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "Every positive integer power of 6 ends in 6.",
+        "difficulty": "Easy",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q22",
+        "question": "Find the HCF of 36 and 54.",
+        "options": [
+          "17",
+          "20",
+          "18",
+          "19"
+        ],
+        "answer": 2,
+        "explanation": "Factor out 6; HCF(6,9)=3, giving 18.",
+        "difficulty": "Easy",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q23",
+        "question": "Find the LCM of 24 and 36.",
+        "options": [
+          "74",
+          "72",
+          "73",
+          "71"
+        ],
+        "answer": 1,
+        "explanation": "The common factor is 6; LCM(4,6)=12, giving 72.",
+        "difficulty": "Easy",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q24",
+        "question": "What is the remainder when 45 is divided by 7?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "45=7×6+3.",
+        "difficulty": "Easy",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q25",
+        "question": "What is the quotient in Euclid's division of 71 by 11?",
+        "options": [
+          "7",
+          "5",
+          "8",
+          "6"
+        ],
+        "answer": 3,
+        "explanation": "71=11×6+5, with 0≤5<11.",
+        "difficulty": "Easy",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q26",
+        "question": "Two positive integers have HCF 4 and LCM 48. If one is 12, find the other.",
+        "options": [
+          "15",
+          "18",
+          "16",
+          "17"
+        ],
+        "answer": 2,
+        "explanation": "The other integer is HCF×LCM divided by the known integer: 4×48/12=16.",
+        "difficulty": "Easy",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q27",
+        "question": "In the lowest-term fraction 1/80, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 1,
+        "explanation": "The denominator is 2^4×5; completing a power of 10 requires 4 decimal places.",
+        "difficulty": "Easy",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q28",
+        "question": "What is the HCF of the consecutive positive integers 40 and 41?",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "answer": 0,
+        "explanation": "Any common divisor divides their difference, which is 1.",
+        "difficulty": "Easy",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q29",
+        "question": "What is the LCM of the coprime integers 16 and 3?",
+        "options": [
+          "49",
+          "47",
+          "50",
+          "48"
+        ],
+        "answer": 3,
+        "explanation": "For coprime positive integers, the LCM is their product.",
+        "difficulty": "Easy",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-E-Q30",
+        "question": "What is the units digit of 6^6?",
+        "options": [
+          "5",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": 2,
+        "explanation": "Every positive integer power of 6 ends in 6.",
+        "difficulty": "Easy",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH01-M": {
+    "id": "SA-DPP-27-MAT-CH01-M",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "M",
+    "title": "Real Numbers – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-13",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q01",
+        "question": "What is the LCM of 12 and 18?",
+        "options": [
+          "72",
+          "216",
+          "36",
+          "6"
+        ],
+        "answer": 2,
+        "explanation": "LCM × HCF = 12 × 18; the HCF is 6.",
+        "difficulty": "Medium",
+        "topic": "What is the LCM of 12 and 18?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q02",
+        "question": "Does 7/40 have a terminating decimal?",
+        "options": [
+          "Yes, because every fraction terminates",
+          "Yes, because 40 = 2³ × 5",
+          "No, because 7 is prime",
+          "No, because 40 is not a power of 10"
+        ],
+        "answer": 1,
+        "explanation": "In lowest terms the denominator contains only 2 and 5.",
+        "difficulty": "Medium",
+        "topic": "Does 7/40 have a terminating decimal?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q03",
+        "question": "What is the remainder when 100 is divided by 7?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "5"
+        ],
+        "answer": 0,
+        "explanation": "100 = 7 × 14 + 2.",
+        "difficulty": "Medium",
+        "topic": "What is the remainder when 100 is divided by 7?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q04",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the HCF of 42 and 63.\nII. Two positive integers have HCF 5 and LCM 60. If one is 15, find the other.",
+        "options": [
+          "22 ; 20",
+          "21 ; 19",
+          "22 ; 21",
+          "21 ; 20"
+        ],
+        "answer": 3,
+        "explanation": "I. Factor out 7; HCF(6,9)=3, giving 21. Answer: 21. II. The other integer is HCF×LCM divided by the known integer: 5×60/15=20. Answer: 20.",
+        "difficulty": "Medium",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q05",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the LCM of 28 and 42.\nII. In the lowest-term fraction 1/160, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "84 ; 7",
+          "83 ; 4",
+          "84 ; 5",
+          "83 ; 5"
+        ],
+        "answer": 2,
+        "explanation": "I. The common factor is 7; LCM(4,6)=12, giving 84. Answer: 84. II. The denominator is 2^5×5; completing a power of 10 requires 5 decimal places. Answer: 5.",
+        "difficulty": "Medium",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q06",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the remainder when 52 is divided by 7?\nII. What is the HCF of the consecutive positive integers 50 and 51?",
+        "options": [
+          "5 ; 3",
+          "3 ; 1",
+          "5 ; 1",
+          "3 ; 2"
+        ],
+        "answer": 1,
+        "explanation": "I. 52=7×7+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q07",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 82 by 11?\nII. What is the LCM of the coprime integers 32 and 3?",
+        "options": [
+          "7 ; 96",
+          "8 ; 96",
+          "7 ; 95",
+          "8 ; 97"
+        ],
+        "answer": 0,
+        "explanation": "I. 82=11×7+5, with 0≤5<11. Answer: 7. II. For coprime positive integers, the LCM is their product. Answer: 96.",
+        "difficulty": "Medium",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q08",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 5 and LCM 60. If one is 15, find the other.\nII. What is the units digit of 6^7?",
+        "options": [
+          "19 ; 6",
+          "20 ; 8",
+          "19 ; 5",
+          "20 ; 6"
+        ],
+        "answer": 3,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 5×60/15=20. Answer: 20. II. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q09",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/160, how many decimal places are required for its terminating expansion?\nII. Calculate the HCF of 48 and 72.",
+        "options": [
+          "5 ; 25",
+          "7 ; 26",
+          "5 ; 24",
+          "7 ; 24"
+        ],
+        "answer": 2,
+        "explanation": "I. The denominator is 2^5×5; completing a power of 10 requires 5 decimal places. Answer: 5. II. Factor out 8; HCF(6,9)=3, giving 24. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q10",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 50 and 51?\nII. Calculate the LCM of 32 and 48.",
+        "options": [
+          "2 ; 97",
+          "1 ; 96",
+          "2 ; 96",
+          "1 ; 95"
+        ],
+        "answer": 1,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 8; LCM(4,6)=12, giving 96. Answer: 96.",
+        "difficulty": "Medium",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q11",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 32 and 3?\nII. What is the remainder when 59 is divided by 7?",
+        "options": [
+          "96 ; 3",
+          "95 ; 3",
+          "96 ; 5",
+          "95 ; 2"
+        ],
+        "answer": 0,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 96. II. 59=7×8+3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q12",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the units digit of 6^7?\nII. What is the quotient in Euclid's division of 93 by 11?",
+        "options": [
+          "8 ; 8",
+          "6 ; 9",
+          "8 ; 10",
+          "6 ; 8"
+        ],
+        "answer": 3,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 93=11×8+5, with 0≤5<11. Answer: 8.",
+        "difficulty": "Medium",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q13",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the HCF of 48 and 72.\nII. Two positive integers have HCF 6 and LCM 72. If one is 18, find the other.",
+        "options": [
+          "24 ; 23",
+          "25 ; 25",
+          "24 ; 24",
+          "25 ; 24"
+        ],
+        "answer": 2,
+        "explanation": "I. Factor out 8; HCF(6,9)=3, giving 24. Answer: 24. II. The other integer is HCF×LCM divided by the known integer: 6×72/18=24. Answer: 24.",
+        "difficulty": "Medium",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q14",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the LCM of 32 and 48.\nII. In the lowest-term fraction 1/320, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "95 ; 5",
+          "96 ; 6",
+          "95 ; 6",
+          "96 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. The common factor is 8; LCM(4,6)=12, giving 96. Answer: 96. II. The denominator is 2^6×5; completing a power of 10 requires 6 decimal places. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q15",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the remainder when 59 is divided by 7?\nII. What is the HCF of the consecutive positive integers 60 and 61?",
+        "options": [
+          "3 ; 1",
+          "5 ; 1",
+          "3 ; 2",
+          "5 ; 3"
+        ],
+        "answer": 0,
+        "explanation": "I. 59=7×8+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q16",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 93 by 11?\nII. What is the LCM of the coprime integers 64 and 3?",
+        "options": [
+          "9 ; 192",
+          "8 ; 191",
+          "9 ; 193",
+          "8 ; 192"
+        ],
+        "answer": 3,
+        "explanation": "I. 93=11×8+5, with 0≤5<11. Answer: 8. II. For coprime positive integers, the LCM is their product. Answer: 192.",
+        "difficulty": "Medium",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q17",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 6 and LCM 72. If one is 18, find the other.\nII. What is the units digit of 6^8?",
+        "options": [
+          "24 ; 8",
+          "23 ; 5",
+          "24 ; 6",
+          "23 ; 6"
+        ],
+        "answer": 2,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 6×72/18=24. Answer: 24. II. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q18",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/320, how many decimal places are required for its terminating expansion?\nII. Calculate the HCF of 54 and 81.",
+        "options": [
+          "8 ; 29",
+          "6 ; 27",
+          "8 ; 27",
+          "6 ; 28"
+        ],
+        "answer": 1,
+        "explanation": "I. The denominator is 2^6×5; completing a power of 10 requires 6 decimal places. Answer: 6. II. Factor out 9; HCF(6,9)=3, giving 27. Answer: 27.",
+        "difficulty": "Medium",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q19",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 60 and 61?\nII. Calculate the LCM of 36 and 54.",
+        "options": [
+          "1 ; 108",
+          "2 ; 108",
+          "1 ; 107",
+          "2 ; 109"
+        ],
+        "answer": 0,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 9; LCM(4,6)=12, giving 108. Answer: 108.",
+        "difficulty": "Medium",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q20",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 64 and 3?\nII. What is the remainder when 66 is divided by 7?",
+        "options": [
+          "191 ; 3",
+          "192 ; 5",
+          "191 ; 2",
+          "192 ; 3"
+        ],
+        "answer": 3,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 192. II. 66=7×9+3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q21",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the units digit of 6^8?\nII. What is the quotient in Euclid's division of 104 by 11?",
+        "options": [
+          "6 ; 10",
+          "8 ; 11",
+          "6 ; 9",
+          "8 ; 9"
+        ],
+        "answer": 2,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 104=11×9+5, with 0≤5<11. Answer: 9.",
+        "difficulty": "Medium",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q22",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the HCF of 54 and 81.\nII. Two positive integers have HCF 7 and LCM 84. If one is 21, find the other.",
+        "options": [
+          "28 ; 29",
+          "27 ; 28",
+          "28 ; 28",
+          "27 ; 27"
+        ],
+        "answer": 1,
+        "explanation": "I. Factor out 9; HCF(6,9)=3, giving 27. Answer: 27. II. The other integer is HCF×LCM divided by the known integer: 7×84/21=28. Answer: 28.",
+        "difficulty": "Medium",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q23",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Calculate the LCM of 36 and 54.\nII. In the lowest-term fraction 1/640, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "108 ; 7",
+          "107 ; 7",
+          "108 ; 9",
+          "107 ; 6"
+        ],
+        "answer": 0,
+        "explanation": "I. The common factor is 9; LCM(4,6)=12, giving 108. Answer: 108. II. The denominator is 2^7×5; completing a power of 10 requires 7 decimal places. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q24",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the remainder when 66 is divided by 7?\nII. What is the HCF of the consecutive positive integers 70 and 71?",
+        "options": [
+          "5 ; 1",
+          "3 ; 2",
+          "5 ; 3",
+          "3 ; 1"
+        ],
+        "answer": 3,
+        "explanation": "I. 66=7×9+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Medium",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q25",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 104 by 11?\nII. What is the LCM of the coprime integers 128 and 3?",
+        "options": [
+          "9 ; 383",
+          "10 ; 385",
+          "9 ; 384",
+          "10 ; 384"
+        ],
+        "answer": 2,
+        "explanation": "I. 104=11×9+5, with 0≤5<11. Answer: 9. II. For coprime positive integers, the LCM is their product. Answer: 384.",
+        "difficulty": "Medium",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q26",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 7 and LCM 84. If one is 21, find the other.\nII. What is the units digit of 6^9?",
+        "options": [
+          "27 ; 5",
+          "28 ; 6",
+          "27 ; 6",
+          "28 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 7×84/21=28. Answer: 28. II. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Medium",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q27",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/640, how many decimal places are required for its terminating expansion?\nII. Calculate the HCF of 42 and 63.",
+        "options": [
+          "7 ; 21",
+          "9 ; 21",
+          "7 ; 22",
+          "9 ; 23"
+        ],
+        "answer": 0,
+        "explanation": "I. The denominator is 2^7×5; completing a power of 10 requires 7 decimal places. Answer: 7. II. Factor out 7; HCF(6,9)=3, giving 21. Answer: 21.",
+        "difficulty": "Medium",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q28",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 70 and 71?\nII. Calculate the LCM of 28 and 42.",
+        "options": [
+          "2 ; 84",
+          "1 ; 83",
+          "2 ; 85",
+          "1 ; 84"
+        ],
+        "answer": 3,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 7; LCM(4,6)=12, giving 84. Answer: 84.",
+        "difficulty": "Medium",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q29",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 128 and 3?\nII. What is the remainder when 52 is divided by 7?",
+        "options": [
+          "384 ; 5",
+          "383 ; 2",
+          "384 ; 3",
+          "383 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 384. II. 52=7×7+3. Answer: 3.",
+        "difficulty": "Medium",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-M-Q30",
+        "question": "Solve these two tasks. Which option lists the answers in order?\nI. What is the units digit of 6^9?\nII. What is the quotient in Euclid's division of 82 by 11?",
+        "options": [
+          "8 ; 9",
+          "6 ; 7",
+          "8 ; 7",
+          "6 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 82=11×7+5, with 0≤5<11. Answer: 7.",
+        "difficulty": "Medium",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-MAT-CH01-H": {
+    "id": "SA-DPP-27-MAT-CH01-H",
+    "kind": "dpp",
+    "subjectId": "mathematics",
+    "subject": "Mathematics",
+    "subjectCode": "MAT",
+    "chapterId": "c10-mathematics-ch1",
+    "chapterNumber": 1,
+    "chapter": "Real Numbers",
+    "level": "H",
+    "title": "Real Numbers – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/mathematics/chapter-01.json",
+    "scheduledWeek": 1,
+    "lectureId": "SA-M600-LEC-W01-MAT-01",
+    "recommendedDate": "2026-10-14",
+    "sourceBook": "X Mathematics EM 2025-26 (02-11-2024) 2.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 27
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q01",
+        "question": "If two positive integers have HCF 12 and LCM 180, and one is 36, what is the other?",
+        "options": [
+          "90",
+          "60",
+          "48",
+          "72"
+        ],
+        "answer": 1,
+        "explanation": "Their product is 12 × 180; divide by 36 to get 60.",
+        "difficulty": "Hard",
+        "topic": "If two positive integers have HCF 12 and LCM 180, and one is 36, what is the other?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q02",
+        "question": "If √3 = p/q in lowest terms, which contradiction completes the irrationality proof?",
+        "options": [
+          "Both p and q must be divisible by 3",
+          "p must be even",
+          "q must be 1",
+          "p must be smaller than q"
+        ],
+        "answer": 0,
+        "explanation": "Squaring gives p² = 3q², forcing both integers to have factor 3.",
+        "difficulty": "Hard",
+        "topic": "If √3 = p/q in lowest terms, which contradiction completes the irrationality proof?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q03",
+        "question": "Why is 6ⁿ never divisible by 10 for a positive integer n?",
+        "options": [
+          "It is always odd",
+          "It has no factor 2",
+          "Its last digit is always 0",
+          "Its prime factorisation has no factor 5"
+        ],
+        "answer": 3,
+        "explanation": "6ⁿ contains only factors 2 and 3; divisibility by 10 also requires 5.",
+        "difficulty": "Hard",
+        "topic": "Why is 6ⁿ never divisible by 10 for a positive integer n?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q04",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the HCF of 60 and 90.\nII. Two positive integers have HCF 8 and LCM 96. If one is 24, find the other.\nIII. What is the LCM of the coprime integers 256 and 3?",
+        "options": [
+          "30 ; 31 ; 768",
+          "30 ; 32 ; 770",
+          "30 ; 32 ; 768",
+          "31 ; 32 ; 768"
+        ],
+        "answer": 2,
+        "explanation": "I. Factor out 10; HCF(6,9)=3, giving 30. Answer: 30. II. The other integer is HCF×LCM divided by the known integer: 8×96/24=32. Answer: 32. III. For coprime positive integers, the LCM is their product. Answer: 768.",
+        "difficulty": "Hard",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q05",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the LCM of 40 and 60.\nII. In the lowest-term fraction 1/1280, how many decimal places are required for its terminating expansion?\nIII. What is the units digit of 6^10?",
+        "options": [
+          "120 ; 8 ; 7",
+          "120 ; 8 ; 6",
+          "119 ; 8 ; 6",
+          "120 ; 10 ; 6"
+        ],
+        "answer": 1,
+        "explanation": "I. The common factor is 10; LCM(4,6)=12, giving 120. Answer: 120. II. The denominator is 2^8×5; completing a power of 10 requires 8 decimal places. Answer: 8. III. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Hard",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q06",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the remainder when 73 is divided by 7?\nII. What is the HCF of the consecutive positive integers 80 and 81?\nIII. Determine the HCF of 66 and 99.",
+        "options": [
+          "3 ; 1 ; 33",
+          "5 ; 1 ; 33",
+          "3 ; 2 ; 33",
+          "3 ; 1 ; 32"
+        ],
+        "answer": 0,
+        "explanation": "I. 73=7×10+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1. III. Factor out 11; HCF(6,9)=3, giving 33. Answer: 33.",
+        "difficulty": "Hard",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q07",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 115 by 11?\nII. What is the LCM of the coprime integers 256 and 3?\nIII. Determine the LCM of 44 and 66.",
+        "options": [
+          "11 ; 768 ; 132",
+          "10 ; 767 ; 132",
+          "10 ; 768 ; 134",
+          "10 ; 768 ; 132"
+        ],
+        "answer": 3,
+        "explanation": "I. 115=11×10+5, with 0≤5<11. Answer: 10. II. For coprime positive integers, the LCM is their product. Answer: 768. III. The common factor is 11; LCM(4,6)=12, giving 132. Answer: 132.",
+        "difficulty": "Hard",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q08",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 8 and LCM 96. If one is 24, find the other.\nII. What is the units digit of 6^10?\nIII. What is the remainder when 80 is divided by 7?",
+        "options": [
+          "32 ; 8 ; 3",
+          "32 ; 6 ; 4",
+          "32 ; 6 ; 3",
+          "31 ; 6 ; 3"
+        ],
+        "answer": 2,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 8×96/24=32. Answer: 32. II. Every positive integer power of 6 ends in 6. Answer: 6. III. 80=7×11+3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q09",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/1280, how many decimal places are required for its terminating expansion?\nII. Determine the HCF of 66 and 99.\nIII. What is the quotient in Euclid's division of 126 by 11?",
+        "options": [
+          "8 ; 33 ; 10",
+          "8 ; 33 ; 11",
+          "10 ; 33 ; 11",
+          "8 ; 34 ; 11"
+        ],
+        "answer": 1,
+        "explanation": "I. The denominator is 2^8×5; completing a power of 10 requires 8 decimal places. Answer: 8. II. Factor out 11; HCF(6,9)=3, giving 33. Answer: 33. III. 126=11×11+5, with 0≤5<11. Answer: 11.",
+        "difficulty": "Hard",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q10",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 80 and 81?\nII. Determine the LCM of 44 and 66.\nIII. Two positive integers have HCF 9 and LCM 108. If one is 27, find the other.",
+        "options": [
+          "1 ; 132 ; 36",
+          "2 ; 132 ; 36",
+          "1 ; 131 ; 36",
+          "1 ; 132 ; 38"
+        ],
+        "answer": 0,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 11; LCM(4,6)=12, giving 132. Answer: 132. III. The other integer is HCF×LCM divided by the known integer: 9×108/27=36. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q11",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 256 and 3?\nII. What is the remainder when 80 is divided by 7?\nIII. In the lowest-term fraction 1/2560, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "767 ; 3 ; 9",
+          "768 ; 5 ; 9",
+          "768 ; 3 ; 10",
+          "768 ; 3 ; 9"
+        ],
+        "answer": 3,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 768. II. 80=7×11+3. Answer: 3. III. The denominator is 2^9×5; completing a power of 10 requires 9 decimal places. Answer: 9.",
+        "difficulty": "Hard",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q12",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the units digit of 6^10?\nII. What is the quotient in Euclid's division of 126 by 11?\nIII. What is the HCF of the consecutive positive integers 90 and 91?",
+        "options": [
+          "6 ; 12 ; 1",
+          "6 ; 11 ; 0",
+          "6 ; 11 ; 1",
+          "8 ; 11 ; 1"
+        ],
+        "answer": 2,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 126=11×11+5, with 0≤5<11. Answer: 11. III. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q13",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the HCF of 66 and 99.\nII. Two positive integers have HCF 9 and LCM 108. If one is 27, find the other.\nIII. What is the LCM of the coprime integers 512 and 3?",
+        "options": [
+          "33 ; 36 ; 1538",
+          "33 ; 36 ; 1536",
+          "34 ; 36 ; 1536",
+          "33 ; 35 ; 1536"
+        ],
+        "answer": 1,
+        "explanation": "I. Factor out 11; HCF(6,9)=3, giving 33. Answer: 33. II. The other integer is HCF×LCM divided by the known integer: 9×108/27=36. Answer: 36. III. For coprime positive integers, the LCM is their product. Answer: 1536.",
+        "difficulty": "Hard",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q14",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the LCM of 44 and 66.\nII. In the lowest-term fraction 1/2560, how many decimal places are required for its terminating expansion?\nIII. What is the units digit of 6^11?",
+        "options": [
+          "132 ; 9 ; 6",
+          "131 ; 9 ; 6",
+          "132 ; 11 ; 6",
+          "132 ; 9 ; 7"
+        ],
+        "answer": 0,
+        "explanation": "I. The common factor is 11; LCM(4,6)=12, giving 132. Answer: 132. II. The denominator is 2^9×5; completing a power of 10 requires 9 decimal places. Answer: 9. III. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Hard",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q15",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the remainder when 80 is divided by 7?\nII. What is the HCF of the consecutive positive integers 90 and 91?\nIII. Determine the HCF of 72 and 108.",
+        "options": [
+          "5 ; 1 ; 36",
+          "3 ; 2 ; 36",
+          "3 ; 1 ; 35",
+          "3 ; 1 ; 36"
+        ],
+        "answer": 3,
+        "explanation": "I. 80=7×11+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1. III. Factor out 12; HCF(6,9)=3, giving 36. Answer: 36.",
+        "difficulty": "Hard",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q16",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 126 by 11?\nII. What is the LCM of the coprime integers 512 and 3?\nIII. Determine the LCM of 48 and 72.",
+        "options": [
+          "11 ; 1535 ; 144",
+          "11 ; 1536 ; 146",
+          "11 ; 1536 ; 144",
+          "12 ; 1536 ; 144"
+        ],
+        "answer": 2,
+        "explanation": "I. 126=11×11+5, with 0≤5<11. Answer: 11. II. For coprime positive integers, the LCM is their product. Answer: 1536. III. The common factor is 12; LCM(4,6)=12, giving 144. Answer: 144.",
+        "difficulty": "Hard",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q17",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 9 and LCM 108. If one is 27, find the other.\nII. What is the units digit of 6^11?\nIII. What is the remainder when 87 is divided by 7?",
+        "options": [
+          "36 ; 6 ; 4",
+          "36 ; 6 ; 3",
+          "35 ; 6 ; 3",
+          "36 ; 8 ; 3"
+        ],
+        "answer": 1,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 9×108/27=36. Answer: 36. II. Every positive integer power of 6 ends in 6. Answer: 6. III. 87=7×12+3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q18",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/2560, how many decimal places are required for its terminating expansion?\nII. Determine the HCF of 72 and 108.\nIII. What is the quotient in Euclid's division of 137 by 11?",
+        "options": [
+          "9 ; 36 ; 12",
+          "11 ; 36 ; 12",
+          "9 ; 37 ; 12",
+          "9 ; 36 ; 11"
+        ],
+        "answer": 0,
+        "explanation": "I. The denominator is 2^9×5; completing a power of 10 requires 9 decimal places. Answer: 9. II. Factor out 12; HCF(6,9)=3, giving 36. Answer: 36. III. 137=11×12+5, with 0≤5<11. Answer: 12.",
+        "difficulty": "Hard",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q19",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 90 and 91?\nII. Determine the LCM of 48 and 72.\nIII. Two positive integers have HCF 10 and LCM 120. If one is 30, find the other.",
+        "options": [
+          "2 ; 144 ; 40",
+          "1 ; 143 ; 40",
+          "1 ; 144 ; 42",
+          "1 ; 144 ; 40"
+        ],
+        "answer": 3,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 12; LCM(4,6)=12, giving 144. Answer: 144. III. The other integer is HCF×LCM divided by the known integer: 10×120/30=40. Answer: 40.",
+        "difficulty": "Hard",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q20",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 512 and 3?\nII. What is the remainder when 87 is divided by 7?\nIII. In the lowest-term fraction 1/5120, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "1536 ; 5 ; 10",
+          "1536 ; 3 ; 11",
+          "1536 ; 3 ; 10",
+          "1535 ; 3 ; 10"
+        ],
+        "answer": 2,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 1536. II. 87=7×12+3. Answer: 3. III. The denominator is 2^10×5; completing a power of 10 requires 10 decimal places. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q21",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the units digit of 6^11?\nII. What is the quotient in Euclid's division of 137 by 11?\nIII. What is the HCF of the consecutive positive integers 100 and 101?",
+        "options": [
+          "6 ; 12 ; 0",
+          "6 ; 12 ; 1",
+          "8 ; 12 ; 1",
+          "6 ; 13 ; 1"
+        ],
+        "answer": 1,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 137=11×12+5, with 0≤5<11. Answer: 12. III. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q22",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the HCF of 72 and 108.\nII. Two positive integers have HCF 10 and LCM 120. If one is 30, find the other.\nIII. What is the LCM of the coprime integers 1024 and 3?",
+        "options": [
+          "36 ; 40 ; 3072",
+          "37 ; 40 ; 3072",
+          "36 ; 39 ; 3072",
+          "36 ; 40 ; 3074"
+        ],
+        "answer": 0,
+        "explanation": "I. Factor out 12; HCF(6,9)=3, giving 36. Answer: 36. II. The other integer is HCF×LCM divided by the known integer: 10×120/30=40. Answer: 40. III. For coprime positive integers, the LCM is their product. Answer: 3072.",
+        "difficulty": "Hard",
+        "topic": "HCF",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q23",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Determine the LCM of 48 and 72.\nII. In the lowest-term fraction 1/5120, how many decimal places are required for its terminating expansion?\nIII. What is the units digit of 6^12?",
+        "options": [
+          "143 ; 10 ; 6",
+          "144 ; 12 ; 6",
+          "144 ; 10 ; 7",
+          "144 ; 10 ; 6"
+        ],
+        "answer": 3,
+        "explanation": "I. The common factor is 12; LCM(4,6)=12, giving 144. Answer: 144. II. The denominator is 2^10×5; completing a power of 10 requires 10 decimal places. Answer: 10. III. Every positive integer power of 6 ends in 6. Answer: 6.",
+        "difficulty": "Hard",
+        "topic": "LCM",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q24",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the remainder when 87 is divided by 7?\nII. What is the HCF of the consecutive positive integers 100 and 101?\nIII. Determine the HCF of 60 and 90.",
+        "options": [
+          "3 ; 2 ; 30",
+          "3 ; 1 ; 29",
+          "3 ; 1 ; 30",
+          "5 ; 1 ; 30"
+        ],
+        "answer": 2,
+        "explanation": "I. 87=7×12+3. Answer: 3. II. Any common divisor divides their difference, which is 1. Answer: 1. III. Factor out 10; HCF(6,9)=3, giving 30. Answer: 30.",
+        "difficulty": "Hard",
+        "topic": "Division remainder",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q25",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the quotient in Euclid's division of 137 by 11?\nII. What is the LCM of the coprime integers 1024 and 3?\nIII. Determine the LCM of 40 and 60.",
+        "options": [
+          "12 ; 3072 ; 122",
+          "12 ; 3072 ; 120",
+          "13 ; 3072 ; 120",
+          "12 ; 3071 ; 120"
+        ],
+        "answer": 1,
+        "explanation": "I. 137=11×12+5, with 0≤5<11. Answer: 12. II. For coprime positive integers, the LCM is their product. Answer: 3072. III. The common factor is 10; LCM(4,6)=12, giving 120. Answer: 120.",
+        "difficulty": "Hard",
+        "topic": "Euclidean division",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q26",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. Two positive integers have HCF 10 and LCM 120. If one is 30, find the other.\nII. What is the units digit of 6^12?\nIII. What is the remainder when 73 is divided by 7?",
+        "options": [
+          "40 ; 6 ; 3",
+          "39 ; 6 ; 3",
+          "40 ; 8 ; 3",
+          "40 ; 6 ; 4"
+        ],
+        "answer": 0,
+        "explanation": "I. The other integer is HCF×LCM divided by the known integer: 10×120/30=40. Answer: 40. II. Every positive integer power of 6 ends in 6. Answer: 6. III. 73=7×10+3. Answer: 3.",
+        "difficulty": "Hard",
+        "topic": "HCF-LCM product",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q27",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. In the lowest-term fraction 1/5120, how many decimal places are required for its terminating expansion?\nII. Determine the HCF of 60 and 90.\nIII. What is the quotient in Euclid's division of 115 by 11?",
+        "options": [
+          "12 ; 30 ; 10",
+          "10 ; 31 ; 10",
+          "10 ; 30 ; 9",
+          "10 ; 30 ; 10"
+        ],
+        "answer": 3,
+        "explanation": "I. The denominator is 2^10×5; completing a power of 10 requires 10 decimal places. Answer: 10. II. Factor out 10; HCF(6,9)=3, giving 30. Answer: 30. III. 115=11×10+5, with 0≤5<11. Answer: 10.",
+        "difficulty": "Hard",
+        "topic": "Terminating decimals",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q28",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the HCF of the consecutive positive integers 100 and 101?\nII. Determine the LCM of 40 and 60.\nIII. Two positive integers have HCF 8 and LCM 96. If one is 24, find the other.",
+        "options": [
+          "1 ; 119 ; 32",
+          "1 ; 120 ; 34",
+          "1 ; 120 ; 32",
+          "2 ; 120 ; 32"
+        ],
+        "answer": 2,
+        "explanation": "I. Any common divisor divides their difference, which is 1. Answer: 1. II. The common factor is 10; LCM(4,6)=12, giving 120. Answer: 120. III. The other integer is HCF×LCM divided by the known integer: 8×96/24=32. Answer: 32.",
+        "difficulty": "Hard",
+        "topic": "Coprime numbers",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q29",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the LCM of the coprime integers 1024 and 3?\nII. What is the remainder when 73 is divided by 7?\nIII. In the lowest-term fraction 1/1280, how many decimal places are required for its terminating expansion?",
+        "options": [
+          "3072 ; 3 ; 9",
+          "3072 ; 3 ; 8",
+          "3071 ; 3 ; 8",
+          "3072 ; 5 ; 8"
+        ],
+        "answer": 1,
+        "explanation": "I. For coprime positive integers, the LCM is their product. Answer: 3072. II. 73=7×10+3. Answer: 3. III. The denominator is 2^8×5; completing a power of 10 requires 8 decimal places. Answer: 8.",
+        "difficulty": "Hard",
+        "topic": "Prime factorisation",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-MAT-CH01-H-Q30",
+        "question": "Solve these three tasks. Which option lists the answers in order?\nI. What is the units digit of 6^12?\nII. What is the quotient in Euclid's division of 115 by 11?\nIII. What is the HCF of the consecutive positive integers 80 and 81?",
+        "options": [
+          "6 ; 10 ; 1",
+          "8 ; 10 ; 1",
+          "6 ; 11 ; 1",
+          "6 ; 10 ; 0"
+        ],
+        "answer": 0,
+        "explanation": "I. Every positive integer power of 6 ends in 6. Answer: 6. II. 115=11×10+5, with 0≤5<11. Answer: 10. III. Any common divisor divides their difference, which is 1. Answer: 1.",
+        "difficulty": "Hard",
+        "topic": "Units digits",
+        "sourceChapter": 1
+      }
+    ]
+  }
+}

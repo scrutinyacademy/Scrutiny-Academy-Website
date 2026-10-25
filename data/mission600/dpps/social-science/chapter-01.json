@@ -1,0 +1,1460 @@
+{
+  "SA-DPP-27-SOC-CH01-E": {
+    "id": "SA-DPP-27-SOC-CH01-E",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch1",
+    "chapterNumber": 1,
+    "chapter": "India: Relief Features",
+    "level": "E",
+    "title": "India: Relief Features – Foundation Builder",
+    "difficulty": "Easy",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 30,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-01",
+    "recommendedDate": "2026-10-20",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 14
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q01",
+        "question": "Which mountains form India's major northern mountain barrier?",
+        "options": [
+          "Western Ghats",
+          "Eastern Ghats",
+          "Aravallis only",
+          "Himalayas"
+        ],
+        "answer": 3,
+        "explanation": "The Himalayan system extends along the northern part of the subcontinent.",
+        "difficulty": "Easy",
+        "topic": "Which mountains form India's major northern mountain barrier?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q02",
+        "question": "Which region is largely built from river-deposited alluvium?",
+        "options": [
+          "Himalayan high peaks",
+          "Lakshadweep coral islands",
+          "Northern Plains",
+          "Deccan Plateau's central lava region"
+        ],
+        "answer": 2,
+        "explanation": "The Indus-Ganga-Brahmaputra systems have deposited extensive alluvial plains.",
+        "difficulty": "Easy",
+        "topic": "Which region is largely built from river-deposited alluvium?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q03",
+        "question": "Which is generally higher and more continuous?",
+        "options": [
+          "Thar Desert dunes",
+          "Western Ghats",
+          "Eastern Ghats",
+          "Eastern coastal plain"
+        ],
+        "answer": 1,
+        "explanation": "The Western Ghats form a relatively continuous escarpment along the plateau's west.",
+        "difficulty": "Easy",
+        "topic": "Which is generally higher and more continuous?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q04",
+        "question": "Himalayas: which option correctly identifies the landform classification?",
+        "options": [
+          "Young fold mountains",
+          "Extensive alluvial plains",
+          "An old plateau region",
+          "A relatively continuous western escarpment"
+        ],
+        "answer": 0,
+        "explanation": "Himalayas — landform classification: Young fold mountains.",
+        "difficulty": "Easy",
+        "topic": "Himalayas · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q05",
+        "question": "Himalayas: which option correctly identifies the principal location?",
+        "options": [
+          "Peninsular interior of India",
+          "Western edge of the Peninsular Plateau",
+          "Eastern edge of the Peninsular Plateau",
+          "Northern edge of the Indian subcontinent"
+        ],
+        "answer": 3,
+        "explanation": "Himalayas — principal location: Northern edge of the Indian subcontinent.",
+        "difficulty": "Easy",
+        "topic": "Himalayas · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q06",
+        "question": "Himalayas: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Interrupted by several east-flowing rivers",
+          "Has low rainfall and extensive sandy areas",
+          "Formed through convergence involving the Indian and Eurasian plates",
+          "Intercept moisture-bearing southwest monsoon winds"
+        ],
+        "answer": 2,
+        "explanation": "Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates.",
+        "difficulty": "Easy",
+        "topic": "Himalayas · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q07",
+        "question": "Northern Plains: which option correctly identifies the landform classification?",
+        "options": [
+          "Discontinuous eastern hill ranges",
+          "Extensive alluvial plains",
+          "An old plateau region",
+          "A relatively continuous western escarpment"
+        ],
+        "answer": 1,
+        "explanation": "Northern Plains — landform classification: Extensive alluvial plains.",
+        "difficulty": "Easy",
+        "topic": "Northern Plains · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q08",
+        "question": "Northern Plains: which option correctly identifies the principal location?",
+        "options": [
+          "South of the Himalayas",
+          "Western edge of the Peninsular Plateau",
+          "Eastern edge of the Peninsular Plateau",
+          "Mainly western Rajasthan"
+        ],
+        "answer": 0,
+        "explanation": "Northern Plains — principal location: South of the Himalayas.",
+        "difficulty": "Easy",
+        "topic": "Northern Plains · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q09",
+        "question": "Northern Plains: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Interrupted by several east-flowing rivers",
+          "Has low rainfall and extensive sandy areas",
+          "Contains large deltas of several peninsular rivers",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems"
+        ],
+        "answer": 3,
+        "explanation": "Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems.",
+        "difficulty": "Easy",
+        "topic": "Northern Plains · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q10",
+        "question": "Peninsular Plateau: which option correctly identifies the landform classification?",
+        "options": [
+          "Discontinuous eastern hill ranges",
+          "An arid desert region",
+          "An old plateau region",
+          "A relatively continuous western escarpment"
+        ],
+        "answer": 2,
+        "explanation": "Peninsular Plateau — landform classification: An old plateau region.",
+        "difficulty": "Easy",
+        "topic": "Peninsular Plateau · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q11",
+        "question": "Peninsular Plateau: which option correctly identifies the principal location?",
+        "options": [
+          "Between the Western Ghats and Arabian Sea",
+          "Peninsular interior of India",
+          "Mainly western Rajasthan",
+          "Between the Eastern Ghats and Bay of Bengal"
+        ],
+        "answer": 1,
+        "explanation": "Peninsular Plateau — principal location: Peninsular interior of India.",
+        "difficulty": "Easy",
+        "topic": "Peninsular Plateau · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q12",
+        "question": "Peninsular Plateau: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Contains ancient crystalline rocks and several mineral-bearing areas",
+          "Has low rainfall and extensive sandy areas",
+          "Contains large deltas of several peninsular rivers",
+          "Includes the Konkan and Malabar coastal stretches"
+        ],
+        "answer": 0,
+        "explanation": "Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas.",
+        "difficulty": "Easy",
+        "topic": "Peninsular Plateau · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q13",
+        "question": "Western Ghats: which option correctly identifies the landform classification?",
+        "options": [
+          "Discontinuous eastern hill ranges",
+          "An arid desert region",
+          "A generally broad coastal lowland",
+          "A relatively continuous western escarpment"
+        ],
+        "answer": 3,
+        "explanation": "Western Ghats — landform classification: A relatively continuous western escarpment.",
+        "difficulty": "Easy",
+        "topic": "Western Ghats · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q14",
+        "question": "Western Ghats: which option correctly identifies the principal location?",
+        "options": [
+          "Between the Western Ghats and Arabian Sea",
+          "Arabian Sea southwest of the Indian mainland",
+          "Western edge of the Peninsular Plateau",
+          "Between the Eastern Ghats and Bay of Bengal"
+        ],
+        "answer": 2,
+        "explanation": "Western Ghats — principal location: Western edge of the Peninsular Plateau.",
+        "difficulty": "Easy",
+        "topic": "Western Ghats · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q15",
+        "question": "Western Ghats: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Associated with coral reef and atoll formations",
+          "Intercept moisture-bearing southwest monsoon winds",
+          "Contains large deltas of several peninsular rivers",
+          "Includes the Konkan and Malabar coastal stretches"
+        ],
+        "answer": 1,
+        "explanation": "Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds.",
+        "difficulty": "Easy",
+        "topic": "Western Ghats · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q16",
+        "question": "Eastern Ghats: which option correctly identifies the landform classification?",
+        "options": [
+          "Discontinuous eastern hill ranges",
+          "An arid desert region",
+          "A generally broad coastal lowland",
+          "A generally narrow coastal lowland"
+        ],
+        "answer": 0,
+        "explanation": "Eastern Ghats — landform classification: Discontinuous eastern hill ranges.",
+        "difficulty": "Easy",
+        "topic": "Eastern Ghats · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q17",
+        "question": "Eastern Ghats: which option correctly identifies the principal location?",
+        "options": [
+          "Between the Western Ghats and Arabian Sea",
+          "Arabian Sea southwest of the Indian mainland",
+          "Northern edge of the Indian subcontinent",
+          "Eastern edge of the Peninsular Plateau"
+        ],
+        "answer": 3,
+        "explanation": "Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau.",
+        "difficulty": "Easy",
+        "topic": "Eastern Ghats · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q18",
+        "question": "Eastern Ghats: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Associated with coral reef and atoll formations",
+          "Formed through convergence involving the Indian and Eurasian plates",
+          "Interrupted by several east-flowing rivers",
+          "Includes the Konkan and Malabar coastal stretches"
+        ],
+        "answer": 2,
+        "explanation": "Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers.",
+        "difficulty": "Easy",
+        "topic": "Eastern Ghats · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q19",
+        "question": "Thar Desert: which option correctly identifies the landform classification?",
+        "options": [
+          "A coral-island group",
+          "An arid desert region",
+          "A generally broad coastal lowland",
+          "A generally narrow coastal lowland"
+        ],
+        "answer": 1,
+        "explanation": "Thar Desert — landform classification: An arid desert region.",
+        "difficulty": "Easy",
+        "topic": "Thar Desert · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q20",
+        "question": "Thar Desert: which option correctly identifies the principal location?",
+        "options": [
+          "Mainly western Rajasthan",
+          "Arabian Sea southwest of the Indian mainland",
+          "Northern edge of the Indian subcontinent",
+          "Peninsular interior of India"
+        ],
+        "answer": 0,
+        "explanation": "Thar Desert — principal location: Mainly western Rajasthan.",
+        "difficulty": "Easy",
+        "topic": "Thar Desert · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q21",
+        "question": "Thar Desert: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Associated with coral reef and atoll formations",
+          "Formed through convergence involving the Indian and Eurasian plates",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "Has low rainfall and extensive sandy areas"
+        ],
+        "answer": 3,
+        "explanation": "Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas.",
+        "difficulty": "Easy",
+        "topic": "Thar Desert · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q22",
+        "question": "Eastern Coastal Plain: which option correctly identifies the landform classification?",
+        "options": [
+          "A coral-island group",
+          "Young fold mountains",
+          "A generally broad coastal lowland",
+          "A generally narrow coastal lowland"
+        ],
+        "answer": 2,
+        "explanation": "Eastern Coastal Plain — landform classification: A generally broad coastal lowland.",
+        "difficulty": "Easy",
+        "topic": "Eastern Coastal Plain · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q23",
+        "question": "Eastern Coastal Plain: which option correctly identifies the principal location?",
+        "options": [
+          "Western edge of the Peninsular Plateau",
+          "Between the Eastern Ghats and Bay of Bengal",
+          "Northern edge of the Indian subcontinent",
+          "Peninsular interior of India"
+        ],
+        "answer": 1,
+        "explanation": "Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal.",
+        "difficulty": "Easy",
+        "topic": "Eastern Coastal Plain · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q24",
+        "question": "Eastern Coastal Plain: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Contains large deltas of several peninsular rivers",
+          "Formed through convergence involving the Indian and Eurasian plates",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "Contains ancient crystalline rocks and several mineral-bearing areas"
+        ],
+        "answer": 0,
+        "explanation": "Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers.",
+        "difficulty": "Easy",
+        "topic": "Eastern Coastal Plain · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q25",
+        "question": "Western Coastal Plain: which option correctly identifies the landform classification?",
+        "options": [
+          "A coral-island group",
+          "Young fold mountains",
+          "Extensive alluvial plains",
+          "A generally narrow coastal lowland"
+        ],
+        "answer": 3,
+        "explanation": "Western Coastal Plain — landform classification: A generally narrow coastal lowland.",
+        "difficulty": "Easy",
+        "topic": "Western Coastal Plain · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q26",
+        "question": "Western Coastal Plain: which option correctly identifies the principal location?",
+        "options": [
+          "Western edge of the Peninsular Plateau",
+          "Eastern edge of the Peninsular Plateau",
+          "Between the Western Ghats and Arabian Sea",
+          "Peninsular interior of India"
+        ],
+        "answer": 2,
+        "explanation": "Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea.",
+        "difficulty": "Easy",
+        "topic": "Western Coastal Plain · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q27",
+        "question": "Western Coastal Plain: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Intercept moisture-bearing southwest monsoon winds",
+          "Includes the Konkan and Malabar coastal stretches",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "Contains ancient crystalline rocks and several mineral-bearing areas"
+        ],
+        "answer": 1,
+        "explanation": "Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches.",
+        "difficulty": "Easy",
+        "topic": "Western Coastal Plain · distinguishing geographical description",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q28",
+        "question": "Lakshadweep: which option correctly identifies the landform classification?",
+        "options": [
+          "A coral-island group",
+          "Young fold mountains",
+          "Extensive alluvial plains",
+          "An old plateau region"
+        ],
+        "answer": 0,
+        "explanation": "Lakshadweep — landform classification: A coral-island group.",
+        "difficulty": "Easy",
+        "topic": "Lakshadweep · landform classification",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q29",
+        "question": "Lakshadweep: which option correctly identifies the principal location?",
+        "options": [
+          "Western edge of the Peninsular Plateau",
+          "Eastern edge of the Peninsular Plateau",
+          "Mainly western Rajasthan",
+          "Arabian Sea southwest of the Indian mainland"
+        ],
+        "answer": 3,
+        "explanation": "Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland.",
+        "difficulty": "Easy",
+        "topic": "Lakshadweep · principal location",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-E-Q30",
+        "question": "Lakshadweep: which option correctly identifies the distinguishing geographical description?",
+        "options": [
+          "Intercept moisture-bearing southwest monsoon winds",
+          "Interrupted by several east-flowing rivers",
+          "Associated with coral reef and atoll formations",
+          "Contains ancient crystalline rocks and several mineral-bearing areas"
+        ],
+        "answer": 2,
+        "explanation": "Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations.",
+        "difficulty": "Easy",
+        "topic": "Lakshadweep · distinguishing geographical description",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH01-M": {
+    "id": "SA-DPP-27-SOC-CH01-M",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch1",
+    "chapterNumber": 1,
+    "chapter": "India: Relief Features",
+    "level": "M",
+    "title": "India: Relief Features – Concept Master",
+    "difficulty": "Medium",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 45,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-01",
+    "recommendedDate": "2026-10-21",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 14
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q01",
+        "question": "Why are the Northern Plains suitable for intensive agriculture?",
+        "options": [
+          "An absence of rivers",
+          "Only steep slopes",
+          "Level land, alluvial soils and river water",
+          "Permanent snow cover"
+        ],
+        "answer": 2,
+        "explanation": "Physical conditions facilitate cultivation, although productivity also depends on human inputs.",
+        "difficulty": "Medium",
+        "topic": "Why are the Northern Plains suitable for intensive agriculture?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q02",
+        "question": "Which landform is associated with the older crystalline rocks of peninsular India?",
+        "options": [
+          "Coastal coral reefs only",
+          "Peninsular Plateau",
+          "Young Himalayan fold ranges",
+          "Recent river delta deposits only"
+        ],
+        "answer": 1,
+        "explanation": "The plateau is geologically older than the young Himalayan mountain system.",
+        "difficulty": "Medium",
+        "topic": "Which landform is associated with the older crystalline rocks of peninsular India?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q03",
+        "question": "Why do several east-flowing peninsular rivers form deltas?",
+        "options": [
+          "They deposit sediments near their mouths",
+          "They originate in the sea",
+          "They flow only underground",
+          "They contain no sediment"
+        ],
+        "answer": 0,
+        "explanation": "Reduced velocity at the coast allows sediment accumulation.",
+        "difficulty": "Medium",
+        "topic": "Why do several east-flowing peninsular rivers form deltas?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q04",
+        "question": "Which pair correctly matches Himalayas with its landform classification and principal location, in that order?",
+        "options": [
+          "Extensive alluvial plains → Northern edge of the Indian subcontinent",
+          "Young fold mountains → South of the Himalayas",
+          "An old plateau region → Peninsular interior of India",
+          "Young fold mountains → Northern edge of the Indian subcontinent"
+        ],
+        "answer": 3,
+        "explanation": "Himalayas — landform classification: Young fold mountains. Himalayas — principal location: Northern edge of the Indian subcontinent. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Himalayas",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q05",
+        "question": "Which pair correctly matches Himalayas with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Northern edge of the Indian subcontinent → Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "Western edge of the Peninsular Plateau → Contains ancient crystalline rocks and several mineral-bearing areas",
+          "Northern edge of the Indian subcontinent → Formed through convergence involving the Indian and Eurasian plates",
+          "Peninsular interior of India → Formed through convergence involving the Indian and Eurasian plates"
+        ],
+        "answer": 2,
+        "explanation": "Himalayas — principal location: Northern edge of the Indian subcontinent. Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Himalayas",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q06",
+        "question": "Which pair correctly matches Himalayas with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Interrupted by several east-flowing rivers → An old plateau region",
+          "Formed through convergence involving the Indian and Eurasian plates → Young fold mountains",
+          "Intercept moisture-bearing southwest monsoon winds → Young fold mountains",
+          "Formed through convergence involving the Indian and Eurasian plates → Extensive alluvial plains"
+        ],
+        "answer": 1,
+        "explanation": "Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates. Himalayas — landform classification: Young fold mountains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Himalayas",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q07",
+        "question": "Which pair correctly matches Northern Plains with its landform classification and principal location, in that order?",
+        "options": [
+          "Extensive alluvial plains → South of the Himalayas",
+          "An old plateau region → South of the Himalayas",
+          "Extensive alluvial plains → Peninsular interior of India",
+          "A relatively continuous western escarpment → Western edge of the Peninsular Plateau"
+        ],
+        "answer": 0,
+        "explanation": "Northern Plains — landform classification: Extensive alluvial plains. Northern Plains — principal location: South of the Himalayas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Northern Plains",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q08",
+        "question": "Which pair correctly matches Northern Plains with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Western edge of the Peninsular Plateau → Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "South of the Himalayas → Contains ancient crystalline rocks and several mineral-bearing areas",
+          "Eastern edge of the Peninsular Plateau → Intercept moisture-bearing southwest monsoon winds",
+          "South of the Himalayas → Built largely by deposits of the Indus-Ganga-Brahmaputra river systems"
+        ],
+        "answer": 3,
+        "explanation": "Northern Plains — principal location: South of the Himalayas. Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Northern Plains",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q09",
+        "question": "Which pair correctly matches Northern Plains with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems → An old plateau region",
+          "Has low rainfall and extensive sandy areas → A relatively continuous western escarpment",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems → Extensive alluvial plains",
+          "Interrupted by several east-flowing rivers → Extensive alluvial plains"
+        ],
+        "answer": 2,
+        "explanation": "Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems. Northern Plains — landform classification: Extensive alluvial plains. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Northern Plains",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q10",
+        "question": "Which pair correctly matches Peninsular Plateau with its landform classification and principal location, in that order?",
+        "options": [
+          "Discontinuous eastern hill ranges → Mainly western Rajasthan",
+          "An old plateau region → Peninsular interior of India",
+          "A relatively continuous western escarpment → Peninsular interior of India",
+          "An old plateau region → Eastern edge of the Peninsular Plateau"
+        ],
+        "answer": 1,
+        "explanation": "Peninsular Plateau — landform classification: An old plateau region. Peninsular Plateau — principal location: Peninsular interior of India. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peninsular Plateau",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q11",
+        "question": "Which pair correctly matches Peninsular Plateau with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Peninsular interior of India → Contains ancient crystalline rocks and several mineral-bearing areas",
+          "Mainly western Rajasthan → Contains ancient crystalline rocks and several mineral-bearing areas",
+          "Peninsular interior of India → Intercept moisture-bearing southwest monsoon winds",
+          "Between the Eastern Ghats and Bay of Bengal → Interrupted by several east-flowing rivers"
+        ],
+        "answer": 0,
+        "explanation": "Peninsular Plateau — principal location: Peninsular interior of India. Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peninsular Plateau",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q12",
+        "question": "Which pair correctly matches Peninsular Plateau with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Has low rainfall and extensive sandy areas → An old plateau region",
+          "Contains ancient crystalline rocks and several mineral-bearing areas → A relatively continuous western escarpment",
+          "Contains large deltas of several peninsular rivers → Discontinuous eastern hill ranges",
+          "Contains ancient crystalline rocks and several mineral-bearing areas → An old plateau region"
+        ],
+        "answer": 3,
+        "explanation": "Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas. Peninsular Plateau — landform classification: An old plateau region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Peninsular Plateau",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q13",
+        "question": "Which pair correctly matches Western Ghats with its landform classification and principal location, in that order?",
+        "options": [
+          "A relatively continuous western escarpment → Mainly western Rajasthan",
+          "An arid desert region → Between the Eastern Ghats and Bay of Bengal",
+          "A relatively continuous western escarpment → Western edge of the Peninsular Plateau",
+          "Discontinuous eastern hill ranges → Western edge of the Peninsular Plateau"
+        ],
+        "answer": 2,
+        "explanation": "Western Ghats — landform classification: A relatively continuous western escarpment. Western Ghats — principal location: Western edge of the Peninsular Plateau. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q14",
+        "question": "Which pair correctly matches Western Ghats with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Between the Western Ghats and Arabian Sea → Has low rainfall and extensive sandy areas",
+          "Western edge of the Peninsular Plateau → Intercept moisture-bearing southwest monsoon winds",
+          "Between the Eastern Ghats and Bay of Bengal → Intercept moisture-bearing southwest monsoon winds",
+          "Western edge of the Peninsular Plateau → Interrupted by several east-flowing rivers"
+        ],
+        "answer": 1,
+        "explanation": "Western Ghats — principal location: Western edge of the Peninsular Plateau. Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q15",
+        "question": "Which pair correctly matches Western Ghats with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Intercept moisture-bearing southwest monsoon winds → A relatively continuous western escarpment",
+          "Contains large deltas of several peninsular rivers → A relatively continuous western escarpment",
+          "Intercept moisture-bearing southwest monsoon winds → Discontinuous eastern hill ranges",
+          "Includes the Konkan and Malabar coastal stretches → An arid desert region"
+        ],
+        "answer": 0,
+        "explanation": "Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds. Western Ghats — landform classification: A relatively continuous western escarpment. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q16",
+        "question": "Which pair correctly matches Eastern Ghats with its landform classification and principal location, in that order?",
+        "options": [
+          "An arid desert region → Eastern edge of the Peninsular Plateau",
+          "Discontinuous eastern hill ranges → Between the Eastern Ghats and Bay of Bengal",
+          "A generally broad coastal lowland → Between the Western Ghats and Arabian Sea",
+          "Discontinuous eastern hill ranges → Eastern edge of the Peninsular Plateau"
+        ],
+        "answer": 3,
+        "explanation": "Eastern Ghats — landform classification: Discontinuous eastern hill ranges. Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q17",
+        "question": "Which pair correctly matches Eastern Ghats with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Eastern edge of the Peninsular Plateau → Has low rainfall and extensive sandy areas",
+          "Arabian Sea southwest of the Indian mainland → Contains large deltas of several peninsular rivers",
+          "Eastern edge of the Peninsular Plateau → Interrupted by several east-flowing rivers",
+          "Between the Western Ghats and Arabian Sea → Interrupted by several east-flowing rivers"
+        ],
+        "answer": 2,
+        "explanation": "Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau. Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q18",
+        "question": "Which pair correctly matches Eastern Ghats with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Associated with coral reef and atoll formations → A generally broad coastal lowland",
+          "Interrupted by several east-flowing rivers → Discontinuous eastern hill ranges",
+          "Includes the Konkan and Malabar coastal stretches → Discontinuous eastern hill ranges",
+          "Interrupted by several east-flowing rivers → An arid desert region"
+        ],
+        "answer": 1,
+        "explanation": "Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers. Eastern Ghats — landform classification: Discontinuous eastern hill ranges. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Ghats",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q19",
+        "question": "Which pair correctly matches Thar Desert with its landform classification and principal location, in that order?",
+        "options": [
+          "An arid desert region → Mainly western Rajasthan",
+          "A generally broad coastal lowland → Mainly western Rajasthan",
+          "An arid desert region → Between the Western Ghats and Arabian Sea",
+          "A generally narrow coastal lowland → Arabian Sea southwest of the Indian mainland"
+        ],
+        "answer": 0,
+        "explanation": "Thar Desert — landform classification: An arid desert region. Thar Desert — principal location: Mainly western Rajasthan. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thar Desert",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q20",
+        "question": "Which pair correctly matches Thar Desert with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Arabian Sea southwest of the Indian mainland → Has low rainfall and extensive sandy areas",
+          "Mainly western Rajasthan → Contains large deltas of several peninsular rivers",
+          "Northern edge of the Indian subcontinent → Includes the Konkan and Malabar coastal stretches",
+          "Mainly western Rajasthan → Has low rainfall and extensive sandy areas"
+        ],
+        "answer": 3,
+        "explanation": "Thar Desert — principal location: Mainly western Rajasthan. Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thar Desert",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q21",
+        "question": "Which pair correctly matches Thar Desert with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Has low rainfall and extensive sandy areas → A generally broad coastal lowland",
+          "Formed through convergence involving the Indian and Eurasian plates → A generally narrow coastal lowland",
+          "Has low rainfall and extensive sandy areas → An arid desert region",
+          "Associated with coral reef and atoll formations → An arid desert region"
+        ],
+        "answer": 2,
+        "explanation": "Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas. Thar Desert — landform classification: An arid desert region. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Thar Desert",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q22",
+        "question": "Which pair correctly matches Eastern Coastal Plain with its landform classification and principal location, in that order?",
+        "options": [
+          "A coral-island group → Northern edge of the Indian subcontinent",
+          "A generally broad coastal lowland → Between the Eastern Ghats and Bay of Bengal",
+          "A generally narrow coastal lowland → Between the Eastern Ghats and Bay of Bengal",
+          "A generally broad coastal lowland → Arabian Sea southwest of the Indian mainland"
+        ],
+        "answer": 1,
+        "explanation": "Eastern Coastal Plain — landform classification: A generally broad coastal lowland. Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q23",
+        "question": "Which pair correctly matches Eastern Coastal Plain with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Between the Eastern Ghats and Bay of Bengal → Contains large deltas of several peninsular rivers",
+          "Northern edge of the Indian subcontinent → Contains large deltas of several peninsular rivers",
+          "Between the Eastern Ghats and Bay of Bengal → Includes the Konkan and Malabar coastal stretches",
+          "Peninsular interior of India → Associated with coral reef and atoll formations"
+        ],
+        "answer": 0,
+        "explanation": "Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal. Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q24",
+        "question": "Which pair correctly matches Eastern Coastal Plain with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Formed through convergence involving the Indian and Eurasian plates → A generally broad coastal lowland",
+          "Contains large deltas of several peninsular rivers → A generally narrow coastal lowland",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems → A coral-island group",
+          "Contains large deltas of several peninsular rivers → A generally broad coastal lowland"
+        ],
+        "answer": 3,
+        "explanation": "Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers. Eastern Coastal Plain — landform classification: A generally broad coastal lowland. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Eastern Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q25",
+        "question": "Which pair correctly matches Western Coastal Plain with its landform classification and principal location, in that order?",
+        "options": [
+          "A generally narrow coastal lowland → Northern edge of the Indian subcontinent",
+          "Young fold mountains → Peninsular interior of India",
+          "A generally narrow coastal lowland → Between the Western Ghats and Arabian Sea",
+          "A coral-island group → Between the Western Ghats and Arabian Sea"
+        ],
+        "answer": 2,
+        "explanation": "Western Coastal Plain — landform classification: A generally narrow coastal lowland. Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q26",
+        "question": "Which pair correctly matches Western Coastal Plain with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Western edge of the Peninsular Plateau → Formed through convergence involving the Indian and Eurasian plates",
+          "Between the Western Ghats and Arabian Sea → Includes the Konkan and Malabar coastal stretches",
+          "Peninsular interior of India → Includes the Konkan and Malabar coastal stretches",
+          "Between the Western Ghats and Arabian Sea → Associated with coral reef and atoll formations"
+        ],
+        "answer": 1,
+        "explanation": "Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea. Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q27",
+        "question": "Which pair correctly matches Western Coastal Plain with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Includes the Konkan and Malabar coastal stretches → A generally narrow coastal lowland",
+          "Built largely by deposits of the Indus-Ganga-Brahmaputra river systems → A generally narrow coastal lowland",
+          "Includes the Konkan and Malabar coastal stretches → A coral-island group",
+          "Contains ancient crystalline rocks and several mineral-bearing areas → Young fold mountains"
+        ],
+        "answer": 0,
+        "explanation": "Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches. Western Coastal Plain — landform classification: A generally narrow coastal lowland. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Western Coastal Plain",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q28",
+        "question": "Which pair correctly matches Lakshadweep with its landform classification and principal location, in that order?",
+        "options": [
+          "Young fold mountains → Arabian Sea southwest of the Indian mainland",
+          "A coral-island group → Peninsular interior of India",
+          "Extensive alluvial plains → Western edge of the Peninsular Plateau",
+          "A coral-island group → Arabian Sea southwest of the Indian mainland"
+        ],
+        "answer": 3,
+        "explanation": "Lakshadweep — landform classification: A coral-island group. Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lakshadweep",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q29",
+        "question": "Which pair correctly matches Lakshadweep with its principal location and distinguishing geographical description, in that order?",
+        "options": [
+          "Arabian Sea southwest of the Indian mainland → Formed through convergence involving the Indian and Eurasian plates",
+          "Eastern edge of the Peninsular Plateau → Built largely by deposits of the Indus-Ganga-Brahmaputra river systems",
+          "Arabian Sea southwest of the Indian mainland → Associated with coral reef and atoll formations",
+          "Western edge of the Peninsular Plateau → Associated with coral reef and atoll formations"
+        ],
+        "answer": 2,
+        "explanation": "Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland. Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lakshadweep",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-M-Q30",
+        "question": "Which pair correctly matches Lakshadweep with its distinguishing geographical description and landform classification, in that order?",
+        "options": [
+          "Intercept moisture-bearing southwest monsoon winds → Extensive alluvial plains",
+          "Associated with coral reef and atoll formations → A coral-island group",
+          "Contains ancient crystalline rocks and several mineral-bearing areas → A coral-island group",
+          "Associated with coral reef and atoll formations → Young fold mountains"
+        ],
+        "answer": 1,
+        "explanation": "Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations. Lakshadweep — landform classification: A coral-island group. Both parts must be correct.",
+        "difficulty": "Medium",
+        "topic": "Lakshadweep",
+        "sourceChapter": 1
+      }
+    ]
+  },
+  "SA-DPP-27-SOC-CH01-H": {
+    "id": "SA-DPP-27-SOC-CH01-H",
+    "kind": "dpp",
+    "subjectId": "social-science",
+    "subject": "Social Studies",
+    "subjectCode": "SOC",
+    "chapterId": "c10-social-science-ch1",
+    "chapterNumber": 1,
+    "chapter": "India: Relief Features",
+    "level": "H",
+    "title": "India: Relief Features – Board Challenger",
+    "difficulty": "Hard",
+    "pricePaise": 0,
+    "suggestedQuestionCount": 30,
+    "suggestedDurationMinutes": 60,
+    "status": "published",
+    "contentComplete": true,
+    "purchaseEnabled": false,
+    "evaluationMethod": "Auto-scored MCQs with answer explanations; 30-question chapter practice, not a full board paper.",
+    "unlocked": true,
+    "questionCount": 30,
+    "maximumMarks": 30,
+    "contentVersion": "textbook-dpps-30q-2026-10-26",
+    "contentFile": "data/mission600/dpps/social-science/chapter-01.json",
+    "scheduledWeek": 2,
+    "lectureId": "SA-M600-LEC-W02-SOC-01",
+    "recommendedDate": "2026-10-22",
+    "sourceBook": "CLASS 10 SOCIAL.pdf",
+    "sourceChapter": 1,
+    "sourcePrintedPages": {
+      "from": 1,
+      "to": 14
+    },
+    "questions": [
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q01",
+        "question": "Why should relief be considered when comparing transport costs across regions?",
+        "options": [
+          "Plateaus cannot have roads",
+          "Steep slopes and mountain barriers can raise construction difficulties",
+          "All terrains have identical construction requirements",
+          "Rivers remove every transport barrier"
+        ],
+        "answer": 1,
+        "explanation": "Relief influences routes, gradients, bridges and engineering needs.",
+        "difficulty": "Hard",
+        "topic": "Why should relief be considered when comparing transport costs across regions?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q02",
+        "question": "What best explains why relief alone cannot determine a region's prosperity?",
+        "options": [
+          "Technology, institutions and social conditions also affect development",
+          "Physical geography has no influence anywhere",
+          "Mountains always prevent all economic activity",
+          "Every plain has identical income"
+        ],
+        "answer": 0,
+        "explanation": "Geography creates opportunities and constraints, but human factors shape outcomes.",
+        "difficulty": "Hard",
+        "topic": "What best explains why relief alone cannot determine a region's prosperity?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q03",
+        "question": "How can Himalayan relief influence climate and water availability together?",
+        "options": [
+          "It eliminates seasonal rainfall everywhere",
+          "It stops all river flow to plains",
+          "It makes all peninsular rivers perennial",
+          "It affects air movement and supports snow- and glacier-fed river systems"
+        ],
+        "answer": 3,
+        "explanation": "The mountain system interacts with atmospheric circulation and river headwaters.",
+        "difficulty": "Hard",
+        "topic": "How can Himalayan relief influence climate and water availability together?",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q04",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Himalayas — landform classification: Extensive alluvial plains\nII. Eastern Ghats — principal location: Peninsular interior of India\nIII. Western Coastal Plain — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Himalayas — landform classification: Young fold mountains; Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau; Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches.",
+        "difficulty": "Hard",
+        "topic": "Himalayas · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q05",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Himalayas — principal location: Northern edge of the Indian subcontinent\nII. Eastern Ghats — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas\nIII. Western Coastal Plain — landform classification: A relatively continuous western escarpment",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Himalayas — principal location: Northern edge of the Indian subcontinent; Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers; Western Coastal Plain — landform classification: A generally narrow coastal lowland.",
+        "difficulty": "Hard",
+        "topic": "Himalayas · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q06",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Himalayas — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds\nII. Eastern Ghats — landform classification: Discontinuous eastern hill ranges\nIII. Western Coastal Plain — principal location: Mainly western Rajasthan",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates; Eastern Ghats — landform classification: Discontinuous eastern hill ranges; Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea.",
+        "difficulty": "Hard",
+        "topic": "Himalayas · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q07",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Northern Plains — landform classification: Extensive alluvial plains\nII. Thar Desert — principal location: Mainly western Rajasthan\nIII. Lakshadweep — distinguishing geographical description: Has low rainfall and extensive sandy areas",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Northern Plains — landform classification: Extensive alluvial plains; Thar Desert — principal location: Mainly western Rajasthan; Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations.",
+        "difficulty": "Hard",
+        "topic": "Northern Plains · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q08",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Northern Plains — principal location: Mainly western Rajasthan\nII. Thar Desert — distinguishing geographical description: Contains large deltas of several peninsular rivers\nIII. Lakshadweep — landform classification: A coral-island group",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Northern Plains — principal location: South of the Himalayas; Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas; Lakshadweep — landform classification: A coral-island group.",
+        "difficulty": "Hard",
+        "topic": "Northern Plains · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q09",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems\nII. Thar Desert — landform classification: A generally narrow coastal lowland\nIII. Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems; Thar Desert — landform classification: An arid desert region; Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland.",
+        "difficulty": "Hard",
+        "topic": "Northern Plains · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q10",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peninsular Plateau — landform classification: A generally narrow coastal lowland\nII. Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal\nIII. Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Peninsular Plateau — landform classification: An old plateau region; Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal; Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates.",
+        "difficulty": "Hard",
+        "topic": "Peninsular Plateau · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q11",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peninsular Plateau — principal location: Peninsular interior of India\nII. Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers\nIII. Himalayas — landform classification: Young fold mountains",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Peninsular Plateau — principal location: Peninsular interior of India; Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers; Himalayas — landform classification: Young fold mountains.",
+        "difficulty": "Hard",
+        "topic": "Peninsular Plateau · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q12",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Peninsular Plateau — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates\nII. Eastern Coastal Plain — landform classification: Extensive alluvial plains\nIII. Himalayas — principal location: Western edge of the Peninsular Plateau",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas; Eastern Coastal Plain — landform classification: A generally broad coastal lowland; Himalayas — principal location: Northern edge of the Indian subcontinent.",
+        "difficulty": "Hard",
+        "topic": "Peninsular Plateau · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q13",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Ghats — landform classification: A relatively continuous western escarpment\nII. Western Coastal Plain — principal location: Eastern edge of the Peninsular Plateau\nIII. Northern Plains — distinguishing geographical description: Interrupted by several east-flowing rivers",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Western Ghats — landform classification: A relatively continuous western escarpment; Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea; Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems.",
+        "difficulty": "Hard",
+        "topic": "Western Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q14",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Ghats — principal location: Mainly western Rajasthan\nII. Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches\nIII. Northern Plains — landform classification: An arid desert region",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Western Ghats — principal location: Western edge of the Peninsular Plateau; Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches; Northern Plains — landform classification: Extensive alluvial plains.",
+        "difficulty": "Hard",
+        "topic": "Western Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q15",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds\nII. Western Coastal Plain — landform classification: A generally narrow coastal lowland\nIII. Northern Plains — principal location: Between the Eastern Ghats and Bay of Bengal",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds; Western Coastal Plain — landform classification: A generally narrow coastal lowland; Northern Plains — principal location: South of the Himalayas.",
+        "difficulty": "Hard",
+        "topic": "Western Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q16",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Ghats — landform classification: An arid desert region\nII. Lakshadweep — principal location: Between the Western Ghats and Arabian Sea\nIII. Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Eastern Ghats — landform classification: Discontinuous eastern hill ranges; Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland; Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas.",
+        "difficulty": "Hard",
+        "topic": "Eastern Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q17",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau\nII. Lakshadweep — distinguishing geographical description: Contains large deltas of several peninsular rivers\nIII. Peninsular Plateau — landform classification: An old plateau region",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau; Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations; Peninsular Plateau — landform classification: An old plateau region.",
+        "difficulty": "Hard",
+        "topic": "Eastern Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q18",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Ghats — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches\nII. Lakshadweep — landform classification: A coral-island group\nIII. Peninsular Plateau — principal location: Peninsular interior of India",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers; Lakshadweep — landform classification: A coral-island group; Peninsular Plateau — principal location: Peninsular interior of India.",
+        "difficulty": "Hard",
+        "topic": "Eastern Ghats · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q19",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thar Desert — landform classification: An arid desert region\nII. Himalayas — principal location: Northern edge of the Indian subcontinent\nIII. Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Thar Desert — landform classification: An arid desert region; Himalayas — principal location: Northern edge of the Indian subcontinent; Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds.",
+        "difficulty": "Hard",
+        "topic": "Thar Desert · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q20",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thar Desert — principal location: Western edge of the Peninsular Plateau\nII. Himalayas — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas\nIII. Western Ghats — landform classification: An old plateau region",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Thar Desert — principal location: Mainly western Rajasthan; Himalayas — distinguishing geographical description: Formed through convergence involving the Indian and Eurasian plates; Western Ghats — landform classification: A relatively continuous western escarpment.",
+        "difficulty": "Hard",
+        "topic": "Thar Desert · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q21",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas\nII. Himalayas — landform classification: A relatively continuous western escarpment\nIII. Western Ghats — principal location: Between the Western Ghats and Arabian Sea",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas; Himalayas — landform classification: Young fold mountains; Western Ghats — principal location: Western edge of the Peninsular Plateau.",
+        "difficulty": "Hard",
+        "topic": "Thar Desert · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q22",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Coastal Plain — landform classification: An old plateau region\nII. Northern Plains — principal location: South of the Himalayas\nIII. Eastern Ghats — distinguishing geographical description: Has low rainfall and extensive sandy areas",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Eastern Coastal Plain — landform classification: A generally broad coastal lowland; Northern Plains — principal location: South of the Himalayas; Eastern Ghats — distinguishing geographical description: Interrupted by several east-flowing rivers.",
+        "difficulty": "Hard",
+        "topic": "Eastern Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q23",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal\nII. Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems\nIII. Eastern Ghats — landform classification: A generally broad coastal lowland",
+        "options": [
+          "II",
+          "I",
+          "I, II, III",
+          "I, II"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II. Check against the accurate associations: Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal; Northern Plains — distinguishing geographical description: Built largely by deposits of the Indus-Ganga-Brahmaputra river systems; Eastern Ghats — landform classification: Discontinuous eastern hill ranges.",
+        "difficulty": "Hard",
+        "topic": "Eastern Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q24",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Eastern Coastal Plain — distinguishing geographical description: Interrupted by several east-flowing rivers\nII. Northern Plains — landform classification: A generally broad coastal lowland\nIII. Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau",
+        "options": [
+          "II, III",
+          "None",
+          "III",
+          "I, III"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: III. Check against the accurate associations: Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers; Northern Plains — landform classification: Extensive alluvial plains; Eastern Ghats — principal location: Eastern edge of the Peninsular Plateau.",
+        "difficulty": "Hard",
+        "topic": "Eastern Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q25",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Coastal Plain — landform classification: A generally narrow coastal lowland\nII. Peninsular Plateau — principal location: Western edge of the Peninsular Plateau\nIII. Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas",
+        "options": [
+          "I",
+          "I, III",
+          "III",
+          "I, II, III"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I, III. Check against the accurate associations: Western Coastal Plain — landform classification: A generally narrow coastal lowland; Peninsular Plateau — principal location: Peninsular interior of India; Thar Desert — distinguishing geographical description: Has low rainfall and extensive sandy areas.",
+        "difficulty": "Hard",
+        "topic": "Western Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q26",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Coastal Plain — principal location: Peninsular interior of India\nII. Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas\nIII. Thar Desert — landform classification: An arid desert region",
+        "options": [
+          "II, III",
+          "I, II, III",
+          "III",
+          "II"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II, III. Check against the accurate associations: Western Coastal Plain — principal location: Between the Western Ghats and Arabian Sea; Peninsular Plateau — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas; Thar Desert — landform classification: An arid desert region.",
+        "difficulty": "Hard",
+        "topic": "Western Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q27",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches\nII. Peninsular Plateau — landform classification: An old plateau region\nIII. Thar Desert — principal location: Mainly western Rajasthan",
+        "options": [
+          "II, III",
+          "I, III",
+          "I, II",
+          "I, II, III"
+        ],
+        "answer": 3,
+        "explanation": "Correct set: I, II, III. Check against the accurate associations: Western Coastal Plain — distinguishing geographical description: Includes the Konkan and Malabar coastal stretches; Peninsular Plateau — landform classification: An old plateau region; Thar Desert — principal location: Mainly western Rajasthan.",
+        "difficulty": "Hard",
+        "topic": "Western Coastal Plain · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q28",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lakshadweep — landform classification: Young fold mountains\nII. Western Ghats — principal location: Between the Eastern Ghats and Bay of Bengal\nIII. Eastern Coastal Plain — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas",
+        "options": [
+          "II",
+          "III",
+          "None",
+          "I"
+        ],
+        "answer": 2,
+        "explanation": "Correct set: None. Check against the accurate associations: Lakshadweep — landform classification: A coral-island group; Western Ghats — principal location: Western edge of the Peninsular Plateau; Eastern Coastal Plain — distinguishing geographical description: Contains large deltas of several peninsular rivers.",
+        "difficulty": "Hard",
+        "topic": "Lakshadweep · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q29",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland\nII. Western Ghats — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas\nIII. Eastern Coastal Plain — landform classification: A relatively continuous western escarpment",
+        "options": [
+          "I, III",
+          "I",
+          "None",
+          "I, II"
+        ],
+        "answer": 1,
+        "explanation": "Correct set: I. Check against the accurate associations: Lakshadweep — principal location: Arabian Sea southwest of the Indian mainland; Western Ghats — distinguishing geographical description: Intercept moisture-bearing southwest monsoon winds; Eastern Coastal Plain — landform classification: A generally broad coastal lowland.",
+        "difficulty": "Hard",
+        "topic": "Lakshadweep · comparing chapter concepts",
+        "sourceChapter": 1
+      },
+      {
+        "id": "SA-DPP-27-SOC-CH01-H-Q30",
+        "question": "Evaluate these chapter statements. Which are correct?\nI. Lakshadweep — distinguishing geographical description: Contains ancient crystalline rocks and several mineral-bearing areas\nII. Western Ghats — landform classification: A relatively continuous western escarpment\nIII. Eastern Coastal Plain — principal location: Northern edge of the Indian subcontinent",
+        "options": [
+          "II",
+          "I, II",
+          "None",
+          "II, III"
+        ],
+        "answer": 0,
+        "explanation": "Correct set: II. Check against the accurate associations: Lakshadweep — distinguishing geographical description: Associated with coral reef and atoll formations; Western Ghats — landform classification: A relatively continuous western escarpment; Eastern Coastal Plain — principal location: Between the Eastern Ghats and Bay of Bengal.",
+        "difficulty": "Hard",
+        "topic": "Lakshadweep · comparing chapter concepts",
+        "sourceChapter": 1
+      }
+    ]
+  }
+}
