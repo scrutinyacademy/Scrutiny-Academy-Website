@@ -1,16 +1,16 @@
 name: Arabic Subscription Learning QA
 on:
   pull_request:
-    paths: ['arabic-*', 'data/arabic/**', 'tests/arabic-*', '.github/workflows/arabic-learning-qa.yml']
+    paths: ['arabic-*', 'quran-*', 'assets/quran/**', 'data/arabic/**', 'tests/arabic-*', 'tests/quran-*', '.github/workflows/arabic-learning-qa.yml']
   push:
     branches: [main]
-    paths: ['arabic-*', 'data/arabic/**', 'tests/arabic-*']
+    paths: ['arabic-*', 'quran-*', 'assets/quran/**', 'data/arabic/**', 'tests/arabic-*', 'tests/quran-*']
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   subscription-learning:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,6 +22,8 @@ jobs:
           node scripts/validate-multi-course-switcher.mjs
           node tests/student-progress-isolation.cjs
           node tests/arabic-progress.mjs
+          node tests/quran-study.mjs
+          node --check quran-study.js
           node --check arabic-learning.js
           node --check arabic-lesson.js
       - name: Install browser
