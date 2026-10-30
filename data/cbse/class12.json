@@ -1,0 +1,2771 @@
+{
+  "grade": 12,
+  "title": "Class 12 supplementary topic library",
+  "coverageNote": "Original supplementary core-topic lessons, not an exhaustive textbook course or a certified mapping of the complete 2026–27 syllabus. No copied NCERT chapters or authenticated past-paper questions.",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "12-mathematics-derivatives",
+          "title": "Derivatives and rates of change",
+          "goal": "Interpret derivatives and differentiate simple polynomial functions.",
+          "concepts": [
+            {
+              "term": "Derivative",
+              "explanation": "The limiting rate of change of a function with respect to its input."
+            },
+            {
+              "term": "Power rule",
+              "explanation": "For a positive integer n, d(xⁿ)/dx=n xⁿ⁻¹."
+            },
+            {
+              "term": "Tangent slope",
+              "explanation": "At a differentiable point, f′(a) is the slope of the tangent to y=f(x)."
+            }
+          ],
+          "example": {
+            "problem": "For f(x)=x³−2x, find the slope at x=2.",
+            "steps": [
+              "Differentiate term by term: f′(x)=3x²−2.",
+              "Substitute x=2: 3×4−2=10."
+            ],
+            "answer": "The tangent slope is 10."
+          },
+          "activity": {
+            "prompt": "Calculate average slopes of y=x² between x=2 and x=2+h for h=1, 0.1 and 0.01.",
+            "check": "The slopes are 5, 4.1 and 4.01, approaching the derivative 4."
+          },
+          "questions": [
+            {
+              "id": "12-mathematics-derivatives-q1",
+              "prompt": "The derivative of x⁴ is:",
+              "options": [
+                "4x³",
+                "x³",
+                "4x⁴",
+                "x⁵/5"
+              ],
+              "answer": 0,
+              "explanation": "The power becomes a coefficient and the exponent decreases by one.",
+              "hint": "Apply the power rule.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-mathematics-derivatives-q2",
+              "prompt": "If s(t)=t² metres, what is velocity at t=3 seconds?",
+              "options": [
+                "9 m/s",
+                "3 m/s",
+                "2 m/s",
+                "6 m/s"
+              ],
+              "answer": 3,
+              "explanation": "Velocity ds/dt=2t=6 m/s.",
+              "hint": "Velocity is the rate of change of position.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-mathematics-derivatives-q3",
+              "prompt": "For f(x)=x²−4x, where is f′(x)=0?",
+              "options": [
+                "x=0",
+                "x=−2",
+                "x=2",
+                "x=4"
+              ],
+              "answer": 2,
+              "explanation": "f′(x)=2x−4, which vanishes at x=2.",
+              "hint": "Differentiate before solving the equation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the difference between average and instantaneous rates of change.",
+            "points": [
+              "Average rate uses a finite interval.",
+              "Instantaneous rate is the limiting average rate as the interval shrinks."
+            ]
+          },
+          "revision": [
+            "Differentiate before substituting a point.",
+            "A derivative can have physical units.",
+            "A zero derivative gives a stationary point, not automatically a maximum."
+          ]
+        },
+        {
+          "id": "12-mathematics-probability",
+          "title": "Conditional probability and independence",
+          "goal": "Use conditional probability without confusing it with independence.",
+          "concepts": [
+            {
+              "term": "Conditional probability",
+              "explanation": "P(A|B)=P(A∩B)/P(B), provided P(B)>0."
+            },
+            {
+              "term": "Independence",
+              "explanation": "Events are independent when P(A∩B)=P(A)P(B)."
+            },
+            {
+              "term": "Sample-space restriction",
+              "explanation": "Conditioning on B restricts attention to outcomes in B."
+            }
+          ],
+          "example": {
+            "problem": "A fair die is rolled. Given an even result, find the probability that it exceeds 3.",
+            "steps": [
+              "Given even: the possible outcomes are {2,4,6}.",
+              "Outcomes exceeding 3 within this set are {4,6}."
+            ],
+            "answer": "P(result>3 | even)=2/3."
+          },
+          "activity": {
+            "prompt": "List two tosses of a fair coin and compare the probability of HH before and after knowing the first toss is H.",
+            "check": "Initially P(HH)=1/4; conditioned on first H, P(HH|first H)=1/2."
+          },
+          "questions": [
+            {
+              "id": "12-mathematics-probability-q1",
+              "prompt": "Which expression defines P(A|B) when P(B)>0?",
+              "options": [
+                "P(A)/P(B)",
+                "P(B)/P(A)",
+                "P(A)+P(B)",
+                "P(A∩B)/P(B)"
+              ],
+              "answer": 3,
+              "explanation": "Only the intersection inside B counts in the conditional numerator.",
+              "hint": "The denominator is the event known to occur.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-mathematics-probability-q2",
+              "prompt": "Two independent fair coin tosses both show heads with probability:",
+              "options": [
+                "1",
+                "0",
+                "1/4",
+                "1/2"
+              ],
+              "answer": 2,
+              "explanation": "Multiply 1/2 by 1/2 because the tosses are independent.",
+              "hint": "Independence permits multiplication.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-mathematics-probability-q3",
+              "prompt": "If P(A)=0.4, P(B)=0.5 and P(A∩B)=0.3, are A and B independent?",
+              "options": [
+                "No, because independent events cannot overlap",
+                "No, because 0.3≠0.4×0.5",
+                "Yes, because both probabilities are positive",
+                "Yes, because 0.3<0.5"
+              ],
+              "answer": 1,
+              "explanation": "Independence would require an intersection probability of 0.2.",
+              "hint": "Test the product rule numerically.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why mutually exclusive events with positive probabilities cannot be independent.",
+            "points": [
+              "Their intersection probability is zero.",
+              "The product of two positive probabilities is positive, so the independence equation fails."
+            ]
+          },
+          "revision": [
+            "Conditioning changes the reference sample space.",
+            "Independence differs from mutual exclusivity.",
+            "A probability always lies between 0 and 1."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "modules": [
+        {
+          "id": "12-physics-electrostatics",
+          "title": "Electric field and potential",
+          "goal": "Distinguish electric force per charge from potential energy per charge.",
+          "concepts": [
+            {
+              "term": "Electric field",
+              "explanation": "Force per positive test charge: E=F/q."
+            },
+            {
+              "term": "Electric potential",
+              "explanation": "Electric potential energy per unit charge: V=U/q."
+            },
+            {
+              "term": "Uniform-field relation",
+              "explanation": "Between parallel plates away from edges, field magnitude is approximately ΔV/d."
+            }
+          ],
+          "example": {
+            "problem": "Parallel plates are separated by 0.02 m and have a potential difference of 100 V. Estimate field magnitude.",
+            "steps": [
+              "Assume a uniform field away from plate edges.",
+              "E=ΔV/d=100/0.02."
+            ],
+            "answer": "E=5000 V/m."
+          },
+          "activity": {
+            "prompt": "Draw electric field arrows between a positive and a negative parallel plate and add equipotential lines.",
+            "check": "Field arrows point from positive to negative; equipotentials are parallel to the plates and perpendicular to the field."
+          },
+          "questions": [
+            {
+              "id": "12-physics-electrostatics-q1",
+              "prompt": "The unit N/C measures:",
+              "options": [
+                "Electric potential",
+                "Electric charge",
+                "Capacitance",
+                "Electric field"
+              ],
+              "answer": 3,
+              "explanation": "E=F/q has units newtons per coulomb.",
+              "hint": "Identify force divided by charge.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-physics-electrostatics-q2",
+              "prompt": "A 2 C charge has electric potential energy 6 J. Its potential is:",
+              "options": [
+                "8 V",
+                "1/3 V",
+                "3 V",
+                "12 V"
+              ],
+              "answer": 2,
+              "explanation": "V=U/q=6/2=3 volts.",
+              "hint": "Potential is energy per unit charge.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-physics-electrostatics-q3",
+              "prompt": "For a fixed positive point charge, doubling distance makes field magnitude:",
+              "options": [
+                "Four times as large",
+                "One quarter",
+                "One half",
+                "Twice as large"
+              ],
+              "answer": 1,
+              "explanation": "A point-charge field obeys E∝1/r².",
+              "hint": "Square the change in distance.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare electric field and electric potential.",
+            "points": [
+              "Field is a vector measured in N/C or V/m.",
+              "Potential is a scalar measured in J/C.",
+              "Force relates to field; potential energy relates to potential."
+            ]
+          },
+          "revision": [
+            "Field points in the direction of force on a positive test charge.",
+            "Potential is a scalar.",
+            "Uniform-field assumptions do not apply near plate edges."
+          ]
+        },
+        {
+          "id": "12-physics-circuits",
+          "title": "Current, resistance and circuit reasoning",
+          "goal": "Apply Ohm’s law and distinguish series from parallel connections.",
+          "concepts": [
+            {
+              "term": "Electric current",
+              "explanation": "Rate of charge flow: I=ΔQ/Δt."
+            },
+            {
+              "term": "Ohmic resistance",
+              "explanation": "For an ohmic conductor at constant physical conditions, V=IR."
+            },
+            {
+              "term": "Series resistance",
+              "explanation": "Resistances add in series because the same current crosses each resistor."
+            }
+          ],
+          "example": {
+            "problem": "Resistors of 2 Ω and 4 Ω are connected in series across 12 V. Find the current.",
+            "steps": [
+              "Equivalent resistance=2+4=6 Ω.",
+              "Current I=V/R=12/6=2 A."
+            ],
+            "answer": "The current through each resistor is 2 A."
+          },
+          "activity": {
+            "prompt": "Draw the same two resistors first in series and then in parallel; predict which arrangement draws more current from an ideal battery.",
+            "check": "Parallel gives a smaller equivalent resistance and a larger total current. Work on paper; do not connect to mains electricity."
+          },
+          "questions": [
+            {
+              "id": "12-physics-circuits-q1",
+              "prompt": "An ammeter is ideally connected:",
+              "options": [
+                "In parallel with the resistor being measured",
+                "Without a complete circuit",
+                "In series with the branch",
+                "Across the battery only"
+              ],
+              "answer": 2,
+              "explanation": "A series ammeter measures the current crossing that branch.",
+              "hint": "The measured current must pass through the meter.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-physics-circuits-q2",
+              "prompt": "A 6 Ω resistor across 12 V carries:",
+              "options": [
+                "18 A",
+                "2 A",
+                "72 A",
+                "0.5 A"
+              ],
+              "answer": 1,
+              "explanation": "I=V/R=12/6=2 A.",
+              "hint": "Apply Ohm’s law.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-physics-circuits-q3",
+              "prompt": "Two identical 6 Ω resistors in parallel have equivalent resistance:",
+              "options": [
+                "3 Ω",
+                "12 Ω",
+                "6 Ω",
+                "36 Ω"
+              ],
+              "answer": 0,
+              "explanation": "1/R=1/6+1/6=1/3, so R=3 Ω.",
+              "hint": "Parallel paths increase total conductance.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why household appliances are connected in parallel rather than in one series chain.",
+            "points": [
+              "Each branch receives the supply potential difference.",
+              "Branches can operate independently.",
+              "A break in one branch need not interrupt all other branches."
+            ]
+          },
+          "revision": [
+            "Series: same current.",
+            "Parallel: same potential difference.",
+            "Use only low-voltage supervised circuits for practical work."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "modules": [
+        {
+          "id": "12-chemistry-solutions",
+          "title": "Concentration and colligative properties",
+          "goal": "Calculate molarity and relate colligative effects to particle number.",
+          "concepts": [
+            {
+              "term": "Molarity",
+              "explanation": "Moles of solute per litre of solution."
+            },
+            {
+              "term": "Dilution",
+              "explanation": "Adding solvent changes concentration but preserves solute amount if no reaction or loss occurs."
+            },
+            {
+              "term": "Colligative effect",
+              "explanation": "An ideal dilute-solution effect mainly determined by the number of solute particles."
+            }
+          ],
+          "example": {
+            "problem": "Find the molarity of 0.5 mol solute in 250 mL solution.",
+            "steps": [
+              "Convert 250 mL to 0.250 L.",
+              "M=n/V=0.5/0.250."
+            ],
+            "answer": "2.0 mol/L."
+          },
+          "activity": {
+            "prompt": "On paper, dilute 100 mL of 1.0 M solution to 500 mL. Predict the final molarity.",
+            "check": "M₁V₁=M₂V₂ gives M₂=0.20 M; the amount of solute remains 0.10 mol."
+          },
+          "questions": [
+            {
+              "id": "12-chemistry-solutions-q1",
+              "prompt": "Molarity uses which volume?",
+              "options": [
+                "Solute volume only",
+                "Total solution volume in millilitres without conversion",
+                "Total solution volume in litres",
+                "Solvent mass in kilograms"
+              ],
+              "answer": 2,
+              "explanation": "Molarity divides moles of solute by litres of final solution.",
+              "hint": "Distinguish solution from solvent.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-chemistry-solutions-q2",
+              "prompt": "Diluting 50 mL of 2 M solution to 200 mL gives:",
+              "options": [
+                "1 M",
+                "0.5 M",
+                "8 M",
+                "2 M"
+              ],
+              "answer": 1,
+              "explanation": "M₂=(2×50)/200=0.5 M.",
+              "hint": "The concentration falls fourfold.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-chemistry-solutions-q3",
+              "prompt": "At equal ideal dilute molality, which usually gives greater freezing-point depression: glucose or fully dissociated NaCl?",
+              "options": [
+                "NaCl, because it supplies more particles",
+                "Glucose, because it has more atoms per molecule",
+                "Both must be identical",
+                "Neither changes freezing point"
+              ],
+              "answer": 0,
+              "explanation": "Ideal NaCl dissociation yields about two ions per formula unit, compared with one glucose molecule.",
+              "hint": "Colligative effects count particles, not atoms inside each particle.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare molarity and molality and explain which directly depends on volume.",
+            "points": [
+              "Molarity is mol per litre of solution.",
+              "Molality is mol per kilogram of solvent.",
+              "Volume changes with temperature, so molarity can vary with temperature."
+            ]
+          },
+          "revision": [
+            "Use litres for molarity.",
+            "Dilution preserves solute amount.",
+            "Real ionic solutions may depart from ideal dissociation assumptions."
+          ]
+        },
+        {
+          "id": "12-chemistry-kinetics",
+          "title": "Reaction rates and first-order kinetics",
+          "goal": "Interpret a rate law and a first-order half-life.",
+          "concepts": [
+            {
+              "term": "Rate law",
+              "explanation": "An experimentally determined relationship between reaction rate and reactant concentrations."
+            },
+            {
+              "term": "Reaction order",
+              "explanation": "The sum of concentration exponents in a rate law; it need not equal equation coefficients."
+            },
+            {
+              "term": "First-order half-life",
+              "explanation": "For a first-order reaction, t½=ln(2)/k and is independent of initial concentration."
+            }
+          ],
+          "example": {
+            "problem": "A first-order reaction has k=0.231 min⁻¹. Estimate its half-life.",
+            "steps": [
+              "Use t½=0.693/k.",
+              "Calculate 0.693/0.231=3.00."
+            ],
+            "answer": "Half-life=3.00 minutes."
+          },
+          "activity": {
+            "prompt": "Make a table for 80 particles remaining after 0, 1, 2 and 3 half-lives.",
+            "check": "The entries are 80, 40, 20 and 10; equal times remove equal fractions, not equal amounts."
+          },
+          "questions": [
+            {
+              "id": "12-chemistry-kinetics-q1",
+              "prompt": "For rate=k[A]², reaction order in A is:",
+              "options": [
+                "Cannot ever be measured",
+                "2",
+                "1",
+                "0"
+              ],
+              "answer": 1,
+              "explanation": "The exponent on [A] is 2.",
+              "hint": "Read the experimentally determined rate law.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-chemistry-kinetics-q2",
+              "prompt": "For a first-order reaction, doubling [A] at fixed k makes the initial rate:",
+              "options": [
+                "Twice as large",
+                "Four times as large",
+                "Unchanged",
+                "Half as large"
+              ],
+              "answer": 0,
+              "explanation": "Rate=k[A], so the rate is proportional to [A].",
+              "hint": "First order means power one.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-chemistry-kinetics-q3",
+              "prompt": "After three half-lives, the fraction of a first-order reactant remaining is:",
+              "options": [
+                "1/3",
+                "3/4",
+                "1/6",
+                "1/8"
+              ],
+              "answer": 3,
+              "explanation": "The remaining fraction is (1/2)³=1/8.",
+              "hint": "Halve the amount three times.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why reaction order cannot generally be inferred from a balanced overall equation.",
+            "points": [
+              "An overall equation does not necessarily describe the mechanism.",
+              "The rate law is determined experimentally.",
+              "Only appropriate elementary-step cases directly connect molecularity and rate-law powers."
+            ]
+          },
+          "revision": [
+            "Rate and rate constant are different.",
+            "State time units when using k.",
+            "First-order half-life stays constant at fixed conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "modules": [
+        {
+          "id": "12-biology-inheritance",
+          "title": "Mendelian inheritance and probability",
+          "goal": "Use segregation to predict outcomes of a simple monohybrid cross.",
+          "concepts": [
+            {
+              "term": "Allele",
+              "explanation": "An alternative form of a gene at a locus."
+            },
+            {
+              "term": "Segregation",
+              "explanation": "The two alleles of a diploid individual separate during gamete formation."
+            },
+            {
+              "term": "Dominance",
+              "explanation": "In a complete-dominance model, a dominant allele determines the heterozygote phenotype; dominance does not mean common or superior."
+            }
+          ],
+          "example": {
+            "problem": "In a complete-dominance model, cross Aa with Aa. Find genotype and phenotype ratios.",
+            "steps": [
+              "Each parent produces A and a gametes in equal proportions.",
+              "Combine gametes: AA, Aa, Aa, aa.",
+              "Group AA and Aa under the dominant phenotype."
+            ],
+            "answer": "Genotypes 1 AA:2 Aa:1 aa; phenotypes 3 dominant:1 recessive."
+          },
+          "activity": {
+            "prompt": "Make a Punnett square for Aa×aa and state the assumptions behind the prediction.",
+            "check": "Expected genotypes are 1 Aa:1 aa; the model assumes ordinary segregation and equal gamete viability, among other conditions."
+          },
+          "questions": [
+            {
+              "id": "12-biology-inheritance-q1",
+              "prompt": "A heterozygous genotype is:",
+              "options": [
+                "A only",
+                "Aa",
+                "AA",
+                "aa"
+              ],
+              "answer": 1,
+              "explanation": "Heterozygous means two different alleles at the locus.",
+              "hint": "Compare the two allele symbols.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-biology-inheritance-q2",
+              "prompt": "For Aa×aa, the probability of aa is:",
+              "options": [
+                "1/2",
+                "1/4",
+                "3/4",
+                "1"
+              ],
+              "answer": 0,
+              "explanation": "The first parent contributes a half the time; the second always contributes a.",
+              "hint": "List each parent’s gametes.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-biology-inheritance-q3",
+              "prompt": "Why may four offspring not show the exact predicted 3:1 ratio?",
+              "options": [
+                "Mendelian probabilities guarantee exact groups of four",
+                "Dominant alleles always disappear",
+                "The Punnett square counts only male offspring",
+                "Probabilities describe expected proportions, with chance variation"
+              ],
+              "answer": 3,
+              "explanation": "Small samples can differ substantially from expected proportions by chance.",
+              "hint": "Distinguish probability from a fixed quota.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a dominant allele need not be the more frequent allele in a population.",
+            "points": [
+              "Dominance describes the phenotype of a heterozygote.",
+              "Population frequency depends on processes such as selection, drift and migration."
+            ]
+          },
+          "revision": [
+            "Genotype and phenotype differ.",
+            "Punnett-square ratios are expectations.",
+            "Many traits do not follow a single complete-dominance model."
+          ]
+        },
+        {
+          "id": "12-biology-ecosystems",
+          "title": "Energy flow and ecological pyramids",
+          "goal": "Trace energy transfer and distinguish it from nutrient cycling.",
+          "concepts": [
+            {
+              "term": "Producer",
+              "explanation": "An organism that builds organic matter from inorganic sources using light or chemical energy."
+            },
+            {
+              "term": "Trophic level",
+              "explanation": "A feeding position in an ecological energy-transfer sequence."
+            },
+            {
+              "term": "Energy flow",
+              "explanation": "Energy enters ecosystems and is progressively dissipated as heat; it is not recycled in the same way as nutrients."
+            }
+          ],
+          "example": {
+            "problem": "Using an illustrative 10% transfer model, how much energy reaches secondary consumers if producers contain 10,000 kJ?",
+            "steps": [
+              "Primary consumers receive about 1000 kJ.",
+              "Secondary consumers receive about 100 kJ.",
+              "Treat 10% as an approximate model, not a universal measured constant."
+            ],
+            "answer": "About 100 kJ in this model."
+          },
+          "activity": {
+            "prompt": "Draw a food chain and add arrows showing the direction of energy transfer.",
+            "check": "Arrows point from the food organism to the consumer; decomposers receive material from multiple levels."
+          },
+          "questions": [
+            {
+              "id": "12-biology-ecosystems-q1",
+              "prompt": "Which organism is a producer in a grassland food chain?",
+              "options": [
+                "Grass",
+                "Rabbit",
+                "Fox",
+                "Vulture"
+              ],
+              "answer": 0,
+              "explanation": "Grass captures light energy and builds organic matter.",
+              "hint": "Find the photosynthetic organism.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-biology-ecosystems-q2",
+              "prompt": "In grass→grasshopper→frog, the frog is a:",
+              "options": [
+                "Primary producer",
+                "Primary consumer",
+                "Mineral nutrient",
+                "Secondary consumer"
+              ],
+              "answer": 3,
+              "explanation": "It eats a primary consumer.",
+              "hint": "Count feeding positions from the producer.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-biology-ecosystems-q3",
+              "prompt": "Why is an energy pyramid upright?",
+              "options": [
+                "All pyramids of numbers must be upright",
+                "Nutrients cannot cycle",
+                "Usable energy decreases at successive trophic levels",
+                "Consumers create energy from nothing"
+              ],
+              "answer": 2,
+              "explanation": "Respiration and other processes dissipate energy at each transfer.",
+              "hint": "Apply conservation of energy and heat loss.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare energy flow with nutrient cycling in an ecosystem.",
+            "points": [
+              "Energy transfer is directional and involves dissipation as heat.",
+              "Elements such as carbon move repeatedly through biotic and abiotic pools.",
+              "Ecosystems require continuing energy input."
+            ]
+          },
+          "revision": [
+            "Food-web arrows show transfer direction.",
+            "The 10% model is approximate.",
+            "Biomass and number pyramids need not share the shape of energy pyramids."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "12-english-argument",
+          "title": "Argument, evidence and counterargument",
+          "goal": "Evaluate an argument and develop a reasoned response.",
+          "concepts": [
+            {
+              "term": "Claim",
+              "explanation": "The position an argument asks the reader to accept."
+            },
+            {
+              "term": "Counterargument",
+              "explanation": "A relevant objection or alternative position."
+            },
+            {
+              "term": "Rebuttal",
+              "explanation": "A reasoned response to an objection, supported where possible by evidence."
+            }
+          ],
+          "example": {
+            "problem": "Develop a balanced argument for a school library staying open after lessons.",
+            "steps": [
+              "Claim: extended hours can improve access.",
+              "Reason: some students lack quiet study spaces.",
+              "Counterargument: staffing has a cost.",
+              "Response: a limited trial with demand tracking can test whether benefits justify the cost."
+            ],
+            "answer": "A strong proposal acknowledges cost and offers a way to evaluate benefits."
+          },
+          "activity": {
+            "prompt": "Write a claim and an opposing concern about using phones for classroom learning, then propose a workable condition.",
+            "check": "A useful response addresses the concern rather than attacking the people who raise it."
+          },
+          "questions": [
+            {
+              "id": "12-english-argument-q1",
+              "prompt": "A counterargument is:",
+              "options": [
+                "A relevant objection or alternative view",
+                "An insult directed at the opponent",
+                "A repetition of the title",
+                "A spelling correction"
+              ],
+              "answer": 0,
+              "explanation": "It engages with a competing reason or position.",
+              "hint": "Focus on ideas rather than personalities.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-english-argument-q2",
+              "prompt": "Which evidence best supports a claim about library demand?",
+              "options": [
+                "One unrelated advertisement",
+                "An invented percentage",
+                "A statement that everyone agrees",
+                "Recorded student usage across several weeks"
+              ],
+              "answer": 3,
+              "explanation": "Relevant systematically collected usage data helps assess demand.",
+              "hint": "Choose evidence that measures the issue.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-english-argument-q3",
+              "prompt": "An argument claims a policy works because a famous actor supports it. What is missing?",
+              "options": [
+                "More praise of the actor",
+                "The actor’s favourite colour",
+                "Evidence connecting the policy to its outcomes",
+                "A larger photograph"
+              ],
+              "answer": 2,
+              "explanation": "Celebrity endorsement alone does not establish effectiveness.",
+              "hint": "Ask whether the evidence is relevant to the outcome.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Argue for or against a change in school study arrangements.",
+            "points": [
+              "State a clear position.",
+              "Develop two reasons.",
+              "Address a genuine counterargument.",
+              "Support factual claims with verifiable information."
+            ]
+          },
+          "revision": [
+            "Acknowledge reasonable objections.",
+            "Distinguish evidence from opinion.",
+            "Do not invent survey results."
+          ]
+        },
+        {
+          "id": "12-english-summary",
+          "title": "Summary and synthesis",
+          "goal": "Condense key ideas and connect multiple sources accurately.",
+          "concepts": [
+            {
+              "term": "Summary",
+              "explanation": "A concise account of the main ideas without adding unsupported information."
+            },
+            {
+              "term": "Paraphrase",
+              "explanation": "Restating an idea in a genuinely new wording while preserving its meaning."
+            },
+            {
+              "term": "Synthesis",
+              "explanation": "Combining relevant ideas from multiple sources into a coherent account."
+            }
+          ],
+          "example": {
+            "problem": "Source A says a school garden teaches ecology. Source B says maintaining it requires staff time. Synthesize.",
+            "steps": [
+              "Identify the shared topic: a school garden.",
+              "Preserve both the benefit and the practical demand.",
+              "Connect them without claiming either source rejects the project."
+            ],
+            "answer": "A school garden may support ecological learning, but planning should account for the staff time needed to maintain it."
+          },
+          "activity": {
+            "prompt": "Summarise a short news report in three sentences, marking any uncertainty stated in the report.",
+            "check": "A good summary preserves the central issue and qualifications while omitting unnecessary examples."
+          },
+          "questions": [
+            {
+              "id": "12-english-summary-q1",
+              "prompt": "A sound summary should:",
+              "options": [
+                "Add a new claim unsupported by the source",
+                "Copy every sentence",
+                "Include only minor examples",
+                "Preserve the central meaning"
+              ],
+              "answer": 3,
+              "explanation": "A summary is shorter but faithful to the main ideas.",
+              "hint": "Condense rather than alter.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-english-summary-q2",
+              "prompt": "Synthesis differs from a single-source summary because it:",
+              "options": [
+                "Contains no evidence",
+                "Must be longer than every source",
+                "Connects ideas from multiple sources",
+                "Always disagrees with all sources"
+              ],
+              "answer": 2,
+              "explanation": "Synthesis brings sources into a meaningful relationship.",
+              "hint": "Think about how sources are combined.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-english-summary-q3",
+              "prompt": "A source says “the results may suggest a link”. Which paraphrase is faithful?",
+              "options": [
+                "The study guarantees the same result everywhere",
+                "The findings indicate a possible association",
+                "The findings prove a cause",
+                "There is definitely no link"
+              ],
+              "answer": 1,
+              "explanation": "The cautious wording must be preserved.",
+              "hint": "Keep the original level of certainty.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Synthesize two contrasting views on a school issue.",
+            "points": [
+              "Represent each view accurately.",
+              "Identify agreement or disagreement.",
+              "Connect the ideas in your own words.",
+              "Avoid invented conclusions or exaggerated certainty."
+            ]
+          },
+          "revision": [
+            "A summary is not a commentary.",
+            "Preserve qualifications.",
+            "Credit sources when using their ideas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "12-hindi-tark",
+          "title": "तर्कपूर्ण लेखन और प्रमाण",
+          "goal": "दावे को तर्क और विश्वसनीय प्रमाण से समर्थित करना।",
+          "concepts": [
+            {
+              "term": "दावा",
+              "explanation": "वह विचार या पक्ष जिसे लेखक स्वीकार करवाना चाहता है।"
+            },
+            {
+              "term": "प्रमाण",
+              "explanation": "दावे के समर्थन में दिया गया सत्यापनीय तथ्य या प्रासंगिक उदाहरण।"
+            },
+            {
+              "term": "प्रतिपक्ष",
+              "explanation": "विषय पर भिन्न मत या आपत्ति, जिसका विचारपूर्वक उत्तर दिया जाता है।"
+            }
+          ],
+          "example": {
+            "problem": "“विद्यालय में अधिक हरियाली होनी चाहिए” के पक्ष में संतुलित तर्क दीजिए।",
+            "steps": [
+              "दावा स्पष्ट कीजिए।",
+              "छाया, पर्यावरण-अध्ययन और परिसर के उपयोग जैसे लाभ बताइए।",
+              "पानी और देखभाल की जरूरत को स्वीकार कीजिए।",
+              "स्थानीय परिस्थितियों के अनुकूल पौधों और जिम्मेदारी की योजना सुझाइए।"
+            ],
+            "answer": "अच्छा तर्क लाभों के साथ व्यावहारिक सीमाओं पर भी विचार करता है।"
+          },
+          "activity": {
+            "prompt": "किसी विद्यालयी नियम पर एक पक्ष, एक आपत्ति और एक उत्तर लिखिए।",
+            "check": "उत्तर आपत्ति से संबंधित हो; व्यक्ति पर आक्षेप न करें।"
+          },
+          "questions": [
+            {
+              "id": "12-hindi-tark-q1",
+              "prompt": "विश्वसनीय तर्क किस पर आधारित होना चाहिए?",
+              "options": [
+                "गढ़े हुए आँकड़े",
+                "व्यक्तिगत अपमान",
+                "केवल लोकप्रियता",
+                "प्रासंगिक कारण और सत्यापनीय जानकारी"
+              ],
+              "answer": 3,
+              "explanation": "दावे का समर्थन उचित कारण और प्रमाण से होना चाहिए।",
+              "hint": "दावे और उसके आधार का संबंध देखें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-hindi-tark-q2",
+              "prompt": "प्रतिपक्ष का उद्देश्य क्या है?",
+              "options": [
+                "विषय बदल देना",
+                "अपना दावा छिपाना",
+                "भिन्न विचार पर गंभीरता से विचार करना",
+                "विरोधी का उपहास करना"
+              ],
+              "answer": 2,
+              "explanation": "प्रतिपक्ष विचार की परीक्षा और उत्तर का अवसर देता है।",
+              "hint": "असहमति को तर्क के स्तर पर लें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-hindi-tark-q3",
+              "prompt": "किस कथन में अतिशयोक्ति से बचा गया है?",
+              "options": [
+                "जो सहमत नहीं वे सभी गलत हैं",
+                "यह योजना कुछ विद्यार्थियों को लाभ दे सकती है",
+                "यह योजना हर समस्या हमेशा मिटा देगी",
+                "किसी जाँच की जरूरत नहीं"
+              ],
+              "answer": 1,
+              "explanation": "पहला कथन सीमा और संभावना स्वीकार करता है।",
+              "hint": "सभी, हमेशा जैसे निरपेक्ष शब्दों को जाँचें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "किसी विद्यालयी सुधार पर तर्कपूर्ण अनुच्छेद लिखिए।",
+            "points": [
+              "पक्ष स्पष्ट करें।",
+              "दो प्रासंगिक कारण दें।",
+              "एक वास्तविक आपत्ति का उत्तर दें।",
+              "असमर्थित आँकड़े न गढ़ें।"
+            ]
+          },
+          "revision": [
+            "प्रमाण दावे से संबंधित हो।",
+            "प्रतिपक्ष का सम्मानपूर्वक उत्तर दें।",
+            "अनिश्चितता हो तो उसे स्पष्ट करें।"
+          ]
+        },
+        {
+          "id": "12-hindi-saransh",
+          "title": "सारांश और तुलनात्मक पठन",
+          "goal": "मुख्य विचार सुरक्षित रखते हुए संक्षेप और तुलना करना।",
+          "concepts": [
+            {
+              "term": "सारांश",
+              "explanation": "किसी पाठ के मुख्य विचारों का संक्षिप्त और निष्ठापूर्ण रूप।"
+            },
+            {
+              "term": "तुलना",
+              "explanation": "दो विचारों की समानता और अंतर को स्पष्ट करना।"
+            },
+            {
+              "term": "निष्पक्ष प्रस्तुति",
+              "explanation": "लेखक के मत को निजी मत मिलाए बिना सही रूप में रखना।"
+            }
+          ],
+          "example": {
+            "problem": "एक लेख ऑनलाइन पढ़ाई की सुविधा बताता है और दूसरा इंटरनेट की असमान उपलब्धता। दोनों का संयुक्त सार लिखिए।",
+            "steps": [
+              "दोनों का विषय पहचानिए।",
+              "पहले लेख का लाभ और दूसरे की सीमा बनाए रखिए।",
+              "बिना नया तथ्य जोड़े दोनों को जोड़िए।"
+            ],
+            "answer": "ऑनलाइन पढ़ाई सुविधा बढ़ा सकती है, लेकिन उसके लाभ इंटरनेट और उपकरणों की उपलब्धता पर भी निर्भर हैं।"
+          },
+          "activity": {
+            "prompt": "एक छोटे अनुच्छेद को पढ़कर उसके तीन मुख्य बिंदु लिखिए, फिर दो वाक्यों का सार बनाइए।",
+            "check": "सार में मुख्य आशय और आवश्यक सीमाएँ रहें; गौण उदाहरण हट सकते हैं।"
+          },
+          "questions": [
+            {
+              "id": "12-hindi-saransh-q1",
+              "prompt": "सारांश में क्या नहीं जोड़ना चाहिए?",
+              "options": [
+                "आवश्यक संदर्भ",
+                "महत्वपूर्ण सीमा",
+                "मूल पाठ से असमर्थित नया दावा",
+                "मुख्य विचार"
+              ],
+              "answer": 2,
+              "explanation": "सारांश मूल अर्थ को संक्षेप करता है; नया दावा नहीं गढ़ता।",
+              "hint": "मूल पाठ के प्रति निष्ठा रखें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-hindi-saransh-q2",
+              "prompt": "तुलनात्मक पठन में क्या देखेंगे?",
+              "options": [
+                "केवल लेखक की आयु",
+                "समानता और अंतर दोनों",
+                "केवल कठिन शब्द",
+                "केवल पाठ की लंबाई"
+              ],
+              "answer": 1,
+              "explanation": "तुलना विचारों के संबंध को समझती है।",
+              "hint": "दोनों पाठों के मत को साथ रखें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-hindi-saransh-q3",
+              "prompt": "“संभवतः लाभ हो” का निष्ठापूर्ण सार क्या होगा?",
+              "options": [
+                "लाभ की संभावना है",
+                "लाभ निश्चित है",
+                "लाभ असंभव है",
+                "हर व्यक्ति को समान लाभ होगा"
+              ],
+              "answer": 0,
+              "explanation": "संभावना को निश्चितता में बदलना अर्थ बदल देता है।",
+              "hint": "मूल कथन की सावधानी बनाए रखें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "दो छोटे लेखों के मतों की तुलना कीजिए।",
+            "points": [
+              "दोनों के मुख्य मत सही लिखें।",
+              "एक समानता और एक अंतर बताएँ।",
+              "प्रमाण से अधिक निश्चित निष्कर्ष न दें।"
+            ]
+          },
+          "revision": [
+            "सारांश संक्षिप्त हो, अर्थहीन नहीं।",
+            "अपना मत और लेखक का मत अलग रखें।",
+            "संभावना को निश्चितता न बनाएँ।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accountancy",
+      "name": "Accountancy",
+      "modules": [
+        {
+          "id": "12-accountancy-partnership",
+          "title": "Partnership profit appropriation",
+          "goal": "Distinguish a charge against profit from appropriation of profit.",
+          "concepts": [
+            {
+              "term": "Partnership deed",
+              "explanation": "The agreement setting out partners’ rights and obligations, subject to applicable law."
+            },
+            {
+              "term": "Appropriation",
+              "explanation": "Distribution or allocation of profit, including partner salary or interest on capital where applicable."
+            },
+            {
+              "term": "Profit-sharing ratio",
+              "explanation": "The agreed proportion used to share the relevant residual profit or loss."
+            }
+          ],
+          "example": {
+            "problem": "A and B share profits 3:2. After agreed appropriations, residual profit is ₹50,000. Allocate it.",
+            "steps": [
+              "Total ratio parts=3+2=5.",
+              "A receives 3/5×50,000.",
+              "B receives 2/5×50,000."
+            ],
+            "answer": "A ₹30,000; B ₹20,000."
+          },
+          "activity": {
+            "prompt": "Draw an appropriation statement with separate lines for net profit, agreed partner salary, agreed interest and residual distribution.",
+            "check": "Do not confuse partner salary with a normal employee wage; use the agreement and applicable accounting rules."
+          },
+          "questions": [
+            {
+              "id": "12-accountancy-partnership-q1",
+              "prompt": "A 3:2 ratio has how many total parts?",
+              "options": [
+                "1",
+                "3",
+                "5",
+                "6"
+              ],
+              "answer": 2,
+              "explanation": "Add the ratio components.",
+              "hint": "Compute 3+2.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-accountancy-partnership-q2",
+              "prompt": "Residual profit ₹40,000 shared equally between two partners gives each:",
+              "options": [
+                "₹80,000",
+                "₹20,000",
+                "₹40,000",
+                "₹10,000"
+              ],
+              "answer": 1,
+              "explanation": "Equal sharing divides profit by two.",
+              "hint": "Check that the allocated amounts total the residual.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-accountancy-partnership-q3",
+              "prompt": "Why must the deed be examined before preparing appropriation?",
+              "options": [
+                "It may specify salary, interest and sharing terms",
+                "It removes the need for bookkeeping",
+                "It guarantees equal profit shares",
+                "It converts every partner’s withdrawal into an expense"
+              ],
+              "answer": 0,
+              "explanation": "The allocation depends on the agreement and the applicable default rules if a term is absent.",
+              "hint": "Look for the source of allocation terms.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the difference between business net profit and residual profit distributed to partners.",
+            "points": [
+              "Net profit is determined through the profit and loss process.",
+              "Appropriations allocate that profit according to relevant terms.",
+              "The residual is shared in the applicable profit-sharing ratio."
+            ]
+          },
+          "revision": [
+            "Read the partnership terms carefully.",
+            "Appropriation differs from an operating expense.",
+            "Allocation totals must reconcile."
+          ]
+        },
+        {
+          "id": "12-accountancy-ratios",
+          "title": "Financial statement ratios",
+          "goal": "Calculate and interpret liquidity measures cautiously.",
+          "concepts": [
+            {
+              "term": "Current ratio",
+              "explanation": "Current assets divided by current liabilities."
+            },
+            {
+              "term": "Working capital",
+              "explanation": "Current assets minus current liabilities."
+            },
+            {
+              "term": "Interpretation",
+              "explanation": "A ratio is evidence to interpret with context, not a complete verdict on business quality."
+            }
+          ],
+          "example": {
+            "problem": "A firm has current assets ₹1,20,000 and current liabilities ₹80,000. Find its current ratio and working capital.",
+            "steps": [
+              "Current ratio=1,20,000/80,000=1.5.",
+              "Working capital=1,20,000−80,000=40,000."
+            ],
+            "answer": "Current ratio 1.5:1; working capital ₹40,000."
+          },
+          "activity": {
+            "prompt": "Compare two firms with equal current ratios but different amounts of slow-moving inventory.",
+            "check": "Equal ratios can hide different asset quality and cash-conversion prospects."
+          },
+          "questions": [
+            {
+              "id": "12-accountancy-ratios-q1",
+              "prompt": "The current ratio is:",
+              "options": [
+                "Cash/owner’s age",
+                "Current assets/current liabilities",
+                "Revenue/profit",
+                "Total liabilities/current assets"
+              ],
+              "answer": 1,
+              "explanation": "It compares current resources with current obligations.",
+              "hint": "Match numerator and denominator correctly.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-accountancy-ratios-q2",
+              "prompt": "Current assets ₹90,000 and current liabilities ₹60,000 imply working capital:",
+              "options": [
+                "₹30,000",
+                "₹1,50,000",
+                "1.5",
+                "₹54,000"
+              ],
+              "answer": 0,
+              "explanation": "Working capital is the monetary difference, not the ratio.",
+              "hint": "Subtract current liabilities from current assets.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-accountancy-ratios-q3",
+              "prompt": "Why can a high current ratio still require investigation?",
+              "options": [
+                "A ratio proves immediate cash availability",
+                "Liabilities never matter",
+                "High ratios always mean fraud",
+                "Assets may include slow or doubtful receivables and inventory"
+              ],
+              "answer": 3,
+              "explanation": "Asset composition and timing affect practical liquidity.",
+              "hint": "A balance-sheet category is not necessarily cash.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two limitations of comparing current ratios across businesses.",
+            "points": [
+              "Different industries have different operating cycles.",
+              "Asset quality and timing may differ.",
+              "Accounting dates and classifications can affect comparisons."
+            ]
+          },
+          "revision": [
+            "Distinguish ratios from rupee amounts.",
+            "Use comparable periods.",
+            "No single ratio establishes financial health."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-studies",
+      "name": "Business Studies",
+      "modules": [
+        {
+          "id": "12-business-studies-management",
+          "title": "Management functions and coordination",
+          "goal": "Apply planning, organising, staffing, directing and controlling.",
+          "concepts": [
+            {
+              "term": "Planning",
+              "explanation": "Deciding objectives and courses of action in advance."
+            },
+            {
+              "term": "Organising",
+              "explanation": "Arranging work, responsibilities and resources to implement plans."
+            },
+            {
+              "term": "Controlling",
+              "explanation": "Comparing performance with standards and taking suitable corrective action."
+            }
+          ],
+          "example": {
+            "problem": "A school enterprise plans to sell 100 reusable notebooks but sells 60. Apply management functions.",
+            "steps": [
+              "Planning sets the target and sales approach.",
+              "Organising allocates purchasing and sales roles.",
+              "Controlling compares 60 actual sales against the target and investigates reasons."
+            ],
+            "answer": "A shortfall should trigger analysis and appropriate adjustment, not automatic blame."
+          },
+          "activity": {
+            "prompt": "Map the five management functions to organising a supervised school exhibition.",
+            "check": "Staffing concerns people requirements; directing concerns guiding and motivating; coordination connects activities."
+          },
+          "questions": [
+            {
+              "id": "12-business-studies-management-q1",
+              "prompt": "Setting a sales target is mainly:",
+              "options": [
+                "An inventory entry",
+                "Planning",
+                "Only controlling",
+                "Only staffing"
+              ],
+              "answer": 1,
+              "explanation": "A target establishes a planned objective.",
+              "hint": "Identify the function deciding what should happen.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-business-studies-management-q2",
+              "prompt": "Comparing actual output with a target is mainly:",
+              "options": [
+                "Controlling",
+                "Staffing",
+                "Financing only",
+                "Branding"
+              ],
+              "answer": 0,
+              "explanation": "Control measures performance against standards.",
+              "hint": "Think about comparison and correction.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-business-studies-management-q3",
+              "prompt": "Why is coordination needed across functions?",
+              "options": [
+                "Each department should pursue unrelated goals",
+                "Coordination replaces every manager",
+                "Only one person can communicate",
+                "Separate activities must work toward shared objectives"
+              ],
+              "answer": 3,
+              "explanation": "Interdependent work needs integration.",
+              "hint": "A plan cannot succeed if activities conflict.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Use one project to show how planning and controlling are linked.",
+            "points": [
+              "Planning establishes objectives and standards.",
+              "Control compares actual results with those standards.",
+              "Feedback informs revised plans and action."
+            ]
+          },
+          "revision": [
+            "Management functions overlap in practice.",
+            "Correction should follow diagnosis.",
+            "Coordination integrates efforts."
+          ]
+        },
+        {
+          "id": "12-business-studies-marketing",
+          "title": "Marketing mix and customer value",
+          "goal": "Analyse product, price, place and promotion together.",
+          "concepts": [
+            {
+              "term": "Product",
+              "explanation": "The offering and its benefits, features and support."
+            },
+            {
+              "term": "Place",
+              "explanation": "Channels and arrangements that make an offering accessible."
+            },
+            {
+              "term": "Promotion",
+              "explanation": "Communication intended to inform or persuade relevant customers."
+            }
+          ],
+          "example": {
+            "problem": "Design a simple marketing mix for a reusable notebook.",
+            "steps": [
+              "Product: durable refillable pages and clear specifications.",
+              "Price: reflect costs, alternatives and intended users.",
+              "Place: school stall or suitable online channel.",
+              "Promotion: demonstrate reuse benefits honestly."
+            ],
+            "answer": "The four elements should support a consistent value proposition."
+          },
+          "activity": {
+            "prompt": "Compare two advertisements for the same kind of product; identify claims that would require evidence.",
+            "check": "Specific performance claims need support; promotion should not invent results or hide important conditions."
+          },
+          "questions": [
+            {
+              "id": "12-business-studies-marketing-q1",
+              "prompt": "The four Ps include:",
+              "options": [
+                "Product, price, place, promotion",
+                "People, plants, paper, profit only",
+                "Plan, pay, pause, print",
+                "Policy, proof, patent, profit only"
+              ],
+              "answer": 0,
+              "explanation": "The traditional marketing mix uses these four categories.",
+              "hint": "Think of offering, charge, access and communication.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-business-studies-marketing-q2",
+              "prompt": "Selling through a retailer mainly concerns:",
+              "options": [
+                "Only promotion",
+                "Only product colour",
+                "Only bookkeeping",
+                "Place"
+              ],
+              "answer": 3,
+              "explanation": "A retailer is a distribution channel.",
+              "hint": "How does the product reach the customer?",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-business-studies-marketing-q3",
+              "prompt": "A low price fails to attract customers because delivery is unavailable. What does this show?",
+              "options": [
+                "Promotion eliminates all access problems",
+                "Customer needs never matter",
+                "Marketing elements must work together",
+                "Price is the only relevant element"
+              ],
+              "answer": 2,
+              "explanation": "An attractive price cannot create value if the product cannot be accessed.",
+              "hint": "Consider place alongside price.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Develop a coherent marketing mix for a student product.",
+            "points": [
+              "Identify the customer need.",
+              "Explain each of the four Ps.",
+              "Keep claims accurate and relevant.",
+              "Show how the choices support each other."
+            ]
+          },
+          "revision": [
+            "Marketing goes beyond advertising.",
+            "Customer value includes usefulness and access.",
+            "Avoid unsupported promotional claims."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "modules": [
+        {
+          "id": "12-economics-national-income",
+          "title": "GDP and value added",
+          "goal": "Avoid double counting when measuring production.",
+          "concepts": [
+            {
+              "term": "Value added",
+              "explanation": "Output value minus intermediate consumption during production."
+            },
+            {
+              "term": "GDP",
+              "explanation": "The value of final goods and services produced within an economy’s domestic territory over a period, measured using the applicable accounting conventions."
+            },
+            {
+              "term": "Intermediate good",
+              "explanation": "A good used up or transformed in producing another good during the accounting period."
+            }
+          ],
+          "example": {
+            "problem": "A farmer sells grain for ₹100 to a mill, which sells flour for ₹160 to final consumers. Ignore other inputs. Find total value added.",
+            "steps": [
+              "Farmer value added=₹100 in this simplified model.",
+              "Mill value added=₹160−₹100=₹60.",
+              "Total=₹160, equal to final output value."
+            ],
+            "answer": "Total value added is ₹160, not ₹260."
+          },
+          "activity": {
+            "prompt": "Extend the chain to a bakery that buys flour for ₹160 and sells bread to households for ₹250.",
+            "check": "Bakery adds ₹90; total value added is ₹250 when other inputs are ignored."
+          },
+          "questions": [
+            {
+              "id": "12-economics-national-income-q1",
+              "prompt": "Why not add all intermediate sales to final sales?",
+              "options": [
+                "That double counts intermediate production",
+                "Intermediate goods never have value",
+                "Only imported goods count",
+                "Money cannot measure output"
+              ],
+              "answer": 0,
+              "explanation": "The final price already embodies intermediate production value.",
+              "hint": "Track where the same grain value appears again.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-economics-national-income-q2",
+              "prompt": "Output ₹500 and intermediate inputs ₹300 give value added:",
+              "options": [
+                "₹800",
+                "₹300",
+                "₹500",
+                "₹200"
+              ],
+              "answer": 3,
+              "explanation": "Value added=500−300=200.",
+              "hint": "Subtract intermediate consumption.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-economics-national-income-q3",
+              "prompt": "Why is GDP not a complete measure of well-being?",
+              "options": [
+                "It proves income is equally distributed",
+                "It includes all social costs perfectly",
+                "It omits or incompletely reflects distribution, unpaid work and environmental effects",
+                "It directly measures every person’s happiness"
+              ],
+              "answer": 2,
+              "explanation": "Production value is useful but does not capture all dimensions of welfare.",
+              "hint": "Distinguish output from overall quality of life.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the value-added method with a simple production chain.",
+            "points": [
+              "Identify intermediate purchases.",
+              "Subtract them at each stage.",
+              "Add stage-wise value added.",
+              "Show equality with final output in the simplified example."
+            ]
+          },
+          "revision": [
+            "A good’s use determines whether it is intermediate.",
+            "GDP measures a flow over a period.",
+            "GDP and well-being are related but different."
+          ]
+        },
+        {
+          "id": "12-economics-money",
+          "title": "Money and commercial banking",
+          "goal": "Explain money’s functions and a bank’s balance-sheet role.",
+          "concepts": [
+            {
+              "term": "Medium of exchange",
+              "explanation": "Money allows transactions without requiring a direct coincidence of wants."
+            },
+            {
+              "term": "Demand deposit",
+              "explanation": "A bank deposit withdrawable on demand and usable for payments through available arrangements."
+            },
+            {
+              "term": "Bank intermediation",
+              "explanation": "Banks take deposits and provide loans while managing liquidity, risk and regulatory requirements."
+            }
+          ],
+          "example": {
+            "problem": "Why is paying a seller with money easier than finding a barter match?",
+            "steps": [
+              "In barter, each party must want what the other offers.",
+              "Money is widely accepted as a medium of exchange.",
+              "The buyer need not supply exactly the seller’s desired commodity."
+            ],
+            "answer": "Money reduces the double-coincidence-of-wants problem."
+          },
+          "activity": {
+            "prompt": "Draw a simplified bank balance sheet with loans as an asset and customer deposits as a liability.",
+            "check": "A customer deposit is the bank’s obligation to its depositor; a loan is generally the bank’s claim on its borrower."
+          },
+          "questions": [
+            {
+              "id": "12-economics-money-q1",
+              "prompt": "Money reduces which barter difficulty?",
+              "options": [
+                "Every form of scarcity",
+                "All price changes",
+                "All lending risk",
+                "Double coincidence of wants"
+              ],
+              "answer": 3,
+              "explanation": "The medium of exchange separates selling from buying.",
+              "hint": "Consider whether both traders must want each other’s goods.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-economics-money-q2",
+              "prompt": "For a commercial bank, a customer’s deposit is generally a:",
+              "options": [
+                "Sales expense",
+                "Physical inventory",
+                "Liability",
+                "Fixed asset"
+              ],
+              "answer": 2,
+              "explanation": "The bank owes the funds to the depositor according to account terms.",
+              "hint": "Take the bank’s perspective.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-economics-money-q3",
+              "prompt": "Why can a bank not safely lend without limits?",
+              "options": [
+                "Every deposit must remain untouched as cash forever",
+                "It faces liquidity, credit-risk and regulatory constraints",
+                "Deposits are always profit",
+                "Loans cannot default"
+              ],
+              "answer": 1,
+              "explanation": "Banks must manage withdrawals, repayment risk and applicable requirements.",
+              "hint": "Avoid both unlimited-lending and no-lending extremes.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two functions of money and one limitation of treating deposits as bank income.",
+            "points": [
+              "Discuss medium of exchange and unit of account or store of value.",
+              "Deposits create a liability, not automatically earned income.",
+              "Explain using the bank’s perspective."
+            ]
+          },
+          "revision": [
+            "Perspective matters in accounting for banks.",
+            "Money does not eliminate scarcity.",
+            "Bank lending involves risk and constraints."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "modules": [
+        {
+          "id": "12-history-harappan",
+          "title": "Harappan archaeology and evidence",
+          "goal": "Use archaeological evidence to examine urban organisation cautiously.",
+          "concepts": [
+            {
+              "term": "Archaeology",
+              "explanation": "Study of the past through material remains and their contexts."
+            },
+            {
+              "term": "Urban infrastructure",
+              "explanation": "Shared physical arrangements such as streets, drainage and water systems."
+            },
+            {
+              "term": "Undeciphered script",
+              "explanation": "A writing system for which no generally accepted full reading has been established."
+            }
+          ],
+          "example": {
+            "problem": "Why are drainage remains useful but insufficient for reconstructing Harappan government?",
+            "steps": [
+              "Drains provide material evidence of construction and maintenance practices.",
+              "They suggest organised activity.",
+              "They do not by themselves identify offices, laws or a ruler’s name."
+            ],
+            "answer": "Infrastructure supports arguments about organisation but cannot alone reveal a complete political structure."
+          },
+          "activity": {
+            "prompt": "Separate observations and inferences in a photograph or plan of an ancient settlement.",
+            "check": "Describe visible features first, then explain cautious interpretations; do not treat labels in a modern reconstruction as ancient testimony."
+          },
+          "questions": [
+            {
+              "id": "12-history-harappan-q1",
+              "prompt": "Harappan script is generally described as:",
+              "options": [
+                "Fully translated into modern English",
+                "Identical to every modern Indian script",
+                "Entirely absent from finds",
+                "Not securely deciphered"
+              ],
+              "answer": 3,
+              "explanation": "A generally accepted full decipherment is not available.",
+              "hint": "Separate the existence of signs from the ability to read them.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-history-harappan-q2",
+              "prompt": "A city drain provides direct evidence of:",
+              "options": [
+                "A complete constitution",
+                "A definite modern-style parliament",
+                "Built drainage infrastructure",
+                "The name of every resident"
+              ],
+              "answer": 2,
+              "explanation": "The structure is direct material evidence; political conclusions are further inferences.",
+              "hint": "Distinguish observation from interpretation.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-history-harappan-q3",
+              "prompt": "Which strengthens an archaeological interpretation?",
+              "options": [
+                "Ignoring excavation records",
+                "Consistent evidence from multiple contexts",
+                "A single dramatic claim without context",
+                "Inventing a missing inscription"
+              ],
+              "answer": 1,
+              "explanation": "Repeated contextual evidence can improve confidence.",
+              "hint": "Look for corroboration and context.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Discuss one strength and one limit of archaeological evidence for Harappan life.",
+            "points": [
+              "Identify a material source.",
+              "Explain what it can reasonably show.",
+              "Explain what remains uncertain."
+            ]
+          },
+          "revision": [
+            "Undeciphered does not mean no evidence exists.",
+            "Observation and inference differ.",
+            "Avoid assigning unsupported ruler names or political systems."
+          ]
+        },
+        {
+          "id": "12-history-oral",
+          "title": "Oral histories and memory",
+          "goal": "Evaluate personal recollections alongside other historical evidence.",
+          "concepts": [
+            {
+              "term": "Oral history",
+              "explanation": "Recorded testimony about past experience, obtained through interviews or related methods."
+            },
+            {
+              "term": "Memory",
+              "explanation": "Recollection shaped by time, personal experience and later circumstances."
+            },
+            {
+              "term": "Ethical interviewing",
+              "explanation": "Seeking consent, respecting boundaries and representing testimony responsibly."
+            }
+          ],
+          "example": {
+            "problem": "Two witnesses remember the timing of an event differently. What should a historian do?",
+            "steps": [
+              "Record both accounts accurately.",
+              "Consider the witnesses’ positions and the time elapsed.",
+              "Compare with dated records where available."
+            ],
+            "answer": "Investigate the difference without assuming one witness is deliberately dishonest."
+          },
+          "activity": {
+            "prompt": "With consent, ask a family member about a non-sensitive change in local transport and compare their account with a dated public record.",
+            "check": "Respect a refusal, avoid sensitive topics, and distinguish memory from independently dated evidence."
+          },
+          "questions": [
+            {
+              "id": "12-history-oral-q1",
+              "prompt": "Oral history can especially illuminate:",
+              "options": [
+                "Only government policy texts",
+                "Events the speaker never encountered with certainty",
+                "Personal experience and meaning",
+                "Every date with guaranteed precision"
+              ],
+              "answer": 2,
+              "explanation": "Testimony can reveal experiences underrepresented in official records.",
+              "hint": "Consider the perspective a personal account offers.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-history-oral-q2",
+              "prompt": "Consent in an interview means:",
+              "options": [
+                "Silence always means permission",
+                "The person understands and agrees to participation",
+                "A recording can always be taken secretly",
+                "Any statement can be published without discussion"
+              ],
+              "answer": 1,
+              "explanation": "Ethical practice requires informed agreement and respect for boundaries.",
+              "hint": "Ask before recording or sharing.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-history-oral-q3",
+              "prompt": "Different memories of an event should lead to:",
+              "options": [
+                "Contextual comparison and corroboration",
+                "Automatic accusation of lying",
+                "Discarding all oral evidence",
+                "Inventing a compromise date"
+              ],
+              "answer": 0,
+              "explanation": "Variation can arise from perspective and memory and deserves investigation.",
+              "hint": "Investigate rather than force agreement.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how oral testimony and written records can complement one another.",
+            "points": [
+              "Personal testimony can reveal experience and meaning.",
+              "Written records may help establish dates and institutional actions.",
+              "Both have perspectives and limitations."
+            ]
+          },
+          "revision": [
+            "Memory is evidence requiring interpretation.",
+            "Consent and respectful handling matter.",
+            "Differences between accounts can be historically informative."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "political-science",
+      "name": "Political Science",
+      "modules": [
+        {
+          "id": "12-political-science-cold-war",
+          "title": "Cold War and non-alignment",
+          "goal": "Distinguish power blocs, competition and independent foreign-policy choices.",
+          "concepts": [
+            {
+              "term": "Cold War",
+              "explanation": "A period of intense geopolitical rivalry centred on the United States and Soviet Union and their associated blocs after the Second World War."
+            },
+            {
+              "term": "Bipolarity",
+              "explanation": "An international distribution of power dominated by two major centres."
+            },
+            {
+              "term": "Non-alignment",
+              "explanation": "An approach of avoiding automatic alignment with major power blocs while retaining active foreign-policy choices."
+            }
+          ],
+          "example": {
+            "problem": "Why is non-alignment different from complete isolation?",
+            "steps": [
+              "Non-alignment concerns independence from automatic bloc commitments.",
+              "A state can still engage diplomatically and participate in international institutions.",
+              "It can evaluate issues individually."
+            ],
+            "answer": "Non-alignment permits active engagement without automatic bloc allegiance."
+          },
+          "activity": {
+            "prompt": "Create a concept map connecting alliances, deterrence, diplomacy and non-alignment.",
+            "check": "Do not treat all non-aligned states as having identical policies on every issue."
+          },
+          "questions": [
+            {
+              "id": "12-political-science-cold-war-q1",
+              "prompt": "Bipolarity refers to:",
+              "options": [
+                "One world government",
+                "No international institutions",
+                "Two dominant centres of international power",
+                "A climate zone only"
+              ],
+              "answer": 2,
+              "explanation": "The term describes a distribution of power.",
+              "hint": "Count the major centres.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-political-science-cold-war-q2",
+              "prompt": "Non-alignment necessarily means:",
+              "options": [
+                "Joining both military blocs automatically",
+                "Avoiding automatic bloc allegiance, not ending all diplomacy",
+                "Refusing every international meeting",
+                "Having no policy preferences"
+              ],
+              "answer": 1,
+              "explanation": "It aims to preserve independent judgement.",
+              "hint": "Distinguish engagement from allegiance.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-political-science-cold-war-q3",
+              "prompt": "Why is calling the Cold War entirely non-violent misleading?",
+              "options": [
+                "Proxy wars and armed conflicts occurred during the rivalry",
+                "No armies existed then",
+                "Every rivalry was only a debate",
+                "All conflicts stopped after 1945"
+              ],
+              "answer": 0,
+              "explanation": "The absence of direct full-scale US-Soviet war did not mean global absence of violence.",
+              "hint": "Consider conflicts beyond the two superpowers themselves.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the relationship between bipolarity and non-alignment.",
+            "points": [
+              "Describe the two dominant blocs.",
+              "Explain pressures to align.",
+              "Show how non-alignment sought room for independent choices."
+            ]
+          },
+          "revision": [
+            "Cold War does not mean no armed conflict.",
+            "Non-alignment differs from isolation.",
+            "States’ policies can change over time."
+          ]
+        },
+        {
+          "id": "12-political-science-globalisation",
+          "title": "Globalisation and state choices",
+          "goal": "Analyse cross-border connections and uneven effects.",
+          "concepts": [
+            {
+              "term": "Globalisation",
+              "explanation": "Intensification of cross-border economic, political, cultural and technological connections."
+            },
+            {
+              "term": "Interdependence",
+              "explanation": "A relationship in which developments in one place affect others."
+            },
+            {
+              "term": "Uneven effects",
+              "explanation": "Benefits and costs differ across groups, sectors and regions."
+            }
+          ],
+          "example": {
+            "problem": "A local firm reaches overseas customers online but faces cheaper imported competition. Analyse both effects.",
+            "steps": [
+              "Digital access can expand the firm’s market.",
+              "International competition can put pressure on price and production.",
+              "Outcomes depend on capabilities, rules and adaptation."
+            ],
+            "answer": "The same cross-border process can create opportunities and challenges."
+          },
+          "activity": {
+            "prompt": "Trace a familiar product through design, raw materials, production and sale across places.",
+            "check": "A product chain can reveal interdependence; verify locations rather than guessing."
+          },
+          "questions": [
+            {
+              "id": "12-political-science-globalisation-q1",
+              "prompt": "Globalisation involves:",
+              "options": [
+                "The disappearance of every government",
+                "Cross-border connections",
+                "Only local weather",
+                "A guarantee of equal incomes"
+              ],
+              "answer": 1,
+              "explanation": "It connects activities and influences across national borders.",
+              "hint": "Think across places and sectors.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-political-science-globalisation-q2",
+              "prompt": "A disruption abroad raising local input prices illustrates:",
+              "options": [
+                "Interdependence",
+                "Complete economic isolation",
+                "No connection between markets",
+                "The end of trade"
+              ],
+              "answer": 0,
+              "explanation": "A change in one location affects production elsewhere.",
+              "hint": "Trace the supply link.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-political-science-globalisation-q3",
+              "prompt": "Which assessment is most careful?",
+              "options": [
+                "Every person benefits equally",
+                "Every connection is harmful",
+                "Governments have no choices at all",
+                "Effects vary by sector, group and policy context"
+              ],
+              "answer": 3,
+              "explanation": "A contextual analysis avoids absolute claims.",
+              "hint": "Consider who gains, who loses and under what conditions.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Discuss one opportunity and one challenge associated with globalisation.",
+            "points": [
+              "Identify a concrete cross-border process.",
+              "Explain a potential benefit.",
+              "Explain a potential cost and affected group.",
+              "Avoid claiming uniform effects."
+            ]
+          },
+          "revision": [
+            "Economic and cultural connections can differ.",
+            "Interdependence can transmit disruptions.",
+            "Policy choices still matter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "modules": [
+        {
+          "id": "12-geography-population",
+          "title": "Population distribution and demographic measures",
+          "goal": "Interpret density and population change carefully.",
+          "concepts": [
+            {
+              "term": "Population density",
+              "explanation": "Population divided by land area, with units such as persons per square kilometre."
+            },
+            {
+              "term": "Natural increase",
+              "explanation": "Births minus deaths over a stated period."
+            },
+            {
+              "term": "Net migration",
+              "explanation": "Immigrants minus emigrants for the population and period considered."
+            }
+          ],
+          "example": {
+            "problem": "A district has 500,000 people over 1000 km². Find density.",
+            "steps": [
+              "Use population/area.",
+              "500,000/1000=500.",
+              "Include the area unit in the result."
+            ],
+            "answer": "500 persons/km²."
+          },
+          "activity": {
+            "prompt": "For a fictional town, combine 120 births, 80 deaths, 50 arrivals and 30 departures to find population change.",
+            "check": "Natural increase=40, net migration=20, total increase=60 people."
+          },
+          "questions": [
+            {
+              "id": "12-geography-population-q1",
+              "prompt": "Population density is:",
+              "options": [
+                "Only the total population",
+                "People divided by land area",
+                "Land area divided by births",
+                "Births divided by deaths"
+              ],
+              "answer": 1,
+              "explanation": "Density relates people to the space over which they are distributed.",
+              "hint": "Check the units.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-geography-population-q2",
+              "prompt": "If births equal deaths and arrivals exceed departures by 20, population changes by:",
+              "options": [
+                "+20",
+                "0",
+                "−20",
+                "+40"
+              ],
+              "answer": 0,
+              "explanation": "Natural change is zero; net migration adds 20.",
+              "hint": "Combine natural change and migration.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-geography-population-q3",
+              "prompt": "Why can average density hide local variation?",
+              "options": [
+                "Everyone must live equally spaced",
+                "Density measures income directly",
+                "All districts have equal terrain",
+                "Population may cluster in only part of the area"
+              ],
+              "answer": 3,
+              "explanation": "A mean over a region does not show its internal distribution.",
+              "hint": "Compare clustered and evenly spread settlement patterns.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why two regions with equal population can have different densities.",
+            "points": [
+              "Density depends on area as well as people.",
+              "Calculate with a simple example.",
+              "State that density does not directly measure living standards."
+            ]
+          },
+          "revision": [
+            "Always state the area unit.",
+            "Natural increase excludes migration.",
+            "Averages can conceal spatial contrasts."
+          ]
+        },
+        {
+          "id": "12-geography-development",
+          "title": "Human development and sustainability",
+          "goal": "Distinguish income measures from broader development.",
+          "concepts": [
+            {
+              "term": "Human development",
+              "explanation": "Expansion of people’s capabilities and opportunities, including health, education and a decent standard of living."
+            },
+            {
+              "term": "Sustainability",
+              "explanation": "Meeting present needs while maintaining the capacity of future generations to meet theirs."
+            },
+            {
+              "term": "Indicator",
+              "explanation": "A measurable quantity used to describe part of a broader condition."
+            }
+          ],
+          "example": {
+            "problem": "Two places have similar income per person but different school access and life expectancy. Are they identical in development?",
+            "steps": [
+              "Income captures only one dimension.",
+              "Education and health differences affect capabilities.",
+              "Compare multiple indicators and their distribution."
+            ],
+            "answer": "Similar income does not establish equal human development."
+          },
+          "activity": {
+            "prompt": "Create a small dashboard with one health, one education and one environmental indicator; describe what each misses.",
+            "check": "Use verified data if comparing real places and state dates; a dashboard is still a simplification."
+          },
+          "questions": [
+            {
+              "id": "12-geography-development-q1",
+              "prompt": "Human development includes:",
+              "options": [
+                "Health, education and living-standard dimensions",
+                "Only factory output",
+                "Only national land area",
+                "Only the number of roads"
+              ],
+              "answer": 0,
+              "explanation": "It concerns people’s capabilities, not output alone.",
+              "hint": "Think about opportunities to live and learn.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-geography-development-q2",
+              "prompt": "A sustainable resource decision should consider:",
+              "options": [
+                "Only today’s sales",
+                "Only the cheapest immediate option",
+                "No future effects",
+                "Long-term ecological capacity as well as present needs"
+              ],
+              "answer": 3,
+              "explanation": "Sustainability considers ongoing capacity and intergenerational needs.",
+              "hint": "Extend the time horizon.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-geography-development-q3",
+              "prompt": "Why use several development indicators?",
+              "options": [
+                "Income has no information at all",
+                "Multiple measures eliminate every judgement",
+                "One measure cannot capture every relevant dimension",
+                "All indicators always agree"
+              ],
+              "answer": 2,
+              "explanation": "Indicators provide complementary but incomplete evidence.",
+              "hint": "Distinguish useful evidence from complete description.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare economic growth and human development.",
+            "points": [
+              "Growth concerns changes in output or income.",
+              "Human development concerns broader capabilities.",
+              "Explain why growth may support development without guaranteeing its equal distribution."
+            ]
+          },
+          "revision": [
+            "Income is useful but incomplete.",
+            "Distribution and access matter.",
+            "Indicators need dates, definitions and context."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "modules": [
+        {
+          "id": "12-computer-science-functions",
+          "title": "Python functions and file handling",
+          "goal": "Distinguish returned values from displayed output and handle files carefully.",
+          "concepts": [
+            {
+              "term": "Function",
+              "explanation": "A reusable block of code that may accept arguments and return a value."
+            },
+            {
+              "term": "Return",
+              "explanation": "A statement that sends a result to the caller and ends that function call."
+            },
+            {
+              "term": "Context manager",
+              "explanation": "A with statement can manage a file resource and close it when its block ends."
+            }
+          ],
+          "example": {
+            "problem": "Trace def double(n): return 2*n, followed by x=double(4).",
+            "steps": [
+              "The call binds n to 4.",
+              "The function returns 8.",
+              "The caller assigns that returned value to x."
+            ],
+            "answer": "x is 8; the function need not print anything."
+          },
+          "activity": {
+            "prompt": "Write a function that returns the larger of two numbers and test equal inputs too.",
+            "check": "Return a value on each intended path; decide what should happen when inputs are equal."
+          },
+          "questions": [
+            {
+              "id": "12-computer-science-functions-q1",
+              "prompt": "A function that only prints a number and has no return statement normally returns:",
+              "options": [
+                "None",
+                "The printed number automatically",
+                "True in every case",
+                "A file"
+              ],
+              "answer": 0,
+              "explanation": "Printing displays output; absent an explicit returned value, the call returns None.",
+              "hint": "Separate display from returned data.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-computer-science-functions-q2",
+              "prompt": "Opening a file in mode \"w\" normally:",
+              "options": [
+                "Always appends without changing old content",
+                "Only reads existing text",
+                "Guarantees no data can be lost",
+                "Creates or truncates it for writing"
+              ],
+              "answer": 3,
+              "explanation": "Write mode can erase existing contents, so it requires care.",
+              "hint": "Compare w with a.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-computer-science-functions-q3",
+              "prompt": "Why use with open(...) as f?",
+              "options": [
+                "It prevents every possible exception",
+                "It converts all files to numbers",
+                "It manages closing the file when the block exits",
+                "It guarantees the file exists"
+              ],
+              "answer": 2,
+              "explanation": "The context manager handles resource cleanup, including normal exception paths.",
+              "hint": "Focus on resource management rather than guaranteed success.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare print and return inside a function.",
+            "points": [
+              "Print sends text to an output stream.",
+              "Return passes a result to the caller.",
+              "A returned value can be assigned or used in further computation."
+            ]
+          },
+          "revision": [
+            "Opening in w can overwrite content.",
+            "Handle expected file errors.",
+            "Test boundary cases and normal cases."
+          ]
+        },
+        {
+          "id": "12-computer-science-sql",
+          "title": "Relational tables and SQL queries",
+          "goal": "Read basic SELECT queries and distinguish keys from row order.",
+          "concepts": [
+            {
+              "term": "Relation",
+              "explanation": "A table of rows and columns under a relational data model."
+            },
+            {
+              "term": "Primary key",
+              "explanation": "A chosen key that uniquely identifies each row and does not permit null values in its key columns."
+            },
+            {
+              "term": "WHERE clause",
+              "explanation": "A filter specifying which rows satisfy a condition."
+            }
+          ],
+          "example": {
+            "problem": "For Students(id,name,score), write a query selecting names with score at least 80.",
+            "steps": [
+              "Select only the name column.",
+              "Read from Students.",
+              "Filter using score>=80."
+            ],
+            "answer": "SELECT name FROM Students WHERE score >= 80;"
+          },
+          "activity": {
+            "prompt": "Create five fictional student rows on paper and manually evaluate the example query.",
+            "check": "Include a score exactly 80; the >= condition includes it."
+          },
+          "questions": [
+            {
+              "id": "12-computer-science-sql-q1",
+              "prompt": "Which clause filters rows in a basic SELECT query?",
+              "options": [
+                "ORDER BY alone",
+                "SELECT alone",
+                "FROM alone",
+                "WHERE"
+              ],
+              "answer": 3,
+              "explanation": "WHERE evaluates a condition for row selection.",
+              "hint": "Separate choosing columns from filtering rows.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-computer-science-sql-q2",
+              "prompt": "A primary key must:",
+              "options": [
+                "Always contain the person’s name",
+                "Always be a decimal number",
+                "Uniquely identify a row and disallow null key values",
+                "Be the first displayed column in every query"
+              ],
+              "answer": 2,
+              "explanation": "Uniqueness and non-nullness are key properties.",
+              "hint": "Think identity rather than visual position.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-computer-science-sql-q3",
+              "prompt": "Why is ORDER BY needed when a specific output ordering matters?",
+              "options": [
+                "A primary key sorts every SELECT automatically",
+                "Row order is not guaranteed without an explicit ordering requirement",
+                "Tables always preserve insertion order in every query",
+                "WHERE automatically sorts every result"
+              ],
+              "answer": 1,
+              "explanation": "A query without ORDER BY should not be relied upon for a specified order.",
+              "hint": "Selection and sorting are different operations.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain SELECT, FROM and WHERE using one query.",
+            "points": [
+              "SELECT chooses output expressions or columns.",
+              "FROM identifies the source.",
+              "WHERE filters rows by a condition.",
+              "Use ORDER BY if a particular order is required."
+            ]
+          },
+          "revision": [
+            "Text values usually require quotation marks.",
+            "NULL is not the same as zero or an empty string.",
+            "Use parameterised queries when incorporating user input in applications."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "modules": [
+        {
+          "id": "12-psychology-differences",
+          "title": "Individual differences and assessment",
+          "goal": "Interpret psychological scores with context and ethical limits.",
+          "concepts": [
+            {
+              "term": "Individual differences",
+              "explanation": "Variations among people in characteristics such as abilities, interests and personality."
+            },
+            {
+              "term": "Reliability",
+              "explanation": "Consistency of measurement under appropriate comparable conditions."
+            },
+            {
+              "term": "Validity",
+              "explanation": "The extent to which evidence supports the intended interpretation and use of scores."
+            }
+          ],
+          "example": {
+            "problem": "A test gives very similar results each time but measures typing speed when used to judge creativity. Is consistency enough?",
+            "steps": [
+              "Repeated consistency concerns reliability.",
+              "The intended interpretation is creativity.",
+              "Typing speed alone may not justify that interpretation."
+            ],
+            "answer": "A reliable score is not automatically valid for every purpose."
+          },
+          "activity": {
+            "prompt": "Compare a timed arithmetic task and a creative drawing task; list what each might and might not measure.",
+            "check": "Avoid using a single task to label a person’s overall ability or worth."
+          },
+          "questions": [
+            {
+              "id": "12-psychology-differences-q1",
+              "prompt": "Reliability primarily concerns:",
+              "options": [
+                "Whether every intended use is justified",
+                "A person’s moral value",
+                "Only the test title",
+                "Measurement consistency"
+              ],
+              "answer": 3,
+              "explanation": "Consistency is necessary for many uses but not the same as validity.",
+              "hint": "Distinguish stable scores from appropriate interpretation.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-psychology-differences-q2",
+              "prompt": "Validity asks whether:",
+              "options": [
+                "Every result is identical",
+                "A test is always easy",
+                "Evidence supports the intended score interpretation",
+                "The test looks impressive"
+              ],
+              "answer": 2,
+              "explanation": "Validity concerns the meaning and use of scores.",
+              "hint": "Ask what claim is being made from the result.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-psychology-differences-q3",
+              "prompt": "Why avoid labelling a person from one brief score?",
+              "options": [
+                "Labels always improve learning",
+                "Scores have scope, uncertainty and contextual limits",
+                "A score describes every trait perfectly",
+                "Context never affects assessment"
+              ],
+              "answer": 1,
+              "explanation": "One measurement cannot capture every characteristic or circumstance.",
+              "hint": "Consider what the task actually measured.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare reliability and validity using an original example.",
+            "points": [
+              "Define consistency.",
+              "Define justified interpretation.",
+              "Show a consistent measure used for an unsuitable purpose.",
+              "State an ethical limit on conclusions."
+            ]
+          },
+          "revision": [
+            "Scores are not a person’s worth.",
+            "A test’s intended use matters.",
+            "Qualified interpretation and context are important."
+          ]
+        },
+        {
+          "id": "12-psychology-stress",
+          "title": "Stress, coping and supportive responses",
+          "goal": "Recognise demands and choose practical supportive coping strategies.",
+          "concepts": [
+            {
+              "term": "Stress",
+              "explanation": "A process involving demands appraised as challenging or exceeding available resources."
+            },
+            {
+              "term": "Problem-focused coping",
+              "explanation": "Actions aimed at changing a manageable demand or its practical causes."
+            },
+            {
+              "term": "Emotion-focused coping",
+              "explanation": "Actions aimed at regulating emotional responses when appropriate."
+            }
+          ],
+          "example": {
+            "problem": "A student feels overwhelmed by three deadlines. Suggest a practical response.",
+            "steps": [
+              "List tasks and their actual due dates.",
+              "Break work into small actions and prioritise.",
+              "Include rest and seek help from a trusted teacher if demands are unmanageable."
+            ],
+            "answer": "A realistic plan and support can improve coping; this is not a diagnosis or a guaranteed cure."
+          },
+          "activity": {
+            "prompt": "Create a fictional deadline plan with one manageable action, one rest break and one support contact.",
+            "check": "Do not ask classmates to disclose private distress; use a fictional case."
+          },
+          "questions": [
+            {
+              "id": "12-psychology-stress-q1",
+              "prompt": "Breaking an assignment into smaller steps is mainly:",
+              "options": [
+                "Avoiding all responsibility",
+                "A personality test",
+                "Problem-focused coping",
+                "A diagnosis"
+              ],
+              "answer": 2,
+              "explanation": "It changes how the task demand is managed.",
+              "hint": "Focus on the practical source of difficulty.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-psychology-stress-q2",
+              "prompt": "A supportive response to a stressed classmate is:",
+              "options": [
+                "Promise secrecy in every dangerous circumstance",
+                "Listen respectfully and encourage appropriate support",
+                "Mock their reaction",
+                "Diagnose them from one conversation"
+              ],
+              "answer": 1,
+              "explanation": "Listening and appropriate help are safer than judgement or amateur diagnosis.",
+              "hint": "Respect the person and the limits of your role.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-psychology-stress-q3",
+              "prompt": "Why may coping strategies differ across situations?",
+              "options": [
+                "Some demands can be changed while others cannot be changed immediately",
+                "One strategy solves every problem",
+                "Emotions never affect coping",
+                "Support is never useful"
+              ],
+              "answer": 0,
+              "explanation": "Coping should fit the demand, resources and context.",
+              "hint": "Match the strategy to controllability.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare problem-focused and emotion-focused coping using a fictional example.",
+            "points": [
+              "Identify the demand.",
+              "Give an action addressing a manageable cause.",
+              "Give an action supporting emotional regulation.",
+              "Explain when additional support may help."
+            ]
+          },
+          "revision": [
+            "Stress responses vary.",
+            "Coping is context-dependent.",
+            "Seek qualified support for persistent or severe difficulties."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "modules": [
+        {
+          "id": "12-sociology-inequality",
+          "title": "Social inequality and stratification",
+          "goal": "Distinguish individual differences from patterned unequal opportunities.",
+          "concepts": [
+            {
+              "term": "Social inequality",
+              "explanation": "Unequal access to resources, opportunities or recognition across social positions."
+            },
+            {
+              "term": "Stratification",
+              "explanation": "Structured and enduring patterns of hierarchical social inequality."
+            },
+            {
+              "term": "Intersection",
+              "explanation": "Different social positions can combine to shape a person’s opportunities and constraints."
+            }
+          ],
+          "example": {
+            "problem": "Two students have equal motivation but different access to transport and internet. What can a sociological analysis add?",
+            "steps": [
+              "Identify unequal resources rather than assume unequal effort.",
+              "Examine how place, income and responsibilities may interact.",
+              "Avoid predicting every individual outcome from group membership."
+            ],
+            "answer": "Opportunity can differ because of structured conditions, even when motivation is similar."
+          },
+          "activity": {
+            "prompt": "Design a fictional accessibility audit for a study centre covering cost, transport, language and disability access.",
+            "check": "Use concrete barriers and possible changes; do not collect sensitive personal disclosures."
+          },
+          "questions": [
+            {
+              "id": "12-sociology-inequality-q1",
+              "prompt": "Social inequality concerns:",
+              "options": [
+                "A guarantee that every individual outcome is identical",
+                "Only natural landforms",
+                "Patterned differences in access and opportunity",
+                "Only differences in favourite colour"
+              ],
+              "answer": 2,
+              "explanation": "The focus is socially organised access to valued resources and opportunities.",
+              "hint": "Distinguish social advantage from any difference at all.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-sociology-inequality-q2",
+              "prompt": "An accessibility audit should examine:",
+              "options": [
+                "Assumptions about a group without evidence",
+                "Barriers people may face using a service",
+                "Only the service’s logo",
+                "Only one successful user"
+              ],
+              "answer": 1,
+              "explanation": "The aim is to identify practical obstacles and possible remedies.",
+              "hint": "Consider cost, location, language and access requirements.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-sociology-inequality-q3",
+              "prompt": "Why avoid generalising every individual outcome from a social category?",
+              "options": [
+                "Groups contain variation and individuals face multiple influences",
+                "Social patterns never exist",
+                "Every member has exactly the same experience",
+                "Evidence is unnecessary"
+              ],
+              "answer": 0,
+              "explanation": "Recognising patterned inequality does not remove within-group diversity.",
+              "hint": "Patterns and individual variation can coexist.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a social barrier can affect educational opportunity.",
+            "points": [
+              "Identify a specific barrier.",
+              "Explain its mechanism.",
+              "Consider interacting conditions.",
+              "Avoid stereotypes and deterministic claims."
+            ]
+          },
+          "revision": [
+            "Difference and inequality are not identical.",
+            "Patterns require evidence.",
+            "Social categories do not fully define individuals."
+          ]
+        },
+        {
+          "id": "12-sociology-change",
+          "title": "Social change, urbanisation and collective action",
+          "goal": "Analyse change as a process with varied causes and effects.",
+          "concepts": [
+            {
+              "term": "Social change",
+              "explanation": "Significant change in social relationships, institutions or practices over time."
+            },
+            {
+              "term": "Urbanisation",
+              "explanation": "An increasing concentration or share of population in urban settlements, depending on the measure used."
+            },
+            {
+              "term": "Collective action",
+              "explanation": "People acting together toward a shared objective."
+            }
+          ],
+          "example": {
+            "problem": "A new bus route changes a town’s commuting patterns. Identify possible social effects.",
+            "steps": [
+              "Improved access may widen school and work options.",
+              "Travel patterns can affect local businesses and time use.",
+              "Effects may differ across neighbourhoods and groups."
+            ],
+            "answer": "A transport change can influence several institutions, with unequal outcomes."
+          },
+          "activity": {
+            "prompt": "Draw a before-and-after map for a fictional neighbourhood gaining a bus route and identify who may benefit or still face barriers.",
+            "check": "State assumptions and distinguish predicted effects from observed evidence."
+          },
+          "questions": [
+            {
+              "id": "12-sociology-change-q1",
+              "prompt": "Social change is best understood as:",
+              "options": [
+                "Always caused by one factor",
+                "Change in social practices or relationships over time",
+                "Only a change in one person’s mood",
+                "Always automatic improvement for everyone"
+              ],
+              "answer": 1,
+              "explanation": "The term describes social processes, not a guarantee of progress.",
+              "hint": "Separate change from value judgement.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "12-sociology-change-q2",
+              "prompt": "Residents organising for a safer crossing illustrate:",
+              "options": [
+                "Collective action",
+                "Only individual memory",
+                "No shared objective",
+                "A chemical reaction"
+              ],
+              "answer": 0,
+              "explanation": "They coordinate toward a common public goal.",
+              "hint": "Identify the shared action and objective.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "12-sociology-change-q3",
+              "prompt": "Why assess a new service across different groups?",
+              "options": [
+                "Every group necessarily benefits equally",
+                "Only total publicity matters",
+                "No service affects social life",
+                "Its effects can be uneven"
+              ],
+              "answer": 3,
+              "explanation": "Access and circumstances vary, so an overall gain may hide remaining barriers.",
+              "hint": "Ask who gains access and who does not.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Analyse one fictional example of social change.",
+            "points": [
+              "Describe the change and likely causes.",
+              "Identify affected institutions or relationships.",
+              "Discuss differing effects.",
+              "State what evidence would test the predictions."
+            ]
+          },
+          "revision": [
+            "Change is not always linear.",
+            "Several causes can interact.",
+            "Collective action can influence institutions."
+          ]
+        }
+      ]
+    }
+  ]
+}

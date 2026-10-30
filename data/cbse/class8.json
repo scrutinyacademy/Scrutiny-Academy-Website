@@ -1,0 +1,2084 @@
+{
+  "grade": 8,
+  "contentStatus": "Original supplementary topic modules; not exhaustive textbook coverage or certification of 2026–27 syllabus alignment.",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "g8-mathematics-rational",
+          "title": "Rational numbers and operations",
+          "goal": "Calculate with rational numbers and use properties without applying them where they do not hold.",
+          "concepts": [
+            {
+              "term": "Rational number",
+              "explanation": "A number expressible as p/q where p and q are integers and q is not zero."
+            },
+            {
+              "term": "Multiplicative inverse",
+              "explanation": "The reciprocal of a nonzero number; multiplying a number by its reciprocal gives 1. Zero has no reciprocal."
+            }
+          ],
+          "example": {
+            "problem": "Evaluate −3/4 + 5/6.",
+            "steps": [
+              "Use common denominator 12.",
+              "Write −3/4 = −9/12 and 5/6 = 10/12.",
+              "Add numerators: (−9 + 10)/12 = 1/12."
+            ],
+            "answer": "1/12."
+          },
+          "activity": {
+            "prompt": "Place −1/2, 1/4 and −3/4 on a number line. Put them in ascending order.",
+            "check": "From left to right: −3/4, −1/2, 1/4."
+          },
+          "questions": [
+            {
+              "prompt": "Which number has no multiplicative inverse?",
+              "explanation": "No number multiplied by zero gives 1.",
+              "hint": "A reciprocal must make the product 1.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-rational-q1",
+              "options": [
+                "0",
+                "−1",
+                "2/3",
+                "5"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "What is the reciprocal of −2/5?",
+              "explanation": "(−2/5) × (−5/2) = 1.",
+              "hint": "Invert numerator and denominator, keeping the sign.",
+              "difficulty": "Easy",
+              "id": "g8-mathematics-rational-q2",
+              "options": [
+                "5/2",
+                "−5/2",
+                "−2/5",
+                "2/5"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which is true for rational numbers a and b?",
+              "explanation": "Addition is commutative; subtraction and division are not generally commutative, and division by zero is undefined.",
+              "hint": "Check a simple counterexample for each claim.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-rational-q3",
+              "options": [
+                "a − b = b − a always",
+                "a ÷ b = b ÷ a always",
+                "a + b = b + a",
+                "a/0 is always rational"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Use examples to explain why addition is commutative but subtraction is not.",
+            "points": [
+              "For example, 2/3 + 1/3 = 1/3 + 2/3.",
+              "But 2/3 − 1/3 = 1/3, while 1/3 − 2/3 = −1/3.",
+              "A single counterexample disproves an always claim."
+            ]
+          },
+          "revision": [
+            "Denominators cannot be zero.",
+            "Use common denominators for addition.",
+            "Not every operation has the same properties."
+          ]
+        },
+        {
+          "id": "g8-mathematics-linear",
+          "title": "Linear equations with variables on both sides",
+          "goal": "Solve linear equations, including those with brackets, and verify solutions.",
+          "concepts": [
+            {
+              "term": "Linear equation in one variable",
+              "explanation": "An equation reducible to ax + b = 0 with a nonzero coefficient a."
+            },
+            {
+              "term": "Distributive property",
+              "explanation": "a(b + c) = ab + ac; multiply every term inside a bracket."
+            }
+          ],
+          "example": {
+            "problem": "Solve 3(x + 2) = 2x + 11.",
+            "steps": [
+              "Expand: 3x + 6 = 2x + 11.",
+              "Subtract 2x from both sides: x + 6 = 11.",
+              "Subtract 6: x = 5.",
+              "Check: 3(5 + 2) = 21 and 2 × 5 + 11 = 21."
+            ],
+            "answer": "x = 5."
+          },
+          "activity": {
+            "prompt": "Create your own equation with x = 4 as its solution. Exchange it with a friend and verify by substitution.",
+            "check": "For example, 2x + 3 = 11. Both sides must be equal when x = 4."
+          },
+          "questions": [
+            {
+              "prompt": "Expand 4(x − 3).",
+              "explanation": "Multiply both terms by 4: 4x − 12.",
+              "hint": "The multiplier applies to every term.",
+              "difficulty": "Easy",
+              "id": "g8-mathematics-linear-q1",
+              "options": [
+                "4x − 12",
+                "4x − 3",
+                "x − 12",
+                "4x + 12"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Solve 5x − 7 = 3x + 9.",
+              "explanation": "Subtract 3x and add 7: 2x = 16, so x = 8.",
+              "hint": "Collect variable terms and constants.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-linear-q2",
+              "options": [
+                "x = 1",
+                "x = 8",
+                "x = −8",
+                "x = 16"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "A solution of an equation must:",
+              "explanation": "A solution is defined by satisfying equality, regardless of its sign or type.",
+              "hint": "Use the original equation to check.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-linear-q3",
+              "options": [
+                "Make the left side zero in every equation",
+                "Be a whole number",
+                "Make both sides equal when substituted",
+                "Always be positive"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Solve 2(3x − 1) = 4x + 10 with a check.",
+            "points": [
+              "Expand to 6x − 2 = 4x + 10.",
+              "Rearrange to 2x = 12, hence x = 6.",
+              "Both sides equal 34 when x = 6."
+            ]
+          },
+          "revision": [
+            "Expand brackets carefully.",
+            "Keep both sides balanced.",
+            "Check in the original equation."
+          ]
+        },
+        {
+          "id": "g8-mathematics-percentages",
+          "title": "Percentages, discounts and simple interest",
+          "goal": "Calculate successive price changes and distinguish interest from total amount.",
+          "concepts": [
+            {
+              "term": "Percentage change",
+              "explanation": "The change expressed as a fraction of the original value, multiplied by 100."
+            },
+            {
+              "term": "Simple interest",
+              "explanation": "Interest calculated on the original principal: I = PRT/100 when R is an annual percentage rate and T is in years."
+            }
+          ],
+          "example": {
+            "problem": "A bag marked ₹800 has a 15% discount. Find its selling price.",
+            "steps": [
+              "Discount = 15/100 × 800 = ₹120.",
+              "Selling price = 800 − 120 = ₹680."
+            ],
+            "answer": "₹680."
+          },
+          "activity": {
+            "prompt": "Compare a 20% discount on ₹500 with two successive 10% discounts.",
+            "check": "One 20% discount gives ₹400. Two 10% discounts give ₹500 × 0.9 × 0.9 = ₹405; they are not equivalent."
+          },
+          "questions": [
+            {
+              "prompt": "A price increases from ₹200 to ₹250. What is the percentage increase?",
+              "explanation": "The increase is ₹50; 50/200 × 100 = 25%.",
+              "hint": "Use the original price as the base.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-percentages-q1",
+              "options": [
+                "25%",
+                "20%",
+                "50%",
+                "125%"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "What is the simple interest on ₹1,000 at 5% per year for 2 years?",
+              "explanation": "I = 1000 × 5 × 2 / 100 = ₹100.",
+              "hint": "Distinguish interest from principal plus interest.",
+              "difficulty": "Easy",
+              "id": "g8-mathematics-percentages-q2",
+              "options": [
+                "₹50",
+                "₹100",
+                "₹1,100",
+                "₹10"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "After a 10% increase and then a 10% decrease, ₹100 becomes:",
+              "explanation": "₹100 becomes ₹110, then loses 10% of ₹110, which is ₹11.",
+              "hint": "The second percentage uses a different base.",
+              "difficulty": "Hard",
+              "id": "g8-mathematics-percentages-q3",
+              "options": [
+                "₹100",
+                "₹90",
+                "₹99",
+                "₹101"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why adding discount percentages can give a wrong result for successive discounts.",
+            "points": [
+              "The second discount applies to the reduced price.",
+              "Use multiplication by the remaining fractions.",
+              "Give a numerical example such as ₹100 → ₹90 → ₹81."
+            ]
+          },
+          "revision": [
+            "Always identify the percentage base.",
+            "Interest and amount differ.",
+            "Successive percentage changes multiply."
+          ]
+        },
+        {
+          "id": "g8-mathematics-mensuration",
+          "title": "Quadrilaterals, volume and measurement",
+          "goal": "Use geometric properties and choose the correct measure and unit.",
+          "concepts": [
+            {
+              "term": "Quadrilateral angle sum",
+              "explanation": "The four interior angles of a simple quadrilateral add to 360°."
+            },
+            {
+              "term": "Volume",
+              "explanation": "The amount of three-dimensional space occupied; a cuboid has volume length × breadth × height."
+            }
+          ],
+          "example": {
+            "problem": "A cuboid is 5 cm long, 4 cm wide and 3 cm high. Find its volume.",
+            "steps": [
+              "Use V = l × b × h.",
+              "Substitute 5 × 4 × 3 = 60.",
+              "Use cubic units."
+            ],
+            "answer": "60 cm³."
+          },
+          "activity": {
+            "prompt": "Build or sketch a cuboid from unit cubes with dimensions 3 by 2 by 2. Count cubes by layers.",
+            "check": "Each layer has 6 cubes and there are 2 layers, giving 12 cubic units."
+          },
+          "questions": [
+            {
+              "prompt": "Three angles of a quadrilateral are 80°, 100° and 95°. Find the fourth.",
+              "explanation": "The known sum is 275°; 360° − 275° = 85°.",
+              "hint": "Use the total of four interior angles.",
+              "difficulty": "Medium",
+              "id": "g8-mathematics-mensuration-q1",
+              "options": [
+                "85°",
+                "95°",
+                "180°",
+                "275°"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which is a unit of volume?",
+              "explanation": "Volume measures three-dimensional space and uses cubic units.",
+              "hint": "How many dimensions are multiplied?",
+              "difficulty": "Easy",
+              "id": "g8-mathematics-mensuration-q2",
+              "options": [
+                "cm",
+                "cm³",
+                "cm²",
+                "degree"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "If all dimensions of a cuboid are doubled, its volume becomes:",
+              "explanation": "(2l)(2b)(2h) = 8lbh.",
+              "hint": "Each of the three dimensions contributes a factor of 2.",
+              "difficulty": "Hard",
+              "id": "g8-mathematics-mensuration-q3",
+              "options": [
+                "2 times the original",
+                "4 times the original",
+                "8 times the original",
+                "6 times the original"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how area and volume differ using a box.",
+            "points": [
+              "Area can measure a face or the total surface, in square units.",
+              "Volume measures the space inside or occupied, in cubic units.",
+              "Use suitable formulas and label units."
+            ]
+          },
+          "revision": [
+            "Quadrilateral angles sum to 360°.",
+            "Cuboid volume = lbh.",
+            "Scaling three dimensions changes volume cubically."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "modules": [
+        {
+          "id": "g8-science-cells",
+          "title": "Cells and levels of organisation",
+          "goal": "Explain the cell as a unit of life and compare selected plant and animal cell features.",
+          "concepts": [
+            {
+              "term": "Cell",
+              "explanation": "The basic structural and functional unit of living organisms; some organisms consist of one cell and others of many."
+            },
+            {
+              "term": "Cell structures",
+              "explanation": "The membrane controls exchanges; cytoplasm is where many reactions occur. A typical plant cell also has a cell wall and may contain chloroplasts."
+            }
+          ],
+          "example": {
+            "problem": "A drawing shows a cell wall, cell membrane and chloroplasts. What type of cell does it most likely represent?",
+            "steps": [
+              "A cell wall alone is not exclusive to plants.",
+              "Chloroplasts in this school-level comparison indicate a photosynthetic plant cell.",
+              "Use the combination of features."
+            ],
+            "answer": "A photosynthetic plant cell."
+          },
+          "activity": {
+            "prompt": "Draw a typical plant cell and a typical animal cell. Label membrane, cytoplasm and nucleus in both, and wall and chloroplasts in the plant cell.",
+            "check": "Do not imply all plant cells contain chloroplasts; root cells generally do not."
+          },
+          "questions": [
+            {
+              "prompt": "Which structure forms the living boundary controlling exchange in both plant and animal cells?",
+              "explanation": "The cell membrane is present in both and controls exchange.",
+              "hint": "Find the boundary common to both cell types.",
+              "difficulty": "Easy",
+              "id": "g8-science-cells-q1",
+              "options": [
+                "Cell wall",
+                "Cell membrane",
+                "Chloroplast",
+                "Large central vacuole"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which statement is accurate?",
+              "explanation": "Unicellular organisms perform life functions in one cell.",
+              "hint": "Consider organisms such as Amoeba.",
+              "difficulty": "Medium",
+              "id": "g8-science-cells-q2",
+              "options": [
+                "Every organism has millions of cells",
+                "Only animals have cells",
+                "Some organisms consist of a single cell",
+                "Cells are always visible without magnification"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why is “every plant cell contains chloroplasts” incorrect?",
+              "explanation": "Chloroplasts occur in many photosynthetic cells, not every plant cell.",
+              "hint": "Think about cells underground.",
+              "difficulty": "Medium",
+              "id": "g8-science-cells-q3",
+              "options": [
+                "No plant cell contains chloroplasts",
+                "Only animal cells contain chloroplasts",
+                "Chloroplasts are outside all cells",
+                "Many nonphotosynthetic cells, such as root cells, lack chloroplasts"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Compare a typical plant cell and a typical animal cell using two similarities and two differences.",
+            "points": [
+              "Both have a membrane and cytoplasm; typical examples have a nucleus.",
+              "Plant cells have a cell wall; animal cells do not.",
+              "Photosynthetic plant cells contain chloroplasts; typical animal cells do not."
+            ]
+          },
+          "revision": [
+            "Cells are units of life.",
+            "Use typical comparisons without absolute claims.",
+            "Structure relates to function."
+          ]
+        },
+        {
+          "id": "g8-science-microorganisms",
+          "title": "Microorganisms: useful roles and prevention",
+          "goal": "Distinguish beneficial microbial processes from disease and explain everyday prevention.",
+          "concepts": [
+            {
+              "term": "Microorganism",
+              "explanation": "An organism too small to be seen clearly without magnification; examples include many bacteria and fungi."
+            },
+            {
+              "term": "Fermentation",
+              "explanation": "A process used by microorganisms such as yeast to release energy without oxygen; in bread-making yeast produces carbon dioxide that helps dough rise."
+            }
+          ],
+          "example": {
+            "problem": "Why does dough containing active yeast expand when conditions are suitable?",
+            "steps": [
+              "Yeast uses sugars.",
+              "Fermentation produces carbon dioxide.",
+              "Gas becomes trapped in the dough, increasing its volume."
+            ],
+            "answer": "Carbon dioxide from yeast makes the dough rise."
+          },
+          "activity": {
+            "prompt": "Create a two-column chart of useful microbial roles and ways to reduce harmful transmission. Do not culture unknown microbes.",
+            "check": "Useful roles can include food production and decomposition; prevention can include handwashing and safe food handling."
+          },
+          "questions": [
+            {
+              "prompt": "Which gas from yeast helps bread dough rise?",
+              "explanation": "Yeast fermentation releases carbon dioxide that is trapped in dough.",
+              "hint": "Think of bubbles in the dough.",
+              "difficulty": "Easy",
+              "id": "g8-science-microorganisms-q1",
+              "options": [
+                "Nitrogen",
+                "Carbon dioxide",
+                "Chlorine",
+                "Helium"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which statement about microorganisms is correct?",
+              "explanation": "Microorganisms have diverse roles.",
+              "hint": "Avoid treating an entire group as harmful.",
+              "difficulty": "Medium",
+              "id": "g8-science-microorganisms-q2",
+              "options": [
+                "All cause disease",
+                "All are visible without a microscope",
+                "Some are useful and some cause disease",
+                "None helps decomposition"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why can refrigeration slow food spoilage?",
+              "explanation": "Cold storage slows many spoilage processes but does not make food sterile.",
+              "hint": "Slowing growth is different from killing everything.",
+              "difficulty": "Medium",
+              "id": "g8-science-microorganisms-q3",
+              "options": [
+                "It sterilises all food instantly",
+                "It removes every microorganism",
+                "It converts food into medicine",
+                "Low temperature slows the activity and growth of many microbes"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Explain one useful microbial process and two practical food-safety habits.",
+            "points": [
+              "Describe fermentation or another valid example.",
+              "Include appropriate handwashing and safe storage or handling.",
+              "Do not claim refrigeration kills every pathogen."
+            ]
+          },
+          "revision": [
+            "Microbes have varied roles.",
+            "Yeast can release carbon dioxide.",
+            "Clean handling and suitable storage reduce risk."
+          ]
+        },
+        {
+          "id": "g8-science-force",
+          "title": "Force, pressure and friction",
+          "goal": "Explain how force and contact area affect pressure and compare useful and unwanted friction.",
+          "concepts": [
+            {
+              "term": "Pressure",
+              "explanation": "Force acting normally per unit area: pressure = force/area."
+            },
+            {
+              "term": "Friction",
+              "explanation": "A force that opposes relative motion or its tendency between contacting surfaces; it can be useful or cause energy loss and wear."
+            }
+          ],
+          "example": {
+            "problem": "Two bags have equal weight. One has wide straps and one has narrow straps. Why can the wide straps feel more comfortable?",
+            "steps": [
+              "The downward force is the same.",
+              "Wide straps spread it over a larger contact area.",
+              "Larger area gives lower average pressure."
+            ],
+            "answer": "Wide straps reduce pressure on the shoulders."
+          },
+          "activity": {
+            "prompt": "Press a flat eraser gently against a soft sponge using its broad face and then its narrow face with similar force.",
+            "check": "The narrower contact concentrates the force and produces a larger local deformation. Do not use sharp objects."
+          },
+          "questions": [
+            {
+              "prompt": "With the same perpendicular force, doubling the contact area makes pressure:",
+              "explanation": "P = F/A, so doubling A halves P.",
+              "hint": "Area is in the denominator.",
+              "difficulty": "Medium",
+              "id": "g8-science-force-q1",
+              "options": [
+                "Twice as large",
+                "Half as large",
+                "Four times as large",
+                "Unchanged"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which is a useful effect of friction?",
+              "explanation": "Static friction allows the foot to push against the ground without slipping.",
+              "hint": "Think about what happens on an extremely slippery floor.",
+              "difficulty": "Easy",
+              "id": "g8-science-force-q2",
+              "options": [
+                "Unwanted heating in a machine bearing",
+                "Wear of moving parts",
+                "Shoe soles gripping the ground while walking",
+                "Energy loss in an axle"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Pressure from a force of 40 N acting normally on 2 m² is:",
+              "explanation": "Pressure = 40/2 = 20 N/m² = 20 Pa.",
+              "hint": "Divide force by area.",
+              "difficulty": "Medium",
+              "id": "g8-science-force-q3",
+              "options": [
+                "80 Pa",
+                "42 Pa",
+                "0.05 Pa",
+                "20 Pa"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Why does lubrication reduce wear between many moving machine parts?",
+            "points": [
+              "A lubricant reduces direct contact between surfaces.",
+              "It can reduce friction and heating.",
+              "The effect depends on the situation; friction is not always undesirable."
+            ]
+          },
+          "revision": [
+            "Pressure depends on force and area.",
+            "Friction can help or hinder.",
+            "1 pascal = 1 newton per square metre."
+          ]
+        },
+        {
+          "id": "g8-science-light-sound",
+          "title": "Light, sound and careful observation",
+          "goal": "Compare reflection of light with sound production and recognise that different waves have different requirements.",
+          "concepts": [
+            {
+              "term": "Reflection",
+              "explanation": "The return of light into the original medium after striking a surface; the angle of incidence equals the angle of reflection, measured from the normal."
+            },
+            {
+              "term": "Sound",
+              "explanation": "A mechanical disturbance produced by vibration that needs a material medium for propagation."
+            }
+          ],
+          "example": {
+            "problem": "A light ray strikes a mirror at 35° to the normal. Find its angle of reflection.",
+            "steps": [
+              "Angles are measured from the normal, not from the mirror.",
+              "Apply the law of reflection."
+            ],
+            "answer": "The angle of reflection is 35°."
+          },
+          "activity": {
+            "prompt": "Gently pluck a stretched rubber band attached safely to an empty box and observe its vibration. Keep it away from eyes and ears.",
+            "check": "The vibrating band produces sound. Stop the vibration gently and notice the sound stops."
+          },
+          "questions": [
+            {
+              "prompt": "A ray makes an angle of 50° with the mirror surface. What is its angle of incidence?",
+              "explanation": "The normal is perpendicular to the surface, so i = 90° − 50° = 40°.",
+              "hint": "Angles of incidence are measured from the normal.",
+              "difficulty": "Medium",
+              "id": "g8-science-light-sound-q1",
+              "options": [
+                "50°",
+                "40°",
+                "90°",
+                "140°"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which statement about sound is correct?",
+              "explanation": "Sound is a mechanical wave and requires matter.",
+              "hint": "Compare sound with light travelling through space.",
+              "difficulty": "Easy",
+              "id": "g8-science-light-sound-q2",
+              "options": [
+                "It travels through a perfect vacuum",
+                "It is produced only by light",
+                "It needs a material medium to travel",
+                "It never involves vibration"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "The pitch of a sound is mainly related to its:",
+              "explanation": "Higher frequency generally corresponds to higher pitch.",
+              "hint": "Distinguish pitch from volume.",
+              "difficulty": "Medium",
+              "id": "g8-science-light-sound-q3",
+              "options": [
+                "Loudness alone",
+                "Colour",
+                "Reflection angle",
+                "Frequency"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why we can see sunlight through space but sound cannot cross a perfect vacuum.",
+            "points": [
+              "Light is electromagnetic radiation and does not need a material medium.",
+              "Sound is a mechanical disturbance requiring a medium.",
+              "Avoid saying that all waves need air."
+            ]
+          },
+          "revision": [
+            "Reflection angles use the normal.",
+            "Vibration produces sound.",
+            "Frequency relates to pitch; amplitude relates to loudness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "modules": [
+        {
+          "id": "g8-social-science-colonial-sources",
+          "title": "Colonial records and competing perspectives",
+          "goal": "Read administrative evidence critically and compare it with other voices.",
+          "concepts": [
+            {
+              "term": "Administrative record",
+              "explanation": "A document created to manage an institution or territory; it reflects the creator’s purposes and categories."
+            },
+            {
+              "term": "Perspective",
+              "explanation": "A viewpoint shaped by experience, position and purpose. Different groups can describe the same event differently."
+            }
+          ],
+          "example": {
+            "problem": "A colonial report says a new tax was successful because revenue rose. What else should a historian investigate?",
+            "steps": [
+              "Ask whose definition of success is being used.",
+              "Look for effects on cultivators, livelihoods and land.",
+              "Compare official records with other contemporary evidence."
+            ],
+            "answer": "Higher revenue alone does not show how the policy affected all people."
+          },
+          "activity": {
+            "prompt": "Create two fictional accounts of a school rule: one from an administrator and one from a student. Identify differing concerns.",
+            "check": "Label the accounts fictional. Differences in viewpoint do not automatically establish which claim is factually correct."
+          },
+          "questions": [
+            {
+              "prompt": "Why might a revenue report leave out villagers’ experiences?",
+              "explanation": "Purpose shapes what records include and omit.",
+              "hint": "Ask why the record was produced.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-colonial-sources-q1",
+              "options": [
+                "It can never contain facts",
+                "It was necessarily written by villagers",
+                "It was created primarily to record administrative priorities",
+                "Every report includes every perspective"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Which method strengthens a historical conclusion?",
+              "explanation": "Comparing sources helps assess agreement, omissions and contradictions.",
+              "hint": "Seek corroboration.",
+              "difficulty": "Easy",
+              "id": "g8-social-science-colonial-sources-q2",
+              "options": [
+                "Using only a slogan",
+                "Ignoring conflicting evidence",
+                "Assuming an official source is complete",
+                "Comparing different kinds of evidence"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "A difference between two accounts should lead you first to:",
+              "explanation": "Evaluation requires context and evidence, not style alone.",
+              "hint": "Investigate before judging.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-colonial-sources-q3",
+              "options": [
+                "Examine their authors, contexts and supporting evidence",
+                "Delete the shorter account",
+                "Assume both are useless",
+                "Accept whichever sounds dramatic"
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Why should a historian use more than official records to study a policy?",
+            "points": [
+              "Official records serve particular purposes.",
+              "Other sources can reveal different effects and experiences.",
+              "Compare evidence and acknowledge limitations."
+            ]
+          },
+          "revision": [
+            "Sources have purposes.",
+            "Different perspectives reveal different questions.",
+            "A strong claim explains its evidence."
+          ]
+        },
+        {
+          "id": "g8-social-science-constitution",
+          "title": "Constitution, rights and secularism",
+          "goal": "Explain constitutional rules, equal rights and the basic idea of state neutrality in matters of religion.",
+          "concepts": [
+            {
+              "term": "Constitution",
+              "explanation": "A framework of fundamental principles and rules defining government powers, institutions and rights."
+            },
+            {
+              "term": "Secularism in India",
+              "explanation": "The state has no official religion and constitutional principles protect religious freedom and equality, subject to constitutional limits."
+            }
+          ],
+          "example": {
+            "problem": "A public institution excludes a student only because of religion. Which principles should be examined?",
+            "steps": [
+              "Identify unequal treatment based on religion.",
+              "Consider equality and protection against discrimination.",
+              "Examine the facts and the applicable constitutional rules."
+            ],
+            "answer": "The situation raises issues of equality and religious discrimination."
+          },
+          "activity": {
+            "prompt": "Draft four fair rules for a fictional class club. Include a way for members to question an unfair decision.",
+            "check": "Rules should protect participation and make decision-makers accountable."
+          },
+          "questions": [
+            {
+              "prompt": "Why are limits on government power useful?",
+              "explanation": "Constitutional limits constrain arbitrary use of power.",
+              "hint": "Power needs accountability.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-constitution-q1",
+              "options": [
+                "They remove every law",
+                "They make elections unnecessary",
+                "They help protect rights and prevent arbitrary action",
+                "They forbid all public services"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Which practice supports equality?",
+              "explanation": "Fair access respects equal dignity and constitutional principles.",
+              "hint": "Separate individual qualifications from religious identity.",
+              "difficulty": "Easy",
+              "id": "g8-social-science-constitution-q2",
+              "options": [
+                "Excluding one religion automatically",
+                "Giving rights only to one community",
+                "Refusing to hear complaints",
+                "Applying fair admission rules without religious discrimination"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "A constitution mainly provides:",
+              "explanation": "A constitution establishes basic institutions, powers and rights.",
+              "hint": "Think about foundational rules rather than daily decisions.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-constitution-q3",
+              "options": [
+                "A fundamental framework for government and rights",
+                "A daily weather forecast",
+                "Only a list of holidays",
+                "A private shopping receipt"
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a club’s rules should include both powers and limits for its leaders.",
+            "points": [
+              "Leaders need authority to act.",
+              "Limits and review protect members from unfair decisions.",
+              "Relate the analogy carefully to constitutional government."
+            ]
+          },
+          "revision": [
+            "Rights and accountability belong together.",
+            "Equal dignity applies across communities.",
+            "Use evidence when discussing a real situation."
+          ]
+        },
+        {
+          "id": "g8-social-science-resources",
+          "title": "Resources and sustainable choices",
+          "goal": "Classify resources in context and compare conservation options.",
+          "concepts": [
+            {
+              "term": "Resource",
+              "explanation": "Something useful for meeting a need; usefulness depends partly on knowledge, technology and circumstances."
+            },
+            {
+              "term": "Sustainable use",
+              "explanation": "Using resources with attention to ecological limits and the needs of present and future generations."
+            }
+          ],
+          "example": {
+            "problem": "A town can repair leaking water pipes or only ask people to buy more water. Which option directly reduces waste?",
+            "steps": [
+              "Identify the source of avoidable loss.",
+              "Repairing leaks reduces water escaping before use.",
+              "Demand management and fair access may also be needed."
+            ],
+            "answer": "Repairing leaks directly reduces avoidable water loss."
+          },
+          "activity": {
+            "prompt": "Audit a fictional school’s water use. List three waste points and a practical improvement for each.",
+            "check": "Prioritise repairing leaks, avoiding overflow and sensible reuse where safe; do not suggest unsafe drinking-water reuse."
+          },
+          "questions": [
+            {
+              "prompt": "Which resource is non-renewable on human time scales?",
+              "explanation": "Coal forms over geological periods and is depleted far faster than it is replaced.",
+              "hint": "Compare formation time with consumption time.",
+              "difficulty": "Easy",
+              "id": "g8-social-science-resources-q1",
+              "options": [
+                "Sunlight",
+                "Wind",
+                "Coal",
+                "Flowing water in the water cycle"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why is reducing waste useful even for a renewable resource?",
+              "explanation": "Renewable resources can be overused or locally scarce.",
+              "hint": "Renewable does not mean inexhaustible.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-resources-q2",
+              "options": [
+                "Renewable means unlimited everywhere",
+                "All renewable resources are free to replace instantly",
+                "Waste increases the renewal rate automatically",
+                "Renewal and local availability can still be limited"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which action best follows a reduce-first approach?",
+              "explanation": "Preventing unnecessary consumption reduces waste at its source.",
+              "hint": "The best waste is waste not generated.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-resources-q3",
+              "options": [
+                "Avoid unnecessary disposable items",
+                "Buy extra disposables to recycle later",
+                "Replace usable items daily",
+                "Mix all waste together"
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Compare conserving a renewable resource and a non-renewable resource.",
+            "points": [
+              "Define the different replacement time scales.",
+              "Explain why both can need careful management.",
+              "Provide practical examples without assuming unlimited supply."
+            ]
+          },
+          "revision": [
+            "Usefulness depends on context.",
+            "Renewable resources can be overused.",
+            "Reduce waste before considering disposal."
+          ]
+        },
+        {
+          "id": "g8-social-science-industry-agriculture",
+          "title": "Agriculture, industry and economic links",
+          "goal": "Trace production chains and explain how location, labour and transport affect economic activity.",
+          "concepts": [
+            {
+              "term": "Agriculture",
+              "explanation": "Cultivation of crops and rearing of animals to produce food and other materials."
+            },
+            {
+              "term": "Production chain",
+              "explanation": "Connected stages that transform inputs into products and deliver them to users."
+            }
+          ],
+          "example": {
+            "problem": "Trace a cotton shirt from farm to shop.",
+            "steps": [
+              "Cotton is cultivated and harvested.",
+              "Fibres are processed and spun into yarn.",
+              "Yarn is woven or knitted into fabric.",
+              "Fabric is made into garments and transported to sellers."
+            ],
+            "answer": "Farm → fibre processing → yarn → fabric → garment → shop."
+          },
+          "activity": {
+            "prompt": "Choose a familiar object and draw its input–process–output chain. Include workers and transport.",
+            "check": "Each stage should describe a real transformation or service, not simply repeat the product’s name."
+          },
+          "questions": [
+            {
+              "prompt": "Which is a raw material for a cotton textile mill?",
+              "explanation": "Cotton fibre is processed into textile products.",
+              "hint": "An input enters the production process.",
+              "difficulty": "Easy",
+              "id": "g8-social-science-industry-agriculture-q1",
+              "options": [
+                "Finished shirt",
+                "School timetable",
+                "Cotton fibre",
+                "Traffic signal"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why can reliable transport affect an industry’s location?",
+              "explanation": "Industries need connections to suppliers and markets.",
+              "hint": "Follow goods into and out of the factory.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-industry-agriculture-q2",
+              "options": [
+                "It removes the need for workers",
+                "It guarantees no pollution",
+                "It changes every raw material into food",
+                "It helps move inputs and finished goods"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which statement about a production chain is most accurate?",
+              "explanation": "Many products connect primary production, processing and service activities.",
+              "hint": "Consider all stages, not only the shop.",
+              "difficulty": "Medium",
+              "id": "g8-social-science-industry-agriculture-q3",
+              "options": [
+                "It can involve farming, manufacturing and services",
+                "It always has only one worker",
+                "It excludes transport",
+                "It begins only when a customer buys something"
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Explain three factors a food-processing unit might consider when choosing a location.",
+            "points": [
+              "Access to suitable raw materials.",
+              "Transport, labour, water, energy or markets as relevant.",
+              "Explain why each chosen factor matters."
+            ]
+          },
+          "revision": [
+            "Inputs, processes and outputs are linked.",
+            "Workers and services matter throughout the chain.",
+            "Location involves several factors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "g8-english-inference",
+          "title": "Inference, evidence and uncertainty",
+          "goal": "Draw reasonable inferences and distinguish them from facts stated directly.",
+          "concepts": [
+            {
+              "term": "Inference",
+              "explanation": "A conclusion reached by combining textual clues with relevant knowledge."
+            },
+            {
+              "term": "Evidence strength",
+              "explanation": "A conclusion should match the strength of the evidence; words such as may or probably can express justified uncertainty."
+            }
+          ],
+          "example": {
+            "problem": "Read: “Arun checked the dark clouds, folded his picnic mat and hurried indoors.” What can you infer?",
+            "steps": [
+              "Dark clouds suggest possible rain.",
+              "Packing the mat and moving indoors fit that concern.",
+              "The text does not explicitly say rain has already started."
+            ],
+            "answer": "Arun probably expected rain."
+          },
+          "activity": {
+            "prompt": "Write two sentences about a character without naming their emotion. Ask someone to infer the emotion using your clues.",
+            "check": "The inference should cite a detail and should not claim more than the text supports."
+          },
+          "questions": [
+            {
+              "prompt": "Which inference best fits the example?",
+              "explanation": "The clouds and his actions support expecting rain, not the other claims.",
+              "hint": "Combine the two clues without inventing a history.",
+              "difficulty": "Medium",
+              "id": "g8-english-inference-q1",
+              "options": [
+                "It had definitely rained for three days",
+                "Arun had lost his house",
+                "The picnic was on another planet",
+                "Arun probably thought rain was coming"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which fact is stated directly in the example?",
+              "explanation": "The action of folding the mat appears explicitly.",
+              "hint": "Choose something actually written.",
+              "difficulty": "Easy",
+              "id": "g8-english-inference-q2",
+              "options": [
+                "Arun folded his picnic mat",
+                "Arun feared thunder",
+                "The storm lasted all night",
+                "Arun disliked all picnics"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which phrase best signals an inference with limited evidence?",
+              "explanation": "May expresses uncertainty appropriate to limited clues.",
+              "hint": "Match certainty to evidence.",
+              "difficulty": "Medium",
+              "id": "g8-english-inference-q3",
+              "options": [
+                "This proves every possible explanation",
+                "The character may be worried",
+                "There is no need for evidence",
+                "It is certainly true in every situation"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "State one inference about Arun and support it with two clues.",
+            "points": [
+              "Say he probably expected rain.",
+              "Cite dark clouds and hurrying indoors or packing the mat.",
+              "Do not claim the text explicitly says it rained."
+            ]
+          },
+          "revision": [
+            "Facts are stated; inferences are reasoned.",
+            "Cite clues.",
+            "Avoid unjustified certainty."
+          ]
+        },
+        {
+          "id": "g8-english-voice",
+          "title": "Active and passive voice",
+          "goal": "Recognise whether a sentence focuses on the doer or receiver of an action.",
+          "concepts": [
+            {
+              "term": "Active voice",
+              "explanation": "The grammatical subject performs the action: “The students cleaned the room.”"
+            },
+            {
+              "term": "Passive voice",
+              "explanation": "The subject receives the action, commonly using a form of be plus the past participle: “The room was cleaned by the students.”"
+            }
+          ],
+          "example": {
+            "problem": "Change “The librarian arranged the books” to passive voice.",
+            "steps": [
+              "Identify the object: the books.",
+              "Make it the new subject.",
+              "Keep the past time using were arranged.",
+              "Include the doer if needed."
+            ],
+            "answer": "The books were arranged by the librarian."
+          },
+          "activity": {
+            "prompt": "Write two active sentences about schoolwork and convert them to passive voice.",
+            "check": "Use a transitive verb with an object and preserve the original time and meaning."
+          },
+          "questions": [
+            {
+              "prompt": "Which sentence is passive?",
+              "explanation": "Was repaired shows that the subject receives the action.",
+              "hint": "Look for a form of be plus a past participle.",
+              "difficulty": "Medium",
+              "id": "g8-english-voice-q1",
+              "options": [
+                "The caretaker repaired the window.",
+                "The caretaker works daily.",
+                "The window looks clean.",
+                "The window was repaired by the caretaker."
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Choose the passive form of “Mira wrote the letter.”",
+              "explanation": "The past passive uses was written.",
+              "hint": "Write has the past participle written.",
+              "difficulty": "Easy",
+              "id": "g8-english-voice-q2",
+              "options": [
+                "The letter was written by Mira.",
+                "The letter writes Mira.",
+                "Mira was wrote the letter.",
+                "The letter is writing Mira."
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Why might a writer choose “The road was repaired yesterday”?",
+              "explanation": "Passive voice can foreground the receiver of an action.",
+              "hint": "Think about the information the reader needs.",
+              "difficulty": "Medium",
+              "id": "g8-english-voice-q3",
+              "options": [
+                "To prove the sentence is future tense",
+                "To focus on the repaired road when the doer is unimportant or unknown",
+                "To remove the action entirely",
+                "To make the road the doer"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Convert “The volunteers planted ten trees” to passive voice and explain the change in focus.",
+            "points": [
+              "Ten trees were planted by the volunteers.",
+              "The new subject is ten trees.",
+              "The tense and basic meaning remain past."
+            ]
+          },
+          "revision": [
+            "Identify subject, verb and object.",
+            "Preserve tense.",
+            "Not every sentence can be changed naturally into passive voice."
+          ]
+        },
+        {
+          "id": "g8-english-argument",
+          "title": "Building an evidence-based paragraph",
+          "goal": "Write a claim with reasons, evidence and a considered response to another view.",
+          "concepts": [
+            {
+              "term": "Claim",
+              "explanation": "The main position a writer wants the reader to accept."
+            },
+            {
+              "term": "Evidence and reasoning",
+              "explanation": "Evidence supplies support; reasoning explains how that support connects to the claim."
+            }
+          ],
+          "example": {
+            "problem": "Improve the argument “We need a reading corner because it is good.”",
+            "steps": [
+              "Make the benefit specific.",
+              "Give a relevant reason, such as access to books during free time.",
+              "Explain how that benefit supports the proposal."
+            ],
+            "answer": "A reading corner would let students borrow books during free periods. Easy access could encourage regular reading, so the school should trial one and collect feedback."
+          },
+          "activity": {
+            "prompt": "Write one claim about improving your classroom. Add one reason, one realistic piece of evidence you could collect and one limitation.",
+            "check": "Do not invent survey results; propose collecting them or label hypothetical numbers clearly."
+          },
+          "questions": [
+            {
+              "prompt": "Which best supports a claim about students’ reading preferences?",
+              "explanation": "Relevant evidence addresses the actual group and question.",
+              "hint": "Match evidence to the claim.",
+              "difficulty": "Medium",
+              "id": "g8-english-argument-q1",
+              "options": [
+                "A made-up percentage",
+                "An unrelated celebrity quote",
+                "The writer’s favourite colour",
+                "A clearly described survey of the relevant students"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "What does reasoning do in a paragraph?",
+              "explanation": "Reasoning makes the connection between support and conclusion clear.",
+              "hint": "A fact needs an explanation of its relevance.",
+              "difficulty": "Easy",
+              "id": "g8-english-argument-q2",
+              "options": [
+                "Explains how evidence supports the claim",
+                "Replaces all evidence",
+                "Only repeats the title",
+                "Guarantees every claim is true"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "How should a writer handle a reasonable opposing view?",
+              "explanation": "Fair engagement improves the quality of an argument.",
+              "hint": "Respond to the idea rather than attacking the person.",
+              "difficulty": "Medium",
+              "id": "g8-english-argument-q3",
+              "options": [
+                "Pretend it does not exist",
+                "Represent it fairly and respond with reasons",
+                "Insult the person",
+                "Change its meaning to make it silly"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Write a paragraph arguing for one practical school improvement.",
+            "points": [
+              "State a clear proposal.",
+              "Give relevant support and explain it.",
+              "Acknowledge a constraint or opposing concern."
+            ]
+          },
+          "revision": [
+            "Claim, support and explanation work together.",
+            "Do not invent evidence.",
+            "Address other views respectfully."
+          ]
+        },
+        {
+          "id": "g8-english-editing",
+          "title": "Editing for clarity and cohesion",
+          "goal": "Revise pronouns, links and punctuation so a paragraph is easy to follow.",
+          "concepts": [
+            {
+              "term": "Cohesion",
+              "explanation": "Connections between sentences created by clear references, repeated key ideas and suitable linking expressions."
+            },
+            {
+              "term": "Ambiguous reference",
+              "explanation": "A pronoun or phrase whose intended meaning is unclear because it could refer to more than one person or thing."
+            }
+          ],
+          "example": {
+            "problem": "Revise “Riya spoke to Sana after she finished the project” to show that Sana finished it.",
+            "steps": [
+              "Identify the ambiguous word: she.",
+              "Replace it with the intended name or restructure the sentence."
+            ],
+            "answer": "After Sana finished the project, Riya spoke to her."
+          },
+          "activity": {
+            "prompt": "Write a paragraph with two characters. Underline pronouns and check that each reference is clear.",
+            "check": "If two names could fit a pronoun, repeat the intended name or restructure."
+          },
+          "questions": [
+            {
+              "prompt": "What is unclear in “Aman told Ravi that he had won”?",
+              "explanation": "He could refer to Aman or Ravi.",
+              "hint": "There are two possible people.",
+              "difficulty": "Medium",
+              "id": "g8-english-editing-q1",
+              "options": [
+                "Whether told is a verb",
+                "Whether Aman is a name",
+                "Whether the sentence contains words",
+                "Who “he” refers to"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which connector best completes “The path was flooded; ___, we took another route”?",
+              "explanation": "The second action results from the first situation.",
+              "hint": "Look for a cause-and-result relationship.",
+              "difficulty": "Easy",
+              "id": "g8-english-editing-q2",
+              "options": [
+                "therefore",
+                "however",
+                "for example",
+                "similarly"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which is the best editing habit?",
+              "explanation": "Editing improves clarity as well as correctness.",
+              "hint": "Read the paragraph as if you are a new reader.",
+              "difficulty": "Medium",
+              "id": "g8-english-editing-q3",
+              "options": [
+                "Only make every sentence longer",
+                "Check meaning, organisation and sentence accuracy",
+                "Replace every common word with a rare one",
+                "Ignore the intended reader"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Edit a short paragraph of your own and explain two revisions.",
+            "points": [
+              "Resolve unclear references.",
+              "Use connectors that match the relationships.",
+              "Explain how each change improves clarity."
+            ]
+          },
+          "revision": [
+            "Pronouns need clear references.",
+            "Connectors express relationships.",
+            "Revise for meaning before polishing small details."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "g8-hindi-inference",
+          "title": "गद्यांश से निष्कर्ष और प्रमाण",
+          "goal": "पाठ की जानकारी और संकेतों के आधार पर उचित निष्कर्ष निकालना।",
+          "concepts": [
+            {
+              "term": "प्रत्यक्ष जानकारी",
+              "explanation": "वह बात जो गद्यांश में साफ़-साफ़ लिखी हो।"
+            },
+            {
+              "term": "निष्कर्ष",
+              "explanation": "पाठ के संकेतों को जोड़कर निकाली गई उचित बात; इसे बिना प्रमाण निश्चित तथ्य न मानें।"
+            }
+          ],
+          "example": {
+            "problem": "“बादल घिरते देखकर नीलम ने कपड़े भीतर रख दिए।” से क्या निष्कर्ष निकलता है?",
+            "steps": [
+              "बादल वर्षा की संभावना का संकेत देते हैं।",
+              "कपड़े भीतर रखना उन्हें भीगने से बचाने का प्रयास हो सकता है।",
+              "यह नहीं लिखा कि वर्षा शुरू हो चुकी थी।"
+            ],
+            "answer": "नीलम को संभवतः वर्षा होने की आशंका थी।"
+          },
+          "activity": {
+            "prompt": "किसी व्यक्ति की मनःस्थिति बताए बिना उसके दो व्यवहार लिखिए। दूसरे पाठक से संकेतों के आधार पर अनुमान लगवाइए।",
+            "check": "अनुमान के साथ पाठ का संकेत बताएँ और अनिश्चितता स्वीकार करें।"
+          },
+          "questions": [
+            {
+              "prompt": "उदाहरण में कौन-सी बात प्रत्यक्ष रूप से दी गई है?",
+              "explanation": "कपड़े भीतर रखने की बात ही स्पष्ट लिखी गई है।",
+              "hint": "पाठ में लिखे शब्दों को जाँचिए।",
+              "difficulty": "Easy",
+              "id": "g8-hindi-inference-q1",
+              "options": [
+                "नीलम ने कपड़े भीतर रख दिए।",
+                "वर्षा तीन घंटे हुई।",
+                "नीलम स्कूल नहीं गई।",
+                "पूरा शहर डूब गया।"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "कौन-सा निष्कर्ष उचित है?",
+              "explanation": "बादल और कपड़े भीतर रखना वर्षा की आशंका का संकेत देते हैं।",
+              "hint": "दोनों संकेतों को जोड़िए।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-inference-q2",
+              "options": [
+                "नीलम निश्चित रूप से समुद्र गई।",
+                "नीलम को वर्षा की संभावना लगी होगी।",
+                "उस दिन कोई बादल नहीं था।",
+                "कपड़े पहले से गीले थे ही।"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "कम प्रमाण होने पर कौन-सा शब्द उपयुक्त है?",
+              "explanation": "संभवतः शब्द सीमित प्रमाण के अनुरूप अनिश्चितता बताता है।",
+              "hint": "प्रमाण जितना हो, दावा उतना ही करें।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-inference-q3",
+              "options": [
+                "निश्चित रूप से हर बार",
+                "बिना किसी संदेह सब जगह",
+                "संभवतः",
+                "सदैव सिद्ध"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "उदाहरण से एक प्रत्यक्ष जानकारी और एक निष्कर्ष लिखिए।",
+            "points": [
+              "प्रत्यक्ष जानकारी: कपड़े भीतर रखे गए।",
+              "निष्कर्ष: वर्षा की आशंका रही होगी।",
+              "दोनों के बीच का अंतर स्पष्ट करें।"
+            ]
+          },
+          "revision": [
+            "लिखी बात और अनुमान अलग हैं।",
+            "निष्कर्ष के लिए संकेत दें।",
+            "अनिश्चित बात को निश्चित न बताएँ।"
+          ]
+        },
+        {
+          "id": "g8-hindi-verbs",
+          "title": "क्रिया, काल और वाक्य का अर्थ",
+          "goal": "क्रिया तथा समय-संकेतों से वर्तमान, भूत और भविष्य का अर्थ समझना।",
+          "concepts": [
+            {
+              "term": "क्रिया",
+              "explanation": "जिस शब्द से काम, घटना या अवस्था का बोध हो।"
+            },
+            {
+              "term": "काल",
+              "explanation": "क्रिया और संदर्भ से घटना के समय का बोध; मुख्य भेद वर्तमान, भूत और भविष्य हैं।"
+            }
+          ],
+          "example": {
+            "problem": "“रवि कल पुस्तक पढ़ रहा था” और “रवि कल पुस्तक पढ़ेगा” में “कल” का अर्थ कैसे बदलता है?",
+            "steps": [
+              "पहले वाक्य में पढ़ रहा था भूतकाल का संकेत है।",
+              "दूसरे वाक्य में पढ़ेगा भविष्यकाल का संकेत है।",
+              "कल का अर्थ क्रिया और संदर्भ से तय होता है।"
+            ],
+            "answer": "पहले वाक्य में बीता हुआ कल; दूसरे में आने वाला कल।"
+          },
+          "activity": {
+            "prompt": "एक ही काम के लिए वर्तमान, भूत और भविष्य काल के तीन वाक्य लिखिए।",
+            "check": "उदाहरण: मैं लिखता हूँ। मैंने लिखा। मैं लिखूँगा। अपने लिंग और संदर्भ के अनुसार रूप चुनें।"
+          },
+          "questions": [
+            {
+              "prompt": "“बच्चे खेल रहे हैं।” में क्रिया-समूह कौन-सा है?",
+              "explanation": "खेल रहे हैं काम और वर्तमान अवस्था का बोध कराता है।",
+              "hint": "पूरा क्रिया-समूह पहचानिए।",
+              "difficulty": "Easy",
+              "id": "g8-hindi-verbs-q1",
+              "options": [
+                "खेल रहे हैं",
+                "बच्चे",
+                "केवल रहे",
+                "कौन"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "कौन-सा वाक्य भविष्य का अर्थ देता है?",
+              "explanation": "आएगी आने वाले समय का संकेत देता है।",
+              "hint": "क्रिया के रूप पर ध्यान दें।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-verbs-q2",
+              "options": [
+                "सीमा कल आई थी।",
+                "सीमा कल आएगी।",
+                "सीमा अभी बैठी है।",
+                "सीमा रोज़ आती है।"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "“कल” का समय समझने के लिए क्या देखना चाहिए?",
+              "explanation": "हिंदी में कल बीते या आने वाले दिन के लिए आ सकता है।",
+              "hint": "उसी शब्द के अलग अर्थ संदर्भ से स्पष्ट होते हैं।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-verbs-q3",
+              "options": [
+                "केवल शब्द की लंबाई",
+                "केवल पहला अक्षर",
+                "क्रिया का रूप और संदर्भ",
+                "विराम-चिह्न को हमेशा अनदेखा करना"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "“पढ़ना” क्रिया से तीन कालों के वाक्य बनाइए और समय-संकेत रेखांकित कीजिए।",
+            "points": [
+              "क्रिया-रूप काल के अनुरूप हो।",
+              "कर्ता से रूप का मेल हो।",
+              "वर्तमान, भूत और भविष्य स्पष्ट हों।"
+            ]
+          },
+          "revision": [
+            "क्रिया काम या अवस्था बताती है।",
+            "समय संदर्भ से समझें।",
+            "कर्ता और क्रिया का मेल जाँचें।"
+          ]
+        },
+        {
+          "id": "g8-hindi-dialogue",
+          "title": "संवाद-लेखन और दृष्टिकोण",
+          "goal": "दो पात्रों की बात को स्वाभाविक, स्पष्ट और विषय-केंद्रित रूप में लिखना।",
+          "concepts": [
+            {
+              "term": "संवाद",
+              "explanation": "दो या अधिक पात्रों के बीच होने वाली बातचीत का लिखित रूप।"
+            },
+            {
+              "term": "दृष्टिकोण",
+              "explanation": "किसी विषय को देखने या समझने का तरीका; अलग पात्रों के अनुभव अलग हो सकते हैं।"
+            }
+          ],
+          "example": {
+            "problem": "दो मित्र पुस्तकालय का समय बढ़ाने पर बात कर रहे हैं। एक छोटा संवाद लिखिए।",
+            "steps": [
+              "दोनों पात्रों को नाम दें।",
+              "एक अपनी आवश्यकता बताए और दूसरा व्यावहारिक सीमा रखे।",
+              "बातचीत से कोई अगला कदम निकलने दें।"
+            ],
+            "answer": "रीना: छुट्टी के बाद पुस्तकालय खुला रहे तो अच्छा होगा। अमन: हाँ, लेकिन कर्मचारी का समय भी देखना होगा। रीना: चलो, एक दिन अतिरिक्त खोलने का प्रस्ताव दें।"
+          },
+          "activity": {
+            "prompt": "पानी बचाने पर दो पात्रों के छह संवाद लिखिए। हर पात्र को कम से कम एक उचित तर्क दें।",
+            "check": "विषय स्पष्ट रहे, भाषा बोलचाल के अनुकूल हो और दूसरे पात्र की बात का उत्तर मिले।"
+          },
+          "questions": [
+            {
+              "prompt": "अच्छे संवाद में क्या होना चाहिए?",
+              "explanation": "संबंधित प्रतिक्रिया बातचीत को स्वाभाविक बनाती है।",
+              "hint": "बातचीत में सुनना भी शामिल है।",
+              "difficulty": "Easy",
+              "id": "g8-hindi-dialogue-q1",
+              "options": [
+                "पात्र एक-दूसरे की बात का संबंधित उत्तर दें",
+                "हर पंक्ति असंबंधित हो",
+                "दोनों पात्रों का नाम कभी न हो",
+                "केवल लंबे भाषण हों"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "दो पात्रों के अलग दृष्टिकोण दिखाने का अच्छा तरीका क्या है?",
+              "explanation": "दृष्टिकोण अनुभव और प्राथमिकताओं से बनता है।",
+              "hint": "असहमति में भी कारण हो सकते हैं।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-dialogue-q2",
+              "options": [
+                "एक का तर्क बिना सुने मिटा देना",
+                "दोनों की चिंताओं और कारणों को स्पष्ट करना",
+                "केवल अपमान लिखना",
+                "हर बात को तथ्य मान लेना"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "औपचारिक प्रस्ताव भेजने से पहले मित्रों का संवाद क्या तय कर सकता है?",
+              "explanation": "उपयोगी बातचीत समस्या से समाधान की दिशा में बढ़ती है।",
+              "hint": "व्यावहारिक परिणाम सोचिए।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-dialogue-q3",
+              "options": [
+                "किसी का निजी पासवर्ड",
+                "बिना प्रमाण आरोप",
+                "समस्या, विकल्प और अगला कदम",
+                "असंबंधित अफ़वाह"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "विद्यालय में स्वच्छता सुधारने पर दो छात्रों का आठ पंक्तियों का संवाद लिखिए।",
+            "points": [
+              "समस्या स्पष्ट हो।",
+              "दोनों पात्र सार्थक सुझाव दें।",
+              "अंत में उचित अगला कदम हो।"
+            ]
+          },
+          "revision": [
+            "पात्रों के नाम स्पष्ट रखें।",
+            "वाक्य स्वाभाविक हों।",
+            "असहमति का उत्तर तर्क से दें।"
+          ]
+        },
+        {
+          "id": "g8-hindi-argument",
+          "title": "तर्कपूर्ण अनुच्छेद और संपादन",
+          "goal": "स्पष्ट मत, कारण और उदाहरण के साथ अनुच्छेद लिखना तथा अनावश्यक बात हटाना।",
+          "concepts": [
+            {
+              "term": "मत और तर्क",
+              "explanation": "मत लेखक की स्थिति है; तर्क उसे स्वीकार करने का कारण समझाता है।"
+            },
+            {
+              "term": "संपादन",
+              "explanation": "अर्थ, क्रम, भाषा और शुद्धता सुधारने के लिए लिखे हुए पाठ की जाँच।"
+            }
+          ],
+          "example": {
+            "problem": "“विद्यालय में पेड़ लगने चाहिए क्योंकि पेड़ अच्छे हैं” को अधिक स्पष्ट बनाइए।",
+            "steps": [
+              "लाभ स्पष्ट करें।",
+              "उचित स्थान और देखभाल की आवश्यकता स्वीकार करें।",
+              "अतिशयोक्ति और अप्रमाणित आँकड़े हटाएँ।"
+            ],
+            "answer": "विद्यालय में उपयुक्त स्थानों पर पेड़ लगाने चाहिए। वे छाया और हरियाली दे सकते हैं। पौधों का चयन और नियमित देखभाल भी आवश्यक है।"
+          },
+          "activity": {
+            "prompt": "किसी विद्यालय-सुधार पर चार वाक्य लिखिए। एक मत, एक कारण, एक उदाहरण और एक सीमा शामिल करें।",
+            "check": "चारों वाक्य एक विषय से जुड़े हों; काल्पनिक आँकड़ों को वास्तविक सर्वेक्षण न बताएँ।"
+          },
+          "questions": [
+            {
+              "prompt": "कौन-सा तर्क विषय से जुड़ा है: “पुस्तकालय में पढ़ने की जगह बढ़ाई जाए”?",
+              "explanation": "यह कारण प्रस्ताव के लाभ को सीधे स्पष्ट करता है।",
+              "hint": "कारण और प्रस्ताव का संबंध देखें।",
+              "difficulty": "Easy",
+              "id": "g8-hindi-argument-q1",
+              "options": [
+                "अधिक छात्रों को शांत जगह पर बैठने का अवसर मिलेगा।",
+                "आज मेरा बैग नीला है।",
+                "सभी पहाड़ बहुत ऊँचे हैं।",
+                "मुझे मिठाई पसंद है।"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "संपादन में सबसे पहले क्या जाँचना उपयोगी है?",
+              "explanation": "अर्थ और संगठन स्पष्ट होने पर भाषा सुधार अधिक उपयोगी होता है।",
+              "hint": "पहले पाठक को समझ आने वाली बात जाँचें।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-argument-q2",
+              "options": [
+                "क्या हर शब्द बहुत कठिन है?",
+                "क्या मुख्य विचार और वाक्यों का क्रम स्पष्ट है?",
+                "क्या अनुच्छेद अनावश्यक रूप से लंबा है?",
+                "क्या विषय बदल दिया गया है?"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "यदि सर्वेक्षण किया ही नहीं गया है, तो क्या लिखना उचित है?",
+              "explanation": "बिना प्रमाण आँकड़े वास्तविक बताना भ्रामक है।",
+              "hint": "ईमानदारी से प्रमाण की सीमा बताएँ।",
+              "difficulty": "Medium",
+              "id": "g8-hindi-argument-q3",
+              "options": [
+                "मनचाहा प्रतिशत वास्तविक बताएँ।",
+                "किसी का नाम जोड़कर आँकड़ा गढ़ें।",
+                "सर्वेक्षण करने का प्रस्ताव रखें।",
+                "अनुमान को आधिकारिक परिणाम कहें।"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "“कक्षा में पढ़ने का कोना होना चाहिए” पर 80–100 शब्द लिखिए।",
+            "points": [
+              "स्पष्ट मत दें।",
+              "दो संबंधित कारण दें।",
+              "एक व्यावहारिक सीमा और समाधान बताएँ।",
+              "लिखने के बाद अनावश्यक दोहराव हटाएँ।"
+            ]
+          },
+          "revision": [
+            "मत के साथ कारण दें।",
+            "उदाहरण प्रासंगिक हो।",
+            "संपादन से स्पष्टता बढ़ाएँ।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing",
+      "modules": [
+        {
+          "id": "g8-computing-spreadsheet",
+          "title": "Spreadsheets: cells, formulas and charts",
+          "goal": "Use cell references to calculate totals and represent categories clearly.",
+          "concepts": [
+            {
+              "term": "Cell reference",
+              "explanation": "The address of a spreadsheet cell, typically a column letter and row number, such as B2."
+            },
+            {
+              "term": "Formula",
+              "explanation": "An expression calculated by the spreadsheet; common spreadsheet formulas begin with =."
+            }
+          ],
+          "example": {
+            "problem": "Cells B2, B3 and B4 contain 12, 15 and 9. Write a formula for their total.",
+            "steps": [
+              "Select a different cell for the result.",
+              "Use =SUM(B2:B4) or =B2+B3+B4.",
+              "Calculate 12 + 15 + 9 = 36."
+            ],
+            "answer": "=SUM(B2:B4), giving 36."
+          },
+          "activity": {
+            "prompt": "Create a fictional three-item book budget with quantity, unit price and total columns. Use multiplication and a grand total formula.",
+            "check": "Each item total equals quantity × unit price; sum item totals. Do not enter real payment details."
+          },
+          "questions": [
+            {
+              "prompt": "Which is a cell reference?",
+              "explanation": "C identifies the column and 5 the row.",
+              "hint": "Column letters come before row numbers.",
+              "difficulty": "Easy",
+              "id": "g8-computing-spreadsheet-q1",
+              "options": [
+                "5C5C",
+                "C5",
+                "RowColumn",
+                "SUM"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which formula adds cells A1 through A4?",
+              "explanation": "The range A1:A4 includes all four cells.",
+              "hint": "A colon expresses a continuous range.",
+              "difficulty": "Medium",
+              "id": "g8-computing-spreadsheet-q2",
+              "options": [
+                "SUM A1-A4",
+                "=A1:A4+",
+                "=SUM(A1:A4)",
+                "A1 through A4"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why use a formula rather than type the calculated total manually?",
+              "explanation": "Formulas respond to changes, but input and formula accuracy still need checking.",
+              "hint": "Automation does not remove the need to verify data.",
+              "difficulty": "Medium",
+              "id": "g8-computing-spreadsheet-q3",
+              "options": [
+                "It guarantees the inputs are correct",
+                "It prevents every possible error",
+                "It makes labels unnecessary",
+                "It can recalculate when referenced values change"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how to check a spreadsheet total.",
+            "points": [
+              "Inspect the formula and included range.",
+              "Check input values and units.",
+              "Use an independent estimate or manual calculation."
+            ]
+          },
+          "revision": [
+            "Cell references identify locations.",
+            "Formulas usually begin with =.",
+            "Check ranges and data, not only displayed answers."
+          ]
+        },
+        {
+          "id": "g8-computing-conditions-loops",
+          "title": "Conditions, loops and tracing",
+          "goal": "Trace simple programs using decisions and repeated steps.",
+          "concepts": [
+            {
+              "term": "Condition",
+              "explanation": "An expression evaluated as true or false to choose an action."
+            },
+            {
+              "term": "Loop",
+              "explanation": "A structure that repeats instructions; a stopping condition or bounded count prevents unintended endless repetition."
+            }
+          ],
+          "example": {
+            "problem": "Trace: total = 0; for n = 1, 2, 3, add n to total. What is total?",
+            "steps": [
+              "Start with total 0.",
+              "After n = 1, total is 1.",
+              "After n = 2, total is 3.",
+              "After n = 3, total is 6."
+            ],
+            "answer": "6."
+          },
+          "activity": {
+            "prompt": "Make a trace table for adding the numbers from 1 to 5. Include the current number and running total.",
+            "check": "The totals are 1, 3, 6, 10 and 15."
+          },
+          "questions": [
+            {
+              "prompt": "A condition in a program is typically evaluated as:",
+              "explanation": "Conditions control decisions based on a true/false result.",
+              "hint": "Think about if statements.",
+              "difficulty": "Easy",
+              "id": "g8-computing-conditions-loops-q1",
+              "options": [
+                "Only a folder name",
+                "True or false",
+                "Only a picture",
+                "Always true"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Starting at count = 0, repeat count = count + 1 four times. What is count?",
+              "explanation": "The counter increases once per repetition, giving 4.",
+              "hint": "Write the value after each step.",
+              "difficulty": "Medium",
+              "id": "g8-computing-conditions-loops-q2",
+              "options": [
+                "0",
+                "3",
+                "4",
+                "5"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why is a stopping condition important in a while loop?",
+              "explanation": "A loop without a reachable stopping condition can run indefinitely.",
+              "hint": "Ask what eventually makes the condition false.",
+              "difficulty": "Medium",
+              "id": "g8-computing-conditions-loops-q3",
+              "options": [
+                "It makes all results correct automatically",
+                "It removes the need for inputs",
+                "It means the loop runs exactly once",
+                "It determines when repetition should end"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Write pseudocode to print the even numbers from 2 through 10.",
+            "points": [
+              "Start at 2.",
+              "Output the number and increase by 2.",
+              "Continue while the number is at most 10."
+            ]
+          },
+          "revision": [
+            "Trace values one step at a time.",
+            "Conditions choose actions.",
+            "Loops need a clear bound or exit."
+          ]
+        },
+        {
+          "id": "g8-computing-web-literacy",
+          "title": "Web pages, links and source evaluation",
+          "goal": "Distinguish content from presentation and assess online claims.",
+          "concepts": [
+            {
+              "term": "HTML and CSS",
+              "explanation": "HTML describes a page’s structure and content; CSS controls much of its visual presentation."
+            },
+            {
+              "term": "Hyperlink",
+              "explanation": "A navigable reference to another page or resource; its displayed text may differ from its destination."
+            }
+          ],
+          "example": {
+            "problem": "A button says “School Login” but points to an unfamiliar domain. Is its label sufficient proof that it is official?",
+            "steps": [
+              "Visible text can be written by anyone creating the page.",
+              "Inspect the actual destination without entering credentials.",
+              "Use a trusted school-provided route or ask a trusted adult."
+            ],
+            "answer": "No. Verify the destination through a trusted source before entering account details."
+          },
+          "activity": {
+            "prompt": "On paper, design a small page with a heading, paragraph and link. Label which choices are content and which are presentation.",
+            "check": "The heading text and link destination are content/structure; colours and spacing are presentation."
+          },
+          "questions": [
+            {
+              "prompt": "Which technology primarily marks up page structure?",
+              "explanation": "HTML provides structural elements such as headings, paragraphs and links.",
+              "hint": "Think about the document’s elements.",
+              "difficulty": "Easy",
+              "id": "g8-computing-web-literacy-q1",
+              "options": [
+                "A screenshot",
+                "HTML",
+                "A password manager",
+                "A calculator battery"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Does a professional-looking web page prove that its claims are true?",
+              "explanation": "Appearance is not evidence of accuracy or authority.",
+              "hint": "Design and reliability are separate questions.",
+              "difficulty": "Medium",
+              "id": "g8-computing-web-literacy-q2",
+              "options": [
+                "Yes, every polished site is reliable",
+                "Yes, if it uses bright colours",
+                "No; source and evidence still need checking",
+                "Only the font determines truth"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Before entering a password through a link, what should you verify?",
+              "explanation": "A misleading link can lead to an imitation login page.",
+              "hint": "Check through a trusted route rather than trusting urgency.",
+              "difficulty": "Medium",
+              "id": "g8-computing-web-literacy-q3",
+              "options": [
+                "That the link text is short",
+                "That the page has an animation",
+                "That a stranger says to hurry",
+                "That the destination is the genuine intended service"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two differences between a page looking trustworthy and being supported by trustworthy evidence.",
+            "points": [
+              "Design can be copied.",
+              "Identify the author, date, sources and relevant authority.",
+              "Verify account destinations independently."
+            ]
+          },
+          "revision": [
+            "HTML structures content.",
+            "CSS presents it.",
+            "Check evidence and destinations, not appearance alone."
+          ]
+        },
+        {
+          "id": "g8-computing-ai-data",
+          "title": "AI outputs, data and human checking",
+          "goal": "Explain that AI systems can produce useful but incorrect outputs and use them without sharing private data.",
+          "concepts": [
+            {
+              "term": "AI system",
+              "explanation": "A computer system that performs tasks such as recognising patterns or generating text using methods learned or configured from data."
+            },
+            {
+              "term": "Verification",
+              "explanation": "Checking a claim against reliable evidence or an independent method rather than accepting fluent output as proof."
+            }
+          ],
+          "example": {
+            "problem": "An AI tool says 18 × 7 = 116. How should a student respond?",
+            "steps": [
+              "Calculate independently: 18 × 7 = (20 − 2) × 7.",
+              "Compute 140 − 14 = 126.",
+              "Correct the result and check the method."
+            ],
+            "answer": "The correct product is 126; the AI output was wrong."
+          },
+          "activity": {
+            "prompt": "Write a fictional prompt asking for hints on a maths problem without supplying names, school IDs, passwords or private photographs.",
+            "check": "The prompt should include the problem and exact difficulty, while avoiding unnecessary personal data."
+          },
+          "questions": [
+            {
+              "prompt": "Which statement about AI-generated answers is accurate?",
+              "explanation": "Fluent wording is not a guarantee of accuracy.",
+              "hint": "Check important claims independently.",
+              "difficulty": "Easy",
+              "id": "g8-computing-ai-data-q1",
+              "options": [
+                "They are always correct",
+                "They can sound confident and still contain errors",
+                "They never need checking",
+                "They know every private fact accurately"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which is appropriate to include in a study-help prompt?",
+              "explanation": "The academic problem is relevant; private access details are not.",
+              "hint": "Include the minimum information needed.",
+              "difficulty": "Medium",
+              "id": "g8-computing-ai-data-q2",
+              "options": [
+                "Your password",
+                "Your OTP",
+                "The maths question and the step you find difficult",
+                "Your full bank-card details"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "What is the best way to use an AI hint for learning?",
+              "explanation": "Active use and checking support understanding.",
+              "hint": "The goal is to learn the method, not only obtain an answer.",
+              "difficulty": "Medium",
+              "id": "g8-computing-ai-data-q3",
+              "options": [
+                "Copy without reading",
+                "Treat it as an official marking scheme",
+                "Skip every worked step",
+                "Try the next step yourself and verify the reasoning"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Write three rules for responsible use of AI in schoolwork.",
+            "points": [
+              "Check factual claims and calculations.",
+              "Protect private information.",
+              "Follow the teacher’s rules and acknowledge assistance when required."
+            ]
+          },
+          "revision": [
+            "AI outputs can be wrong.",
+            "Keep sensitive information private.",
+            "Use tools to support your own understanding."
+          ]
+        }
+      ]
+    }
+  ]
+}

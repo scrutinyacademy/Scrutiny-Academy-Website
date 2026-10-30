@@ -1,0 +1,20 @@
+name: CBSE Learning Lab QA
+on:
+  push:
+    branches: [main]
+    paths: ['cbse*', 'data/cbse/**', 'scripts/validate-cbse.mjs', 'tests/cbse-core.mjs', '.github/workflows/cbse-learning-qa.yml']
+  pull_request:
+    paths: ['cbse*', 'data/cbse/**', 'scripts/validate-cbse.mjs', 'tests/cbse-core.mjs', '.github/workflows/cbse-learning-qa.yml']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --check cbse.js && node --check cbse-account.js && node --check cbse-labs.mjs
+      - run: node scripts/validate-cbse.mjs
+      - run: node tests/cbse-core.mjs

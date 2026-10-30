@@ -1,0 +1,2079 @@
+{
+  "grade": 7,
+  "contentStatus": "Original supplementary topic modules; not exhaustive textbook coverage or certification of 2026–27 syllabus alignment.",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "g7-mathematics-integers",
+          "title": "Integers and number-line reasoning",
+          "goal": "Add, subtract and multiply integers, and explain signs using a number line.",
+          "concepts": [
+            {
+              "term": "Integer",
+              "explanation": "A whole number, its negative, or zero. Integers extend in both directions on a number line."
+            },
+            {
+              "term": "Subtracting a negative",
+              "explanation": "Subtracting a number means adding its opposite. For example, 4 − (−3) = 4 + 3."
+            }
+          ],
+          "example": {
+            "problem": "A lift starts at floor −2 and goes up 7 floors. Which floor does it reach?",
+            "steps": [
+              "Start at −2 on the number line.",
+              "Moving up corresponds to adding 7.",
+              "Calculate −2 + 7 = 5."
+            ],
+            "answer": "Floor 5."
+          },
+          "activity": {
+            "prompt": "Draw a number line from −8 to 8. Show −3 + 5 and 2 − 6 using arrows.",
+            "check": "The endpoints should be 2 and −4 respectively."
+          },
+          "questions": [
+            {
+              "prompt": "What is −5 + 8?",
+              "explanation": "Starting at −5 and moving 8 units right reaches 3.",
+              "hint": "Move right when adding a positive integer.",
+              "difficulty": "Easy",
+              "id": "g7-mathematics-integers-q1",
+              "options": [
+                "−13",
+                "−3",
+                "13",
+                "3"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "What is 6 − (−4)?",
+              "explanation": "Subtracting −4 is equivalent to adding 4, so 6 + 4 = 10.",
+              "hint": "Replace subtraction of a negative with addition.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-integers-q2",
+              "options": [
+                "10",
+                "2",
+                "−10",
+                "−2"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which statement is true?",
+              "explanation": "A product of two negative numbers is positive.",
+              "hint": "Check the signs before calculating.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-integers-q3",
+              "options": [
+                "(−3) × 4 = 12",
+                "(−3) × (−4) = 12",
+                "(−3) + (−4) = 7",
+                "3 − 8 = 5"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why −2 − 5 is different from −2 − (−5).",
+            "points": [
+              "−2 − 5 means move 5 places left, reaching −7.",
+              "−2 − (−5) means add 5, reaching 3."
+            ]
+          },
+          "revision": [
+            "Use a number line to check addition.",
+            "The opposite of −a is a.",
+            "Two negative factors give a positive product."
+          ]
+        },
+        {
+          "id": "g7-mathematics-fractions",
+          "title": "Fractions, decimals and sharing",
+          "goal": "Compare and calculate fractions and decimals in everyday situations.",
+          "concepts": [
+            {
+              "term": "Equivalent fractions",
+              "explanation": "Fractions represent the same value when their numerator and denominator are multiplied or divided by the same nonzero number."
+            },
+            {
+              "term": "Fraction of a quantity",
+              "explanation": "To find a fraction of a quantity, multiply the quantity by that fraction."
+            }
+          ],
+          "example": {
+            "problem": "A bottle contains 3/4 litre. You drink 1/3 of its contents. How much is left?",
+            "steps": [
+              "Amount drunk = (1/3) × (3/4) = 1/4 litre.",
+              "Amount left = 3/4 − 1/4 = 2/4 litre.",
+              "Simplify 2/4 to 1/2."
+            ],
+            "answer": "1/2 litre remains."
+          },
+          "activity": {
+            "prompt": "Fold a sheet into eighths. Shade 3/8, then shade another 1/4 in a different colour.",
+            "check": "1/4 equals 2/8, so the total shaded part is 5/8."
+          },
+          "questions": [
+            {
+              "prompt": "Which is equal to 0.75?",
+              "explanation": "0.75 = 75/100 = 3/4.",
+              "hint": "Write the decimal over 100.",
+              "difficulty": "Easy",
+              "id": "g7-mathematics-fractions-q1",
+              "options": [
+                "3/5",
+                "7/5",
+                "1/4",
+                "3/4"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "What is 2/3 + 1/6?",
+              "explanation": "2/3 equals 4/6; adding 1/6 gives 5/6.",
+              "hint": "Use the common denominator 6.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-fractions-q2",
+              "options": [
+                "5/6",
+                "3/9",
+                "1/2",
+                "2/9"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "What is 3/5 of 40?",
+              "explanation": "40 ÷ 5 × 3 = 24.",
+              "hint": "Find one fifth first.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-fractions-q3",
+              "options": [
+                "8",
+                "24",
+                "15",
+                "30"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Why must fractions have a common denominator before you add their numerators?",
+            "points": [
+              "The denominator describes the size of each part.",
+              "A common denominator makes the parts equal in size.",
+              "Example: 1/2 + 1/3 = 3/6 + 2/6 = 5/6."
+            ]
+          },
+          "revision": [
+            "Match denominators before adding fractions.",
+            "Multiply numerators and denominators when multiplying fractions.",
+            "Estimate to see if an answer is sensible."
+          ]
+        },
+        {
+          "id": "g7-mathematics-equations",
+          "title": "Simple equations and balance",
+          "goal": "Translate a situation into an equation and solve while keeping both sides equal.",
+          "concepts": [
+            {
+              "term": "Variable",
+              "explanation": "A symbol that stands for a number whose value may vary or be unknown."
+            },
+            {
+              "term": "Equation",
+              "explanation": "A statement that two expressions have equal value. The same operation on both sides preserves equality."
+            }
+          ],
+          "example": {
+            "problem": "Three identical notebooks and a ₹10 pen cost ₹85. Find the price of one notebook.",
+            "steps": [
+              "Let one notebook cost x rupees.",
+              "Write 3x + 10 = 85.",
+              "Subtract 10 from both sides: 3x = 75.",
+              "Divide both sides by 3: x = 25."
+            ],
+            "answer": "One notebook costs ₹25."
+          },
+          "activity": {
+            "prompt": "Represent 2x + 3 = 11 using two identical boxes and counters. Remove equal counters from both sides, then split into two equal groups.",
+            "check": "After removing 3 counters from both sides, each box represents 4."
+          },
+          "questions": [
+            {
+              "prompt": "Which equation matches “five more than twice x is 17”?",
+              "explanation": "Twice x is 2x and five more adds 5.",
+              "hint": "Translate one phrase at a time.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-equations-q1",
+              "options": [
+                "5x + 2 = 17",
+                "2(x + 5) = 17",
+                "2x − 5 = 17",
+                "2x + 5 = 17"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Solve x/4 = 6.",
+              "explanation": "Multiply both sides by 4 to obtain x = 24.",
+              "hint": "Undo division by multiplying.",
+              "difficulty": "Easy",
+              "id": "g7-mathematics-equations-q2",
+              "options": [
+                "x = 24",
+                "x = 2",
+                "x = 10",
+                "x = 1.5"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which value satisfies 3x − 2 = 13?",
+              "explanation": "3 × 5 − 2 = 15 − 2 = 13.",
+              "hint": "Add 2, then divide by 3.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-equations-q3",
+              "options": [
+                "3",
+                "5",
+                "4",
+                "7"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Solve 4x + 7 = 31 and verify your solution.",
+            "points": [
+              "Subtract 7 from both sides: 4x = 24.",
+              "Divide both sides by 4: x = 6.",
+              "Check: 4 × 6 + 7 = 31."
+            ]
+          },
+          "revision": [
+            "Perform the same operation on both sides.",
+            "Use inverse operations.",
+            "Substitute the answer to check it."
+          ]
+        },
+        {
+          "id": "g7-mathematics-geometry",
+          "title": "Angles, triangles and area",
+          "goal": "Use angle relationships and distinguish boundary length from surface covered.",
+          "concepts": [
+            {
+              "term": "Triangle angle sum",
+              "explanation": "The three interior angles of a triangle add to 180°."
+            },
+            {
+              "term": "Perimeter and area",
+              "explanation": "Perimeter measures the boundary length. Area measures the two-dimensional region enclosed."
+            }
+          ],
+          "example": {
+            "problem": "A triangle has angles of 45° and 65°. Find the third angle.",
+            "steps": [
+              "Sum the known angles: 45° + 65° = 110°.",
+              "Subtract from 180°: 180° − 110° = 70°."
+            ],
+            "answer": "The third angle is 70°."
+          },
+          "activity": {
+            "prompt": "Draw a 6 cm by 4 cm rectangle on squared paper. Count boundary units and enclosed square units.",
+            "check": "Perimeter = 20 cm; area = 24 cm². The units differ."
+          },
+          "questions": [
+            {
+              "prompt": "Two angles on a straight line are 115° and x. What is x?",
+              "explanation": "A straight angle is 180°, so x = 180° − 115° = 65°.",
+              "hint": "Use supplementary angles.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-geometry-q1",
+              "options": [
+                "75°",
+                "115°",
+                "245°",
+                "65°"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "A rectangle is 8 cm long and 3 cm wide. What is its area?",
+              "explanation": "Rectangle area = length × width = 8 × 3 = 24 cm².",
+              "hint": "Area counts square units.",
+              "difficulty": "Easy",
+              "id": "g7-mathematics-geometry-q2",
+              "options": [
+                "24 cm²",
+                "22 cm",
+                "11 cm²",
+                "48 cm²"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which set can be the interior angles of a triangle?",
+              "explanation": "Only 40 + 60 + 80 equals 180°.",
+              "hint": "Add all three angles.",
+              "difficulty": "Medium",
+              "id": "g7-mathematics-geometry-q3",
+              "options": [
+                "30°, 50°, 90°",
+                "40°, 60°, 80°",
+                "80°, 80°, 40°",
+                "90°, 90°, 20°"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the difference between fencing a rectangular garden and covering it with grass.",
+            "points": [
+              "Fencing needs perimeter, measured in units of length.",
+              "Grass covers area, measured in square units.",
+              "For length l and width w: perimeter = 2(l + w), area = lw."
+            ]
+          },
+          "revision": [
+            "Triangle angles add to 180°.",
+            "Angles on a straight line add to 180°.",
+            "Length units and area units are different."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "modules": [
+        {
+          "id": "g7-science-nutrition",
+          "title": "Nutrition in plants and animals",
+          "goal": "Explain photosynthesis and the purpose of digestion.",
+          "concepts": [
+            {
+              "term": "Photosynthesis",
+              "explanation": "Green plants use light energy to make carbohydrates from carbon dioxide and water; oxygen is released."
+            },
+            {
+              "term": "Digestion",
+              "explanation": "Digestion breaks large food molecules into simpler substances that can be absorbed."
+            }
+          ],
+          "example": {
+            "problem": "Why can a green plant make food while a mushroom obtains food from other organisms?",
+            "steps": [
+              "Green plant leaves contain chlorophyll that captures light.",
+              "The plant can carry out photosynthesis when its other requirements are met.",
+              "A mushroom lacks chlorophyll and absorbs nutrients from organic material."
+            ],
+            "answer": "The two organisms obtain nutrition differently."
+          },
+          "activity": {
+            "prompt": "Observe a healthy potted plant near a window for a week. Draw the leaves and note their direction without damaging the plant.",
+            "check": "Use observations to ask how light affects growth. This observation alone does not prove the chemical process of photosynthesis."
+          },
+          "questions": [
+            {
+              "prompt": "Which gas is a raw material for photosynthesis?",
+              "explanation": "Plants use carbon dioxide with water to make carbohydrates during photosynthesis.",
+              "hint": "Distinguish a raw material from a product.",
+              "difficulty": "Easy",
+              "id": "g7-science-nutrition-q1",
+              "options": [
+                "Carbon dioxide",
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Why is digestion needed before many food substances can be absorbed?",
+              "explanation": "Many large food molecules must be broken down before absorption.",
+              "hint": "Think about movement through the intestinal wall.",
+              "difficulty": "Medium",
+              "id": "g7-science-nutrition-q2",
+              "options": [
+                "It turns every food into water",
+                "Large molecules must be broken into smaller molecules",
+                "It removes all nutrients",
+                "It converts food directly into oxygen"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Most absorption of digested nutrients takes place in the:",
+              "explanation": "The small intestine has a large absorptive surface and is the main site of nutrient absorption.",
+              "hint": "Look for the organ with villi.",
+              "difficulty": "Medium",
+              "id": "g7-science-nutrition-q3",
+              "options": [
+                "Oesophagus",
+                "Mouth",
+                "Small intestine",
+                "Large intestine"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Describe how a plant obtains the raw materials and energy for photosynthesis.",
+            "points": [
+              "Roots absorb water from the soil.",
+              "Carbon dioxide enters leaves mainly through stomata.",
+              "Chlorophyll captures light energy used to make carbohydrates."
+            ]
+          },
+          "revision": [
+            "Photosynthesis needs light, carbon dioxide and water.",
+            "Chlorophyll captures light energy.",
+            "Digestion and absorption are different processes."
+          ]
+        },
+        {
+          "id": "g7-science-heat",
+          "title": "Heat transfer in daily life",
+          "goal": "Distinguish temperature from heat and identify conduction, convection and radiation.",
+          "concepts": [
+            {
+              "term": "Heat transfer",
+              "explanation": "Energy transfers because of a temperature difference, from a hotter region to a colder region."
+            },
+            {
+              "term": "Modes of transfer",
+              "explanation": "Conduction transfers energy through interactions within matter; convection uses bulk fluid motion; radiation can travel through a vacuum."
+            }
+          ],
+          "example": {
+            "problem": "Why can a metal spoon handle become warm when its other end is in hot soup?",
+            "steps": [
+              "The end in the soup gains energy.",
+              "Energy transfers along the metal by conduction.",
+              "The handle warms even without touching the soup."
+            ],
+            "answer": "Conduction transfers thermal energy along the spoon."
+          },
+          "activity": {
+            "prompt": "Place metal and wooden spoons in room-temperature water and compare their feel before and after. Use no hot water.",
+            "check": "Different materials can feel different at the same temperature because they transfer energy at different rates."
+          },
+          "questions": [
+            {
+              "prompt": "Energy from the Sun reaches Earth mainly by:",
+              "explanation": "Radiation can travel through the vacuum between the Sun and Earth.",
+              "hint": "Space has too little matter for ordinary conduction or convection.",
+              "difficulty": "Medium",
+              "id": "g7-science-heat-q1",
+              "options": [
+                "Radiation",
+                "Convection through space",
+                "Conduction through space",
+                "Evaporation"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which device measures temperature?",
+              "explanation": "A thermometer measures temperature.",
+              "hint": "Temperature describes how hot or cold an object is.",
+              "difficulty": "Easy",
+              "id": "g7-science-heat-q2",
+              "options": [
+                "Barometer",
+                "Thermometer",
+                "Balance",
+                "Measuring cylinder"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Warm water rising while cooler water sinks is an example of:",
+              "explanation": "Bulk movement of water carries thermal energy in convection.",
+              "hint": "Look for movement of the fluid itself.",
+              "difficulty": "Medium",
+              "id": "g7-science-heat-q3",
+              "options": [
+                "Conduction",
+                "Reflection",
+                "Convection",
+                "Freezing"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a woollen sweater helps in cold weather.",
+            "points": [
+              "Wool traps air.",
+              "Air is a poor conductor, and trapped air also reduces convection.",
+              "The sweater slows heat loss from the body; it does not generate heat."
+            ]
+          },
+          "revision": [
+            "Heat flows from hotter to colder regions.",
+            "Heat is energy transfer; temperature is a measurement of thermal state.",
+            "Radiation needs no material medium."
+          ]
+        },
+        {
+          "id": "g7-science-acids",
+          "title": "Acids, bases and indicators",
+          "goal": "Use indicators to classify familiar substances safely and explain neutralisation.",
+          "concepts": [
+            {
+              "term": "Indicator",
+              "explanation": "A substance whose colour changes under different chemical conditions, such as acidity or basicity."
+            },
+            {
+              "term": "Neutralisation",
+              "explanation": "An acid and a base react; in common school examples the products are a salt and water."
+            }
+          ],
+          "example": {
+            "problem": "Blue litmus turns red in solution A. Red litmus turns blue in solution B. Classify A and B.",
+            "steps": [
+              "Blue-to-red litmus change indicates an acid.",
+              "Red-to-blue litmus change indicates a base."
+            ],
+            "answer": "A is acidic; B is basic."
+          },
+          "activity": {
+            "prompt": "On paper, predict litmus changes for lemon juice, soap solution and water. Ask a teacher before any practical test; never taste unknown substances.",
+            "check": "Lemon juice is acidic; soap solution is usually basic; neutral water does not change red or blue litmus."
+          },
+          "questions": [
+            {
+              "prompt": "An acid usually turns blue litmus:",
+              "explanation": "Blue litmus changes to red in an acidic solution.",
+              "hint": "Remember blue-to-red for acids.",
+              "difficulty": "Easy",
+              "id": "g7-science-acids-q1",
+              "options": [
+                "Red",
+                "Blue",
+                "Green",
+                "Black"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which pair commonly reacts in a neutralisation reaction?",
+              "explanation": "Neutralisation involves acid–base reaction.",
+              "hint": "Identify substances with opposite acid–base behaviour.",
+              "difficulty": "Medium",
+              "id": "g7-science-acids-q2",
+              "options": [
+                "Two magnets",
+                "An acid and a base",
+                "Sand and water",
+                "Sugar and oil"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "What is the safest way to identify an unknown laboratory solution?",
+              "explanation": "Indicator tests avoid tasting or direct contact with unknown chemicals.",
+              "hint": "Never identify a chemical by tasting it.",
+              "difficulty": "Medium",
+              "id": "g7-science-acids-q3",
+              "options": [
+                "Taste a drop",
+                "Smell it closely",
+                "Use an appropriate indicator under teacher supervision",
+                "Rub it on skin"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "How can red and blue litmus papers help distinguish acidic, basic and neutral solutions?",
+            "points": [
+              "Acid: blue litmus turns red.",
+              "Base: red litmus turns blue.",
+              "A neutral solution changes neither red nor blue litmus."
+            ]
+          },
+          "revision": [
+            "Indicators provide evidence.",
+            "Never taste unknown substances.",
+            "Not every clear liquid is neutral."
+          ]
+        },
+        {
+          "id": "g7-science-ecosystems",
+          "title": "Respiration and ecosystem connections",
+          "goal": "Connect energy release in organisms to food chains and decomposition.",
+          "concepts": [
+            {
+              "term": "Respiration",
+              "explanation": "Cells release usable energy from food through chemical reactions; aerobic respiration uses oxygen."
+            },
+            {
+              "term": "Decomposer",
+              "explanation": "An organism such as a fungus or bacterium that breaks down dead organic matter and helps recycle nutrients."
+            }
+          ],
+          "example": {
+            "problem": "Trace one way energy moves through grass, a grasshopper and a frog.",
+            "steps": [
+              "Grass captures light energy through photosynthesis.",
+              "A grasshopper gains chemical energy by eating grass.",
+              "A frog gains chemical energy by eating the grasshopper.",
+              "Energy is used and dissipated at each stage; it is not fully passed on."
+            ],
+            "answer": "Sun → grass → grasshopper → frog."
+          },
+          "activity": {
+            "prompt": "Draw a food chain from a habitat near you using observations or reliable pictures. Add decomposers beside the chain.",
+            "check": "Arrows show the direction of food-energy transfer, from food organism to consumer."
+          },
+          "questions": [
+            {
+              "prompt": "Which process releases usable energy from food in cells?",
+              "explanation": "Respiration is a cellular process; breathing moves air into and out of respiratory organs.",
+              "hint": "Separate cellular chemistry from air movement.",
+              "difficulty": "Medium",
+              "id": "g7-science-ecosystems-q1",
+              "options": [
+                "Respiration",
+                "Only breathing",
+                "Pollination",
+                "Transpiration"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which organism commonly acts as a decomposer?",
+              "explanation": "Many fungi break down dead organic matter.",
+              "hint": "Think about breakdown of fallen leaves.",
+              "difficulty": "Easy",
+              "id": "g7-science-ecosystems-q2",
+              "options": [
+                "A deer",
+                "A fungus",
+                "A sparrow",
+                "A grasshopper"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "In grass → rabbit → fox, what does the arrow from grass to rabbit show?",
+              "explanation": "Food-chain arrows point in the direction of energy transfer.",
+              "hint": "Ask which organism is being eaten.",
+              "difficulty": "Medium",
+              "id": "g7-science-ecosystems-q3",
+              "options": [
+                "The grass hunts the rabbit",
+                "The rabbit releases sunlight",
+                "Food energy moves from grass to rabbit",
+                "All energy returns directly to grass"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Why are decomposers important even though they are not always drawn in a simple food chain?",
+            "points": [
+              "They break down dead organisms and waste.",
+              "They help return nutrients to soil and water.",
+              "Plants can reuse nutrients, while energy flow is not a closed recycling loop."
+            ]
+          },
+          "revision": [
+            "Respiration releases usable energy in cells.",
+            "Food-chain arrows show energy transfer.",
+            "Nutrients cycle; energy flows through ecosystems."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "modules": [
+        {
+          "id": "g7-social-science-sources",
+          "title": "Reading historical evidence",
+          "goal": "Compare historical sources and support claims with evidence.",
+          "concepts": [
+            {
+              "term": "Primary source",
+              "explanation": "Evidence produced in the period being studied, such as a contemporary inscription or letter."
+            },
+            {
+              "term": "Corroboration",
+              "explanation": "Checking a claim against other independent evidence rather than relying on one source."
+            }
+          ],
+          "example": {
+            "problem": "A ruler’s inscription says every citizen was happy. Should a historian accept this as complete proof?",
+            "steps": [
+              "Identify who commissioned the inscription and its purpose.",
+              "Recognise that rulers may present themselves favourably.",
+              "Compare it with other records and material evidence."
+            ],
+            "answer": "Treat it as evidence of a claim, not complete proof of everyone’s experience."
+          },
+          "activity": {
+            "prompt": "Choose a family object, such as an old photograph. Record what it shows and two questions it cannot answer by itself.",
+            "check": "Separate direct observations from guesses; seek another source for uncertain details."
+          },
+          "questions": [
+            {
+              "prompt": "Which is most likely a primary source for life in a particular century?",
+              "explanation": "A contemporary letter was created during the time being studied.",
+              "hint": "Consider when the source was created.",
+              "difficulty": "Easy",
+              "id": "g7-social-science-sources-q1",
+              "options": [
+                "A modern fictional film",
+                "A letter written during that century",
+                "A future prediction",
+                "A newly invented story"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Why compare two independent accounts of an event?",
+              "explanation": "Independent accounts can support or challenge a claim.",
+              "hint": "Sources may have different viewpoints.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-sources-q2",
+              "options": [
+                "To guarantee they are identical",
+                "To remove the need for evidence",
+                "To check agreement, differences and possible bias",
+                "To choose the longer one automatically"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "An inscription praising a king is best treated as:",
+              "explanation": "Its purpose and perspective matter, but it can still provide useful evidence.",
+              "hint": "Avoid assuming either total truth or total uselessness.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-sources-q3",
+              "options": [
+                "Proof that everyone supported him",
+                "A source with no possible value",
+                "A complete population survey",
+                "A source to evaluate alongside other evidence"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "How would you investigate whether an old building was once used as a market?",
+            "points": [
+              "Record observable features.",
+              "Look for inscriptions, maps or contemporary records.",
+              "Compare evidence and acknowledge uncertainty."
+            ]
+          },
+          "revision": [
+            "Ask who, when, why and for whom.",
+            "Evidence supports claims.",
+            "A source can be useful and biased at the same time."
+          ]
+        },
+        {
+          "id": "g7-social-science-environment",
+          "title": "Weather, climate and human environments",
+          "goal": "Distinguish weather from climate and explain interactions between people and surroundings.",
+          "concepts": [
+            {
+              "term": "Weather",
+              "explanation": "The condition of the atmosphere at a place over a short time, including temperature, rain and wind."
+            },
+            {
+              "term": "Climate",
+              "explanation": "Long-term patterns and variations of weather in a region, usually described using many years of observations."
+            }
+          ],
+          "example": {
+            "problem": "One unusually rainy day occurs in a dry region. Has its climate necessarily changed?",
+            "steps": [
+              "The rainy day is a short-term weather event.",
+              "Climate describes patterns over many years.",
+              "A long-term conclusion needs a long series of observations."
+            ],
+            "answer": "No; one day alone cannot establish a climate change."
+          },
+          "activity": {
+            "prompt": "Record weather observations at the same time for seven days. Use words such as cloudy, sunny and windy.",
+            "check": "Your record describes one week of weather, not the region’s full climate."
+          },
+          "questions": [
+            {
+              "prompt": "Which statement describes weather?",
+              "explanation": "An event this afternoon is a short-term atmospheric condition.",
+              "hint": "Look for a short time scale.",
+              "difficulty": "Easy",
+              "id": "g7-social-science-environment-q1",
+              "options": [
+                "The region has dry summers over many decades",
+                "It rained in our town this afternoon",
+                "The area’s long-term rainfall average is low",
+                "The region generally has cold winters"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which evidence is most useful for describing climate?",
+              "explanation": "Climate needs long-term records.",
+              "hint": "Think about patterns rather than a single event.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-environment-q2",
+              "options": [
+                "One selfie",
+                "One hot afternoon",
+                "Temperature and rainfall records over many years",
+                "A single weather forecast"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Planting trees along a bare slope can help reduce:",
+              "explanation": "Roots can stabilise soil and vegetation can reduce runoff impacts.",
+              "hint": "Think about what holds loose soil in place.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-environment-q3",
+              "options": [
+                "Earth’s rotation",
+                "The number of continents",
+                "All rainfall",
+                "Soil erosion"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Give one example of how people adapt to their environment and one way they change it.",
+            "points": [
+              "Adaptation: clothing or house design suited to local climate.",
+              "Change: farming, roads or reservoirs alter surroundings.",
+              "Explain the environmental effect rather than only listing examples."
+            ]
+          },
+          "revision": [
+            "Weather is short-term.",
+            "Climate describes long-term patterns.",
+            "People both adapt to and modify environments."
+          ]
+        },
+        {
+          "id": "g7-social-science-equality",
+          "title": "Equality and public services",
+          "goal": "Explain equal dignity, discrimination and the value of accessible public services.",
+          "concepts": [
+            {
+              "term": "Equality",
+              "explanation": "Equal dignity and equal protection under law do not mean everyone has identical circumstances or needs."
+            },
+            {
+              "term": "Public service",
+              "explanation": "A service organised for public benefit, such as sanitation, schooling or public health care."
+            }
+          ],
+          "example": {
+            "problem": "A library has stairs but no accessible entrance. Is allowing everyone to register enough for equal access?",
+            "steps": [
+              "A registration rule may appear equal.",
+              "People with mobility difficulties may still be unable to enter.",
+              "Practical changes can remove this barrier."
+            ],
+            "answer": "Equal access also requires addressing barriers, such as providing an accessible entrance."
+          },
+          "activity": {
+            "prompt": "Make an accessibility checklist for a classroom: entrances, seating, readable signs and learning materials.",
+            "check": "Suggest respectful practical improvements without identifying or mocking individual students."
+          },
+          "questions": [
+            {
+              "prompt": "Which action best supports equal participation?",
+              "explanation": "Removing learning barriers helps students participate.",
+              "hint": "Fair participation may require different kinds of support.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-equality-q1",
+              "options": [
+                "Giving opportunities only to the fastest readers",
+                "Providing accessible learning materials when needed",
+                "Excluding students who ask for help",
+                "Assuming everyone has the same needs"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which is an example of a public service?",
+              "explanation": "Municipal water supply serves the community.",
+              "hint": "Look for a service provided for public benefit.",
+              "difficulty": "Easy",
+              "id": "g7-social-science-equality-q2",
+              "options": [
+                "A private birthday gift",
+                "A personal diary",
+                "Municipal drinking-water supply",
+                "A family photo album"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Judging a person’s ability only from their community background is:",
+              "explanation": "A stereotype assumes traits about an individual from a group label.",
+              "hint": "Assess individuals using relevant evidence.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-equality-q3",
+              "options": [
+                "Evidence-based assessment",
+                "A fair skills test",
+                "A weather observation",
+                "Stereotyping"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Why can equal treatment on paper still leave people with unequal access?",
+            "points": [
+              "People may face physical, economic or social barriers.",
+              "A formally identical rule may not remove those barriers.",
+              "Give an example and propose a practical improvement."
+            ]
+          },
+          "revision": [
+            "Everyone has equal dignity.",
+            "Avoid stereotypes.",
+            "Check whether a service is usable in practice."
+          ]
+        },
+        {
+          "id": "g7-social-science-media",
+          "title": "Media messages and responsible citizenship",
+          "goal": "Separate news, opinion and advertising and check claims before sharing.",
+          "concepts": [
+            {
+              "term": "Fact and opinion",
+              "explanation": "A factual claim can be checked against evidence. An opinion expresses a view, preference or judgement."
+            },
+            {
+              "term": "Advertising",
+              "explanation": "Communication intended to promote a product, service or idea; persuasive purpose should be recognised."
+            }
+          ],
+          "example": {
+            "problem": "A post says “This is the best pen because our brand says so.” What should you question?",
+            "steps": [
+              "“Best” is a judgement requiring clear criteria.",
+              "The brand has a persuasive interest.",
+              "Look for relevant independent evidence before accepting a performance claim."
+            ],
+            "answer": "The statement is promotional opinion, not sufficient proof of quality."
+          },
+          "activity": {
+            "prompt": "Choose a harmless advertisement and identify its audience, promise and evidence. Do not share personal data or click unknown links.",
+            "check": "A claim, picture or celebrity appearance is not automatically independent evidence."
+          },
+          "questions": [
+            {
+              "prompt": "Which statement is an opinion?",
+              "explanation": "Enjoyment is a personal judgement.",
+              "hint": "Look for preference rather than a checkable measurement.",
+              "difficulty": "Easy",
+              "id": "g7-social-science-media-q1",
+              "options": [
+                "The book has 120 pages",
+                "This is the most enjoyable book",
+                "The library opens at 9 a.m.",
+                "The notice is dated Monday"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Before forwarding a surprising news claim, you should first:",
+              "explanation": "Source, timing and evidence help assess reliability.",
+              "hint": "Popularity does not establish truth.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-media-q2",
+              "options": [
+                "Forward it to every group",
+                "Trust it because it has many emojis",
+                "Check its source, date and supporting evidence",
+                "Remove the source name"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Why should an advertisement be identified as an advertisement?",
+              "explanation": "Knowing the purpose helps people evaluate a message critically.",
+              "hint": "Ask who benefits if you believe it.",
+              "difficulty": "Medium",
+              "id": "g7-social-science-media-q3",
+              "options": [
+                "So all claims become true",
+                "So evidence is unnecessary",
+                "So it becomes an official law",
+                "So readers can recognise its promotional purpose"
+              ],
+              "answer": 3
+            }
+          ],
+          "writing": {
+            "prompt": "Write three checks you would use before trusting an online claim.",
+            "points": [
+              "Identify the original source and author.",
+              "Check date and context.",
+              "Compare reliable independent evidence and recognise uncertainty."
+            ]
+          },
+          "revision": [
+            "Check source, date and evidence.",
+            "Opinion can be reasonable without being a fact.",
+            "Do not forward unverified claims."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "g7-english-reading",
+          "title": "Reading for main idea and evidence",
+          "goal": "Identify a passage’s main idea and support answers with details.",
+          "concepts": [
+            {
+              "term": "Main idea",
+              "explanation": "The central point a paragraph or passage develops."
+            },
+            {
+              "term": "Supporting detail",
+              "explanation": "An example, fact or explanation that helps develop the main idea."
+            }
+          ],
+          "example": {
+            "problem": "Read: “Our class planted herbs in reused containers. We watered them carefully and measured their growth each week. The project helped us learn responsibility.” What is the main idea?",
+            "steps": [
+              "Notice the activity: growing herbs.",
+              "Connect the watering and measuring to the final sentence.",
+              "Choose a statement covering the whole paragraph, not one detail."
+            ],
+            "answer": "A class gardening project helped students learn responsibility."
+          },
+          "activity": {
+            "prompt": "Write a four-sentence paragraph about a hobby. Underline the main idea and circle two supporting details.",
+            "check": "The details should clearly explain or illustrate the same central idea."
+          },
+          "questions": [
+            {
+              "prompt": "In the example passage, what did the students measure?",
+              "explanation": "The passage explicitly says they measured growth each week.",
+              "hint": "Return to the sentence with “measured”.",
+              "difficulty": "Easy",
+              "id": "g7-english-reading-q1",
+              "options": [
+                "The classroom’s height",
+                "The price of herbs",
+                "The plants’ growth",
+                "The number of clouds"
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Which title best fits the example passage?",
+              "explanation": "The title connects the activity to its learning outcome.",
+              "hint": "Choose a title covering the whole paragraph.",
+              "difficulty": "Medium",
+              "id": "g7-english-reading-q2",
+              "options": [
+                "How to Buy Expensive Pots",
+                "A Rainy Football Match",
+                "The History of Clocks",
+                "Learning Responsibility through Gardening"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which answer uses textual evidence?",
+              "explanation": "Measuring growth is explicitly stated and supports the answer.",
+              "hint": "Avoid adding facts the passage does not provide.",
+              "difficulty": "Medium",
+              "id": "g7-english-reading-q3",
+              "options": [
+                "They tracked progress because they measured growth each week",
+                "They must all be expert farmers",
+                "They probably sold all the plants",
+                "They certainly dislike other subjects"
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the main idea of the example passage using one supporting detail.",
+            "points": [
+              "State the responsibility learned through gardening.",
+              "Mention watering or measuring growth.",
+              "Do not invent outcomes such as winning a prize."
+            ]
+          },
+          "revision": [
+            "Read the whole passage before choosing a main idea.",
+            "Use evidence from the text.",
+            "A detail is narrower than the main idea."
+          ]
+        },
+        {
+          "id": "g7-english-tenses",
+          "title": "Time and verb forms",
+          "goal": "Choose simple present, simple past and present continuous forms in context.",
+          "concepts": [
+            {
+              "term": "Simple present",
+              "explanation": "Often describes habits, repeated actions or general facts."
+            },
+            {
+              "term": "Present continuous",
+              "explanation": "Uses am, is or are with an -ing form to describe an action in progress around now."
+            }
+          ],
+          "example": {
+            "problem": "Complete: “Every day Tara walks to school, but today she ___ by bus.”",
+            "steps": [
+              "“Every day” signals a habit: walks.",
+              "“Today” contrasts that habit with a temporary current arrangement.",
+              "Use “is travelling” for the current situation."
+            ],
+            "answer": "Every day Tara walks to school, but today she is travelling by bus."
+          },
+          "activity": {
+            "prompt": "Write one sentence about a habit, one about yesterday and one about an action happening now.",
+            "check": "Example: I read daily. I read a story yesterday. I am reading now."
+          },
+          "questions": [
+            {
+              "prompt": "Choose the correct sentence.",
+              "explanation": "A third-person singular subject takes plays in the simple present.",
+              "hint": "He, she and it usually take an -s form here.",
+              "difficulty": "Easy",
+              "id": "g7-english-tenses-q1",
+              "options": [
+                "He play chess every Sunday.",
+                "He playing chess every Sunday.",
+                "He plays chess every Sunday.",
+                "He are play chess every Sunday."
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "Complete: “They ___ the museum yesterday.”",
+              "explanation": "Yesterday places the completed event in the past.",
+              "hint": "Find the time expression.",
+              "difficulty": "Medium",
+              "id": "g7-english-tenses-q2",
+              "options": [
+                "visit",
+                "are visiting",
+                "visits",
+                "visited"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which sentence describes an action happening now?",
+              "explanation": "Are drawing is present continuous.",
+              "hint": "Look for are + an -ing verb.",
+              "difficulty": "Medium",
+              "id": "g7-english-tenses-q3",
+              "options": [
+                "The children are drawing a map.",
+                "The children draw maps every week.",
+                "The children drew a map yesterday.",
+                "The children will draw a map tomorrow."
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Write three linked sentences about a student using a habit, a completed past event and an action in progress.",
+            "points": [
+              "Choose time expressions appropriate to each form.",
+              "Use subject–verb agreement.",
+              "Keep the sequence understandable."
+            ]
+          },
+          "revision": [
+            "Habits often use simple present.",
+            "Completed past events often use simple past.",
+            "Present continuous = am/is/are + -ing."
+          ]
+        },
+        {
+          "id": "g7-english-description",
+          "title": "Descriptive writing with precise details",
+          "goal": "Build a short description using organised, concrete details.",
+          "concepts": [
+            {
+              "term": "Sensory detail",
+              "explanation": "A detail related to sight, sound, smell, taste or touch; use only details relevant to the subject."
+            },
+            {
+              "term": "Organisation",
+              "explanation": "Arranging details in a clear order, such as near to far or general view to particular features."
+            }
+          ],
+          "example": {
+            "problem": "Improve “The garden was nice” without changing it into a different scene.",
+            "steps": [
+              "Choose visible and audible details.",
+              "Replace vague praise with specific observations.",
+              "Keep the description focused."
+            ],
+            "answer": "Marigolds lined the narrow path, and sparrows chirped in the neem tree."
+          },
+          "activity": {
+            "prompt": "Observe a safe familiar place and write five specific details. Use three to create a short paragraph.",
+            "check": "Prefer precise nouns and verbs; do not add unrelated adjectives just to make it longer."
+          },
+          "questions": [
+            {
+              "prompt": "Which sentence gives the most precise detail?",
+              "explanation": "The sentence identifies number, colour, objects and location.",
+              "hint": "Look for details a reader could picture.",
+              "difficulty": "Easy",
+              "id": "g7-english-description-q1",
+              "options": [
+                "Things were there.",
+                "It was very nice.",
+                "Three blue cups stood on the wooden shelf.",
+                "The place was good."
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "A description moves from the doorway to the back of a room. This uses:",
+              "explanation": "Spatial order organises details by location.",
+              "hint": "Think about where things are.",
+              "difficulty": "Medium",
+              "id": "g7-english-description-q2",
+              "options": [
+                "A random list",
+                "Alphabetical order",
+                "A mathematical proof",
+                "Spatial order"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which revision best improves “The boy went quickly”?",
+              "explanation": "Hurried is a precise verb expressing quick movement.",
+              "hint": "Choose a clear verb rather than extra vague words.",
+              "difficulty": "Medium",
+              "id": "g7-english-description-q3",
+              "options": [
+                "The boy hurried along the path.",
+                "The boy was very very good.",
+                "The boy went something.",
+                "The boy quickly quicked."
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Describe a school library in 60–80 words.",
+            "points": [
+              "Use a clear opening.",
+              "Include relevant sensory or spatial details.",
+              "Organise details logically and check punctuation."
+            ]
+          },
+          "revision": [
+            "Use concrete details.",
+            "Choose precise verbs.",
+            "Keep every sentence connected to the scene."
+          ]
+        },
+        {
+          "id": "g7-english-communication",
+          "title": "Polite requests and clear messages",
+          "goal": "Write requests that explain the need and make the required action clear.",
+          "concepts": [
+            {
+              "term": "Audience",
+              "explanation": "The person or group receiving a message; tone and detail should suit them."
+            },
+            {
+              "term": "Request",
+              "explanation": "A clear and respectful statement of what help or action is needed."
+            }
+          ],
+          "example": {
+            "problem": "Write a short message asking a teacher to explain a missed step in an equation.",
+            "steps": [
+              "Address the teacher respectfully.",
+              "Identify the exact question or step.",
+              "Ask for a specific explanation and thank them."
+            ],
+            "answer": "Good afternoon, Ma’am. In question 4, I do not understand why we divide both sides by 3. Could you explain that step, please? Thank you."
+          },
+          "activity": {
+            "prompt": "Rewrite “Send me everything now” as a polite request for a worksheet.",
+            "check": "A useful revision names the worksheet, uses a respectful request and avoids an unreasonable demand."
+          },
+          "questions": [
+            {
+              "prompt": "Which is the clearest request?",
+              "explanation": "It states the requested item and uses a polite tone.",
+              "hint": "Name the action and the object.",
+              "difficulty": "Easy",
+              "id": "g7-english-communication-q1",
+              "options": [
+                "Give that.",
+                "Everything now!",
+                "Could you share Monday’s science worksheet, please?",
+                "You know what I need."
+              ],
+              "answer": 2
+            },
+            {
+              "prompt": "What detail helps a teacher answer a doubt efficiently?",
+              "explanation": "Specific information helps the teacher locate the difficulty.",
+              "hint": "Make the problem identifiable.",
+              "difficulty": "Medium",
+              "id": "g7-english-communication-q2",
+              "options": [
+                "Only “I don’t know anything”",
+                "An unrelated joke",
+                "Someone else’s private password",
+                "The exact question and confusing step"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "Which ending suits a respectful school request?",
+              "explanation": "A courteous closing acknowledges the other person’s help.",
+              "hint": "Use respectful language.",
+              "difficulty": "Medium",
+              "id": "g7-english-communication-q3",
+              "options": [
+                "Thank you for your help.",
+                "Do it or else.",
+                "No reply needed, ever.",
+                "You are useless."
+              ],
+              "answer": 0
+            }
+          ],
+          "writing": {
+            "prompt": "Write a message asking a classmate for notes from one lesson you missed.",
+            "points": [
+              "Name the lesson or date.",
+              "Ask for specific help politely.",
+              "Offer thanks without sharing unnecessary personal information."
+            ]
+          },
+          "revision": [
+            "Match tone to audience.",
+            "Be specific.",
+            "Proofread before sending."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "g7-hindi-reading",
+          "title": "अपठित गद्यांश: मुख्य विचार",
+          "goal": "छोटे गद्यांश का मुख्य विचार पहचानना और पाठ के आधार पर उत्तर देना।",
+          "concepts": [
+            {
+              "term": "मुख्य विचार",
+              "explanation": "गद्यांश जिस केंद्रीय बात को समझाता है, वह उसका मुख्य विचार है।"
+            },
+            {
+              "term": "पाठ-आधारित उत्तर",
+              "explanation": "ऐसा उत्तर जिसमें गद्यांश की जानकारी का सहारा लिया जाए, अपनी ओर से नए तथ्य न जोड़े जाएँ।"
+            }
+          ],
+          "example": {
+            "problem": "पढ़िए: “रीना रोज़ पुस्तकालय जाती है। वहाँ वह नई कहानियाँ पढ़ती है और कठिन शब्द लिखती है। इससे उसकी भाषा बेहतर हो रही है।” इसका मुख्य विचार क्या है?",
+            "steps": [
+              "तीनों वाक्यों का संबंध देखिए।",
+              "पुस्तकालय जाना और शब्द लिखना पढ़ने की आदत से जुड़े हैं।",
+              "अंतिम वाक्य उसका लाभ बताता है।"
+            ],
+            "answer": "नियमित पढ़ने से रीना की भाषा बेहतर हो रही है।"
+          },
+          "activity": {
+            "prompt": "अपनी पसंद के विषय पर तीन वाक्य लिखिए। फिर उनका मुख्य विचार एक वाक्य में लिखिए।",
+            "check": "मुख्य विचार तीनों वाक्यों से जुड़ा हो और बहुत छोटा विवरण मात्र न हो।"
+          },
+          "questions": [
+            {
+              "prompt": "गद्यांश के अनुसार रीना कठिन शब्द कहाँ लिखती है?",
+              "explanation": "गद्यांश शब्द लिखने की बात कहता है, पर स्थान नहीं बताता।",
+              "hint": "जो जानकारी नहीं दी गई है, उसका अनुमान निश्चित तथ्य की तरह न लिखें।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-reading-q1",
+              "options": [
+                "केवल दीवार पर",
+                "केवल समाचारपत्र में",
+                "केवल बोर्ड पर",
+                "वह कठिन शब्द लिखती है; लिखने का स्थान नहीं बताया गया।"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "गद्यांश में रीना की भाषा बेहतर होने का कारण क्या है?",
+              "explanation": "पढ़ने और नए शब्द सीखने की आदत भाषा सुधारने में मदद करती है।",
+              "hint": "रीना की आदतों पर ध्यान दीजिए।",
+              "difficulty": "Easy",
+              "id": "g7-hindi-reading-q2",
+              "options": [
+                "नियमित पढ़ना और कठिन शब्द लिखना",
+                "पुस्तकालय बंद होना",
+                "खेलना छोड़ देना",
+                "कहानियाँ न पढ़ना"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "गद्यांश का उत्तर लिखते समय क्या करना चाहिए?",
+              "explanation": "पाठ के आधार पर उत्तर देने से उत्तर सटीक रहता है।",
+              "hint": "उत्तर का प्रमाण पाठ में खोजिए।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-reading-q3",
+              "options": [
+                "बिना पढ़े उत्तर देना",
+                "दी गई जानकारी के आधार पर उत्तर देना",
+                "हर उत्तर में नए पात्र जोड़ना",
+                "असंबंधित कहानी लिखना"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "रीना की पढ़ने की आदत से उसे क्या लाभ हुआ?",
+            "points": [
+              "भाषा बेहतर होने का उल्लेख करें।",
+              "कहानियाँ पढ़ने और कठिन शब्द लिखने को कारण के रूप में जोड़ें।"
+            ]
+          },
+          "revision": [
+            "पूरा गद्यांश पढ़ें।",
+            "मुख्य विचार और छोटे विवरण में अंतर करें।",
+            "अज्ञात जानकारी को तथ्य न बनाएँ।"
+          ]
+        },
+        {
+          "id": "g7-hindi-nouns",
+          "title": "संज्ञा, सर्वनाम और विशेषण",
+          "goal": "वाक्य में नाम, नाम के स्थान पर आए शब्द और विशेषता बताने वाले शब्द पहचानना।",
+          "concepts": [
+            {
+              "term": "संज्ञा",
+              "explanation": "किसी व्यक्ति, वस्तु, स्थान, भाव या जाति के नाम का बोध कराने वाला शब्द।"
+            },
+            {
+              "term": "सर्वनाम और विशेषण",
+              "explanation": "सर्वनाम संज्ञा के स्थान पर आता है। विशेषण किसी संज्ञा या सर्वनाम की विशेषता बताता है।"
+            }
+          ],
+          "example": {
+            "problem": "“मीना की लाल पतंग ऊँची उड़ रही है। वह खुश है।” में संज्ञा, विशेषण और सर्वनाम पहचानिए।",
+            "steps": [
+              "मीना और पतंग नाम बताते हैं।",
+              "लाल पतंग का रंग बताता है।",
+              "वह दूसरी पंक्ति में मीना के स्थान पर आया है।"
+            ],
+            "answer": "संज्ञा: मीना, पतंग; विशेषण: लाल; सर्वनाम: वह।"
+          },
+          "activity": {
+            "prompt": "अपने कमरे की तीन वस्तुओं के नाम लिखिए और प्रत्येक के लिए एक उपयुक्त विशेषण जोड़िए।",
+            "check": "उदाहरण: छोटी मेज़, नीला बैग, साफ़ खिड़की।"
+          },
+          "questions": [
+            {
+              "prompt": "“मोहन स्कूल जाता है।” में व्यक्ति का नाम कौन-सा है?",
+              "explanation": "मोहन किसी व्यक्ति का नाम है, इसलिए संज्ञा है।",
+              "hint": "नाम बताने वाला शब्द खोजिए।",
+              "difficulty": "Easy",
+              "id": "g7-hindi-nouns-q1",
+              "options": [
+                "जाता",
+                "है",
+                "वह",
+                "मोहन"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "“सीमा आई। वह बैठ गई।” में सर्वनाम कौन-सा है?",
+              "explanation": "वह सीमा के स्थान पर आया है।",
+              "hint": "संज्ञा के दोहराव को कौन रोक रहा है?",
+              "difficulty": "Medium",
+              "id": "g7-hindi-nouns-q2",
+              "options": [
+                "वह",
+                "सीमा",
+                "आई",
+                "बैठ"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "“मीठा आम” में विशेषण कौन-सा है?",
+              "explanation": "मीठा आम का स्वाद बताता है।",
+              "hint": "विशेषता बताने वाला शब्द खोजिए।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-nouns-q3",
+              "options": [
+                "आम",
+                "मीठा",
+                "दोनों संज्ञा हैं",
+                "कोई विशेषण नहीं"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "दो वाक्य लिखिए जिनमें पहले संज्ञा और फिर उसी के लिए सर्वनाम का प्रयोग हो। एक विशेषण भी जोड़िए।",
+            "points": [
+              "संज्ञा का स्पष्ट संदर्भ हो।",
+              "सर्वनाम उसी संज्ञा के लिए प्रयुक्त हो।",
+              "विशेषण उपयुक्त विशेषता बताए।"
+            ]
+          },
+          "revision": [
+            "संज्ञा नाम बताती है।",
+            "सर्वनाम नाम के स्थान पर आता है।",
+            "विशेषण विशेषता बताता है।"
+          ]
+        },
+        {
+          "id": "g7-hindi-sentence",
+          "title": "वाक्य-रचना और विराम-चिह्न",
+          "goal": "सार्थक वाक्य बनाना तथा पूर्ण विराम, प्रश्नवाचक और अल्पविराम का उचित प्रयोग करना।",
+          "concepts": [
+            {
+              "term": "वाक्य",
+              "explanation": "शब्दों का ऐसा सार्थक समूह जो संदर्भ में पूरी बात कहे।"
+            },
+            {
+              "term": "विराम-चिह्न",
+              "explanation": "लिखित भाषा में ठहराव और भाव स्पष्ट करने वाले चिह्न, जैसे ।, ? और ,।"
+            }
+          ],
+          "example": {
+            "problem": "“तुम कहाँ जा रहे हो” के अंत में उचित चिह्न लगाइए।",
+            "steps": [
+              "यह वाक्य जानकारी पूछता है।",
+              "प्रश्न के अंत में प्रश्नवाचक चिह्न लगाया जाता है।"
+            ],
+            "answer": "तुम कहाँ जा रहे हो?"
+          },
+          "activity": {
+            "prompt": "तीन कथन और तीन प्रश्न लिखिए। सही अंत-चिह्न लगाकर ज़ोर से पढ़िए।",
+            "check": "कथन में पूर्ण विराम और प्रश्न में प्रश्नवाचक चिह्न का प्रयोग करें।"
+          },
+          "questions": [
+            {
+              "prompt": "निम्न में कौन-सा वाक्य सीधे जानकारी पूछता है?",
+              "explanation": "“क्या” वाला वाक्य सीधे जानकारी पूछ रहा है।",
+              "hint": "प्रश्न पूछने वाला वाक्य चुनिए।",
+              "difficulty": "Easy",
+              "id": "g7-hindi-sentence-q1",
+              "options": [
+                "आज सोमवार है।",
+                "राम पुस्तक पढ़ रहा है।",
+                "पेड़ हरा है।",
+                "तुम्हारा नाम क्या है?"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "किस समूह के शब्दों से स्पष्ट कथन बनता है?",
+              "explanation": "पहले विकल्प में कर्ता, स्थान और क्रिया मिलकर स्पष्ट अर्थ देते हैं।",
+              "hint": "पूरी बात कहने वाला विकल्प चुनिए।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-sentence-q2",
+              "options": [
+                "बच्चे मैदान में खेल रहे हैं।",
+                "खेल मैदान बच्चे में।",
+                "में हैं बच्चे।",
+                "रहे मैदान।"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "“मैंने सेब, केला और अमरूद खरीदे।” में अल्पविराम किस काम आया है?",
+              "explanation": "अल्पविराम सूची को पढ़ने और समझने में मदद करता है।",
+              "hint": "वाक्य में फल गिनाए गए हैं।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-sentence-q3",
+              "options": [
+                "प्रश्न समाप्त करने के लिए",
+                "सूची की वस्तुओं को अलग दिखाने के लिए",
+                "किसी शब्द का अर्थ बदलने के लिए",
+                "वाक्य को असार्थक करने के लिए"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "पाँच वाक्यों में अपने दिन का वर्णन लिखिए। एक प्रश्न और एक सूची अवश्य रखें।",
+            "points": [
+              "वाक्य सार्थक और जुड़े हुए हों।",
+              "प्रश्न के बाद ? लगाएँ।",
+              "सूची में अल्पविराम का उचित प्रयोग करें।"
+            ]
+          },
+          "revision": [
+            "वाक्य का अर्थ पूरा हो।",
+            "विराम-चिह्न अर्थ स्पष्ट करते हैं।",
+            "लिखने के बाद पढ़कर जाँचें।"
+          ]
+        },
+        {
+          "id": "g7-hindi-paragraph",
+          "title": "अनुच्छेद और विनम्र संदेश",
+          "goal": "एक विषय पर जुड़े वाक्य लिखना और स्पष्ट, विनम्र अनुरोध करना।",
+          "concepts": [
+            {
+              "term": "अनुच्छेद",
+              "explanation": "एक मुख्य विषय या विचार पर केंद्रित, आपस में जुड़े वाक्यों का समूह।"
+            },
+            {
+              "term": "विनम्र अनुरोध",
+              "explanation": "आदरपूर्वक अपनी आवश्यकता और अपेक्षित सहायता स्पष्ट करना।"
+            }
+          ],
+          "example": {
+            "problem": "शिक्षक से गृहकार्य का एक प्रश्न समझाने का संदेश लिखिए।",
+            "steps": [
+              "नमस्कार और उचित संबोधन लिखें।",
+              "विषय और प्रश्न संख्या बताएँ।",
+              "जिस चरण में कठिनाई है, उसे स्पष्ट करें और धन्यवाद दें।"
+            ],
+            "answer": "नमस्ते मैम। गणित के प्रश्न 5 में भिन्नों को जोड़ने का दूसरा चरण समझ नहीं आया। कृपया उसे समझा दीजिए। धन्यवाद।"
+          },
+          "activity": {
+            "prompt": "“मुझे सब भेज दो” को किसी एक पाठ के नोट्स माँगने वाले विनम्र संदेश में बदलिए।",
+            "check": "पाठ का नाम, स्पष्ट अनुरोध और धन्यवाद शामिल हों।"
+          },
+          "questions": [
+            {
+              "prompt": "अनुच्छेद की कौन-सी विशेषता उचित है?",
+              "explanation": "एक मुख्य विषय अनुच्छेद को संगठित रखता है।",
+              "hint": "मुख्य विषय से संबंध देखिए।",
+              "difficulty": "Easy",
+              "id": "g7-hindi-paragraph-q1",
+              "options": [
+                "हर वाक्य असंबंधित हो",
+                "उसमें केवल कठिन शब्द हों",
+                "उसमें अर्थ की आवश्यकता न हो",
+                "सभी वाक्य एक मुख्य विषय से जुड़े हों"
+              ],
+              "answer": 3
+            },
+            {
+              "prompt": "कौन-सा अनुरोध अधिक स्पष्ट है?",
+              "explanation": "इसमें सामग्री और समय दोनों स्पष्ट हैं तथा भाषा विनम्र है।",
+              "hint": "क्या चाहिए, यह साफ़ लिखा है या नहीं?",
+              "difficulty": "Medium",
+              "id": "g7-hindi-paragraph-q2",
+              "options": [
+                "कृपया आज के विज्ञान पाठ के नोट्स भेज दीजिए।",
+                "कुछ भेजो।",
+                "अभी सब करो।",
+                "तुम जानते हो।"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "संदेश भेजने से पहले सबसे उपयोगी काम क्या है?",
+              "explanation": "जाँच से संदेश स्पष्ट और सुरक्षित रहता है।",
+              "hint": "संदेश को प्राप्तकर्ता की दृष्टि से पढ़ें।",
+              "difficulty": "Medium",
+              "id": "g7-hindi-paragraph-q3",
+              "options": [
+                "बिना पढ़े भेजना",
+                "विषय, भाषा और आवश्यक जानकारी की जाँच करना",
+                "निजी पासवर्ड जोड़ना",
+                "असंबंधित बातें बढ़ाना"
+              ],
+              "answer": 1
+            }
+          ],
+          "writing": {
+            "prompt": "“मेरी पसंदीदा पुस्तक” पर 60–80 शब्दों का अनुच्छेद लिखिए।",
+            "points": [
+              "पुस्तक का नाम और विषय बताएँ।",
+              "पसंद आने का एक स्पष्ट कारण दें।",
+              "वाक्यों को मुख्य विषय से जोड़ें।"
+            ]
+          },
+          "revision": [
+            "एक अनुच्छेद, एक मुख्य विचार।",
+            "अनुरोध स्पष्ट और विनम्र हो।",
+            "अनावश्यक निजी जानकारी न लिखें।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing",
+      "modules": [
+        {
+          "id": "g7-computing-files",
+          "title": "Files, folders and useful names",
+          "goal": "Organise schoolwork and distinguish a file from a folder.",
+          "concepts": [
+            {
+              "term": "File",
+              "explanation": "A named collection of stored data, such as a document, image or spreadsheet."
+            },
+            {
+              "term": "Folder",
+              "explanation": "A container used to organise files and other folders; a clear folder structure makes work easier to find."
+            }
+          ],
+          "example": {
+            "problem": "Organise a science report and two experiment photographs so you can find them later.",
+            "steps": [
+              "Create a Schoolwork folder and a Science subfolder.",
+              "Use a project folder such as Plant-Observation.",
+              "Name files by content and date rather than final-final-new."
+            ],
+            "answer": "Example: Schoolwork/Science/Plant-Observation/2026-10-15-report.pdf."
+          },
+          "activity": {
+            "prompt": "Plan a folder tree for three subjects on paper. Include a descriptive filename for one homework task.",
+            "check": "A folder groups related files; the filename should identify the task without opening it."
+          },
+          "questions": [
+            {
+              "prompt": "Which filename is most informative?",
+              "explanation": "It identifies class, subject, topic and date.",
+              "hint": "Choose a name you could recognise next month.",
+              "difficulty": "Easy",
+              "id": "g7-computing-files-q1",
+              "options": [
+                "Class7-Science-PlantObservation-2026-10-15.pdf",
+                "new.pdf",
+                "thing.pdf",
+                "finalfinal2.pdf"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "What is the main purpose of a folder?",
+              "explanation": "Folders provide structure for stored items.",
+              "hint": "Think about grouping related work.",
+              "difficulty": "Medium",
+              "id": "g7-computing-files-q2",
+              "options": [
+                "To guarantee a file is true",
+                "To organise files and subfolders",
+                "To replace every application",
+                "To add internet speed"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "What does a .jpg extension commonly indicate?",
+              "explanation": "JPG/JPEG is a common image format.",
+              "hint": "Extensions often indicate format, not topic.",
+              "difficulty": "Medium",
+              "id": "g7-computing-files-q3",
+              "options": [
+                "A spreadsheet formula",
+                "A folder password",
+                "An image file",
+                "A printed page size"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Describe a folder structure for a term’s schoolwork.",
+            "points": [
+              "Use sensible subject and task groups.",
+              "Give descriptive filenames.",
+              "Explain how your structure helps retrieval."
+            ]
+          },
+          "revision": [
+            "Use meaningful names.",
+            "Keep related files together.",
+            "A file extension indicates format, not reliability."
+          ]
+        },
+        {
+          "id": "g7-computing-algorithms",
+          "title": "Algorithms and step-by-step thinking",
+          "goal": "Write a finite sequence of clear instructions and test it with an example.",
+          "concepts": [
+            {
+              "term": "Algorithm",
+              "explanation": "A finite sequence of sufficiently clear steps for solving a defined problem."
+            },
+            {
+              "term": "Input and output",
+              "explanation": "Inputs are the information supplied; outputs are the results produced by processing it."
+            }
+          ],
+          "example": {
+            "problem": "Write an algorithm to find the larger of two different numbers.",
+            "steps": [
+              "Read numbers a and b.",
+              "If a > b, output a.",
+              "Otherwise, output b.",
+              "Stop."
+            ],
+            "answer": "The larger number is the output; for 7 and 4, the output is 7."
+          },
+          "activity": {
+            "prompt": "Write directions for arranging three books from shortest to tallest. Test the directions with three paper rectangles.",
+            "check": "Someone else should be able to follow the steps without guessing your intention."
+          },
+          "questions": [
+            {
+              "prompt": "Which instruction is clearest in an algorithm?",
+              "explanation": "The operation and target are explicit.",
+              "hint": "A step should be unambiguous.",
+              "difficulty": "Easy",
+              "id": "g7-computing-algorithms-q1",
+              "options": [
+                "Add 1 to the counter",
+                "Do the thing",
+                "Make it better",
+                "Choose somehow"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "In an algorithm that adds two entered numbers, the sum is the:",
+              "explanation": "The sum is the result of processing the inputs.",
+              "hint": "Input goes in; the result comes out.",
+              "difficulty": "Medium",
+              "id": "g7-computing-algorithms-q2",
+              "options": [
+                "Keyboard",
+                "Output",
+                "Condition",
+                "Folder"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Why test an algorithm with sample inputs?",
+              "explanation": "Sample tests can reveal mistakes but do not prove all cases work.",
+              "hint": "Try ordinary and boundary cases.",
+              "difficulty": "Medium",
+              "id": "g7-computing-algorithms-q3",
+              "options": [
+                "To make every problem disappear",
+                "To avoid reading the steps",
+                "To check whether its steps produce the intended results",
+                "To guarantee all possible cases from one test"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Write an algorithm to decide whether an entered whole number is even.",
+            "points": [
+              "Read the number.",
+              "Find the remainder on division by 2.",
+              "Output even if the remainder is 0; otherwise output odd."
+            ]
+          },
+          "revision": [
+            "Define the problem first.",
+            "Use clear ordered steps.",
+            "Test more than one example."
+          ]
+        },
+        {
+          "id": "g7-computing-online-safety",
+          "title": "Safe accounts and respectful online behaviour",
+          "goal": "Protect account access and recognise requests that should be checked with a trusted adult.",
+          "concepts": [
+            {
+              "term": "Authentication",
+              "explanation": "Checking that a person is allowed to access an account, often using a password and an additional factor."
+            },
+            {
+              "term": "Personal information",
+              "explanation": "Information that can identify or locate someone, including contact details, passwords and precise location."
+            }
+          ],
+          "example": {
+            "problem": "A stranger offers free game credits if you send an OTP. What should you do?",
+            "steps": [
+              "Do not share the OTP.",
+              "Do not click an unfamiliar link or continue the request.",
+              "Tell a trusted adult and report or block the account using the platform’s tools."
+            ],
+            "answer": "Keep the OTP private and get help verifying the message."
+          },
+          "activity": {
+            "prompt": "Create a fictional safety checklist for a new student account. Do not write a real password or OTP.",
+            "check": "Include a unique strong password, a trusted recovery method and checking links before entering information."
+          },
+          "questions": [
+            {
+              "prompt": "Who should receive the OTP sent for your account login?",
+              "explanation": "An OTP can grant account access and should not be shared with a requester.",
+              "hint": "Treat an OTP like a key.",
+              "difficulty": "Easy",
+              "id": "g7-computing-online-safety-q1",
+              "options": [
+                "No one who asks you to share it",
+                "Any caller claiming to be support",
+                "A stranger offering a gift",
+                "A public class group"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "Which is the safest response to an upsetting online message?",
+              "explanation": "A trusted adult can help report and manage the situation.",
+              "hint": "Prioritise support rather than retaliation.",
+              "difficulty": "Medium",
+              "id": "g7-computing-online-safety-q2",
+              "options": [
+                "Publish your address",
+                "Save relevant evidence and seek help from a trusted adult",
+                "Send more private photographs",
+                "Threaten the sender back"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "Which password practice is safer?",
+              "explanation": "Unique passwords reduce the effect of one account being compromised.",
+              "hint": "One stolen key should not open every door.",
+              "difficulty": "Medium",
+              "id": "g7-computing-online-safety-q3",
+              "options": [
+                "Use your name for every password",
+                "Reuse one password everywhere",
+                "Use a different strong password for each account",
+                "Post the password in a group"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two ways to protect a school account and one respectful behaviour in a class group.",
+            "points": [
+              "Use unique strong credentials and keep OTPs private.",
+              "Check unexpected login requests with a trusted adult.",
+              "Respect others and avoid sharing their personal information."
+            ]
+          },
+          "revision": [
+            "Keep passwords and OTPs private.",
+            "Check suspicious requests.",
+            "Ask for help when something feels wrong."
+          ]
+        },
+        {
+          "id": "g7-computing-data",
+          "title": "Tables, charts and responsible data use",
+          "goal": "Read simple tables, choose an appropriate chart and avoid collecting unnecessary personal data.",
+          "concepts": [
+            {
+              "term": "Data",
+              "explanation": "Recorded observations or values that can be organised and interpreted."
+            },
+            {
+              "term": "Bar chart",
+              "explanation": "A chart that compares quantities across categories using bars of a consistent scale."
+            }
+          ],
+          "example": {
+            "problem": "A class borrows 8 storybooks, 5 science books and 7 history books. Which category is largest and what is the total?",
+            "steps": [
+              "Compare category values: 8 is largest.",
+              "Add 8 + 5 + 7 = 20."
+            ],
+            "answer": "Storybooks are the largest category; 20 books were borrowed."
+          },
+          "activity": {
+            "prompt": "Make a table of fictional favourite fruits for ten students and draw a bar chart. Do not collect names.",
+            "check": "Category frequencies must total ten; label both axes and use a consistent scale."
+          },
+          "questions": [
+            {
+              "prompt": "Which chart is suitable for comparing numbers of books in different categories?",
+              "explanation": "Bar charts compare values across categories.",
+              "hint": "The groups are categories rather than stages of a process.",
+              "difficulty": "Easy",
+              "id": "g7-computing-data-q1",
+              "options": [
+                "A bar chart",
+                "A password form",
+                "An unlabeled photograph",
+                "A folder tree"
+              ],
+              "answer": 0
+            },
+            {
+              "prompt": "What is the total in the example: 8 storybooks, 5 science books and 7 history books?",
+              "explanation": "8 + 5 + 7 = 20.",
+              "hint": "Add all three categories.",
+              "difficulty": "Medium",
+              "id": "g7-computing-data-q2",
+              "options": [
+                "15",
+                "20",
+                "13",
+                "21"
+              ],
+              "answer": 1
+            },
+            {
+              "prompt": "For a class fruit-preference chart, which information is usually unnecessary?",
+              "explanation": "A fruit preference chart does not require identifying addresses.",
+              "hint": "Collect only data needed for the task.",
+              "difficulty": "Medium",
+              "id": "g7-computing-data-q3",
+              "options": [
+                "Fruit categories",
+                "Number choosing each fruit",
+                "Students’ home addresses",
+                "Total responses"
+              ],
+              "answer": 2
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a misleading scale could affect a bar chart.",
+            "points": [
+              "Unequal or unclear intervals can distort comparisons.",
+              "Axes and units should be labelled.",
+              "The chart should match the underlying numbers."
+            ]
+          },
+          "revision": [
+            "Label data clearly.",
+            "Use consistent scales.",
+            "Collect only necessary information."
+          ]
+        }
+      ]
+    }
+  ]
+}

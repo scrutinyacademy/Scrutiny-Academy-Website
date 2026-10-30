@@ -1,0 +1,2772 @@
+{
+  "grade": 11,
+  "title": "Class 11 supplementary topic library",
+  "coverageNote": "Original supplementary core-topic lessons, not an exhaustive textbook course or a certified mapping of the complete 2026–27 syllabus. No copied NCERT chapters or authenticated past-paper questions.",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "11-mathematics-sets",
+          "title": "Sets and representations",
+          "goal": "Represent collections and reason with unions and intersections.",
+          "concepts": [
+            {
+              "term": "Set",
+              "explanation": "A collection whose membership is unambiguously defined."
+            },
+            {
+              "term": "Intersection",
+              "explanation": "A ∩ B contains exactly the elements common to A and B."
+            },
+            {
+              "term": "Union",
+              "explanation": "A ∪ B contains elements belonging to at least one of A or B."
+            }
+          ],
+          "example": {
+            "problem": "For A={1,2,3} and B={3,4}, find A∪B and A∩B.",
+            "steps": [
+              "List all distinct elements from both sets for the union.",
+              "Keep only the element appearing in both sets for the intersection."
+            ],
+            "answer": "A∪B={1,2,3,4}; A∩B={3}."
+          },
+          "activity": {
+            "prompt": "Draw two overlapping circles for students who play chess and students who play football. Include a region for neither.",
+            "check": "The overlap means both activities; the outer rectangle represents all students being considered."
+          },
+          "questions": [
+            {
+              "id": "11-mathematics-sets-q1",
+              "prompt": "Which symbol means an element belongs to a set?",
+              "options": [
+                "∩",
+                "∈",
+                "⊂",
+                "∪"
+              ],
+              "answer": 1,
+              "explanation": "x∈A states that x is an element of A.",
+              "hint": "Separate membership from the relation between two sets.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-mathematics-sets-q2",
+              "prompt": "If A={a,b} and B={b,c}, what is A∩B?",
+              "options": [
+                "{b}",
+                "{a,b,c}",
+                "{a,c}",
+                "{}"
+              ],
+              "answer": 0,
+              "explanation": "Only b belongs to both sets.",
+              "hint": "Look for common elements.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-mathematics-sets-q3",
+              "prompt": "In a group, 18 like tea, 12 like coffee and 5 like both. How many like at least one?",
+              "options": [
+                "30",
+                "35",
+                "13",
+                "25"
+              ],
+              "answer": 3,
+              "explanation": "18+12−5=25; otherwise the overlap is counted twice.",
+              "hint": "Use n(A∪B)=n(A)+n(B)−n(A∩B).",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why the intersection is subtracted in the union-count formula.",
+            "points": [
+              "Adding the two set sizes counts the overlap twice.",
+              "Subtracting the overlap once leaves each member counted once."
+            ]
+          },
+          "revision": [
+            "A∪B: at least one set.",
+            "A∩B: both sets.",
+            "The empty set has no elements."
+          ]
+        },
+        {
+          "id": "11-mathematics-trigonometry",
+          "title": "Angles and trigonometric identities",
+          "goal": "Connect radians with angles and use a fundamental identity.",
+          "concepts": [
+            {
+              "term": "Radian",
+              "explanation": "The angle subtended at the centre by an arc equal in length to the radius."
+            },
+            {
+              "term": "Unit-circle coordinates",
+              "explanation": "For angle θ, the unit-circle point is (cos θ, sin θ)."
+            },
+            {
+              "term": "Pythagorean identity",
+              "explanation": "sin²θ+cos²θ=1 follows from the unit circle equation."
+            }
+          ],
+          "example": {
+            "problem": "Find the positive value of cos θ if sin θ=3/5 and θ is acute.",
+            "steps": [
+              "Use cos²θ=1−sin²θ.",
+              "Calculate 1−9/25=16/25.",
+              "Choose the positive root because θ is acute."
+            ],
+            "answer": "cos θ=4/5."
+          },
+          "activity": {
+            "prompt": "Mark 0, π/2, π and 3π/2 on a circle; write the sign of sine and cosine in each quadrant.",
+            "check": "The y-coordinate gives sine and the x-coordinate gives cosine."
+          },
+          "questions": [
+            {
+              "id": "11-mathematics-trigonometry-q1",
+              "prompt": "180° equals how many radians?",
+              "options": [
+                "π",
+                "2π",
+                "π/2",
+                "1"
+              ],
+              "answer": 0,
+              "explanation": "A half turn is π radians.",
+              "hint": "A complete turn is 2π radians.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-mathematics-trigonometry-q2",
+              "prompt": "What is sin²θ+cos²θ?",
+              "options": [
+                "0",
+                "2",
+                "sin θ+cos θ",
+                "1"
+              ],
+              "answer": 3,
+              "explanation": "The squared coordinates of a unit-circle point sum to 1.",
+              "hint": "Use x²+y²=1.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-mathematics-trigonometry-q3",
+              "prompt": "If θ lies in quadrant II and sin θ=3/5, what is cos θ?",
+              "options": [
+                "−3/5",
+                "5/4",
+                "−4/5",
+                "4/5"
+              ],
+              "answer": 2,
+              "explanation": "Its magnitude is 4/5 and cosine is negative in quadrant II.",
+              "hint": "First find the magnitude, then determine the sign.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Derive sin²θ+cos²θ=1 using a unit circle.",
+            "points": [
+              "State x²+y²=1 for a circle of radius 1.",
+              "Substitute x=cos θ and y=sin θ."
+            ]
+          },
+          "revision": [
+            "Radians measure arc length divided by radius.",
+            "Check quadrants before selecting square roots.",
+            "π radians=180°."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "modules": [
+        {
+          "id": "11-physics-motion",
+          "title": "Motion in a straight line",
+          "goal": "Distinguish displacement, velocity and acceleration.",
+          "concepts": [
+            {
+              "term": "Displacement",
+              "explanation": "The change in position, including direction."
+            },
+            {
+              "term": "Average velocity",
+              "explanation": "Total displacement divided by elapsed time."
+            },
+            {
+              "term": "Uniform acceleration",
+              "explanation": "Acceleration remains constant; v=u+at applies over that interval."
+            }
+          ],
+          "example": {
+            "problem": "A body starts from rest and accelerates uniformly at 2 m/s² for 4 s. Find its final speed and displacement.",
+            "steps": [
+              "v=u+at=0+2×4=8 m/s.",
+              "s=ut+½at²=0+½×2×16=16 m."
+            ],
+            "answer": "Final speed 8 m/s; displacement 16 m."
+          },
+          "activity": {
+            "prompt": "Sketch a velocity-time graph for an object accelerating uniformly from rest.",
+            "check": "It is a straight line through the origin; its slope is acceleration and the area below it is displacement."
+          },
+          "questions": [
+            {
+              "id": "11-physics-motion-q1",
+              "prompt": "The SI unit of acceleration is:",
+              "options": [
+                "m/s²",
+                "m/s",
+                "m²/s",
+                "s/m"
+              ],
+              "answer": 0,
+              "explanation": "Acceleration is change in velocity per unit time.",
+              "hint": "Divide m/s by seconds.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-physics-motion-q2",
+              "prompt": "A runner returns to the starting point after one lap. Their displacement is:",
+              "options": [
+                "The track circumference",
+                "Twice the track radius",
+                "Equal to distance in every case",
+                "Zero"
+              ],
+              "answer": 3,
+              "explanation": "Initial and final positions coincide.",
+              "hint": "Displacement depends on endpoints.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-physics-motion-q3",
+              "prompt": "A velocity changes from −2 m/s to +4 m/s in 3 s. Average acceleration is:",
+              "options": [
+                "+6 m/s²",
+                "+2/3 m/s²",
+                "+2 m/s²",
+                "−2 m/s²"
+              ],
+              "answer": 2,
+              "explanation": "Δv/Δt=(4−(−2))/3=2 m/s².",
+              "hint": "Retain the signs of velocities.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how an object can travel a nonzero distance yet have zero average velocity.",
+            "points": [
+              "It can return to its initial position.",
+              "Total displacement is then zero although total path length is positive."
+            ]
+          },
+          "revision": [
+            "Distance is a scalar; displacement is a vector.",
+            "Slope of position-time graph gives velocity.",
+            "Constant-acceleration equations require constant acceleration."
+          ]
+        },
+        {
+          "id": "11-physics-newton",
+          "title": "Forces and Newton’s laws",
+          "goal": "Connect net force to acceleration using a free-body model.",
+          "concepts": [
+            {
+              "term": "Net force",
+              "explanation": "The vector sum of all external forces on the object."
+            },
+            {
+              "term": "Second law",
+              "explanation": "For constant mass, net force equals mass times acceleration."
+            },
+            {
+              "term": "Third-law pair",
+              "explanation": "Interaction forces are equal and opposite but act on different objects."
+            }
+          ],
+          "example": {
+            "problem": "A 3 kg trolley has a 10 N forward force and a 4 N opposing force. Find its acceleration.",
+            "steps": [
+              "Choose forward as positive.",
+              "Net force is 10−4=6 N.",
+              "a=Fnet/m=6/3=2 m/s²."
+            ],
+            "answer": "2 m/s² forward."
+          },
+          "activity": {
+            "prompt": "Draw a free-body diagram for a book resting on a horizontal table.",
+            "check": "Weight acts downward and the normal force upward; they balance but are not a Newton third-law pair."
+          },
+          "questions": [
+            {
+              "id": "11-physics-newton-q1",
+              "prompt": "Which relation gives acceleration for constant mass?",
+              "options": [
+                "a=m/Fnet",
+                "a=Fnet×m",
+                "a=Fnet+m",
+                "a=Fnet/m"
+              ],
+              "answer": 3,
+              "explanation": "Newton’s second law rearranges to a=Fnet/m.",
+              "hint": "Use the net force, not just one force.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-physics-newton-q2",
+              "prompt": "A 2 kg object experiences a net force of 8 N. Its acceleration is:",
+              "options": [
+                "6 m/s²",
+                "0.25 m/s²",
+                "4 m/s²",
+                "16 m/s²"
+              ],
+              "answer": 2,
+              "explanation": "8/2=4 m/s².",
+              "hint": "Divide force by mass.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-physics-newton-q3",
+              "prompt": "Why do third-law forces not cancel in a one-object free-body diagram?",
+              "options": [
+                "One is not a real force",
+                "They act on different objects",
+                "They always have unequal sizes",
+                "One occurs later"
+              ],
+              "answer": 1,
+              "explanation": "A diagram of one object includes only forces acting on that object.",
+              "hint": "Identify the object receiving each force.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Distinguish balanced forces from a Newton third-law pair.",
+            "points": [
+              "Balanced forces act on the same object and sum to zero.",
+              "Third-law forces act on two different interacting objects."
+            ]
+          },
+          "revision": [
+            "Draw the object before drawing forces.",
+            "Mass and weight are different quantities.",
+            "Zero net force implies constant velocity, including rest."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "modules": [
+        {
+          "id": "11-chemistry-moles",
+          "title": "Mole concept and stoichiometry",
+          "goal": "Convert between mass, moles and particle counts.",
+          "concepts": [
+            {
+              "term": "Mole",
+              "explanation": "An amount of substance containing exactly 6.02214076×10²³ specified entities."
+            },
+            {
+              "term": "Molar mass",
+              "explanation": "Mass per mole, commonly expressed in g/mol."
+            },
+            {
+              "term": "Stoichiometric ratio",
+              "explanation": "Coefficients in a balanced equation relate amounts in moles."
+            }
+          ],
+          "example": {
+            "problem": "How many moles are present in 18 g of water? Use H=1 and O=16.",
+            "steps": [
+              "Molar mass H₂O=2×1+16=18 g/mol.",
+              "Amount n=mass/molar mass=18/18."
+            ],
+            "answer": "1 mol of H₂O."
+          },
+          "activity": {
+            "prompt": "Balance 2H₂+O₂→2H₂O and model the ratio using pairs of paper circles.",
+            "check": "Two hydrogen molecules react with one oxygen molecule to form two water molecules; atoms are conserved."
+          },
+          "questions": [
+            {
+              "id": "11-chemistry-moles-q1",
+              "prompt": "Amount in moles is calculated by:",
+              "options": [
+                "Mass multiplied by molar mass",
+                "Molar mass divided by mass",
+                "Mass plus molar mass",
+                "Mass divided by molar mass"
+              ],
+              "answer": 3,
+              "explanation": "n=m/M; units g divided by g/mol give mol.",
+              "hint": "Check the units.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-chemistry-moles-q2",
+              "prompt": "For 2H₂+O₂→2H₂O, 3 mol O₂ needs how much H₂?",
+              "options": [
+                "1.5 mol",
+                "9 mol",
+                "6 mol",
+                "3 mol"
+              ],
+              "answer": 2,
+              "explanation": "The hydrogen-to-oxygen mole ratio is 2:1.",
+              "hint": "Use balanced coefficients.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-chemistry-moles-q3",
+              "prompt": "With 1 mol N₂ and 2 mol H₂ in N₂+3H₂→2NH₃, which is limiting?",
+              "options": [
+                "Neither; they are exact",
+                "H₂",
+                "N₂",
+                "NH₃"
+              ],
+              "answer": 1,
+              "explanation": "One mole N₂ requires 3 mol H₂, but only 2 mol is available.",
+              "hint": "Compare available amounts to the required ratio.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe a reliable method for identifying a limiting reagent.",
+            "points": [
+              "Balance the equation.",
+              "Convert each available amount to moles.",
+              "Compare moles divided by the respective coefficient; the smallest value limits progress."
+            ]
+          },
+          "revision": [
+            "Specify the particle type when counting entities.",
+            "Balance first, calculate second.",
+            "Mole ratios are not generally mass ratios."
+          ]
+        },
+        {
+          "id": "11-chemistry-bonding",
+          "title": "Chemical bonding and molecular shape",
+          "goal": "Connect electron sharing, ion formation and basic molecular geometry.",
+          "concepts": [
+            {
+              "term": "Ionic bonding",
+              "explanation": "Electrostatic attraction between oppositely charged ions in a structure."
+            },
+            {
+              "term": "Covalent bonding",
+              "explanation": "Atoms share electron density, commonly represented by shared electron pairs."
+            },
+            {
+              "term": "Electron-pair repulsion",
+              "explanation": "Electron domains around a central atom arrange to reduce repulsion; lone pairs affect shape."
+            }
+          ],
+          "example": {
+            "problem": "Explain why a water molecule is bent rather than linear.",
+            "steps": [
+              "Oxygen has two bonding pairs and two lone pairs in the usual Lewis description.",
+              "Four electron domains have a roughly tetrahedral arrangement.",
+              "Only atom positions define molecular shape, giving a bent molecule."
+            ],
+            "answer": "H₂O is bent, with a bond angle about 104.5°."
+          },
+          "activity": {
+            "prompt": "Build paper models of CO₂, CH₄ and H₂O; distinguish electron-domain geometry from molecular shape.",
+            "check": "CO₂ is linear, CH₄ tetrahedral and H₂O bent in these simple models."
+          },
+          "questions": [
+            {
+              "id": "11-chemistry-bonding-q1",
+              "prompt": "A typical covalent bond involves:",
+              "options": [
+                "Sharing whole nuclei",
+                "Loss of all electrons",
+                "Shared electron density",
+                "Only transfer of protons"
+              ],
+              "answer": 2,
+              "explanation": "Covalent bonding is associated with shared electron density between atoms.",
+              "hint": "Think about the role of valence electrons.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-chemistry-bonding-q2",
+              "prompt": "The molecular shape of CH₄ is:",
+              "options": [
+                "Bent",
+                "Tetrahedral",
+                "Linear",
+                "Square planar"
+              ],
+              "answer": 1,
+              "explanation": "Four bonding domains and no lone pairs on carbon give a tetrahedral shape.",
+              "hint": "Count domains around carbon.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-chemistry-bonding-q3",
+              "prompt": "Why is CO₂ linear in the basic VSEPR model?",
+              "options": [
+                "Two electron domains surround carbon",
+                "Each double bond counts as two separate domains",
+                "Oxygen atoms attract by gravity",
+                "Carbon has four lone pairs"
+              ],
+              "answer": 0,
+              "explanation": "Each double bond counts as one domain; two domains arrange opposite each other.",
+              "hint": "A multiple bond is one electron domain.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why electron-domain geometry and molecular shape may differ.",
+            "points": [
+              "Electron-domain geometry includes lone pairs and bonds.",
+              "Molecular shape describes the arrangement of atomic nuclei.",
+              "Water provides a tetrahedral-domain but bent-shape example."
+            ]
+          },
+          "revision": [
+            "Count electron domains rather than bond lines.",
+            "Lone pairs affect bond angles.",
+            "Simple bonding models have limits."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "modules": [
+        {
+          "id": "11-biology-cells",
+          "title": "Cell structures and organisation",
+          "goal": "Relate organelles to their functions without treating cells as identical.",
+          "concepts": [
+            {
+              "term": "Plasma membrane",
+              "explanation": "A selectively permeable boundary regulating exchange with the surroundings."
+            },
+            {
+              "term": "Nucleus",
+              "explanation": "In a typical eukaryotic cell, a membrane-bound compartment containing most DNA."
+            },
+            {
+              "term": "Ribosome",
+              "explanation": "A site of protein synthesis present in both prokaryotic and eukaryotic cells."
+            }
+          ],
+          "example": {
+            "problem": "A cell has a membrane-bound nucleus, chloroplasts and a cell wall. Classify it and explain your evidence.",
+            "steps": [
+              "A membrane-bound nucleus identifies eukaryotic organisation.",
+              "Chloroplasts support photosynthesis.",
+              "This combination is characteristic of a photosynthetic plant cell."
+            ],
+            "answer": "A photosynthetic plant eukaryotic cell."
+          },
+          "activity": {
+            "prompt": "Sketch a bacterial cell and a typical leaf cell; label structures shared by both.",
+            "check": "Both have a plasma membrane, cytoplasm, genetic material and ribosomes; a bacterium lacks a membrane-bound nucleus."
+          },
+          "questions": [
+            {
+              "id": "11-biology-cells-q1",
+              "prompt": "Which structure makes proteins?",
+              "options": [
+                "Vacuolar sap",
+                "Chromosome spindle alone",
+                "Ribosome",
+                "Cell wall"
+              ],
+              "answer": 2,
+              "explanation": "Ribosomes translate mRNA to build polypeptides.",
+              "hint": "Choose the site of translation.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-biology-cells-q2",
+              "prompt": "A membrane-bound nucleus is characteristic of:",
+              "options": [
+                "Only animal cells",
+                "Eukaryotic cells",
+                "All viruses",
+                "All bacteria"
+              ],
+              "answer": 1,
+              "explanation": "Eukaryotes include plants, animals, fungi and protists.",
+              "hint": "The feature is not limited to animals.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-biology-cells-q3",
+              "prompt": "Which is a valid comparison?",
+              "options": [
+                "Bacteria and plant cells both have ribosomes",
+                "Bacteria contain chloroplasts",
+                "All plant cells contain chloroplasts",
+                "Only bacteria possess a plasma membrane"
+              ],
+              "answer": 0,
+              "explanation": "Ribosomes are shared; chloroplasts occur only in suitable photosynthetic eukaryotic cells.",
+              "hint": "Avoid statements beginning with all unless justified.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare prokaryotic and eukaryotic cellular organisation.",
+            "points": [
+              "Both have genetic material, cytoplasm, a membrane and ribosomes.",
+              "A typical eukaryotic cell has a membrane-bound nucleus and organelles.",
+              "Prokaryotes lack a membrane-bound nucleus."
+            ]
+          },
+          "revision": [
+            "Organelles are linked to functions.",
+            "Not every plant cell photosynthesises.",
+            "Viruses are not cellular organisms."
+          ]
+        },
+        {
+          "id": "11-biology-photosynthesis",
+          "title": "Photosynthesis and energy conversion",
+          "goal": "Connect light capture with carbon fixation.",
+          "concepts": [
+            {
+              "term": "Light-dependent reactions",
+              "explanation": "Reactions in thylakoid membranes that use light energy to produce ATP and NADPH and release oxygen from water."
+            },
+            {
+              "term": "Carbon fixation",
+              "explanation": "In the Calvin cycle, CO₂ is incorporated into organic molecules using ATP and NADPH."
+            },
+            {
+              "term": "Chlorophyll",
+              "explanation": "A pigment involved in absorbing light energy in photosynthetic systems."
+            }
+          ],
+          "example": {
+            "problem": "Why does providing light alone not guarantee unlimited photosynthesis?",
+            "steps": [
+              "Photosynthesis also needs CO₂, water, functioning enzymes and appropriate conditions.",
+              "If another factor becomes limiting, extra light may not raise the rate."
+            ],
+            "answer": "The rate is limited by the least adequate relevant factor under the conditions."
+          },
+          "activity": {
+            "prompt": "Draw an input-output diagram for a chloroplast, separating thylakoids from the stroma.",
+            "check": "Place light reactions at thylakoids; show ATP and NADPH supporting Calvin-cycle reactions in the stroma."
+          },
+          "questions": [
+            {
+              "id": "11-biology-photosynthesis-q1",
+              "prompt": "The oxygen released in oxygenic photosynthesis comes mainly from:",
+              "options": [
+                "Chlorophyll molecules",
+                "Water",
+                "Carbon dioxide",
+                "Glucose breakdown only"
+              ],
+              "answer": 1,
+              "explanation": "Water splitting supplies the oxygen released.",
+              "hint": "Identify the molecule split by the light reactions.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-biology-photosynthesis-q2",
+              "prompt": "The Calvin cycle occurs in the chloroplast:",
+              "options": [
+                "Stroma",
+                "Outer membrane only",
+                "Thylakoid lumen",
+                "Intermembrane space only"
+              ],
+              "answer": 0,
+              "explanation": "Carbon-fixation enzymes operate in the stroma.",
+              "hint": "Separate carbon fixation from thylakoid light reactions.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-biology-photosynthesis-q3",
+              "prompt": "CO₂ is scarce but light is abundant. Increasing light alone will usually:",
+              "options": [
+                "Always double sugar formation",
+                "Eliminate the need for enzymes",
+                "Stop water splitting in every case",
+                "Have limited benefit because CO₂ limits the rate"
+              ],
+              "answer": 3,
+              "explanation": "A limiting factor constrains how much extra light can be used productively.",
+              "hint": "Consider the resource already in shortest supply.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the connection between light-dependent reactions and the Calvin cycle.",
+            "points": [
+              "Light reactions produce ATP and NADPH.",
+              "The Calvin cycle uses these to support carbon reduction and regeneration reactions.",
+              "The two sets of reactions are metabolically linked."
+            ]
+          },
+          "revision": [
+            "Released oxygen originates from water.",
+            "Carbon fixation occurs in the stroma.",
+            "The term light-independent does not mean the Calvin cycle only occurs at night."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "11-english-inference",
+          "title": "Reading evidence and inference",
+          "goal": "Separate stated information, inference and unsupported claims.",
+          "concepts": [
+            {
+              "term": "Explicit information",
+              "explanation": "Information directly stated in a passage."
+            },
+            {
+              "term": "Inference",
+              "explanation": "A conclusion supported by textual clues and reasoning."
+            },
+            {
+              "term": "Evidence",
+              "explanation": "Specific words or details used to justify an interpretation."
+            }
+          ],
+          "example": {
+            "problem": "Read: “Mira checked the clock again and moved closer to the station entrance.” What can reasonably be inferred?",
+            "steps": [
+              "Repeated clock-checking suggests attention to time.",
+              "The station setting suggests an expected arrival or departure.",
+              "Do not invent the reason or name of a person she may be meeting."
+            ],
+            "answer": "Mira may be waiting anxiously or watching for someone; the text does not establish the exact reason."
+          },
+          "activity": {
+            "prompt": "Write one observation, one supported inference and one unsupported claim about the example.",
+            "check": "Observation: she checks the clock. Inference: she is concerned about time. Unsupported: her brother’s train is exactly 20 minutes late."
+          },
+          "questions": [
+            {
+              "id": "11-english-inference-q1",
+              "prompt": "Which is an inference from “dark clouds gathered and people opened umbrellas”?",
+              "options": [
+                "The city is named Delhi",
+                "Rain is expected or beginning",
+                "Every person dislikes sunlight",
+                "It is definitely midnight"
+              ],
+              "answer": 1,
+              "explanation": "Clouds and umbrellas together support a rain-related interpretation.",
+              "hint": "Choose what the clues support without adding unrelated facts.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-english-inference-q2",
+              "prompt": "What best supports a reading interpretation?",
+              "options": [
+                "A relevant quoted or paraphrased detail",
+                "The length of the answer alone",
+                "An unrelated personal anecdote",
+                "A guess about the author’s private life"
+              ],
+              "answer": 0,
+              "explanation": "An interpretation should be grounded in the passage.",
+              "hint": "Ask which detail demonstrates the claim.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-english-inference-q3",
+              "prompt": "A passage gives two possible explanations for a character’s silence. Which response is strongest?",
+              "options": [
+                "Choose one with absolute certainty without evidence",
+                "Ignore the passage",
+                "Say all interpretations are equally supported",
+                "State the uncertainty and weigh evidence for both"
+              ],
+              "answer": 3,
+              "explanation": "Good reading acknowledges ambiguity while evaluating support.",
+              "hint": "Avoid pretending that ambiguous evidence proves one answer.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain an inference from a short passage of your choice.",
+            "points": [
+              "State the inference.",
+              "Identify a relevant textual detail.",
+              "Explain how the detail supports the inference without overstating certainty."
+            ]
+          },
+          "revision": [
+            "Observation is not inference.",
+            "Use evidence for interpretations.",
+            "A plausible story is not automatically a supported interpretation."
+          ]
+        },
+        {
+          "id": "11-english-paragraph",
+          "title": "Building a coherent analytical paragraph",
+          "goal": "Develop a focused claim with evidence and explanation.",
+          "concepts": [
+            {
+              "term": "Topic sentence",
+              "explanation": "A sentence establishing the paragraph’s main point."
+            },
+            {
+              "term": "Coherence",
+              "explanation": "The logical connection among ideas."
+            },
+            {
+              "term": "Analysis",
+              "explanation": "Explanation of how evidence supports a claim, rather than merely repeating it."
+            }
+          ],
+          "example": {
+            "problem": "Improve: “The character is brave. She goes back. It is nice.”",
+            "steps": [
+              "State the claim precisely: the character acts bravely despite danger.",
+              "Add the relevant action: she returns to help another person.",
+              "Explain that accepting personal risk supports the judgement of bravery."
+            ],
+            "answer": "The character shows courage by returning to help someone despite the danger; her choice puts another person’s safety before her own."
+          },
+          "activity": {
+            "prompt": "Write a four-sentence paragraph about a character’s decision, then underline the claim and evidence in different colours.",
+            "check": "The evidence must relate directly to the claim; the explanation should say why it matters."
+          },
+          "questions": [
+            {
+              "id": "11-english-paragraph-q1",
+              "prompt": "A topic sentence mainly:",
+              "options": [
+                "Establishes the paragraph’s main point",
+                "Lists every possible detail",
+                "Repeats the title without a claim",
+                "Provides only a page number"
+              ],
+              "answer": 0,
+              "explanation": "It directs the reader to the idea developed in the paragraph.",
+              "hint": "Think about the organising purpose.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-english-paragraph-q2",
+              "prompt": "Which connector signals contrast?",
+              "options": [
+                "Therefore",
+                "For example",
+                "Similarly",
+                "However"
+              ],
+              "answer": 3,
+              "explanation": "However introduces a contrast or qualification.",
+              "hint": "Select the connector showing a difference.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-english-paragraph-q3",
+              "prompt": "Which revision adds analysis?",
+              "options": [
+                "Add unrelated plot events",
+                "Replace evidence with praise",
+                "Explain why the character’s action supports the claim",
+                "Repeat the quotation three times"
+              ],
+              "answer": 2,
+              "explanation": "Analysis links evidence to an interpretation.",
+              "hint": "Go beyond what happened to why it supports the point.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Write an analytical paragraph about a decision in a story you have read.",
+            "points": [
+              "Include a focused claim.",
+              "Use a relevant event or short quotation.",
+              "Explain the connection.",
+              "End with a sentence that advances or closes the point."
+            ]
+          },
+          "revision": [
+            "One paragraph needs one central focus.",
+            "Evidence needs explanation.",
+            "Connectors should reflect actual logical relationships."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "11-hindi-bhasha",
+          "title": "भाषा, संदर्भ और अर्थ",
+          "goal": "वाक्य के संदर्भ से शब्द का उचित अर्थ समझना।",
+          "concepts": [
+            {
+              "term": "संदर्भ",
+              "explanation": "वह स्थिति या आसपास का कथन जिससे किसी शब्द या वाक्य का अर्थ स्पष्ट होता है।"
+            },
+            {
+              "term": "शाब्दिक अर्थ",
+              "explanation": "शब्द का सीधा और सामान्य अर्थ।"
+            },
+            {
+              "term": "भावार्थ",
+              "explanation": "कथन में निहित मुख्य भाव, जिसे पूरे प्रसंग के आधार पर समझा जाता है।"
+            }
+          ],
+          "example": {
+            "problem": "“मुश्किल समय में उसके मित्र दीवार बनकर खड़े रहे।” यहाँ “दीवार” का क्या अर्थ है?",
+            "steps": [
+              "वाक्य में मित्रों की सहायता का प्रसंग है।",
+              "मित्र सचमुच ईंट की दीवार नहीं बने।",
+              "यहाँ शब्द सुरक्षा और सहारे का भाव देता है।"
+            ],
+            "answer": "मित्रों ने कठिन समय में दृढ़ सहारा दिया।"
+          },
+          "activity": {
+            "prompt": "“उसकी बात ने नई राह दिखाई” का शाब्दिक अर्थ और संदर्भगत अर्थ अलग-अलग लिखिए।",
+            "check": "यहाँ “राह” का अर्थ केवल सड़क नहीं, समाधान या दिशा भी हो सकता है।"
+          },
+          "questions": [
+            {
+              "id": "11-hindi-bhasha-q1",
+              "prompt": "भावार्थ लिखते समय सबसे आवश्यक क्या है?",
+              "options": [
+                "मुख्य भाव को अपने शब्दों में स्पष्ट करना",
+                "हर शब्द का अलग शब्दार्थ लिखना",
+                "बिना पढ़े अनुमान लगाना",
+                "केवल लेखक का नाम लिखना"
+              ],
+              "answer": 0,
+              "explanation": "भावार्थ में पूरे कथन का आशय स्पष्ट किया जाता है।",
+              "hint": "अलग शब्दों के बजाय पूरे प्रसंग पर ध्यान दें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-hindi-bhasha-q2",
+              "prompt": "“उसकी आँखों में सपने हैं” में “सपने” का संभावित भाव है:",
+              "options": [
+                "केवल नींद",
+                "आँखों की बीमारी",
+                "कोई निश्चित वस्तु",
+                "आकांक्षाएँ"
+              ],
+              "answer": 3,
+              "explanation": "संदर्भ के अनुसार सपने भविष्य की इच्छाओं का संकेत हो सकते हैं।",
+              "hint": "वाक्य को सामान्य बोलचाल के अर्थ में समझें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-hindi-bhasha-q3",
+              "prompt": "एक ही शब्द के दो अर्थों में सही चुनाव कैसे करेंगे?",
+              "options": [
+                "केवल शब्द की लंबाई देखकर",
+                "हमेशा कठिन अर्थ चुनकर",
+                "वाक्य और प्रसंग से",
+                "हमेशा पहला शब्दकोश अर्थ लेकर"
+              ],
+              "answer": 2,
+              "explanation": "संदर्भ बहुअर्थी शब्द के उचित अर्थ का निर्धारण करता है।",
+              "hint": "आसपास के कथन का उपयोग करें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "किसी रूपकात्मक वाक्य का भावार्थ लिखिए।",
+            "points": [
+              "वाक्य का प्रसंग बताइए।",
+              "शाब्दिक और निहित अर्थ में अंतर स्पष्ट कीजिए।",
+              "मुख्य भाव सरल भाषा में लिखिए।"
+            ]
+          },
+          "revision": [
+            "संदर्भ से अर्थ स्पष्ट होता है।",
+            "भावार्थ शब्दार्थों की सूची नहीं है।",
+            "अपने शब्दों में मूल भाव बनाए रखें।"
+          ]
+        },
+        {
+          "id": "11-hindi-anuched",
+          "title": "अनुच्छेद में विचारों का क्रम",
+          "goal": "एक मुख्य विचार पर संगठित अनुच्छेद लिखना।",
+          "concepts": [
+            {
+              "term": "मुख्य विचार",
+              "explanation": "वह केंद्रीय बात जिसके चारों ओर अनुच्छेद विकसित होता है।"
+            },
+            {
+              "term": "संगति",
+              "explanation": "वाक्यों और विचारों के बीच तार्किक संबंध।"
+            },
+            {
+              "term": "उदाहरण",
+              "explanation": "मुख्य बात को स्पष्ट करने वाला उपयुक्त प्रसंग या तथ्य।"
+            }
+          ],
+          "example": {
+            "problem": "“पुस्तकालय का महत्त्व” पर अनुच्छेद की रूपरेखा बनाइए।",
+            "steps": [
+              "आरंभ में पुस्तकालय की भूमिका बताइए।",
+              "पढ़ने, खोजने और शांत अध्ययन के लाभ जोड़िए।",
+              "एक प्रासंगिक उदाहरण दीजिए।",
+              "अंत में मुख्य विचार को आगे बढ़ाते हुए निष्कर्ष लिखिए।"
+            ],
+            "answer": "भूमिका → संबंधित लाभ → उदाहरण → सार्थक समापन।"
+          },
+          "activity": {
+            "prompt": "चार वाक्य लिखकर देखें कि प्रत्येक वाक्य मुख्य विषय से जुड़ा है या नहीं।",
+            "check": "जो वाक्य विषय से नहीं जुड़ता उसे हटाएँ या उचित संबंध स्पष्ट करें।"
+          },
+          "questions": [
+            {
+              "id": "11-hindi-anuched-q1",
+              "prompt": "एक अच्छे अनुच्छेद का केंद्र क्या होता है?",
+              "options": [
+                "कई असंबंधित विषय",
+                "केवल कठिन शब्द",
+                "केवल उद्धरण",
+                "एक स्पष्ट मुख्य विचार"
+              ],
+              "answer": 3,
+              "explanation": "एक मुख्य विचार अनुच्छेद को दिशा देता है।",
+              "hint": "केंद्रित लेखन पर ध्यान दें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-hindi-anuched-q2",
+              "prompt": "कारण बताने के लिए कौन-सा शब्द उपयुक्त है?",
+              "options": [
+                "अथवा",
+                "फिर भी",
+                "क्योंकि",
+                "लेकिन"
+              ],
+              "answer": 2,
+              "explanation": "क्योंकि कारण प्रस्तुत करता है।",
+              "hint": "कारण और विरोध में अंतर करें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-hindi-anuched-q3",
+              "prompt": "अनुच्छेद में उदाहरण कब उपयोगी है?",
+              "options": [
+                "जब वह मुख्य विचार की जगह ले ले",
+                "जब वह मुख्य बात को स्पष्ट करे",
+                "जब वह विषय से असंबंधित हो",
+                "जब वह प्रमाण के बिना आँकड़े गढ़े"
+              ],
+              "answer": 1,
+              "explanation": "संबंधित उदाहरण बात को ठोस बनाता है।",
+              "hint": "उदाहरण का उद्देश्य स्पष्टता है।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "“नियमित अभ्यास का महत्त्व” पर एक अनुच्छेद लिखिए।",
+            "points": [
+              "स्पष्ट मुख्य विचार रखें।",
+              "विचारों को तार्किक क्रम में जोड़ें।",
+              "उपयुक्त उदाहरण दें।",
+              "अनावश्यक दोहराव हटाएँ।"
+            ]
+          },
+          "revision": [
+            "हर वाक्य विषय से जुड़ा हो।",
+            "सरल और सटीक भाषा प्रभावी होती है।",
+            "संयोजक शब्द संबंध के अनुसार चुनें।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accountancy",
+      "name": "Accountancy",
+      "modules": [
+        {
+          "id": "11-accountancy-equation",
+          "title": "Accounting equation and transactions",
+          "goal": "Analyse business transactions using assets, liabilities and capital.",
+          "concepts": [
+            {
+              "term": "Asset",
+              "explanation": "An economic resource controlled by the business from past events with the potential to produce economic benefits."
+            },
+            {
+              "term": "Liability",
+              "explanation": "A present obligation of the business arising from past events."
+            },
+            {
+              "term": "Accounting equation",
+              "explanation": "Assets=Liabilities+Owner’s equity; transactions preserve this equality."
+            }
+          ],
+          "example": {
+            "problem": "An owner invests ₹50,000 cash and the business buys equipment for ₹20,000 cash. Show the equation.",
+            "steps": [
+              "After investment: cash ₹50,000=capital ₹50,000.",
+              "After purchase: cash ₹30,000 plus equipment ₹20,000=capital ₹50,000."
+            ],
+            "answer": "Assets remain ₹50,000, with no liability and capital ₹50,000."
+          },
+          "activity": {
+            "prompt": "Model a ₹10,000 bank loan after the example and update the equation.",
+            "check": "Cash rises to ₹40,000; total assets ₹60,000=loan ₹10,000+capital ₹50,000."
+          },
+          "questions": [
+            {
+              "id": "11-accountancy-equation-q1",
+              "prompt": "Which equation is correct?",
+              "options": [
+                "Assets+Capital=Liabilities",
+                "Assets=Liabilities−Capital",
+                "Capital=Assets+Liabilities",
+                "Assets=Liabilities+Capital"
+              ],
+              "answer": 3,
+              "explanation": "Owner’s equity is the residual after liabilities are deducted from assets.",
+              "hint": "Rearrange capital=assets−liabilities.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-accountancy-equation-q2",
+              "prompt": "Buying equipment for cash immediately:",
+              "options": [
+                "Creates sales revenue",
+                "Always increases capital",
+                "Changes the composition of assets",
+                "Always reduces total assets by the full price"
+              ],
+              "answer": 2,
+              "explanation": "Cash decreases and equipment increases by the same amount in this simple transaction.",
+              "hint": "Track both sides of the exchange.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-accountancy-equation-q3",
+              "prompt": "A business receives a ₹5,000 loan. Which change is correct?",
+              "options": [
+                "Only liabilities rise",
+                "Assets and liabilities each rise ₹5,000",
+                "Capital rises ₹5,000 and cash is unchanged",
+                "Revenue rises ₹5,000"
+              ],
+              "answer": 1,
+              "explanation": "Cash is an asset and the loan is an obligation.",
+              "hint": "Receiving funds creates both cash and a repayment obligation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why an owner’s investment is not business sales revenue.",
+            "points": [
+              "The business entity is treated separately from its owner.",
+              "Investment increases owner’s equity.",
+              "Revenue arises from earning activities rather than capital contribution."
+            ]
+          },
+          "revision": [
+            "Every transaction has a dual effect.",
+            "Business and owner are separate accounting entities.",
+            "A loan receipt is not income."
+          ]
+        },
+        {
+          "id": "11-accountancy-journal",
+          "title": "Journal entries and debit-credit reasoning",
+          "goal": "Record simple transactions through double entry.",
+          "concepts": [
+            {
+              "term": "Double entry",
+              "explanation": "Each transaction affects at least two accounts with equal total debits and credits."
+            },
+            {
+              "term": "Asset-account rule",
+              "explanation": "An increase in an asset is debited and a decrease is credited."
+            },
+            {
+              "term": "Expense-account rule",
+              "explanation": "Expenses are normally debited; revenue is normally credited."
+            }
+          ],
+          "example": {
+            "problem": "Record rent paid in cash, ₹2,000.",
+            "steps": [
+              "Rent expense increases: debit Rent Account ₹2,000.",
+              "Cash decreases: credit Cash Account ₹2,000.",
+              "Confirm equal debit and credit totals."
+            ],
+            "answer": "Rent A/c Dr ₹2,000; To Cash A/c ₹2,000."
+          },
+          "activity": {
+            "prompt": "Journalise an owner bringing ₹10,000 cash into the business.",
+            "check": "Debit Cash ₹10,000 and credit Capital ₹10,000."
+          },
+          "questions": [
+            {
+              "id": "11-accountancy-journal-q1",
+              "prompt": "An increase in cash is normally:",
+              "options": [
+                "Ignored",
+                "Recorded only in capital",
+                "Debited",
+                "Credited"
+              ],
+              "answer": 2,
+              "explanation": "Cash is an asset account and increases by debit.",
+              "hint": "Identify the account type first.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-accountancy-journal-q2",
+              "prompt": "Cash sales of ₹3,000 require:",
+              "options": [
+                "Credit both accounts",
+                "Debit Cash; credit Sales",
+                "Debit Sales; credit Cash",
+                "Debit both accounts"
+              ],
+              "answer": 1,
+              "explanation": "Cash rises and sales revenue rises.",
+              "hint": "Match the asset and revenue rules.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-accountancy-journal-q3",
+              "prompt": "Equal debit and credit totals prove that:",
+              "options": [
+                "The entry is arithmetically balanced, but may still contain errors",
+                "Every account selected is correct",
+                "No transaction was omitted",
+                "Profit is necessarily correct"
+              ],
+              "answer": 0,
+              "explanation": "An entry in wrong accounts can still balance.",
+              "hint": "Distinguish balance from full correctness.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Show how to analyse a transaction before writing its journal entry.",
+            "points": [
+              "Identify the affected accounts.",
+              "Classify each account.",
+              "Decide which balances increase or decrease.",
+              "Apply debit-credit rules and check equality."
+            ]
+          },
+          "revision": [
+            "Debit does not always mean loss.",
+            "Credit does not always mean gain.",
+            "Narrations explain transactions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-studies",
+      "name": "Business Studies",
+      "modules": [
+        {
+          "id": "11-business-studies-risk",
+          "title": "Business objectives and risk",
+          "goal": "Distinguish objectives, uncertainty and risk.",
+          "concepts": [
+            {
+              "term": "Business objective",
+              "explanation": "An intended outcome guiding decisions, such as survival, service quality or profit."
+            },
+            {
+              "term": "Business risk",
+              "explanation": "Possibility that outcomes differ adversely from expectations."
+            },
+            {
+              "term": "Stakeholder",
+              "explanation": "A person or group affecting, or affected by, the business."
+            }
+          ],
+          "example": {
+            "problem": "A bakery considers a new product. Explain one objective and two risks.",
+            "steps": [
+              "An objective may be meeting customer demand while earning sustainable revenue.",
+              "Demand may be lower than expected.",
+              "Ingredient costs or supply interruptions may reduce the margin."
+            ],
+            "answer": "Objectives define intended outcomes; risk describes uncertain adverse outcomes."
+          },
+          "activity": {
+            "prompt": "Create a table of a small business decision, its objective, risk and a possible mitigation.",
+            "check": "A mitigation can reduce risk without guaranteeing success; a small trial may test demand."
+          },
+          "questions": [
+            {
+              "id": "11-business-studies-risk-q1",
+              "prompt": "Which is a stakeholder?",
+              "options": [
+                "Only a price label",
+                "A machine’s serial number",
+                "An employee",
+                "Only the company logo"
+              ],
+              "answer": 2,
+              "explanation": "Employees are affected by and contribute to business activity.",
+              "hint": "Look for a person or group with a stake.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-business-studies-risk-q2",
+              "prompt": "A trial launch mainly helps a business:",
+              "options": [
+                "Guarantee maximum profit",
+                "Learn about demand before scaling",
+                "Remove every possible risk",
+                "Avoid all record keeping"
+              ],
+              "answer": 1,
+              "explanation": "A small pilot provides information at limited scale.",
+              "hint": "Risk reduction differs from a guarantee.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-business-studies-risk-q3",
+              "prompt": "Why can businesses have objectives beyond immediate profit?",
+              "options": [
+                "Long-term survival also depends on customers, staff and responsible operations",
+                "Profit is never relevant",
+                "All objectives are legally identical",
+                "Only charities have stakeholders"
+              ],
+              "answer": 0,
+              "explanation": "Multiple objectives can support sustained operation.",
+              "hint": "Consider long-term relationships and obligations.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a business can balance profit with service quality.",
+            "points": [
+              "Profit supports continued operation.",
+              "Quality helps retain customers and trust.",
+              "Short-term cost cuts can undermine long-term outcomes if service deteriorates."
+            ]
+          },
+          "revision": [
+            "Risk cannot always be eliminated.",
+            "Objectives may conflict.",
+            "Stakeholders have different interests."
+          ]
+        },
+        {
+          "id": "11-business-studies-ownership",
+          "title": "Forms of business ownership",
+          "goal": "Compare sole proprietorship and partnership conceptually.",
+          "concepts": [
+            {
+              "term": "Sole proprietorship",
+              "explanation": "A business owned by one individual, with no separate legal identity in the usual school-level model."
+            },
+            {
+              "term": "Partnership",
+              "explanation": "A business relationship in which persons agree to share profits of a business carried on by all or any acting for all."
+            },
+            {
+              "term": "Unlimited liability",
+              "explanation": "The owner may be personally responsible for business obligations, subject to the relevant legal structure and rules."
+            }
+          ],
+          "example": {
+            "problem": "A small business owner wants more managerial expertise but is concerned about shared control. Compare options.",
+            "steps": [
+              "Remaining a sole proprietor preserves direct control.",
+              "Bringing in a partner may add expertise and resources.",
+              "Partnership also requires agreement about decisions, profits and responsibilities."
+            ],
+            "answer": "The choice involves trade-offs between resources, control and liability."
+          },
+          "activity": {
+            "prompt": "Compare ownership, control, continuity and liability for two forms in a table.",
+            "check": "Avoid treating every partnership as a company; legal structure changes the analysis."
+          },
+          "questions": [
+            {
+              "id": "11-business-studies-ownership-q1",
+              "prompt": "A sole proprietorship has:",
+              "options": [
+                "Shareholders in every case",
+                "One owner",
+                "Exactly two owners",
+                "Only government owners"
+              ],
+              "answer": 1,
+              "explanation": "Sole means one owner.",
+              "hint": "Distinguish number of owners from number of workers.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-business-studies-ownership-q2",
+              "prompt": "A possible advantage of partnership is:",
+              "options": [
+                "Combining partners’ skills",
+                "Guaranteed absence of disagreement",
+                "Automatic limited liability in every form",
+                "No need for agreed responsibilities"
+              ],
+              "answer": 0,
+              "explanation": "Partners may contribute complementary knowledge and resources.",
+              "hint": "Use a possible benefit rather than a guarantee.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-business-studies-ownership-q3",
+              "prompt": "Which question should guide choice of ownership form?",
+              "options": [
+                "Which name is longest?",
+                "Which form always guarantees success?",
+                "Can all obligations be ignored?",
+                "What control, funding, continuity and liability does the business need?"
+              ],
+              "answer": 3,
+              "explanation": "Ownership structure should fit business needs and legal consequences.",
+              "hint": "Compare practical needs and responsibilities.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare a sole proprietorship with an ordinary partnership.",
+            "points": [
+              "Discuss ownership and control.",
+              "Compare available resources.",
+              "Address liability and continuity carefully.",
+              "Mention the importance of agreement and applicable law."
+            ]
+          },
+          "revision": [
+            "One owner can employ many workers.",
+            "Shared skills can bring shared decision-making challenges.",
+            "Different legal structures carry different consequences."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "modules": [
+        {
+          "id": "11-economics-opportunity",
+          "title": "Scarcity and opportunity cost",
+          "goal": "Identify trade-offs and the next-best alternative forgone.",
+          "concepts": [
+            {
+              "term": "Scarcity",
+              "explanation": "Resources are limited relative to competing wants."
+            },
+            {
+              "term": "Opportunity cost",
+              "explanation": "The value of the next-best alternative forgone when making a choice."
+            },
+            {
+              "term": "Trade-off",
+              "explanation": "Choosing more of one use may require less of another."
+            }
+          ],
+          "example": {
+            "problem": "You have one free hour and choose revision over the best alternative, a music lesson. Identify opportunity cost.",
+            "steps": [
+              "List feasible alternatives for the same hour.",
+              "Choose the best alternative not taken.",
+              "Do not add every rejected activity together."
+            ],
+            "answer": "The value of the music lesson forgone is the opportunity cost."
+          },
+          "activity": {
+            "prompt": "Allocate a fixed weekly study budget among three subjects and explain one trade-off.",
+            "check": "Opportunity cost depends on the next-best alternative, not just monetary spending."
+          },
+          "questions": [
+            {
+              "id": "11-economics-opportunity-q1",
+              "prompt": "Opportunity cost is:",
+              "options": [
+                "Only the price written on a label",
+                "The next-best alternative forgone",
+                "All imaginable alternatives added together",
+                "Always zero when no money is paid"
+              ],
+              "answer": 1,
+              "explanation": "A choice uses resources that could have served another valuable purpose.",
+              "hint": "Focus on the best rejected feasible option.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-economics-opportunity-q2",
+              "prompt": "A free event can still have opportunity cost because:",
+              "options": [
+                "Attending uses time that could have another use",
+                "Free always means costless in every sense",
+                "Only businesses face scarcity",
+                "Time cannot be scarce"
+              ],
+              "answer": 0,
+              "explanation": "Time is a scarce resource even without a ticket price.",
+              "hint": "Cost can be non-monetary.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-economics-opportunity-q3",
+              "prompt": "Why does scarcity require choice?",
+              "options": [
+                "Every want can always be fully met",
+                "Resources are unlimited",
+                "Only luxury goods use resources",
+                "Limited resources have competing uses"
+              ],
+              "answer": 3,
+              "explanation": "Not all competing uses can be satisfied simultaneously.",
+              "hint": "Relate finite resources to multiple wants.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain opportunity cost with a non-monetary example.",
+            "points": [
+              "Describe the limited resource.",
+              "State the chosen activity.",
+              "Identify the next-best feasible alternative.",
+              "Explain its forgone value."
+            ]
+          },
+          "revision": [
+            "Scarcity differs from having nothing.",
+            "Free of charge does not mean no opportunity cost.",
+            "The next-best alternative matters."
+          ]
+        },
+        {
+          "id": "11-economics-statistics",
+          "title": "Mean, median and data interpretation",
+          "goal": "Choose and calculate suitable measures of central tendency.",
+          "concepts": [
+            {
+              "term": "Arithmetic mean",
+              "explanation": "The sum of observations divided by their number."
+            },
+            {
+              "term": "Median",
+              "explanation": "The middle value after observations are ordered, or the mean of the two middle values for an even count."
+            },
+            {
+              "term": "Outlier",
+              "explanation": "An unusually distant observation that can strongly affect some summaries."
+            }
+          ],
+          "example": {
+            "problem": "Find mean and median for 2,3,3,4,18.",
+            "steps": [
+              "The sum is 30, so mean=30/5=6.",
+              "The ordered middle value is 3.",
+              "The large value 18 raises the mean above most observations."
+            ],
+            "answer": "Mean=6; median=3."
+          },
+          "activity": {
+            "prompt": "Replace 18 with 180 in the example and compare the change in mean and median.",
+            "check": "Mean becomes 38.4; median stays 3. This illustrates sensitivity, not a rule that median is always best."
+          },
+          "questions": [
+            {
+              "id": "11-economics-statistics-q1",
+              "prompt": "Before finding a median, observations should be:",
+              "options": [
+                "Ordered",
+                "All doubled",
+                "Converted to percentages regardless of context",
+                "Deleted until one remains"
+              ],
+              "answer": 0,
+              "explanation": "Position in the ordered list defines the median.",
+              "hint": "Middle means middle after sorting.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-economics-statistics-q2",
+              "prompt": "The mean of 4,6,8 is:",
+              "options": [
+                "18",
+                "4",
+                "8",
+                "6"
+              ],
+              "answer": 3,
+              "explanation": "(4+6+8)/3=6.",
+              "hint": "Divide the total by the number of values.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-economics-statistics-q3",
+              "prompt": "Which statement is best?",
+              "options": [
+                "Mean can never be affected by an extreme value",
+                "A single average fully describes a distribution",
+                "Mean and median describe different aspects and should be chosen with context",
+                "Median always uses every numerical magnitude equally"
+              ],
+              "answer": 2,
+              "explanation": "Distribution shape and purpose affect which summary is informative.",
+              "hint": "Consider spread and extreme observations.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a report about income may include both mean and median.",
+            "points": [
+              "A few large incomes can raise the mean.",
+              "Median describes the middle ordered observation.",
+              "Using both gives more context than either alone."
+            ]
+          },
+          "revision": [
+            "Sort before taking the median.",
+            "Report units and sample size.",
+            "Averages do not show the whole distribution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "modules": [
+        {
+          "id": "11-history-sources",
+          "title": "Historical sources and interpretation",
+          "goal": "Distinguish evidence, interpretation and gaps in historical knowledge.",
+          "concepts": [
+            {
+              "term": "Primary source",
+              "explanation": "Evidence originating in the period or context being studied, interpreted relative to the research question."
+            },
+            {
+              "term": "Corroboration",
+              "explanation": "Comparing independent evidence to test or strengthen an interpretation."
+            },
+            {
+              "term": "Source limitation",
+              "explanation": "A source may omit information or reflect a particular purpose, audience and perspective."
+            }
+          ],
+          "example": {
+            "problem": "A royal inscription praises a ruler. How should a historian use it?",
+            "steps": [
+              "Identify its date, location, audience and purpose.",
+              "Extract what it claims without assuming every claim is neutral fact.",
+              "Compare it with material remains and other records where available."
+            ],
+            "answer": "It is evidence of royal claims and public representation, to be critically compared with other evidence."
+          },
+          "activity": {
+            "prompt": "Compare a personal diary and an official announcement about the same fictional event.",
+            "check": "Different perspectives can reveal different information; disagreement requires investigation rather than automatic rejection."
+          },
+          "questions": [
+            {
+              "id": "11-history-sources-q1",
+              "prompt": "Corroboration means:",
+              "options": [
+                "Comparing evidence from other sources",
+                "Copying one account repeatedly",
+                "Assuming the oldest source is always true",
+                "Ignoring contradictory evidence"
+              ],
+              "answer": 0,
+              "explanation": "Comparison helps test reliability and interpretation.",
+              "hint": "Look for independent support.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-history-sources-q2",
+              "prompt": "A royal praise inscription may especially reveal:",
+              "options": [
+                "An entirely neutral account of every subject’s life",
+                "The exact opinion of every citizen",
+                "Nothing useful at all",
+                "How a ruler wished to be represented"
+              ],
+              "answer": 3,
+              "explanation": "Purpose and audience shape its representation.",
+              "hint": "A biased source can still be useful evidence.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-history-sources-q3",
+              "prompt": "Why can absence of evidence fail to prove an event never happened?",
+              "options": [
+                "Historians should invent them",
+                "Every claim is therefore equally valid",
+                "Records may not have survived or been discovered",
+                "All missing records definitely existed"
+              ],
+              "answer": 2,
+              "explanation": "Survival and discovery are incomplete; claims still require evidence.",
+              "hint": "Distinguish an evidential gap from a disproof.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a historian might evaluate an inscription.",
+            "points": [
+              "Consider authorship, date, place, purpose and audience.",
+              "Distinguish claims from independent confirmation.",
+              "Compare with other relevant evidence."
+            ]
+          },
+          "revision": [
+            "Ask who created a source and why.",
+            "Bias does not make a source useless.",
+            "Interpretation should remain evidence-led."
+          ]
+        },
+        {
+          "id": "11-history-cities",
+          "title": "Early cities and social organisation",
+          "goal": "Use material evidence to reason about urban life.",
+          "concepts": [
+            {
+              "term": "Urban settlement",
+              "explanation": "A settlement with concentrated population and specialised economic or administrative activities."
+            },
+            {
+              "term": "Specialisation",
+              "explanation": "People or groups focus on particular forms of work."
+            },
+            {
+              "term": "Archaeological inference",
+              "explanation": "An interpretation of past life based on material remains and context."
+            }
+          ],
+          "example": {
+            "problem": "What might standardised weights and seals suggest about an early settlement?",
+            "steps": [
+              "Identify what the objects physically show.",
+              "Consider uses in exchange, accounting or identification.",
+              "Avoid assuming a complete political system from one object type alone."
+            ],
+            "answer": "They may support organised exchange and administration, but require contextual interpretation."
+          },
+          "activity": {
+            "prompt": "Design a map of a fictional early city with homes, workshops, water access and routes; explain the evidence each feature might leave.",
+            "check": "A map is a model, not proof about any named ancient city."
+          },
+          "questions": [
+            {
+              "id": "11-history-cities-q1",
+              "prompt": "Craft specialisation means:",
+              "options": [
+                "Every person makes every product",
+                "Only rulers work",
+                "Trade cannot exist",
+                "Some workers focus on particular crafts"
+              ],
+              "answer": 3,
+              "explanation": "Specialisation separates some tasks among groups or occupations.",
+              "hint": "Think about division of work.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-history-cities-q2",
+              "prompt": "A cluster of furnaces and metal waste most directly suggests:",
+              "options": [
+                "A royal palace with certainty",
+                "An exact population count",
+                "Metalworking activity",
+                "A library with certainty"
+              ],
+              "answer": 2,
+              "explanation": "Production debris supports an inference about craft activity.",
+              "hint": "Match material traces to likely activities.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-history-cities-q3",
+              "prompt": "Why should settlement evidence be studied in context?",
+              "options": [
+                "Every settlement developed identically",
+                "Location and associated finds affect interpretation",
+                "An object always has only one possible meaning",
+                "Context removes the need for dating"
+              ],
+              "answer": 1,
+              "explanation": "Objects gain meaning from stratigraphy, surroundings and associations.",
+              "hint": "Ask where and alongside what the object was found.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how material remains can illuminate work in an early city.",
+            "points": [
+              "Give two kinds of evidence.",
+              "Link each to a cautious inference.",
+              "State a limitation of the interpretation."
+            ]
+          },
+          "revision": [
+            "Material evidence needs context.",
+            "Specialisation does not imply all people had equal status.",
+            "A plausible reconstruction is not a complete record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "political-science",
+      "name": "Political Science",
+      "modules": [
+        {
+          "id": "11-political-science-constitution",
+          "title": "Constitution and limited government",
+          "goal": "Explain the purposes of constitutional rules and institutions.",
+          "concepts": [
+            {
+              "term": "Constitution",
+              "explanation": "A framework of fundamental principles and institutions for political life."
+            },
+            {
+              "term": "Limited government",
+              "explanation": "Public power is subject to rules, procedures and checks."
+            },
+            {
+              "term": "Constitutionalism",
+              "explanation": "The principle that government authority should be constrained by constitutional norms."
+            }
+          ],
+          "example": {
+            "problem": "Why does an elected government still need constitutional limits?",
+            "steps": [
+              "Election gives authority through a defined process.",
+              "Authority must still respect rights and legal procedures.",
+              "Checks reduce the risk of arbitrary power."
+            ],
+            "answer": "Electoral support does not by itself authorise unlimited action."
+          },
+          "activity": {
+            "prompt": "Design three rules for a classroom council that protect both majority decisions and minority participation.",
+            "check": "Include procedures, defined powers and an avenue to question decisions."
+          },
+          "questions": [
+            {
+              "id": "11-political-science-constitution-q1",
+              "prompt": "A constitution primarily:",
+              "options": [
+                "Lists only daily news",
+                "Guarantees every government decision is popular",
+                "Eliminates political disagreement",
+                "Sets fundamental rules and institutions"
+              ],
+              "answer": 3,
+              "explanation": "It establishes the framework within which political decisions occur.",
+              "hint": "Think about foundational rules.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-political-science-constitution-q2",
+              "prompt": "Limited government means:",
+              "options": [
+                "Only a small population can vote",
+                "There are no public institutions",
+                "Government powers face legal and institutional constraints",
+                "Government can never act"
+              ],
+              "answer": 2,
+              "explanation": "The limit concerns authority, not the absence of governance.",
+              "hint": "Separate constrained power from no power.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-political-science-constitution-q3",
+              "prompt": "Why protect minority rights in a democracy?",
+              "options": [
+                "Rights depend only on popularity",
+                "Majority decisions should not erase basic protections",
+                "Minorities must always rule alone",
+                "Voting removes all individual rights"
+              ],
+              "answer": 1,
+              "explanation": "Democratic rule operates with constitutional protections.",
+              "hint": "Majority rule and rights protection must be considered together.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a constitution can both enable and limit government.",
+            "points": [
+              "It establishes institutions and powers.",
+              "It specifies procedures and responsibilities.",
+              "It constrains power through rights and checks."
+            ]
+          },
+          "revision": [
+            "Rules can authorise as well as restrict.",
+            "Constitutionalism concerns restraint on power.",
+            "Democracy includes more than voting."
+          ]
+        },
+        {
+          "id": "11-political-science-elections",
+          "title": "Representation and electoral systems",
+          "goal": "Compare plurality voting with proportional representation conceptually.",
+          "concepts": [
+            {
+              "term": "Representation",
+              "explanation": "Acting politically on behalf of others through institutions and processes."
+            },
+            {
+              "term": "Plurality election",
+              "explanation": "A candidate can win a constituency by receiving more votes than any competitor, without necessarily receiving over half."
+            },
+            {
+              "term": "Proportional representation",
+              "explanation": "An electoral approach aiming to relate seat shares more closely to vote shares, with designs varying by system."
+            }
+          ],
+          "example": {
+            "problem": "Candidates receive 40%, 35% and 25% in a single-seat plurality election. Who wins?",
+            "steps": [
+              "Compare the three vote shares.",
+              "The largest share is 40%.",
+              "An absolute majority is not necessary in this specified system."
+            ],
+            "answer": "The candidate with 40% wins the seat."
+          },
+          "activity": {
+            "prompt": "Compare a hypothetical party winning 40% of votes but 60% of seats; discuss why votes and seats can differ.",
+            "check": "Constituency distribution and electoral rules affect seat outcomes."
+          },
+          "questions": [
+            {
+              "id": "11-political-science-elections-q1",
+              "prompt": "Plurality means winning:",
+              "options": [
+                "Always more than 50% of all eligible voters",
+                "Without counting votes",
+                "More votes than any individual competitor",
+                "Exactly 100% of votes"
+              ],
+              "answer": 2,
+              "explanation": "The threshold is relative to competitors in the specified contest.",
+              "hint": "Largest share is not always an absolute majority.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-political-science-elections-q2",
+              "prompt": "A candidate with 45% defeats candidates with 30% and 25% under:",
+              "options": [
+                "No conceivable voting system",
+                "Single-seat plurality rules",
+                "A rule requiring unanimous agreement",
+                "A lottery only"
+              ],
+              "answer": 1,
+              "explanation": "45% is the highest share.",
+              "hint": "Compare the shares.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-political-science-elections-q3",
+              "prompt": "Why can vote share differ from seat share?",
+              "options": [
+                "Electoral rules and the geography of support matter",
+                "Every election uses identical national proportionality",
+                "Votes are always seats",
+                "Only population size determines every result"
+              ],
+              "answer": 0,
+              "explanation": "The conversion depends on the institutional design and distribution of votes.",
+              "hint": "Distinguish counting votes from allocating seats.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Compare one strength and one limitation of plurality representation.",
+            "points": [
+              "Explain a straightforward constituency winner.",
+              "Discuss the link to a local representative.",
+              "Note that seat shares may differ from overall vote shares."
+            ]
+          },
+          "revision": [
+            "Plurality and majority differ.",
+            "No electoral design is identical in every country.",
+            "Describe the system before evaluating results."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "modules": [
+        {
+          "id": "11-geography-earth",
+          "title": "Earth’s interior and plate motion",
+          "goal": "Connect indirect evidence with a model of Earth’s structure.",
+          "concepts": [
+            {
+              "term": "Crust",
+              "explanation": "Earth’s outermost rocky layer."
+            },
+            {
+              "term": "Lithospheric plate",
+              "explanation": "A moving segment of the rigid lithosphere, which includes the crust and uppermost mantle."
+            },
+            {
+              "term": "Seismic evidence",
+              "explanation": "Earthquake-wave behaviour helps infer the properties of Earth’s interior."
+            }
+          ],
+          "example": {
+            "problem": "Why does the absence of S waves through the outer core support a liquid model?",
+            "steps": [
+              "S waves require shear rigidity to propagate.",
+              "Liquids do not sustain shear waves in the same way as solids.",
+              "Combine this behaviour with other seismic observations."
+            ],
+            "answer": "S-wave behaviour is evidence that Earth’s outer core is liquid."
+          },
+          "activity": {
+            "prompt": "Draw crust, mantle, outer core and inner core, then distinguish these compositional layers from the lithosphere.",
+            "check": "Do not equate a tectonic plate with crust alone; it includes rigid uppermost mantle."
+          },
+          "questions": [
+            {
+              "id": "11-geography-earth-q1",
+              "prompt": "A lithospheric plate includes:",
+              "options": [
+                "Only the core",
+                "The entire atmosphere",
+                "Crust and rigid uppermost mantle",
+                "Only ocean water"
+              ],
+              "answer": 2,
+              "explanation": "The lithosphere is a mechanical layer including more than crust.",
+              "hint": "Distinguish crust from lithosphere.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-geography-earth-q2",
+              "prompt": "At a divergent boundary, plates generally:",
+              "options": [
+                "Turn into the inner core",
+                "Move apart",
+                "Always move directly together",
+                "Never move"
+              ],
+              "answer": 1,
+              "explanation": "Divergence means separation.",
+              "hint": "Use the meaning of divergent.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-geography-earth-q3",
+              "prompt": "Why do scientists study seismic waves?",
+              "options": [
+                "Their paths and speeds provide evidence about interior materials",
+                "They allow direct travel to the centre",
+                "They prove all mantle rock is liquid",
+                "They remove uncertainty from every Earth model"
+              ],
+              "answer": 0,
+              "explanation": "Wave behaviour supports indirect inference about inaccessible regions.",
+              "hint": "Think about indirect observation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how indirect evidence can support knowledge of Earth’s interior.",
+            "points": [
+              "Identify a wave property.",
+              "Relate it to material behaviour.",
+              "Explain the inferred layer property.",
+              "Recognise that evidence is interpreted through models."
+            ]
+          },
+          "revision": [
+            "The mantle is not simply a global liquid ocean.",
+            "Plates are parts of the lithosphere.",
+            "Interior knowledge uses multiple lines of evidence."
+          ]
+        },
+        {
+          "id": "11-geography-climate",
+          "title": "Weather, climate and rainfall",
+          "goal": "Distinguish short-term conditions from long-term patterns.",
+          "concepts": [
+            {
+              "term": "Weather",
+              "explanation": "Atmospheric conditions at a particular place and time."
+            },
+            {
+              "term": "Climate",
+              "explanation": "Statistical patterns and variability of weather over long periods."
+            },
+            {
+              "term": "Orographic rainfall",
+              "explanation": "Rainfall associated with moist air rising over relief, cooling and condensing."
+            }
+          ],
+          "example": {
+            "problem": "Why can the windward side of a mountain receive more rain than the leeward side?",
+            "steps": [
+              "Moist air is forced upward on the windward side.",
+              "Rising air expands and cools, supporting condensation if conditions permit.",
+              "Descending leeward air warms and can become relatively drier."
+            ],
+            "answer": "Relief can create wet windward conditions and a drier rain-shadow region."
+          },
+          "activity": {
+            "prompt": "Draw a mountain profile showing moist wind, ascent, clouds and descent.",
+            "check": "Label windward and leeward relative to the given wind direction, not a fixed compass direction."
+          },
+          "questions": [
+            {
+              "id": "11-geography-climate-q1",
+              "prompt": "A rainy afternoon is an example of:",
+              "options": [
+                "A population census",
+                "Weather",
+                "A complete climate classification",
+                "Plate tectonics"
+              ],
+              "answer": 1,
+              "explanation": "It describes short-term atmospheric conditions.",
+              "hint": "Look at the time scale.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-geography-climate-q2",
+              "prompt": "The windward side is the side:",
+              "options": [
+                "Facing the incoming wind",
+                "Always facing north",
+                "Always facing the equator",
+                "With no slope"
+              ],
+              "answer": 0,
+              "explanation": "Wind direction defines the term.",
+              "hint": "Use the incoming airflow.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-geography-climate-q3",
+              "prompt": "Why does a cold day alone not disprove a long-term warming trend?",
+              "options": [
+                "Weather records have no value",
+                "Every day must be warmer than the previous day",
+                "Climate means one afternoon",
+                "Short-term variability and long-term trends are different"
+              ],
+              "answer": 3,
+              "explanation": "A trend concerns many observations over time, not one event.",
+              "hint": "Distinguish an individual event from a statistical pattern.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain orographic rainfall with a labelled sketch.",
+            "points": [
+              "Show incoming moist air.",
+              "Explain ascent and cooling.",
+              "Identify windward rainfall and possible leeward rain shadow."
+            ]
+          },
+          "revision": [
+            "Weather and climate differ in time scale.",
+            "Relief influences rainfall.",
+            "One event does not establish a climate trend."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "modules": [
+        {
+          "id": "11-computer-science-python",
+          "title": "Python expressions, types and decisions",
+          "goal": "Trace simple Python expressions and conditional logic.",
+          "concepts": [
+            {
+              "term": "Variable",
+              "explanation": "A name bound to an object or value in Python."
+            },
+            {
+              "term": "Type",
+              "explanation": "The category of a value, such as int, float, str or bool."
+            },
+            {
+              "term": "Conditional",
+              "explanation": "An if statement executes a block when its condition evaluates as true."
+            }
+          ],
+          "example": {
+            "problem": "Trace: x=7; if x%2==0: result=\"even\"; else: result=\"odd\".",
+            "steps": [
+              "7%2 gives remainder 1.",
+              "1==0 is False.",
+              "The else branch assigns \"odd\"."
+            ],
+            "answer": "result is \"odd\"."
+          },
+          "activity": {
+            "prompt": "Write pseudocode that classifies a positive integer as even or odd, then try 2, 7 and 10.",
+            "check": "Check remainder after division by 2; zero means even."
+          },
+          "questions": [
+            {
+              "id": "11-computer-science-python-q1",
+              "prompt": "In Python, 7//2 evaluates to:",
+              "options": [
+                "14",
+                "3",
+                "3.5",
+                "1"
+              ],
+              "answer": 1,
+              "explanation": "For these positive integers, // gives the floor quotient.",
+              "hint": "Distinguish / from //.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-computer-science-python-q2",
+              "prompt": "Which value has type str?",
+              "options": [
+                "\"25\"",
+                "25",
+                "25.0",
+                "True"
+              ],
+              "answer": 0,
+              "explanation": "Quotes make this a string rather than a numeric literal.",
+              "hint": "Look for quotation marks.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-computer-science-python-q3",
+              "prompt": "For x=5, which condition is true?",
+              "options": [
+                "x<3 and x>8",
+                "x==4",
+                "x%2==0",
+                "x>3 and x<8"
+              ],
+              "answer": 3,
+              "explanation": "Both comparisons in the first expression are true.",
+              "hint": "Evaluate each comparison before the logical operator.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how a program chooses between two branches.",
+            "points": [
+              "Evaluate the condition.",
+              "Execute the if block when true.",
+              "Execute the else block when false, if present.",
+              "Indent blocks correctly."
+            ]
+          },
+          "revision": [
+            "= assigns; == compares.",
+            "Types affect valid operations.",
+            "Trace values one step at a time."
+          ]
+        },
+        {
+          "id": "11-computer-science-loops",
+          "title": "Loops, lists and trace tables",
+          "goal": "Use iteration to process a small sequence.",
+          "concepts": [
+            {
+              "term": "List",
+              "explanation": "An ordered mutable sequence in Python."
+            },
+            {
+              "term": "Iteration",
+              "explanation": "Repeated execution over items or while a condition holds."
+            },
+            {
+              "term": "Accumulator",
+              "explanation": "A variable updated to build a result such as a sum."
+            }
+          ],
+          "example": {
+            "problem": "Trace total=0; for n in [2,4,6]: total=total+n.",
+            "steps": [
+              "Start total at 0.",
+              "After n=2, total=2.",
+              "After n=4, total=6.",
+              "After n=6, total=12."
+            ],
+            "answer": "Final total is 12."
+          },
+          "activity": {
+            "prompt": "Create a trace table for counting values greater than 5 in [3,8,5,9].",
+            "check": "The count is 2; 5 itself does not satisfy greater than 5."
+          },
+          "questions": [
+            {
+              "id": "11-computer-science-loops-q1",
+              "prompt": "Python list indexing starts at:",
+              "options": [
+                "0",
+                "1",
+                "−1 only",
+                "The list length"
+              ],
+              "answer": 0,
+              "explanation": "The first item has index 0.",
+              "hint": "Distinguish position number from Python index.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-computer-science-loops-q2",
+              "prompt": "len([4,4,9]) is:",
+              "options": [
+                "2",
+                "17",
+                "4",
+                "3"
+              ],
+              "answer": 3,
+              "explanation": "Length counts items, including repeated values.",
+              "hint": "Count entries, not distinct values.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-computer-science-loops-q3",
+              "prompt": "What is the sum after processing [1,2,3] from total=0 with total+=n?",
+              "options": [
+                "5",
+                "0",
+                "6",
+                "3"
+              ],
+              "answer": 2,
+              "explanation": "The accumulator becomes 1, then 3, then 6.",
+              "hint": "Trace each iteration.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain an accumulator loop using a trace table.",
+            "points": [
+              "Show the initial value.",
+              "Record the current item each iteration.",
+              "Record the updated accumulator.",
+              "State the final result."
+            ]
+          },
+          "revision": [
+            "Repeated values are separate list items.",
+            "Initialisation affects the result.",
+            "A trace table helps reveal logic errors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "modules": [
+        {
+          "id": "11-psychology-methods",
+          "title": "Psychological research and evidence",
+          "goal": "Distinguish variables, correlation and controlled investigation.",
+          "concepts": [
+            {
+              "term": "Variable",
+              "explanation": "A characteristic that can vary across people or conditions."
+            },
+            {
+              "term": "Correlation",
+              "explanation": "An association between variables; by itself it does not establish causation."
+            },
+            {
+              "term": "Confounding variable",
+              "explanation": "A factor that may offer an alternative explanation for an observed relationship."
+            }
+          ],
+          "example": {
+            "problem": "Students who sleep longer also score higher in a survey. Does the survey prove sleep caused the difference?",
+            "steps": [
+              "Identify the association.",
+              "Consider other factors such as health, workload or study conditions.",
+              "A survey alone does not isolate the causal contribution."
+            ],
+            "answer": "The result is an association; further evidence is needed for a causal claim."
+          },
+          "activity": {
+            "prompt": "Design an anonymous, voluntary survey about study habits without collecting names or sensitive health details.",
+            "check": "Use consent and clear questions; do not diagnose people from survey responses."
+          },
+          "questions": [
+            {
+              "id": "11-psychology-methods-q1",
+              "prompt": "Correlation alone establishes:",
+              "options": [
+                "Association, not necessarily causation",
+                "A proven cause in every case",
+                "No possible relationship",
+                "The absence of other variables"
+              ],
+              "answer": 0,
+              "explanation": "A relationship can reflect reverse influence or another factor.",
+              "hint": "Ask whether alternative explanations were controlled.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-psychology-methods-q2",
+              "prompt": "A confound is:",
+              "options": [
+                "A guaranteed result",
+                "A participant’s name",
+                "Only a spelling error",
+                "A factor offering an alternative explanation"
+              ],
+              "answer": 3,
+              "explanation": "Confounds can distort an apparent causal interpretation.",
+              "hint": "Look for another variable connected to the outcome.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-psychology-methods-q3",
+              "prompt": "Why should participation be voluntary?",
+              "options": [
+                "It removes all sampling issues",
+                "It makes confidentiality unnecessary",
+                "Research should respect informed choice and welfare",
+                "It guarantees the hypothesis is true"
+              ],
+              "answer": 2,
+              "explanation": "Ethical research respects autonomy and minimises harm.",
+              "hint": "Ethical duties are distinct from statistical results.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a survey finding should be interpreted cautiously.",
+            "points": [
+              "Identify sampling and measurement limits.",
+              "Distinguish association from causation.",
+              "Mention possible alternative explanations.",
+              "Respect privacy and consent."
+            ]
+          },
+          "revision": [
+            "Do not infer causation from association alone.",
+            "Operational definitions matter.",
+            "Psychological research requires ethical safeguards."
+          ]
+        },
+        {
+          "id": "11-psychology-memory",
+          "title": "Learning, encoding and retrieval",
+          "goal": "Apply retrieval practice without confusing familiarity with recall.",
+          "concepts": [
+            {
+              "term": "Encoding",
+              "explanation": "Processes by which information is initially represented in memory."
+            },
+            {
+              "term": "Retrieval",
+              "explanation": "Accessing information from memory."
+            },
+            {
+              "term": "Spacing",
+              "explanation": "Distributing study across separated sessions rather than one uninterrupted block."
+            }
+          ],
+          "example": {
+            "problem": "A student recognises every highlighted sentence but cannot explain the topic with the book closed. What should change?",
+            "steps": [
+              "Recognition can feel easier than unaided retrieval.",
+              "Close the book and answer a focused question.",
+              "Check the response and revisit gaps after a delay."
+            ],
+            "answer": "Combine retrieval attempts, corrective feedback and spaced review."
+          },
+          "activity": {
+            "prompt": "Study five terms, close the notes, write their meanings, then check and repeat the missed ones tomorrow.",
+            "check": "Judge learning using what can be retrieved and explained, not only how familiar the page feels."
+          },
+          "questions": [
+            {
+              "id": "11-psychology-memory-q1",
+              "prompt": "Retrieval practice involves:",
+              "options": [
+                "Only rereading a heading",
+                "Copying without attention",
+                "Avoiding feedback",
+                "Trying to recall information before checking"
+              ],
+              "answer": 3,
+              "explanation": "The learner attempts to bring information to mind.",
+              "hint": "The key action occurs with the answer hidden.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-psychology-memory-q2",
+              "prompt": "Spacing means:",
+              "options": [
+                "Never reviewing material",
+                "Only changing font size",
+                "Studying across separated sessions",
+                "Doing all study without breaks once"
+              ],
+              "answer": 2,
+              "explanation": "Distributed sessions separate learning opportunities in time.",
+              "hint": "Think about when sessions occur.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-psychology-memory-q3",
+              "prompt": "Why check answers after recall?",
+              "options": [
+                "Feedback makes retrieval unnecessary forever",
+                "Feedback can correct errors and guide later study",
+                "Errors always vanish automatically",
+                "Checking proves perfect long-term memory"
+              ],
+              "answer": 1,
+              "explanation": "Feedback helps avoid retaining an incorrect response.",
+              "hint": "Retrieval and correction serve complementary roles.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Design a one-week study routine using retrieval and spacing.",
+            "points": [
+              "Include initial study.",
+              "Schedule brief closed-book recall sessions.",
+              "Check errors and revisit them later.",
+              "Use explanations as well as recognition questions."
+            ]
+          },
+          "revision": [
+            "Familiarity is not identical to recall.",
+            "Feedback matters after mistakes.",
+            "Practice benefits depend on the task and conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "modules": [
+        {
+          "id": "11-sociology-imagination",
+          "title": "Sociological imagination and social context",
+          "goal": "Connect personal experiences with wider social arrangements.",
+          "concepts": [
+            {
+              "term": "Sociological perspective",
+              "explanation": "Examining how social relationships, institutions and structures shape experience."
+            },
+            {
+              "term": "Institution",
+              "explanation": "An established pattern of social organisation, such as education or family."
+            },
+            {
+              "term": "Social context",
+              "explanation": "The historical and social conditions surrounding an action or experience."
+            }
+          ],
+          "example": {
+            "problem": "Why might different students have different study time after school?",
+            "steps": [
+              "Personal choices matter, but examine commuting, paid work and care responsibilities.",
+              "Consider access to space, devices and support.",
+              "Avoid assuming one explanation fits every student."
+            ],
+            "answer": "Study routines are shaped by both agency and social conditions."
+          },
+          "activity": {
+            "prompt": "Use a fictional student to map one personal choice and three social conditions affecting study.",
+            "check": "Explain a relationship without stereotyping a whole community."
+          },
+          "questions": [
+            {
+              "id": "11-sociology-imagination-q1",
+              "prompt": "A sociological question is:",
+              "options": [
+                "Which student is morally best?",
+                "Can all differences be blamed on laziness?",
+                "What is one person’s favourite colour with no further context?",
+                "How do transport and household responsibilities affect study time?"
+              ],
+              "answer": 3,
+              "explanation": "It links an experience to social conditions and patterns.",
+              "hint": "Look beyond an isolated judgement.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-sociology-imagination-q2",
+              "prompt": "Education is an example of a:",
+              "options": [
+                "Weather event",
+                "Single private emotion only",
+                "Social institution",
+                "Chemical element"
+              ],
+              "answer": 2,
+              "explanation": "It is an organised and enduring pattern of social activity.",
+              "hint": "Think about structured social arrangements.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-sociology-imagination-q3",
+              "prompt": "Why use several cases rather than one anecdote to describe a pattern?",
+              "options": [
+                "A large claim is always true",
+                "One case may not represent wider variation",
+                "Every anecdote is false",
+                "Patterns require no evidence"
+              ],
+              "answer": 1,
+              "explanation": "Broader claims require evidence suited to their scope.",
+              "hint": "Match the evidence to the scale of the claim.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain a daily experience using personal choice and social context.",
+            "points": [
+              "Describe the experience.",
+              "Identify relevant institutions or conditions.",
+              "Explain a plausible connection.",
+              "Avoid treating the example as proof about everyone."
+            ]
+          },
+          "revision": [
+            "Agency and structure can interact.",
+            "Context is not an excuse to ignore evidence.",
+            "Avoid stereotypes and unsupported generalisations."
+          ]
+        },
+        {
+          "id": "11-sociology-socialisation",
+          "title": "Socialisation, norms and roles",
+          "goal": "Explain how social expectations are learned and negotiated.",
+          "concepts": [
+            {
+              "term": "Socialisation",
+              "explanation": "The continuing process through which people learn social practices, meanings and expectations."
+            },
+            {
+              "term": "Norm",
+              "explanation": "A socially shared expectation about behaviour in a context."
+            },
+            {
+              "term": "Role",
+              "explanation": "Expectations associated with a social position or relationship."
+            }
+          ],
+          "example": {
+            "problem": "A student behaves differently in a classroom and on a sports field. Explain without assuming insincerity.",
+            "steps": [
+              "Different contexts involve different norms and roles.",
+              "Classroom participation and team competition may call for different behaviour.",
+              "People interpret and negotiate expectations rather than simply copy them."
+            ],
+            "answer": "Behaviour can vary because contexts and role expectations differ."
+          },
+          "activity": {
+            "prompt": "List two expectations of a class representative and two of a team captain; identify one possible conflict.",
+            "check": "Roles can overlap, and expectations can change across groups and time."
+          },
+          "questions": [
+            {
+              "id": "11-sociology-socialisation-q1",
+              "prompt": "Socialisation occurs:",
+              "options": [
+                "Only through textbooks",
+                "Only in government offices",
+                "Across the life course",
+                "Only on the day of birth"
+              ],
+              "answer": 2,
+              "explanation": "New settings and relationships continue to shape learning.",
+              "hint": "Think about learning new roles as an adult.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "11-sociology-socialisation-q2",
+              "prompt": "A norm is:",
+              "options": [
+                "A numerical average only",
+                "A shared behavioural expectation",
+                "Always a written law",
+                "Always biologically fixed"
+              ],
+              "answer": 1,
+              "explanation": "Sociological norms concern expected conduct, often unwritten.",
+              "hint": "Separate social expectation from legal rule.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "11-sociology-socialisation-q3",
+              "prompt": "Role conflict can occur when:",
+              "options": [
+                "Expectations from different roles are incompatible",
+                "All expectations agree perfectly",
+                "A person has no social relationships",
+                "Only one task exists"
+              ],
+              "answer": 0,
+              "explanation": "Competing demands can make satisfying both roles difficult.",
+              "hint": "Consider two obligations scheduled at the same time.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain norms and roles using a school example.",
+            "points": [
+              "Identify a context.",
+              "State an expectation in that context.",
+              "Identify the associated role.",
+              "Discuss possible variation or conflict."
+            ]
+          },
+          "revision": [
+            "Norms may be unwritten.",
+            "Roles are learned and interpreted.",
+            "Social expectations can change."
+          ]
+        }
+      ]
+    }
+  ]
+}

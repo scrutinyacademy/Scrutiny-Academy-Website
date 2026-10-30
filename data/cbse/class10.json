@@ -1,0 +1,2053 @@
+{
+  "grade": 10,
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "c10-mathematics-1",
+          "title": "Quadratic equations and root checking",
+          "goal": "Solve simple quadratic equations and interpret the discriminant.",
+          "concepts": [
+            {
+              "term": "Quadratic equation",
+              "explanation": "An equation ax² + bx + c = 0 with a ≠ 0."
+            },
+            {
+              "term": "Discriminant",
+              "explanation": "The quantity b² − 4ac; its sign determines the number of distinct real roots."
+            }
+          ],
+          "example": {
+            "problem": "Solve x² − 5x + 6 = 0.",
+            "steps": [
+              "Find two numbers with sum −5 and product 6: −2 and −3.",
+              "Factor as (x − 2)(x − 3) = 0.",
+              "Set each factor to zero and check."
+            ],
+            "answer": "x = 2 or x = 3."
+          },
+          "activity": {
+            "prompt": "Create three quadratic equations by first choosing two integer roots and multiplying their linear factors.",
+            "check": "Substitute each selected root into the expanded equation to verify zero."
+          },
+          "questions": [
+            {
+              "id": "c10-mathematics-1-q1",
+              "prompt": "Which equation is quadratic?",
+              "options": [
+                "2x + 1 = 0",
+                "x³ − 1 = 0",
+                "0x² + x = 2",
+                "2x² − 3x + 1 = 0"
+              ],
+              "answer": 3,
+              "explanation": "The highest nonzero power is 2.",
+              "hint": "Check the coefficient of x² is not zero.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-mathematics-1-q2",
+              "prompt": "The roots of x² − 5x + 6 = 0 are:",
+              "options": [
+                "2 and 3",
+                "−2 and −3",
+                "1 and 6",
+                "0 and 5"
+              ],
+              "answer": 0,
+              "explanation": "(x − 2)(x − 3) expands to the given polynomial.",
+              "hint": "Find factors of 6 whose sum is 5.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-mathematics-1-q3",
+              "prompt": "A real quadratic has discriminant −4. It has:",
+              "options": [
+                "Two distinct real roots",
+                "No real roots",
+                "Exactly one repeated real root",
+                "Infinitely many real roots"
+              ],
+              "answer": 1,
+              "explanation": "A negative discriminant has no real square root in the quadratic formula.",
+              "hint": "Check the sign under the square root.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Solve x² − 7x + 12 = 0 and verify your answers.",
+            "points": [
+              "Factor as (x − 3)(x − 4).",
+              "State both roots 3 and 4.",
+              "Check each root by substitution."
+            ]
+          },
+          "revision": [
+            "Quadratic equation: An equation ax² + bx + c = 0 with a ≠ 0.",
+            "Discriminant: The quantity b² − 4ac; its sign determines the number of distinct real roots."
+          ]
+        },
+        {
+          "id": "c10-mathematics-2",
+          "title": "Arithmetic progressions",
+          "goal": "Use the common difference to find terms and sums.",
+          "concepts": [
+            {
+              "term": "Arithmetic progression",
+              "explanation": "A sequence in which consecutive terms have the same difference."
+            },
+            {
+              "term": "nth term",
+              "explanation": "For first term a and common difference d, aₙ = a + (n − 1)d."
+            }
+          ],
+          "example": {
+            "problem": "Find the tenth term of 5, 8, 11, …",
+            "steps": [
+              "First term a = 5 and difference d = 3.",
+              "a₁₀ = 5 + (10 − 1) × 3."
+            ],
+            "answer": "32."
+          },
+          "activity": {
+            "prompt": "Create a savings plan that increases by ₹10 each week, starting at ₹20, and list six terms.",
+            "check": "The weekly amounts are 20, 30, 40, 50, 60 and 70; distinguish an individual term from cumulative savings."
+          },
+          "questions": [
+            {
+              "id": "c10-mathematics-2-q1",
+              "prompt": "Which sequence is an arithmetic progression?",
+              "options": [
+                "4, 7, 10, 13",
+                "2, 4, 8, 16",
+                "1, 4, 9, 16",
+                "1, 2, 4, 7"
+              ],
+              "answer": 0,
+              "explanation": "Every consecutive difference is 3.",
+              "hint": "Subtract neighbouring terms.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-mathematics-2-q2",
+              "prompt": "The tenth term of 5, 8, 11, … is:",
+              "options": [
+                "35",
+                "32",
+                "30",
+                "27"
+              ],
+              "answer": 1,
+              "explanation": "a₁₀ = 5 + 9 × 3 = 32.",
+              "hint": "The first term uses zero differences.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-mathematics-2-q3",
+              "prompt": "What is the sum of the first five terms of 2, 4, 6, …?",
+              "options": [
+                "10",
+                "20",
+                "30",
+                "25"
+              ],
+              "answer": 2,
+              "explanation": "The terms 2, 4, 6, 8 and 10 sum to 30.",
+              "hint": "List the five terms or use n(a + last)/2.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why the nth term uses n − 1 rather than n differences.",
+            "points": [
+              "The first term is already a.",
+              "Moving from term 1 to term n needs n − 1 steps.",
+              "Multiply the number of steps by the common difference."
+            ]
+          },
+          "revision": [
+            "Arithmetic progression: A sequence in which consecutive terms have the same difference.",
+            "nth term: For first term a and common difference d, aₙ = a + (n − 1)d."
+          ]
+        },
+        {
+          "id": "c10-mathematics-3",
+          "title": "Trigonometric ratios in right triangles",
+          "goal": "Select sine, cosine and tangent relative to a chosen acute angle.",
+          "concepts": [
+            {
+              "term": "Sine",
+              "explanation": "In a right triangle, sin θ = opposite side / hypotenuse."
+            },
+            {
+              "term": "Tangent",
+              "explanation": "In a right triangle, tan θ = opposite side / adjacent side."
+            }
+          ],
+          "example": {
+            "problem": "For an acute angle θ, opposite = 3, adjacent = 4 and hypotenuse = 5. Find sin θ and tan θ.",
+            "steps": [
+              "Identify sides relative to θ.",
+              "sin θ = 3/5.",
+              "tan θ = 3/4."
+            ],
+            "answer": "sin θ = 3/5; tan θ = 3/4."
+          },
+          "activity": {
+            "prompt": "Draw a 3–4–5 right triangle and label opposite and adjacent for each acute angle.",
+            "check": "Changing the chosen acute angle swaps opposite and adjacent; the hypotenuse stays the same."
+          },
+          "questions": [
+            {
+              "id": "c10-mathematics-3-q1",
+              "prompt": "The hypotenuse is:",
+              "options": [
+                "Always the vertical side",
+                "The side opposite the right angle",
+                "Always the shortest side",
+                "The side opposite any chosen angle"
+              ],
+              "answer": 1,
+              "explanation": "The hypotenuse is opposite 90° and is the longest side.",
+              "hint": "First locate the right angle.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-mathematics-3-q2",
+              "prompt": "If opposite = 3 and hypotenuse = 5, sin θ equals:",
+              "options": [
+                "5/3",
+                "4/5",
+                "3/5",
+                "3/4"
+              ],
+              "answer": 2,
+              "explanation": "Sine uses opposite divided by hypotenuse.",
+              "hint": "Use SOH.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-mathematics-3-q3",
+              "prompt": "A vertical pole casts a horizontal shadow equal to its height. The Sun’s elevation is:",
+              "options": [
+                "30°",
+                "60°",
+                "90°",
+                "45°"
+              ],
+              "answer": 3,
+              "explanation": "tan θ = height/shadow = 1, so the acute angle is 45°.",
+              "hint": "Compare opposite with adjacent.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how to estimate a pole’s height using its shadow and a known elevation angle.",
+            "points": [
+              "Model a right triangle.",
+              "Use tan θ = height/shadow length.",
+              "Rearrange and include measurement units."
+            ]
+          },
+          "revision": [
+            "Sine: In a right triangle, sin θ = opposite side / hypotenuse.",
+            "Tangent: In a right triangle, tan θ = opposite side / adjacent side."
+          ]
+        },
+        {
+          "id": "c10-mathematics-4",
+          "title": "Probability and equally likely outcomes",
+          "goal": "Calculate simple probabilities while checking assumptions.",
+          "concepts": [
+            {
+              "term": "Sample space",
+              "explanation": "The set of all possible outcomes of an experiment."
+            },
+            {
+              "term": "Probability for equally likely outcomes",
+              "explanation": "Number of favourable outcomes divided by total possible outcomes."
+            }
+          ],
+          "example": {
+            "problem": "Find the probability of an even number on a fair six-sided die.",
+            "steps": [
+              "Sample space is {1,2,3,4,5,6}.",
+              "Favourable outcomes are {2,4,6}.",
+              "All six outcomes are equally likely."
+            ],
+            "answer": "3/6 = 1/2."
+          },
+          "activity": {
+            "prompt": "Roll a die 30 times and compare the experimental fraction of even outcomes with 1/2.",
+            "check": "Experimental frequency may differ from theoretical probability in a finite trial set."
+          },
+          "questions": [
+            {
+              "id": "c10-mathematics-4-q1",
+              "prompt": "A probability must lie between:",
+              "options": [
+                "−1 and 1 only",
+                "1 and 6 inclusive",
+                "0 and 1 inclusive",
+                "0 and 100 only without conversion"
+              ],
+              "answer": 2,
+              "explanation": "Impossible events have probability 0; certain events have probability 1.",
+              "hint": "Think about impossible and certain events.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-mathematics-4-q2",
+              "prompt": "For a fair die, P(even) is:",
+              "options": [
+                "1/6",
+                "2/3",
+                "1",
+                "1/2"
+              ],
+              "answer": 3,
+              "explanation": "Three of six equally likely outcomes are even.",
+              "hint": "Count 2, 4 and 6.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-mathematics-4-q3",
+              "prompt": "A die gives an even number 18 times in 30 rolls. What follows?",
+              "options": [
+                "The experimental frequency is 0.6; this alone does not prove unfairness",
+                "The theoretical probability must be 0.6",
+                "The die is certainly unfair",
+                "The next roll must be odd"
+              ],
+              "answer": 0,
+              "explanation": "Finite samples fluctuate; 18/30 is an observed frequency, not a proof of bias.",
+              "hint": "Distinguish observations from the probability model.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why experimental and theoretical probabilities can differ.",
+            "points": [
+              "Define the theoretical model and its assumptions.",
+              "Calculate an observed relative frequency.",
+              "Explain variation in a finite sample."
+            ]
+          },
+          "revision": [
+            "Sample space: The set of all possible outcomes of an experiment.",
+            "Probability for equally likely outcomes: Number of favourable outcomes divided by total possible outcomes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "modules": [
+        {
+          "id": "c10-science-1",
+          "title": "Chemical reactions and conservation",
+          "goal": "Balance equations and recognise evidence of chemical change.",
+          "concepts": [
+            {
+              "term": "Chemical reaction",
+              "explanation": "A process in which substances are transformed into different substances through rearrangement of atoms."
+            },
+            {
+              "term": "Balanced equation",
+              "explanation": "An equation with the same number of atoms of each element on both sides."
+            }
+          ],
+          "example": {
+            "problem": "Balance Fe + O₂ → Fe₂O₃.",
+            "steps": [
+              "Use 2Fe₂O₃ to make six oxygen atoms on the product side.",
+              "Use 3O₂ to supply six oxygen atoms.",
+              "Use 4Fe to match four iron atoms."
+            ],
+            "answer": "4Fe + 3O₂ → 2Fe₂O₃."
+          },
+          "activity": {
+            "prompt": "Use paper circles of two colours to represent atoms in the balanced equation.",
+            "check": "Count each element on both sides; do not change formula subscripts."
+          },
+          "questions": [
+            {
+              "id": "c10-science-1-q1",
+              "prompt": "Balancing a chemical equation preserves:",
+              "options": [
+                "The number of molecules in every case",
+                "The physical state of every substance",
+                "The colour of every substance",
+                "The number of atoms of each element"
+              ],
+              "answer": 3,
+              "explanation": "Atoms are rearranged, not created or destroyed in ordinary chemical reactions.",
+              "hint": "Count atoms rather than molecules.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-science-1-q2",
+              "prompt": "In 4Fe + 3O₂ → 2Fe₂O₃, oxygen atoms on each side total:",
+              "options": [
+                "6",
+                "2",
+                "3",
+                "4"
+              ],
+              "answer": 0,
+              "explanation": "3 × 2 = 6 on the left; 2 × 3 = 6 on the right.",
+              "hint": "Multiply coefficients by subscripts.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-science-1-q3",
+              "prompt": "Which observation most strongly supports formation of a new substance?",
+              "options": [
+                "A paper is folded",
+                "A precipitate forms when two clear solutions are mixed",
+                "Ice melts",
+                "A wire is bent"
+              ],
+              "answer": 1,
+              "explanation": "A precipitate can be a newly formed insoluble product; the other examples are physical changes.",
+              "hint": "Look for evidence of a new substance.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Balance Mg + O₂ → MgO and explain your method.",
+            "points": [
+              "Write 2MgO to match the oxygen pair.",
+              "Write 2Mg on the reactant side.",
+              "Confirm two Mg and two O atoms on each side."
+            ]
+          },
+          "revision": [
+            "Chemical reaction: A process in which substances are transformed into different substances through rearrangement of atoms.",
+            "Balanced equation: An equation with the same number of atoms of each element on both sides."
+          ]
+        },
+        {
+          "id": "c10-science-2",
+          "title": "Acids, bases and pH",
+          "goal": "Interpret the pH scale and neutralisation at an introductory level.",
+          "concepts": [
+            {
+              "term": "pH",
+              "explanation": "A logarithmic measure related to hydrogen-ion activity; lower values indicate greater acidity in typical aqueous solutions."
+            },
+            {
+              "term": "Neutralisation",
+              "explanation": "A reaction in which an acid and a base react; many familiar examples form salt and water."
+            }
+          ],
+          "example": {
+            "problem": "Compare aqueous solutions with pH 3 and pH 5 under comparable conditions.",
+            "steps": [
+              "Both pH values indicate acidic solutions at ordinary classroom conditions.",
+              "A difference of one pH unit represents a tenfold hydrogen-ion activity ratio.",
+              "A difference of two units represents a hundredfold ratio."
+            ],
+            "answer": "The pH 3 solution has about 100 times the hydrogen-ion activity of the pH 5 solution."
+          },
+          "activity": {
+            "prompt": "Use a teacher-provided pH chart to classify familiar labelled samples; do not taste or mix unknown substances.",
+            "check": "Identify acids below 7 and bases above 7 for dilute aqueous solutions near 25°C."
+          },
+          "questions": [
+            {
+              "id": "c10-science-2-q1",
+              "prompt": "At about 25°C, a neutral aqueous solution has pH close to:",
+              "options": [
+                "7",
+                "1",
+                "3",
+                "14"
+              ],
+              "answer": 0,
+              "explanation": "At this temperature neutrality corresponds approximately to pH 7.",
+              "hint": "Use the middle reference value.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-science-2-q2",
+              "prompt": "Which is more acidic under comparable conditions?",
+              "options": [
+                "pH 5",
+                "pH 3",
+                "pH 7",
+                "pH 9"
+              ],
+              "answer": 1,
+              "explanation": "Lower pH indicates greater acidity.",
+              "hint": "Compare the numerical values.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-science-2-q3",
+              "prompt": "A change from pH 5 to pH 3 means hydrogen-ion activity increases approximately:",
+              "options": [
+                "2 times",
+                "10 times",
+                "100 times",
+                "1/100 times"
+              ],
+              "answer": 2,
+              "explanation": "The scale is logarithmic: 10² = 100.",
+              "hint": "Two units means two factors of ten.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain pH and one safe precaution when handling acids or bases.",
+            "points": [
+              "Relate low pH to acidity.",
+              "Describe the logarithmic nature simply.",
+              "Never taste unknown chemicals; follow teacher safety instructions."
+            ]
+          },
+          "revision": [
+            "pH: A logarithmic measure related to hydrogen-ion activity; lower values indicate greater acidity in typical aqueous solutions.",
+            "Neutralisation: A reaction in which an acid and a base react; many familiar examples form salt and water."
+          ]
+        },
+        {
+          "id": "c10-science-3",
+          "title": "Life processes: transport and exchange",
+          "goal": "Connect structure with transport of materials in plants and humans.",
+          "concepts": [
+            {
+              "term": "Xylem",
+              "explanation": "Plant tissue that conducts water and dissolved mineral nutrients, mainly from roots towards shoots."
+            },
+            {
+              "term": "Alveoli",
+              "explanation": "Tiny air sacs in lungs with surfaces adapted for gas exchange with blood."
+            }
+          ],
+          "example": {
+            "problem": "Why do alveoli support efficient gas exchange?",
+            "steps": [
+              "Numerous alveoli provide a large surface area.",
+              "Thin walls reduce diffusion distance.",
+              "A rich blood supply helps maintain concentration gradients."
+            ],
+            "answer": "Large surface area, thin exchange barriers and blood flow support diffusion."
+          },
+          "activity": {
+            "prompt": "Sketch an alveolus and surrounding capillaries; add arrows for oxygen and carbon dioxide.",
+            "check": "Oxygen moves from alveolar air towards blood under normal conditions; carbon dioxide moves in the opposite direction."
+          },
+          "questions": [
+            {
+              "id": "c10-science-3-q1",
+              "prompt": "Which tissue mainly transports water in plants?",
+              "options": [
+                "Phloem only",
+                "Xylem",
+                "Epidermis only",
+                "Cork only"
+              ],
+              "answer": 1,
+              "explanation": "Xylem conducts water and dissolved minerals.",
+              "hint": "Distinguish water transport from sugar transport.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-science-3-q2",
+              "prompt": "Oxygen normally moves from an alveolus into blood by:",
+              "options": [
+                "Photosynthesis",
+                "Digestion",
+                "Diffusion",
+                "Active muscle pumping across the membrane"
+              ],
+              "answer": 2,
+              "explanation": "Oxygen diffuses down its partial-pressure gradient across the exchange barrier.",
+              "hint": "Consider movement down a gradient.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-science-3-q3",
+              "prompt": "A reduction in alveolar surface area would generally:",
+              "options": [
+                "Always improve diffusion",
+                "Stop blood formation instantly",
+                "Increase the number of roots",
+                "Reduce the capacity for gas exchange"
+              ],
+              "answer": 3,
+              "explanation": "Less exchange surface limits potential diffusion, other factors being equal.",
+              "hint": "Relate structure to function.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain three structural features that help alveolar gas exchange.",
+            "points": [
+              "Large total surface area.",
+              "Thin walls and short diffusion distance.",
+              "Capillary supply maintaining gradients."
+            ]
+          },
+          "revision": [
+            "Xylem: Plant tissue that conducts water and dissolved mineral nutrients, mainly from roots towards shoots.",
+            "Alveoli: Tiny air sacs in lungs with surfaces adapted for gas exchange with blood."
+          ]
+        },
+        {
+          "id": "c10-science-4",
+          "title": "Electricity: current, resistance and power",
+          "goal": "Use Ohm’s law and distinguish current from energy transfer.",
+          "concepts": [
+            {
+              "term": "Electric current",
+              "explanation": "Rate of flow of electric charge, measured in amperes."
+            },
+            {
+              "term": "Resistance",
+              "explanation": "Opposition to current; for an ohmic conductor at constant physical conditions, R = V/I."
+            }
+          ],
+          "example": {
+            "problem": "A 6 Ω resistor has 12 V across it. Calculate current and power.",
+            "steps": [
+              "I = V/R = 12/6 = 2 A.",
+              "P = VI = 12 × 2 = 24 W."
+            ],
+            "answer": "Current 2 A; power 24 W."
+          },
+          "activity": {
+            "prompt": "Use a circuit simulator with a fixed resistor and vary the voltage; do not experiment with mains electricity.",
+            "check": "For an ideal ohmic resistor at constant temperature, doubling voltage doubles current."
+          },
+          "questions": [
+            {
+              "id": "c10-science-4-q1",
+              "prompt": "The SI unit of current is:",
+              "options": [
+                "Volt",
+                "Ohm",
+                "Ampere",
+                "Watt"
+              ],
+              "answer": 2,
+              "explanation": "Current is measured in amperes.",
+              "hint": "Separate charge flow from voltage and power.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-science-4-q2",
+              "prompt": "Current through 6 Ω at 12 V is:",
+              "options": [
+                "72 A",
+                "0.5 A",
+                "18 A",
+                "2 A"
+              ],
+              "answer": 3,
+              "explanation": "I = V/R = 2 A.",
+              "hint": "Divide voltage by resistance.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-science-4-q3",
+              "prompt": "If voltage across a fixed ohmic resistor doubles, its power becomes:",
+              "options": [
+                "Four times as large",
+                "Twice as large",
+                "Half as large",
+                "Unchanged"
+              ],
+              "answer": 0,
+              "explanation": "P = V²/R, so doubling V multiplies power by 4.",
+              "hint": "Use power in terms of voltage and fixed resistance.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Calculate current and power for a 10 Ω resistor across 5 V.",
+            "points": [
+              "Use I = V/R = 0.5 A.",
+              "Use P = VI = 2.5 W.",
+              "State units and the fixed-resistance assumption."
+            ]
+          },
+          "revision": [
+            "Electric current: Rate of flow of electric charge, measured in amperes.",
+            "Resistance: Opposition to current; for an ohmic conductor at constant physical conditions, R = V/I."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "modules": [
+        {
+          "id": "c10-social-science-1",
+          "title": "Nationalism and historical interpretation",
+          "goal": "Explain how shared identity and political movements interact without oversimplifying.",
+          "concepts": [
+            {
+              "term": "Nationalism",
+              "explanation": "Ideas and movements that connect a people with a shared political identity and claims about collective self-government."
+            },
+            {
+              "term": "Historical context",
+              "explanation": "The political, social and economic circumstances in which an event or source is understood."
+            }
+          ],
+          "example": {
+            "problem": "Why might different groups join the same anti-colonial movement for different reasons?",
+            "steps": [
+              "Groups face different local problems.",
+              "A common movement can link these demands to a wider goal.",
+              "Shared participation does not imply identical interests."
+            ],
+            "answer": "A broad movement can unite diverse motives and expectations."
+          },
+          "activity": {
+            "prompt": "Create a comparison table for farmers, workers and business groups using a reliable historical account.",
+            "check": "Separate each group’s concerns from the common political aim; avoid assuming every member agreed."
+          },
+          "questions": [
+            {
+              "id": "c10-social-science-1-q1",
+              "prompt": "A careful historical explanation should:",
+              "options": [
+                "Assume everyone had the same motive",
+                "Ignore evidence",
+                "Replace dates with rumours",
+                "Consider different groups and contexts"
+              ],
+              "answer": 3,
+              "explanation": "Movements often unite diverse interests; evidence is needed to explain them.",
+              "hint": "Ask whose experience is being described.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-social-science-1-q2",
+              "prompt": "Why can a shared movement contain disagreements?",
+              "options": [
+                "Participants can share a broad aim but differ in interests",
+                "Disagreement makes every movement impossible",
+                "All participants have identical livelihoods",
+                "Political aims never change"
+              ],
+              "answer": 0,
+              "explanation": "Common goals need not erase differences over methods and outcomes.",
+              "hint": "Separate a shared goal from specific demands.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-social-science-1-q3",
+              "prompt": "Which evidence best supports a claim about a group’s demands?",
+              "options": [
+                "A fictional dialogue presented as fact",
+                "Contemporary statements checked against other records",
+                "An unsourced slogan alone",
+                "A guess based on current preferences"
+              ],
+              "answer": 1,
+              "explanation": "Relevant records and corroboration strengthen interpretation.",
+              "hint": "Look for traceable evidence from the period.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why national movements should be studied from several social perspectives.",
+            "points": [
+              "Identify diverse participants.",
+              "Distinguish common aims from different demands.",
+              "Support claims with relevant evidence."
+            ]
+          },
+          "revision": [
+            "Nationalism: Ideas and movements that connect a people with a shared political identity and claims about collective self-government.",
+            "Historical context: The political, social and economic circumstances in which an event or source is understood."
+          ]
+        },
+        {
+          "id": "c10-social-science-2",
+          "title": "Resources and sustainable development",
+          "goal": "Evaluate resource use across environmental, social and economic needs.",
+          "concepts": [
+            {
+              "term": "Renewable resource",
+              "explanation": "A resource replenished by natural processes on a relevant timescale; its sustainable use depends on rates and conditions."
+            },
+            {
+              "term": "Sustainable development",
+              "explanation": "Development that meets present needs while protecting the ability of future generations to meet theirs."
+            }
+          ],
+          "example": {
+            "problem": "Is groundwater use always sustainable because water is renewed?",
+            "steps": [
+              "Rainfall can recharge groundwater.",
+              "Extraction may exceed recharge.",
+              "Local pollution and access also matter."
+            ],
+            "answer": "No; sustainability depends on extraction, recharge and other local conditions."
+          },
+          "activity": {
+            "prompt": "Make a school water-use audit using observation rather than opening taps unnecessarily.",
+            "check": "Record likely uses, leaks and practical conservation measures; avoid claiming exact savings without measurements."
+          },
+          "questions": [
+            {
+              "id": "c10-social-science-2-q1",
+              "prompt": "Which practice supports soil conservation?",
+              "options": [
+                "Maintaining vegetation cover",
+                "Removing all ground cover on slopes",
+                "Uncontrolled overgrazing",
+                "Dumping waste into fields"
+              ],
+              "answer": 0,
+              "explanation": "Vegetation helps protect soil from erosion.",
+              "hint": "Think about roots and rain impact.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-social-science-2-q2",
+              "prompt": "A renewable resource can be depleted locally when:",
+              "options": [
+                "It has a natural cycle",
+                "Use exceeds its replenishment rate",
+                "People measure it",
+                "It is studied scientifically"
+              ],
+              "answer": 1,
+              "explanation": "Renewability does not guarantee unlimited availability.",
+              "hint": "Compare withdrawal with renewal.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-social-science-2-q3",
+              "prompt": "A sustainable development decision should consider:",
+              "options": [
+                "Only immediate profit",
+                "Only the cheapest initial option",
+                "Environmental effects, livelihoods and future needs",
+                "Only one person’s preference"
+              ],
+              "answer": 2,
+              "explanation": "Long-term ecological and social conditions matter alongside economic benefits.",
+              "hint": "Consider both time and affected groups.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why renewable does not mean unlimited.",
+            "points": [
+              "State that replenishment takes time.",
+              "Compare demand with the renewal rate.",
+              "Give a resource-use example."
+            ]
+          },
+          "revision": [
+            "Renewable resource: A resource replenished by natural processes on a relevant timescale; its sustainable use depends on rates and conditions.",
+            "Sustainable development: Development that meets present needs while protecting the ability of future generations to meet theirs."
+          ]
+        },
+        {
+          "id": "c10-social-science-3",
+          "title": "Power sharing and federalism",
+          "goal": "Distinguish horizontal and vertical divisions of power.",
+          "concepts": [
+            {
+              "term": "Horizontal power sharing",
+              "explanation": "Distribution of power among institutions such as legislature, executive and judiciary at the same level."
+            },
+            {
+              "term": "Federalism",
+              "explanation": "A system in which powers are constitutionally divided between different levels of government."
+            }
+          ],
+          "example": {
+            "problem": "Distinguish division among courts, executive and legislature from division between Union and State governments.",
+            "steps": [
+              "Courts, executive and legislature are different institutions at a level.",
+              "Union and State governments are different territorial levels."
+            ],
+            "answer": "The first is horizontal division; the second is vertical or federal division."
+          },
+          "activity": {
+            "prompt": "Create a diagram with institutions across one row and levels of government below one another.",
+            "check": "Do not treat an institution such as a court as the same type of category as a State government."
+          },
+          "questions": [
+            {
+              "id": "c10-social-science-3-q1",
+              "prompt": "Which example shows horizontal power sharing?",
+              "options": [
+                "Union and State governments",
+                "Legislature, executive and judiciary",
+                "State and local governments",
+                "Two neighbouring countries"
+              ],
+              "answer": 1,
+              "explanation": "Different organs at the same level share and limit power.",
+              "hint": "Compare institutions rather than territorial levels.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-social-science-3-q2",
+              "prompt": "Federalism involves:",
+              "options": [
+                "All power held by one village",
+                "Only a division among political parties",
+                "Constitutional division of powers between levels of government",
+                "No written rules in any case"
+              ],
+              "answer": 2,
+              "explanation": "Federal arrangements define authority at more than one government level.",
+              "hint": "Think Union and States.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-social-science-3-q3",
+              "prompt": "Why can power sharing support democracy?",
+              "options": [
+                "It eliminates every disagreement",
+                "It makes accountability unnecessary",
+                "It removes all need for elections",
+                "It can limit concentration of power and include different interests"
+              ],
+              "answer": 3,
+              "explanation": "Distributed authority can provide checks and representation, though its effectiveness depends on practice.",
+              "hint": "Consider checks and participation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain horizontal and vertical power sharing with one example each.",
+            "points": [
+              "Name organs for horizontal sharing.",
+              "Name government levels for vertical sharing.",
+              "Explain the difference in the basis of division."
+            ]
+          },
+          "revision": [
+            "Horizontal power sharing: Distribution of power among institutions such as legislature, executive and judiciary at the same level.",
+            "Federalism: A system in which powers are constitutionally divided between different levels of government."
+          ]
+        },
+        {
+          "id": "c10-social-science-4",
+          "title": "Development, income and public services",
+          "goal": "Use several indicators rather than relying on averages alone.",
+          "concepts": [
+            {
+              "term": "Per capita income",
+              "explanation": "Total income of a population divided by the number of people, using consistent coverage and time period."
+            },
+            {
+              "term": "Public services",
+              "explanation": "Services provided or supported for collective needs, such as sanitation, education and public health."
+            }
+          ],
+          "example": {
+            "problem": "Two areas have equal average income. Must their quality of life be equal?",
+            "steps": [
+              "Averages can hide unequal distribution.",
+              "Access to healthcare, education and safe water may differ.",
+              "Environmental conditions and security can differ too."
+            ],
+            "answer": "No; income alone does not describe every aspect of wellbeing."
+          },
+          "activity": {
+            "prompt": "Compare two fictional areas using income, literacy, clean-water access and income distribution.",
+            "check": "Use multiple indicators and explain trade-offs rather than declaring one universal winner from one number."
+          },
+          "questions": [
+            {
+              "id": "c10-social-science-4-q1",
+              "prompt": "Per capita income is calculated by:",
+              "options": [
+                "Multiplying income by population",
+                "Dividing population by area",
+                "Dividing total income by population",
+                "Adding all prices"
+              ],
+              "answer": 2,
+              "explanation": "It is an average income per person.",
+              "hint": "Per capita means per person.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-social-science-4-q2",
+              "prompt": "Why can an average hide inequality?",
+              "options": [
+                "Averages show every individual income",
+                "All households earn the mean",
+                "Means cannot be calculated",
+                "Different distributions can have the same mean"
+              ],
+              "answer": 3,
+              "explanation": "A few high incomes can raise the mean while many people have little.",
+              "hint": "Imagine two different sets with the same total.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-social-science-4-q3",
+              "prompt": "Which comparison gives a broader view of development?",
+              "options": [
+                "Income together with health, education and basic services",
+                "Income alone in every situation",
+                "Only the number of luxury cars",
+                "Only the tallest building"
+              ],
+              "answer": 0,
+              "explanation": "Several indicators capture different aspects of wellbeing.",
+              "hint": "Think beyond purchasing power alone.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two limits of per capita income as a development indicator.",
+            "points": [
+              "It does not show income distribution.",
+              "It omits important non-income conditions.",
+              "Use a clear example or additional indicator."
+            ]
+          },
+          "revision": [
+            "Per capita income: Total income of a population divided by the number of people, using consistent coverage and time period.",
+            "Public services: Services provided or supported for collective needs, such as sanitation, education and public health."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "c10-english-1",
+          "title": "Analytical paragraphs from data",
+          "goal": "Describe trends accurately and avoid unsupported causal claims.",
+          "concepts": [
+            {
+              "term": "Trend",
+              "explanation": "A general pattern of increase, decrease or stability across observations."
+            },
+            {
+              "term": "Causal claim",
+              "explanation": "A statement that one factor produces a change in another; correlation alone is insufficient evidence."
+            }
+          ],
+          "example": {
+            "problem": "A library recorded 100, 120 and 150 monthly visits. Write an accurate summary.",
+            "steps": [
+              "Visits rose across all three months.",
+              "The total increase was 50 visits from the first to the third month.",
+              "The figures do not explain the cause of the rise."
+            ],
+            "answer": "Monthly library visits increased steadily from 100 to 150, an overall rise of 50%."
+          },
+          "activity": {
+            "prompt": "Write a short paragraph describing a three-row data table without inventing reasons.",
+            "check": "State the period, compare values, calculate carefully and distinguish observed trends from explanations."
+          },
+          "questions": [
+            {
+              "id": "c10-english-1-q1",
+              "prompt": "From 100 to 150, the percentage increase is:",
+              "options": [
+                "150%",
+                "33.3%",
+                "5%",
+                "50%"
+              ],
+              "answer": 3,
+              "explanation": "The increase is 50; 50/100 × 100 = 50%.",
+              "hint": "Use the starting value as the denominator.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-english-1-q2",
+              "prompt": "Which statement is supported by 100, 120 and 150 visits?",
+              "options": [
+                "Visits increased in each recorded month",
+                "A new teacher definitely caused the rise",
+                "Every visitor read ten books",
+                "Visits will certainly double next month"
+              ],
+              "answer": 0,
+              "explanation": "Only the observed increase is established.",
+              "hint": "Describe what is measured.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-english-1-q3",
+              "prompt": "Why avoid claiming that an unmeasured campaign caused the rise?",
+              "options": [
+                "Numbers cannot show changes",
+                "The data show a change but do not establish its cause",
+                "All campaigns fail",
+                "A paragraph must contain no interpretation"
+              ],
+              "answer": 1,
+              "explanation": "A causal explanation needs additional evidence.",
+              "hint": "Distinguish a trend from a reason.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Write an analytical paragraph for sales of 40, 50 and 45 units over three months.",
+            "points": [
+              "State the rise followed by the fall.",
+              "Compare first and final values accurately.",
+              "Avoid unsupported causes or predictions."
+            ]
+          },
+          "revision": [
+            "Trend: A general pattern of increase, decrease or stability across observations.",
+            "Causal claim: A statement that one factor produces a change in another; correlation alone is insufficient evidence."
+          ]
+        },
+        {
+          "id": "c10-english-2",
+          "title": "Formal letters and clear requests",
+          "goal": "Write a respectful, specific formal request with relevant detail.",
+          "concepts": [
+            {
+              "term": "Purpose statement",
+              "explanation": "An early sentence that explains why the letter is being written."
+            },
+            {
+              "term": "Appropriate register",
+              "explanation": "Language suited to the audience, purpose and degree of formality."
+            }
+          ],
+          "example": {
+            "problem": "Plan a letter asking the school to repair a leaking tap.",
+            "steps": [
+              "Identify the location and observed problem.",
+              "Explain the effect briefly without exaggeration.",
+              "Request inspection and repair politely."
+            ],
+            "answer": "A clear letter states the problem, relevant details and a practical request."
+          },
+          "activity": {
+            "prompt": "Draft a 100–120 word letter to the principal about a school maintenance issue.",
+            "check": "Use the required format, a specific subject line, respectful language and a clear requested action."
+          },
+          "questions": [
+            {
+              "id": "c10-english-2-q1",
+              "prompt": "Which subject line is most useful?",
+              "options": [
+                "Request to repair the leaking tap near the library",
+                "Hello!",
+                "Very important things",
+                "My thoughts about everything"
+              ],
+              "answer": 0,
+              "explanation": "A precise subject identifies the task quickly.",
+              "hint": "Name the issue and action.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-english-2-q2",
+              "prompt": "Which sentence makes a respectful request?",
+              "options": [
+                "Fix it or else!",
+                "Please arrange an inspection and repair.",
+                "You never do anything.",
+                "I demand magic immediately."
+              ],
+              "answer": 1,
+              "explanation": "The request is specific, courteous and achievable.",
+              "hint": "Combine politeness with a clear action.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-english-2-q3",
+              "prompt": "Which detail should be included only if verified?",
+              "options": [
+                "The location you observed",
+                "The date of your observation",
+                "An estimate of litres wasted each day",
+                "The action you are requesting"
+              ],
+              "answer": 2,
+              "explanation": "A quantified claim needs measurement or a reliable basis.",
+              "hint": "Avoid invented precision.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Write a formal request for additional reading-room hours.",
+            "points": [
+              "Use a clear subject and purpose.",
+              "Explain a relevant student need.",
+              "Make a specific, polite and feasible request."
+            ]
+          },
+          "revision": [
+            "Purpose statement: An early sentence that explains why the letter is being written.",
+            "Appropriate register: Language suited to the audience, purpose and degree of formality."
+          ]
+        },
+        {
+          "id": "c10-english-3",
+          "title": "Editing and reported questions",
+          "goal": "Correct common errors and report questions in statement word order.",
+          "concepts": [
+            {
+              "term": "Reported question",
+              "explanation": "An indirect report of a question, normally using statement word order."
+            },
+            {
+              "term": "Editing",
+              "explanation": "Reviewing writing for accuracy, clarity and consistency."
+            }
+          ],
+          "example": {
+            "problem": "Report: The teacher asked, “Where do you live?”",
+            "steps": [
+              "Retain the question word where.",
+              "Use statement order: I lived, not did I live.",
+              "Adjust pronoun and tense to the reporting context."
+            ],
+            "answer": "The teacher asked where I lived."
+          },
+          "activity": {
+            "prompt": "Rewrite three direct questions as reports and check that question inversion is removed.",
+            "check": "For yes/no questions, use if or whether; reported questions usually do not end with a question mark."
+          },
+          "questions": [
+            {
+              "id": "c10-english-3-q1",
+              "prompt": "Which is correctly reported?",
+              "options": [
+                "She asked where was I going.",
+                "She asked where I was going.",
+                "She asked where am I going?",
+                "She asked where going I."
+              ],
+              "answer": 1,
+              "explanation": "Indirect questions use statement word order.",
+              "hint": "Place subject before verb.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-english-3-q2",
+              "prompt": "A reported yes/no question often begins with:",
+              "options": [
+                "Because only",
+                "Although only",
+                "If or whether",
+                "But only"
+              ],
+              "answer": 2,
+              "explanation": "If or whether introduces the uncertainty of the original question.",
+              "hint": "There is no original question word.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-english-3-q3",
+              "prompt": "Report “Are you ready?” after “He asked me…”",
+              "options": [
+                "was I ready?",
+                "that am I ready.",
+                "where I ready.",
+                "if I was ready."
+              ],
+              "answer": 3,
+              "explanation": "Use if and statement order, with tense appropriate to the past report.",
+              "hint": "Preserve the question’s yes/no meaning.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Report “Why are you late?” in a suitable past reporting context.",
+            "points": [
+              "Retain why.",
+              "Adjust pronoun from the reporting perspective.",
+              "Use statement order, for example: She asked why I was late."
+            ]
+          },
+          "revision": [
+            "Reported question: An indirect report of a question, normally using statement word order.",
+            "Editing: Reviewing writing for accuracy, clarity and consistency."
+          ]
+        },
+        {
+          "id": "c10-english-4",
+          "title": "Literary interpretation and evidence",
+          "goal": "Support interpretations with details and distinguish narrator from author.",
+          "concepts": [
+            {
+              "term": "Narrator",
+              "explanation": "The voice that tells a story; it is not automatically identical to the author."
+            },
+            {
+              "term": "Textual evidence",
+              "explanation": "Specific words, details or events used to support an interpretation."
+            }
+          ],
+          "example": {
+            "problem": "A narrator says, “I smiled, though my hands trembled.” What does the contrast suggest?",
+            "steps": [
+              "The smile is an outward action.",
+              "Trembling may indicate fear, nervousness or strong emotion.",
+              "The contrast suggests outward composure and inner unease, depending on context."
+            ],
+            "answer": "The speaker may be trying to appear calm despite nervousness."
+          },
+          "activity": {
+            "prompt": "Write one interpretation and support it with two details from a short original passage.",
+            "check": "Use cautious language where several readings are possible and explain how the details support the claim."
+          },
+          "questions": [
+            {
+              "id": "c10-english-4-q1",
+              "prompt": "The narrator is:",
+              "options": [
+                "Always the author’s legal identity",
+                "Every character at once",
+                "The voice telling the story",
+                "The book’s publisher"
+              ],
+              "answer": 2,
+              "explanation": "An author can create a narrator with different views or experiences.",
+              "hint": "Separate creator from storytelling voice.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-english-4-q2",
+              "prompt": "Which evidence best supports hidden nervousness?",
+              "options": [
+                "A chapter number alone",
+                "The cover colour",
+                "The publisher’s address",
+                "A smile paired with trembling hands"
+              ],
+              "answer": 3,
+              "explanation": "The contrast between outward smile and bodily trembling supports that reading.",
+              "hint": "Look for a meaningful contrast.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-english-4-q3",
+              "prompt": "A strong interpretation should:",
+              "options": [
+                "Explain how relevant details support the claim",
+                "State an opinion without evidence",
+                "Assume only one reading is possible in all texts",
+                "Replace the passage with biography only"
+              ],
+              "answer": 0,
+              "explanation": "Interpretation requires a link between claim and evidence.",
+              "hint": "Show the reasoning, not just the quotation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain a character’s emotion using a claim, evidence and reasoning.",
+            "points": [
+              "State an interpretation.",
+              "Use a relevant textual detail.",
+              "Explain the connection and consider context."
+            ]
+          },
+          "revision": [
+            "Narrator: The voice that tells a story; it is not automatically identical to the author.",
+            "Textual evidence: Specific words, details or events used to support an interpretation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "c10-hindi-1",
+          "title": "तर्कपूर्ण लेखन और प्रमाण",
+          "goal": "विचार को कारण, उदाहरण और संतुलित निष्कर्ष के साथ प्रस्तुत करना।",
+          "concepts": [
+            {
+              "term": "तर्क",
+              "explanation": "किसी विचार को उचित सिद्ध करने के लिए दिया गया कारण।"
+            },
+            {
+              "term": "प्रमाण",
+              "explanation": "दावे का समर्थन करने वाली जाँची जा सकने योग्य जानकारी या उदाहरण।"
+            }
+          ],
+          "example": {
+            "problem": "“विद्यालय में पठन का समय बढ़ना चाहिए” के पक्ष में तर्क दीजिए।",
+            "steps": [
+              "स्पष्ट प्रस्ताव रखें।",
+              "समझ और शब्द-भंडार जैसे प्रासंगिक लाभ बताएँ।",
+              "समय-सारणी की सीमा स्वीकार करते हुए व्यावहारिक सुझाव दें।"
+            ],
+            "answer": "संतुलित तर्क में प्रस्ताव, कारण, उदाहरण और व्यवहार्य सुझाव होते हैं।"
+          },
+          "activity": {
+            "prompt": "किसी विद्यालयी विषय पर पक्ष और एक संभावित आपत्ति लिखिए।",
+            "check": "आपत्ति को निष्पक्ष रूप से रखें; अप्रमाणित आँकड़े न जोड़ें।"
+          },
+          "questions": [
+            {
+              "id": "c10-hindi-1-q1",
+              "prompt": "तर्कपूर्ण लेखन में दावा किससे मजबूत होता है?",
+              "options": [
+                "केवल ऊँची आवाज से",
+                "विरोधी का अपमान करने से",
+                "बार-बार वही वाक्य लिखने से",
+                "प्रासंगिक कारण और प्रमाण से"
+              ],
+              "answer": 3,
+              "explanation": "कारण और प्रमाण विचार का आधार स्पष्ट करते हैं।",
+              "hint": "दावे की जाँच कैसे होगी?",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-hindi-1-q2",
+              "prompt": "कौन-सा वाक्य संतुलित है?",
+              "options": [
+                "समय सीमित है, इसलिए सप्ताह में दो पठन सत्र जोड़े जा सकते हैं।",
+                "सभी असहमत लोग गलत हैं।",
+                "पढ़ने से हर समस्या तुरंत समाप्त होती है।",
+                "प्रमाण की कोई आवश्यकता नहीं।"
+              ],
+              "answer": 0,
+              "explanation": "यह सीमा स्वीकार कर व्यवहार्य सुझाव देता है।",
+              "hint": "सीमा और समाधान दोनों देखें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-hindi-1-q3",
+              "prompt": "किस दावे के लिए स्रोत आवश्यक है?",
+              "options": [
+                "मुझे पढ़ना पसंद है।",
+                "इस कार्यक्रम से 80% विद्यार्थियों के अंक बढ़े।",
+                "मैं पुस्तकालय जाना चाहता हूँ।",
+                "मेरा सुझाव दो सत्रों का है।"
+              ],
+              "answer": 1,
+              "explanation": "विशिष्ट आँकड़े की विश्वसनीयता के लिए स्रोत चाहिए।",
+              "hint": "व्यक्तिगत राय और मापे गए दावे में अंतर करें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "“विद्यालय में खेल का नियमित समय” पर तर्कपूर्ण अनुच्छेद लिखिए।",
+            "points": [
+              "स्पष्ट पक्ष रखें।",
+              "दो कारण या विश्वसनीय उदाहरण दें।",
+              "एक सीमा स्वीकार कर संतुलित निष्कर्ष लिखें।"
+            ]
+          },
+          "revision": [
+            "तर्क: किसी विचार को उचित सिद्ध करने के लिए दिया गया कारण।",
+            "प्रमाण: दावे का समर्थन करने वाली जाँची जा सकने योग्य जानकारी या उदाहरण।"
+          ]
+        },
+        {
+          "id": "c10-hindi-2",
+          "title": "औपचारिक पत्र और स्पष्ट निवेदन",
+          "goal": "समस्या, आवश्यक विवरण और अनुरोध को शिष्ट भाषा में लिखना।",
+          "concepts": [
+            {
+              "term": "विषय पंक्ति",
+              "explanation": "पत्र के उद्देश्य को संक्षेप में बताने वाली पंक्ति।"
+            },
+            {
+              "term": "औपचारिक भाषा",
+              "explanation": "स्थिति और प्राप्तकर्ता के अनुरूप सम्मानपूर्ण तथा स्पष्ट भाषा।"
+            }
+          ],
+          "example": {
+            "problem": "विद्यालय में खराब पंखे की मरम्मत हेतु पत्र की रूपरेखा बनाएँ।",
+            "steps": [
+              "संबंधित अधिकारी को संबोधित करें।",
+              "कक्षा और समस्या का स्थान बताएँ।",
+              "निरीक्षण और मरम्मत का विनम्र अनुरोध करें।"
+            ],
+            "answer": "परिचय → समस्या का विवरण → स्पष्ट निवेदन।"
+          },
+          "activity": {
+            "prompt": "प्रधानाचार्य को पुस्तकालय में नई पुस्तकों के लिए पत्र लिखिए।",
+            "check": "अनुरोध स्पष्ट हो; अपमानजनक भाषा और मनगढ़ंत तथ्य न हों।"
+          },
+          "questions": [
+            {
+              "id": "c10-hindi-2-q1",
+              "prompt": "कौन-सी विषय पंक्ति सबसे स्पष्ट है?",
+              "options": [
+                "कक्षा 10 के खराब पंखे की मरम्मत हेतु निवेदन",
+                "एक जरूरी बात",
+                "नमस्ते सबको",
+                "मेरी कहानी"
+              ],
+              "answer": 0,
+              "explanation": "यह समस्या, स्थान और अनुरोध बताती है।",
+              "hint": "विषय पढ़कर उद्देश्य समझ में आना चाहिए।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-hindi-2-q2",
+              "prompt": "उचित निवेदन चुनिए।",
+              "options": [
+                "अभी ठीक करो, वरना देख लेना।",
+                "कृपया निरीक्षण कर मरम्मत की व्यवस्था करें।",
+                "आप कभी काम नहीं करते।",
+                "इससे बड़ा अपराध नहीं हुआ।"
+              ],
+              "answer": 1,
+              "explanation": "यह शिष्ट और कार्य-विशिष्ट अनुरोध है।",
+              "hint": "सम्मान और स्पष्टता दोनों रखें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-hindi-2-q3",
+              "prompt": "किस विवरण को जाँचकर लिखना चाहिए?",
+              "options": [
+                "अपना वास्तविक नाम",
+                "देखी गई कक्षा का नाम",
+                "खराब पंखों की सही संख्या",
+                "अनुरोध का उद्देश्य"
+              ],
+              "answer": 2,
+              "explanation": "मापने योग्य तथ्य को अनुमान से निश्चित न लिखें।",
+              "hint": "सटीक संख्या के लिए निरीक्षण आवश्यक है।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "विद्यालय के शौचालय में पानी की समस्या पर औपचारिक पत्र लिखिए।",
+            "points": [
+              "उचित संबोधन और विषय दें।",
+              "स्थान व समस्या का तथ्यपूर्ण विवरण दें।",
+              "व्यवहार्य और विनम्र कार्रवाई का अनुरोध करें।"
+            ]
+          },
+          "revision": [
+            "विषय पंक्ति: पत्र के उद्देश्य को संक्षेप में बताने वाली पंक्ति।",
+            "औपचारिक भाषा: स्थिति और प्राप्तकर्ता के अनुरूप सम्मानपूर्ण तथा स्पष्ट भाषा।"
+          ]
+        },
+        {
+          "id": "c10-hindi-3",
+          "title": "समास: संबंध समझकर पहचान",
+          "goal": "तत्पुरुष, द्वंद्व और अव्ययीभाव के सरल उदाहरण पहचानना।",
+          "concepts": [
+            {
+              "term": "तत्पुरुष समास",
+              "explanation": "जिस समास में सामान्यतः उत्तरपद प्रधान हो और पदों के बीच कारक-संबंध का लोप हो।"
+            },
+            {
+              "term": "द्वंद्व समास",
+              "explanation": "जिस समास में दोनों पद प्रधान हों और उनके बीच और का भाव हो।"
+            }
+          ],
+          "example": {
+            "problem": "राजपुत्र और माता-पिता का विग्रह कीजिए।",
+            "steps": [
+              "राजपुत्र = राजा का पुत्र; का संबंध लुप्त है।",
+              "माता-पिता = माता और पिता; दोनों पद प्रधान हैं।"
+            ],
+            "answer": "राजपुत्र: तत्पुरुष; माता-पिता: द्वंद्व।"
+          },
+          "activity": {
+            "prompt": "पाँच समस्त पद चुनकर पहले विग्रह लिखिए, फिर भेद तय कीजिए।",
+            "check": "केवल शब्द की लंबाई से भेद न चुनें; अर्थ और पदों का संबंध देखें।"
+          },
+          "questions": [
+            {
+              "id": "c10-hindi-3-q1",
+              "prompt": "माता-पिता का सही विग्रह क्या है?",
+              "options": [
+                "माता का पिता",
+                "माता और पिता",
+                "पिता की माता",
+                "माता जैसा पिता"
+              ],
+              "answer": 1,
+              "explanation": "दोनों पद समान रूप से प्रधान हैं।",
+              "hint": "बीच में और जोड़कर देखें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-hindi-3-q2",
+              "prompt": "राजपुत्र में कौन-सा संबंध है?",
+              "options": [
+                "राजा और पुत्र",
+                "पुत्र जैसा राजा",
+                "राजा का पुत्र",
+                "राजा के बिना पुत्र"
+              ],
+              "answer": 2,
+              "explanation": "का का लोप तत्पुरुष संबंध दिखाता है।",
+              "hint": "विग्रह में संबंध-सूचक शब्द खोजें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-hindi-3-q3",
+              "prompt": "यथाशक्ति का सामान्य विग्रह क्या है?",
+              "options": [
+                "शक्ति और यथा",
+                "शक्ति का राजा",
+                "शक्ति से रहित",
+                "शक्ति के अनुसार"
+              ],
+              "answer": 3,
+              "explanation": "यथा के साथ अव्ययीभाव में अनुसार का अर्थ आता है।",
+              "hint": "यथा का अर्थ अनुसार याद करें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "समास पहचानते समय विग्रह का महत्व समझाइए।",
+            "points": [
+              "दोनों पदों का अर्थ खोलें।",
+              "उनके संबंध को पहचानें।",
+              "संबंध के आधार पर भेद बताएँ।"
+            ]
+          },
+          "revision": [
+            "तत्पुरुष समास: जिस समास में सामान्यतः उत्तरपद प्रधान हो और पदों के बीच कारक-संबंध का लोप हो।",
+            "द्वंद्व समास: जिस समास में दोनों पद प्रधान हों और उनके बीच और का भाव हो।"
+          ]
+        },
+        {
+          "id": "c10-hindi-4",
+          "title": "काव्य-पाठ और भावार्थ",
+          "goal": "काव्य-पंक्ति के शब्दार्थ, भाव और प्रमाण को अलग-अलग समझना।",
+          "concepts": [
+            {
+              "term": "शब्दार्थ",
+              "explanation": "किसी शब्द या पद का प्रसंगानुकूल अर्थ।"
+            },
+            {
+              "term": "भावार्थ",
+              "explanation": "पंक्ति या अंश के मुख्य भाव को सरल भाषा में व्यक्त करना।"
+            }
+          ],
+          "example": {
+            "problem": "मौलिक पंक्ति “दीप छोटा था, पर अँधेरे से डरा नहीं” का संभावित भाव समझाइए।",
+            "steps": [
+              "दीप और अँधेरे के शाब्दिक अर्थ पहचानें।",
+              "विरोध के बावजूद प्रकाश देने की क्रिया पर ध्यान दें।",
+              "साहस या छोटी कोशिश के महत्व का अर्थ संदर्भानुसार निकाला जा सकता है।"
+            ],
+            "answer": "छोटी क्षमता के बावजूद साहसपूर्वक प्रयास करने का भाव।"
+          },
+          "activity": {
+            "prompt": "दो मौलिक पंक्तियाँ लिखकर उनका शब्दार्थ और भावार्थ अलग लिखिए।",
+            "check": "भावार्थ सरल हो और पंक्ति से जुड़ा हो; अनावश्यक नई कहानी न जोड़ें।"
+          },
+          "questions": [
+            {
+              "id": "c10-hindi-4-q1",
+              "prompt": "भावार्थ लिखते समय क्या आवश्यक है?",
+              "options": [
+                "हर शब्द का केवल पर्याय लिखना",
+                "बिना आधार नई घटना जोड़ना",
+                "मुख्य भाव को सरल भाषा में रखना",
+                "कवि की कल्पित जीवनी लिखना"
+              ],
+              "answer": 2,
+              "explanation": "भावार्थ पूरे अंश का भाव समझाता है।",
+              "hint": "अंश का केंद्रीय संदेश क्या है?",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-hindi-4-q2",
+              "prompt": "उदाहरण में दीप का न डरना किस भाव का संकेत हो सकता है?",
+              "options": [
+                "आलस्य",
+                "निश्चित रूप से व्यापार",
+                "केवल भोजन",
+                "साहस"
+              ],
+              "answer": 3,
+              "explanation": "अँधेरे के सामने टिके रहने का संकेत साहस का अर्थ देता है।",
+              "hint": "विरोध के सामने व्यवहार देखें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-hindi-4-q3",
+              "prompt": "किस व्याख्या से बचना चाहिए?",
+              "options": [
+                "पंक्ति में न बताए गए युद्ध की निश्चित कहानी जोड़ना",
+                "दीप और अँधेरे का संबंध समझाना",
+                "छोटी कोशिश का महत्व बताना",
+                "संदर्भ के अनुसार अर्थ देना"
+              ],
+              "answer": 0,
+              "explanation": "व्याख्या को पाठ के संकेतों पर आधारित रहना चाहिए।",
+              "hint": "अनुमान को तथ्य न बनाएं।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "किसी छोटी मौलिक पंक्ति का भावार्थ और आधार लिखिए।",
+            "points": [
+              "प्रसंगानुकूल शब्दार्थ दें।",
+              "मुख्य भाव सरल भाषा में रखें।",
+              "भाव को पंक्ति के शब्दों या चित्र से जोड़ें।"
+            ]
+          },
+          "revision": [
+            "शब्दार्थ: किसी शब्द या पद का प्रसंगानुकूल अर्थ।",
+            "भावार्थ: पंक्ति या अंश के मुख्य भाव को सरल भाषा में व्यक्त करना।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing",
+      "modules": [
+        {
+          "id": "c10-computing-1",
+          "title": "Networks and web communication",
+          "goal": "Distinguish internet infrastructure from web services and recognise secure transport.",
+          "concepts": [
+            {
+              "term": "Internet",
+              "explanation": "A global network of interconnected computer networks."
+            },
+            {
+              "term": "HTTPS",
+              "explanation": "HTTP communication protected using TLS, supporting encryption in transit and server authentication."
+            }
+          ],
+          "example": {
+            "problem": "Does a padlock icon prove that a website is honest?",
+            "steps": [
+              "HTTPS protects the connection to the site.",
+              "A deceptive site can also obtain a certificate.",
+              "Check the exact domain and context, not just the icon."
+            ],
+            "answer": "No; secure transport does not guarantee truthful content or a trustworthy business."
+          },
+          "activity": {
+            "prompt": "Inspect the displayed domain of a familiar school website without entering personal details.",
+            "check": "Identify the host accurately and distinguish it from text in the page or a misleading subdomain."
+          },
+          "questions": [
+            {
+              "id": "c10-computing-1-q1",
+              "prompt": "The World Wide Web is:",
+              "options": [
+                "Exactly the same as every internet service",
+                "A physical wire only",
+                "A spreadsheet formula",
+                "A service using interconnected pages and resources over the internet"
+              ],
+              "answer": 3,
+              "explanation": "The web is one use of internet infrastructure.",
+              "hint": "Email and other services also use the internet.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-computing-1-q2",
+              "prompt": "HTTPS mainly protects:",
+              "options": [
+                "Data travelling between browser and server",
+                "Every claim made by the website",
+                "All devices from every virus",
+                "The accuracy of every price"
+              ],
+              "answer": 0,
+              "explanation": "TLS secures the communication channel, not every property of the site.",
+              "hint": "Separate transport from content.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-computing-1-q3",
+              "prompt": "A phishing site uses HTTPS. What should you conclude?",
+              "options": [
+                "It must be safe",
+                "Its connection can be encrypted while its purpose is deceptive",
+                "Its owner must be your school",
+                "It cannot ask for passwords"
+              ],
+              "answer": 1,
+              "explanation": "Encryption and legitimacy are different properties.",
+              "hint": "A secure channel can still connect to the wrong party.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain two checks beyond HTTPS before signing in.",
+            "points": [
+              "Verify the exact expected domain.",
+              "Reach the site through a known route.",
+              "Consider whether the request and context are legitimate."
+            ]
+          },
+          "revision": [
+            "Internet: A global network of interconnected computer networks.",
+            "HTTPS: HTTP communication protected using TLS, supporting encryption in transit and server authentication."
+          ]
+        },
+        {
+          "id": "c10-computing-2",
+          "title": "HTML structure and accessible pages",
+          "goal": "Use semantic elements and meaningful labels in a web page.",
+          "concepts": [
+            {
+              "term": "Semantic HTML",
+              "explanation": "Markup that communicates the role or meaning of content, such as headings, navigation and buttons."
+            },
+            {
+              "term": "Alternative text",
+              "explanation": "A text alternative describing the purpose or essential information of an image when needed."
+            }
+          ],
+          "example": {
+            "problem": "Choose markup for an action that submits an answer.",
+            "steps": [
+              "The user is performing an action rather than navigating.",
+              "Use a button element with meaningful visible text.",
+              "Ensure keyboard access and a clear focus state."
+            ],
+            "answer": "<button type=\"submit\">Submit answer</button>"
+          },
+          "activity": {
+            "prompt": "Sketch a lesson page with one main heading, labelled navigation and clearly named controls.",
+            "check": "Use heading order logically; provide text alternatives for informative images and labels for inputs."
+          },
+          "questions": [
+            {
+              "id": "c10-computing-2-q1",
+              "prompt": "Which element is normally appropriate for an action?",
+              "options": [
+                "button",
+                "A heading alone",
+                "A decorative image alone",
+                "An empty paragraph"
+              ],
+              "answer": 0,
+              "explanation": "Buttons provide built-in interaction semantics.",
+              "hint": "Distinguish an action from a destination link.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-computing-2-q2",
+              "prompt": "Good alternative text should:",
+              "options": [
+                "Always say only image",
+                "Convey the image’s relevant purpose or information",
+                "Repeat the file name in every case",
+                "Include unrelated keywords"
+              ],
+              "answer": 1,
+              "explanation": "The alternative depends on the image’s role; purely decorative images can have empty alt text.",
+              "hint": "Ask what information would be lost without the image.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-computing-2-q3",
+              "prompt": "Why should a text input have an associated label?",
+              "options": [
+                "To make validation unnecessary",
+                "To hide the input’s purpose",
+                "To identify what the user should enter, including for assistive technology",
+                "To force mouse-only use"
+              ],
+              "answer": 2,
+              "explanation": "Labels provide a clear accessible name and visible guidance.",
+              "hint": "A placeholder alone is not a durable label.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe three accessibility features for a quiz page.",
+            "points": [
+              "Label inputs and controls.",
+              "Support keyboard operation and visible focus.",
+              "Provide meaningful headings and text feedback."
+            ]
+          },
+          "revision": [
+            "Semantic HTML: Markup that communicates the role or meaning of content, such as headings, navigation and buttons.",
+            "Alternative text: A text alternative describing the purpose or essential information of an image when needed."
+          ]
+        },
+        {
+          "id": "c10-computing-3",
+          "title": "Data tables and simple database queries",
+          "goal": "Understand records, fields and filtering without confusing storage with display.",
+          "concepts": [
+            {
+              "term": "Record",
+              "explanation": "One structured entry in a data table, often represented by a row."
+            },
+            {
+              "term": "Field",
+              "explanation": "A named attribute or column, such as student_id or score."
+            }
+          ],
+          "example": {
+            "problem": "A table has columns student_id and score. What does SELECT student_id FROM results WHERE score >= 80; do?",
+            "steps": [
+              "Read rows from results.",
+              "Keep rows with score at least 80.",
+              "Return the student_id field for those rows."
+            ],
+            "answer": "It lists identifiers of students whose scores are 80 or above."
+          },
+          "activity": {
+            "prompt": "Build a small fictional table and manually apply score >= 80.",
+            "check": "Include a score exactly equal to 80 to check the inclusive boundary; use fictional identifiers."
+          },
+          "questions": [
+            {
+              "id": "c10-computing-3-q1",
+              "prompt": "In a table, a field usually corresponds to:",
+              "options": [
+                "The entire database",
+                "A column",
+                "A network cable",
+                "Every row combined"
+              ],
+              "answer": 1,
+              "explanation": "Fields describe attributes of records.",
+              "hint": "A named attribute appears down a column.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-computing-3-q2",
+              "prompt": "The condition score >= 80 includes:",
+              "options": [
+                "Only scores above 80",
+                "Only 80",
+                "80, 81 and higher scores",
+                "Only scores below 80"
+              ],
+              "answer": 2,
+              "explanation": "The greater-than-or-equal operator includes the boundary.",
+              "hint": "Do not omit equality.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-computing-3-q3",
+              "prompt": "A query selects student_id only. Does it necessarily change stored scores?",
+              "options": [
+                "Yes, all scores become 80",
+                "Yes, every record is deleted",
+                "Yes, identifiers become scores",
+                "No; a SELECT query reads the requested data"
+              ],
+              "answer": 3,
+              "explanation": "A plain SELECT retrieves data rather than updating it.",
+              "hint": "Distinguish reading from mutation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain a record, a field and a filter using a fictional marks table.",
+            "points": [
+              "Use a row for one record.",
+              "Name fields such as identifier and score.",
+              "Show a condition selecting some rows."
+            ]
+          },
+          "revision": [
+            "Record: One structured entry in a data table, often represented by a row.",
+            "Field: A named attribute or column, such as student_id or score."
+          ]
+        },
+        {
+          "id": "c10-computing-4",
+          "title": "Digital citizenship and evidence checking",
+          "goal": "Evaluate online claims and respect consent and authorship.",
+          "concepts": [
+            {
+              "term": "Lateral reading",
+              "explanation": "Checking what independent sources say about a claim or publisher rather than relying only on the original page."
+            },
+            {
+              "term": "Attribution",
+              "explanation": "Acknowledging the creator or source of material; permission and licence terms still matter separately."
+            }
+          ],
+          "example": {
+            "problem": "A viral post claims a school examination has been cancelled. How should you check it?",
+            "steps": [
+              "Locate the relevant school or board’s official notice.",
+              "Check dates, scope and whether the notice applies to your examination.",
+              "Compare reputable reporting if needed, without treating shares as proof."
+            ],
+            "answer": "Verify the specific claim using current, relevant official information."
+          },
+          "activity": {
+            "prompt": "Take a fictional online claim and list the source, date, evidence and verification route.",
+            "check": "Do not repost a claim merely because it has many likes; check original context."
+          },
+          "questions": [
+            {
+              "id": "c10-computing-4-q1",
+              "prompt": "A high share count proves that a claim is:",
+              "options": [
+                "Official",
+                "Current",
+                "Popular, but not necessarily accurate",
+                "Scientifically established"
+              ],
+              "answer": 2,
+              "explanation": "Engagement is not a substitute for evidence.",
+              "hint": "Separate reach from reliability.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c10-computing-4-q2",
+              "prompt": "Attributing a copyrighted image:",
+              "options": [
+                "Always makes every use permitted",
+                "Transfers ownership to you",
+                "Removes all licence conditions",
+                "Does not by itself grant permission to reuse it"
+              ],
+              "answer": 3,
+              "explanation": "Credit and legal permission are separate considerations.",
+              "hint": "Check both source acknowledgement and reuse terms.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c10-computing-4-q3",
+              "prompt": "Before sharing a classmate’s photo publicly, a responsible step is to:",
+              "options": [
+                "Obtain appropriate consent and consider privacy",
+                "Assume a group chat allows public reuse",
+                "Publish personal details with it",
+                "Remove their name and ignore all context"
+              ],
+              "answer": 0,
+              "explanation": "Public sharing can affect privacy even when a photo was shared privately.",
+              "hint": "The audience and purpose may have changed.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Create a checklist for sharing online information responsibly.",
+            "points": [
+              "Verify source, date and claim.",
+              "Respect consent and personal information.",
+              "Check authorship, permission and context."
+            ]
+          },
+          "revision": [
+            "Lateral reading: Checking what independent sources say about a claim or publisher rather than relying only on the original page.",
+            "Attribution: Acknowledging the creator or source of material; permission and licence terms still matter separately."
+          ]
+        }
+      ]
+    }
+  ]
+}

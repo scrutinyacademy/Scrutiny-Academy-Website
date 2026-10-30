@@ -1,0 +1,2054 @@
+{
+  "grade": 9,
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "modules": [
+        {
+          "id": "c9-mathematics-1",
+          "title": "Real numbers and rational approximations",
+          "goal": "Distinguish rational and irrational numbers and interpret decimal expansions.",
+          "concepts": [
+            {
+              "term": "Rational number",
+              "explanation": "A number expressible as p/q, where p and q are integers and q is not zero."
+            },
+            {
+              "term": "Irrational number",
+              "explanation": "A real number that cannot be expressed as a ratio of two integers; its decimal expansion is non-terminating and non-repeating."
+            }
+          ],
+          "example": {
+            "problem": "Classify 0.125 and √2.",
+            "steps": [
+              "0.125 = 125/1000 = 1/8, a ratio of integers.",
+              "√2 cannot be written as a ratio of integers.",
+              "A finite decimal approximation to √2 is not equal to its exact value."
+            ],
+            "answer": "0.125 is rational; √2 is irrational."
+          },
+          "activity": {
+            "prompt": "Mark 1.4 and 1.5 on a number line and locate √2 approximately between them.",
+            "check": "Since 1.4² = 1.96 and 1.5² = 2.25, √2 lies between these values."
+          },
+          "questions": [
+            {
+              "id": "c9-mathematics-1-q1",
+              "prompt": "Which number is irrational?",
+              "options": [
+                "0.75",
+                "−2",
+                "√3",
+                "7/9"
+              ],
+              "answer": 2,
+              "explanation": "√3 cannot be expressed as an integer ratio; the other choices can.",
+              "hint": "Check whether each number is a fraction of integers.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-mathematics-1-q2",
+              "prompt": "What is 0.125 as a fraction in lowest terms?",
+              "options": [
+                "1/4",
+                "1/5",
+                "1/10",
+                "1/8"
+              ],
+              "answer": 3,
+              "explanation": "125/1000 simplifies to 1/8.",
+              "hint": "Divide numerator and denominator by 125.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-mathematics-1-q3",
+              "prompt": "Which statement about √2 is correct?",
+              "options": [
+                "1.4 < √2 < 1.5",
+                "√2 = 1.4",
+                "√2 > 2",
+                "√2 = 1.5"
+              ],
+              "answer": 0,
+              "explanation": "Squaring the positive endpoints gives 1.96 < 2 < 2.25.",
+              "hint": "Compare the squares of the endpoints.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why an approximate decimal for an irrational number does not make it rational.",
+            "points": [
+              "Define rational and irrational numbers.",
+              "Distinguish the exact number from its finite approximation.",
+              "Give √2 as an example."
+            ]
+          },
+          "revision": [
+            "Rational number: A number expressible as p/q, where p and q are integers and q is not zero.",
+            "Irrational number: A real number that cannot be expressed as a ratio of two integers; its decimal expansion is non-terminating and non-repeating."
+          ]
+        },
+        {
+          "id": "c9-mathematics-2",
+          "title": "Polynomials and the remainder idea",
+          "goal": "Evaluate polynomials and use substitution to check factors.",
+          "concepts": [
+            {
+              "term": "Polynomial",
+              "explanation": "An expression formed from constants and non-negative integer powers of a variable."
+            },
+            {
+              "term": "Zero of a polynomial",
+              "explanation": "A value of the variable for which the polynomial equals zero."
+            }
+          ],
+          "example": {
+            "problem": "Check whether x − 2 is a factor of x² − 5x + 6.",
+            "steps": [
+              "Let p(x) = x² − 5x + 6.",
+              "Evaluate p(2) = 4 − 10 + 6 = 0.",
+              "A zero at x = 2 means x − 2 is a factor."
+            ],
+            "answer": "Yes; x² − 5x + 6 = (x − 2)(x − 3)."
+          },
+          "activity": {
+            "prompt": "Build a table of p(x) for x = 0, 1, 2 and 3.",
+            "check": "Values are 6, 2, 0 and 0; the zero values identify roots."
+          },
+          "questions": [
+            {
+              "id": "c9-mathematics-2-q1",
+              "prompt": "Which expression is a polynomial in x?",
+              "options": [
+                "1/x + 1",
+                "√x + 2",
+                "x⁻² + 3",
+                "3x² − 2x + 1"
+              ],
+              "answer": 3,
+              "explanation": "Only non-negative integer powers of x occur in the correct expression.",
+              "hint": "Inspect the exponents of x.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-mathematics-2-q2",
+              "prompt": "What is p(2) for p(x) = x² − 5x + 6?",
+              "options": [
+                "0",
+                "2",
+                "6",
+                "−4"
+              ],
+              "answer": 0,
+              "explanation": "Substitution gives 4 − 10 + 6 = 0.",
+              "hint": "Replace every x with 2.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-mathematics-2-q3",
+              "prompt": "If p(−1) = 0, which expression must be a factor?",
+              "options": [
+                "x − 1",
+                "x + 1",
+                "x + 2",
+                "x² + 1"
+              ],
+              "answer": 1,
+              "explanation": "The factor associated with root a is x − a; here a = −1.",
+              "hint": "Write x minus the root.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how substitution can check a proposed linear factor.",
+            "points": [
+              "State the proposed root.",
+              "Evaluate the polynomial at that root.",
+              "A zero result confirms the factor by the factor theorem."
+            ]
+          },
+          "revision": [
+            "Polynomial: An expression formed from constants and non-negative integer powers of a variable.",
+            "Zero of a polynomial: A value of the variable for which the polynomial equals zero."
+          ]
+        },
+        {
+          "id": "c9-mathematics-3",
+          "title": "Linear equations on a coordinate plane",
+          "goal": "Find ordered-pair solutions and recognise a straight-line graph.",
+          "concepts": [
+            {
+              "term": "Ordered pair",
+              "explanation": "A point written (x, y), with the horizontal coordinate first."
+            },
+            {
+              "term": "Linear equation in two variables",
+              "explanation": "An equation ax + by + c = 0, where a and b are not both zero."
+            }
+          ],
+          "example": {
+            "problem": "Find two solutions of x + y = 5.",
+            "steps": [
+              "Choose x = 0; then y = 5.",
+              "Choose x = 2; then y = 3.",
+              "Check both pairs by substitution."
+            ],
+            "answer": "(0, 5) and (2, 3)."
+          },
+          "activity": {
+            "prompt": "Plot the solutions (0,5), (2,3) and (5,0) on squared paper.",
+            "check": "All three points lie on one straight line."
+          },
+          "questions": [
+            {
+              "id": "c9-mathematics-3-q1",
+              "prompt": "Which ordered pair satisfies x + y = 5?",
+              "options": [
+                "(2, 3)",
+                "(2, 5)",
+                "(3, 3)",
+                "(0, 0)"
+              ],
+              "answer": 0,
+              "explanation": "2 + 3 = 5.",
+              "hint": "Substitute both coordinates.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-mathematics-3-q2",
+              "prompt": "Where does x + y = 5 meet the y-axis?",
+              "options": [
+                "(5, 0)",
+                "(0, 5)",
+                "(5, 5)",
+                "(0, −5)"
+              ],
+              "answer": 1,
+              "explanation": "On the y-axis, x = 0, so y = 5.",
+              "hint": "The horizontal coordinate is zero on the y-axis.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-mathematics-3-q3",
+              "prompt": "How many real ordered-pair solutions does x + y = 5 have?",
+              "options": [
+                "Exactly one",
+                "Exactly two",
+                "Infinitely many",
+                "None"
+              ],
+              "answer": 2,
+              "explanation": "Each real choice of x determines y = 5 − x.",
+              "hint": "Can x take values between integers too?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe how to graph x + y = 5.",
+            "points": [
+              "Generate at least two correct solution pairs.",
+              "Label both axes and choose a scale.",
+              "Plot points and draw the straight line."
+            ]
+          },
+          "revision": [
+            "Ordered pair: A point written (x, y), with the horizontal coordinate first.",
+            "Linear equation in two variables: An equation ax + by + c = 0, where a and b are not both zero."
+          ]
+        },
+        {
+          "id": "c9-mathematics-4",
+          "title": "Triangle congruence and careful reasoning",
+          "goal": "Use congruence criteria and distinguish them from insufficient information.",
+          "concepts": [
+            {
+              "term": "Congruent triangles",
+              "explanation": "Triangles with the same shape and size; corresponding sides and angles are equal."
+            },
+            {
+              "term": "SAS criterion",
+              "explanation": "Two sides and their included angle equal the corresponding parts of another triangle."
+            }
+          ],
+          "example": {
+            "problem": "Two triangles have sides 4 cm and 6 cm with included angle 50°. Are they congruent?",
+            "steps": [
+              "Identify the two corresponding sides.",
+              "Confirm that 50° is between those sides in both triangles.",
+              "Apply SAS."
+            ],
+            "answer": "Yes, they are congruent by SAS."
+          },
+          "activity": {
+            "prompt": "Draw a triangle with angles 40°, 60° and 80°, then draw a larger one with those angles.",
+            "check": "The triangles have the same shape but need not have equal side lengths; AAA does not prove congruence."
+          },
+          "questions": [
+            {
+              "id": "c9-mathematics-4-q1",
+              "prompt": "Which criterion guarantees congruence?",
+              "options": [
+                "AAA",
+                "SSS",
+                "One equal side only",
+                "One equal angle only"
+              ],
+              "answer": 1,
+              "explanation": "Three equal corresponding sides fix a triangle up to congruence.",
+              "hint": "Congruence requires matching size as well as shape.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-mathematics-4-q2",
+              "prompt": "In SAS, which angle must be equal?",
+              "options": [
+                "Any exterior angle",
+                "An angle opposite either side only",
+                "The angle between the two matched sides",
+                "The largest angle only"
+              ],
+              "answer": 2,
+              "explanation": "SAS requires the included angle.",
+              "hint": "Think of the two sides meeting at a vertex.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-mathematics-4-q3",
+              "prompt": "Two triangles have equal corresponding angles but one has twice the side lengths. They are:",
+              "options": [
+                "Congruent",
+                "Neither similar nor congruent",
+                "Equal in area",
+                "Similar but not congruent"
+              ],
+              "answer": 3,
+              "explanation": "Equal angles give similarity; the scale factor 2 changes size and area.",
+              "hint": "Compare shape and size separately.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why AAA is insufficient to establish congruence.",
+            "points": [
+              "Equal angles establish shape.",
+              "A triangle can be enlarged without changing its angles.",
+              "Congruence also requires equal corresponding lengths."
+            ]
+          },
+          "revision": [
+            "Congruent triangles: Triangles with the same shape and size; corresponding sides and angles are equal.",
+            "SAS criterion: Two sides and their included angle equal the corresponding parts of another triangle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "modules": [
+        {
+          "id": "c9-science-1",
+          "title": "Particles and changes of state",
+          "goal": "Use particle motion to explain evaporation and state changes.",
+          "concepts": [
+            {
+              "term": "Diffusion",
+              "explanation": "The net spreading of particles from a region of higher concentration to lower concentration due to their random motion."
+            },
+            {
+              "term": "Evaporation",
+              "explanation": "Escape of particles from the surface of a liquid into the gaseous state below its boiling point."
+            }
+          ],
+          "example": {
+            "problem": "Why can water in an open dish disappear at room temperature?",
+            "steps": [
+              "Liquid particles have different energies.",
+              "Some surface particles have enough energy to escape.",
+              "Moving air can remove vapour and help further evaporation."
+            ],
+            "answer": "Water evaporates from its surface without needing to boil."
+          },
+          "activity": {
+            "prompt": "Compare equal water drops on two identical plates, one in moving air and one in still air. Use room-temperature water.",
+            "check": "Keep drop size, plate material and temperature similar; compare drying times."
+          },
+          "questions": [
+            {
+              "id": "c9-science-1-q1",
+              "prompt": "Evaporation takes place mainly:",
+              "options": [
+                "Throughout the liquid only",
+                "Only at 100°C",
+                "At the liquid surface",
+                "Only in a sealed vessel"
+              ],
+              "answer": 2,
+              "explanation": "Particles leave the liquid at its surface.",
+              "hint": "Distinguish evaporation from boiling.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-science-1-q2",
+              "prompt": "Which change usually increases evaporation?",
+              "options": [
+                "Reducing surface area",
+                "Increasing humidity greatly",
+                "Removing air movement",
+                "Increasing exposed surface area"
+              ],
+              "answer": 3,
+              "explanation": "A larger surface exposes more particles that can escape.",
+              "hint": "Think about spreading wet clothes.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-science-1-q3",
+              "prompt": "Why does evaporation often cool the remaining liquid?",
+              "options": [
+                "Higher-energy particles escape, lowering average particle energy",
+                "Cold particles enter from nowhere",
+                "All particles stop moving",
+                "The liquid gains heat from the vapour in every case"
+              ],
+              "answer": 0,
+              "explanation": "Escaping energetic particles reduce the average kinetic energy of those left behind.",
+              "hint": "Temperature relates to average particle kinetic energy.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain evaporation and give two factors that affect its rate.",
+            "points": [
+              "Describe surface escape of particles.",
+              "Explain increased surface area or air movement.",
+              "Relate cooling to loss of higher-energy particles."
+            ]
+          },
+          "revision": [
+            "Diffusion: The net spreading of particles from a region of higher concentration to lower concentration due to their random motion.",
+            "Evaporation: Escape of particles from the surface of a liquid into the gaseous state below its boiling point."
+          ]
+        },
+        {
+          "id": "c9-science-2",
+          "title": "Atoms, molecules and chemical formulae",
+          "goal": "Interpret formula subscripts and conserve atoms in simple reactions.",
+          "concepts": [
+            {
+              "term": "Atom",
+              "explanation": "The smallest unit of an element that retains its chemical identity."
+            },
+            {
+              "term": "Molecule",
+              "explanation": "Two or more atoms chemically bonded together as a discrete unit."
+            }
+          ],
+          "example": {
+            "problem": "Count atoms in 3H₂O.",
+            "steps": [
+              "One water molecule contains 2 hydrogen atoms and 1 oxygen atom.",
+              "The coefficient 3 multiplies every atom count."
+            ],
+            "answer": "6 hydrogen atoms and 3 oxygen atoms."
+          },
+          "activity": {
+            "prompt": "Use coloured paper circles to model 2H₂ + O₂ → 2H₂O.",
+            "check": "Both sides contain four hydrogen atoms and two oxygen atoms; rearrange without adding or removing circles."
+          },
+          "questions": [
+            {
+              "id": "c9-science-2-q1",
+              "prompt": "How many oxygen atoms are in one CO₂ molecule?",
+              "options": [
+                "1",
+                "3",
+                "4",
+                "2"
+              ],
+              "answer": 3,
+              "explanation": "The subscript 2 applies to oxygen.",
+              "hint": "Read the subscript immediately after O.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-science-2-q2",
+              "prompt": "How many hydrogen atoms are represented by 3H₂O?",
+              "options": [
+                "6",
+                "2",
+                "3",
+                "5"
+              ],
+              "answer": 0,
+              "explanation": "Three molecules each contain two hydrogen atoms.",
+              "hint": "Multiply coefficient by subscript.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-science-2-q3",
+              "prompt": "Which change balances H₂ + O₂ → H₂O without changing chemical formulae?",
+              "options": [
+                "H₂ + O₂ → H₂O₂",
+                "2H₂ + O₂ → 2H₂O",
+                "H₂ + 2O₂ → H₂O",
+                "H₂ + O → H₂O"
+              ],
+              "answer": 1,
+              "explanation": "Coefficients give four hydrogen and two oxygen atoms on both sides.",
+              "hint": "Change coefficients, not subscripts.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the difference between a coefficient and a subscript in a chemical expression.",
+            "points": [
+              "A subscript gives atom count within one formula unit or molecule.",
+              "A coefficient multiplies the whole formula.",
+              "Use 3H₂O to illustrate."
+            ]
+          },
+          "revision": [
+            "Atom: The smallest unit of an element that retains its chemical identity.",
+            "Molecule: Two or more atoms chemically bonded together as a discrete unit."
+          ]
+        },
+        {
+          "id": "c9-science-3",
+          "title": "Motion and interpreting graphs",
+          "goal": "Distinguish speed from velocity and interpret distance–time slopes.",
+          "concepts": [
+            {
+              "term": "Average speed",
+              "explanation": "Total distance travelled divided by total time taken."
+            },
+            {
+              "term": "Displacement",
+              "explanation": "The change in position from start to finish, including direction."
+            }
+          ],
+          "example": {
+            "problem": "A student walks 30 m east and then 10 m west in 20 s.",
+            "steps": [
+              "Total distance = 30 + 10 = 40 m.",
+              "Displacement = 20 m east.",
+              "Average speed = 40/20 = 2 m/s."
+            ],
+            "answer": "Average speed 2 m/s; displacement 20 m east."
+          },
+          "activity": {
+            "prompt": "Record the position of a toy moving along a marked straight track every second; plot position against time.",
+            "check": "A steeper position–time slope means a greater magnitude of velocity; a horizontal segment means no position change."
+          },
+          "questions": [
+            {
+              "id": "c9-science-3-q1",
+              "prompt": "Average speed uses:",
+              "options": [
+                "Total distance divided by total time",
+                "Displacement divided by mass",
+                "Distance multiplied by time",
+                "Final speed divided by distance"
+              ],
+              "answer": 0,
+              "explanation": "Speed measures distance covered per unit time.",
+              "hint": "Check the units m/s.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-science-3-q2",
+              "prompt": "After 30 m east and 10 m west, displacement is:",
+              "options": [
+                "40 m east",
+                "20 m east",
+                "20 m west",
+                "0 m"
+              ],
+              "answer": 1,
+              "explanation": "Opposite directions subtract; east remains positive in this example.",
+              "hint": "Compare final position with starting position.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-science-3-q3",
+              "prompt": "On a position–time graph, a horizontal segment indicates:",
+              "options": [
+                "Constant nonzero speed",
+                "Increasing acceleration",
+                "The object is at rest during that interval",
+                "Infinite speed"
+              ],
+              "answer": 2,
+              "explanation": "The position does not change while time passes.",
+              "hint": "What does the vertical coordinate represent?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Distinguish distance and displacement using an out-and-back journey.",
+            "points": [
+              "Distance adds the path lengths.",
+              "Displacement compares initial and final positions.",
+              "Returning to the start gives zero displacement but nonzero distance."
+            ]
+          },
+          "revision": [
+            "Average speed: Total distance travelled divided by total time taken.",
+            "Displacement: The change in position from start to finish, including direction."
+          ]
+        },
+        {
+          "id": "c9-science-4",
+          "title": "Cells and membrane transport",
+          "goal": "Connect cell structures with their functions and explain osmosis.",
+          "concepts": [
+            {
+              "term": "Cell membrane",
+              "explanation": "A selectively permeable boundary controlling movement of substances into and out of a cell."
+            },
+            {
+              "term": "Osmosis",
+              "explanation": "Net movement of water through a selectively permeable membrane from higher water potential to lower water potential."
+            }
+          ],
+          "example": {
+            "problem": "Why can a plant cell become firm in a suitable dilute surrounding solution?",
+            "steps": [
+              "Water enters the cell by osmosis.",
+              "The vacuole expands and the cell contents push against the cell wall.",
+              "The wall resists further expansion."
+            ],
+            "answer": "The cell becomes turgid."
+          },
+          "activity": {
+            "prompt": "Draw a plant cell and label cell wall, cell membrane, nucleus, cytoplasm and vacuole.",
+            "check": "Place the membrane inside the cell wall; show the large vacuole inside the cell."
+          },
+          "questions": [
+            {
+              "id": "c9-science-4-q1",
+              "prompt": "Which structure controls much of the movement into and out of a cell?",
+              "options": [
+                "Cell wall alone",
+                "Cell membrane",
+                "Nucleolus alone",
+                "Chromosome"
+              ],
+              "answer": 1,
+              "explanation": "The membrane is selectively permeable.",
+              "hint": "Look for the selectively permeable boundary.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-science-4-q2",
+              "prompt": "Which cell structure contains most genetic material in a typical plant cell?",
+              "options": [
+                "Vacuole",
+                "Cell wall",
+                "Nucleus",
+                "Cytoplasm only"
+              ],
+              "answer": 2,
+              "explanation": "Most genetic material is in nuclear chromosomes; mitochondria and chloroplasts also have DNA.",
+              "hint": "Identify the major chromosome-containing organelle.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-science-4-q3",
+              "prompt": "A plant cell becomes turgid mainly because:",
+              "options": [
+                "The cell wall dissolves",
+                "All solutes leave instantly",
+                "The nucleus becomes a cell wall",
+                "Water enters and the contents press against the wall"
+              ],
+              "answer": 3,
+              "explanation": "Osmotic water entry creates turgor pressure constrained by the wall.",
+              "hint": "Connect osmosis to pressure inside the cell.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why a plant cell can become turgid without bursting easily.",
+            "points": [
+              "Water enters by osmosis.",
+              "The cell contents press outward.",
+              "The rigid wall provides resistance."
+            ]
+          },
+          "revision": [
+            "Cell membrane: A selectively permeable boundary controlling movement of substances into and out of a cell.",
+            "Osmosis: Net movement of water through a selectively permeable membrane from higher water potential to lower water potential."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "modules": [
+        {
+          "id": "c9-social-science-1",
+          "title": "Historical sources and evidence",
+          "goal": "Evaluate the origin, purpose and limitations of historical evidence.",
+          "concepts": [
+            {
+              "term": "Primary source",
+              "explanation": "Evidence produced during the period or by someone directly involved in the event being studied."
+            },
+            {
+              "term": "Corroboration",
+              "explanation": "Checking a claim against other independent evidence."
+            }
+          ],
+          "example": {
+            "problem": "A royal inscription claims that a king won every battle. How should a historian respond?",
+            "steps": [
+              "Identify who commissioned it and when.",
+              "Consider its purpose, such as praise or legitimacy.",
+              "Compare it with other inscriptions, records and archaeological evidence."
+            ],
+            "answer": "Treat it as valuable evidence that needs contextual checking."
+          },
+          "activity": {
+            "prompt": "Compare a personal diary entry with a later textbook account of the same imagined event.",
+            "check": "Identify who created each account, its date, intended audience and supporting evidence."
+          },
+          "questions": [
+            {
+              "id": "c9-social-science-1-q1",
+              "prompt": "Which is a primary source for a movement studied from its own time?",
+              "options": [
+                "A modern film review",
+                "A recent fictional novel",
+                "A participant’s dated diary",
+                "A current textbook summary"
+              ],
+              "answer": 2,
+              "explanation": "The diary was made by a participant during the period.",
+              "hint": "Check proximity to the event.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-social-science-1-q2",
+              "prompt": "Why compare independent sources?",
+              "options": [
+                "To guarantee all accounts agree",
+                "To remove dates",
+                "To avoid using evidence",
+                "To corroborate claims"
+              ],
+              "answer": 3,
+              "explanation": "Independent agreement can strengthen a claim; disagreement prompts further inquiry.",
+              "hint": "Think about checking a witness account.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-social-science-1-q3",
+              "prompt": "An inscription praising a ruler should be:",
+              "options": [
+                "Examined for purpose and compared with other evidence",
+                "Rejected automatically",
+                "Accepted as completely impartial",
+                "Used only if it has no date"
+              ],
+              "answer": 0,
+              "explanation": "A source may contain useful evidence and selective presentation at the same time.",
+              "hint": "Bias does not make every detail worthless.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe three questions to ask before using a source.",
+            "points": [
+              "Who created it and when?",
+              "For what purpose and audience?",
+              "What other evidence supports or challenges it?"
+            ]
+          },
+          "revision": [
+            "Primary source: Evidence produced during the period or by someone directly involved in the event being studied.",
+            "Corroboration: Checking a claim against other independent evidence."
+          ]
+        },
+        {
+          "id": "c9-social-science-2",
+          "title": "India: location and physical features",
+          "goal": "Use coordinates and understand broad physical divisions.",
+          "concepts": [
+            {
+              "term": "Latitude",
+              "explanation": "Angular distance north or south of the Equator."
+            },
+            {
+              "term": "Longitude",
+              "explanation": "Angular distance east or west of the Prime Meridian."
+            }
+          ],
+          "example": {
+            "problem": "Why do places farther east generally experience sunrise earlier?",
+            "steps": [
+              "Earth rotates from west to east.",
+              "Locations farther east turn towards the Sun earlier.",
+              "Clock time also depends on the adopted time zone."
+            ],
+            "answer": "Earth’s rotation makes sunrise generally earlier in the east."
+          },
+          "activity": {
+            "prompt": "On a blank outline map locate the Himalayas, Northern Plains, Peninsular Plateau and coastal plains.",
+            "check": "Use relative positions and an atlas rather than guessing boundaries."
+          },
+          "questions": [
+            {
+              "id": "c9-social-science-2-q1",
+              "prompt": "Latitude is measured from:",
+              "options": [
+                "The Prime Meridian",
+                "The North Pole only",
+                "The International Date Line",
+                "The Equator"
+              ],
+              "answer": 3,
+              "explanation": "The Equator is 0° latitude.",
+              "hint": "North–south location uses latitude.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-social-science-2-q2",
+              "prompt": "The Himalayas lie broadly to the:",
+              "options": [
+                "North of the Indian subcontinent",
+                "South of Sri Lanka",
+                "West of Africa",
+                "East of Australia"
+              ],
+              "answer": 0,
+              "explanation": "They form a major mountain belt along the northern subcontinent.",
+              "hint": "Recall a physical map of South Asia.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-social-science-2-q3",
+              "prompt": "Two places at different longitudes have different local solar times mainly because:",
+              "options": [
+                "Earth has no atmosphere",
+                "Earth rotates on its axis",
+                "All rivers flow east",
+                "Latitude alone fixes time"
+              ],
+              "answer": 1,
+              "explanation": "Earth turns through longitudes successively, changing local solar time.",
+              "hint": "Consider the daily rotation rather than the annual orbit.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how latitude and longitude together locate a place.",
+            "points": [
+              "Latitude gives north–south position.",
+              "Longitude gives east–west position.",
+              "Their intersection identifies a location."
+            ]
+          },
+          "revision": [
+            "Latitude: Angular distance north or south of the Equator.",
+            "Longitude: Angular distance east or west of the Prime Meridian."
+          ]
+        },
+        {
+          "id": "c9-social-science-3",
+          "title": "Democracy and constitutional government",
+          "goal": "Connect democratic participation with rights and institutional limits.",
+          "concepts": [
+            {
+              "term": "Democracy",
+              "explanation": "Government in which people participate directly or through chosen representatives, with political equality and accountable institutions."
+            },
+            {
+              "term": "Constitution",
+              "explanation": "The fundamental framework that defines government powers, institutions and basic rights."
+            }
+          ],
+          "example": {
+            "problem": "Can an elected government ignore all legal limits because it won an election?",
+            "steps": [
+              "Elections give authority within the constitutional framework.",
+              "Government powers are limited by law and protected rights.",
+              "Institutions provide review and accountability."
+            ],
+            "answer": "No; electoral victory does not remove constitutional limits."
+          },
+          "activity": {
+            "prompt": "Create a classroom decision process that includes voting and protection for students who disagree.",
+            "check": "Include equal participation, a fair procedure and a way to raise concerns."
+          },
+          "questions": [
+            {
+              "id": "c9-social-science-3-q1",
+              "prompt": "Political equality in a democracy means:",
+              "options": [
+                "Citizens have equal political standing under the rules",
+                "Everyone must have identical opinions",
+                "Only wealthy people can vote",
+                "The majority can remove every right"
+              ],
+              "answer": 0,
+              "explanation": "Democracy depends on equal participation rights, not uniform beliefs.",
+              "hint": "Distinguish equal rights from identical choices.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-social-science-3-q2",
+              "prompt": "A constitution primarily:",
+              "options": [
+                "Lists only daily weather",
+                "Sets the basic framework and limits of government",
+                "Replaces every ordinary law",
+                "Makes accountability unnecessary"
+              ],
+              "answer": 1,
+              "explanation": "It establishes institutions, powers and rights.",
+              "hint": "Think of foundational rules.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-social-science-3-q3",
+              "prompt": "An election alone is insufficient for democracy when:",
+              "options": [
+                "Voters can choose among candidates",
+                "Results are counted fairly",
+                "Opposition voices are suppressed and freedoms denied",
+                "Leaders can be replaced peacefully"
+              ],
+              "answer": 2,
+              "explanation": "Meaningful choice requires freedoms, fairness and accountability.",
+              "hint": "Can people freely express a different view?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why democracy needs both elections and rights.",
+            "points": [
+              "Elections enable representation and replacement.",
+              "Rights support expression and participation.",
+              "Accountability and limits protect against arbitrary power."
+            ]
+          },
+          "revision": [
+            "Democracy: Government in which people participate directly or through chosen representatives, with political equality and accountable institutions.",
+            "Constitution: The fundamental framework that defines government powers, institutions and basic rights."
+          ]
+        },
+        {
+          "id": "c9-social-science-4",
+          "title": "People, skills and economic activity",
+          "goal": "Distinguish economic sectors and understand investment in people.",
+          "concepts": [
+            {
+              "term": "Human capital",
+              "explanation": "People’s productive knowledge, skills and health."
+            },
+            {
+              "term": "Tertiary sector",
+              "explanation": "Activities that provide services rather than directly extracting resources or manufacturing goods."
+            }
+          ],
+          "example": {
+            "problem": "Classify growing wheat, milling flour and transporting flour.",
+            "steps": [
+              "Growing wheat uses natural resources directly: primary.",
+              "Milling transforms grain: secondary.",
+              "Transport provides a service: tertiary."
+            ],
+            "answer": "Primary, secondary and tertiary respectively."
+          },
+          "activity": {
+            "prompt": "List five activities in your neighbourhood and classify each by sector.",
+            "check": "Classify the activity itself; one business may perform several types of work."
+          },
+          "questions": [
+            {
+              "id": "c9-social-science-4-q1",
+              "prompt": "Which activity is in the primary sector?",
+              "options": [
+                "Making steel",
+                "Growing vegetables",
+                "Banking",
+                "Teaching"
+              ],
+              "answer": 1,
+              "explanation": "Farming directly uses natural resources.",
+              "hint": "Look for direct production from nature.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-social-science-4-q2",
+              "prompt": "Which investment can build human capital?",
+              "options": [
+                "Damaging schools",
+                "Avoiding all training",
+                "Education and preventive healthcare",
+                "Reducing access to clean water"
+              ],
+              "answer": 2,
+              "explanation": "Knowledge, skills and health can raise productive capability and wellbeing.",
+              "hint": "Think about what strengthens people’s capabilities.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-social-science-4-q3",
+              "prompt": "A bakery bakes bread and delivers it. Which statement is accurate?",
+              "options": [
+                "Both are primary",
+                "Delivery is primary",
+                "Baking is tertiary and delivery is secondary",
+                "Baking is secondary; delivery is tertiary"
+              ],
+              "answer": 3,
+              "explanation": "Production transforms inputs; delivery provides a transport service.",
+              "hint": "Separate manufacturing from services.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain how education and health can support development.",
+            "points": [
+              "Describe their contribution to capability and productivity.",
+              "Mention improved participation or opportunity.",
+              "Recognise that benefits depend on access and other conditions too."
+            ]
+          },
+          "revision": [
+            "Human capital: People’s productive knowledge, skills and health.",
+            "Tertiary sector: Activities that provide services rather than directly extracting resources or manufacturing goods."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "modules": [
+        {
+          "id": "c9-english-1",
+          "title": "Reading for inference",
+          "goal": "Separate direct information from conclusions supported by clues.",
+          "concepts": [
+            {
+              "term": "Explicit information",
+              "explanation": "Information directly stated in a passage."
+            },
+            {
+              "term": "Inference",
+              "explanation": "A conclusion supported by textual clues and reasoning, even when it is not directly stated."
+            }
+          ],
+          "example": {
+            "problem": "Read: “Mira checked the clock twice and ran towards the bus stop.” What can we infer?",
+            "steps": [
+              "The clock checking suggests concern about time.",
+              "Running suggests urgency.",
+              "The passage does not prove that she missed the bus."
+            ],
+            "answer": "Mira was probably worried about being late."
+          },
+          "activity": {
+            "prompt": "Write one direct fact and one supported inference from the example.",
+            "check": "Direct fact: she ran towards the stop. Inference: she was in a hurry."
+          },
+          "questions": [
+            {
+              "id": "c9-english-1-q1",
+              "prompt": "Which is directly stated?",
+              "options": [
+                "Mira missed her bus",
+                "Mira was angry",
+                "Mira checked the clock twice",
+                "Mira had no ticket"
+              ],
+              "answer": 2,
+              "explanation": "Only the clock checking is explicitly given.",
+              "hint": "Choose what appears in the sentence itself.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-english-1-q2",
+              "prompt": "Which inference is best supported?",
+              "options": [
+                "Mira dislikes all buses",
+                "Mira was returning from a holiday",
+                "Mira was a bus driver",
+                "Mira was in a hurry"
+              ],
+              "answer": 3,
+              "explanation": "Clock checking and running together support urgency.",
+              "hint": "Use more than one textual clue.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-english-1-q3",
+              "prompt": "Why is “Mira definitely missed the bus” weak?",
+              "options": [
+                "The text does not establish the outcome",
+                "All inferences are impossible",
+                "The sentence has no verbs",
+                "Running always means missing a bus"
+              ],
+              "answer": 0,
+              "explanation": "A plausible concern does not prove what happened later.",
+              "hint": "Distinguish probability from certainty.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Write a two-sentence inference with evidence.",
+            "points": [
+              "State a cautious conclusion.",
+              "Quote or paraphrase the relevant clue.",
+              "Avoid adding unsupported events."
+            ]
+          },
+          "revision": [
+            "Explicit information: Information directly stated in a passage.",
+            "Inference: A conclusion supported by textual clues and reasoning, even when it is not directly stated."
+          ]
+        },
+        {
+          "id": "c9-english-2",
+          "title": "Tense and subject–verb agreement",
+          "goal": "Choose verb forms that match time and grammatical subject.",
+          "concepts": [
+            {
+              "term": "Subject–verb agreement",
+              "explanation": "The verb agrees with its subject in person and number."
+            },
+            {
+              "term": "Simple past",
+              "explanation": "A verb form commonly used for completed actions at a specified past time."
+            }
+          ],
+          "example": {
+            "problem": "Correct: “The list of items are on the desk.”",
+            "steps": [
+              "Identify the main subject: list.",
+              "“Of items” modifies list but does not make the subject plural.",
+              "Use the singular verb is."
+            ],
+            "answer": "The list of items is on the desk."
+          },
+          "activity": {
+            "prompt": "Underline the subject in five sentences before choosing each verb.",
+            "check": "Check the head noun, not just the noun closest to the verb."
+          },
+          "questions": [
+            {
+              "id": "c9-english-2-q1",
+              "prompt": "Choose the correct sentence.",
+              "options": [
+                "She walk to school every day.",
+                "She walking to school every day.",
+                "She have walk to school every day.",
+                "She walks to school every day."
+              ],
+              "answer": 3,
+              "explanation": "A third-person singular subject takes walks in the simple present.",
+              "hint": "Identify the subject she.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-english-2-q2",
+              "prompt": "Complete: “They ___ the museum yesterday.”",
+              "options": [
+                "visited",
+                "visit",
+                "visits",
+                "visiting"
+              ],
+              "answer": 0,
+              "explanation": "Yesterday indicates a completed past event.",
+              "hint": "Look for the time expression.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-english-2-q3",
+              "prompt": "Complete: “The box of pencils ___ missing.”",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "have"
+              ],
+              "answer": 1,
+              "explanation": "The singular head noun box determines agreement.",
+              "hint": "Ignore the modifying phrase temporarily.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain the correction of “The box of pencils are missing.”",
+            "points": [
+              "Identify box as the singular subject.",
+              "Explain that pencils is part of a modifying phrase.",
+              "Use is."
+            ]
+          },
+          "revision": [
+            "Subject–verb agreement: The verb agrees with its subject in person and number.",
+            "Simple past: A verb form commonly used for completed actions at a specified past time."
+          ]
+        },
+        {
+          "id": "c9-english-3",
+          "title": "Descriptive writing with precise details",
+          "goal": "Organise a description using observation and purposeful language.",
+          "concepts": [
+            {
+              "term": "Sensory detail",
+              "explanation": "Language describing what can be seen, heard, smelled, tasted or felt."
+            },
+            {
+              "term": "Coherence",
+              "explanation": "Clear logical connection between ideas and sentences."
+            }
+          ],
+          "example": {
+            "problem": "Improve: “The market was nice.”",
+            "steps": [
+              "Choose an observable detail rather than a vague judgement.",
+              "Add one sound and one visual feature.",
+              "Keep details connected to the same scene."
+            ],
+            "answer": "Vendors called across narrow lanes while bright baskets of fruit lined the stalls."
+          },
+          "activity": {
+            "prompt": "Describe a familiar place in 80–100 words using three sensory details.",
+            "check": "Use specific nouns and verbs; avoid a list of unrelated adjectives."
+          },
+          "questions": [
+            {
+              "id": "c9-english-3-q1",
+              "prompt": "Which detail is most precise?",
+              "options": [
+                "Rain tapped against the tin roof.",
+                "It was very nice.",
+                "Everything was good.",
+                "The place was a place."
+              ],
+              "answer": 0,
+              "explanation": "The sentence describes a clear sound and surface.",
+              "hint": "Choose an observable detail.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-english-3-q2",
+              "prompt": "A coherent description usually:",
+              "options": [
+                "Changes location every sentence without explanation",
+                "Organises related details in a clear order",
+                "Repeats one adjective in every sentence",
+                "Omits all concrete nouns"
+              ],
+              "answer": 1,
+              "explanation": "An order such as near-to-far helps the reader follow the scene.",
+              "hint": "Imagine guiding the reader’s attention.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-english-3-q3",
+              "prompt": "Which revision best reduces vague language?",
+              "options": [
+                "The alley was very, very good.",
+                "The alley was something.",
+                "The alley smelled of warm bread.",
+                "The alley was really nice and nice."
+              ],
+              "answer": 2,
+              "explanation": "A specific smell conveys more than a general positive judgement.",
+              "hint": "Replace evaluation with observation.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe a busy place without using nice, good or beautiful.",
+            "points": [
+              "Establish the location.",
+              "Use at least three precise sensory details.",
+              "Follow an understandable order."
+            ]
+          },
+          "revision": [
+            "Sensory detail: Language describing what can be seen, heard, smelled, tasted or felt.",
+            "Coherence: Clear logical connection between ideas and sentences."
+          ]
+        },
+        {
+          "id": "c9-english-4",
+          "title": "Reported speech and speaker meaning",
+          "goal": "Report statements while preserving meaning and adjusting reference.",
+          "concepts": [
+            {
+              "term": "Direct speech",
+              "explanation": "The exact words spoken, normally marked with quotation marks."
+            },
+            {
+              "term": "Reported speech",
+              "explanation": "A report of someone’s words without necessarily repeating their exact wording."
+            }
+          ],
+          "example": {
+            "problem": "Report: Ravi said, “I am tired.”",
+            "steps": [
+              "Change I to he when referring to Ravi.",
+              "In a conventional past report, am becomes was.",
+              "Remove quotation marks and join the statement."
+            ],
+            "answer": "Ravi said that he was tired."
+          },
+          "activity": {
+            "prompt": "Rewrite three short statements as reports, checking speaker, time and place.",
+            "check": "Pronouns depend on who is reporting; tense backshift is not automatic in every context."
+          },
+          "questions": [
+            {
+              "id": "c9-english-4-q1",
+              "prompt": "Which sentence reports a statement?",
+              "options": [
+                "Asha said, “I am ready.”",
+                "Asha said that she was ready.",
+                "“Ready!” shouted Asha.",
+                "Asha, are you ready?"
+              ],
+              "answer": 1,
+              "explanation": "The statement is presented without direct quotation.",
+              "hint": "Look for a report rather than exact quoted words.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-english-4-q2",
+              "prompt": "In a past report of “I am tired,” I usually changes according to:",
+              "options": [
+                "The number of commas",
+                "The sentence length",
+                "The identity of the original speaker",
+                "The reporter’s favourite pronoun"
+              ],
+              "answer": 2,
+              "explanation": "Pronouns must preserve the person being referred to.",
+              "hint": "Ask who I refers to.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-english-4-q3",
+              "prompt": "A scientific fact reported after a past reporting verb:",
+              "options": [
+                "Must always become false",
+                "Must lose its subject",
+                "Cannot be reported",
+                "May remain in the present if it is still true"
+              ],
+              "answer": 3,
+              "explanation": "Present tense can preserve continuing truth, depending on context.",
+              "hint": "Meaning matters alongside tense conventions.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Report a short statement and explain the pronoun changes.",
+            "points": [
+              "Identify the original speaker.",
+              "Choose pronouns from the reporting perspective.",
+              "Maintain the original meaning and appropriate time reference."
+            ]
+          },
+          "revision": [
+            "Direct speech: The exact words spoken, normally marked with quotation marks.",
+            "Reported speech: A report of someone’s words without necessarily repeating their exact wording."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hindi",
+      "name": "Hindi",
+      "modules": [
+        {
+          "id": "c9-hindi-1",
+          "title": "अपठित गद्यांश और निष्कर्ष",
+          "goal": "गद्यांश में दिए तथ्य और संकेतों पर आधारित निष्कर्ष में अंतर करना।",
+          "concepts": [
+            {
+              "term": "स्पष्ट तथ्य",
+              "explanation": "वह जानकारी जो गद्यांश में सीधे कही गई हो।"
+            },
+            {
+              "term": "निष्कर्ष",
+              "explanation": "पाठ के संकेतों और तर्क के आधार पर निकाला गया अर्थ।"
+            }
+          ],
+          "example": {
+            "problem": "वाक्य पढ़िए: “बादल घिरते ही सीमा ने कपड़े भीतर रख दिए।” सीमा ने ऐसा क्यों किया होगा?",
+            "steps": [
+              "बादल घिरना वर्षा की संभावना का संकेत है।",
+              "कपड़े भीतर रखना उन्हें भीगने से बचा सकता है।",
+              "वाक्य में वर्षा होने की पुष्टि नहीं है।"
+            ],
+            "answer": "संभवतः कपड़ों को वर्षा से बचाने के लिए।"
+          },
+          "activity": {
+            "prompt": "किसी छोटे अनुच्छेद से दो तथ्य और एक संभावित निष्कर्ष लिखिए।",
+            "check": "निष्कर्ष का आधार पाठ में होना चाहिए; अपनी ओर से नई घटना न जोड़ें।"
+          },
+          "questions": [
+            {
+              "id": "c9-hindi-1-q1",
+              "prompt": "वाक्य में सीधे क्या कहा गया है?",
+              "options": [
+                "तेज वर्षा हुई।",
+                "कपड़े भीग गए।",
+                "सीमा ने कपड़े भीतर रख दिए।",
+                "सीमा विद्यालय गई।"
+              ],
+              "answer": 2,
+              "explanation": "कपड़े भीतर रखना वाक्य में स्पष्ट रूप से बताया गया है।",
+              "hint": "वाक्य के शब्दों को ध्यान से पढ़ें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-hindi-1-q2",
+              "prompt": "सबसे उचित निष्कर्ष क्या है?",
+              "options": [
+                "सीमा को धूप से डर लगता था।",
+                "सीमा के कपड़े चोरी हो गए।",
+                "वर्षा बंद हो चुकी थी।",
+                "सीमा को वर्षा की आशंका थी।"
+              ],
+              "answer": 3,
+              "explanation": "बादल और कपड़े भीतर रखने का संबंध वर्षा की आशंका से है।",
+              "hint": "दोनों घटनाओं का संबंध सोचें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-hindi-1-q3",
+              "prompt": "“निश्चित रूप से तेज वर्षा हुई” कहना अनुचित क्यों है?",
+              "options": [
+                "वाक्य में वर्षा होने की पुष्टि नहीं है।",
+                "बादल कभी नहीं आते।",
+                "कपड़े भीतर नहीं रखे जा सकते।",
+                "हर निष्कर्ष गलत होता है।"
+              ],
+              "answer": 0,
+              "explanation": "संभावना और प्रमाणित घटना अलग बातें हैं।",
+              "hint": "क्या परिणाम सीधे बताया गया है?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "तथ्य और निष्कर्ष का अंतर उदाहरण सहित समझाइए।",
+            "points": [
+              "तथ्य का सीधा उल्लेख दिखाएँ।",
+              "निष्कर्ष के संकेत बताएँ।",
+              "अनुमान को निश्चित घटना की तरह न लिखें।"
+            ]
+          },
+          "revision": [
+            "स्पष्ट तथ्य: वह जानकारी जो गद्यांश में सीधे कही गई हो।",
+            "निष्कर्ष: पाठ के संकेतों और तर्क के आधार पर निकाला गया अर्थ।"
+          ]
+        },
+        {
+          "id": "c9-hindi-2",
+          "title": "वाक्य में कर्ता और क्रिया",
+          "goal": "कर्ता के अनुसार सामान्य वाक्यों में क्रिया का उपयुक्त रूप चुनना।",
+          "concepts": [
+            {
+              "term": "कर्ता",
+              "explanation": "वाक्य में क्रिया करने वाले या जिसके विषय में कुछ कहा गया है, उसका बोध कराने वाला पद।"
+            },
+            {
+              "term": "क्रिया",
+              "explanation": "काम, अवस्था या घटना का बोध कराने वाला शब्द।"
+            }
+          ],
+          "example": {
+            "problem": "सुधारिए: “लड़कियाँ खेल रहा है।”",
+            "steps": [
+              "कर्ता लड़कियाँ स्त्रीलिंग बहुवचन है।",
+              "प्रगतिशील क्रिया का रूप रही हैं होगा।"
+            ],
+            "answer": "लड़कियाँ खेल रही हैं।"
+          },
+          "activity": {
+            "prompt": "घर या कक्षा की पाँच गतिविधियों पर वाक्य लिखें और कर्ता-क्रिया पहचानें।",
+            "check": "साधारण वर्तमान वाक्यों में लिंग और वचन का मेल देखें; सभी वाक्य-रचनाओं पर एक नियम न थोपें।"
+          },
+          "questions": [
+            {
+              "id": "c9-hindi-2-q1",
+              "prompt": "“बच्चा पढ़ता है” में क्रिया कौन-सी है?",
+              "options": [
+                "बच्चा",
+                "केवल है का अर्थ बच्चा",
+                "कोई क्रिया नहीं",
+                "पढ़ता है"
+              ],
+              "answer": 3,
+              "explanation": "पढ़ता है पढ़ने की क्रिया बताता है।",
+              "hint": "काम बताने वाले पद को चुनें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-hindi-2-q2",
+              "prompt": "सही वाक्य चुनिए।",
+              "options": [
+                "लड़कियाँ गा रही हैं।",
+                "लड़कियाँ गा रहा है।",
+                "लड़कियाँ गाता है।",
+                "लड़कियाँ गा रहा हूँ।"
+              ],
+              "answer": 0,
+              "explanation": "स्त्रीलिंग बहुवचन के अनुसार रही हैं सही है।",
+              "hint": "कर्ता का लिंग और वचन देखें।",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-hindi-2-q3",
+              "prompt": "“मैं विद्यालय जाता हूँ” में कर्ता कौन है?",
+              "options": [
+                "विद्यालय",
+                "मैं",
+                "जाता",
+                "हूँ अकेला"
+              ],
+              "answer": 1,
+              "explanation": "बोलने वाला स्वयं जाने की क्रिया कर रहा है।",
+              "hint": "कौन जाता है?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "कर्ता और क्रिया का संबंध तीन सरल वाक्यों से समझाइए।",
+            "points": [
+              "हर वाक्य में कर्ता पहचानें।",
+              "क्रिया रेखांकित करें।",
+              "उपयुक्त लिंग-वचन का मेल दिखाएँ।"
+            ]
+          },
+          "revision": [
+            "कर्ता: वाक्य में क्रिया करने वाले या जिसके विषय में कुछ कहा गया है, उसका बोध कराने वाला पद।",
+            "क्रिया: काम, अवस्था या घटना का बोध कराने वाला शब्द।"
+          ]
+        },
+        {
+          "id": "c9-hindi-3",
+          "title": "अनुच्छेद लेखन और क्रमबद्धता",
+          "goal": "एक केंद्रीय विचार पर स्पष्ट और क्रमबद्ध अनुच्छेद लिखना।",
+          "concepts": [
+            {
+              "term": "केंद्रीय विचार",
+              "explanation": "अनुच्छेद का मुख्य विषय, जिससे सभी वाक्य जुड़े रहते हैं।"
+            },
+            {
+              "term": "क्रमबद्धता",
+              "explanation": "विचारों को उचित और समझने योग्य क्रम में रखना।"
+            }
+          ],
+          "example": {
+            "problem": "“पुस्तकालय का महत्व” पर अनुच्छेद की रूपरेखा बनाइए।",
+            "steps": [
+              "आरंभ में पुस्तकालय का परिचय दें।",
+              "पठन, जानकारी और शांत अध्ययन के लाभ जोड़ें।",
+              "अंत में उपयोग की प्रेरणा दें।"
+            ],
+            "answer": "परिचय → लाभ → उपयोग का सुझाव।"
+          },
+          "activity": {
+            "prompt": "80–100 शब्दों में विद्यालय के पुस्तकालय पर अनुच्छेद लिखिए।",
+            "check": "हर वाक्य विषय से जुड़ा हो; अनावश्यक पुनरावृत्ति हटाएँ।"
+          },
+          "questions": [
+            {
+              "id": "c9-hindi-3-q1",
+              "prompt": "अनुच्छेद का मुख्य आधार क्या है?",
+              "options": [
+                "एक केंद्रीय विचार",
+                "हर वाक्य में नया असंबंधित विषय",
+                "केवल कठिन शब्द",
+                "केवल शीर्षक"
+              ],
+              "answer": 0,
+              "explanation": "अनुच्छेद के सभी वाक्य मुख्य विचार को विकसित करते हैं।",
+              "hint": "विषय से जुड़ाव देखें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-hindi-3-q2",
+              "prompt": "पुस्तकालय पर अनुच्छेद में कौन-सा वाक्य सबसे उपयुक्त है?",
+              "options": [
+                "आज मैंने नई गेंद खरीदी।",
+                "यह शांत वातावरण में पढ़ने का अवसर देता है।",
+                "मेरे जूते नीले हैं।",
+                "बस देर से आई।"
+              ],
+              "answer": 1,
+              "explanation": "यह वाक्य पुस्तकालय की उपयोगिता बताता है।",
+              "hint": "कौन-सा वाक्य विषय को आगे बढ़ाता है?",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-hindi-3-q3",
+              "prompt": "संपादन में क्या हटाना चाहिए?",
+              "options": [
+                "सभी उदाहरण",
+                "मुख्य विचार",
+                "अनावश्यक दोहराव",
+                "सभी विराम-चिह्न"
+              ],
+              "answer": 2,
+              "explanation": "दोहराव घटाने से अनुच्छेद स्पष्ट और संक्षिप्त बनता है।",
+              "hint": "क्या कोई बात बिना लाभ के दोबारा कही गई है?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "“नियमित पठन की आदत” पर अनुच्छेद लिखिए।",
+            "points": [
+              "आरंभ में मुख्य विचार रखें।",
+              "दो ठोस लाभ या उदाहरण दें।",
+              "समापन को विषय से जोड़ें।"
+            ]
+          },
+          "revision": [
+            "केंद्रीय विचार: अनुच्छेद का मुख्य विषय, जिससे सभी वाक्य जुड़े रहते हैं।",
+            "क्रमबद्धता: विचारों को उचित और समझने योग्य क्रम में रखना।"
+          ]
+        },
+        {
+          "id": "c9-hindi-4",
+          "title": "अलंकार: उपमा और अनुप्रास",
+          "goal": "सरल उदाहरणों में उपमा और अनुप्रास की पहचान करना।",
+          "concepts": [
+            {
+              "term": "उपमा अलंकार",
+              "explanation": "जब किसी वस्तु या व्यक्ति की तुलना समान गुण के आधार पर सा, सी, समान आदि से की जाए।"
+            },
+            {
+              "term": "अनुप्रास अलंकार",
+              "explanation": "काव्य में किसी वर्ण की आवृत्ति से उत्पन्न ध्वनि-सौंदर्य।"
+            }
+          ],
+          "example": {
+            "problem": "“उसका मुख चाँद-सा चमकता है” में अलंकार पहचानिए।",
+            "steps": [
+              "मुख की तुलना चाँद से की गई है।",
+              "सा तुलना का सूचक है।",
+              "चमक समान गुण है।"
+            ],
+            "answer": "उपमा अलंकार।"
+          },
+          "activity": {
+            "prompt": "एक उपमा और एक अनुप्रास का मौलिक उदाहरण लिखिए।",
+            "check": "तुलना का आधार स्पष्ट करें; अनुप्रास में वर्ण की आवृत्ति पहचानें।"
+          },
+          "questions": [
+            {
+              "id": "c9-hindi-4-q1",
+              "prompt": "“कमल-सी आँखें” में कौन-सा अलंकार है?",
+              "options": [
+                "यमक",
+                "उपमा",
+                "श्लेष",
+                "अतिशयोक्ति"
+              ],
+              "answer": 1,
+              "explanation": "सी के माध्यम से आँखों की तुलना कमल से है।",
+              "hint": "तुलना के सूचक शब्द पर ध्यान दें।",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-hindi-4-q2",
+              "prompt": "“चंचल चितवन” में च ध्वनि की आवृत्ति किसका उदाहरण है?",
+              "options": [
+                "उपमा",
+                "विरोधाभास",
+                "अनुप्रास",
+                "रूपक अनिवार्य रूप से"
+              ],
+              "answer": 2,
+              "explanation": "च वर्ण की पुनरावृत्ति ध्वनि-सौंदर्य पैदा करती है।",
+              "hint": "किस ध्वनि की पुनरावृत्ति है?",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-hindi-4-q3",
+              "prompt": "उपमा पहचानते समय क्या बताना उपयोगी है?",
+              "options": [
+                "केवल पंक्ति के शब्दों की संख्या",
+                "लेखक की जन्मतिथि ही",
+                "हर शब्द का विलोम",
+                "किसकी किससे और किस गुण पर तुलना हुई है"
+              ],
+              "answer": 3,
+              "explanation": "उपमा में उपमेय, उपमान और समान गुण पहचानना सहायक है।",
+              "hint": "तुलना के संबंध को समझें।",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "एक उपमा का उदाहरण देकर उसका आधार स्पष्ट कीजिए।",
+            "points": [
+              "उपमेय पहचानें।",
+              "उपमान बताएँ।",
+              "तुलना का समान गुण स्पष्ट करें।"
+            ]
+          },
+          "revision": [
+            "उपमा अलंकार: जब किसी वस्तु या व्यक्ति की तुलना समान गुण के आधार पर सा, सी, समान आदि से की जाए।",
+            "अनुप्रास अलंकार: काव्य में किसी वर्ण की आवृत्ति से उत्पन्न ध्वनि-सौंदर्य।"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computing",
+      "name": "Computing",
+      "modules": [
+        {
+          "id": "c9-computing-1",
+          "title": "Algorithms and precise instructions",
+          "goal": "Design a finite sequence of clear steps for a task.",
+          "concepts": [
+            {
+              "term": "Algorithm",
+              "explanation": "A finite, ordered set of unambiguous steps for solving a problem."
+            },
+            {
+              "term": "Input",
+              "explanation": "Data supplied to a process before it produces a result."
+            }
+          ],
+          "example": {
+            "problem": "Design an algorithm to find the larger of two numbers a and b.",
+            "steps": [
+              "Read a and b.",
+              "If a > b, output a.",
+              "Otherwise output b; equal inputs produce that same value."
+            ],
+            "answer": "A comparison followed by an output finds the larger value."
+          },
+          "activity": {
+            "prompt": "Write numbered steps for calculating the mean of three numbers.",
+            "check": "Read three numbers, add them, divide by 3 and output the result."
+          },
+          "questions": [
+            {
+              "id": "c9-computing-1-q1",
+              "prompt": "A useful algorithm must have:",
+              "options": [
+                "Only pictures",
+                "Infinite repetition without an exit",
+                "Clear steps and a stopping point",
+                "No input under any circumstances"
+              ],
+              "answer": 2,
+              "explanation": "Algorithms use precise finite procedures; some problems may have no external input.",
+              "hint": "Could someone follow the steps exactly?",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-computing-1-q2",
+              "prompt": "For inputs 8 and 12, a larger-number algorithm outputs:",
+              "options": [
+                "8",
+                "20",
+                "4",
+                "12"
+              ],
+              "answer": 3,
+              "explanation": "12 is greater than 8.",
+              "hint": "Compare before calculating anything else.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-computing-1-q3",
+              "prompt": "Why test equal inputs in a comparison algorithm?",
+              "options": [
+                "To check a boundary case",
+                "To avoid testing normal inputs forever",
+                "Because equality is impossible",
+                "To change the task to addition"
+              ],
+              "answer": 0,
+              "explanation": "Equal values can expose missing or inconsistent decision handling.",
+              "hint": "What happens when neither value is greater?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Write an algorithm to find the greatest of three numbers.",
+            "points": [
+              "Read all three values.",
+              "Use clear comparisons, including equality cases.",
+              "Output the greatest and stop."
+            ]
+          },
+          "revision": [
+            "Algorithm: A finite, ordered set of unambiguous steps for solving a problem.",
+            "Input: Data supplied to a process before it produces a result."
+          ]
+        },
+        {
+          "id": "c9-computing-2",
+          "title": "Spreadsheets and cell references",
+          "goal": "Use formulas and understand relative and absolute references.",
+          "concepts": [
+            {
+              "term": "Relative reference",
+              "explanation": "A reference such as A1 that adjusts when a formula is copied."
+            },
+            {
+              "term": "Absolute reference",
+              "explanation": "A reference such as $A$1 that stays fixed when copied."
+            }
+          ],
+          "example": {
+            "problem": "Cell B2 contains =A2*$D$1. What happens when it is copied to B3?",
+            "steps": [
+              "A2 moves one row to A3.",
+              "$D$1 stays fixed."
+            ],
+            "answer": "=A3*$D$1"
+          },
+          "activity": {
+            "prompt": "Create a price list and put a tax rate in one fixed cell; calculate tax with an absolute reference.",
+            "check": "Changing the single rate cell should update every tax result."
+          },
+          "questions": [
+            {
+              "id": "c9-computing-2-q1",
+              "prompt": "Which entry is a spreadsheet formula?",
+              "options": [
+                "A1 plus B1",
+                "A1:B1 only",
+                "total",
+                "=A1+B1"
+              ],
+              "answer": 3,
+              "explanation": "Formulas normally begin with an equals sign.",
+              "hint": "Look for the formula prefix.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-computing-2-q2",
+              "prompt": "Which reference fixes both row and column?",
+              "options": [
+                "$A$1",
+                "A1",
+                "A$1",
+                "$A1"
+              ],
+              "answer": 0,
+              "explanation": "The dollar signs fix the column A and row 1.",
+              "hint": "There are two parts to fix.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-computing-2-q3",
+              "prompt": "Copy =A2*$D$1 down one row. The result is:",
+              "options": [
+                "=A2*$D$2",
+                "=A3*$D$1",
+                "=B2*$E$1",
+                "=A3*$D$2"
+              ],
+              "answer": 1,
+              "explanation": "The relative row shifts; the absolute reference remains unchanged.",
+              "hint": "Treat the two references separately.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Explain why an absolute reference is useful for a shared rate.",
+            "points": [
+              "Keep the rate in one cell.",
+              "Fix that reference in copied formulas.",
+              "Change the rate once to update dependent results."
+            ]
+          },
+          "revision": [
+            "Relative reference: A reference such as A1 that adjusts when a formula is copied.",
+            "Absolute reference: A reference such as $A$1 that stays fixed when copied."
+          ]
+        },
+        {
+          "id": "c9-computing-3",
+          "title": "Online safety and account protection",
+          "goal": "Recognise phishing and protect account access.",
+          "concepts": [
+            {
+              "term": "Phishing",
+              "explanation": "A deceptive attempt to obtain sensitive information by impersonating a trusted person or service."
+            },
+            {
+              "term": "Multi-factor authentication",
+              "explanation": "Account verification using two or more different factor types, such as a password and a security key."
+            }
+          ],
+          "example": {
+            "problem": "A message asks for your password to prevent account closure. What should you do?",
+            "steps": [
+              "Do not reply or follow its login link.",
+              "Open the service through its known app or address.",
+              "Check account notifications and report the message."
+            ],
+            "answer": "Verify independently; never send your password or one-time code."
+          },
+          "activity": {
+            "prompt": "Create a checklist for checking an unexpected school-account message.",
+            "check": "Include sender details, link destination, urgency, unusual requests and independent verification."
+          },
+          "questions": [
+            {
+              "id": "c9-computing-3-q1",
+              "prompt": "Which detail is a warning sign?",
+              "options": [
+                "A demand to share a one-time code",
+                "A normal class timetable from a verified portal",
+                "A saved bookmark",
+                "A teacher discussing homework in class"
+              ],
+              "answer": 0,
+              "explanation": "One-time codes can give attackers access and should not be shared.",
+              "hint": "Look for requests for secrets.",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-computing-3-q2",
+              "prompt": "The safest way to verify an urgent account warning is to:",
+              "options": [
+                "Use the message’s unfamiliar link",
+                "Open the known official app directly",
+                "Send your password to the sender",
+                "Forward your login code"
+              ],
+              "answer": 1,
+              "explanation": "Independent navigation avoids relying on a possibly deceptive link.",
+              "hint": "Use a route you already trust.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-computing-3-q3",
+              "prompt": "Why is a password plus a security key stronger than a password alone?",
+              "options": [
+                "It makes passwords public",
+                "It removes all possible risks",
+                "It adds a separate possession factor",
+                "It requires identical passwords everywhere"
+              ],
+              "answer": 2,
+              "explanation": "An attacker needs another factor beyond knowledge of the password.",
+              "hint": "Think about what the user knows and possesses.",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Describe a safe response to a suspected phishing message.",
+            "points": [
+              "Do not provide secrets.",
+              "Verify via a known channel.",
+              "Report it and seek trusted help if access may be compromised."
+            ]
+          },
+          "revision": [
+            "Phishing: A deceptive attempt to obtain sensitive information by impersonating a trusted person or service.",
+            "Multi-factor authentication: Account verification using two or more different factor types, such as a password and a security key."
+          ]
+        },
+        {
+          "id": "c9-computing-4",
+          "title": "Data, privacy and responsible sharing",
+          "goal": "Distinguish personal information from anonymous summaries.",
+          "concepts": [
+            {
+              "term": "Personal data",
+              "explanation": "Information relating to an identified or identifiable person."
+            },
+            {
+              "term": "Data minimisation",
+              "explanation": "Collecting and sharing only the information necessary for a stated purpose."
+            }
+          ],
+          "example": {
+            "problem": "A class survey needs favourite sports. Should it collect home addresses?",
+            "steps": [
+              "The purpose is a sports preference summary.",
+              "Home addresses do not help answer that question.",
+              "Collect only the necessary response and avoid unnecessary identifiers."
+            ],
+            "answer": "No; addresses are unnecessary for this purpose."
+          },
+          "activity": {
+            "prompt": "Design a sports survey that does not ask for names or contact details.",
+            "check": "Use aggregate counts; avoid tiny identifiable groups when reporting results."
+          },
+          "questions": [
+            {
+              "id": "c9-computing-4-q1",
+              "prompt": "Which item is personal data?",
+              "options": [
+                "A total count of 200 books",
+                "A named student’s phone number",
+                "The formula for area",
+                "A general definition of a triangle"
+              ],
+              "answer": 1,
+              "explanation": "The phone number is linked to an identifiable person.",
+              "hint": "Can the information identify or contact someone?",
+              "difficulty": "Easy"
+            },
+            {
+              "id": "c9-computing-4-q2",
+              "prompt": "Data minimisation means:",
+              "options": [
+                "Collecting everything just in case",
+                "Never deleting any record",
+                "Collecting only what the purpose requires",
+                "Publishing every response"
+              ],
+              "answer": 2,
+              "explanation": "Unnecessary collection increases exposure without supporting the task.",
+              "hint": "Connect each field to the purpose.",
+              "difficulty": "Medium"
+            },
+            {
+              "id": "c9-computing-4-q3",
+              "prompt": "Removing names from a very small class report:",
+              "options": [
+                "Always guarantees anonymity",
+                "Makes every use safe automatically",
+                "Changes the data into public property",
+                "May still leave people identifiable from other details"
+              ],
+              "answer": 3,
+              "explanation": "Combinations of details can identify people even without names.",
+              "hint": "Could classmates recognise the person?",
+              "difficulty": "Hard"
+            }
+          ],
+          "writing": {
+            "prompt": "Suggest three ways to protect privacy in a class survey.",
+            "points": [
+              "Ask only necessary questions.",
+              "Limit access to individual responses.",
+              "Report appropriately grouped results."
+            ]
+          },
+          "revision": [
+            "Personal data: Information relating to an identified or identifiable person.",
+            "Data minimisation: Collecting and sharing only the information necessary for a stated purpose."
+          ]
+        }
+      ]
+    }
+  ]
+}
